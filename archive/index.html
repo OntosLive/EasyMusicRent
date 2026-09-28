@@ -8,23 +8,23 @@ permalink: /archive/
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Архив выпусков EASYMUSIC.RENT">
-  <title>Архив · EASYMUSIC.RENT</title>
+  <meta name="description" content="Архив выпусков COMPASS.RENT">
+  <title>Архив · COMPASS.RENT</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
 </head>
 <body>
   <header class="masthead">
     <div class="rule"></div>
     <div class="meta"><span>ПОДШИВКА</span><span>ВСЕ ВЫПУСКИ</span><span>2026</span></div>
-    <h1><a href="{{ site.baseurl }}/" style="color:inherit;text-decoration:none">EASYMUSIC.RENT</a></h1>
+    <h1><a href="{{ site.baseurl }}/" style="color:inherit;text-decoration:none">COMPASS<span>.</span>RENT</a></h1>
     <p class="tagline">Архив сигналов · Каждый номер сохраняет собственный адрес</p>
     <div class="rule heavy"></div>
   </header>
   <main>
     <article class="lead">
       <p class="kicker">ПОДШИВКА</p>
-      <h2>Вышедшее не исчезает.</h2>
-      <p class="deck">Главная меняется. Адрес каждого номера остаётся.</p>
+      <h2>Сегодня утюг. Завтра что угодно.</h2>
+      <p class="deck">Предмет меняется. Выпуск остаётся.</p>
       <div class="archive-list">
       {% assign issues = site.pages | where: "layout", "issue" | sort: "number" | reverse %}
       {% for item in issues %}
@@ -37,6 +37,6 @@ permalink: /archive/
       </div>
     </article>
   </main>
-  <footer><span>EASYMUSIC.RENT</span><span>Подшивка остаётся.</span></footer>
+  <footer><span>COMPASS.RENT</span><span>Подшивка остаётся.</span></footer>
 </body>
 </html>
