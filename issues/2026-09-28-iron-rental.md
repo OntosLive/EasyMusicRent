@@ -1,10 +1,10 @@
 ---
 layout: issue
 number: "003"
-edition: "ВЫПУСК"
+edition: "КОМПАС"
 date_label: "28 СЕНТЯБРЯ 2026"
 title: "Сдаём утюг."
-description: "COMPASS.RENT. Сегодня в аренду сдаётся утюг. Никакой новой архитектуры под предмет."
+description: "ONTOS.RENT. Сегодня в аренду сдаётся утюг. Предмет меняется. Форма остаётся."
 permalink: /archive/003/
 ---
 
@@ -54,4 +54,4 @@ permalink: /archive/003/
 
 > **Предмет меняется. Форма остаётся.**
 
-**COMPASS.RENT**
+**ONTOS.RENT**
