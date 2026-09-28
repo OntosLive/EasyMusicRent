@@ -1,0 +1,8 @@
+title: "EASYMUSIC.RENT"
+description: "Музыкальные инструменты · аренда · Москва"
+baseurl: "/EasyMusicRent"
+url: "https://ontoslive.github.io"
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
