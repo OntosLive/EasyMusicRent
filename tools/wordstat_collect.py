@@ -147,7 +147,7 @@ def generate_seeds(entities: List[dict]) -> List[dict]:
         r["entity"],
         r["seed"],
     ))
-    return out[:90]
+    return out
 
 
 def write_generated_seeds(path: Path, rows: List[dict]) -> None:
@@ -292,6 +292,10 @@ def main() -> int:
     p.add_argument("--raw", default="data/wordstat_raw.csv")
     p.add_argument("--candidates", default="data/query_candidates.csv")
     p.add_argument("--delay", type=float, default=0.35)
+    p.add_argument("--batch", type=int, default=None,
+                   help="0-based batch index; omit for the first quota-safe batch")
+    p.add_argument("--batch-size", type=int, default=90,
+                   help="requests per batch; keep below the hourly quota")
     args = p.parse_args()
 
     api_key = os.getenv("YANDEX_WORDSTAT_API_KEY", "").strip()
@@ -301,8 +305,19 @@ def main() -> int:
         return 2
 
     entities = read_entities(Path(args.entities))
-    seeds = generate_seeds(entities)
+    all_seeds = generate_seeds(entities)
+
+    batch_size = max(1, min(int(args.batch_size), 99))
+    batch_index = 0 if args.batch is None else max(0, int(args.batch))
+    start = batch_index * batch_size
+    stop = start + batch_size
+    seeds = all_seeds[start:stop]
+
     write_generated_seeds(Path(args.generated_seeds), seeds)
+
+    if not seeds:
+        print(f"No seeds in batch {batch_index}; total seeds: {len(all_seeds)}")
+        return 0
 
     raw_rows: List[dict] = []
     for i, seed in enumerate(seeds, 1):
@@ -316,7 +331,8 @@ def main() -> int:
     candidates = dedupe_candidates(raw_rows)
     write_candidates(Path(args.candidates), candidates)
 
-    print(f"Generated {len(seeds)} quota-safe seeds (max 90 per run)")
+    print(f"Total generated seeds: {len(all_seeds)}")
+    print(f"Batch {batch_index}: seeds {start + 1}-{min(stop, len(all_seeds))} ({len(seeds)} requests)")
     print(f"Wrote {len(raw_rows)} raw result rows")
     print(f"Wrote {len(candidates)} filtered candidates")
     return 0
