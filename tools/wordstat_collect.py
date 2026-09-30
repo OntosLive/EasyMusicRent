@@ -124,7 +124,30 @@ def generate_seeds(entities: List[dict]) -> List[dict]:
             continue
         seen.add(key)
         out.append(row)
-    return out
+
+    # Wordstat currently allows 100 requests per hour for this quota.
+    # Keep a safety margin and prefer the commercially strongest scenes.
+    priority = {
+        "rent": 0,
+        "rent-city": 1,
+        "prokat": 2,
+        "prokat-city": 3,
+        "school": 4,
+        "learning": 5,
+        "learning-choice": 6,
+        "concert": 7,
+        "orchestra": 8,
+        "shooting": 9,
+        "rider": 10,
+    }
+    out.sort(key=lambda r: (
+        0 if r["city"] == "Москва" else 1,
+        priority.get(r["scene"], 99),
+        r["cluster"],
+        r["entity"],
+        r["seed"],
+    ))
+    return out[:90]
 
 
 def write_generated_seeds(path: Path, rows: List[dict]) -> None:
@@ -293,7 +316,7 @@ def main() -> int:
     candidates = dedupe_candidates(raw_rows)
     write_candidates(Path(args.candidates), candidates)
 
-    print(f"Generated {len(seeds)} seeds")
+    print(f"Generated {len(seeds)} quota-safe seeds (max 90 per run)")
     print(f"Wrote {len(raw_rows)} raw result rows")
     print(f"Wrote {len(candidates)} filtered candidates")
     return 0
