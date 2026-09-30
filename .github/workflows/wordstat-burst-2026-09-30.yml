@@ -1,11 +1,15 @@
-name: Wordstat burst now 2026-09-30
+name: Wordstat burst live 2026-09-30
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/wordstat-burst-2026-09-30.yml"
   schedule:
-    - cron: "40 17 30 9 *"
-    - cron: "50 18 30 9 *"
-    - cron: "0 20 30 9 *"
-    - cron: "10 21 30 9 *"
+    - cron: "40 20 30 9 *"
+    - cron: "50 21 30 9 *"
+    - cron: "0 23 30 9 *"
   workflow_dispatch:
     inputs:
       batch:
@@ -36,12 +40,13 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             BATCH="${{ inputs.batch }}"
+          elif [ "${{ github.event_name }}" = "push" ]; then
+            BATCH=0
           else
             case "${{ github.event.schedule }}" in
-              "40 17 30 9 *") BATCH=0 ;;
-              "50 18 30 9 *") BATCH=1 ;;
-              "0 20 30 9 *") BATCH=2 ;;
-              "10 21 30 9 *") BATCH=3 ;;
+              "40 20 30 9 *") BATCH=1 ;;
+              "50 21 30 9 *") BATCH=2 ;;
+              "0 23 30 9 *") BATCH=3 ;;
               *) echo "Unknown schedule"; exit 1 ;;
             esac
           fi
