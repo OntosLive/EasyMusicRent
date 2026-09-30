@@ -28,13 +28,13 @@ jobs:
 
       - name: Commit updated candidates
         run: |
-          if [ -z "$(git status --porcelain -- data/wordstat_raw.csv data/query_candidates.csv)" ]; then
+          if [ -z "$(git status --porcelain -- data/generated_seeds.csv data/wordstat_raw.csv data/query_candidates.csv)" ]; then
             echo "No changes"
             exit 0
           fi
 
           git config user.name "Ontos.Wordstat"
           git config user.email "ai@ontos.live"
-          git add data/wordstat_raw.csv data/query_candidates.csv
+          git add data/generated_seeds.csv data/wordstat_raw.csv data/query_candidates.csv
           git commit -m "Update Wordstat query candidates"
           git push
