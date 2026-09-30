@@ -1,11 +1,11 @@
-name: Wordstat burst 2026-09-30
+name: Wordstat burst 2026-10-01
 
 on:
   schedule:
-    - cron: "20 3 30 9 *"
-    - cron: "30 4 30 9 *"
-    - cron: "40 5 30 9 *"
-    - cron: "50 6 30 9 *"
+    - cron: "20 3 1 10 *"
+    - cron: "30 4 1 10 *"
+    - cron: "40 5 1 10 *"
+    - cron: "50 6 1 10 *"
   workflow_dispatch:
     inputs:
       batch:
@@ -18,7 +18,6 @@ permissions:
 
 jobs:
   collect:
-    if: ${{ github.event_name == 'workflow_dispatch' || startsWith(github.run_started_at, '2026-09-30') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -39,10 +38,10 @@ jobs:
             BATCH="${{ inputs.batch }}"
           else
             case "${{ github.event.schedule }}" in
-              "20 3 30 9 *") BATCH=0 ;;
-              "30 4 30 9 *") BATCH=1 ;;
-              "40 5 30 9 *") BATCH=2 ;;
-              "50 6 30 9 *") BATCH=3 ;;
+              "20 3 1 10 *") BATCH=0 ;;
+              "30 4 1 10 *") BATCH=1 ;;
+              "40 5 1 10 *") BATCH=2 ;;
+              "50 6 1 10 *") BATCH=3 ;;
               *) echo "Unknown schedule"; exit 1 ;;
             esac
           fi
@@ -54,7 +53,12 @@ jobs:
           YANDEX_FOLDER_ID: ${{ secrets.YANDEX_FOLDER_ID }}
         run: |
           B="${{ steps.batch.outputs.batch }}"
-          python tools/wordstat_collect.py             --batch "$B"             --batch-size 99             --generated-seeds "data/generated_seeds_batch_${B}.csv"             --raw "data/wordstat_raw_batch_${B}.csv"             --candidates "data/query_candidates_batch_${B}.csv"
+          python tools/wordstat_collect.py \
+            --batch "$B" \
+            --batch-size 99 \
+            --generated-seeds "data/generated_seeds_batch_${B}.csv" \
+            --raw "data/wordstat_raw_batch_${B}.csv" \
+            --candidates "data/query_candidates_batch_${B}.csv"
 
       - name: Commit batch output
         run: |
