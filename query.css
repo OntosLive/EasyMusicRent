@@ -1,0 +1,93 @@
+:root{
+  --paper:#f2eee6;
+  --ink:#111;
+  --muted:#6a655d;
+  --line:#b9b2a8;
+}
+*{box-sizing:border-box}
+html{background:#181818}
+body{
+  margin:0 auto;
+  max-width:1120px;
+  min-height:100vh;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:Georgia,"Times New Roman",serif;
+}
+.query-page{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  padding:34px clamp(22px,6vw,78px) 42px;
+}
+.query-brand{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:24px;
+  padding-bottom:12px;
+  border-bottom:1px solid var(--ink);
+  font:700 11px/1.2 Arial,sans-serif;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.query-brand a{color:inherit;text-decoration:none}
+.query-main{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:8vh 0 10vh;
+}
+.query-kicker{
+  margin:0 0 14px;
+  font:700 11px/1.2 Arial,sans-serif;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.query-main h1{
+  max-width:980px;
+  margin:0;
+  font-size:clamp(48px,8vw,104px);
+  line-height:.92;
+  letter-spacing:-.055em;
+  font-weight:700;
+}
+.query-text{
+  max-width:780px;
+  margin:32px 0 0;
+  font-size:clamp(22px,2.7vw,34px);
+  line-height:1.22;
+}
+.query-text p{margin:0 0 18px}
+.query-phone{
+  display:inline-block;
+  margin-top:34px;
+  color:var(--ink);
+  text-decoration:none;
+  font:700 clamp(27px,4vw,48px)/1 Arial,sans-serif;
+  letter-spacing:-.025em;
+  border-bottom:2px solid var(--ink);
+}
+.query-note{
+  margin-top:18px;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.4;
+}
+.query-footer{
+  padding-top:12px;
+  border-top:1px solid var(--ink);
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  color:var(--muted);
+  font:700 10px/1.3 Arial,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+@media(max-width:640px){
+  .query-page{padding:22px 18px 28px}
+  .query-brand span:last-child,.query-footer span:last-child{display:none}
+  .query-main{padding:11vh 0}
+}
