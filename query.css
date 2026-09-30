@@ -211,3 +211,37 @@ body{
   .fund-scenes a{grid-template-columns:36px minmax(0,1fr);gap:12px;padding:15px 0}
   .fund-scene-title{font-size:21px}
 }
+
+
+/* Contact door */
+.query-contacts{
+  margin-top:34px;
+  max-width:780px;
+  border-bottom:2px solid var(--ink);
+}
+.query-contacts .query-phone{
+  display:inline-block;
+  margin:0;
+  border:0;
+}
+.query-messengers{
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+  padding:14px 0 12px;
+  border-top:1px solid var(--line);
+  font:700 11px/1 Arial,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.query-messengers a{
+  color:var(--ink);
+  text-decoration:none;
+}
+.query-messengers a:hover{
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+@media(max-width:640px){
+  .query-messengers{gap:14px}
+}
