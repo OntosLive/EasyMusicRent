@@ -1,11 +1,11 @@
-name: Wordstat burst 2026-10-01
+name: Wordstat burst now 2026-09-30
 
 on:
   schedule:
-    - cron: "20 3 1 10 *"
-    - cron: "30 4 1 10 *"
-    - cron: "40 5 1 10 *"
-    - cron: "50 6 1 10 *"
+    - cron: "40 17 30 9 *"
+    - cron: "50 18 30 9 *"
+    - cron: "0 20 30 9 *"
+    - cron: "10 21 30 9 *"
   workflow_dispatch:
     inputs:
       batch:
@@ -38,10 +38,10 @@ jobs:
             BATCH="${{ inputs.batch }}"
           else
             case "${{ github.event.schedule }}" in
-              "20 3 1 10 *") BATCH=0 ;;
-              "30 4 1 10 *") BATCH=1 ;;
-              "40 5 1 10 *") BATCH=2 ;;
-              "50 6 1 10 *") BATCH=3 ;;
+              "40 17 30 9 *") BATCH=0 ;;
+              "50 18 30 9 *") BATCH=1 ;;
+              "0 20 30 9 *") BATCH=2 ;;
+              "10 21 30 9 *") BATCH=3 ;;
               *) echo "Unknown schedule"; exit 1 ;;
             esac
           fi
