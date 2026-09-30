@@ -28,7 +28,7 @@ jobs:
 
       - name: Commit updated candidates
         run: |
-          if git diff --quiet -- data/wordstat_raw.csv data/query_candidates.csv; then
+          if [ -z "$(git status --porcelain -- data/wordstat_raw.csv data/query_candidates.csv)" ]; then
             echo "No changes"
             exit 0
           fi
