@@ -152,3 +152,62 @@ body{
   .synthesis-item{grid-template-columns:1fr}
   .query-brand nav{gap:10px}
 }
+
+
+/* Fund index */
+.fund-index .query-main{
+  justify-content:flex-start;
+  padding:10vh 0 8vh;
+}
+.fund-index .query-main h1{
+  max-width:880px;
+  font-size:clamp(54px,7vw,92px);
+  line-height:.94;
+}
+.fund-index .query-text{
+  max-width:760px;
+  margin-top:28px;
+}
+.fund-scenes{
+  list-style:none;
+  margin:54px 0 0;
+  padding:0;
+  border-top:1px solid var(--ink);
+}
+.fund-scenes li{
+  margin:0;
+  padding:0;
+  border-bottom:1px solid var(--line);
+}
+.fund-scenes a{
+  display:grid;
+  grid-template-columns:52px minmax(0,1fr);
+  gap:18px;
+  align-items:start;
+  padding:18px 0 19px;
+  color:var(--ink);
+  text-decoration:none;
+}
+.fund-scenes a:hover .fund-scene-title{
+  text-decoration:underline;
+  text-decoration-thickness:1px;
+  text-underline-offset:4px;
+}
+.fund-scene-no{
+  padding-top:5px;
+  color:var(--muted);
+  font:700 11px/1 Arial,sans-serif;
+  letter-spacing:.12em;
+}
+.fund-scene-title{
+  max-width:820px;
+  font-size:clamp(22px,2.6vw,34px);
+  line-height:1.05;
+  letter-spacing:-.02em;
+}
+@media(max-width:640px){
+  .fund-index .query-main{padding:8vh 0}
+  .fund-scenes{margin-top:38px}
+  .fund-scenes a{grid-template-columns:36px minmax(0,1fr);gap:12px;padding:15px 0}
+  .fund-scene-title{font-size:21px}
+}
