@@ -37,4 +37,5 @@ jobs:
           git config user.email "ai@ontos.live"
           git add data/generated_seeds.csv data/wordstat_raw.csv data/query_candidates.csv
           git commit -m "Update Wordstat query candidates"
+          git pull --rebase origin main
           git push
