@@ -1,0 +1,874 @@
+{
+  "entity": "контрабас",
+  "cluster": "смычковые",
+  "city": "Москва",
+  "region_id": "213",
+  "principle": "Explicit meaningful hypotheses only; no Cartesian keyword multiplication.",
+  "families": [
+    {
+      "name": "Начало и обучение",
+      "hypotheses": [
+        {
+          "query": "контрабас для начинающего в аренду",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "покупать рано"
+        },
+        {
+          "query": "контрабас начинающему напрокат",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "первый инструмент"
+        },
+        {
+          "query": "аренда контрабаса для начинающего в москве",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "покупать рано"
+        },
+        {
+          "query": "контрабас для первых занятий",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "первый инструмент"
+        },
+        {
+          "query": "контрабас для взрослого начинающего",
+          "subject": "взрослый начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "возвращение к инструменту"
+        },
+        {
+          "query": "контрабас для ребенка в аренду",
+          "subject": "ребёнок",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "ребёнок растёт"
+        },
+        {
+          "query": "контрабас ребенку для музыкальной школы",
+          "subject": "ребёнок",
+          "configuration": "",
+          "task": "музыкальная школа",
+          "duration": "",
+          "constraint": "",
+          "reason": "обучение"
+        },
+        {
+          "query": "контрабас для ученика музыкальной школы",
+          "subject": "ученик",
+          "configuration": "",
+          "task": "музыкальная школа",
+          "duration": "",
+          "constraint": "",
+          "reason": "обучение"
+        },
+        {
+          "query": "контрабас студенту музыкального училища",
+          "subject": "студент",
+          "configuration": "",
+          "task": "училище",
+          "duration": "",
+          "constraint": "",
+          "reason": "обучение"
+        },
+        {
+          "query": "контрабас студенту консерватории в аренду",
+          "subject": "студент",
+          "configuration": "",
+          "task": "консерватория",
+          "duration": "",
+          "constraint": "",
+          "reason": "обучение"
+        },
+        {
+          "query": "контрабас для занятий дома",
+          "subject": "ученик",
+          "configuration": "",
+          "task": "домашние занятия",
+          "duration": "",
+          "constraint": "",
+          "reason": "обучение"
+        },
+        {
+          "query": "контрабас на время обучения",
+          "subject": "ученик",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "временный доступ"
+        }
+      ]
+    },
+    {
+      "name": "Размер",
+      "hypotheses": [
+        {
+          "query": "контрабас 1/2 в аренду",
+          "subject": "",
+          "configuration": "1/2",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 1/2 ребенку",
+          "subject": "ребёнок",
+          "configuration": "1/2",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 1/2 напрокат",
+          "subject": "",
+          "configuration": "1/2",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 3/4 в аренду",
+          "subject": "",
+          "configuration": "3/4",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 3/4 в аренду москва",
+          "subject": "",
+          "configuration": "3/4",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 3/4 для начинающего",
+          "subject": "начинающий",
+          "configuration": "3/4",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 3/4 ребенку",
+          "subject": "ребёнок",
+          "configuration": "3/4",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 3/4 студенту",
+          "subject": "студент",
+          "configuration": "3/4",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 3/4 напрокат",
+          "subject": "",
+          "configuration": "3/4",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 4/4 в аренду",
+          "subject": "",
+          "configuration": "4/4",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "контрабас 4/4 напрокат",
+          "subject": "",
+          "configuration": "4/4",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        },
+        {
+          "query": "аренда контрабаса 4/4 москва",
+          "subject": "",
+          "configuration": "4/4",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "размер"
+        }
+      ]
+    },
+    {
+      "name": "Концерт и оркестр",
+      "hypotheses": [
+        {
+          "query": "контрабас на концерт в аренду",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "аренда контрабаса на концерт москва",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас для оркестра в аренду",
+          "subject": "оркестрант",
+          "configuration": "",
+          "task": "оркестр",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "аренда контрабаса для симфонического оркестра",
+          "subject": "оркестрант",
+          "configuration": "",
+          "task": "симфонический оркестр",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас для камерного оркестра",
+          "subject": "оркестрант",
+          "configuration": "",
+          "task": "камерный оркестр",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас на репетицию оркестра",
+          "subject": "оркестрант",
+          "configuration": "",
+          "task": "репетиция",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас для фестиваля в аренду",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "фестиваль",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас на гастроли в аренду",
+          "subject": "гастролирующий музыкант",
+          "configuration": "",
+          "task": "гастроли",
+          "duration": "",
+          "constraint": "",
+          "reason": "не везти свой инструмент"
+        },
+        {
+          "query": "контрабас по райдеру",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "райдер",
+          "duration": "",
+          "constraint": "",
+          "reason": "требование площадки"
+        },
+        {
+          "query": "аренда контрабаса по райдеру москва",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "райдер",
+          "duration": "",
+          "constraint": "",
+          "reason": "требование площадки"
+        }
+      ]
+    },
+    {
+      "name": "Экзамен и конкурс",
+      "hypotheses": [
+        {
+          "query": "контрабас на экзамен в аренду",
+          "subject": "студент",
+          "configuration": "",
+          "task": "экзамен",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас на экзамен москва",
+          "subject": "студент",
+          "configuration": "",
+          "task": "экзамен",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас на конкурс в аренду",
+          "subject": "участник конкурса",
+          "configuration": "",
+          "task": "конкурс",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас на прослушивание",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "прослушивание",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас на вступительный экзамен",
+          "subject": "абитуриент",
+          "configuration": "",
+          "task": "вступительный экзамен",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас для зачета",
+          "subject": "студент",
+          "configuration": "",
+          "task": "зачёт",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        }
+      ]
+    },
+    {
+      "name": "Запись и сцена",
+      "hypotheses": [
+        {
+          "query": "контрабас для записи в студии",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "студийная запись",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас в аренду для студии",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "студийная запись",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас для съемки в аренду",
+          "subject": "съёмочная группа",
+          "configuration": "",
+          "task": "съёмка",
+          "duration": "",
+          "constraint": "",
+          "reason": "реквизит или игра"
+        },
+        {
+          "query": "аренда контрабаса для съемок москва",
+          "subject": "съёмочная группа",
+          "configuration": "",
+          "task": "съёмка",
+          "duration": "",
+          "constraint": "",
+          "reason": "реквизит или игра"
+        },
+        {
+          "query": "контрабас для фотосессии",
+          "subject": "съёмочная группа",
+          "configuration": "",
+          "task": "фотосессия",
+          "duration": "",
+          "constraint": "",
+          "reason": "реквизит"
+        },
+        {
+          "query": "контрабас для спектакля в аренду",
+          "subject": "театр",
+          "configuration": "",
+          "task": "спектакль",
+          "duration": "",
+          "constraint": "",
+          "reason": "сценическая задача"
+        },
+        {
+          "query": "контрабас для мероприятия",
+          "subject": "организатор",
+          "configuration": "",
+          "task": "мероприятие",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        },
+        {
+          "query": "контрабас для свадьбы в аренду",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "свадьба",
+          "duration": "",
+          "constraint": "",
+          "reason": "разовая сцена"
+        }
+      ]
+    },
+    {
+      "name": "Временная замена",
+      "hypotheses": [
+        {
+          "query": "контрабас на время ремонта",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "свой инструмент в ремонте"
+        },
+        {
+          "query": "контрабас в аренду пока свой в ремонте",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "свой инструмент в ремонте"
+        },
+        {
+          "query": "контрабас на замену своего инструмента",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "временная замена"
+        },
+        {
+          "query": "временный контрабас для музыканта",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "временная замена"
+        },
+        {
+          "query": "контрабас вместо своего на концерт",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "",
+          "constraint": "",
+          "reason": "свой инструмент недоступен"
+        },
+        {
+          "query": "контрабас если свой сломался",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "поломка"
+        }
+      ]
+    },
+    {
+      "name": "Срок",
+      "hypotheses": [
+        {
+          "query": "контрабас в аренду на день",
+          "subject": "",
+          "configuration": "",
+          "task": "",
+          "duration": "день",
+          "constraint": "",
+          "reason": "короткий срок"
+        },
+        {
+          "query": "контрабас напрокат на сутки",
+          "subject": "",
+          "configuration": "",
+          "task": "",
+          "duration": "сутки",
+          "constraint": "",
+          "reason": "короткий срок"
+        },
+        {
+          "query": "контрабас в аренду на выходные",
+          "subject": "",
+          "configuration": "",
+          "task": "",
+          "duration": "выходные",
+          "constraint": "",
+          "reason": "короткий срок"
+        },
+        {
+          "query": "контрабас в аренду на неделю",
+          "subject": "",
+          "configuration": "",
+          "task": "",
+          "duration": "неделя",
+          "constraint": "",
+          "reason": "короткий срок"
+        },
+        {
+          "query": "контрабас в аренду на месяц",
+          "subject": "",
+          "configuration": "",
+          "task": "",
+          "duration": "месяц",
+          "constraint": "",
+          "reason": "средний срок"
+        },
+        {
+          "query": "аренда контрабаса на месяц москва",
+          "subject": "",
+          "configuration": "",
+          "task": "",
+          "duration": "месяц",
+          "constraint": "",
+          "reason": "средний срок"
+        },
+        {
+          "query": "контрабас в аренду на три месяца",
+          "subject": "",
+          "configuration": "",
+          "task": "",
+          "duration": "три месяца",
+          "constraint": "",
+          "reason": "средний срок"
+        },
+        {
+          "query": "контрабас на семестр в аренду",
+          "subject": "студент",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "семестр",
+          "constraint": "",
+          "reason": "учебный срок"
+        },
+        {
+          "query": "контрабас на учебный год",
+          "subject": "ученик",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "учебный год",
+          "constraint": "",
+          "reason": "учебный срок"
+        },
+        {
+          "query": "контрабас в аренду на сезон",
+          "subject": "оркестрант",
+          "configuration": "",
+          "task": "оркестр",
+          "duration": "сезон",
+          "constraint": "",
+          "reason": "сезонная работа"
+        }
+      ]
+    },
+    {
+      "name": "Конфигурация",
+      "hypotheses": [
+        {
+          "query": "пятиструнный контрабас в аренду",
+          "subject": "",
+          "configuration": "пятиструнный",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "конфигурация"
+        },
+        {
+          "query": "аренда пятиструнного контрабаса москва",
+          "subject": "",
+          "configuration": "пятиструнный",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "конфигурация"
+        },
+        {
+          "query": "контрабас с низкой до в аренду",
+          "subject": "",
+          "configuration": "низкая C",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "конфигурация"
+        },
+        {
+          "query": "контрабас с машинкой до в аренду",
+          "subject": "",
+          "configuration": "C-extension",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "конфигурация"
+        },
+        {
+          "query": "контрабас со звукоснимателем в аренду",
+          "subject": "",
+          "configuration": "звукосниматель",
+          "task": "",
+          "duration": "",
+          "constraint": "",
+          "reason": "усиление"
+        },
+        {
+          "query": "джазовый контрабас в аренду",
+          "subject": "джазовый музыкант",
+          "configuration": "джазовый",
+          "task": "джаз",
+          "duration": "",
+          "constraint": "",
+          "reason": "жанр"
+        },
+        {
+          "query": "оркестровый контрабас в аренду",
+          "subject": "оркестрант",
+          "configuration": "оркестровый",
+          "task": "оркестр",
+          "duration": "",
+          "constraint": "",
+          "reason": "жанр"
+        },
+        {
+          "query": "контрабас для джаза напрокат",
+          "subject": "джазовый музыкант",
+          "configuration": "",
+          "task": "джаз",
+          "duration": "",
+          "constraint": "",
+          "reason": "жанр"
+        },
+        {
+          "query": "контрабас для классики в аренду",
+          "subject": "классический музыкант",
+          "configuration": "",
+          "task": "классика",
+          "duration": "",
+          "constraint": "",
+          "reason": "жанр"
+        }
+      ]
+    },
+    {
+      "name": "Логистика",
+      "hypotheses": [
+        {
+          "query": "контрабас в аренду с доставкой",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "",
+          "duration": "",
+          "constraint": "доставка",
+          "reason": "логистика"
+        },
+        {
+          "query": "контрабас в аренду с доставкой по москве",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "",
+          "duration": "",
+          "constraint": "доставка",
+          "reason": "логистика"
+        },
+        {
+          "query": "доставка контрабаса на концерт",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "",
+          "constraint": "доставка",
+          "reason": "логистика"
+        },
+        {
+          "query": "контрабас на площадку в москве",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "",
+          "constraint": "доставка на площадку",
+          "reason": "логистика"
+        },
+        {
+          "query": "контрабас в студию с доставкой",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "студийная запись",
+          "duration": "",
+          "constraint": "доставка",
+          "reason": "логистика"
+        },
+        {
+          "query": "контрабас в концертный зал в аренду",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "",
+          "constraint": "доставка на площадку",
+          "reason": "логистика"
+        }
+      ]
+    },
+    {
+      "name": "Покупка или аренда",
+      "hypotheses": [
+        {
+          "query": "контрабас купить или арендовать",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "выбор",
+          "duration": "",
+          "constraint": "",
+          "reason": "покупка преждевременна"
+        },
+        {
+          "query": "контрабас для начинающего купить или взять в аренду",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "покупка преждевременна"
+        },
+        {
+          "query": "стоит ли покупать контрабас начинающему",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "покупка преждевременна"
+        },
+        {
+          "query": "контрабас ребенку купить или арендовать",
+          "subject": "ребёнок",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "ребёнок растёт"
+        },
+        {
+          "query": "какой контрабас купить для обучения",
+          "subject": "ученик",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "выбор инструмента"
+        },
+        {
+          "query": "контрабас на первое время",
+          "subject": "начинающий",
+          "configuration": "",
+          "task": "обучение",
+          "duration": "",
+          "constraint": "",
+          "reason": "временный старт"
+        }
+      ]
+    },
+    {
+      "name": "Профессия и мобильность",
+      "hypotheses": [
+        {
+          "query": "контрабас гастролирующему музыканту",
+          "subject": "гастролирующий музыкант",
+          "configuration": "",
+          "task": "гастроли",
+          "duration": "",
+          "constraint": "",
+          "reason": "не везти свой инструмент"
+        },
+        {
+          "query": "контрабас музыканту в командировке",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "работа",
+          "duration": "",
+          "constraint": "",
+          "reason": "не везти свой инструмент"
+        },
+        {
+          "query": "контрабас для приезжего музыканта в москве",
+          "subject": "приезжий музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "",
+          "constraint": "",
+          "reason": "нет своего инструмента в городе"
+        },
+        {
+          "query": "контрабас на несколько концертов в москве",
+          "subject": "музыкант",
+          "configuration": "",
+          "task": "концерт",
+          "duration": "несколько дней",
+          "constraint": "",
+          "reason": "гастроли"
+        },
+        {
+          "query": "контрабас для приглашенного оркестранта",
+          "subject": "приглашённый оркестрант",
+          "configuration": "",
+          "task": "оркестр",
+          "duration": "",
+          "constraint": "",
+          "reason": "нет своего инструмента на месте"
+        }
+      ]
+    }
+  ]
+}

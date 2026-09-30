@@ -1,0 +1,114 @@
+#!/usr/bin/env python3
+"""Generate search-demand hypotheses from curated instrument morphology.
+
+The generator is deliberately NOT a Cartesian-product keyword spinner.
+Each morphology file contains explicit, meaningful human query hypotheses.
+The script normalizes, deduplicates and emits a common CSV schema that can
+later be measured by Wordstat or another frequency source.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+import re
+from pathlib import Path
+from typing import Iterable
+
+
+FIELDS = [
+    "query",
+    "entity",
+    "city",
+    "family",
+    "subject",
+    "configuration",
+    "task",
+    "duration",
+    "constraint",
+    "reason",
+    "hypothesis_status",
+    "measurement_status",
+    "frequency",
+    "notes",
+]
+
+
+def norm(text: str) -> str:
+    text = text.casefold().replace("ё", "е")
+    text = re.sub(r"[^0-9a-zа-я]+", " ", text)
+    return " ".join(text.split())
+
+
+def load_morphology(path: Path) -> dict:
+    with path.open("r", encoding="utf-8") as fh:
+        data = json.load(fh)
+    if "entity" not in data or "families" not in data:
+        raise ValueError("Morphology requires 'entity' and 'families'.")
+    return data
+
+
+def iter_rows(data: dict) -> Iterable[dict]:
+    entity = data["entity"].strip()
+    city = data.get("city", "").strip()
+
+    for family in data["families"]:
+        family_name = family["name"].strip()
+        for item in family.get("hypotheses", []):
+            query = str(item["query"]).strip()
+            if not query:
+                continue
+            yield {
+                "query": query,
+                "entity": entity,
+                "city": item.get("city", city),
+                "family": family_name,
+                "subject": item.get("subject", ""),
+                "configuration": item.get("configuration", ""),
+                "task": item.get("task", ""),
+                "duration": item.get("duration", ""),
+                "constraint": item.get("constraint", ""),
+                "reason": item.get("reason", ""),
+                "hypothesis_status": item.get("hypothesis_status", "proposed"),
+                "measurement_status": item.get("measurement_status", "unmeasured"),
+                "frequency": item.get("frequency", ""),
+                "notes": item.get("notes", ""),
+            }
+
+
+def dedupe(rows: Iterable[dict]) -> list[dict]:
+    out = []
+    seen = set()
+    for row in rows:
+        key = (row["city"], norm(row["query"]))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(row)
+    return out
+
+
+def write_csv(path: Path, rows: list[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("morphology", help="Path to morphology JSON")
+    parser.add_argument("--out", required=True, help="Output CSV")
+    args = parser.parse_args()
+
+    data = load_morphology(Path(args.morphology))
+    rows = dedupe(iter_rows(data))
+    write_csv(Path(args.out), rows)
+    print(f"Wrote {len(rows)} hypotheses for {data['entity']}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
