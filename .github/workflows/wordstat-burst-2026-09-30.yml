@@ -1,0 +1,71 @@
+name: Wordstat burst 2026-09-30
+
+on:
+  schedule:
+    - cron: "20 3 30 9 *"
+    - cron: "30 4 30 9 *"
+    - cron: "40 5 30 9 *"
+    - cron: "50 6 30 9 *"
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "0-based batch index"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    if: ${{ github.event_name == 'workflow_dispatch' || startsWith(github.run_started_at, '2026-09-30') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve batch
+        id: batch
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            BATCH="${{ inputs.batch }}"
+          else
+            case "${{ github.event.schedule }}" in
+              "20 3 30 9 *") BATCH=0 ;;
+              "30 4 30 9 *") BATCH=1 ;;
+              "40 5 30 9 *") BATCH=2 ;;
+              "50 6 30 9 *") BATCH=3 ;;
+              *) echo "Unknown schedule"; exit 1 ;;
+            esac
+          fi
+          echo "batch=$BATCH" >> "$GITHUB_OUTPUT"
+
+      - name: Collect Wordstat batch
+        env:
+          YANDEX_WORDSTAT_API_KEY: ${{ secrets.YANDEX_WORDSTAT_API_KEY }}
+          YANDEX_FOLDER_ID: ${{ secrets.YANDEX_FOLDER_ID }}
+        run: |
+          B="${{ steps.batch.outputs.batch }}"
+          python tools/wordstat_collect.py             --batch "$B"             --batch-size 99             --generated-seeds "data/generated_seeds_batch_${B}.csv"             --raw "data/wordstat_raw_batch_${B}.csv"             --candidates "data/query_candidates_batch_${B}.csv"
+
+      - name: Commit batch output
+        run: |
+          B="${{ steps.batch.outputs.batch }}"
+          if [ -z "$(git status --porcelain -- data/generated_seeds_batch_${B}.csv data/wordstat_raw_batch_${B}.csv data/query_candidates_batch_${B}.csv)" ]; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "Ontos.Wordstat"
+          git config user.email "ai@ontos.live"
+          git add "data/generated_seeds_batch_${B}.csv" "data/wordstat_raw_batch_${B}.csv" "data/query_candidates_batch_${B}.csv"
+          git commit -m "Collect Wordstat batch ${B}"
+          git pull --rebase origin main
+          git push
