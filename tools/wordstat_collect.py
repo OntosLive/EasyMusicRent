@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
-"""Collect Yandex Wordstat queries for configured seeds.
+"""Collect Yandex Wordstat query branches for ONTOS.RENT.
 
-Reads data/seeds.csv, calls Wordstat GetTop, and writes:
-- data/wordstat_raw.csv: all returned phrases with source seed and relation
-- data/query_candidates.csv: deduplicated phrases, keeping the strongest observed count
+The collector intentionally ignores Wordstat associations/"similar queries".
+We generate our own search branches from the site's instrument entities and
+allowed scenes, ask Wordstat only for results containing those phrases, then
+deduplicate the returned field.
 
-The script does not automatically promote candidates into data/queries.csv.
-That file remains the curated backlog.
+Outputs:
+- data/generated_seeds.csv
+- data/wordstat_raw.csv
+- data/query_candidates.csv
+
+The curated backlog data/queries.csv is never overwritten automatically.
 """
 
 from __future__ import annotations
@@ -15,6 +20,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -26,27 +32,121 @@ API_URL = "https://searchapi.api.cloud.yandex.net/v2/wordstat/topRequests"
 
 
 def truthy(value: str) -> bool:
-    return value.strip().lower() not in {"", "0", "false", "no", "off"}
+    return str(value).strip().lower() not in {"", "0", "false", "no", "off"}
 
 
-def read_seeds(path: Path) -> List[dict]:
+def norm(text: str) -> str:
+    text = text.casefold().replace("ё", "е")
+    text = re.sub(r"[^0-9a-zа-я]+", " ", text)
+    return " ".join(text.split())
+
+
+def read_entities(path: Path) -> List[dict]:
     with path.open("r", encoding="utf-8-sig", newline="") as fh:
-        rows = list(csv.DictReader(fh))
-    return [r for r in rows if truthy(r.get("enabled", "true"))]
+        return list(csv.DictReader(fh))
+
+
+def seed_row(entity: dict, seed: str, scene: str) -> dict:
+    return {
+        "seed": seed.strip(),
+        "entity": entity["entity"].strip(),
+        "cluster": entity["cluster"].strip(),
+        "scene": scene,
+        "city": entity["city"].strip(),
+        "region_id": entity["region_id"].strip(),
+        "max_results": "2000",
+    }
+
+
+def generate_seeds(entities: List[dict]) -> List[dict]:
+    seeds: List[dict] = []
+
+    for e in entities:
+        x = e["entity"].strip()
+        city = e["city"].strip()
+
+        if truthy(e.get("allow_rent", "")):
+            seeds += [
+                seed_row(e, f"аренда {x}", "rent"),
+                seed_row(e, f"{x} в аренду", "rent"),
+                seed_row(e, f"аренда {x} {city}", "rent-city"),
+            ]
+
+        if truthy(e.get("allow_prokat", "")):
+            seeds += [
+                seed_row(e, f"прокат {x}", "prokat"),
+                seed_row(e, f"{x} напрокат", "prokat"),
+                seed_row(e, f"прокат {x} {city}", "prokat-city"),
+            ]
+
+        if truthy(e.get("allow_school", "")):
+            seeds += [
+                seed_row(e, f"{x} для музыкальной школы", "school"),
+                seed_row(e, f"{x} для школы", "school"),
+            ]
+
+        if truthy(e.get("allow_learning", "")):
+            seeds += [
+                seed_row(e, f"{x} для обучения", "learning"),
+                seed_row(e, f"какое {x} выбрать для обучения", "learning-choice"),
+            ]
+
+        if truthy(e.get("allow_concert", "")):
+            seeds += [
+                seed_row(e, f"аренда {x} на концерт", "concert"),
+                seed_row(e, f"{x} на концерт", "concert"),
+            ]
+
+        if truthy(e.get("allow_orchestra", "")):
+            seeds += [
+                seed_row(e, f"аренда {x} для оркестра", "orchestra"),
+                seed_row(e, f"{x} для оркестра", "orchestra"),
+            ]
+
+        if truthy(e.get("allow_shooting", "")):
+            seeds += [
+                seed_row(e, f"аренда {x} для съемки", "shooting"),
+                seed_row(e, f"{x} для съемки", "shooting"),
+            ]
+
+        if truthy(e.get("allow_rider", "")):
+            seeds += [
+                seed_row(e, f"аренда {x} по райдеру", "rider"),
+                seed_row(e, f"{x} по райдеру", "rider"),
+            ]
+
+    # Deduplicate exact seed+city combinations.
+    seen = set()
+    out = []
+    for row in seeds:
+        key = (row["city"], norm(row["seed"]))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(row)
+    return out
+
+
+def write_generated_seeds(path: Path, rows: List[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fields = ["seed", "entity", "cluster", "scene", "city", "region_id", "max_results"]
+    with path.open("w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=fields)
+        w.writeheader()
+        w.writerows(rows)
 
 
 def call_wordstat(api_key: str, folder_id: str, seed: dict) -> dict:
-    max_results = int(seed.get("max_results") or 2000)
-    max_results = max(1, min(max_results, 2000))
+    max_results = max(1, min(int(seed.get("max_results") or 2000), 2000))
     body = {
-        "phrase": seed["seed"].strip(),
+        "phrase": seed["seed"],
         "numPhrases": str(max_results),
-        "regions": [seed["region_id"].strip()] if seed.get("region_id", "").strip() else [],
+        "regions": [seed["region_id"]] if seed.get("region_id") else [],
         "devices": ["DEVICE_ALL"],
         "folderId": folder_id,
     }
 
-    request = urllib.request.Request(
+    req = urllib.request.Request(
         API_URL,
         data=json.dumps(body, ensure_ascii=False).encode("utf-8"),
         headers={
@@ -58,7 +158,7 @@ def call_wordstat(api_key: str, folder_id: str, seed: dict) -> dict:
     )
 
     try:
-        with urllib.request.urlopen(request, timeout=60) as response:
+        with urllib.request.urlopen(req, timeout=60) as response:
             return json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
@@ -67,46 +167,68 @@ def call_wordstat(api_key: str, folder_id: str, seed: dict) -> dict:
         ) from exc
 
 
-def extract_rows(seed: dict, payload: dict) -> Iterable[dict]:
-    base = {
-        "seed": seed["seed"].strip(),
-        "city": seed.get("city", "").strip(),
-        "region_id": seed.get("region_id", "").strip(),
-    }
-    for relation_key, relation_name in (
-        ("results", "result"),
-        ("associations", "association"),
-    ):
-        for item in payload.get(relation_key, []) or []:
-            phrase = str(item.get("phrase", "")).strip()
-            if not phrase:
-                continue
-            yield {
-                **base,
-                "phrase": phrase,
-                "count": int(item.get("count", 0) or 0),
-                "relation": relation_name,
-                "total_count": int(payload.get("totalCount", 0) or 0),
-            }
+def extract_results(seed: dict, payload: dict) -> Iterable[dict]:
+    # Deliberately ignore payload["associations"].
+    for item in payload.get("results", []) or []:
+        phrase = str(item.get("phrase", "")).strip()
+        if not phrase:
+            continue
+        yield {
+            "seed": seed["seed"],
+            "entity": seed["entity"],
+            "cluster": seed["cluster"],
+            "scene": seed["scene"],
+            "city": seed["city"],
+            "region_id": seed["region_id"],
+            "phrase": phrase,
+            "count": int(item.get("count", 0) or 0),
+            "relation": "result",
+            "total_count": int(payload.get("totalCount", 0) or 0),
+        }
 
 
 def write_raw(path: Path, rows: List[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    fields = ["seed", "city", "region_id", "phrase", "count", "relation", "total_count"]
+    fields = [
+        "seed", "entity", "cluster", "scene", "city", "region_id",
+        "phrase", "count", "relation", "total_count"
+    ]
     with path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(rows)
+        w = csv.DictWriter(fh, fieldnames=fields)
+        w.writeheader()
+        w.writerows(rows)
+
+
+def useful_for_entity(row: dict) -> bool:
+    """Conservative first-pass filter.
+
+    Wordstat result branches should contain the seed terms, but we additionally
+    require the instrument/entity itself to remain visible in the phrase.
+    This is intentionally conservative: final editorial acceptance happens
+    after collection, not here.
+    """
+    phrase = norm(row["phrase"])
+    entity = norm(row["entity"])
+
+    # Every lexical token of the entity must survive in the phrase.
+    return all(token in phrase.split() for token in entity.split())
 
 
 def dedupe_candidates(rows: List[dict]) -> List[dict]:
-    # Distinguish the same phrase across cities, because the regional count differs.
     best: Dict[Tuple[str, str], dict] = {}
-    seeds_seen: Dict[Tuple[str, str], set] = {}
+    sources: Dict[Tuple[str, str], set] = {}
+    scenes: Dict[Tuple[str, str], set] = {}
+    entities: Dict[Tuple[str, str], set] = {}
 
     for row in rows:
-        key = (row["city"], row["phrase"].casefold())
-        seeds_seen.setdefault(key, set()).add(row["seed"])
+        if not useful_for_entity(row):
+            continue
+
+        key = (row["city"], norm(row["phrase"]))
+        sources.setdefault(key, set()).add(row["seed"])
+        scenes.setdefault(key, set()).add(row["scene"])
+        entities.setdefault(key, set()).add(row["entity"])
+
         if key not in best or row["count"] > best[key]["count"]:
             best[key] = dict(row)
 
@@ -116,8 +238,10 @@ def dedupe_candidates(rows: List[dict]) -> List[dict]:
             "query": row["phrase"],
             "city": row["city"],
             "frequency": row["count"],
-            "relation": row["relation"],
-            "source_seeds": " | ".join(sorted(seeds_seen[key])),
+            "entity": " | ".join(sorted(entities[key])),
+            "cluster": row["cluster"],
+            "scenes": " | ".join(sorted(scenes[key])),
+            "source_seeds": " | ".join(sorted(sources[key])),
             "status": "candidate",
             "notes": "",
         })
@@ -128,49 +252,50 @@ def dedupe_candidates(rows: List[dict]) -> List[dict]:
 
 def write_candidates(path: Path, rows: List[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    fields = ["query", "city", "frequency", "relation", "source_seeds", "status", "notes"]
+    fields = [
+        "query", "city", "frequency", "entity", "cluster", "scenes",
+        "source_seeds", "status", "notes"
+    ]
     with path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(rows)
+        w = csv.DictWriter(fh, fieldnames=fields)
+        w.writeheader()
+        w.writerows(rows)
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--seeds", default="data/seeds.csv")
-    parser.add_argument("--raw", default="data/wordstat_raw.csv")
-    parser.add_argument("--candidates", default="data/query_candidates.csv")
-    parser.add_argument("--delay", type=float, default=0.35)
-    args = parser.parse_args()
+    p = argparse.ArgumentParser()
+    p.add_argument("--entities", default="data/entities.csv")
+    p.add_argument("--generated-seeds", default="data/generated_seeds.csv")
+    p.add_argument("--raw", default="data/wordstat_raw.csv")
+    p.add_argument("--candidates", default="data/query_candidates.csv")
+    p.add_argument("--delay", type=float, default=0.35)
+    args = p.parse_args()
 
     api_key = os.getenv("YANDEX_WORDSTAT_API_KEY", "").strip()
     folder_id = os.getenv("YANDEX_FOLDER_ID", "").strip()
     if not api_key or not folder_id:
-        print(
-            "Missing YANDEX_WORDSTAT_API_KEY or YANDEX_FOLDER_ID environment variable.",
-            file=sys.stderr,
-        )
+        print("Missing YANDEX_WORDSTAT_API_KEY or YANDEX_FOLDER_ID.", file=sys.stderr)
         return 2
 
-    seeds = read_seeds(Path(args.seeds))
-    if not seeds:
-        print("No enabled seeds found.", file=sys.stderr)
-        return 3
+    entities = read_entities(Path(args.entities))
+    seeds = generate_seeds(entities)
+    write_generated_seeds(Path(args.generated_seeds), seeds)
 
     raw_rows: List[dict] = []
-    for index, seed in enumerate(seeds, start=1):
-        print(f"[{index}/{len(seeds)}] {seed['city']}: {seed['seed']}")
+    for i, seed in enumerate(seeds, 1):
+        print(f"[{i}/{len(seeds)}] {seed['city']} | {seed['entity']} | {seed['seed']}")
         payload = call_wordstat(api_key, folder_id, seed)
-        raw_rows.extend(extract_rows(seed, payload))
-        if index < len(seeds) and args.delay > 0:
+        raw_rows.extend(extract_results(seed, payload))
+        if i < len(seeds) and args.delay > 0:
             time.sleep(args.delay)
 
     write_raw(Path(args.raw), raw_rows)
     candidates = dedupe_candidates(raw_rows)
     write_candidates(Path(args.candidates), candidates)
 
-    print(f"Wrote {len(raw_rows)} raw rows to {args.raw}")
-    print(f"Wrote {len(candidates)} deduplicated candidates to {args.candidates}")
+    print(f"Generated {len(seeds)} seeds")
+    print(f"Wrote {len(raw_rows)} raw result rows")
+    print(f"Wrote {len(candidates)} filtered candidates")
     return 0
 
 
