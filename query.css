@@ -273,3 +273,49 @@ body{
 .query-contacts-inline span{
   color:var(--muted);
 }
+
+
+/* Contact as a nonverbal sign */
+.query-contacts-sign{
+  display:flex;
+  align-items:flex-end;
+  gap:22px;
+  flex-wrap:wrap;
+  margin-top:34px;
+  padding:0 0 12px;
+  max-width:780px;
+  border-bottom:2px solid var(--ink);
+}
+.query-contacts-sign .query-phone{
+  margin:0;
+  border:0;
+  font:700 clamp(27px,4vw,48px)/1 Arial,sans-serif;
+  letter-spacing:-.025em;
+}
+.query-channel-icons{
+  display:flex;
+  gap:10px;
+  padding-bottom:2px;
+}
+.query-channel-icons a{
+  width:38px;
+  height:38px;
+  display:grid;
+  place-items:center;
+  color:var(--ink);
+  text-decoration:none;
+}
+.query-channel-icons svg{
+  width:26px;
+  height:26px;
+  fill:currentColor;
+  display:block;
+}
+.query-channel-icons a:hover{
+  opacity:.55;
+}
+@media(max-width:640px){
+  .query-contacts-sign{gap:14px}
+  .query-channel-icons a{width:34px;height:34px}
+  .query-channel-icons svg{width:24px;height:24px}
+}
