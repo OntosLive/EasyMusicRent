@@ -245,3 +245,31 @@ body{
 @media(max-width:640px){
   .query-messengers{gap:14px}
 }
+
+
+/* Compact contact line */
+.query-contacts-inline{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:34px;
+  padding:14px 0 12px;
+  max-width:780px;
+  border-top:1px solid var(--line);
+  border-bottom:2px solid var(--ink);
+  font:700 13px/1 Arial,sans-serif;
+  letter-spacing:.08em;
+}
+.query-contacts-inline a{
+  color:var(--ink);
+  text-decoration:none;
+  text-transform:none;
+}
+.query-contacts-inline a:hover{
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+.query-contacts-inline span{
+  color:var(--muted);
+}
