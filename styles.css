@@ -189,3 +189,57 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   .cluster-arguments article+article{border-left:0;border-top:1px solid #aaa49a;padding-left:0}
   .cluster-quote{text-align:left}
 }
+
+
+/* Main rental landing */
+.home-rent-lead{padding:42px 0 24px}
+.home-rent-lead h2{
+  max-width:1040px;
+  font-size:clamp(54px,7.4vw,92px);
+  line-height:.9;
+}
+.home-rent-deck{
+  max-width:900px;
+  font-size:clamp(22px,2.8vw,32px);
+}
+.home-family-line{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px 18px;
+  padding:18px 0 20px;
+  margin-top:30px;
+  border-top:5px solid var(--ink);
+  border-bottom:1px solid var(--ink);
+  font:800 11px/1.2 Arial,sans-serif;
+  letter-spacing:.12em;
+}
+.home-family-line span+span:before{
+  content:"·";
+  margin-right:18px;
+  color:var(--signal);
+}
+.home-principles{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  border-bottom:1px solid var(--ink);
+}
+.home-principles article{padding:22px 22px 26px 0}
+.home-principles article+article{padding-left:22px;border-left:1px solid #aaa49a}
+.home-principles span{font:800 10px/1 Arial,sans-serif;letter-spacing:.13em;color:var(--signal)}
+.home-principles h3{margin:9px 0 10px;font-size:clamp(21px,2.2vw,28px);line-height:1.02}
+.home-principles p{margin:0;font-size:16px;line-height:1.45}
+.home-fund-statement{
+  margin:42px auto 30px;
+  max-width:900px;
+  font-size:clamp(29px,4.2vw,52px);
+  line-height:1.04;
+}
+@media(max-width:700px){
+  .home-family-line{display:block}
+  .home-family-line span{display:block;padding:7px 0}
+  .home-family-line span+span:before{content:"";margin:0}
+  .home-principles{grid-template-columns:1fr}
+  .home-principles article{padding:18px 0}
+  .home-principles article+article{padding-left:0;border-left:0;border-top:1px solid #aaa49a}
+  .home-fund-statement{text-align:left}
+}
