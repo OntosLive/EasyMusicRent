@@ -295,3 +295,60 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   .home-essential{grid-template-columns:1fr;gap:18px}
   .home-rent-quote{text-align:left}
 }
+
+
+/* Main rental landing v3 */
+.home-rent-v3 .home-rent-lead{
+  padding:40px 0 18px;
+}
+.home-rent-v3 .home-rent-lead h2{
+  max-width:1040px;
+  font-size:clamp(56px,7.7vw,96px);
+  line-height:.88;
+}
+.home-rent-v3 .home-rent-deck{
+  max-width:960px;
+  margin-bottom:22px;
+  font-size:clamp(22px,2.8vw,32px);
+}
+.home-rent-v3 .instrument-groups{
+  margin-top:4px;
+}
+.home-scope{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  border-bottom:1px solid var(--ink);
+}
+.home-scope article{
+  min-width:0;
+  padding:23px 23px 26px 0;
+}
+.home-scope article+article{
+  padding-left:23px;
+  border-left:1px solid #aaa49a;
+}
+.home-scope span{
+  color:var(--signal);
+  font:800 10px/1 Arial,sans-serif;
+  letter-spacing:.13em;
+}
+.home-scope h3{
+  margin:9px 0 11px;
+  font-size:clamp(22px,2.25vw,30px);
+  line-height:1.02;
+}
+.home-scope p{
+  margin:0;
+  font-size:16px;
+  line-height:1.48;
+}
+.home-rent-v3 .home-rent-quote{
+  max-width:900px;
+  margin:38px auto 30px;
+  font-size:clamp(31px,4.2vw,52px);
+}
+@media(max-width:700px){
+  .home-scope{grid-template-columns:1fr}
+  .home-scope article{padding:18px 0}
+  .home-scope article+article{padding-left:0;border-left:0;border-top:1px solid #aaa49a}
+}
