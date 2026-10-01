@@ -32,3 +32,30 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
 .home-contact a{color:var(--ink);text-decoration:none}
 .home-contact a:hover{text-decoration:underline;text-underline-offset:3px}
 .home-phone{font-size:22px}
+
+.home-contact-sign{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+}
+.home-channel-icons{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.home-channel-icons a{
+  width:30px;
+  height:30px;
+  display:grid;
+  place-items:center;
+  color:var(--ink);
+  text-decoration:none;
+}
+.home-channel-icons svg{
+  width:20px;
+  height:20px;
+  fill:currentColor;
+  display:block;
+}
+.home-channel-icons a:hover{opacity:.55}
