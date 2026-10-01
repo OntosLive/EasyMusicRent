@@ -146,3 +146,46 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   .piano-arguments article+article{border-left:0;border-top:1px solid #aaa49a;padding-left:0}
   .piano-quote{text-align:left}
 }
+
+
+/* Second-order cluster landings */
+.cluster-landing .masthead h1{
+  font-size:clamp(76px,12vw,138px);
+  line-height:.82;
+  letter-spacing:-.075em;
+  margin-top:10px;
+}
+.cluster-lead{padding:42px 0 22px}
+.cluster-lead h2{
+  max-width:920px;
+  font-size:clamp(46px,6.8vw,84px);
+  line-height:.9;
+}
+.cluster-deck{
+  max-width:900px;
+  margin-top:20px;
+  font-size:clamp(22px,2.8vw,32px);
+  color:var(--muted);
+}
+.cluster-arguments{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  border-top:5px solid var(--ink);
+  border-bottom:1px solid var(--ink);
+  margin-top:34px;
+}
+.cluster-arguments article{min-width:0;padding:22px 22px 24px 0}
+.cluster-arguments article+article{border-left:1px solid #aaa49a;padding-left:22px}
+.cluster-arguments span{color:var(--signal);font:800 10px/1 Arial,sans-serif;letter-spacing:.13em}
+.cluster-arguments h3{margin:9px 0 10px;font-size:clamp(21px,2.2vw,28px);line-height:1.02}
+.cluster-arguments p{margin:0;font-size:16px;line-height:1.45}
+.cluster-quote{margin:38px auto 28px;max-width:820px;font-size:clamp(30px,4.3vw,54px);line-height:1.02}
+.cluster-contact{margin-bottom:34px}
+.cluster-contact .home-phone{font-size:clamp(28px,3.8vw,46px)}
+@media(max-width:700px){
+  .cluster-landing .masthead h1{font-size:clamp(58px,19vw,88px)}
+  .cluster-arguments{grid-template-columns:1fr}
+  .cluster-arguments article{padding:18px 0}
+  .cluster-arguments article+article{border-left:0;border-top:1px solid #aaa49a;padding-left:0}
+  .cluster-quote{text-align:left}
+}
