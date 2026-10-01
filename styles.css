@@ -352,3 +352,22 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   .home-scope article{padding:18px 0}
   .home-scope article+article{padding-left:0;border-left:0;border-top:1px solid #aaa49a}
 }
+
+
+/* Keep the main category rail visually continuous on wide screens */
+@media(min-width:701px){
+  .home-rent .home-family-line{
+    flex-wrap:nowrap;
+    gap:0;
+    justify-content:space-between;
+    white-space:nowrap;
+    font-size:10px;
+    letter-spacing:.1em;
+  }
+  .home-rent .home-family-line span{
+    flex:0 0 auto;
+  }
+  .home-rent .home-family-line span+span:before{
+    margin:0 10px 0 8px;
+  }
+}
