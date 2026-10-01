@@ -17,23 +17,8 @@ blockquote{margin:48px auto;max-width:900px;text-align:center;font-size:clamp(27
 footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink);padding-top:10px;font:700 11px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
 @media(max-width:700px){body{padding:22px 18px 34px}.meta{font-size:9px}.meta span:nth-child(2){display:none}.columns{columns:1}.dispatches{grid-template-columns:1fr}.dispatches article{padding:20px 0}.dispatches article+article{padding-left:0;border-left:0;border-top:1px solid #aaa49a}}
 
-.fund-door{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  border-bottom:1px solid var(--ink);
-}
-.fund-door a{
-  padding:22px 18px 24px 0;
-  color:var(--ink);
-  text-decoration:none;
-  font-size:clamp(20px,2.4vw,30px);
-  line-height:1.05;
-}
-.fund-door a+a{
-  padding-left:18px;
-  border-left:1px solid #aaa49a;
-}
-.fund-door a:hover{text-decoration:underline;text-underline-offset:4px}
+
+
 .home-contact{
   display:flex;
   align-items:baseline;
@@ -47,10 +32,3 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
 .home-contact a{color:var(--ink);text-decoration:none}
 .home-contact a:hover{text-decoration:underline;text-underline-offset:3px}
 .home-phone{font-size:22px}
-@media(max-width:700px){
-  .fund-door{grid-template-columns:1fr 1fr}
-  .fund-door a{padding:16px 12px 16px 0}
-  .fund-door a+a{padding-left:12px}
-  .fund-door a:nth-child(3){border-left:0;border-top:1px solid #aaa49a;padding-left:0}
-  .fund-door a:nth-child(4){border-top:1px solid #aaa49a}
-}
