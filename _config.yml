@@ -1,8 +1,34 @@
 title: ONTOS.RENT
-description: Газета аренды вещей · Один предмет — один сигнал
-baseurl: "/EasyMusicRent"
-url: "https://ontoslive.github.io"
+description: Инструментальный фонд исполнительской музыки
+baseurl: ""
+url: "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai"
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "synthesis"
+    values:
+      sitemap: false
+  - scope:
+      path: "synthesis-02"
+    values:
+      sitemap: false
+  - scope:
+      path: "synthesis-03"
+    values:
+      sitemap: false
+  - scope:
+      path: "archive"
+    values:
+      sitemap: false
+  - scope:
+      path: "plain-rental-01"
+    values:
+      sitemap: false
+
 exclude:
   - README.md
