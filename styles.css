@@ -71,3 +71,78 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   line-height:1.28;
 }
 .manifest-note p{margin:0}
+
+
+/* Digital piano cluster landing */
+.piano-landing .masthead h1{
+  font-size:clamp(70px,11vw,132px);
+  line-height:.82;
+  letter-spacing:-.075em;
+  margin-top:10px;
+}
+.piano-landing .tagline{
+  margin-top:14px;
+}
+.piano-lead{
+  padding:42px 0 22px;
+}
+.piano-lead h2{
+  max-width:920px;
+  font-size:clamp(46px,6.8vw,84px);
+  line-height:.9;
+}
+.piano-deck{
+  max-width:880px;
+  margin-top:20px;
+  font-size:clamp(22px,2.8vw,32px);
+  color:var(--muted);
+}
+.piano-arguments{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  border-top:5px solid var(--ink);
+  border-bottom:1px solid var(--ink);
+  margin-top:34px;
+}
+.piano-arguments article{
+  min-width:0;
+  padding:22px 22px 24px 0;
+}
+.piano-arguments article+article{
+  border-left:1px solid #aaa49a;
+  padding-left:22px;
+}
+.piano-arguments span{
+  color:var(--signal);
+  font:800 10px/1 Arial,sans-serif;
+  letter-spacing:.13em;
+}
+.piano-arguments h3{
+  margin:9px 0 10px;
+  font-size:clamp(21px,2.2vw,28px);
+  line-height:1.02;
+}
+.piano-arguments p{
+  margin:0;
+  font-size:16px;
+  line-height:1.45;
+}
+.piano-quote{
+  margin:38px auto 28px;
+  max-width:780px;
+  font-size:clamp(30px,4.3vw,54px);
+  line-height:1.02;
+}
+.piano-contact{
+  margin-bottom:34px;
+}
+.piano-contact .home-phone{
+  font-size:clamp(28px,3.8vw,46px);
+}
+@media(max-width:700px){
+  .piano-landing .masthead h1{font-size:clamp(54px,18vw,82px)}
+  .piano-arguments{grid-template-columns:1fr}
+  .piano-arguments article{padding:18px 0}
+  .piano-arguments article+article{border-left:0;border-top:1px solid #aaa49a;padding-left:0}
+  .piano-quote{text-align:left}
+}
