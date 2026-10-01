@@ -243,3 +243,55 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   .home-principles article+article{padding-left:0;border-left:0;border-top:1px solid #aaa49a}
   .home-fund-statement{text-align:left}
 }
+
+
+/* Main rental landing v2 */
+.home-rent-v2 .home-rent-lead{padding-bottom:18px}
+.home-rent-v2 .home-rent-lead h2{
+  max-width:1040px;
+  font-size:clamp(56px,7.7vw,96px);
+  line-height:.88;
+}
+.home-rent-v2 .home-rent-deck{
+  max-width:900px;
+  margin-bottom:22px;
+}
+.instrument-groups{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  border-top:5px solid var(--ink);
+  border-bottom:1px solid var(--ink);
+}
+.instrument-groups span{
+  min-width:0;
+  padding:15px 12px 16px 0;
+  font:700 clamp(14px,1.5vw,19px)/1.05 Georgia,"Times New Roman",serif;
+}
+.instrument-groups span:nth-child(n+6){border-top:1px solid #aaa49a}
+.instrument-groups span:not(:nth-child(5n+1)){
+  border-left:1px solid #aaa49a;
+  padding-left:12px;
+}
+.home-essential{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:34px;
+  padding:27px 0 6px;
+  font-size:clamp(18px,2vw,24px);
+  line-height:1.32;
+}
+.home-essential p{margin:0}
+.home-rent-quote{
+  margin:34px auto 28px;
+  max-width:850px;
+  font-size:clamp(30px,4vw,49px);
+  line-height:1.04;
+}
+@media(max-width:700px){
+  .instrument-groups{grid-template-columns:1fr 1fr}
+  .instrument-groups span{border-top:1px solid #aaa49a!important}
+  .instrument-groups span:nth-child(-n+2){border-top:0!important}
+  .instrument-groups span:nth-child(odd){border-left:0!important;padding-left:0}
+  .home-essential{grid-template-columns:1fr;gap:18px}
+  .home-rent-quote{text-align:left}
+}

@@ -1,0 +1,49 @@
+name: Migrate public contacts
+on:
+  push:
+    paths:
+      - ".github/workflows/contact-migrate.yml"
+permissions:
+  contents: write
+jobs:
+  migrate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Replace public contact data
+        shell: python
+        run: |
+          from pathlib import Path
+          replacements = {
+              "+7 906 705-54-45": "+7 (969) 053-20-96",
+              "tel:+79067055445": "tel:+79690532096",
+              "https://wa.me/79067055445": "https://wa.me/79690532096",
+              "https://t.me/EasyBassMaster": "https://t.me/MUZPROKATMOSCOW",
+              "@EasyBassMaster": "@MUZPROKATMOSCOW",
+          }
+          changed = 0
+          for p in Path(".").rglob("*"):
+              if not p.is_file() or ".git" in p.parts or p.suffix.lower() not in {".html",".md",".css",".js",".json",".csv",".txt"}:
+                  continue
+              try:
+                  s = p.read_text(encoding="utf-8")
+              except UnicodeDecodeError:
+                  continue
+              n = s
+              for old,new in replacements.items():
+                  n = n.replace(old,new)
+              if n != s:
+                  p.write_text(n,encoding="utf-8")
+                  changed += 1
+          print("Changed files:", changed)
+      - name: Commit migration
+        run: |
+          if git diff --quiet; then exit 0; fi
+          git config user.name "Ontos.Live"
+          git config user.email "ai@ontos.live"
+          git add -A
+          git commit -m "Migrate public phone and messenger contacts"
+          git push
