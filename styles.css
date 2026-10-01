@@ -354,20 +354,11 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
 }
 
 
-/* Keep the main category rail visually continuous on wide screens */
-@media(min-width:701px){
-  .home-rent .home-family-line{
-    flex-wrap:nowrap;
-    gap:0;
-    justify-content:space-between;
-    white-space:nowrap;
-    font-size:10px;
-    letter-spacing:.1em;
-  }
-  .home-rent .home-family-line span{
-    flex:0 0 auto;
-  }
-  .home-rent .home-family-line span+span:before{
-    margin:0 10px 0 8px;
-  }
+
+.home-rent-subline{
+  max-width:980px;
+  margin:10px 0 28px;
+  color:var(--ink);
+  font-size:clamp(18px,2.1vw,25px);
+  line-height:1.3;
 }
