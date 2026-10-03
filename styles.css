@@ -416,3 +416,77 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
 @media(max-width:700px){
   .home-principles{grid-template-columns:1fr}
 }
+
+
+/* Minimal signal landing experiment */
+.minimal-signal-page{
+  max-width:none;
+  min-height:100vh;
+  padding:0;
+  display:grid;
+  place-items:center;
+  background:var(--paper);
+}
+.minimal-signal{
+  width:min(1120px,100%);
+  padding:clamp(28px,6vw,78px);
+}
+.minimal-kicker{
+  margin:0 0 18px;
+  color:var(--signal);
+  font:800 12px/1.1 Arial,sans-serif;
+  letter-spacing:.16em;
+}
+.minimal-signal h1{
+  margin:0;
+  max-width:1050px;
+  text-align:left;
+  font-size:clamp(52px,9.5vw,132px);
+  line-height:.86;
+  letter-spacing:-.065em;
+}
+.minimal-contact{
+  margin-top:clamp(48px,9vw,110px);
+  padding-top:18px;
+  border-top:5px solid var(--ink);
+}
+.minimal-phone{
+  display:block;
+  color:var(--ink);
+  text-decoration:none;
+  font:700 clamp(34px,6vw,74px)/1 Georgia,"Times New Roman",serif;
+  letter-spacing:-.035em;
+}
+.minimal-channels{
+  margin-top:18px;
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+  font:800 11px/1.2 Arial,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.minimal-channels a{
+  color:var(--ink);
+  text-decoration:none;
+}
+.minimal-foot{
+  margin:clamp(60px,12vw,150px) 0 0;
+  padding-top:10px;
+  border-top:1px solid #aaa49a;
+  font:700 10px/1.2 Arial,sans-serif;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+@media(max-width:700px){
+  .minimal-signal{
+    padding:30px 20px 38px;
+  }
+  .minimal-signal h1{
+    font-size:clamp(48px,16vw,78px);
+  }
+  .minimal-phone{
+    font-size:clamp(34px,11vw,54px);
+  }
+}
