@@ -1499,3 +1499,10 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     max-width:62%;
   }
 }
+
+
+/* Restore canonical heavy footer rule on auxiliary pages */
+.minimal-signal .minimal-page-footer{
+  border-top:5px solid var(--ink);
+  padding-top:10px;
+}
