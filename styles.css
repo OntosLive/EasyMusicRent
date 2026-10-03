@@ -1074,3 +1074,45 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     font-size:10px;
   }
 }
+
+
+/* Mobile fit: preserve monumental short titles, reduce only long signals */
+.minimal-signal{
+  min-width:0;
+  max-width:100%;
+}
+.minimal-signal h1{
+  max-width:100%;
+}
+.minimal-scale,
+.minimal-scale-link,
+.minimal-utilities,
+.minimal-utility-link,
+.minimal-foot,
+.canonical-contact,
+.canonical-contact-shell{
+  min-width:0;
+  max-width:100%;
+}
+.minimal-scale-link,
+.minimal-foot{
+  overflow-wrap:break-word;
+}
+@media(max-width:700px){
+  .minimal-signal h1.minimal-title-long{
+    font-size:clamp(46px,14.2vw,70px);
+    letter-spacing:-.06em;
+  }
+  .minimal-signal h1.minimal-title-xlong{
+    font-size:clamp(43px,12.8vw,64px);
+    line-height:.88;
+    letter-spacing:-.055em;
+  }
+  .minimal-scale-link{
+    overflow-wrap:anywhere;
+  }
+  .minimal-foot{
+    font-size:9.5px;
+    line-height:1.3;
+  }
+}

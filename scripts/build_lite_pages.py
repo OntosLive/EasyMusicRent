@@ -83,6 +83,14 @@ def utility_link(href: str, icon: str, label: str) -> str:
     return f'<a class="minimal-utility-link" href="{href}"><span>{label}</span></a>'
 
 def render(title: str, deep_url: str) -> str:
+    raw_title = title
+    title_len = len(raw_title)
+    if title_len > 38:
+        title_class = " minimal-title-xlong"
+    elif title_len > 28:
+        title_class = " minimal-title-long"
+    else:
+        title_class = ""
     title = escape(title)
     deep_url = escape(deep_url, quote=True)
     scale = "".join([
@@ -104,12 +112,12 @@ def render(title: str, deep_url: str) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{title}. Музыкальный прокат. Телефон, Telegram и WhatsApp.">
   <title>{title} | ONTOS.RENT</title>
-  <link rel="stylesheet" href="/styles.css?v=20261003-contact-canon-02">
+  <link rel="stylesheet" href="/styles.css?v=20261003-mobile-fit-01">
 </head>
 <body class="minimal-signal-page">
   <main class="minimal-signal">
     <p class="minimal-kicker">ПРОСТОЙ МУЗЫКАЛЬНЫЙ ПРОКАТ</p>
-    <h1>{title}</h1>
+    <h1 class="minimal-title{title_class}">{title}</h1>
 
     <div class="canonical-contact-shell">
       <div class="home-contact home-contact-sign canonical-contact">
