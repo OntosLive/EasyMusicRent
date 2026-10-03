@@ -129,7 +129,7 @@ def render(title: str, deep_url: str) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{title}. Музыкальный прокат. Телефон, Telegram и WhatsApp.">
   <title>{title} | ONTOS.RENT</title>
-  <link rel="stylesheet" href="/styles.css?v=20261004-contact-canon-01">
+  <link rel="stylesheet" href="/styles.css?v=20261004-contact-canon-02">
 </head>
 <body class="minimal-signal-page">
   <main class="minimal-signal">
@@ -159,7 +159,7 @@ for source in sources:
     # Preserve the full page as the optional deep layer.
     deep_target = SITE / "details" / rel
     deep_target.parent.mkdir(parents=True, exist_ok=True)
-    deep_target.write_text(add_noindex(html), encoding="utf-8")
+    deep_html = re.sub(r'/styles\\.css\\?v=[^"\\\']+', '/styles.css?v=20261004-contact-canon-02', html, count=1)\n    deep_target.write_text(add_noindex(deep_html), encoding="utf-8")
 
     # Keep the original public URL, but replace its rendered artifact with the focused entry page.
     title = title_for(html)
@@ -178,7 +178,7 @@ for page in condition_pages:
     # Keep every condition page on the same stylesheet generation.
     html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261004-contact-canon-01',
+        '/styles.css?v=20261004-contact-canon-02',
         html,
         count=1,
     )
