@@ -951,3 +951,49 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     margin:0 6px;
   }
 }
+
+
+/* Focused entry cleanup v4 */
+.minimal-contact-copy{
+  justify-content:flex-start;
+  margin:clamp(48px,9vw,110px) 0 0;
+  padding-top:18px;
+  border-top:5px solid var(--ink);
+}
+.minimal-contact-copy .home-phone{
+  font-size:clamp(30px,5.2vw,60px);
+}
+.minimal-contact-copy .home-channel-icons{
+  margin-left:2px;
+}
+.minimal-scale-link,
+.minimal-utility-link{
+  gap:0;
+}
+.minimal-scale-icon,
+.minimal-utility-icon{
+  display:none!important;
+}
+@media(max-width:700px){
+  .minimal-contact-copy{
+    justify-content:flex-start;
+    gap:8px;
+    flex-wrap:nowrap;
+  }
+  .minimal-contact-copy .home-phone{
+    font-size:clamp(28px,9vw,44px);
+    white-space:nowrap;
+  }
+  .minimal-contact-copy .home-channel-icons{
+    margin-left:0;
+    gap:2px;
+  }
+  .minimal-contact-copy .home-channel-icons a{
+    width:29px;
+    height:29px;
+  }
+  .minimal-contact-copy .home-channel-icons svg{
+    width:18px;
+    height:18px;
+  }
+}
