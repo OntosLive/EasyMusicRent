@@ -166,10 +166,10 @@ def render(title: str, deep_url: str) -> str:
     <nav class="minimal-scale" aria-label="Диапазон проката">{scale}</nav>
     <nav class="minimal-utilities" aria-label="Условия и способы получения">{utilities}</nav>
 
-    <p class="minimal-foot">
-      Инструментальный фонд исполнительской музыки ·
-      <a href="{deep_url}" style="color:inherit">Подробнее</a>
-    </p>
+    <div class="minimal-foot minimal-foot-split">
+      <span>ИНСТРУМЕНТАЛЬНЫЙ ФОНД ИСПОЛНИТЕЛЬСКОЙ МУЗЫКИ</span>
+      <span><a href="{deep_url}" style="color:inherit">ПОДРОБНЕЕ</a></span>
+    </div>
   </main>
 </body>
 </html>
