@@ -76,17 +76,25 @@ def add_noindex(html: str) -> str:
         flags=re.I,
     )
 
-def feature(href: str, icon: str, label: str) -> str:
-    return f'<a class="minimal-feature" href="{href}"><span class="minimal-feature-icon" aria-hidden="true">{icon}</span><span>{label}</span></a>'
+def scale_link(href: str, label: str) -> str:
+    return f'<a class="minimal-scale-link" href="{href}">{label}</a>'
+
+def utility_link(href: str, label: str) -> str:
+    return f'<a class="minimal-utility-link" href="{href}">{label}</a>'
 
 def render(title: str, deep_url: str) -> str:
     title = escape(title)
     deep_url = escape(deep_url, quote=True)
-    features = "".join([
-        feature("/usloviya/bez-zaloga/", "○", "Без залога"),
-        feature("/usloviya/srok-arendy/", "◷", "От часа до года"),
-        feature("/usloviya/masshtab/", "◉", "От одного инструмента до оркестра"),
-        feature("/usloviya/dostavka/", "→", "Доставка по России"),
+    scale = "".join([
+        scale_link("/usloviya/ot-pervogo-zanyatiya-do-solnoy-stseny/", "От первого занятия до сольной сцены"),
+        scale_link("/usloviya/ot-odnogo-instrumenta-do-komplektatsii-orkestra/", "От одного инструмента до комплектации оркестра"),
+        scale_link("/usloviya/srok-arendy/", "От часа до года"),
+    ])
+    utilities = "".join([
+        utility_link("/usloviya/bez-zaloga/", "Без залога"),
+        utility_link("/usloviya/dostavka-po-moskve/", "Доставка по Москве"),
+        utility_link("/usloviya/dostavka-po-rossii/", "Доставка по России"),
+        utility_link("/usloviya/samovyvoz/", "Самовывоз"),
     ])
     return f"""<!doctype html>
 <html lang="ru">
@@ -111,7 +119,8 @@ def render(title: str, deep_url: str) -> str:
       </div>
     </div>
 
-    <nav class="minimal-features" aria-label="Условия проката">{features}</nav>
+    <nav class="minimal-scale" aria-label="Диапазон проката">{scale}</nav>
+    <nav class="minimal-utilities" aria-label="Условия и способы получения">{utilities}</nav>
 
     <p class="minimal-foot">
       Инструментальный фонд исполнительской музыки ·
