@@ -384,3 +384,29 @@ body{
     height:18px;
   }
 }
+
+
+/* Permanent map skeleton: unfilled nodes */
+.fund-scene-pending{
+  display:grid;
+  grid-template-columns:56px minmax(0,1fr);
+  gap:18px;
+  padding:18px 0;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+}
+.fund-scene-pending .fund-scene-no{
+  font:700 10px/1.3 Arial,sans-serif;
+  letter-spacing:.12em;
+}
+.fund-scene-pending .fund-scene-title{
+  font-size:clamp(20px,2.4vw,30px);
+  line-height:1.08;
+}
+@media(max-width:640px){
+  .fund-scene-pending{
+    grid-template-columns:38px minmax(0,1fr);
+    gap:10px;
+    padding:14px 0;
+  }
+}
