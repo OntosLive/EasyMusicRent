@@ -1277,3 +1277,27 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     font-size:clamp(36px,10.6vw,54px);
   }
 }
+
+
+/* Institutional navigation canon */
+.meta .meta-home-link{
+  color:inherit;
+  text-decoration:none;
+}
+.meta .meta-home-link:hover{
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+@media(max-width:700px){
+  .cluster-landing footer{
+    align-items:flex-start;
+    gap:18px;
+  }
+  .cluster-landing footer span:first-child{
+    max-width:70%;
+  }
+  .cluster-landing footer span:last-child{
+    flex:0 0 auto;
+    text-align:right;
+  }
+}

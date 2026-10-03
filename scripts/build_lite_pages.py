@@ -59,6 +59,15 @@ def should_include(rel: Path) -> bool:
         return False
     return p.endswith(".html")
 
+def normalize_institutional_navigation(html: str) -> str:
+    html = re.sub(
+        r'<span>АРЕНДА-МУЗЫКАЛЬНЫХ-ИНСТРУМЕНТОВ\.РФ</span>',
+        '<a class="meta-home-link" href="/">АРЕНДА-МУЗЫКАЛЬНЫХ-ИНСТРУМЕНТОВ.РФ</a>',
+        html,
+        flags=re.I,
+    )
+    return html
+
 def add_noindex(html: str) -> str:
     if re.search(r'<meta[^>]+name=["\']robots["\']', html, re.I):
         return re.sub(
@@ -129,7 +138,7 @@ def render(title: str, deep_url: str) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{title}. Музыкальный прокат. Телефон, Telegram и WhatsApp.">
   <title>{title} | ONTOS.RENT</title>
-  <link rel="stylesheet" href="/styles.css?v=20261004-contact-canon-02">
+  <link rel="stylesheet" href="/styles.css?v=20261004-expanded-canon-02">
 </head>
 <body class="minimal-signal-page">
   <main class="minimal-signal">
@@ -154,14 +163,14 @@ sources = [p for p in SITE.rglob("*.html") if should_include(p.relative_to(SITE)
 count = 0
 for source in sources:
     rel = source.relative_to(SITE)
-    html = source.read_text(encoding="utf-8", errors="ignore")
+    html = source.read_text(encoding="utf-8", errors="ignore")\n    html = normalize_institutional_navigation(html)
 
     # Preserve the full page as the optional deep layer.
     deep_target = SITE / "details" / rel
     deep_target.parent.mkdir(parents=True, exist_ok=True)
     deep_html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261004-contact-canon-02',
+        '/styles.css?v=20261004-expanded-canon-02',
         html,
         count=1,
     )
@@ -184,7 +193,7 @@ for page in condition_pages:
     # Keep every condition page on the same stylesheet generation.
     html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261004-contact-canon-02',
+        '/styles.css?v=20261004-expanded-canon-02',
         html,
         count=1,
     )
