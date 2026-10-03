@@ -1241,3 +1241,39 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   .cluster-landing .masthead h1.cluster-title-long{font-size:clamp(36px,10.2vw,50px)}
   .cluster-landing .masthead h1.cluster-title-xlong{font-size:clamp(29px,8vw,40px)}
 }
+
+
+/* Expanded thematic page canon */
+.cluster-landing .masthead h1{
+  font-size:clamp(52px,10vw,118px);
+  line-height:.88;
+  letter-spacing:-.07em;
+  margin:4px 0 0;
+  text-align:center;
+}
+.cluster-landing .masthead h1 span{color:var(--signal)}
+.cluster-landing .cluster-subject-title{
+  max-width:1040px;
+  font-size:clamp(44px,6.4vw,82px);
+  line-height:.92;
+  letter-spacing:-.045em;
+  overflow-wrap:normal;
+  word-break:normal;
+  hyphens:none;
+  text-wrap:balance;
+}
+@media(max-width:700px){
+  .cluster-landing .masthead h1{
+    font-size:clamp(54px,18vw,82px);
+  }
+  .cluster-landing .cluster-subject-title{
+    font-size:clamp(40px,12vw,62px);
+    line-height:.94;
+    letter-spacing:-.04em;
+  }
+}
+@media(max-width:430px){
+  .cluster-landing .cluster-subject-title{
+    font-size:clamp(36px,10.6vw,54px);
+  }
+}
