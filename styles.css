@@ -1389,3 +1389,27 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     font-size:clamp(50px,13vw,60px);
   }
 }
+
+
+/* Deep footer link: public wording, never internal architecture */
+.cluster-landing footer span:last-child{
+  flex:0 0 auto;
+  max-width:44%;
+  text-align:right;
+}
+.cluster-landing footer span:last-child a{
+  white-space:nowrap;
+}
+@media(max-width:430px){
+  .cluster-landing footer{
+    gap:12px;
+  }
+  .cluster-landing footer span:first-child{
+    max-width:58%;
+  }
+  .cluster-landing footer span:last-child{
+    max-width:40%;
+    font-size:9px;
+    letter-spacing:.09em;
+  }
+}
