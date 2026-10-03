@@ -1475,3 +1475,27 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     max-width:62%;
   }
 }
+
+
+/* Auxiliary pages reuse the site footer canon */
+.minimal-signal .minimal-page-footer{
+  margin-top:34px;
+}
+.minimal-signal .minimal-page-footer span:last-child{
+  text-align:right;
+  white-space:nowrap;
+}
+.minimal-signal .minimal-page-footer a{
+  color:inherit;
+  text-decoration:underline;
+  text-underline-offset:2px;
+}
+@media(max-width:520px){
+  .minimal-signal .minimal-page-footer{
+    gap:12px;
+    align-items:flex-start;
+  }
+  .minimal-signal .minimal-page-footer span:first-child{
+    max-width:62%;
+  }
+}
