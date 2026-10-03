@@ -159,7 +159,13 @@ for source in sources:
     # Preserve the full page as the optional deep layer.
     deep_target = SITE / "details" / rel
     deep_target.parent.mkdir(parents=True, exist_ok=True)
-    deep_html = re.sub(r'/styles\\.css\\?v=[^"\\\']+', '/styles.css?v=20261004-contact-canon-02', html, count=1)\n    deep_target.write_text(add_noindex(deep_html), encoding="utf-8")
+    deep_html = re.sub(
+        r'/styles\.css\?v=[^"\']+',
+        '/styles.css?v=20261004-contact-canon-02',
+        html,
+        count=1,
+    )
+    deep_target.write_text(add_noindex(deep_html), encoding="utf-8")
 
     # Keep the original public URL, but replace its rendered artifact with the focused entry page.
     title = title_for(html)
