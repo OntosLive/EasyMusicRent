@@ -1441,3 +1441,37 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     letter-spacing:.09em;
   }
 }
+
+
+/* Auxiliary page split footer canon */
+.minimal-signal .minimal-foot-split{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  align-items:start;
+  gap:18px;
+  padding-top:18px;
+  border-top:1px solid var(--line);
+  font:700 10px/1.25 Arial,sans-serif;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.minimal-signal .minimal-foot-split > span:first-child{
+  max-width:560px;
+}
+.minimal-signal .minimal-foot-split > span:last-child{
+  text-align:right;
+  white-space:nowrap;
+}
+.minimal-signal .minimal-foot-split a{
+  text-decoration:underline;
+  text-underline-offset:2px;
+}
+@media(max-width:520px){
+  .minimal-signal .minimal-foot-split{
+    grid-template-columns:minmax(0,1fr) auto;
+    gap:12px;
+  }
+  .minimal-signal .minimal-foot-split > span:first-child{
+    max-width:62%;
+  }
+}
