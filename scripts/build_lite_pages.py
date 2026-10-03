@@ -24,6 +24,22 @@ def clean_html_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 def title_for(html: str) -> str:
+    # N.0 and N.1 have different semantic contracts.
+    # If a source declares search-title, use it for the public access page.
+    search = re.search(
+        r'<meta[^>]+name=["\']search-title["\'][^>]+content=["\'](.*?)["\'][^>]*>',
+        html,
+        re.I | re.S,
+    )
+    if not search:
+        search = re.search(
+            r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']search-title["\'][^>]*>',
+            html,
+            re.I | re.S,
+        )
+    if search:
+        return clean_html_text(search.group(1))
+
     m = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
     title = clean_html_text(m.group(1)) if m else ""
     if "|" in title:
@@ -138,7 +154,7 @@ def render(title: str, deep_url: str) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{title}. Музыкальный прокат. Телефон, Telegram и WhatsApp.">
   <title>{title} | ONTOS.RENT</title>
-  <link rel="stylesheet" href="/styles.css?v=20261004-expanded-canon-02">
+  <link rel="stylesheet" href="/styles.css?v=20261004-semantic-split-01">
 </head>
 <body class="minimal-signal-page">
   <main class="minimal-signal">
@@ -171,7 +187,7 @@ for source in sources:
     deep_target.parent.mkdir(parents=True, exist_ok=True)
     deep_html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261004-expanded-canon-02',
+        '/styles.css?v=20261004-semantic-split-01',
         html,
         count=1,
     )
@@ -194,7 +210,7 @@ for page in condition_pages:
     # Keep every condition page on the same stylesheet generation.
     html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261004-expanded-canon-02',
+        '/styles.css?v=20261004-semantic-split-01',
         html,
         count=1,
     )
