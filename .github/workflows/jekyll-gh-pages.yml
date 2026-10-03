@@ -35,6 +35,9 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Build lightweight entry variants
+        run: python3 scripts/build_lite_pages.py
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
