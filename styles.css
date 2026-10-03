@@ -1220,3 +1220,24 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     letter-spacing:-.055em;
   }
 }
+
+
+/* L1 category masthead canon: wrap only between words */
+.cluster-landing .masthead h1{
+  width:100%;
+  max-width:100%;
+  overflow-wrap:normal;
+  word-break:normal;
+  hyphens:none;
+  text-wrap:balance;
+}
+.cluster-landing .masthead h1.cluster-title-short{font-size:clamp(76px,12vw,138px)}
+.cluster-landing .masthead h1.cluster-title-medium{font-size:clamp(66px,10vw,118px)}
+.cluster-landing .masthead h1.cluster-title-long{font-size:clamp(54px,8vw,94px)}
+.cluster-landing .masthead h1.cluster-title-xlong{font-size:clamp(46px,6.6vw,78px)}
+@media(max-width:700px){
+  .cluster-landing .masthead h1.cluster-title-short{font-size:clamp(50px,16vw,78px)}
+  .cluster-landing .masthead h1.cluster-title-medium{font-size:clamp(44px,13vw,64px)}
+  .cluster-landing .masthead h1.cluster-title-long{font-size:clamp(36px,10.2vw,50px)}
+  .cluster-landing .masthead h1.cluster-title-xlong{font-size:clamp(29px,8vw,40px)}
+}
