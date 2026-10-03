@@ -129,7 +129,7 @@ def render(title: str, deep_url: str) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{title}. Музыкальный прокат. Телефон, Telegram и WhatsApp.">
   <title>{title} | ONTOS.RENT</title>
-  <link rel="stylesheet" href="/styles.css?v=20261003-canon-pass-01">
+  <link rel="stylesheet" href="/styles.css?v=20261004-contact-canon-01">
 </head>
 <body class="minimal-signal-page">
   <main class="minimal-signal">
@@ -178,7 +178,7 @@ for page in condition_pages:
     # Keep every condition page on the same stylesheet generation.
     html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261003-canon-pass-01',
+        '/styles.css?v=20261004-contact-canon-01',
         html,
         count=1,
     )

@@ -1126,3 +1126,68 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     letter-spacing:-.05em;
   }
 }
+
+
+/* Contact canon: one phone + Telegram + WhatsApp gesture everywhere */
+.home-contact.home-contact-sign,
+.canonical-contact{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  flex-wrap:nowrap;
+  font-family:Arial,sans-serif;
+}
+.home-contact.home-contact-sign .home-phone,
+.canonical-contact .home-phone{
+  color:var(--ink);
+  text-decoration:none;
+  font-family:Arial,sans-serif;
+  font-weight:600;
+  font-size:clamp(28px,3.8vw,46px);
+  line-height:1;
+  letter-spacing:-.025em;
+  white-space:nowrap;
+}
+.home-contact.home-contact-sign .home-channel-icons,
+.canonical-contact .home-channel-icons{
+  display:flex;
+  align-items:center;
+  gap:2px;
+  flex:0 0 auto;
+  margin-left:2px;
+}
+.home-contact.home-contact-sign .home-channel-icons a,
+.canonical-contact .home-channel-icons a{
+  width:30px;
+  height:30px;
+  display:grid;
+  place-items:center;
+  color:var(--ink);
+  text-decoration:none;
+}
+.home-contact.home-contact-sign .home-channel-icons svg,
+.canonical-contact .home-channel-icons svg{
+  width:20px;
+  height:20px;
+  fill:currentColor;
+  display:block;
+}
+@media(max-width:700px){
+  .home-contact.home-contact-sign,
+  .canonical-contact{gap:8px}
+  .home-contact.home-contact-sign .home-phone,
+  .canonical-contact .home-phone{
+    font-size:clamp(27px,8.4vw,42px);
+  }
+  .home-contact.home-contact-sign .home-channel-icons a,
+  .canonical-contact .home-channel-icons a{
+    width:29px;
+    height:29px;
+  }
+  .home-contact.home-contact-sign .home-channel-icons svg,
+  .canonical-contact .home-channel-icons svg{
+    width:18px;
+    height:18px;
+  }
+}
