@@ -154,7 +154,7 @@ def render(title: str, deep_url: str) -> str:
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="{title}. Музыкальный прокат. Телефон, Telegram и WhatsApp.">
   <title>{title} | ONTOS.RENT</title>
-  <link rel="stylesheet" href="/styles.css?v=20261004-semantic-split-01">
+  <link rel="stylesheet" href="/styles.css?v=20261004-footer-canon-01">
 </head>
 <body class="minimal-signal-page">
   <main class="minimal-signal">
@@ -166,10 +166,10 @@ def render(title: str, deep_url: str) -> str:
     <nav class="minimal-scale" aria-label="Диапазон проката">{scale}</nav>
     <nav class="minimal-utilities" aria-label="Условия и способы получения">{utilities}</nav>
 
-    <div class="minimal-foot minimal-foot-split">
+    <footer class="site-footer">
       <span>ИНСТРУМЕНТАЛЬНЫЙ ФОНД ИСПОЛНИТЕЛЬСКОЙ МУЗЫКИ</span>
       <span><a href="{deep_url}" style="color:inherit">ПОДРОБНЕЕ</a></span>
-    </div>
+    </footer>
   </main>
 </body>
 </html>
@@ -187,7 +187,7 @@ for source in sources:
     deep_target.parent.mkdir(parents=True, exist_ok=True)
     deep_html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261004-semantic-split-01',
+        '/styles.css?v=20261004-footer-canon-01',
         html,
         count=1,
     )
@@ -210,7 +210,7 @@ for page in condition_pages:
     # Keep every condition page on the same stylesheet generation.
     html = re.sub(
         r'/styles\.css\?v=[^"\']+',
-        '/styles.css?v=20261004-semantic-split-01',
+        '/styles.css?v=20261004-footer-canon-01',
         html,
         count=1,
     )
@@ -225,7 +225,7 @@ for page in condition_pages:
 
     # Replace every legacy condition-page contact generation with the shared canonical line.
     html = re.sub(
-        r'<div class="minimal-contact">[\s\S]*?</div>\s*(?=<div class="minimal-foot minimal-foot-split")',
+        r'<div class="minimal-contact">[\s\S]*?</div>\s*(?=<footer class="site-footer")',
         canonical_contact_html(),
         html,
         count=1,
