@@ -88,8 +88,8 @@ def render(title: str, deep_url: str) -> str:
     scale = "".join([
         scale_link("/usloviya/ot-pervogo-zanyatiya-do-solnoy-stseny/", "↗", "Ученические и профессиональные"),
         scale_link("/usloviya/ot-odnogo-instrumenta-do-komplektatsii-orkestra/", "◎", "От единицы до комплектации оркестра"),
-        scale_link("/usloviya/srok-arendy/", "◷", "Любой срок — от часа до года"),
-        scale_link("/usloviya/stsena-zapis-semki/", "●", "Сцена, запись, съёмки"),
+        scale_link("/usloviya/srok-arendy/", "◷", "Любой срок — от дня до года"),
+        scale_link("/usloviya/stsena-zapis-semki/", "●", "Сцена · запись · фото · реквизит"),
     ])
     utilities = "".join([
         utility_link("/usloviya/bez-zaloga/", "○", "Без залога"),
