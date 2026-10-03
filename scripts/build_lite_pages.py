@@ -225,7 +225,7 @@ for page in condition_pages:
 
     # Replace every legacy condition-page contact generation with the shared canonical line.
     html = re.sub(
-        r'<div class="minimal-contact">[\s\S]*?</div>\s*(?=<p class="minimal-foot">)',
+        r'<div class="minimal-contact">[\s\S]*?</div>\s*(?=<(?:p|div) class="minimal-foot(?:\s|"))',
         canonical_contact_html(),
         html,
         count=1,
