@@ -598,3 +598,121 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     margin:0 7px;
   }
 }
+
+
+/* Focused entry refinement: lighter contact and range geometry */
+.minimal-contact{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  flex-wrap:wrap;
+}
+.minimal-phone{
+  flex:0 1 auto;
+}
+.minimal-channel-icons{
+  display:flex;
+  align-items:center;
+  gap:3px;
+  margin-top:2px;
+}
+.minimal-channel-icons a{
+  width:30px;
+  height:30px;
+  display:grid;
+  place-items:center;
+  color:#77736c;
+  text-decoration:none;
+}
+.minimal-channel-icons svg{
+  width:17px;
+  height:17px;
+  fill:currentColor;
+  display:block;
+}
+.minimal-channel-icons a:hover{
+  color:var(--ink);
+}
+.minimal-scale{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:0;
+}
+.minimal-scale-link{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:14px 14px 14px 0;
+}
+.minimal-scale-link+.minimal-scale-link{
+  border-top:0;
+  border-left:1px solid #d0cbc1;
+  padding-left:14px;
+}
+.minimal-scale-icon{
+  flex:0 0 auto;
+  width:25px;
+  height:25px;
+  display:grid;
+  place-items:center;
+  color:#77736c;
+  border:1px solid #aaa49a;
+  border-radius:50%;
+  font:700 13px/1 Georgia,"Times New Roman",serif;
+}
+.minimal-utilities{
+  margin-top:9px;
+  color:#77736c;
+}
+.minimal-utility-link{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+}
+.minimal-utility-icon{
+  color:#9a958d;
+  font:700 11px/1 Georgia,"Times New Roman",serif;
+}
+@media(max-width:700px){
+  .minimal-contact{
+    gap:8px;
+    flex-wrap:nowrap;
+  }
+  .minimal-phone{
+    font-size:clamp(31px,10.2vw,49px);
+    letter-spacing:-.045em;
+    white-space:nowrap;
+  }
+  .minimal-channel-icons{
+    gap:0;
+    margin-left:auto;
+  }
+  .minimal-channel-icons a{
+    width:25px;
+    height:25px;
+  }
+  .minimal-channel-icons svg{
+    width:15px;
+    height:15px;
+  }
+  .minimal-scale{
+    grid-template-columns:1fr;
+  }
+  .minimal-scale-link{
+    padding:10px 0;
+    gap:8px;
+  }
+  .minimal-scale-link+.minimal-scale-link{
+    border-left:0;
+    border-top:1px solid #d0cbc1;
+    padding-left:0;
+  }
+  .minimal-scale-icon{
+    width:21px;
+    height:21px;
+    font-size:11px;
+  }
+  .minimal-utilities{
+    line-height:1.75;
+  }
+}
