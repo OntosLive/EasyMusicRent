@@ -716,3 +716,111 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
     line-height:1.75;
   }
 }
+
+
+/* Focused entry layout v2: utility table first, scale list second */
+.minimal-channel-icons{
+  gap:4px;
+  margin-left:2px;
+}
+.minimal-channel-icons a{
+  width:34px;
+  height:34px;
+  color:#77736c;
+}
+.minimal-channel-icons svg{
+  width:21px;
+  height:21px;
+}
+.minimal-utilities{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  margin-top:clamp(34px,6vw,72px);
+  border-top:1px solid #aaa49a;
+  border-bottom:1px solid #aaa49a;
+  font:800 10px/1.2 Arial,sans-serif;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--ink);
+}
+.minimal-utility-link{
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:14px 12px 14px 0;
+  color:var(--ink);
+  text-decoration:none;
+}
+.minimal-utility-link:nth-child(even){
+  border-left:1px solid #aaa49a;
+  padding-left:12px;
+}
+.minimal-utility-link:nth-child(n+3){
+  border-top:1px solid #aaa49a;
+}
+.minimal-utility-link+.minimal-utility-link:before{
+  content:none;
+}
+.minimal-utility-icon{
+  flex:0 0 auto;
+  width:26px;
+  height:26px;
+  display:grid;
+  place-items:center;
+  border:1px solid #aaa49a;
+  border-radius:50%;
+  color:#77736c;
+  font:700 12px/1 Georgia,"Times New Roman",serif;
+}
+.minimal-scale{
+  display:grid;
+  grid-template-columns:1fr;
+  margin-top:18px;
+  border-top:1px solid #aaa49a;
+  border-bottom:1px solid #aaa49a;
+}
+.minimal-scale-link{
+  padding:11px 0;
+  border-left:0!important;
+}
+.minimal-scale-link+.minimal-scale-link{
+  border-top:1px solid #d0cbc1;
+  padding-left:0;
+}
+.minimal-scale-icon{
+  width:23px;
+  height:23px;
+}
+@media(max-width:700px){
+  .minimal-channel-icons a{
+    width:31px;
+    height:31px;
+  }
+  .minimal-channel-icons svg{
+    width:19px;
+    height:19px;
+  }
+  .minimal-utilities{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    margin-top:30px;
+  }
+  .minimal-utility-link{
+    min-height:58px;
+    padding:11px 8px 11px 0;
+    gap:8px;
+    font-size:9px;
+    line-height:1.15;
+  }
+  .minimal-utility-link:nth-child(even){
+    padding-left:10px;
+  }
+  .minimal-utility-icon{
+    width:24px;
+    height:24px;
+    font-size:11px;
+  }
+  .minimal-scale{
+    margin-top:18px;
+  }
+}

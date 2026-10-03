@@ -118,8 +118,8 @@ def render(title: str, deep_url: str) -> str:
       </div>
     </div>
 
-    <nav class="minimal-scale" aria-label="Диапазон проката">{scale}</nav>
     <nav class="minimal-utilities" aria-label="Условия и способы получения">{utilities}</nav>
+    <nav class="minimal-scale" aria-label="Диапазон проката">{scale}</nav>
 
     <p class="minimal-foot">
       Инструментальный фонд исполнительской музыки ·
