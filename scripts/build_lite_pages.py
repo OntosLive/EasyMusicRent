@@ -163,7 +163,8 @@ sources = [p for p in SITE.rglob("*.html") if should_include(p.relative_to(SITE)
 count = 0
 for source in sources:
     rel = source.relative_to(SITE)
-    html = source.read_text(encoding="utf-8", errors="ignore")\n    html = normalize_institutional_navigation(html)
+    html = source.read_text(encoding="utf-8", errors="ignore")
+    html = normalize_institutional_navigation(html)
 
     # Preserve the full page as the optional deep layer.
     deep_target = SITE / "details" / rel
