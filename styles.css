@@ -999,21 +999,38 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
 }
 
 
-/* Focused entry contact v5: restore previous text-channel composition */
-.minimal-contact-text{
+
+/* Canonical contact line: same gesture on deep and focused pages */
+.canonical-contact-shell{
+  margin-top:clamp(48px,9vw,110px);
+  padding-top:18px;
+  border-top:5px solid var(--ink);
+}
+.canonical-contact{
+  margin:0 auto 34px;
+}
+.canonical-contact .home-phone{
+  font-size:clamp(28px,3.8vw,46px);
+}
+.canonical-contact .home-channel-icons{
+  margin-left:2px;
+}
+
+/* Legacy condition pages: isolate the old contact markup from later grid experiments */
+.minimal-signal > .minimal-contact{
+  display:block;
   margin:clamp(48px,9vw,110px) 0 0;
   padding-top:18px;
   border-top:5px solid var(--ink);
 }
-.minimal-phone-text{
+.minimal-signal > .minimal-contact > .minimal-phone{
   display:block;
-  color:var(--ink);
-  text-decoration:none;
+  text-align:left;
   font:700 clamp(34px,6vw,74px)/1 Georgia,"Times New Roman",serif;
   letter-spacing:-.035em;
   white-space:nowrap;
 }
-.minimal-channels-text{
+.minimal-signal > .minimal-contact > .minimal-channels{
   margin-top:18px;
   display:flex;
   align-items:center;
@@ -1022,21 +1039,36 @@ footer{display:flex;justify-content:space-between;border-top:5px solid var(--ink
   letter-spacing:.12em;
   text-transform:uppercase;
 }
-.minimal-channels-text a{
-  color:var(--ink);
-  text-decoration:none;
-}
-.minimal-channels-text span{
+.minimal-signal > .minimal-contact > .minimal-channels span{
   color:var(--signal);
 }
-.minimal-scale-link br{
-  display:block;
-}
+.minimal-scale-link br{display:block}
+.minimal-utility-link:visited{color:var(--ink)}
 @media(max-width:700px){
-  .minimal-phone-text{
+  .canonical-contact{
+    flex-wrap:nowrap;
+    gap:8px;
+  }
+  .canonical-contact .home-phone{
+    font-size:clamp(27px,8.4vw,42px);
+    white-space:nowrap;
+  }
+  .canonical-contact .home-channel-icons{
+    flex:0 0 auto;
+    gap:2px;
+  }
+  .canonical-contact .home-channel-icons a{
+    width:29px;
+    height:29px;
+  }
+  .canonical-contact .home-channel-icons svg{
+    width:18px;
+    height:18px;
+  }
+  .minimal-signal > .minimal-contact > .minimal-phone{
     font-size:clamp(34px,11vw,54px);
   }
-  .minimal-channels-text{
+  .minimal-signal > .minimal-contact > .minimal-channels{
     margin-top:14px;
     gap:10px;
     font-size:10px;
