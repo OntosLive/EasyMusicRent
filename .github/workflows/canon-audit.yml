@@ -1,0 +1,27 @@
+name: Canon audit snapshot
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/canon-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Snapshot tracked sources and check Python syntax
+        run: |
+          mkdir -p /tmp/canon-audit
+          git archive --format=tar.gz HEAD > /tmp/canon-audit/source.tar.gz
+          git rev-parse HEAD > /tmp/canon-audit/source-sha.txt
+          python3 -m compileall -q scripts
+          find docs -maxdepth 2 -type f | sort
+      - uses: actions/upload-artifact@v4
+        with:
+          name: canon-source-snapshot
+          path: /tmp/canon-audit/
+          retention-days: 7
