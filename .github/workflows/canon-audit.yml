@@ -1,26 +1,47 @@
-name: Canon audit snapshot
+name: Canon audit
 on:
   push:
     branches: [main]
     paths:
       - '.github/workflows/canon-audit.yml'
+      - 'scripts/**'
+      - 'assets/**'
+      - 'content/**'
+      - 'tests/**'
+      - 'requirements-site.txt'
   workflow_dispatch:
 permissions:
   contents: read
+concurrency:
+  group: canon-audit
+  cancel-in-progress: true
 jobs:
-  snapshot:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Snapshot tracked sources and check Python syntax
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install compiler dependency
+        run: python -m pip install -r requirements-site.txt
+      - name: Compile and test
+        run: |
+          python -m compileall -q scripts tests
+          python -m unittest discover -s tests -v
+          python scripts/site_core.py --output _preview
+          python scripts/validate_site.py --site _preview
+      - name: Snapshot exact tested sources
+        if: always()
         run: |
           mkdir -p /tmp/canon-audit
           git archive --format=tar.gz HEAD > /tmp/canon-audit/source.tar.gz
           git rev-parse HEAD > /tmp/canon-audit/source-sha.txt
-          python3 -m compileall -q scripts
-          find docs -maxdepth 2 -type f | sort
+          if [ -d _audit ]; then cp -r _audit /tmp/canon-audit/; fi
+          if [ -d _preview ]; then tar -czf /tmp/canon-audit/preview.tar.gz -C _preview .; fi
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: canon-source-snapshot
           path: /tmp/canon-audit/
