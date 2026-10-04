@@ -9,7 +9,10 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import site_core as core
 
-LAYERS = ('92-electronic-subcategories.json', '93-historical-subcategories.json')
+LAYERS = (
+    '92-electronic-subcategories.json', '93-historical-subcategories.json',
+    '95-special-subcategories.json', '96-regional-subcategories.json',
+)
 
 
 class ResumedContentTests(unittest.TestCase):
@@ -55,7 +58,7 @@ class ResumedContentTests(unittest.TestCase):
                     self.assertTrue(record.get('sources'))
 
     def test_completed_parent_grids_have_no_inactive_cells(self):
-        for slug in ('elektronnye', 'istoricheskie'):
+        for slug in ('elektronnye', 'istoricheskie', 'redkie-eksperimentalnye', 'traditsionnye'):
             with self.subTest(slug=slug):
                 deep = self.page('/details/' + slug + '/')
                 self.assertIsNotNone(deep.select_one('#razdely'))
@@ -66,6 +69,10 @@ class ResumedContentTests(unittest.TestCase):
             'elektronnye': {'sintezatory', 'midi-klaviatury', 'elektricheskaya-arfa'},
             'istoricheskie': {'istoricheskie-klavishnye', 'klavesin', 'klavikord',
                               'istoricheskoe-fortepiano', 'istoricheskaya-arfa', 'lyutnya', 'teorba'},
+            'redkie-eksperimentalnye': {'handpan', 'glyukofon', 'udu'},
+            'traditsionnye': {'domra', 'balalayka', 'gusli', 'ud',
+                             'indiyskie-muzykalnye-instrumenty', 'kavkazskie-muzykalnye-instrumenty',
+                             'sredneaziatskie-muzykalnye-instrumenty', 'blizhnevostochnye-muzykalnye-instrumenty'},
         }
         for parent, children in expected.items():
             actual = {core.url_slug(a['href']) for a in self.page('/details/' + parent + '/').select('#razdely a[href]')}
