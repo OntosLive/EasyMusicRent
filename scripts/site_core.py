@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile access/editorial pairs from preserved legacy copy and authored records.
+"""Compile access/editorial pairs from preserved copy and authored records.
 
 Legacy HTML supplies content, not competing layouts. Every active output uses
 one frame, contact, footer and stylesheet. Internal sources are never published.
@@ -101,7 +101,7 @@ def read_legacy(root: Path, metadata: dict) -> dict[str, Page]:
     paths = [root / 'index.html', *sorted(root.glob('*/index.html'))]
     for path in paths:
         slug = '' if path.parent == root else path.parent.name
-        if slug in INTERNAL | EXPERIMENTS or slug == 'fond':
+        if slug.startswith(('_', '.')) or slug in INTERNAL | EXPERIMENTS or slug == 'fond':
             continue
         doc = soup(path.read_text(encoding='utf-8'))
         if doc.find('meta', attrs={'http-equiv': re.compile('refresh', re.I)}):
@@ -166,15 +166,23 @@ def merge_records(root: Path, pages: dict[str, Page]) -> None:
                 for key in ('search_title', 'editorial_title', 'description', 'kicker', 'intro', 'blocks', 'quote', 'parent', 'sources'):
                     if key in record:
                         setattr(existing, key, record[key])
+                existing.intro.extend(record.get('append_intro', []))
+                existing.blocks.extend(record.get('append_blocks', []))
                 existing.reviewed = True
                 existing.provenance += ' + ' + str(path.relative_to(root))
             else:
+                if existing:
+                    raise ValueError(f'{path}: existing subject {slug} requires mode=enrich')
                 required = ('search_title', 'editorial_title', 'description', 'kicker', 'intro', 'blocks')
                 for key in required:
                     if not record.get(key):
                         raise ValueError(f'{slug}: missing authored {key}')
                 pages[slug] = Page(**{k: record[k] for k in Page.__dataclass_fields__ if k in record and k not in {'provenance', 'reviewed'}},
                                    provenance=str(path.relative_to(root)), reviewed=True)
+        for parent, replacements in document.get('navigation_replace', {}).items():
+            if parent not in pages:
+                raise ValueError(f'{path}: missing navigation parent {parent}')
+            pages[parent].links = replacements
         for parent, additions in document.get('navigation', {}).items():
             if parent not in pages:
                 raise ValueError(f'{path}: missing navigation parent {parent}')
@@ -258,7 +266,7 @@ def masthead() -> str:
 
 
 def title_style(value: str) -> str:
-    # Conservative bound for the longest whole word, never arbitrary word breaks.
+    # Bound the longest whole word rather than break it at arbitrary letters.
     words = re.findall(r'[^\s]+', value)
     widest = max((sum(1.02 if c in 'ЖШЩМЮЫW@' else .83 if c.isupper() else .75 if c in 'жшщмюы' else .64 for c in word) for word in words), default=1)
     return f'--word-em:{widest:.2f};--title-vw:{9.8 if len(value)>100 else 11.6 if len(value)>65 else 13}'
@@ -350,6 +358,7 @@ def build(root: Path, output: Path) -> dict:
     connect(pages,aliases)
     icons = icon_paths(root)
     output.mkdir(parents=True,exist_ok=True)
+    (output/'.nojekyll').write_text('',encoding='utf-8')
     for directory in INTERNAL | (EXPERIMENTS - {'details'}):
         shutil.rmtree(output/directory,ignore_errors=True)
     for artifact in ('README.md', 'Gemfile', 'Gemfile.lock', 'requirements-site.txt'):
