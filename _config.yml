@@ -8,27 +8,26 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
 
-defaults:
-  - scope:
-      path: "synthesis"
-    values:
-      sitemap: false
-  - scope:
-      path: "synthesis-02"
-    values:
-      sitemap: false
-  - scope:
-      path: "synthesis-03"
-    values:
-      sitemap: false
-  - scope:
-      path: "archive"
-    values:
-      sitemap: false
-  - scope:
-      path: "plain-rental-01"
-    values:
-      sitemap: false
-
+# These remain in Git. They are sources and research, never website pages.
 exclude:
   - README.md
+  - docs
+  - data
+  - content
+  - scripts
+  - tests
+  - prompts
+  - tools
+  - ops
+  - node_modules
+  - requirements-site.txt
+  - requirements-test.txt
+  - Gemfile
+  - Gemfile.lock
+  - archive
+  - synthesis
+  - synthesis-02
+  - synthesis-03
+  - plain-rental-01
+  - lab
+  - lite
