@@ -88,15 +88,17 @@
     },
     {
       "slug": "gewa-ideale-skripka-v-arendu",
-      "parent": "skripka",
-      "search_title": "Скрипка GEWA Ideale в аренду",
-      "editorial_title": "GEWA Ideale: следующий серийный уровень без обязательного перехода на полный размер",
-      "description": "GEWA Ideale violin: lightly flamed serial line available in 1/4, 1/2, 3/4 and 4/4.",
-      "kicker": "GEWA IDEALE · 1/4–4/4 · STEP-UP",
-      "intro": [
+      "sources": [
+        {
+          "title": "GEWA: Ideale violin variants 1/4–4/4",
+          "url": "https://www.gewamusic.com/en/products?categoryEntityId=21133"
+        }
+      ],
+      "mode": "enrich",
+      "append_intro": [
         "<p>Ideale существует внутри той же GEWA-экосистемы, но доступна в 1/4, 1/2, 3/4 и 4/4. Это важно для продвинутого ребёнка: более высокий серийный уровень можно пробовать, оставаясь в правильном дробном размере.</p>"
       ],
-      "blocks": [
+      "append_blocks": [
         {
           "label": "01 / STEP-UP",
           "title": "Переход проверяют на реальной программе, а не по названию серии",
@@ -117,13 +119,6 @@
           "paragraphs": [
             "Даже более высокая серия должна быть подготовлена: подставка, струны, колки и смычок. Сравнивать плохо настроенную Ideale с хорошо подготовленной Allegro бессмысленно."
           ]
-        }
-      ],
-      "quote": "Какое конкретное качество текущей скрипки должна улучшить Ideale?",
-      "sources": [
-        {
-          "title": "GEWA: Ideale violin variants 1/4–4/4",
-          "url": "https://www.gewamusic.com/en/products?categoryEntityId=21133"
         }
       ]
     },
