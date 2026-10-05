@@ -44,7 +44,7 @@ class OrffFirstElectricTests(unittest.TestCase):
     def test_inventory_and_counts(self):
         result = inventory.inspect(ROOT)
         self.assertEqual(result['errors'], [])
-        self.assertEqual(result['subjects'],1115)
+        self.assertEqual(result['subjects'],1121)
         self.assertEqual(len(self.new), 28)
         self.assertEqual(len({p['slug'] for p in self.new}), 28)
         self.assertEqual(len(self.enrich), 7)
