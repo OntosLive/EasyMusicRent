@@ -1,0 +1,76 @@
+{
+  "pages": [
+    {
+      "slug": "jupiter-jts700-v-arendu",
+      "parent": "saksofon-tenor",
+      "search_title": "Саксофон-тенор Jupiter JTS700 в аренду",
+      "editorial_title": "Jupiter JTS700: ученический тенор с запасом регулируемой механики",
+      "description": "Jupiter JTS700: beginner B-flat tenor saxophone with high F#, adjustable palm keys/thumb rest and student-durability design.",
+      "kicker": "JUPITER JTS700 · TENOR · BEGINNER",
+      "intro": [
+        "<p>JTS700 Jupiter описывает теми же словами, что и альтовый JAS700: beginner instrument with advanced features. Для тенора это особенно важно, потому что более крупный корпус быстрее выявляет неудобство левой таблицы, palm keys и положения большого пальца.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РУКИ",
+          "title": "Регулируемые palm keys и thumb rest помогают подстроить большую механику под исполнителя",
+          "paragraphs": [
+            "На пробе ученик проходит средний регистр и несколько верхних аппликатур, сохраняя положение кистей. Если ладонь вынужденно раскрывается или большой палец несёт слишком много веса, регулировка должна происходить до музыкальной оценки."
+          ]
+        },
+        {
+          "label": "02 / ДОЛГОВЕЧНОСТЬ",
+          "title": "Student ownership входит в конструктивную задачу модели",
+          "paragraphs": [
+            "Jupiter прямо подчёркивает прочность JTS700 для ученической эксплуатации. В фонде это полезно только вместе с сервисом: ровная механика, герметичные подушки и исправная шейка проверяются перед каждым новым циклом."
+          ]
+        },
+        {
+          "label": "03 / СРАВНЕНИЕ",
+          "title": "YTS-280 и JTS700 показывают два устойчивых пути первого тенора",
+          "paragraphs": [
+            "Yamaha 280 делает акцент на лёгкости, эргономике и простом старте; Jupiter 700 добавляет регулируемые элементы и запас механики. На одной трости и мундштуке преподаватель может увидеть, какой корпус меньше отвлекает ученика от дыхания и ритма."
+          ]
+        }
+      ],
+      "quote": "Что на первом теноре важнее этому ученику: минимальная сложность или больше регулируемой механики для роста?",
+      "sources": [
+        {
+          "title": "Jupiter: JTS700 Tenor Saxophone",
+          "url": "https://jupitermusic.com/international/product_detail.aspx?id=JTS700"
+        },
+        {
+          "title": "Yamaha: Student 280 Series saxophones",
+          "url": "https://europe.yamaha.com/files/download/brochure/1/325911/student_line.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-yts280-v-arendu",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>В учебной линейке Yamaha YTS‑280 описан как инструмент, созданный с молодым начинающим в виду: относительно лёгкий, эргономичный и простой в удержании. В паре с Jupiter JTS700 он даёт полезное сравнение двух серийных подходов к первому тенор-саксофону.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha: Complete Student Range — YAS/YTS-280",
+          "url": "https://europe.yamaha.com/files/download/brochure/1/325911/student_line.pdf"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "saksofon-tenor": [
+      {
+        "label": "Jupiter JTS700",
+        "href": "/jupiter-jts700-v-arendu/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Jupiter JTS700",
+        "href": "/jupiter-jts700-v-arendu/"
+      }
+    ]
+  }
+}
