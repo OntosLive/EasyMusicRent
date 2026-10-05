@@ -336,7 +336,7 @@
       "slug": "yamaha-yob241-v-arendu",
       "parent": "goboy",
       "search_title": "Гобой Yamaha YOB-241 в аренду",
-      "editorial_title": "Yamaha YOB‑241: ученический гобой, где упрощённая механика должна освободить внимание для звука",
+      "editorial_title": "Yamaha YOB-241: начать занятия на подходящей системе",
       "description": "Yamaha YOB-241: ABS student oboe with simplified Conservatoire system, accurate intonation and reach-friendly design.",
       "kicker": "STUDENT OBOE · ABS · YOB-241",
       "intro": [
@@ -375,7 +375,8 @@
           "title": "Yamaha: beginner winds guide",
           "url": "https://hub.yamaha.com/parents/back-to-school-winds-and-strings-for-beginners/"
         }
-      ]
+      ],
+      "mode": "enrich"
     },
     {
       "slug": "fox-renard-41-v-arendu",
