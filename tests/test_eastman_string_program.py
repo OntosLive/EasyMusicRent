@@ -59,8 +59,8 @@ class EastmanStringProgramTests(unittest.TestCase):
 
     def test_school_rental_claim_is_bounded(self):
         vb=self.page('eastman-vb80-v-arendu',True).get_text(' ',strip=True)
-        self.assertIn('schools',vb)
-        self.assertIn('rentals',vb)
+        self.assertIn('школ',vb.casefold())
+        self.assertIn('аренд',vb.casefold())
         self.assertIn('Rubner',vb)
         self.assertNotIn('обязательный стандарт',vb.casefold())
         self.assertEqual(self.ledger['sources']['vb80']['kind'],'manufacturer_school_rental')
