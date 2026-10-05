@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1101,
+  "new_subjects": 5,
+  "sources": {
+    "strings_catalog": {
+      "title": "GEWA: Strings catalog with Student / Advanced / Professional filters",
+      "url": "https://www.gewamusic.com/en/products?categoryEntityId=21133",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_catalog",
+      "scope": "Official GEWA product catalog exposes requirement filters and serial violin/cello lines. Filter taxonomy belongs to manufacturer; it is not a European certification standard.",
+      "reviewed_on": "2026-10-05"
+    },
+    "german_engineered": {
+      "title": "GEWA: German Engineered bowed-instrument series",
+      "url": "https://www.gewamusic.com/en/products?categoryEntityId=20635",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_catalog",
+      "scope": "Official catalog lists Allegro, Ideale, Maestro and related lines inside GEWA German Engineered range.",
+      "reviewed_on": "2026-10-05"
+    },
+    "cello_catalog": {
+      "title": "GEWA: Cello catalog",
+      "url": "https://www.gewamusic.com/en/products?categoryEntityId=5070",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_catalog",
+      "scope": "Official cello catalog lists Allegro from 1/16 through 7/8 and higher series. Size availability is catalog evidence, not teacher endorsement.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "smychkovye-gewa",
+      "role": "brand",
+      "source_ids": [
+        "strings_catalog",
+        "german_engineered"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "strings_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gewa-ideale-skripka-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "strings_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "strings_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gewa-allegro-violonchel-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "cello_catalog"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "GEWA series hierarchy is a manufacturer taxonomy, not a mandatory school ranking.",
+    "Fractional size and series tier remain independent.",
+    "Ready-to-play status must be verified on each rental specimen.",
+    "Public page does not confirm ONTOS.RENT stock."
+  ]
+}
