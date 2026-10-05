@@ -1,0 +1,214 @@
+{
+  "pages": [
+    {
+      "slug": "bariton-gorn",
+      "parent": "mednye-duhovye",
+      "search_title": "Баритон-горн в аренду",
+      "editorial_title": "Баритон-горн: тот же диапазон, что у эуфониума, но другая конструкция и другой голос",
+      "description": "Баритон-горн для обучения и brass band: Bb instrument with narrower bore, brighter timbre and distinct student models.",
+      "kicker": "BARITONE HORN · Bb · BRASS BAND",
+      "intro": [
+        "<p>Баритон-горн и эуфониум часто оказываются рядом в разговоре, потому что работают в одном диапазоне. Но Yamaha отдельно подчёркивает: у баритона уже канал и более яркий тембр. Поэтому если партия написана именно для baritone horn, полезно сохранить точное название инструмента, а не заменять его эуфониумом автоматически.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ПАРТИЯ",
+          "title": "Сначала читают обозначение и традицию состава",
+          "paragraphs": [
+            "В brass band баритон имеет собственную функцию и тембровое место. В других странах слово baritone иногда употребляется шире. Поэтому при аренде полезно прислать партию, указать состав и уточнить, нужен настоящий baritone horn или допустим euphonium substitute."
+          ]
+        },
+        {
+          "label": "02 / ГЕОМЕТРИЯ",
+          "title": "Более узкий bore меняет и тембр, и ощущение воздуха",
+          "paragraphs": [
+            "Yamaha прямо отличает baritone horn от euphonium более узким каналом и более ярким звуком. На пробе это слышно на средней кантилене и в атаке, а не только по внешнему размеру корпуса."
+          ]
+        },
+        {
+          "label": "03 / ОБУЧЕНИЕ",
+          "title": "Student-модели позволяют начинать сразу на правильном типе инструмента",
+          "paragraphs": [
+            "Yamaha YBH‑301 и Besson Prodige 157 существуют как отдельные ученические baritone horns. Это особенно важно там, где brass-band методика с самого начала различает баритон и эуфониум."
+          ]
+        }
+      ],
+      "quote": "В партии написано baritone horn или руководитель допускает euphonium как замену?",
+      "sources": [
+        {
+          "title": "Yamaha: brass family — baritone horn versus euphonium",
+          "url": "https://hub.yamaha.com/winds/brass/the-brass-family-explained/"
+        },
+        {
+          "title": "Besson: baritone instrument family",
+          "url": "https://www.besson.com/en/instruments/baritones/"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-ybh301-v-arendu",
+      "parent": "bariton-gorn",
+      "search_title": "Баритон-горн Yamaha YBH-301 в аренду",
+      "editorial_title": "Yamaha YBH‑301: student-баритон с простой трёхклапанной системой",
+      "description": "Yamaha YBH-301: student Bb baritone horn, 3 top pistons, easy playability and strong intonation.",
+      "kicker": "YBH‑301 · STUDENT BARITONE · Bb",
+      "intro": [
+        "<p>YBH‑301 Yamaha относит к student baritones. Конструкция остаётся простой: три верхних поршня, Bb-строй и корпус, основанный на более старшей модели 621. Для ученика это прямой вход в baritone-horn технику без преждевременной сложной компенсационной системы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 3 VALVES",
+          "title": "Три верхних клапана дают простую исходную карту",
+          "paragraphs": [
+            "На первых годах важны чистая атака, дыхание и знакомые аппликатуры. Более сложная четырёхклапанная система появляется тогда, когда её начинает требовать низкий регистр и программа."
+          ]
+        },
+        {
+          "label": "02 / ИНТОНАЦИЯ",
+          "title": "Yamaha отдельно подчёркивает лёгкость игры и точность строя",
+          "paragraphs": [
+            "Это manufacturer claim, который нужно проверить на конкретном экземпляре. Ученик играет длинную ноту, простую гамму и пару медленных интервалов, чтобы услышать реальную стабильность."
+          ]
+        },
+        {
+          "label": "03 / ПЕРЕХОД",
+          "title": "301 должен готовить к baritone-family, а не к случайному другому медному",
+          "paragraphs": [
+            "Если ученик позже переходит на YBH‑621 или профессиональный baritone, базовая геометрия семейства остаётся знакомой. Это делает модель осмысленной учебной ступенью, а не просто дешёвым корпусом."
+          ]
+        }
+      ],
+      "quote": "Ученику сейчас достаточно трёхклапанной student-системы или программа уже требует четвёртого клапана?",
+      "sources": [
+        {
+          "title": "Yamaha: YBH-301 Student Baritone",
+          "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/baritones/ybh-301/"
+        }
+      ]
+    },
+    {
+      "slug": "besson-prodige157-v-arendu",
+      "parent": "bariton-gorn",
+      "search_title": "Баритон Besson Prodige 157 в аренду",
+      "editorial_title": "Besson Prodige 157: лёгкий student-баритон для молодого brass-band музыканта",
+      "description": "Besson Prodige 157: lightweight student Bb baritone horn with 3 valves, compact body and younger-player orientation.",
+      "kicker": "BESSON PRODIGE 157 · LIGHTWEIGHT · STUDENT",
+      "intro": [
+        "<p>Besson прямо описывает Prodige 157 как баритон, который легче и меньше большинства других моделей и поэтому особенно подходит молодым исполнителям. Это сильный альтернативный student-route рядом с Yamaha YBH‑301, особенно в британской brass-band традиции.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "Меньший корпус должен уменьшать физическую нагрузку, а не менять музыкальную функцию",
+          "paragraphs": [
+            "Ученик держит инструмент несколько минут стоя и сидя, проверяя положение плеч, запястий и доступ к клапанам. Компактность полезна только если baritone-horn посадка сохраняется естественной."
+          ]
+        },
+        {
+          "label": "02 / ТРИ КЛАПАНА",
+          "title": "Простая клапанная система оставляет внимание звуку и ансамблю",
+          "paragraphs": [
+            "Prodige 157 использует три stainless-steel pistons. Для первых лет этого достаточно во многих brass-band программах; расширенная компенсационная система нужна позже и не должна становиться самоцелью."
+          ]
+        },
+        {
+          "label": "03 / ТЕМБР",
+          "title": "Student-инструмент должен уже формировать настоящий baritone sound",
+          "paragraphs": [
+            "Besson связывает модель с rich sound и accurate intonation. В классе это проверяют рядом с эуфониумом и другими медными, чтобы ученик слышал собственное место в секции."
+          ]
+        }
+      ],
+      "quote": "Молодому музыканту важнее компактность Prodige 157 или другой baritone удобнее по посадке?",
+      "sources": [
+        {
+          "title": "Besson: Prodige 157 Student Baritone",
+          "url": "https://www.besson.com/en/instruments/baritones/prodige-be157/"
+        }
+      ]
+    },
+    {
+      "slug": "bariton-ili-evfonium-po-partii",
+      "parent": "bariton-gorn",
+      "search_title": "Баритон или эуфониум по партии в аренду",
+      "editorial_title": "Баритон или эуфониум: одинаковый диапазон не означает одинаковый инструмент",
+      "description": "Choosing baritone horn versus euphonium by score, bore, ensemble tradition and intended timbre.",
+      "kicker": "BARITONE vs EUPHONIUM · SCORE · TIMBRE",
+      "intro": [
+        "<p>Баритон и эуфониум могут играть в одном диапазоне, поэтому в объявлениях и разговорной речи названия иногда смешиваются. Но Yamaha отдельно описывает baritone horn как инструмент с более узким каналом и более ярким тембром. В brass band это разные партии и разные голоса.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / НОТЫ",
+          "title": "Первое доказательство — название инструмента в партии",
+          "paragraphs": [
+            "Если партитура указывает baritone horn, не стоит автоматически выдавать euphonium только потому, что ноты помещаются. Полезно уточнить традицию ансамбля и решение руководителя."
+          ]
+        },
+        {
+          "label": "02 / ТЕМБР",
+          "title": "Узкий baritone bore и более широкий euphonium bore дают разную роль в секции",
+          "paragraphs": [
+            "На длинной средней ноте и ансамблевом аккорде разница слышна лучше, чем на одиночной громкой атаке. Музыкальная функция важнее внешнего сходства корпусов."
+          ]
+        },
+        {
+          "label": "03 / SUBSTITUTE",
+          "title": "Замена возможна только как согласованное решение",
+          "paragraphs": [
+            "В некоторых составах euphonium действительно закрывает baritone line или наоборот. Но это не техническая автоматическая совместимость, а музыкальный выбор дирижёра или исполнителя."
+          ]
+        }
+      ],
+      "quote": "Что написано в партии и как этот голос понимает руководитель конкретного состава?",
+      "sources": [
+        {
+          "title": "Yamaha: baritone horn and euphonium differences",
+          "url": "https://hub.yamaha.com/winds/brass/the-brass-family-explained/"
+        },
+        {
+          "title": "Yamaha: YBH-301 student baritone",
+          "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/baritones/ybh-301/"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "mednye-duhovye": [
+      {
+        "label": "Баритон-горн",
+        "href": "/bariton-gorn/"
+      }
+    ],
+    "bariton-gorn": [
+      {
+        "label": "Yamaha YBH-301",
+        "href": "/yamaha-ybh301-v-arendu/"
+      },
+      {
+        "label": "Besson Prodige 157",
+        "href": "/besson-prodige157-v-arendu/"
+      },
+      {
+        "label": "Баритон или эуфониум",
+        "href": "/bariton-ili-evfonium-po-partii/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Yamaha YBH-301",
+        "href": "/yamaha-ybh301-v-arendu/"
+      },
+      {
+        "label": "Besson Prodige 157",
+        "href": "/besson-prodige157-v-arendu/"
+      }
+    ],
+    "instrument-po-trebovaniyam-k-kachestvu": [
+      {
+        "label": "Баритон или эуфониум по партии",
+        "href": "/bariton-ili-evfonium-po-partii/"
+      }
+    ]
+  }
+}
