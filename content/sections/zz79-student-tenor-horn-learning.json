@@ -1,0 +1,159 @@
+{
+  "pages": [
+    {
+      "slug": "tenor-gorn",
+      "parent": "mednye-duhovye",
+      "search_title": "Тенор-горн в аренду",
+      "editorial_title": "Тенор-горн: Eb-голос brass band между корнетом и баритоном",
+      "description": "Eb tenor/alto horn for brass band and learning: distinct range, timbre and student models.",
+      "kicker": "TENOR HORN · Eb · BRASS BAND",
+      "intro": [
+        "<p>Тенор-горн, который Yamaha также называет alto horn, занимает самостоятельное место в brass-band семье. Это Eb-инструмент с собственным регистром и тембром, а не маленький эуфониум и не валторна другой формы. Для ученика важно с самого начала сохранить точное название партии.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СТРОЙ",
+          "title": "Eb определяет и аппликатуру, и роль в ансамбле",
+          "paragraphs": [
+            "Тенор-горн звучит и читается в иной транспозиционной системе, чем Bb baritone/euphonium. Поэтому замена должна обсуждаться с руководителем, а не происходить по внешнему сходству корпуса."
+          ]
+        },
+        {
+          "label": "02 / ГОЛОС",
+          "title": "В brass band инструмент занимает собственную середину",
+          "paragraphs": [
+            "Его задача часто связана с внутренними гармоническими голосами, поддержкой корнетов и связью с более низкими медными. На репетиции важнее услышать это место в аккорде, чем оценить одну громкую ноту."
+          ]
+        },
+        {
+          "label": "03 / ОБУЧЕНИЕ",
+          "title": "Yamaha и Besson выпускают отдельные student-модели",
+          "paragraphs": [
+            "YAH‑203 и Prodige 152 показывают, что этот голос имеет полноценную учебную траекторию. Начинающий может осваивать правильный Eb tenor-horn с первого этапа, а не ждать профессионального корпуса."
+          ]
+        }
+      ],
+      "quote": "В партии указан Eb tenor/alto horn или другой медный голос допускается руководителем как substitute?",
+      "sources": [
+        {
+          "title": "Yamaha: Alto (Tenor) Horns",
+          "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/altohorns/"
+        },
+        {
+          "title": "Besson: Prodige 152 Student Tenor Horn",
+          "url": "https://www.besson.com/en/instruments/tenor-horns/prodige-be152/"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-yah203-v-arendu",
+      "parent": "tenor-gorn",
+      "search_title": "Тенор-горн Yamaha YAH-203 в аренду",
+      "editorial_title": "Yamaha YAH‑203: student Eb tenor horn с простой трёхклапанной системой",
+      "description": "Yamaha YAH-203: student Eb alto/tenor horn with 3 top pistons, easy playability and strong intonation.",
+      "kicker": "YAH‑203 · STUDENT · Eb",
+      "intro": [
+        "<p>YAH‑203 Yamaha относит к student alto/tenor horns. Модель использует три верхних клапана, а производитель подчёркивает лёгкость игры и точность строя. Для начала это прямой способ войти в настоящий Eb tenor-horn без усложнения профессиональной системой.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ТРИ КЛАПАНА",
+          "title": "Базовая механика оставляет внимание дыханию и ансамблю",
+          "paragraphs": [
+            "Первые пьесы редко требуют сложной клапанной архитектуры. Ученик должен спокойно формировать атаку и фразу, а механика — двигаться ровно и предсказуемо."
+          ]
+        },
+        {
+          "label": "02 / СТРОЙ",
+          "title": "Заявленную интонацию проверяют на конкретном экземпляре",
+          "paragraphs": [
+            "Yamaha пишет об excellent intonation. На пробе ученик играет медленную гамму и несколько интервалов, чтобы понять реальную стабильность инструмента, а не доверять паспортной формулировке."
+          ]
+        },
+        {
+          "label": "03 / ПЕРЕХОД",
+          "title": "Дизайн наследует элементы старшей модели YAH‑803",
+          "paragraphs": [
+            "Это помогает строить ступень внутри одного семейства. Переход на более старший tenor horn позже не должен ощущаться как освоение совершенно другого типа инструмента."
+          ]
+        }
+      ],
+      "quote": "YAH‑203 подходит по руке и отклику конкретному ученику или другой student tenor horn свободнее?",
+      "sources": [
+        {
+          "title": "Yamaha: YAH-203 Student Alto (Tenor) Horn",
+          "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/altohorns/yah-203/"
+        }
+      ]
+    },
+    {
+      "slug": "besson-prodige152-v-arendu",
+      "parent": "tenor-gorn",
+      "search_title": "Тенор-горн Besson Prodige 152 в аренду",
+      "editorial_title": "Besson Prodige 152: entry-level Eb tenor horn в традиции brass band",
+      "description": "Besson Prodige 152: entry-level Eb tenor horn for young brass players with 3 stainless-steel valves.",
+      "kicker": "BESSON PRODIGE 152 · Eb · ENTRY LEVEL",
+      "intro": [
+        "<p>Besson прямо создаёт Prodige 152 как entry-level horn для молодого brass player. Это сильный альтернативный маршрут рядом с Yamaha: ученик сразу работает с типичным Eb tenor-horn и с тем тембровым идеалом, который Besson связывает со своей brass-band традицией.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МОЛОДОЙ ИСПОЛНИТЕЛЬ",
+          "title": "Корпус и механика рассчитаны на первый серьёзный этап",
+          "paragraphs": [
+            "Три stainless-steel pistons и компактный soft case образуют простой student-outfit. На примерке всё равно проверяют вес, хват и доступ к клапанам, потому что «для молодого игрока» не заменяет реальную руку."
+          ]
+        },
+        {
+          "label": "02 / ИНТОНАЦИЯ",
+          "title": "Excellent intonation является заявленным ориентиром, а не готовым фактом",
+          "paragraphs": [
+            "Besson связывает строй и звук с уверенностью ученика. В фонде это превращается в обязательную проверку конкретного экземпляра перед выдачей."
+          ]
+        },
+        {
+          "label": "03 / ТРАДИЦИЯ",
+          "title": "Инструмент с первого этапа вводит в характерный Besson tenor-horn sound",
+          "paragraphs": [
+            "Если школа или brass band строит секцию вокруг Besson-подхода, знакомая модельная логика может быть полезна. Но бренд остаётся средством, а не обязательным условием качественного обучения."
+          ]
+        }
+      ],
+      "quote": "Prodige 152 удобен ученику физически и соответствует звуковой традиции его brass band?",
+      "sources": [
+        {
+          "title": "Besson: Prodige 152 Student Tenor Horn",
+          "url": "https://www.besson.com/en/instruments/tenor-horns/prodige-be152/"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "mednye-duhovye": [
+      {
+        "label": "Тенор-горн",
+        "href": "/tenor-gorn/"
+      }
+    ],
+    "tenor-gorn": [
+      {
+        "label": "Yamaha YAH-203",
+        "href": "/yamaha-yah203-v-arendu/"
+      },
+      {
+        "label": "Besson Prodige 152",
+        "href": "/besson-prodige152-v-arendu/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Yamaha YAH-203",
+        "href": "/yamaha-yah203-v-arendu/"
+      },
+      {
+        "label": "Besson Prodige 152",
+        "href": "/besson-prodige152-v-arendu/"
+      }
+    ]
+  }
+}
