@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1093,
+  "new_subjects": 3,
+  "sources": {
+    "rydeen_ru": {
+      "title": "Yamaha Россия: RYDEEN",
+      "url": "https://ru.yamaha.com/ru/musical-instruments/drums/products/drum-sets/rydeen/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_local_education",
+      "scope": "Russian Yamaha page describes RYDEEN as entry-level and gives 20/22-inch configurations.",
+      "reviewed_on": "2026-10-05"
+    },
+    "rydeen_us": {
+      "title": "Yamaha USA: RYDEEN",
+      "url": "https://usa.yamaha.com/products/musical_instruments/drums/ac_drums/drum_sets/rydeen/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Beginner/intermediate positioning, 20/22-inch five-piece configurations and hardware details.",
+      "reviewed_on": "2026-10-05"
+    },
+    "imperialstar_eu": {
+      "title": "TAMA: Imperialstar Drum Kits",
+      "url": "https://www.tama.com/eu/products/detail/imperialstar_drumkit.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Complete kit, 18/22-inch configurations, Stage Master hardware and low-profile snare stand in compact kit.",
+      "reviewed_on": "2026-10-05"
+    },
+    "imperialstar_jp": {
+      "title": "TAMA Japan: Imperialstar",
+      "url": "https://www.tama.com/jp/products/detail/imperialstar.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Entry-class positioning for beginning drummers, compact 18-inch and standard 22-inch set descriptions.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "yamaha-rydeen-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "rydeen_ru",
+        "rydeen_us"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "tama-imperialstar-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "imperialstar_eu",
+        "imperialstar_jp"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "barabannaya-ustanovka-ponizhe-dlya-rebenka",
+      "role": "quality",
+      "source_ids": [
+        "rydeen_us",
+        "imperialstar_eu"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "20/18-inch drum geometry is treated as an ergonomic route, not a quality ranking.",
+    "Complete-kit factory contents must be reconfirmed for any rental specimen.",
+    "Lower geometry is selected after throne and pedal setup, not by age label alone."
+  ]
+}
