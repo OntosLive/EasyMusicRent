@@ -37,8 +37,10 @@ class GewaEducationTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1106)
+        self.assertEqual(result['subjects'],1105)
         self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
+        enrich=[p for p in self.doc['pages'] if p.get('mode')=='enrich']
+        self.assertEqual([p['slug'] for p in enrich],['gewa-ideale-skripka-v-arendu'])
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
             self.assertTrue(self.page(slug,True).find('h1'))
@@ -62,6 +64,9 @@ class GewaEducationTests(unittest.TestCase):
         self.assertNotIn('единый стандарт европы',text.casefold())
         self.assertNotIn('обязательная модель',text.casefold())
         self.assertEqual(self.ledger['sources']['strings_catalog']['kind'],'manufacturer_catalog')
+        self.assertEqual(self.ledger['new_subjects'],4)
+        ide=next(r for r in self.ledger['records'] if r['slug']=='gewa-ideale-skripka-v-arendu')
+        self.assertEqual(ide.get('action'),'enrich')
         for record in self.ledger['records']:
             self.assertEqual(record['availability'],'unconfirmed')
 
