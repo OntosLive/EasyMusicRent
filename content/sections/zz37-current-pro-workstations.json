@@ -1,0 +1,163 @@
+{
+  "pages": [
+    {
+      "slug": "yamaha-montage-m8x-v-arendu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Yamaha MONTAGE M8x в аренду",
+      "editorial_title": "Yamaha MONTAGE M8x: сегодняшний флагман уже вошёл в профессиональный backline",
+      "description": "Yamaha MONTAGE M8x: 88-key GEX with polyphonic aftertouch, AWM2/FM-X/AN-X and current professional rental presence.",
+      "kicker": "CURRENT PRO · M8x · POLY AFTERTOUCH",
+      "intro": [
+        "<p>MONTAGE M8x уже прошёл границу между «новой моделью магазина» и профессиональным backline: его держат прокаты в США, Европе и Азии. Поэтому он входит в Current Pro не по рекламной новизне, а по фактическому использованию в гастрольной инфраструктуре.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КЛАВИАТУРА",
+          "title": "88-клавишная GEX с polyphonic aftertouch является отдельной исполнительской функцией",
+          "paragraphs": [
+            "У M8x полифонический aftertouch, тогда как M6/M7 используют channel aftertouch. Если программа артиста задействует давление отдельных клавиш, версия M8x не заменяется младшими M-моделями без проверки."
+          ]
+        },
+        {
+          "label": "02 / ДВИЖКИ",
+          "title": "AWM2, FM-X и AN-X живут внутри одного performance workflow",
+          "paragraphs": [
+            "MONTAGE M объединяет sample-based, FM и analog-style engines. Для райдера важно понять, привозит ли артист собственные performances/library и насколько критична совместимость файлов."
+          ]
+        },
+        {
+          "label": "03 / RENTAL",
+          "title": "M8x уже доступен как конкретная touring-модель",
+          "paragraphs": [
+            "BacklineNow, Backline Rental Nederland и другие парки прямо сдают M8x. Это позволяет классифицировать его как Current Pro Rider Core."
+          ]
+        }
+      ],
+      "quote": "Артист использует polyphonic aftertouch и собственные MONTAGE M performances или нужна просто современная 88-клавишная workstation?",
+      "sources": [
+        {
+          "title": "Yamaha: MONTAGE M8x specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "BacklineNow: Yamaha MONTAGE M8x rental",
+          "url": "https://rentals.backlinenow.com/products/yamaha-montage-m8x-88-key-synthesizer"
+        },
+        {
+          "title": "Backline Rental Nederland: MONTAGE M8x",
+          "url": "https://backlinerentalnederland.nl/keyboards-synthesizers/"
+        }
+      ]
+    },
+    {
+      "slug": "roland-fantom-8-ex-v-arendu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Roland FANTOM 8 EX в аренду",
+      "editorial_title": "Roland FANTOM 8 EX: флагманская workstation как полноценная сценическая экосистема",
+      "description": "Roland FANTOM 8 EX: 88 hammer-action keys, aftertouch, multiple engines, 16 zones, sampling, sequencing and touring-grade connectivity.",
+      "kicker": "CURRENT PRO · FANTOM EX · 88",
+      "intro": [
+        "<p>FANTOM 8 EX — современная флагманская версия Roland FANTOM, рассчитанная на профессиональную сцену, sound design и sequencing. В прокатных парках уже встречаются FANTOM 8 EX и предшествующий FANTOM 8, поэтому при заказе нужно сохранять точный статус EX.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / EX",
+          "title": "EX — не декоративный индекс, а расширенная платформа",
+          "paragraphs": [
+            "FANTOM EX добавляет дополнительные sound engines, эффекты и performance-возможности. Если артист использует EX-specific expansions, обычный FANTOM 8 может оказаться несовместим с подготовленной программой."
+          ]
+        },
+        {
+          "label": "02 / 88",
+          "title": "Молоточковая клавиатура и aftertouch делают FANTOM 8 отдельной версией семейства",
+          "paragraphs": [
+            "61- и 76-клавишные FANTOM EX используют synth action, тогда как FANTOM 8 EX — 88 hammer-action keys. Для пианистической программы это фундаментальная разница."
+          ]
+        },
+        {
+          "label": "03 / СИСТЕМА",
+          "title": "16 zones, sampling и computer integration превращают модель в центр сетапа",
+          "paragraphs": [
+            "Перед выдачей нужно выяснить, какие сцены, samples, USB/MIDI routing и pedals используются. Райдерный substitute должен сохранять не только тембры, но и архитектуру управления."
+          ]
+        }
+      ],
+      "quote": "Нужна именно EX-функциональность или программа совместима с обычным FANTOM 8?",
+      "sources": [
+        {
+          "title": "Roland: FANTOM 8 EX",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        },
+        {
+          "title": "STAHL Backline: FANTOM 8 EX in rental inventory",
+          "url": "https://www.stahl.fi/backline"
+        },
+        {
+          "title": "Backline Source: FANTOM 8 in rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        }
+      ]
+    },
+    {
+      "slug": "korg-nautilus-88-at-v-arendu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Korg NAUTILUS 88 AT в аренду",
+      "editorial_title": "Korg NAUTILUS 88 AT: наследник KRONOS с aftertouch и девятью движками",
+      "description": "Korg NAUTILUS 88 AT: RH3 weighted 88-key workstation with aftertouch, nine sound engines and professional touring rental presence.",
+      "kicker": "CURRENT PRO · NAUTILUS 88 AT · RH3",
+      "intro": [
+        "<p>NAUTILUS 88 AT важен как современный наследник KRONOS-линии: Korg прямо называет NAUTILUS flagship workstation и добавляет в AT-версию aftertouch к 88-клавишной RH3-механике. Модель уже предлагается как touring rental.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / AT",
+          "title": "Aftertouch отделяет AT-версию от стандартного NAUTILUS 88",
+          "paragraphs": [
+            "Korg указывает, что основное отличие AT — добавление aftertouch; существующие 61- и 88-клавишные NAUTILUS могут даже проходить аппаратно-программный upgrade. При точном райдере этот индекс нельзя терять."
+          ]
+        },
+        {
+          "label": "02 / 9 ENGINES",
+          "title": "Workstation объединяет девять разных звуковых архитектур",
+          "paragraphs": [
+            "SGX-2, EP-1, CX-3, MOD-7, STR-1 и другие engines позволяют одному инструменту закрывать разные роли. Substitute должен учитывать используемые engines и программы артиста."
+          ]
+        },
+        {
+          "label": "03 / TOURING",
+          "title": "88 AT уже существует как конкретная профессиональная rental-позиция",
+          "paragraphs": [
+            "The Backline Company описывает NAUTILUS 88 AT именно как touring/rider requirement и проверяет pedals, stand, DI and monitoring. Это прямой Current Pro evidence."
+          ]
+        }
+      ],
+      "quote": "Aftertouch и конкретные NAUTILUS programs критичны или допустим стандартный NAUTILUS / KRONOS substitute?",
+      "sources": [
+        {
+          "title": "Korg: NAUTILUS 88 AT",
+          "url": "https://www.korg.com/us/products/synthesizers/nautilus_at/index.php"
+        },
+        {
+          "title": "The Backline Company: Korg Nautilus 88 AT rental",
+          "url": "https://www.thebacklinecompany.com/equipment/korg-nautilus-88-at"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "scenicheskie-klavishnye": [
+      {
+        "label": "Yamaha MONTAGE M8x",
+        "href": "/yamaha-montage-m8x-v-arendu/"
+      },
+      {
+        "label": "Roland FANTOM 8 EX",
+        "href": "/roland-fantom-8-ex-v-arendu/"
+      },
+      {
+        "label": "Korg NAUTILUS 88 AT",
+        "href": "/korg-nautilus-88-at-v-arendu/"
+      }
+    ]
+  }
+}
