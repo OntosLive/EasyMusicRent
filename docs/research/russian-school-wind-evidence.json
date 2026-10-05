@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1067,
+  "new_subjects": 0,
+  "enriched_subjects": [
+    "yamaha-yfl212-v-arendu",
+    "yamaha-ycl255-v-arendu",
+    "yamaha-yas280-v-arendu",
+    "yamaha-yts280-v-arendu",
+    "yamaha-ytr2330-v-arendu",
+    "yamaha-ysl354-v-arendu"
+  ],
+  "sources": {
+    "cms2025": {
+      "title": "ЦМШ-АИИ: отчёт о самообследовании за 2025 год",
+      "url": "https://cmsmoscow.ru/upload/iblock/cb4/f3c4nnbrq9wmwm75011gdtw5abacmurk/Otchet-o-samoobsledovanii-TSMSH-za-2025_20.04.2026.pdf",
+      "country_of_evidence": "RU",
+      "kind": "school_inventory_official",
+      "scope": "Официальный отчёт учреждения содержит перечень музыкальных инструментов, включая Yamaha YFL-212. Наличие не равно универсальной рекомендации модели.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kazan13": {
+      "title": "ДМШ №13 Казани: программа развития 2020–2025",
+      "url": "https://test-edu.tatar.ru/upload/storage/org5614/files/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F%20%D0%94%D0%9C%D0%A8%20%E2%84%9613%20%D0%BD%D0%B0%202020-2025%D0%B3%D0%B3.pdf",
+      "country_of_evidence": "RU",
+      "kind": "school_inventory_official",
+      "scope": "Официальный образовательный домен перечисляет YFL-212 и YSL-354E в материально-технической базе школы. Не модельный рейтинг.",
+      "reviewed_on": "2026-10-05"
+    },
+    "rostcons2021": {
+      "title": "Отчёт учебного учреждения: закупленные музыкальные инструменты за 2021 год",
+      "url": "https://rostcons.ru/assets/documents/2022/selfexam2021-1.pdf",
+      "country_of_evidence": "RU",
+      "kind": "institution_inventory_report",
+      "scope": "В перечне закупленного оборудования указаны Yamaha YOB-241 и YCL-255. Используется как факт институционального наличия.",
+      "reviewed_on": "2026-10-05"
+    },
+    "nevelsk2025": {
+      "title": "Невельский муниципальный округ: перечень имущества музыкальных инструментов",
+      "url": "https://www.nevelsk-pravo.ru/documenty/2025/%D0%B8%D1%8E%D0%BB%D1%8C/28/ps-1046-ot-18.07.2025.pdf",
+      "country_of_evidence": "RU",
+      "kind": "municipal_inventory_official",
+      "scope": "Муниципальный документ перечисляет Yamaha YCL-255 и YTS-280 среди имущества. Не устанавливает педагогическую предпочтительность.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yas280_procurement": {
+      "title": "Закупка саксофона-альта Yamaha YAS-280, Братск, 2021",
+      "url": "https://poisktenderov.ru/item/223/32110668370/",
+      "country_of_evidence": "RU",
+      "kind": "procurement_aggregator",
+      "scope": "Агрегатор воспроизводит данные закупки №32110668370 и ссылку на zakupki.gov.ru. Используется как свидетельство закупки конкретной модели, не как независимая рекомендация.",
+      "reviewed_on": "2026-10-05"
+    },
+    "prokofiev_competition": {
+      "title": "МОМК им. С.С. Прокофьева: конкурс саксофонистов",
+      "url": "https://prokofievcollege.ru/life/gallery/",
+      "country_of_evidence": "RU",
+      "kind": "education_competition_report",
+      "scope": "Колледж сообщает, что победителю младшей возрастной группы вручался Yamaha YAS-280. Это конкурсный контекст, не рекомендация всем начинающим.",
+      "reviewed_on": "2026-10-05"
+    },
+    "krasnodar_procurement": {
+      "title": "Закупка музыкальных инструментов ССМШ, Краснодарский край, 2026",
+      "url": "https://synapsenet.ru/zakupki/gazprombank/%D0%B0%D0%BF120862%231349040--krasnodarskij-kraj-zakupka-muzikalnih",
+      "country_of_evidence": "RU",
+      "kind": "procurement_aggregator",
+      "scope": "Агрегатор закупки перечисляет две трубы Yamaha YTR-2330 для специализированной музыкальной школы. Не педагогический рейтинг.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "yamaha-yfl212-v-arendu",
+      "source_ids": [
+        "cms2025",
+        "kazan13"
+      ],
+      "action": "enrich",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-ycl255-v-arendu",
+      "source_ids": [
+        "rostcons2021",
+        "nevelsk2025"
+      ],
+      "action": "enrich",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yas280-v-arendu",
+      "source_ids": [
+        "yas280_procurement",
+        "prokofiev_competition"
+      ],
+      "action": "enrich",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yts280-v-arendu",
+      "source_ids": [
+        "nevelsk2025"
+      ],
+      "action": "enrich",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-ytr2330-v-arendu",
+      "source_ids": [
+        "krasnodar_procurement"
+      ],
+      "action": "enrich",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-ysl354-v-arendu",
+      "source_ids": [
+        "kazan13"
+      ],
+      "action": "enrich",
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Инвентарь школы подтверждает использование, а не рекомендацию каждому ученику.",
+    "Закупка модели подтверждает институциональный спрос, но не объясняет педагогический выбор.",
+    "Конкурсный приз подтверждает присутствие модели в образовательной среде, а не её обязательность.",
+    "Российский контекст добавляется к уже существующим страницам вместо создания географических дублей."
+  ]
+}
