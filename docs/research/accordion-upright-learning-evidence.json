@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1090,
+  "new_subjects": 4,
+  "sources": {
+    "perle": {
+      "title": "Musikland: Weltmeister Perle 26/48",
+      "url": "https://www.musikland-online.de/Weltmeister-PERLE-26-48-II-3-blau/",
+      "country_of_evidence": "DE",
+      "kind": "dealer_manufacturer_info",
+      "scope": "Perle described as beginner instrument for small players; dealer reproduces manufacturer data and manufacturer identity.",
+      "reviewed_on": "2026-10-05"
+    },
+    "rubin": {
+      "title": "Musikland: Weltmeister Rubin 30/60",
+      "url": "https://www.musikland-online.de/Weltmeister-RUBIN-30-60-weiss/",
+      "country_of_evidence": "DE",
+      "kind": "dealer_manufacturer_info",
+      "scope": "Rubin described as beginner instrument with reduced key width for children; not independent pedagogy research.",
+      "reviewed_on": "2026-10-05"
+    },
+    "latvia": {
+      "title": "Latvian music-education equipment programme",
+      "url": "https://www.lmmv.gov.lv/lv/media/1581/download?attachment=",
+      "country_of_evidence": "LV",
+      "kind": "education_equipment_official",
+      "scope": "Official educational equipment document lists Weltmeister Rubin 30/60 among accordion purchases.",
+      "reviewed_on": "2026-10-05"
+    },
+    "rubin_ru": {
+      "title": "Accordion Shop Russia: Weltmeister Rubin 30/60",
+      "url": "https://accordeonshop.ru/catalog/akkordeony_weltmeister/rubin_30_60_ii_3/",
+      "country_of_evidence": "RU",
+      "kind": "specialist_retail",
+      "scope": "Russian specialist seller documents 30/60 configuration and reduced keyboard scale for small hands; commercial evidence.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_u1": {
+      "title": "Yamaha: U Series U1",
+      "url": "https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/u_series/index.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_professional",
+      "scope": "U1 is positioned by Yamaha as professional upright for experienced pianists and professional musicians; not a beginner requirement.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_u1_uk": {
+      "title": "Yamaha UK: U Series",
+      "url": "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/u-series/",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_professional",
+      "scope": "U1 described as long-standing upright standard; manufacturer claim.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kawai_k300": {
+      "title": "Kawai Global: K-300",
+      "url": "https://www.kawai-global.com/product/k-300/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_professional",
+      "scope": "K-300 professional upright construction and specifications.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kawai_de": {
+      "title": "Kawai Germany: K-300",
+      "url": "https://www.kawai.de/products/klaviere/kserie/k300/",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Kawai Germany explicitly frames K-300 for ambitious beginners, advanced pianists and music schools.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kawai_ru": {
+      "title": "Kawai Russia: K-300",
+      "url": "https://kawai.ru/upright-pianos/piano/kawai-k300/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_local",
+      "scope": "Russian representative publishes K-300 specifications and current model presence; not school endorsement.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "weltmeister-perle-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "perle"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "weltmeister-rubin-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "rubin",
+        "latvia",
+        "rubin_ru"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-u1-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "yamaha_u1",
+        "yamaha_u1_uk"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "kawai_k300",
+        "kawai_de",
+        "kawai_ru"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Perle and Rubin are educational size steps, not a quality ranking.",
+    "Educational procurement of Rubin confirms institutional use, not universal recommendation.",
+    "U1 and K-300 are long-horizon upright candidates, not mandatory beginner instruments.",
+    "Russian manufacturer representation is distinct from Russian school endorsement."
+  ]
+}
