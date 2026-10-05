@@ -36,7 +36,7 @@ class EuphoniumFenderAcousticTests(unittest.TestCase):
     def test_inventory_and_subject_ownership(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1139)
+        self.assertEqual(result['subjects'],1138)
         created={p['slug'] for p in self.doc['pages'] if p.get('mode')!='enrich'}
         self.assertEqual(created,NEW)
         for slug in NEW:
