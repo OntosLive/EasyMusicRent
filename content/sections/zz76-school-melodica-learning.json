@@ -2,15 +2,25 @@
   "pages": [
     {
       "slug": "melodika",
-      "parent": "bayan-akkordeon",
-      "search_title": "Мелодика в аренду",
-      "editorial_title": "Мелодика: клавиатура, дыхание и школьная переносимость в одном инструменте",
-      "description": "Мелодики и pianica для обучения, ансамбля и первых клавишно-духовых занятий: 32-key alto models, mouthpieces, cases and school use.",
-      "kicker": "MELODICA · PIANICA · SCHOOL",
-      "intro": [
+      "sources": [
+        {
+          "title": "Hohner: мелодика, клавиатура и варианты исполнительской позы",
+          "url": "https://hohner.de/en/instruments/melodica"
+        },
+        {
+          "title": "Yamaha Innovation Road: P-32D and school education history",
+          "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/2017/"
+        },
+        {
+          "title": "Suzuki FAQ: 32-key alto models for kindergarten and primary school",
+          "url": "https://www.suzuki-music.co.jp/support/faq/?question_id=22924"
+        }
+      ],
+      "mode": "enrich",
+      "append_intro": [
         "<p>Мелодика соединяет знакомую клавиатурную карту с дыханием язычкового инструмента. В японском школьном образовании такие инструменты используются с 1960-х, а Yamaha и Suzuki продолжают выпускать отдельные образовательные серии. Для первого выбора важны диапазон, вес, мундштук и удобство ежедневной переноски.</p>"
       ],
-      "blocks": [
+      "append_blocks": [
         {
           "label": "01 / 32 КЛАВИШИ",
           "title": "Альтовый 32-клавишный формат стал устойчивой школьной точкой",
@@ -31,17 +41,6 @@
           "paragraphs": [
             "Yamaha исторически продавала Pianica вместе с футляром для переноски в школу, Suzuki также строит учебные модели вокруг ежедневного транспорта. Для ребёнка важно, чтобы инструмент можно было самостоятельно носить и безопасно собирать."
           ]
-        }
-      ],
-      "quote": "Школа требует конкретную модель или достаточно 32-клавишной альтовой мелодики с удобным кейсом?",
-      "sources": [
-        {
-          "title": "Yamaha Innovation Road: P-32D and school education history",
-          "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/2017/"
-        },
-        {
-          "title": "Suzuki FAQ: 32-key alto models for kindergarten and primary school",
-          "url": "https://www.suzuki-music.co.jp/support/faq/?question_id=22924"
         }
       ]
     },
