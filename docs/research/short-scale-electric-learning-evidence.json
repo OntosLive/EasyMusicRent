@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1115,
+  "new_subjects": 6,
+  "sources": {
+    "mini_strat": {
+      "title": "Fender: Mini Stratocaster",
+      "url": "https://www.fender.com/products/mini-stratocaster",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_product",
+      "scope": "22.75-inch scale, lightweight body, C-shaped neck, SSS pickups and hardtail bridge.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mini_strat_beginner": {
+      "title": "Fender: Best Guitar for Beginners — Mini Stratocaster for small hands",
+      "url": "https://www.fender.com/articles/setup/best-guitar-for-beginners",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Fender explicitly positions Mini Strat as a good first guitar for younger players or players with small hands.",
+      "reviewed_on": "2026-10-05"
+    },
+    "pgmm31": {
+      "title": "Ibanez: PGMM31 miKro",
+      "url": "https://www.ibanez.com/na/products/detail/pgmm31_5a_02.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_product",
+      "scope": "22.2-inch scale, 24 frets and twin humbuckers. Compact geometry is factual; beginner suitability is inferred editorially from fit, not claimed as universal standard.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mini_pbass": {
+      "title": "Fender: Mini Precision Bass",
+      "url": "https://ch.fender.com/en/products/mini-precision-bass",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_product",
+      "scope": "28.6-inch short scale, lightweight body, C-shaped neck, split single-coil and simple passive controls.",
+      "reviewed_on": "2026-10-05"
+    },
+    "gsrm20": {
+      "title": "Ibanez: GSRM20 miKro",
+      "url": "https://www.ibanez.com/eu/products/detail/gsrm20_2y_06.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_product",
+      "scope": "28.6-inch scale, 38 mm nut width, passive P/J pickups and adjustable bridge.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "squier-mini-stratocaster-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "mini_strat",
+        "mini_strat_beginner"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "ibanez-pgmm31-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "pgmm31"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "elektrogitara-dlya-nebolshoy-ruki",
+      "role": "quality",
+      "source_ids": [
+        "mini_strat_beginner",
+        "pgmm31"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "squier-mini-precision-bass-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "mini_pbass"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "ibanez-gsrm20-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "gsrm20"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki",
+      "role": "quality",
+      "source_ids": [
+        "mini_pbass",
+        "gsrm20"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Short scale and lightweight body are separate ergonomic coordinates.",
+    "Mini Strat and PGMM31 solve different tone/pickup scenarios at similar compact scale lengths.",
+    "Mini Precision and GSRM20 share 28.6-inch scale but differ in pickup/control topology.",
+    "Quality-led small-hand routes remain brand-independent.",
+    "Public pages do not claim ONTOS.RENT stock."
+  ]
+}
