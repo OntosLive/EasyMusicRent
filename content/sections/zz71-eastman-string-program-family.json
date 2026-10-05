@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "slug": "smychkovye-eastman",
+      "parent": "smychkovye",
+      "search_title": "Смычковые Samuel Eastman в аренду",
+      "editorial_title": "Samuel Eastman: школьная Model 100 и rental-oriented контрабас VB80",
+      "description": "Samuel Eastman educational bowed strings: VL100 violin, VA100 viola, VC100 cello and VB80 school/rental double bass.",
+      "kicker": "SAMUEL EASTMAN · STRING PROGRAMS · SCHOOL / RENTAL",
+      "intro": [
+        "<p>Samuel Eastman — редкий случай, где сам производитель говорит не просто «student», а прямо связывает модели с string programs. VL100, VA100 и VC100 описываются как staple of string programs everywhere для начинающих и продолжающих; VB80 отдельно создан для schools, rentals and beginning players.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / MODEL 100",
+          "title": "Скрипка, альт и виолончель образуют одну образовательную линию, но остаются разными инструментами",
+          "paragraphs": [
+            "VL100, VA100 и VC100 используют резные тоновые древесины и эбеновую фурнитуру, но имеют собственные диапазоны размеров и геометрию. Фонд связывает их брендом, не смешивая размер и исполнительский голос."
+          ]
+        },
+        {
+          "label": "02 / VB80",
+          "title": "Контрабас решает другую институциональную задачу",
+          "paragraphs": [
+            "VB80 полностью ламинирован и производителем прямо рассчитан на школы, аренду и начинающих. Здесь долговечность и обслуживание являются частью образовательного качества, а не компромиссом «вместо настоящего инструмента»."
+          ]
+        },
+        {
+          "label": "03 / SETUP",
+          "title": "Даже сильная школьная серия работает только после подготовки конкретного экземпляра",
+          "paragraphs": [
+            "Подставка, струны, колки, высота струн и смычок проверяются перед выдачей. Серийная репутация уменьшает неопределённость, но не заменяет мастерскую и пробу у преподавателя."
+          ]
+        }
+      ],
+      "quote": "Нужен именно Eastman или важнее подобрать размер, готовый setup и учебный класс конкретного смычкового инструмента?",
+      "sources": [
+        {
+          "title": "Eastman: Samuel Eastman VL100",
+          "url": "https://www.eastmanstrings.com/violin/vl100/"
+        },
+        {
+          "title": "Eastman: Samuel Eastman VA100",
+          "url": "https://www.eastmanstrings.com/viola/va100/"
+        },
+        {
+          "title": "Eastman: Samuel Eastman VC100",
+          "url": "https://www.eastmanstrings.com/cello/vc100/"
+        },
+        {
+          "title": "Eastman: Samuel Eastman VB80",
+          "url": "https://www.eastmanstrings.com/bass/vb80/"
+        }
+      ]
+    },
+    {
+      "slug": "eastman-va100-v-arendu",
+      "parent": "alt",
+      "search_title": "Альт Samuel Eastman VA100 в аренду",
+      "editorial_title": "Eastman VA100: альт Model 100 от 11 до 16½ дюймов",
+      "description": "Samuel Eastman VA100 viola: solid tonewoods, ebony fittings and sizes 11–16.5 inches for beginning and advancing players.",
+      "kicker": "EASTMAN VA100 · VIOLA · 11–16½ INCH",
+      "intro": [
+        "<p>VA100 Eastman прямо относит к Model 100, ставшей staple of string programs. Для альта особенно важен диапазон размеров: от 11 до 16½ дюймов, что позволяет отделить уровень инструмента от физического роста ученика.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "11–16½ дюймов дают значительно более тонкую лестницу, чем «детский / взрослый»",
+          "paragraphs": [
+            "На примерке проверяют первую позицию, длину руки и положение плеча. Номинальный размер помогает сузить выбор, но ученик должен реально сыграть на инструменте."
+          ]
+        },
+        {
+          "label": "02 / КОНСТРУКЦИЯ",
+          "title": "Массив ели и клёна рассчитан на beginning и advancing players",
+          "paragraphs": [
+            "Eastman использует резные tonewoods, эбеновую фурнитуру и подставку Despiau. Эти признаки задают класс модели, но не гарантируют одинаковый звук каждого экземпляра."
+          ]
+        },
+        {
+          "label": "03 / ПРОГРАММА",
+          "title": "Альт можно менять по уровню, не переходя сразу на больший корпус",
+          "paragraphs": [
+            "Если текущий инструмент ограничивает кантилену или регистровый баланс, VA100 становится кандидатом. Если проблема только в размере, сначала выбирают подходящую длину корпуса."
+          ]
+        }
+      ],
+      "quote": "Какой размер VA100 даёт ученику свободную первую позицию без потери альтовой функции?",
+      "sources": [
+        {
+          "title": "Eastman: Samuel Eastman VA100",
+          "url": "https://www.eastmanstrings.com/viola/va100/"
+        }
+      ]
+    },
+    {
+      "slug": "eastman-vc100-v-arendu",
+      "parent": "violonchel",
+      "search_title": "Виолончель Samuel Eastman VC100 в аренду",
+      "editorial_title": "Eastman VC100: Model 100 для виолончели от 1/10 до 4/4",
+      "description": "Samuel Eastman VC100 cello: carved solid top/back, laminated ribs, ebony fittings and sizes 1/10–4/4.",
+      "kicker": "EASTMAN VC100 · CELLO · 1/10–4/4",
+      "intro": [
+        "<p>VC100 продолжает ту же Model 100 на виолончели и выпускается от 1/10 до 4/4. Eastman связывает модель с beginning and advancing players и прямо называет Model 100 staple of string programs everywhere.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МАЛЫЕ РАЗМЕРЫ",
+          "title": "1/10 даёт ранний вход без вынужденной растяжки",
+          "paragraphs": [
+            "Ребёнок может начать на инструменте, соответствующем его телу, а не покупать большой корпус «на вырост». При переходе сравнивают первую позицию, длину смычка и высоту шпиля."
+          ]
+        },
+        {
+          "label": "02 / КОНСТРУКЦИЯ",
+          "title": "Резные деки сочетаются с ламинированными обечайками",
+          "paragraphs": [
+            "VC100 использует solid spruce top, maple back и laminated maple ribs. Такая конструкция является частью конкретной модели и сочетает звуковую задачу с практичностью учебного инструмента."
+          ]
+        },
+        {
+          "label": "03 / OUTFIT",
+          "title": "Смычок и настройка должны соответствовать размеру самой виолончели",
+          "paragraphs": [
+            "Даже правильно подобранный корпус не решает задачу, если смычок слишком велик или подставка выставлена неправильно. Фонд проверяет комплект целиком."
+          ]
+        }
+      ],
+      "quote": "Какой размер VC100 соответствует текущей руке, посадке и школьной программе?",
+      "sources": [
+        {
+          "title": "Eastman: Samuel Eastman VC100",
+          "url": "https://www.eastmanstrings.com/cello/vc100/"
+        }
+      ]
+    },
+    {
+      "slug": "eastman-vb80-v-arendu",
+      "parent": "kontrabas",
+      "search_title": "Контрабас Samuel Eastman VB80 в аренду",
+      "editorial_title": "Eastman VB80: школьный и прокатный контрабас от 1/8 до 3/4",
+      "description": "Samuel Eastman VB80: fully laminated school/rental double bass, sizes 1/8–3/4, Rubner Tyrolean brass tuning machines.",
+      "kicker": "EASTMAN VB80 · SCHOOL / RENTAL · 1/8–3/4",
+      "intro": [
+        "<p>VB80 Eastman прямо создаёт для schools, rentals and beginning players. В контрабасе это особенно убедительная модельная функция: полностью ламинированный корпус, широкий размерный ряд и ремонтопригодная механика рассчитаны на реальный школьный оборот.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "1/8–3/4 позволяют начинать очень рано и расти внутри одной серии",
+          "paragraphs": [
+            "Размер выбирают по мензуре, первой позиции и высоте корпуса. Маленький контрабас должен быть настоящим рабочим инструментом, а не укороченной декоративной копией."
+          ]
+        },
+        {
+          "label": "02 / ДОЛГОВЕЧНОСТЬ",
+          "title": "Полностью ламинированный корпус здесь является осознанной school/rental конструкцией",
+          "paragraphs": [
+            "Eastman прямо связывает laminated top/back/ribs с durability and easy maintenance. Для фонда это сильное преимущество: инструмент должен переживать перевозки и многократные циклы выдачи."
+          ]
+        },
+        {
+          "label": "03 / RUBNER",
+          "title": "Rubner здесь означает механизм, а не происхождение всего контрабаса",
+          "paragraphs": [
+            "В спецификации VB80 стоят Rubner Brass Tuning Machines Tyrolean. Это важное различение: марка на колковой механике описывает комплектующую, а изготовителем корпуса остаётся Eastman."
+          ]
+        }
+      ],
+      "quote": "Нужен школьный устойчивый VB80 или ученик уже вырос до более резонансного step-up контрабаса?",
+      "sources": [
+        {
+          "title": "Eastman: Samuel Eastman VB80",
+          "url": "https://www.eastmanstrings.com/bass/vb80/"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "smychkovye": [
+      {
+        "label": "Samuel Eastman",
+        "href": "/smychkovye-eastman/"
+      }
+    ],
+    "smychkovye-eastman": [
+      {
+        "label": "VL100 — скрипка",
+        "href": "/eastman-vl100-v-arendu/"
+      },
+      {
+        "label": "VA100 — альт",
+        "href": "/eastman-va100-v-arendu/"
+      },
+      {
+        "label": "VC100 — виолончель",
+        "href": "/eastman-vc100-v-arendu/"
+      },
+      {
+        "label": "VB80 — контрабас",
+        "href": "/eastman-vb80-v-arendu/"
+      }
+    ],
+    "alt": [
+      {
+        "label": "Samuel Eastman VA100",
+        "href": "/eastman-va100-v-arendu/"
+      }
+    ],
+    "violonchel": [
+      {
+        "label": "Samuel Eastman VC100",
+        "href": "/eastman-vc100-v-arendu/"
+      }
+    ],
+    "kontrabas": [
+      {
+        "label": "Samuel Eastman VB80",
+        "href": "/eastman-vb80-v-arendu/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Eastman VA100",
+        "href": "/eastman-va100-v-arendu/"
+      },
+      {
+        "label": "Eastman VC100",
+        "href": "/eastman-vc100-v-arendu/"
+      },
+      {
+        "label": "Eastman VB80",
+        "href": "/eastman-vb80-v-arendu/"
+      }
+    ]
+  }
+}
