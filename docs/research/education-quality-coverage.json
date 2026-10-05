@@ -15,7 +15,8 @@
         "yamaha-p125-v-arendu",
         "kawai-es120-v-arendu",
         "roland-fp30x-v-arendu",
-        "casio-cdps110-v-arendu"
+        "casio-cdps110-v-arendu",
+        "yamaha-p225-v-arendu"
       ],
       "quality_entries": [
         "pianino-s-rovnoy-klaviaturoy",
@@ -25,7 +26,7 @@
         "pianoreg",
         "half"
       ],
-      "scope_and_remaining_work": "Техническое основание и существующие модельные страницы. Единый список рекомендаций российских фортепианных отделений ещё не установлен."
+      "scope_and_remaining_work": "Базовые и более серьёзные цифровые пианино покрыты моделями нескольких марок; российские фортепианные отделения ещё требуют независимого списка рекомендаций."
     },
     {
       "family": "smychkovye",
@@ -63,7 +64,9 @@
       "model_brand_entries": [
         "yamaha-c40ii-v-arendu",
         "yamaha-cs40ii-v-arendu",
-        "alhambra-4p-v-arendu"
+        "alhambra-4p-v-arendu",
+        "cordoba-c1m-v-arendu",
+        "cordoba-c1m-3-4-v-arendu"
       ],
       "quality_entries": [
         "gitara-s-nizkoy-vysotoy-strun"
@@ -74,7 +77,7 @@
         "alhambra",
         "action"
       ],
-      "scope_and_remaining_work": "Начальные Yamaha и более продвинутая Alhambra разведены. Название Conservatorio у производителя не является государственным стандартом Испании."
+      "scope_and_remaining_work": "Yamaha, Córdoba и Alhambra теперь дают размерную и учебную лестницу. Дальше — дополнительные российские преподавательские рекомендации и стальные струны для обучения."
     },
     {
       "family": "shchipkovye",
@@ -88,7 +91,10 @@
         "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
         "mpkmi-balalaika-prima-uchenicheskaya-v-arendu",
         "kala-ka15s-v-arendu",
-        "makala-dolphin-v-arendu"
+        "makala-dolphin-v-arendu",
+        "mir-gusley-detskie-v-arendu",
+        "mir-gusley-zvonchatye-dlya-obucheniya",
+        "mpkmi-gusli-pikkolo-v-arendu"
       ],
       "quality_entries": [
         "ukulele-so-stroyaschimi-ladami",
@@ -97,7 +103,7 @@
       "source_ids": [
         "action"
       ],
-      "scope_and_remaining_work": "Добавлены российские учебные домры/балалайки и classroom-укулеле. Дальше — мандолины и дополнительные российские/европейские учебные марки."
+      "scope_and_remaining_work": "Учебные домры, балалайки, classroom-укулеле и российские гусли уже представлены. Мандолина и дополнительные международные/российские марки остаются открыты."
     },
     {
       "family": "arfy-liry",
@@ -196,7 +202,10 @@
         "balalayker-domra-volna-m-v-arendu",
         "doff-domra-junior-v-arendu",
         "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
-        "mpkmi-balalaika-prima-uchenicheskaya-v-arendu"
+        "mpkmi-balalaika-prima-uchenicheskaya-v-arendu",
+        "mir-gusley-detskie-v-arendu",
+        "mir-gusley-zvonchatye-dlya-obucheniya",
+        "mpkmi-gusli-pikkolo-v-arendu"
       ],
       "quality_entries": [
         "narodnyy-instrument-po-trebovaniyam-pedagoga"
@@ -204,7 +213,7 @@
       "source_ids": [
         "tula"
       ],
-      "scope_and_remaining_work": "Российские домра и балалайка теперь имеют серийные учебные входы БалалайкерЪ, Doff и ПКМИ. Гусли и другие традиции требуют следующего отдельного исследования."
+      "scope_and_remaining_work": "Домра, балалайка и гусли получили российские серийные учебные линии. Следующий участок — гусли разных академических школ, мандолина и другие традиционные инструменты."
     },
     {
       "family": "istoricheskie",
@@ -884,6 +893,66 @@
       ],
       "status": "authored",
       "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-p225-v-arendu",
+      "parent": "cifrovoe-pianino-yamaha",
+      "role": "model",
+      "sources": [
+        "yamaha_p225"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "cordoba-c1m-v-arendu",
+      "parent": "klassicheskaya-gitara",
+      "role": "model",
+      "sources": [
+        "cordoba_c1m"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "cordoba-c1m-3-4-v-arendu",
+      "parent": "klassicheskaya-gitara",
+      "role": "model",
+      "sources": [
+        "cordoba_c1m34"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "mir-gusley-detskie-v-arendu",
+      "parent": "gusli",
+      "role": "model",
+      "sources": [
+        "mirgusley_children"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "mir-gusley-zvonchatye-dlya-obucheniya",
+      "parent": "gusli",
+      "role": "model",
+      "sources": [
+        "mirgusley_academic"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "parent": "gusli",
+      "role": "model",
+      "sources": [
+        "mpkmi_gusli"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
     }
   ],
   "sources": {
@@ -1341,6 +1410,54 @@
       "country_of_evidence": "RU",
       "kind": "manufacturer",
       "scope": "Этюд-205М2 входит в текущую категорию ученических баянов фабрики; требования программы и системы определяет педагог.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_p225": {
+      "title": "Yamaha: P-225 для serious beginners, practice and lessons",
+      "url": "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer",
+      "scope": "P-225 позиционируется для серьёзных начинающих и опытных игроков; учебная пригодность производителя не является единственным стандартом педагога.",
+      "reviewed_on": "2026-10-05"
+    },
+    "cordoba_c1m": {
+      "title": "Córdoba: C1M Protégé",
+      "url": "https://cordobaguitars.com/protege/c1m",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Производитель прямо описывает C1M как student/classroom/home guitar; полноразмерность требует примерки.",
+      "reviewed_on": "2026-10-05"
+    },
+    "cordoba_c1m34": {
+      "title": "Córdoba: C1M 3/4 Protégé",
+      "url": "https://cordobaguitars.com/protege/c1m-34/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Уменьшенная 3/4 student/classroom model; размер не назначается автоматически по возрасту.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mirgusley_children": {
+      "title": "Мир гуслей: детские модели и размерная линейка",
+      "url": "https://mirgusley.com/shop/gusli/small",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_education",
+      "scope": "Российская мануфактура предлагает детские 6–9-струнные модели и описывает конструкцию для обучения; не единый государственный стандарт.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mirgusley_academic": {
+      "title": "Мир гуслей: учебные ступени звончатых гуслей",
+      "url": "https://mirgusley.com/blog/18",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_education",
+      "scope": "Производитель связывает 12/15/17/18-струнные звончатые модели с разными ступенями музыкального образования; утверждение производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mpkmi_gusli": {
+      "title": "ПКМИ фонда П.И. Чайковского: гусли Пикколо 15 струн",
+      "url": "https://mpkmi.ru/instrument/gusli-zvonchatye-krylovidnye-pikkolo-15-strun/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Конкретная 15-струнная звончатая модель с указанным диапазоном и конструкцией; педагогическая ступень определяется программой.",
       "reviewed_on": "2026-10-05"
     }
   }
