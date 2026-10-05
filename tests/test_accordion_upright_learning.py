@@ -36,8 +36,11 @@ class AccordionUprightLearningTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1094)
-        self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
+        self.assertEqual(result['subjects'],1093)
+        new={p['slug'] for p in self.doc['pages'] if p.get('mode')!='enrich'}
+        self.assertEqual(new,SLUGS-{'yamaha-u1-v-arendu'})
+        enrich=[p for p in self.doc['pages'] if p.get('mode')=='enrich']
+        self.assertEqual([p['slug'] for p in enrich],['yamaha-u1-v-arendu'])
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
             self.assertTrue(self.page(slug,True).find('h1'))
@@ -58,7 +61,7 @@ class AccordionUprightLearningTests(unittest.TestCase):
         self.assertNotIn('лучш',text.casefold())
 
     def test_evidence_is_bounded(self):
-        self.assertEqual(self.ledger['new_subjects'],4)
+        self.assertEqual(self.ledger['new_subjects'],3)
         self.assertEqual(len(self.ledger['records']),4)
         self.assertEqual(self.ledger['sources']['latvia']['kind'],'education_equipment_official')
         self.assertEqual(self.ledger['sources']['kawai_de']['kind'],'manufacturer_education')
