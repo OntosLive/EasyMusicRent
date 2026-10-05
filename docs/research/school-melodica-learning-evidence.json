@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1125,
+  "new_subjects": 4,
+  "sources": {
+    "yamaha_history": {
+      "title": "Yamaha Innovation Road: P-32D and school history",
+      "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/2017/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_history_education",
+      "scope": "Yamaha states Pianica entered school education in the 1960s and cases supported school transport.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_p32d": {
+      "title": "Yamaha: P-32D",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "32-key Pianica, F3-C6, classroom/home/performance use. Manufacturer claim.",
+      "reviewed_on": "2026-10-05"
+    },
+    "suzuki_m32c": {
+      "title": "Suzuki: M-32C Alto Melodion",
+      "url": "https://suzukimusic-global.com/products_single.php?products_cd=125",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Standard educational melodion, 32-key alto, steel cover and long-seller framing.",
+      "reviewed_on": "2026-10-05"
+    },
+    "suzuki_faq": {
+      "title": "Suzuki FAQ: choosing melodion for kindergarten and primary school",
+      "url": "https://www.suzuki-music.co.jp/support/faq/?question_id=22924",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education_guidance",
+      "scope": "Suzuki recommends 32-key alto models when school does not specify a model. This is manufacturer guidance, not national mandate.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "melodika",
+      "role": "category",
+      "source_ids": [
+        "yamaha_history",
+        "suzuki_faq"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-p32d-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "yamaha_history",
+        "yamaha_p32d"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "suzuki-m32c-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "suzuki_m32c",
+        "suzuki_faq"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "melodika-32-klavishi-dlya-shkoly",
+      "role": "quality",
+      "source_ids": [
+        "suzuki_faq",
+        "yamaha_p32d"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "32-key alto is a common school route in Suzuki guidance, not a universal mandate.",
+    "P-32D and M-32C are peer school instruments, not ranked universally.",
+    "Melodica belongs to free-reed learning but remains a distinct child category.",
+    "Stock in ONTOS.RENT is not claimed."
+  ]
+}
