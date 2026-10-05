@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1099,
+  "new_subjects": 2,
+  "sources": {
+    "bravo49f": {
+      "title": "Hohner: Bravo I 49 F",
+      "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-i-49f",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_teacher_linked",
+      "scope": "Free-bass beginner instrument developed with music teachers and framed against didactic standards; manufacturer statement.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bravo_series": {
+      "title": "Hohner: Bravo Series",
+      "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Bravo family designed for beginners; 49F identified as the free-bass route.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "hohner-bravo-i-49f-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "bravo49f",
+        "bravo_series"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-dlya-obucheniya",
+      "role": "quality",
+      "source_ids": [
+        "bravo49f"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Free-bass is treated as a different left-hand system, not as a prestige upgrade.",
+    "Teacher-linked design is bounded to Hohner's statement and does not establish a universal school standard.",
+    "The required free-bass layout and range must come from the student's curriculum before model selection."
+  ]
+}
