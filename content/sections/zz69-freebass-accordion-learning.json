@@ -1,0 +1,114 @@
+{
+  "pages": [
+    {
+      "slug": "hohner-bravo-i-49f-v-arendu",
+      "parent": "arenda-akkordeona-moskva",
+      "search_title": "Аккордеон Hohner Bravo I 49 F в аренду",
+      "editorial_title": "Hohner Bravo I 49 F: самый лёгкий вход в melody bass и free-bass обучение",
+      "description": "Hohner Bravo I 49 F: lightweight free-bass accordion developed with music teachers for melody-bass learning.",
+      "kicker": "BRAVO I 49 F · FREEBASS · MUSIC DIDACTICS",
+      "intro": [
+        "<p>Bravo I 49 F решает не размерную, а системную учебную задачу. Hohner называет его самым лёгким free-bass аккордеоном своего типа и прямо пишет, что модель разработана в тесном сотрудничестве с преподавателями и в соответствии с музыкально-дидактическими стандартами.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / FREEBASS",
+          "title": "Левая рука получает мелодическую функцию, а не только готовые аккорды",
+          "paragraphs": [
+            "49 free-bass кнопок и диапазон G–G позволяют осваивать независимое движение левой руки. Это уже другой язык техники, поэтому переход на такую систему должен исходить из программы преподавателя, а не из желания иметь «более продвинутый» инструмент."
+          ]
+        },
+        {
+          "label": "02 / ВЕС",
+          "title": "3,9 кг уменьшают физический порог входа в сложную левую систему",
+          "paragraphs": [
+            "Лёгкий корпус полезен ребёнку, которому free-bass нужен рано. На примерке всё равно проверяют ремни, положение левой руки и движение меха: малая масса сама по себе не гарантирует удобство."
+          ]
+        },
+        {
+          "label": "03 / ДИДАКТИКА",
+          "title": "Teacher-linked design здесь является частью самой модели",
+          "paragraphs": [
+            "Hohner отдельно указывает разработку вместе с ведущими преподавателями. Это сильное educational evidence, но не обязательная модель всех школ. Преподаватель должен подтвердить, что именно такая система соответствует его методике."
+          ]
+        }
+      ],
+      "quote": "Программа уже требует melody bass/free-bass или ученик пока работает только с готовыми басами?",
+      "sources": [
+        {
+          "title": "Hohner: Bravo I 49 F",
+          "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-i-49f"
+        },
+        {
+          "title": "Hohner: Bravo Series",
+          "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo"
+        }
+      ]
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-dlya-obucheniya",
+      "parent": "arenda-akkordeona-moskva",
+      "search_title": "Аккордеон с выборным басом для обучения в аренду",
+      "editorial_title": "Выборный бас: левая рука начинает учиться мелодии как самостоятельный голос",
+      "description": "Подбор free-bass/melody-bass accordion for study: system, left-hand range, weight and teacher methodology.",
+      "kicker": "FREEBASS · MELODY BASS · LEFT HAND",
+      "intro": [
+        "<p>Преподаватель вводит выборный бас, и обычный готовый аккомпанемент перестаёт покрывать программу. Это отдельный образовательный переход: левая рука должна играть мелодические линии, интервалы и самостоятельное голосоведение. Поэтому запрос формулируется системой, а не просто количеством басовых кнопок.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МЕТОДИКА",
+          "title": "Free-bass нужен только тогда, когда он встроен в учебную программу",
+          "paragraphs": [
+            "У разных школ и преподавателей различается момент перехода и конкретная система. Перед подбором нужно точно назвать раскладку, диапазон и используемый учебный материал, иначе «выборный бас» останется слишком общей формулировкой."
+          ]
+        },
+        {
+          "label": "02 / ЛЕВАЯ РУКА",
+          "title": "Новая система должна быть доступна физически, а не только музыкально",
+          "paragraphs": [
+            "Ученик играет простую гамму или мелодию левой рукой, затем соединяет её с правой. Проверяют, может ли кисть находить нужные ряды без постоянного разворота корпуса и потери контроля меха."
+          ]
+        },
+        {
+          "label": "03 / МОДЕЛЬ",
+          "title": "Bravo I 49 F является одним из лёгких входов, но не единственным решением",
+          "paragraphs": [
+            "Hohner специально делает 49 F лёгким free-bass инструментом. Для других программ могут быть нужны более широкий диапазон, другой корпус или convertor-система. Модель выбирается после системы, а не наоборот."
+          ]
+        }
+      ],
+      "quote": "Какую именно систему выборного баса использует преподаватель и какой диапазон нужен на ближайший учебный этап?",
+      "sources": [
+        {
+          "title": "Hohner: Bravo I 49 F — free-bass learning instrument",
+          "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-i-49f"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "arenda-akkordeona-moskva": [
+      {
+        "label": "Hohner Bravo I 49 F",
+        "href": "/hohner-bravo-i-49f-v-arendu/"
+      },
+      {
+        "label": "С выборным басом",
+        "href": "/akkordeon-s-vybornym-basom-dlya-obucheniya/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Hohner Bravo I 49 F",
+        "href": "/hohner-bravo-i-49f-v-arendu/"
+      }
+    ],
+    "instrument-po-trebovaniyam-k-kachestvu": [
+      {
+        "label": "Аккордеон с выборным басом",
+        "href": "/akkordeon-s-vybornym-basom-dlya-obucheniya/"
+      }
+    ]
+  }
+}
