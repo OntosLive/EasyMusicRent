@@ -31,7 +31,7 @@ class SchoolMelodicaTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1138)
+        self.assertEqual(result['subjects'],1148)
         self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
         self.assertEqual(next(p for p in self.doc['pages'] if p['slug']=='melodika').get('mode'),'enrich')
         for slug in SLUGS:
