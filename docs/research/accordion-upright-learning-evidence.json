@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1090,
-  "new_subjects": 4,
+  "new_subjects": 3,
   "sources": {
     "perle": {
       "title": "Musikland: Weltmeister Perle 26/48",
@@ -103,7 +103,8 @@
         "yamaha_u1",
         "yamaha_u1_uk"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "enrich"
     },
     {
       "slug": "kawai-k300-v-arendu",
@@ -121,5 +122,8 @@
     "Educational procurement of Rubin confirms institutional use, not universal recommendation.",
     "U1 and K-300 are long-horizon upright candidates, not mandatory beginner instruments.",
     "Russian manufacturer representation is distinct from Russian school endorsement."
+  ],
+  "enriched_subjects": [
+    "yamaha-u1-v-arendu"
   ]
 }
