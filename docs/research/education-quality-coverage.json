@@ -1,1 +1,1347 @@
-{"version":1,"reviewed_on":"2026-10-05","baseline_subjects":916,"status":"reviewed_increment_not_exhaustive_world_ranking","country_note":"Для manufacturer страна относится к организации-источнику, а не подтверждает национальную педагогическую рекомендацию. Локализация сайта не меняет этот статус.","hubs":["instrument-po-rekomendatsii-prepodavatelya","instrument-po-trebovaniyam-k-kachestvu"],"families":[{"family":"klavishnye","model_brand_entries":["yamaha-p125-v-arendu","kawai-es120-v-arendu","roland-fp30x-v-arendu","casio-cdps110-v-arendu"],"quality_entries":["pianino-s-rovnoy-klaviaturoy","cifrovoe-pianino-s-polupedalyu"],"source_ids":["pianoreg","half"],"scope_and_remaining_work":"Техническое основание и существующие модельные страницы. Единый список рекомендаций российских фортепианных отделений ещё не установлен."},{"family":"smychkovye","model_brand_entries":["smychkovye-strunal","kontrabas-rubner","smychkovye-musima","smychkovye-cremona-luby","smychkovye-cremona-saga","stentor-student-ii-skripka-v-arendu","eastman-vl100-v-arendu","gewa-ideale-skripka-v-arendu","yamaha-v5-skripka-v-arendu"],"quality_entries":["skripka-s-legkim-otklikom","kontrabas-s-nizkoy-vysotoy-strun","udobnaya-violonchel","alt-dlya-nebolshoy-ruki"],"source_ids":["dshi","strunal","musima","rubnerbass","rubnertuners","ucan","saga","setup"],"scope_and_remaining_work":"Брендовые входы действуют вместе с мастером, размером и экземпляром. Rubner и Musima не объявлены обязательными учебными марками."},{"family":"gitary","model_brand_entries":["yamaha-c40ii-v-arendu","yamaha-cs40ii-v-arendu","alhambra-4p-v-arendu"],"quality_entries":["gitara-s-nizkoy-vysotoy-strun"],"source_ids":["c40","yamschool","alhambra","action"],"scope_and_remaining_work":"Начальные Yamaha и более продвинутая Alhambra разведены. Название Conservatorio у производителя не является государственным стандартом Испании."},{"family":"shchipkovye","model_brand_entries":["gibson-f5-master-model-v-arendu","deering-sierra-v-arendu"],"quality_entries":["ukulele-so-stroyaschimi-ladami","narodnyy-instrument-po-trebovaniyam-pedagoga"],"source_ids":["action"],"scope_and_remaining_work":"Существующие F-5/Sierra остаются профессиональными, а не обязательными первыми инструментами. Учебные бренды укулеле, домр и мандолин требуют дальнейших первичных рекомендаций."},{"family":"arfy-liry","model_brand_entries":["salvi-juno25-v-arendu"],"quality_entries":["arfa-s-udobnym-natyazheniem-strun"],"source_ids":["juno","salvirental"],"scope_and_remaining_work":"Учебная модель и официальная арендная программа в Японии; требования российского преподавателя подтверждаются отдельно."},{"family":"duhovye","model_brand_entries":["yamaha-yfl212-v-arendu","yamaha-ycl255-v-arendu","yamaha-yas280-v-arendu","yamaha-ytr2330-v-arendu","buffet-r13-v-arendu"],"quality_entries":["duhovoy-s-legkim-otklikom","duhovye-dlya-perehoda-na-professionalnyy-uroven"],"source_ids":["dshi","d47","royal"],"scope_and_remaining_work":"Начальные школьные списки, российский фонд и американский Step Up различаются по этапу и дате. Продвинутый R13 не назначен новичкам по умолчанию."},{"family":"udarnye","model_brand_entries":["pearl-roadshow-v-arendu","roland-td17kvx2-v-arendu"],"quality_entries":["barabany-s-upravlyaemym-otskokom"],"source_ids":["roadshow","td17"],"scope_and_remaining_work":"Учебное назначение и функции подтверждены производителями. Независимый международный рейтинг не заявлен."},{"family":"bayan-akkordeon","model_brand_entries":["hohner-bravo-ii-48-v-arendu","tulskie-bayany-dlya-obucheniya"],"quality_entries":["bayan-s-legkim-mehom"],"source_ids":["bravo","tula"],"scope_and_remaining_work":"Российские учебные семейства и серийный Hohner; конкретная модель тульского баяна требует требования педагога, не выдумывается из общего каталога."},{"family":"elektronnye","model_brand_entries":["korg-minilogue-xd-v-arendu","expressive-e-osmose-v-arendu"],"quality_entries":["sintezator-s-ponyatnym-upravleniem"],"source_ids":["minilogue","osmose"],"scope_and_remaining_work":"Модели приведены как примеры интерфейса. Возможности исходного minilogue не переносятся автоматически на xd; отдельная обязательная учебная марка не установлена."},{"family":"traditsionnye","model_brand_entries":["tulskie-bayany-dlya-obucheniya","domra-dlya-uchenika"],"quality_entries":["narodnyy-instrument-po-trebovaniyam-pedagoga"],"source_ids":["tula"],"scope_and_remaining_work":"Тип, региональная школа, строй и мастер допустимы как вход. Брендовый выбор для каждой традиции остаётся отдельным исследованием."},{"family":"istoricheskie","model_brand_entries":["blokfleyty-mollenhauer-dlya-obucheniya"],"quality_entries":["istoricheskiy-instrument-s-nuzhnym-stroem"],"source_ids":["mollenhauer"],"scope_and_remaining_work":"Разведены частота, темперация, аппликатура и реконструкция. Mollenhauer относится к блокфлейтам, а не ко всем историческим семействам."},{"family":"redkie-eksperimentalnye","model_brand_entries":["expressive-e-osmose-v-arendu","moog-etherwave-v-arendu"],"quality_entries":["eksperimentalnyy-instrument-s-povtoryaemoy-nastroykoy"],"source_ids":["osmose"],"scope_and_remaining_work":"Проверка интерфейса и повторяемости предложена редакцией. Общепринятый педагогический стандарт не заявлен."},{"family":"usiliteli-backline","model_brand_entries":["boss-katana50-gen3-v-arendu","radial-jdi-v-arendu"],"quality_entries":["usilitel-dlya-domashnih-uchebnyh-zanyatiy"],"source_ids":["katana","radial","show4rent"],"scope_and_remaining_work":"Усиление для домашних упражнений отделено от гастрольного JDI. Российский прокат подтверждает DI-позицию, а не её пригодность каждому ученику."}],"records":[{"slug":"gibson-sg-standard-v-arendu","parent":"elektrogitara","role":"model","sources":["sg","backstage","nazarov"],"status":"authored","availability":"unconfirmed"},{"slug":"rickenbacker-330-v-arendu","parent":"poluakusticheskaya-gitara","role":"model","sources":["ric","backstage"],"status":"authored","availability":"unconfirmed"},{"slug":"di-boksy","parent":"usiliteli-backline","role":"category","sources":["radial","show4rent"],"status":"authored","availability":"unconfirmed"},{"slug":"radial-jdi-v-arendu","parent":"di-boksy","role":"model","sources":["radial","show4rent"],"status":"authored","availability":"unconfirmed"},{"slug":"smychkovye-strunal","parent":"smychkovye","role":"brand","sources":["strunal","strunalrange","dshi"],"status":"authored","availability":"unconfirmed"},{"slug":"skripka-strunal","parent":"skripka","role":"model","sources":["dshi","strunalrange","setup"],"status":"authored","availability":"unconfirmed"},{"slug":"kontrabas-strunal","parent":"kontrabas","role":"model","sources":["strunalrange"],"status":"authored","availability":"unconfirmed"},{"slug":"kontrabas-rubner","parent":"kontrabas","role":"brand","sources":["rubnerbass","rubnertuners"],"status":"authored","availability":"unconfirmed"},{"slug":"smychkovye-musima","parent":"smychkovye","role":"brand","sources":["musima","pratum"],"status":"authored","availability":"unconfirmed"},{"slug":"violonchel-musima","parent":"violonchel","role":"model","sources":["musima","pratum"],"status":"authored","availability":"unconfirmed"},{"slug":"smychkovye-cremona-luby","parent":"smychkovye","role":"brand","sources":["strunal","saga"],"status":"authored","availability":"unconfirmed"},{"slug":"smychkovye-cremona-saga","parent":"smychkovye","role":"brand","sources":["saga"],"status":"authored","availability":"unconfirmed"},{"slug":"cremona-sv175-v-arendu","parent":"skripka","role":"model","sources":["saga"],"status":"authored","availability":"unconfirmed"},{"slug":"stentor-student-ii-skripka-v-arendu","parent":"skripka","role":"model","sources":["stentorviolin"],"status":"authored","availability":"unconfirmed"},{"slug":"stentor-student-ii-violonchel-v-arendu","parent":"violonchel","role":"model","sources":["stentorcello"],"status":"authored","availability":"unconfirmed"},{"slug":"stentor-student-ii-kontrabas-v-arendu","parent":"kontrabas","role":"model","sources":["stentorbass"],"status":"authored","availability":"unconfirmed"},{"slug":"eastman-vl100-v-arendu","parent":"skripka","role":"model","sources":["eastman"],"status":"authored","availability":"unconfirmed"},{"slug":"gewa-ideale-skripka-v-arendu","parent":"skripka","role":"model","sources":["gewa"],"status":"authored","availability":"unconfirmed"},{"slug":"yamaha-v5-skripka-v-arendu","parent":"skripka","role":"model","sources":["yamv5"],"status":"authored","availability":"unconfirmed"},{"slug":"yamaha-c40ii-v-arendu","parent":"klassicheskaya-gitara","role":"model","sources":["c40","yamschool"],"status":"authored","availability":"unconfirmed"},{"slug":"yamaha-cs40ii-v-arendu","parent":"klassicheskaya-gitara","role":"model","sources":["yamschool"],"status":"authored","availability":"unconfirmed"},{"slug":"alhambra-4p-v-arendu","parent":"klassicheskaya-gitara","role":"model","sources":["alhambra"],"status":"authored","availability":"unconfirmed"},{"slug":"hohner-bravo-ii-48-v-arendu","parent":"arenda-akkordeona-moskva","role":"model","sources":["bravo"],"status":"authored","availability":"unconfirmed"},{"slug":"tulskie-bayany-dlya-obucheniya","parent":"arenda-bayana-moskva","role":"brand","sources":["tula"],"status":"authored","availability":"unconfirmed"},{"slug":"salvi-juno25-v-arendu","parent":"leversnaya-arfa","role":"model","sources":["juno","salvirental"],"status":"authored","availability":"unconfirmed"},{"slug":"blokfleyty-mollenhauer-dlya-obucheniya","parent":"blokfleyta","role":"brand","sources":["mollenhauer"],"status":"authored","availability":"unconfirmed"},{"slug":"duhovye-dlya-perehoda-na-professionalnyy-uroven","parent":"duhovye","role":"quality","sources":["royal"],"status":"authored","availability":"unconfirmed"},{"slug":"pearl-roadshow-v-arendu","parent":"barabannaya-ustanovka","role":"model","sources":["roadshow"],"status":"authored","availability":"unconfirmed"},{"slug":"boss-katana50-gen3-v-arendu","parent":"gitarnye-usiliteli","role":"model","sources":["katana"],"status":"authored","availability":"unconfirmed"},{"slug":"skripka-s-legkim-otklikom","parent":"skripka","role":"quality","sources":["setup"],"status":"authored","availability":"unconfirmed"},{"slug":"pianino-s-rovnoy-klaviaturoy","parent":"fortepiano","role":"quality","sources":["pianoreg"],"status":"authored","availability":"unconfirmed"},{"slug":"cifrovoe-pianino-s-polupedalyu","parent":"cifrovoe-pianino","role":"quality","sources":["half"],"status":"authored","availability":"unconfirmed"},{"slug":"gitara-s-nizkoy-vysotoy-strun","parent":"gitary","role":"quality","sources":["action"],"status":"authored","availability":"unconfirmed"},{"slug":"ukulele-so-stroyaschimi-ladami","parent":"ukulele","role":"quality","sources":["action"],"status":"authored","availability":"unconfirmed"},{"slug":"arfa-s-udobnym-natyazheniem-strun","parent":"arfy-liry","role":"quality","sources":["juno","salvirental"],"status":"authored","availability":"unconfirmed"},{"slug":"duhovoy-s-legkim-otklikom","parent":"duhovye","role":"quality","sources":["royal","dshi"],"status":"authored","availability":"unconfirmed"},{"slug":"barabany-s-upravlyaemym-otskokom","parent":"udarnye","role":"quality","sources":["td17"],"status":"authored","availability":"unconfirmed"},{"slug":"bayan-s-legkim-mehom","parent":"bayan-akkordeon","role":"quality","sources":["bravo","tula"],"status":"authored","availability":"unconfirmed"},{"slug":"sintezator-s-ponyatnym-upravleniem","parent":"sintezatory","role":"quality","sources":["minilogue"],"status":"authored","availability":"unconfirmed"},{"slug":"narodnyy-instrument-po-trebovaniyam-pedagoga","parent":"traditsionnye","role":"quality","sources":["tula"],"status":"authored","availability":"unconfirmed"},{"slug":"istoricheskiy-instrument-s-nuzhnym-stroem","parent":"istoricheskie","role":"quality","sources":["mollenhauer"],"status":"authored","availability":"unconfirmed"},{"slug":"eksperimentalnyy-instrument-s-povtoryaemoy-nastroykoy","parent":"redkie-eksperimentalnye","role":"quality","sources":["osmose"],"status":"authored","availability":"unconfirmed"},{"slug":"usilitel-dlya-domashnih-uchebnyh-zanyatiy","parent":"usiliteli-backline","role":"quality","sources":["katana","radial"],"status":"authored","availability":"unconfirmed"},{"slug":"instrument-po-rekomendatsii-prepodavatelya","parent":"","role":"education_hub","sources":["royal","dshi","stentorviolin"],"status":"authored","availability":"unconfirmed"},{"slug":"instrument-po-trebovaniyam-k-kachestvu","parent":"","role":"quality_hub","sources":["setup","action","pianoreg","half"],"status":"authored","availability":"unconfirmed"}],"sources":{"sg":{"title":"Gibson: SG Standard, конструкция и звукосниматели","url":"https://www.gibson.com/products/gibson-sg-standard-heritage-cherry","country_of_evidence":"US","kind":"manufacturer","scope":"Современная SG Standard; характеристики не переносятся на SG Junior, Special и все годы выпуска.","reviewed_on":"2026-10-05"},"ric":{"title":"Rickenbacker: Model 330","url":"https://www.rickenbacker.com/guitars/model-330/","country_of_evidence":"US","kind":"manufacturer","scope":"Шестиструнная 330; отдельная 330/12 не считается тем же исполнением модели.","reviewed_on":"2026-10-05"},"backstage":{"title":"Backstage Backline: опубликованный парк инструментов","url":"https://www.backstagebackline.com/instruments-and-more","country_of_evidence":"US","kind":"rental_inventory","scope":"Есть Gibson SG и Rickenbacker 330. Список не доказывает глобальную частотность райдеров и наличие нужной версии на дату.","reviewed_on":"2026-10-05"},"nazarov":{"title":"Nazarov Studio: оборудование площадки в Москве","url":"https://nazarovstudio.ru/party","country_of_evidence":"RU","kind":"venue_inventory","scope":"На площадке заявлена Gibson SG Standard. Это использование в конкретной московской инфраструктуре, а не всероссийский рейтинг.","reviewed_on":"2026-10-05"},"radial":{"title":"Radial Engineering: JDI","url":"https://www.radialeng.com/product/jdi","country_of_evidence":"CA","kind":"manufacturer","scope":"Пассивный одноканальный DI с трансформаторной развязкой; правила подключения читаются для конкретной модели.","reviewed_on":"2026-10-05"},"show4rent":{"title":"Show4Rent: бэклайн и коммутация","url":"https://www.show4rent.ru/backline","country_of_evidence":"RU","kind":"rental_inventory","scope":"В списке коммутации Radial JDI, BSS AR-133, Klark Teknik DN100/DN200; цены и наличие не заимствуются.","reviewed_on":"2026-10-05"},"strunal":{"title":"Strunal: история Cremona и Strunal в Лубах","url":"https://strunal.cz/Historie/","country_of_evidence":"CZ","kind":"manufacturer_history","scope":"История марки, переименование Cremona в Strunal в 1992 году. Не подтверждает работу фабрики или текущие поставки в 2026 году.","reviewed_on":"2026-10-05"},"strunalrange":{"title":"Strunal Schönbach: ассортимент смычковых","url":"https://strunalschonbach.cz/","country_of_evidence":"CZ","kind":"manufacturer","scope":"Семейства скрипок, альтов, виолончелей и контрабасов; конкретная комплектация требует проверки.","reviewed_on":"2026-10-05"},"dshi":{"title":"ДШИ села Городище: материально-техническое обеспечение","url":"https://dshig.ru/materialno-tekhnicheskoe-obespechenie/","country_of_evidence":"RU","kind":"school_inventory","scope":"Опубликованный школьный перечень содержит Strunal разных размеров, мастеровые скрипки и Yamaha YFL-221. Проверен индексированный текст; текущие остатки и сравнительное качество не установлены.","reviewed_on":"2026-10-05"},"rubnerbass":{"title":"Upton Bass: осмотренный Johannes Rubner Master Art","url":"https://uptonbass.com/product/johannes-rubner-double-bass/","country_of_evidence":"US","kind":"workshop_specimen","scope":"Описание одного бывшего в использовании контрабаса Rubner. Его размеры, древесина и отклик не распространяются на все Rubner.","reviewed_on":"2026-10-05"},"rubnertuners":{"title":"Thomas Rubner: механика и комплектующие","url":"https://www.rubner-markneukirchen.de/","country_of_evidence":"DE","kind":"manufacturer","scope":"Марка колковой механики не устанавливает изготовителя всего контрабаса.","reviewed_on":"2026-10-05"},"musima":{"title":"Музей музыкальных инструментов Маркнойкирхена: MUSIMA","url":"https://museum-markneukirchen.de/sammlungen-ausstellungen/ausstellungen/musima","country_of_evidence":"DE","kind":"museum_history","scope":"Промышленная история MUSIMA, разные инструменты и уровни исполнения. Историческая марка не является гарантией состояния.","reviewed_on":"2026-10-05"},"pratum":{"title":"Pratum Integrum: сведения об инструментах музыкантов","url":"https://www.pratum.ru/orchestra/","country_of_evidence":"RU","kind":"performer_inventory","scope":"В опубликованном составе названа виолончель Musima 1970-х. Архивное свидетельство конкретного инструмента, не рекомендация всем ученикам.","reviewed_on":"2026-10-05"},"saga":{"title":"Saga: Cremona SV-175 Premier Student Violin","url":"https://www.sagamusic.com/shop/violin-family/cremona/cremona-sv-175-premier-student-violin-outfit-4-4-size/","country_of_evidence":"US","kind":"manufacturer","scope":"Современная марка Cremona в каталоге Saga. Утверждения о соответствии требованиям ассоциаций остаются заявлениями производителя, а не независимой сертификацией.","reviewed_on":"2026-10-05"},"stentorviolin":{"title":"Stentor: Student II Violin Outfit 1500","url":"https://www.stentor-music.com/products/stentor-student-ii-violin-outfit-1500.html","country_of_evidence":"GB","kind":"manufacturer","scope":"Учебное назначение, размеры и комплект скрипки; рекомендация преподавателей заявлена самим производителем.","reviewed_on":"2026-10-05"},"stentorcello":{"title":"Stentor: Student II Cello Outfit 1108","url":"https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html","country_of_evidence":"GB","kind":"manufacturer","scope":"Материалы и комплект учебной виолончели; проверка конкретного экземпляра нужна отдельно.","reviewed_on":"2026-10-05"},"stentorbass":{"title":"Stentor: Student II Double Bass Outfit 1438","url":"https://www.stentor-music.com/products/stentor-student-ii-double-bass-outfit-1438.html","country_of_evidence":"GB","kind":"manufacturer","scope":"Серийный учебный контрабас; название комплекта не устанавливает фактическую высоту струн.","reviewed_on":"2026-10-05"},"eastman":{"title":"Eastman: Samuel Eastman VL100","url":"https://www.eastmanstrings.com/violin/vl100/","country_of_evidence":"US","kind":"manufacturer","scope":"Учебная скрипка с резными деками и эбеновой фурнитурой. Популярность в учебных программах заявлена изготовителем.","reviewed_on":"2026-10-05"},"gewa":{"title":"GEWA: Ideale, варианты комплектации","url":"https://gewastrings.com/en/product/gewa-ideale---4-4-lightly-flamed/24956","country_of_evidence":"DE","kind":"manufacturer","scope":"В одной линии перечислены подготовленные и неподготовленные варианты, разные струны и смычки. German engineering не тождественно месту изготовления.","reviewed_on":"2026-10-05"},"yamv5":{"title":"Yamaha: V5SA/V5SC, учебные скрипки и комплекты","url":"https://es.yamaha.com/es/musical-instruments/strings/products/acoustic-strings/v5s/","country_of_evidence":"JP","kind":"manufacturer","scope":"Первичный каталог Yamaha, испанская локализация не доказывает рекомендацию испанской школы. V5SA и V5SC различаются комплектацией.","reviewed_on":"2026-10-05"},"setup":{"title":"Joel Kennedy на NAfME: подготовка смычкового инструмента","url":"https://nafme.org/blog/the-importance-of-proper-instrument-setup/","country_of_evidence":"US","kind":"workshop_guidance","scope":"Авторский материал Kennedy Violins на сайте NAfME, обозначен спонсируемым. Не независимый рейтинг брендов и не официальный стандарт размеров.","reviewed_on":"2026-10-05"},"c40":{"title":"Yamaha: C40II, спецификация ученической классической гитары","url":"https://usa.yamaha.com/products/musical_instruments/guitars_basses/cl_guitars/c_cx/specs.html","country_of_evidence":"JP","kind":"manufacturer","scope":"Полноразмерная C40II; состав некоторых пород меняется по доступности, поэтому не переносится старая спецификация C40 на все годы.","reviewed_on":"2026-10-05"},"yamschool":{"title":"Yamaha: подбор классической гитары, C40II, CS40II и школьные размеры","url":"https://de.yamaha.com/de/products/contents/guitars_basses/guitar_finder/cl_guitars/index.html","country_of_evidence":"JP","kind":"manufacturer","scope":"Учебное назначение C40II и уменьшенной CS40II; немецкая локализация не является независимой немецкой педагогической рекомендацией.","reviewed_on":"2026-10-05"},"alhambra":{"title":"Alhambra: 4P, линия Conservatorio","url":"https://alhambraguitarras.com/es-es/products/4p","country_of_evidence":"ES","kind":"manufacturer","scope":"Кедровая дека, палисандр и эбеновая накладка; название Conservatorio означает линейку изготовителя, а не предписание всех консерваторий.","reviewed_on":"2026-10-05"},"bravo":{"title":"Hohner: Bravo II 48","url":"https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-ii-48","country_of_evidence":"DE","kind":"manufacturer","scope":"Компактная начальная модель с 26 клавишами и 48 готовыми басами; не заменяет готово-выборный баян.","reviewed_on":"2026-10-05"},"tula":{"title":"Тульская гармонь: ученические и готово-выборные баяны","url":"https://harmonica-tula.ru/catalog/bayany/","country_of_evidence":"RU","kind":"manufacturer","scope":"Фабрика разделяет учебные готовые и готово-выборные инструменты. Точные модели и наличие по этой странице не установлены.","reviewed_on":"2026-10-05"},"juno":{"title":"Salvi Harps Japan: Juno 25","url":"https://salviharps.jp/products/juno25/","country_of_evidence":"JP","kind":"official_distributor","scope":"Учебная леверсная арфа: 25 струн, высота 81 см, масса 5,5 кг в описанной комплектации. Изготовитель итальянский, свидетельство сервиса японское.","reviewed_on":"2026-10-05"},"salvirental":{"title":"Salvi Harps Japan: программа аренды учебных арф","url":"https://salviharps.jp/rental/","country_of_evidence":"JP","kind":"rental_inventory","scope":"В официальной японской программе Juno25, Mia, Daphne40 и Daphne47S. Это подтверждение доступа в Японии, не наличие в России.","reviewed_on":"2026-10-05"},"mollenhauer":{"title":"Mollenhauer: учебные серии и исторические исполнения","url":"https://www.mollenhauer.com/en/","country_of_evidence":"DE","kind":"manufacturer","scope":"Отдельные школьные серии, Canta для ансамбля, Denner Edition в 442 и 415 Гц. Не все Mollenhauer имеют одинаковую аппликатуру и назначение.","reviewed_on":"2026-10-05"},"d47":{"title":"Crystal Lake District 47 Band: рекомендации начинающим","url":"https://www.d47.band/faq/","country_of_evidence":"US","kind":"school_recommendation","scope":"Архивная страница для учебного цикла 2022–2023. Список служит примером школьного отбора; текущие требования необходимо уточнять у своего педагога.","reviewed_on":"2026-10-05"},"royal":{"title":"McKinney High School: Step Up Instruments","url":"https://www.royalprideband.org/step-up-instruments","country_of_evidence":"US","kind":"school_recommendation","scope":"Школа явно рекомендует продвинутые инструменты: Buffet R13, Yamaha Xeno, Bach42BO и другие. Не список обязательных покупок новичку.","reviewed_on":"2026-10-05"},"ucan":{"title":"UCan Play: Stentor Student II Viola","url":"https://shop.ucanplay.org.uk/products/stentor-student-ii-viola","country_of_evidence":"GB","kind":"education_service","scope":"Рекомендация образовательного поставщика для школьной практики. Коммерчески заинтересованный источник, не государственный стандарт.","reviewed_on":"2026-10-05"},"ritmy":{"title":"Музыкальная школа Ритмы, Санкт-Петербург: учебная аренда","url":"https://ritmyspb.ru/rent","country_of_evidence":"RU","kind":"school_rental","scope":"Собственная программа аренды для начинающих и перечень инструментов. Это образовательная практика конкретной школы, без национального рейтинга брендов.","reviewed_on":"2026-10-05"},"roadshow":{"title":"Pearl: Roadshow, учебные комплекты и конфигурации","url":"https://pearldrum.com/en/products/drum-sets/roadshow/roadshow","country_of_evidence":"JP","kind":"manufacturer","scope":"Учебное позиционирование производителя; разные размеры и комплекты по рынкам. Не независимая педагогическая рекомендация.","reviewed_on":"2026-10-05"},"katana":{"title":"BOSS: Katana-50 Gen 3, управление и наушники","url":"https://www.boss.info/global/products/katana-50_gen_3/","country_of_evidence":"JP","kind":"manufacturer","scope":"Модель 50 Gen 3: Power Control, память, наушники. Функции 50 EX и Artist автоматически не переносятся.","reviewed_on":"2026-10-05"},"pianoreg":{"title":"Yamaha: регулировка клавиатуры и интонировка","url":"https://www.yamaha.com/en/musical_instrument_guide/piano/manufacturing/manufacturing005.html","country_of_evidence":"JP","kind":"manufacturer_technical","scope":"Различает регулировку механики, настройку высоты и интонировку. Универсальная норма усилия для учеников не задаётся.","reviewed_on":"2026-10-05"},"half":{"title":"Yamaha: FC3A и поддержка полупедали","url":"https://usa.yamaha.com/products/music_production/accessories/fc3a/index.html","country_of_evidence":"JP","kind":"manufacturer_technical","scope":"Функция полупедали конкретной педали. Совместимость с каждым пианино проверяется отдельно.","reviewed_on":"2026-10-05"},"action":{"title":"Taylor: высота струн и регулировка грифа","url":"https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do","country_of_evidence":"US","kind":"manufacturer_technical","scope":"Анкер регулирует прогиб, а высота связана также с геометрией грифа и порожков. Не инструкция пользователю самостоятельно изменять арендованный инструмент.","reviewed_on":"2026-10-05"},"td17":{"title":"Roland: TD-17KVX2","url":"https://www.roland.com/global/products/td-17kvx2/","country_of_evidence":"JP","kind":"manufacturer_technical","scope":"Сетчатые поверхности и учебные функции конкретного комплекта; полная тишина и тождество акустическому отскоку не заявляются.","reviewed_on":"2026-10-05"},"minilogue":{"title":"Korg: minilogue, панель и память звуков","url":"https://www.korg.com/us/products/synthesizers/minilogue/","country_of_evidence":"JP","kind":"manufacturer_technical","scope":"Наглядная панель, осциллограф и память являются свойствами модели; педагогическая проверка использования предлагается редакцией.","reviewed_on":"2026-10-05"},"osmose":{"title":"Expressive E: Osmose, выразительное управление","url":"https://www.expressivee.com/2-osmose","country_of_evidence":"FR","kind":"manufacturer_technical","scope":"Дополнительные измерения управления клавишей. Проверка повторяемости предложена редакцией, не объявлена педагогическим стандартом.","reviewed_on":"2026-10-05"}}}
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 916,
+  "status": "reviewed_increment_not_exhaustive_world_ranking",
+  "country_note": "Для manufacturer страна относится к организации-источнику, а не подтверждает национальную педагогическую рекомендацию. Локализация сайта не меняет этот статус.",
+  "hubs": [
+    "instrument-po-rekomendatsii-prepodavatelya",
+    "instrument-po-trebovaniyam-k-kachestvu"
+  ],
+  "families": [
+    {
+      "family": "klavishnye",
+      "model_brand_entries": [
+        "yamaha-p125-v-arendu",
+        "kawai-es120-v-arendu",
+        "roland-fp30x-v-arendu",
+        "casio-cdps110-v-arendu"
+      ],
+      "quality_entries": [
+        "pianino-s-rovnoy-klaviaturoy",
+        "cifrovoe-pianino-s-polupedalyu"
+      ],
+      "source_ids": [
+        "pianoreg",
+        "half"
+      ],
+      "scope_and_remaining_work": "Техническое основание и существующие модельные страницы. Единый список рекомендаций российских фортепианных отделений ещё не установлен."
+    },
+    {
+      "family": "smychkovye",
+      "model_brand_entries": [
+        "smychkovye-strunal",
+        "kontrabas-rubner",
+        "smychkovye-musima",
+        "smychkovye-cremona-luby",
+        "smychkovye-cremona-saga",
+        "stentor-student-ii-skripka-v-arendu",
+        "eastman-vl100-v-arendu",
+        "gewa-ideale-skripka-v-arendu",
+        "yamaha-v5-skripka-v-arendu"
+      ],
+      "quality_entries": [
+        "skripka-s-legkim-otklikom",
+        "kontrabas-s-nizkoy-vysotoy-strun",
+        "udobnaya-violonchel",
+        "alt-dlya-nebolshoy-ruki"
+      ],
+      "source_ids": [
+        "dshi",
+        "strunal",
+        "musima",
+        "rubnerbass",
+        "rubnertuners",
+        "ucan",
+        "saga",
+        "setup"
+      ],
+      "scope_and_remaining_work": "Брендовые входы действуют вместе с мастером, размером и экземпляром. Rubner и Musima не объявлены обязательными учебными марками."
+    },
+    {
+      "family": "gitary",
+      "model_brand_entries": [
+        "yamaha-c40ii-v-arendu",
+        "yamaha-cs40ii-v-arendu",
+        "alhambra-4p-v-arendu"
+      ],
+      "quality_entries": [
+        "gitara-s-nizkoy-vysotoy-strun"
+      ],
+      "source_ids": [
+        "c40",
+        "yamschool",
+        "alhambra",
+        "action"
+      ],
+      "scope_and_remaining_work": "Начальные Yamaha и более продвинутая Alhambra разведены. Название Conservatorio у производителя не является государственным стандартом Испании."
+    },
+    {
+      "family": "shchipkovye",
+      "model_brand_entries": [
+        "gibson-f5-master-model-v-arendu",
+        "deering-sierra-v-arendu",
+        "balalayker-student-optimum-v-arendu",
+        "balalayker-junior-v-arendu",
+        "balalayker-domra-volna-m-v-arendu",
+        "doff-domra-junior-v-arendu",
+        "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+        "mpkmi-balalaika-prima-uchenicheskaya-v-arendu",
+        "kala-ka15s-v-arendu",
+        "makala-dolphin-v-arendu"
+      ],
+      "quality_entries": [
+        "ukulele-so-stroyaschimi-ladami",
+        "narodnyy-instrument-po-trebovaniyam-pedagoga"
+      ],
+      "source_ids": [
+        "action"
+      ],
+      "scope_and_remaining_work": "Добавлены российские учебные домры/балалайки и classroom-укулеле. Дальше — мандолины и дополнительные российские/европейские учебные марки."
+    },
+    {
+      "family": "arfy-liry",
+      "model_brand_entries": [
+        "salvi-juno25-v-arendu"
+      ],
+      "quality_entries": [
+        "arfa-s-udobnym-natyazheniem-strun"
+      ],
+      "source_ids": [
+        "juno",
+        "salvirental"
+      ],
+      "scope_and_remaining_work": "Учебная модель и официальная арендная программа в Японии; требования российского преподавателя подтверждаются отдельно."
+    },
+    {
+      "family": "duhovye",
+      "model_brand_entries": [
+        "yamaha-yfl212-v-arendu",
+        "yamaha-ycl255-v-arendu",
+        "yamaha-yas280-v-arendu",
+        "yamaha-ytr2330-v-arendu",
+        "buffet-r13-v-arendu",
+        "yamaha-yob241-v-arendu",
+        "fox-renard-41-v-arendu",
+        "yamaha-yhr314ii-v-arendu",
+        "yamaha-ybb105-v-arendu"
+      ],
+      "quality_entries": [
+        "duhovoy-s-legkim-otklikom",
+        "duhovye-dlya-perehoda-na-professionalnyy-uroven"
+      ],
+      "source_ids": [
+        "dshi",
+        "d47",
+        "royal"
+      ],
+      "scope_and_remaining_work": "Начальное ядро теперь покрывает также гобой, фагот, одинарную валторну и 3/4 тубу. Следующий слой — независимые школьные рекомендации разных стран и альтернативные марки."
+    },
+    {
+      "family": "udarnye",
+      "model_brand_entries": [
+        "pearl-roadshow-v-arendu",
+        "roland-td17kvx2-v-arendu",
+        "vic-firth-fresh-approach-starter-pack-v-arendu",
+        "vic-firth-v8705-percussion-kit-v-arendu"
+      ],
+      "quality_entries": [
+        "barabany-s-upravlyaemym-otskokom"
+      ],
+      "source_ids": [
+        "roadshow",
+        "td17"
+      ],
+      "scope_and_remaining_work": "Добавлены classroom percussion kits и пэдовая практика. Следующий слой — школьные маллеты, snare kits и требования российских классов ударных."
+    },
+    {
+      "family": "bayan-akkordeon",
+      "model_brand_entries": [
+        "hohner-bravo-ii-48-v-arendu",
+        "tulskie-bayany-dlya-obucheniya",
+        "tula-bn46-detskiy-bayan-v-arendu",
+        "tula-etud205m2-v-arendu"
+      ],
+      "quality_entries": [
+        "bayan-s-legkim-mehom"
+      ],
+      "source_ids": [
+        "bravo",
+        "tula"
+      ],
+      "scope_and_remaining_work": "Помимо общего тульского входа появились конкретные БН-46 и Этюд-205М2. Дальше — готово-выборные учебные модели по требованиям российских педагогов."
+    },
+    {
+      "family": "elektronnye",
+      "model_brand_entries": [
+        "korg-minilogue-xd-v-arendu",
+        "expressive-e-osmose-v-arendu"
+      ],
+      "quality_entries": [
+        "sintezator-s-ponyatnym-upravleniem"
+      ],
+      "source_ids": [
+        "minilogue",
+        "osmose"
+      ],
+      "scope_and_remaining_work": "Модели приведены как примеры интерфейса. Возможности исходного minilogue не переносятся автоматически на xd; отдельная обязательная учебная марка не установлена."
+    },
+    {
+      "family": "traditsionnye",
+      "model_brand_entries": [
+        "tulskie-bayany-dlya-obucheniya",
+        "domra-dlya-uchenika",
+        "balalayker-student-optimum-v-arendu",
+        "balalayker-junior-v-arendu",
+        "balalayker-domra-volna-m-v-arendu",
+        "doff-domra-junior-v-arendu",
+        "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+        "mpkmi-balalaika-prima-uchenicheskaya-v-arendu"
+      ],
+      "quality_entries": [
+        "narodnyy-instrument-po-trebovaniyam-pedagoga"
+      ],
+      "source_ids": [
+        "tula"
+      ],
+      "scope_and_remaining_work": "Российские домра и балалайка теперь имеют серийные учебные входы БалалайкерЪ, Doff и ПКМИ. Гусли и другие традиции требуют следующего отдельного исследования."
+    },
+    {
+      "family": "istoricheskie",
+      "model_brand_entries": [
+        "blokfleyty-mollenhauer-dlya-obucheniya"
+      ],
+      "quality_entries": [
+        "istoricheskiy-instrument-s-nuzhnym-stroem"
+      ],
+      "source_ids": [
+        "mollenhauer"
+      ],
+      "scope_and_remaining_work": "Разведены частота, темперация, аппликатура и реконструкция. Mollenhauer относится к блокфлейтам, а не ко всем историческим семействам."
+    },
+    {
+      "family": "redkie-eksperimentalnye",
+      "model_brand_entries": [
+        "expressive-e-osmose-v-arendu",
+        "moog-etherwave-v-arendu"
+      ],
+      "quality_entries": [
+        "eksperimentalnyy-instrument-s-povtoryaemoy-nastroykoy"
+      ],
+      "source_ids": [
+        "osmose"
+      ],
+      "scope_and_remaining_work": "Проверка интерфейса и повторяемости предложена редакцией. Общепринятый педагогический стандарт не заявлен."
+    },
+    {
+      "family": "usiliteli-backline",
+      "model_brand_entries": [
+        "boss-katana50-gen3-v-arendu",
+        "radial-jdi-v-arendu"
+      ],
+      "quality_entries": [
+        "usilitel-dlya-domashnih-uchebnyh-zanyatiy"
+      ],
+      "source_ids": [
+        "katana",
+        "radial",
+        "show4rent"
+      ],
+      "scope_and_remaining_work": "Усиление для домашних упражнений отделено от гастрольного JDI. Российский прокат подтверждает DI-позицию, а не её пригодность каждому ученику."
+    }
+  ],
+  "records": [
+    {
+      "slug": "gibson-sg-standard-v-arendu",
+      "parent": "elektrogitara",
+      "role": "model",
+      "sources": [
+        "sg",
+        "backstage",
+        "nazarov"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "rickenbacker-330-v-arendu",
+      "parent": "poluakusticheskaya-gitara",
+      "role": "model",
+      "sources": [
+        "ric",
+        "backstage"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "di-boksy",
+      "parent": "usiliteli-backline",
+      "role": "category",
+      "sources": [
+        "radial",
+        "show4rent"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "radial-jdi-v-arendu",
+      "parent": "di-boksy",
+      "role": "model",
+      "sources": [
+        "radial",
+        "show4rent"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "smychkovye-strunal",
+      "parent": "smychkovye",
+      "role": "brand",
+      "sources": [
+        "strunal",
+        "strunalrange",
+        "dshi"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "skripka-strunal",
+      "parent": "skripka",
+      "role": "model",
+      "sources": [
+        "dshi",
+        "strunalrange",
+        "setup"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "kontrabas-strunal",
+      "parent": "kontrabas",
+      "role": "model",
+      "sources": [
+        "strunalrange"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "kontrabas-rubner",
+      "parent": "kontrabas",
+      "role": "brand",
+      "sources": [
+        "rubnerbass",
+        "rubnertuners"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "smychkovye-musima",
+      "parent": "smychkovye",
+      "role": "brand",
+      "sources": [
+        "musima",
+        "pratum"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "violonchel-musima",
+      "parent": "violonchel",
+      "role": "model",
+      "sources": [
+        "musima",
+        "pratum"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "smychkovye-cremona-luby",
+      "parent": "smychkovye",
+      "role": "brand",
+      "sources": [
+        "strunal",
+        "saga"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "smychkovye-cremona-saga",
+      "parent": "smychkovye",
+      "role": "brand",
+      "sources": [
+        "saga"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "cremona-sv175-v-arendu",
+      "parent": "skripka",
+      "role": "model",
+      "sources": [
+        "saga"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "stentor-student-ii-skripka-v-arendu",
+      "parent": "skripka",
+      "role": "model",
+      "sources": [
+        "stentorviolin"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "stentor-student-ii-violonchel-v-arendu",
+      "parent": "violonchel",
+      "role": "model",
+      "sources": [
+        "stentorcello"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "stentor-student-ii-kontrabas-v-arendu",
+      "parent": "kontrabas",
+      "role": "model",
+      "sources": [
+        "stentorbass"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "eastman-vl100-v-arendu",
+      "parent": "skripka",
+      "role": "model",
+      "sources": [
+        "eastman"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gewa-ideale-skripka-v-arendu",
+      "parent": "skripka",
+      "role": "model",
+      "sources": [
+        "gewa"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-v5-skripka-v-arendu",
+      "parent": "skripka",
+      "role": "model",
+      "sources": [
+        "yamv5"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-c40ii-v-arendu",
+      "parent": "klassicheskaya-gitara",
+      "role": "model",
+      "sources": [
+        "c40",
+        "yamschool"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-cs40ii-v-arendu",
+      "parent": "klassicheskaya-gitara",
+      "role": "model",
+      "sources": [
+        "yamschool"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "alhambra-4p-v-arendu",
+      "parent": "klassicheskaya-gitara",
+      "role": "model",
+      "sources": [
+        "alhambra"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "hohner-bravo-ii-48-v-arendu",
+      "parent": "arenda-akkordeona-moskva",
+      "role": "model",
+      "sources": [
+        "bravo"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "tulskie-bayany-dlya-obucheniya",
+      "parent": "arenda-bayana-moskva",
+      "role": "brand",
+      "sources": [
+        "tula"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "salvi-juno25-v-arendu",
+      "parent": "leversnaya-arfa",
+      "role": "model",
+      "sources": [
+        "juno",
+        "salvirental"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "blokfleyty-mollenhauer-dlya-obucheniya",
+      "parent": "blokfleyta",
+      "role": "brand",
+      "sources": [
+        "mollenhauer"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "duhovye-dlya-perehoda-na-professionalnyy-uroven",
+      "parent": "duhovye",
+      "role": "quality",
+      "sources": [
+        "royal"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "pearl-roadshow-v-arendu",
+      "parent": "barabannaya-ustanovka",
+      "role": "model",
+      "sources": [
+        "roadshow"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "boss-katana50-gen3-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "role": "model",
+      "sources": [
+        "katana"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "skripka-s-legkim-otklikom",
+      "parent": "skripka",
+      "role": "quality",
+      "sources": [
+        "setup"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "pianino-s-rovnoy-klaviaturoy",
+      "parent": "fortepiano",
+      "role": "quality",
+      "sources": [
+        "pianoreg"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "cifrovoe-pianino-s-polupedalyu",
+      "parent": "cifrovoe-pianino",
+      "role": "quality",
+      "sources": [
+        "half"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gitara-s-nizkoy-vysotoy-strun",
+      "parent": "gitary",
+      "role": "quality",
+      "sources": [
+        "action"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "ukulele-so-stroyaschimi-ladami",
+      "parent": "ukulele",
+      "role": "quality",
+      "sources": [
+        "action"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "arfa-s-udobnym-natyazheniem-strun",
+      "parent": "arfy-liry",
+      "role": "quality",
+      "sources": [
+        "juno",
+        "salvirental"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "duhovoy-s-legkim-otklikom",
+      "parent": "duhovye",
+      "role": "quality",
+      "sources": [
+        "royal",
+        "dshi"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "barabany-s-upravlyaemym-otskokom",
+      "parent": "udarnye",
+      "role": "quality",
+      "sources": [
+        "td17"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "bayan-s-legkim-mehom",
+      "parent": "bayan-akkordeon",
+      "role": "quality",
+      "sources": [
+        "bravo",
+        "tula"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "sintezator-s-ponyatnym-upravleniem",
+      "parent": "sintezatory",
+      "role": "quality",
+      "sources": [
+        "minilogue"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "narodnyy-instrument-po-trebovaniyam-pedagoga",
+      "parent": "traditsionnye",
+      "role": "quality",
+      "sources": [
+        "tula"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "istoricheskiy-instrument-s-nuzhnym-stroem",
+      "parent": "istoricheskie",
+      "role": "quality",
+      "sources": [
+        "mollenhauer"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "eksperimentalnyy-instrument-s-povtoryaemoy-nastroykoy",
+      "parent": "redkie-eksperimentalnye",
+      "role": "quality",
+      "sources": [
+        "osmose"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+      "parent": "usiliteli-backline",
+      "role": "quality",
+      "sources": [
+        "katana",
+        "radial"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "instrument-po-rekomendatsii-prepodavatelya",
+      "parent": "",
+      "role": "education_hub",
+      "sources": [
+        "royal",
+        "dshi",
+        "stentorviolin"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "instrument-po-trebovaniyam-k-kachestvu",
+      "parent": "",
+      "role": "quality_hub",
+      "sources": [
+        "setup",
+        "action",
+        "pianoreg",
+        "half"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "balalayker-student-optimum-v-arendu",
+      "parent": "balalayka",
+      "role": "model",
+      "sources": [
+        "balalaiker_optimum"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "balalayker-junior-v-arendu",
+      "parent": "balalayka",
+      "role": "model",
+      "sources": [
+        "balalaiker_junior"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "balalayker-domra-volna-m-v-arendu",
+      "parent": "domra",
+      "role": "model",
+      "sources": [
+        "balalaiker_domra"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "doff-domra-junior-v-arendu",
+      "parent": "domra",
+      "role": "model",
+      "sources": [
+        "domra_junior"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+      "parent": "domra",
+      "role": "model",
+      "sources": [
+        "mpkmi_domra"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "mpkmi-balalaika-prima-uchenicheskaya-v-arendu",
+      "parent": "balalayka",
+      "role": "model",
+      "sources": [
+        "mpkmi_balalaika"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "kala-ka15s-v-arendu",
+      "parent": "ukulele",
+      "role": "model",
+      "sources": [
+        "kala_classroom"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "makala-dolphin-v-arendu",
+      "parent": "ukulele",
+      "role": "model",
+      "sources": [
+        "makala_school"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yob241-v-arendu",
+      "parent": "goboy",
+      "role": "model",
+      "sources": [
+        "yob241"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "fox-renard-41-v-arendu",
+      "parent": "fagot",
+      "role": "model",
+      "sources": [
+        "fox41"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yhr314ii-v-arendu",
+      "parent": "valtorna",
+      "role": "model",
+      "sources": [
+        "yhr314"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-ybb105-v-arendu",
+      "parent": "tuba",
+      "role": "model",
+      "sources": [
+        "ybb105"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "vic-firth-fresh-approach-starter-pack-v-arendu",
+      "parent": "udarnye",
+      "role": "model",
+      "sources": [
+        "vf_fresh"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "vic-firth-v8705-percussion-kit-v-arendu",
+      "parent": "udarnye",
+      "role": "model",
+      "sources": [
+        "vf_v8705"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "tula-bn46-detskiy-bayan-v-arendu",
+      "parent": "arenda-bayana-moskva",
+      "role": "model",
+      "sources": [
+        "tula_bn46"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "tula-etud205m2-v-arendu",
+      "parent": "arenda-bayana-moskva",
+      "role": "model",
+      "sources": [
+        "tula_etud"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    }
+  ],
+  "sources": {
+    "sg": {
+      "title": "Gibson: SG Standard, конструкция и звукосниматели",
+      "url": "https://www.gibson.com/products/gibson-sg-standard-heritage-cherry",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Современная SG Standard; характеристики не переносятся на SG Junior, Special и все годы выпуска.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ric": {
+      "title": "Rickenbacker: Model 330",
+      "url": "https://www.rickenbacker.com/guitars/model-330/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Шестиструнная 330; отдельная 330/12 не считается тем же исполнением модели.",
+      "reviewed_on": "2026-10-05"
+    },
+    "backstage": {
+      "title": "Backstage Backline: опубликованный парк инструментов",
+      "url": "https://www.backstagebackline.com/instruments-and-more",
+      "country_of_evidence": "US",
+      "kind": "rental_inventory",
+      "scope": "Есть Gibson SG и Rickenbacker 330. Список не доказывает глобальную частотность райдеров и наличие нужной версии на дату.",
+      "reviewed_on": "2026-10-05"
+    },
+    "nazarov": {
+      "title": "Nazarov Studio: оборудование площадки в Москве",
+      "url": "https://nazarovstudio.ru/party",
+      "country_of_evidence": "RU",
+      "kind": "venue_inventory",
+      "scope": "На площадке заявлена Gibson SG Standard. Это использование в конкретной московской инфраструктуре, а не всероссийский рейтинг.",
+      "reviewed_on": "2026-10-05"
+    },
+    "radial": {
+      "title": "Radial Engineering: JDI",
+      "url": "https://www.radialeng.com/product/jdi",
+      "country_of_evidence": "CA",
+      "kind": "manufacturer",
+      "scope": "Пассивный одноканальный DI с трансформаторной развязкой; правила подключения читаются для конкретной модели.",
+      "reviewed_on": "2026-10-05"
+    },
+    "show4rent": {
+      "title": "Show4Rent: бэклайн и коммутация",
+      "url": "https://www.show4rent.ru/backline",
+      "country_of_evidence": "RU",
+      "kind": "rental_inventory",
+      "scope": "В списке коммутации Radial JDI, BSS AR-133, Klark Teknik DN100/DN200; цены и наличие не заимствуются.",
+      "reviewed_on": "2026-10-05"
+    },
+    "strunal": {
+      "title": "Strunal: история Cremona и Strunal в Лубах",
+      "url": "https://strunal.cz/Historie/",
+      "country_of_evidence": "CZ",
+      "kind": "manufacturer_history",
+      "scope": "История марки, переименование Cremona в Strunal в 1992 году. Не подтверждает работу фабрики или текущие поставки в 2026 году.",
+      "reviewed_on": "2026-10-05"
+    },
+    "strunalrange": {
+      "title": "Strunal Schönbach: ассортимент смычковых",
+      "url": "https://strunalschonbach.cz/",
+      "country_of_evidence": "CZ",
+      "kind": "manufacturer",
+      "scope": "Семейства скрипок, альтов, виолончелей и контрабасов; конкретная комплектация требует проверки.",
+      "reviewed_on": "2026-10-05"
+    },
+    "dshi": {
+      "title": "ДШИ села Городище: материально-техническое обеспечение",
+      "url": "https://dshig.ru/materialno-tekhnicheskoe-obespechenie/",
+      "country_of_evidence": "RU",
+      "kind": "school_inventory",
+      "scope": "Опубликованный школьный перечень содержит Strunal разных размеров, мастеровые скрипки и Yamaha YFL-221. Проверен индексированный текст; текущие остатки и сравнительное качество не установлены.",
+      "reviewed_on": "2026-10-05"
+    },
+    "rubnerbass": {
+      "title": "Upton Bass: осмотренный Johannes Rubner Master Art",
+      "url": "https://uptonbass.com/product/johannes-rubner-double-bass/",
+      "country_of_evidence": "US",
+      "kind": "workshop_specimen",
+      "scope": "Описание одного бывшего в использовании контрабаса Rubner. Его размеры, древесина и отклик не распространяются на все Rubner.",
+      "reviewed_on": "2026-10-05"
+    },
+    "rubnertuners": {
+      "title": "Thomas Rubner: механика и комплектующие",
+      "url": "https://www.rubner-markneukirchen.de/",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer",
+      "scope": "Марка колковой механики не устанавливает изготовителя всего контрабаса.",
+      "reviewed_on": "2026-10-05"
+    },
+    "musima": {
+      "title": "Музей музыкальных инструментов Маркнойкирхена: MUSIMA",
+      "url": "https://museum-markneukirchen.de/sammlungen-ausstellungen/ausstellungen/musima",
+      "country_of_evidence": "DE",
+      "kind": "museum_history",
+      "scope": "Промышленная история MUSIMA, разные инструменты и уровни исполнения. Историческая марка не является гарантией состояния.",
+      "reviewed_on": "2026-10-05"
+    },
+    "pratum": {
+      "title": "Pratum Integrum: сведения об инструментах музыкантов",
+      "url": "https://www.pratum.ru/orchestra/",
+      "country_of_evidence": "RU",
+      "kind": "performer_inventory",
+      "scope": "В опубликованном составе названа виолончель Musima 1970-х. Архивное свидетельство конкретного инструмента, не рекомендация всем ученикам.",
+      "reviewed_on": "2026-10-05"
+    },
+    "saga": {
+      "title": "Saga: Cremona SV-175 Premier Student Violin",
+      "url": "https://www.sagamusic.com/shop/violin-family/cremona/cremona-sv-175-premier-student-violin-outfit-4-4-size/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Современная марка Cremona в каталоге Saga. Утверждения о соответствии требованиям ассоциаций остаются заявлениями производителя, а не независимой сертификацией.",
+      "reviewed_on": "2026-10-05"
+    },
+    "stentorviolin": {
+      "title": "Stentor: Student II Violin Outfit 1500",
+      "url": "https://www.stentor-music.com/products/stentor-student-ii-violin-outfit-1500.html",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer",
+      "scope": "Учебное назначение, размеры и комплект скрипки; рекомендация преподавателей заявлена самим производителем.",
+      "reviewed_on": "2026-10-05"
+    },
+    "stentorcello": {
+      "title": "Stentor: Student II Cello Outfit 1108",
+      "url": "https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer",
+      "scope": "Материалы и комплект учебной виолончели; проверка конкретного экземпляра нужна отдельно.",
+      "reviewed_on": "2026-10-05"
+    },
+    "stentorbass": {
+      "title": "Stentor: Student II Double Bass Outfit 1438",
+      "url": "https://www.stentor-music.com/products/stentor-student-ii-double-bass-outfit-1438.html",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer",
+      "scope": "Серийный учебный контрабас; название комплекта не устанавливает фактическую высоту струн.",
+      "reviewed_on": "2026-10-05"
+    },
+    "eastman": {
+      "title": "Eastman: Samuel Eastman VL100",
+      "url": "https://www.eastmanstrings.com/violin/vl100/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Учебная скрипка с резными деками и эбеновой фурнитурой. Популярность в учебных программах заявлена изготовителем.",
+      "reviewed_on": "2026-10-05"
+    },
+    "gewa": {
+      "title": "GEWA: Ideale, варианты комплектации",
+      "url": "https://gewastrings.com/en/product/gewa-ideale---4-4-lightly-flamed/24956",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer",
+      "scope": "В одной линии перечислены подготовленные и неподготовленные варианты, разные струны и смычки. German engineering не тождественно месту изготовления.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamv5": {
+      "title": "Yamaha: V5SA/V5SC, учебные скрипки и комплекты",
+      "url": "https://es.yamaha.com/es/musical-instruments/strings/products/acoustic-strings/v5s/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer",
+      "scope": "Первичный каталог Yamaha, испанская локализация не доказывает рекомендацию испанской школы. V5SA и V5SC различаются комплектацией.",
+      "reviewed_on": "2026-10-05"
+    },
+    "setup": {
+      "title": "Joel Kennedy на NAfME: подготовка смычкового инструмента",
+      "url": "https://nafme.org/blog/the-importance-of-proper-instrument-setup/",
+      "country_of_evidence": "US",
+      "kind": "workshop_guidance",
+      "scope": "Авторский материал Kennedy Violins на сайте NAfME, обозначен спонсируемым. Не независимый рейтинг брендов и не официальный стандарт размеров.",
+      "reviewed_on": "2026-10-05"
+    },
+    "c40": {
+      "title": "Yamaha: C40II, спецификация ученической классической гитары",
+      "url": "https://usa.yamaha.com/products/musical_instruments/guitars_basses/cl_guitars/c_cx/specs.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer",
+      "scope": "Полноразмерная C40II; состав некоторых пород меняется по доступности, поэтому не переносится старая спецификация C40 на все годы.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamschool": {
+      "title": "Yamaha: подбор классической гитары, C40II, CS40II и школьные размеры",
+      "url": "https://de.yamaha.com/de/products/contents/guitars_basses/guitar_finder/cl_guitars/index.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer",
+      "scope": "Учебное назначение C40II и уменьшенной CS40II; немецкая локализация не является независимой немецкой педагогической рекомендацией.",
+      "reviewed_on": "2026-10-05"
+    },
+    "alhambra": {
+      "title": "Alhambra: 4P, линия Conservatorio",
+      "url": "https://alhambraguitarras.com/es-es/products/4p",
+      "country_of_evidence": "ES",
+      "kind": "manufacturer",
+      "scope": "Кедровая дека, палисандр и эбеновая накладка; название Conservatorio означает линейку изготовителя, а не предписание всех консерваторий.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bravo": {
+      "title": "Hohner: Bravo II 48",
+      "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-ii-48",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer",
+      "scope": "Компактная начальная модель с 26 клавишами и 48 готовыми басами; не заменяет готово-выборный баян.",
+      "reviewed_on": "2026-10-05"
+    },
+    "tula": {
+      "title": "Тульская гармонь: ученические и готово-выборные баяны",
+      "url": "https://harmonica-tula.ru/catalog/bayany/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Фабрика разделяет учебные готовые и готово-выборные инструменты. Точные модели и наличие по этой странице не установлены.",
+      "reviewed_on": "2026-10-05"
+    },
+    "juno": {
+      "title": "Salvi Harps Japan: Juno 25",
+      "url": "https://salviharps.jp/products/juno25/",
+      "country_of_evidence": "JP",
+      "kind": "official_distributor",
+      "scope": "Учебная леверсная арфа: 25 струн, высота 81 см, масса 5,5 кг в описанной комплектации. Изготовитель итальянский, свидетельство сервиса японское.",
+      "reviewed_on": "2026-10-05"
+    },
+    "salvirental": {
+      "title": "Salvi Harps Japan: программа аренды учебных арф",
+      "url": "https://salviharps.jp/rental/",
+      "country_of_evidence": "JP",
+      "kind": "rental_inventory",
+      "scope": "В официальной японской программе Juno25, Mia, Daphne40 и Daphne47S. Это подтверждение доступа в Японии, не наличие в России.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mollenhauer": {
+      "title": "Mollenhauer: учебные серии и исторические исполнения",
+      "url": "https://www.mollenhauer.com/en/",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer",
+      "scope": "Отдельные школьные серии, Canta для ансамбля, Denner Edition в 442 и 415 Гц. Не все Mollenhauer имеют одинаковую аппликатуру и назначение.",
+      "reviewed_on": "2026-10-05"
+    },
+    "d47": {
+      "title": "Crystal Lake District 47 Band: рекомендации начинающим",
+      "url": "https://www.d47.band/faq/",
+      "country_of_evidence": "US",
+      "kind": "school_recommendation",
+      "scope": "Архивная страница для учебного цикла 2022–2023. Список служит примером школьного отбора; текущие требования необходимо уточнять у своего педагога.",
+      "reviewed_on": "2026-10-05"
+    },
+    "royal": {
+      "title": "McKinney High School: Step Up Instruments",
+      "url": "https://www.royalprideband.org/step-up-instruments",
+      "country_of_evidence": "US",
+      "kind": "school_recommendation",
+      "scope": "Школа явно рекомендует продвинутые инструменты: Buffet R13, Yamaha Xeno, Bach42BO и другие. Не список обязательных покупок новичку.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ucan": {
+      "title": "UCan Play: Stentor Student II Viola",
+      "url": "https://shop.ucanplay.org.uk/products/stentor-student-ii-viola",
+      "country_of_evidence": "GB",
+      "kind": "education_service",
+      "scope": "Рекомендация образовательного поставщика для школьной практики. Коммерчески заинтересованный источник, не государственный стандарт.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ritmy": {
+      "title": "Музыкальная школа Ритмы, Санкт-Петербург: учебная аренда",
+      "url": "https://ritmyspb.ru/rent",
+      "country_of_evidence": "RU",
+      "kind": "school_rental",
+      "scope": "Собственная программа аренды для начинающих и перечень инструментов. Это образовательная практика конкретной школы, без национального рейтинга брендов.",
+      "reviewed_on": "2026-10-05"
+    },
+    "roadshow": {
+      "title": "Pearl: Roadshow, учебные комплекты и конфигурации",
+      "url": "https://pearldrum.com/en/products/drum-sets/roadshow/roadshow",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer",
+      "scope": "Учебное позиционирование производителя; разные размеры и комплекты по рынкам. Не независимая педагогическая рекомендация.",
+      "reviewed_on": "2026-10-05"
+    },
+    "katana": {
+      "title": "BOSS: Katana-50 Gen 3, управление и наушники",
+      "url": "https://www.boss.info/global/products/katana-50_gen_3/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer",
+      "scope": "Модель 50 Gen 3: Power Control, память, наушники. Функции 50 EX и Artist автоматически не переносятся.",
+      "reviewed_on": "2026-10-05"
+    },
+    "pianoreg": {
+      "title": "Yamaha: регулировка клавиатуры и интонировка",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/manufacturing/manufacturing005.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_technical",
+      "scope": "Различает регулировку механики, настройку высоты и интонировку. Универсальная норма усилия для учеников не задаётся.",
+      "reviewed_on": "2026-10-05"
+    },
+    "half": {
+      "title": "Yamaha: FC3A и поддержка полупедали",
+      "url": "https://usa.yamaha.com/products/music_production/accessories/fc3a/index.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_technical",
+      "scope": "Функция полупедали конкретной педали. Совместимость с каждым пианино проверяется отдельно.",
+      "reviewed_on": "2026-10-05"
+    },
+    "action": {
+      "title": "Taylor: высота струн и регулировка грифа",
+      "url": "https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_technical",
+      "scope": "Анкер регулирует прогиб, а высота связана также с геометрией грифа и порожков. Не инструкция пользователю самостоятельно изменять арендованный инструмент.",
+      "reviewed_on": "2026-10-05"
+    },
+    "td17": {
+      "title": "Roland: TD-17KVX2",
+      "url": "https://www.roland.com/global/products/td-17kvx2/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_technical",
+      "scope": "Сетчатые поверхности и учебные функции конкретного комплекта; полная тишина и тождество акустическому отскоку не заявляются.",
+      "reviewed_on": "2026-10-05"
+    },
+    "minilogue": {
+      "title": "Korg: minilogue, панель и память звуков",
+      "url": "https://www.korg.com/us/products/synthesizers/minilogue/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_technical",
+      "scope": "Наглядная панель, осциллограф и память являются свойствами модели; педагогическая проверка использования предлагается редакцией.",
+      "reviewed_on": "2026-10-05"
+    },
+    "osmose": {
+      "title": "Expressive E: Osmose, выразительное управление",
+      "url": "https://www.expressivee.com/2-osmose",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer_technical",
+      "scope": "Дополнительные измерения управления клавишей. Проверка повторяемости предложена редакцией, не объявлена педагогическим стандартом.",
+      "reviewed_on": "2026-10-05"
+    },
+    "balalaiker_optimum": {
+      "title": "БалалайкерЪ: Студент Оптимум",
+      "url": "https://balalaiker.ru/balalayker_student_optimum",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Академическая ученическая балалайка-прима для программы музыкальной школы; заявление производителя, не обязательная модель всех ДМШ.",
+      "reviewed_on": "2026-10-05"
+    },
+    "balalaiker_junior": {
+      "title": "БалалайкерЪ: академические балалайки Юниор и Студент",
+      "url": "https://balalaiker.ru/akademicheskie_balalayki/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Школьные модели 3/4 и полноразмерные примы; возраст и размер требуют индивидуальной примерки.",
+      "reviewed_on": "2026-10-05"
+    },
+    "balalaiker_domra": {
+      "title": "БалалайкерЪ: ученические домры Волна",
+      "url": "https://balalaiker.ru/domry/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Волна-М и Волна Спектр прямо обозначены как малые ученические трёхструнные домры для музыкальной школы.",
+      "reviewed_on": "2026-10-05"
+    },
+    "domra_junior": {
+      "title": "Домрист.ру: проект «Домра-юниор» для музыкальных школ",
+      "url": "https://domrist.ru/news/15838-proekt-domra-yunior-v-pomoshch-muzykalnym-shkolam",
+      "country_of_evidence": "RU",
+      "kind": "education_project",
+      "scope": "Проект Doff уменьшенных домр 1/2, 3/4 и 4/4 для детей; описано участие российских исполнителей и педагогов. Не национальная обязательная модель.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mpkmi_domra": {
+      "title": "ПКМИ фонда П.И. Чайковского: домра малая, категория ученическая",
+      "url": "https://mpkmi.ru/instrument/domra-3-x-strunnaya-malaya-kategoriya-uchenicheskaya/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Серийная учебная трёхструнная малая домра; характеристики относятся к указанной категории и конкретному изделию.",
+      "reviewed_on": "2026-10-05"
+    },
+    "mpkmi_balalaika": {
+      "title": "ПКМИ фонда П.И. Чайковского: учебные балалайки",
+      "url": "https://mpkmi.ru/balalajki/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Производитель разделяет юниорские, ученические и более высокие категории балалайки-примы. Не педагогический рейтинг.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kala_classroom": {
+      "title": "Music ConstructED / West Music: Kala KA-15S и classroom ukulele",
+      "url": "https://www.musicconstructed.com/feature/which-ukulele-model-should-i-choose-part-3-starting-a-ukulele-program-in-your-classroom/",
+      "country_of_evidence": "US",
+      "kind": "education_service",
+      "scope": "Практическая рекомендация образовательного поставщика для классных наборов; коммерчески заинтересованный источник.",
+      "reviewed_on": "2026-10-05"
+    },
+    "makala_school": {
+      "title": "School Ukulele Orchestra: многолетний опыт Makala Dolphin",
+      "url": "https://school-ukulele-orchestra.net/getting-started/",
+      "country_of_evidence": "GB",
+      "kind": "teacher_practice",
+      "scope": "Опыт преподавателя с большим классным набором Makala Dolphin; локальная практика, не универсальный национальный стандарт.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yob241": {
+      "title": "Yamaha Россия: YOB-241",
+      "url": "https://ru.yamaha.com/ru/musical-instruments/brass-woodwinds/products/oboes/yob-241/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_local",
+      "scope": "Русская локализация Yamaha прямо позиционирует YOB-241 для начинающих; источник производителя, а не российской школы.",
+      "reviewed_on": "2026-10-05"
+    },
+    "fox41": {
+      "title": "Fox Products: Renard Model 41",
+      "url": "https://foxproducts.com/bassoons/renard-model-41/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Student bassoon для beginning/middle-school и школьных учреждений; полипропиленовый корпус и full German system.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yhr314": {
+      "title": "Yamaha: YHR-314II single F student horn",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/frenchhorns/yhr-314ii/index.html",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Одинарная F-валторна, прямо описана Yamaha как хороший выбор для начинающих благодаря меньшему весу и лёгкому отклику.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ybb105": {
+      "title": "Yamaha: YBB-105 student 3/4 tuba",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/tubas/ybb-105/index.html",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "3/4 B-flat tuba для начинающих и молодых исполнителей; размер не заменяет индивидуальную проверку посадки.",
+      "reviewed_on": "2026-10-05"
+    },
+    "vf_fresh": {
+      "title": "Vic Firth: Fresh Approach Starter Pack",
+      "url": "https://vicfirth.com/products/fresh-approach-starter-pack",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Starter pack из палочек, пэда и учебного материала для beginning percussion student; позиционирование производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "vf_v8705": {
+      "title": "Vic Firth: V8705 Percussion Kit",
+      "url": "https://www.vicfirthinstruments.com/product/v8705-percussion-kit/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Учебный комплект bells+pad+stands; диапазон и состав относятся к конкретной модели.",
+      "reviewed_on": "2026-10-05"
+    },
+    "tula_bn46": {
+      "title": "Тульская гармонь: БН-46 детский баян",
+      "url": "https://harmonica-tula.ru/catalog/bayany/uchenicheskie/bayan-bn-46/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Фабрика описывает модель как специально разработанную для учеников 5–8 лет; возраст остаётся ориентиром, а не автоматическим размером.",
+      "reviewed_on": "2026-10-05"
+    },
+    "tula_etud": {
+      "title": "Тульская гармонь: ученические баяны, Этюд-205М2",
+      "url": "https://harmonica-tula.ru/catalog/bayany/uchenicheskie/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer",
+      "scope": "Этюд-205М2 входит в текущую категорию ученических баянов фабрики; требования программы и системы определяет педагог.",
+      "reviewed_on": "2026-10-05"
+    }
+  }
+}
