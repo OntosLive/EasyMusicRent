@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1039,
+  "expected_new_subjects": 13,
+  "sources": {
+    "sonor_orff": {
+      "title": "SONOR Orff World",
+      "url": "https://www.sonor.com/orff-percussion",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Семейства Orff-инструментов и педагогическое назначение. Заявления о качестве принадлежат производителю.",
+      "reviewed_on": "2026-10-05"
+    },
+    "sonor_sxp": {
+      "title": "SONOR Primary SXP 1.1",
+      "url": "https://www.sonor.com/orff-percussion/instruments/products/sxp-11",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Soprano xylophone c2-a3, 16 нот, Pao Rosa, маркировка нот, комплектный mallet.",
+      "reviewed_on": "2026-10-05"
+    },
+    "sonor_primary": {
+      "title": "SONOR Primary",
+      "url": "https://www.sonor.com/orff-percussion/instruments/primary",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Primary для elemental music education; маркировка нот и диапазоны относятся к серии.",
+      "reviewed_on": "2026-10-05"
+    },
+    "sonor_first": {
+      "title": "SONOR First Beat",
+      "url": "https://www.sonor.com/orff-percussion/instruments/sonor-first-beat",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Раннее музыкальное обучение, точная настройка, color-coded system у отдельных инструментов; не национальный школьный стандарт.",
+      "reviewed_on": "2026-10-05"
+    },
+    "sonor_global": {
+      "title": "SONOR Global Beat",
+      "url": "https://www.sonor.com/orff-percussion/instruments/global-beat",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Entry-level Orff series, 2 glockenspiels, 6 xylophones, 3 metallophones; утверждение производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "studio49_history": {
+      "title": "STUDIO 49: история Series 1000",
+      "url": "https://studio49.de/geschichte",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_history",
+      "scope": "История фирмы и появление Series 1000 в 2005 году.",
+      "reviewed_on": "2026-10-05"
+    },
+    "studio49_catalog": {
+      "title": "STUDIO 49: Orff-Schulwerk 2025",
+      "url": "https://www.studio49.de/asset/C857CA7D-128D-4068-BA3191C9BB5F9D0A/",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_catalog",
+      "scope": "Series 500 easycussion, Series 1000 и другие Orff-Schulwerk позиции; каталог производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "fender_affinity": {
+      "title": "Fender: Affinity Series Stratocaster",
+      "url": "https://www.fender.com/products/affinity-series-stratocaster",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Конструкция Affinity Stratocaster; aspiring-player framing принадлежит производителю.",
+      "reviewed_on": "2026-10-05"
+    },
+    "fender_beginner": {
+      "title": "Fender: 7 Electric Guitars for the Beginner",
+      "url": "https://www.fender.com/articles/instruments/7-electric-guitars-for-the-beginner",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Fender прямо включает Affinity Stratocaster в список моделей для начинающих.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_bass_guide": {
+      "title": "Yamaha: Guide to Choosing a Bass Guitar",
+      "url": "https://www.yamaha.com/US/houseofworship/downloadables/How-to-Choose-Guides/How-to-Choose-a-Bass-Guitar.pdf",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "TRBX174 и BB234 названы starter basses; PDF производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_trbx_ru": {
+      "title": "Yamaha Россия: TRBX174",
+      "url": "https://ru.yamaha.com/ru/musical-instruments/guitars-basses-amps/products/electric-basses/trbx/lineup.html",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_local",
+      "scope": "Русская локализация спецификации линейки TRBX. Не рекомендация российской школы.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_first_bass": {
+      "title": "Yamaha: How to Choose Your First Bass",
+      "url": "https://hub.yamaha.com/guitars/bass/how-to-choose-your-first-bass/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Проверка buzz, intonation и tuning stability; упражнения страницы фонда являются редакционным переводом критерия в сцену.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_bb": {
+      "title": "Yamaha: BB200 Series",
+      "url": "https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_basses/bb_2017/200_series.html",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "BB234 как introductory model BB Series, конструкция и playability.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_pac": {
+      "title": "Yamaha: Pacifica 112V and Yamaha Music School lessons",
+      "url": "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/explore/pacifica-112v/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "PAC112V позиционируется как first-guitar route и сопровождается уроками Yamaha Music School в соответствующем предложении производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_ru_piano": {
+      "title": "Yamaha Россия: требования музыкальных учреждений к цифровому пианино",
+      "url": "https://ru.yamaha.com/ru/news_events/2020/0331_yamahacall.html",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_education_local",
+      "scope": "88 полноразмерных, weighted hammer action, динамический отклик и педаль. Производитель обобщает требования учреждений; не норматив Минкульта.",
+      "reviewed_on": "2026-10-05"
+    },
+    "gorodische": {
+      "title": "ДШИ с. Городище: материально-техническое обеспечение",
+      "url": "https://dshig.ru/materialno-tekhnicheskoe-obespechenie/",
+      "country_of_evidence": "RU",
+      "kind": "school_inventory",
+      "scope": "Фактическое наличие цифровых Casio/Yamaha и стойки в школе; не модельная рекомендация.",
+      "reviewed_on": "2026-10-05"
+    },
+    "pianino_ru": {
+      "title": "Пианино.ру: цифровое пианино для музыкальной школы",
+      "url": "https://pianino.ru/as_to_select_the_digital_piano/",
+      "country_of_evidence": "RU",
+      "kind": "specialist_editorial_commercial",
+      "scope": "Практический российский коммерческий гид: 88 клавиш, hammer action, pedals, stable stand. Не официальный школьный норматив.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "orf-instrumenty-dlya-obucheniya",
+      "role": "category",
+      "action": "new",
+      "source_ids": [
+        "sonor_orff",
+        "studio49_catalog"
+      ]
+    },
+    {
+      "slug": "sonor-primary-sxp11-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "sonor_sxp",
+        "sonor_primary"
+      ]
+    },
+    {
+      "slug": "studio49-seriya1000-v-arendu",
+      "role": "series",
+      "action": "new",
+      "source_ids": [
+        "studio49_history",
+        "studio49_catalog"
+      ]
+    },
+    {
+      "slug": "orf-instrument-s-podpisannymi-notami",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "sonor_primary"
+      ]
+    },
+    {
+      "slug": "sonor-first-beat-v-arendu",
+      "role": "series",
+      "action": "new",
+      "source_ids": [
+        "sonor_first"
+      ]
+    },
+    {
+      "slug": "studio49-easycussion500-v-arendu",
+      "role": "series",
+      "action": "new",
+      "source_ids": [
+        "studio49_catalog"
+      ]
+    },
+    {
+      "slug": "sonor-global-beat-v-arendu",
+      "role": "series",
+      "action": "new",
+      "source_ids": [
+        "sonor_global"
+      ]
+    },
+    {
+      "slug": "orf-instrument-s-cvetovoy-kodirovkoy",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "sonor_first"
+      ]
+    },
+    {
+      "slug": "squier-affinity-stratocaster-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "fender_affinity",
+        "fender_beginner"
+      ]
+    },
+    {
+      "slug": "yamaha-trbx174-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "yamaha_bass_guide",
+        "yamaha_trbx_ru"
+      ]
+    },
+    {
+      "slug": "yamaha-bb234-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "yamaha_bass_guide",
+        "yamaha_bb"
+      ]
+    },
+    {
+      "slug": "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "yamaha_first_bass"
+      ]
+    },
+    {
+      "slug": "yamaha-pac112v-v-arendu",
+      "role": "context",
+      "action": "enrich",
+      "source_ids": [
+        "yamaha_pac"
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-na-ustoychivoy-stoyke",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "pianino_ru",
+        "gorodische"
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-muzykalnoy-shkoly",
+      "role": "context",
+      "action": "enrich",
+      "source_ids": [
+        "yamaha_ru_piano",
+        "gorodische",
+        "pianino_ru"
+      ]
+    }
+  ],
+  "distinctions": [
+    "Orff-инструменты остаются внутри ударных, а не создают четырнадцатое L1-семейство.",
+    "Педагогическая функция маркировки или цвета отделена от бренда.",
+    "TRBX174 и BB234 сохраняются как разные starter routes.",
+    "PAC112V обогащена, а не продублирована.",
+    "Российский коммерческий гид, производитель и школьный инвентарь имеют разные доказательные статусы."
+  ]
+}
