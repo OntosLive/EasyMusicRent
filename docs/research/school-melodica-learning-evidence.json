@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1125,
-  "new_subjects": 4,
+  "new_subjects": 3,
   "sources": {
     "yamaha_history": {
       "title": "Yamaha Innovation Road: P-32D and school history",
@@ -45,7 +45,8 @@
         "yamaha_history",
         "suzuki_faq"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "enrich"
     },
     {
       "slug": "yamaha-p32d-v-arendu",
@@ -54,7 +55,8 @@
         "yamaha_history",
         "yamaha_p32d"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "new"
     },
     {
       "slug": "suzuki-m32c-v-arendu",
@@ -63,7 +65,8 @@
         "suzuki_m32c",
         "suzuki_faq"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "new"
     },
     {
       "slug": "melodika-32-klavishi-dlya-shkoly",
@@ -72,13 +75,15 @@
         "suzuki_faq",
         "yamaha_p32d"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "new"
     }
   ],
   "distinctions": [
+    "Melodika already existed under the keyboard family and is enriched rather than redeclared.",
     "32-key alto is a common school route in Suzuki guidance, not a universal mandate.",
     "P-32D and M-32C are peer school instruments, not ranked universally.",
-    "Melodica belongs to free-reed learning but remains a distinct child category.",
+    "Melodica may be cross-linked from free-reed education while its primary parent remains klavishnye.",
     "Stock in ONTOS.RENT is not claimed."
   ]
 }
