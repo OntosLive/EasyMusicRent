@@ -1,0 +1,461 @@
+{
+  "pages": [
+    {
+      "slug": "legendarnye-sintezatory",
+      "parent": "sintezatory",
+      "search_title": "Аренда легендарных синтезаторов в Москве",
+      "editorial_title": "Легендарные синтезаторы: модели, чьи имена стали отдельными музыкальными языками",
+      "description": "DX7, Prophet-5, Jupiter-8, D-50, M1, JUNO-106, Minimoog и другие исторические hardware-референсы для записи и сцены.",
+      "kicker": "DX7 · PROPHET · JUPITER · D-50 · M1",
+      "intro": [
+        "<p>Некоторые синтезаторы перестали быть просто старыми моделями. Их архитектура, пресеты и способ управления вошли в музыку настолько глубоко, что имя инструмента само обозначает ожидаемый результат. Такие запросы требуют отдельной ветви: современный аналог или программная эмуляция могут быть прекрасны, но не являются тем же hardware без явного согласования.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ИМЯ",
+          "title": "Модель получает самостоятельный смысл через музыку, а не возраст",
+          "paragraphs": [
+            "DX7, Prophet‑5, JUPITER‑8, D‑50, M1, JUNO‑106 и Minimoog продолжили жить после своих исходных серий потому, что на них построены узнаваемые способы синтеза, исполнения и производства."
+          ]
+        },
+        {
+          "label": "02 / HARDWARE",
+          "title": "Оригинал, переиздание и эмуляция — три разных статуса",
+          "paragraphs": [
+            "Для записи может быть достаточно точной современной реплики; в другом проекте нужен реальный винтажный экземпляр, его клавиатура, конвертеры, шум и MIDI-поведение. Страница должна явно доводить запрос до этого различия."
+          ]
+        },
+        {
+          "label": "03 / ДОСТУП",
+          "title": "Редкость не отменяет адрес, а меняет способ подтверждения",
+          "paragraphs": [
+            "Легендарная модель может быть частью пространства достижимых инструментов без постоянного собственного наличия. Конкретный экземпляр, состояние и дата подтверждаются отдельно."
+          ]
+        }
+      ],
+      "quote": "Нужен оригинальный hardware, современное переиздание или достаточно согласованной эмуляции конкретной модели?",
+      "sources": [
+        {
+          "title": "Yamaha: DX7 changed the global music scene",
+          "url": "https://www.yamaha.com/en/tech-design/design/insights/id_009/"
+        },
+        {
+          "title": "Roland: JUPITER‑8 in company history",
+          "url": "https://www.roland.com/us/company/history/?lang=en-US"
+        },
+        {
+          "title": "Korg: M1 as original music workstation",
+          "url": "https://www.korg.com/us/products/software/kc_m1/index.php"
+        }
+      ]
+    },
+    {
+      "slug": "rhodes-mark-i-stage-73-v-arendu",
+      "parent": "elektromehanicheskie-klavishnye",
+      "search_title": "Rhodes Mark I Stage 73 в аренду",
+      "editorial_title": "Rhodes Mark I Stage 73: электромеханическое пианино, чей звук пережил саму эпоху",
+      "description": "Rhodes Mark I Stage 73: iconic 1970s tine piano, studio/live standard and genuine vintage backline instrument.",
+      "kicker": "LEGENDARY CORE · RHODES · STAGE 73",
+      "intro": [
+        "<p>Mark I Stage 73 — не декоративное ретро-пианино. Rhodes сам называет его настоящей иконой 1970-х, использованной Herbie Hancock, Patrice Rushen и Stevie Wonder и записанной на бесчисленном количестве классических пластинок.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МЕХАНИКА",
+          "title": "Звук начинается с молоточка, tine и pickup, а не с семпла",
+          "paragraphs": [
+            "Именно физическая связь клавиши, молоточка, металлического tine и электромагнитного съёма делает настоящий Rhodes отдельным инструментом. Состояние action и voicing конкретного экземпляра критично."
+          ]
+        },
+        {
+          "label": "02 / STAGE",
+          "title": "Stage 73 предполагает внешний усилительный тракт",
+          "paragraphs": [
+            "В отличие от Suitcase-версии Stage-пианино не содержит собственного фирменного speaker cabinet. В райдере нужно отдельно согласовать DI, preamp или усилитель, через который музыкант ожидает слышать Rhodes."
+          ]
+        },
+        {
+          "label": "03 / ПРОКАТ",
+          "title": "Винтажные Rhodes продолжают жить в backline-флотах",
+          "paragraphs": [
+            "Крупные прокаты держат Stage и Suitcase разных лет как отдельные позиции. Здесь возраст инструмента не уменьшает его профессиональную актуальность."
+          ]
+        }
+      ],
+      "quote": "Нужен именно Mark I Stage 73 и какой усилительный тракт должен продолжить его звук?",
+      "sources": [
+        {
+          "title": "Rhodes: Mark I Stage 73 as a true 1970s icon",
+          "url": "https://rhodesmusic.com/rhodes-anthology-plugin/"
+        },
+        {
+          "title": "Rhodes: history of the Mark I",
+          "url": "https://rhodesmusic.com/the-history-of-rhodes/"
+        },
+        {
+          "title": "Backline Source: Fender Rhodes rental inventory",
+          "url": "https://www.backlinesource.com/keyboard-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "parent": "elektromehanicheskie-klavishnye",
+      "search_title": "Wurlitzer 200A в аренду",
+      "editorial_title": "Wurlitzer 200A: резкий электромеханический голос как отдельный студийный и сценический стандарт",
+      "description": "Wurlitzer 200A electric piano: vintage reed-based electromechanical keyboard and long-lived backline standard.",
+      "kicker": "LEGENDARY CORE · WURLITZER · 200A",
+      "intro": [
+        "<p>Wurlitzer 200A занимает рядом с Rhodes собственную территорию. Его атака жёстче, середина заметнее, а reed-механика отвечает на прикосновение иначе. Поэтому артист, который просит Wurli, обычно просит не «любое винтажное электропиано».</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / REED",
+          "title": "Металлический reed формирует другую атаку, чем tine Rhodes",
+          "paragraphs": [
+            "Это физическое различие делает 200A самостоятельным исполнительским объектом. Даже хорошая цифровая библиотека снимает вопрос звука, но не обязательно ощущение клавиатуры и динамики реального механизма."
+          ]
+        },
+        {
+          "label": "02 / ЭКЗЕМПЛЯР",
+          "title": "Регулировка и шум винтажного 200A требуют проверки до сессии",
+          "paragraphs": [
+            "Action, tuning, hum и состояние встроенного усиления у старых экземпляров различаются. Модельная страница должна вести к проверке реального инструмента."
+          ]
+        },
+        {
+          "label": "03 / BACKLINE",
+          "title": "200A продолжает существовать в профессиональных keyboard rentals",
+          "paragraphs": [
+            "Backline-флоты перечисляют Wurlitzer 200A рядом с Rhodes, Hammond и современными stage keyboards. Это реальный Legendary Core, а не музейная рубрика."
+          ]
+        }
+      ],
+      "quote": "Нужен настоящий Wurlitzer 200A hardware или допустимо современное цифровое воспроизведение его партии?",
+      "sources": [
+        {
+          "title": "Backline Source: Wurlitzer 200A rental inventory",
+          "url": "https://www.backlinesource.com/keyboard-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "hohner-clavinet-e7-v-arendu",
+      "parent": "elektromehanicheskie-klavishnye",
+      "search_title": "Hohner Clavinet E7 в аренду",
+      "editorial_title": "Hohner Clavinet E7: перкуссионная клавиатура, которую невозможно заменить одним пресетом без оговорок",
+      "description": "Hohner Clavinet E7: vintage electro-mechanical clavinet and professional backline reference.",
+      "kicker": "LEGENDARY CORE · CLAVINET · E7",
+      "intro": [
+        "<p>Clavinet нужен там, где клавишная партия ведёт себя почти как ритм-гитара: короткая атака, приглушение и работа с wah или эффектами. В backline-парках E7 продолжает жить как отдельное винтажное железо.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / АТАКА",
+          "title": "Струна ударяется tangent-механикой и даёт физическую перкуссионность",
+          "paragraphs": [
+            "Clavinet ощущается иначе, чем синтезаторный пресет: клавиша непосредственно участвует в коротком струнном событии. Для артиста эта механика может быть частью groove."
+          ]
+        },
+        {
+          "label": "02 / ЭФФЕКТЫ",
+          "title": "Wah, phaser и amp часто являются продолжением инструмента",
+          "paragraphs": [
+            "Перед выдачей полезно понять, требуется ли чистый Clavinet output или подготовленная цепочка педалей и усиления."
+          ]
+        },
+        {
+          "label": "03 / ВИНТАЖ",
+          "title": "E7 в прокате подтверждает, что это не только исторический термин",
+          "paragraphs": [
+            "Профессиональные keyboard rental inventories продолжают держать Hohner Clavinet E7. Конкретное состояние и модификации экземпляра подтверждаются отдельно."
+          ]
+        }
+      ],
+      "quote": "Нужен сам E7 или целая Clavinet-цепочка с wah/эффектами и усилением?",
+      "sources": [
+        {
+          "title": "Backline Source: Hohner Clavinet E7 rental inventory",
+          "url": "https://www.backlinesource.com/keyboard-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-dx7-v-arendu",
+      "parent": "legendarnye-sintezatory",
+      "search_title": "Yamaha DX7 в аренду",
+      "editorial_title": "Yamaha DX7: цифровой синтезатор, который перевернул музыкальную сцену 1980-х",
+      "description": "Yamaha DX7: 1983 FM synthesizer, six-operator architecture and enduring digital-synth standard.",
+      "kicker": "LEGENDARY CORE · DX7 · FM",
+      "intro": [
+        "<p>Yamaha говорит об этом без оговорок: DX7, выпущенный в 1983 году, с FM-движком «revolutionized the global music scene». Его тембры и сама идея программируемого цифрового синтезатора стали одним из языков поп-музыки 1980-х.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / FM",
+          "title": "Шесть операторов и 32 алгоритма создают собственную архитектуру тембра",
+          "paragraphs": [
+            "DX7 не является цифровой заменой аналогового синтезатора. Его звук рождается из другой логики, и запрос на hardware DX7 обычно связан именно с этой архитектурой и оригинальными пресетами."
+          ]
+        },
+        {
+          "label": "02 / ИНТЕРФЕЙС",
+          "title": "Membrane switches и дисплей тоже входят в исторический опыт",
+          "paragraphs": [
+            "Программировать DX7 на оригинальной панели — совсем другое действие, чем открывать современный software editor. Для студии нужно понять, нужен ли именно hardware workflow или достаточно звука."
+          ]
+        },
+        {
+          "label": "03 / SUBSTITUTE",
+          "title": "Software FM может быть точным по результату, но не автоматически по задаче",
+          "paragraphs": [
+            "Если артист просит оригинальный DX7 ради клавиатуры, MIDI-поведения или сценического образа, плагин не является тем же предметом."
+          ]
+        }
+      ],
+      "quote": "DX7 нужен как оригинальный hardware-инструмент или как источник конкретных FM-пресетов?",
+      "sources": [
+        {
+          "title": "Yamaha: DX7 revolutionized the global music scene",
+          "url": "https://www.yamaha.com/en/tech-design/design/insights/id_009/"
+        },
+        {
+          "title": "Yamaha: history of DX7 and six-operator FM",
+          "url": "https://usa.yamaha.com/products/contents/music_production/synth_50th/history/chapter002.html"
+        }
+      ]
+    },
+    {
+      "slug": "sequential-prophet-5-v-arendu",
+      "parent": "legendarnye-sintezatory",
+      "search_title": "Sequential Prophet-5 в аренду",
+      "editorial_title": "Prophet‑5: легендарный пятиголосный polysynth вернулся как настоящий hardware, а не только воспоминание",
+      "description": "Sequential Prophet-5: legendary five-voice analog poly synth, modern reissue reproducing original revisions.",
+      "kicker": "LEGENDARY CORE · PROPHET-5 · 5 VOICES",
+      "intro": [
+        "<p>Sequential сам маркирует Prophet‑5 как Legendary 5‑voice Analog Poly Synth. Современная версия сознательно воспроизводит все три ревизии оригинала и позволяет выбирать характер старых фильтров, поэтому здесь особенно важно различать vintage original и current reissue.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ПЯТЬ ГОЛОСОВ",
+          "title": "Ограниченная полифония является частью композиционной геометрии",
+          "paragraphs": [
+            "Prophet‑5 заставляет фактуру жить внутри пяти одновременно звучащих голосов. Это свойство не нужно «исправлять» более полифоническим substitute, если именно такой способ игры требуется музыканту."
+          ]
+        },
+        {
+          "label": "02 / REVISION",
+          "title": "Современный Prophet‑5 объединяет характер старых Rev1/2 и Rev3",
+          "paragraphs": [
+            "Sequential использует два типа фильтров и Vintage knob, чтобы вернуть особенности разных оригинальных ревизий. В точном запросе всё равно нужно спросить, нужен vintage unit или reissue."
+          ]
+        },
+        {
+          "label": "03 / PERFORMANCE",
+          "title": "Производитель подчёркивает прямой one-knob-per-function характер",
+          "paragraphs": [
+            "Prophet‑5 остаётся performance instrument с непосредственным front panel. Эта телесная сторона важна для живого sound design."
+          ]
+        }
+      ],
+      "quote": "Нужен винтажный Prophet‑5 определённой ревизии или современный Sequential reissue подходит?",
+      "sources": [
+        {
+          "title": "Sequential: Prophet‑5 product catalog",
+          "url": "https://sequential.com/all-products/"
+        },
+        {
+          "title": "Sequential: Prophet‑5 User Guide",
+          "url": "https://www.sequential.com/wp-content/uploads/2021/02/Prophet-5-Users-Guide-1.3.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "roland-jupiter-8-v-arendu",
+      "parent": "legendarnye-sintezatory",
+      "search_title": "Roland JUPITER-8 в аренду",
+      "editorial_title": "Roland JUPITER‑8: «king of polysynths» как редкий hardware-референс",
+      "description": "Roland JUPITER-8: 1981 eight-voice two-oscillator analog polysynth and highly sought-after vintage icon.",
+      "kicker": "LEGENDARY CORE · JUPITER-8 · 8 VOICES",
+      "intro": [
+        "<p>Roland сам называет JUPITER‑8 «king of polysynths» и одним из самых желанных аналоговых полисинтов всех времён. Это как раз тот случай, где отдельный адрес нужен даже при редком доступе к оригинальному hardware.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 8 VOICES",
+          "title": "Восемь голосов и два VCO на голос составляют ядро оригинальной архитектуры",
+          "paragraphs": [
+            "Cross-modulation, oscillator sync, PWM и характерные фильтры формируют не один пресет, а целую исполнительскую систему."
+          ]
+        },
+        {
+          "label": "02 / РЕДКОСТЬ",
+          "title": "Оригинальные экземпляры дороги и редки, поэтому статус доступа критичен",
+          "paragraphs": [
+            "Нельзя публиковать страницу как обещание наличия. Фонд может организовывать поиск и временный доступ, но конкретный Jupiter‑8 подтверждается только под задачу."
+          ]
+        },
+        {
+          "label": "03 / ЭМУЛЯЦИЯ",
+          "title": "Roland сам предлагает circuit-modelled software recreation",
+          "paragraphs": [
+            "Это создаёт ясную лестницу substitute: original hardware, System‑8/ACB или software. Они могут решать сходную звуковую задачу, но это разные формы доступа."
+          ]
+        }
+      ],
+      "quote": "Проект требует оригинальный JUPITER‑8 hardware или допускает официальную ACB/software recreation?",
+      "sources": [
+        {
+          "title": "Roland: JUPITER‑8 — king of polysynths",
+          "url": "https://www.roland.com/US/products/rc_jupiter-8/"
+        },
+        {
+          "title": "Roland history: JUPITER‑8 as polyphonic-synthesizer masterpiece",
+          "url": "https://www.roland.com/us/company/history/?lang=en-US"
+        }
+      ]
+    },
+    {
+      "slug": "roland-d50-v-arendu",
+      "parent": "legendarnye-sintezatory",
+      "search_title": "Roland D-50 в аренду",
+      "editorial_title": "Roland D‑50: LA synthesis принесла студийно-готовый цифровой звук прямо на сцену",
+      "description": "Roland D-50: 1987 LA synthesizer with PCM attacks, subtractive synthesis and onboard digital effects.",
+      "kicker": "LEGENDARY CORE · D-50 · LA SYNTHESIS",
+      "intro": [
+        "<p>D‑50 появился в 1987 году и сразу соединял PCM-атаки, синтез и цифровые эффекты. Roland прямо пишет, что его пресеты стали сигнатурными звуками больших поп-хитов и продолжают использоваться артистами сегодня.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / LA",
+          "title": "PCM-атака и синтетическое продолжение образуют собственный тип тембра",
+          "paragraphs": [
+            "D‑50 отличается и от FM DX7, и от аналогового Juno. Поэтому исторический цифровой слой нельзя сжимать в общую страницу «винтажный синтезатор»."
+          ]
+        },
+        {
+          "label": "02 / PRESETS",
+          "title": "Fantasia и другие factory patches сами стали частью музыкальной памяти",
+          "paragraphs": [
+            "Если заказ связан с конкретным оригинальным patch, важно выяснить, нужен ли hardware D‑50, современный Boutique/Cloud вариант или только воспроизводимый тембр."
+          ]
+        },
+        {
+          "label": "03 / HARDWARE",
+          "title": "Оригинальный D‑50 имеет 61 клавишу, aftertouch и 16-голосную полифонию",
+          "paragraphs": [
+            "Эти физические свойства имеют значение для исполнения, а не только для коллекционной точности."
+          ]
+        }
+      ],
+      "quote": "Нужен оригинальный D‑50 hardware или задача привязана к конкретным LA-патчам?",
+      "sources": [
+        {
+          "title": "Roland: D‑50 30th Anniversary",
+          "url": "https://www.roland.com/global/promos/d-50_30th_anniversary/"
+        },
+        {
+          "title": "Roland: D‑50 technical specifications",
+          "url": "https://support.roland.com/hc/en-us/articles/201966399-D-50-Technical-Specifications"
+        }
+      ]
+    },
+    {
+      "slug": "korg-m1-v-arendu",
+      "parent": "legendarnye-sintezatory",
+      "search_title": "Korg M1 в аренду",
+      "editorial_title": "Korg M1: первая workstation превратила один синтезатор в производственную систему",
+      "description": "Korg M1: 1988 original music workstation with PCM synthesis, effects, drums and 8-track sequencer.",
+      "kicker": "LEGENDARY CORE · M1 · WORKSTATION",
+      "intro": [
+        "<p>Korg называет M1 первой workstation и инструментом, который определил музыку конца 1980-х и 1990-х. Здесь легендарность относится не только к отдельным тембрам вроде M1 Piano: сама идея синтезатор + эффекты + drums + sequencer в одном корпусе стала новым классом инструмента.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / WORKSTATION",
+          "title": "M1 собрал производство и исполнение в одном hardware",
+          "paragraphs": [
+            "Встроенный 8-track sequencer и PCM-based AI synthesis сделали возможной полноценную работу без отдельной цепочки устройств."
+          ]
+        },
+        {
+          "label": "02 / SOUND",
+          "title": "Оригинальные PCM и factory programs сами стали культурными объектами",
+          "paragraphs": [
+            "Korg продолжает сохранять полный банк M1 в официальных software-версиях, а старые sounds всё ещё используются в записи и на сцене."
+          ]
+        },
+        {
+          "label": "03 / SUBSTITUTE",
+          "title": "Оригинальный M1, software M1 и современный workstation решают разные задачи",
+          "paragraphs": [
+            "Если артисту нужен hardware workflow или конкретная старая MIDI-программа, современный Kronos не является прямой заменой только потому, что исторически продолжает концепцию workstation."
+          ]
+        }
+      ],
+      "quote": "M1 нужен как оригинальный hardware-workstation или проект привязан к его factory sounds и SysEx-данным?",
+      "sources": [
+        {
+          "title": "Korg: M1 — original music workstation",
+          "url": "https://www.korg.com/us/products/software/kc_m1/index.php"
+        },
+        {
+          "title": "Korg: original M1 product history",
+          "url": "https://www.korg.com/de/products/synthesizers/m1/"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "sintezatory": [
+      {
+        "label": "Легендарные синтезаторы",
+        "href": "/legendarnye-sintezatory/"
+      }
+    ],
+    "legendarnye-sintezatory": [
+      {
+        "label": "Yamaha DX7",
+        "href": "/yamaha-dx7-v-arendu/"
+      },
+      {
+        "label": "Sequential Prophet‑5",
+        "href": "/sequential-prophet-5-v-arendu/"
+      },
+      {
+        "label": "Roland JUPITER‑8",
+        "href": "/roland-jupiter-8-v-arendu/"
+      },
+      {
+        "label": "Roland D‑50",
+        "href": "/roland-d50-v-arendu/"
+      },
+      {
+        "label": "Korg M1",
+        "href": "/korg-m1-v-arendu/"
+      },
+      {
+        "label": "Roland JUNO‑106",
+        "href": "/roland-juno-106-v-arendu/"
+      },
+      {
+        "label": "Minimoog Model D",
+        "href": "/minimoog-model-d-v-arendu/"
+      }
+    ],
+    "elektromehanicheskie-klavishnye": [
+      {
+        "label": "Rhodes Mark I Stage 73",
+        "href": "/rhodes-mark-i-stage-73-v-arendu/"
+      },
+      {
+        "label": "Wurlitzer 200A",
+        "href": "/wurlitzer-200a-v-arendu/"
+      },
+      {
+        "label": "Hohner Clavinet E7",
+        "href": "/hohner-clavinet-e7-v-arendu/"
+      }
+    ]
+  }
+}
