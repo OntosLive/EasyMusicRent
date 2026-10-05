@@ -1,0 +1,312 @@
+{
+  "pages": [
+    {
+      "slug": "squier-mini-stratocaster-v-arendu",
+      "parent": "elektrogitara",
+      "search_title": "Squier Mini Stratocaster в аренду",
+      "editorial_title": "Squier Mini Stratocaster: уменьшенный Strat без отказа от знакомой SSS-логики",
+      "description": "Squier Mini Stratocaster: 22.75-inch scale, lightweight body, C neck, three single-coils and hardtail bridge for smaller hands.",
+      "kicker": "MINI STRAT · 22.75 · SMALL HANDS",
+      "intro": [
+        "<p>Если полноразмерная Stratocaster нравится по звуку, но первая позиция и общий корпус велики, Squier Mini Stratocaster сокращает мензуру до 22,75 дюйма и сохраняет три сингла и пятипозиционный переключатель. Fender отдельно называет её хорошим первым инструментом для молодых исполнителей и людей с небольшой рукой.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МЕНЗУРА",
+          "title": "22,75 дюйма уменьшают расстояния между ладами",
+          "paragraphs": [
+            "На одной и той же гамме сравнивают Mini и полноразмерную 25,5-дюймовую Strat. Если пальцы перестают растягиваться, а кисть остаётся спокойнее, короткая мензура решает реальную задачу."
+          ]
+        },
+        {
+          "label": "02 / КОРПУС",
+          "title": "Тонкий и лёгкий корпус должен облегчить удержание стоя и сидя",
+          "paragraphs": [
+            "Для ребёнка важен не только гриф. На ремне проверяют, не перевешивает ли головка и не приходится ли постоянно удерживать гитару предплечьем."
+          ]
+        },
+        {
+          "label": "03 / SSS",
+          "title": "Уменьшение размера не меняет базовый Strat-язык",
+          "paragraphs": [
+            "Три single-coil pickups и 5-way switch позволяют изучать те же основные тембровые позиции. Hardtail bridge дополнительно убирает тремоло как лишнюю переменную первых занятий."
+          ]
+        }
+      ],
+      "quote": "Полноразмерная гитара велика из-за расстояний между ладами, корпуса или обоих факторов?",
+      "sources": [
+        {
+          "title": "Fender: Mini Stratocaster",
+          "url": "https://www.fender.com/products/mini-stratocaster"
+        },
+        {
+          "title": "Fender: Best Electric Guitar for Small Hands",
+          "url": "https://www.fender.com/articles/setup/best-guitar-for-beginners"
+        }
+      ]
+    },
+    {
+      "slug": "ibanez-pgmm31-v-arendu",
+      "parent": "elektrogitara",
+      "search_title": "Ibanez PGMM31 miKro в аренду",
+      "editorial_title": "Ibanez PGMM31 miKro: короткая мензура для маленькой руки без упрощённой двухдатчиковой схемы",
+      "description": "Ibanez PGMM31 miKro: 22.2-inch scale, 24 frets, twin humbuckers and compact electric-guitar geometry.",
+      "kicker": "IBANEZ MIKRO · 22.2 · 24 FRETS",
+      "intro": [
+        "<p>PGMM31 даёт другой короткомензурный маршрут: 22,2 дюйма, 24 лада и два хамбакера. Это полезно ребёнку или взрослому с небольшой рукой, которому ближе плотный роковый звук, а не классическая SSS-схема Mini Strat.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МЕНЗУРА",
+          "title": "564 мм делают интервалы между ладами заметно компактнее",
+          "paragraphs": [
+            "Ученик играет первую позицию и простой power-chord. Сравнивают не только достижимость растяжки, но и то, остаётся ли кисть естественной при переходах."
+          ]
+        },
+        {
+          "label": "02 / HH",
+          "title": "Два хамбакера сразу дают другой учебный звуковой контекст",
+          "paragraphs": [
+            "Если ребёнка удерживает тяжёлый рок или насыщенный drive, хамбакеры могут оказаться более прямым маршрутом к желаемому звуку. Это не делает модель универсально удобнее Mini Strat, а отвечает другой сцене."
+          ]
+        },
+        {
+          "label": "03 / 24 ЛАДА",
+          "title": "Компактность не означает сокращённый верхний диапазон",
+          "paragraphs": [
+            "PGMM31 имеет 24 лада. Для первых занятий это избыточно, но инструмент не ограничивает ученика, если программа быстро уходит выше 20-го лада."
+          ]
+        }
+      ],
+      "quote": "Нужна короткая мензура сама по себе или ещё и хамбакерный роковый звук?",
+      "sources": [
+        {
+          "title": "Ibanez: PGMM31 miKro specifications",
+          "url": "https://www.ibanez.com/na/products/detail/pgmm31_5a_02.html"
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-nebolshoy-ruki",
+      "parent": "elektrogitara",
+      "search_title": "Электрогитара для небольшой руки в аренду",
+      "editorial_title": "Электрогитара для небольшой руки: сначала мензура и корпус, потом бренд",
+      "description": "Подбор электрогитары ребёнку или взрослому с небольшой рукой по короткой мензуре, весу корпуса и доступности первой позиции.",
+      "kicker": "SMALL HANDS · SHORT SCALE · LIGHT BODY",
+      "intro": [
+        "<p>Человек хочет электрогитару, но стандартная мензура заставляет растягивать пальцы и разворачивать кисть. Это самостоятельный запрос, который можно решить без знания конкретной марки. Squier Mini Strat и Ibanez miKro показывают два разных короткомензурных маршрута.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МЕНЗУРА",
+          "title": "Короткая мензура должна уменьшить растяжку, а не просто изменить цифру в каталоге",
+          "paragraphs": [
+            "Сравнивают одну гамму, power-chord и простой аккорд на стандартной и короткой мензуре. Если движение становится свободнее без потери контроля, уменьшение размера работает по назначению."
+          ]
+        },
+        {
+          "label": "02 / ВЕС",
+          "title": "Лёгкий корпус особенно важен ребёнку на ремне",
+          "paragraphs": [
+            "Пять минут стоя часто показывают больше, чем минутная примерка сидя. Инструмент не должен заставлять поднимать плечо или удерживать корпус правой рукой."
+          ]
+        },
+        {
+          "label": "03 / ЗВУК",
+          "title": "После решения геометрии выбирают SSS, HH или другую электронику",
+          "paragraphs": [
+            "Mini Strat сохраняет классический SSS-голос, PGMM31 предлагает два хамбакера. Правильная геометрия не требует отказываться от жанра, который привёл ученика к электрогитаре."
+          ]
+        }
+      ],
+      "quote": "Что именно мешает на обычной электрогитаре: расстояние между ладами, вес корпуса или ширина грифа?",
+      "sources": [
+        {
+          "title": "Fender: Mini Stratocaster for small hands",
+          "url": "https://www.fender.com/articles/setup/best-guitar-for-beginners"
+        },
+        {
+          "title": "Ibanez: PGMM31 miKro",
+          "url": "https://www.ibanez.com/na/products/detail/pgmm31_5a_02.html"
+        }
+      ]
+    },
+    {
+      "slug": "squier-mini-precision-bass-v-arendu",
+      "parent": "bas-gitara",
+      "search_title": "Squier Mini Precision Bass в аренду",
+      "editorial_title": "Squier Mini Precision Bass: 28,6 дюйма и простая P-Bass логика для маленькой руки",
+      "description": "Squier Mini Precision Bass: 28.6-inch short scale, lightweight body, C neck and single split-coil pickup.",
+      "kicker": "MINI P BASS · 28.6 · SHORT SCALE",
+      "intro": [
+        "<p>На обычном 34-дюймовом басе первая позиция может быть слишком растянутой для ребёнка. Mini Precision сокращает мензуру до 28,6 дюйма, уменьшает корпус и сохраняет простую P-Bass схему: один split single-coil, volume и tone.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 28,6",
+          "title": "Короткая мензура уменьшает расстояние между первой и четвёртой позициями",
+          "paragraphs": [
+            "На пробе ученик играет простую линию на первых пяти ладах. Если локоть и кисть перестают тянуться за каждой нотой, короткая мензура даёт образовательную пользу."
+          ]
+        },
+        {
+          "label": "02 / ВЕС",
+          "title": "Тонкий лёгкий корпус снижает нагрузку на ремень",
+          "paragraphs": [
+            "Fender отдельно выделяет reduced-size lightweight body. Для ребёнка это важно на репетиции, где инструмент держат не две минуты, а весь урок."
+          ]
+        },
+        {
+          "label": "03 / P-BASS",
+          "title": "Один pickup оставляет внимание ритму и атаке",
+          "paragraphs": [
+            "Минимум органов управления полезен на первом басе: ученик слышит, как меняют звук правая рука, позиция щипка и tone control, не изучая активный предусилитель одновременно с ритмом."
+          ]
+        }
+      ],
+      "quote": "Обычный 34-дюймовый бас велик по мензуре, весу или обоим параметрам?",
+      "sources": [
+        {
+          "title": "Fender: Mini Precision Bass",
+          "url": "https://ch.fender.com/en/products/mini-precision-bass"
+        }
+      ]
+    },
+    {
+      "slug": "ibanez-gsrm20-v-arendu",
+      "parent": "bas-gitara",
+      "search_title": "Ibanez GSRM20 miKro в аренду",
+      "editorial_title": "Ibanez GSRM20 miKro: короткомензурный бас с P/J-схемой для роста внутри одного корпуса",
+      "description": "Ibanez GSRM20 miKro: 28.6-inch scale, 38 mm nut, passive P/J pickups and compact bass geometry.",
+      "kicker": "IBANEZ MIKRO · 28.6 · P/J",
+      "intro": [
+        "<p>GSRM20 использует ту же короткую 28,6-дюймовую мензуру, что Mini Precision, но сохраняет два пассивных звукоснимателя P/J и отдельные громкости. Это другой учебный маршрут: маленькая рука получает компактную геометрию, а ухо — несколько базовых басовых тембров.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ГРИФ",
+          "title": "38 мм у порожка дают компактную ширину первой позиции",
+          "paragraphs": [
+            "На конкретной руке проверяют охват грифа и растяжку по первым ладам. Номинальная ширина помогает сравнивать модели, но профиль грифа и положение большого пальца остаются индивидуальными."
+          ]
+        },
+        {
+          "label": "02 / P/J",
+          "title": "Два pickup дают больше тембров без активной электроники",
+          "paragraphs": [
+            "Ученик может постепенно услышать, как меняется звук при смешивании neck и bridge pickup. При этом вся схема остаётся пассивной и достаточно простой для первого инструмента."
+          ]
+        },
+        {
+          "label": "03 / INTONATION",
+          "title": "Регулируемый B10 bridge позволяет мастеру точно настроить мензуру",
+          "paragraphs": [
+            "Ibanez отдельно подчёркивает fully adjustable intonation. В фонде эта функция означает обязанность проверить строй по ладам перед выдачей, а не приглашение ученику самостоятельно крутить saddles."
+          ]
+        }
+      ],
+      "quote": "Ученику нужна максимально простая P-Bass схема или полезнее P/J на той же короткой мензуре?",
+      "sources": [
+        {
+          "title": "Ibanez: GSRM20 miKro specifications",
+          "url": "https://www.ibanez.com/eu/products/detail/gsrm20_2y_06.html"
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki",
+      "parent": "bas-gitara",
+      "search_title": "Короткомензурная бас-гитара для небольшой руки в аренду",
+      "editorial_title": "Короткомензурный бас: первая позиция должна помещаться в естественное движение руки",
+      "description": "Подбор short-scale баса ребёнку или взрослому с небольшой рукой по мензуре, ширине грифа, весу и простой электронике.",
+      "kicker": "SHORT SCALE · SMALL HANDS · BASS",
+      "intro": [
+        "<p>Если 34-дюймовый бас заставляет ученика каждый раз тянуть всю руку за первой позицией, проблема может быть не в технике, а в масштабе инструмента. Squier Mini Precision и Ibanez GSRM20 показывают два короткомензурных решения на 28,6 дюйма.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАСТЯЖКА",
+          "title": "Проверяют не одну ноту, а короткую линию через несколько ладов",
+          "paragraphs": [
+            "Ученик играет знакомый рифф в первой позиции. Если локоть остаётся ближе к естественному положению, а пальцы перестают «догонять» лады, short scale выполняет свою функцию."
+          ]
+        },
+        {
+          "label": "02 / ГРИФ",
+          "title": "Мензура и ширина порожка являются разными координатами",
+          "paragraphs": [
+            "Одинаковые 28,6 дюйма не означают одинаковое ощущение. GSRM20 имеет 38 мм у порожка; Mini Precision также использует компактный C-shaped neck. Сравнение делается рукой, а не только цифрой."
+          ]
+        },
+        {
+          "label": "03 / ЭЛЕКТРОНИКА",
+          "title": "После геометрии выбирают простую P-схему или более гибкую P/J",
+          "paragraphs": [
+            "Ребёнку, которому сейчас важен ритм и ансамбль, может подойти один pickup. Если хочется исследовать разные басовые роли, P/J добавляет вариативность без усложнения активным EQ."
+          ]
+        }
+      ],
+      "quote": "На обычном басе трудно из-за мензуры, ширины грифа или массы инструмента?",
+      "sources": [
+        {
+          "title": "Fender: Mini Precision Bass short-scale design",
+          "url": "https://ch.fender.com/en/products/mini-precision-bass"
+        },
+        {
+          "title": "Ibanez: GSRM20 miKro 28.6-inch scale",
+          "url": "https://www.ibanez.com/eu/products/detail/gsrm20_2y_06.html"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "elektrogitara": [
+      {
+        "label": "Squier Mini Stratocaster",
+        "href": "/squier-mini-stratocaster-v-arendu/"
+      },
+      {
+        "label": "Ibanez PGMM31 miKro",
+        "href": "/ibanez-pgmm31-v-arendu/"
+      },
+      {
+        "label": "Для небольшой руки",
+        "href": "/elektrogitara-dlya-nebolshoy-ruki/"
+      }
+    ],
+    "bas-gitara": [
+      {
+        "label": "Squier Mini Precision Bass",
+        "href": "/squier-mini-precision-bass-v-arendu/"
+      },
+      {
+        "label": "Ibanez GSRM20 miKro",
+        "href": "/ibanez-gsrm20-v-arendu/"
+      },
+      {
+        "label": "Короткая мензура для небольшой руки",
+        "href": "/bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Squier Mini Stratocaster",
+        "href": "/squier-mini-stratocaster-v-arendu/"
+      },
+      {
+        "label": "Squier Mini Precision Bass",
+        "href": "/squier-mini-precision-bass-v-arendu/"
+      }
+    ],
+    "instrument-po-trebovaniyam-k-kachestvu": [
+      {
+        "label": "Электрогитара для небольшой руки",
+        "href": "/elektrogitara-dlya-nebolshoy-ruki/"
+      },
+      {
+        "label": "Короткомензурный бас",
+        "href": "/bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki/"
+      }
+    ]
+  }
+}
