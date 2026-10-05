@@ -1,0 +1,222 @@
+{
+  "pages": [
+    {
+      "slug": "gubnaya-garmonika",
+      "parent": "traditsionnye",
+      "search_title": "Губная гармоника в аренду",
+      "editorial_title": "Губная гармоника: маленький корпус, где качество воздуха слышно сразу",
+      "description": "Губные гармоники для обучения, сцены и записи: диатонические, хроматические и учебные модели по строю, отклику и герметичности.",
+      "kicker": "DIATONIC · CHROMATIC · BEGINNER",
+      "intro": [
+        "<p>Губная гармоника кажется простейшим входом в музыку, но дешёвый негерметичный инструмент способен научить человека дуть сильнее вместо того, чтобы управлять воздухом. Поэтому для первого знакомства важны тип гармоники, тональность, лёгкость отклика и реальная герметичность.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ТИП",
+          "title": "Диатоническая и хроматическая гармоника относятся к разным учебным маршрутам",
+          "paragraphs": [
+            "Для блюза, фолка и большинства массовых beginner-курсов часто используется 10-hole diatonic. Хроматическая гармоника с кнопкой решает другую музыкальную задачу. Перед выдачей важно знать методику и строй, а не просто количество отверстий."
+          ]
+        },
+        {
+          "label": "02 / C",
+          "title": "До-мажор часто становится первой тональностью из-за учебных материалов",
+          "paragraphs": [
+            "HOHNER и Tomlin Harmonica Lessons отдельно рекомендуют начинать с C: она находится в среднем регистре и используется во множестве beginner-курсов. Это сильный стартовый маршрут, но не универсальный закон для всех педагогических школ."
+          ]
+        },
+        {
+          "label": "03 / ГЕРМЕТИЧНОСТЬ",
+          "title": "Инструмент должен отвечать на спокойный воздух",
+          "paragraphs": [
+            "Если нота появляется только при чрезмерном выдохе или вдохе, ученик может закрепить неправильное усилие. Перед выдачей проверяют ровный отклик, отсутствие явных утечек и чистую работу отдельных отверстий."
+          ]
+        }
+      ],
+      "quote": "Обучение начинается с 10-hole diatonic в C или преподаватель использует другую систему?",
+      "sources": [
+        {
+          "title": "HOHNER: Beginner Series",
+          "url": "https://hohner.de/en/instruments/harmonicas/beginner"
+        },
+        {
+          "title": "Tomlin Harmonica Lessons: first harmonica recommendation",
+          "url": "https://www.tomlinharmonicalessons.com/the-best-harmonica-to-start-with/"
+        }
+      ]
+    },
+    {
+      "slug": "hohner-special20-c-v-arendu",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Hohner Special 20 C в аренду",
+      "editorial_title": "Hohner Special 20 в C: профессиональная гармоника, на которой удобно начать",
+      "description": "Hohner Special 20 C: 10-hole diatonic beginner/pro harmonica with recessed reed plates, plastic comb and responsive reeds.",
+      "kicker": "SPECIAL 20 · KEY OF C · BEGINNER / PRO",
+      "intro": [
+        "<p>Special 20 стала редким случаем, где профессиональная модель одновременно является устойчивым первым инструментом. HOHNER прямо относит её к beginner series и называет доступной начинающим; преподаватель Tomlin Leckie также рекомендует Special 20 в C как базовую гармонику для первых занятий.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / C",
+          "title": "Тональность C облегчает совместимость с большинством начальных уроков",
+          "paragraphs": [
+            "Ученик может включить типовой beginner-course и получать те же высоты без транспонирования. Позже появляются другие тональности, но первая гармоника остаётся рабочей для базовой техники и упражнений."
+          ]
+        },
+        {
+          "label": "02 / COMB",
+          "title": "Пластиковый гребень не набухает от влаги и проще в уходе",
+          "paragraphs": [
+            "Для начинающего это практическое преимущество: инструмент много контактирует с влагой и требует регулярного высушивания. Пластик уменьшает риск деформации по сравнению с необработанной древесиной."
+          ]
+        },
+        {
+          "label": "03 / BENDING",
+          "title": "Лёгкий отклик позволяет учиться bending без грубой силы",
+          "paragraphs": [
+            "Tomlin отдельно отмечает отзывчивые reeds и удобство bending на Special 20. Ученик всё равно должен осваивать точный воздушный поток, но инструмент не должен заставлять компенсировать негерметичность дополнительным давлением."
+          ]
+        }
+      ],
+      "quote": "Нужна одна Special 20 в C для начала или ученик уже работает в нескольких тональностях?",
+      "sources": [
+        {
+          "title": "HOHNER: Special 20",
+          "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20"
+        },
+        {
+          "title": "HOHNER: professional harmonica for beginners",
+          "url": "https://hohner.de/en/community/the-best-professional-harmonica-for-beginners"
+        },
+        {
+          "title": "Tomlin Harmonica Lessons: Special 20 for beginners",
+          "url": "https://www.tomlinharmonicalessons.com/is-the-hohner-special-20-still-worth-it-in-2024/"
+        }
+      ]
+    },
+    {
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника в C для обучения в аренду",
+      "editorial_title": "Гармоника в C: учебный материал должен совпасть с тем инструментом, который держит ученик",
+      "description": "10-hole diatonic harmonica in C for beginner lessons, courses and first blues/folk technique.",
+      "kicker": "KEY OF C · 10 HOLES · FIRST LESSONS",
+      "intro": [
+        "<p>Начинающий часто покупает первую попавшуюся гармонику, а затем обнаруживает, что курс записан для другой тональности. Поэтому «гармоника в C» является самостоятельным учебным запросом. Большая часть массовых beginner-материалов действительно строится вокруг до-мажорной диатоники.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОВПАДЕНИЕ",
+          "title": "Учебник, видео и инструмент должны говорить в одной тональности",
+          "paragraphs": [
+            "Если преподаватель говорит «отверстие 4 blow» и ожидает C, ученик должен слышать ту же высоту, что и в примере. Иначе первые недели превращаются в ненужное транспонирование."
+          ]
+        },
+        {
+          "label": "02 / ДИАПАЗОН",
+          "title": "C находится в удобной средней части стандартного набора тональностей",
+          "paragraphs": [
+            "HOHNER объясняет C как удобную первую тональность, не слишком высокую и не слишком низкую. Это помогает сосредоточиться на отдельной ноте, дыхании и чистоте атаки."
+          ]
+        },
+        {
+          "label": "03 / ПЕРЕХОД",
+          "title": "Другие тональности появляются после освоения самой системы",
+          "paragraphs": [
+            "Когда ученик начинает играть с гитарой, блюзовым бэндом или под конкретные записи, ему понадобятся A, D, G и другие гармоники. Но первая C остаётся полезной для упражнений и общего языка большинства уроков."
+          ]
+        }
+      ],
+      "quote": "Какую тональность использует конкретный курс или преподаватель на первых занятиях?",
+      "sources": [
+        {
+          "title": "HOHNER: why beginners start with C",
+          "url": "https://hohner.de/en/community/the-best-professional-harmonica-for-beginners"
+        },
+        {
+          "title": "Tomlin Harmonica Lessons: why start with C",
+          "url": "https://www.tomlinharmonicalessons.com/the-best-harmonica-to-start-with/"
+        }
+      ]
+    },
+    {
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника с лёгким откликом в аренду",
+      "editorial_title": "Лёгкий отклик: гармоника должна учить управлять воздухом, а не давить им",
+      "description": "Подбор harmonica по responsiveness, airtightness and easy single-note/bending response for beginner practice.",
+      "kicker": "RESPONSIVE · AIRTIGHT · EASY BREATH",
+      "intro": [
+        "<p>Ученик дует всё сильнее, потому что отдельная нота не появляется или bend требует чрезмерного усилия. Это не всегда вопрос техники. Герметичность и отзывчивость reeds являются реальными качествами инструмента, которые стоит проверить до того, как закреплять силу как основной способ игры.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ТИХАЯ НОТА",
+          "title": "Хорошая гармоника должна говорить на спокойном потоке воздуха",
+          "paragraphs": [
+            "Проверяют несколько blow и draw notes без форсирования. Если один канал требует заметно большего давления при той же технике, инструмент нуждается в проверке или другой настройке."
+          ]
+        },
+        {
+          "label": "02 / BENDING",
+          "title": "Responsive reeds уменьшают соблазн выжимать bend силой",
+          "paragraphs": [
+            "Преподаватель Tomlin Leckie именно поэтому предпочитает Special 20 для blues-bending. Это один пример свойства, а не единственный брендовый ответ: запрос остаётся функциональным."
+          ]
+        },
+        {
+          "label": "03 / ДЕШЁВАЯ ГАРМОНИКА",
+          "title": "Низкая цена не должна скрывать неисправность за словом «для новичка»",
+          "paragraphs": [
+            "Плохая герметичность заставляет новичка сомневаться в собственном дыхании. Лучше один рабочий инструмент в C, чем набор многих тональностей, где каждая отвечает непредсказуемо."
+          ]
+        }
+      ],
+      "quote": "Нота не получается из-за техники или конкретное отверстие требует заметно большего давления у разных исполнителей?",
+      "sources": [
+        {
+          "title": "HOHNER: Special 20 responsive beginner/pro design",
+          "url": "https://hohner.de/en/community/the-best-professional-harmonica-for-beginners"
+        },
+        {
+          "title": "Tomlin: Special 20 playability and bending",
+          "url": "https://www.tomlinharmonicalessons.com/hohner-vs-lee-oskar/"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "traditsionnye": [
+      {
+        "label": "Губная гармоника",
+        "href": "/gubnaya-garmonika/"
+      }
+    ],
+    "gubnaya-garmonika": [
+      {
+        "label": "Hohner Special 20 C",
+        "href": "/hohner-special20-c-v-arendu/"
+      },
+      {
+        "label": "Гармоника в C",
+        "href": "/gubnaya-garmonika-v-do-mazhore-dlya-obucheniya/"
+      },
+      {
+        "label": "Лёгкий отклик",
+        "href": "/gubnaya-garmonika-s-legkim-otklikom/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Hohner Special 20 C",
+        "href": "/hohner-special20-c-v-arendu/"
+      }
+    ],
+    "instrument-po-trebovaniyam-k-kachestvu": [
+      {
+        "label": "Гармоника с лёгким откликом",
+        "href": "/gubnaya-garmonika-s-legkim-otklikom/"
+      }
+    ]
+  }
+}
