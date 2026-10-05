@@ -2,8 +2,11 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1090,
-  "new_subjects": 3,
+  "new_subjects": 0,
   "enriched_subjects": [
+    "roland-fp30x-v-arendu",
+    "kawai-es120-v-arendu",
+    "casio-pxs1100-v-arendu",
     "cifrovoe-pianino-dlya-muzykalnoy-shkoly"
   ],
   "sources": {
@@ -65,7 +68,8 @@
         "roland_ru",
         "pianino_ru"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "enrich"
     },
     {
       "slug": "kawai-es120-v-arendu",
@@ -75,7 +79,8 @@
         "kawai_interview",
         "pianino_ru"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "enrich"
     },
     {
       "slug": "casio-pxs1100-v-arendu",
@@ -84,7 +89,8 @@
         "casio",
         "pianino_ru"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "enrich"
     },
     {
       "slug": "cifrovoe-pianino-dlya-muzykalnoy-shkoly",
