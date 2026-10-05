@@ -41,7 +41,7 @@ class RussianSchoolWindEvidenceTests(unittest.TestCase):
     def test_batch_is_enrichment_only_and_inventory_count_stays_1067(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1096)
+        self.assertEqual(result['subjects'],1099)
         self.assertEqual({p['slug'] for p in self.doc['pages']},TARGETS)
         self.assertTrue(all(p.get('mode')=='enrich' for p in self.doc['pages']))
         for p in self.doc['pages']:
