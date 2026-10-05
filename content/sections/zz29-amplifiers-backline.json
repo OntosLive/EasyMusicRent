@@ -1,0 +1,1123 @@
+{
+  "pages": [
+    {
+      "slug": "usiliteli-backline",
+      "parent": "",
+      "search_title": "Аренда усилителей и бэклайна в Москве",
+      "editorial_title": "Усилители и бэклайн",
+      "description": "Гитарные и басовые усилители, кабинеты, акустическое усиление и rotary-системы как самостоятельная часть профессионального музыкального райдера.",
+      "kicker": "GUITAR AMP · BASS AMP · CABINET · ROTARY",
+      "intro": [
+        "<p>В профессиональном райдере усилитель — отдельный музыкальный инструментальный узел. Fender Twin, Marshall JCM800, Vox AC30, Roland JC-120 или Ampeg SVT запрашивают по имени, потому что они меняют реакцию всей цепочки ещё до микрофона и пульта.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЦЕПОЧКА",
+          "title": "Инструмент и усилитель образуют одну исполнительскую систему",
+          "paragraphs": [
+            "Одна и та же гитара через Twin Reverb, JCM800 и JC-120 отвечает по-разному на атаку, динамику и педали. Поэтому профессиональный backline нельзя считать нейтральным продолжением кабеля."
+          ]
+        },
+        {
+          "label": "02 / РАЙДЕР",
+          "title": "Голова, кабинет и combo — разные единицы заказа",
+          "paragraphs": [
+            "Для head + cabinet требуется согласовать импеданс, мощность, модель кабинета и speaker cable. Combo уже включает громкоговорители, но сохраняет собственную сценическую геометрию и характер."
+          ]
+        },
+        {
+          "label": "03 / SUBSTITUTE",
+          "title": "Замена согласуется по функции и конструкции",
+          "paragraphs": [
+            "Хороший современный усилитель не является автоматической заменой указанного vintage standard. Если точной модели нет, обсуждают допустимый substitute: мощность, headroom, число каналов, тип выходного каскада, кабинет и сценическую задачу."
+          ]
+        }
+      ],
+      "quote": "Какой усилительный тракт указан в райдере и что именно в нём считается обязательным?",
+      "sources": [
+        {
+          "title": "Backline Source: отдельные парки guitar amps и bass amps",
+          "url": "https://www.backlinesource.com/guitarandbassamps"
+        },
+        {
+          "title": "Backline Source: популярные райдерные позиции требуют раннего согласования substitute",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnye-usiliteli",
+      "parent": "usiliteli-backline",
+      "search_title": "Аренда гитарных усилителей в Москве",
+      "editorial_title": "Гитарные усилители: характер цепочки начинается до микрофона",
+      "description": "Ламповые, транзисторные и современные гитарные усилители для сцены и студии: combo, head, clean headroom, overdrive и райдерные модели.",
+      "kicker": "COMBO · HEAD · CLEAN · DRIVE",
+      "intro": [
+        "<p>Гитарный усилитель выбирают не только по громкости. Способ перегруза, запас чистого уровня, реакция на педали, встроенные эффекты и кабинет определяют, как исполнитель почувствует всю программу.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ФОРМАТ",
+          "title": "Combo и head + cabinet решают разные задачи",
+          "paragraphs": [
+            "Combo быстрее ставится и уже содержит согласованные динамики. Отдельная голова позволяет сохранить конкретный усилитель и менять кабинет по райдеру или сцене."
+          ]
+        },
+        {
+          "label": "02 / ХАРАКТЕР",
+          "title": "Clean platform и high-gain rig не взаимозаменяемы",
+          "paragraphs": [
+            "Twin Reverb и JC-120 выбирают ради большого чистого диапазона; JCM800, Dual Rectifier или 5150III — ради другого поведения перегруза. Слово «100 ватт» не описывает эту разницу."
+          ]
+        },
+        {
+          "label": "03 / СЦЕНА",
+          "title": "Усилитель проверяют с гитарой и педалбордом артиста",
+          "paragraphs": [
+            "Важны реальный output педалей, шум, петля эффектов и способ съёма кабинета. На саундчеке уже должен работать согласованный тракт."
+          ]
+        }
+      ],
+      "quote": "Артисту нужен clean platform, классический crunch или конкретная high-gain архитектура?",
+      "sources": [
+        {
+          "title": "Backline Source: профессиональный rental inventory гитарных усилителей",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "basovye-usiliteli",
+      "parent": "usiliteli-backline",
+      "search_title": "Аренда басовых усилителей в Москве",
+      "editorial_title": "Басовые усилители: мощность имеет смысл только вместе с кабинетом и DI",
+      "description": "Басовые головы и системы для концерта и записи: Ampeg, Aguilar, Gallien-Krueger, Markbass, DI и кабинет.",
+      "kicker": "HEAD · DI · CABINET · LOW END",
+      "intro": [
+        "<p>В басовом райдере название головы часто идёт рядом с конкретным кабинетом. SVT + 8×10, Aguilar + DB410 или лёгкий class-D head решают разные задачи даже при похожей мощности.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ГОЛОВА",
+          "title": "Предусилитель определяет характер до кабинета",
+          "paragraphs": [
+            "Ламповый SVT, активная GK-архитектура и Tone Hammer дают разные способы формировать атаку и середину. Если артист просит конкретную голову, DI-сигнал тоже может быть частью ожидаемого результата."
+          ]
+        },
+        {
+          "label": "02 / КАБИНЕТ",
+          "title": "Импеданс и конфигурация динамиков являются частью системы",
+          "paragraphs": [
+            "8×10, 4×10 и 1×15 различаются не только габаритами. Перед выдачей проверяют допустимую нагрузку головы, реальную мощность и нужное соединение."
+          ]
+        },
+        {
+          "label": "03 / СЦЕНА",
+          "title": "Иногда кабинет нужен как физический монитор, а FOH получает DI",
+          "paragraphs": [
+            "Поэтому нельзя выводить необходимость большого кабинета только из мощности зала. Райдер может использовать его как привычную исполнительскую опору при отдельном линейном сигнале на пульт."
+          ]
+        }
+      ],
+      "quote": "Какой head/cab указан в райдере и откуда FOH должен получать основной басовый сигнал?",
+      "sources": [
+        {
+          "title": "Backline Source: профессиональный rental inventory басовых усилителей",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnye-kabinety",
+      "parent": "usiliteli-backline",
+      "search_title": "Аренда гитарных кабинетов в Москве",
+      "editorial_title": "Гитарные кабинеты: четыре динамика ещё не делают два кабинета одинаковыми",
+      "description": "Гитарные кабинеты 1x12, 2x12 и 4x12: динамики, импеданс, straight/angled и согласование с головой.",
+      "kicker": "1×12 · 2×12 · 4×12 · IMPEDANCE",
+      "intro": [
+        "<p>Кабинет завершает силовую часть гитарного усилителя. Marshall 1960A, открытый Fender combo и современный 2×12 по-разному распределяют звук в комнате и по-разному отвечают на одну голову.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДИНАМИКИ",
+          "title": "Модель громкоговорителя входит в звук",
+          "paragraphs": [
+            "Даже одинаковый размер 4×12 может быть собран на разных Celestion и иметь другую мощность и характер. Для точного райдера проверяют не только логотип кабинета."
+          ]
+        },
+        {
+          "label": "02 / ИМПЕДАНС",
+          "title": "Голова и кабинет должны быть электрически совместимы",
+          "paragraphs": [
+            "Согласование нагрузки — обязательная техническая часть backline. Кабель инструмента и speaker cable также не являются взаимозаменяемыми."
+          ]
+        },
+        {
+          "label": "03 / ФОРМА",
+          "title": "Angled и straight меняют и сценическую геометрию",
+          "paragraphs": [
+            "Наклонный верхний кабинет лучше направляет часть динамиков к музыканту; straight cabinet ведёт себя иначе. Full stack может быть визуальным и акустическим требованием одновременно."
+          ]
+        }
+      ],
+      "quote": "Какой размер, динамики и импеданс кабинета указаны вместе с усилителем?",
+      "sources": [
+        {
+          "title": "Marshall: 1960A 4×12 cabinet",
+          "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet"
+        }
+      ]
+    },
+    {
+      "slug": "basovye-kabinety",
+      "parent": "usiliteli-backline",
+      "search_title": "Аренда басовых кабинетов в Москве",
+      "editorial_title": "Басовые кабинеты: нижняя опора задаётся не одним размером динамика",
+      "description": "Басовые кабинеты 8x10, 4x10, 2x12 и 1x15: импеданс, транзиенты, переносимость и райдерная конфигурация.",
+      "kicker": "8×10 · 4×10 · 1×15 · IMPEDANCE",
+      "intro": [
+        "<p>Басовый кабинет определяет физическую часть мониторинга музыканта и характер атаки на сцене. Ampeg 8×10 стал отдельным культурным объектом не из-за числа динамиков само по себе, а из-за специфической sealed-конструкции и поведения транзиентов.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КОНФИГУРАЦИЯ",
+          "title": "8×10, 4×10 и 1×15 не являются ступенями одной шкалы",
+          "paragraphs": [
+            "Каждая конфигурация даёт свой баланс скорости, объёма и сцены. Выбор должен исходить из райдера и роли кабинета, а не из правила «чем больше, тем лучше»."
+          ]
+        },
+        {
+          "label": "02 / НАГРУЗКА",
+          "title": "Голова должна работать в допустимом импедансе",
+          "paragraphs": [
+            "При нескольких кабинетах суммарная нагрузка меняется. Прокат собирает head + cab как проверенную электрическую систему."
+          ]
+        },
+        {
+          "label": "03 / ЛОГИСТИКА",
+          "title": "Большой кабинет требует отдельного маршрута на сцену",
+          "paragraphs": [
+            "SVT-810E весит десятки килограммов и сам становится логистической единицей. Доставка, лестницы и доступ к сцене являются частью его реальной доступности."
+          ]
+        }
+      ],
+      "quote": "Кабинет нужен ради конкретного звука, привычного stage feel или просто как локальный монитор?",
+      "sources": [
+        {
+          "title": "Ampeg: SVT-810E Classic Series",
+          "url": "https://ampeg.com/products/classic/cabs.html"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskie-usiliteli",
+      "parent": "usiliteli-backline",
+      "search_title": "Аренда усилителей для акустических инструментов в Москве",
+      "editorial_title": "Акустическое усиление: сохранить тембр и дать музыканту независимый контроль",
+      "description": "Акустические combo для гитары, голоса и других инструментов: instrument/mic channels, DI, feedback control и сценический мониторинг.",
+      "kicker": "ACOUSTIC · MIC · DI · FEEDBACK",
+      "intro": [
+        "<p>Акустический combo решает другую задачу, чем электрогитарный усилитель: он должен усилить уже сформированный тембр, дать понятный мониторинг и аккуратно передать сигнал дальше на FOH.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ВХОДЫ",
+          "title": "Инструмент и микрофон могут жить в одном рабочем месте",
+          "paragraphs": [
+            "Профессиональные acoustic amps часто имеют отдельные mic/instrument channels и phantom power. Это полезно для singer-songwriter и камерных сетов, но схему всё равно согласуют с общим пультом."
+          ]
+        },
+        {
+          "label": "02 / FEEDBACK",
+          "title": "Фаза и notch нужны именно в реальной сценической акустике",
+          "paragraphs": [
+            "Обратная связь зависит от инструмента, датчика, мониторов и помещения. Настройки нельзя переносить как универсальный preset."
+          ]
+        },
+        {
+          "label": "03 / DI",
+          "title": "Combo может одновременно быть монитором и источником для FOH",
+          "paragraphs": [
+            "Балансный выход позволяет сохранить локальный контроль музыканта и передать подготовленный сигнал дальше."
+          ]
+        }
+      ],
+      "quote": "Усилитель нужен только для инструмента или также для вокала и самостоятельного сценического микса?",
+      "sources": [
+        {
+          "title": "Fishman: Loudbox Artist — professional acoustic amplification",
+          "url": "https://fishman.com/dp/loudbox-artist-acoustic-amplifier/"
+        }
+      ]
+    },
+    {
+      "slug": "rotornye-akusticheskie-sistemy",
+      "parent": "usiliteli-backline",
+      "search_title": "Аренда Leslie и rotary-акустических систем в Москве",
+      "editorial_title": "Rotary-системы: движение звука является частью инструмента",
+      "description": "Leslie 122/147 и rotary-системы для Hammond и клавишных: slow/fast rotors, интерфейс и совместимость.",
+      "kicker": "LESLIE · CHORALE · TREMOLO · INTERFACE",
+      "intro": [
+        "<p>Leslie — не просто колонка для органа. Вращение высокочастотного рупора и басового ротора превращает пространственное движение в исполнительный параметр, поэтому точная модель и интерфейс входят в райдер Hammond-системы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДВА РОТОРА",
+          "title": "Horn и bass rotor работают на двух скоростях",
+          "paragraphs": [
+            "Классическая Leslie разделяет верх и низ между двумя вращающимися системами. Slow/Chorale и Fast/Tremolo являются частью музыкальной фразы, а не постобработкой после органа."
+          ]
+        },
+        {
+          "label": "02 / СОВМЕСТИМОСТЬ",
+          "title": "122 и 147 похожи внешне, но различаются электрически",
+          "paragraphs": [
+            "Hammond прямо предупреждает, что модели имеют разные соединения и не взаимозаменяются простым переставлением кабеля. Для современной клавиатуры могут понадобиться interface panel или адаптер."
+          ]
+        },
+        {
+          "label": "03 / РАЙДЕР",
+          "title": "B3 + Leslie часто заказывается как одна система",
+          "paragraphs": [
+            "Backline Source держит несколько B3 и Leslie 122 и предлагает связку как отдельную rental-позицию. Поэтому у rotary-систем должна быть собственная ветвь фонда."
+          ]
+        }
+      ],
+      "quote": "Какая модель Leslie указана и к какому Hammond или клавишному инструменту её нужно подключить?",
+      "sources": [
+        {
+          "title": "Hammond: Leslie 122A / 122XB / 147A",
+          "url": "https://hammondorganco.com/products/leslie-speakers/122-147-981-147a"
+        },
+        {
+          "title": "Backline Source: Hammond B3 and Leslie 122 Rental",
+          "url": "https://www.backlinesource.com/hammond-b3-and-leslie-122"
+        }
+      ]
+    },
+    {
+      "slug": "fender-65-twin-reverb-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Fender '65 Twin Reverb в аренду",
+      "editorial_title": "Fender ’65 Twin Reverb: большой чистый запас как самостоятельный backline standard",
+      "description": "Fender '65 Twin Reverb: 85W, 2x12 Jensen, spring reverb и tremolo; классический clean-platform для сцены.",
+      "kicker": "LEGENDARY RIDER · 85W · 2×12",
+      "intro": [
+        "<p>Fender сам называет Twin Reverb одним из величайших backline amps. Это чистый платформенный усилитель, который десятилетиями существует как понятная отправная точка для педалей, джаза, кантри, рока и большой сцены.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / HEADROOM",
+          "title": "85 ватт и два 12-дюймовых динамика дают большой чистый диапазон",
+          "paragraphs": [
+            "Twin Reverb выбирают не для раннего power-amp breakup. Если артист строит drive педалями поверх большого clean headroom, более маломощный Fender изменит способ работы всей цепочки."
+          ]
+        },
+        {
+          "label": "02 / ЭФФЕКТЫ",
+          "title": "Spring reverb и tremolo уже встроены в классический тракт",
+          "paragraphs": [
+            "Нужно уточнить, использует ли музыкант встроенные эффекты и footswitch или они полностью обходятся pedalboard-системой."
+          ]
+        },
+        {
+          "label": "03 / РАЙДЕР",
+          "title": "Twin Reverb массово держат профессиональные прокаты",
+          "paragraphs": [
+            "Backline Source имеет десять ’65 Twin Reissue, что хорошо показывает статус модели как повторяемой профессиональной позиции."
+          ]
+        }
+      ],
+      "quote": "Нужен именно большой clean headroom Twin Reverb или допустим Deluxe / Super Reverb?",
+      "sources": [
+        {
+          "title": "Fender: '65 Twin Reverb",
+          "url": "https://www.fender.com/products/65-twin-reverb/"
+        },
+        {
+          "title": "Backline Source: Fender Twin 65 Reissue rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "fender-65-deluxe-reverb-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Fender '65 Deluxe Reverb в аренду",
+      "editorial_title": "Fender ’65 Deluxe Reverb: меньшая мощность, но полноценный классический Fender",
+      "description": "Fender '65 Deluxe Reverb: 22W, 1x12 Jensen, spring reverb и tremolo; студийно-сценический Fender standard.",
+      "kicker": "RIDER CORE · 22W · 1×12",
+      "intro": [
+        "<p>Deluxe Reverb часто выбирают там, где нужен классический Fender, но Twin избыточен по мощности и размеру. 22 ватта и один 12-дюймовый динамик делают его отдельной рабочей точкой для студии и умеренной сцены.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МОЩНОСТЬ",
+          "title": "22 ватта меняют точку, где усилитель начинает отвечать компрессией",
+          "paragraphs": [
+            "Это не уменьшенный Twin по одному параметру. Другая мощность и один динамик дают иной physical response и удобнее подходят для записи или сцены, где допустим более ранний breakup."
+          ]
+        },
+        {
+          "label": "02 / КЛАССИКА",
+          "title": "Spring reverb и tremolo остаются внутри той же Fender-языковой семьи",
+          "paragraphs": [
+            "Музыкант может попросить Deluxe именно ради сочетания clean/crunch и встроенных эффектов. Substitute проверяют по этой функции."
+          ]
+        },
+        {
+          "label": "03 / ПРОКАТ",
+          "title": "Deluxe Reverb держат большими партиями как рабочую модель",
+          "paragraphs": [
+            "Backline Source имеет десять ’65 Deluxe Reissue, что делает эту модель одним из очевидных Rider Core входов."
+          ]
+        }
+      ],
+      "quote": "Нужен Deluxe ради меньшего Fender headroom или допускается Twin / Princeton после согласования?",
+      "sources": [
+        {
+          "title": "Fender: '65 Deluxe Reverb",
+          "url": "https://www.fender.com/products/65-deluxe-reverb/"
+        },
+        {
+          "title": "Backline Source: Fender Deluxe 65 Reissue rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Vox AC30C2 в аренду",
+      "editorial_title": "Vox AC30C2: British Invasion остаётся живой райдерной конструкцией",
+      "description": "Vox AC30C2: 30W all-valve 2x12 combo, Normal/Top Boost, tremolo и spring reverb.",
+      "kicker": "LEGENDARY RIDER · AC30 · TOP BOOST",
+      "intro": [
+        "<p>AC30 — один из архетипических гитарных усилителей. Vox связывает его с British Invasion и продолжает выпускать современный AC30C2, а прокаты держат разные AC30 поколениями как отдельные позиции.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КАНАЛЫ",
+          "title": "Normal и Top Boost задают две разные исходные точки",
+          "paragraphs": [
+            "Если артист строит звук вокруг Top Boost, neutral clean combo уже не воспроизводит его рабочую цепочку. Перед саундчеком полезно знать используемый канал и ориентиры настройки."
+          ]
+        },
+        {
+          "label": "02 / 2×12",
+          "title": "Два 12-дюймовых динамика входят в классический AC30 experience",
+          "paragraphs": [
+            "AC30C2 использует Greenbacks, AC30C2X — Alnico Blues. Эти варианты нельзя смешивать под одним названием при точном запросе."
+          ]
+        },
+        {
+          "label": "03 / ПРОКАТ",
+          "title": "AC30 — регулярная rental-позиция",
+          "paragraphs": [
+            "Backline Source держит несколько поколений AC30. В нашем фонде конкретная версия должна подтверждаться вместе с динамиками."
+          ]
+        }
+      ],
+      "quote": "Нужен AC30C2 с Greenback, AC30C2X с Alnico Blue или допустим другой AC30?",
+      "sources": [
+        {
+          "title": "VOX: AC30 Custom",
+          "url": "https://voxamps.com/en-gb/product/ac30-custom/"
+        },
+        {
+          "title": "Backline Source: Vox AC30 rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "marshall-jcm800-2203-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Marshall JCM800 2203 в аренду",
+      "editorial_title": "Marshall JCM800 2203: одна голова, один канал, целая эпоха сценического crunch",
+      "description": "Marshall JCM800 2203: 100W all-valve single-channel master-volume head, обычно в паре с 4x12.",
+      "kicker": "LEGENDARY RIDER · 100W HEAD · JCM800",
+      "intro": [
+        "<p>JCM800 2203 — модель, которую Marshall до сих пор выпускает как Vintage Reissue и называет одним из своих величайших усилителей. Для райдера это точная 100-ваттная голова, а не общий запрос «Marshall stack».</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ОДИН КАНАЛ",
+          "title": "Простота 2203 является частью конструкции",
+          "paragraphs": [
+            "High/Low input, preamp, master volume и один канал заставляют артиста строить динамику через руки, гитару и pedalboard. Многоканальный Marshall не является автоматическим substitute."
+          ]
+        },
+        {
+          "label": "02 / КАБИНЕТ",
+          "title": "Голова не завершена без согласованного 4×12",
+          "paragraphs": [
+            "В райдерах JCM800 часто соединяется с Marshall 1960A/B. Импеданс и speaker cable проверяются до подачи питания."
+          ]
+        },
+        {
+          "label": "03 / ПРОКАТ",
+          "title": "JCM800 стабильно живёт в rental inventory",
+          "paragraphs": [
+            "Backline Source держит JCM800 наряду с JCM900 и JCM2000. Точная модель головы должна оставаться в адресе."
+          ]
+        }
+      ],
+      "quote": "Нужен именно 2203 single-channel head и какой Marshall 4×12 указан рядом с ним?",
+      "sources": [
+        {
+          "title": "Marshall: JCM800 2203 Vintage Reissue",
+          "url": "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head"
+        },
+        {
+          "title": "Backline Source: Marshall JCM800 rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "marshall-1960a-v-arendu",
+      "parent": "gitarnye-kabinety",
+      "search_title": "Marshall 1960A 4x12 в аренду",
+      "editorial_title": "Marshall 1960A: наклонный 4×12, который стал визуальной и акустической частью stack",
+      "description": "Marshall 1960A: angled 4x12, 4 Celestion G12T-75, 300W mono / 150W stereo.",
+      "kicker": "RIDER CORE · 4×12 · ANGLED",
+      "intro": [
+        "<p>1960A — один из самых узнаваемых и продаваемых 4×12 кабинетов мира. В райдере буква A имеет значение: это angled cabinet, тогда как 1960B — straight.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДИНАМИКИ",
+          "title": "Четыре G12T-75 являются штатным голосом текущей версии",
+          "paragraphs": [
+            "Если rental cabinet был переоснащён другими динамиками, это уже существенная характеристика конкретного экземпляра и её нужно сообщать."
+          ]
+        },
+        {
+          "label": "02 / MONO / STEREO",
+          "title": "Кабинет допускает несколько электрических конфигураций",
+          "paragraphs": [
+            "1960A рассчитан на 300W mono или 150W stereo и имеет переключаемую схему импеданса. Прокат собирает безопасную пару с конкретной головой."
+          ]
+        },
+        {
+          "label": "03 / STACK",
+          "title": "1960A и 1960B могут образовывать полный Marshall stack",
+          "paragraphs": [
+            "Иногда это звуковое требование, иногда ещё и сценический образ. Оба случая нужно различать в заказе."
+          ]
+        }
+      ],
+      "quote": "Нужен один angled 1960A, straight 1960B или полный stack?",
+      "sources": [
+        {
+          "title": "Marshall: 1960A 4x12 Angled Cabinet",
+          "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet"
+        },
+        {
+          "title": "Backline Source: Marshall 4x12 rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "roland-jc120-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Roland JC-120 Jazz Chorus в аренду",
+      "editorial_title": "Roland JC-120: транзисторный clean стал легендой наравне с ламповыми усилителями",
+      "description": "Roland JC-120: 120W stereo 2x12 solid-state combo, Dimensional Space Chorus и benchmark clean sound.",
+      "kicker": "LEGENDARY RIDER · JC-120 · STEREO CHORUS",
+      "intro": [
+        "<p>JC-120 — редкий усилитель, который доказал, что легендарный backline standard не обязан быть ламповым. Roland выпускает его с 1975 года и называет benchmark чистого гитарного звука.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / CLEAN",
+          "title": "Большой транзисторный clean — сама причина запроса",
+          "paragraphs": [
+            "Если pedalboard артиста рассчитан на нейтральную чистую платформу, ламповый combo с ранним breakup не является эквивалентной заменой."
+          ]
+        },
+        {
+          "label": "02 / STEREO CHORUS",
+          "title": "Dimensional Space Chorus встроен в идентичность JC-120",
+          "paragraphs": [
+            "Два 12-дюймовых динамика и стерео chorus дают пространственный эффект внутри combo. Нужно уточнить, используется ли он в программе или усилитель служит только clean platform."
+          ]
+        },
+        {
+          "label": "03 / РАЙДЕР",
+          "title": "JC-120 массово встречается в профессиональном прокате",
+          "paragraphs": [
+            "Backline Source держит шесть JC-120, что делает его очевидным Rider Core."
+          ]
+        }
+      ],
+      "quote": "JC-120 нужен ради clean platform, встроенного stereo chorus или обоих свойств?",
+      "sources": [
+        {
+          "title": "Roland: JC-120 Jazz Chorus",
+          "url": "https://www.roland.com/global/products/jc-120/"
+        },
+        {
+          "title": "Backline Source: Roland JC120 rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "evh-5150iii-100s-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "EVH 5150III 100S в аренду",
+      "editorial_title": "EVH 5150III 100S: touring-модификации превратились в серийную high-gain модель",
+      "description": "EVH 5150III 100S: 100W three-channel tube head, touring-spec Stealth version with independent controls.",
+      "kicker": "RIDER CORE · HIGH GAIN · 100S",
+      "intro": [
+        "<p>5150III 100S интересен именно как райдерная модель: EVH описывает его как голову, идентичную позднему touring rig Эдди Ван Халена. Это не абстрактный high-gain head, а конкретная трёхканальная система.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ТРИ КАНАЛА",
+          "title": "Clean, Crunch и Lead имеют отдельные рабочие роли",
+          "paragraphs": [
+            "Каждый канал располагает собственными gain, EQ, volume и presence. Если программа артиста построена на переключениях 5150III, одноканальная high-gain голова потребует другой архитектуры pedalboard."
+          ]
+        },
+        {
+          "label": "02 / 100S",
+          "title": "Stealth-версия отличается от обычного 100W 5150III",
+          "paragraphs": [
+            "100S получила touring-модификации с дополнительным gain и переработанной серединой. В точном райдере индекс S нельзя терять."
+          ]
+        },
+        {
+          "label": "03 / CAB",
+          "title": "Импеданс 4/8/16 Ом позволяет разные кабинеты, но конфигурацию нужно определить заранее",
+          "paragraphs": [
+            "Прокат выдаёт head вместе с совместимым speaker cabinet и кабелем, а не оставляет эту часть на площадке."
+          ]
+        }
+      ],
+      "quote": "Нужен именно 100S Stealth или допустим 5150III 100W / 50W после согласования?",
+      "sources": [
+        {
+          "title": "EVH: 5150III 100S Head",
+          "url": "https://www.evhgear.com/gear/amplifiers/head/5150iii-100s-head/2250250000"
+        },
+        {
+          "title": "Backline Source: EVH 5150 III rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "orange-rockerverb-50-mkiii-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Orange Rockerverb 50 MKIII в аренду",
+      "editorial_title": "Orange Rockerverb 50 MKIII: современный high-gain standard с отдельным clean каналом",
+      "description": "Orange Rockerverb 50 MKIII: 50/25W all-valve head, clean/dirty channels, valve reverb and attenuator.",
+      "kicker": "CURRENT PRO · ORANGE · 50/25W",
+      "intro": [
+        "<p>Rockerverb 50 MKIII уже относится к современному профессиональному бэклайну: Orange называет его третьим поколением одной из своих самых знаковых голов, а прокаты держат модель рядом с Marshall, Mesa и EVH.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДВА КАНАЛА",
+          "title": "Clean и Dirty позволяют строить полноценную программу без внешнего preamp",
+          "paragraphs": [
+            "Если артист использует оба канала, одноканальная Orange-голова будет функционально другой."
+          ]
+        },
+        {
+          "label": "02 / POWER",
+          "title": "50/25W меняет рабочую громкость без смены усилителя",
+          "paragraphs": [
+            "Переключение мощности полезно для разных площадок и записи, но исходную настройку всё равно проверяют на конкретном кабинете."
+          ]
+        },
+        {
+          "label": "03 / ATTENUATOR",
+          "title": "Встроенный attenuator является частью MKIII",
+          "paragraphs": [
+            "Он позволяет управлять выходным уровнем при сохранении рабочего режима усилителя. Это может быть существенным в райдере для маленькой сцены."
+          ]
+        }
+      ],
+      "quote": "Rockerverb нужен как двухканальная Orange-система или главное — общий характер Orange high gain?",
+      "sources": [
+        {
+          "title": "Orange: Rockerverb 50 MKIII",
+          "url": "https://orangeamps.com/en-us/products/rockerverb-50-mkiii"
+        },
+        {
+          "title": "Backline Source: Orange Rockerverb rental inventory",
+          "url": "https://www.backlinesource.com/guitarandbassamps"
+        }
+      ]
+    },
+    {
+      "slug": "mesa-dual-rectifier-v-arendu",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Mesa Boogie Dual Rectifier в аренду",
+      "editorial_title": "Mesa Dual Rectifier: high-gain имя, у которого поколение нужно уточнять отдельно",
+      "description": "Mesa Boogie Dual Rectifier как устойчивый high-gain backline standard; конкретная версия, каналы и cabinet подтверждаются отдельно.",
+      "kicker": "LEGENDARY RIDER · DUAL RECTIFIER · HIGH GAIN",
+      "intro": [
+        "<p>Dual Rectifier давно стал самостоятельным названием в тяжёлом гитарном бэклайне. Но за этим именем стоят разные поколения и ревизии, поэтому правильная модельная страница должна не притворяться, будто все Dual Rectifier одинаковы, а доводить запрос до конкретного rental-экземпляра.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ПОКОЛЕНИЕ",
+          "title": "Название семейства ещё не фиксирует конкретную ревизию",
+          "paragraphs": [
+            "Перед выдачей уточняют число каналов, поколение и ожидаемую панель управления. Особенно важно это для артиста, который привозит заранее записанные настройки."
+          ]
+        },
+        {
+          "label": "02 / CABINET",
+          "title": "Rectifier head обычно предполагает отдельный 4×12",
+          "paragraphs": [
+            "Конкретный кабинет, его динамики и импеданс входят в рабочую цепочку. Хорошая Mesa-голова через другой cabinet уже даст другую систему."
+          ]
+        },
+        {
+          "label": "03 / ПРОКАТ",
+          "title": "Dual Rectifier стабильно присутствует в больших backline inventories",
+          "paragraphs": [
+            "Backline Source держит несколько Dual Rectifier и Triple Rectifier. Это подтверждает статус модели как реального райдерного входа."
+          ]
+        }
+      ],
+      "quote": "Какое поколение Dual Rectifier ожидает артист и какой 4×12 указан в райдере?",
+      "sources": [
+        {
+          "title": "Backline Source: Mesa Boogie Dual Rectifier rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "ampeg-svt-cl-v-arendu",
+      "parent": "basovye-usiliteli",
+      "search_title": "Ampeg SVT-CL в аренду",
+      "editorial_title": "Ampeg SVT-CL: ламповая басовая голова, которая изменила масштаб рок-сцены",
+      "description": "Ampeg SVT-CL: Classic Series all-tube head и каноническая пара с SVT-810E.",
+      "kicker": "LEGENDARY RIDER · SVT · TUBE HEAD",
+      "intro": [
+        "<p>Ampeg описывает SVT как усилитель, который в конце 1960-х позволил басу конкурировать по мощности с громкими гитарами и барабанами. Сегодня SVT-CL остаётся одним из самых узнаваемых басовых backline standards.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЛАМПОВАЯ ГОЛОВА",
+          "title": "SVT выбирают за конкретное поведение мощности и середины",
+          "paragraphs": [
+            "Class-D head той же номинальной мощности может быть прекрасным усилителем, но не является автоматическим SVT substitute. Музыкант ощущает другую компрессию, массу и реакцию тракта."
+          ]
+        },
+        {
+          "label": "02 / 8×10",
+          "title": "Классическая пара — SVT head + SVT-810E",
+          "paragraphs": [
+            "Именно эта связка десятилетиями существует как сценический образ и физический инструмент. Если используется меньший cabinet, это согласуют отдельно."
+          ]
+        },
+        {
+          "label": "03 / ЛОГИСТИКА",
+          "title": "Легендарный rig тяжёлый буквально",
+          "paragraphs": [
+            "Большая ламповая голова и 8×10 требуют отдельной доставки, безопасного питания и сценического маршрута. Возможность аренды включает эту инфраструктуру."
+          ]
+        }
+      ],
+      "quote": "Райдер требует полный SVT-CL + 8×10 rig или допускает современную более лёгкую басовую систему?",
+      "sources": [
+        {
+          "title": "Ampeg: Classic Series SVT-CL",
+          "url": "https://ampeg.com/products/classic/heads.html"
+        },
+        {
+          "title": "Backline Source: Ampeg Classic / 810 rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "ampeg-svt-810e-v-arendu",
+      "parent": "basovye-kabinety",
+      "search_title": "Ampeg SVT-810E в аренду",
+      "editorial_title": "Ampeg SVT-810E: «холодильник» стал отдельной частью языка большой сцены",
+      "description": "Ampeg SVT-810E: sealed 8x10 cabinet, classic design since 1969 and canonical SVT pairing.",
+      "kicker": "LEGENDARY RIDER · 8×10 · THE FRIDGE",
+      "intro": [
+        "<p>Ampeg сам называет SVT-810E «The Fridge». Его infinite-baffle конструкция почти не менялась с 1969 года, а восемь 10-дюймовых динамиков стали одной из самых узнаваемых сценических басовых систем.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / SEALED",
+          "title": "Каждая пара динамиков работает в собственной герметичной камере",
+          "paragraphs": [
+            "Это определяет характер быстрого punch и отличает SVT-810E от ported 4×10 или 1×15. Поэтому число динамиков не является единственным существенным параметром."
+          ]
+        },
+        {
+          "label": "02 / ПАРА",
+          "title": "SVT-810E естественно связывается с SVT-CL",
+          "paragraphs": [
+            "Ampeg прямо называет Heritage 810E идеальной парой для Heritage SVT-CL. В райдере эти два элемента часто читаются одной строкой."
+          ]
+        },
+        {
+          "label": "03 / МАССА",
+          "title": "Кабинет сам является логистическим объектом",
+          "paragraphs": [
+            "Heritage-версия весит около 62 кг. Доступ на сцену и транспорт должны подтверждаться вместе с наличием кабинета."
+          ]
+        }
+      ],
+      "quote": "Нужен именно 8×10 SVT-810E или допустим более компактный Ampeg cabinet?",
+      "sources": [
+        {
+          "title": "Ampeg: SVT-810E Classic",
+          "url": "https://ampeg.com/products/classic/cabs.html"
+        },
+        {
+          "title": "Ampeg: Heritage SVT-810E",
+          "url": "https://ampeg.com/products/heritage/svt810e/"
+        },
+        {
+          "title": "Backline Source: Ampeg 810 rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "aguilar-tone-hammer-700-v-arendu",
+      "parent": "basovye-usiliteli",
+      "search_title": "Aguilar Tone Hammer 700 в аренду",
+      "editorial_title": "Aguilar Tone Hammer 700: лёгкая современная басовая голова стала самостоятельным touring standard",
+      "description": "Aguilar Tone Hammer 700: 700W class-D head, sweepable mids, Drive/AGS and professional XLR connectivity.",
+      "kicker": "RIDER CORE · 700W · CLASS D",
+      "intro": [
+        "<p>Tone Hammer 700 показывает другую ветвь профессионального бэклайна: большая сцена больше не обязательно требует тяжёлой ламповой головы. Aguilar соединяет 700 ватт, лёгкий корпус и характерный Tone Hammer preamp.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / PREAMP",
+          "title": "Drive и sweepable mids делают голову музыкально узнаваемой",
+          "paragraphs": [
+            "Tone Hammer выбирают не только за мощность. AGS/Drive и параметрическая середина позволяют басисту быстро собрать характерный рабочий звук."
+          ]
+        },
+        {
+          "label": "02 / TOURING",
+          "title": "Universal mains и небольшой вес важны именно гастрольному сетапу",
+          "paragraphs": [
+            "Современная версия рассчитана на международное питание и сценическую мобильность. Это отдельная ценность относительно vintage high-power rigs."
+          ]
+        },
+        {
+          "label": "03 / CAB",
+          "title": "Голову нужно согласовать с конкретным Aguilar или другим cabinet",
+          "paragraphs": [
+            "Backline Source держит TH700 вместе с DB410, DB115 и другими кабинетами. Райдер должен определить окончательную систему."
+          ]
+        }
+      ],
+      "quote": "Tone Hammer нужен с каким кабинетом и использует ли артист Drive как часть основного звука?",
+      "sources": [
+        {
+          "title": "Aguilar: Tone Hammer 700",
+          "url": "https://aguilaramp.com/en-eu/products/tone-hammer-700-bass-amp"
+        },
+        {
+          "title": "Backline Source: Aguilar Tone Hammer и кабинеты",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "gallien-krueger-800rb-v-arendu",
+      "parent": "basovye-usiliteli",
+      "search_title": "Gallien-Krueger 800RB в аренду",
+      "editorial_title": "Gallien-Krueger 800RB: solid-state басовый характер, который породил целую линию наследников",
+      "description": "GK 800RB: influential solid-state bass head of the 1980s; legacy reference still present in rental fleets.",
+      "kicker": "LEGENDARY CORE · 800RB · GK",
+      "intro": [
+        "<p>Gallien-Krueger прямо связывает свою современную Legacy Series с 800RB: именно эта голова в 1980 году закрепила за GK характерный growl, clarity и подход к solid-state басовому усилению.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / НАСЛЕДИЕ",
+          "title": "800RB стал не заменой ламповой головы, а собственной школой басового звука",
+          "paragraphs": [
+            "Его смысл не сводится к мощности. Активный EQ, характер атаки и быстрый solid-state response сформировали самостоятельный исполнительский референс."
+          ]
+        },
+        {
+          "label": "02 / RENTAL",
+          "title": "800RB до сих пор присутствует в профессиональных rental-парках",
+          "paragraphs": [
+            "Backline Source держит GK 800RB вместе с 1001 и 2001. Значит, историческая модель продолжает работать как реальный заказ."
+          ]
+        },
+        {
+          "label": "03 / SUBSTITUTE",
+          "title": "Современный GK Legacy ближе по ДНК, но не является тем же экземпляром",
+          "paragraphs": [
+            "Если точный 800RB недоступен, современный GK может быть разумным substitute только после согласования задачи артиста."
+          ]
+        }
+      ],
+      "quote": "Нужен именно vintage/legacy 800RB или допустима современная GK-голова с близкой архитектурой?",
+      "sources": [
+        {
+          "title": "Gallien-Krueger: Legacy heads and 800RB history",
+          "url": "https://www.gallien-krueger.com/legacy-heads"
+        },
+        {
+          "title": "Backline Source: GK 800RB rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "markbass-little-mark-iii-v-arendu",
+      "parent": "basovye-usiliteli",
+      "search_title": "Markbass Little Mark III в аренду",
+      "editorial_title": "Markbass Little Mark III: лёгкая басовая голова как современный рабочий стандарт",
+      "description": "Markbass Little Mark III: compact professional bass head from the Little Mark lineage; rental-friendly lightweight rig.",
+      "kicker": "RIDER CORE · LITTLE MARK · PORTABLE",
+      "intro": [
+        "<p>Little Mark — противоположный полюс от большого SVT-rig: компактная голова, которую легко перевозить и быстро соединять с локальным кабинетом. Эта практичность сделала семейство заметным в современной гастрольной работе.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ФОРМАТ",
+          "title": "Малый корпус меняет логистику, а не отменяет профессиональную задачу",
+          "paragraphs": [
+            "Little Mark III сохраняется в официальной документации Markbass как самостоятельная модель. Для fly-date и маленькой сцены лёгкая голова может быть предпочтительнее тяжёлого classic rig."
+          ]
+        },
+        {
+          "label": "02 / CAB",
+          "title": "Результат зависит от локального кабинета",
+          "paragraphs": [
+            "Прокат должен согласовать 4×10, 1×15 или другую систему и проверить допустимую нагрузку. Название головы само по себе не описывает весь bass rig."
+          ]
+        },
+        {
+          "label": "03 / RENTAL",
+          "title": "Markbass регулярно присутствует в больших rental inventories",
+          "paragraphs": [
+            "Backline Source держит Little Mark и Markbass cabinets, что подтверждает его роль как реальной современной backline-позиции."
+          ]
+        }
+      ],
+      "quote": "Little Mark нужен как точная модель или главное — лёгкая профессиональная Markbass-система с согласованным cabinet?",
+      "sources": [
+        {
+          "title": "Markbass: Little Mark III manual and current product documentation",
+          "url": "https://markbass.it/manuals/"
+        },
+        {
+          "title": "Backline Source: Markbass rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ]
+    },
+    {
+      "slug": "fishman-loudbox-artist-v-arendu",
+      "parent": "akusticheskie-usiliteli",
+      "search_title": "Fishman Loudbox Artist в аренду",
+      "editorial_title": "Fishman Loudbox Artist: акустический combo как самостоятельное рабочее место музыканта",
+      "description": "Fishman Loudbox Artist: 120W bi-amped acoustic combo, two mic/instrument channels, feedback control and XLR DI.",
+      "kicker": "RIDER CORE · ACOUSTIC · 2 CHANNELS",
+      "intro": [
+        "<p>Fishman называет Loudbox Artist профессиональным стандартом чистого динамического усиления акустических инструментов на громкой сцене. Это не гитарный combo с «чистым каналом», а отдельная акустическая система.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДВА КАНАЛА",
+          "title": "Instrument и mic могут собираться в одном combo",
+          "paragraphs": [
+            "Два полноценных канала позволяют использовать Loudbox для singer-songwriter, дуэта или инструмента с дополнительным микрофоном. Phantom power и отдельные EQ расширяют эту роль."
+          ]
+        },
+        {
+          "label": "02 / FEEDBACK",
+          "title": "Phase и notch работают с реальной акустикой инструмента",
+          "paragraphs": [
+            "Для акустической гитары или другого резонирующего инструмента контроль обратной связи становится частью сценической настройки."
+          ]
+        },
+        {
+          "label": "03 / DI",
+          "title": "Три XLR выхода позволяют разделить локальный мониторинг и FOH",
+          "paragraphs": [
+            "Каждый канал и main mix могут передаваться балансно. Схему полезно согласовать заранее с площадкой."
+          ]
+        }
+      ],
+      "quote": "Loudbox нужен только как монитор инструмента или он должен также принимать вокальный микрофон и отдавать готовый mix?",
+      "sources": [
+        {
+          "title": "Fishman: Loudbox Artist",
+          "url": "https://fishman.com/dp/loudbox-artist-acoustic-amplifier/"
+        },
+        {
+          "title": "Backline Source: Fishman Loudbox Artist rental inventory",
+          "url": "https://www.backlinesource.com/guitarandbassamps"
+        }
+      ]
+    },
+    {
+      "slug": "leslie-122-v-arendu",
+      "parent": "rotornye-akusticheskie-sistemy",
+      "search_title": "Leslie 122 в аренду",
+      "editorial_title": "Leslie 122: вращающийся кабинет как самостоятельный легендарный инструмент",
+      "description": "Leslie 122 family: tube rotary cabinet, separate horn/bass rotors, Chorale/Tremolo and Hammond compatibility.",
+      "kicker": "LEGENDARY CORE · LESLIE 122 · ROTARY",
+      "intro": [
+        "<p>Leslie 122 давно существует как самостоятельное имя рядом с Hammond B3. Вращающийся high-frequency horn и bass rotor создают physical sound-in-motion, который нельзя полностью описать словом «эффект chorus».</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РОТОРЫ",
+          "title": "Верх и низ вращаются отдельными механическими системами",
+          "paragraphs": [
+            "Классическая Leslie использует horn rotor и bass rotor с режимами Chorale и Tremolo. Это реальное движение источника звука в помещении."
+          ]
+        },
+        {
+          "label": "02 / 122 / 147",
+          "title": "Похожие деревянные кабинеты имеют разную электрическую совместимость",
+          "paragraphs": [
+            "Hammond подчёркивает, что 122 и 147 различаются pin-конфигурацией и схемой. Правильный rental-комплект должен быть согласован с конкретным органом."
+          ]
+        },
+        {
+          "label": "03 / 122XB",
+          "title": "Современная версия добавляет 11-pin и line input",
+          "paragraphs": [
+            "122XB сохраняет классическую архитектуру, но позволяет подключать современные Hammond и другие line-level клавишные. В райдере точная версия имеет значение."
+          ]
+        }
+      ],
+      "quote": "Нужен винтажный 122, современный 122A/122XB или главное — настоящий двухроторный Leslie с подходящим интерфейсом?",
+      "sources": [
+        {
+          "title": "Hammond: Leslie 122A / 122XB / 147A",
+          "url": "https://hammondorganco.com/products/leslie-speakers/122-147-981-147a"
+        },
+        {
+          "title": "Backline Source: Hammond B3 and Leslie 122 rental",
+          "url": "https://www.backlinesource.com/hammond-b3-and-leslie-122"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "usiliteli-backline": [
+      {
+        "label": "Гитарные усилители",
+        "href": "/gitarnye-usiliteli/"
+      },
+      {
+        "label": "Басовые усилители",
+        "href": "/basovye-usiliteli/"
+      },
+      {
+        "label": "Гитарные кабинеты",
+        "href": "/gitarnye-kabinety/"
+      },
+      {
+        "label": "Басовые кабинеты",
+        "href": "/basovye-kabinety/"
+      },
+      {
+        "label": "Акустические усилители",
+        "href": "/akusticheskie-usiliteli/"
+      },
+      {
+        "label": "Leslie и rotary-системы",
+        "href": "/rotornye-akusticheskie-sistemy/"
+      }
+    ],
+    "gitarnye-usiliteli": [
+      {
+        "label": "Fender '65 Twin Reverb",
+        "href": "/fender-65-twin-reverb-v-arendu/"
+      },
+      {
+        "label": "Fender '65 Deluxe Reverb",
+        "href": "/fender-65-deluxe-reverb-v-arendu/"
+      },
+      {
+        "label": "Vox AC30C2",
+        "href": "/vox-ac30c2-v-arendu/"
+      },
+      {
+        "label": "Marshall JCM800 2203",
+        "href": "/marshall-jcm800-2203-v-arendu/"
+      },
+      {
+        "label": "Roland JC-120",
+        "href": "/roland-jc120-v-arendu/"
+      },
+      {
+        "label": "EVH 5150III 100S",
+        "href": "/evh-5150iii-100s-v-arendu/"
+      },
+      {
+        "label": "Orange Rockerverb 50 MKIII",
+        "href": "/orange-rockerverb-50-mkiii-v-arendu/"
+      },
+      {
+        "label": "Mesa Dual Rectifier",
+        "href": "/mesa-dual-rectifier-v-arendu/"
+      }
+    ],
+    "gitarnye-kabinety": [
+      {
+        "label": "Marshall 1960A 4×12",
+        "href": "/marshall-1960a-v-arendu/"
+      }
+    ],
+    "basovye-usiliteli": [
+      {
+        "label": "Ampeg SVT-CL",
+        "href": "/ampeg-svt-cl-v-arendu/"
+      },
+      {
+        "label": "Aguilar Tone Hammer 700",
+        "href": "/aguilar-tone-hammer-700-v-arendu/"
+      },
+      {
+        "label": "Gallien-Krueger 800RB",
+        "href": "/gallien-krueger-800rb-v-arendu/"
+      },
+      {
+        "label": "Markbass Little Mark III",
+        "href": "/markbass-little-mark-iii-v-arendu/"
+      }
+    ],
+    "basovye-kabinety": [
+      {
+        "label": "Ampeg SVT-810E",
+        "href": "/ampeg-svt-810e-v-arendu/"
+      }
+    ],
+    "akusticheskie-usiliteli": [
+      {
+        "label": "Fishman Loudbox Artist",
+        "href": "/fishman-loudbox-artist-v-arendu/"
+      }
+    ],
+    "rotornye-akusticheskie-sistemy": [
+      {
+        "label": "Leslie 122",
+        "href": "/leslie-122-v-arendu/"
+      }
+    ]
+  }
+}
