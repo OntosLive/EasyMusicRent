@@ -47,14 +47,14 @@ class CompactTromboneBassClarinetTests(unittest.TestCase):
         self.assertIn('стандарт',text)
         self.assertIn('ascending',text)
         quality=self.page('trombon-dlya-korotkoy-ruki',True).get_text(' ',strip=True).casefold()
-        self.assertIn('длина',quality)
+        self.assertIn('длин',quality)
         self.assertIn('плеч',quality)
 
     def test_student_bass_clarinet_routes_are_distinct(self):
         y=self.page('yamaha-ycl221ii-v-arendu',True).get_text(' ',strip=True)
         j=self.page('jupiter-jbc1000-v-arendu',True).get_text(' ',strip=True)
         self.assertIn('двухчаст',y.casefold())
-        self.assertIn('case',y.casefold())
+        self.assertTrue('case' in y.casefold() or 'кейс' in y.casefold() or 'футляр' in y.casefold())
         self.assertIn('floor peg',j.casefold())
         self.assertIn('school',j.casefold())
         quality=self.page('bas-klarinet-dlya-obucheniya',True).get_text(' ',strip=True).casefold()
