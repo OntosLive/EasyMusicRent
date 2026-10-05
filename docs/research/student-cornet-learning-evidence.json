@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1129,
+  "new_subjects": 3,
+  "sources": {
+    "yamaha_ru": {
+      "title": "Yamaha Россия: YCR-2330III",
+      "url": "https://ru.yamaha.com/ru/musical-instruments/brass-woodwinds/products/cornets/ycr-2330iii/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_local_education",
+      "scope": "Excellent introductory model; smooth/light response and adjustable third-valve trigger for different hand sizes. Manufacturer-localized evidence.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_uk": {
+      "title": "Yamaha UK: YCR-2330III Student Bb Cornet",
+      "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/cornets/ycr-2330iii/index.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Student Bb cornet, Shepherd’s Crook, light response, backpack-style case and adjustable third-valve trigger.",
+      "reviewed_on": "2026-10-05"
+    },
+    "besson": {
+      "title": "Besson: Prodige 120 Student Bb Cornet",
+      "url": "https://www.besson.com/en/instruments/cornets/prodige-be120/",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer_education",
+      "scope": "Student Bb cornet in classic British tradition, adjustable third-valve slide ring and student outfit.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "yamaha-ycr2330iii-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "yamaha_ru",
+        "yamaha_uk"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "besson-prodige120-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "besson"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "kornet-dlya-nebolshoy-ruki",
+      "role": "quality",
+      "source_ids": [
+        "yamaha_ru",
+        "besson"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Small-hand cornet is a functional ergonomic route independent of brand.",
+    "Yamaha and Besson are peer student examples, not a universal ranking.",
+    "Student cornet remains distinct from trumpet route despite family relation.",
+    "Public pages do not claim ONTOS.RENT stock."
+  ]
+}
