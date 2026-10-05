@@ -2,9 +2,11 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1105,
-  "new_subjects": 4,
+  "new_subjects": 2,
   "existing_subjects": [
-    "eastman-vl100-v-arendu"
+    "eastman-vl100-v-arendu",
+    "eastman-va100-v-arendu",
+    "eastman-vb80-v-arendu"
   ],
   "sources": {
     "vl100": {
@@ -54,11 +56,12 @@
     },
     {
       "slug": "eastman-va100-v-arendu",
-      "role": "model",
+      "role": "existing_model",
       "source_ids": [
         "va100"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "link_existing"
     },
     {
       "slug": "eastman-vc100-v-arendu",
@@ -70,11 +73,12 @@
     },
     {
       "slug": "eastman-vb80-v-arendu",
-      "role": "model",
+      "role": "existing_model",
       "source_ids": [
         "vb80"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "link_existing"
     },
     {
       "slug": "eastman-vl100-v-arendu",
