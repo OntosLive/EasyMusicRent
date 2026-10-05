@@ -927,7 +927,7 @@
     },
     {
       "slug": "yamaha-p225-v-arendu",
-      "parent": "cifrovoe-pianino-yamaha",
+      "parent": "cifrovoe-pianino",
       "role": "model",
       "sources": [
         "yamaha_p225"
