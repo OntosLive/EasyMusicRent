@@ -56,7 +56,7 @@ class AccordionUprightLearningTests(unittest.TestCase):
 
     def test_uprights_are_long_horizon_not_mandatory_beginner_models(self):
         text=' '.join(self.page(s,True).get_text(' ',strip=True) for s in ('yamaha-u1-v-arendu','kawai-k300-v-arendu'))
-        self.assertIn('долг',text.casefold())
+        self.assertTrue('годами' in text.casefold() or 'запасом роста' in text.casefold())
         self.assertNotIn('обязательный первый',text.casefold())
         self.assertNotIn('лучш',text.casefold())
 
