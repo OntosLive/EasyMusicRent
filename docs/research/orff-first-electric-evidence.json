@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1039,
-  "expected_new_subjects": 27,
+  "expected_new_subjects": 28,
   "sources": {
     "sonor_orff": {
       "title": "SONOR Orff World",
@@ -266,6 +266,22 @@
       "country_of_evidence": "FR",
       "kind": "manufacturer_education",
       "scope": "Student Bb euphonium, 3+1 configuration and transition-oriented design toward senior Besson ranges.",
+      "reviewed_on": "2026-10-05"
+    },
+    "jupiter_jts700": {
+      "title": "Jupiter: JTS700 Tenor Saxophone",
+      "url": "https://jupitermusic.com/international/product_detail.aspx?id=JTS700",
+      "country_of_evidence": "TW",
+      "kind": "manufacturer_education",
+      "scope": "Beginner tenor sax with advanced features and student-durability positioning.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_yts280_student": {
+      "title": "Yamaha: Complete Student Range — YAS/YTS-280",
+      "url": "https://europe.yamaha.com/files/download/brochure/1/325911/student_line.pdf",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "YTS-280 described as lightweight and ergonomically shaped for young beginners.",
       "reviewed_on": "2026-10-05"
     }
   },
@@ -549,6 +565,23 @@
         "tj10x",
         "gemeinhardt2spch"
       ]
+    },
+    {
+      "slug": "jupiter-jts700-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "jupiter_jts700",
+        "yamaha_yts280_student"
+      ]
+    },
+    {
+      "slug": "yamaha-yts280-v-arendu",
+      "role": "context",
+      "action": "enrich",
+      "source_ids": [
+        "yamaha_yts280_student"
+      ]
     }
   ],
   "distinctions": [
@@ -565,6 +598,7 @@
     "JHR700 and YHR-314II remain separate single-F student routes.",
     "Small-hand clarinet is a quality-led entrance independent of brand.",
     "Curved-headjoint flute is an ergonomic quality entrance independent of one brand.",
-    "Prodige 162 student 3+1 route is distinct from professional Prestige 2052."
+    "Prodige 162 student 3+1 route is distinct from professional Prestige 2052.",
+    "JTS700 and YTS-280 remain distinct student tenor routes rather than a ranked pair."
   ]
 }
