@@ -1,0 +1,251 @@
+{
+  "pages": [
+    {
+      "slug": "roland-tr808-v-arendu",
+      "parent": "dram-mashiny",
+      "search_title": "Roland TR-808 в аренду",
+      "editorial_title": "Roland TR‑808: драм-машина, которая перестроила саму идею бас-барабана",
+      "description": "Original Roland TR-808 Rhythm Composer: 1980–82 analog drum machine, TR-REC sequencing and foundational electronic-music reference.",
+      "kicker": "LEGENDARY CORE · TR-808 · RHYTHM COMPOSER",
+      "intro": [
+        "<p>TR‑808 — уже культурная единица. Roland называет её самой знаменитой драм-машиной и в 2026 году продолжает отмечать влияние 808 на hip-hop, techno, trap и другие жанры. Поэтому оригинальный hardware заслуживает собственного адреса отдельно от современных 808-эмуляций.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / АНАЛОГ",
+          "title": "Звуки 808 родились из аналогового синтеза, а не семплов",
+          "paragraphs": [
+            "Оригинальная машина строила барабанные голоса электронными схемами. Именно возможность менять decay бас-барабана и другие параметры создала физически узнаваемый 808-язык."
+          ]
+        },
+        {
+          "label": "02 / TR-REC",
+          "title": "Шестнадцать шагов стали отдельным способом мыслить ритм",
+          "paragraphs": [
+            "TR‑808 впервые ввела фирменный Roland TR‑REC workflow, который жив до сих пор. Если артист просит hardware 808, tactile sequencing может быть частью задачи наряду со звуком."
+          ]
+        },
+        {
+          "label": "03 / ORIGINAL / EMULATION",
+          "title": "Оригинал, Roland software и современные TR-машины — разные формы доступа",
+          "paragraphs": [
+            "Для продакшена может подойти официальная ACB-эмуляция; для сцены или исторической сессии может требоваться реальный vintage unit. Substitute определяется до аренды."
+          ]
+        }
+      ],
+      "quote": "Нужен оригинальный TR‑808 hardware, современная Roland recreation или конкретно его звуковой язык?",
+      "sources": [
+        {
+          "title": "Roland: The TR‑808 Story",
+          "url": "https://www.roland.com/us/promos/roland_tr-808/?lang=en-US"
+        },
+        {
+          "title": "Roland: TR‑808 Software Rhythm Composer",
+          "url": "https://www.roland.com/global/products/rc_tr-808/"
+        }
+      ]
+    },
+    {
+      "slug": "roland-tr909-v-arendu",
+      "parent": "dram-mashiny",
+      "search_title": "Roland TR-909 в аренду",
+      "editorial_title": "Roland TR‑909: машина, на которой house и techno получили собственный пульс",
+      "description": "Original Roland TR-909 Rhythm Composer: 1983 drum machine central to house and techno performance culture.",
+      "kicker": "LEGENDARY CORE · TR-909 · HOUSE / TECHNO",
+      "intro": [
+        "<p>Roland пишет, что в house и techno TR‑909, вероятно, приводила в движение больше треков и живых выступлений, чем любая другая драм-машина. Это делает её не ретро-объектом, а отдельным музыкальным протоколом ритма.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 909 LANGUAGE",
+          "title": "Kick, hats и sequencing образуют узнаваемую клубную грамматику",
+          "paragraphs": [
+            "Запрос на 909 часто связан не с одной бочкой, а с характером всей машины и тем, как pattern собирается руками."
+          ]
+        },
+        {
+          "label": "02 / HARDWARE",
+          "title": "Оригинальная 1983 машина имеет собственный исполнительский статус",
+          "paragraphs": [
+            "Современные Roland-модели и software способны воспроизводить 909-звук, но tactile workflow и поведение vintage unit являются отдельным требованием."
+          ]
+        },
+        {
+          "label": "03 / LIVE",
+          "title": "TR‑909 существует не только в студии, но и в живой электронной сцене",
+          "paragraphs": [
+            "Именно поэтому перед выдачей нужно знать способ синхронизации, MIDI/DIN-среду и роль машины: master clock, pattern source или отдельный percussion voice."
+          ]
+        }
+      ],
+      "quote": "Нужен оригинальный 909 hardware или артисту важнее 909 workflow и звук в современной синхронизируемой форме?",
+      "sources": [
+        {
+          "title": "Roland: The TR‑909 Story",
+          "url": "https://www.roland.com/uk/promos/roland_tr-909/?lang=en-GB"
+        }
+      ]
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "parent": "mandolina",
+      "search_title": "Мандолина Gibson F-5 Master Model в аренду",
+      "editorial_title": "Gibson F‑5: мандолина, которую сам Gibson называет «Strad of Mandolins»",
+      "description": "Gibson F-5 Master Model lineage: Lloyd Loar design, f-holes and bluegrass-defining construction; vintage original vs 1923 reissue distinguished.",
+      "kicker": "LEGENDARY CORE · F-5 · MANDOLIN",
+      "intro": [
+        "<p>Gibson называет F‑5 самой легендарной моделью мандолины всех времён и связывает её конструкцию с формированием bluegrass sound. Это редкий случай в акустической щипковой категории, где модель действительно стала отдельным историческим стандартом.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 1923",
+          "title": "Lloyd Loar F‑5 изменила конструкцию мандолины",
+          "paragraphs": [
+            "F-holes, более длинный гриф, новое положение bridge и переработанная bracing-система отличили F‑5 от ранних мандолин и задали архитектуру современного bluegrass-инструмента."
+          ]
+        },
+        {
+          "label": "02 / ORIGINAL / REISSUE",
+          "title": "Винтажный Loar-signed F‑5 и современная 1923 Reissue — совершенно разные статусы",
+          "paragraphs": [
+            "Gibson выпускает Custom Shop reissue по 3D-сканам и архивным данным. Для аренды нужно прямо указать, ищется ли исторический экземпляр, reissue или просто F-style профессиональная мандолина."
+          ]
+        },
+        {
+          "label": "03 / ДОСТУП",
+          "title": "Legendary Core не означает обещание постоянного наличия",
+          "paragraphs": [
+            "Редкий оригинал может требовать внешнего владельца или коллекции. Адрес существует потому, что модель сама является музыкальным запросом."
+          ]
+        }
+      ],
+      "quote": "Нужна именно Gibson F‑5 / 1923 Reissue или профессиональная F-style mandolin с тем же исполнительским назначением?",
+      "sources": [
+        {
+          "title": "Gibson: F‑5 Mandolins and 1923 Master Model Reissue",
+          "url": "https://www.gibson.com/pages/gibson-mandolins"
+        }
+      ]
+    },
+    {
+      "slug": "deering-sierra-v-arendu",
+      "parent": "bandzho",
+      "search_title": "Банджо Deering Sierra в аренду",
+      "editorial_title": "Deering Sierra: профессиональное пятиструнное банджо, которое тридцать лет остаётся основной моделью линии",
+      "description": "Deering Sierra 5-string resonator banjo: long-running popular professional-grade flagship model with -06 tone ring.",
+      "kicker": "PRO CORE · DEERING SIERRA · 5-STRING",
+      "intro": [
+        "<p>Deering называет Sierra своей самой популярной professional-grade моделью более тридцати лет и flagship всей линии. Это сильный пример современной щипковой модели, чьё имя уже несёт профессиональную информацию без превращения страницы в каталог магазина.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 5-STRING",
+          "title": "Резонаторная Sierra — конкретный bluegrass-oriented профессиональный формат",
+          "paragraphs": [
+            "Модель использует 11-inch rim, Deering -06 bronze tone ring и стандартную пятиструнную настройку. Для clawhammer/openback задачи существует отдельная Sierra Openback, и их нельзя смешивать."
+          ]
+        },
+        {
+          "label": "02 / ДЕРЕВО",
+          "title": "Mahogany и maple версии требуют уточнения",
+          "paragraphs": [
+            "Производитель предлагает несколько wood configurations. Если артист привык к конкретной, это фиксируется вместе с моделью."
+          ]
+        },
+        {
+          "label": "03 / ПАРТИЯ",
+          "title": "Профессиональная модель не отменяет проверки строя и spikes",
+          "paragraphs": [
+            "Каподастр, fifth-string spikes, строй и комплект должны совпадать с программой. Точный экземпляр подтверждается отдельно."
+          ]
+        }
+      ],
+      "quote": "Нужна resonator Sierra для bluegrass-партии или openback-версия для другой техники?",
+      "sources": [
+        {
+          "title": "Deering: Sierra 5-string Banjo",
+          "url": "https://www.deeringbanjos.com/products/deering-sierra-5-string-banjo"
+        },
+        {
+          "title": "Deering: Sierra Openback",
+          "url": "https://www.deeringbanjos.com/collections/flagship-series/products/sierra-openback-5-string-banjo"
+        }
+      ]
+    },
+    {
+      "slug": "moog-etherwave-v-arendu",
+      "parent": "termenvoks",
+      "search_title": "Терменвокс Moog Etherwave в аренду",
+      "editorial_title": "Moog Etherwave: современная форма линии терменвоксов, которую Bob Moog развивал всю жизнь",
+      "description": "Moog Etherwave Theremin: analog performance theremin with pitch/volume antennas, adjustable response, CV/Gate and mic-stand mounting.",
+      "kicker": "LEGENDARY LINEAGE · ETHERWAVE · THEREMIN",
+      "intro": [
+        "<p>Etherwave — не просто брендовая версия терменвокса. Bob Moog начал строить терменвоксы подростком, а оригинальный Etherwave появился в 1996 году; современная версия продолжает эту линию как полноценный аналоговый performance instrument.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДВЕ АНТЕННЫ",
+          "title": "Pitch и volume управляются двумя независимыми пространственными жестами",
+          "paragraphs": [
+            "Исполнитель настраивает диапазон реакции антенн под своё тело и помещение. Поэтому Etherwave нельзя просто поставить в углу сцены как клавиатуру: окружение является частью настройки."
+          ]
+        },
+        {
+          "label": "02 / PERFORMANCE",
+          "title": "Mic-stand mount, mute и headphone cue делают современную версию сценическим инструментом",
+          "paragraphs": [
+            "Перед выступлением нужно согласовать стойку, высоту, свободное пространство вокруг антенн и отсутствие мешающих кабелей или металлических объектов."
+          ]
+        },
+        {
+          "label": "03 / CV",
+          "title": "Современный Etherwave может управлять модульной системой",
+          "paragraphs": [
+            "Pitch CV, Volume CV и Gate расширяют модель за пределы классического сольного терменвокса. Если это используется в проекте, коммутация становится частью rental-комплекта."
+          ]
+        }
+      ],
+      "quote": "Etherwave нужен как самостоятельный терменвокс или как жестовый CV-контроллер части модульной системы?",
+      "sources": [
+        {
+          "title": "Moog: Etherwave Theremin manual",
+          "url": "https://api.moogmusic.com/sites/default/files/2022-04/Etherwave-Theremin_Manual_2022.pdf"
+        },
+        {
+          "title": "Bob Moog Foundation: Etherwave introduced in 1996",
+          "url": "https://moogfoundation.org/bob-moog-timeline/"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "dram-mashiny": [
+      {
+        "label": "Roland TR‑808",
+        "href": "/roland-tr808-v-arendu/"
+      },
+      {
+        "label": "Roland TR‑909",
+        "href": "/roland-tr909-v-arendu/"
+      }
+    ],
+    "mandolina": [
+      {
+        "label": "Gibson F‑5 Master Model",
+        "href": "/gibson-f5-master-model-v-arendu/"
+      }
+    ],
+    "bandzho": [
+      {
+        "label": "Deering Sierra",
+        "href": "/deering-sierra-v-arendu/"
+      }
+    ],
+    "termenvoks": [
+      {
+        "label": "Moog Etherwave",
+        "href": "/moog-etherwave-v-arendu/"
+      }
+    ]
+  }
+}
