@@ -37,7 +37,7 @@ class GewaEducationTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1129)
+        self.assertEqual(result['subjects'],1132)
         self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
         enrich=[p for p in self.doc['pages'] if p.get('mode')=='enrich']
         self.assertEqual([p['slug'] for p in enrich],['gewa-ideale-skripka-v-arendu'])
