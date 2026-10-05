@@ -263,6 +263,51 @@
       ]
     },
     {
+      "slug": "yamaha-bb234-v-arendu",
+      "parent": "bas-gitara",
+      "search_title": "Yamaha BB234 в аренду",
+      "editorial_title": "Yamaha BB234: первый серьёзный BB без лишней электроники",
+      "description": "Yamaha BB234: introductory BB-series 4-string bass with alder body, passive pickups and beginner-oriented playability.",
+      "kicker": "BB234 · PASSIVE · FIRST SERIOUS BASS",
+      "intro": [
+        "<p>BB234 Yamaha называет вводной моделью своей самой рабочей басовой серии и отдельно рекомендует начинающим рядом с TRBX174. Эти две модели полезно не ранжировать, а сравнить: TRBX ведёт к современной эргономике, BB234 — к более классической геометрии и ощущению баса.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КОРПУС",
+          "title": "Ольховый корпус и классическая BB-форма задают другой баланс",
+          "paragraphs": [
+            "Ученик должен сыграть стоя и сидя, проверяя положение правой руки и общий баланс на ремне. Даже при одинаковой мензуре две формы корпуса могут по-разному располагать первый лад относительно тела."
+          ]
+        },
+        {
+          "label": "02 / P/J",
+          "title": "Пассивная схема оставляет управление простым",
+          "paragraphs": [
+            "Два ceramic pickups, две громкости и общий tone позволяют понять базовые басовые тембры без батареи и активного предусилителя. Для первых ансамблевых занятий это помогает слышать влияние рук, положения звукоснимателей и усилителя отдельно."
+          ]
+        },
+        {
+          "label": "03 / ПЕРЕХОД",
+          "title": "BB234 может быть не временной игрушкой, а первым рабочим басом",
+          "paragraphs": [
+            "Yamaha описывает 200 Series как путь к первым серьёзным репетициям и сцене. Для аренды это означает полезную проверку: хватает ли ученику этой механики и звука на несколько месяцев реальной группы, прежде чем решать вопрос покупки или перехода выше."
+          ]
+        }
+      ],
+      "quote": "Что лучше подходит ученику после сравнения: современная эргономика TRBX174 или классическая BB234?",
+      "sources": [
+        {
+          "title": "Yamaha: BB200 Series and BB234",
+          "url": "https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_basses/bb_2017/200_series.html"
+        },
+        {
+          "title": "Yamaha: starter bass guide — TRBX174 and BB234",
+          "url": "https://www.yamaha.com/US/houseofworship/downloadables/How-to-Choose-Guides/How-to-Choose-a-Bass-Guitar.pdf"
+        }
+      ]
+    },
+    {
       "slug": "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey",
       "parent": "bas-gitara",
       "search_title": "Бас-гитара без дребезга и с точной интонацией в аренду",
@@ -360,6 +405,10 @@
         "href": "/yamaha-trbx174-v-arendu/"
       },
       {
+        "label": "Yamaha BB234",
+        "href": "/yamaha-bb234-v-arendu/"
+      },
+      {
         "label": "Без дребезга и с точной интонацией",
         "href": "/bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey/"
       }
@@ -376,6 +425,10 @@
       {
         "label": "Yamaha TRBX174",
         "href": "/yamaha-trbx174-v-arendu/"
+      },
+      {
+        "label": "Yamaha BB234",
+        "href": "/yamaha-bb234-v-arendu/"
       }
     ],
     "instrument-po-trebovaniyam-k-kachestvu": [
