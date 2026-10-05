@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1107,
+  "new_subjects": 4,
+  "enriched_subjects": [
+    "akusticheskaya-gitara-po-razmeru-uchenika"
+  ],
+  "sources": {
+    "yep201": {
+      "title": "Yamaha: YEP-201 Student Euphonium",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/euphoniums/yep-201/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "YEP-201 is explicitly positioned as a lighter student euphonium for younger players with easy response. Manufacturer claim, not universal teacher recommendation.",
+      "reviewed_on": "2026-10-05"
+    },
+    "besson162": {
+      "title": "Besson: Prodige 162 Student Euphonium",
+      "url": "https://www.besson.com/de/instruments/euphoniums-de/prodige-be162/",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer_education",
+      "scope": "Student euphonium with 3+1 layout; used only as an alternative learning route in the quality-led comparison.",
+      "reviewed_on": "2026-10-05"
+    },
+    "fender_cd60s": {
+      "title": "Fender: CD-60S / beginner acoustic context",
+      "url": "https://spotlight.fender.com/newsroom/news/557",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Fender describes CD-60S as a beginner/aspiring-player dreadnought. This does not make dreadnought the correct body size for every beginner.",
+      "reviewed_on": "2026-10-05"
+    },
+    "fender_cc60s": {
+      "title": "Fender: CC-60S Concert",
+      "url": "https://www.fender.com/products/cc-60s-concert",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Compact concert body explicitly described as ideal for beginning players; body-size suitability still requires fitting.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "yamaha-yep201-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "yep201"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "legkiy-evfonium-rebenku",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "yep201",
+        "besson162"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "fender-cd60s-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "fender_cd60s"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "fender-cc60s-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "fender_cc60s"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "role": "context",
+      "action": "enrich",
+      "source_ids": [
+        "fender_cd60s",
+        "fender_cc60s"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Low weight and 3+1 valve training are separate euphonium learning goals.",
+    "Dreadnought and concert-body are peer body-shape routes, not quality ranks.",
+    "Body size and scale length remain independent acoustic-guitar fitting coordinates.",
+    "Public pages do not assert ONTOS.RENT stock."
+  ]
+}
