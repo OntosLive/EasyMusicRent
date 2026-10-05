@@ -19,6 +19,9 @@ BATCHES = (
     'zz40-learning-models-and-levels.json',
     'zz41-quality-request-entrances.json',
     'zz42-education-quality-navigation.json',
+    'zz43-golden-learning-standards-2.json',
+    'zz44-golden-learning-standards-3.json',
+    'zz45-quality-entrances-2.json',
 )
 HUBS = ('instrument-po-rekomendatsii-prepodavatelya',
         'instrument-po-trebovaniyam-k-kachestvu')
@@ -46,7 +49,7 @@ class EducationQualityTests(unittest.TestCase):
         result = inventory.inspect(ROOT)
         self.assertEqual(result['errors'], [])
         slugs = [p['slug'] for p in self.records]
-        self.assertEqual(len(slugs), 45)
+        self.assertEqual(len(slugs), 77)
         self.assertEqual(len(set(slugs)), len(slugs))
         for slug in slugs:
             self.assertEqual(sum(p['slug'] == slug for p in result['pages']), 1, slug)
@@ -117,7 +120,7 @@ class EducationQualityTests(unittest.TestCase):
                     normalized = re.sub(r'\s+', ' ', core.text(core.soup(paragraph))).casefold()
                     self.assertNotIn(normalized, seen, record['slug'])
                     seen.add(normalized)
-        self.assertEqual(sum(p['role'] == 'quality' for p in self.coverage['records']), 15)
+        self.assertEqual(sum(p['role'] == 'quality' for p in self.coverage['records']), 25)
 
     def test_old_cello_brand_pages_and_bass_quality_routes_survive(self):
         for slug in ('violonchel-strunal','violonchel-stentor','violonchel-eastman',
