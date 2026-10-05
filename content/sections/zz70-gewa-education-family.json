@@ -1,0 +1,269 @@
+{
+  "pages": [
+    {
+      "slug": "smychkovye-gewa",
+      "parent": "smychkovye",
+      "search_title": "Смычковые GEWA в аренду",
+      "editorial_title": "GEWA: европейская серийная лестница от Allegro к Maestro",
+      "description": "GEWA German Engineered: Allegro, Ideale и Maestro как серийные уровни для скрипки, альта и виолончели в дробных и полных размерах.",
+      "kicker": "GEWA · ALLEGRO · IDEALE · MAESTRO",
+      "intro": [
+        "<p>GEWA полезна для образовательного фонда тем, что её каталог организован не одной моделью, а длинной серийной лестницей: Allegro, Ideale, Maestro и более высокие линии. Одновременно производитель поддерживает дробные размеры от 1/16 и отдельные фильтры Student, Advanced и Professional. Это не европейский норматив, а удобная карта внутри одного крупного изготовителя.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЛЕСТНИЦА",
+          "title": "Allegro, Ideale и Maestro лучше читать как ступени, а не как ценник",
+          "paragraphs": [
+            "Для фонда важно не объявить одну серию «правильной», а понять, какое качество уже использует ученик. Пока Allegro позволяет работать над текущей программой, переход выше не нужен. Когда появляется конкретное ограничение отклика или динамики, можно сравнивать Ideale и Maestro."
+          ]
+        },
+        {
+          "label": "02 / РАЗМЕР",
+          "title": "Дробные размеры продолжаются внутри нескольких серий",
+          "paragraphs": [
+            "У скрипки Allegro доступны 1/16–4/4, Ideale — несколько дробных размеров, Maestro также имеет детские варианты. Это позволяет менять класс инструмента и размер независимо друг от друга."
+          ]
+        },
+        {
+          "label": "03 / ГОТОВНОСТЬ",
+          "title": "В каталоге GEWA отдельно различается ready-to-play статус",
+          "paragraphs": [
+            "Это сильное напоминание для аренды: бренд и серия не гарантируют, что конкретный экземпляр уже отрегулирован. Подставка, колки, высота струн и смычок проверяются перед каждым новым циклом."
+          ]
+        }
+      ],
+      "quote": "Ученику сейчас нужен другой размер, другой класс отклика или просто хорошо подготовленный экземпляр текущего уровня?",
+      "sources": [
+        {
+          "title": "GEWA: Strings product catalog with Student / Advanced / Professional filters",
+          "url": "https://www.gewamusic.com/en/products?categoryEntityId=21133"
+        },
+        {
+          "title": "GEWA: German Engineered bowed-instrument series",
+          "url": "https://www.gewamusic.com/en/products?categoryEntityId=20635"
+        }
+      ]
+    },
+    {
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "parent": "skripka",
+      "search_title": "Скрипка GEWA Allegro в аренду",
+      "editorial_title": "GEWA Allegro: дробная скрипичная линия от 1/16 до 4/4",
+      "description": "GEWA Allegro violin: German Engineered serial violin line in sizes 1/16–4/4, including left-hand variant.",
+      "kicker": "GEWA ALLEGRO · 1/16–4/4 · VIOLIN",
+      "intro": [
+        "<p>Allegro особенно полезна как размерная линия: GEWA выпускает её от 1/16 до 4/4, причём отдельно существует и леворукая версия 4/4. Для ученика это означает возможность искать удобный масштаб внутри одной знакомой серийной логики.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "1/16–4/4 дают настоящий маршрут роста",
+          "paragraphs": [
+            "Ребёнок может менять размер тогда, когда этого требует тело, не меняя одновременно всю модельную философию. На каждой ступени всё равно проверяют длину руки и полный ход смычка."
+          ]
+        },
+        {
+          "label": "02 / ЭКЗЕМПЛЯР",
+          "title": "Одинаковое имя серии не отменяет проверки конкретной скрипки",
+          "paragraphs": [
+            "Строй по ладам, подставка, колки и высота струн должны быть рабочими до урока. В каталоге GEWA есть отдельный ready-to-play признак, и фонд должен относиться к этому как к обязательной проверке экземпляра."
+          ]
+        },
+        {
+          "label": "03 / ПЕРЕХОД",
+          "title": "Следующая серия нужна по музыкальной причине",
+          "paragraphs": [
+            "Если Allegro уже ограничивает тонкую динамику или верхний регистр, можно сравнивать Ideale или Maestro. Если проблема только в размере или настройке, сначала решают её."
+          ]
+        }
+      ],
+      "quote": "Какой размер Allegro сейчас даёт свободную руку и полный смычковый ход?",
+      "sources": [
+        {
+          "title": "GEWA: Allegro violin sizes 1/16–4/4",
+          "url": "https://www.gewamusic.com/en/products?categoryEntityId=21133"
+        }
+      ]
+    },
+    {
+      "slug": "gewa-ideale-skripka-v-arendu",
+      "parent": "skripka",
+      "search_title": "Скрипка GEWA Ideale в аренду",
+      "editorial_title": "GEWA Ideale: следующий серийный уровень без обязательного перехода на полный размер",
+      "description": "GEWA Ideale violin: lightly flamed serial line available in 1/4, 1/2, 3/4 and 4/4.",
+      "kicker": "GEWA IDEALE · 1/4–4/4 · STEP-UP",
+      "intro": [
+        "<p>Ideale существует внутри той же GEWA-экосистемы, но доступна в 1/4, 1/2, 3/4 и 4/4. Это важно для продвинутого ребёнка: более высокий серийный уровень можно пробовать, оставаясь в правильном дробном размере.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / STEP-UP",
+          "title": "Переход проверяют на реальной программе, а не по названию серии",
+          "paragraphs": [
+            "Полезно сравнить текущую скрипку и Ideale на pianissimo, длинной фразе и быстром штрихе. Если новая серия даёт музыкально используемую разницу, переход обоснован."
+          ]
+        },
+        {
+          "label": "02 / РАЗМЕР",
+          "title": "1/4–4/4 разводят качество и рост ученика",
+          "paragraphs": [
+            "Ребёнок может получить более отзывчивый инструмент до полного 4/4. Это сохраняет правильную посадку и не превращает размер в награду за уровень."
+          ]
+        },
+        {
+          "label": "03 / СЕРВИС",
+          "title": "Step-up без хорошей настройки теряет смысл",
+          "paragraphs": [
+            "Даже более высокая серия должна быть подготовлена: подставка, струны, колки и смычок. Сравнивать плохо настроенную Ideale с хорошо подготовленной Allegro бессмысленно."
+          ]
+        }
+      ],
+      "quote": "Какое конкретное качество текущей скрипки должна улучшить Ideale?",
+      "sources": [
+        {
+          "title": "GEWA: Ideale violin variants 1/4–4/4",
+          "url": "https://www.gewamusic.com/en/products?categoryEntityId=21133"
+        }
+      ]
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "parent": "skripka",
+      "search_title": "Скрипка GEWA Maestro 1 в аренду",
+      "editorial_title": "GEWA Maestro 1: серийный advanced-шаг, который тоже существует в дробных размерах",
+      "description": "GEWA Maestro 1 violin: serial advanced line in 1/4, 1/2, 3/4 and 4/4 within GEWA German Engineered range.",
+      "kicker": "GEWA MAESTRO 1 · ADVANCED · FRACTIONAL",
+      "intro": [
+        "<p>Maestro 1 полезна как следующая ступень после Allegro/Ideale, но особенно важен сам факт дробных размеров: 1/4, 1/2, 3/4 и 4/4. Более серьёзный инструмент снова не привязан к взрослому корпусу.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ADVANCED",
+          "title": "Название Maestro имеет смысл только если ученик уже использует дополнительный отклик",
+          "paragraphs": [
+            "На конкурсной или поступательной программе сравнивают оттенки, верхний регистр и скорость реакции. Если разница не превращается в музыкальную свободу, higher-tier серия пока не нужна."
+          ]
+        },
+        {
+          "label": "02 / ДРОБНЫЙ РАЗМЕР",
+          "title": "Продвинутый ребёнок может оставаться на 1/2 или 3/4",
+          "paragraphs": [
+            "Это снимает ложный выбор между неудобным 4/4 и слишком простым детским инструментом. Размер определяется телом, уровень — программой."
+          ]
+        },
+        {
+          "label": "03 / СРАВНЕНИЕ",
+          "title": "Maestro стоит сравнивать не только внутри GEWA",
+          "paragraphs": [
+            "На этом этапе уже разумно пробовать Eastman, Arcata, Goronok, Strunal и другие линии соответствующего класса. Бренд становится кандидатом, а не готовым ответом."
+          ]
+        }
+      ],
+      "quote": "Ученик уже способен использовать advanced-инструмент в своём текущем размере?",
+      "sources": [
+        {
+          "title": "GEWA: Maestro 1 violin variants",
+          "url": "https://www.gewamusic.com/en/products?categoryEntityId=21133"
+        }
+      ]
+    },
+    {
+      "slug": "gewa-allegro-violonchel-v-arendu",
+      "parent": "violonchel",
+      "search_title": "Виолончель GEWA Allegro в аренду",
+      "editorial_title": "GEWA Allegro Cello: размерная лестница от 1/16 до 7/8",
+      "description": "GEWA Allegro cello: serial cello line in sizes 1/16, 1/8, 1/4, 1/2, 3/4, 4/4 and 7/8.",
+      "kicker": "GEWA ALLEGRO · CELLO · 1/16–7/8",
+      "intro": [
+        "<p>У виолончельной Allegro особенно сильна размерная сетка: GEWA публикует варианты от 1/16 до 7/8. Это позволяет точнее подбирать корпус ребёнку и взрослому с небольшой рукой, не сводя весь мир к 3/4 и 4/4.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 7/8",
+          "title": "Между 3/4 и 4/4 существует полноценный рабочий размер",
+          "paragraphs": [
+            "7/8 может быть удобен подростку или взрослому, которому большой 4/4 мешает первой позиции. На пробе сравнивают ту же пьесу и положение корпуса."
+          ]
+        },
+        {
+          "label": "02 / МАЛЫЕ РАЗМЕРЫ",
+          "title": "1/16 и 1/8 дают ранний вход без растяжки",
+          "paragraphs": [
+            "Для маленького ребёнка важнее доступ к первой позиции и устойчивый корпус, чем идея «взять побольше на вырост». Размер должен обслуживать сегодняшнюю технику."
+          ]
+        },
+        {
+          "label": "03 / СЕРВИС",
+          "title": "Размерная точность имеет смысл только при правильном шпиле и подставке",
+          "paragraphs": [
+            "На выдаче регулируют высоту шпиля, проверяют подставку и струны. Неправильная настройка легко создаёт ложное ощущение, что выбран не тот размер."
+          ]
+        }
+      ],
+      "quote": "Какой размер Allegro позволяет спокойно держать первую позицию и полный ход смычка?",
+      "sources": [
+        {
+          "title": "GEWA: Allegro cello sizes 1/16–7/8",
+          "url": "https://www.gewamusic.com/en/products?categoryEntityId=5070"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "smychkovye": [
+      {
+        "label": "GEWA",
+        "href": "/smychkovye-gewa/"
+      }
+    ],
+    "smychkovye-gewa": [
+      {
+        "label": "Allegro — скрипка",
+        "href": "/gewa-allegro-skripka-v-arendu/"
+      },
+      {
+        "label": "Ideale — скрипка",
+        "href": "/gewa-ideale-skripka-v-arendu/"
+      },
+      {
+        "label": "Maestro 1 — скрипка",
+        "href": "/gewa-maestro1-skripka-v-arendu/"
+      },
+      {
+        "label": "Allegro — виолончель",
+        "href": "/gewa-allegro-violonchel-v-arendu/"
+      }
+    ],
+    "skripka": [
+      {
+        "label": "GEWA Allegro",
+        "href": "/gewa-allegro-skripka-v-arendu/"
+      },
+      {
+        "label": "GEWA Ideale",
+        "href": "/gewa-ideale-skripka-v-arendu/"
+      },
+      {
+        "label": "GEWA Maestro 1",
+        "href": "/gewa-maestro1-skripka-v-arendu/"
+      }
+    ],
+    "violonchel": [
+      {
+        "label": "GEWA Allegro",
+        "href": "/gewa-allegro-violonchel-v-arendu/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "GEWA Allegro",
+        "href": "/gewa-allegro-skripka-v-arendu/"
+      },
+      {
+        "label": "GEWA Ideale",
+        "href": "/gewa-ideale-skripka-v-arendu/"
+      }
+    ]
+  }
+}
