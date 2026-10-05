@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1039,
-  "expected_new_subjects": 24,
+  "expected_new_subjects": 27,
   "sources": {
     "sonor_orff": {
       "title": "SONOR Orff World",
@@ -250,6 +250,22 @@
       "country_of_evidence": "JP",
       "kind": "manufacturer_education",
       "scope": "YAS-280 is described by Yamaha as an ideal beginner saxophone; manufacturer educational content.",
+      "reviewed_on": "2026-10-05"
+    },
+    "tj10x": {
+      "title": "Trevor James: TJ 10x first flute",
+      "url": "https://tjflutes.com/products/cflutes/firstflute/tj10x",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_education",
+      "scope": "Long-running first flute; teacher/student recommendation language belongs to manufacturer. Curved-headjoint option for smaller players.",
+      "reviewed_on": "2026-10-05"
+    },
+    "besson162": {
+      "title": "Besson: Prodige 162 student euphonium",
+      "url": "https://www.besson.com/de/instruments/euphoniums-de/prodige-be162/",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer_education",
+      "scope": "Student Bb euphonium, 3+1 configuration and transition-oriented design toward senior Besson ranges.",
       "reviewed_on": "2026-10-05"
     }
   },
@@ -508,6 +524,31 @@
       "source_ids": [
         "clarinet_teacher_au"
       ]
+    },
+    {
+      "slug": "trevor-james-10x-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "tj10x"
+      ]
+    },
+    {
+      "slug": "besson-prodige-162-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "besson162"
+      ]
+    },
+    {
+      "slug": "fleyta-s-izognutoy-golovkoy",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "tj10x",
+        "gemeinhardt2spch"
+      ]
     }
   ],
   "distinctions": [
@@ -522,6 +563,8 @@
     "Практический усилитель для дома отделён от профессионального райдерного backline.",
     "Backun Alpha, Jupiter JCL700 and Yamaha YCL-255 can share one teacher shortlist without becoming equivalent models.",
     "JHR700 and YHR-314II remain separate single-F student routes.",
-    "Small-hand clarinet is a quality-led entrance independent of brand."
+    "Small-hand clarinet is a quality-led entrance independent of brand.",
+    "Curved-headjoint flute is an ergonomic quality entrance independent of one brand.",
+    "Prodige 162 student 3+1 route is distinct from professional Prestige 2052."
   ]
 }
