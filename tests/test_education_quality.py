@@ -22,6 +22,7 @@ BATCHES = (
     'zz43-golden-learning-standards-2.json',
     'zz44-golden-learning-standards-3.json',
     'zz45-quality-entrances-2.json',
+    'zz46-international-student-wind-standards.json',
 )
 HUBS = ('instrument-po-rekomendatsii-prepodavatelya',
         'instrument-po-trebovaniyam-k-kachestvu')
@@ -49,7 +50,7 @@ class EducationQualityTests(unittest.TestCase):
         result = inventory.inspect(ROOT)
         self.assertEqual(result['errors'], [])
         slugs = [p['slug'] for p in self.records]
-        self.assertEqual(len(slugs), 77)
+        self.assertEqual(len(slugs), 86)
         self.assertEqual(len(set(slugs)), len(slugs))
         for slug in slugs:
             self.assertEqual(sum(p['slug'] == slug for p in result['pages']), 1, slug)
