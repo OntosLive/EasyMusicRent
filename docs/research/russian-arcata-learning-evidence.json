@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1067,
+  "new_subjects": 3,
+  "sources": {
+    "arcata": {
+      "title": "Скрипичная мануфактура ARCATA",
+      "url": "https://arcata.ru/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_education",
+      "scope": "Российский производитель разделяет Gasparo как ученическую и Giovanni как студенческую линии; это собственная классификация изготовителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "khorol": {
+      "title": "МузАккорд: поставка в Хорольскую ДШИ, 2023",
+      "url": "https://muzakkord.ru/nashi-proekty/mbudo-khdshi-s-khorol/",
+      "country_of_evidence": "RU",
+      "kind": "supplier_case_report",
+      "scope": "Поставщик перечисляет Arcata Gasparo 1/2 и Giovanni 3/4, 4/4 среди переданных школе инструментов. Это факт поставки, не независимая рекомендация.",
+      "reviewed_on": "2026-10-05"
+    },
+    "solikamsk": {
+      "title": "Закупка ДШИ Соликамска: ARCATA Giovanni Set, 2026",
+      "url": "https://b2b.house/purchase/m11cb149b-8858-4c2a-a0e7-7b42c4b410ec_c7584cc3/",
+      "country_of_evidence": "RU",
+      "kind": "procurement_aggregator",
+      "scope": "Агрегатор 44-ФЗ закупки сообщает два Giovanni Set для ДШИ. Используется как закупочное свидетельство, не педагогический рейтинг.",
+      "reviewed_on": "2026-10-05"
+    },
+    "giovanni_detail": {
+      "title": "Торговый Дом Музыки: ARCATA Giovanni Set 4/4",
+      "url": "https://td-music.ru/arcata-giovanni-set-44/",
+      "country_of_evidence": "RU",
+      "kind": "official_distributor_product",
+      "scope": "Комплектация и конструктивные детали Giovanni; коммерческий источник официального представителя/дистрибьютора.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "smychkovye-arcata",
+      "role": "brand",
+      "source_ids": [
+        "arcata",
+        "khorol"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "arcata-gasparo-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "arcata",
+        "khorol"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "arcata-giovanni-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "arcata",
+        "khorol",
+        "solikamsk",
+        "giovanni_detail"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Gasparo and Giovanni are manufacturer education tiers, not universal Russian certification levels.",
+    "Fractional size and model tier are independent selection coordinates.",
+    "School delivery proves institutional use, not mandatory recommendation.",
+    "Availability in ONTOS.RENT remains unconfirmed."
+  ]
+}
