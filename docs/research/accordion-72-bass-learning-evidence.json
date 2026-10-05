@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1096,
+  "new_subjects": 3,
+  "sources": {
+    "bravo72": {
+      "title": "Hohner: Bravo III 72",
+      "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-iii-72",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "72-bass, 34-key, three-voice model explicitly described as beginner accordion suitable for solo and orchestra playing.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bravo_series": {
+      "title": "Hohner: Bravo Series",
+      "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Bravo series designed specifically for beginners and intended to support several years of learning.",
+      "reviewed_on": "2026-10-05"
+    },
+    "achat_ru": {
+      "title": "Accordion Shop Russia: Weltmeister Achat 34/72",
+      "url": "https://www.accordeonshop.ru/catalog/akkordeony_weltmeister/achat_34_72_iii_5_3/",
+      "country_of_evidence": "RU",
+      "kind": "specialist_retail",
+      "scope": "Russian specialist retailer documents 34/72 three-voice configuration and beginner/advanced use claims; commercial source.",
+      "reviewed_on": "2026-10-05"
+    },
+    "achat_bw": {
+      "title": "BWmusic: student accordions incl. Weltmeister Achat",
+      "url": "https://bwmusic.ru/catalog/uchenicheskie?page=all",
+      "country_of_evidence": "RU",
+      "kind": "specialist_retail_category",
+      "scope": "Russian retailer places Achat 34/72 in student-accordion category; category evidence, not teacher endorsement.",
+      "reviewed_on": "2026-10-05"
+    },
+    "achat_uk": {
+      "title": "Allodi: Weltmeister model list",
+      "url": "https://www.accordions.co.uk/Newinstrumentlist.htm",
+      "country_of_evidence": "GB",
+      "kind": "specialist_retail",
+      "scope": "Model-range confirmation for Weltmeister Achat 34/72 and related sizes.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "hohner-bravo-iii-72-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "bravo72",
+        "bravo_series"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "weltmeister-achat-34-72-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "achat_ru",
+        "achat_bw",
+        "achat_uk"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "akkordeon-72-basa-dlya-prodolzheniya-obucheniya",
+      "role": "quality",
+      "source_ids": [
+        "bravo72",
+        "achat_ru"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "72 basses are treated as a functional step-up, not a prestige tier.",
+    "Bravo III 72 and Achat 34/72 are peer candidates, not a ranked pair.",
+    "Retail student-category evidence is kept distinct from teacher recommendation.",
+    "Weight and body geometry are checked before declaring the larger range beneficial."
+  ]
+}
