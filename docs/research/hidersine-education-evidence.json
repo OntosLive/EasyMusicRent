@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1084,
+  "new_subjects": 6,
+  "sources": {
+    "education": {
+      "title": "Hidersine: Supporting Music Education",
+      "url": "https://www.hidersine.com/education",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_education_partnership",
+      "scope": "Hidersine education program and collaboration with ESTA. Partnership does not equal a European-wide mandated instrument standard.",
+      "reviewed_on": "2026-10-05"
+    },
+    "viv_violin": {
+      "title": "Hidersine: Vivente Violin Outfit",
+      "url": "https://www.hidersine.com/instruments/violins/product/133-vivente-violin-outfit-sizes-4-4-to-1-8",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_product_education",
+      "scope": "Ambitious-beginner violin, 1/8–4/4, solid spruce/maple, workshop setup and outfit.",
+      "reviewed_on": "2026-10-05"
+    },
+    "academy_violin": {
+      "title": "Hidersine: Vivente Academy Violin Finetune Outfit",
+      "url": "https://www.hidersine.com/instruments/product/138-vivente-academy-violin-finetune-outfit-sizes-4-4-to-1-8",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_teacher_linked",
+      "scope": "Student violin with Wittner Finetune pegs; Hidersine states consultation with ESTA members. Manufacturer claim, not universal teacher mandate.",
+      "reviewed_on": "2026-10-05"
+    },
+    "viola": {
+      "title": "Hidersine: Vivente Viola Outfit",
+      "url": "https://www.hidersine.com/instruments/product/122-vivente-viola-outfit-sizes-16-to-12",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_product_education",
+      "scope": "12–16 inch beginner viola line with ready-to-play setup.",
+      "reviewed_on": "2026-10-05"
+    },
+    "cello": {
+      "title": "Hidersine: Vivente Cello Outfit",
+      "url": "https://www.hidersine.com/instruments/product/113-vivente-cello-outfit-sizes-4-4-to-1-8",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_product_education",
+      "scope": "1/8–4/4 cello outfit with bow/case and workshop setup.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bass": {
+      "title": "Hidersine: Vivente Double Bass Outfit",
+      "url": "https://www.hidersine.com/instruments/product/118-vivente-double-bass-outfit-sizes-3-4-to-1-2",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_product_education",
+      "scope": "1/2–3/4 student double-bass outfit with bow and gigbag.",
+      "reviewed_on": "2026-10-05"
+    },
+    "beginner_blog": {
+      "title": "Hidersine: Top 3 beginner violins",
+      "url": "https://www.hidersine.com/education/blog/item/115-top-3-beginner-violins",
+      "country_of_evidence": "GB",
+      "kind": "manufacturer_education_editorial",
+      "scope": "Manufacturer educational article positioning Vivente and Vivente Academy for beginners; not independent ranking.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "smychkovye-hidersine",
+      "role": "brand",
+      "source_ids": [
+        "education",
+        "beginner_blog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "hidersine-vivente-skripka-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "viv_violin"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "hidersine-vivente-academy-skripka-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "academy_violin",
+        "education"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "hidersine-vivente-alt-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "viola"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "hidersine-vivente-violonchel-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "cello"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "hidersine-vivente-kontrabas-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "bass"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "ESTA collaboration is teacher-linked context, not a mandated European standard.",
+    "Ready-to-play is a setup/service property and must be rechecked in rental cycles.",
+    "Instrument size and model tier remain independent.",
+    "Outfit completeness does not prove bow ergonomics for a specific student."
+  ]
+}
