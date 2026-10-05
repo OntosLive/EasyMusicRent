@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1136,
+  "new_subjects": 3,
+  "sources": {
+    "yamaha_family": {
+      "title": "Yamaha: Alto (Tenor) Horns",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/altohorns/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_catalog_education",
+      "scope": "Separate Eb alto/tenor horn family with YAH-203 as student model.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha203": {
+      "title": "Yamaha: YAH-203 Student Alto (Tenor) Horn",
+      "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/altohorns/yah-203/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Student Eb tenor horn, 3 top pistons, easy playability and intonation claims.",
+      "reviewed_on": "2026-10-05"
+    },
+    "besson152": {
+      "title": "Besson: Prodige 152 Student Tenor Horn",
+      "url": "https://www.besson.com/en/instruments/tenor-horns/prodige-be152/",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer_education",
+      "scope": "Entry-level Eb tenor horn for young brass players with 3 valves and compact outfit.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "tenor-gorn",
+      "role": "category",
+      "source_ids": [
+        "yamaha_family",
+        "besson152"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yah203-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "yamaha203"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "besson-prodige152-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "besson152"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Tenor/alto horn is a distinct Eb brass-band voice, not an alias of French horn or euphonium.",
+    "Yamaha and Besson are peer student routes, not universally ranked.",
+    "Manufacturer educational claims require concrete instrument checks.",
+    "Public pages do not claim ONTOS.RENT stock."
+  ]
+}
