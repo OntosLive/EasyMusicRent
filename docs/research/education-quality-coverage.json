@@ -135,7 +135,16 @@
         "yamaha-yob241-v-arendu",
         "fox-renard-41-v-arendu",
         "yamaha-yhr314ii-v-arendu",
-        "yamaha-ybb105-v-arendu"
+        "yamaha-ybb105-v-arendu",
+        "gemeinhardt-2sp-v-arendu",
+        "gemeinhardt-2spch-v-arendu",
+        "jupiter-jfl700-v-arendu",
+        "buffet-prodige-v-arendu",
+        "jupiter-jcl700n-v-arendu",
+        "bach-btr302-v-arendu",
+        "jupiter-jtr700-v-arendu",
+        "bach-btb302-v-arendu",
+        "jupiter-jtb700-v-arendu"
       ],
       "quality_entries": [
         "duhovoy-s-legkim-otklikom",
@@ -150,7 +159,7 @@
         "d47",
         "royal"
       ],
-      "scope_and_remaining_work": "Начальное ядро теперь покрывает также гобой, фагот, одинарную валторну и 3/4 тубу. Следующий слой — независимые школьные рекомендации разных стран и альтернативные марки."
+      "scope_and_remaining_work": "Начальный слой теперь включает несколько серийных школ инструмента: Yamaha, Gemeinhardt, Jupiter, Buffet и Bach/Conn-Selmer, плюс отдельные гобой, фагот, валторна и туба. Дальше важнее независимые школьные списки разных стран и российские преподавательские рекомендации, а не ещё один каталог брендов."
     },
     {
       "family": "udarnye",
@@ -1071,6 +1080,96 @@
       ],
       "status": "authored",
       "availability": "unconfirmed"
+    },
+    {
+      "slug": "gemeinhardt-2sp-v-arendu",
+      "parent": "fleyta",
+      "role": "model",
+      "sources": [
+        "gemeinhardt2sp"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gemeinhardt-2spch-v-arendu",
+      "parent": "fleyta",
+      "role": "model",
+      "sources": [
+        "gemeinhardt2spch"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "jupiter-jfl700-v-arendu",
+      "parent": "fleyta",
+      "role": "model",
+      "sources": [
+        "jupiter_jfl700"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "buffet-prodige-v-arendu",
+      "parent": "klarinet",
+      "role": "model",
+      "sources": [
+        "buffet_prodige"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "jupiter-jcl700n-v-arendu",
+      "parent": "klarinet",
+      "role": "model",
+      "sources": [
+        "jupiter_jcl700n"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "bach-btr302-v-arendu",
+      "parent": "truba",
+      "role": "model",
+      "sources": [
+        "bach_btr302"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "jupiter-jtr700-v-arendu",
+      "parent": "truba",
+      "role": "model",
+      "sources": [
+        "jupiter_jtr700"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "bach-btb302-v-arendu",
+      "parent": "trombon",
+      "role": "model",
+      "sources": [
+        "bach_btb302"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "jupiter-jtb700-v-arendu",
+      "parent": "trombon",
+      "role": "model",
+      "sources": [
+        "jupiter_jtb700"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
     }
   ],
   "sources": {
@@ -1576,6 +1675,78 @@
       "country_of_evidence": "RU",
       "kind": "manufacturer",
       "scope": "Конкретная 15-струнная звончатая модель с указанным диапазоном и конструкцией; педагогическая ступень определяется программой.",
+      "reviewed_on": "2026-10-05"
+    },
+    "gemeinhardt2sp": {
+      "title": "Gemeinhardt: 2SP Student Flute",
+      "url": "https://gemeinhardt.com/2sp/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Производитель описывает 2SP как устойчивый student choice, популярный у дилеров и педагогов; это не единый школьный стандарт США.",
+      "reviewed_on": "2026-10-05"
+    },
+    "gemeinhardt2spch": {
+      "title": "Gemeinhardt: 2SPCH with curved headjoint",
+      "url": "https://gemeinhardt.com/2spch/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Изогнутая и прямая головки для ученика с меньшей досягаемостью; пригодность проверяется по посадке.",
+      "reviewed_on": "2026-10-05"
+    },
+    "jupiter_jfl700": {
+      "title": "Jupiter: JFL700 C Flute",
+      "url": "https://www.jupitermusic.com/international/product_detail.aspx?id=JFL700",
+      "country_of_evidence": "TW",
+      "kind": "manufacturer",
+      "scope": "Student flute с Genesis headjoint, plateau keys и offset G; ранний успех является позиционированием производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "buffet_prodige": {
+      "title": "Buffet Crampon: Prodige Student Clarinet",
+      "url": "https://eu.buffet-crampon.com/bc_FR_en/prodige-clarinet-18-6-bc2541l-2-0gb.html",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer",
+      "scope": "Student B-flat clarinet из ABS с 18/6 Boehm-механикой; не автоматически предпочтительнее других ученических марок.",
+      "reviewed_on": "2026-10-05"
+    },
+    "jupiter_jcl700n": {
+      "title": "Jupiter: JCL700N Student Clarinet",
+      "url": "https://jupitermusic.com/international/product_detail.aspx?id=JCL700N",
+      "country_of_evidence": "TW",
+      "kind": "manufacturer",
+      "scope": "Student clarinet для начинающего/развивающегося ученика, ABS и регулируемая опора большого пальца.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bach_btr302": {
+      "title": "Conn-Selmer: Bach BTR302 Student Rental Trumpet",
+      "url": "https://connselmer.com/instruments/trumpets/bach-trumpet-in-bb-btr302",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_rental_design",
+      "scope": "Производитель прямо позиционирует BTR302 как rental instrument for beginning students; это сильное rental evidence, не независимый рейтинг.",
+      "reviewed_on": "2026-10-05"
+    },
+    "jupiter_jtr700": {
+      "title": "Jupiter: JTR700 Student B-flat Trumpet",
+      "url": "https://jupitermusic.com/international/products/Brass/Trumpets/JTR700",
+      "country_of_evidence": "TW",
+      "kind": "manufacturer",
+      "scope": "Beginner/student trumpet с stainless pistons и регулируемыми кронами; свойства относятся к модели.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bach_btb302": {
+      "title": "Conn-Selmer: Bach BTB302 Student Rental Trombone",
+      "url": "https://connselmer.com/instruments/trombones/bach-tenor-trombone-in-bb-btb302",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_rental_design",
+      "scope": "Производитель прямо позиционирует BTB302 как rental package for beginning students; состояние кулисы конкретного экземпляра проверяется отдельно.",
+      "reviewed_on": "2026-10-05"
+    },
+    "jupiter_jtb700": {
+      "title": "Jupiter: JTB700 Beginner Tenor Trombone",
+      "url": "https://jupitermusic.com/international/product_detail.aspx?id=JTB700",
+      "country_of_evidence": "TW",
+      "kind": "manufacturer",
+      "scope": "Beginner tenor trombone .500 bore / 8-inch bell; лёгкость отклика и долговечность заявлены производителем.",
       "reviewed_on": "2026-10-05"
     }
   }
