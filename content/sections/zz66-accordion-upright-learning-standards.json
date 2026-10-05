@@ -96,15 +96,21 @@
     },
     {
       "slug": "yamaha-u1-v-arendu",
-      "parent": "akusticheskoe-pianino",
-      "search_title": "Акустическое пианино Yamaha U1 в аренду",
-      "editorial_title": "Yamaha U1: upright, который способен прожить вместе с учеником долгую учебную дистанцию",
-      "description": "Yamaha U1: 121/122 cm professional upright with long-standing studio and school reputation, suitable for serious long-term piano study.",
-      "kicker": "YAMAHA U1 · PROFESSIONAL UPRIGHT · LONG-TERM STUDY",
-      "intro": [
+      "sources": [
+        {
+          "title": "Yamaha: U Series — U1 Professional Upright",
+          "url": "https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/u_series/index.html"
+        },
+        {
+          "title": "Yamaha UK: U1 as long-standing upright standard",
+          "url": "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/u-series/"
+        }
+      ],
+      "mode": "enrich",
+      "append_intro": [
         "<p>U1 — уже не «первое пианино подешевле». Yamaha называет его профессиональным upright и многолетним мировым референсом. Для ученика смысл этой модели в другом: если домашняя практика становится серьёзной и постоянной, инструмент способен оставаться актуальным намного дольше начального этапа.</p>"
       ],
-      "blocks": [
+      "append_blocks": [
         {
           "label": "01 / МЕХАНИКА",
           "title": "Профессиональная механика полезна только при хорошей регулировке",
@@ -125,17 +131,6 @@
           "paragraphs": [
             "Yamaha позиционирует U1 для experienced pianist и professional musician, а международная практика давно использует такие upright в студиях и учебных помещениях. Для начинающего это не обязательный минимум, а инструмент с большим запасом роста."
           ]
-        }
-      ],
-      "quote": "Нужен ли семье уже сейчас профессиональный upright на много лет или достаточно более компактной учебной модели?",
-      "sources": [
-        {
-          "title": "Yamaha: U Series — U1 Professional Upright",
-          "url": "https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/u_series/index.html"
-        },
-        {
-          "title": "Yamaha UK: U1 as long-standing upright standard",
-          "url": "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/u-series/"
         }
       ]
     },
