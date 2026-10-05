@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1090,
+  "new_subjects": 3,
+  "enriched_subjects": [
+    "cifrovoe-pianino-dlya-muzykalnoy-shkoly"
+  ],
+  "sources": {
+    "roland": {
+      "title": "Roland: FP-30X Digital Piano",
+      "url": "https://www.roland.com/us/products/fp-30x/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "88-key PHA-4 Standard, home practice, lessons, optional stand/pedal board. Manufacturer positioning, not school mandate.",
+      "reviewed_on": "2026-10-05"
+    },
+    "roland_ru": {
+      "title": "Roland Россия: FP-30X",
+      "url": "https://www.roland.com/ru/products/fp-30x/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_local",
+      "scope": "Russian localization of Roland FP-30X features and support. Not independent Russian school recommendation.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kawai": {
+      "title": "Kawai: ES120",
+      "url": "https://www.kawai-global.com/product/es120/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Responsive Hammer Compact action, learning tools, HML-2/F-351 options and aspiring-pianist framing.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kawai_interview": {
+      "title": "Kawai: Ai Higuchi on ES120 as first piano",
+      "url": "https://www.kawai-global.com/topics/ai-higuchi-es120-interview/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_artist_interview",
+      "scope": "Artist recommendation hosted by manufacturer; supportive context, not independent pedagogy research.",
+      "reviewed_on": "2026-10-05"
+    },
+    "casio": {
+      "title": "Casio: PX-S1100",
+      "url": "https://www.casio.com/us/electronic-musical-instruments/product.PX-S1100BK/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "88-key Privia with Duet Mode and education/lab framing; optional stand/pedal setup.",
+      "reviewed_on": "2026-10-05"
+    },
+    "pianino_ru": {
+      "title": "Пианино.ру: цифровое пианино для обучения",
+      "url": "https://pianino.ru/as_to_select_the_digital_piano/",
+      "country_of_evidence": "RU",
+      "kind": "specialist_editorial_commercial",
+      "scope": "Russian specialist commercial guide comparing P-225, FP-30X, ES120 and PX-S1100 for learning; not an official school standard.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "roland-fp30x-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "roland",
+        "roland_ru",
+        "pianino_ru"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "kawai-es120-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "kawai",
+        "kawai_interview",
+        "pianino_ru"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "casio-pxs1100-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "casio",
+        "pianino_ru"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-muzykalnoy-shkoly",
+      "role": "context",
+      "action": "enrich",
+      "source_ids": [
+        "roland_ru",
+        "kawai",
+        "casio",
+        "pianino_ru"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "P-225, FP-30X, ES120 and PX-S1100 are peer learning candidates, not a ranked universal top four.",
+    "Russian commercial comparison is distinct from official school requirements.",
+    "Portable body and stable home setup are separate usage modes.",
+    "Manufacturer educational functions do not replace teacher-specific keyboard requirements."
+  ]
+}
