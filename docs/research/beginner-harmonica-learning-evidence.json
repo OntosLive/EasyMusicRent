@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1121,
+  "new_subjects": 4,
+  "sources": {
+    "hohner_beginner": {
+      "title": "HOHNER: Beginner Series",
+      "url": "https://hohner.de/en/instruments/harmonicas/beginner",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "HOHNER groups several beginner harmonicas including Special 20. Manufacturer educational framing, not universal teacher standard.",
+      "reviewed_on": "2026-10-05"
+    },
+    "hohner_special": {
+      "title": "HOHNER: Special 20",
+      "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_product",
+      "scope": "Professional-grade diatonic harmonica with recessed reed plates and beginner-accessible positioning.",
+      "reviewed_on": "2026-10-05"
+    },
+    "hohner_beginner_pro": {
+      "title": "HOHNER: Best Professional Harmonica for Beginners",
+      "url": "https://hohner.de/en/community/the-best-professional-harmonica-for-beginners",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "HOHNER recommends Special 20 and key of C to beginners. Brand-owned educational content.",
+      "reviewed_on": "2026-10-05"
+    },
+    "tomlin_special": {
+      "title": "Tomlin Harmonica Lessons: Special 20 for beginners",
+      "url": "https://www.tomlinharmonicalessons.com/is-the-hohner-special-20-still-worth-it-in-2024/",
+      "country_of_evidence": "GB",
+      "kind": "teacher_recommendation",
+      "scope": "Named harmonica teacher recommends Special 20 in C and explains playability/bending; personal professional recommendation, not national standard.",
+      "reviewed_on": "2026-10-05"
+    },
+    "tomlin_compare": {
+      "title": "Tomlin Harmonica Lessons: Hohner vs Lee Oskar",
+      "url": "https://www.tomlinharmonicalessons.com/hohner-vs-lee-oskar/",
+      "country_of_evidence": "GB",
+      "kind": "teacher_comparison",
+      "scope": "Teacher comparison of response, bending and tuning. Used for functional criteria, not universal ranking.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "gubnaya-garmonika",
+      "role": "category",
+      "source_ids": [
+        "hohner_beginner",
+        "tomlin_special"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "hohner-special20-c-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "hohner_special",
+        "hohner_beginner_pro",
+        "tomlin_special"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "role": "quality",
+      "source_ids": [
+        "hohner_beginner_pro",
+        "tomlin_special"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "role": "quality",
+      "source_ids": [
+        "hohner_beginner_pro",
+        "tomlin_compare"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Key of C is a common beginner route, not a universal requirement for every method.",
+    "Special 20 teacher recommendation is personal professional evidence and manufacturer support, not national curriculum.",
+    "Responsiveness and airtightness remain brand-independent quality criteria.",
+    "Public pages do not claim ONTOS.RENT stock."
+  ]
+}
