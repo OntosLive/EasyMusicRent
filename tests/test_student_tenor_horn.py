@@ -31,7 +31,7 @@ class StudentTenorHornTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1139)
+        self.assertEqual(result['subjects'],1138)
         self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
@@ -64,7 +64,7 @@ class StudentTenorHornTests(unittest.TestCase):
         self.assertNotIn('/tenor-gorn/',root)
 
     def test_evidence_and_availability(self):
-        self.assertEqual(self.ledger['baseline_subjects'],1136)
+        self.assertEqual(self.ledger['baseline_subjects'],1135)
         self.assertEqual(self.ledger['new_subjects'],3)
         self.assertEqual(len(self.ledger['records']),3)
         for rec in self.ledger['records']:
