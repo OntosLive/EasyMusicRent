@@ -80,7 +80,8 @@
           "title": "Yamaha Music Japan: YAS‑62 rental",
           "url": "https://rental.jp.yamaha.com/shop/c/c101020_srd_p2/"
         }
-      ]
+      ],
+      "mode": "enrich"
     },
     {
       "slug": "yamaha-yts62-v-arendu",
@@ -121,7 +122,8 @@
           "title": "Yamaha Music Japan: YTS‑62 rental and 'legendary 62' description",
           "url": "https://rental.jp.yamaha.com/shop/g/gYTS380OTSUL/"
         }
-      ]
+      ],
+      "mode": "enrich"
     },
     {
       "slug": "loree-royal-oboe-v-arendu",
