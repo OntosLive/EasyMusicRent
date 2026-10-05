@@ -1,0 +1,326 @@
+{
+  "pages": [
+    {
+      "slug": "smychkovye-hidersine",
+      "parent": "smychkovye",
+      "search_title": "Смычковые Hidersine в аренду",
+      "editorial_title": "Hidersine: европейская учебная линия, где готовность к уроку является частью качества",
+      "description": "Hidersine Vivente and Vivente Academy: educational bowed-string outfits, UK setup and ESTA-linked teaching support.",
+      "kicker": "HIDERSINE · EDUCATION · READY TO PLAY",
+      "intro": [
+        "<p>Hidersine полезен как образовательный бренд не только потому, что выпускает ученические инструменты. Компания отдельно строит вокруг них педагогическую среду, сотрудничает с European String Teachers Association и подчёркивает профессиональную подготовку инструмента до первого урока.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СЕРИЯ",
+          "title": "Vivente покрывает скрипку, альт, виолончель и контрабас",
+          "paragraphs": [
+            "Это позволяет семье инструментов жить в одной образовательной логике: дробные размеры, готовый комплект и сервисная подготовка. При этом каждый голос всё равно требует собственной примерки и своего смычка."
+          ]
+        },
+        {
+          "label": "02 / ACADEMY",
+          "title": "Vivente Academy добавляет Finetune-колки как отдельную педагогическую функцию",
+          "paragraphs": [
+            "Hidersine связывает geared pegs с более быстрым и точным строем и прямо обсуждает потерю учебного времени на нестабильную настройку. Это не отменяет обучение слуху, а уменьшает механическое препятствие."
+          ]
+        },
+        {
+          "label": "03 / ESTA",
+          "title": "Партнёрство с ESTA усиливает образовательный контекст, но не создаёт национальный стандарт",
+          "paragraphs": [
+            "Компания выпускает совместные с ESTA UK методические видео и описывает Academy как разработанную с участием преподавателей. Для фонда это сильное teacher-linked evidence, но не обязательная рекомендация всех европейских школ."
+          ]
+        }
+      ],
+      "quote": "Нужна базовая Vivente, Academy с Finetune или другой инструмент, если главное ограничение ученика уже сформулировано?",
+      "sources": [
+        {
+          "title": "Hidersine: Supporting Music Education with ESTA",
+          "url": "https://www.hidersine.com/education"
+        },
+        {
+          "title": "Hidersine: Top beginner violins",
+          "url": "https://www.hidersine.com/education/blog/item/115-top-3-beginner-violins"
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-skripka-v-arendu",
+      "parent": "skripka",
+      "search_title": "Скрипка Hidersine Vivente в аренду",
+      "editorial_title": "Hidersine Vivente: beginner-скрипка, которую мастерская готовит к уроку заранее",
+      "description": "Hidersine Vivente violin: 1/8–4/4 beginner outfit, solid spruce top, maple back/ribs and UK ready-to-play setup.",
+      "kicker": "VIVENTE · VIOLIN · 1/8–4/4",
+      "intro": [
+        "<p>Vivente производитель адресует ambitious beginner и выпускает от 1/8 до 4/4. Особенность линии в том, что Hidersine отдельно обещает workshop setup до передачи ученику. Это важный образовательный критерий: первый урок не должен начинаться с исправления плохо установленной подставки и случайной высоты струн.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "Размерная лестница 1/8–4/4 позволяет не покупать взрослую скрипку заранее",
+          "paragraphs": [
+            "Переход проверяют по длине руки и полному ходу смычка. Производитель сам рекомендует измеряться у педагога или специалиста, а не выбирать размер только по возрасту."
+          ]
+        },
+        {
+          "label": "02 / SETUP",
+          "title": "Ready-to-play здесь является частью самой модели",
+          "paragraphs": [
+            "Инструмент проходит подготовку в британской сервисной мастерской Hidersine. Для аренды сохраняется тот же принцип: перед выдачей проверяют подставку, колки, струны и смычок, иначе образовательная ценность серии теряется."
+          ]
+        },
+        {
+          "label": "03 / TONEWOOD",
+          "title": "Массивная ель и клён дают запас роста, но не заменяют настройки",
+          "paragraphs": [
+            "Vivente использует solid spruce top и maple back/ribs. Это конструктивная характеристика, а не гарантия одинакового звука всех экземпляров. Ученик всё равно пробует конкретную скрипку."
+          ]
+        }
+      ],
+      "quote": "Какой размер Vivente сейчас даёт свободную руку и готовый к уроку setup?",
+      "sources": [
+        {
+          "title": "Hidersine: Vivente Violin Outfit",
+          "url": "https://www.hidersine.com/instruments/violins/product/133-vivente-violin-outfit-sizes-4-4-to-1-8"
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-academy-skripka-v-arendu",
+      "parent": "skripka",
+      "search_title": "Скрипка Hidersine Vivente Academy в аренду",
+      "editorial_title": "Vivente Academy: student-скрипка, где точная настройка становится частью урока",
+      "description": "Hidersine Vivente Academy violin: 1/8–4/4 student outfit with Wittner Finetune pegs and ESTA-linked ergonomic design.",
+      "kicker": "VIVENTE ACADEMY · FINETUNE · ESTA",
+      "intro": [
+        "<p>Vivente Academy расширяет обычную Vivente именно в учебную сторону: internally geared Wittner Finetune pegs, ready-to-play setup и конструктивные решения, которые Hidersine связывает с современными преподавательскими практиками и консультациями ESTA.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КОЛКИ",
+          "title": "4:1 geared tuning уменьшает механический барьер для начинающего",
+          "paragraphs": [
+            "Ученик может делать небольшие точные коррекции без постоянного выдёргивания и вдавливания деревянного колка. Это особенно полезно между короткими школьными уроками, где настройка не должна съедать четверть занятия."
+          ]
+        },
+        {
+          "label": "02 / РАЗМЕР",
+          "title": "Academy тоже выпускается от 1/8 до 4/4",
+          "paragraphs": [
+            "Более продвинутая комплектация не требует полного взрослого корпуса. Ребёнок может получить точную механику настройки в физиологически правильном размере."
+          ]
+        },
+        {
+          "label": "03 / TEACHER-LINKED",
+          "title": "Педагогическое участие ESTA важно как контекст, а не как универсальный мандат",
+          "paragraphs": [
+            "Hidersine указывает консультации с членами European String Teachers Association. Для фонда это сильный аргумент рассматривать модель, но выбор конкретного ученика остаётся за его преподавателем и пробой."
+          ]
+        }
+      ],
+      "quote": "Проблема ученика сейчас действительно в настройке или более важен сам отклик скрипки?",
+      "sources": [
+        {
+          "title": "Hidersine: Vivente Academy Violin Finetune Outfit",
+          "url": "https://www.hidersine.com/instruments/product/138-vivente-academy-violin-finetune-outfit-sizes-4-4-to-1-8"
+        },
+        {
+          "title": "Hidersine: education partnership with ESTA",
+          "url": "https://www.hidersine.com/education"
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-alt-v-arendu",
+      "parent": "alt",
+      "search_title": "Альт Hidersine Vivente в аренду",
+      "editorial_title": "Hidersine Vivente Viola: учебный альт с полноценной размерной линейкой",
+      "description": "Hidersine Vivente viola: 12–16 inch beginner outfit with solid spruce top, maple back/ribs and UK setup.",
+      "kicker": "VIVENTE VIOLA · 12–16 INCH · BEGINNER",
+      "intro": [
+        "<p>Для альта особенно ценна размерная линейка: Vivente выпускается от 12 до 16 дюймов, включая промежуточные варианты. Производитель прямо адресует серию ambitious beginner и рекомендует выбирать размер вместе с преподавателем или магазином.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "12, 13, 14, 15, 15½ и 16 дюймов создают тонкую лестницу",
+          "paragraphs": [
+            "Это позволяет не перескакивать сразу на крупный альт ради более взрослого звука. На примерке проверяют первую позицию, положение плеча и длительность игры без усталости."
+          ]
+        },
+        {
+          "label": "02 / SETUP",
+          "title": "Готовность к уроку важнее самой цифры размера",
+          "paragraphs": [
+            "Vivente обещает ready-to-play workshop setup. В аренде аналогично проверяют подставку, колки, струны и смычок, иначе подходящий размер не спасает от неудобной механики."
+          ]
+        },
+        {
+          "label": "03 / ОБУЧЕНИЕ",
+          "title": "Beginner-series должна переживать первые grades без ранней замены",
+          "paragraphs": [
+            "Hidersine описывает Vivente как инструмент, рассчитанный на первые ступени обучения. Реальная граница перехода возникает по музыкальной задаче, а не по формальному сроку владения."
+          ]
+        }
+      ],
+      "quote": "Какой размер альта даёт ученику свободную первую позицию без потери полноценного альтового тембра?",
+      "sources": [
+        {
+          "title": "Hidersine: Vivente Viola Outfit",
+          "url": "https://www.hidersine.com/instruments/product/122-vivente-viola-outfit-sizes-16-to-12"
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-violonchel-v-arendu",
+      "parent": "violonchel",
+      "search_title": "Виолончель Hidersine Vivente в аренду",
+      "editorial_title": "Hidersine Vivente Cello: учебная виолончель как готовый комплект, а не отдельный корпус",
+      "description": "Hidersine Vivente cello: beginner outfit 1/8–4/4 with solid spruce top, ebony fingerboard, bow and ready-to-play setup.",
+      "kicker": "VIVENTE CELLO · 1/8–4/4 · OUTFIT",
+      "intro": [
+        "<p>Vivente Cello важна именно как outfit: корпус, смычок, чехол и сервисная подготовка рассматриваются вместе. Для ребёнка это снижает риск получить хорошую по названию виолончель с случайным смычком и неподходящей настройкой.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "Линейка от 1/8 до 4/4 позволяет сопровождать рост ребёнка",
+          "paragraphs": [
+            "На каждом этапе проверяют первую позицию, высоту шпиля и положение корпуса. Размер не назначается автоматически по возрасту."
+          ]
+        },
+        {
+          "label": "02 / OUTFIT",
+          "title": "Смычок является частью образовательного результата",
+          "paragraphs": [
+            "Hidersine комплектует Vivente смычком и отдельно подчёркивает ready-to-play setup. Для фонда это означает проверять баланс смычка и его размер вместе с виолончелью, а не выдавать первый подходящий из шкафа."
+          ]
+        },
+        {
+          "label": "03 / СЕРВИС",
+          "title": "Готовая регулировка должна сохраняться между циклами аренды",
+          "paragraphs": [
+            "После возврата проверяют подставку, шпиль, колки и струны. Учебная виолончель обязана снова приходить к следующему ученику в состоянии, где можно играть, а не сначала ремонтировать."
+          ]
+        }
+      ],
+      "quote": "Нужен только корпус или ученику важнее сразу готовый outfit со смычком и правильной настройкой?",
+      "sources": [
+        {
+          "title": "Hidersine: Vivente Cello Outfit",
+          "url": "https://www.hidersine.com/instruments/product/113-vivente-cello-outfit-sizes-4-4-to-1-8"
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-kontrabas-v-arendu",
+      "parent": "kontrabas",
+      "search_title": "Контрабас Hidersine Vivente в аренду",
+      "editorial_title": "Hidersine Vivente Double Bass: ученический контрабас как готовый 1/2–3/4 комплект",
+      "description": "Hidersine Vivente double bass: 1/2 and 3/4 student outfit with spruce top, maple back/ribs, bow and gigbag.",
+      "kicker": "VIVENTE BASS · 1/2 / 3/4 · STUDENT OUTFIT",
+      "intro": [
+        "<p>Vivente Double Bass рассчитан на student-use и выпускается в 1/2 и 3/4. Hidersine поставляет его как outfit со смычком и gigbag, что хорошо совпадает с логикой учебного фонда: ребёнку нужен не только корпус, а рабочая система, готовая к занятиям и транспортировке.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЗМЕР",
+          "title": "1/2 и 3/4 покрывают два самых частых учебных этапа",
+          "paragraphs": [
+            "Выбор продолжается мензурой, высотой подставки и первой позицией. Даже одинаковый nominal size у разных производителей может ощущаться по-разному."
+          ]
+        },
+        {
+          "label": "02 / КОМПЛЕКТ",
+          "title": "Смычок и gigbag входят в саму student-конструкцию предложения",
+          "paragraphs": [
+            "Для школы это снижает количество отдельных несовместимых закупок. В аренде всё равно проверяют, французский или немецкий смычок нужен ученику и подходит ли конкретный комплект его технике."
+          ]
+        },
+        {
+          "label": "03 / ПРОЧНОСТЬ",
+          "title": "Student outfit должен выдерживать перевозки без превращения в тяжёлую мебель",
+          "paragraphs": [
+            "Hidersine позиционирует Vivente как серьёзный ученический инструмент. На практике важны масса, ручки чехла, колковая механика и возможность регулярно носить его между домом и классом."
+          ]
+        }
+      ],
+      "quote": "Ученику нужен 1/2 или 3/4 и какая система смычка должна входить в комплект?",
+      "sources": [
+        {
+          "title": "Hidersine: Vivente Double Bass Outfit",
+          "url": "https://www.hidersine.com/instruments/product/118-vivente-double-bass-outfit-sizes-3-4-to-1-2"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "smychkovye": [
+      {
+        "label": "Hidersine",
+        "href": "/smychkovye-hidersine/"
+      }
+    ],
+    "smychkovye-hidersine": [
+      {
+        "label": "Vivente — скрипка",
+        "href": "/hidersine-vivente-skripka-v-arendu/"
+      },
+      {
+        "label": "Vivente Academy — скрипка",
+        "href": "/hidersine-vivente-academy-skripka-v-arendu/"
+      },
+      {
+        "label": "Vivente — альт",
+        "href": "/hidersine-vivente-alt-v-arendu/"
+      },
+      {
+        "label": "Vivente — виолончель",
+        "href": "/hidersine-vivente-violonchel-v-arendu/"
+      },
+      {
+        "label": "Vivente — контрабас",
+        "href": "/hidersine-vivente-kontrabas-v-arendu/"
+      }
+    ],
+    "skripka": [
+      {
+        "label": "Hidersine Vivente",
+        "href": "/hidersine-vivente-skripka-v-arendu/"
+      },
+      {
+        "label": "Hidersine Vivente Academy",
+        "href": "/hidersine-vivente-academy-skripka-v-arendu/"
+      }
+    ],
+    "alt": [
+      {
+        "label": "Hidersine Vivente",
+        "href": "/hidersine-vivente-alt-v-arendu/"
+      }
+    ],
+    "violonchel": [
+      {
+        "label": "Hidersine Vivente",
+        "href": "/hidersine-vivente-violonchel-v-arendu/"
+      }
+    ],
+    "kontrabas": [
+      {
+        "label": "Hidersine Vivente",
+        "href": "/hidersine-vivente-kontrabas-v-arendu/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Hidersine Vivente",
+        "href": "/hidersine-vivente-skripka-v-arendu/"
+      },
+      {
+        "label": "Vivente Academy",
+        "href": "/hidersine-vivente-academy-skripka-v-arendu/"
+      }
+    ]
+  }
+}
