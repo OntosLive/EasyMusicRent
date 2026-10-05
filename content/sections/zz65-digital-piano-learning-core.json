@@ -1,0 +1,204 @@
+{
+  "pages": [
+    {
+      "slug": "roland-fp30x-v-arendu",
+      "parent": "cifrovoe-pianino",
+      "search_title": "Roland FP-30X в аренду",
+      "editorial_title": "Roland FP‑30X: домашнее цифровое пианино с полноразмерной PHA‑4 механикой",
+      "description": "Roland FP-30X: 88-key PHA-4 Standard hammer-action digital piano for home practice, lessons and small performances.",
+      "kicker": "FP‑30X · PHA‑4 · 88 KEYS",
+      "intro": [
+        "<p>FP‑30X занимает устойчивую середину между самым простым portable piano и более дорогим домашним инструментом. Roland прямо связывает модель с развитием навыков: 88 полноразмерных PHA‑4 Standard клавиш, hammer action, escapement и возможность собрать комплект со стойкой и трёхпедальным блоком.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МЕХАНИКА",
+          "title": "PHA‑4 Standard даёт полноценный 88-клавишный учебный диапазон",
+          "paragraphs": [
+            "На пробе ученик играет гамму, тихую фразу и повторные ноты. Важно понять не только общий вес клавиши, но и предсказуемость динамики и возврата. Производитель связывает механизм с акустическим ощущением, а результат проверяется конкретной рукой."
+          ]
+        },
+        {
+          "label": "02 / КОМПЛЕКТ",
+          "title": "Стойка KSC‑70 и KPD‑70 превращают portable piano в домашнее рабочее место",
+          "paragraphs": [
+            "Если инструмент нужен для регулярной музыкальной школы, устойчивость и тройная педаль могут быть важнее минимальной массы корпуса. Для поездок, наоборот, можно сохранить портативную конфигурацию и отдельную педаль."
+          ]
+        },
+        {
+          "label": "03 / УРОКИ",
+          "title": "Bluetooth и приложения дополняют практику, но не заменяют механику",
+          "paragraphs": [
+            "FP‑30X поддерживает онлайн-уроки и музыкальные приложения. Эти функции полезны после того, как клавиатура, высота стойки и педаль уже соответствуют текущей учебной задаче."
+          ]
+        }
+      ],
+      "quote": "Нужен переносной FP‑30X или уже полный домашний комплект со стойкой и тремя педалями?",
+      "sources": [
+        {
+          "title": "Roland: FP-30X Digital Piano",
+          "url": "https://www.roland.com/us/products/fp-30x/"
+        },
+        {
+          "title": "Roland Россия: FP-30X",
+          "url": "https://www.roland.com/ru/products/fp-30x/"
+        }
+      ]
+    },
+    {
+      "slug": "kawai-es120-v-arendu",
+      "parent": "cifrovoe-pianino",
+      "search_title": "Kawai ES120 в аренду",
+      "editorial_title": "Kawai ES120: лёгкое цифровое пианино с механикой RHC для регулярной практики",
+      "description": "Kawai ES120: 88-key Responsive Hammer Compact digital piano with SK-EX/EX sounds, learning tools and optional stand/pedal board.",
+      "kicker": "ES120 · RHC · ASPIRING PIANIST",
+      "intro": [
+        "<p>ES120 Kawai строит как компактный инструмент с настоящей hammer-action клавиатурой и отдельно подчёркивает metronome/recorder для aspiring pianists. Это хороший кандидат там, где нужен регулярный фортепианный режим, но инструмент также приходится переносить.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КЛАВИАТУРА",
+          "title": "Responsive Hammer Compact проверяют на динамике и повторении",
+          "paragraphs": [
+            "Важен не паспортный термин, а способность ученика вести тихую фразу и повторять ноту без лишнего подъёма пальца. На одной пьесе ES120 полезно сравнить с P‑225 или FP‑30X."
+          ]
+        },
+        {
+          "label": "02 / ОБУЧЕНИЕ",
+          "title": "Метроном и recorder дают простой цикл самопроверки",
+          "paragraphs": [
+            "Kawai прямо называет эти функции ценными для развивающихся пианистов. Запись короткого фрагмента позволяет услышать ритм и баланс со стороны, не превращая цифровое пианино в сложную workstation."
+          ]
+        },
+        {
+          "label": "03 / ДОМ",
+          "title": "HML‑2 и F‑351 собирают домашнюю стойку с тройной педалью",
+          "paragraphs": [
+            "Для долгих занятий фиксированная геометрия может быть важнее мобильности. Если инструмент постоянно стоит дома, комплект следует оценивать целиком: клавиатура, стойка, педали и банкетка."
+          ]
+        }
+      ],
+      "quote": "ES120 нужен как переносной инструмент или как стационарное домашнее пианино с HML‑2/F‑351?",
+      "sources": [
+        {
+          "title": "Kawai: ES120",
+          "url": "https://www.kawai-global.com/product/es120/"
+        },
+        {
+          "title": "Kawai: ES120 interview — first piano context",
+          "url": "https://www.kawai-global.com/topics/ai-higuchi-es120-interview/"
+        }
+      ]
+    },
+    {
+      "slug": "casio-pxs1100-v-arendu",
+      "parent": "cifrovoe-pianino",
+      "search_title": "Casio PX-S1100 в аренду",
+      "editorial_title": "Casio PX‑S1100: компактность и Duet Mode как отдельный учебный компромисс",
+      "description": "Casio Privia PX-S1100: slim 88-key digital piano with scaled hammer action, Duet Mode and optional 3-pedal home setup.",
+      "kicker": "PX‑S1100 · DUET MODE · COMPACT",
+      "intro": [
+        "<p>PX‑S1100 полезен там, где полноценные 88 клавиш должны помещаться в очень компактный корпус. Casio отдельно описывает Duet Mode как режим для урока, где преподаватель и ученик получают одинаковые диапазоны на двух половинах одной клавиатуры.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / DUET",
+          "title": "Одинаковые диапазоны двух половин полезны для показа фразы рядом с учеником",
+          "paragraphs": [
+            "Преподаватель может сыграть тот же материал слева, ученик повторить справа в совпадающем регистре. Это конкретная учебная функция, а не замена обычному двухручному режиму."
+          ]
+        },
+        {
+          "label": "02 / КОМПАКТНОСТЬ",
+          "title": "Тонкий корпус нужно оценивать вместе с ощущением клавиатуры",
+          "paragraphs": [
+            "Российские специализированные сравнения прямо советуют отдельно пробовать PX‑S1100 против FP‑30X и ES120, если инструмент берётся для ДМШ. Компактность является преимуществом только пока механика устраивает преподавателя и ученика."
+          ]
+        },
+        {
+          "label": "03 / КОМПЛЕКТ",
+          "title": "CS‑68 и SP‑34 превращают мобильный корпус в домашнюю систему",
+          "paragraphs": [
+            "Для постоянного места занятий стойка и трёхпедальный блок дают более стабильную геометрию. Если пианино часто перевозится, эта стационарность может оказаться лишней, и комплект собирают иначе."
+          ]
+        }
+      ],
+      "quote": "Главная ценность PX‑S1100 здесь в компактности, Duet Mode или полноценном домашнем комплекте?",
+      "sources": [
+        {
+          "title": "Casio: PX-S1100",
+          "url": "https://www.casio.com/us/electronic-musical-instruments/product.PX-S1100BK/"
+        },
+        {
+          "title": "Пианино.ру: FP-30X, ES120 и PX-S1100 для домашнего обучения",
+          "url": "https://pianino.ru/as_to_select_the_digital_piano/"
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-muzykalnoy-shkoly",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>Внутри одного учебного класса теперь можно сравнить четыре устойчивые модели без объявления победителя: Yamaha P‑225, Roland FP‑30X, Kawai ES120 и Casio PX‑S1100. Российские специализированные рекомендации 2026 года рассматривают именно такую группу как близкие варианты для домашнего обучения; выбор продолжается по механике, стойке, педалям и требованиям конкретного преподавателя.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Пианино.ру: выбор цифрового пианино для музыкальной школы",
+          "url": "https://pianino.ru/as_to_select_the_digital_piano/"
+        },
+        {
+          "title": "Roland: FP-30X",
+          "url": "https://www.roland.com/ru/products/fp-30x/"
+        },
+        {
+          "title": "Kawai: ES120",
+          "url": "https://www.kawai-global.com/product/es120/"
+        },
+        {
+          "title": "Casio: PX-S1100",
+          "url": "https://www.casio.com/us/electronic-musical-instruments/product.PX-S1100BK/"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "cifrovoe-pianino": [
+      {
+        "label": "Roland FP-30X",
+        "href": "/roland-fp30x-v-arendu/"
+      },
+      {
+        "label": "Kawai ES120",
+        "href": "/kawai-es120-v-arendu/"
+      },
+      {
+        "label": "Casio PX-S1100",
+        "href": "/casio-pxs1100-v-arendu/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Roland FP-30X",
+        "href": "/roland-fp30x-v-arendu/"
+      },
+      {
+        "label": "Kawai ES120",
+        "href": "/kawai-es120-v-arendu/"
+      },
+      {
+        "label": "Casio PX-S1100",
+        "href": "/casio-pxs1100-v-arendu/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Roland FP-30X",
+        "href": "/roland-fp30x-v-arendu/"
+      },
+      {
+        "label": "Kawai ES120",
+        "href": "/kawai-es120-v-arendu/"
+      }
+    ]
+  }
+}
