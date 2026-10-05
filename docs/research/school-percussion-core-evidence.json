@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-06",
+  "baseline_subjects": 1138,
+  "new_subjects": 10,
+  "sources": {
+    "pearl_education": {
+      "title": "Pearl: Education Kits",
+      "url": "https://pearldrum.com/en/products/concert/education-kits",
+      "country_of_evidence": "JP/US",
+      "kind": "manufacturer_education",
+      "scope": "Pearl frames SK/PK/PL as educational kits for beginning percussionists. Manufacturer claim, not school mandate.",
+      "reviewed_on": "2026-10-06"
+    },
+    "pearl_sk": {
+      "title": "Pearl: SK910 / SK910C Student Snare Kit",
+      "url": "https://pearldrum.com/products/concert/education-kits/snare-kit-sk/",
+      "country_of_evidence": "JP/US",
+      "kind": "manufacturer_education",
+      "scope": "14x5.5 steel snare, 14-inch practice pad, stand, sticks and carrying case.",
+      "reviewed_on": "2026-10-06"
+    },
+    "pearl_pk": {
+      "title": "Pearl: PK910 / PK910C Bell Kit",
+      "url": "https://pearldrum.com/en/products/concert/education-kits/bell-kit-pk",
+      "country_of_evidence": "JP/US",
+      "kind": "manufacturer_education",
+      "scope": "2.5-octave F5-C8 bells, tunable pad, stand, rack, sticks and mallets.",
+      "reviewed_on": "2026-10-06"
+    },
+    "pearl_pl": {
+      "title": "Pearl: PL910C Percussion Learning Center",
+      "url": "https://pearldrum.com/en/products/concert/education-kits/percussion-learning-center-pl?pearl=en",
+      "country_of_evidence": "JP/US",
+      "kind": "manufacturer_education",
+      "scope": "Combined student kit with wood snare, 2.5-octave bells, practice pad, rack, sticks, mallets and wheeled case.",
+      "reviewed_on": "2026-10-06"
+    },
+    "yamaha_yx2035": {
+      "title": "Yamaha: YX-2035PR Student Xylophone",
+      "url": "https://usa.yamaha.com/products/musical_instruments/percussion/xylophones/yx2035pr/index.html",
+      "country_of_evidence": "JP/US",
+      "kind": "manufacturer_education",
+      "scope": "3.5-octave Pao Rosa student xylophone, 1.5-inch bars and gas-spring height adjustment.",
+      "reviewed_on": "2026-10-06"
+    },
+    "yamaha_launch": {
+      "title": "Yamaha: YX-2035PR successor to YX-135",
+      "url": "https://usa.yamaha.com/news_events/2024/20241030_new_marching_hardware_and_student_xylophone_at_PASIC_2024.html",
+      "country_of_evidence": "JP/US",
+      "kind": "manufacturer_product_history",
+      "scope": "Yamaha identifies YX-2035PR as successor to popular YX-135 for beginner/intermediate students.",
+      "reviewed_on": "2026-10-06"
+    },
+    "yamaha_yx135_us": {
+      "title": "Yamaha: YX-135",
+      "url": "https://usa.yamaha.com/products/musical_instruments/percussion/xylophones/yx-135/index.html",
+      "country_of_evidence": "JP/US",
+      "kind": "manufacturer_education_legacy",
+      "scope": "YX-135 described for limited budgets, beginning percussionists and educators.",
+      "reviewed_on": "2026-10-06"
+    },
+    "yamaha_yx135_ru": {
+      "title": "Yamaha Россия: YX-135",
+      "url": "https://ru.yamaha.com/ru/musical-instruments/percussion/products/xylophones/yx-135/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_local_legacy",
+      "scope": "Russian product page documents 3.5-octave Padauk model; it does not prove current Russian stock.",
+      "reviewed_on": "2026-10-06"
+    },
+    "yamaha_yx135_eu": {
+      "title": "Yamaha Europe: YX-135 discontinued",
+      "url": "https://europe.yamaha.com/en/musical-instruments/percussion/products/xylophones/yx-135/",
+      "country_of_evidence": "EU",
+      "kind": "manufacturer_status",
+      "scope": "European Yamaha marks YX-135 discontinued. Used to bound legacy status.",
+      "reviewed_on": "2026-10-06"
+    },
+    "adams_xylo": {
+      "title": "Adams: Academy Series Xylophone",
+      "url": "https://www.adams-music.com/en/percussion/xylophone/academy-series",
+      "country_of_evidence": "NL",
+      "kind": "manufacturer_education",
+      "scope": "3.5-octave entry-level xylophone for young musicians with portable adjustable stand and case.",
+      "reviewed_on": "2026-10-06"
+    },
+    "adams_marimba": {
+      "title": "Adams: Academy Series Marimba",
+      "url": "https://www.adams-music.com/en/percussion/marimba/academy",
+      "country_of_evidence": "NL",
+      "kind": "manufacturer_education",
+      "scope": "3.0/3.3-octave student marimbas for school/home use, adjustable stands and Padouk bars.",
+      "reviewed_on": "2026-10-06"
+    },
+    "kazan_xylo": {
+      "title": "ДМШ им. Дж. Файзи: программа «Ксилофон»",
+      "url": "https://edu.tatar.ru/upload/storage/org2323/files/%D0%BA%D1%81%D0%B8%D0%BB%D0%BE%D1%84%D0%BE%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%205%20%D0%BB%D0%B5%D1%82%281%29.pdf",
+      "country_of_evidence": "RU",
+      "kind": "school_curriculum_official",
+      "scope": "Municipal music-school program documents xylophone as a multi-year specialty.",
+      "reviewed_on": "2026-10-06"
+    },
+    "russian_exam": {
+      "title": "ДШИ: программа духовых и ударных — ксилофон и малый барабан",
+      "url": "https://edu.tatar.ru/upload/storage/org5617/files/%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%BD%D0%B0%20%D0%B4%D1%83%D1%85%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B8%20%D1%83%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_compressed.pdf",
+      "country_of_evidence": "RU",
+      "kind": "school_curriculum_official",
+      "scope": "Program examples pair a xylophone work with a snare-drum work for percussion examinations; curriculum evidence, not model recommendation.",
+      "reviewed_on": "2026-10-06"
+    }
+  },
+  "records": [
+    {
+      "slug": "uchebnye-komplekty-udarnyh",
+      "role": "category",
+      "source_ids": [
+        "pearl_education",
+        "russian_exam"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "pearl-sk910-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "pearl_sk"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "pearl-pk910-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "pearl_pk"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "pearl-pl910c-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "pearl_pl"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yx2035pr-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "yamaha_yx2035",
+        "yamaha_launch"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yx135-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "yamaha_yx135_us",
+        "yamaha_yx135_ru",
+        "yamaha_yx135_eu",
+        "yamaha_launch"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "adams-academy-xylophone-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "adams_xylo"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "adams-academy-marimba-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "adams_marimba"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "ksilofon-s-reguliruemoy-vysotoy",
+      "role": "quality",
+      "source_ids": [
+        "yamaha_yx2035",
+        "adams_xylo"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "udarnye-dlya-ekzamena-ksilofon-i-malyy-baraban",
+      "role": "scene",
+      "source_ids": [
+        "kazan_xylo",
+        "russian_exam"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Pearl SK, PK and PL solve different education configurations and are not ranked as one mandatory route.",
+    "YX-135 is marked legacy/discontinued in Europe; YX-2035PR is the current successor.",
+    "Russian curriculum confirms xylophone/snare educational roles, not Pearl/Yamaha/Adams model recommendations.",
+    "Adjustable height is a quality-led criterion independent of brand.",
+    "Public pages do not claim ONTOS.RENT stock."
+  ]
+}
