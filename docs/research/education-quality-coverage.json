@@ -16,7 +16,10 @@
         "kawai-es120-v-arendu",
         "roland-fp30x-v-arendu",
         "casio-cdps110-v-arendu",
-        "yamaha-p225-v-arendu"
+        "yamaha-p225-v-arendu",
+        "uchebnye-portativnye-klavishnye",
+        "yamaha-psr-e383-v-arendu",
+        "roland-gokeys3-v-arendu"
       ],
       "quality_entries": [
         "pianino-s-rovnoy-klaviaturoy",
@@ -26,7 +29,7 @@
         "pianoreg",
         "half"
       ],
-      "scope_and_remaining_work": "Базовые и более серьёзные цифровые пианино покрыты моделями нескольких марок; российские фортепианные отделения ещё требуют независимого списка рекомендаций."
+      "scope_and_remaining_work": "Фортепианная и портативно-клавишная учебные сцены теперь разведены. Следующий слой — российские рекомендации фортепианных отделений и дополнительные classroom keyboards только при независимом evidence."
     },
     {
       "family": "smychkovye",
@@ -95,7 +98,8 @@
         "makala-dolphin-v-arendu",
         "mir-gusley-detskie-v-arendu",
         "mir-gusley-zvonchatye-dlya-obucheniya",
-        "mpkmi-gusli-pikkolo-v-arendu"
+        "mpkmi-gusli-pikkolo-v-arendu",
+        "eastman-md305-v-arendu"
       ],
       "quality_entries": [
         "ukulele-so-stroyaschimi-ladami",
@@ -108,12 +112,15 @@
       "source_ids": [
         "action"
       ],
-      "scope_and_remaining_work": "Учебные домры, балалайки, classroom-укулеле и российские гусли уже представлены. Мандолина и дополнительные международные/российские марки остаются открыты."
+      "scope_and_remaining_work": "Домра, балалайка, гусли, classroom-укулеле и A-style мандолина получили учебные входы. Следующий слой — дополнительные mandolin methods/brands и региональные традиции только при подтверждённой педагогической практике."
     },
     {
       "family": "arfy-liry",
       "model_brand_entries": [
-        "salvi-juno25-v-arendu"
+        "salvi-juno25-v-arendu",
+        "lyon-healy-drake-v-arendu",
+        "salvi-mia-v-arendu",
+        "lyon-healy-ogden-v-arendu"
       ],
       "quality_entries": [
         "arfa-s-udobnym-natyazheniem-strun"
@@ -122,7 +129,7 @@
         "juno",
         "salvirental"
       ],
-      "scope_and_remaining_work": "Учебная модель и официальная арендная программа в Японии; требования российского преподавателя подтверждаются отдельно."
+      "scope_and_remaining_work": "Леверсная учебная лестница расширена Juno, Drake, Mia и Ogden с официальным rental evidence. Российские и европейские педагогические рекомендации требуют отдельного исследования."
     },
     {
       "family": "duhovye",
@@ -144,7 +151,8 @@
         "bach-btr302-v-arendu",
         "jupiter-jtr700-v-arendu",
         "bach-btb302-v-arendu",
-        "jupiter-jtb700-v-arendu"
+        "jupiter-jtb700-v-arendu",
+        "yamaha-yrs24b-v-arendu"
       ],
       "quality_entries": [
         "duhovoy-s-legkim-otklikom",
@@ -240,7 +248,8 @@
     {
       "family": "istoricheskie",
       "model_brand_entries": [
-        "blokfleyty-mollenhauer-dlya-obucheniya"
+        "blokfleyty-mollenhauer-dlya-obucheniya",
+        "yamaha-yrs24b-v-arendu"
       ],
       "quality_entries": [
         "istoricheskiy-instrument-s-nuzhnym-stroem"
@@ -248,7 +257,7 @@
       "source_ids": [
         "mollenhauer"
       ],
-      "scope_and_remaining_work": "Разведены частота, темперация, аппликатура и реконструкция. Mollenhauer относится к блокфлейтам, а не ко всем историческим семействам."
+      "scope_and_remaining_work": "Блокфлейта получила Mollenhauer и массовый school-standard YRS-24B. Для других исторических семейств приоритетнее строй, реконструкция, maker и конкретный экземпляр."
     },
     {
       "family": "redkie-eksperimentalnye",
@@ -1170,6 +1179,86 @@
       ],
       "status": "authored",
       "availability": "unconfirmed"
+    },
+    {
+      "slug": "uchebnye-portativnye-klavishnye",
+      "parent": "klavishnye",
+      "role": "category",
+      "sources": [
+        "psre383"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-psr-e383-v-arendu",
+      "parent": "uchebnye-portativnye-klavishnye",
+      "role": "model",
+      "sources": [
+        "psre383"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "roland-gokeys3-v-arendu",
+      "parent": "uchebnye-portativnye-klavishnye",
+      "role": "model",
+      "sources": [
+        "gokeys3"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "lyon-healy-drake-v-arendu",
+      "parent": "leversnaya-arfa",
+      "role": "model",
+      "sources": [
+        "lh_drake"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "parent": "leversnaya-arfa",
+      "role": "model",
+      "sources": [
+        "salvi_mia"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "lyon-healy-ogden-v-arendu",
+      "parent": "leversnaya-arfa",
+      "role": "model",
+      "sources": [
+        "lh_ogden"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-yrs24b-v-arendu",
+      "parent": "blokfleyta",
+      "role": "model",
+      "sources": [
+        "yrs24b"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "eastman-md305-v-arendu",
+      "parent": "mandolina",
+      "role": "model",
+      "sources": [
+        "eastman_md305"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
     }
   ],
   "sources": {
@@ -1747,6 +1836,62 @@
       "country_of_evidence": "TW",
       "kind": "manufacturer",
       "scope": "Beginner tenor trombone .500 bore / 8-inch bell; лёгкость отклика и долговечность заявлены производителем.",
+      "reviewed_on": "2026-10-05"
+    },
+    "psre383": {
+      "title": "Yamaha: PSR-E383 beginner portable keyboard",
+      "url": "https://europe.yamaha.com/en/musical-instruments/keyboards/products/portable-keyboards/psr-e383/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "61-key touch-sensitive keyboard с 3-Step Lesson и Keys To Success; не замена 88-клавишной фортепианной механике.",
+      "reviewed_on": "2026-10-05"
+    },
+    "gokeys3": {
+      "title": "Roland: GO:KEYS 3 Music Creation Keyboard",
+      "url": "https://www.roland.com/global/products/gokeys_3/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Производитель адресует модель начинающим без предыдущего опыта через творческий workflow; не универсальный курс клавишной техники.",
+      "reviewed_on": "2026-10-05"
+    },
+    "lh_drake": {
+      "title": "Lyon & Healy: Drake",
+      "url": "https://www.lyonhealy.com/harps/drake/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_rental",
+      "scope": "34-string light-tension lever harp для начинающих любого возраста; модель входит в официальный rental pool.",
+      "reviewed_on": "2026-10-05"
+    },
+    "salvi_mia": {
+      "title": "Lyon & Healy / Salvi rental program: Salvi Mia",
+      "url": "https://www.lyonhealy.com/rental-program-lever-harps/",
+      "country_of_evidence": "US",
+      "kind": "official_rental",
+      "scope": "34-string Salvi Mia входит в официальный learner rental pool; доступность в США не означает наличие в России.",
+      "reviewed_on": "2026-10-05"
+    },
+    "lh_ogden": {
+      "title": "Lyon & Healy: Ogden",
+      "url": "https://www.lyonhealy.com/harps/ogden/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_rental",
+      "scope": "34-string pedal-tension lever harp для beginners/pro folk; модель входит в rental program.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yrs24b": {
+      "title": "Yamaha: YRS-24B and 20 Series Teacher Approved",
+      "url": "https://www.yamaha.com/US/20-series-recorders/teachers.aspx",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "YRS-24B обозначена как best-selling Baroque-fingering model used in schools worldwide; это заявление производителя.",
+      "reviewed_on": "2026-10-05"
+    },
+    "eastman_md305": {
+      "title": "Eastman: MD305 A-style mandolin",
+      "url": "https://www.eastmanguitars.com/md305",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "Массивные spruce/maple, регулируемый compensated bridge и опубликованный action; производитель не заявляет модель обязательной beginner-мандолиной.",
       "reviewed_on": "2026-10-05"
     }
   }
