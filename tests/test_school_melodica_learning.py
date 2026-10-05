@@ -32,12 +32,13 @@ class SchoolMelodicaTests(unittest.TestCase):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
         self.assertEqual(result['subjects'],1138)
-        self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)\n        self.assertEqual(next(p for p in self.doc['pages'] if p['slug']=='melodika').get('mode'),'enrich')
+        self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
+        self.assertEqual(next(p for p in self.doc['pages'] if p['slug']=='melodika').get('mode'),'enrich')
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
             self.assertTrue(self.page(slug,True).find('h1'))
 
-    def test_category_is_free_reed_child_not_root_family(self):
+    def test_category_keeps_existing_keyboard_parent(self):
         cat=self.page('melodika',True)
         self.assertEqual(cat.select_one('.site-footer a')['href'],'/details/klavishnye/')
         root={a['href'] for a in self.page('',True).select('#razdely a[href]')}
@@ -63,6 +64,7 @@ class SchoolMelodicaTests(unittest.TestCase):
     def test_evidence_and_availability(self):
         self.assertEqual(self.ledger['new_subjects'],3)
         self.assertEqual(len(self.ledger['records']),4)
+        self.assertEqual(next(r for r in self.ledger['records'] if r['slug']=='melodika')['action'],'enrich')
         for rec in self.ledger['records']:
             self.assertEqual(rec['availability'],'unconfirmed')
 
