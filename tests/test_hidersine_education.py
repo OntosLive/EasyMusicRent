@@ -38,7 +38,7 @@ class HidersineEducationTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1115)
+        self.assertEqual(result['subjects'],1121)
         self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
