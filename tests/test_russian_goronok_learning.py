@@ -18,12 +18,23 @@ SLUGS={
  'goronok-kadentsiya-v-arendu',
  'goronok-fantaziya-v-arendu',
  'goronok-aleksey-romanov-v-arendu',
+ 'goronok-nova-alt-v-arendu',
+ 'goronok-kadentsiya-alt-v-arendu',
+ 'goronok-nova-violonchel-v-arendu',
+ 'goronok-kadentsiya-violonchel-v-arendu',
+ 'goronok-nova-kontrabas-v-arendu',
+ 'goronok-kadentsiya-kontrabas-v-arendu',
+ 'goronok-aleksey-romanov-kontrabas-v-arendu',
 }
 
 class RussianGoronokTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.doc=core.read_json(ROOT/'content/sections/zz62-russian-goronok-learning-ladder.json',{})
+        cls.docs=[
+            core.read_json(ROOT/'content/sections/zz62-russian-goronok-learning-ladder.json',{}),
+            core.read_json(ROOT/'content/sections/zz63-goronok-bowed-family-expansion.json',{}),
+        ]
+        cls.pages=[p for d in cls.docs for p in d['pages']]
         cls.ledger=core.read_json(ROOT/'docs/research/russian-goronok-learning-evidence.json',{})
         cls.temp=tempfile.TemporaryDirectory()
         cls.output=Path(cls.temp.name)
@@ -39,8 +50,8 @@ class RussianGoronokTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1077)
-        self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
+        self.assertEqual(result['subjects'],1084)
+        self.assertEqual({p['slug'] for p in self.pages},SLUGS)
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
             self.assertTrue(self.page(slug,True).find('h1'))
@@ -55,7 +66,7 @@ class RussianGoronokTests(unittest.TestCase):
         self.assertNotIn('/smychkovye-goronok/',root)
 
     def test_education_tiers_are_explicit_and_not_flattened(self):
-        text={p['slug']:str(p).casefold() for p in self.doc['pages']}
+        text={p['slug']:str(p).casefold() for p in self.pages}
         for slug in ('goronok-nova-v-arendu','goronok-etyud-v-arendu','goronok-kapris-v-arendu'):
             self.assertIn('ученичес',text[slug])
         for slug in ('goronok-kadentsiya-v-arendu','goronok-fantaziya-v-arendu'):
@@ -65,8 +76,8 @@ class RussianGoronokTests(unittest.TestCase):
         self.assertIn('4/4',text['goronok-aleksey-romanov-v-arendu'])
 
     def test_evidence_scope_and_availability(self):
-        self.assertEqual(self.ledger['new_subjects'],7)
-        self.assertEqual(len(self.ledger['records']),7)
+        self.assertEqual(self.ledger['new_subjects'],14)
+        self.assertEqual(len(self.ledger['records']),14)
         self.assertEqual(self.ledger['sources']['classification']['kind'],'manufacturer_education')
         for r in self.ledger['records']:
             self.assertEqual(r['availability'],'unconfirmed')
