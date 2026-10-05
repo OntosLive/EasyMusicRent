@@ -2,8 +2,9 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1107,
-  "new_subjects": 4,
+  "new_subjects": 3,
   "enriched_subjects": [
+    "yamaha-yep201-v-arendu",
     "akusticheskaya-gitara-po-razmeru-uchenika"
   ],
   "sources": {
@@ -44,7 +45,7 @@
     {
       "slug": "yamaha-yep201-v-arendu",
       "role": "model",
-      "action": "new",
+      "action": "enrich",
       "source_ids": [
         "yep201"
       ],
