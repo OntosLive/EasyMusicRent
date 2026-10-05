@@ -69,7 +69,8 @@
         "cordoba-c1m-3-4-v-arendu"
       ],
       "quality_entries": [
-        "gitara-s-nizkoy-vysotoy-strun"
+        "gitara-s-nizkoy-vysotoy-strun",
+        "klassicheskaya-gitara-po-razmeru-rebenka"
       ],
       "source_ids": [
         "c40",
@@ -98,7 +99,11 @@
       ],
       "quality_entries": [
         "ukulele-so-stroyaschimi-ladami",
-        "narodnyy-instrument-po-trebovaniyam-pedagoga"
+        "narodnyy-instrument-po-trebovaniyam-pedagoga",
+        "domra-po-razmeru-rebenka",
+        "balalayka-po-razmeru-rebenka",
+        "ukulele-so-stabilnymi-kolkami",
+        "gusli-s-diapazonom-po-programme"
       ],
       "source_ids": [
         "action"
@@ -134,7 +139,11 @@
       ],
       "quality_entries": [
         "duhovoy-s-legkim-otklikom",
-        "duhovye-dlya-perehoda-na-professionalnyy-uroven"
+        "duhovye-dlya-perehoda-na-professionalnyy-uroven",
+        "goboy-dlya-nebolshoy-ruki",
+        "fagot-dlya-nebolshoy-ruki",
+        "legkaya-valtorna-rebenku",
+        "tuba-podhodyaschego-razmera-rebenku"
       ],
       "source_ids": [
         "dshi",
@@ -169,7 +178,8 @@
         "tula-etud205m2-v-arendu"
       ],
       "quality_entries": [
-        "bayan-s-legkim-mehom"
+        "bayan-s-legkim-mehom",
+        "bayan-po-razmeru-rebenka"
       ],
       "source_ids": [
         "bravo",
@@ -208,7 +218,10 @@
         "mpkmi-gusli-pikkolo-v-arendu"
       ],
       "quality_entries": [
-        "narodnyy-instrument-po-trebovaniyam-pedagoga"
+        "narodnyy-instrument-po-trebovaniyam-pedagoga",
+        "domra-po-razmeru-rebenka",
+        "balalayka-po-razmeru-rebenka",
+        "gusli-s-diapazonom-po-programme"
       ],
       "source_ids": [
         "tula"
@@ -950,6 +963,111 @@
       "role": "model",
       "sources": [
         "mpkmi_gusli"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "domra-po-razmeru-rebenka",
+      "parent": "domra",
+      "role": "quality",
+      "sources": [
+        "domra_junior"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "balalayka-po-razmeru-rebenka",
+      "parent": "balalayka",
+      "role": "quality",
+      "sources": [
+        "balalaiker_junior",
+        "mpkmi_balalaika"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "klassicheskaya-gitara-po-razmeru-rebenka",
+      "parent": "klassicheskaya-gitara",
+      "role": "quality",
+      "sources": [
+        "cordoba_c1m34",
+        "yamschool"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "ukulele-so-stabilnymi-kolkami",
+      "parent": "ukulele",
+      "role": "quality",
+      "sources": [
+        "kala_classroom",
+        "makala_school"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goboy-dlya-nebolshoy-ruki",
+      "parent": "goboy",
+      "role": "quality",
+      "sources": [
+        "yob241"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "fagot-dlya-nebolshoy-ruki",
+      "parent": "fagot",
+      "role": "quality",
+      "sources": [
+        "fox41"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "legkaya-valtorna-rebenku",
+      "parent": "valtorna",
+      "role": "quality",
+      "sources": [
+        "yhr314"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "tuba-podhodyaschego-razmera-rebenku",
+      "parent": "tuba",
+      "role": "quality",
+      "sources": [
+        "ybb105"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "bayan-po-razmeru-rebenka",
+      "parent": "arenda-bayana-moskva",
+      "role": "quality",
+      "sources": [
+        "tula_bn46",
+        "tula_etud"
+      ],
+      "status": "authored",
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "gusli-s-diapazonom-po-programme",
+      "parent": "gusli",
+      "role": "quality",
+      "sources": [
+        "mirgusley_academic",
+        "mirgusley_children"
       ],
       "status": "authored",
       "availability": "unconfirmed"
