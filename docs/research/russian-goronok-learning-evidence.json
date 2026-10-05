@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1070,
-  "new_subjects": 7,
+  "new_subjects": 14,
   "sources": {
     "classification": {
       "title": "Goronok: краткая классификация инструментов",
@@ -75,6 +75,70 @@
       "kind": "manufacturer_catalog",
       "scope": "Мастеровые модели и доступные дробные/полные размеры.",
       "reviewed_on": "2026-10-05"
+    },
+    "viola_catalog": {
+      "title": "Goronok: каталог альтов",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/al-ty/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_catalog",
+      "scope": "Нова, Каприс, Каденция и мастеровые альты в разных длинах корпуса.",
+      "reviewed_on": "2026-10-05"
+    },
+    "viola_kad": {
+      "title": "Goronok: альт Каденция 406 мм",
+      "url": "https://goronok.ru/shop/al-t-goronok-kadenciya-406-mm/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Студенческая категория альта, размеры и материалы конкретной модели.",
+      "reviewed_on": "2026-10-05"
+    },
+    "cello_catalog": {
+      "title": "Goronok: каталог виолончелей",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_catalog",
+      "scope": "Нова, Каприс, Каденция, Фантазия и мастеровые виолончели, включая 7/8 и разные длины 4/4.",
+      "reviewed_on": "2026-10-05"
+    },
+    "cello_nova": {
+      "title": "Goronok: виолончель Нова 1/2 650 мм",
+      "url": "https://goronok.ru/shop/violonchel-goronok-nova-1-2-650-mm/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Ученическая виолончель, размер и конструкция конкретного варианта.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bass_student": {
+      "title": "Goronok: ученические контрабасы",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/kontrabasy/uchenicheskie-kontrabasy/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_catalog",
+      "scope": "Этюд, Гибрид, Нова, Каприс в учебных размерах; наличие на сайте не подтверждает наличие фонда.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bass_catalog": {
+      "title": "Goronok: каталог контрабасов",
+      "url": "https://goronok.ru/catalog/kontrabasy/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_catalog",
+      "scope": "Ученические, студенческие и мастеровые контрабасы, включая Каденцию и Алексей Романов.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bass_kad": {
+      "title": "Goronok: контрабас Каденция 7/8",
+      "url": "https://goronok.ru/shop/kontrabas-goronok-kadentsiya-7-8/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Студенческий контрабас, solid resonance-wood construction and 7/8 configuration.",
+      "reviewed_on": "2026-10-05"
+    },
+    "bass_romanov": {
+      "title": "Goronok: контрабас Алексей Романов 3/4",
+      "url": "https://goronok.ru/shop/kontrabas-goronok-aleksej-romanov-3-4/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Master-made 3/4/7/8 line addressed by manufacturer to gifted performing children, graduates and college students.",
+      "reviewed_on": "2026-10-05"
     }
   },
   "records": [
@@ -142,12 +206,78 @@
         "master_catalog"
       ],
       "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-nova-alt-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "viola_catalog",
+        "classification"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-kadentsiya-alt-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "viola_kad",
+        "viola_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-nova-violonchel-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "cello_nova",
+        "cello_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-kadentsiya-violonchel-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "cello_catalog",
+        "classification"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-nova-kontrabas-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "bass_student",
+        "bass_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-kadentsiya-kontrabas-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "bass_kad",
+        "bass_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "bass_romanov",
+        "bass_catalog"
+      ],
+      "availability": "unconfirmed"
     }
   ],
   "distinctions": [
     "Учебная категория, размер и конкретный экземпляр являются независимыми координатами.",
     "Manufacturer tier не объявляется государственным стандартом ДМШ.",
     "Мастеровой инструмент может существовать в дробном размере.",
-    "Наличие публичной страницы не подтверждает наличие экземпляра в ONTOS.RENT."
+    "Наличие публичной страницы не подтверждает наличие экземпляра в ONTOS.RENT.",
+    "Goronok educational ladder is applied across violin, viola, cello and double bass, not inferred from violin alone.",
+    "For viola and cello, nominal size/body length is preserved as a separate fitting coordinate.",
+    "For double bass, fractional size and professional tier are independent."
   ]
 }
