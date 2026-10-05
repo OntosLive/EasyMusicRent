@@ -1,0 +1,255 @@
+{
+  "pages": [
+    {
+      "slug": "korg-kronos-2-88-v-arendu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Korg Kronos 2 88 в аренду",
+      "editorial_title": "Korg Kronos 2 88: workstation, который до сих пор приезжает по райдеру",
+      "description": "Korg Kronos 2 88 как профессиональная backline workstation-позиция с 88 клавишами и подготовленной программой артиста.",
+      "kicker": "RIDER CORE · KRONOS 2 · 88",
+      "intro": [
+        "<p>Kronos 2 88 уже относится к поколению клавишных, которое перестало быть новым, но не перестало быть райдерным. Профессиональные прокаты продолжают держать его рядом с Nord, Roland и Yamaha как отдельную workstation-позицию.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / РАЙДЕР",
+          "title": "Название Kronos 2 88 часто означает подготовленную экосистему программы",
+          "paragraphs": [
+            "Если музыкант приезжает с собственными combi, set list и sample-структурой, «любая workstation на 88 клавиш» не решает задачу автоматически. Нужно понимать, будет ли использоваться внутренняя память, USB-носитель и конкретная версия системы."
+          ]
+        },
+        {
+          "label": "02 / КЛАВИАТУРА",
+          "title": "88-клавишная версия не взаимозаменяема с 61 и 73 без согласования",
+          "paragraphs": [
+            "Разница касается и диапазона, и физики исполнения. В райдере цифра 88 имеет собственный смысл: она указывает на полноразмерную клавишную рабочую станцию, а не только на семейство KRONOS."
+          ]
+        },
+        {
+          "label": "03 / ПРОКАТ",
+          "title": "Kronos 2 88 реально живёт в действующих backline-парках",
+          "paragraphs": [
+            "Swiss Backline и другие прокаты продолжают перечислять Kronos 2 88 и Kronos II 88 как отдельные позиции. Значит, страница отвечает существующему языку гастрольного заказа."
+          ]
+        }
+      ],
+      "quote": "Артист использует собственные Kronos-программы или ему нужен только знакомый 88-клавишный workstation?",
+      "sources": [
+        {
+          "title": "Swiss Backline: Korg Kronos 2 88",
+          "url": "https://backline.ch/equipment/"
+        },
+        {
+          "title": "Backline Source: Korg Kronos II 88",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Yamaha Motif XF8 в аренду",
+      "editorial_title": "Yamaha Motif XF8: старый флагман, который райдеры до сих пор не забыли",
+      "description": "Yamaha Motif XF8: 88-key flagship workstation и устойчивый гастрольный backline standard прошлой эпохи.",
+      "kicker": "LEGENDARY RIDER · MOTIF XF8 · 88",
+      "intro": [
+        "<p>Motif XF8 — хороший пример того, почему наш каталог не должен равняться только на актуальный магазин. Модель давно не новая, а прокаты всё ещё держат её как 88-клавишную flagship workstation, потому что огромный пласт концертных программ был построен именно вокруг Motif.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / НАСЛЕДИЕ",
+          "title": "Старый workstation может быть важнее нового аналога",
+          "paragraphs": [
+            "Если программа артиста сохранена в формате Motif XF, современная Yamaha с более мощным движком может оказаться менее удобной заменой. Здесь ценность модели в совместимости с подготовленной работой."
+          ]
+        },
+        {
+          "label": "02 / 88 КЛАВИШ",
+          "title": "XF8 обозначает конкретную сценическую геометрию",
+          "paragraphs": [
+            "В прокате встречаются XF7 и XF8 как разные позиции. Для пианистической партии и split-архитектуры 88-клавишная версия должна подтверждаться отдельно."
+          ]
+        },
+        {
+          "label": "03 / RIDER LEGACY",
+          "title": "Motif XF8 всё ещё присутствует в backline inventory",
+          "paragraphs": [
+            "Warden Rock и другие сервисы продолжают сдавать XF8 как flagship workstation keyboard. Именно такие модели должны жить в Legendary Rider Core даже после окончания активной розничной жизни."
+          ]
+        }
+      ],
+      "quote": "Нужна совместимость с конкретной Motif XF программой или допускается современная workstation после проверки сетапа?",
+      "sources": [
+        {
+          "title": "Warden Rock: Yamaha Motif XF-8 rental",
+          "url": "https://www.wardenrock.co.uk/"
+        },
+        {
+          "title": "Frankly Backline: Yamaha Motif XF8",
+          "url": "https://frankly-backline.com/"
+        }
+      ]
+    },
+    {
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "parent": "hammond-organ",
+      "search_title": "Hammond B3 с Leslie 122 в аренду",
+      "editorial_title": "Hammond B3 + Leslie 122: райдерная связка, которую нельзя разорвать на два случайных предмета",
+      "description": "Hammond B3 и Leslie 122 как классическая органная backline-система для концерта и записи.",
+      "kicker": "LEGENDARY RIDER · HAMMOND B3 · LESLIE 122",
+      "intro": [
+        "<p>Hammond B3 в профессиональном райдере часто существует не один, а как связка с Leslie. Backline Source прямо сдаёт B3 и Leslie 122 как одну прокатную позицию. Поэтому модельная страница должна описывать систему, а не только деревянный органный корпус.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СВЯЗКА",
+          "title": "B3 и Leslie образуют один исполнительский инструмент",
+          "paragraphs": [
+            "Органист управляет не только drawbars и клавиатурами, но и поведением rotary speaker. Если райдер требует Leslie 122, цифровая rotary-эмуляция должна согласовываться как substitute, а не считаться эквивалентом по умолчанию."
+          ]
+        },
+        {
+          "label": "02 / СЦЕНА",
+          "title": "Настоящий B3 требует места, питания и логистики",
+          "paragraphs": [
+            "Это тяжёлая backline-позиция, которая влияет на доступ к сцене, расстановку и время установки. Поэтому наличие B3 нельзя подтверждать отдельно от доставки и конкретного Leslie-комплекта."
+          ]
+        },
+        {
+          "label": "03 / ЛЕГЕНДА",
+          "title": "Профессиональные прокаты специально сохраняют B3 как hard-to-find vintage gear",
+          "paragraphs": [
+            "Backline Musician Services прямо выделяет Hammond B3 среди редких винтажных инструментов, а специализированные парки держат несколько B3 и Leslie 122. Это один из наиболее чистых примеров Legendary Rider Core."
+          ]
+        }
+      ],
+      "quote": "Райдер требует настоящий B3 + Leslie 122 или допускает современный Hammond / rotary substitute?",
+      "sources": [
+        {
+          "title": "Backline Source: Hammond B3 and Leslie 122 rental",
+          "url": "https://www.backlinesource.com/hammond-b3-and-leslie-122"
+        },
+        {
+          "title": "BACKLINE Musician Services: Hammond B3 vintage rental inventory",
+          "url": "https://www.backline.com/"
+        }
+      ]
+    },
+    {
+      "slug": "musser-m55-v-arendu",
+      "parent": "vibrafon",
+      "search_title": "Вибрафон Musser M55 в аренду",
+      "editorial_title": "Musser M55: вибрафон, который прокатчики держат как отдельную оркестрово-джазовую позицию",
+      "description": "Musser M55 vibraphone как профессиональный rental-standard для джаза, студии и концертного backline.",
+      "kicker": "RIDER CORE · VIBRAPHONE · M55",
+      "intro": [
+        "<p>Вибрафон в райдере часто нельзя заменить просто «любым 3-октавным инструментом». Musser M55 встречается в профессиональном прокате по имени, поэтому модель становится самостоятельным адресом для джазовой, студийной и концертной работы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / МОДЕЛЬ",
+          "title": "M55 имеет смысл как конкретная прокатная позиция",
+          "paragraphs": [
+            "Финский Backline Rental перечисляет Musser M55 отдельно от других оркестровых и мелодических ударных. Для нашего фонда это достаточное основание открыть точную модельную страницу."
+          ]
+        },
+        {
+          "label": "02 / КОМПЛЕКТ",
+          "title": "Вибрафон арендуется вместе с мотором, педалью и рамой",
+          "paragraphs": [
+            "Перед выдачей важно подтверждать полный рабочий комплект и транспортную конфигурацию. Отсутствие одной части превращает известную модель в неполный инструмент."
+          ]
+        },
+        {
+          "label": "03 / СЦЕНА",
+          "title": "Джазовая запись и оркестровый концерт предъявляют разные требования",
+          "paragraphs": [
+            "Для джаза важны мотор, скорость vibrato и привычные mallets; для оркестра — диапазон партии, строй и логистика. Модельный адрес должен вести к конкретной музыкальной сцене."
+          ]
+        }
+      ],
+      "quote": "M55 нужен по точному райдеру или главное — профессиональный вибрафон соответствующего диапазона и механики?",
+      "sources": [
+        {
+          "title": "Backline Rental Finland: Musser M55 vibraphone",
+          "url": "https://www.backline.fi/palvelumme"
+        }
+      ]
+    },
+    {
+      "slug": "zildjian-a-series-set-v-arendu",
+      "parent": "tarelki-dlya-ustanovki",
+      "search_title": "Комплект тарелок Zildjian A Series в аренду",
+      "editorial_title": "Zildjian A Series: райдерный набор тарелок лучше собирать по размерам, а не одним названием серии",
+      "description": "Zildjian A Series cymbal pack: hi-hat, crashes, ride и точные размеры как самостоятельная rider-конфигурация.",
+      "kicker": "RIDER CORE · ZILDJIAN A · CYMBAL PACK",
+      "intro": [
+        "<p>Zildjian A — один из базовых языков backline-райдера, но надпись «A Series» ещё не собирает комплект. Прокатчики указывают конкретные New Beat hi-hats, crashes и ride, потому что размеры и тип каждой тарелки являются частью партии барабанщика.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СЕРИЯ",
+          "title": "A Series регулярно присутствует в профессиональном cymbal inventory",
+          "paragraphs": [
+            "On Stage Services держит Zildjian A / A Custom наряду с K / K Custom, а другие backline-компании собирают из A Series готовые packs. Значит, серия — реальная единица выбора, а не только брендовая метка."
+          ]
+        },
+        {
+          "label": "02 / РАЗМЕРЫ",
+          "title": "14-inch New Beats и 21-inch Sweet Ride — это уже конкретный райдер",
+          "paragraphs": [
+            "Даже внутри одной серии hi-hat, crash и ride нужно указывать размерами и типом. Готовый pack можно предложить как starting point, но требования артиста остаются главным источником конфигурации."
+          ]
+        },
+        {
+          "label": "03 / SUBSTITUTE",
+          "title": "A Series и K Series нельзя менять молча",
+          "paragraphs": [
+            "Обе линии профессиональные, но имеют разные музыкальные ожидания. Если нужной тарелки нет, substitute согласуют с барабанщиком по функции и размеру."
+          ]
+        }
+      ],
+      "quote": "Какие точные hi-hat, crash и ride указаны в райдере и допустима ли замена внутри Zildjian?",
+      "sources": [
+        {
+          "title": "On Stage Services: Zildjian A / A Custom and K / K Custom rental inventory",
+          "url": "https://onstageservices.com/backline-rental/drums/"
+        },
+        {
+          "title": "UAP Event Services: Zildjian A Series rental cymbal pack",
+          "url": "https://www.uapevents.com/backline-rental"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "scenicheskie-klavishnye": [
+      {
+        "label": "Korg Kronos 2 88",
+        "href": "/korg-kronos-2-88-v-arendu/"
+      },
+      {
+        "label": "Yamaha Motif XF8",
+        "href": "/yamaha-motif-xf8-v-arendu/"
+      }
+    ],
+    "hammond-organ": [
+      {
+        "label": "Hammond B3 + Leslie 122",
+        "href": "/hammond-b3-leslie-122-v-arendu/"
+      }
+    ],
+    "vibrafon": [
+      {
+        "label": "Musser M55",
+        "href": "/musser-m55-v-arendu/"
+      }
+    ],
+    "tarelki-dlya-ustanovki": [
+      {
+        "label": "Zildjian A Series",
+        "href": "/zildjian-a-series-set-v-arendu/"
+      }
+    ]
+  }
+}
