@@ -31,7 +31,7 @@ class StudentBaritoneHornTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1136)
+        self.assertEqual(result['subjects'],1139)
         self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
