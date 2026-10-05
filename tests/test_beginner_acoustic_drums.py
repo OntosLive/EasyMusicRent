@@ -35,7 +35,7 @@ class BeginnerAcousticDrumTests(unittest.TestCase):
     def test_inventory_and_routes(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1099)
+        self.assertEqual(result['subjects'],1101)
         self.assertEqual({p['slug'] for p in self.doc['pages']},SLUGS)
         for slug in SLUGS:
             self.assertTrue(self.page(slug).find('h1'))
