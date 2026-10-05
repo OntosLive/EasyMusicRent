@@ -12,11 +12,9 @@ import content_inventory as inventory
 
 NEW={
  'smychkovye-eastman',
- 'eastman-va100-v-arendu',
  'eastman-vc100-v-arendu',
- 'eastman-vb80-v-arendu',
 }
-EXISTING='eastman-vl100-v-arendu'
+EXISTING={'eastman-vl100-v-arendu','eastman-va100-v-arendu','eastman-vb80-v-arendu'}
 
 class EastmanStringProgramTests(unittest.TestCase):
     @classmethod
@@ -37,16 +35,17 @@ class EastmanStringProgramTests(unittest.TestCase):
     def test_inventory_and_new_subjects(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1109)
+        self.assertEqual(result['subjects'],1107)
         self.assertEqual({p['slug'] for p in self.doc['pages']},NEW)
-        for slug in NEW|{EXISTING}:
+        for slug in NEW|EXISTING:
             self.assertTrue(self.page(slug).find('h1'))
             self.assertTrue(self.page(slug,True).find('h1'))
 
     def test_existing_vl100_is_linked_not_redeclared(self):
-        self.assertFalse(any(p['slug']==EXISTING for p in self.doc['pages']))
+        self.assertFalse(any(p['slug'] in EXISTING for p in self.doc['pages']))
         links={a['href'] for a in self.page('smychkovye-eastman',True).select('#razdely a[href]')}
-        self.assertIn('/'+EXISTING+'/',links)
+        for slug in EXISTING:
+            self.assertIn('/'+slug+'/',links)
 
     def test_four_bowed_voices_are_connected(self):
         links={a['href'] for a in self.page('smychkovye-eastman',True).select('#razdely a[href]')}
@@ -67,8 +66,8 @@ class EastmanStringProgramTests(unittest.TestCase):
         self.assertEqual(self.ledger['sources']['vb80']['kind'],'manufacturer_school_rental')
 
     def test_evidence_and_availability(self):
-        self.assertEqual(self.ledger['new_subjects'],4)
-        self.assertEqual(self.ledger['existing_subjects'],[EXISTING])
+        self.assertEqual(self.ledger['new_subjects'],2)
+        self.assertEqual(set(self.ledger['existing_subjects']),EXISTING)
         self.assertEqual(len(self.ledger['records']),5)
         for rec in self.ledger['records']:
             self.assertEqual(rec['availability'],'unconfirmed')
