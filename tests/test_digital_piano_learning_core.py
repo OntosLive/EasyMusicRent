@@ -1,4 +1,4 @@
-"""Multi-brand digital-piano learning core remains non-ranked and source-bounded."""
+"""Multi-brand digital-piano learning core enriches mature routes without duplication."""
 from hashlib import sha256
 from pathlib import Path
 import sys
@@ -10,7 +10,8 @@ sys.path.insert(0,str(ROOT/'scripts'))
 import site_core as core
 import content_inventory as inventory
 
-SLUGS={'roland-fp30x-v-arendu','kawai-es120-v-arendu','casio-pxs1100-v-arendu'}
+MODEL_SLUGS={'roland-fp30x-v-arendu','kawai-es120-v-arendu','casio-pxs1100-v-arendu'}
+ALL_SLUGS=MODEL_SLUGS|{'cifrovoe-pianino-dlya-muzykalnoy-shkoly'}
 
 class DigitalPianoLearningCoreTests(unittest.TestCase):
     @classmethod
@@ -28,43 +29,45 @@ class DigitalPianoLearningCoreTests(unittest.TestCase):
     def page(self,slug,deep=False):
         return core.soup((self.output/('details' if deep else '')/slug/'index.html').read_text())
 
-    def test_inventory_and_routes(self):
+    def test_inventory_stays_1090_and_batch_is_enrichment_only(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1093)
-        new={p['slug'] for p in self.doc['pages'] if p.get('mode')!='enrich'}
-        self.assertEqual(new,SLUGS)
-        for slug in SLUGS:
+        self.assertEqual(result['subjects'],1090)
+        self.assertEqual({p['slug'] for p in self.doc['pages']},ALL_SLUGS)
+        self.assertTrue(all(p.get('mode')=='enrich' for p in self.doc['pages']))
+        for p in self.doc['pages']:
+            self.assertFalse({'search_title','editorial_title','parent','intro','blocks'} & p.keys())
+
+    def test_existing_routes_and_editorial_titles_survive(self):
+        expected={
+          'roland-fp30x-v-arendu':'Roland FP-30X: ежедневная практика в переносном формате',
+          'kawai-es120-v-arendu':'Kawai ES120: начать занятия и сохранить мобильность',
+          'casio-pxs1100-v-arendu':'Casio PX-S1100: ежедневные занятия и возможность переезда',
+        }
+        for slug,title in expected.items():
             self.assertTrue(self.page(slug).find('h1'))
-            self.assertTrue(self.page(slug,True).find('h1'))
+            self.assertEqual(core.text(self.page(slug,True).h1),title)
 
-    def test_school_page_is_enriched_not_replaced(self):
-        enrich=[p for p in self.doc['pages'] if p.get('mode')=='enrich']
-        self.assertEqual([p['slug'] for p in enrich],['cifrovoe-pianino-dlya-muzykalnoy-shkoly'])
-        p=enrich[0]
-        self.assertTrue(p['append_intro'])
-        self.assertFalse({'search_title','editorial_title','parent','intro','blocks'} & p.keys())
-
-    def test_peer_models_are_not_ranked(self):
-        text=' '.join(self.page(s,True).get_text(' ',strip=True) for s in SLUGS)
+    def test_learning_layer_is_appended_and_non_ranked(self):
+        text=' '.join(self.page(s,True).get_text(' ',strip=True) for s in MODEL_SLUGS)
         self.assertNotIn('лучшее цифровое пианино',text.casefold())
         self.assertNotIn('победитель',text.casefold())
-        for name in ('FP‑30X','ES120','PX‑S1100'):
-            self.assertIn(name,text)
+        self.assertIn('PHA‑4',text)
+        self.assertIn('Responsive Hammer Compact',text)
+        self.assertIn('Duet',text)
 
-    def test_learning_functions_are_distinct(self):
-        fp=self.page('roland-fp30x-v-arendu',True).get_text(' ',strip=True)
-        es=self.page('kawai-es120-v-arendu',True).get_text(' ',strip=True)
-        px=self.page('casio-pxs1100-v-arendu',True).get_text(' ',strip=True)
-        self.assertIn('PHA‑4',fp)
-        self.assertIn('Responsive Hammer Compact',es)
-        self.assertIn('Duet',px)
+    def test_school_route_links_to_all_three_models(self):
+        links={a['href'] for a in self.page('cifrovoe-pianino-dlya-muzykalnoy-shkoly',True).select('#razdely a[href]')}
+        for slug in MODEL_SLUGS:
+            self.assertIn('/'+slug+'/',links)
 
-    def test_evidence_is_bounded(self):
-        self.assertEqual(self.ledger['new_subjects'],3)
+    def test_evidence_is_bounded_and_enrichment_only(self):
+        self.assertEqual(self.ledger['new_subjects'],0)
+        self.assertEqual(set(self.ledger['enriched_subjects']),ALL_SLUGS)
         self.assertEqual(len(self.ledger['records']),4)
         self.assertEqual(self.ledger['sources']['pianino_ru']['kind'],'specialist_editorial_commercial')
         for record in self.ledger['records']:
+            self.assertEqual(record['action'],'enrich')
             self.assertEqual(record['availability'],'unconfirmed')
 
     def test_compiler_and_css_unchanged(self):
