@@ -54,47 +54,6 @@
       ]
     },
     {
-      "slug": "eastman-va100-v-arendu",
-      "parent": "alt",
-      "search_title": "Альт Samuel Eastman VA100 в аренду",
-      "editorial_title": "Eastman VA100: альт Model 100 от 11 до 16½ дюймов",
-      "description": "Samuel Eastman VA100 viola: solid tonewoods, ebony fittings and sizes 11–16.5 inches for beginning and advancing players.",
-      "kicker": "EASTMAN VA100 · VIOLA · 11–16½ INCH",
-      "intro": [
-        "<p>VA100 Eastman прямо относит к Model 100, ставшей staple of string programs. Для альта особенно важен диапазон размеров: от 11 до 16½ дюймов, что позволяет отделить уровень инструмента от физического роста ученика.</p>"
-      ],
-      "blocks": [
-        {
-          "label": "01 / РАЗМЕР",
-          "title": "11–16½ дюймов дают значительно более тонкую лестницу, чем «детский / взрослый»",
-          "paragraphs": [
-            "На примерке проверяют первую позицию, длину руки и положение плеча. Номинальный размер помогает сузить выбор, но ученик должен реально сыграть на инструменте."
-          ]
-        },
-        {
-          "label": "02 / КОНСТРУКЦИЯ",
-          "title": "Массив ели и клёна рассчитан на beginning и advancing players",
-          "paragraphs": [
-            "Eastman использует резные tonewoods, эбеновую фурнитуру и подставку Despiau. Эти признаки задают класс модели, но не гарантируют одинаковый звук каждого экземпляра."
-          ]
-        },
-        {
-          "label": "03 / ПРОГРАММА",
-          "title": "Альт можно менять по уровню, не переходя сразу на больший корпус",
-          "paragraphs": [
-            "Если текущий инструмент ограничивает кантилену или регистровый баланс, VA100 становится кандидатом. Если проблема только в размере, сначала выбирают подходящую длину корпуса."
-          ]
-        }
-      ],
-      "quote": "Какой размер VA100 даёт ученику свободную первую позицию без потери альтовой функции?",
-      "sources": [
-        {
-          "title": "Eastman: Samuel Eastman VA100",
-          "url": "https://www.eastmanstrings.com/viola/va100/"
-        }
-      ]
-    },
-    {
       "slug": "eastman-vc100-v-arendu",
       "parent": "violonchel",
       "search_title": "Виолончель Samuel Eastman VC100 в аренду",
@@ -132,47 +91,6 @@
         {
           "title": "Eastman: Samuel Eastman VC100",
           "url": "https://www.eastmanstrings.com/cello/vc100/"
-        }
-      ]
-    },
-    {
-      "slug": "eastman-vb80-v-arendu",
-      "parent": "kontrabas",
-      "search_title": "Контрабас Samuel Eastman VB80 в аренду",
-      "editorial_title": "Eastman VB80: школьный и прокатный контрабас от 1/8 до 3/4",
-      "description": "Samuel Eastman VB80: fully laminated school/rental double bass, sizes 1/8–3/4, Rubner Tyrolean brass tuning machines.",
-      "kicker": "EASTMAN VB80 · SCHOOL / RENTAL · 1/8–3/4",
-      "intro": [
-        "<p>VB80 Eastman прямо создаёт для schools, rentals and beginning players. В контрабасе это особенно убедительная модельная функция: полностью ламинированный корпус, широкий размерный ряд и ремонтопригодная механика рассчитаны на реальный школьный оборот.</p>"
-      ],
-      "blocks": [
-        {
-          "label": "01 / РАЗМЕР",
-          "title": "1/8–3/4 позволяют начинать очень рано и расти внутри одной серии",
-          "paragraphs": [
-            "Размер выбирают по мензуре, первой позиции и высоте корпуса. Маленький контрабас должен быть настоящим рабочим инструментом, а не укороченной декоративной копией."
-          ]
-        },
-        {
-          "label": "02 / ДОЛГОВЕЧНОСТЬ",
-          "title": "Полностью ламинированный корпус здесь является осознанной school/rental конструкцией",
-          "paragraphs": [
-            "Eastman прямо связывает laminated top/back/ribs с durability and easy maintenance. Для фонда это сильное преимущество: инструмент должен переживать перевозки и многократные циклы выдачи."
-          ]
-        },
-        {
-          "label": "03 / RUBNER",
-          "title": "Rubner здесь означает механизм, а не происхождение всего контрабаса",
-          "paragraphs": [
-            "В спецификации VB80 стоят Rubner Brass Tuning Machines Tyrolean. Это важное различение: марка на колковой механике описывает комплектующую, а изготовителем корпуса остаётся Eastman."
-          ]
-        }
-      ],
-      "quote": "Нужен школьный устойчивый VB80 или ученик уже вырос до более резонансного step-up контрабаса?",
-      "sources": [
-        {
-          "title": "Eastman: Samuel Eastman VB80",
-          "url": "https://www.eastmanstrings.com/bass/vb80/"
         }
       ]
     }
