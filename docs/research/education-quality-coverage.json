@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 916,
-  "status": "reviewed_increment_not_exhaustive_world_ranking",
+  "status": "reviewed_learning_expansion_1008_not_exhaustive_world_ranking",
   "country_note": "Для manufacturer страна относится к организации-источнику, а не подтверждает национальную педагогическую рекомендацию. Локализация сайта не меняет этот статус.",
   "hubs": [
     "instrument-po-rekomendatsii-prepodavatelya",
@@ -1894,5 +1894,6 @@
       "scope": "Массивные spruce/maple, регулируемый compensated bridge и опубликованный action; производитель не заявляет модель обязательной beginner-мандолиной.",
       "reviewed_on": "2026-10-05"
     }
-  }
+  },
+  "current_subjects": 1008
 }
