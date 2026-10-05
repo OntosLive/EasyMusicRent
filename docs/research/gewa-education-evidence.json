@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1101,
-  "new_subjects": 5,
+  "new_subjects": 4,
   "sources": {
     "strings_catalog": {
       "title": "GEWA: Strings catalog with Student / Advanced / Professional filters",
@@ -53,7 +53,8 @@
       "source_ids": [
         "strings_catalog"
       ],
-      "availability": "unconfirmed"
+      "availability": "unconfirmed",
+      "action": "enrich"
     },
     {
       "slug": "gewa-maestro1-skripka-v-arendu",
