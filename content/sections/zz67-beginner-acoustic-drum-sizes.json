@@ -1,0 +1,171 @@
+{
+  "pages": [
+    {
+      "slug": "yamaha-rydeen-v-arendu",
+      "parent": "barabannaya-ustanovka",
+      "search_title": "Барабанная установка Yamaha RYDEEN в аренду",
+      "editorial_title": "Yamaha RYDEEN: первый акустический сет с двумя размерными конфигурациями",
+      "description": "Yamaha RYDEEN: 5-piece entry acoustic drum set in 20-inch and 22-inch bass-drum configurations for beginners and intermediate players.",
+      "kicker": "RYDEEN · 20 / 22 BASS DRUM · ENTRY KIT",
+      "intro": [
+        "<p>RYDEEN Yamaha прямо адресует начинающим и продолжающим. Для обучения особенно полезно, что серия существует в двух размерах бас-барабана: 20 и 22 дюйма. Это позволяет не считать один стандартный rock-kit единственно правильной геометрией для любого ученика.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 20 ИЛИ 22",
+          "title": "Размер бочки меняет высоту всей передней части установки",
+          "paragraphs": [
+            "На 20-дюймовой конфигурации томы обычно удаётся поставить ниже, что может быть удобнее подростку или невысокому ученику. 22-дюймовый вариант ближе к распространённой взрослой rock-геометрии. Сравнивать полезно сидя за полной установкой, а не по фотографии."
+          ]
+        },
+        {
+          "label": "02 / ПОСАДКА",
+          "title": "Ученик должен доставать до томов без подъёма плеч и вставания со стула",
+          "paragraphs": [
+            "Сначала настраивают высоту стула, малого и педалей, затем томы. Если рука идёт вверх только из-за диаметра бочки, меньшая конфигурация может решить проблему лучше, чем попытка наклонить все барабаны к ребёнку."
+          ]
+        },
+        {
+          "label": "03 / ПЕРВЫЙ АКУСТИЧЕСКИЙ СЕТ",
+          "title": "Entry-level не означает одноразовую установку",
+          "paragraphs": [
+            "Yamaha использует фирменные tom holders и 6-ply poplar shells. Для ученика важнее, что стойки фиксируются, педали не уезжают, а барабаны можно нормально настроить. Конкретный rental-kit проверяют целиком вместе с hardware и тарелками."
+          ]
+        }
+      ],
+      "quote": "Ученику удобнее 20-дюймовая или 22-дюймовая конфигурация после реальной посадки за сетом?",
+      "sources": [
+        {
+          "title": "Yamaha Россия: RYDEEN",
+          "url": "https://ru.yamaha.com/ru/musical-instruments/drums/products/drum-sets/rydeen/"
+        },
+        {
+          "title": "Yamaha USA: RYDEEN for beginner and intermediate players",
+          "url": "https://usa.yamaha.com/products/musical_instruments/drums/ac_drums/drum_sets/rydeen/"
+        }
+      ]
+    },
+    {
+      "slug": "tama-imperialstar-v-arendu",
+      "parent": "barabannaya-ustanovka",
+      "search_title": "Барабанная установка TAMA Imperialstar в аренду",
+      "editorial_title": "TAMA Imperialstar: полный учебный комплект от маленькой сцены до первой группы",
+      "description": "TAMA Imperialstar: complete beginner/intermediate drum kit with 18-inch or 22-inch bass drum options, hardware and optional cymbals.",
+      "kicker": "IMPERIALSTAR · COMPLETE KIT · 18 / 22",
+      "intro": [
+        "<p>Imperialstar TAMA строит как полный комплект, на котором можно начинать и продолжать играть. В японском каталоге серия прямо описана как entry set, а среди вариантов есть обычный 22-дюймовый и компактный 18-дюймовый бас-барабан. Это даёт реальную размерную альтернативу для ученика и небольшого помещения.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 18 ИЛИ 22",
+          "title": "Компактная 18-дюймовая бочка позволяет опустить весь сет",
+          "paragraphs": [
+            "TAMA специально связывает 18-inch configuration с помещениями, где мало места. Для ребёнка это также может дать более низкую геометрию. Производитель использует low-profile snare stand в 18-inch kit, чтобы сохранить рабочую посадку."
+          ]
+        },
+        {
+          "label": "02 / COMPLETE KIT",
+          "title": "Стойки, педаль и стул являются частью одной учебной системы",
+          "paragraphs": [
+            "Imperialstar продаётся как комплект с Stage Master hardware и Iron Cobra 200 pedal, а некоторые версии включают cymbal pack. В аренде состав всё равно подтверждают отдельно, потому что конкретный rental-kit может отличаться от заводской коробки."
+          ]
+        },
+        {
+          "label": "03 / ДАЛЬШЕ НОВИЧКА",
+          "title": "Модель имеет смысл, если не становится тесной сразу после первых занятий",
+          "paragraphs": [
+            "TAMA отмечает, что Imperialstar используют не только начинающие, но и intermediate players. Это не рейтинг качества, а полезная характеристика учебной дистанции: установка способна пережить переход от rudiments к первой группе без обязательной немедленной замены."
+          ]
+        }
+      ],
+      "quote": "Нужен компактный 18-inch kit или стандартный 22-inch set под текущую посадку и помещение?",
+      "sources": [
+        {
+          "title": "TAMA: Imperialstar Drum Kits",
+          "url": "https://www.tama.com/eu/products/detail/imperialstar_drumkit.html"
+        },
+        {
+          "title": "TAMA Japan: Imperialstar как entry-class drum set",
+          "url": "https://www.tama.com/jp/products/detail/imperialstar.html"
+        }
+      ]
+    },
+    {
+      "slug": "barabannaya-ustanovka-ponizhe-dlya-rebenka",
+      "parent": "barabannaya-ustanovka",
+      "search_title": "Барабанная установка пониже для ребёнка в аренду",
+      "editorial_title": "Низкая установка: ребёнок должен играть по барабанам, а не тянуться к ним",
+      "description": "Подбор акустической барабанной установки ребёнку по высоте томов, размеру бас-барабана, низкому малому и рабочей посадке.",
+      "kicker": "НИЖЕ ТОМЫ · 18 / 20 BASS DRUM · РЕБЁНОК",
+      "intro": [
+        "<p>Ребёнок сидит правильно, но до томов приходится тянуться вверх, а малый оказывается почти у груди. Это уже не «плохая техника», а геометрическая проблема установки. Малый бас-барабан 18 или 20 дюймов может опустить томы и сделать весь комплект доступнее.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СТУЛ",
+          "title": "Сначала настраивают высоту таза и педалей",
+          "paragraphs": [
+            "Ноги должны уверенно работать с педалями, а бедро не зажиматься краем стула. Только после этого оценивают высоту малого и томов. Иначе слишком низкий стул может выглядеть как слишком большая установка."
+          ]
+        },
+        {
+          "label": "02 / БОЧКА",
+          "title": "Диаметр bass drum задаёт нижнюю границу установки томов",
+          "paragraphs": [
+            "RYDEEN предлагает 20/22-inch варианты, Imperialstar — в том числе 18-inch kit. Меньшая бочка не обязана звучать хуже для учебной задачи; она прежде всего меняет геометрию и масштаб комплекта."
+          ]
+        },
+        {
+          "label": "03 / ДОСЯГАЕМОСТЬ",
+          "title": "Каждый барабан должен быть достижим без срыва посадки",
+          "paragraphs": [
+            "Ученик играет простой groove и fill по всем томам. Если корпус остаётся на месте, плечи не поднимаются и палочка приходит в центр пластика естественным движением, геометрия подходит."
+          ]
+        }
+      ],
+      "quote": "После правильной настройки стула что всё ещё слишком высоко: малый, rack tom или весь комплект над бочкой?",
+      "sources": [
+        {
+          "title": "Yamaha RYDEEN: 20-inch and 22-inch configurations",
+          "url": "https://usa.yamaha.com/products/musical_instruments/drums/ac_drums/drum_sets/rydeen/"
+        },
+        {
+          "title": "TAMA Imperialstar: 18-inch kit and low-profile snare stand",
+          "url": "https://www.tama.com/eu/products/detail/imperialstar_drumkit.html"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "barabannaya-ustanovka": [
+      {
+        "label": "Yamaha RYDEEN",
+        "href": "/yamaha-rydeen-v-arendu/"
+      },
+      {
+        "label": "TAMA Imperialstar",
+        "href": "/tama-imperialstar-v-arendu/"
+      },
+      {
+        "label": "Пониже для ребёнка",
+        "href": "/barabannaya-ustanovka-ponizhe-dlya-rebenka/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Yamaha RYDEEN",
+        "href": "/yamaha-rydeen-v-arendu/"
+      },
+      {
+        "label": "TAMA Imperialstar",
+        "href": "/tama-imperialstar-v-arendu/"
+      }
+    ],
+    "instrument-po-trebovaniyam-k-kachestvu": [
+      {
+        "label": "Установка пониже для ребёнка",
+        "href": "/barabannaya-ustanovka-ponizhe-dlya-rebenka/"
+      }
+    ]
+  }
+}
