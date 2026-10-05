@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "slug": "yamaha-yfl212-v-arendu",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>Есть и российское институциональное основание для этой student-модели. В отчёте ЦМШ-АИИ за 2025 год YFL‑212 указана среди учебных флейт фонда, а программа развития ДМШ №13 Казани также перечисляет YFL‑212 в материально-технической базе. Это подтверждает реальное использование модели в музыкальном образовании России, но не превращает её в обязательный стандарт всех школ.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha: YFL-212, учебная серия",
+          "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/news/2020/yamaha-student-range.html"
+        },
+        {
+          "title": "ЦМШ-АИИ: отчёт о самообследовании за 2025 год, перечень инструментов",
+          "url": "https://cmsmoscow.ru/upload/iblock/cb4/f3c4nnbrq9wmwm75011gdtw5abacmurk/Otchet-o-samoobsledovanii-TSMSH-za-2025_20.04.2026.pdf"
+        },
+        {
+          "title": "ДМШ №13 Казани: программа развития 2020–2025, материальная база",
+          "url": "https://test-edu.tatar.ru/upload/storage/org5614/files/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F%20%D0%94%D0%9C%D0%A8%20%E2%84%9613%20%D0%BD%D0%B0%202020-2025%D0%B3%D0%B3.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-ycl255-v-arendu",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>YCL‑255 присутствует и в российских учебных фондах. В опубликованном перечне оборудования Ростовского колледжа искусств модель закупалась как учебный кларнет, а в муниципальном перечне имущества Невельского округа отдельно указан YCL‑255. Эти документы подтверждают институциональное использование, а не универсальную рекомендацию каждому ученику.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha: YCL-255 Student Clarinet",
+          "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/news/2020/yamaha-student-range.html"
+        },
+        {
+          "title": "Отчёт учебного учреждения: YCL-255 в перечне закупленных инструментов",
+          "url": "https://rostcons.ru/assets/documents/2022/selfexam2021-1.pdf"
+        },
+        {
+          "title": "Невельский муниципальный округ: перечень имущества с Yamaha YCL-255",
+          "url": "https://www.nevelsk-pravo.ru/documenty/2025/%D0%B8%D1%8E%D0%BB%D1%8C/28/ps-1046-ot-18.07.2025.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-yas280-v-arendu",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>В России YAS‑280 встречается не только в продаже: в 2021 году опубликована закупка одного альт-саксофона Yamaha YAS‑280 для учреждения в Братске, а на Международном конкурсе саксофонистов в Московской области YAS‑280 вручался победителю младшей возрастной группы. Это разные типы свидетельства, но оба показывают модель внутри образовательной и конкурсной инфраструктуры.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha: YAS-280 для начинающих",
+          "url": "https://ca.yamaha.com/en/musical-instruments/brass-woodwinds/products/saxophones/yas-280/"
+        },
+        {
+          "title": "Закупка Yamaha YAS-280, Братск, 2021",
+          "url": "https://poisktenderov.ru/item/223/32110668370/"
+        },
+        {
+          "title": "МОМК им. С.С. Прокофьева: конкурс саксофонистов и YAS-280 для младшей группы",
+          "url": "https://prokofievcollege.ru/life/gallery/"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-yts280-v-arendu",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>YTS‑280 также документирован в российской институциональной среде: в муниципальном перечне имущества Невельского округа указана модель Yamaha YTS‑280. Это подтверждает фактическое присутствие student-tenor в публичном музыкальном фонде, отдельно от технического позиционирования Yamaha.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha: Complete Student Range — YAS/YTS-280",
+          "url": "https://europe.yamaha.com/files/download/brochure/1/325911/student_line.pdf"
+        },
+        {
+          "title": "Невельский муниципальный округ: Yamaha YTS-280 в перечне имущества",
+          "url": "https://www.nevelsk-pravo.ru/documenty/2025/%D0%B8%D1%8E%D0%BB%D1%8C/28/ps-1046-ot-18.07.2025.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-ytr2330-v-arendu",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>Российский учебный контекст подтверждается и свежей закупкой: в 2026 году в перечне музыкальных инструментов для специализированной музыкальной школы Краснодарского края указаны две трубы Yamaha YTR‑2330. Источник закупки показывает реальное институциональное использование, но не сообщает методику выбора конкретного преподавателя.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha: YTR-2330 Student Trumpet",
+          "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/news/2020/yamaha-student-range.html"
+        },
+        {
+          "title": "Закупка музыкальных инструментов ССМШ, Краснодарский край: Yamaha YTR-2330",
+          "url": "https://synapsenet.ru/zakupki/gazprombank/%D0%B0%D0%BF120862%231349040--krasnodarskij-kraj-zakupka-muzikalnih"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-ysl354-v-arendu",
+      "mode": "enrich",
+      "append_intro": [
+        "<p>YSL‑354 зафиксирован и в российской школьной инфраструктуре: программа развития ДМШ №13 Казани перечисляет тенор-тромбон Yamaha YSL‑354E среди имеющихся инструментов. Это подтверждает использование семейства 354 в музыкальной школе и дополняет техническое описание модели практическим контекстом.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha: YSL-354 Student Tenor Trombone",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-354/index.html"
+        },
+        {
+          "title": "ДМШ №13 Казани: Yamaha YSL-354E в материальной базе",
+          "url": "https://test-edu.tatar.ru/upload/storage/org5614/files/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F%20%D0%94%D0%9C%D0%A8%20%E2%84%9613%20%D0%BD%D0%B0%202020-2025%D0%B3%D0%B3.pdf"
+        }
+      ]
+    }
+  ],
+  "navigation": {}
+}
