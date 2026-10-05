@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1105,
+  "new_subjects": 4,
+  "existing_subjects": [
+    "eastman-vl100-v-arendu"
+  ],
+  "sources": {
+    "vl100": {
+      "title": "Eastman: Samuel Eastman VL100",
+      "url": "https://www.eastmanstrings.com/violin/vl100/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Model 100 violin described as a staple of string programs and suitable for beginning and advancing players; manufacturer claim.",
+      "reviewed_on": "2026-10-05"
+    },
+    "va100": {
+      "title": "Eastman: Samuel Eastman VA100",
+      "url": "https://www.eastmanstrings.com/viola/va100/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Model 100 viola with 11–16.5 inch size range for beginning and advancing players.",
+      "reviewed_on": "2026-10-05"
+    },
+    "vc100": {
+      "title": "Eastman: Samuel Eastman VC100",
+      "url": "https://www.eastmanstrings.com/cello/vc100/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Model 100 cello 1/10–4/4; Eastman calls Model 100 a staple of string programs.",
+      "reviewed_on": "2026-10-05"
+    },
+    "vb80": {
+      "title": "Eastman: Samuel Eastman VB80",
+      "url": "https://www.eastmanstrings.com/bass/vb80/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_school_rental",
+      "scope": "Model 80 bass explicitly described as ideal for schools, rentals and beginning players; fully laminated construction and Rubner brass tuning machines.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "smychkovye-eastman",
+      "role": "brand",
+      "source_ids": [
+        "vl100",
+        "va100",
+        "vc100",
+        "vb80"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "eastman-va100-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "va100"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "eastman-vc100-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "vc100"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "eastman-vb80-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "vb80"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "eastman-vl100-v-arendu",
+      "role": "existing_model",
+      "action": "link_existing",
+      "source_ids": [
+        "vl100"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "VL100 already existed and is linked rather than redeclared.",
+    "Model 100 school-program framing is manufacturer evidence, not a universal school standard.",
+    "VB80 school/rental durability is a separate design goal from carved Model 100 instruments.",
+    "Rubner on VB80 refers to tuning machines, not instrument maker."
+  ]
+}
