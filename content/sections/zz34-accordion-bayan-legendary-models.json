@@ -1,0 +1,157 @@
+{
+  "pages": [
+    {
+      "slug": "hohner-gola-v-arendu",
+      "parent": "arenda-akkordeona-moskva",
+      "search_title": "Аккордеон Hohner Gola в аренду",
+      "editorial_title": "Hohner Gola: флагман, который строится вокруг конкретного солиста",
+      "description": "Hohner Gola: individually configured flagship accordion, long-standing soloist reference and handcrafted professional instrument.",
+      "kicker": "LEGENDARY CORE · GOLA · CUSTOM",
+      "intro": [
+        "<p>Gola принципиально отличается от серийной «модели по артикулу». Hohner пишет, что каждый Gola настраивается под индивидуальные требования артиста и строится как уникальный инструмент. Поэтому имя модели задаёт класс и традицию, а конкретный экземпляр всё равно требует подробного паспорта.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ФЛАГМАН",
+          "title": "Gola создавалась как инструмент для самых требовательных солистов",
+          "paragraphs": [
+            "Hohner связывает модель с мастером Giovanni Gola и называет её выбором многочисленных мировых чемпионов. Это настоящий Legendary Core внутри аккордеонного мира."
+          ]
+        },
+        {
+          "label": "02 / ИНДИВИДУАЛЬНОСТЬ",
+          "title": "Две Gola могут быть существенно разными",
+          "paragraphs": [
+            "Покупатель участвует в конфигурации инструмента. Поэтому при аренде нужны точные сведения о правой клавиатуре, басовой системе, регистрах, строе и фактическом весе экземпляра."
+          ]
+        },
+        {
+          "label": "03 / ИСТОРИЯ",
+          "title": "Имя модели живёт и за пределами академического аккордеона",
+          "paragraphs": [
+            "Hohner напоминает даже о Gola в руках John Lennon на репетиции Our World 1967. Но для фонда важнее другое: модель сохраняет статус рабочего профессионального инструмента, а не музейной редкости."
+          ]
+        }
+      ],
+      "quote": "Какая система и конфигурация Gola нужна исполнителю и насколько точным должно быть совпадение с его собственным инструментом?",
+      "sources": [
+        {
+          "title": "Hohner: Gola",
+          "url": "https://hohner.de/de/instrumente/akkordeons/chromatisch/gola/gola"
+        },
+        {
+          "title": "Hohner Accordion Catalog: Gola individual specification",
+          "url": "https://hohner.de/fileadmin/cat/catalogs/Accordion/pdf/complete.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "pigini-super-bayan-sirius-v-arendu",
+      "parent": "arenda-bayana-moskva",
+      "search_title": "Баян Pigini Super Bayan Sirius в аренду",
+      "editorial_title": "Pigini Super Bayan Sirius: концертный баян как большая свободнобасовая система",
+      "description": "Pigini Super Bayan Sirius: 106-button right manual, 64 tones, 58 free basses, 120 standard basses and cassotto.",
+      "kicker": "PRO CORE · SUPER BAYAN SIRIUS · FREE BASS",
+      "intro": [
+        "<p>Super Bayan Sirius относится к инструментам, где слово «баян» уже слишком широко. Pigini строит его как топовый концертный convertor с огромным диапазоном, cassotto и свободным басом, рассчитанный на консерваторскую и конкурсную практику.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ПРАВАЯ РУКА",
+          "title": "106 кнопок и диапазон 64 тона задают полноценную концертную систему",
+          "paragraphs": [
+            "Исполнителю важно проверить не только диапазон, но и конкретную раскладку, расстояния и chin registers. Такой инструмент нельзя выдавать вместо привычного концертного баяна без пробного периода."
+          ]
+        },
+        {
+          "label": "02 / ЛЕВАЯ РУКА",
+          "title": "58 free-bass нот и 120 standard basses образуют две разные рабочие системы",
+          "paragraphs": [
+            "Convertor-механика позволяет переходить между стандартным и выборным басом. Для программы нужно заранее знать, какие режимы и регистры используются."
+          ]
+        },
+        {
+          "label": "03 / RENTAL",
+          "title": "Sirius реально существует в профессиональной аренде",
+          "paragraphs": [
+            "Европейские сервисы предлагают концертные Sirius и Sirius Millennium в rental / rent-to-own формате. Это подтверждает модель как реальный объект временного доступа."
+          ]
+        }
+      ],
+      "quote": "Нужен именно Super Bayan Sirius и какая система правой клавиатуры привычна исполнителю?",
+      "sources": [
+        {
+          "title": "Pigini: Super Bayan Sirius specifications",
+          "url": "https://www.pigini.nl/webwinkel/accordions-en/convertor-en/super-bayan-sirius/?lang=en"
+        },
+        {
+          "title": "Vibe: Pigini professional accordions available for rental",
+          "url": "https://vibe.pl/pigini/akordeony/"
+        }
+      ]
+    },
+    {
+      "slug": "pigini-sirius-kyma-v-arendu",
+      "parent": "arenda-bayana-moskva",
+      "search_title": "Баян Pigini Sirius Kyma в аренду",
+      "editorial_title": "Pigini Sirius Kyma: меньший корпус без отказа от концертной свободнобасовой логики",
+      "description": "Pigini Sirius Kyma: compact professional button accordion with free bass, cassotto and 12 kg body.",
+      "kicker": "CURRENT PRO · SIRIUS KYMA · 12 KG",
+      "intro": [
+        "<p>Sirius Kyma важен как другой тип профессионального запроса: сохранить concert/free-bass возможности, но уменьшить корпус и физическую нагрузку. Pigini прямо связывает конструкцию с экономией энергии исполнителя.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КОМПАКТНОСТЬ",
+          "title": "41 × 22.5 см и около 12 кг меняют физику длинной программы",
+          "paragraphs": [
+            "Для музыканта, которому большой концертный баян начинает мешать телесно, Kyma может быть не компромиссом, а более точным инструментом."
+          ]
+        },
+        {
+          "label": "02 / СИСТЕМА",
+          "title": "92 кнопки, 55 нот и free bass всё равно требуют точного совпадения раскладки",
+          "paragraphs": [
+            "Меньший корпус не делает инструмент универсальным. Правую систему и левую convertor-логику проверяют с конкретным исполнителем."
+          ]
+        },
+        {
+          "label": "03 / ПРОФЕССИОНАЛЬНАЯ ЛИНИЯ",
+          "title": "Kyma находится внутри Sirius-family, а не учебной серии",
+          "paragraphs": [
+            "Pigini относит её к профессиональному классу и сохраняет cassotto и концертную функциональность."
+          ]
+        }
+      ],
+      "quote": "Нужна компактность Kyma из-за длительной программы или артисту важнее максимальный диапазон большого Super Bayan Sirius?",
+      "sources": [
+        {
+          "title": "Pigini: Sirius Kyma specifications and ergonomics",
+          "url": "https://www.pigini.nl/webwinkel/accordions-en/convertor-en/sirius-kyma/?lang=en"
+        },
+        {
+          "title": "Pigini professional model range",
+          "url": "https://www.pigini.nl/product-categorie/accordions-en/professional-en/?lang=en"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "arenda-akkordeona-moskva": [
+      {
+        "label": "Hohner Gola",
+        "href": "/hohner-gola-v-arendu/"
+      }
+    ],
+    "arenda-bayana-moskva": [
+      {
+        "label": "Pigini Super Bayan Sirius",
+        "href": "/pigini-super-bayan-sirius-v-arendu/"
+      },
+      {
+        "label": "Pigini Sirius Kyma",
+        "href": "/pigini-sirius-kyma-v-arendu/"
+      }
+    ]
+  }
+}
