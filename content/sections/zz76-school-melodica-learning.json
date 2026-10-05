@@ -1,0 +1,222 @@
+{
+  "pages": [
+    {
+      "slug": "melodika",
+      "parent": "bayan-akkordeon",
+      "search_title": "Мелодика в аренду",
+      "editorial_title": "Мелодика: клавиатура, дыхание и школьная переносимость в одном инструменте",
+      "description": "Мелодики и pianica для обучения, ансамбля и первых клавишно-духовых занятий: 32-key alto models, mouthpieces, cases and school use.",
+      "kicker": "MELODICA · PIANICA · SCHOOL",
+      "intro": [
+        "<p>Мелодика соединяет знакомую клавиатурную карту с дыханием язычкового инструмента. В японском школьном образовании такие инструменты используются с 1960-х, а Yamaha и Suzuki продолжают выпускать отдельные образовательные серии. Для первого выбора важны диапазон, вес, мундштук и удобство ежедневной переноски.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 32 КЛАВИШИ",
+          "title": "Альтовый 32-клавишный формат стал устойчивой школьной точкой",
+          "paragraphs": [
+            "Suzuki прямо рекомендует 32-клавишные alto models для детсадов и начальной школы, если учреждение не требует другую модель. Yamaha P‑32D также использует 32 клавиши и широкий диапазон для класса и ансамбля."
+          ]
+        },
+        {
+          "label": "02 / ДЫХАНИЕ",
+          "title": "Клавиша не звучит без ровного воздушного потока",
+          "paragraphs": [
+            "Ученик одновременно учится пальцам и дыханию. Поэтому слишком тугой или негерметичный инструмент способен маскировать реальный прогресс. На пробе играют одну ноту тихо, затем простую гамму и короткую фразу."
+          ]
+        },
+        {
+          "label": "03 / ПЕРЕНОСКА",
+          "title": "Кейс и вес являются частью школьной функции",
+          "paragraphs": [
+            "Yamaha исторически продавала Pianica вместе с футляром для переноски в школу, Suzuki также строит учебные модели вокруг ежедневного транспорта. Для ребёнка важно, чтобы инструмент можно было самостоятельно носить и безопасно собирать."
+          ]
+        }
+      ],
+      "quote": "Школа требует конкретную модель или достаточно 32-клавишной альтовой мелодики с удобным кейсом?",
+      "sources": [
+        {
+          "title": "Yamaha Innovation Road: P-32D and school education history",
+          "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/2017/"
+        },
+        {
+          "title": "Suzuki FAQ: 32-key alto models for kindergarten and primary school",
+          "url": "https://www.suzuki-music.co.jp/support/faq/?question_id=22924"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-p32d-v-arendu",
+      "parent": "melodika",
+      "search_title": "Yamaha P-32D Pianica в аренду",
+      "editorial_title": "Yamaha P‑32D: школьная Pianica, которая давно вышла за пределы первого урока",
+      "description": "Yamaha P-32D Pianica: 32 keys, F3-C6 range, classroom/home/performance use and long school-education lineage.",
+      "kicker": "YAMAHA P‑32D · 32 KEYS · PIANICA",
+      "intro": [
+        "<p>P‑32D — не просто старая школьная модель. Yamaha документирует Pianica в образовании с 1960-х, а P‑32D с 32 клавишами и диапазоном F3–C6 подходит для класса, дома и ансамблевой игры. Модель остаётся понятным ориентиром там, где школа уже привыкла к Pianica-системе.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДИАПАЗОН",
+          "title": "32 клавиши дают 2⅔ октавы для более длинной учебной траектории",
+          "paragraphs": [
+            "Диапазон F3–C6 позволяет не менять инструмент сразу после первых песен. Для ансамбля и более сложных мелодий это заметное преимущество перед совсем короткими учебными клавиатурами."
+          ]
+        },
+        {
+          "label": "02 / КЛАСС",
+          "title": "Yamaha прямо указывает classroom, home и performance use",
+          "paragraphs": [
+            "Это полезная образовательная универсальность: один инструмент может сначала жить на уроке, затем в домашней практике и позже в ансамбле. Конкретный ученик всё равно проверяет вес и сопротивление воздуха."
+          ]
+        },
+        {
+          "label": "03 / КЕЙС",
+          "title": "Историческая школьная логика включает ежедневную переноску",
+          "paragraphs": [
+            "Yamaha отмечает, что Pianica традиционно продавались с футлярами именно для дороги в школу и обратно. В аренде кейс остаётся обязательной частью рабочего комплекта."
+          ]
+        }
+      ],
+      "quote": "P‑32D нужна именно как привычная школьная Pianica или школа допускает другую 32-клавишную альтовую мелодику?",
+      "sources": [
+        {
+          "title": "Yamaha: P-32D overview",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Yamaha Innovation Road: Pianica school history",
+          "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/2017/"
+        }
+      ]
+    },
+    {
+      "slug": "suzuki-m32c-v-arendu",
+      "parent": "melodika",
+      "search_title": "Suzuki M-32C Melodion в аренду",
+      "editorial_title": "Suzuki M‑32C: long-seller образовательной мелодики с 32-клавишным альтовым диапазоном",
+      "description": "Suzuki M-32C Alto Melodion: 32 keys, steel cover, phosphor-bronze reeds, educational long-seller and school-use standard model.",
+      "kicker": "SUZUKI M‑32C · EDUCATIONAL · 32 KEYS",
+      "intro": [
+        "<p>M‑32C Suzuki прямо называет standard melodion for educational instrument и long-seller. Это очень сильный «золотой» учебный ориентир: не потому, что он должен заменить Yamaha, а потому что существует как отдельная многолетняя школьная система с сервисом, мундштуками и кейсами.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / 32 КЛАВИШИ",
+          "title": "f–c³ дают стандартный альтовый школьный диапазон",
+          "paragraphs": [
+            "Suzuki рекомендует именно 32-key alto format для детсадов и начальной школы, если учреждение не задаёт свою модель. Это функциональная причина, а не просто популярность артикула."
+          ]
+        },
+        {
+          "label": "02 / МУНДШТУКИ",
+          "title": "Стоя и за столом инструмент может использовать разные способы подачи воздуха",
+          "paragraphs": [
+            "M‑32C комплектуется коротким и гибким мундштуками. На уроке это позволяет играть в разных посадках, но ученик должен понимать, как меняется дыхание и положение корпуса."
+          ]
+        },
+        {
+          "label": "03 / СЕРВИС",
+          "title": "Образовательная серия ценна наличием сменных частей и понятной экосистемы",
+          "paragraphs": [
+            "Suzuki поддерживает мундштуки, кейсы и другие аксессуары. Для школьного фонда это важнее модного цвета: инструмент должен переживать много учебных циклов и оставаться ремонтопригодным."
+          ]
+        }
+      ],
+      "quote": "Нужна M‑32C как конкретная школьная модель или достаточно 32-key Suzuki с той же методической логикой?",
+      "sources": [
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        },
+        {
+          "title": "Suzuki FAQ: 32-key alto recommendation for schools",
+          "url": "https://www.suzuki-music.co.jp/support/faq/?question_id=22924"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-32-klavishi-dlya-shkoly",
+      "parent": "melodika",
+      "search_title": "Мелодика 32 клавиши для школы в аренду",
+      "editorial_title": "32 клавиши: школьной мелодике нужен диапазон, который переживёт первые песни",
+      "description": "32-key alto melodica for kindergarten, primary school and early ensemble learning, independent of brand.",
+      "kicker": "32 KEYS · ALTO · SCHOOL",
+      "intro": [
+        "<p>Если школа не назвала точную модель, Suzuki рекомендует начинать с 32-клавишной мелодики альтового диапазона. Это хороший пример запроса по функции: не «купите M‑32C», а «нужен диапазон и формат, которые соответствуют школьной программе».</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ДИАПАЗОН",
+          "title": "32 клавиши дают больше пространства, чем самые маленькие детские модели",
+          "paragraphs": [
+            "Ученик может пройти первые песни и перейти к ансамблевым партиям без немедленной смены инструмента. При этом корпус остаётся достаточно компактным для школьной переноски."
+          ]
+        },
+        {
+          "label": "02 / АЛЬТОВЫЙ РЕГИСТР",
+          "title": "Средний регистр удобен для детского ансамбля и массовых учебных материалов",
+          "paragraphs": [
+            "Suzuki выделяет alto 32-key как исходную школьную точку. Если конкретная программа требует soprano, bass или другого диапазона, правило перестаёт быть релевантным."
+          ]
+        },
+        {
+          "label": "03 / БРЕНД",
+          "title": "Yamaha и Suzuki показывают два разных, но совместимых школьных маршрута",
+          "paragraphs": [
+            "P‑32D и M‑32C обе дают 32 клавиши, но отличаются весом, материалом корпуса и экосистемой аксессуаров. Выбор бренда можно делать после того, как школьная функция уже понятна."
+          ]
+        }
+      ],
+      "quote": "Школа требует конкретную модель или только 32-клавишный альтовый формат?",
+      "sources": [
+        {
+          "title": "Suzuki FAQ: choosing melodion for kindergarten/primary school",
+          "url": "https://www.suzuki-music.co.jp/support/faq/?question_id=22924"
+        },
+        {
+          "title": "Yamaha: P-32D classroom use",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "bayan-akkordeon": [
+      {
+        "label": "Мелодика / Pianica",
+        "href": "/melodika/"
+      }
+    ],
+    "melodika": [
+      {
+        "label": "Yamaha P-32D",
+        "href": "/yamaha-p32d-v-arendu/"
+      },
+      {
+        "label": "Suzuki M-32C",
+        "href": "/suzuki-m32c-v-arendu/"
+      },
+      {
+        "label": "32 клавиши для школы",
+        "href": "/melodika-32-klavishi-dlya-shkoly/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Yamaha P-32D",
+        "href": "/yamaha-p32d-v-arendu/"
+      },
+      {
+        "label": "Suzuki M-32C",
+        "href": "/suzuki-m32c-v-arendu/"
+      }
+    ],
+    "instrument-po-trebovaniyam-k-kachestvu": [
+      {
+        "label": "Мелодика 32 клавиши",
+        "href": "/melodika-32-klavishi-dlya-shkoly/"
+      }
+    ]
+  }
+}
