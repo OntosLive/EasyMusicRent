@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1070,
+  "new_subjects": 7,
+  "sources": {
+    "classification": {
+      "title": "Goronok: краткая классификация инструментов",
+      "url": "https://goronok.ru/kratkaya-klassifikaciya-instrumentov/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_education",
+      "scope": "Производитель делит инструменты на ученические, студенческие и профессиональные линии. Классификация изготовителя, не государственный образовательный стандарт.",
+      "reviewed_on": "2026-10-05"
+    },
+    "student_catalog": {
+      "title": "Goronok: ученические скрипки",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/skripki/uchenicheskie-skripki/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_catalog",
+      "scope": "Нова, Этюд и Каприс в дробных размерах; категория предназначена для начинающих и учащихся музыкальных школ.",
+      "reviewed_on": "2026-10-05"
+    },
+    "student_catalog2": {
+      "title": "Goronok: студенческие скрипки",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/skripki/studencheskie-skripki/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_catalog",
+      "scope": "Каденция и Фантазия в дробных и полных размерах; производитель связывает категорию с колледжами и развивающимися музыкантами.",
+      "reviewed_on": "2026-10-05"
+    },
+    "nova": {
+      "title": "Goronok: Нова 1/10",
+      "url": "https://goronok.ru/shop/skripka-goronok-nova-1-10/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Конкретная модель Нова: размер, материалы, комплектующие и beginner/student framing.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kapris": {
+      "title": "Goronok: Каприс 1/8",
+      "url": "https://goronok.ru/shop/skripka-goronok-kapris-1-8/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Конкретная модель Каприс и её позиционирование для развивающихся школьников.",
+      "reviewed_on": "2026-10-05"
+    },
+    "kadenz": {
+      "title": "Goronok: Каденция 1/8",
+      "url": "https://goronok.ru/shop/skripka-goronok-kadenciya-1-8/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Каденция как step-up/studencheskaya model for school pupils, applicants and college students.",
+      "reviewed_on": "2026-10-05"
+    },
+    "fant": {
+      "title": "Goronok: Фантазия 3/4",
+      "url": "https://goronok.ru/shop/skripka-goronok-fantaziya-3-4/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Фантазия для серьёзных выступлений/конкурсов; производительский claim, не независимая рекомендация.",
+      "reviewed_on": "2026-10-05"
+    },
+    "romanov": {
+      "title": "Goronok: Алексей Романов 1/8",
+      "url": "https://goronok.ru/shop/skripka-goronok-aleksej-romanov-1-8/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_product",
+      "scope": "Мастеровой инструмент в дробных размерах; адресуется производителем одарённым детям, выпускникам ДМШ и студентам колледжей.",
+      "reviewed_on": "2026-10-05"
+    },
+    "master_catalog": {
+      "title": "Goronok: мастеровые скрипки",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/skripki/masterovye-skripki/",
+      "country_of_evidence": "RU",
+      "kind": "manufacturer_catalog",
+      "scope": "Мастеровые модели и доступные дробные/полные размеры.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "smychkovye-goronok",
+      "role": "brand",
+      "source_ids": [
+        "classification",
+        "student_catalog",
+        "student_catalog2",
+        "master_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-nova-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "nova",
+        "student_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-etyud-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "student_catalog",
+        "classification"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-kapris-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "kapris",
+        "student_catalog"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-kadentsiya-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "kadenz",
+        "student_catalog2"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-fantaziya-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "fant",
+        "student_catalog2"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "romanov",
+        "master_catalog"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Учебная категория, размер и конкретный экземпляр являются независимыми координатами.",
+    "Manufacturer tier не объявляется государственным стандартом ДМШ.",
+    "Мастеровой инструмент может существовать в дробном размере.",
+    "Наличие публичной страницы не подтверждает наличие экземпляра в ONTOS.RENT."
+  ]
+}
