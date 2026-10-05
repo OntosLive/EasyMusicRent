@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "slug": "fender-american-professional-ii-telecaster-v-arendu",
+      "parent": "elektrogitara",
+      "search_title": "Fender American Professional II Telecaster в аренду",
+      "editorial_title": "American Professional II Telecaster: два сингла, фиксированный бридж и райдерный Tele",
+      "description": "Fender American Professional II Telecaster: два V-Mod II single-coil, фиксированный top-load/string-through bridge и знакомая Telecaster-логика.",
+      "kicker": "RIDER CORE · TELECASTER · 2 SINGLE-COIL",
+      "intro": [
+        "<p>Telecaster в райдере — это не «ещё один Fender». Музыкант ожидает два сингла, фиксированный бридж и очень прямую связь между атакой правой руки и звуком. American Professional II — современная профессиональная версия этой схемы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СХЕМА",
+          "title": "Два single-coil и трёхпозиционный выбор задают простой рабочий язык",
+          "paragraphs": [
+            "Если артист использует характерный bridge twang или neck-позицию Telecaster, Stratocaster и гитара с хамбакерами уже не являются нейтральной заменой. Это отдельная электрическая архитектура."
+          ]
+        },
+        {
+          "label": "02 / БРИДЖ",
+          "title": "Фиксированный Tele bridge меняет ощущение атаки относительно Strat",
+          "paragraphs": [
+            "American Professional II использует top-load/string-through bridge с компенсированными латунными saddles. Для проката это означает устойчивую фиксированную точку опоры без тремоло-механики."
+          ]
+        },
+        {
+          "label": "03 / РАЙДЕР",
+          "title": "Telecaster регулярно фигурирует рядом со Stratocaster как самостоятельная rental-позиция",
+          "paragraphs": [
+            "Профессиональные прокаты держат несколько Tele и Strat одновременно. Это подтверждает, что модельный вход отражает реальную практику, а не дробит одну категорию ради SEO."
+          ]
+        }
+      ],
+      "quote": "Нужен классический Tele с двумя single-coil или допустима Deluxe / humbucker-конфигурация?",
+      "sources": [
+        {
+          "title": "Fender: American Professional II Telecaster",
+          "url": "https://ch.fender.com/en/products/american-professional-ii-telecaster"
+        },
+        {
+          "title": "ATX Backline: Fender Telecaster в прокатном парке",
+          "url": "https://www.atxbackline.com/instruments-1"
+        }
+      ]
+    },
+    {
+      "slug": "fender-american-professional-ii-precision-bass-v-arendu",
+      "parent": "bas-gitara",
+      "search_title": "Fender American Professional II Precision Bass в аренду",
+      "editorial_title": "American Professional II Precision Bass: один split-coil и понятная басовая опора",
+      "description": "Fender American Professional II Precision Bass: 34, один V-Mod II split-coil, volume/tone и классическая P Bass геометрия.",
+      "kicker": "RIDER CORE · PRECISION BASS · SPLIT-COIL",
+      "intro": [
+        "<p>Precision Bass в райдере обычно нужен именно за отсутствие лишних развилок: один split-coil, одна основная точка звука и знакомая 34-дюймовая геометрия. American Professional II переносит эту классическую схему в современный профессиональный инструмент.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ОДИН ГОЛОС",
+          "title": "Split-coil и volume/tone оставляют партию без сложной электроники",
+          "paragraphs": [
+            "P Bass выбирают не потому, что он «проще Jazz Bass», а потому что его простая пассивная схема сама является звуковым решением. Если райдер требует Precision, активный двухдатчиковый бас меняет исходную конструкцию."
+          ]
+        },
+        {
+          "label": "02 / ГРИФ",
+          "title": "Профиль ’63 P Bass входит в современную модель как узнаваемая геометрия",
+          "paragraphs": [
+            "American Professional II использует 34-дюймовую мензуру и профиль грифа ’63 P Bass. Для временной замены это помогает сохранить знакомую работу левой руки."
+          ]
+        },
+        {
+          "label": "03 / БЭКЛАЙН",
+          "title": "Precision и Jazz Bass должны существовать в каталоге отдельно",
+          "paragraphs": [
+            "Прокаты держат оба Fender-референса как самостоятельные позиции. Наш каталог должен позволять заказать именно P Bass, а не проходить через общий разговор о «бас-гитаре»."
+          ]
+        }
+      ],
+      "quote": "Нужен пассивный Precision Bass с одним split-coil или допустим PJ / активный вариант?",
+      "sources": [
+        {
+          "title": "Fender: American Professional II Precision Bass",
+          "url": "https://www.fender.com/products/american-professional-ii-precision-bass"
+        },
+        {
+          "title": "ATX Backline: Fender P Bass и J Bass в парке",
+          "url": "https://www.atxbackline.com/instruments-1"
+        }
+      ]
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "parent": "akusticheskaya-gitara",
+      "search_title": "Gibson J-45 в аренду",
+      "editorial_title": "Gibson J-45: round-shoulder акустика, которую индустрия давно знает по имени",
+      "description": "Gibson J-45: iconic round-shoulder acoustic, mid-rich tone, современная электроника в road-ready версиях и реальная backline-позиция.",
+      "kicker": "LEGENDARY CORE · J-45 · ROUND SHOULDER",
+      "intro": [
+        "<p>J-45 занимает рядом с Martin D-28 другую акустическую нишу. Gibson сам называет round-shoulder J-45 industry standard, а прокатные парки держат эту модель по имени — часто уже с установленным сценическим pickup.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ФОРМА",
+          "title": "Round shoulder задаёт другой акустический ответ, чем Dreadnought D-28",
+          "paragraphs": [
+            "Запрос на J-45 имеет смысл сохранять как отдельную модельную ветвь. Музыкант может искать именно эту посадку, середину и характер атаки, а не любую профессиональную акустику."
+          ]
+        },
+        {
+          "label": "02 / СЦЕНА",
+          "title": "Прокатный J-45 часто уже подготовлен к подключению",
+          "paragraphs": [
+            "В профессиональном backline встречаются J-45 с установленным L.R. Baggs. Но наличие конкретной электроники нельзя предполагать по названию модели: это свойство отдельного rental-экземпляра и его нужно подтвердить."
+          ]
+        },
+        {
+          "label": "03 / РАЙДЕР",
+          "title": "J-45 стоит рядом с D-28 как самостоятельный акустический стандарт",
+          "paragraphs": [
+            "Если артист допускает substitute, полезно выяснить, важнее ли именно J-45 или общий профессиональный round-shoulder характер. Иначе замена на D-28 может быть качественной, но музыкально другой."
+          ]
+        }
+      ],
+      "quote": "В райдере обязателен именно J-45 и должен ли экземпляр иметь встроенный pickup?",
+      "sources": [
+        {
+          "title": "Gibson: J-45 Acoustic Guitars — industry standard",
+          "url": "https://www.gibson.com/collections/gibson-j-45-acoustic-guitars"
+        },
+        {
+          "title": "Backline Rental Finland: Gibson J-45 с L.R. Baggs",
+          "url": "https://www.backline.fi/palvelumme"
+        }
+      ]
+    },
+    {
+      "slug": "ludwig-black-beauty-v-arendu",
+      "parent": "malyy-baraban",
+      "search_title": "Ludwig Black Beauty в аренду",
+      "editorial_title": "Ludwig Black Beauty: малый барабан, который сам стал райдерным именем",
+      "description": "Ludwig Black Beauty: seamless brass shell, black nickel, 14x5 / 14x6.5 и легендарный студийно-сценический snare standard.",
+      "kicker": "LEGENDARY CORE · SNARE · BLACK BEAUTY",
+      "intro": [
+        "<p>Black Beauty — один из тех малых барабанов, которые артист может указать в райдере без пояснений. Ludwig десятилетиями называет его легендарным профессиональным snare, а прокаты держат Black Beauty среди основных барабанных вариантов.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / КОРПУС",
+          "title": "Seamless brass shell — ядро конструкции",
+          "paragraphs": [
+            "Классическая Black Beauty строится из цельного латунного листа, формируется в бесшовный shell и получает black nickel finish. Эта конструкция даёт модели собственный устойчивый референс вне конкретного года выпуска."
+          ]
+        },
+        {
+          "label": "02 / РАЗМЕР",
+          "title": "Black Beauty без глубины ещё не полный райдер",
+          "paragraphs": [
+            "Наиболее распространены 14x5 и 14x6.5, и это уже разные рабочие инструменты по ощущению и глубине. В заказе нужно сохранить точный размер, тип hoops и желательную настройку."
+          ]
+        },
+        {
+          "label": "03 / ПРОКАТ",
+          "title": "Модель реально существует как отдельная backline-позиция",
+          "paragraphs": [
+            "Прокатчики перечисляют Black Beauty по имени рядом с Supraphonic и DW snares. Поэтому наш адрес отражает настоящий язык барабанщика и техрайдера."
+          ]
+        }
+      ],
+      "quote": "Какой размер Black Beauty нужен — 14x5 или 14x6.5 — и какая настройка ожидается?",
+      "sources": [
+        {
+          "title": "Ludwig: Black Beauty — legendary brass snare",
+          "url": "https://www.ludwig-drums.com/application/files/8014/6531/8340/AV8142_2009.pdf"
+        },
+        {
+          "title": "PCE Backline: Ludwig Black Beauty rental snare",
+          "url": "https://www.gopce.com/backline/vintage"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "elektrogitara": [
+      {
+        "label": "Fender American Professional II Telecaster",
+        "href": "/fender-american-professional-ii-telecaster-v-arendu/"
+      }
+    ],
+    "bas-gitara": [
+      {
+        "label": "Fender American Professional II Precision Bass",
+        "href": "/fender-american-professional-ii-precision-bass-v-arendu/"
+      }
+    ],
+    "akusticheskaya-gitara": [
+      {
+        "label": "Gibson J-45",
+        "href": "/gibson-j45-v-arendu/"
+      }
+    ],
+    "malyy-baraban": [
+      {
+        "label": "Ludwig Black Beauty",
+        "href": "/ludwig-black-beauty-v-arendu/"
+      }
+    ]
+  }
+}
