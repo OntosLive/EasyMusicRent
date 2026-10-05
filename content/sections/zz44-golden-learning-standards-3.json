@@ -2,9 +2,9 @@
   "pages": [
     {
       "slug": "yamaha-p225-v-arendu",
-      "parent": "cifrovoe-pianino-yamaha",
-      "search_title": "Yamaha P-225 в аренду",
-      "editorial_title": "Yamaha P‑225: современное цифровое пианино для серьёзного начала и регулярной практики",
+      "parent": "cifrovoe-pianino",
+      "search_title": "Yamaha P-225 в аренду в Москве",
+      "editorial_title": "Yamaha P-225, когда переносное пианино уже не должно ощущаться временной уступкой",
       "description": "Yamaha P-225: 88-клавишное цифровое пианино с GHC-механикой, CFX voice и поддержкой трёхпедального блока.",
       "kicker": "P‑225 · 88 КЛАВИШ · GHC",
       "intro": [
@@ -43,7 +43,8 @@
           "title": "Yamaha: P-225 для practice and lessons",
           "url": "https://hub.europe.yamaha.com/product-page/p-225"
         }
-      ]
+      ],
+      "mode": "enrich"
     },
     {
       "slug": "cordoba-c1m-v-arendu",
