@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1132,
+  "new_subjects": 4,
+  "sources": {
+    "yamaha_family": {
+      "title": "Yamaha: The Brass Family, Explained",
+      "url": "https://hub.yamaha.com/winds/brass/the-brass-family-explained/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Explains baritone horn versus euphonium: same range, narrower bore and brighter baritone timbre. Manufacturer educational content.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_ybh": {
+      "title": "Yamaha: YBH-301 Student Baritone",
+      "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/baritones/ybh-301/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Student Bb baritone, three top pistons, easy playability and intonation claims.",
+      "reviewed_on": "2026-10-05"
+    },
+    "besson_family": {
+      "title": "Besson: Baritones",
+      "url": "https://www.besson.com/en/instruments/baritones/",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer_catalog",
+      "scope": "Separates student, professional and advanced baritone lines; confirms Prodige 157 as student model.",
+      "reviewed_on": "2026-10-05"
+    },
+    "besson157": {
+      "title": "Besson: Prodige 157 Student Baritone",
+      "url": "https://www.besson.com/en/instruments/baritones/prodige-be157/",
+      "country_of_evidence": "FR",
+      "kind": "manufacturer_education",
+      "scope": "Lightweight, smaller student Bb baritone suited to younger players, 3 valves and student outfit.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "bariton-gorn",
+      "role": "category",
+      "source_ids": [
+        "yamaha_family",
+        "besson_family"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-ybh301-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "yamaha_ybh"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "besson-prodige157-v-arendu",
+      "role": "model",
+      "source_ids": [
+        "besson157"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "bariton-ili-evfonium-po-partii",
+      "role": "quality",
+      "source_ids": [
+        "yamaha_family",
+        "yamaha_ybh"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Baritone horn and euphonium share range but are not automatically interchangeable.",
+    "Student baritone remains a separate category under brass, not an alias of euphonium.",
+    "Yamaha and Besson are peer student examples, not ranked universally.",
+    "Public pages do not claim ONTOS.RENT stock."
+  ]
+}
