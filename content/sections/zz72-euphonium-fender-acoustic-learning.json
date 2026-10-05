@@ -2,15 +2,21 @@
   "pages": [
     {
       "slug": "yamaha-yep201-v-arendu",
-      "parent": "evfonium",
-      "search_title": "Эуфониум Yamaha YEP-201 в аренду",
-      "editorial_title": "Yamaha YEP‑201: лёгкий student-эуфониум для молодого исполнителя",
-      "description": "Yamaha YEP-201: лёгкий ученический B-flat euphonium с простым откликом и меньшей массой относительно продвинутых моделей.",
-      "kicker": "YEP‑201 · STUDENT · LIGHTWEIGHT",
-      "intro": [
+      "sources": [
+        {
+          "title": "Yamaha: YEP-201, строй и три верхних пистона",
+          "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/euphoniums/yep-201/specs.html"
+        },
+        {
+          "title": "Yamaha: YEP-201 Student Euphonium — lighter weight for younger players",
+          "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/euphoniums/yep-201/"
+        }
+      ],
+      "mode": "enrich",
+      "append_intro": [
         "<p>На низкой меди ученик может понимать дыхание и аппликатуру, но физически уставать от большого корпуса раньше, чем заканчивается урок. Yamaha прямо описывает YEP‑201 как более лёгкую альтернативу продвинутым моделям для молодых исполнителей, сохраняя при этом полный эуфониумный голос и лёгкий отклик.</p>"
       ],
-      "blocks": [
+      "append_blocks": [
         {
           "label": "01 / ВЕС",
           "title": "Меньшая масса должна сохранять посадку до конца занятия",
@@ -31,13 +37,6 @@
           "paragraphs": [
             "Когда программа и тело ученика готовы к более тяжёлой компенсирующей системе или иному классу эуфониума, можно перейти дальше. Аренда делает такой переход нормальной частью обучения, а не поводом заранее покупать слишком большой инструмент."
           ]
-        }
-      ],
-      "quote": "Ребёнку сейчас мешает именно масса эуфониума или проблема остаётся в посадке и дыхании?",
-      "sources": [
-        {
-          "title": "Yamaha: YEP-201 Student Euphonium",
-          "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/euphoniums/yep-201/"
         }
       ]
     },
