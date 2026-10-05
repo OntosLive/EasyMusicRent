@@ -2,7 +2,7 @@
   "version": 1,
   "reviewed_on": "2026-10-05",
   "baseline_subjects": 1039,
-  "expected_new_subjects": 13,
+  "expected_new_subjects": 20,
   "sources": {
     "sonor_orff": {
       "title": "SONOR Orff World",
@@ -139,6 +139,78 @@
       "kind": "specialist_editorial_commercial",
       "scope": "Практический российский коммерческий гид: 88 клавиш, hammer action, pedals, stable stand. Не официальный школьный норматив.",
       "reviewed_on": "2026-10-05"
+    },
+    "yamaha_fs800": {
+      "title": "Yamaha: FG/FS800 lineup",
+      "url": "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "FS800 прямо рекомендуется начинающим; компактный concert-style корпус указан производителем.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_first_guitar": {
+      "title": "Yamaha: How to Choose Your First Guitar",
+      "url": "https://hub.yamaha.com/guitars/g-how-to/how-to-choose-your-first-guitar/",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Размер корпуса, мензура и доступность грифа как критерии первого инструмента. Редакционные упражнения фонда не являются дословной методикой Yamaha.",
+      "reviewed_on": "2026-10-05"
+    },
+    "deering_goodtime": {
+      "title": "Deering: Goodtime 5-String Banjo",
+      "url": "https://www.deeringbanjos.com/collections/goodtime-banjos/products/goodtime-banjo",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Goodtime как beginner-oriented lightweight 5-string banjo; claims принадлежат производителю.",
+      "reviewed_on": "2026-10-05"
+    },
+    "deering_teachers": {
+      "title": "Deering: Teachers Love Goodtime Banjos",
+      "url": "https://www.deeringbanjos.com/pages/teachers-love-goodtime-banjos",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_teacher_survey",
+      "scope": "Deering сообщает survey 300+ teachers и >85% высокой вероятности рекомендации. Опрос организован производителем, не независимое академическое исследование.",
+      "reviewed_on": "2026-10-05"
+    },
+    "roland_td02k": {
+      "title": "Roland: TD-02K",
+      "url": "https://www.roland.com/global/products/td-02k/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Entry-level V-Drums, compact height-adjustable stand, practice tools and beaterless kick.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_dtx402": {
+      "title": "Yamaha: DTX402K and beginner learning",
+      "url": "https://hub.europe.yamaha.com/articles/drumming-for-beginners---why-the-yamaha-dtx402-is-the-smart-choice-for-aspiring-musicians",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Beginner-oriented electronic kit with training functions; claims are manufacturer educational content.",
+      "reviewed_on": "2026-10-05"
+    },
+    "fender_lt25": {
+      "title": "Fender: Mustang LT25",
+      "url": "https://ch.fender.com/en/products/mustang-lt25",
+      "country_of_evidence": "US",
+      "kind": "manufacturer_education",
+      "scope": "Ideal for beginners/students, simple UI, presets, headphones and USB.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ampeg_rb110": {
+      "title": "Ampeg: RB-110",
+      "url": "https://ampeg.com/rocket-bass/rb-110.html",
+      "country_of_evidence": "US",
+      "kind": "manufacturer",
+      "scope": "50W 1x10 combo for practice and small venues, headphones, aux and XLR output.",
+      "reviewed_on": "2026-10-05"
+    },
+    "yamaha_fg800": {
+      "title": "Yamaha: FG800",
+      "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3077/",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "FG800 can be confidently recommended to beginner guitarists according to Yamaha.",
+      "reviewed_on": "2026-10-05"
     }
   },
   "records": [
@@ -270,6 +342,82 @@
         "gorodische",
         "pianino_ru"
       ]
+    },
+    {
+      "slug": "yamaha-fs800-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "yamaha_fs800",
+        "yamaha_first_guitar"
+      ]
+    },
+    {
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "yamaha_first_guitar"
+      ]
+    },
+    {
+      "slug": "deering-goodtime-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "deering_goodtime",
+        "deering_teachers"
+      ]
+    },
+    {
+      "slug": "roland-td02k-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "roland_td02k"
+      ]
+    },
+    {
+      "slug": "yamaha-dtx402k-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "yamaha_dtx402"
+      ]
+    },
+    {
+      "slug": "fender-mustang-lt25-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "fender_lt25"
+      ]
+    },
+    {
+      "slug": "ampeg-rb110-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "ampeg_rb110"
+      ]
+    },
+    {
+      "slug": "yamaha-fg800-v-arendu",
+      "role": "context",
+      "action": "enrich",
+      "source_ids": [
+        "yamaha_fg800",
+        "yamaha_fs800"
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-obucheniya-rebenka",
+      "role": "context",
+      "action": "enrich",
+      "source_ids": [
+        "roland_td02k",
+        "yamaha_dtx402"
+      ]
     }
   ],
   "distinctions": [
@@ -277,6 +425,10 @@
     "Педагогическая функция маркировки или цвета отделена от бренда.",
     "TRBX174 и BB234 сохраняются как разные starter routes.",
     "PAC112V обогащена, а не продублирована.",
-    "Российский коммерческий гид, производитель и школьный инвентарь имеют разные доказательные статусы."
+    "Российский коммерческий гид, производитель и школьный инвентарь имеют разные доказательные статусы.",
+    "Акустическая гитара по размеру ученика отделена от классической 3/4.",
+    "TD-02K и DTX402K описывают разные учебные преимущества, без общего рейтинга.",
+    "Goodtime teacher-survey сохраняет статус опроса производителя.",
+    "Практический усилитель для дома отделён от профессионального райдерного backline."
   ]
 }
