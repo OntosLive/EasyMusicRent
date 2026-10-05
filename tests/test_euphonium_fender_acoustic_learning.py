@@ -11,7 +11,6 @@ import site_core as core
 import content_inventory as inventory
 
 NEW={
- 'yamaha-yep201-v-arendu',
  'legkiy-evfonium-rebenku',
  'fender-cd60s-v-arendu',
  'fender-cc60s-v-arendu',
@@ -37,7 +36,7 @@ class EuphoniumFenderAcousticTests(unittest.TestCase):
     def test_inventory_and_subject_ownership(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1111)
+        self.assertEqual(result['subjects'],1110)
         created={p['slug'] for p in self.doc['pages'] if p.get('mode')!='enrich'}
         self.assertEqual(created,NEW)
         for slug in NEW:
@@ -67,8 +66,8 @@ class EuphoniumFenderAcousticTests(unittest.TestCase):
         self.assertIn('/legkiy-evfonium-rebenku/',links)
 
     def test_evidence_scope_and_availability(self):
-        self.assertEqual(self.ledger['new_subjects'],4)
-        self.assertEqual(set(self.ledger['enriched_subjects']),{ENRICH})
+        self.assertEqual(self.ledger['new_subjects'],3)
+        self.assertEqual(set(self.ledger['enriched_subjects']),{ENRICH,'yamaha-yep201-v-arendu'})
         for rec in self.ledger['records']:
             self.assertEqual(rec['availability'],'unconfirmed')
             for sid in rec['source_ids']:
