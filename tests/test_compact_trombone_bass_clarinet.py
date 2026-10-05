@@ -37,7 +37,7 @@ class CompactTromboneBassClarinetTests(unittest.TestCase):
     def test_inventory_and_one_owner(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1121)
+        self.assertEqual(result['subjects'],1125)
         self.assertEqual({p['slug'] for p in self.doc['pages']},NEW)
         for slug in NEW:
             self.assertEqual(sum(x['slug']==slug for x in result['pages']),1,slug)
