@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-05",
+  "baseline_subjects": 1110,
+  "new_subjects": 5,
+  "sources": {
+    "ysl350c": {
+      "title": "Yamaha: YSL-350C Compact Trombone",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-350c/index.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Compact student tenor trombone designed for players unable to reach extended slide positions; ascending valve and standard position logic.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ysl350c_features": {
+      "title": "Yamaha: YSL-350C features",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-350c/features.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_technical",
+      "scope": "Ascending Bb/C rotor, standard slide positions, improved balance and slide construction.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ycl221": {
+      "title": "Yamaha: YCL-221II Standard Bass Clarinet",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/clarinets/ycl-221ii/index.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_education",
+      "scope": "Student bass clarinet with two-piece body and compact case explicitly framed for easy transport to school.",
+      "reviewed_on": "2026-10-05"
+    },
+    "ycl221_features": {
+      "title": "Yamaha: YCL-221II features",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/clarinets/ycl-221ii/features.html",
+      "country_of_evidence": "JP",
+      "kind": "manufacturer_technical",
+      "scope": "ABS body, redesigned neck angle, compact case and assembly details.",
+      "reviewed_on": "2026-10-05"
+    },
+    "jbc1000": {
+      "title": "Jupiter: JBC1000 Bass Clarinet",
+      "url": "https://jupitermusic.us/product/jbc1000n-bb-bass-clarinet/",
+      "country_of_evidence": "TW",
+      "kind": "manufacturer_education",
+      "scope": "School-band/orchestra/jazz bass clarinet with two-piece ABS body and adjustable floor peg.",
+      "reviewed_on": "2026-10-05"
+    },
+    "jbc1000_eu": {
+      "title": "Jupiter: 1000 Series Bass Clarinet in B-flat",
+      "url": "https://www.jupiter.info/en/instruments/wood/clarinet/bass-clarinet/1000-series-bass-clarinet-in-bb",
+      "country_of_evidence": "DE",
+      "kind": "manufacturer_education",
+      "scope": "Two-piece body, adjustable floor peg and young-player suitability; distributor/manufacturer product context.",
+      "reviewed_on": "2026-10-05"
+    }
+  },
+  "records": [
+    {
+      "slug": "yamaha-ysl350c-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "ysl350c",
+        "ysl350c_features"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "trombon-dlya-korotkoy-ruki",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "ysl350c",
+        "ysl350c_features"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "yamaha-ycl221ii-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "ycl221",
+        "ycl221_features"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "jupiter-jbc1000-v-arendu",
+      "role": "model",
+      "action": "new",
+      "source_ids": [
+        "jbc1000",
+        "jbc1000_eu"
+      ],
+      "availability": "unconfirmed"
+    },
+    {
+      "slug": "bas-klarinet-dlya-obucheniya",
+      "role": "quality",
+      "action": "new",
+      "source_ids": [
+        "ycl221",
+        "jbc1000"
+      ],
+      "availability": "unconfirmed"
+    }
+  ],
+  "distinctions": [
+    "Short-reach trombone is an ergonomic problem, not a lower-quality instrument class.",
+    "Bass-clarinet transportability and assembly are educational access properties.",
+    "YCL-221II and JBC1000 are peer student routes, not ranked equivalents.",
+    "Availability in ONTOS.RENT remains unconfirmed."
+  ]
+}
