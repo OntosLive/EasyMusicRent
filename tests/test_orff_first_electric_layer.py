@@ -19,6 +19,7 @@ BATCHES = (
     'zz55-early-orff-learning.json',
     'zz56-beginner-acoustic-banjo-drums-amps.json',
     'zz57-student-wind-alternatives.json',
+    'zz58-student-flute-euphonium-ergonomics.json',
 )
 
 class OrffFirstElectricTests(unittest.TestCase):
@@ -42,9 +43,9 @@ class OrffFirstElectricTests(unittest.TestCase):
     def test_inventory_and_counts(self):
         result = inventory.inspect(ROOT)
         self.assertEqual(result['errors'], [])
-        self.assertEqual(result['subjects'], 1063)
-        self.assertEqual(len(self.new), 24)
-        self.assertEqual(len({p['slug'] for p in self.new}), 24)
+        self.assertEqual(result['subjects'], 1066)
+        self.assertEqual(len(self.new), 27)
+        self.assertEqual(len({p['slug'] for p in self.new}), 27)
         self.assertEqual(len(self.enrich), 6)
         for p in self.new:
             self.assertEqual(sum(x['slug']==p['slug'] for x in result['pages']),1,p['slug'])
@@ -103,8 +104,8 @@ class OrffFirstElectricTests(unittest.TestCase):
                          'Yamaha FG800: услышать аккомпанемент рядом со своим голосом')
 
     def test_evidence_scope_is_explicit(self):
-        self.assertEqual(self.ledger['expected_new_subjects'],24)
-        self.assertEqual(len(self.ledger['records']),30)
+        self.assertEqual(self.ledger['expected_new_subjects'],27)
+        self.assertEqual(len(self.ledger['records']),33)
         self.assertEqual(self.ledger['sources']['deering_teachers']['kind'],'manufacturer_teacher_survey')
         self.assertEqual(self.ledger['sources']['gorodische']['kind'],'school_inventory')
         self.assertEqual(self.ledger['sources']['pianino_ru']['kind'],'specialist_editorial_commercial')
