@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "yamaha-yfl212-v-arendu": [
+      {
+        "label": "Флейта взрослому начинающему",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на флейте",
+        "href": "/fleyta-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-ycl255-v-arendu": [
+      {
+        "label": "Кларнет взрослому начинающему",
+        "href": "/klarinet-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на кларнете",
+        "href": "/klarinet-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-yas280-v-arendu": [
+      {
+        "label": "Первый альт-саксофон",
+        "href": "/saksofon-alt-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Домашние занятия на альт-саксофоне",
+        "href": "/saksofon-alt-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-ytr2330-v-arendu": [
+      {
+        "label": "Труба взрослому начинающему",
+        "href": "/truba-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на трубе",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-ysl354-v-arendu": [
+      {
+        "label": "Первый тромбон",
+        "href": "/trombon-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Домашние занятия на тромбоне",
+        "href": "/trombon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-yhr567-v-arendu": [
+      {
+        "label": "Переход на двойную валторну",
+        "href": "/valtorna-dlya-perehoda-na-dvoynuyu-sistemu/"
+      },
+      {
+        "label": "Валторна перед покупкой",
+        "href": "/valtorna-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-yep201-v-arendu": [
+      {
+        "label": "Первый эуфониум",
+        "href": "/evfonium-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Домашние занятия на эуфониуме",
+        "href": "/evfonium-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-yfl372-v-arendu": [
+      {
+        "label": "Переход на открытые клапаны",
+        "href": "/fleyta-dlya-perehoda-na-otkrytye-klapany/"
+      },
+      {
+        "label": "Флейта перед покупкой",
+        "href": "/fleyta-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-ycl450-v-arendu": [
+      {
+        "label": "Переход на деревянный кларнет",
+        "href": "/klarinet-dlya-perehoda-na-derevyannyy-korpus/"
+      },
+      {
+        "label": "Кларнет перед покупкой",
+        "href": "/klarinet-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-yfg812-v-arendu": [
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      },
+      {
+        "label": "Фагот для концерта",
+        "href": "/fagot-dlya-kontserta/"
+      }
+    ],
+    "yamaha-ytr4335gii-v-arendu": [
+      {
+        "label": "Труба перед покупкой",
+        "href": "/truba-pered-pokupkoy/"
+      },
+      {
+        "label": "Труба для оркестрового прослушивания",
+        "href": "/truba-dlya-orkestrovogo-proslushivaniya/"
+      }
+    ],
+    "yamaha-ysl448g-v-arendu": [
+      {
+        "label": "Переход на квартвентиль",
+        "href": "/trombon-s-kvartventilem-dlya-perehoda/"
+      },
+      {
+        "label": "Тромбон перед покупкой",
+        "href": "/trombon-pered-pokupkoy/"
+      }
+    ],
+    "gemeinhardt-2sp-v-arendu": [
+      {
+        "label": "Флейта взрослому начинающему",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на флейте",
+        "href": "/fleyta-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "gemeinhardt-2spch-v-arendu": [
+      {
+        "label": "Флейта с изогнутой головкой",
+        "href": "/fleyta-s-izognutoy-golovkoy/"
+      },
+      {
+        "label": "Если трудно дотягиваться до клапанов",
+        "href": "/instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov/"
+      }
+    ],
+    "buffet-prodige-v-arendu": [
+      {
+        "label": "Кларнет взрослому начинающему",
+        "href": "/klarinet-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на кларнете",
+        "href": "/klarinet-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "bach-btr302-v-arendu": [
+      {
+        "label": "Труба взрослому начинающему",
+        "href": "/truba-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на трубе",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      }
+    ]
+  }
+}
