@@ -1,0 +1,161 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Первая крупная backline-волна человеческих сцен: гитарное и басовое усиление, кабинеты, DI, acoustic amplification, rotary systems, keyboard rider backline и полные сценические комплекты.",
+  "base_subjects": 1660,
+  "new_subjects": 64,
+  "target_subjects": 1724,
+  "package": {
+    "guitar_backline": 16,
+    "bass_di_acoustic_backline": 16,
+    "keyboard_rider_backline": 16,
+    "complete_stage_backline": 16
+  },
+  "source_roles": {
+    "manufacturer_spec": "Подтверждает конкретные усилители, кабинеты, клавишные, DI и rotary-интерфейсы.",
+    "rental_inventory": "Подтверждает реальное существование моделей и связок в профессиональном backline-парке.",
+    "rider_practice": "Подтверждает необходимость заранее согласовывать substitutes, конфигурации и локальный backline.",
+    "editorial_inference": "Связывает оборудование с человеческой сценой: концерт, фестиваль, fly-date, studio, changeover или покупка."
+  },
+  "sources": {
+    "backline_source_guitar": {
+      "url": "https://www.backlinesource.com/guitar-amp-rentals",
+      "supports": [
+        "Профессиональный rental inventory guitar amps."
+      ]
+    },
+    "backline_source_bass": {
+      "url": "https://www.backlinesource.com/bass-amp-rentals",
+      "supports": [
+        "Профессиональный rental inventory bass heads/cabinets."
+      ]
+    },
+    "backline_source_keys": {
+      "url": "https://www.backlinesource.com/digitalkeyboardrentals",
+      "supports": [
+        "Digital keyboard/workstation rental inventory."
+      ]
+    },
+    "backline_source_advance": {
+      "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment",
+      "supports": [
+        "Advance planning и согласование substitute до даты."
+      ]
+    },
+    "backstage_backline": {
+      "url": "https://www.backstagebackline.com/instruments-and-more",
+      "supports": [
+        "Профессиональный парк инструментов и backline."
+      ]
+    },
+    "swiss_backline": {
+      "url": "https://backline.ch/equipment/",
+      "supports": [
+        "Профессиональный keyboard/backline inventory."
+      ]
+    },
+    "show4rent": {
+      "url": "https://www.show4rent.ru/backline",
+      "supports": [
+        "Российский контур backline и коммутации."
+      ]
+    },
+    "fender_twin": {
+      "url": "https://www.fender.com/products/65-twin-reverb/",
+      "supports": [
+        "Большой clean combo reference."
+      ]
+    },
+    "fender_deluxe": {
+      "url": "https://www.fender.com/products/65-deluxe-reverb/",
+      "supports": [
+        "Меньший Fender combo reference."
+      ]
+    },
+    "vox_ac30": {
+      "url": "https://voxamps.com/en-gb/product/ac30-custom/",
+      "supports": [
+        "Классический crunch combo reference."
+      ]
+    },
+    "marshall_jcm800": {
+      "url": "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head",
+      "supports": [
+        "Single-channel head reference."
+      ]
+    },
+    "marshall_1960a": {
+      "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet",
+      "supports": [
+        "4x12 cabinet reference."
+      ]
+    },
+    "roland_jc120": {
+      "url": "https://www.roland.com/global/products/jc-120/",
+      "supports": [
+        "Clean/stereo chorus guitar amp reference."
+      ]
+    },
+    "ampeg_svt": {
+      "url": "https://ampeg.com/products/classic/heads.html",
+      "supports": [
+        "SVT-CL bass head."
+      ]
+    },
+    "ampeg_810": {
+      "url": "https://ampeg.com/products/classic/cabs.html",
+      "supports": [
+        "SVT-810E large bass cabinet."
+      ]
+    },
+    "aguilar_th700": {
+      "url": "https://aguilaramp.com/en-eu/products/tone-hammer-700-bass-amp",
+      "supports": [
+        "Light modern bass head."
+      ]
+    },
+    "radial_jdi": {
+      "url": "https://www.radialeng.com/product/jdi",
+      "supports": [
+        "Passive DI, thru and balanced output."
+      ]
+    },
+    "fishman_loudbox": {
+      "url": "https://fishman.com/dp/loudbox-artist-acoustic-amplifier/",
+      "supports": [
+        "Acoustic multi-channel amplification."
+      ]
+    },
+    "hammond_leslie": {
+      "url": "https://hammondorganco.com/products/leslie-speakers/122-147-981-147a",
+      "supports": [
+        "Physical rotary speaker family."
+      ]
+    },
+    "nord_stage4": {
+      "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/",
+      "supports": [
+        "Stage keyboard and live outputs/controller functionality."
+      ]
+    },
+    "yamaha_cp88": {
+      "url": "https://ru.yamaha.com/ru/musical-instruments/keyboards/products/stagekeyboards/cp88-73/",
+      "supports": [
+        "88-key stage piano."
+      ]
+    },
+    "roland_rd2000ex": {
+      "url": "https://www.roland.com/global/products/rd-2000_ex/",
+      "supports": [
+        "Stage piano/master controller."
+      ]
+    }
+  },
+  "editorial_rules": [
+    "Backline публикуется как рабочая цепь и сценическая функция, а не как каталог брендов.",
+    "Модель в райдере трактуется как сокращение набора интерфейсных требований; substitute требует функционального сравнения и согласования.",
+    "Сценический звук музыканта и сигнал FOH могут идти разными путями; DI, cabinet и monitoring не смешиваются в одну функцию.",
+    "Размер кабинета и мощность усилителя рассматриваются вместе с площадкой, логистикой и сценической громкостью.",
+    "Fly-date, festival и changeover являются самостоятельными сценами, потому что меняют архитектуру доступа и подготовки.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ]
+}
