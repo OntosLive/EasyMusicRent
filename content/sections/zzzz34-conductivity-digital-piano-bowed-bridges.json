@@ -1,0 +1,324 @@
+{
+  "navigation": {
+    "yamaha-clp885-v-arendu": [
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-p-series-v-arendu": [
+      {
+        "label": "Маленькая комната",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Временное жильё",
+        "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/"
+      }
+    ],
+    "yamaha-p105-v-arendu": [
+      {
+        "label": "Возвращение после перерыва",
+        "href": "/cifrovoe-pianino-dlya-vzroslogo-posle-pereryva/"
+      },
+      {
+        "label": "Временное жильё",
+        "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/"
+      }
+    ],
+    "yamaha-p115-v-arendu": [
+      {
+        "label": "Возвращение после перерыва",
+        "href": "/cifrovoe-pianino-dlya-vzroslogo-posle-pereryva/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-p125-v-arendu": [
+      {
+        "label": "Домашние занятия",
+        "href": "/cifrovoe-pianino-dlya-obucheniya/"
+      },
+      {
+        "label": "Запись MIDI",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      }
+    ],
+    "yamaha-p143-v-arendu": [
+      {
+        "label": "Пробный учебный период",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      },
+      {
+        "label": "Маленькая комната",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "yamaha-p145-v-arendu": [
+      {
+        "label": "Маленькая комната",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Съёмная квартира",
+        "href": "/cifrovoe-pianino-dlya-syemnoy-kvartiry/"
+      }
+    ],
+    "yamaha-p35-v-arendu": [
+      {
+        "label": "Возвращение после перерыва",
+        "href": "/cifrovoe-pianino-dlya-vzroslogo-posle-pereryva/"
+      },
+      {
+        "label": "Второе место занятий",
+        "href": "/cifrovoe-pianino-dlya-vtorogo-mesta-zanyatiy/"
+      }
+    ],
+    "yamaha-p45-v-arendu": [
+      {
+        "label": "Пробный учебный период",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      },
+      {
+        "label": "Временное жильё",
+        "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/"
+      }
+    ],
+    "yamaha-p515-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Запись аудио",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      }
+    ],
+    "yamaha-p525-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-ydp103-v-arendu": [
+      {
+        "label": "Музыкальная школа",
+        "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Домашние занятия",
+        "href": "/cifrovoe-pianino-dlya-obucheniya/"
+      }
+    ],
+    "yamaha-ydp144-v-arendu": [
+      {
+        "label": "Домашняя практика ребёнка",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      },
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "yamaha-ydp145-v-arendu": [
+      {
+        "label": "Музыкальная школа",
+        "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Два ученика",
+        "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/"
+      }
+    ],
+    "yamaha-ydp164-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-ydp165-v-arendu": [
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-ydps34-v-arendu": [
+      {
+        "label": "Маленькая комната",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Съёмная квартира",
+        "href": "/cifrovoe-pianino-dlya-syemnoy-kvartiry/"
+      }
+    ],
+    "yamaha-ydps35-v-arendu": [
+      {
+        "label": "Маленькая комната",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Второе место занятий",
+        "href": "/cifrovoe-pianino-dlya-vtorogo-mesta-zanyatiy/"
+      }
+    ],
+    "yamaha-ydps55-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "skripka-chetvert-v-arendu": [
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Скрипка ребёнку",
+        "href": "/skripka-rebenku-v-arendu/"
+      }
+    ],
+    "skripka-chetyre-chetverti-v-arendu": [
+      {
+        "label": "Скрипка взрослому начинающему",
+        "href": "/skripka-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      }
+    ],
+    "skripka-dlya-nachinayuschego-v-arendu": [
+      {
+        "label": "Скрипка взрослому начинающему",
+        "href": "/skripka-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "skripka-dlya-orkestra-v-arendu": [
+      {
+        "label": "Первый струнный ансамбль",
+        "href": "/instrumenty-dlya-pervogo-strunnogo-ansamblya/"
+      },
+      {
+        "label": "Камерный оркестр",
+        "href": "/smychkovye-dlya-kamernogo-orkestra/"
+      }
+    ],
+    "skripka-na-ekzamen-v-arendu": [
+      {
+        "label": "Экзаменационная программа",
+        "href": "/instrument-po-programme-ekzamena/"
+      },
+      {
+        "label": "Домашние занятия",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "skripka-na-konkurs-v-arendu": [
+      {
+        "label": "Конкурсная программа",
+        "href": "/instrument-po-programme-konkursa/"
+      },
+      {
+        "label": "Скрипка на прослушивание",
+        "href": "/skripka-na-proslushivanie/"
+      }
+    ],
+    "violonchel-chetvert-v-arendu": [
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Виолончель ребёнку",
+        "href": "/violonchel-rebenku-v-arendu/"
+      }
+    ],
+    "violonchel-chetyre-chetverti-v-arendu": [
+      {
+        "label": "Виолончель взрослому",
+        "href": "/violonchel-dlya-vzroslogo/"
+      },
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-dlya-nachinayuschego-v-arendu": [
+      {
+        "label": "Виолончель взрослому начинающему",
+        "href": "/violonchel-dlya-vzroslogo-nachinayuschego/"
+      },
+      {
+        "label": "Домашние занятия ребёнка",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      }
+    ],
+    "violonchel-dlya-orkestra-v-arendu": [
+      {
+        "label": "Оркестровый класс",
+        "href": "/instrument-dlya-orkestrovogo-klassa/"
+      },
+      {
+        "label": "Камерный оркестр",
+        "href": "/smychkovye-dlya-kamernogo-orkestra/"
+      }
+    ],
+    "kontrabas-polovina-v-arendu": [
+      {
+        "label": "Смена размера контрабаса",
+        "href": "/kontrabas-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Контрабас ребёнку",
+        "href": "/kontrabas-rebenku-na-vremya-obucheniya/"
+      }
+    ],
+    "kontrabas-tri-chetverti-v-arendu": [
+      {
+        "label": "Сравнить мензуры",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      },
+      {
+        "label": "Смена размера контрабаса",
+        "href": "/kontrabas-dlya-smeny-razmera/"
+      }
+    ],
+    "kontrabas-dlya-orkestra-v-arendu": [
+      {
+        "label": "Оркестровый класс",
+        "href": "/instrument-dlya-orkestrovogo-klassa/"
+      },
+      {
+        "label": "Камерный оркестр",
+        "href": "/smychkovye-dlya-kamernogo-orkestra/"
+      }
+    ]
+  }
+}
