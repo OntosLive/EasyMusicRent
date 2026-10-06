@@ -309,16 +309,6 @@
         "label": "Смена размера контрабаса",
         "href": "/kontrabas-dlya-smeny-razmera/"
       }
-    ],
-    "kontrabas-dlya-orkestra-v-arendu": [
-      {
-        "label": "Оркестровый класс",
-        "href": "/instrument-dlya-orkestrovogo-klassa/"
-      },
-      {
-        "label": "Камерный оркестр",
-        "href": "/smychkovye-dlya-kamernogo-orkestra/"
-      }
     ]
   }
 }

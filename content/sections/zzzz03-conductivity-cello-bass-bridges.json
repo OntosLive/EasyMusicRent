@@ -10,16 +10,6 @@
         "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
       }
     ],
-    "kamernaya-violonchel": [
-      {
-        "label": "Виолончель для камерного ансамбля",
-        "href": "/violonchel-dlya-kamernogo-ansamblya/"
-      },
-      {
-        "label": "Виолончель перед покупкой",
-        "href": "/violonchel-pered-pokupkoy/"
-      }
-    ],
     "kontsertnaya-violonchel": [
       {
         "label": "Виолончель на прослушивание",
@@ -148,16 +138,6 @@
       {
         "label": "Купить или арендовать контрабас",
         "href": "/kontrabas-kupit-ili-vzyat-v-arendu/"
-      }
-    ],
-    "dzhazovyy-kontrabas": [
-      {
-        "label": "Контрабас для камерного ансамбля",
-        "href": "/kontrabas-dlya-kamernogo-ansamblya/"
-      },
-      {
-        "label": "Сравнить мензуры контрабаса",
-        "href": "/kontrabas-dlya-sravneniya-menzur/"
       }
     ]
   }

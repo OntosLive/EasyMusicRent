@@ -78,16 +78,10 @@
       {
         "label": "Контрабас после бас-гитары",
         "href": "/kontrabas-dlya-perehoda-s-bas-gitary/"
-      }
-    ],
-    "kontrabas-dlya-dzhaza-v-arendu": [
-      {
-        "label": "Контрабас для камерного ансамбля",
-        "href": "/kontrabas-dlya-kamernogo-ansamblya/"
       },
       {
-        "label": "Сравнить мензуры контрабаса",
-        "href": "/kontrabas-dlya-sravneniya-menzur/"
+        "href": "/kontrabas-dlya-sravneniya-menzur/",
+        "label": "Сравнить мензуры контрабаса"
       }
     ],
     "kontrabas-dlya-igry-sidya": [

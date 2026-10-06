@@ -1,0 +1,2162 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "scope": {
+    "population": "Ровно 209 исходных legacy-страниц из трёх закреплённых групп.",
+    "groups": [
+      "legacy_cello",
+      "legacy_bass_violin",
+      "legacy_keys_roots"
+    ],
+    "group_membership": "Состав исходной выборки сохранён, включая 13 адресов, ставших aliases; дополнительные страницы не добавлены в records.",
+    "decision_meaning": {
+      "keep": "Содержательный ответ сохранён; автоматическая нормализация ссылки через alias не считается переписыванием ответа.",
+      "enrich": "Применено точечное изменение содержания, метаданных или явно отредактированной подписи навигации.",
+      "merge": "Смысл и полезные выходы перенесены в canonical_target; прежние адреса N.0 и N.1 сохраняются штатными перенаправлениями."
+    },
+    "enrich_with_consolidation": "У сохраняемой темы decision=enrich и resolution=enrich_with_consolidation. Это относится и к двум старым общим пианным страницам; их новые парные alias-источники находятся вне 209.",
+    "evidence_scope": "Решения сверены с различиями собранного корпуса до редакционного пакета и после интеграции, а также с действующим content/aliases.json.",
+    "suffix_note": "Суффикс -v-arendu обозначает группу адресов по написанию, а не модельную классификацию. Объединённые джазовый и оркестровый контрабасные адреса являются сценариями."
+  },
+  "records": [
+    {
+      "slug": "cheshskaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Вход по происхождению не обещает общего чешского тембра: текст прямо требует уточнить эпоху, мастерскую, состояние и задачу конкретного экземпляра. Одинаковая схема с другими странами оправдана неизвестными исходными данными."
+    },
+    {
+      "slug": "frantsuzskaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Различает эпоху, мастерскую, конструкцию и историю ремонта. Не превращает французское происхождение в гарантию качества или готовую педагогическую рекомендацию."
+    },
+    {
+      "slug": "kak-vybrat-razmer-violoncheli-rebenku",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Общий ответ вобрал пять возрастных и два гендерных запроса. Сохранены реальные данные ребёнка, проба после нескольких минут игры, текущий размер, домашний режим и изменение программы; прямо объяснено, почему возраст и пол не заменяют примерку.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "blocks",
+        "quote"
+      ],
+      "resolution": "enrich_with_consolidation",
+      "absorbed_slugs": [
+        "violonchel-dlya-devochki",
+        "violonchel-dlya-malchika",
+        "violonchel-rebenku-10-let",
+        "violonchel-rebenku-6-let",
+        "violonchel-rebenku-7-let",
+        "violonchel-rebenku-8-let",
+        "violonchel-rebenku-9-let"
+      ]
+    },
+    {
+      "slug": "kamernaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Короткая страница и полная цель описывают ту же камерную ансамблевую задачу. Проба плотной/прозрачной фактуры и протяжённого звука сохранена; временная программа также сохранена. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "violonchel-dlya-kamernogo-ansamblya"
+    },
+    {
+      "slug": "kontsertnaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Задача — проекция и сохранение характера в зале. Прочитанная violonchel-dlya-kontserta отвечает другому вопросу: сохранить привычную геометрию и успеть адаптироваться перед выступлением. Совпадение слова «концерт» не делает их дублями."
+    },
+    {
+      "slug": "masterovaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Предлагает определить автора и конкретный инструмент; ручная работа не названа автоматическим преимуществом. Происхождение и состояние остаются данными для проверки."
+    },
+    {
+      "slug": "moskovskaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "«Московская» разобрано как неоднозначное происхождение мастерской, эпохи или ремонтной истории; общего «московского звука» не заявлено. Перед покупкой нужен отдельный экземпляр, а не расширение текста про географию."
+    },
+    {
+      "slug": "nemetskaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Не приписывает всем немецким инструментам один звук или уровень; уточняет мастерскую, период и актуальное состояние. Пользовательский запрос отличается от общего выбора бренда."
+    },
+    {
+      "slug": "pervaya-violonchel-rebenku",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "В общий первый инструмент перенесены требования первого класса, результат первой пробы, домашнее продолжение и обсуждение возможной смены размера. Самостоятельный первый учебный период сохранён.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "blocks",
+        "quote"
+      ],
+      "resolution": "enrich_with_consolidation",
+      "absorbed_slugs": [
+        "violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly"
+      ]
+    },
+    {
+      "slug": "professionalnaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Профессиональная задача разложена на динамику, регистры, интонацию и продолжительную работу. Вместо ценовой категории спрашивается конкретное ограничение нынешнего инструмента."
+    },
+    {
+      "slug": "solnaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Самостоятельная роль солиста: атака, тихая динамика и равномерность диапазона в обнажённой фактуре. Не дублирует камерное смешение голосов или общую концертную адаптацию."
+    },
+    {
+      "slug": "starinnaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Возраст рассматривается вместе с ремонтом и текущей играбельностью; старине не приписывается автоматическое звуковое превосходство. Оценку цены или атрибуцию автору страница не выполняет."
+    },
+    {
+      "slug": "uchenicheskaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Определяет учебный инструмент через возможность заниматься постановкой, интонацией и смычком. Не объявляет конкретную дешёвую марку пригодной всем ученикам."
+    },
+    {
+      "slug": "udobnaya-violonchel",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Выделяет физическую систему «стул — шпиль — корпус — обе руки», затем просит назвать место напряжения. Короткий текст имеет собственную проверку и не является пустым обещанием подбора."
+    },
+    {
+      "slug": "violonchel",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Исправлены подписи переходов на запись, размеры 1/8 и 7/8 и уточнение Ritmuller. После объединения возрастных, гендерных, школьных и камерных входов родительский список сводится к соответствующим общим темам без повторов.",
+      "changed_fields": [
+        "navigation_labels"
+      ]
+    },
+    {
+      "slug": "violonchel-caraya",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Нейтральный запрос точной модели, размера и срока, без неподтверждённых древесин, страны изготовления или универсальных рекомендаций Caraya."
+    },
+    {
+      "slug": "violonchel-chetvert-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Объясняет проверку корпуса и расстояний на грифе для запроса 1/4. Не закрепляет размер за возрастом и предлагает менять его при реальной готовности; оснований переписывать всю короткую карточку нет."
+    },
+    {
+      "slug": "violonchel-chetyre-chetverti-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Полноразмерные экземпляры различаются геометрией, поэтому страница требует примерку конкретного 4/4. Не путает обозначение размера с гарантией удобства."
+    },
+    {
+      "slug": "violonchel-dlya-devochki",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Отдельного педагогического или технического критерия для девочки текст не даёт; общий ответ объясняет запрос явно. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "kak-vybrat-razmer-violoncheli-rebenku"
+    },
+    {
+      "slug": "violonchel-dlya-domashnih-zanyatiy-rebenku",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Предмет — готовность инструмента к регулярной работе между уроками, место хранения и режим занятий. Это отдельная задача от поступления в школу и от выбора первого размера."
+    },
+    {
+      "slug": "violonchel-dlya-konservatorii",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Запрашивает курс, программу, акустику и пределы текущего инструмента. Сопоставление с училищем выявляет общий учебный фон, но сохраняется акцент на конкретной исполнительской программе; автоматическое слияние не нужно."
+    },
+    {
+      "slug": "violonchel-dlya-malchika",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Тот же физический критерий и рекомендации преподавателя, что в общем размере; отличительной мужской конфигурации нет. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "kak-vybrat-razmer-violoncheli-rebenku"
+    },
+    {
+      "slug": "violonchel-dlya-muzykalnogo-uchilischa",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Фокус на устойчивости строя и удобстве длительной работы в учебном режиме. Нет рекомендации обязательного бренда или класса цены; короткая страница допустима рядом с репертуарной задачей консерватории."
+    },
+    {
+      "slug": "violonchel-dlya-muzykalnoy-shkoly",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Объединены два школьных входа с сохранением текущего класса, ежедневных заданий, примеренного размера, стула, шпиля и доступа левой руки. Полезные выходы более узкой детской страницы перенесены.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "blocks",
+        "quote"
+      ],
+      "resolution": "enrich_with_consolidation",
+      "absorbed_slugs": [
+        "violonchel-rebenku-dlya-muzykalnoy-shkoly"
+      ]
+    },
+    {
+      "slug": "violonchel-dlya-nachinayuschego-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Работает общим входом для начинающего, пока неясны посадка и требования. Маршруты дальше различают взрослого и домашние занятия ребёнка; это полезная развилка."
+    },
+    {
+      "slug": "violonchel-dlya-nebolshoy-ruki",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Отдельный критерий — досягаемость позиций и геометрия под левой рукой. Он не сводится к росту человека и не предлагает всем маленьким рукам один размер."
+    },
+    {
+      "slug": "violonchel-dlya-nevysokogo-rosta",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Устранено противопоставление 7/8 переходу на меньшую виолончель. Вместо него предложено сравнить 7/8 и другой экземпляр 4/4 на знакомом фрагменте по посадке и досягаемости позиций.",
+      "changed_fields": [
+        "intro"
+      ]
+    },
+    {
+      "slug": "violonchel-dlya-orkestra-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Согласование строя и баланса в группе отличается от сольной проекции. Для временного проекта или подмены просит программу, состав и срок."
+    },
+    {
+      "slug": "violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Задача совпадает с первой виолончелью ребёнку. Школьная формулировка явно включена в заголовок родительского перехода, описание и ввод цели. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "pervaya-violonchel-rebenku"
+    },
+    {
+      "slug": "violonchel-dlya-vzroslogo",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Не смешивает взрослого новичка, возвращение к игре и профессиональную задачу: возраст не заменяет цель и опыт. Подходит как короткая развилка."
+    },
+    {
+      "slug": "violonchel-dlya-vzroslogo-nachinayuschego",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Первоначальную посадку и работу смычка предлагает проверять до формирования устойчивого предпочтения. Не обещает готовый «взрослый» инструмент по одной антропометрии."
+    },
+    {
+      "slug": "violonchel-eastman",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Требует модель, размер, геометрию и пробу конкретного экземпляра. Не переносит свойства VC100 на все Eastman; существующая модельная страница остаётся следующим уровнем уточнения."
+    },
+    {
+      "slug": "violonchel-gewa",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Уточняет серию и размер, различает ребёнка в период роста и взрослого с другой задачей. Не обещает одной серии GEWA универсальную педагогическую пригодность."
+    },
+    {
+      "slug": "violonchel-gliga",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Марка служит входом к серии и реальному экземпляру. В тексте нет неподтверждённых сравнений качества или приписанной всей марке конструкции."
+    },
+    {
+      "slug": "violonchel-goronok",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Разные задачи обучения привязаны к дальнейшему уточнению серии, размера и срока. Не объявляет NOVA, Каденцию или весь бренд правильным выбором для конкретного возраста."
+    },
+    {
+      "slug": "violonchel-hora",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Неподтверждённая частота использования Hora в обучении заменена уточнением модели и размера. Первичный каталог подтверждает разные виолончельные серии, но не универсальное педагогическое назначение марки.",
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://hora-instruments.com/ro/category/bowed-instruments/cellos/"
+      ]
+    },
+    {
+      "slug": "violonchel-mirra",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Содержит только уточнение конкретной модели, размера, посадки и отклика. Категоричных технических свойств и обещаний наличия в тексте нет; отсутствие блока характеристик само по себе не дефект."
+    },
+    {
+      "slug": "violonchel-na-ekzamen-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Самостоятельная задача со сроком: сохранить подготовленную механику и оставить время до даты экзамена. Конкретные вопросы о программе и адаптации оправдывают короткий формат."
+    },
+    {
+      "slug": "violonchel-na-konkurs-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Проверяет верхний регистр, отклик и баланс на конкурсной программе. Это конкретная исполнительская проба; текст не задаёт обязательную марку или ценовую ступень."
+    },
+    {
+      "slug": "violonchel-na-uchebnyy-god",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Календарный цикл с вероятной сменой размера в течение года. В отличие от общего срока обучения, просит оценить переход именно внутри предстоящего учебного периода."
+    },
+    {
+      "slug": "violonchel-na-vremya-obucheniya",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Общий временный вход связывает срок, уровень и изменяющиеся требования преподавателя. Соседняя годовая страница уже определяет календарный горизонт; неполного дублирования недостаточно для автоматического слияния."
+    },
+    {
+      "slug": "violonchel-na-vremya-remonta",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Чёткая подмена знакомого инструмента на время ремонта, с вопросом о сходстве посадки и текущем расписании. Не требует новой истории о выборе инструмента с нуля."
+    },
+    {
+      "slug": "violonchel-odna-desyataya-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Условие выбора связано с тем, что примеренный 1/8 ещё велик, а не с возрастной нормой. Существование дробных размеров ниже 1/8 подтверждено первичным каталогом и производителем Stentor; конкретную геометрию всё равно проверяет преподаватель.",
+      "primary_sources": [
+        "https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html"
+      ]
+    },
+    {
+      "slug": "violonchel-odna-shestnadtsataya-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Текст о раннем этапе и доступной геометрии не закрепляет 1/16 за возрастом. «Самый маленький этап» относится к этапу обучения, не заявляет технический минимум размерного ряда; обязательная правка не установлена.",
+      "primary_sources": [
+        "https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html"
+      ]
+    },
+    {
+      "slug": "violonchel-odna-tridtsat-vtoraya-v-arendu",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Существование виолончелей 1/32 подтверждено каталогом Горонка. Неподтверждённое «встречается редко» заменено уточнением модели и примеренного инструмента, без обещания наличия.",
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/?filter_razmer=1-32"
+      ]
+    },
+    {
+      "slug": "violonchel-odna-vosmaya-v-arendu",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Из заголовка убрано неверное «самый маленький размер»: первичные каталоги подтверждают меньшие виолончели. Содержательная проверка отклика и посадки сохранена.",
+      "changed_fields": [
+        "editorial_title",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/?filter_razmer=1-32",
+        "https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html"
+      ]
+    },
+    {
+      "slug": "violonchel-polovina-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Предлагает не торопить 3/4, пока 1/2 сохраняет свободную руку и посадку. Смысл проверяется на реальном ребёнке, универсальная возрастная лестница не задана."
+    },
+    {
+      "slug": "violonchel-rebenku-10-let",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Самостоятельной десятилетней нормы нет; различие роста и репертуара сохранено явно. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "kak-vybrat-razmer-violoncheli-rebenku"
+    },
+    {
+      "slug": "violonchel-rebenku-6-let",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Шестилетие само не определяет размер и этап занятий; практическая проба полностью помещается в общий ответ. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "kak-vybrat-razmer-violoncheli-rebenku"
+    },
+    {
+      "slug": "violonchel-rebenku-7-let",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Сохранена домашняя задача и рост; возрастная привязка не добавляла отдельной проверки. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "kak-vybrat-razmer-violoncheli-rebenku"
+    },
+    {
+      "slug": "violonchel-rebenku-8-let",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Наблюдение справедливо для общего подбора ребёнку; восьмилетие не создаёт новый технический параметр. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "kak-vybrat-razmer-violoncheli-rebenku"
+    },
+    {
+      "slug": "violonchel-rebenku-9-let",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Предметный вопрос о переходе размера уже является веткой общего подбора; исходящий путь на полный переход сохраняется. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "kak-vybrat-razmer-violoncheli-rebenku"
+    },
+    {
+      "slug": "violonchel-rebenku-dlya-muzykalnoy-shkoly",
+      "group": "legacy_cello",
+      "decision": "merge",
+      "reason": "Более широкая школьная страница уже о ребёнке, текущем размере и требованиях преподавателя. Дополнительная геометрия и оба маршрута перенесены полностью. Полезные тезисы и все внешние маршруты сохранены в общей теме; прежние N.0 и N.1 обслуживаются штатными перенаправлениями.",
+      "canonical_target": "violonchel-dlya-muzykalnoy-shkoly"
+    },
+    {
+      "slug": "violonchel-rebenku-kupit-ili-arendovat",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Убрано противопоставление покупки и гарантированной смены арендованного инструмента. Решение связано с реальной пробой, сроком, доступностью размера и согласованным порядком замены.",
+      "changed_fields": [
+        "editorial_title",
+        "intro"
+      ]
+    },
+    {
+      "slug": "violonchel-rebenku-v-arendu",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Рост ребёнка отделён от неизменной геометрии конкретного инструмента. Переход к соседнему размеру связан с преподавательской пробой; возможность замены при аренде уточняется отдельно.",
+      "changed_fields": [
+        "description",
+        "intro"
+      ]
+    },
+    {
+      "slug": "violonchel-ritmuller",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Убран вывод о заранее установленной марке виолончели. Текст связывает Ritmüller с подтверждённой фортепианной категорией официального каталога и переводит запрос в уточнение полного названия, маркировки, фотографии, модели и размера.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://pearlriverpianogroup.com/ritmuller-pianos-2/"
+      ]
+    },
+    {
+      "slug": "violonchel-s-udobnym-verhnim-registrom",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Изолирует конкретную задачу: доступ к высоким позициям с учётом корпуса и грифа. Запрашивает проблемное движение и репертуар; это не повтор общего «удобного инструмента»."
+    },
+    {
+      "slug": "violonchel-s-vyrazhennoy-nizhney-strunoy",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Проверяет нижнюю струну в музыкальной роли и одновременно требует баланса остальных струн. Не приравнивает громкий бас к общему качеству инструмента."
+    },
+    {
+      "slug": "violonchel-scherl-roth",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Серия и размер уточняются прежде педагогической пробы. В текущем тексте нет универсального звукового или учебного обещания всей марке Scherl & Roth."
+    },
+    {
+      "slug": "violonchel-sem-vosmyh-v-arendu",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Обещание «полного звука» и категоричное назначение размера 7/8 заменены сравнением конкретных экземпляров на своей программе. Дробь размера не объявляется гарантией звучания или удобства.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro"
+      ]
+    },
+    {
+      "slug": "violonchel-stentor",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Неподтверждённая частота поисков марки и двусмысленное «ломает левую руку» заменены моделью, комплектностью и действиями на пробе. Student II указан как конкретный комплект, без универсальной рекомендации марки.",
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html"
+      ]
+    },
+    {
+      "slug": "violonchel-strunal",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Первичный каталог действительно перечисляет разные модели. Короткий призыв уточнить модель, размер, состояние и настройку достаточен; подробности одной модели не нужно домысливать для всей марки.",
+      "primary_sources": [
+        "https://www.strunal.cz/Produkty/Violoncela/"
+      ]
+    },
+    {
+      "slug": "violonchel-tri-chetverti-v-arendu",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Переход 3/4 → 4/4 проверяется по изменению геометрии, а не по желанию взять полный размер раньше. Это отдельный размерный вопрос с предметной примеркой."
+    },
+    {
+      "slug": "violonchel-volchiy-ton",
+      "group": "legacy_cello",
+      "decision": "keep",
+      "reason": "Кратко и корректно связывает волчий тон с резонансом корпуса и предлагает локализовать ноты и условия проявления. Первичный исследовательский разбор подтверждает основу; диагноз неисправности и универсальный способ устранения не обещаются.",
+      "primary_sources": [
+        "https://euphonics.org/9-4-chasing-the-wolf/"
+      ]
+    },
+    {
+      "slug": "violonchel-yamaha",
+      "group": "legacy_cello",
+      "decision": "enrich",
+      "reason": "Термин «электронная виолончель» уточнён до «электровиолончель» в соответствии с обеими существующими модельными целями Yamaha SVC. Дополнительные характеристики не домысливались.",
+      "changed_fields": [
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/5014/"
+      ]
+    },
+    {
+      "slug": "arenda-kontrabasa-na-kontsert-moskva",
+      "group": "legacy_bass_violin",
+      "decision": "enrich",
+      "reason": "Безусловное обещание собрать концертную сцену целиком заменено требованиями музыканта, программой, площадкой и временем. Подходящий экземпляр и условия получения подтверждаются для конкретного срока.",
+      "changed_fields": [
+        "description",
+        "intro"
+      ]
+    },
+    {
+      "slug": "cheshskiy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Страна происхождения используется как начало уточнения, а не гарантия конструкции или качества; текст требует конкретный экземпляр и историю состояния."
+    },
+    {
+      "slug": "dzhazovyy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "merge",
+      "reason": "Оба жанровых legacy-входа повторяли манеру игры, пиццикато, состав и усиление. Их полезные тезисы и временная задача перенесены в полное раскрытие проверки пульса, атаки и сценического тракта.",
+      "canonical_target": "kontrabas-dlya-dzhaza"
+    },
+    {
+      "slug": "kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "enrich",
+      "reason": "Корневое раскрытие сохранено; подпись перехода на студийную сессию согласована с ранее разведёнными задачами студии и записи. При консолидации джазовых и оркестровых входов устранены повторные родительские пункты.",
+      "changed_fields": [
+        "navigation_labels"
+      ]
+    },
+    {
+      "slug": "kontrabas-chetyre-chetverti-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Вход по уже требуемому размеру 4/4 ведёт к примерке мензуры и посадки и прямо различает два экземпляра одного размера. Не приписывает всем 4/4 большую громкость или гарантированное качество."
+    },
+    {
+      "slug": "kontrabas-dlya-dolgih-repetitsiy",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Самостоятельная проверка — удобство на продолжительной работе и место появления усталости. Она дополняет короткую примерку без универсального численного порога."
+    },
+    {
+      "slug": "kontrabas-dlya-dzhaza-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "merge",
+      "reason": "Самостоятельной задачи относительно другого джазового входа не было. Срок проекта, привычная конфигурация, ансамбль и полезные выходы сохранены в общем джазовом раскрытии.",
+      "canonical_target": "kontrabas-dlya-dzhaza"
+    },
+    {
+      "slug": "kontrabas-dlya-igry-sidya",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Конкретная задача совместимости стула, ног, шпиля и корпуса; она не повторяет стоячую постановку или одну только мензуру."
+    },
+    {
+      "slug": "kontrabas-dlya-igry-stoya",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Проверяются реальная высота, положение шпиля и баланс стоя. Размер по бумаге не объявляется готовым решением."
+    },
+    {
+      "slug": "kontrabas-dlya-klassiki",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Классика здесь вход для уточнения сольной, камерной либо секционной роли. Это более широкий вопрос, чем конкретный оркестровый или сольный экземпляр; единая жанровая конструкция не выдумана."
+    },
+    {
+      "slug": "kontrabas-dlya-muzykalnoy-shkoly-rebenku",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Ведёт от учебного класса и рекомендации педагога к размеру, высоте струн и ежедневной работе. Предметом является школьная программа, а не только рост ребёнка."
+    },
+    {
+      "slug": "kontrabas-dlya-nachinayuschego-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Первый период практики до формирования собственного критерия; спрашивает опыт, педагога и место инструмента. Это отдельный вход относительно уже сформированного запроса на учебный размер."
+    },
+    {
+      "slug": "kontrabas-dlya-nebolshoy-ruki",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Начинает с конкретной трудности левой руки и различает охват, толщину грифа и мензуру; не назначает размер только по росту."
+    },
+    {
+      "slug": "kontrabas-dlya-nevysokogo-rosta",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Полезно исключает автоматическое уменьшение корпуса и требует проверить досягаемость, плечи, мензуру и посадку."
+    },
+    {
+      "slug": "kontrabas-dlya-orkestra-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "merge",
+      "reason": "Арендный вход и общий оркестровый текст решали один секционный вопрос. Проект, сезон, подмена, состояние и привычная конфигурация перенесены в сохраняемый общий адрес.",
+      "canonical_target": "orkestrovyy-kontrabas"
+    },
+    {
+      "slug": "kontrabas-dlya-semki-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Различает внешний сценический предмет и реально звучащий инструмент, спрашивает действие, исполнителя и смены. Контрабасовая геометрия делает задачу самостоятельной относительно скрипичной."
+    },
+    {
+      "slug": "kontrabas-dlya-vysokogo-rosta",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Прямо отвергает правило «высокий человек обязательно играет на 4/4»; сравнивает длину руки, высоту и способ игры."
+    },
+    {
+      "slug": "kontrabas-esli-svoy-slomalsya",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Сцена внезапного отказа собственного инструмента и первой замены. В отличие от страницы периода ремонта, начинает с произошедшей поломки и срочного разрыва расписания; ссылка на срок ремонта продолжает эту задачу."
+    },
+    {
+      "slug": "kontrabas-esli-vy-vozvraschaetes-posle-pereryva",
+      "group": "legacy_bass_violin",
+      "decision": "enrich",
+      "reason": "Поисковый заголовок исправлен: он обозначает возвращение после перерыва, которому уже соответствовали URL, редакционный заголовок и весь текст. Ошибочный вход про взрослого новичка снят.",
+      "changed_fields": [
+        "search_title"
+      ]
+    },
+    {
+      "slug": "kontrabas-kupit-ili-vzyat-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Решение о владении строится на проверке собственного критерия; нет выдуманных цен, экономии или обязательности покупки."
+    },
+    {
+      "slug": "kontrabas-na-ekzamen",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Экзаменационная программа, размер/мензура и срок адаптации образуют самостоятельный запрос к фиксированной дате; похожая форма конкурсного текста не делает два события одним."
+    },
+    {
+      "slug": "kontrabas-na-gastroli-v-moskve",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Планирует гастрольный период и перемещение между площадками вместо перевозки своего инструмента. Отдельно от прибытия без контрабаса раскрывает весь маршрут."
+    },
+    {
+      "slug": "kontrabas-na-konkurs-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Конкурсный этап связан с подготовленной программой, датой и временем привыкания; нет обещания результата или автоматического успеха от другого инструмента."
+    },
+    {
+      "slug": "kontrabas-na-proslushivanie",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Сосредоточен на достаточной предварительной игре перед прослушиванием. Не обещает универсальный срок привыкания и требует программу."
+    },
+    {
+      "slug": "kontrabas-na-vremya-remonta",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Закрывает известный период отсутствия своего инструмента и требует привычную конфигурацию и длительность; возвращение собственного инструмента остаётся целью."
+    },
+    {
+      "slug": "kontrabas-po-rayderu-v-moskve",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Уточняет конфигурацию, саундчек и доступ на площадку по требованиям исполнителя. Не назначает модель или комплект без текста райдера."
+    },
+    {
+      "slug": "kontrabas-polovina-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "enrich",
+      "reason": "Изменение мензуры явно отнесено к переходу на другой контрабас. Рост ребёнка больше не описан как увеличение рабочей длины струны того же экземпляра.",
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://www.thomastik-infeld.com/de/stringtelligence/woerterbuch/was-ist-die-schwingende-saitenlaenge-bzw-die-mensur"
+      ]
+    },
+    {
+      "slug": "kontrabas-rebenku-na-vremya-obucheniya",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Отдельный запрос о росте ребёнка и текущем учебном размере; преподаватель определяет подходящий этап, размер «на вырост» не рекомендуется."
+    },
+    {
+      "slug": "kontrabas-s-korotkoy-menzuroy",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Корректно разделяет корпус и рабочую длину струны и спрашивает, какое движение требуется облегчить; универсальные сантиметры не назначаются."
+    },
+    {
+      "slug": "kontrabas-s-nizkoy-vysotoy-strun",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Говорит о балансе высоты и рабочей манеры, прямо не сводит задачу к максимальной мягкости; различает смычок и пиццикато."
+    },
+    {
+      "slug": "kontrabas-so-zvukosnimatelem-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Задача сценического тракта и слышимости исполнителя сформулирована отдельно от корпуса. Не указана выдуманная модель датчика или универсальный выход."
+    },
+    {
+      "slug": "kontrabas-tri-chetverti-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Два инструмента одной размерной маркировки прямо допускаются разными; запрос ведёт к конкретной примерке по рукам и задаче."
+    },
+    {
+      "slug": "kontrabas-v-arendu-na-mesyats",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Ограниченный месяц уже рассматривается как ежедневная работа, поэтому требуется привычная конфигурация и план периода. Срок является входным условием, а не обещанием свободного экземпляра на любую дату."
+    },
+    {
+      "slug": "kontrabas-v-arendu-na-nedelyu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Недельная серия репетиций, записи или выступлений — отдельное временное условие; спрашивает, что именно произойдёт за неделю. Нет основания удлинять только из-за короткого формата."
+    },
+    {
+      "slug": "kontrabas-v-moskve-esli-vy-priehali-bez-svoego",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Локальная замена после прибытия начинается с первой репетиции и привычного инструмента; гастрольная страница отдельно ведёт весь период и несколько площадок."
+    },
+    {
+      "slug": "legkiy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Критерий массы связан с реальной переноской и уравновешен звуком и геометрией; не заявлено, что меньшая масса гарантирует лучшее звучание."
+    },
+    {
+      "slug": "masterovoy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Ручная работа не объявляется достаточным качеством. Текст требует конкретного мастера, конструкции, состояния и реакции экземпляра."
+    },
+    {
+      "slug": "moskovskiy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Не приписывает московское происхождение любому инструменту в Москве: просит мастерскую, эпоху и историю конкретного экземпляра."
+    },
+    {
+      "slug": "nemetskiy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Немецкое происхождение не превращено в единый материал или качество; уточняются мастерская, конструкция, состояние и ремонт."
+    },
+    {
+      "slug": "orkestrovyy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "enrich",
+      "reason": "Сохранён общий оркестровый адрес; из арендного входа перенесены проект, сезон или подмена и требования конкретной секции. Состояние, строй, баланс, длительная нагрузка и привычная конфигурация собраны в одном ответе.",
+      "changed_fields": [
+        "intro"
+      ],
+      "resolution": "enrich_with_consolidation",
+      "absorbed_slugs": [
+        "kontrabas-dlya-orkestra-v-arendu"
+      ]
+    },
+    {
+      "slug": "professionalnyy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Полезно отказывается от самодостаточного ярлыка «профессиональный» и требует реальную программу, технику, сцену и слышимые ограничения."
+    },
+    {
+      "slug": "pyatistrunnyy-kontrabas-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "enrich",
+      "reason": "Фраза об автоматически возникающем доступе к редкой конфигурации заменена уточнением нужных нот, строя и наличия конкретного экземпляра на срок.",
+      "changed_fields": [
+        "intro"
+      ]
+    },
+    {
+      "slug": "skripka",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Корневое раскрытие различает подходящий сейчас размер, рабочий отклик и смену учебной задачи. Нет таблицы обязательного размера по возрасту и нет утверждения, что перечислены все существующие размеры."
+    },
+    {
+      "slug": "skripka-chetvert-rebenku",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Сохранён вопрос о ребёнке, которому нынешняя 1/4 может становиться мала. Преподаватель оценивает готовность к переходу; соседний вход по размеру 1/4 отвечает о первоначальном выборе уже требуемого размера."
+    },
+    {
+      "slug": "skripka-chetvert-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Вход по требуемой 1/4 спрашивает, какой размер уже проверяли с педагогом; рядом есть переходный вопрос, не стала ли нынешняя четвертушка мала. Пара близка по языку, но её разные исходные ситуации уже выражены."
+    },
+    {
+      "slug": "skripka-chetyre-chetverti-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Выбор конкретной скрипки при уже определённом полном размере: гриф, вес, отклик и принадлежности могут различаться. H1 задаёт такую сцену, а не обязательный 4/4 для любого взрослого."
+    },
+    {
+      "slug": "skripka-dlya-muzykalnoy-shkoly",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Самостоятельная учебная сцена: класс и рекомендация педагога определяют текущий комплект для ежедневной работы. Не тождественна годовому сроку или покупке."
+    },
+    {
+      "slug": "skripka-dlya-nachinayuschego-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Общий первый опыт до устойчивого критерия, с уточнением возраста, педагога и уже проверенного размера. Взрослый новичок и домашняя практика раскрываются дальше отдельными страницами."
+    },
+    {
+      "slug": "skripka-dlya-orkestra-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Уточняет строй, длительную игру и смешение с секцией для проекта/сезона. Общие с контрабасом организационные принципы не делают разные инструменты дублями."
+    },
+    {
+      "slug": "skripka-dlya-semki-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Сценическое действие, постановка и размер скрипки отделены от просто покупки реквизита; человек в кадре и число смен спрашиваются явно."
+    },
+    {
+      "slug": "skripka-na-ekzamen-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Программа и адаптация до даты экзамена; это компактное, завершённое различение временного инструмента перед аттестацией."
+    },
+    {
+      "slug": "skripka-na-konkurs-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Ограниченный этап конкурсной подготовки и предсказуемый отклик. Сравнено с экзаменом/прослушиванием: общее условие адаптации не отменяет отдельной программы события."
+    },
+    {
+      "slug": "skripka-na-uchebnyy-god",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "План одного учебного цикла с возможной сменой размера и требований по ходу года. «Может» не обещает обязательный ежегодный рост на размер."
+    },
+    {
+      "slug": "skripka-na-vremya-remonta",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Цель — дождаться своего инструмента с достаточно близкой временной заменой. Это другая задача, чем начать обучение или испытать будущую покупку."
+    },
+    {
+      "slug": "skripka-odna-shestnadtsataya-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Вход для уже примеряемого 1/16 и первого учебного периода; не назначает его всем детям конкретного возраста и требует проверку педагогом."
+    },
+    {
+      "slug": "skripka-odna-vosmaya-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "1/8 привязана к текущей постановке, длине руки и удержанию. Похожая структура размерных страниц не является доказательством одинаковой потребности."
+    },
+    {
+      "slug": "skripka-polovina-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Подбор текущего 1/2 и последующая возможная смена размера, без возрастной формулы. Самостоятельный запрос по конкретному требуемому размеру."
+    },
+    {
+      "slug": "skripka-rebenku-kupit-ili-arendovat",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Вопрос владения несколькими промежуточными размерами; срок пригодности нынешнего инструмента важнее цены или обещанной экономии. Не дублирует практическую примерку перед покупкой конкретной скрипки."
+    },
+    {
+      "slug": "skripka-rebenku-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Общий вход родителя при ещё не уточнённом размере; запрашивает длину руки и рекомендацию педагога и ведёт в домашнюю практику/смену размера."
+    },
+    {
+      "slug": "skripka-tri-chetverti-v-arendu",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Переходная сцена ребёнка, которому ещё рано на 4/4; требует длину руки и оценку готовности. Это не универсальная лестница размеров для любого взрослого."
+    },
+    {
+      "slug": "skripka-v-arendu-na-mesyats",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Один месяц повседневной работы с привычной посадкой и откликом; цель периода может быть разной и уточняется. Это отличается от школьной программы, годового цикла и ожидания ремонта."
+    },
+    {
+      "slug": "solnyy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Проверка атаки, верхнего регистра и индивидуальной интонационной работы вне прикрытия секции. Сольный строй не предписывается автоматически: его отдельно уточняют."
+    },
+    {
+      "slug": "starinnyy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Возраст рассматривается через сохранность, ремонты и реальную работоспособность; старинность не обещает лучшие свойства и не подтверждает атрибуцию экземпляра."
+    },
+    {
+      "slug": "uchenicheskiy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Функция ученического инструмента — поддерживать базовые движения и практику; условия перечислены предметно и согласуются с учеником/педагогом."
+    },
+    {
+      "slug": "udobnyy-kontrabas",
+      "group": "legacy_bass_violin",
+      "decision": "keep",
+      "reason": "Собирает общую эргономическую жалобу в несколько проверяемых причин и продолжения сидя/стоя/по мензуре; не обещает одну универсальную геометрию."
+    },
+    {
+      "slug": "",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохранить главную и её три масштаба: исполнитель/состав, этап обучения, срок. Формулировка о разрешении обучения является авторским тезисом действующего проекта; отсутствие JSON-enrich не даёт основания переписывать канон."
+    },
+    {
+      "slug": "arenda-cifrovogo-pianino-kazan",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Неподтверждённое готовое обслуживание города заменено уточнением адреса, задачи, срока и возможности предоставить конкретный инструмент. Географический поисковый вход сохранён без обещания наличия.",
+      "changed_fields": [
+        "intro"
+      ]
+    },
+    {
+      "slug": "arenda-koncertnogo-royalya-moskva",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Обещание обеспечить концерт целиком заменено данными для подбора рояля и согласования инструментальной и организационной части. Наличие и состав услуги не объявлены установленными заранее.",
+      "changed_fields": [
+        "intro"
+      ]
+    },
+    {
+      "slug": "arenda-pianino-moskva",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Общий вход к домашней практике, ребёнку и возвращению, с явным разделением акустической и цифровой веток в навигации. Краткость сама по себе не дефект."
+    },
+    {
+      "slug": "arfy-liry",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Различает диапазон, механизмы изменения высоты, логистику и концертную/визуальную задачу; не обещает взаимозаменяемость арф."
+    },
+    {
+      "slug": "bayan-akkordeon",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Называет систему клавиатур, вес, мех и традицию. Похожий внешний вид прямо не принимается за функциональную замену."
+    },
+    {
+      "slug": "cifrovoe-ili-akusticheskoe-pianino",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Универсальное обещание меньшего места у цифрового формата заменено сравнением конкретных полных комплектов. Корпус, посадка, педаль и помещение рассматриваются вместе.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro"
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Безусловная возможность сменить арендованный инструмент заменена согласованием доступности и условий замены. Основной содержательный текст категории сохранён.",
+      "changed_fields": [
+        "blocks"
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-88-klavish",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Не сводит пригодность к числу клавиш: отдельно требует механику, педали и посадку. Новая редакция ради метки не нужна."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-konservatorii",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Есть конкретная задача дополнительной домашней работы, повтор нот, педаль и сравнение с основным инструментом. Текст формулирует потребность, не гарантирует тождество роялю."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-kvartiry",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Содержит бытовой вход и переходы к геометрии полного комплекта и поздней практике. Не утверждает, что любая модель полностью бесшумна; детали закономерно находятся на дочерних маршрутах."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-nochnih-zanyatiy",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохранён общий ночной режим: время, место установки, наушники и механический шум. Ранний сценарий отдельно проверяет слышимость для окружающих, поздний — музыкальную обратную связь; объединение не требуется."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-obucheniya",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохранён общий вход в учебную задачу: механика, посадка, преподаватель и текущий этап. Отдельная how-to-страница раскрывает последовательность проб."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-pereezda",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Временная недоступность собственного инструмента — конкретная причина; переход к временному жилью развивает её, не повторяя весь материал."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-prepodavatelya",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Отдельная задача коротких уроков с разными руками и совместного прослушивания. Два выхода названы полезной возможностью, не обязательным свойством каждой модели."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-sochineniya-muzyki",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Различает собственный звук и управление программами; прямого смешения MIDI и аудио нет. Для дальнейшего развития достаточно существующих маршрутов к MIDI-эскизу и нотному набору."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-studii",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Корректно разносит собственный звук и MIDI-управление и ведёт к двум разным способам записи. Переименование MIDI/USB само по себе не улучшит смысл."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-uchilischa",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Объём практики, программа, повтор нот и педаль задают более конкретный запрос, чем абстрактное «для серьёзных». Нет обещания гарантированного профессионального результата."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-vozvrascheniya-k-igre",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Сохранён более общий старый адрес возвращения после паузы. Из парной взрослой страницы перенесены знакомый материал, клавиатура, педаль, режим занятий и модельные выходы; обещание фиксированного срока восстановления снято.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "blocks",
+        "quote",
+        "sources"
+      ],
+      "resolution": "enrich_with_consolidation",
+      "absorbed_slugs": [
+        "cifrovoe-pianino-dlya-vzroslogo-posle-pereryva"
+      ],
+      "primary_sources": [
+        "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+        "https://www.kawai-global.com/product/es120/"
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-vzroslogo-nachinayuschego",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Начинающий без прежнего навыка — отдельная задача относительно возвращения. Сохранить URL и пробный учебный маршрут."
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-zanyatiy-v-naushnikah",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Обещание бесконфликтной тишины заменено различением тембра в наушниках и сохраняющегося физического шума клавиатуры и педалей. Музыкальная обратная связь остаётся частью пробы.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://support.roland.com/hc/en-us/articles/4404526760347-Digital-Piano-How-to-Reduce-Noise-Vibration"
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-na-uchebnyy-god",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Срок связывается с изменением репертуара и требованиями преподавателя; нет фиксированного обещания достижения уровня."
+    },
+    {
+      "slug": "cifrovoe-pianino-pered-pokupkoy",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Проверка уже рассматриваемых моделей в ежедневном режиме отличается от первого учебного периода. Сравнение механик и геометрии поддерживает этот вопрос."
+    },
+    {
+      "slug": "cifrovoe-pianino-rebenku",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Общий детский вход с возрастом, классом, посадкой и требованиями преподавателя; его не следует автоматически сливать с первым инструментом или решением о покупке."
+    },
+    {
+      "slug": "cifrovoe-pianino-s-dvumya-vyhodami-na-naushniki",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Предметная функция для одновременного прослушивания урока. Не заявлены Bluetooth-наушники, независимая регулировка или совместимость любого разветвителя."
+    },
+    {
+      "slug": "cifrovoe-pianino-s-molotochkovoy-mehanikoy",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Не приравнивает одно торговое название механики к пригодности: просит проверить вес, глубину и возврат. Это полезная самостоятельная рамка."
+    },
+    {
+      "slug": "cifrovoe-pianino-s-troynoy-pedalyu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Разделяет число педалей, устойчивость, положение и полупедаль. Условие «там, где нужна» не обещает её автоматически по трём педалям."
+    },
+    {
+      "slug": "cifrovoe-pianino-s-usb-midi",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Прямо разделены MIDI-события и передача собственного аудиосигнала. USB/MIDI не представлен автоматическим подтверждением USB-аудио; возможность проверяется по модели и инструкции.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://manual.yamaha.com/mi/app/smartpianist/en/smartpianist_en_ug_j1_003.html",
+        "https://manual.yamaha.com/mi/common/computer/en/computer_en_rm_y0_07.htm"
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-yamaha",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Оценка «половина выбора сделана» заменена конкретной моделью, задачей и практикой. Новая универсальная иерархия серий не введена.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro"
+      ]
+    },
+    {
+      "slug": "duhovye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Уточняет строй, аппликатуру, сопротивление, мундштук/трость и состояние. Хорошая предметная рамка корня, не требующая переработки ради reviewed."
+    },
+    {
+      "slug": "elektronnye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Аудиовыходы, MIDI и USB перечислены раздельно и требуют согласования с системой. Совместимость не обещана автоматически."
+    },
+    {
+      "slug": "gitary",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Отдельно учитывает руки, мензуру, звуковой тракт и студийный характер; отвергает универсальный рейтинг."
+    },
+    {
+      "slug": "istoricheskie",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Различает эпоху и фактический возраст, исполнение и внешний вид. Не даёт универсального камертона или темперации для всех исторических инструментов."
+    },
+    {
+      "slug": "kak-vybrat-cifrovoe-pianino-dlya-obucheniya",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Перечень критериев дополнен последовательностью практических проверок. Алгоритм выбора теперь имеет самостоятельную задачу относительно общего учебного входа.",
+      "changed_fields": [
+        "description",
+        "intro",
+        "blocks",
+        "quote"
+      ]
+    },
+    {
+      "slug": "kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохранить как вопрос момента приобретения до того, как сформировались требования. Содержание близко к первому периоду, но задача собственности отделима от сравнения моделей."
+    },
+    {
+      "slug": "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохранён запрос согласования требований школы и преподавателя. Его вопрос отличается от общего алгоритма пробы, первого детского комплекта и решения о покупке."
+    },
+    {
+      "slug": "klavishnye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Корень различает механику, домашнюю практику, сценические выходы и временную задачу. Он выполняет ориентацию, а не спецификацию всех моделей."
+    },
+    {
+      "slug": "kompaktnoe-cifrovoe-pianino",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Сохранён старый общий компактный адрес. Из страницы маленькой комнаты перенесены полный установленный комплект, банкетка, ноги, педаль, доступность обычного занятия и модельные выходы.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "blocks",
+        "quote",
+        "sources"
+      ],
+      "resolution": "enrich_with_consolidation",
+      "absorbed_slugs": [
+        "cifrovoe-pianino-dlya-malenkoy-komnaty"
+      ],
+      "primary_sources": [
+        "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+        "https://www.casio.com/intl/electronic-musical-instruments/product.CDP-S110BK/"
+      ]
+    },
+    {
+      "slug": "korpusnoe-cifrovoe-pianino",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Постоянная установка, педали и место в комнате — реальная функциональная тема. Не требует упоминания ценовых рангов."
+    },
+    {
+      "slug": "perenosnoe-cifrovoe-pianino",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Запрашивает частоту перемещения и личное ограничение по весу. Переносной формат не приравнен к беспроблемной лёгкости любой модели."
+    },
+    {
+      "slug": "pervoe-cifrovoe-pianino-rebenku",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Мотивировка страхом переплаты и скорого устаревания заменена первым учебным периодом и наблюдениями на пробе. Детская стартовая задача сохранена.",
+      "changed_fields": [
+        "description",
+        "intro"
+      ]
+    },
+    {
+      "slug": "pianino-dlya-muzykalnoy-shkoly",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохранён общий школьный запрос с развилкой акустической и цифровой практики. Он отвечает о задаче обучения, а не о характеристиках одной цифровой модели."
+    },
+    {
+      "slug": "redkie-eksperimentalnye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Уточняет функцию редкого тембра, конструкцию, образ и контекст; не обещает автоматическую замену необычного инструмента."
+    },
+    {
+      "slug": "shchipkovye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохранить различие строя, мензуры, традиции и ансамблевого контекста. Корневая рамка предметна."
+    },
+    {
+      "slug": "smychkovye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Размер, мензура, струны, смычок и конкретный этап работы изложены предметно. Достаточность не зависит от отметки JSON enrich."
+    },
+    {
+      "slug": "stsenicheskoe-cifrovoe-pianino",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Выходы, комплект и способ подключения соотносятся с площадкой. Никакой разъём или модель не заявлены универсальной совместимостью."
+    },
+    {
+      "slug": "traditsionnye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Сохраняет связь с конкретной музыкальной традицией и составом; общий «народный звук» не заменяет подбор."
+    },
+    {
+      "slug": "udarnye",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Точный комплект зависит от партитуры, исполнения и перевозки. Различия ударной, оркестровой и ручной перкуссии не сведены к размеру набора."
+    },
+    {
+      "slug": "yamaha-arius-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Противопоставление переносному формату и ценовая лестница ARIUS/Clavinova заменены конкретной моделью, механикой, педалями и условиями постоянной установки.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-165/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clavinova-clp-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Общий переход к «серьёзной клавиатуре» заменён сравнением конкретных моделей и поколений CLP по подтверждённой конструкции и музыкальной пробе.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://uk.yamaha.com/en/musical-instruments/pianos/products/clavinova/clp-645/specs.html",
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html",
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp635-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Ссылки на дорогую покупку и абстрактный класс заменены подтверждённой GH3X и пробой корпуса, клавиатуры и педали на своей программе.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://uk.yamaha.com/en/musical-instruments/pianos/products/clavinova/clp-645/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp645-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Обещание автоматического повышения класса заменено конструкцией NWX и проверкой конкретного затруднения музыканта.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://uk.yamaha.com/en/musical-instruments/pianos/products/clavinova/clp-645/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp685-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Убраны «второсортная» практика и обещание отсутствия перестройки после рояля. GrandTouch и противовесы описаны как конструкция для индивидуального сравнения.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://uk.yamaha.com/en/musical-instruments/pianos/products/clavinova/clp-645/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp735-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Предполагаемое движение вверх по классу заменено конкретной пробой GrandTouch-S и текущей музыкальной задачи.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp775-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Гарантия сохранения техники после рояля заменена проверкой конкретной клавиатуры GrandTouch и педали. Итог сопоставления зависит от программы и музыканта.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp785-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Неограниченная «профессиональная пригодность» заменена подтверждённой конструкцией клавиатуры и сравнением её отклика на реальной работе.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp825-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Быстро устаревающие слова о новой модели и поколении заменены определённой конструкцией GrandTouch-S и задачей пробного периода.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp835-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Обещание класса на годы и будущего технического потолка снято. Вместо него названы подтверждённые особенности модели и предмет пробы.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp845-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Ценовая мотивация и высокий класс заменены GrandTouch-S с деревянными белыми клавишами и проверкой конкретного отклика.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp875-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Дороговизна и предполагаемый финансовый разрыв заменены проверяемой конструкцией GrandTouch, педалью и музыкальной задачей.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-clp885-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Неограниченный рейтинг «максимально высокий класс» заменён конструкцией GrandTouch с противовесами и пробой конкретного экземпляра.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-p-series-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Семейство описано через частоту перемещения и ощущение клавиатуры, без победителя и ценовой лестницы. Отдельные модели должны отвечать за конкретный вес."
+    },
+    {
+      "slug": "yamaha-p105-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Полезно оценивает конкретный экземпляр и временный разрыв практики, не обесценивая возраст модели. Сохранить."
+    },
+    {
+      "slug": "yamaha-p115-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Домашняя установка с периодическими переездами — ясная сцена. Технических обещаний по USB или аудио нет."
+    },
+    {
+      "slug": "yamaha-p125-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Временная домашняя практика, место и переносимость изложены как выбор по условиям. Слово «нормальный» стилистически слабое, но это не достаточное основание перестраивать страницу сейчас."
+    },
+    {
+      "slug": "yamaha-p143-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Оценочный заголовок про «небольшую жизнь» заменён названием конкретной задачи; привязанное к дате «современный» снято. Остальной текст сохранён.",
+      "changed_fields": [
+        "editorial_title"
+      ]
+    },
+    {
+      "slug": "yamaha-p145-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Вход в уже начавшуюся практику и требования преподавателя сформулированы без автоматически гарантированного уровня."
+    },
+    {
+      "slug": "yamaha-p35-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Временная работа на 88 клавишах и оценка достаточности по программе. Не приписывает старой P-35 USB или аудиофункции соседних моделей."
+    },
+    {
+      "slug": "yamaha-p45-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "88 взвешенных клавиш и пробный срок — предметный минимум; долгосрочный результат не гарантирован. Нет основания сливать P-45 с другой моделью из-за близкой сцены."
+    },
+    {
+      "slug": "yamaha-p515-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Предполагаемая непригодность более простой клавиатуры заменена NWX и реальной массой переносного инструмента. Первичный источник обновлён до прямого руководства Yamaha с характеристиками.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://data.yamaha.com/files/download/other_assets/6/1204086/p515_en_om_b0.pdf"
+      ]
+    },
+    {
+      "slug": "yamaha-p525-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Противопоставление первому инструменту и «реальной» работе заменено GrandTouch-S и массой модели. Переносной формат не объявлен автоматически лёгким.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://fi.yamaha.com/en/musical-instruments/pianos/products/p-series/p-525/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-ydp103-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Постоянная установка и вопрос достаточности под программу дают понятную пробу конкретной модели. Вывод о непригодности для определённого класса не сделан."
+    },
+    {
+      "slug": "yamaha-ydp144-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Типично неудобная временная стойка и сборка заменены конструкцией конкретного корпуса, GHS и проверкой рабочего комплекта.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-144/"
+      ]
+    },
+    {
+      "slug": "yamaha-ydp145-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Ценовая ступень относительно Clavinova заменена конкретной GHS, корпусом и проверкой педалей и посадки.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-165/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-ydp164-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Предполагаемый потолок базовой клавиатуры заменён подтверждённой GH3 и пробой конкретного инструмента.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://it.yamaha.com/it/musical-instruments/pianos/products/arius/ydp-s34/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-ydp165-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Обязательный сценарий повышения класса заменён сравнением GH3 с реальной программой и наблюдениями музыканта.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-165/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-ydps34-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Неподтверждённая экономия двадцати сантиметров снята. Сравнение места опирается на полную установленную глубину с предусмотренными опорами.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://it.yamaha.com/it/musical-instruments/pianos/products/arius/ydp-s34/specs.html"
+      ]
+    },
+    {
+      "slug": "yamaha-ydps35-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "keep",
+      "reason": "Маленькая комната и постоянный корпус — конкретное физическое требование. Текст не обещает точную экономию сантиметров или тождество другой механике; сохранить сейчас."
+    },
+    {
+      "slug": "yamaha-ydps55-v-arendu",
+      "group": "legacy_keys_roots",
+      "decision": "enrich",
+      "reason": "Обещание экономии места без потери качества заменено механикой GH3 и полной глубиной установленного комплекта.",
+      "changed_fields": [
+        "editorial_title",
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-165/specs.html"
+      ]
+    }
+  ],
+  "supplemental": {
+    "scope": "Записи editorial_updates, paired_alias_sources и kept_related_topics находятся вне 209 исходных legacy-страниц. cluster_decisions содержит только ссылки на рассмотренные темы и не расширяет исходную выборку.",
+    "editorial_updates": [
+      {
+        "slug": "cifrovoe-pianino-roland",
+        "decision": "enrich",
+        "reason": "Неподтверждённое ценовое превосходство LX над HP/FP заменено конкретной моделью, местом работы, клавиатурой, педалью и подключениями.",
+        "changed_fields": [
+          "editorial_title",
+          "description",
+          "intro"
+        ]
+      },
+      {
+        "slug": "violonchel-dlya-smeny-razmera",
+        "decision": "enrich",
+        "reason": "Устранён причинный вывод из наличия разных размеров в каталоге. Ассортимент подтверждает существование вариантов; необходимость перехода конкретного ребёнка определяют по посадке и свободе движения с преподавателем.",
+        "changed_fields": [
+          "blocks"
+        ],
+        "primary_sources": [
+          "https://www.eastmanstrings.com/cello/vc100/",
+          "https://goronok.ru/shop/violonchel-goronok-nova-1-2-650-mm/",
+          "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/"
+        ]
+      },
+      {
+        "slug": "cifrovoe-pianino-dlya-muzykalnoy-shkoly",
+        "decision": "enrich",
+        "reason": "Неподтверждённый общий учебный класс четырёх моделей и неточная атрибуция рекомендациям заменены сравнением на материале преподавателя. Модельные сведения сопровождаются прямыми источниками изготовителей.",
+        "changed_fields": [
+          "intro",
+          "sources"
+        ],
+        "primary_sources": [
+          "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+          "https://www.roland.com/ru/products/fp-30x/",
+          "https://www.kawai-global.com/product/es120/",
+          "https://www.casio.com/us/electronic-musical-instruments/product.PX-S1100BK/"
+        ]
+      },
+      {
+        "slug": "cifrovoe-pianino-na-ustoychivoy-stoyke",
+        "decision": "enrich",
+        "reason": "Широкое обобщение о российских рекомендациях заменено конкретным опубликованным оснащением ДШИ села Городище. Этот пример не объявлен общим требованием ко всем домашним моделям.",
+        "changed_fields": [
+          "blocks",
+          "sources"
+        ],
+        "primary_sources": [
+          "https://dshig.ru/materialno-tekhnicheskoe-obespechenie/"
+        ]
+      },
+      {
+        "slug": "istoricheskie-duhovye-dlya-pervogo-proekta",
+        "decision": "enrich",
+        "reason": "Источники о виеле, ребеке и корнетто заменены первичными страницами траверсо, сакбута и натуральных труб. Прежний опыт исполнителя помогает выбрать пробу, но не обещает автоматического переноса техники.",
+        "changed_fields": [
+          "editorial_title",
+          "description",
+          "intro",
+          "blocks",
+          "quote",
+          "sources"
+        ],
+        "primary_sources": [
+          "https://vanbaarselflutes.com/baroque-flutes/",
+          "https://eggerinstruments.ch/en/produkt/tenor-sackbut-after-hainlein/",
+          "https://eggerinstruments.ch/en/historic/trumpets/natural-trumpets/"
+        ]
+      },
+      {
+        "slug": "gitarnyy-kabinet-1x12-dlya-pervogo-opyta",
+        "decision": "enrich",
+        "reason": "Сохранение тембровых настроек при сравнении кабинетов отделено от обязательной проверки выхода и согласования нагрузки по инструкциям конкретных моделей.",
+        "changed_fields": [
+          "blocks",
+          "sources"
+        ],
+        "primary_sources": [
+          "https://assets.ctfassets.net/javen7msabdh/5yGO5Slu3bppUANqqAImQR/1a5bfd3c073bc6394e67d713b3065c76/M3311.402_JCM800_2203_QSG_Web.pdf"
+        ]
+      },
+      {
+        "slug": "gibridnyy-instrument-dlya-kontserta",
+        "decision": "enrich",
+        "reason": "Ложные и пропущенные срабатывания проверяются уже при настройке датчиков, затем на полном сете со сценическим мониторингом. Ошибочное ограничение проверки одной только сценой снято.",
+        "changed_fields": [
+          "blocks",
+          "sources"
+        ],
+        "primary_sources": [
+          "https://static.roland.com/assets/media/pdf/TM-2_e02_W.pdf"
+        ]
+      },
+      {
+        "slug": "kontrabas-dlya-dzhaza",
+        "decision": "enrich",
+        "reason": "В существующее полное раскрытие перенесены оба legacy-входа: манера, пиццикато, высота струн, мензура, состав, усиление и срок проекта. Исходные технические блоки и полезные маршруты сохранены.",
+        "changed_fields": [
+          "intro"
+        ],
+        "resolution": "enrich_with_consolidation",
+        "absorbed_slugs": [
+          "dzhazovyy-kontrabas",
+          "kontrabas-dlya-dzhaza-v-arendu"
+        ]
+      },
+      {
+        "slug": "violonchel-dlya-kamernogo-ansamblya",
+        "decision": "enrich",
+        "reason": "Полная камерная тема вобрала короткий вход: поддерживающая и ведущая роль, ясность атаки, гибкость динамики и работа с фактурой. Проверка длинной ноты, плотного/прозрачного эпизода и срок совместной подготовки сохранены.",
+        "changed_fields": [
+          "editorial_title",
+          "description",
+          "intro",
+          "blocks"
+        ],
+        "resolution": "enrich_with_consolidation",
+        "absorbed_slugs": [
+          "kamernaya-violonchel"
+        ]
+      },
+      {
+        "slug": "yamaha-clp675-v-arendu",
+        "decision": "enrich",
+        "reason": "В старом теле, description и kicker сохранялась общая иерархия «высокого класса» и ценовая мотивировка. Они заменены текущей программой ученика, сравнением тихой фразы, повторных нот и педали, посадкой и реальным учебным периодом.",
+        "changed_fields": [
+          "description",
+          "kicker",
+          "intro"
+        ]
+      },
+      {
+        "slug": "yamaha-clp745-v-arendu",
+        "decision": "enrich",
+        "reason": "Старое тело обещало более серьёзную клавиатуру на годы учёбы. Вместе с description и kicker оно заменено сравнением модели на текущей программе, конкретными трудностями, посадкой и согласованным сроком без гарантии педагогического результата.",
+        "changed_fields": [
+          "description",
+          "kicker",
+          "intro"
+        ]
+      }
+    ],
+    "paired_alias_sources": [
+      {
+        "slug": "cifrovoe-pianino-dlya-vzroslogo-posle-pereryva",
+        "decision": "merge",
+        "canonical_target": "cifrovoe-pianino-dlya-vozvrascheniya-k-igre",
+        "reason": "Новая парная страница повторяла общий старый ответ о возвращении после паузы. Полезные упражнения, режим, педальная проверка и выходы перенесены в старый адрес."
+      },
+      {
+        "slug": "cifrovoe-pianino-dlya-malenkoy-komnaty",
+        "decision": "merge",
+        "canonical_target": "kompaktnoe-cifrovoe-pianino",
+        "reason": "Новая парная страница решала ту же задачу маленькой комнаты и полного рабочего комплекта. Более подробная проверка и модельные выходы перенесены в старый общий компактный адрес."
+      }
+    ],
+    "kept_related_topics": [
+      {
+        "slug": "cifrovoe-pianino-dlya-rannih-zanyatiy",
+        "decision": "keep",
+        "cluster": "quiet",
+        "reason": "Есть самостоятельная проверка слышимости для окружающих: гамма, повторные ноты и педаль в наушниках с прослушиванием сбоку. Само время суток не единственное содержание страницы."
+      },
+      {
+        "slug": "cifrovoe-pianino-dlya-pozdnih-zanyatiy",
+        "decision": "keep",
+        "cluster": "quiet",
+        "reason": "Сценарий проверяет сохранение музыкальной обратной связи: тот же фрагмент через динамики и наушники, динамика и педаль. Не обещает устранить механический шум или изменить физическую механику режимом наушников."
+      },
+      {
+        "slug": "backline-dlya-odnodnevnoy-arendy",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Однодневный сценарий раскрывает согласование состава, времени и готовности комплекта. Срок здесь описывает задачу; конкретного подтверждения наличия или договорных условий текст не выдаёт."
+      },
+      {
+        "slug": "backline-dlya-pervogo-kontserta",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Самостоятельный вопрос первого выступления: знакомые функции и минимально необходимый комплект. Краткость текста не создаёт технической ошибки."
+      },
+      {
+        "slug": "backline-dlya-rezervnogo-komplekta",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Запасной комплект связан с конкретной критичной неисправностью, процедурой и участниками замены. Автоматическая защита от любого отказа не обещана."
+      },
+      {
+        "slug": "backline-po-rayderu-dlya-gruppy",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Текст переводит отдельные требования участников в согласованный сценический комплект и план. Это координация работ, а не гарантия наличия любой модели."
+      },
+      {
+        "slug": "basovyy-backline-po-rayderu",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Уточняет неоднозначное обозначение модели или семейства в райдере и проверяет функции тракта, сцену и сигнал в зал. Не разрешает любую замену без согласования."
+      },
+      {
+        "slug": "di-boks-pered-pokupkoy",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Предлагается проба с собственным источником и реальной схемой; пассивный DI прямо не назван универсальным решением. Ошибки совместимости в полном тексте не выявлены."
+      },
+      {
+        "slug": "gitarnyy-backline-po-rayderu",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Согласование замены привязано к функциям, программе и педалям, а не к цене или одному названию. Самостоятельная задача сохранена."
+      },
+      {
+        "slug": "gitarnyy-kabinet-2x12-dlya-pervogo-opyta",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Сравнение на одной голове отделяет кабинет от характера усилителя. В отличие от 1×12, требование сохранить все настройки здесь отсутствует; универсальная совместимость не заявлена."
+      },
+      {
+        "slug": "gitarnyy-usilitel-dlya-pervogo-kontserta",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Проверка знакомой гитары и педалей в реальном сценическом балансе отличается от студийного и домашнего сценариев. Неподтверждённых характеристик модели нет."
+      },
+      {
+        "slug": "gitarnyy-usilitel-dlya-studii",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Выбор привязан к роли партии и сравнению записанного фрагмента. Это отдельная проба результата в записи, не повтор первого концерта."
+      },
+      {
+        "slug": "gitarnyy-usilitel-pered-pokupkoy",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Решает пробу усилителя в собственных условиях перед покупкой. Уточнение, что покупать именно этот экземпляр необязательно, не является обещанием выкупа или наличия."
+      },
+      {
+        "slug": "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+        "decision": "keep",
+        "cluster": "backline",
+        "reason": "Подробный текст уже различает источники и нужные входы. Пример Katana обозначен примером функций; он не превращён в обязательную или универсально совместимую модель."
+      },
+      {
+        "slug": "gibridnyy-instrument-dlya-pervogo-opyta",
+        "decision": "keep",
+        "cluster": "hybrid",
+        "reason": "Отдельно пробует акустический жест и электронный слой. Пример с датчиком и модулем не обещает совместимость любых устройств."
+      },
+      {
+        "slug": "gibridnyy-instrument-dlya-zapisi",
+        "decision": "keep",
+        "cluster": "hybrid",
+        "reason": "Раздельная запись акустического и электронного слоя сохраняет возможность решения после дубля. Текст не приравнивает MIDI или trigger-событие к записи собственного аудиосигнала и не обещает универсальное USB-подключение."
+      },
+      {
+        "slug": "barabannaya-ustanovka-dlya-zapisi",
+        "decision": "keep",
+        "cluster": "drums",
+        "reason": "Полный текст посвящён подготовке живой сессии: программе, составу комплекта, собственным и предоставляемым частям, времени и готовности к дублям. Это самостоятельная организационная задача."
+      },
+      {
+        "slug": "barabannaya-ustanovka-dlya-studii",
+        "decision": "keep",
+        "cluster": "drums",
+        "reason": "Самостоятельная микрофонная проба: настройка, затухание, баланс тарелок и механические шумы. Общая студийная лексика не делает текст дублем страницы организации записи."
+      }
+    ],
+    "cluster_decisions": [
+      {
+        "cluster": "quiet_time_scenarios",
+        "decision": "keep",
+        "slugs": [
+          "cifrovoe-pianino-dlya-nochnih-zanyatiy",
+          "cifrovoe-pianino-dlya-rannih-zanyatiy",
+          "cifrovoe-pianino-dlya-pozdnih-zanyatiy"
+        ],
+        "reason": "Общий ночной режим, проверка слышимости для окружающих и музыкальная обратная связь в наушниках — разные задачи. Общая страница наушников имеет отдельный enrich внутри records; дополнительная консолидация временных сценариев не нужна."
+      },
+      {
+        "cluster": "drum_recording_and_studio",
+        "decision": "keep",
+        "slugs": [
+          "barabannaya-ustanovka-dlya-zapisi",
+          "barabannaya-ustanovka-dlya-studii"
+        ],
+        "reason": "Подготовка живой сессии и микрофонная проба настройки, затухания, тарелок и механических шумов различены полными текстами."
+      },
+      {
+        "cluster": "backline_and_hybrid",
+        "decision": "keep",
+        "slugs": [
+          "backline-dlya-odnodnevnoy-arendy",
+          "backline-dlya-pervogo-kontserta",
+          "backline-dlya-rezervnogo-komplekta",
+          "backline-po-rayderu-dlya-gruppy",
+          "basovyy-backline-po-rayderu",
+          "di-boks-pered-pokupkoy",
+          "gitarnyy-backline-po-rayderu",
+          "gitarnyy-kabinet-2x12-dlya-pervogo-opyta",
+          "gitarnyy-usilitel-dlya-pervogo-kontserta",
+          "gitarnyy-usilitel-dlya-studii",
+          "gitarnyy-usilitel-pered-pokupkoy",
+          "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+          "gibridnyy-instrument-dlya-pervogo-opyta",
+          "gibridnyy-instrument-dlya-zapisi"
+        ],
+        "reason": "Самостоятельные задачи сохранены; две конкретные технические неоднозначности 1×12 и концертного гибрида закрыты отдельными supplemental enrich. Краткость и общий словарь не признаны дефектом."
+      }
+    ]
+  },
+  "primary_source_register": [
+    {
+      "url": "https://assets.ctfassets.net/javen7msabdh/5yGO5Slu3bppUANqqAImQR/1a5bfd3c073bc6394e67d713b3065c76/M3311.402_JCM800_2203_QSG_Web.pdf",
+      "title": "Marshall JCM800 2203: подключение кабинета и согласование нагрузки"
+    },
+    {
+      "url": "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html",
+      "title": "Yamaha CLP-700: comparison specifications"
+    },
+    {
+      "url": "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html",
+      "title": "Yamaha CLP-800: comparison specifications"
+    },
+    {
+      "url": "https://data.yamaha.com/files/download/other_assets/6/1204086/p515_en_om_b0.pdf",
+      "title": "Yamaha P-515: руководство, характеристики на странице 114"
+    },
+    {
+      "url": "https://dshig.ru/materialno-tekhnicheskoe-obespechenie/",
+      "title": "ДШИ с. Городище: цифровые пианино и стойка в опубликованном оснащении"
+    },
+    {
+      "url": "https://eggerinstruments.ch/en/historic/trumpets/natural-trumpets/",
+      "title": "Egger: натуральные трубы и варианты строя"
+    },
+    {
+      "url": "https://eggerinstruments.ch/en/produkt/tenor-sackbut-after-hainlein/",
+      "title": "Egger: теноровый сакбут по Hainlein, строй и варианты кулисы"
+    },
+    {
+      "url": "https://euphonics.org/9-4-chasing-the-wolf/",
+      "title": "Jim Woodhouse, Euphonics: 9.4 Chasing the wolf"
+    },
+    {
+      "url": "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+      "title": "Yamaha P-225: compact 88-key digital piano"
+    },
+    {
+      "url": "https://fi.yamaha.com/en/musical-instruments/pianos/products/p-series/p-525/specs.html",
+      "title": "Yamaha P-525: specifications"
+    },
+    {
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/",
+      "title": "Goronok: каталог виолончелей"
+    },
+    {
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/?filter_razmer=1-32",
+      "title": "Горонок: виолончели, фильтр размера 1/32"
+    },
+    {
+      "url": "https://goronok.ru/shop/violonchel-goronok-nova-1-2-650-mm/",
+      "title": "Goronok: Нова виолончель 1/2, 650 мм"
+    },
+    {
+      "url": "https://hora-instruments.com/ro/category/bowed-instruments/cellos/",
+      "title": "HORA: Violoncele"
+    },
+    {
+      "url": "https://it.yamaha.com/it/musical-instruments/pianos/products/arius/ydp-s34/specs.html",
+      "title": "Yamaha YDP-S34/164: comparison specifications"
+    },
+    {
+      "url": "https://manual.yamaha.com/mi/app/smartpianist/en/smartpianist_en_ug_j1_003.html",
+      "title": "Yamaha Smart Pianist: Audio and MIDI FAQ"
+    },
+    {
+      "url": "https://manual.yamaha.com/mi/common/computer/en/computer_en_rm_y0_07.htm",
+      "title": "Yamaha: recording keyboard audio to a computer"
+    },
+    {
+      "url": "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-144/",
+      "title": "Yamaha YDP-144: overview"
+    },
+    {
+      "url": "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-165/specs.html",
+      "title": "Yamaha ARIUS YDP-165/145/S55/S35: comparison specifications"
+    },
+    {
+      "url": "https://pearlriverpianogroup.com/ritmuller-pianos-2/",
+      "title": "Pearl River Piano Group: Ritmüller Pianos"
+    },
+    {
+      "url": "https://static.roland.com/assets/media/pdf/TM-2_e02_W.pdf",
+      "title": "Roland TM-2: настройка датчиков и ложные срабатывания"
+    },
+    {
+      "url": "https://support.roland.com/hc/en-us/articles/4404526760347-Digital-Piano-How-to-Reduce-Noise-Vibration",
+      "title": "Roland: Digital Piano — How to Reduce Noise / Vibration"
+    },
+    {
+      "url": "https://uk.yamaha.com/en/musical-instruments/pianos/products/clavinova/clp-645/specs.html",
+      "title": "Yamaha CLP-600: comparison specifications"
+    },
+    {
+      "url": "https://vanbaarselflutes.com/baroque-flutes/",
+      "title": "Thijs van Baarsel: барочные флейты, модели и варианты настройки"
+    },
+    {
+      "url": "https://www.casio.com/intl/electronic-musical-instruments/product.CDP-S110BK/",
+      "title": "Casio CDP-S110: compact digital piano"
+    },
+    {
+      "url": "https://www.casio.com/us/electronic-musical-instruments/product.PX-S1100BK/",
+      "title": "Casio: PX-S1100"
+    },
+    {
+      "url": "https://www.eastmanstrings.com/cello/vc100/",
+      "title": "Eastman: Samuel Eastman VC100"
+    },
+    {
+      "url": "https://www.kawai-global.com/product/es120/",
+      "title": "Kawai ES120: action, line out, Bluetooth and pedal options"
+    },
+    {
+      "url": "https://www.roland.com/ru/products/fp-30x/",
+      "title": "Roland: FP-30X"
+    },
+    {
+      "url": "https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html",
+      "title": "Stentor: Student II cello outfit, code 1108"
+    },
+    {
+      "url": "https://www.strunal.cz/Produkty/Violoncela/",
+      "title": "Strunal: Violončela"
+    },
+    {
+      "url": "https://www.thomastik-infeld.com/de/stringtelligence/woerterbuch/was-ist-die-schwingende-saitenlaenge-bzw-die-mensur",
+      "title": "Thomastik-Infeld: рабочая длина струны и мензура"
+    },
+    {
+      "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/5014/",
+      "title": "Yamaha: SVC110, SILENT Cello"
+    }
+  ],
+  "method_notes": [
+    "Отсутствие JSON enrich не было основанием автоматически признавать страницу плохой.",
+    "Неподтверждённые обещания наличия, полноты услуги, тишины и педагогического результата закрыты нейтральными предметными уточнениями.",
+    "Ritmüller описан через подтверждённую категорию официального каталога и запрос маркировки; наличие или отсутствие виолончельной линейки не выдано за установленный факт.",
+    "В исходном родительском списке виолончели считались явные карточки. Ранее полученный compiled-список дополнительно содержал автоматически добавленную камерную тему; эти основания подсчёта не смешиваются."
+  ]
+}

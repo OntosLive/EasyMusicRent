@@ -1,5 +1,6 @@
 """Guard content-layer completion without changing the established page frame."""
 from pathlib import Path
+import copy
 import re
 import sys
 import tempfile
@@ -78,16 +79,26 @@ class ResumedContentTests(unittest.TestCase):
             actual = {core.url_slug(a['href']) for a in self.page('/details/' + parent + '/').select('#razdely a[href]')}
             self.assertTrue(children <= actual, (parent, children - actual))
 
-    def test_model_heading_repairs_preserve_original_good_copy(self):
-        document = core.read_json(ROOT / 'content/sections/94-model-editorial-titles.json', {})
+    def test_heading_only_layer_preserves_legacy_body(self):
+        source = ROOT / 'content/sections/94-model-editorial-titles.json'
+        document = core.read_json(source, {})
         self.assertEqual(len(document['pages']), 39)
+        # This regression covers the heading-only change. Later, separately
+        # reviewed editorial layers may intentionally replace a legacy body.
+        pages = copy.deepcopy(self.original)
+        with tempfile.TemporaryDirectory() as directory:
+            layer_root = Path(directory)
+            sections = layer_root / 'content/sections'
+            sections.mkdir(parents=True)
+            (sections / source.name).write_text(source.read_text(encoding='utf-8'), encoding='utf-8')
+            core.merge_records(layer_root, pages)
         for record in document['pages']:
             slug = record['slug']
             with self.subTest(slug=slug):
-                self.assertEqual(self.pages[slug].intro, self.original[slug].intro)
-                self.assertEqual(self.pages[slug].blocks, self.original[slug].blocks)
-                self.assertEqual(self.pages[slug].search_title, self.original[slug].search_title)
-                self.assertEqual(self.pages[slug].editorial_title, record['editorial_title'])
+                self.assertEqual(pages[slug].intro, self.original[slug].intro)
+                self.assertEqual(pages[slug].blocks, self.original[slug].blocks)
+                self.assertEqual(pages[slug].search_title, self.original[slug].search_title)
+                self.assertEqual(pages[slug].editorial_title, record['editorial_title'])
 
 
 if __name__ == '__main__':

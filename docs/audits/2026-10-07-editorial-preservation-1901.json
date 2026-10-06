@@ -1,0 +1,547 @@
+{
+  "base_commit": "b3b633056043293341c1e6b7a2f2781c13add4ac",
+  "before_subjects": 1916,
+  "after_subjects": 1901,
+  "new_subjects": 0,
+  "new_aliases": {
+    "cifrovoe-pianino-dlya-vzroslogo-posle-pereryva": "cifrovoe-pianino-dlya-vozvrascheniya-k-igre",
+    "cifrovoe-pianino-dlya-malenkoy-komnaty": "kompaktnoe-cifrovoe-pianino",
+    "kamernaya-violonchel": "violonchel-dlya-kamernogo-ansamblya",
+    "violonchel-dlya-devochki": "kak-vybrat-razmer-violoncheli-rebenku",
+    "violonchel-dlya-malchika": "kak-vybrat-razmer-violoncheli-rebenku",
+    "violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly": "pervaya-violonchel-rebenku",
+    "violonchel-rebenku-6-let": "kak-vybrat-razmer-violoncheli-rebenku",
+    "violonchel-rebenku-7-let": "kak-vybrat-razmer-violoncheli-rebenku",
+    "violonchel-rebenku-8-let": "kak-vybrat-razmer-violoncheli-rebenku",
+    "violonchel-rebenku-9-let": "kak-vybrat-razmer-violoncheli-rebenku",
+    "violonchel-rebenku-10-let": "kak-vybrat-razmer-violoncheli-rebenku",
+    "violonchel-rebenku-dlya-muzykalnoy-shkoly": "violonchel-dlya-muzykalnoy-shkoly",
+    "dzhazovyy-kontrabas": "kontrabas-dlya-dzhaza",
+    "kontrabas-dlya-dzhaza-v-arendu": "kontrabas-dlya-dzhaza",
+    "kontrabas-dlya-orkestra-v-arendu": "orkestrovyy-kontrabas"
+  },
+  "all_prior_aliases_preserved": true,
+  "alias_chains": 0,
+  "all_previous_nonself_routes_preserved_after_normalization": true,
+  "lost_routes": [],
+  "parents_changed": 0,
+  "changed_content_count": 62,
+  "changed_content": {
+    "arenda-cifrovogo-pianino-kazan": [
+      "intro"
+    ],
+    "arenda-koncertnogo-royalya-moskva": [
+      "intro"
+    ],
+    "arenda-kontrabasa-na-kontsert-moskva": [
+      "description",
+      "intro"
+    ],
+    "cifrovoe-ili-akusticheskoe-pianino": [
+      "editorial_title",
+      "description",
+      "intro"
+    ],
+    "cifrovoe-pianino": [
+      "blocks"
+    ],
+    "cifrovoe-pianino-dlya-muzykalnoy-shkoly": [
+      "intro",
+      "sources"
+    ],
+    "cifrovoe-pianino-dlya-vozvrascheniya-k-igre": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "cifrovoe-pianino-dlya-zanyatiy-v-naushnikah": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "cifrovoe-pianino-roland": [
+      "editorial_title",
+      "description",
+      "intro"
+    ],
+    "cifrovoe-pianino-s-usb-midi": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "cifrovoe-pianino-yamaha": [
+      "editorial_title",
+      "description",
+      "intro"
+    ],
+    "kak-vybrat-cifrovoe-pianino-dlya-obucheniya": [
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "kak-vybrat-razmer-violoncheli-rebenku": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "kompaktnoe-cifrovoe-pianino": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "kontrabas-esli-vy-vozvraschaetes-posle-pereryva": [
+      "search_title"
+    ],
+    "kontrabas-polovina-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "orkestrovyy-kontrabas": [
+      "intro"
+    ],
+    "pervaya-violonchel-rebenku": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "pervoe-cifrovoe-pianino-rebenku": [
+      "description",
+      "intro"
+    ],
+    "pyatistrunnyy-kontrabas-v-arendu": [
+      "intro"
+    ],
+    "violonchel-dlya-muzykalnoy-shkoly": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "violonchel-dlya-nevysokogo-rosta": [
+      "intro"
+    ],
+    "violonchel-hora": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "violonchel-odna-tridtsat-vtoraya-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "violonchel-odna-vosmaya-v-arendu": [
+      "editorial_title",
+      "sources"
+    ],
+    "violonchel-rebenku-kupit-ili-arendovat": [
+      "editorial_title",
+      "intro"
+    ],
+    "violonchel-rebenku-v-arendu": [
+      "description",
+      "intro"
+    ],
+    "violonchel-ritmuller": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "sources"
+    ],
+    "violonchel-sem-vosmyh-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro"
+    ],
+    "violonchel-stentor": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "violonchel-yamaha": [
+      "intro",
+      "sources"
+    ],
+    "yamaha-arius-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clavinova-clp-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp635-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp645-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp675-v-arendu": [
+      "description",
+      "kicker",
+      "intro"
+    ],
+    "yamaha-clp685-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp735-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp745-v-arendu": [
+      "description",
+      "kicker",
+      "intro"
+    ],
+    "yamaha-clp775-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp785-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp825-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp835-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp845-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp875-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "sources"
+    ],
+    "yamaha-clp885-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "sources"
+    ],
+    "yamaha-p143-v-arendu": [
+      "editorial_title"
+    ],
+    "yamaha-p515-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-p525-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-ydp144-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-ydp145-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-ydp164-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-ydp165-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-ydps34-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-ydps55-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "sources"
+    ],
+    "istoricheskie-duhovye-dlya-pervogo-proekta": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "gibridnyy-instrument-dlya-kontserta": [
+      "blocks",
+      "sources"
+    ],
+    "gitarnyy-kabinet-1x12-dlya-pervogo-opyta": [
+      "blocks",
+      "sources"
+    ],
+    "kontrabas-dlya-dzhaza": [
+      "intro"
+    ],
+    "cifrovoe-pianino-na-ustoychivoy-stoyke": [
+      "blocks",
+      "sources"
+    ],
+    "violonchel-dlya-smeny-razmera": [
+      "blocks"
+    ],
+    "violonchel-dlya-kamernogo-ansamblya": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks"
+    ]
+  },
+  "unexpected_content_changes": {},
+  "unchanged_content_count": 1839,
+  "redirect_checks": [
+    {
+      "old_path": "/cifrovoe-pianino-dlya-vzroslogo-posle-pereryva/",
+      "target": "/cifrovoe-pianino-dlya-vozvrascheniya-k-igre/"
+    },
+    {
+      "old_path": "/details/cifrovoe-pianino-dlya-vzroslogo-posle-pereryva/",
+      "target": "/details/cifrovoe-pianino-dlya-vozvrascheniya-k-igre/"
+    },
+    {
+      "old_path": "/cifrovoe-pianino-dlya-malenkoy-komnaty/",
+      "target": "/kompaktnoe-cifrovoe-pianino/"
+    },
+    {
+      "old_path": "/details/cifrovoe-pianino-dlya-malenkoy-komnaty/",
+      "target": "/details/kompaktnoe-cifrovoe-pianino/"
+    },
+    {
+      "old_path": "/kamernaya-violonchel/",
+      "target": "/violonchel-dlya-kamernogo-ansamblya/"
+    },
+    {
+      "old_path": "/details/kamernaya-violonchel/",
+      "target": "/details/violonchel-dlya-kamernogo-ansamblya/"
+    },
+    {
+      "old_path": "/violonchel-dlya-devochki/",
+      "target": "/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-dlya-devochki/",
+      "target": "/details/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-dlya-malchika/",
+      "target": "/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-dlya-malchika/",
+      "target": "/details/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly/",
+      "target": "/pervaya-violonchel-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly/",
+      "target": "/details/pervaya-violonchel-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-rebenku-6-let/",
+      "target": "/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-rebenku-6-let/",
+      "target": "/details/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-rebenku-7-let/",
+      "target": "/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-rebenku-7-let/",
+      "target": "/details/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-rebenku-8-let/",
+      "target": "/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-rebenku-8-let/",
+      "target": "/details/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-rebenku-9-let/",
+      "target": "/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-rebenku-9-let/",
+      "target": "/details/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-rebenku-10-let/",
+      "target": "/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/details/violonchel-rebenku-10-let/",
+      "target": "/details/kak-vybrat-razmer-violoncheli-rebenku/"
+    },
+    {
+      "old_path": "/violonchel-rebenku-dlya-muzykalnoy-shkoly/",
+      "target": "/violonchel-dlya-muzykalnoy-shkoly/"
+    },
+    {
+      "old_path": "/details/violonchel-rebenku-dlya-muzykalnoy-shkoly/",
+      "target": "/details/violonchel-dlya-muzykalnoy-shkoly/"
+    },
+    {
+      "old_path": "/dzhazovyy-kontrabas/",
+      "target": "/kontrabas-dlya-dzhaza/"
+    },
+    {
+      "old_path": "/details/dzhazovyy-kontrabas/",
+      "target": "/details/kontrabas-dlya-dzhaza/"
+    },
+    {
+      "old_path": "/kontrabas-dlya-dzhaza-v-arendu/",
+      "target": "/kontrabas-dlya-dzhaza/"
+    },
+    {
+      "old_path": "/details/kontrabas-dlya-dzhaza-v-arendu/",
+      "target": "/details/kontrabas-dlya-dzhaza/"
+    },
+    {
+      "old_path": "/kontrabas-dlya-orkestra-v-arendu/",
+      "target": "/orkestrovyy-kontrabas/"
+    },
+    {
+      "old_path": "/details/kontrabas-dlya-orkestra-v-arendu/",
+      "target": "/details/orkestrovyy-kontrabas/"
+    }
+  ],
+  "html_paths_before": 3888,
+  "html_paths_after": 3888,
+  "all_html_paths_preserved": true,
+  "navigation_metrics": {
+    "metric_definitions": {
+      "top_level": "Unique explicit subject routes after alias normalization, excluding self-links and duplicate targets. Direct parent/child routes remain; legacy lateral_* names are retained for comparison with earlier reports.",
+      "strict_lateral": "Explicit routes excluding declared direct parents and direct children. Neither graph includes automatic child routes added by core.connect.",
+      "thin_leaf": "No declared children and no outgoing route in the measured graph.",
+      "hygiene_counts": "Every self-link occurrence and every duplicate after the first canonical target. A repeated self-link contributes to both counts; both block preflight.",
+      "model_pages": "Existing slug-based cohort: subjects ending in -v-arendu."
+    },
+    "subjects": 1901,
+    "errors": [],
+    "error_count": 0,
+    "link_edges": 5285,
+    "pages_with_links": 1859,
+    "pages_without_links": 42,
+    "lateral_coverage_pct": 97.79,
+    "parent_edges": 1885,
+    "parents_with_children": 215,
+    "leaf_pages": 1686,
+    "thin_leaf_pages": 0,
+    "thin_leaf_pct": 0.0,
+    "pages_without_lateral_inbound": 269,
+    "model_pages": 409,
+    "model_pages_with_links": 409,
+    "model_lateral_coverage_pct": 100.0,
+    "model_thin_leaves": 0,
+    "root_pages": 16,
+    "duplicate_route_count": 0,
+    "self_link_count": 0,
+    "strict_lateral": {
+      "link_edges": 3757,
+      "pages_with_links": 1745,
+      "pages_without_links": 156,
+      "lateral_coverage_pct": 91.79,
+      "thin_leaf_pages": 0,
+      "thin_leaf_pct": 0.0,
+      "pages_without_lateral_inbound": 647,
+      "model_pages_with_links": 409,
+      "model_lateral_coverage_pct": 100.0,
+      "model_thin_leaves": 0
+    }
+  },
+  "build": {
+    "source_pages": 1901,
+    "public_pair_pages": 3802,
+    "conditions": 8,
+    "css_version": "0b048bad40e4",
+    "authored_records": 1756
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "tests": {
+    "count": 209,
+    "status": "passed",
+    "elapsed_seconds": 92.17,
+    "historical_test_scope_corrected": "test_heading_only_layer_preserves_legacy_body",
+    "compiler_changed": false
+  }
+}

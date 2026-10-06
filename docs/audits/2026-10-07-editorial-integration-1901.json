@@ -1,0 +1,562 @@
+{
+  "parent_label_reconciliation": {
+    "label_updates": [
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "cifrovoe-pianino-dlya-zanyatiy-v-naushnikah",
+        "href": "/cifrovoe-pianino-dlya-zanyatiy-v-naushnikah/",
+        "before": "Цифровое пианино для занятий в наушниках, когда время не должно ограничивать практику",
+        "after": "Цифровое пианино в наушниках: слышать свою игру и проверить шум дома",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "cifrovoe-pianino-dlya-vozvrascheniya-k-igre",
+        "href": "/cifrovoe-pianino-dlya-vozvrascheniya-k-igre/",
+        "before": "Цифровое пианино, если вы возвращаетесь к фортепиано после долгого перерыва",
+        "after": "Вернуться к фортепиано после перерыва: восстановить привычку и проверить отклик",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "kompaktnoe-cifrovoe-pianino",
+        "href": "/kompaktnoe-cifrovoe-pianino/",
+        "before": "Компактное цифровое пианино, когда места мало, а клавиатура всё равно должна быть полноценной",
+        "after": "Компактное цифровое пианино: проверить всё рабочее место",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "cifrovoe-pianino-s-usb-midi",
+        "href": "/cifrovoe-pianino-s-usb-midi/",
+        "before": "Цифровое пианино с USB/MIDI, когда клавиатура должна разговаривать с компьютером",
+        "after": "Цифровое пианино с USB/MIDI: передавать исполнение в компьютер",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "cifrovoe-ili-akusticheskoe-pianino",
+        "href": "/cifrovoe-ili-akusticheskoe-pianino/",
+        "before": "Цифровое или акустическое пианино, когда выбор начинается с условий жизни",
+        "after": "Цифровое или акустическое пианино: сравнить практику и условия дома",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-p515-v-arendu",
+        "href": "/yamaha-p515-v-arendu/",
+        "before": "Yamaha P-515, когда переносной корпус уже должен давать ощущение более серьёзной клавиатуры",
+        "after": "Yamaha P-515: клавиатура NWX во временном домашнем комплекте",
+        "match_kind": "reviewed_related_claim",
+        "reason": "Подпись обещает ощущение «более серьёзной клавиатуры», не называя базу сравнения. Новый текст отделяет конструкцию NWX и проверку полного переносного комплекта от качественного ранга.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-p525-v-arendu",
+        "href": "/yamaha-p525-v-arendu/",
+        "before": "Yamaha P-525, когда переносное пианино уже приближается к домашнему фортепианному инструменту",
+        "after": "Yamaha P-525: GrandTouch-S и перемещаемый домашний комплект",
+        "match_kind": "reviewed_related_claim",
+        "reason": "Фраза о приближении переносного пианино к домашнему инструменту задаёт неопределённую ступень качества. Новый текст проверяет конкретную клавиатуру и условия перемещения.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp645-v-arendu",
+        "href": "/yamaha-clp645-v-arendu/",
+        "before": "Yamaha CLP-645, когда домашнее цифровое пианино уже должно ощущаться заметно серьёзнее",
+        "after": "Yamaha CLP-645: попробовать клавиатуру NWX дома",
+        "match_kind": "reviewed_related_claim",
+        "reason": "«Ощущаться заметно серьёзнее» заранее обещает превосходство. В новом тексте результат сравнения зависит от конкретного движения и музыканта.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp735-v-arendu",
+        "href": "/yamaha-clp735-v-arendu/",
+        "before": "Yamaha CLP-735, когда нужен спокойный вход в серьёзную корпусную Clavinova",
+        "after": "Yamaha CLP-735: проверить GrandTouch-S на своей программе",
+        "match_kind": "reviewed_related_claim",
+        "reason": "«Вход в серьёзную Clavinova» сохраняет иерархию серии, от которой целевой текст отказался в пользу пробы GrandTouch-S на своей программе.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp745-v-arendu",
+        "href": "/yamaha-clp745-v-arendu/",
+        "before": "Yamaha CLP-745, когда хочется заметно более серьёзную клавиатуру без перехода к старшим флагманам",
+        "after": "Yamaha CLP-745: инструмент для формирования техники",
+        "match_kind": "reviewed_related_claim_outside_changed_titles",
+        "reason": "Карточка повторяет «заметно более серьёзную клавиатуру» и сравнение со старшими флагманами. Текущий editorial_title уже нейтрален.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp775-v-arendu",
+        "href": "/yamaha-clp775-v-arendu/",
+        "before": "Yamaha CLP-775, когда дома нужна клавиатура, на которой техника не распадается после рояля",
+        "after": "Yamaha CLP-775: сопоставить клавиатуру и педаль с основной практикой",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp785-v-arendu",
+        "href": "/yamaha-clp785-v-arendu/",
+        "before": "Yamaha CLP-785, когда цифровое пианино дома должно выдерживать профессиональную работу",
+        "after": "Yamaha CLP-785: домашняя проба GrandTouch с противовесами",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp825-v-arendu",
+        "href": "/yamaha-clp825-v-arendu/",
+        "before": "Yamaha CLP-825, когда хочется войти в новое поколение Clavinova и сначала проверить сам класс на себе",
+        "after": "Yamaha CLP-825: проверить GrandTouch-S в домашнем комплекте",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp835-v-arendu",
+        "href": "/yamaha-clp835-v-arendu/",
+        "before": "Yamaha CLP-835, когда инструмент дома уже должен расти вместе с учеником, а не тормозить его",
+        "after": "Yamaha CLP-835: клавиатура GrandTouch-S и управление ежедневной практикой",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp845-v-arendu",
+        "href": "/yamaha-clp845-v-arendu/",
+        "before": "Yamaha CLP-845, когда высокий класс инструмента нужен на этапе, а не обязательно навсегда",
+        "after": "Yamaha CLP-845: GrandTouch-S с деревянными белыми клавишами",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp875-v-arendu",
+        "href": "/yamaha-clp875-v-arendu/",
+        "before": "Yamaha CLP-875, когда ребёнок или взрослый уже способен использовать класс инструмента выше бюджета покупки",
+        "after": "Yamaha CLP-875: проверить GrandTouch и педаль в домашней программе",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-clp885-v-arendu",
+        "href": "/yamaha-clp885-v-arendu/",
+        "before": "Yamaha CLP-885, когда доступ к флагману важнее владения флагманом",
+        "after": "Yamaha CLP-885: проверить GrandTouch с противовесами на своей музыке",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-p143-v-arendu",
+        "href": "/yamaha-p143-v-arendu/",
+        "before": "Yamaha P-143, когда нужен современный базовый вход в P Series",
+        "after": "Yamaha P-143 для первого учебного периода дома",
+        "match_kind": "reviewed_related_claim",
+        "reason": "В карточке осталось слово «современный», уже снятое новым editorial_title. Предлагается тот же устойчивый учебный сценарий, без оценки актуальности модельного ряда.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-ydp164-v-arendu",
+        "href": "/yamaha-ydp164-v-arendu/",
+        "before": "Yamaha YDP-164, когда корпусный учебный инструмент уже должен ощущаться серьёзнее",
+        "after": "Yamaha YDP-164: проверить GH3 на повторных нотах и динамике",
+        "match_kind": "reviewed_related_claim",
+        "reason": "«Ощущаться серьёзнее» повторяет неподтверждённый переход к более высокому классу. Новый текст предлагает проверить повторение нот и динамику без заранее обещанного результата.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-ydp145-v-arendu",
+        "href": "/yamaha-ydp145-v-arendu/",
+        "before": "Yamaha YDP-145, когда нужен актуальный базовый ARIUS для дома",
+        "after": "Yamaha YDP-145: домашний комплект для регулярных занятий",
+        "match_kind": "reviewed_related_claim",
+        "reason": "«Актуальный базовый» не раскрывает музыкальную задачу и зависит от положения в меняющейся линейке. Новый заголовок сохраняет домашний учебный смысл без такого ярлыка.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-ydp165-v-arendu",
+        "href": "/yamaha-ydp165-v-arendu/",
+        "before": "Yamaha YDP-165, когда ARIUS уже должен выдерживать более серьёзную технику",
+        "after": "Yamaha YDP-165: сравнить GH3 с требованиями своей программы",
+        "match_kind": "reviewed_related_claim",
+        "reason": "«Выдерживать более серьёзную технику» безусловно приписывает модели преимущество. Цель теперь предлагает сравнить конкретную GH3 с требованиями своей программы.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "cifrovoe-pianino",
+        "target_slug": "yamaha-ydps55-v-arendu",
+        "href": "/yamaha-ydps55-v-arendu/",
+        "before": "Yamaha YDP-S55, когда компактный корпус уже не должен означать базовую механику",
+        "after": "Yamaha YDP-S55: GH3 в корпусе для ограниченного места",
+        "match_kind": "reviewed_related_claim",
+        "reason": "Противопоставление компактного корпуса «базовой механике» возвращает неустановленный класс. Новый заголовок называет подтверждённую конструкцию GH3 и ограниченное место.",
+        "file": "cifrovoe-pianino/karta/index.html"
+      },
+      {
+        "source_slug": "violonchel",
+        "target_slug": "violonchel-ritmuller",
+        "href": "/violonchel-ritmuller/",
+        "before": "Виолончель Ritmuller нужного размера",
+        "after": "Виолончель по запросу Ritmuller: уточнить маркировку",
+        "match_kind": "exact_previous_editorial_title",
+        "reason": "Карточка дословно повторяет прежний editorial_title изменённой цели. Предлагается синхронизировать заголовок карточки с уже принятым содержанием.",
+        "file": "violonchel/karta/index.html"
+      }
+    ],
+    "additional_legacy_body_enrich": [
+      "yamaha-clp675-v-arendu",
+      "yamaha-clp745-v-arendu"
+    ],
+    "kicker_updates": {
+      "yamaha-clp685-v-arendu": "YAMAHA CLP-685 · GRANDTOUCH · ДОМАШНЯЯ ПРОБА",
+      "yamaha-clp845-v-arendu": "YAMAHA CLP-845 · КЛАВИАТУРА · ВРЕМЕННЫЙ ДОСТУП",
+      "yamaha-clp875-v-arendu": "YAMAHA CLP-875 · GRANDTOUCH · АРЕНДА",
+      "yamaha-clp885-v-arendu": "YAMAHA CLP-885 · GRANDTOUCH · АРЕНДА"
+    },
+    "reason": "Текст, метаданные и карточка должны согласованно раскрывать задачу. Два скрытых старых тела исправлены; временной ярлык прошлого поколения и качественные ранги в затронутых надзаголовках заменены предметными."
+  },
+  "consolidation_integration": {
+    "additional_aliases": {
+      "kamernaya-violonchel": "violonchel-dlya-kamernogo-ansamblya",
+      "violonchel-dlya-devochki": "kak-vybrat-razmer-violoncheli-rebenku",
+      "violonchel-dlya-malchika": "kak-vybrat-razmer-violoncheli-rebenku",
+      "violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly": "pervaya-violonchel-rebenku",
+      "violonchel-rebenku-6-let": "kak-vybrat-razmer-violoncheli-rebenku",
+      "violonchel-rebenku-7-let": "kak-vybrat-razmer-violoncheli-rebenku",
+      "violonchel-rebenku-8-let": "kak-vybrat-razmer-violoncheli-rebenku",
+      "violonchel-rebenku-9-let": "kak-vybrat-razmer-violoncheli-rebenku",
+      "violonchel-rebenku-10-let": "kak-vybrat-razmer-violoncheli-rebenku",
+      "violonchel-rebenku-dlya-muzykalnoy-shkoly": "violonchel-dlya-muzykalnoy-shkoly",
+      "dzhazovyy-kontrabas": "kontrabas-dlya-dzhaza",
+      "kontrabas-dlya-dzhaza-v-arendu": "kontrabas-dlya-dzhaza",
+      "kontrabas-dlya-orkestra-v-arendu": "orkestrovyy-kontrabas"
+    },
+    "removed_navigation_definitions": [
+      {
+        "file": "content/sections/zzzz03-conductivity-cello-bass-bridges.json",
+        "section": "navigation",
+        "slug": "kamernaya-violonchel",
+        "links": [
+          {
+            "label": "Виолончель для камерного ансамбля",
+            "href": "/violonchel-dlya-kamernogo-ansamblya/"
+          },
+          {
+            "label": "Виолончель перед покупкой",
+            "href": "/violonchel-pered-pokupkoy/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz03-conductivity-cello-bass-bridges.json",
+        "section": "navigation",
+        "slug": "dzhazovyy-kontrabas",
+        "links": [
+          {
+            "label": "Контрабас для камерного ансамбля",
+            "href": "/kontrabas-dlya-kamernogo-ansamblya/"
+          },
+          {
+            "label": "Сравнить мензуры контрабаса",
+            "href": "/kontrabas-dlya-sravneniya-menzur/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz04-conductivity-bass-bridges.json",
+        "section": "navigation",
+        "slug": "kontrabas-dlya-dzhaza-v-arendu",
+        "links": [
+          {
+            "label": "Контрабас для камерного ансамбля",
+            "href": "/kontrabas-dlya-kamernogo-ansamblya/"
+          },
+          {
+            "label": "Сравнить мензуры контрабаса",
+            "href": "/kontrabas-dlya-sravneniya-menzur/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz34-conductivity-digital-piano-bowed-bridges.json",
+        "section": "navigation",
+        "slug": "kontrabas-dlya-orkestra-v-arendu",
+        "links": [
+          {
+            "label": "Оркестровый класс",
+            "href": "/instrument-dlya-orkestrovogo-klassa/"
+          },
+          {
+            "label": "Камерный оркестр",
+            "href": "/smychkovye-dlya-kamernogo-orkestra/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-dlya-devochki",
+        "links": [
+          {
+            "label": "Как проверить размер",
+            "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-dlya-malchika",
+        "links": [
+          {
+            "label": "Размер по росту и посадке",
+            "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly",
+        "links": [
+          {
+            "label": "Что проверить на первом уроке",
+            "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+          },
+          {
+            "label": "После урока — занятия дома",
+            "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-rebenku-10-let",
+        "links": [
+          {
+            "label": "Проверить текущий размер",
+            "href": "/violonchel-dlya-smeny-razmera/"
+          },
+          {
+            "label": "Что изменилось в программе",
+            "href": "/instrument-posle-izmeneniya-repertuara/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-rebenku-6-let",
+        "links": [
+          {
+            "label": "Размер без угадывания по возрасту",
+            "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+          },
+          {
+            "label": "Проверка на первом уроке",
+            "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-rebenku-7-let",
+        "links": [
+          {
+            "label": "Ежедневные занятия дома",
+            "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+          },
+          {
+            "label": "Проверка следующего размера",
+            "href": "/violonchel-dlya-smeny-razmera/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-rebenku-8-let",
+        "links": [
+          {
+            "label": "Посадка, стул и шпиль",
+            "href": "/udobnaya-violonchel/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-rebenku-9-let",
+        "links": [
+          {
+            "label": "Готов ли ребёнок к новому размеру",
+            "href": "/violonchel-dlya-smeny-razmera/"
+          },
+          {
+            "label": "Покупка во время роста",
+            "href": "/violonchel-rebenku-kupit-ili-arendovat/"
+          }
+        ]
+      },
+      {
+        "file": "content/sections/zzzz39-cello-continuations.json",
+        "section": "navigation",
+        "slug": "violonchel-rebenku-dlya-muzykalnoy-shkoly",
+        "links": [
+          {
+            "label": "Как проверить размер ребёнку",
+            "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+          },
+          {
+            "label": "Устойчивая опора шпиля",
+            "href": "/violonchel-s-ustoychivym-shpilem/"
+          }
+        ]
+      }
+    ],
+    "parent_edits": [
+      {
+        "parent": "violonchel",
+        "removed_explicit_cards": [
+          "violonchel-dlya-malchika",
+          "violonchel-rebenku-dlya-muzykalnoy-shkoly",
+          "violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly",
+          "kak-vybrat-razmer-violoncheli-rebenku",
+          "violonchel-rebenku-6-let",
+          "violonchel-rebenku-7-let",
+          "violonchel-rebenku-8-let",
+          "violonchel-rebenku-9-let",
+          "violonchel-rebenku-10-let"
+        ],
+        "updated_cards": [
+          {
+            "source": "kamernaya-violonchel",
+            "canonical": "violonchel-dlya-kamernogo-ansamblya",
+            "label": "Виолончель для камерного ансамбля"
+          },
+          {
+            "source": "violonchel-dlya-muzykalnoy-shkoly",
+            "canonical": "violonchel-dlya-muzykalnoy-shkoly",
+            "label": "Виолончель для музыкальной школы"
+          },
+          {
+            "source": "pervaya-violonchel-rebenku",
+            "canonical": "pervaya-violonchel-rebenku",
+            "label": "Первая виолончель и первый класс музыкальной школы"
+          },
+          {
+            "source": "violonchel-dlya-devochki",
+            "canonical": "kak-vybrat-razmer-violoncheli-rebenku",
+            "label": "Как проверить размер виолончели ребёнку"
+          }
+        ]
+      },
+      {
+        "parent": "kontrabas",
+        "removed_explicit_cards": [
+          "kontrabas-dlya-orkestra-v-arendu",
+          "kontrabas-dlya-dzhaza-v-arendu",
+          "dzhazovyy-kontrabas"
+        ],
+        "updated_cards": []
+      }
+    ],
+    "raw_cello_parent_collapsed": {
+      "before": 13,
+      "after": 4,
+      "removed": 9
+    },
+    "compiled_cello_parent_corresponding_items": {
+      "before": 14,
+      "after": 4,
+      "note": "The fourteenth item was the automatic child for chamber cello, not another explicit source card."
+    },
+    "stage_russian_labels": true
+  },
+  "piano_consolidations_and_source_decisions": {
+    "piano_merges": [
+      {
+        "alias": "cifrovoe-pianino-dlya-vzroslogo-posle-pereryva",
+        "target": "cifrovoe-pianino-dlya-vozvrascheniya-k-igre",
+        "reason": "Оба полных текста решают возвращение после паузы. Взрослый возраст обозначен только в search_title нового адреса; упражнения, педаль и проверка режима не создают отдельной взрослой задачи. Сохранить более общий старый URL, перенести раскрытие, убрать обещанный фиксированный срок результата.",
+        "preserved_routes": [
+          {
+            "href": "/cifrovoe-pianino-posle-akusticheskogo/",
+            "label": "Если раньше играли на акустике"
+          },
+          {
+            "href": "/yamaha-p225-v-arendu/",
+            "label": "Yamaha P-225"
+          },
+          {
+            "href": "/kawai-es120-v-arendu/",
+            "label": "Kawai ES120"
+          }
+        ],
+        "parent_routes": "Общий старый адрес задан в legacy karta. Новый адрес добавлялся как автоматический ребёнок; явных дублей у родителя нет."
+      },
+      {
+        "alias": "cifrovoe-pianino-dlya-malenkoy-komnaty",
+        "target": "kompaktnoe-cifrovoe-pianino",
+        "reason": "Старый и новый текст описывают один и тот же вопрос маленькой комнаты и полного комплекта. Новый подробнее; различие самостоятельных задач пока не доказано. Предложить отдельную консолидацию после возврата, сохранив общий старый URL и модельные выходы.",
+        "preserved_routes": [
+          {
+            "href": "/cifrovoe-pianino-na-ustoychivoy-stoyke/",
+            "label": "Устойчивость компактного комплекта"
+          },
+          {
+            "href": "/yamaha-p225-v-arendu/",
+            "label": "Yamaha P-225"
+          },
+          {
+            "href": "/casio-cdps110-v-arendu/",
+            "label": "Casio CDP-S110"
+          }
+        ],
+        "parent_routes": "Общий старый адрес задан в legacy karta. Новый адрес добавлялся как автоматический ребёнок; явных дублей у родителя нет."
+      }
+    ],
+    "sources_corrected": [
+      "istoricheskie-duhovye-dlya-pervogo-proekta",
+      "cifrovoe-pianino-dlya-muzykalnoy-shkoly",
+      "cifrovoe-pianino-na-ustoychivoy-stoyke"
+    ],
+    "source_verification_notes": {
+      "school": "Гид Пианино.ру2026 открыт: он рассматривает перечисленные модели, но не подтверждает общий равный учебный класс именно этой четвёрки. Нейтральный текст сохраняет четыре кандидата и требует сравнения по программе преподавателя. Атрибуция недоступному материалу Yamaha2020 снята; факты о моделях сопровождаются прямыми источниками изготовителей.",
+      "historical": "Источники виел/ребек и корнетто не подтверждали три выбранных перехода; добавлены первичные страницы траверсо, сакбута и натуральных труб.",
+      "p515": "Открыт первичный PDF Yamaha, характеристики страницы114: NWX и22кг. У страницы теперь прямая ссылка на руководство.",
+      "stand": "Публичное оснащение ДШИ села Городище подтверждает цифровые пианино и стойку, а не национальное требование к каждой модели. Широкое обобщение о российских рекомендациях заменено этим конкретным примером с явной границей вывода."
+    }
+  }
+}
