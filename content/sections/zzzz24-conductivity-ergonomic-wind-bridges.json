@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "jupiter-jfl700-v-arendu": [
+      {
+        "label": "Флейта взрослому начинающему",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на флейте",
+        "href": "/fleyta-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "jupiter-jcl700n-v-arendu": [
+      {
+        "label": "Кларнет взрослому начинающему",
+        "href": "/klarinet-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на кларнете",
+        "href": "/klarinet-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "jupiter-jtr700-v-arendu": [
+      {
+        "label": "Труба взрослому начинающему",
+        "href": "/truba-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на трубе",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "bach-btb302-v-arendu": [
+      {
+        "label": "Первый тромбон",
+        "href": "/trombon-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Домашние занятия на тромбоне",
+        "href": "/trombon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "jupiter-jtb700-v-arendu": [
+      {
+        "label": "Первый тромбон",
+        "href": "/trombon-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Тромбон перед покупкой",
+        "href": "/trombon-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-ysl350c-v-arendu": [
+      {
+        "label": "Тромбон для короткой руки",
+        "href": "/trombon-dlya-korotkoy-ruki/"
+      },
+      {
+        "label": "Первый тромбон",
+        "href": "/trombon-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "trombon-dlya-korotkoy-ruki": [
+      {
+        "label": "Yamaha YSL-350C",
+        "href": "/yamaha-ysl350c-v-arendu/"
+      },
+      {
+        "label": "Если трудно дотягиваться",
+        "href": "/instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov/"
+      }
+    ],
+    "yamaha-ycr2330iii-v-arendu": [
+      {
+        "label": "Первый корнет",
+        "href": "/kornet-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Корнет перед покупкой",
+        "href": "/kornet-pered-pokupkoy/"
+      }
+    ],
+    "besson-prodige120-v-arendu": [
+      {
+        "label": "Первый корнет",
+        "href": "/kornet-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Корнет перед покупкой",
+        "href": "/kornet-pered-pokupkoy/"
+      }
+    ],
+    "kornet-dlya-nebolshoy-ruki": [
+      {
+        "label": "Yamaha YCR-2330III",
+        "href": "/yamaha-ycr2330iii-v-arendu/"
+      },
+      {
+        "label": "Если корпус слишком большой",
+        "href": "/instrument-esli-korpus-slishkom-bolshoy/"
+      }
+    ],
+    "yamaha-yah203-v-arendu": [
+      {
+        "label": "Первый тенор-горн",
+        "href": "/tenor-gorn-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      }
+    ],
+    "besson-prodige152-v-arendu": [
+      {
+        "label": "Первый тенор-горн",
+        "href": "/tenor-gorn-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Если корпус слишком большой",
+        "href": "/instrument-esli-korpus-slishkom-bolshoy/"
+      }
+    ],
+    "legkiy-evfonium-rebenku": [
+      {
+        "label": "Первый эуфониум",
+        "href": "/evfonium-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      }
+    ],
+    "fleyta-s-izognutoy-golovkoy": [
+      {
+        "label": "Флейта взрослому начинающему",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Если трудно дотягиваться",
+        "href": "/instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov/"
+      }
+    ],
+    "tula-bn46-detskiy-bayan-v-arendu": [
+      {
+        "label": "Баян ребёнку на первый год",
+        "href": "/bayan-rebenku-pervyy-god/"
+      },
+      {
+        "label": "Домашние занятия на баяне",
+        "href": "/bayan-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "tula-etud205m2-v-arendu": [
+      {
+        "label": "Домашние занятия на баяне",
+        "href": "/bayan-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Работа над мехом",
+        "href": "/bayan-dlya-raboty-nad-mehom/"
+      }
+    ]
+  }
+}
