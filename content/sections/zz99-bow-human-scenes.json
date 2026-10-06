@@ -1,0 +1,904 @@
+{
+  "pages": [
+    {
+      "slug": "skripichnyy-smychok-pered-pokupkoy",
+      "parent": "skripichnye-smychki",
+      "search_title": "Скрипичный смычок в аренду перед покупкой",
+      "editorial_title": "Перед покупкой скрипичного смычка: баланс должен совпасть с вашей скрипкой и рукой",
+      "description": "Аренда скрипичного смычка перед покупкой: баланс, жёсткость, атака, спиккато и длинная проба.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · СКРИПИЧНЫЙ СМЫЧОК · БАЛАНС",
+      "intro": [
+        "<p>Смычок может хорошо ощущаться в воздухе и совсем иначе вести себя на конкретной скрипке. Поэтому выбор полезно проверять на своей струне и своей программе.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала формулируют, что должен изменить новый смычок",
+          "paragraphs": [
+            "Более устойчивое legato, лёгкое spiccato, тихая атака или меньшая усталость — разные задачи."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте одну пьесу от колодки до конца смычка",
+          "paragraphs": [
+            "Важно услышать и почувствовать, где новый баланс действительно освобождает движение."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт собственный критерий до покупки",
+          "paragraphs": [
+            "После нескольких дней можно выбирать другой смычок уже по реальному результату на своей скрипке."
+          ]
+        }
+      ],
+      "quote": "Что должен улучшить новый смычок именно на вашей скрипке?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "CodaBow Prodigy Violin",
+          "href": "/codabow-prodigy-skripka-v-arendu/"
+        },
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        }
+      ]
+    },
+    {
+      "slug": "altovyy-smychok-pered-pokupkoy",
+      "parent": "altovye-smychki",
+      "search_title": "Альтовый смычок в аренду перед покупкой",
+      "editorial_title": "Перед покупкой альтового смычка: нижний голос не должен требовать лишнего давления",
+      "description": "Аренда альтового смычка перед покупкой: баланс, масса, C-струна, атака и выносливость.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · АЛЬТОВЫЙ СМЫЧОК · C-СТРУНА",
+      "intro": [
+        "<p>Альтовый смычок должен помогать извлекать плотный нижний голос без постоянного увеличения давления правой руки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнивают не массу сама по себе, а движение на струне",
+          "paragraphs": [
+            "CodaBow Prodigy Viola отдельно рассчитан под альтовый инструмент, что показывает самостоятельность этого выбора относительно скрипичного смычка."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте C-струну, détaché и длинное legato",
+          "paragraphs": [
+            "Если низ становится плотнее ценой зажатой кисти, выбор не завершён."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет оценить смычок на длинной репетиции",
+          "paragraphs": [
+            "После нескольких дней становится видно, помогает ли баланс или только производит хорошее первое впечатление."
+          ]
+        }
+      ],
+      "quote": "Что нужно получить от нового смычка: свободную C-струну, быстрый штрих или меньшую усталость?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Viola",
+          "url": "https://www.codabow.com/products/prodigy-viola"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "CodaBow Prodigy Viola",
+          "href": "/codabow-prodigy-alt-v-arendu/"
+        },
+        {
+          "label": "Альтовые смычки",
+          "href": "/altovye-smychki/"
+        }
+      ]
+    },
+    {
+      "slug": "violonchelnyy-smychok-pered-pokupkoy",
+      "parent": "violonchelnye-smychki",
+      "search_title": "Виолончельный смычок в аренду перед покупкой",
+      "editorial_title": "Перед покупкой виолончельного смычка: вес должен превращаться в звук, а не в напряжение",
+      "description": "Аренда виолончельного смычка перед покупкой: баланс, контакт со струной, legato и реакция C-струны.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · ВИОЛОНЧЕЛЬНЫЙ СМЫЧОК · КОНТАКТ",
+      "intro": [
+        "<p>На виолончели вес смычка особенно сильно связан с контактом со струной. Полезный смычок даёт опору, не заставляя кисть удерживать его силой.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют проблемный участок текущего смычка",
+          "paragraphs": [
+            "Это может быть начало на C-струне, длинное legato или быстрый отскок."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте одну и ту же фразу на своём и арендном смычке",
+          "paragraphs": [
+            "Так легче отделить свойства смычка от привычки руки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт время пройти длинную практику",
+          "paragraphs": [
+            "Через несколько дней критерий становится телесным и повторяемым."
+          ]
+        }
+      ],
+      "quote": "Где текущий смычок мешает сильнее: на нижней струне, в длинном legato или в быстрых штрихах?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "CodaBow Prodigy Cello",
+          "href": "/codabow-prodigy-violonchel-v-arendu/"
+        },
+        {
+          "label": "Виолончельные смычки",
+          "href": "/violonchelnye-smychki/"
+        }
+      ]
+    },
+    {
+      "slug": "kontrabasovyy-smychok-pered-pokupkoy",
+      "parent": "kontrabasovye-smychki",
+      "search_title": "Контрабасовый смычок в аренду перед покупкой",
+      "editorial_title": "Перед покупкой контрабасового смычка: сначала система держания, потом конкретная трость",
+      "description": "Аренда контрабасового смычка перед покупкой: французская/немецкая система, баланс, C/G-струна и длинная проба.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · КОНТРАБАСОВЫЙ СМЫЧОК · СИСТЕМА",
+      "intro": [
+        "<p>На контрабасе выбор начинается ещё до марки: французская и немецкая системы держания создают разные интерфейсы всей правой руки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала сохраняют привычную систему",
+          "paragraphs": [
+            "Upton Workshop выпускается и во французском, и в немецком варианте, что прямо подтверждает независимость этой координаты."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте длинные ноты, détaché и смены струн",
+          "paragraphs": [
+            "Смычок должен давать вес без необходимости давить плечом."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить несколько тростей внутри одной системы",
+          "paragraphs": [
+            "Покупка после этого опирается на движение, а не на абстрактную репутацию."
+          ]
+        }
+      ],
+      "quote": "Французская или немецкая система уже выбрана и что именно нужно улучшить внутри неё?",
+      "sources": [
+        {
+          "title": "Upton Bass: Workshop French and German bass bows",
+          "url": "https://uptonbass.com/product/ub-workshop-double-bass-bow-french-and-german-styles/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Upton Workshop Bow",
+          "href": "/upton-workshop-smychok-v-arendu/"
+        },
+        {
+          "label": "Французский смычок",
+          "href": "/frantsuzskiy-smychok-dlya-kontrabasa/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-detache",
+      "parent": "smychki",
+      "search_title": "Смычок для работы над détaché в аренду",
+      "editorial_title": "Détaché: каждый новый штрих должен начинаться отдельно, не ломая линию",
+      "description": "Смычок для détaché: баланс, середина смычка, смена направления и повторяемая атака.",
+      "kicker": "DÉTACHÉ · СМЕНА НАПРАВЛЕНИЯ · АТАКА",
+      "intro": [
+        "<p>В détaché особенно слышно, насколько смычок позволяет менять направление без лишнего щелчка и без провала звука.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Работу начинают в средней части смычка",
+          "paragraphs": [
+            "Там легче отделить качество смены направления от крайностей колодки и конца."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте одну гамму одинаковыми штрихами",
+          "paragraphs": [
+            "Если направление меняется телом и кистью неравномерно, полезно сравнить другой баланс смычка."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда может поддержать отдельный технический этап",
+          "paragraphs": [
+            "После освоения движения новый смычок не обязательно становится постоянной покупкой."
+          ]
+        }
+      ],
+      "quote": "Где détaché распадается сильнее: на смене направления, у колодки или ближе к концу?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        }
+      ],
+      "links": [
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        },
+        {
+          "label": "Смычки",
+          "href": "/smychki/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-legato",
+      "parent": "smychki",
+      "search_title": "Смычок для работы над legato в аренду",
+      "editorial_title": "Legato: длинная линия должна пережить весь путь смычка",
+      "description": "Смычок для legato: распределение скорости, вес, контакт и переход от колодки к концу.",
+      "kicker": "LEGATO · ДЛИНА СМЫЧКА · РАСПРЕДЕЛЕНИЕ",
+      "intro": [
+        "<p>В длинном legato смычок становится мерой времени: скорость и вес должны распределяться по всей трости, а звук не должен исчезать к концу.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала проверяют устойчивость контакта на одной струне",
+          "paragraphs": [
+            "Баланс и упругость смычка влияют на то, насколько легко рука сохраняет одинаковое качество контакта."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте длинную фразу на одном смычке",
+          "paragraphs": [
+            "Следите, где звук начинает терять опору и где рука компенсирует это давлением."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет сравнить смычки на одной и той же фразе",
+          "paragraphs": [
+            "Это превращает абстрактное ощущение баланса в слышимый критерий."
+          ]
+        }
+      ],
+      "quote": "В какой части длинного смычка звук начинает терять опору?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        },
+        {
+          "label": "Работа у конца",
+          "href": "/smychok-dlya-raboty-u-kontsa/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-spikkato",
+      "parent": "smychki",
+      "search_title": "Смычок для работы над spiccato в аренду",
+      "editorial_title": "Spiccato: отскок должен возникать из упругости, а не из подбрасывания руки",
+      "description": "Смычок для spiccato: баланс, упругость, точка отскока и повторяемый короткий штрих.",
+      "kicker": "SPICCATO · ОТСКОК · УПРУГОСТЬ",
+      "intro": [
+        "<p>Spiccato быстро показывает характер трости: слишком пассивный или слишком нервный смычок заставляет руку искусственно создавать отскок.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Найдите естественную точку отскока конкретного смычка",
+          "paragraphs": [
+            "Она зависит от баланса и упругости, а не только от общей массы."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Повторите короткую фигуру на нескольких темпах",
+          "paragraphs": [
+            "Полезный смычок позволяет ускоряться без резкого изменения амплитуды руки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт возможность отделить технику от неподходящего интерфейса",
+          "paragraphs": [
+            "После нескольких занятий становится ясно, что принадлежит смычку, а что самой координации."
+          ]
+        }
+      ],
+      "quote": "Spiccato не поднимается, слишком высоко отскакивает или становится нестабильным при ускорении?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Viola",
+          "url": "https://www.codabow.com/products/prodigy-viola"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        }
+      ],
+      "links": [
+        {
+          "label": "CodaBow Prodigy Violin",
+          "href": "/codabow-prodigy-skripka-v-arendu/"
+        },
+        {
+          "label": "Смычки",
+          "href": "/smychki/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-sotie",
+      "parent": "smychki",
+      "search_title": "Смычок для работы над sautillé в аренду",
+      "editorial_title": "Sautillé: быстрый отскок должен собираться из движения струны и трости",
+      "description": "Смычок для sautillé: скорость, упругость, середина смычка и минимальная амплитуда.",
+      "kicker": "SAUTILLÉ · СКОРОСТЬ · УПРУГОСТЬ",
+      "intro": [
+        "<p>В sautillé движение становится настолько небольшим, что смычок и струна начинают работать как одна колебательная система.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Слишком тяжёлое ручное подбрасывание разрушает штрих",
+          "paragraphs": [
+            "Полезно искать скорость, где трость сама начинает отвечать на короткое горизонтальное движение."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте одну фигуру с постепенным ускорением",
+          "paragraphs": [
+            "Смычок должен переходить в быстрый отскок без резкого скачка техники."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Временная проба показывает, насколько конкретная трость поддерживает этот штрих",
+          "paragraphs": [
+            "Это не заменяет технику, но убирает лишнее механическое сопротивление."
+          ]
+        }
+      ],
+      "quote": "На каком темпе sautillé перестаёт быть естественным и превращается в ручное подбрасывание?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Viola",
+          "url": "https://www.codabow.com/products/prodigy-viola"
+        }
+      ],
+      "links": [
+        {
+          "label": "Работа над spiccato",
+          "href": "/smychok-dlya-raboty-nad-spikkato/"
+        },
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-tihoy-ataki",
+      "parent": "smychki",
+      "search_title": "Смычок для тихой атаки в аренду",
+      "editorial_title": "Тихая атака: струна должна начать звучать раньше, чем появится царапина",
+      "description": "Смычок для pianissimo: контакт, вес, волос, баланс и управляемое начало ноты.",
+      "kicker": "PIANISSIMO · АТАКА · КОНТАКТ",
+      "intro": [
+        "<p>В очень тихом начале ноты смычок работает на границе контакта: веса должно хватить для возбуждения струны, но не для жёсткого шума.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Проверяйте на знакомой струне и знакомом инструменте",
+          "paragraphs": [
+            "Так легче услышать именно влияние смычка, а не нового корпуса."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Повторите одну тихую атаку десять раз",
+          "paragraphs": [
+            "Нужна повторяемость, а не один удачный шёпот."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда полезна перед записью, прослушиванием или работой над новым динамическим уровнем",
+          "paragraphs": [
+            "Смычок может временно открыть технику, которая затем переносится и на другой инструмент."
+          ]
+        }
+      ],
+      "quote": "Тихая нота не начинается, начинается с шума или требует слишком большого давления?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "Смычки",
+          "href": "/smychki/"
+        },
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-dolgih-repetitsiy",
+      "parent": "smychki",
+      "search_title": "Смычок для долгих репетиций в аренду",
+      "editorial_title": "Долгая репетиция: удобный смычок должен экономить внимание после первого часа",
+      "description": "Смычок для длительных репетиций: баланс, усталость кисти, масса и повторяемый контроль.",
+      "kicker": "ДОЛГАЯ РЕПЕТИЦИЯ · УСТАЛОСТЬ · БАЛАНС",
+      "intro": [
+        "<p>Смычок, удобный пять минут, может начать требовать лишней работы кисти и плеча через час.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Нужно различать общую массу и баланс",
+          "paragraphs": [
+            "Одинаковый вес может ощущаться по-разному в зависимости от распределения по трости."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте полный репетиционный блок",
+          "paragraphs": [
+            "Отмечайте момент, когда техника начинает меняться из-за усталости правой руки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт реальный длительный тест до покупки",
+          "paragraphs": [
+            "Особенно перед интенсивным оркестровым или концертным периодом."
+          ]
+        }
+      ],
+      "quote": "После какого времени смычок начинает менять вашу технику и где появляется усталость?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Viola",
+          "url": "https://www.codabow.com/products/prodigy-viola"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        },
+        {
+          "label": "Смычки",
+          "href": "/smychki/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-raboty-u-kolodki",
+      "parent": "smychki",
+      "search_title": "Смычок для работы у колодки в аренду",
+      "editorial_title": "У колодки: большой вес смычка должен оставаться управляемым",
+      "description": "Смычок для техники у колодки: баланс, вес, кисть и контроль короткого штриха.",
+      "kicker": "КОЛОДКА · ВЕС · КИСТЬ",
+      "intro": [
+        "<p>У колодки смычок физически тяжелее ощущается в руке, поэтому техника особенно зависит от баланса и свободы кисти.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала ищут устойчивый контакт без зажатой кисти",
+          "paragraphs": [
+            "Хороший баланс помогает использовать естественный вес, а не поднимать его постоянным напряжением."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте короткие détaché и акценты у колодки",
+          "paragraphs": [
+            "Проверяйте, может ли кисть оставаться подвижной при смене направления."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет сравнить разные балансы на одном упражнении",
+          "paragraphs": [
+            "Это даёт телесный критерий, а не абстрактное описание центра тяжести."
+          ]
+        }
+      ],
+      "quote": "У колодки смычок кажется тяжёлым, неповоротливым или наоборот теряет контакт?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "Работа над détaché",
+          "href": "/smychok-dlya-raboty-nad-detache/"
+        },
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-raboty-u-kontsa",
+      "parent": "smychki",
+      "search_title": "Смычок для работы у конца в аренду",
+      "editorial_title": "У конца: лёгкость трости не должна превращаться в потерю контакта",
+      "description": "Смычок для техники у конца: распределение веса, контакт, legato и контроль тихого звука.",
+      "kicker": "КОНЕЦ СМЫЧКА · КОНТАКТ · LEGATO",
+      "intro": [
+        "<p>Ближе к концу естественного веса меньше, и музыкант должен сохранить контакт без подъёма плеча и лишнего давления пальцами.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала проверяют длинную ноту на одной струне",
+          "paragraphs": [
+            "Баланс смычка становится слышен там, где правой руке приходится компенсировать нехватку собственного веса."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте legato и тихую атаку у конца",
+          "paragraphs": [
+            "Нужно сохранить звук, не меняя положение всего корпуса."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет сравнить трости на одном и том же движении",
+          "paragraphs": [
+            "Это особенно полезно перед покупкой смычка."
+          ]
+        }
+      ],
+      "quote": "У конца звук исчезает, становится шумным или заставляет поднимать плечо?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        },
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "Работа над legato",
+          "href": "/smychok-dlya-raboty-nad-legato/"
+        },
+        {
+          "label": "Смычок с удобным балансом",
+          "href": "/smychok-s-udobnym-balansom/"
+        }
+      ]
+    },
+    {
+      "slug": "derevyannyy-smychok-dlya-pervogo-opyta",
+      "parent": "smychki",
+      "search_title": "Деревянный смычок для первого опыта в аренду",
+      "editorial_title": "Первый деревянный смычок: материал важен только через реальное движение",
+      "description": "Деревянный смычок для пробы: brazilwood, баланс, упругость и сравнение с привычным смычком.",
+      "kicker": "ДЕРЕВО · ПЕРВАЯ ПРОБА · БАЛАНС",
+      "intro": [
+        "<p>Деревянный смычок часто окружён большим количеством легенд о материале. Полезнее сравнить конкретную трость с уже знакомым смычком на одной программе.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Материал не задаёт готовый характер сам по себе",
+          "paragraphs": [
+            "Dörfler 6/6a — пример учебной Brazil Wood-серии. Реальный результат зависит от конкретной трости, баланса и качества изготовления."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте legato, détaché и отскок",
+          "paragraphs": [
+            "Три разных штриха показывают больше, чем общий тембр."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет узнать деревянную трость до покупки",
+          "paragraphs": [
+            "После нескольких занятий материал перестаёт быть абстрактной категорией."
+          ]
+        }
+      ],
+      "quote": "Что вы хотите услышать или почувствовать именно в деревянном смычке?",
+      "sources": [
+        {
+          "title": "Dörfler: Brazil Wood Basic 6/6a",
+          "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic"
+        }
+      ],
+      "links": [
+        {
+          "label": "Dörfler 6/6a",
+          "href": "/doerfler-6-6a-smychki-v-arendu/"
+        },
+        {
+          "label": "Карбоновый смычок",
+          "href": "/karbonovyy-smychok-dlya-pervogo-opyta/"
+        }
+      ]
+    },
+    {
+      "slug": "karbonovyy-smychok-dlya-pervogo-opyta",
+      "parent": "smychki",
+      "search_title": "Карбоновый смычок для первого опыта в аренду",
+      "editorial_title": "Первый карбоновый смычок: стабильная конструкция должна доказать себя в музыке",
+      "description": "Карбоновый смычок для пробы: баланс, упругость, стабильность и сравнение с деревянной тростью.",
+      "kicker": "КАРБОН · ПЕРВАЯ ПРОБА · СРАВНЕНИЕ",
+      "intro": [
+        "<p>Карбон часто выбирают ради стабильности и предсказуемости конструкции, но музыкальная пригодность всё равно определяется рукой и инструментом.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнение начинают на одном и том же инструменте",
+          "paragraphs": [
+            "CodaBow Prodigy существует в отдельных violin/viola/cello версиях, что показывает необходимость предметного подбора даже внутри одного материала."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте длинное legato, spiccato и тихую атаку",
+          "paragraphs": [
+            "Нужно увидеть, где карбоновая трость реально упрощает движение, а где просто ощущается иначе."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет отделить материал от маркетингового ожидания",
+          "paragraphs": [
+            "После нескольких дней можно решать, нужен ли карбон постоянно."
+          ]
+        }
+      ],
+      "quote": "Карбон интересует ради стабильности, отскока, поездок или просто как альтернативный характер?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Viola",
+          "url": "https://www.codabow.com/products/prodigy-viola"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        }
+      ],
+      "links": [
+        {
+          "label": "CodaBow Prodigy Violin",
+          "href": "/codabow-prodigy-skripka-v-arendu/"
+        },
+        {
+          "label": "Деревянный смычок",
+          "href": "/derevyannyy-smychok-dlya-pervogo-opyta/"
+        }
+      ]
+    },
+    {
+      "slug": "kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy",
+      "parent": "kontrabasovye-smychki",
+      "search_title": "Французский или немецкий контрабасовый смычок в аренду для сравнения",
+      "editorial_title": "Французский или немецкий: сравнить две системы держания до выбора направления",
+      "description": "Сравнение French/German double bass bow: хват, кисть, вес, струна и педагогическая система.",
+      "kicker": "FRENCH ↔ GERMAN · ХВАТ · СИСТЕМА",
+      "intro": [
+        "<p>Французский и немецкий контрабасовые смычки отличаются не косметически: вся правая рука организуется по-разному.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнение имеет смысл только до устойчивого закрепления одной системы или при осознанном переходе",
+          "paragraphs": [
+            "Upton Workshop выпускается в обоих вариантах, что позволяет сравнивать две конструкции внутри близкого уровня изготовления."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте одну гамму и длинную ноту двумя системами",
+          "paragraphs": [
+            "Нужно наблюдать не только звук, но и положение кисти, локтя и способ передачи веса."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет сделать выбор вместе с преподавателем без покупки двух смычков",
+          "paragraphs": [
+            "После решения одна система становится рабочей, другая остаётся опытом."
+          ]
+        }
+      ],
+      "quote": "Вы только выбираете систему или уже думаете о переходе с одной на другую?",
+      "sources": [
+        {
+          "title": "Upton Bass: Workshop French and German bass bows",
+          "url": "https://uptonbass.com/product/ub-workshop-double-bass-bow-french-and-german-styles/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Французский смычок",
+          "href": "/frantsuzskiy-smychok-dlya-kontrabasa/"
+        },
+        {
+          "label": "Немецкий смычок",
+          "href": "/nemetskiy-smychok-dlya-kontrabasa/"
+        }
+      ]
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-stakkato",
+      "parent": "smychki",
+      "search_title": "Смычок для работы над staccato в аренду",
+      "editorial_title": "Staccato: серия коротких атак должна сохранять одну руку и один звук",
+      "description": "Смычок для staccato: короткая атака, контроль кисти, баланс и повторяемая серия штрихов.",
+      "kicker": "STACCATO · КОРОТКАЯ АТАКА · СЕРИЯ",
+      "intro": [
+        "<p>В staccato смычок должен позволять повторять короткие атаки без накопления напряжения и без потери одинакового контакта.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Начинают с медленной серии на одной струне",
+          "paragraphs": [
+            "Так легче увидеть, где движение принадлежит пальцам и кисти, а где смычок требует лишней коррекции."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Ускоряйте только при сохранении одинаковой атаки",
+          "paragraphs": [
+            "Если каждый следующий штрих становится тяжелее, баланс или техника ещё не собраны."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет сравнить разные трости на одном техническом материале",
+          "paragraphs": [
+            "Это особенно полезно перед покупкой нового смычка."
+          ]
+        }
+      ],
+      "quote": "Staccato теряет ровность из-за атаки, темпа или накопления напряжения?",
+      "sources": [
+        {
+          "title": "CodaBow: Prodigy Violin",
+          "url": "https://www.codabow.com/products/prodigy-violin"
+        },
+        {
+          "title": "CodaBow: Prodigy Viola",
+          "url": "https://www.codabow.com/products/prodigy-viola"
+        },
+        {
+          "title": "CodaBow: Prodigy Cello",
+          "url": "https://www.codabow.com/products/prodigy-cello"
+        }
+      ],
+      "links": [
+        {
+          "label": "Работа над détaché",
+          "href": "/smychok-dlya-raboty-nad-detache/"
+        },
+        {
+          "label": "Смычки",
+          "href": "/smychki/"
+        }
+      ]
+    }
+  ]
+}
