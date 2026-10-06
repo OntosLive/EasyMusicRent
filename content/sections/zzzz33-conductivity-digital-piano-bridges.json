@@ -1,0 +1,324 @@
+{
+  "navigation": {
+    "casio-pxs7000-v-arendu": [
+      {
+        "label": "Маленькая комната",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "kawai-ca401-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "kawai-ca501-v-arendu": [
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "kawai-ca701-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      }
+    ],
+    "kawai-ca901-v-arendu": [
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "kawai-cn301-v-arendu": [
+      {
+        "label": "Два ученика",
+        "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/"
+      },
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "kawai-es120-v-arendu": [
+      {
+        "label": "Временное жильё",
+        "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/"
+      },
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      }
+    ],
+    "kawai-es520-v-arendu": [
+      {
+        "label": "Запись аудио",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      },
+      {
+        "label": "Ансамбль дома",
+        "href": "/cifrovoe-pianino-dlya-ansamblya-doma/"
+      }
+    ],
+    "kawai-es920-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "roland-fp10-v-arendu": [
+      {
+        "label": "Пробный учебный период",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      },
+      {
+        "label": "Маленькая комната",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "roland-fp30x-v-arendu": [
+      {
+        "label": "Домашние занятия",
+        "href": "/cifrovoe-pianino-dlya-obucheniya/"
+      },
+      {
+        "label": "Два ученика",
+        "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/"
+      }
+    ],
+    "roland-fp60x-v-arendu": [
+      {
+        "label": "Запись MIDI",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      },
+      {
+        "label": "Ансамбль дома",
+        "href": "/cifrovoe-pianino-dlya-ansamblya-doma/"
+      }
+    ],
+    "roland-fp90x-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "roland-hp702-v-arendu": [
+      {
+        "label": "Домашняя практика ребёнка",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      },
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "roland-hp704-v-arendu": [
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      },
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "roland-lx5-v-arendu": [
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "roland-lx6-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "roland-lx9-v-arendu": [
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-arius-v-arendu": [
+      {
+        "label": "Домашние занятия",
+        "href": "/cifrovoe-pianino-dlya-obucheniya/"
+      },
+      {
+        "label": "Музыкальная школа",
+        "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/"
+      }
+    ],
+    "yamaha-clavinova-clp-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-clp635-v-arendu": [
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-clp645-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-clp675-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      }
+    ],
+    "yamaha-clp685-v-arendu": [
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-clp735-v-arendu": [
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "yamaha-clp745-v-arendu": [
+      {
+        "label": "Два ученика",
+        "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-clp775-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-clp785-v-arendu": [
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      },
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "yamaha-clp825-v-arendu": [
+      {
+        "label": "Домашние занятия",
+        "href": "/cifrovoe-pianino-dlya-obucheniya/"
+      },
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "yamaha-clp835-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Долгая практика",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-clp845-v-arendu": [
+      {
+        "label": "Сравнить механики",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Два ученика",
+        "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/"
+      }
+    ],
+    "yamaha-clp875-v-arendu": [
+      {
+        "label": "После акустического пианино",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      },
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ]
+  }
+}
