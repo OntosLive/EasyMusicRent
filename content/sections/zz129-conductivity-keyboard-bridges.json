@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "casio-cdps110-v-arendu": [
+      {
+        "label": "Компактное цифровое пианино для маленькой комнаты",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Цифровое пианино перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "casio-cdps160-v-arendu": [
+      {
+        "label": "Сравнить механики цифровых пианино",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Цифровое пианино перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "casio-cdps360-v-arendu": [
+      {
+        "label": "Компактное цифровое пианино для маленькой комнаты",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Запись MIDI с цифрового пианино",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      }
+    ],
+    "casio-px770-v-arendu": [
+      {
+        "label": "Сравнить механики цифровых пианино",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "casio-px870-v-arendu": [
+      {
+        "label": "Цифровое пианино перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      },
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "korg-m1-v-arendu": [
+      {
+        "label": "Hardware или software: сравнить способ работы",
+        "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
+      },
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      }
+    ],
+    "roland-d50-v-arendu": [
+      {
+        "label": "Hardware или software: сравнить способ работы",
+        "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
+      },
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      }
+    ],
+    "roland-jupiter-8-v-arendu": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Синтезатор для модуляции в реальном времени",
+        "href": "/sintezator-dlya-modulyatsii-v-realnom-vremeni/"
+      }
+    ],
+    "sequential-prophet-5-v-arendu": [
+      {
+        "label": "Hardware или software: сравнить способ работы",
+        "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
+      },
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-dx7-v-arendu": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Hardware или software: сравнить способ работы",
+        "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
+      }
+    ],
+    "arenda-koncertnogo-royalya-moskva": [
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      },
+      {
+        "label": "Рояль для камерного концерта",
+        "href": "/royal-dlya-kamernogo-kontserta/"
+      }
+    ],
+    "boesendorfer-280vc-v-arendu": [
+      {
+        "label": "Сравнить пианино и рояль по функции",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      },
+      {
+        "label": "Рояль для конкурса",
+        "href": "/royal-dlya-konkursa/"
+      }
+    ],
+    "fazioli-f278-v-arendu": [
+      {
+        "label": "Сравнить пианино и рояль по функции",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      },
+      {
+        "label": "Рояль для студийной записи",
+        "href": "/royal-dlya-zapisi/"
+      }
+    ],
+    "royal-dlya-kamernogo-kontserta": [
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      },
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "royal-dlya-konkursa": [
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      },
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "royal-dlya-repetitsii": [
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      },
+      {
+        "label": "Рояль для конкурса",
+        "href": "/royal-dlya-konkursa/"
+      }
+    ]
+  }
+}
