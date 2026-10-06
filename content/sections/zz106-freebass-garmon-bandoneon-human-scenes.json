@@ -302,7 +302,10 @@
       ],
       "quote": "Сколько домашней работы уже приходится именно на выборный бас?",
       "sources": [
-        null,
+        {
+          "title": "Юпитер: паспортное описание модели 2Д",
+          "url": "https://www.bayanjupiter.com/models/jupiter2d.html"
+        },
         {
           "title": "Hohner: accordions and free-bass systems",
           "url": "https://hohner.de/en/instruments/accordions"
@@ -354,7 +357,10 @@
       ],
       "quote": "Выборный бас уже входит в программу или вы только хотите понять принцип готово-выборной системы?",
       "sources": [
-        null
+        {
+          "title": "Юпитер: паспортное описание модели 2Д",
+          "url": "https://www.bayanjupiter.com/models/jupiter2d.html"
+        }
       ],
       "links": [
         {
