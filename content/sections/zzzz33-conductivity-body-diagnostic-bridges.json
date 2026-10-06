@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-esli-tyazhelo-prizhimat": [
+      {
+        "label": "Акустика после классической: другое усилие струны",
+        "href": "/akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy/"
+      },
+      {
+        "label": "Короткомензурный бас взрослому",
+        "href": "/korotkomensurnaya-bas-gitara-vzroslomu/"
+      }
+    ],
+    "instrument-esli-bystro-ustaet-levaya-ruka": [
+      {
+        "label": "Короткая мензура: уменьшить расстояния",
+        "href": "/korotkomensurnaya-bas-gitara-vzroslomu/"
+      },
+      {
+        "label": "Альт взрослому: подобрать масштаб корпуса",
+        "href": "/alt-vzroslomu-nachinayuschemu/"
+      }
+    ],
+    "instrument-esli-bystro-ustaet-pravaya-ruka": [
+      {
+        "label": "Смычок для долгих репетиций",
+        "href": "/smychok-dlya-dolgih-repetitsiy/"
+      },
+      {
+        "label": "Установка для долгой репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      }
+    ],
+    "instrument-esli-podnimaetsya-plecho": [
+      {
+        "label": "Акустика с компактным корпусом",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      },
+      {
+        "label": "Альт: проверить размер корпуса",
+        "href": "/alt-vzroslomu-nachinayuschemu/"
+      }
+    ],
+    "instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov": [
+      {
+        "label": "Короткомензурный бас взрослому",
+        "href": "/korotkomensurnaya-bas-gitara-vzroslomu/"
+      },
+      {
+        "label": "Акустическая гитара подростку",
+        "href": "/akusticheskaya-gitara-podrostku/"
+      }
+    ],
+    "instrument-esli-korpus-slishkom-bolshoy": [
+      {
+        "label": "Акустика с компактным корпусом",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      },
+      {
+        "label": "Цифровое пианино для маленькой комнаты",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "instrument-esli-instrument-slishkom-tyazhelyy": [
+      {
+        "label": "Электрический контрабас для гастролей",
+        "href": "/elektricheskiy-kontrabas-dlya-gastroley/"
+      },
+      {
+        "label": "Компактная акустическая гитара",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      }
+    ],
+    "instrument-esli-neudobno-igrat-sidya": [
+      {
+        "label": "Акустическая гитара для игры сидя",
+        "href": "/akusticheskaya-gitara-dlya-zanyatiy-sidya/"
+      },
+      {
+        "label": "Электровиолончель для домашней практики",
+        "href": "/elektroviolonchel-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-esli-neudobno-igrat-stoya": [
+      {
+        "label": "Акустическая гитара для игры стоя",
+        "href": "/akusticheskaya-gitara-dlya-zanyatiy-stoya/"
+      },
+      {
+        "label": "Электрический контрабас для гастролей",
+        "href": "/elektricheskiy-kontrabas-dlya-gastroley/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-dyhaniya": [
+      {
+        "label": "Флейта взрослому начинающему",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Первая туба: размер и дыхание",
+        "href": "/tuba-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "instrument-esli-guby-bystro-ustayut": [
+      {
+        "label": "Труба взрослому начинающему",
+        "href": "/truba-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Первая валторна",
+        "href": "/valtorna-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "instrument-esli-kist-zazhimaetsya": [
+      {
+        "label": "Смычок: работа у колодки",
+        "href": "/smychok-dlya-raboty-u-kolodki/"
+      },
+      {
+        "label": "Акустическая гитара для fingerstyle",
+        "href": "/akusticheskaya-gitara-dlya-fingerstayla/"
+      }
+    ],
+    "instrument-esli-bolshoy-palets-ne-nahodit-oporu": [
+      {
+        "label": "Кларнет взрослому начинающему",
+        "href": "/klarinet-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Первый альт-саксофон",
+        "href": "/saksofon-alt-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "instrument-esli-pedal-daleko": [
+      {
+        "label": "Цифровое пианино: работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Орган: полная координация рук и ног",
+        "href": "/organ-dlya-polnoy-koordinatsii-ruk-i-nog/"
+      }
+    ],
+    "instrument-esli-shpil-ne-derzhit-korpus": [
+      {
+        "label": "Электровиолончель для дома: проверить опоры",
+        "href": "/elektroviolonchel-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Электрический контрабас для дома",
+        "href": "/elektricheskiy-kontrabas-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-esli-remni-ne-derzhat-posadku": [
+      {
+        "label": "Акустическая гитара для игры стоя",
+        "href": "/akusticheskaya-gitara-dlya-zanyatiy-stoya/"
+      },
+      {
+        "label": "Первый тенор-саксофон: вес и ремень",
+        "href": "/saksofon-tenor-dlya-pervogo-opyta/"
+      }
+    ]
+  }
+}
