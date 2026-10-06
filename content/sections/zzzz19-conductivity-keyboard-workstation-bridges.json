@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "yamaha-montage-m8x-v-arendu": [
+      {
+        "label": "Workstation для концертного сета",
+        "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/"
+      },
+      {
+        "label": "Workstation для одного музыканта",
+        "href": "/workstation-dlya-odnogo-muzykanta/"
+      }
+    ],
+    "roland-fantom-8-ex-v-arendu": [
+      {
+        "label": "Workstation для концертного сета",
+        "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/"
+      },
+      {
+        "label": "Workstation для гастрольного тура",
+        "href": "/workstation-dlya-gastrolnogo-tura/"
+      }
+    ],
+    "korg-nautilus-88-at-v-arendu": [
+      {
+        "label": "Workstation для концертного сета",
+        "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/"
+      },
+      {
+        "label": "Workstation для одного музыканта",
+        "href": "/workstation-dlya-odnogo-muzykanta/"
+      }
+    ],
+    "nord-stage-3-88-v-arendu": [
+      {
+        "label": "Сценические клавишные для пианиста",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      },
+      {
+        "label": "Быстрые переключения на сцене",
+        "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/"
+      }
+    ],
+    "yamaha-cp88-v-arendu": [
+      {
+        "label": "Stage piano по райдеру",
+        "href": "/stage-piano-po-rayderu/"
+      },
+      {
+        "label": "Stage piano перед покупкой",
+        "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/"
+      }
+    ],
+    "roland-rd2000ex-v-arendu": [
+      {
+        "label": "Stage piano по райдеру",
+        "href": "/stage-piano-po-rayderu/"
+      },
+      {
+        "label": "Сценические клавишные для пианиста",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      }
+    ],
+    "korg-kronos-2-88-v-arendu": [
+      {
+        "label": "Workstation для концертного сета",
+        "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/"
+      },
+      {
+        "label": "Workstation для гастрольного тура",
+        "href": "/workstation-dlya-gastrolnogo-tura/"
+      }
+    ],
+    "yamaha-motif-xf8-v-arendu": [
+      {
+        "label": "Workstation для одного музыканта",
+        "href": "/workstation-dlya-odnogo-muzykanta/"
+      },
+      {
+        "label": "Workstation по райдеру",
+        "href": "/workstation-po-rayderu/"
+      }
+    ],
+    "nord-stage-4-v-arendu": [
+      {
+        "label": "Сценические клавишные для пианиста",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      },
+      {
+        "label": "Быстрые переключения на сцене",
+        "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/"
+      }
+    ],
+    "nord-electro-6d-v-arendu": [
+      {
+        "label": "Клавишные для малой сцены",
+        "href": "/klavishnye-dlya-maloy-stseny/"
+      },
+      {
+        "label": "Клавишные для фестиваля",
+        "href": "/klavishnye-dlya-festivalya/"
+      }
+    ],
+    "roland-rd88ex-v-arendu": [
+      {
+        "label": "Stage piano перед покупкой",
+        "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/"
+      },
+      {
+        "label": "Клавишные для малой сцены",
+        "href": "/klavishnye-dlya-maloy-stseny/"
+      }
+    ],
+    "korg-sv2-v-arendu": [
+      {
+        "label": "Сценические клавишные для пианиста",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      },
+      {
+        "label": "Stage piano перед покупкой",
+        "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/"
+      }
+    ],
+    "kawai-kdp120-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Цифровое пианино перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "roland-fpe50-v-arendu": [
+      {
+        "label": "Запись MIDI",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      },
+      {
+        "label": "Цифровое пианино перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-dgx670-v-arendu": [
+      {
+        "label": "Цифровое пианино для ансамбля дома",
+        "href": "/cifrovoe-pianino-dlya-ansamblya-doma/"
+      },
+      {
+        "label": "Запись MIDI",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      }
+    ],
+    "korg-minilogue-xd-v-arendu": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      }
+    ]
+  }
+}
