@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "kolesnaya-lira-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Колёсная лира для записи",
+        "href": "/kolesnaya-lira-dlya-zapisi/"
+      },
+      {
+        "label": "Колёсная лира перед покупкой",
+        "href": "/kolesnaya-lira-pered-pokupkoy/"
+      }
+    ],
+    "kolesnaya-lira-dlya-zapisi": [
+      {
+        "label": "Колёсная лира для домашних занятий",
+        "href": "/kolesnaya-lira-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Колёсная лира перед покупкой",
+        "href": "/kolesnaya-lira-pered-pokupkoy/"
+      }
+    ],
+    "kolesnaya-lira-pered-pokupkoy": [
+      {
+        "label": "Колёсная лира для домашних занятий",
+        "href": "/kolesnaya-lira-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Колёсная лира для записи",
+        "href": "/kolesnaya-lira-dlya-zapisi/"
+      }
+    ],
+    "dombra-dlya-kontserta": [
+      {
+        "label": "Домбра для студийной записи",
+        "href": "/dombra-dlya-studii/"
+      },
+      {
+        "label": "Домбра перед покупкой",
+        "href": "/dombra-pered-pokupkoy/"
+      }
+    ],
+    "dombra-dlya-studii": [
+      {
+        "label": "Домбра для концерта",
+        "href": "/dombra-dlya-kontserta/"
+      },
+      {
+        "label": "Домбра перед покупкой",
+        "href": "/dombra-pered-pokupkoy/"
+      }
+    ],
+    "dombra-dlya-uchebnyh-zanyatiy": [
+      {
+        "label": "Домбра перед покупкой",
+        "href": "/dombra-pered-pokupkoy/"
+      },
+      {
+        "label": "Домбра для концерта",
+        "href": "/dombra-dlya-kontserta/"
+      }
+    ],
+    "kalimba-dlya-kontserta": [
+      {
+        "label": "Калимба для первого опыта",
+        "href": "/kalimba-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Калимба для студийной записи",
+        "href": "/kalimba-dlya-studii/"
+      }
+    ],
+    "kalimba-dlya-studii": [
+      {
+        "label": "Калимба для первого опыта",
+        "href": "/kalimba-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Калимба для записи песни",
+        "href": "/kalimba-dlya-zapisi-pesni/"
+      }
+    ],
+    "kalimba-dlya-zapisi-pesni": [
+      {
+        "label": "Калимба для первого опыта",
+        "href": "/kalimba-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Калимба для студийной записи",
+        "href": "/kalimba-dlya-studii/"
+      }
+    ],
+    "srednevekovye-instrumenty-dlya-obrazovatelnogo-proekta": [
+      {
+        "label": "Средневековые инструменты для реконструкции",
+        "href": "/srednevekovye-instrumenty-dlya-rekonstruktsii/"
+      },
+      {
+        "label": "Средневековые инструменты для студийной записи",
+        "href": "/srednevekovye-instrumenty-dlya-studiynoy-zapisi/"
+      }
+    ],
+    "srednevekovye-instrumenty-dlya-rekonstruktsii": [
+      {
+        "label": "Средневековые инструменты для образовательного проекта",
+        "href": "/srednevekovye-instrumenty-dlya-obrazovatelnogo-proekta/"
+      },
+      {
+        "label": "Средневековые инструменты для студийной записи",
+        "href": "/srednevekovye-instrumenty-dlya-studiynoy-zapisi/"
+      }
+    ],
+    "srednevekovye-instrumenty-dlya-studiynoy-zapisi": [
+      {
+        "label": "Средневековые инструменты для образовательного проекта",
+        "href": "/srednevekovye-instrumenty-dlya-obrazovatelnogo-proekta/"
+      },
+      {
+        "label": "Средневековые инструменты для реконструкции",
+        "href": "/srednevekovye-instrumenty-dlya-rekonstruktsii/"
+      }
+    ],
+    "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta": [
+      {
+        "label": "Ренессансные инструменты для студийной записи",
+        "href": "/renessansnye-instrumenty-dlya-studiynoy-zapisi/"
+      },
+      {
+        "label": "Ренессансные инструменты для театральной постановки",
+        "href": "/renessansnye-instrumenty-dlya-teatralnoy-postanovki/"
+      }
+    ],
+    "renessansnye-instrumenty-dlya-studiynoy-zapisi": [
+      {
+        "label": "Ренессансные инструменты для образовательного проекта",
+        "href": "/renessansnye-instrumenty-dlya-obrazovatelnogo-proekta/"
+      },
+      {
+        "label": "Ренессансные инструменты для театральной постановки",
+        "href": "/renessansnye-instrumenty-dlya-teatralnoy-postanovki/"
+      }
+    ],
+    "renessansnye-instrumenty-dlya-teatralnoy-postanovki": [
+      {
+        "label": "Ренессансные инструменты для студийной записи",
+        "href": "/renessansnye-instrumenty-dlya-studiynoy-zapisi/"
+      },
+      {
+        "label": "Ренессансные инструменты для образовательного проекта",
+        "href": "/renessansnye-instrumenty-dlya-obrazovatelnogo-proekta/"
+      }
+    ],
+    "eksperimentalnyy-akusticheskiy-instrument-dlya-zapisi": [
+      {
+        "label": "Первый опыт с экспериментальным акустическим инструментом",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Экспериментальный акустический инструмент перед покупкой",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-pered-pokupkoy/"
+      }
+    ]
+  }
+}
