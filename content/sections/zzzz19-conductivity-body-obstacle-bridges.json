@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-esli-tyazhelo-prizhimat": [
+      {
+        "label": "Если струны слишком жёсткие",
+        "href": "/instrument-esli-struny-slishkom-zhestkie/"
+      },
+      {
+        "label": "Если быстро устаёт левая рука",
+        "href": "/instrument-esli-bystro-ustaet-levaya-ruka/"
+      }
+    ],
+    "instrument-esli-bystro-ustaet-levaya-ruka": [
+      {
+        "label": "Если трудно дотягиваться",
+        "href": "/instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov/"
+      },
+      {
+        "label": "Если нужна короткая мензура",
+        "href": "/instrument-esli-nuzhna-korotkaya-menzura/"
+      }
+    ],
+    "instrument-esli-bystro-ustaet-pravaya-ruka": [
+      {
+        "label": "Если зажимается кисть",
+        "href": "/instrument-esli-kist-zazhimaetsya/"
+      },
+      {
+        "label": "Если преподаватель заметил постановку",
+        "href": "/instrument-posle-zamechaniya-o-postanovke/"
+      }
+    ],
+    "instrument-esli-podnimaetsya-plecho": [
+      {
+        "label": "Если корпус слишком большой",
+        "href": "/instrument-esli-korpus-slishkom-bolshoy/"
+      },
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      }
+    ],
+    "instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov": [
+      {
+        "label": "Если нужна короткая мензура",
+        "href": "/instrument-esli-nuzhna-korotkaya-menzura/"
+      },
+      {
+        "label": "Если нужен компактный корпус",
+        "href": "/instrument-esli-nuzhen-kompaktnyy-korpus/"
+      }
+    ],
+    "instrument-esli-korpus-slishkom-bolshoy": [
+      {
+        "label": "Если нужен компактный корпус",
+        "href": "/instrument-esli-nuzhen-kompaktnyy-korpus/"
+      },
+      {
+        "label": "Смена размера по рекомендации",
+        "href": "/instrument-smenit-razmer-po-rekomendatsii/"
+      }
+    ],
+    "instrument-esli-instrument-slishkom-tyazhelyy": [
+      {
+        "label": "Более лёгкий инструмент по рекомендации",
+        "href": "/instrument-posle-zamechaniya-o-vese/"
+      },
+      {
+        "label": "Если неудобно играть стоя",
+        "href": "/instrument-esli-neudobno-igrat-stoya/"
+      }
+    ],
+    "instrument-esli-neudobno-igrat-sidya": [
+      {
+        "label": "Если педаль далеко",
+        "href": "/instrument-esli-pedal-daleko/"
+      },
+      {
+        "label": "Если корпус слишком большой",
+        "href": "/instrument-esli-korpus-slishkom-bolshoy/"
+      }
+    ],
+    "instrument-esli-neudobno-igrat-stoya": [
+      {
+        "label": "Если ремни не держат посадку",
+        "href": "/instrument-esli-remni-ne-derzhat-posadku/"
+      },
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-dyhaniya": [
+      {
+        "label": "Если быстро устают губы",
+        "href": "/instrument-esli-guby-bystro-ustayut/"
+      },
+      {
+        "label": "Если тихая нота не начинается",
+        "href": "/instrument-esli-tihaya-nota-ne-nachinaetsya/"
+      }
+    ],
+    "instrument-esli-guby-bystro-ustayut": [
+      {
+        "label": "Если не хватает дыхания",
+        "href": "/instrument-esli-ne-hvataet-dyhaniya/"
+      },
+      {
+        "label": "Если тихая нота не начинается",
+        "href": "/instrument-esli-tihaya-nota-ne-nachinaetsya/"
+      }
+    ],
+    "instrument-esli-kist-zazhimaetsya": [
+      {
+        "label": "Если быстро устаёт правая рука",
+        "href": "/instrument-esli-bystro-ustaet-pravaya-ruka/"
+      },
+      {
+        "label": "Замечание преподавателя о постановке",
+        "href": "/instrument-posle-zamechaniya-o-postanovke/"
+      }
+    ],
+    "instrument-esli-bolshoy-palets-ne-nahodit-oporu": [
+      {
+        "label": "Если трудно дотягиваться",
+        "href": "/instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov/"
+      },
+      {
+        "label": "Замечание преподавателя о постановке",
+        "href": "/instrument-posle-zamechaniya-o-postanovke/"
+      }
+    ],
+    "instrument-esli-pedal-daleko": [
+      {
+        "label": "Если неудобно играть сидя",
+        "href": "/instrument-esli-neudobno-igrat-sidya/"
+      },
+      {
+        "label": "Замечание преподавателя о педали",
+        "href": "/instrument-posle-zamechaniya-o-pedali/"
+      }
+    ],
+    "instrument-esli-shpil-ne-derzhit-korpus": [
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Смена размера контрабаса",
+        "href": "/kontrabas-dlya-smeny-razmera/"
+      }
+    ],
+    "instrument-esli-remni-ne-derzhat-posadku": [
+      {
+        "label": "Если неудобно играть стоя",
+        "href": "/instrument-esli-neudobno-igrat-stoya/"
+      },
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      }
+    ]
+  }
+}
