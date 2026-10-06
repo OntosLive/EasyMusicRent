@@ -1,0 +1,916 @@
+{
+  "pages": [
+    {
+      "slug": "sintezator-dlya-pervogo-opyta-sinteza",
+      "parent": "sintezatory",
+      "search_title": "Синтезатор для первого опыта синтеза звука в аренду",
+      "editorial_title": "Первый синтезатор: услышать, что делает каждый этап тембра",
+      "description": "Синтезатор для первого опыта: осциллятор, фильтр, огибающая, модуляция и пробный период.",
+      "kicker": "ПЕРВЫЙ СИНТЕЗ · ОСЦИЛЛЯТОР · ФИЛЬТР",
+      "intro": [
+        "<p>Человек может интересоваться синтезаторами, не понимая ещё, нужен ли ему самостоятельный аппарат. Временный инструмент позволяет буквально услышать связь между ручкой, параметром и результатом.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Первый опыт полезнее строить на нескольких базовых связях",
+          "paragraphs": [
+            "Осциллятор создаёт исходный материал, фильтр меняет спектр, огибающая формирует развитие во времени. GAIA 2 позволяет работать с этими слоями напрямую и видеть, что именно меняется."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Начните с одного простого тембра и меняйте по одному параметру",
+          "paragraphs": [
+            "Если вращать всё сразу, синтез превращается в случайность. Полезно сохранить несколько промежуточных состояний и уметь повторить их."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда отвечает на вопрос, нужен ли отдельный аппарат вообще",
+          "paragraphs": [
+            "Через несколько недель становится ясно, помогает ли физический интерфейс думать звуком или достаточно программного синтезатора."
+          ]
+        }
+      ],
+      "quote": "Что хочется понять первым: форму волны, фильтр, огибающую или модуляцию?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Синтезатор с понятным управлением",
+          "href": "/sintezator-s-ponyatnym-upravleniem/"
+        }
+      ]
+    },
+    {
+      "slug": "sintezator-dlya-sozdaniya-lida",
+      "parent": "sintezatory",
+      "search_title": "Синтезатор для создания лидов в аренду",
+      "editorial_title": "Lead: один голос должен выдержать всё внимание",
+      "description": "Синтезатор для lead-партий: атака, модуляция, glide, контроллеры и живое изменение тембра.",
+      "kicker": "LEAD · МОНОЛИНИЯ · МОДУЛЯЦИЯ",
+      "intro": [
+        "<p>Лид-синтезатор работает там, где один голос становится центром фразы. Поэтому важны не сотни пресетов, а способность управлять атакой, высотой и тембром во время исполнения.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Контроллеры должны быть частью фразы",
+          "paragraphs": [
+            "Pitch bend, modulation, aftertouch или другие исполнительские органы имеют смысл только тогда, когда музыкант заранее знает, какое движение ими делает."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте одну короткую мелодию и измените только один параметр",
+          "paragraphs": [
+            "Так видно, насколько легко повторить выразительный жест и не потерять саму линию."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет взять аппарат под конкретную концертную роль",
+          "paragraphs": [
+            "Если лид нужен только в одной программе, не обязательно покупать отдельный синтезатор навсегда."
+          ]
+        }
+      ],
+      "quote": "Лид должен меняться прежде всего по высоте, фильтру, вибрато или атаке?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Монофонический синтезатор",
+          "href": "/monofonicheskiy-sintezator/"
+        }
+      ]
+    },
+    {
+      "slug": "sintezator-dlya-arpeggiatora",
+      "parent": "sintezatory",
+      "search_title": "Синтезатор с арпеджиатором в аренду",
+      "editorial_title": "Арпеджиатор: ритм должен оставаться управляемым, даже когда ноты запускаются автоматически",
+      "description": "Синтезатор для арпеджиатора: темп, latch, диапазон, синхронизация и живая игра поверх паттерна.",
+      "kicker": "ARPEGGIATOR · ТЕМП · СИНХРОНИЗАЦИЯ",
+      "intro": [
+        "<p>Арпеджиатор полезен, когда автоматическое движение нот становится частью композиции. Тогда музыканту нужно контролировать темп, диапазон и переходы, а не просто включить эффект.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют роль паттерна в музыке",
+          "paragraphs": [
+            "Он может держать ритмическую основу, сопровождать бас или создавать текстуру. От роли зависит, насколько важны внешняя синхронизация и быстрые переключения."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте переход между двумя аккордами в рабочем темпе",
+          "paragraphs": [
+            "Самый сложный момент часто находится не внутри паттерна, а в смене гармонии и возвращении к живой клавиатуре."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать конкретный сет без постоянной покупки",
+          "paragraphs": [
+            "Если арпеджиатор нужен только в одном проекте, аппарат существует ровно столько, сколько нужна эта функция."
+          ]
+        }
+      ],
+      "quote": "Арпеджиатор должен быть основой ритма, текстурой или частью живой импровизации?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Синтезатор для живого выступления",
+          "href": "/sintezator-dlya-zhivogo-vystupleniya/"
+        }
+      ]
+    },
+    {
+      "slug": "sintezator-dlya-saund-dizayna",
+      "parent": "sintezatory",
+      "search_title": "Синтезатор для саунд-дизайна в аренду",
+      "editorial_title": "Саунд-дизайн: тембр должен становиться воспроизводимым объектом, а не случайной находкой",
+      "description": "Синтезатор для sound design: модуляция, сохранение патчей, повторяемость и исследование тембра.",
+      "kicker": "SOUND DESIGN · ПАТЧ · ПОВТОРЯЕМОСТЬ",
+      "intro": [
+        "<p>Исследовать звук интересно именно до момента, когда найденный результат нужно повторить завтра. Поэтому для саунд-дизайна важны не только диапазон параметров, но и способ сохранять, вспоминать и менять созданный патч.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Хороший эксперимент должен оставлять след",
+          "paragraphs": [
+            "GAIA 2 и современные workstation-платформы позволяют сохранять состояния и возвращаться к ним. Это превращает поиск из случайности в последовательное исследование."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Создайте один звук с нуля и попробуйте восстановить его после перерыва",
+          "paragraphs": [
+            "Если процесс невозможно объяснить самому себе, интерфейс пока не стал рабочим инструментом."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда полезна для отдельного исследовательского проекта",
+          "paragraphs": [
+            "Можно взять аппарат на месяц, собрать библиотеку патчей и понять, нужен ли именно этот способ синтеза постоянно."
+          ]
+        }
+      ],
+      "quote": "Вам важнее глубина модуляции, физический интерфейс или способность быстро возвращаться к сохранённому патчу?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Экспериментальный синтезатор",
+          "href": "/sintezator-dlya-eksperimentalnoy-muzyki/"
+        }
+      ]
+    },
+    {
+      "slug": "sintezator-dlya-improvizatsii",
+      "parent": "sintezatory",
+      "search_title": "Синтезатор для импровизации в аренду",
+      "editorial_title": "Импровизация: тембр должен отвечать прямо во время музыкальной мысли",
+      "description": "Синтезатор для импровизации: контроллеры, модуляция, быстрые изменения и сохранение потока.",
+      "kicker": "ИМПРОВИЗАЦИЯ · КОНТРОЛЛЕРЫ · ЖИВОЙ ОТКЛИК",
+      "intro": [
+        "<p>В импровизации нет времени заходить в глубокое меню после каждой идеи. Полезен интерфейс, где несколько важных параметров находятся под рукой и изменяются без остановки фразы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала выбирают три–четыре параметра живого управления",
+          "paragraphs": [
+            "Фильтр, модуляция, эффект и высота могут быть важнее полного доступа ко всей архитектуре синтеза."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте десятиминутную непрерывную импровизацию",
+          "paragraphs": [
+            "Если музыкант постоянно выпадает из музыкального потока ради интерфейса, аппарат не выполняет эту сцену."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда показывает, становится ли синтезатор продолжением жеста",
+          "paragraphs": [
+            "После нескольких сессий ясно, какие контроллеры действительно вошли в речь и нужны ли они постоянно."
+          ]
+        }
+      ],
+      "quote": "Какие параметры вы хотите менять прямо внутри импровизации, не прекращая играть?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Живой синтез",
+          "href": "/sintezator-dlya-zhivogo-vystupleniya/"
+        }
+      ]
+    },
+    {
+      "slug": "sintezator-dlya-modulyatsii-v-realnom-vremeni",
+      "parent": "sintezatory",
+      "search_title": "Синтезатор для модуляции в реальном времени в аренду",
+      "editorial_title": "Модуляция в реальном времени: звук должен меняться тем же жестом, которым продолжается фраза",
+      "description": "Синтезатор для real-time modulation: контроллеры, routing, aftertouch и воспроизводимый исполнительский жест.",
+      "kicker": "REAL-TIME · MODULATION · ЖЕСТ",
+      "intro": [
+        "<p>Когда тембр должен меняться во время исполнения, архитектура модуляции становится частью техники музыканта. Нужен не самый сложный синтезатор, а тот, где нужный маршрут можно удерживать и повторять.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Маршрут модуляции задают от музыкального действия",
+          "paragraphs": [
+            "Сначала формулируют, что должно происходить: открываться фильтр, усиливаться вибрато, двигаться панорама или меняться плотность слоя."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте один жест десять раз подряд",
+          "paragraphs": [
+            "Если результат каждый раз сильно отличается из-за неудобного контроллера, исполнительская функция ещё не собрана."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт время встроить контроллер в мышечную память",
+          "paragraphs": [
+            "Несколько репетиций показывают, становится ли модуляция частью партии или остаётся эффектом для пробы."
+          ]
+        }
+      ],
+      "quote": "Какой параметр должен меняться рукой прямо внутри фразы?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Синтезатор для концерта",
+          "href": "/sintezator-dlya-kontserta/"
+        }
+      ]
+    },
+    {
+      "slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "parent": "sintezatory",
+      "search_title": "Аппаратный синтезатор в аренду для сравнения с программным",
+      "editorial_title": "Hardware или software: сравнить не звук вообще, а способ думать тембром",
+      "description": "Аппаратный синтезатор перед покупкой: физические контроллеры, задержка, workflow и сравнение с программным инструментом.",
+      "kicker": "HARDWARE ↔ SOFTWARE · WORKFLOW · СРАВНЕНИЕ",
+      "intro": [
+        "<p>Разница между аппаратным и программным синтезатором часто находится не в одном тембре, а в способе доступа к параметрам и скорости музыкального решения.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнивать нужно один и тот же тип задачи",
+          "paragraphs": [
+            "Создайте похожий lead, pad или sequence в программе и на аппарате. Тогда видно, где меняется не эстетика, а сам рабочий процесс."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Измеряйте количество остановок мысли",
+          "paragraphs": [
+            "Сколько раз приходится искать параметр, переключать окно или отпускать клавиатуру? Физический интерфейс имеет смысл, если сокращает эти разрывы."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда особенно уместна перед покупкой дорогого hardware",
+          "paragraphs": [
+            "Месяц реальной работы даёт больше информации, чем десятки обзоров о звуке и философии оборудования."
+          ]
+        }
+      ],
+      "quote": "Что вы хотите получить от hardware: меньше экранов, больше жестов, сценическую автономность или другой звук?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Аналоговый синтезатор перед покупкой",
+          "href": "/analogovyy-sintezator-pered-pokupkoy/"
+        }
+      ]
+    },
+    {
+      "slug": "sintezator-pered-pokupkoy",
+      "parent": "sintezatory",
+      "search_title": "Синтезатор в аренду перед покупкой",
+      "editorial_title": "Перед покупкой синтезатора: проверить, станет ли его интерфейс частью собственной музыки",
+      "description": "Аренда синтезатора перед покупкой: синтез, пресеты, управление, сохранение патчей и реальная практика.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · ИНТЕРФЕЙС · СОБСТВЕННЫЙ КРИТЕРИЙ",
+      "intro": [
+        "<p>Синтезатор легко впечатляет за первые двадцать минут. Гораздо важнее понять, возвращается ли человек к нему через неделю и умеет ли получать нужный звук без повторного изучения интерфейса.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Заранее выберите несколько реальных задач",
+          "paragraphs": [
+            "Создать bass, lead, pad, настроить split или подготовить концертный patch — конкретные действия лучше рекламного списка функций."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Используйте аппарат дома, в студии и на репетиции",
+          "paragraphs": [
+            "Разные сцены быстро показывают, где интерфейс помогает, а где создаёт лишний слой обслуживания."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Покупать именно арендованный экземпляр необязательно",
+          "paragraphs": [
+            "Главный результат — собственный критерий: какая глубина, какие контроллеры и какой способ сохранения нужны постоянно."
+          ]
+        }
+      ],
+      "quote": "Какие три задачи синтезатор должен решить до того, как покупка станет осмысленной?",
+      "sources": [
+        {
+          "title": "Roland GAIA 2: synthesis engine and performance controls",
+          "url": "https://www.roland.com/global/products/gaia_2/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland GAIA 2",
+          "href": "/roland-gaia2-v-arendu/"
+        },
+        {
+          "label": "Yamaha MONTAGE M8x",
+          "href": "/yamaha-montage-m8x-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-pianista",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные для пианиста в аренду",
+      "editorial_title": "Пианист на сцене: сохранить фортепианное движение внутри мобильного инструмента",
+      "description": "Сценические клавишные для пианиста: 88 клавиш, weighted action, педаль, line out и мобильность.",
+      "kicker": "ПИАНИСТ · СЦЕНА · 88 КЛАВИШ",
+      "intro": [
+        "<p>Пианисту на гастрольной или клубной сцене часто нужен мобильный инструмент, но рука остаётся фортепианной. Поэтому главным становится компромисс между механикой, массой и сценической инфраструктурой.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Weighted action и 88 клавиш могут быть важнее сотен звуков",
+          "paragraphs": [
+            "Yamaha CK88 и Nord Piano 5 существуют как сценические инструменты с фортепианным акцентом. Конкретную механику всё равно проверяют руками на подготовленной программе."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте самый тихий и самый быстрый фрагмент",
+          "paragraphs": [
+            "Сценический инструмент должен выдержать и динамический контроль, и повторение, а затем стабильно выйти в line out."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда естественна для гастрольного периода",
+          "paragraphs": [
+            "Не каждый пианист обязан владеть своим touring keyboard, если необходимость возникает только на отдельных площадках."
+          ]
+        }
+      ],
+      "quote": "Что нельзя потерять на сцене относительно акустического инструмента: вес клавиши, педаль, диапазон или динамику?",
+      "sources": [
+        {
+          "title": "Yamaha CK61/CK88: Live Set, stage functions and specifications",
+          "url": "https://usa.yamaha.com/products/music_production/stagekeyboards/ck/specs.html"
+        },
+        {
+          "title": "Nord Piano 5: keyboard, layers and connections",
+          "url": "https://www.nordkeyboards.com/legacy-products/nord-piano-5/specifications/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha CK88",
+          "href": "/yamaha-ck88-v-arendu/"
+        },
+        {
+          "label": "Nord Piano 5",
+          "href": "/nord-piano-5-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные для слоя piano и pad в аренду",
+      "editorial_title": "Piano + pad: два слоя должны меняться одной музыкальной динамикой",
+      "description": "Клавишные для layer piano/pad: баланс слоёв, split/layer, контроллеры и быстрый сценический доступ.",
+      "kicker": "PIANO + PAD · LAYER · БАЛАНС",
+      "intro": [
+        "<p>Слой piano и pad нужен не ради количества звуков, а чтобы фортепианная атака получила продолжение в пространстве. Важно уметь менять баланс двух слоёв прямо внутри программы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Два слоя должны оставаться раздельно управляемыми",
+          "paragraphs": [
+            "Nord Piano 5 и современные stage/workstation-инструменты позволяют строить layered performance. Полезность определяется тем, насколько быстро музыкант может ослабить или усилить pad, не разрушая фортепианную партию."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте куплет, припев и переход между ними",
+          "paragraphs": [
+            "Если для изменения баланса нужно прекращать играть, layer ещё не стал исполнительской функцией."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать конкретную концертную конфигурацию",
+          "paragraphs": [
+            "После тура или постановки такой слой может больше не требоваться, и отдельный сценический инструмент не нужно покупать."
+          ]
+        }
+      ],
+      "quote": "Pad должен постоянно лежать под piano или появляться только в отдельных участках?",
+      "sources": [
+        {
+          "title": "Nord Piano 5: keyboard, layers and connections",
+          "url": "https://www.nordkeyboards.com/legacy-products/nord-piano-5/specifications/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Nord Piano 5",
+          "href": "/nord-piano-5-v-arendu/"
+        },
+        {
+          "label": "Yamaha MONTAGE M8x",
+          "href": "/yamaha-montage-m8x-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные для быстрых переключений в аренду",
+      "editorial_title": "Быстрые переключения: следующий звук должен быть готов раньше следующей песни",
+      "description": "Клавишные для быстрого переключения звуков: live sets, registrations, сцены и подготовка сет-листа.",
+      "kicker": "LIVE SET · ПЕРЕКЛЮЧЕНИЯ · СЕТ-ЛИСТ",
+      "intro": [
+        "<p>В концертном сет-листе иногда нет времени искать patch между песнями. Тогда организация звуков становится частью исполнения не меньше самой клавиатуры.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Порядок звуков строят по сет-листу",
+          "paragraphs": [
+            "Yamaha CK использует Live Set-подход; workstation-платформы Yamaha и Roland также позволяют собирать концертные состояния. Важно готовить не библиотеку, а последовательность реальных переходов."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Репетируйте сами переключения как отдельные жесты",
+          "paragraphs": [
+            "Переход должен выполняться вслепую или с минимальным вниманием, не разрушая вступление следующей песни."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда требует времени до концерта на программирование",
+          "paragraphs": [
+            "Получить инструмент в день выступления недостаточно, если сет-лист содержит десятки индивидуальных состояний."
+          ]
+        }
+      ],
+      "quote": "Сколько разных звуков и переходов реально есть в одном концерте?",
+      "sources": [
+        {
+          "title": "Yamaha CK61/CK88: Live Set, stage functions and specifications",
+          "url": "https://usa.yamaha.com/products/music_production/stagekeyboards/ck/specs.html"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha CK61",
+          "href": "/yamaha-ck61-v-arendu/"
+        },
+        {
+          "label": "Yamaha MONTAGE M8x",
+          "href": "/yamaha-montage-m8x-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-gastrolnoy-zameny",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные на замену в гастролях в аренду",
+      "editorial_title": "Гастрольная замена: восстановить сет, а не просто найти 88 клавиш",
+      "description": "Клавишные для гастрольной замены: клавиатура, программы, splits/layers, педали и быстрый перенос сет-листа.",
+      "kicker": "ГАСТРОЛИ · ЗАМЕНА · СОВМЕСТИМОСТЬ",
+      "intro": [
+        "<p>Когда основной stage keyboard не приехал, музыканту нужен не любой инструмент с нужным количеством клавиш. Нужно восстановить механику, педали и логику всего подготовленного сета.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют минимальный функциональный профиль основного инструмента",
+          "paragraphs": [
+            "Количество клавиш, weighted/unweighted action, splits, layers, программы, педали и выходы определяют, сколько адаптации потребуется."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Soundcheck начинают с самых сложных переходов",
+          "paragraphs": [
+            "Проверьте split, sustain, program change и песню с максимальным числом слоёв. Простые piano-патчи почти никогда не выявляют главные несовместимости."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда заканчивается вместе с гастрольной проблемой",
+          "paragraphs": [
+            "Это чистая функция временного доступа: восстановить концерт без покупки дубля в чужом городе."
+          ]
+        }
+      ],
+      "quote": "Какие три функции основного сценического инструмента нельзя потерять в замене?",
+      "sources": [
+        {
+          "title": "Yamaha CK61/CK88: Live Set, stage functions and specifications",
+          "url": "https://usa.yamaha.com/products/music_production/stagekeyboards/ck/specs.html"
+        },
+        {
+          "title": "Nord Piano 5: keyboard, layers and connections",
+          "url": "https://www.nordkeyboards.com/legacy-products/nord-piano-5/specifications/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha CK88",
+          "href": "/yamaha-ck88-v-arendu/"
+        },
+        {
+          "label": "Nord Piano 5",
+          "href": "/nord-piano-5-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-dvuh-zon",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные для двух зон в аренду",
+      "editorial_title": "Две зоны: левая и правая руки могут жить в разных инструментах",
+      "description": "Stage keyboard для split: две зоны, независимые тембры, диапазоны и быстрый баланс.",
+      "kicker": "SPLIT · 2 ЗОНЫ · ДВЕ РОЛИ",
+      "intro": [
+        "<p>Split нужен тогда, когда один музыкант одновременно ведёт две разные функции: например, бас слева и piano справа. Тогда граница клавиатуры становится частью аранжировки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Зону задают от партии, а не от середины клавиатуры",
+          "paragraphs": [
+            "Нужно определить реальный диапазон каждой руки и оставить безопасные ноты вокруг точки разделения."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте переход через split в самой сложной фразе",
+          "paragraphs": [
+            "Если рука регулярно попадает в соседний тембр, проблема может быть в границе, транспозиции или самой идее разделения."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить один keyboard вместо двух",
+          "paragraphs": [
+            "Если split закрывает реальную сценическую задачу, можно уменьшить количество оборудования на конкретный проект."
+          ]
+        }
+      ],
+      "quote": "Какие две функции должен одновременно вести клавишник и где проходит естественная граница между ними?",
+      "sources": [
+        {
+          "title": "Yamaha CK61/CK88: Live Set, stage functions and specifications",
+          "url": "https://usa.yamaha.com/products/music_production/stagekeyboards/ck/specs.html"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha CK61",
+          "href": "/yamaha-ck61-v-arendu/"
+        },
+        {
+          "label": "Roland FANTOM 8 EX",
+          "href": "/roland-fantom-8-ex-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-treh-sloev",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные для трёх слоёв в аренду",
+      "editorial_title": "Три слоя: сложный тембр должен оставаться одним исполнительским объектом",
+      "description": "Stage keyboard для многослойного звука: piano, pad, strings, баланс и управление слоёв.",
+      "kicker": "3 LAYERS · БАЛАНС · PERFORMANCE",
+      "intro": [
+        "<p>Три слоя полезны, когда они вместе образуют один сценический тембр. Если музыканту приходится обслуживать каждый слой отдельно посреди песни, конфигурация становится слишком дорогой по вниманию.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Каждый слой должен иметь собственную функцию",
+          "paragraphs": [
+            "Например, piano задаёт атаку, pad продолжает звук, strings усиливают кульминацию. Без такой роли слои просто складывают спектр."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте динамику от куплета к кульминации",
+          "paragraphs": [
+            "Музыкант должен уметь менять плотность без остановки игры и без скачка общей громкости."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать многослойный инструмент под одну постановку",
+          "paragraphs": [
+            "После проекта сложная performance-конфигурация может больше не быть нужна."
+          ]
+        }
+      ],
+      "quote": "Что делает каждый слой и какой из них должен меняться в реальном времени?",
+      "sources": [
+        {
+          "title": "Nord Piano 5: keyboard, layers and connections",
+          "url": "https://www.nordkeyboards.com/legacy-products/nord-piano-5/specifications/"
+        },
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Nord Piano 5",
+          "href": "/nord-piano-5-v-arendu/"
+        },
+        {
+          "label": "Roland FANTOM 8 EX",
+          "href": "/roland-fantom-8-ex-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Workstation для подготовки концертного сета в аренду",
+      "editorial_title": "Workstation: собрать концерт как последовательность воспроизводимых состояний",
+      "description": "Workstation для live set: сцены, layers, splits, sequence, управление и подготовка концерта.",
+      "kicker": "WORKSTATION · LIVE SET · ПОДГОТОВКА",
+      "intro": [
+        "<p>Workstation становится оправданной, когда концерт требует сложной сети звуков, зон и переходов, которую нужно подготовить и затем воспроизвести без компьютера или с минимальной внешней зависимостью.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сет строится от песен, а не от возможностей устройства",
+          "paragraphs": [
+            "MONTAGE M8x и FANTOM 8 EX дают глубокие performance-возможности, но полезность появляется только после перевода реального сет-листа в понятную последовательность состояний."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Репетируйте концерт целиком без редактирования",
+          "paragraphs": [
+            "После этапа программирования нужно пройти сет как исполнитель. Если приходится постоянно входить в редактирование, структура ещё не готова."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда должна начинаться задолго до первой даты",
+          "paragraphs": [
+            "Сложный workstation требует времени на подготовку и перенос проекта, поэтому выдача в день концерта редко имеет смысл."
+          ]
+        }
+      ],
+      "quote": "Сколько песен, splits, layers и внешних устройств должен удерживать один концертный сет?",
+      "sources": [
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha MONTAGE M8x",
+          "href": "/yamaha-montage-m8x-v-arendu/"
+        },
+        {
+          "label": "Roland FANTOM 8 EX",
+          "href": "/roland-fantom-8-ex-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "workstation-dlya-odnogo-muzykanta",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Workstation для выступления одного музыканта в аренду",
+      "editorial_title": "Один музыкант: workstation должен собрать несколько ролей без превращения в диспетчерскую",
+      "description": "Workstation для solo performer: layers, sequences, splits, accompaniment and live control.",
+      "kicker": "SOLO · WORKSTATION · НЕСКОЛЬКО РОЛЕЙ",
+      "intro": [
+        "<p>Один исполнитель может одновременно вести клавиши, фоновые слои, sequence и переключения. Workstation полезна, если она уменьшает количество отдельных устройств, а не добавляет ещё один центр управления.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала перечисляют роли, которые действительно нужны",
+          "paragraphs": [
+            "Piano, pad, bass, backing sequence и внешнее управление — это разные функции. Не каждая программа требует их всех."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте полный номер без остановки",
+          "paragraphs": [
+            "Музыкант должен пройти вступление, куплет, переход и финал без редактирования параметров между фразами."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать автономный сет на сезон или тур",
+          "paragraphs": [
+            "После проекта мощная workstation может больше не быть нужна дома."
+          ]
+        }
+      ],
+      "quote": "Какие роли один музыкант должен реально вести одновременно на сцене?",
+      "sources": [
+        {
+          "title": "Yamaha MONTAGE M8x: workstation specifications",
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html"
+        },
+        {
+          "title": "Roland FANTOM 8 EX: workstation and performance platform",
+          "url": "https://www.roland.com/uk/products/fantom_8_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha MONTAGE M8x",
+          "href": "/yamaha-montage-m8x-v-arendu/"
+        },
+        {
+          "label": "Roland FANTOM 8 EX",
+          "href": "/roland-fantom-8-ex-v-arendu/"
+        }
+      ]
+    }
+  ]
+}
