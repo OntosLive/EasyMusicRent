@@ -1,0 +1,173 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Первая крупная историко-редкая волна человеческих сцен: historical strings, historical winds, project-level early-music routes, experimental acoustic/mechanical/hybrid/gesture instruments.",
+  "base_subjects": 1596,
+  "new_subjects": 64,
+  "target_subjects": 1660,
+  "package": {
+    "historical_strings": 16,
+    "historical_winds": 16,
+    "historical_project_routes": 16,
+    "experimental_and_special_projects": 16
+  },
+  "source_roles": {
+    "museum_or_society": "Подтверждает историческую конструкцию, семейство, функцию и сохранившиеся/реконструированные типы.",
+    "maker_or_specialist": "Подтверждает современные реконструкции, варианты строя, мензуры и исполнительского интерфейса.",
+    "manufacturer_spec": "Подтверждает современный experimental/hybrid/gesture interface.",
+    "editorial_inference": "Связывает подтверждённую конструкцию с человеческой сценой, способом пробы и смыслом временного доступа."
+  },
+  "sources": {
+    "met_gould_violin": {
+      "url": "https://www.metmuseum.org/art/collection/search/503045",
+      "supports": [
+        "Барочная реконфигурация скрипки Gould."
+      ]
+    },
+    "pirastro_chorda_violin": {
+      "url": "https://www.pirastro.com/public_pirastro/pages/en/Chorda-00008/",
+      "supports": [
+        "Жильные Chorda и historical string setup."
+      ]
+    },
+    "met_fleming_cello": {
+      "url": "https://www.metmuseum.org/art/collection/search/898377",
+      "supports": [
+        "Историческая виолончельная конфигурация и расширенный string context."
+      ]
+    },
+    "pirastro_chorda_cello": {
+      "url": "https://www.pirastro.com/public_pirastro/pages/en/Chorda-00005/",
+      "supports": [
+        "Барочный Chorda cello setup."
+      ]
+    },
+    "vdgsa": {
+      "url": "https://www.vdgsa.org/about-the-viol",
+      "supports": [
+        "Семейство виол, размеры/строи и отличие от cello family."
+      ]
+    },
+    "met_bass_viol": {
+      "url": "https://www.metmuseum.org/art/collection/search/503359",
+      "supports": [
+        "Bass viol и историческая практика."
+      ]
+    },
+    "met_rebec": {
+      "url": "https://www.metmuseum.org/art/collection/search/501131",
+      "supports": [
+        "Rebec как средневековый bowed type."
+      ]
+    },
+    "cleveland_hurdy": {
+      "url": "https://www.clevelandart.org/art/1918.354",
+      "supports": [
+        "Колесо, тангенты и бурдоны hurdy-gurdy."
+      ]
+    },
+    "van_baarsel_traverso": {
+      "url": "https://vanbaarselflutes.com/baroque-flutes/",
+      "supports": [
+        "Одноклапанные baroque flutes и варианты pitch."
+      ]
+    },
+    "von_huene_traverso": {
+      "url": "https://www.vonhuene.com/p-37-von-huene-ga-rottenburgh-flute.aspx",
+      "supports": [
+        "Современная реконструкция historical flute."
+      ]
+    },
+    "met_cornetto": {
+      "url": "https://www.metmuseum.org/art/collection/search/503951",
+      "supports": [
+        "Cornetto mouthpiece + finger-hole interface и ensemble role."
+      ]
+    },
+    "smithsonian_cornetto": {
+      "url": "https://americanhistory.si.edu/collections/object/nmah_606433",
+      "supports": [
+        "Современная исполнительская реконструкция cornetto."
+      ]
+    },
+    "egger_sackbut": {
+      "url": "https://eggerinstruments.ch/en/produkt/tenor-sackbut-after-schnitzer/",
+      "supports": [
+        "Tenor sackbut reconstruction."
+      ]
+    },
+    "egger_natural_trumpet": {
+      "url": "https://eggerinstruments.ch/en/historic/trumpets/natural-trumpets/",
+      "supports": [
+        "Natural trumpet, crooks и pitch configurations."
+      ]
+    },
+    "met_shawm": {
+      "url": "https://www.metmuseum.org/art/collection/search/502447",
+      "supports": [
+        "Shawm как double-reed historical instrument."
+      ]
+    },
+    "allantica_shawm": {
+      "url": "https://www.allantica.ch/en/instruments/shawms/",
+      "supports": [
+        "Современные shawms по historical models."
+      ]
+    },
+    "montagna_medieval": {
+      "url": "https://www.robertomontagnaliutaio.it/en-medieval.html",
+      "supports": [
+        "Reconstructed medieval fiddles and rebecs based on iconography."
+      ]
+    },
+    "met_psaltery": {
+      "url": "https://www.metmuseum.org/art/collection/search/903062",
+      "supports": [
+        "Historical psaltery reconstruction."
+      ]
+    },
+    "met_viol_family": {
+      "url": "https://www.metmuseum.org/ko/essays/the-viol",
+      "supports": [
+        "Viol family and consort registers."
+      ]
+    },
+    "lute_society_theorbo": {
+      "url": "https://lutesocietyofamerica.org/about/instruments/theorbo-or-chitarrone/",
+      "supports": [
+        "Theorbo and continuo function."
+      ]
+    },
+    "bart_hopkin_psalt_water": {
+      "url": "https://barthopkin.com/psalt-water/",
+      "supports": [
+        "Experimental acoustic string/water-resonator construction."
+      ]
+    },
+    "met_mechanical_organ": {
+      "url": "https://www.metmuseum.org/art/collection/search/501786",
+      "supports": [
+        "Mechanical organ with barrel and hand drive."
+      ]
+    },
+    "roland_tm2": {
+      "url": "https://www.roland.com/Global/products/tm-2/",
+      "supports": [
+        "Hybrid acoustic drums + trigger/module electronic layer."
+      ]
+    },
+    "expressive_e_touche": {
+      "url": "https://www.expressivee.com/1-touche",
+      "supports": [
+        "Multidirectional gesture controller and external sound mapping."
+      ]
+    }
+  },
+  "editorial_rules": [
+    "Историческая страница начинается с конкретной исполнительской или проектной функции, а не с общего слова «старинный».",
+    "Реконструкция привязывается к эпохе, источнику, строю и механике; один внешний силуэт не считается достаточным основанием.",
+    "Historical performance не строится как лестница «современный хуже/исторический лучше»; это разные интерфейсы под разный репертуар.",
+    "Экспериментальный инструмент сначала описывается через физический жест и способ возникновения звука.",
+    "Механические, гибридные и жестовые устройства публикуются как отдельные способы управления музыкальным процессом, а не декоративные технологии.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ]
+}
