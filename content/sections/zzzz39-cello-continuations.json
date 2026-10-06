@@ -1,0 +1,396 @@
+{
+  "pages": [
+    {
+      "slug": "violonchel-dlya-zapisi",
+      "mode": "enrich",
+      "editorial_title": "Живая виолончельная партия: найти её место в записи",
+      "description": "Виолончель для записи живой партии: роль в аранжировке, готовые ноты, отдельный дубль или совместная сессия и проба с сопровождением.",
+      "intro": [
+        "<p>Виолончель нужна для живой партии в подготовленной аранжировке. Перед подбором инструмента стоит уточнить её роль: отдельная мелодическая линия, басовая опора или один из голосов ансамбля. Полезно прислать ноты либо рабочую запись и указать, какие места музыканту предстоит подготовить.</p>",
+        "<p>Отдельный дубль поверх готового сопровождения и одновременная запись с партнёрами требуют разного плана сессии. Выберите короткий фрагмент для пробы в том составе, в котором партия войдёт в запись. Если важно тихое вступление, его проверяют вместе с выбранным смычком; если партия записывается с ансамблем, заранее оставляют время на совместную репетицию.</p>"
+      ]
+    }
+  ],
+  "navigation": {
+    "violonchel-caraya": [
+      {
+        "label": "Проба конкретной виолончели",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-dlya-devochki": [
+      {
+        "label": "Как проверить размер",
+        "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+      }
+    ],
+    "violonchel-dlya-domashnih-zanyatiy-rebenku": [
+      {
+        "label": "Шпиль и опора дома",
+        "href": "/violonchel-s-ustoychivym-shpilem/"
+      },
+      {
+        "label": "Задания между уроками",
+        "href": "/instrument-dlya-zanyatiy-mezhdu-urokami/"
+      }
+    ],
+    "violonchel-dlya-konservatorii": [
+      {
+        "label": "Подготовка к прослушиванию",
+        "href": "/violonchel-na-proslushivanie/"
+      },
+      {
+        "label": "Камерная программа",
+        "href": "/violonchel-dlya-kamernogo-ansamblya/"
+      },
+      {
+        "label": "Смычок на долгой репетиции",
+        "href": "/smychok-dlya-dolgih-repetitsiy/"
+      }
+    ],
+    "violonchel-dlya-kontserta": [
+      {
+        "label": "Посадка на новом инструменте",
+        "href": "/udobnaya-violonchel/"
+      },
+      {
+        "label": "Проверить тихое вступление",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      }
+    ],
+    "violonchel-dlya-kvarteta": [
+      {
+        "label": "Совместная проба квартета",
+        "href": "/instrumenty-dlya-strunnogo-kvarteta/"
+      },
+      {
+        "label": "Роль нижней струны",
+        "href": "/violonchel-s-vyrazhennoy-nizhney-strunoy/"
+      },
+      {
+        "label": "Доступ к верхним позициям",
+        "href": "/violonchel-s-udobnym-verhnim-registrom/"
+      }
+    ],
+    "violonchel-dlya-malchika": [
+      {
+        "label": "Размер по росту и посадке",
+        "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+      }
+    ],
+    "violonchel-dlya-muzykalnogo-uchilischa": [
+      {
+        "label": "Что требует новая программа",
+        "href": "/instrument-posle-izmeneniya-repertuara/"
+      },
+      {
+        "label": "Смычок для долгой работы",
+        "href": "/smychok-dlya-dolgih-repetitsiy/"
+      }
+    ],
+    "violonchel-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Когда менять размер",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Занятия дома",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      }
+    ],
+    "violonchel-dlya-nebolshoy-ruki": [
+      {
+        "label": "Виолончель 7/8",
+        "href": "/violonchel-sem-vosmyh-v-arendu/"
+      },
+      {
+        "label": "Проверить всю посадку",
+        "href": "/udobnaya-violonchel/"
+      }
+    ],
+    "violonchel-dlya-nevysokogo-rosta": [
+      {
+        "label": "Корпус, стул и шпиль",
+        "href": "/udobnaya-violonchel/"
+      },
+      {
+        "label": "Примерка размера 7/8",
+        "href": "/violonchel-sem-vosmyh-v-arendu/"
+      }
+    ],
+    "violonchel-dlya-pervogo-klassa-muzykalnoy-shkoly": [
+      {
+        "label": "Что проверить на первом уроке",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      },
+      {
+        "label": "После урока — занятия дома",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      }
+    ],
+    "violonchel-dlya-studii": [
+      {
+        "label": "Если в записи слышна механика",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      },
+      {
+        "label": "Если регистры отвечают неровно",
+        "href": "/instrument-esli-zvuk-nerovnyy-po-diapazonu/"
+      }
+    ],
+    "violonchel-dlya-vzroslogo": [
+      {
+        "label": "Начать с нуля",
+        "href": "/violonchel-dlya-vzroslogo-nachinayuschego/"
+      },
+      {
+        "label": "Вернуться после перерыва",
+        "href": "/violonchel-posle-pereryva/"
+      },
+      {
+        "label": "Выбрать свой инструмент",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-dlya-vzroslogo-nachinayuschego": [
+      {
+        "label": "Собрать удобную посадку",
+        "href": "/udobnaya-violonchel/"
+      },
+      {
+        "label": "Первые занятия с преподавателем",
+        "href": "/instrument-dlya-vzroslogo-novichka-s-prepodavatelem/"
+      }
+    ],
+    "violonchel-dlya-zapisi": [
+      {
+        "label": "Тихая атака под микрофоном",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      },
+      {
+        "label": "Запись вместе с ансамблем",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "violonchel-eastman": [
+      {
+        "label": "Модель Eastman VC100",
+        "href": "/eastman-vc100-v-arendu/"
+      },
+      {
+        "label": "Проверка конкретного экземпляра",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-gewa": [
+      {
+        "label": "Серия GEWA Allegro",
+        "href": "/gewa-allegro-violonchel-v-arendu/"
+      },
+      {
+        "label": "Размер и реальная посадка",
+        "href": "/udobnaya-violonchel/"
+      }
+    ],
+    "violonchel-gliga": [
+      {
+        "label": "Проба на своей программе",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-goronok": [
+      {
+        "label": "Серия Горонок Нова",
+        "href": "/goronok-nova-violonchel-v-arendu/"
+      },
+      {
+        "label": "Серия Горонок Каденция",
+        "href": "/goronok-kadentsiya-violonchel-v-arendu/"
+      }
+    ],
+    "violonchel-hora": [
+      {
+        "label": "Проверить переход размера",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      }
+    ],
+    "violonchel-mirra": [
+      {
+        "label": "Размер ребёнку",
+        "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+      },
+      {
+        "label": "Проба конкретного инструмента",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-na-uchebnyy-god": [
+      {
+        "label": "Когда переходить на другой размер",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      }
+    ],
+    "violonchel-na-vremya-obucheniya": [
+      {
+        "label": "Смена размера по мере роста",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Смена требований программы",
+        "href": "/instrument-posle-izmeneniya-repertuara/"
+      }
+    ],
+    "violonchel-na-vremya-remonta": [
+      {
+        "label": "Сохранить привычную посадку",
+        "href": "/udobnaya-violonchel/"
+      },
+      {
+        "label": "Если впереди концерт",
+        "href": "/violonchel-dlya-kontserta/"
+      }
+    ],
+    "violonchel-rebenku-10-let": [
+      {
+        "label": "Проверить текущий размер",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Что изменилось в программе",
+        "href": "/instrument-posle-izmeneniya-repertuara/"
+      }
+    ],
+    "violonchel-rebenku-6-let": [
+      {
+        "label": "Размер без угадывания по возрасту",
+        "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+      },
+      {
+        "label": "Проверка на первом уроке",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      }
+    ],
+    "violonchel-rebenku-7-let": [
+      {
+        "label": "Ежедневные занятия дома",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      },
+      {
+        "label": "Проверка следующего размера",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      }
+    ],
+    "violonchel-rebenku-8-let": [
+      {
+        "label": "Посадка, стул и шпиль",
+        "href": "/udobnaya-violonchel/"
+      }
+    ],
+    "violonchel-rebenku-9-let": [
+      {
+        "label": "Готов ли ребёнок к новому размеру",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Покупка во время роста",
+        "href": "/violonchel-rebenku-kupit-ili-arendovat/"
+      }
+    ],
+    "violonchel-rebenku-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Как проверить размер ребёнку",
+        "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+      },
+      {
+        "label": "Устойчивая опора шпиля",
+        "href": "/violonchel-s-ustoychivym-shpilem/"
+      }
+    ],
+    "violonchel-rebenku-kupit-ili-arendovat": [
+      {
+        "label": "Насколько близка смена размера",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Несколько уроков перед покупкой",
+        "href": "/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-ritmuller": [
+      {
+        "label": "Проверка посадки",
+        "href": "/udobnaya-violonchel/"
+      },
+      {
+        "label": "Проба конкретного экземпляра",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-s-udobnym-verhnim-registrom": [
+      {
+        "label": "Если устаёт левая рука",
+        "href": "/instrument-esli-bystro-ustaet-levaya-ruka/"
+      },
+      {
+        "label": "Проверить верх на своей программе",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-s-vyrazhennoy-nizhney-strunoy": [
+      {
+        "label": "Нижний голос в ансамбле",
+        "href": "/violonchel-dlya-kamernogo-ansamblya/"
+      },
+      {
+        "label": "Смычок и нижняя струна",
+        "href": "/violonchelnyy-smychok-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-scherl-roth": [
+      {
+        "label": "Проверка учебного размера",
+        "href": "/kak-vybrat-razmer-violoncheli-rebenku/"
+      },
+      {
+        "label": "Проверить выбор на уроках",
+        "href": "/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-stentor": [
+      {
+        "label": "Комплект Stentor Student II",
+        "href": "/stentor-student-ii-violonchel-v-arendu/"
+      },
+      {
+        "label": "Размер детского смычка",
+        "href": "/smychok-dlya-rebenka/"
+      }
+    ],
+    "violonchel-strunal": [
+      {
+        "label": "Проба на своей программе",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-volchiy-ton": [
+      {
+        "label": "Сравнить проблемные ноты",
+        "href": "/instrument-esli-zvuk-nerovnyy-po-diapazonu/"
+      },
+      {
+        "label": "Проверить другой экземпляр",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-yamaha": [
+      {
+        "label": "Yamaha SVC50",
+        "href": "/yamaha-svc50-v-arendu/"
+      },
+      {
+        "label": "Yamaha SVC110",
+        "href": "/yamaha-svc110-v-arendu/"
+      }
+    ]
+  }
+}

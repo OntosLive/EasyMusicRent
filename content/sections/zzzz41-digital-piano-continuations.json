@@ -1,0 +1,389 @@
+{
+  "pages": [
+    {
+      "slug": "cifrovoe-pianino-dlya-onlayn-urokov",
+      "mode": "enrich",
+      "description": "Цифровое пианино для онлайн-урока: звук инструмента и голос в звонке, различие MIDI и аудио, проверка модели и программы.",
+      "intro": [
+        "<p>На онлайн-уроке преподавателю нужно слышать звук пианино и ваш голос. До выбора инструмента полезно решить, что будет передавать звук: микрофон в комнате или отдельное аудиоподключение к устройству, на котором проходит звонок.</p>",
+        "<p>MIDI передаёт события исполнения, например нажатия клавиш, а не собственный звук пианино. Наличие USB/MIDI само по себе не означает передачи аудио по USB: эту возможность проверяют для конкретной модели.</p>",
+        "<p>Уточните модель пианино, компьютер или телефон и программу для урока. Перед занятием проверьте в пробном звонке, что преподаватель слышит инструмент и речь, а ученик — объяснения в выбранных наушниках или динамиках.</p>"
+      ],
+      "sources": [
+        {
+          "title": "Yamaha Smart Pianist: чем различаются аудио и MIDI",
+          "url": "https://manual.yamaha.com/mi/app/smartpianist/en/smartpianist_en_ug_j1_003.html"
+        },
+        {
+          "title": "Yamaha: запись исполнения как аудио и поддержка USB",
+          "url": "https://manual.yamaha.com/mi/common/computer/en/computer_en_rm_y0_07.htm"
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-distantsionnogo-uroka",
+      "mode": "enrich",
+      "description": "Цифровое пианино для дистанционного урока: камера, посадка, речь, звук инструмента и проверка полного занятия в наушниках.",
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Ученик и преподаватель должны слышать друг друга",
+          "paragraphs": [
+            "Проведите пробный звонок в той программе, которой будете пользоваться. Ученик должен слышать объяснения, а преподаватель — речь и игру. MIDI само по себе передаёт события исполнения, а не собственный звук пианино, поэтому путь аудиосигнала проверяют отдельно."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте полный уроковый тракт заранее",
+          "paragraphs": [
+            "Камера должна показывать руки и посадку. После подключения наушников ещё раз проверьте, что звук инструмента остаётся слышен преподавателю, а его объяснения — ученику."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда особенно полезна на период дистанционного обучения",
+          "paragraphs": [
+            "Когда занятия возвращаются в класс, сложная домашняя схема может больше не требоваться. Временный инструмент не превращает переходный формат в постоянную покупку."
+          ]
+        }
+      ],
+      "quote": "В пробном звонке видны руки и посадка, а речь, игра и объяснения остаются слышны в выбранном режиме?",
+      "sources": [
+        {
+          "title": "Kawai ES120: action, line out, Bluetooth and pedal options",
+          "url": "https://www.kawai-global.com/product/es120/"
+        },
+        {
+          "title": "Yamaha P-225: compact 88-key digital piano",
+          "url": "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/"
+        },
+        {
+          "title": "Yamaha Smart Pianist: чем различаются аудио и MIDI",
+          "url": "https://manual.yamaha.com/mi/app/smartpianist/en/smartpianist_en_ug_j1_003.html"
+        },
+        {
+          "title": "Yamaha: запись исполнения как аудио и поддержка USB",
+          "url": "https://manual.yamaha.com/mi/common/computer/en/computer_en_rm_y0_07.htm"
+        }
+      ]
+    }
+  ],
+  "navigation": {
+    "cifrovoe-ili-akusticheskoe-pianino": [
+      {
+        "label": "Когда цифрового уже недостаточно",
+        "href": "/cifrovoe-pianino-pered-perehodom-na-akusticheskoe/"
+      },
+      {
+        "label": "Акустика маленькой комнаты",
+        "href": "/pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "cifrovoe-pianino-88-klavish": [
+      {
+        "label": "Ровный отклик соседних клавиш",
+        "href": "/pianino-s-rovnoy-klaviaturoy/"
+      },
+      {
+        "label": "Сравнить отклик механик",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-konservatorii": [
+      {
+        "label": "Проверить быстрые повторные ноты",
+        "href": "/cifrovoe-pianino-s-tochnoy-repetitsiey/"
+      },
+      {
+        "label": "Проверить полупедаль в комплекте",
+        "href": "/cifrovoe-pianino-s-polupedalyu/"
+      },
+      {
+        "label": "Репетиция на рояле перед сценой",
+        "href": "/royal-dlya-repetitsii/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-kvartiry": [
+      {
+        "label": "Место для всего комплекта",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Поздняя практика дома",
+        "href": "/cifrovoe-pianino-dlya-pozdnih-zanyatiy/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-nochnih-zanyatiy": [
+      {
+        "label": "Проверить шум клавиш в комнате",
+        "href": "/cifrovoe-pianino-dlya-rannih-zanyatiy/"
+      },
+      {
+        "label": "Слышать динамику в наушниках",
+        "href": "/instrument-esli-nuzhno-igrat-v-naushnikah/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-obucheniya": [
+      {
+        "label": "Требования музыкальной школы",
+        "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Первые месяцы занятий",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-onlayn-urokov": [
+      {
+        "label": "Подготовить звук и камеру к уроку",
+        "href": "/cifrovoe-pianino-dlya-distantsionnogo-uroka/"
+      },
+      {
+        "label": "Передать собственный звук пианино",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-pereezda": [
+      {
+        "label": "Восстановить занятия во временном жилье",
+        "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-prepodavatelya": [
+      {
+        "label": "Два комплекта наушников на уроке",
+        "href": "/cifrovoe-pianino-s-dvumya-vyhodami-na-naushniki/"
+      },
+      {
+        "label": "Разные ученики за одним пианино",
+        "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-sochineniya-muzyki": [
+      {
+        "label": "Сохранить музыкальный эскиз",
+        "href": "/midi-klaviatura-dlya-kompozitora/"
+      },
+      {
+        "label": "Вводить ноты в партитуру",
+        "href": "/midi-klaviatura-dlya-notnogo-nabora/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-studii": [
+      {
+        "label": "Записать звук пианино",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      },
+      {
+        "label": "Записать исполнение в MIDI",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-uchilischa": [
+      {
+        "label": "Повторные ноты на своей программе",
+        "href": "/cifrovoe-pianino-s-tochnoy-repetitsiey/"
+      },
+      {
+        "label": "Педальные задачи текущего репертуара",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-vozvrascheniya-k-igre": [
+      {
+        "label": "Вернуть знакомые движения",
+        "href": "/cifrovoe-pianino-dlya-vzroslogo-posle-pereryva/"
+      },
+      {
+        "label": "Если раньше играли на акустике",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-vzroslogo-nachinayuschego": [
+      {
+        "label": "Начать с пробного учебного периода",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      }
+    ],
+    "cifrovoe-pianino-dlya-zanyatiy-v-naushnikah": [
+      {
+        "label": "Проверить отклик в наушниках",
+        "href": "/instrument-esli-nuzhno-igrat-v-naushnikah/"
+      },
+      {
+        "label": "Заниматься и слушать вдвоём",
+        "href": "/cifrovoe-pianino-s-dvumya-vyhodami-na-naushniki/"
+      }
+    ],
+    "cifrovoe-pianino-na-uchebnyy-god": [
+      {
+        "label": "Уточнить требования преподавателя",
+        "href": "/instrument-po-rekomendatsii-prepodavatelya/"
+      },
+      {
+        "label": "Продолжить занятия летом",
+        "href": "/cifrovoe-pianino-dlya-letney-praktiki/"
+      }
+    ],
+    "cifrovoe-pianino-na-ustoychivoy-stoyke": [
+      {
+        "label": "Если до педали приходится тянуться",
+        "href": "/instrument-esli-pedal-daleko/"
+      }
+    ],
+    "cifrovoe-pianino-pered-pokupkoy": [
+      {
+        "label": "Сравнить механики на одной пьесе",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Проверить место для всего комплекта",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "cifrovoe-pianino-rebenku": [
+      {
+        "label": "Комплект для музыкальной школы",
+        "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Посадка ребёнка и доступ к педали",
+        "href": "/instrument-esli-pedal-daleko/"
+      }
+    ],
+    "cifrovoe-pianino-s-dvumya-vyhodami-na-naushniki": [
+      {
+        "label": "Если играете вместе в четыре руки",
+        "href": "/pianino-dlya-igry-v-chetyre-ruki/"
+      }
+    ],
+    "cifrovoe-pianino-s-molotochkovoy-mehanikoy": [
+      {
+        "label": "Сравнить вес и возврат клавиши",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Проверить управляемое пианиссимо",
+        "href": "/pianino-s-upravlyaemym-tihim-zvukom/"
+      }
+    ],
+    "cifrovoe-pianino-s-troynoy-pedalyu": [
+      {
+        "label": "Полупедаль и совместимость блока",
+        "href": "/cifrovoe-pianino-s-polupedalyu/"
+      },
+      {
+        "label": "Когда требуется sostenuto",
+        "href": "/pianino-s-pedalyu-sostenuto/"
+      },
+      {
+        "label": "Удобное положение педального блока",
+        "href": "/instrument-esli-pedal-daleko/"
+      }
+    ],
+    "cifrovoe-pianino-s-usb-midi": [
+      {
+        "label": "Записать исполнение в MIDI",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      },
+      {
+        "label": "Записать звук пианино",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      }
+    ],
+    "kak-vybrat-cifrovoe-pianino-dlya-obucheniya": [
+      {
+        "label": "Ровный отклик клавиатуры",
+        "href": "/pianino-s-rovnoy-klaviaturoy/"
+      },
+      {
+        "label": "Устойчивая установка",
+        "href": "/cifrovoe-pianino-na-ustoychivoy-stoyke/"
+      },
+      {
+        "label": "Когда нужна полупедаль",
+        "href": "/cifrovoe-pianino-s-polupedalyu/"
+      }
+    ],
+    "kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Пройти первый учебный период",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      }
+    ],
+    "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Уточнить рекомендацию преподавателя",
+        "href": "/instrument-po-rekomendatsii-prepodavatelya/"
+      },
+      {
+        "label": "Проверить ровность клавиатуры",
+        "href": "/pianino-s-rovnoy-klaviaturoy/"
+      }
+    ],
+    "kompaktnoe-cifrovoe-pianino": [
+      {
+        "label": "Вписать комплект в маленькую комнату",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Устойчивость компактного комплекта",
+        "href": "/cifrovoe-pianino-na-ustoychivoy-stoyke/"
+      }
+    ],
+    "korpusnoe-cifrovoe-pianino": [
+      {
+        "label": "Место для корпуса и банкетки",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Педаль в ежедневной практике",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "perenosnoe-cifrovoe-pianino": [
+      {
+        "label": "Устойчиво установить переносное пианино",
+        "href": "/cifrovoe-pianino-na-ustoychivoy-stoyke/"
+      },
+      {
+        "label": "Второе место для занятий",
+        "href": "/cifrovoe-pianino-dlya-vtorogo-mesta-zanyatiy/"
+      }
+    ],
+    "pervoe-cifrovoe-pianino-rebenku": [
+      {
+        "label": "Проверить первые месяцы занятий",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      },
+      {
+        "label": "Согласовать учебный комплект",
+        "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/"
+      }
+    ],
+    "pianino-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Цифровой комплект для школы",
+        "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Занятия ребёнка на акустическом пианино",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      }
+    ],
+    "stsenicheskoe-cifrovoe-pianino": [
+      {
+        "label": "Сохранить фортепианную технику на сцене",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      },
+      {
+        "label": "Подключение к пульту и мониторинг",
+        "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/"
+      },
+      {
+        "label": "Проверить педали по райдеру",
+        "href": "/klavishnye-s-pedalyami-po-rayderu/"
+      }
+    ]
+  }
+}

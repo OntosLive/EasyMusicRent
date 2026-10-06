@@ -1,0 +1,288 @@
+{
+  "pages": [
+    {
+      "slug": "kontrabas-dlya-zapisi-v-studii",
+      "mode": "enrich",
+      "editorial_title": "Контрабас на студийную сессию: проба, репетиция и день записи",
+      "description": "Аренда контрабаса для студийной сессии: время пробы, репетиция, день записи и согласование инструмента на весь рабочий период.",
+      "intro": [
+        "<p>Контрабас нужен на конкретную запись. До выбора экземпляра полезно собрать один план: кто играет, какая программа, когда состоится репетиция и сколько времени исполнитель сможет провести с инструментом до первого дубля. Срок аренды обсуждают вместе с этой подготовкой, а не только по длительности записи.</p>",
+        "<p>Заранее согласуют со студией порядок заноса, время установки и возможность послушать инструмент через рабочие микрофоны. Если музыкант приезжает из другого города, знакомство с контрабасом нужно вписать в его график. Возможность получить подходящий экземпляр на весь период подтверждается при обращении.</p>"
+      ]
+    }
+  ],
+  "navigation": {
+    "kontrabas-dlya-studii": [
+      {
+        "label": "Проба смычком",
+        "href": "/kontrabas-dlya-raboty-smychkom/"
+      },
+      {
+        "label": "Пиццикато и пульс",
+        "href": "/kontrabas-dlya-dzhaza/"
+      },
+      {
+        "label": "Призвуки под микрофоном",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      }
+    ],
+    "kontrabas-dlya-vysokogo-rosta": [
+      {
+        "label": "Постановка стоя",
+        "href": "/kontrabas-dlya-igry-stoya/"
+      },
+      {
+        "label": "Посадка сидя",
+        "href": "/kontrabas-dlya-igry-sidya/"
+      },
+      {
+        "label": "Сравнить мензуры",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      }
+    ],
+    "kontrabas-dlya-zapisi-v-studii": [
+      {
+        "label": "Проба инструмента под микрофоном",
+        "href": "/kontrabas-dlya-studii/"
+      }
+    ],
+    "kontrabas-esli-svoy-slomalsya": [
+      {
+        "label": "Перекрыть срок ремонта",
+        "href": "/kontrabas-na-vremya-remonta/"
+      },
+      {
+        "label": "Сохранить привычную мензуру",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      }
+    ],
+    "kontrabas-esli-vy-vozvraschaetes-posle-pereryva": [
+      {
+        "label": "Сопротивление струн",
+        "href": "/kontrabas-s-nizkoy-vysotoy-strun/"
+      },
+      {
+        "label": "Покупать после возвращения?",
+        "href": "/kontrabas-kupit-ili-vzyat-v-arendu/"
+      }
+    ],
+    "kontrabas-na-ekzamen": [
+      {
+        "label": "Проверить экзаменационную программу",
+        "href": "/instrument-po-programme-ekzamena/"
+      },
+      {
+        "label": "Привычная мензура",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      }
+    ],
+    "kontrabas-na-gastroli-v-moskve": [
+      {
+        "label": "Сверить гастрольный райдер",
+        "href": "/kontrabas-po-rayderu-v-moskve/"
+      },
+      {
+        "label": "Подключение на площадке",
+        "href": "/kontrabas-so-zvukosnimatelem-v-arendu/"
+      }
+    ],
+    "kontrabas-na-proslushivanie": [
+      {
+        "label": "Проверить программу прослушивания",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      },
+      {
+        "label": "Сравнить привычные расстояния",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      }
+    ],
+    "kontrabas-na-vremya-remonta": [
+      {
+        "label": "Сравнить мензуру замены",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      },
+      {
+        "label": "Высота и сопротивление струн",
+        "href": "/kontrabas-s-nizkoy-vysotoy-strun/"
+      }
+    ],
+    "kontrabas-po-rayderu-v-moskve": [
+      {
+        "label": "Звукосниматель и подключение",
+        "href": "/kontrabas-so-zvukosnimatelem-v-arendu/"
+      },
+      {
+        "label": "Пятая струна и строй",
+        "href": "/pyatistrunnyy-kontrabas-v-arendu/"
+      },
+      {
+        "label": "Система контрабасового смычка",
+        "href": "/kontrabasovye-smychki/"
+      }
+    ],
+    "kontrabas-rebenku-na-vremya-obucheniya": [
+      {
+        "label": "Когда менять размер",
+        "href": "/kontrabas-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Требования к учебному инструменту",
+        "href": "/uchenicheskiy-kontrabas/"
+      }
+    ],
+    "kontrabas-s-korotkoy-menzuroy": [
+      {
+        "label": "Сравнить мензуры на своей музыке",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      }
+    ],
+    "kontrabas-s-nizkoy-vysotoy-strun": [
+      {
+        "label": "Проверить игру смычком",
+        "href": "/kontrabas-dlya-raboty-smychkom/"
+      },
+      {
+        "label": "Проверить пиццикато",
+        "href": "/kontrabas-dlya-dzhaza/"
+      }
+    ],
+    "kontrabas-v-arendu-na-mesyats": [
+      {
+        "label": "Удобство длительной игры",
+        "href": "/kontrabas-dlya-dolgih-repetitsiy/"
+      },
+      {
+        "label": "Проверить выбор перед покупкой",
+        "href": "/kontrabas-kupit-ili-vzyat-v-arendu/"
+      }
+    ],
+    "kontrabas-v-arendu-na-nedelyu": [
+      {
+        "label": "Несколько площадок за неделю",
+        "href": "/kontrabas-na-gastroli-v-moskve/"
+      },
+      {
+        "label": "Неделя студийной работы",
+        "href": "/kontrabas-dlya-zapisi-v-studii/"
+      }
+    ],
+    "kontrabas-v-moskve-esli-vy-priehali-bez-svoego": [
+      {
+        "label": "Сравнить с привычной мензурой",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      },
+      {
+        "label": "Передать точные требования",
+        "href": "/kontrabas-po-rayderu-v-moskve/"
+      }
+    ],
+    "legkiy-kontrabas": [
+      {
+        "label": "Контрабас на втором месте занятий",
+        "href": "/kontrabas-dlya-vtorogo-mesta-zanyatiy/"
+      },
+      {
+        "label": "Электроконтрабас в поездке",
+        "href": "/elektricheskiy-kontrabas-dlya-gastroley/"
+      }
+    ],
+    "masterovoy-kontrabas": [
+      {
+        "label": "Алексей Романов: мастеровой контрабас",
+        "href": "/goronok-aleksey-romanov-kontrabas-v-arendu/"
+      }
+    ],
+    "moskovskiy-kontrabas": [
+      {
+        "label": "Автор и работа мастера",
+        "href": "/masterovoy-kontrabas/"
+      },
+      {
+        "label": "Возраст и сохранность",
+        "href": "/starinnyy-kontrabas/"
+      }
+    ],
+    "nemetskiy-kontrabas": [
+      {
+        "label": "Изготовитель или марка механики",
+        "href": "/kontrabas-rubner/"
+      },
+      {
+        "label": "Если нужен старый инструмент",
+        "href": "/starinnyy-kontrabas/"
+      }
+    ],
+    "orkestrovyy-kontrabas": [
+      {
+        "label": "Низкий диапазон и пятая струна",
+        "href": "/pyatistrunnyy-kontrabas-v-arendu/"
+      },
+      {
+        "label": "Смычковая работа",
+        "href": "/kontrabas-dlya-raboty-smychkom/"
+      },
+      {
+        "label": "Длительная репетиция",
+        "href": "/kontrabas-dlya-dolgih-repetitsiy/"
+      }
+    ],
+    "professionalnyy-kontrabas": [
+      {
+        "label": "Для оркестровой секции",
+        "href": "/orkestrovyy-kontrabas/"
+      },
+      {
+        "label": "Для сольной программы",
+        "href": "/solnyy-kontrabas/"
+      },
+      {
+        "label": "Для записи",
+        "href": "/kontrabas-dlya-studii/"
+      }
+    ],
+    "solnyy-kontrabas": [
+      {
+        "label": "Трудные места верхнего регистра",
+        "href": "/instrument-esli-ne-hvataet-verhnego-registra/"
+      },
+      {
+        "label": "Смычок на рабочем инструменте",
+        "href": "/kontrabasovye-smychki/"
+      }
+    ],
+    "starinnyy-kontrabas": [
+      {
+        "label": "Мастер и конкретный экземпляр",
+        "href": "/masterovoy-kontrabas/"
+      },
+      {
+        "label": "Подобрать под свою работу",
+        "href": "/professionalnyy-kontrabas/"
+      }
+    ],
+    "uchenicheskiy-kontrabas": [
+      {
+        "label": "Проверить учебный размер",
+        "href": "/kontrabas-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Осваивать работу смычком",
+        "href": "/kontrabas-dlya-raboty-smychkom/"
+      }
+    ],
+    "udobnyy-kontrabas": [
+      {
+        "label": "Сравнить мензуры",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      },
+      {
+        "label": "Проверить посадку сидя",
+        "href": "/kontrabas-dlya-igry-sidya/"
+      },
+      {
+        "label": "Проверить постановку стоя",
+        "href": "/kontrabas-dlya-igry-stoya/"
+      }
+    ]
+  }
+}
