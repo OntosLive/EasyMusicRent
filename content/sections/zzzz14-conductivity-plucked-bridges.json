@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "eastman-md305-v-arendu": [
+      {
+        "label": "Домашние занятия на мандолине",
+        "href": "/mandolina-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Мандолина перед покупкой",
+        "href": "/mandolina-pered-pokupkoy/"
+      }
+    ],
+    "gibson-f5-master-model-v-arendu": [
+      {
+        "label": "Работа над тремоло",
+        "href": "/mandolina-dlya-raboty-nad-tremolo/"
+      },
+      {
+        "label": "Мандолина перед покупкой",
+        "href": "/mandolina-pered-pokupkoy/"
+      }
+    ],
+    "deering-sierra-v-arendu": [
+      {
+        "label": "Банджо перед покупкой",
+        "href": "/bandzho-pered-pokupkoy/"
+      },
+      {
+        "label": "Домашние занятия на банджо",
+        "href": "/bandzho-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "deering-goodtime-v-arendu": [
+      {
+        "label": "Банджо взрослому начинающему",
+        "href": "/bandzho-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Домашние занятия на банджо",
+        "href": "/bandzho-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "balalayker-student-optimum-v-arendu": [
+      {
+        "label": "Домашние занятия на балалайке",
+        "href": "/balalayka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Балалайка перед покупкой",
+        "href": "/balalayka-pered-pokupkoy/"
+      }
+    ],
+    "balalayker-junior-v-arendu": [
+      {
+        "label": "Домашние занятия на балалайке",
+        "href": "/balalayka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Первый оркестровый опыт",
+        "href": "/balalayka-dlya-pervogo-orkestrovogo-opyta/"
+      }
+    ],
+    "balalayker-domra-volna-m-v-arendu": [
+      {
+        "label": "Домашние занятия на домре",
+        "href": "/domra-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Домра перед покупкой",
+        "href": "/domra-pered-pokupkoy/"
+      }
+    ],
+    "doff-domra-junior-v-arendu": [
+      {
+        "label": "Домашние занятия на домре",
+        "href": "/domra-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Работа медиатором",
+        "href": "/domra-dlya-raboty-mediatorom/"
+      }
+    ],
+    "mpkmi-domra-malaya-uchenicheskaya-v-arendu": [
+      {
+        "label": "Домашние занятия на домре",
+        "href": "/domra-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Работа медиатором",
+        "href": "/domra-dlya-raboty-mediatorom/"
+      }
+    ],
+    "mpkmi-balalaika-prima-uchenicheskaya-v-arendu": [
+      {
+        "label": "Домашние занятия на балалайке",
+        "href": "/balalayka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Первый оркестровый опыт",
+        "href": "/balalayka-dlya-pervogo-orkestrovogo-opyta/"
+      }
+    ],
+    "kala-ka15s-v-arendu": [
+      {
+        "label": "Укулеле взрослому начинающему",
+        "href": "/ukulele-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Сравнить размеры укулеле",
+        "href": "/ukulele-dlya-sravneniya-razmerov/"
+      }
+    ],
+    "makala-dolphin-v-arendu": [
+      {
+        "label": "Укулеле ребёнку",
+        "href": "/ukulele-dlya-rebenka/"
+      },
+      {
+        "label": "Сравнить размеры укулеле",
+        "href": "/ukulele-dlya-sravneniya-razmerov/"
+      }
+    ],
+    "yamaha-fs800-v-arendu": [
+      {
+        "label": "Акустика с компактным корпусом",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      },
+      {
+        "label": "Домашние занятия",
+        "href": "/akusticheskaya-gitara-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "akusticheskaya-gitara-po-razmeru-uchenika": [
+      {
+        "label": "Акустическая гитара подростку",
+        "href": "/akusticheskaya-gitara-podrostku/"
+      },
+      {
+        "label": "Компактный корпус",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      }
+    ],
+    "boss-katana50-gen3-v-arendu": [
+      {
+        "label": "Электрогитара для домашних занятий",
+        "href": "/elektrogitara-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Электрогитара перед покупкой",
+        "href": "/elektrogitara-pered-pokupkoy/"
+      }
+    ],
+    "fender-mustang-lt25-v-arendu": [
+      {
+        "label": "Электрогитара для домашних занятий",
+        "href": "/elektrogitara-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Электрогитара перед покупкой",
+        "href": "/elektrogitara-pered-pokupkoy/"
+      }
+    ]
+  }
+}
