@@ -22,6 +22,8 @@ jobs:
           python-version: '3.12'
       - name: Install compiler dependency
         run: python -m pip install -r requirements-site.txt
+      - name: Check complete internal link graph
+        run: python scripts/check_internal_links.py
       - name: Check syntax and canonical contracts
         run: |
           python -m compileall -q scripts tests
