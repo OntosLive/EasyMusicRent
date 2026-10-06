@@ -1,0 +1,293 @@
+{
+  "base_commit": "65e2c97e62b6c5f8982246e8dc1393b8f2e5942b",
+  "subjects_before": 1901,
+  "subjects_after": 1901,
+  "all_subject_slugs_preserved": true,
+  "aliases_unchanged": true,
+  "all_route_targets_and_order_preserved": true,
+  "all_parents_and_kinds_preserved": true,
+  "changed_content_count": 35,
+  "changed_content": {
+    "casio-ap270-v-arendu": [
+      "intro",
+      "sources"
+    ],
+    "casio-ap470-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "casio-ap550-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "casio-ap750-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "casio-pxs5000-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "casio-pxs7000-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "fortepiano": [
+      "blocks",
+      "sources"
+    ],
+    "kawai-ca501-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "kawai-ca701-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "kawai-ca901-v-arendu": [
+      "intro",
+      "sources"
+    ],
+    "kawai-cn201-v-arendu": [
+      "intro",
+      "sources"
+    ],
+    "kawai-cn301-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "kawai-es520-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "kawai-es920-v-arendu": [
+      "intro",
+      "sources"
+    ],
+    "roland-fp10-v-arendu": [
+      "intro",
+      "sources"
+    ],
+    "roland-fp30x-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "roland-fp90x-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "roland-hp702-v-arendu": [
+      "intro",
+      "sources"
+    ],
+    "roland-hp704-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "roland-lx5-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "roland-lx6-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "roland-lx9-v-arendu": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "yamaha-p225-v-arendu": [
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-klezmer-ansamblya": [
+      "blocks"
+    ],
+    "instrument-dlya-zanyatiy-mezhdu-urokami": [
+      "blocks"
+    ],
+    "instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya": [
+      "blocks"
+    ],
+    "basovye-kabinety": [
+      "blocks"
+    ],
+    "marshall-1960a-v-arendu": [
+      "blocks"
+    ],
+    "ampeg-svt-cl-v-arendu": [
+      "blocks"
+    ],
+    "yamaha-cfx-v-arendu": [
+      "blocks"
+    ],
+    "boesendorfer-280vc-v-arendu": [
+      "blocks"
+    ],
+    "ukulele-so-stroyaschimi-ladami": [
+      "sources"
+    ],
+    "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy": [
+      "sources"
+    ],
+    "bezladovaya-bas-gitara-dlya-pervogo-opyta": [
+      "sources"
+    ],
+    "cifrovoe-pianino-dlya-ansamblya-doma": [
+      "blocks"
+    ]
+  },
+  "unchanged_content_count": 1866,
+  "headings_changed": [],
+  "all_36_model_headings_preserved": true,
+  "all_kickers_preserved": true,
+  "label_changes": [
+    {
+      "source": "cifrovoe-pianino",
+      "href": "/casio-px160-v-arendu/",
+      "before": "Casio PX-160, когда старшая по возрасту модель всё ещё честно закрывает домашнюю практику",
+      "after": "Casio PX-160: состояние инструмента важнее возраста модели"
+    },
+    {
+      "source": "cifrovoe-pianino",
+      "href": "/casio-pxs5000-v-arendu/",
+      "before": "Casio PX-S5000, когда тонкий корпус уже не должен означать базовую клавиатуру",
+      "after": "Casio PX-S5000: требования к клавиатуре и мобильности"
+    },
+    {
+      "source": "cifrovoe-pianino",
+      "href": "/casio-pxs6000-v-arendu/",
+      "before": "Casio PX-S6000, когда один инструмент должен одинаково естественно жить дома, в студии и на сцене",
+      "after": "Casio PX-S6000: домашняя практика, запись и сцена"
+    },
+    {
+      "source": "cifrovoe-pianino",
+      "href": "/casio-ap470-v-arendu/",
+      "before": "Casio AP-470, когда домашняя практика уже требует большего, чем просто корпус и три педали",
+      "after": "Casio AP-470: когда домашняя практика становится регулярной"
+    },
+    {
+      "source": "cifrovoe-pianino",
+      "href": "/casio-ap550-v-arendu/",
+      "before": "Casio AP-550, когда ученик уже способен использовать инструмент классом выше того, который семья готова купить",
+      "after": "Casio AP-550: какой отклик нужен вашим занятиям"
+    },
+    {
+      "source": "cifrovoe-pianino",
+      "href": "/casio-ap750-v-arendu/",
+      "before": "Casio AP-750, когда доступ к флагманскому домашнему инструменту становится частью самой практики",
+      "after": "Casio AP-750: инструмент для интенсивной домашней работы"
+    }
+  ],
+  "explicit_source_corrections": [
+    {
+      "slug": "ukulele-so-stroyaschimi-ladami",
+      "removed_urls": [
+        "https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do"
+      ],
+      "added_urls": [
+        "https://support.kalabrand.com/hc/en-us/articles/360028985831-My-Ukulele-s-Intonation-Sounds-Off-How-Can-I-Adjust-The-Intonation-Of-My-Instrument",
+        "https://support.kalabrand.com/hc/en-us/articles/360028985891-My-Instrument-s-Action-Is-A-Bit-Too-High-Can-I-Lower-It-Myself-By-Modifying-The-Saddle"
+      ]
+    },
+    {
+      "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+      "removed_urls": [
+        "https://www.fender.com/products/player-ii-jazz-bass",
+        "https://www.ibanez.com/usa/products/detail/sr300e_1p_05.html"
+      ],
+      "added_urls": [
+        "https://hub.yamaha.com/guitars/bass/five-tips-for-playing-five-string-bass/",
+        "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+      ]
+    },
+    {
+      "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "removed_urls": [
+        "https://www.fender.com/products/player-ii-jazz-bass"
+      ],
+      "added_urls": [
+        "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+      ]
+    }
+  ],
+  "html_paths_before": 3888,
+  "html_paths_after": 3888,
+  "all_html_paths_preserved": true,
+  "navigation_metrics": {
+    "metric_definitions": {
+      "top_level": "Unique explicit subject routes after alias normalization, excluding self-links and duplicate targets. Direct parent/child routes remain; legacy lateral_* names are retained for comparison with earlier reports.",
+      "strict_lateral": "Explicit routes excluding declared direct parents and direct children. Neither graph includes automatic child routes added by core.connect.",
+      "thin_leaf": "No declared children and no outgoing route in the measured graph.",
+      "hygiene_counts": "Every self-link occurrence and every duplicate after the first canonical target. A repeated self-link contributes to both counts; both block preflight.",
+      "model_pages": "Existing slug-based cohort: subjects ending in -v-arendu."
+    },
+    "subjects": 1901,
+    "errors": [],
+    "error_count": 0,
+    "link_edges": 5285,
+    "pages_with_links": 1859,
+    "pages_without_links": 42,
+    "lateral_coverage_pct": 97.79,
+    "parent_edges": 1885,
+    "parents_with_children": 215,
+    "leaf_pages": 1686,
+    "thin_leaf_pages": 0,
+    "thin_leaf_pct": 0.0,
+    "pages_without_lateral_inbound": 269,
+    "model_pages": 409,
+    "model_pages_with_links": 409,
+    "model_lateral_coverage_pct": 100.0,
+    "model_thin_leaves": 0,
+    "root_pages": 16,
+    "duplicate_route_count": 0,
+    "self_link_count": 0,
+    "strict_lateral": {
+      "link_edges": 3757,
+      "pages_with_links": 1745,
+      "pages_without_links": 156,
+      "lateral_coverage_pct": 91.79,
+      "thin_leaf_pages": 0,
+      "thin_leaf_pct": 0.0,
+      "pages_without_lateral_inbound": 647,
+      "model_pages_with_links": 409,
+      "model_lateral_coverage_pct": 100.0,
+      "model_thin_leaves": 0
+    }
+  },
+  "build": {
+    "source_pages": 1901,
+    "public_pair_pages": 3802,
+    "conditions": 8,
+    "css_version": "0b048bad40e4",
+    "authored_records": 1756
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "tests": {
+    "count": 209,
+    "status": "passed",
+    "elapsed_seconds": 88.158
+  }
+}

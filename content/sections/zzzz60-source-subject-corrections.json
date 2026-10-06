@@ -1,0 +1,42 @@
+{
+  "pages": [
+    {
+      "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+      "mode": "enrich",
+      "sources": [
+        {
+          "title": "Yamaha: четыре и пять струн, диапазон и ширина грифа — руководство, стр. 8",
+          "url": "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+        },
+        {
+          "title": "Yamaha: переход на пятиструнный бас и глушение нижней струны",
+          "url": "https://hub.yamaha.com/guitars/bass/five-tips-for-playing-five-string-bass/"
+        }
+      ]
+    },
+    {
+      "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "mode": "enrich",
+      "sources": [
+        {
+          "title": "Yamaha: безладовый бас, слух и интонация — руководство, стр. 8",
+          "url": "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "ukulele-so-stroyaschimi-ladami",
+      "mode": "enrich",
+      "sources": [
+        {
+          "title": "Kala: интонация укулеле, состояние струн и сила прижатия",
+          "url": "https://support.kalabrand.com/hc/en-us/articles/360028985831-My-Ukulele-s-Intonation-Sounds-Off-How-Can-I-Adjust-The-Intonation-Of-My-Instrument"
+        },
+        {
+          "title": "Kala: высота струн укулеле и регулировка порожка специалистом",
+          "url": "https://support.kalabrand.com/hc/en-us/articles/360028985891-My-Instrument-s-Action-Is-A-Bit-Too-High-Can-I-Lower-It-Myself-By-Modifying-The-Saddle"
+        }
+      ]
+    }
+  ]
+}

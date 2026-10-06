@@ -1,0 +1,4863 @@
+{
+  "scope": "278 кандидатов для предметной языковой проверки. Первичное совпадение не означает дефект; названия моделей, механик и уместные технические обозначения могут остаться.",
+  "cohort_sizes": {
+    "1": 93,
+    "2": 93,
+    "3": 92
+  },
+  "current_source": "Актуальное собранное содержание репозитория после этого пакета; исходные совпадения могли быть сняты предыдущей предметной правкой.",
+  "records": [
+    {
+      "slug": "lyon-healy-style-30-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "recording"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akkordeon-72-basa-dlya-prodolzheniya-obucheniya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion",
+            "orchestra"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "accordion",
+            "orchestra"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-dlya-obucheniya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hohner-bravo-i-49f-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hohner-bravo-iii-72-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion",
+            "orchestra"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ORCHESTRA"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hohner-gola-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "weltmeister-achat-34-72-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "weltmeister-perle-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "weltmeister-rubin-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pigini-sirius-kyma-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-tango-kvarteta",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "violin"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-ansamblya-bayanov-akkordeonov",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-balkanskogo-ansamblya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion",
+            "ensemble",
+            "setup"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "accordion",
+            "clarinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bariton-ili-evfonium-po-partii",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-klarinet-dlya-obucheniya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "clarinet"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "neck"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jupiter-jbc1000-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "clarinet"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "ensemble",
+            "orchestra"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-ycl221ii-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "clarinet"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "clarinet"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "CLARINET"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "neck"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "besson-prestige-2052-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "trigger"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "marigaux-901-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backun-alpha-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "clarinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "buffet-prodige-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "clarinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-klezmer-ansamblya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "accordion",
+            "clarinet",
+            "ensemble",
+            "setup",
+            "violin"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ACCORDION"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "accordion",
+            "clarinet",
+            "stage",
+            "upright"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "jupiter-jcl700n-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "clarinet"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "clarinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klarinet-dlya-nebolshoy-ruki",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "neck"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Neck"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klarinet-in-a-dlya-pervogo-orkestrovogo-opyta",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "CLARINET"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-ycr2330iii-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-dzhazovogo-kvarteta",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-yts62-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roland-tr909-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "Kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-obucheniya-rebenka",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "kick"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "kick"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "KICK"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "kick"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "kick"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-pered-pokupkoy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "kick"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roland-td02k-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "kick"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "KICK",
+            "kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-dtx402k-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "snare"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-domashnih-zanyatiy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-drop-d",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-fingerstayla",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "fingerstyle"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "fingerstyle"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-otkrytyh-stroev",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fender-cc60s-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "neck"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "fingerstyle"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "FINGERSTYLE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fender-cd60s-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "neck"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "neck"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "pickup"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-akusticheskogo-trio",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "ACOUSTIC"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-vokalnogo-dueta-s-gitaroy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "setup",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-fs800-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bariton-gitara-dlya-ponizhennogo-stroya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-dlya-igry-mediatorem",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "fingerstyle"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-dlya-igry-paltsami",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "fingerstyle"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-dlya-ponizhennogo-stroya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-dlya-slepa",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-dlya-studii",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-dlya-zapisi-napryamuyu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "neck",
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge",
+            "neck",
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ibanez-gsrm20-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "pickups"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge",
+            "neck",
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-fank-gruppy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-reggae-gruppy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "snare"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "squier-mini-precision-bass-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "neck",
+            "pickup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-bb234-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "pickups"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "pickups"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-trbx174-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "pickups"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "SETUP",
+            "bridge",
+            "neck",
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-blyuza",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup",
+            "sustain"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-otkrytyh-stroev",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-peregruza",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-perehoda-s-akusticheskoy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "quote",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-sessii",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-slayda",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "setup",
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-tyazhelogo-stroya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "SETUP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-zameny-na-gastrolyah",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-pered-pokupkoy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-s-dvumya-hambakerami",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-s-fiksirovannym-bridzhem",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "bridge"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "BRIDGE"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-s-tremolo",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-s-tremya-singlami",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge",
+            "neck"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "bridge",
+            "neck"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fender-american-professional-ii-telecaster-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "bridge"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge",
+            "neck"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "squier-affinity-stratocaster-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "neck",
+            "pickups"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "squier-mini-stratocaster-v-arendu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "bridge",
+            "neck"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge",
+            "pickups"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-bossa-nova-ansamblya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-flamenko-ansamblya",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "ensemble",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rezonatornaya-gitara-dlya-slayda",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "neck"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "NECK"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "neck"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "neck"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-dlya-raboty-nad-zvukom-po-zadaniyu",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-posle-zamechaniya-o-vyse-strun",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "SETUP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-lady-ne-stroyat",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-mehanika-shumit-v-zapisi",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-ataki",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "pickup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup",
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-verhnego-registra",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-nuzhen-chistyy-di-signal",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "quote",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-nuzhen-rezerv-na-kontsert",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-pedal-rabotaet-kak-knopka",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "damper"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-slishkom-dolgiy-sustain",
+      "cohort": 1,
+      "matched_fields": [
+        {
+          "field": "search_title",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "SUSTAIN"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-struny-slishkom-zhestkie",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-teryaetsya-v-ansamble",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-tyazhelo-prizhimat",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "SETUP"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "barochnaya-skripka-dlya-pervogo-opyta",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "barochnaya-skripka-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "barochnaya-violonchel-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "SETUP"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "barochnye-instrumenty-dlya-studiynoy-zapisi",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "recording"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "renessansnye-instrumenty-dlya-studiynoy-zapisi",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "recording"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "upright"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pianino-dlya-raboty-nad-pedalyu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "damper"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-u1-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "upright"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "damper"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "damper"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-s-troynoy-pedalyu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-clp775-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Damper"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Damper"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-clp875-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Damper"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Damper"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-clp885-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Damper"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Damper"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-p225-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hohner-clavinet-e7-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "amp",
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rhodes-mark-i-stage-73-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "search_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "editorial_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "STAGE",
+            "Stage",
+            "cabinet",
+            "pickup"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "keyboard"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "keyboard",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-kamernogo-hora-s-ansamblem",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pianino-s-pedalyu-sostenuto",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hammond-leslie-po-rayderu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-ansamblya-melodiki",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "ENSEMBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "melodika-32-klavishi-dlya-shkoly",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "melodika-posle-fortepiano",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fazioli-f278-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "recording"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "keyboard",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-vokalnogo-trio",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-festivalnoy-smeny-artistov",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-festivalya",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Keyboard",
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-maloy-stseny",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "keyboard",
+            "setup",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Keyboard",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-stereo-vyhoda",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "keyboard"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-upravleniya-vneshnimi-modulyami",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "keyboard"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Stage",
+            "keyboard"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "setup",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-s-pedalyami-po-rayderu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Keyboard",
+            "stage",
+            "sustain"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "damper"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Sustain",
+            "keyboard",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nord-piano-5-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nord-stage-3-88-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "search_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "editorial_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage",
+            "sustain"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "nord-stage-4-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "search_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "editorial_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-dvuh-zon",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Stage",
+            "keyboard"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-gastrolnoy-zameny",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "keyboard",
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-pianista",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-treh-sloev",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Stage",
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye-po-rayderu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stage-piano-po-rayderu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "search_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "editorial_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "search_title",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "editorial_title",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-cp88-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "roland-gokeys3-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gibridnyy-instrument-dlya-kontserta",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "TRIGGER"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gibridnyy-instrument-dlya-pervogo-opyta",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "trigger"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gibridnyy-instrument-dlya-zapisi",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "trigger"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "ensemble",
+            "setup",
+            "upright"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "upright"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "eastman-md305-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "bridge"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "BRIDGE",
+            "bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "setup"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ACOUSTIC"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "accordion"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-ansamblya-gitar-i-ukulele",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "acoustic"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-ansamblya-ukulele",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "ENSEMBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alt-posle-pereryva",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-alt-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "SETUP",
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektricheskiy-kontrabas-dlya-gastroley",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "upright"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektricheskiy-kontrabas-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "UPRIGHT"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektricheskiy-kontrabas-posle-akusticheskogo",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "upright"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektroskripka-dlya-stsenicheskih-effektov",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektroskripka-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektroviolonchel-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "elektroviolonchel-posle-akusticheskoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskiy-kontrabas-posle-elektricheskogo",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "upright"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain",
+            "upright"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "codabow-prodigy-skripka-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "Violin"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Violin"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "VIOLIN"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Violin"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Violin"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "violin"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "VIOLIN"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "violin"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "violin"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "goronok-etyud-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "goronok-fantaziya-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage",
+            "violin"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "goronok-kapris-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "violin"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-academy-skripka-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "violin"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-skripka-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup",
+            "violin"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "VIOLIN"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "SETUP"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "knilling-bucharest-skripka-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Violin"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "VIOLIN"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "skripka-dlya-letney-praktiki",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "skripka-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "skripka-posle-pereryva",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "karbonovyy-smychok-dlya-pervogo-opyta",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "violin"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-saundtreka-kamernogo-sostava",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "clarinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "smychkovye-eastman",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "violin"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "SETUP"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "smychkovye-hidersine",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hidersine-vivente-violonchel-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "violonchel-pered-pokupkoy",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "violonchel-posle-pereryva",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "cohort": 2,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "snare"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gretsch-usa-custom-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "Recording"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ludwig-classic-maple-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "snare"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "SNARE",
+            "kick",
+            "snare"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pearl-masters-custom-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "Kick",
+            "kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tama-imperialstar-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage",
+            "snare"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tama-starclassic-performer-bb-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage",
+            "kick"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-absolute-hybrid-maple-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "Recording"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-recording-custom-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "search_title",
+          "terms": [
+            "Recording"
+          ]
+        },
+        {
+          "field": "editorial_title",
+          "terms": [
+            "Recording"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "Recording"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "RECORDING"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "Recording"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Recording"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-rydeen-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bolshoy-orkestrovyy-baraban-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "mallet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "handpan-dlya-zapisi-improvizatsii",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "adams-professional-gen2-litavry-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ludwig-black-beauty-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "snare"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "SNARE"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "snare"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ludwig-supraphonic-lm400-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "snare"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "snare",
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage",
+            "snare"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sonor-global-beat-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "ENSEMBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-pervogo-ansamblya-udarnyh",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ENSEMBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-latino-ansamblya",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "paiste-2002-set-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "recording"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tarelki-dlya-pervogo-komplekta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tarelki-pered-pokupkoy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "zildjian-a-series-set-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "zildjian-k-series-set-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "Stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "orf-instrumenty-dlya-obucheniya",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "MALLET"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vic-firth-fresh-approach-starter-pack-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "quote",
+          "terms": [
+            "snare"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vibrafon-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "SUSTAIN"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vibrafon-dlya-raboty-s-pedalyu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "usiliteli-backline",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP",
+            "CABINET"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet",
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Acoustic",
+            "amp",
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ACOUSTIC",
+            "AMP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "acoustic"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fishman-loudbox-artist-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ACOUSTIC"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ampeg-svt-810e-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "cabinet"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-kabinet-4x10-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "stack"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "head",
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "CAB"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-kabinet-8x10-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "cabinet"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet",
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-kabinet-pered-pokupkoy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head",
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "CAB"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "aguilar-tone-hammer-700-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "CAB",
+            "cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ampeg-rb110-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ampeg-svt-cl-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "HEAD"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet",
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-gastroley",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "cabinet"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet",
+            "head",
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-kontserta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "cabinet",
+            "head",
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp",
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-repetitsii",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-studii",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "cabinet",
+            "head",
+            "microphone",
+            "recording"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "amp",
+            "cab"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp",
+            "cab",
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-pered-pokupkoy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "cabinet"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gallien-krueger-800rb-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "markbass-little-mark-iii-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "CAB"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-cherez-di-bez-usilitelya",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "amp",
+            "setup",
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp",
+            "cab",
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "di-boks-dlya-akusticheskoy-gitary",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "pickup"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "pickup",
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ACOUSTIC"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "pickup"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "pickup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "di-boks-dlya-bas-gitary",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "di-boks-pered-pokupkoy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "passivnyy-di-boks-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-1x12-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "CAB"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-2x12-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "stack"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "CAB"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-4x12-dlya-pervogo-opyta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "STACK"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-pered-pokupkoy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "CAB"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "marshall-1960a-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "stack"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "cabinet"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "STACK",
+            "cabinet",
+            "stack"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "combo-ili-golova-i-kabinet",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "stack"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "cab",
+            "head"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "STACK"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "evh-5150iii-100s-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "CAB",
+            "cabinet",
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fender-65-twin-reverb-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fender-mustang-lt25-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-gastrolnoy-zameny",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-high-gain",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "stack"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-maloy-stseny",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "intro",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp",
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-pervogo-kontserta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-repetitsii",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-studii",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-pered-pokupkoy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "AMP"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "golova-i-kabinet-dlya-kontserta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "Head",
+            "cab"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "CAB",
+            "HEAD"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "marshall-jcm800-2203-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "HEAD"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "stack"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mesa-dual-rectifier-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "cabinet"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "CABINET",
+            "cabinet",
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "orange-rockerverb-50-mkiii-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "leslie-122-v-arendu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskie-usiliteli",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "ACOUSTIC"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "acoustic"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-akusticheskogo-kontserta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "Acoustic",
+            "acoustic"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "ACOUSTIC"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "acoustic",
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-bystroy-smeny-grupp",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "keyboard",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-dzhazovogo-kvinteta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "amp",
+            "keyboard",
+            "stage"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "amp",
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp",
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-klubnoy-stseny",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup",
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-odnodnevnoy-arendy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-rezervnogo-komplekta",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "amp",
+            "keyboard"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "amp"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-ritm-sektsii",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "amp",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-rok-gruppy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "stage"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "STAGE"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet",
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-soundcheck-do-priezda-artista",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "amp",
+            "cab"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "amp",
+            "cab"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-vokalista-s-gitaroy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "amp",
+            "keyboard",
+            "setup",
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "amp"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "backline-po-rayderu-dlya-gruppy",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "amp",
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovye-kabinety",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "cab",
+            "head"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovye-usiliteli",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "CABINET",
+            "HEAD"
+          ]
+        },
+        {
+          "field": "intro",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "quote",
+          "terms": [
+            "cab",
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-backline-po-rayderu",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "editorial_title",
+          "terms": [
+            "cabinet"
+          ]
+        },
+        {
+          "field": "description",
+          "terms": [
+            "amp",
+            "cabinet",
+            "head",
+            "setup",
+            "stage"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "stage"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnye-kabinety",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet",
+            "stack"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gitarnye-usiliteli",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "head"
+          ]
+        },
+        {
+          "field": "kicker",
+          "terms": [
+            "HEAD"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet",
+            "head"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-gastrolnogo-kamernogo-sostava",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble",
+            "keyboard"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble",
+            "setup"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic",
+            "ensemble"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-teatralnogo-ansamblya",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "acoustic"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-teleefira-s-zhivym-ansamblem",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble",
+            "setup"
+          ]
+        },
+        {
+          "field": "blocks",
+          "terms": [
+            "cabinet"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-videosyemki-zhivogo-ansamblya",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "kicker",
+          "terms": [
+            "ENSEMBLE"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-zameny-uchastnika-ansamblya",
+      "cohort": 3,
+      "matched_fields": [
+        {
+          "field": "description",
+          "terms": [
+            "ensemble",
+            "setup"
+          ]
+        }
+      ]
+    }
+  ],
+  "additional_diagnostic_note": "Более широкий поиск строчных латинских слов дал ещё 423 дополнительных кандидата, включая итальянскую музыкальную терминологию и фирменные имена. Это диагностический резерв, не список обязательных исправлений."
+}

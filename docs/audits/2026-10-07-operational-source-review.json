@@ -1,0 +1,970 @@
+{
+  "operational": {
+    "scope": {
+      "method": "Поиск по текстовым полям всего действующего корпуса с последующим полным чтением отобранных страниц. Совпадение ключевых слов само по себе не является дефектом.",
+      "full_pages_read": 26,
+      "full_contexts_file": "/workspace/scratch/ccb7f80b4c57/operational-claims-full-contexts.json",
+      "confirmed_page_count": 9,
+      "confirmed_scalar_field_change_count": 10,
+      "keep_after_full_context_count": 17,
+      "boundary": "Не проводилась сплошная повторная фактическая редактура всех 1901 тел. Не переоценивались цены, спецификации, рейтинг качества и язык смешанных терминов. Наличие или реальная готовность конкретного фонда не проверялись; исправлены именно безусловные утверждения, которым такое основание необходимо.",
+      "canon_basis": [
+        "docs/project-concept.md, раздел 4: страница не подтверждает экземпляр, условия и срок доставки",
+        "docs/reachable-instrument-space.md, «Честность публикации»"
+      ],
+      "search_diagnostics": [
+        "/workspace/scratch/ccb7f80b4c57/operational-claims-search-candidates.json",
+        "/workspace/scratch/ccb7f80b4c57/operational-claims-focused-candidates.json",
+        "/workspace/scratch/ccb7f80b4c57/operational-claims-targeted-scan.json",
+        "/workspace/scratch/ccb7f80b4c57/operational-claims-additional-scan.json"
+      ]
+    },
+    "confirmed": [
+      {
+        "id": "O01",
+        "slug": "cifrovoe-pianino-dlya-ansamblya-doma",
+        "decision": "enrich",
+        "category": "unconditional_life_outcome",
+        "reason": "Окончание концерта или экзамена не доказывает распад ансамбля и прекращение потребности в совместных репетициях.",
+        "full_context_assessment": "Страница посвящена балансу домашней ансамблевой репетиции. Краткая аренда уместна для одной программы; сохранены эта сцена, оба предыдущих блока и условный заголовок блока о сроке.",
+        "provenance": "content/sections/zz85-digital-piano-human-scenes.json",
+        "changes": [
+          {
+            "field": "blocks[2].paragraphs[0]",
+            "old": "После концерта или экзамена ансамбль распадается, и дополнительное домашнее пианино больше не требуется.",
+            "replacement": "Если после концерта или экзамена дальнейшие совместные репетиции не запланированы, дополнительное домашнее пианино может больше не понадобиться."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "cifrovoe-pianino",
+          "entries": [
+            {
+              "href": "/cifrovoe-pianino-dlya-ansamblya-doma/",
+              "label": "Цифровое пианино для ансамблевой репетиции дома в аренду"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O02",
+        "slug": "instrumenty-dlya-klezmer-ansamblya",
+        "decision": "enrich",
+        "category": "unconditional_life_outcome",
+        "reason": "Текст превращает завершение проекта в неизбежный распад состава. Предыдущие блоки обосновывают лишь временное дополнение инструментов, а не дальнейшую судьбу ансамбля.",
+        "full_context_assessment": "Сохранены мелодическая роль кларнета/скрипки, гармоническая опора и возможность добрать инструменты на фестиваль или запись. Возвращаться могут инструменты, которые больше не нужны программе.",
+        "provenance": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+        "changes": [
+          {
+            "field": "blocks[2].paragraphs[0]",
+            "old": "После проекта редкий состав распадается без лишнего склада.",
+            "replacement": "После проекта инструменты, которые больше не нужны программе, можно вернуть в согласованный срок."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "klarinet",
+          "entries": [
+            {
+              "href": "/instrumenty-dlya-klezmer-ansamblya/",
+              "label": "Инструменты для klezmer ансамбля в аренду"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O03",
+        "slug": "instrument-dlya-zanyatiy-mezhdu-urokami",
+        "decision": "enrich",
+        "category": "automatic_replacement",
+        "reason": "Смена требований представлена как уже происходящая смена инструмента: не отделены необходимость замены и возможность конкретной услуги.",
+        "full_context_assessment": "Сохранён принцип своевременного соответствия домашней среды заданиям преподавателя. Новая формулировка предлагает вовремя проверить соответствие и согласовать замену, если она действительно нужна.",
+        "provenance": "content/sections/zz121-teacher-start-routes.json",
+        "changes": [
+          {
+            "field": "blocks[2].paragraphs[0]",
+            "old": "Когда требования меняются, домашний инструмент меняется вместе с программой, а не удерживается только потому, что уже куплен.",
+            "replacement": "Когда требования меняются, важно вовремя проверить, подходит ли домашний инструмент новой программе. Если нужна замена, её возможность и срок согласуют заранее."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "instrument-po-rekomendatsii-prepodavatelya",
+          "entries": [
+            {
+              "href": "/instrument-dlya-zanyatiy-mezhdu-urokami/",
+              "label": "Инструмент для занятий между уроками в аренду"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O04",
+        "slug": "instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya",
+        "decision": "enrich",
+        "category": "automatic_replacement",
+        "reason": "Переход на новый этап сопровождается безусловным обещанием заблаговременной замены; ни необходимость, ни конкретный вариант и срок не установлены.",
+        "full_context_assessment": "Сохранена идея предупредить ограничение обучения и вовремя подстроить среду к программе. Меняется только обещание автоматической услуги: потребность оценивают заранее, вариант и срок согласуют.",
+        "provenance": "content/sections/zz121-teacher-start-routes.json",
+        "changes": [
+          {
+            "field": "blocks[2].paragraphs[0]",
+            "old": "При переходе на новый этап инструмент меняется раньше, чем старый начинает ограничивать обучение.",
+            "replacement": "При переходе на новый этап потребность в замене оценивают заранее, чтобы инструмент не начал ограничивать обучение; подходящий вариант и срок согласуют отдельно."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "instrument-po-rekomendatsii-prepodavatelya",
+          "entries": [
+            {
+              "href": "/instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya/",
+              "label": "Инструмент для ежедневной практики по программе преподавателя в аренду"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O05",
+        "slug": "boesendorfer-280vc-v-arendu",
+        "decision": "enrich",
+        "category": "unconfirmed_service_infrastructure",
+        "reason": "Наличие рояля прямо приравнено к наличию всей инфраструктуры доставки и подготовки. Для распределённого фонда это отдельные согласуемые условия, а не следствие модельной страницы или наличия экземпляра.",
+        "full_context_assessment": "Требование профессиональной доставки, сценического маршрута и технической подготовки сохранено. Исправлено только следствие «наличие означает инфраструктуру»; размеры, масса, свойства модели и источники не изменены.",
+        "provenance": "content/sections/zz30-concert-grand-standards.json",
+        "changes": [
+          {
+            "field": "blocks[1].paragraphs[0]",
+            "old": "Такой рояль требует профессиональной доставки, сценического маршрута и технической подготовки. Наличие в фонде означает наличие этой инфраструктуры.",
+            "replacement": "Такой рояль требует профессиональной доставки, сценического маршрута и технической подготовки. Маршрут доставки и техническую подготовку согласуют для конкретной площадки и даты."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "royal",
+          "entries": [
+            {
+              "href": "/boesendorfer-280vc-v-arendu/",
+              "label": "Bösendorfer 280VC"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O06",
+        "slug": "ampeg-svt-cl-v-arendu",
+        "decision": "enrich",
+        "category": "unconfirmed_service_infrastructure",
+        "reason": "Возможность аренды объявлена достаточной для включения доставки, питания и сценического маршрута. Возможности площадки и состав предоставляемых услуг этим не подтверждаются.",
+        "full_context_assessment": "Сохранена необходимость учесть тяжёлую голову и кабинет, доставку, питание и доступ на сцену. Только заключительное обещание заменено согласованием конкретных условий. Термины и описание звука не редактировались.",
+        "provenance": "content/sections/zz29-amplifiers-backline.json",
+        "changes": [
+          {
+            "field": "blocks[2].paragraphs[0]",
+            "old": "Большая ламповая голова и 8×10 требуют отдельной доставки, безопасного питания и сценического маршрута. Возможность аренды включает эту инфраструктуру.",
+            "replacement": "Большая ламповая голова и 8×10 требуют отдельной доставки, безопасного питания и сценического маршрута. Доставку, питание и доступ на сцену согласуют для конкретной площадки и даты."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "basovye-usiliteli",
+          "entries": [
+            {
+              "href": "/ampeg-svt-cl-v-arendu/",
+              "label": "Ampeg SVT-CL"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O07",
+        "slug": "yamaha-cfx-v-arendu",
+        "decision": "enrich",
+        "category": "unconfirmed_service_inclusion",
+        "reason": "Заголовок и абзац вместе подают аренду как уже включающую весь сервис, вплоть до повторной настройки. Условия конкретного предоставления не приведены.",
+        "full_context_assessment": "Состав подготовки остаётся тем же: доставка, время после перевозки, настройка и при необходимости повторная настройка. Теперь перечисление служит предметом согласования для площадки и даты, а не обещанием пакета услуг.",
+        "provenance": "content/sections/zz30-concert-grand-standards.json",
+        "changes": [
+          {
+            "field": "blocks[2].title",
+            "old": "Концертный рояль арендуется вместе с сервисом",
+            "replacement": "Сервис для концертного рояля согласуют до аренды"
+          },
+          {
+            "field": "blocks[2].paragraphs[0]",
+            "old": "Доставка, выдержка после перевозки, настройка и при необходимости повторная настройка перед концертом входят в реальную способность предоставить CFX.",
+            "replacement": "Доставку, выдержку после перевозки, настройку и при необходимости повторную настройку перед концертом нужно согласовать для конкретной площадки и даты."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "royal",
+          "entries": [
+            {
+              "href": "/yamaha-cfx-v-arendu/",
+              "label": "Yamaha CFX"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O08",
+        "slug": "basovye-kabinety",
+        "decision": "enrich",
+        "category": "unconfirmed_technical_preparation",
+        "reason": "Фраза о том, что прокат собирает проверенную электрическую систему, утверждает выполненную техническую проверку как свойство услуги. Характеристики кабинета не подтверждают процедуру конкретного проката.",
+        "full_context_assessment": "Само требование совместимой нагрузки и предупреждение о нескольких кабинетах сохранены. Обещание уже проверенного комплекта превращено в точное требование проверить выбранную конфигурацию. Общие требования к логистике в следующем блоке оставлены.",
+        "provenance": "content/sections/zz29-amplifiers-backline.json",
+        "changes": [
+          {
+            "field": "blocks[1].paragraphs[0]",
+            "old": "При нескольких кабинетах суммарная нагрузка меняется. Прокат собирает head + cab как проверенную электрическую систему.",
+            "replacement": "При нескольких кабинетах суммарная нагрузка меняется. Совместимость головы и кабинетов по нагрузке нужно проверить для выбранной конфигурации."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "usiliteli-backline",
+          "entries": [
+            {
+              "href": "/basovye-kabinety/",
+              "label": "Басовые кабинеты"
+            }
+          ],
+          "decision": "keep"
+        }
+      },
+      {
+        "id": "O09",
+        "slug": "marshall-1960a-v-arendu",
+        "decision": "enrich",
+        "category": "unconfirmed_technical_preparation",
+        "reason": "Прокату безусловно приписана сборка безопасной пары с усилительной головой. Это утверждение об обслуживании, которое не следует из заводского описания кабинета или его присутствия в чужом прокатном парке.",
+        "full_context_assessment": "Заводские характеристики в первом предложении сохранены дословно, как и все различия angled/straight, динамиков и stack. Меняется только обещание безопасной пары на необходимость проверки выбранного подключения.",
+        "provenance": "content/sections/zz29-amplifiers-backline.json",
+        "changes": [
+          {
+            "field": "blocks[1].paragraphs[0]",
+            "old": "1960A рассчитан на 300W mono или 150W stereo и имеет переключаемую схему импеданса. Прокат собирает безопасную пару с конкретной головой.",
+            "replacement": "1960A рассчитан на 300W mono или 150W stereo и имеет переключаемую схему импеданса. Совместимость с конкретной головой нужно проверить для выбранного подключения."
+          }
+        ],
+        "new_technical_facts": false,
+        "source_changes": false,
+        "parent_card": {
+          "parent": "gitarnye-kabinety",
+          "entries": [
+            {
+              "href": "/marshall-1960a-v-arendu/",
+              "label": "Marshall 1960A 4×12"
+            }
+          ],
+          "decision": "keep"
+        }
+      }
+    ],
+    "kept_after_full_context": [
+      {
+        "slug": "cifrovoe-pianino-dlya-vremennogo-zhilya",
+        "decision": "keep",
+        "reason": "В полном контексте речь о временном адресе и отсутствии необходимости везти приобретённое пианино домой или продавать его. Бесплатный вывоз, отсутствие возврата арендодателю и автоматическое расторжение явно не обещаны; договорные пояснения не добавлены."
+      },
+      {
+        "slug": "elektronnye-barabany-dlya-vremennogo-zhilya",
+        "decision": "keep",
+        "reason": "Свой комплект остаётся дома, временный используется по другому адресу. Отказ от обратной перевозки собственности отличается от возврата арендованного комплекта. Не превращено в дефект только из-за краткой фразы после описанной временной сцены."
+      },
+      {
+        "slug": "basovyy-usilitel-dlya-studii",
+        "decision": "keep",
+        "reason": "Речь о конкретном усилителе для одной сессии вместо постоянного парка. Текст не утверждает прекращения студийной работы или включённой доставки; operational-правка не нужна."
+      },
+      {
+        "slug": "instrumenty-dlya-ansamblya-klassicheskih-gitar",
+        "decision": "keep",
+        "reason": "Временное дополнение учебного проекта и возвращение участников к своим постоянным инструментам образуют допустимую сцену. Прекращение занятий или распад ансамбля не заявлены."
+      },
+      {
+        "slug": "instrumenty-dlya-studencheskogo-kamernogo-orkestra",
+        "decision": "keep",
+        "reason": "Семестровые дополнительные голоса противопоставлены устойчивому ядру инструментального парка. Завершение именно временного дополнения задано контекстом; всеобщий распад коллектива не обещан."
+      },
+      {
+        "slug": "elektricheskiy-kontrabas-dlya-gastroley",
+        "decision": "keep",
+        "reason": "Страница прямо посвящена акустическому исполнителю, временно переходящему на электрический инструмент в поездке. Возвращение к основному инструменту является исходной сценой, не обещанием прекратить музицирование."
+      },
+      {
+        "slug": "instrument-esli-slozhno-perevozit",
+        "decision": "keep",
+        "reason": "Локальная аренда заменяет транспортировку своего инструмента между городами. «Обратная логистика собственности» не равна отсутствию согласованного возврата арендодателю."
+      },
+      {
+        "slug": "gitarnyy-backline-po-rayderu",
+        "decision": "keep",
+        "reason": "Локальный backline вместо перевозки своего по маршруту — предмет страницы; допустимые замены уже согласуются. Гарантии наличия точной модели или доставки к сроку не обнаружено."
+      },
+      {
+        "slug": "cifrovoe-pianino-dlya-syemnoy-kvartiry",
+        "decision": "keep",
+        "reason": "Заголовок формулирует возможное совпадение сроков проживания и аренды, далее описаны возможные действия при переезде. Нет утверждения, что всякая смена адреса автоматически меняет инструмент или прекращает занятия."
+      },
+      {
+        "slug": "instrumenty-dlya-pervogo-duhovogo-ansamblya",
+        "decision": "keep",
+        "reason": "Инструмент дополняет недостающий голос на ограниченный период курса; возврат или смена при изменении состава описывают варианты этой сцены. Не обещана обязательная бесплатная или мгновенная замена."
+      },
+      {
+        "slug": "arenda-pianino-moskva",
+        "decision": "keep",
+        "reason": "Общее предложение помочь с подбором не равно гарантии конкретной модели, наличия на дату или результата обучения."
+      },
+      {
+        "slug": "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly",
+        "decision": "keep",
+        "reason": "Общее предложение подбора по программе и домашней ситуации входит в предмет услуги; безусловного наличия, доставки и автоматической замены нет."
+      },
+      {
+        "slug": "hammond-b3-leslie-122-v-arendu",
+        "decision": "keep",
+        "reason": "Текст требует согласовать доставку и Leslie-комплект до подтверждения наличия. Это ограничение подтверждения, а не гарантия инфраструктуры."
+      },
+      {
+        "slug": "lyon-healy-style-23-v-arendu",
+        "decision": "keep",
+        "reason": "Прочитан весь текст и исходный пример Misty Williams. Перечисленный транспортный комплект действительно относится к её краткосрочной аренде Style 23; это внешний пример практики, не обещание нашего наличия. Формулировка не превращена в operational-дефект только из-за слова «включает»."
+      },
+      {
+        "slug": "smychkovye-gewa",
+        "decision": "keep",
+        "reason": "Абзац предупреждает, что готовность экземпляра не гарантируется брендом и серией, и перечисляет проверки перед использованием. Это предметная рекомендация, а не сообщение о гарантированной готовности любого инструмента фонда."
+      },
+      {
+        "slug": "instrument-smenit-stroy-po-rekomendatsii",
+        "decision": "keep",
+        "reason": "Введение ограничивает необходимость другого инструмента отдельными семействами; далее предлагается проверить, где новый строй действительно нужен. Заголовок не читается как обязательная смена при любой новой партии."
+      },
+      {
+        "slug": "instrument-posle-izmeneniya-repertuara",
+        "decision": "keep",
+        "reason": "Введение говорит «может потребовать», основной текст защищает от ненужного полного перехода, а заключение сохраняет условность. Автоматическая смена не обещана."
+      }
+    ],
+    "external_example_checked": {
+      "slug": "lyon-healy-style-23-v-arendu",
+      "url": "https://www.mistywilliamsharpist.com/rentals",
+      "primary_source": "Собственная страница аренды Misty Williams",
+      "finding": "У её краткосрочной аренды Style 23 действительно перечислены транспортный чехол, тележка, ключ, струны, пюпитр и банкетка. Источник описывает собственные географию и условия, которые не перенесены в кандидат фонда.",
+      "candidate_changes": false
+    }
+  },
+  "source_subject_audit": {
+    "summary": {
+      "confirmed_problem_count": 3,
+      "affected_page_count": 3,
+      "mismatched_source_reference_count": 4,
+      "body_changes_proposed": 0,
+      "new_site_page_urls_proposed": 0,
+      "proposed_enrich_records": 3
+    },
+    "coverage": {
+      "all_page_source_arrays_inventoried": 1901,
+      "pages_with_sources": 1388,
+      "pages_without_sources": 513,
+      "public_source_references": 2326,
+      "unique_public_source_urls": 825,
+      "unique_source_hosts": 280,
+      "distinct_parent_subjects_with_sources": 213,
+      "url_subject_mappings_screened": 825,
+      "full_editorial_pages_read": 33,
+      "full_editorial_page_slugs": [
+        "ukulele-so-stroyaschimi-ladami",
+        "gitara-s-nizkoy-vysotoy-strun",
+        "jupiter-jts700-v-arendu",
+        "bayan-dlya-perehoda-na-vybornyy-bas",
+        "hromaticheskaya-garmonika-posle-diatonicheskoy",
+        "yamaha-yts62-v-arendu",
+        "bas-gitara",
+        "poluakusticheskaya-gitara",
+        "truba-dlya-kontserta",
+        "truba-dlya-studii",
+        "evfonium",
+        "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+        "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+        "korotkomensurnaya-bas-gitara-vzroslomu",
+        "istoricheskie-duhovye-dlya-pervogo-proekta",
+        "srednevekovye-instrumenty-dlya-rekonstruktsii",
+        "istoricheskie-instrumenty-dlya-istoricheskoy-semki",
+        "violonchel-ritmuller",
+        "jupiter-jhr700-v-arendu",
+        "rhodes-mark-i-stage-73-v-arendu",
+        "rhodes-dlya-pervogo-opyta",
+        "rhodes-dlya-studiynoy-sessii",
+        "korg-m1-v-arendu",
+        "roland-jupiter-8-v-arendu",
+        "roland-tr808-v-arendu",
+        "roland-juno-106-v-arendu",
+        "srednevekovye-muzykalnye-instrumenty",
+        "srednevekovye-instrumenty-dlya-teatralnoy-postanovki",
+        "srednevekovye-instrumenty-dlya-studiynoy-zapisi",
+        "srednevekovye-instrumenty-dlya-obrazovatelnogo-proekta",
+        "istoricheskie-strunnye-dlya-pervogo-proekta",
+        "instrument-po-trebovaniyam-k-kachestvu",
+        "barochnaya-violonchel"
+      ],
+      "full_editorial_read_fields": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "parent",
+        "sources",
+        "provenance"
+      ],
+      "primary_urls_retrieved_this_pass": 27,
+      "primary_urls_from_snapshot_retrieved": 22,
+      "new_primary_urls_retrieved": 5,
+      "availability_sweep_performed": false,
+      "url_uniqueness_policy": "Точное значение публичного http(s) URL. Регион, параметры, регистр пути и конечный слеш не объединяются автоматически.",
+      "scope_limit": "Все 825 связи URL→название источника→предмет страниц просмотрены. Полный редакционный текст прочитан для 33 выбранных страниц; наличие тематически подходящей подписи у остальных не считается доказательством каждой технической фразы. Проверка каждой внешней страницы не выполнялась."
+    },
+    "selection_method": [
+      "Собрать все публичные sources и точные области использования из снимка.",
+      "Просмотреть URL, подпись источника и предметы страниц по всему индексу.",
+      "Проверить полные редакционные тексты у межсемейных, межмодельных и механических несоответствий; явно названное сравнение сохранять.",
+      "Открыть первичный источник для подтверждаемых дефектов и предложенных замен.",
+      "Отделить доказанные несовпадения от непохожего URL, культурного примера, сравнения и уже закрытой правки."
+    ],
+    "confirmed_findings": [
+      {
+        "id": "SRC-001",
+        "status": "confirmed",
+        "type": "source_subject_mismatch",
+        "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+        "editorial_title": "Пятая струна: добавить низ, не потеряв карту грифа",
+        "fields": [
+          "sources[0]",
+          "sources[1]"
+        ],
+        "source_definition": {
+          "file": "content/sections/zz83-bass-guitar-human-scenes.json",
+          "array_pointer": "/pages/12/sources",
+          "item_pointers": [
+            "/pages/12/sources/0",
+            "/pages/12/sources/1"
+          ],
+          "file_sha256": "9db6a43898e2ad0065b385f29df0983407832c6d391be6a19fc19d65c90e0470"
+        },
+        "full_editorial_text_read": true,
+        "reason": "Оба единственных источника описывают ладовые четырёхструнные модели. Основной текст посвящён дополнительной пятой струне, другой ширине грифа и её глушению; Player II Jazz Bass и SR300E не названы там в качестве исходных инструментов сравнения. Поэтому именно заявленная предметная задача остаётся без соответствующего источника.",
+        "primary_evidence_urls": [
+          "https://www.fender.com/products/player-ii-jazz-bass",
+          "https://www.ibanez.com/usa/products/detail/sr300e_1p_05.html",
+          "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf",
+          "https://hub.yamaha.com/guitars/bass/five-tips-for-playing-five-string-bass/"
+        ],
+        "action": "Заменить только массив sources. Текст, заголовки, публичные URL, родитель и навигация остаются существующими.",
+        "before": [
+          {
+            "title": "Fender: Player II Jazz Bass",
+            "url": "https://www.fender.com/products/player-ii-jazz-bass"
+          },
+          {
+            "title": "Ibanez: SR300E, pickups and active EQ",
+            "url": "https://www.ibanez.com/usa/products/detail/sr300e_1p_05.html"
+          }
+        ],
+        "after": [
+          {
+            "title": "Yamaha: четыре и пять струн, диапазон и ширина грифа — руководство, стр. 8",
+            "url": "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+          },
+          {
+            "title": "Yamaha: переход на пятиструнный бас и глушение нижней струны",
+            "url": "https://hub.yamaha.com/guitars/bass/five-tips-for-playing-five-string-bass/"
+          }
+        ],
+        "proposed_record": {
+          "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+          "mode": "enrich",
+          "sources": [
+            {
+              "title": "Yamaha: четыре и пять струн, диапазон и ширина грифа — руководство, стр. 8",
+              "url": "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+            },
+            {
+              "title": "Yamaha: переход на пятиструнный бас и глушение нижней струны",
+              "url": "https://hub.yamaha.com/guitars/bass/five-tips-for-playing-five-string-bass/"
+            }
+          ]
+        },
+        "current_page_editorial_sha256": "ec8617cc17999322306e71cb88983a925724aeacfb421e26754666804d332911"
+      },
+      {
+        "id": "SRC-002",
+        "status": "confirmed",
+        "type": "source_subject_mismatch",
+        "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+        "editorial_title": "Первый fretless: услышать высоту там, где лад больше не принимает решение",
+        "fields": [
+          "sources[0]"
+        ],
+        "source_definition": {
+          "file": "content/sections/zz83-bass-guitar-human-scenes.json",
+          "array_pointer": "/pages/13/sources",
+          "item_pointers": [
+            "/pages/13/sources/0"
+          ],
+          "file_sha256": "9db6a43898e2ad0065b385f29df0983407832c6d391be6a19fc19d65c90e0470"
+        },
+        "full_editorial_text_read": true,
+        "reason": "Единственный источник — спецификация Player II Jazz Bass с 20 металлическими ладами. Страница корпуса посвящена отсутствию ладов и контролю интонации, при этом не сравнивает эту модель с fretless. Нужен источник именно по безладовой конструкции и работе слуха.",
+        "primary_evidence_urls": [
+          "https://www.fender.com/products/player-ii-jazz-bass",
+          "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+        ],
+        "action": "Заменить только массив sources. Текст, заголовки, публичные URL, родитель и навигация остаются существующими.",
+        "before": [
+          {
+            "title": "Fender: Player II Jazz Bass",
+            "url": "https://www.fender.com/products/player-ii-jazz-bass"
+          }
+        ],
+        "after": [
+          {
+            "title": "Yamaha: безладовый бас, слух и интонация — руководство, стр. 8",
+            "url": "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+          }
+        ],
+        "proposed_record": {
+          "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+          "mode": "enrich",
+          "sources": [
+            {
+              "title": "Yamaha: безладовый бас, слух и интонация — руководство, стр. 8",
+              "url": "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf"
+            }
+          ]
+        },
+        "current_page_editorial_sha256": "c39377eb2c991e15f18338edba2c728ca49b334921b6310e1256fcf0870e9410"
+      },
+      {
+        "id": "SRC-003",
+        "status": "confirmed",
+        "type": "source_subject_mismatch",
+        "slug": "ukulele-so-stroyaschimi-ladami",
+        "editorial_title": "Открытые струны настроены, а аккорд должен звучать вместе",
+        "fields": [
+          "sources[0]"
+        ],
+        "source_definition": {
+          "file": "content/sections/zz41-quality-request-entrances.json",
+          "array_pointer": "/pages/4/sources",
+          "item_pointers": [
+            "/pages/4/sources/0"
+          ],
+          "file_sha256": "19503c8e7509e6025374709b691c335863a895fa6c3ad03291b6320166a219ec"
+        },
+        "full_editorial_text_read": true,
+        "reason": "Статья Taylor раскрывает анкерный стержень, прогиб грифа и высоту струн гитары. В полном тексте исходной страницы нет ни анкера, ни гитарного сравнения: её предмет — интонация укулеле по ладам, прижатие и подготовка экземпляра. Общая связь с высотой струн не подтверждает более конкретную заявленную задачу. Сами практические рекомендации по этой причине не объявляются ошибочными.",
+        "primary_evidence_urls": [
+          "https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do",
+          "https://support.kalabrand.com/hc/en-us/articles/360028985831-My-Ukulele-s-Intonation-Sounds-Off-How-Can-I-Adjust-The-Intonation-Of-My-Instrument",
+          "https://support.kalabrand.com/hc/en-us/articles/360028985891-My-Instrument-s-Action-Is-A-Bit-Too-High-Can-I-Lower-It-Myself-By-Modifying-The-Saddle"
+        ],
+        "action": "Заменить только массив sources. Текст, заголовки, публичные URL, родитель и навигация остаются существующими.",
+        "before": [
+          {
+            "title": "Taylor: высота струн и регулировка грифа",
+            "url": "https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do"
+          }
+        ],
+        "after": [
+          {
+            "title": "Kala: интонация укулеле, состояние струн и сила прижатия",
+            "url": "https://support.kalabrand.com/hc/en-us/articles/360028985831-My-Ukulele-s-Intonation-Sounds-Off-How-Can-I-Adjust-The-Intonation-Of-My-Instrument"
+          },
+          {
+            "title": "Kala: высота струн укулеле и регулировка порожка специалистом",
+            "url": "https://support.kalabrand.com/hc/en-us/articles/360028985891-My-Instrument-s-Action-Is-A-Bit-Too-High-Can-I-Lower-It-Myself-By-Modifying-The-Saddle"
+          }
+        ],
+        "proposed_record": {
+          "slug": "ukulele-so-stroyaschimi-ladami",
+          "mode": "enrich",
+          "sources": [
+            {
+              "title": "Kala: интонация укулеле, состояние струн и сила прижатия",
+              "url": "https://support.kalabrand.com/hc/en-us/articles/360028985831-My-Ukulele-s-Intonation-Sounds-Off-How-Can-I-Adjust-The-Intonation-Of-My-Instrument"
+            },
+            {
+              "title": "Kala: высота струн укулеле и регулировка порожка специалистом",
+              "url": "https://support.kalabrand.com/hc/en-us/articles/360028985891-My-Instrument-s-Action-Is-A-Bit-Too-High-Can-I-Lower-It-Myself-By-Modifying-The-Saddle"
+            }
+          ]
+        },
+        "current_page_editorial_sha256": "ebea52f8adad4e0e3c234c031445176508f3a694b9c08e1019efdfb51bc6c330"
+      }
+    ],
+    "explicit_keep_and_rejected_candidates": [
+      {
+        "decision": "keep",
+        "label": "Общий Yamaha Guide действительно включает несколько инструментальных предметов",
+        "slugs": [
+          "bas-gitara",
+          "poluakusticheskaya-gitara",
+          "truba-dlya-kontserta",
+          "truba-dlya-studii",
+          "evfonium"
+        ],
+        "reason": "Проверены сами разделы, а не только URL: бас и полуакустика; мундштук и кроны; эуфониум внутри tuba.",
+        "verification_level": "full_editorial_text_and_primary_source",
+        "primary_evidence_urls": [
+          "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/structure/structure002.html",
+          "https://www.yamaha.com/en/musical_instrument_guide/trumpet/mechanism/mechanism002.html",
+          "https://www.yamaha.com/en/musical_instrument_guide/tuba/play/play004.html",
+          "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/play/play005.html"
+        ]
+      },
+      {
+        "decision": "keep",
+        "label": "YTS-62 за адресом YTS380",
+        "slugs": [
+          "yamaha-yts62-v-arendu"
+        ],
+        "reason": "На выведенной странице есть прямые записи YTS-62, ранние варианты и описываемая серия. Уведомление вверху делает ссылку менее прямой, но предметное несоответствие не подтверждено. В данный аудит доступности/наличия это не превращается.",
+        "verification_level": "full_editorial_text_and_primary_source",
+        "primary_evidence_urls": [
+          "https://rental.jp.yamaha.com/shop/g/gYTS380OTSUL/"
+        ]
+      },
+      {
+        "decision": "keep",
+        "label": "Разный бренд или тип как прямо названная сторона сравнения",
+        "slugs": [
+          "jupiter-jts700-v-arendu",
+          "jupiter-jhr700-v-arendu",
+          "korotkomensurnaya-bas-gitara-vzroslomu",
+          "bayan-dlya-perehoda-na-vybornyy-bas",
+          "hromaticheskaya-garmonika-posle-diatonicheskoy"
+        ],
+        "reason": "В текстах явно сопоставляются Yamaha/Jupiter, 34/28,6 дюйма, свободная мелодия левой руки и диатоника/хроматика. Иной бренд или исходный инструмент не является ошибкой сам по себе. Для Jupiter проверена роль ссылки в полном тексте; повторная техническая сверка всех моделей не выполнялась.",
+        "verification_level": "full_editorial_text; selected_primary_sources; no_repeated_full_model_spec_audit",
+        "primary_evidence_urls": [
+          "https://www.fender.com/products/player-ii-precision-bass",
+          "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-i-49f",
+          "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20"
+        ]
+      },
+      {
+        "decision": "keep",
+        "label": "Montagna в исторической и средневековой культурной сцене",
+        "slugs": [
+          "srednevekovye-muzykalnye-instrumenty",
+          "srednevekovye-instrumenty-dlya-teatralnoy-postanovki",
+          "srednevekovye-instrumenty-dlya-studiynoy-zapisi",
+          "srednevekovye-instrumenty-dlya-rekonstruktsii",
+          "srednevekovye-instrumenty-dlya-obrazovatelnogo-proekta",
+          "istoricheskie-strunnye-dlya-pervogo-proekta",
+          "istoricheskie-instrumenty-dlya-istoricheskoy-semki"
+        ],
+        "reason": "Все семь оставшихся текстов прочитаны. Виелы и ребеки служат уместными примерами исторической реконструкции либо прямо названными струнными. Общая культурная сцена не требует удалить такой источник.",
+        "verification_level": "full_editorial_text_and_primary_source",
+        "primary_evidence_urls": [
+          "https://www.robertomontagnaliutaio.it/en-medieval.html",
+          "https://www.metmuseum.org/art/collection/search/903062"
+        ]
+      },
+      {
+        "decision": "keep",
+        "label": "Ранее исправленный первый духовой проект",
+        "slugs": [
+          "istoricheskie-duhovye-dlya-pervogo-proekta"
+        ],
+        "reason": "В текущем снимке уже стоят van Baarsel и два Egger по траверсо, сакбуту и натуральной трубе. Montagna отсутствует. Повторно заявлять старый дефект нельзя.",
+        "verification_level": "full_editorial_text_and_current_source_array; earlier_fix_not_reaudited_for_availability",
+        "primary_evidence_urls": []
+      },
+      {
+        "decision": "keep",
+        "label": "Ritmüller на входе виолончельного запроса",
+        "slugs": [
+          "violonchel-ritmuller"
+        ],
+        "reason": "Пианный источник намеренно поддерживает уточнение маркировки и не приписывает виолончели свойства фортепиано.",
+        "verification_level": "full_editorial_text_and_primary_source",
+        "primary_evidence_urls": [
+          "https://pearlriverpianogroup.com/ritmuller-pianos-2/"
+        ]
+      },
+      {
+        "decision": "keep",
+        "label": "Пятиструнный музейный пример на общей странице барочной виолончели",
+        "slugs": [
+          "barochnaya-violonchel"
+        ],
+        "reason": "В тексте прямо оговорены разные размеры и число струн; источник подтверждает существование отдельной пятиструнной конфигурации.",
+        "verification_level": "full_editorial_text_and_primary_source",
+        "primary_evidence_urls": [
+          "https://www.metmuseum.org/art/collection/search/898377"
+        ]
+      },
+      {
+        "decision": "keep",
+        "label": "Software-страницы как первичный источник истории оригиналов и явного сравнения",
+        "slugs": [
+          "rhodes-mark-i-stage-73-v-arendu",
+          "rhodes-dlya-pervogo-opyta",
+          "rhodes-dlya-studiynoy-sessii",
+          "korg-m1-v-arendu",
+          "roland-jupiter-8-v-arendu",
+          "roland-tr808-v-arendu",
+          "roland-juno-106-v-arendu"
+        ],
+        "reason": "Открытые первичные страницы прямо содержат исторические разделы о соответствующем физическом инструменте, а корпус отделяет оригинал от цифровой версии. Современные добавления plug-in не переносятся автоматически на hardware. Для TR-808 официальный раздел Production подтверждает 1980–1982; другая формулировка discontinued 1983 не даёт основания менять дату.",
+        "verification_level": "full_editorial_text_and_primary_source",
+        "primary_evidence_urls": [
+          "https://rhodesmusic.com/rhodes-anthology-plugin/",
+          "https://www.korg.com/us/products/software/kc_m1/index.php",
+          "https://www.roland.com/US/products/rc_jupiter-8/",
+          "https://www.roland.com/global/products/rc_tr-808/",
+          "https://www.roland.com/uk/products/rc_juno-106/",
+          "https://www.roland.com/us/promos/roland_tr-808/?lang=en-US"
+        ]
+      },
+      {
+        "decision": "keep",
+        "label": "Taylor в гитарной и общей геометрической задаче",
+        "slugs": [
+          "gitara-s-nizkoy-vysotoy-strun",
+          "instrument-po-trebovaniyam-k-kachestvu"
+        ],
+        "reason": "Первый текст явно разбирает прогиб, угол грифа и порожки гитары; общий вход приводит высоту струн как один из нескольких критериев. Здесь источник сохраняется.",
+        "verification_level": "full_editorial_text_and_primary_source",
+        "primary_evidence_urls": [
+          "https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do"
+        ]
+      }
+    ],
+    "exclusions": [
+      {
+        "scope": "Текущие новые Casio, Kawai и Roland piano enrich",
+        "reason": "Уже проверены отдельными профильными и независимыми аудитами по поручению root. Их не проверяли повторно и не добавляли новые стилевые предложения."
+      },
+      {
+        "scope": "Пять ранее проверенных сравнительных таблиц Yamaha",
+        "source_urls": [
+          "https://uk.yamaha.com/en/musical-instruments/pianos/products/clavinova/clp-645/specs.html",
+          "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html",
+          "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html",
+          "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-165/specs.html",
+          "https://it.yamaha.com/it/musical-instruments/pianos/products/arius/ydp-s34/specs.html"
+        ],
+        "reason": "Другой индекс модели в URL не означает чужую колонку. Эти таблицы уже читались в предшествующем редакционном проходе; в этом проходе URL-карта учтена, повторная сверка колонок не выполнялась."
+      },
+      {
+        "scope": "513 страниц без sources",
+        "reason": "Отсутствие источника само по себе не считается дефектом соответствия существующей ссылки. Сплошной аудит доказательности всех текстов не входил в задачу."
+      },
+      {
+        "scope": "Все внешние сайты и текущая доступность инструментов",
+        "reason": "Массовая проверка HTTP-доступности, цен, текущего наличия и парка аренды не выполнялась."
+      },
+      {
+        "scope": "Общие культурные, музейные, концертные и сравнительные источники",
+        "reason": "Не удаляются из-за широты темы или другого инструмента в сравнении; требуется реальное несоответствие функции, которую ссылка выполняет в прочитанном тексте."
+      },
+      {
+        "scope": "Навигационные labels и автоматические дочерние карточки",
+        "reason": "Не являются предметом этого source-аудита; массивы links не редактируются."
+      }
+    ],
+    "primary_evidence": [
+      {
+        "url": "https://rental.jp.yamaha.com/shop/g/gYTS380OTSUL/",
+        "actual_subject": "Каталог теноров Yamaha с записями YTS-62 и ранними версиями",
+        "audit_note": "Путь YTS380 не означает чужой предмет: после уведомления об исходной позиции выведены YTS-62, старые версии до марта 2013 и описание серии. Предметный дефект не подтверждён. Наличие конкретного инструмента в фонде ONTOS этим не проверялось.",
+        "relevant_location": "строки 85–105, 170–190, 278–296, 356–394"
+      },
+      {
+        "url": "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/structure/structure002.html",
+        "actual_subject": "Семейство электрогитар, включая полуакустические гитары и электрический бас",
+        "audit_note": "Один URL действительно содержит обе темы, под которыми указан в корпусе.",
+        "relevant_location": "разделы Semi-acoustic guitars и The electric bass, строки 26–28 и 62–64"
+      },
+      {
+        "url": "https://www.yamaha.com/en/musical_instrument_guide/trumpet/mechanism/mechanism002.html",
+        "actual_subject": "Мундштук, клапаны и корректировка высоты кронами трубы",
+        "audit_note": "Обе подписи источника соответствуют разным разделам одной статьи.",
+        "relevant_location": "строки 8–10, 18–27, 60–62"
+      },
+      {
+        "url": "https://www.yamaha.com/en/musical_instrument_guide/tuba/play/play004.html",
+        "actual_subject": "Эуфониум: мензура, мундштук, клапаны и интонация",
+        "audit_note": "Несмотря на раздел tuba в URL, статья посвящена именно эуфониуму.",
+        "relevant_location": "строки 6–11"
+      },
+      {
+        "url": "https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do",
+        "actual_subject": "Анкерный стержень гитары, прогиб грифа и высота струн",
+        "audit_note": "Релевантен гитарной геометрии и общему входу по качеству, но не является прямым источником по интонации укулеле. Это дефект связи источника с конкретной страницей, а не заявление об ошибочности её практического текста.",
+        "relevant_location": "основная статья, строки 338–383"
+      },
+      {
+        "url": "https://www.fender.com/products/player-ii-jazz-bass",
+        "actual_subject": "Ладовый четырёхструнный Player II Jazz Bass",
+        "audit_note": "Основная спецификация показывает 20 ладов и четырёхседельный мост. На страницах первого fretless и перехода на пять струн нет обсуждения этой модели как исходного инструмента сравнения.",
+        "relevant_location": "Overview и Specs: строки 114–124, 204–210, 244–246"
+      },
+      {
+        "url": "https://www.ibanez.com/usa/products/detail/sr300e_1p_05.html",
+        "actual_subject": "Четырёхструнный Ibanez SR300E",
+        "audit_note": "В спецификации перечислены четыре струны G–D–A–E, четыре толщины и 24 лада. Источник об активной электронике этой модели не раскрывает переход на пятиструнный бас.",
+        "relevant_location": "Specs: строки 182–231"
+      },
+      {
+        "url": "https://www.fender.com/products/player-ii-precision-bass",
+        "actual_subject": "Player II Precision Bass с мензурой 34 дюйма",
+        "audit_note": "На странице короткой мензуры взрослому он явно используется для сравнения с Mini Precision. Сравнительный источник сохраняется.",
+        "relevant_location": "Scale Length, первый вариант: строки 177–179"
+      },
+      {
+        "url": "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/play/play005.html",
+        "actual_subject": "Электрический бас, отсутствие ладов у fretless и способы атаки",
+        "audit_note": "Поддерживает соответствующую общую страницу безладового баса; название electric_guitar в пути не создаёт несоответствия.",
+        "relevant_location": "строки 6–10"
+      },
+      {
+        "url": "https://uk.yamaha.com/en/musical-instruments/guitars-basses-amps/products/electric-basses/trb/",
+        "actual_subject": "Пяти- и шестиструнные TRB и дополнительный низкий регистр",
+        "audit_note": "Просмотрен как возможный источник для пятиструнного перехода. Для готовой замены выбран более прямой учебный материал Yamaha, раскрывающий также глушение.",
+        "relevant_location": "раздел пятиструнного TRB, строка 186"
+      },
+      {
+        "url": "https://www.robertomontagnaliutaio.it/en-medieval.html",
+        "actual_subject": "Современные реконструкции виел и ребеков по средневековой иконографии",
+        "audit_note": "Все семь сохранившихся областей применения прочитаны: исторические струнные, средневековые и общие сценические задачи. Они допускают смычковые примеры. На исправленной странице первого духового проекта этого источника уже нет.",
+        "relevant_location": "строки 5–8"
+      },
+      {
+        "url": "https://www.metmuseum.org/art/collection/search/903062",
+        "actual_subject": "Реконструкция средневекового псалтерия Огюста Тольбека, 1896",
+        "audit_note": "Релевантный пример реконструкции и щипкового исторического инструмента; не подменяется обещанием выдачи музейного предмета.",
+        "relevant_location": "название, автор, дата и описание предмета"
+      },
+      {
+        "url": "https://rhodesmusic.com/rhodes-anthology-plugin/",
+        "actual_subject": "Программная антология с отдельным историческим описанием Mark I Stage 73",
+        "audit_note": "Статья прямо содержит культурный и исполнительский контекст реального Mark I Stage 73. В корпусе происхождение звука, физический Rhodes и программный пресет различены; источник не выдаётся за комплект физической аренды.",
+        "relevant_location": "раздел Rhodes Mark 1 Stage 73, строки 93–95"
+      },
+      {
+        "url": "https://www.korg.com/us/products/software/kc_m1/index.php",
+        "actual_subject": "M1 V2 и история оригинального M1 1988 года",
+        "audit_note": "Источник отдельно описывает оригинальный PCM-инструмент и его 8-дорожечный секвенсор, а затем программную версию и её отличия. Ссылка на software здесь предметно оправдана.",
+        "relevant_location": "строки 72–74, 96–99, 107–125"
+      },
+      {
+        "url": "https://www.roland.com/US/products/rc_jupiter-8/",
+        "actual_subject": "Программная реконструкция и архитектура оригинального JUPITER-8",
+        "audit_note": "Есть отдельный исторический раздел: 1981, восемь голосов, два VCO на голос. Страница корпуса явно различает оригинал и эмуляцию.",
+        "relevant_location": "строки 17–19, 49–59"
+      },
+      {
+        "url": "https://www.roland.com/global/products/rc_tr-808/",
+        "actual_subject": "Эмуляция TR-808 и история оригинальной аналоговой машины",
+        "audit_note": "Источник релевантен отдельному разделу об эмуляции. Упоминание прекращения модели в 1983 не используется для самовольной замены периода производства из второго официального источника.",
+        "relevant_location": "строки 19–35, 55–73"
+      },
+      {
+        "url": "https://www.roland.com/uk/products/rc_juno-106/",
+        "actual_subject": "Эмуляция JUNO-106 и исторический контекст оригинала",
+        "audit_note": "Описывает появление оригинала в 1984 и отдельно современные добавления программной версии. Корпус прямо различает формы доступа.",
+        "relevant_location": "строки 19, 35, 54–66"
+      },
+      {
+        "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-i-49f",
+        "actual_subject": "Выборный бас Bravo I 49 F, самостоятельная мелодия левой руки",
+        "audit_note": "На странице перехода баяниста используется как пример функции выборного баса рядом с Юпитером, а не как неподписанная спецификация баяна.",
+        "relevant_location": "строки 215–217, 249–252"
+      },
+      {
+        "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20",
+        "actual_subject": "Диатоническая гармоника Special 20",
+        "audit_note": "На странице перехода к хроматике источник относится к исходной диатонической системе; сравнение явно присутствует в тексте.",
+        "relevant_location": "строки 209–211, 277–279"
+      },
+      {
+        "url": "https://www.metmuseum.org/art/collection/search/898377",
+        "actual_subject": "Пятиструнная виолончель Amaryllis Fleming в барочной конфигурации",
+        "audit_note": "В общей странице барочной виолончели прямо сказано о разнообразии размеров и числе струн. Музейный пятиструнный пример не объявлен единственной барочной конфигурацией.",
+        "relevant_location": "описание предмета, строки 10–17"
+      },
+      {
+        "url": "https://pearlriverpianogroup.com/ritmuller-pianos-2/",
+        "actual_subject": "Фортепиано Ritmüller",
+        "audit_note": "Источник намеренно поясняет, почему запрос с названием Ritmuller требует проверки этикетки виолончели. Это исправление маркировки, не ошибочная подстановка характеристик пианино.",
+        "relevant_location": "заголовок страницы производителя"
+      },
+      {
+        "url": "https://www.roland.com/us/promos/roland_tr-808/?lang=en-US",
+        "actual_subject": "Официальная история TR-808",
+        "audit_note": "Раздел Production прямо указывает 1980–1982, что соответствует текущему description корпуса. Формулировка другого материала о discontinued в 1983 не доказывает ошибку периода производства.",
+        "relevant_location": "раздел Production, строки 70–74"
+      },
+      {
+        "url": "https://support.kalabrand.com/hc/en-us/articles/360028985831-My-Ukulele-s-Intonation-Sounds-Off-How-Can-I-Adjust-The-Intonation-Of-My-Instrument",
+        "actual_subject": "Интонация укулеле и влияние струн, формы ладов и силы прижатия",
+        "audit_note": "Прямой первичный источник для уже существующего текста укулеле; не переносить из него числовую схему разметки или абсолютные рекламные обещания.",
+        "relevant_location": "весь основной текст, строки 15–19"
+      },
+      {
+        "url": "https://support.kalabrand.com/hc/en-us/articles/360028985891-My-Instrument-s-Action-Is-A-Bit-Too-High-Can-I-Lower-It-Myself-By-Modifying-The-Saddle",
+        "actual_subject": "Высота струн укулеле и подготовка порожка специалистом",
+        "audit_note": "Поддерживает обращение к мастеру и индивидуальную регулировку; числовая норма Kala не предлагается как универсальная для всех укулеле.",
+        "relevant_location": "весь основной текст, строки 15–19"
+      },
+      {
+        "url": "https://hub.yamaha.com/guitars/bass/five-tips-for-playing-five-string-bass/",
+        "actual_subject": "Переход с четырёх на пять струн, нижняя струна и глушение",
+        "audit_note": "Прямой учебный источник: расширение регистра, изменение движения руки и контроль незвучащей B-струны.",
+        "relevant_location": "основная статья, особенно разделы 1–3, строки 48–90"
+      },
+      {
+        "url": "https://hub.yamaha.com/guitars/bass/guitars-a-guide-to-bass-fingerboards/",
+        "actual_subject": "Материалы накладки басового грифа",
+        "audit_note": "Просмотрен при поиске замены; не выбран, поскольку задача первого fretless требует более прямого объяснения интонации.",
+        "relevant_location": "строки 49–51"
+      },
+      {
+        "url": "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf",
+        "actual_subject": "Выбор бас-гитары: количество струн и безладовая конструкция",
+        "audit_note": "Для замены используются только разделы о дополнительной низкой струне, ширине грифа и слуховом контроле fretless. Общие ценовые и качественные ранги из других разделов не переносятся.",
+        "relevant_location": "печатная стр. 8, PDF page index 7, HOW MANY STRINGS? и FRETLESS BASSES, строки 213–237"
+      }
+    ]
+  },
+  "integration": {
+    "operational_source_file": "../../content/sections/zzzz58-operational-scenario-clarifications.json",
+    "source_correction_file": "../../content/sections/zzzz60-source-subject-corrections.json",
+    "source_index_scope": "825 уникальных URL исходного снимка; тематическая карта просмотрена полностью, массовая проверка доступности и каждой технической фразы не выполнялась."
+  }
+}

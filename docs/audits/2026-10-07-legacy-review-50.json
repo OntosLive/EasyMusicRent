@@ -1,0 +1,1525 @@
+{
+  "schema_version": 1,
+  "base_commit": "65e2c97e62b6c5f8982246e8dc1393b8f2e5942b",
+  "scope": "36 старых модельных тел после правок метаданных и 14 оставшихся активных legacy тем.",
+  "counts": {
+    "read": 50,
+    "body_keep": 27,
+    "body_enrich": 23,
+    "model_read": 36,
+    "model_body_enrich": 21,
+    "remaining_legacy_read": 14,
+    "remaining_legacy_body_enrich": 2,
+    "parent_card_changes": 6
+  },
+  "records": [
+    {
+      "slug": "casio-ap270-v-arendu",
+      "brand": "Casio",
+      "body_decision": "enrich",
+      "reason": "Ценовая и учебная достаточность сформулированы без условий: «без перехода к более дорогим моделям». Цена не заменяет проверку требований ученика; сопоставимый ценовой ряд и условия конкретной аренды не заданы.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-270BN/",
+          "supports": "88 клавиш, Tri-sensor Scaled Hammer Action Keyboard II, три встроенные педали; источник не подтверждает стоимость аренды или универсальную достаточность для ученика."
+        }
+      ]
+    },
+    {
+      "slug": "casio-ap470-v-arendu",
+      "brand": "Casio",
+      "body_decision": "enrich",
+      "reason": "Необоснованная лестница «более требовательного обучения» и «общего класса клавиатуры и акустики» относительно неназванных базовых моделей. У AP-270 и AP-470 совпадает паспортное название механики, а конкретно подтверждённая разница акустических систем не доказывает самостоятельный класс клавиатуры.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-470BK/",
+          "supports": "Tri-sensor Scaled Hammer Action Keyboard II, 88 клавиш, акустика с четырьмя динамиками. Паспортное название механики совпадает с AP-270; самостоятельное превосходство клавиатуры по неназванному критерию из этого не следует."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-270BN/",
+          "supports": "88 клавиш, Tri-sensor Scaled Hammer Action Keyboard II, три встроенные педали; источник не подтверждает стоимость аренды или универсальную достаточность для ученика."
+        }
+      ],
+      "parent_card_change": {
+        "parent": "cifrovoe-pianino",
+        "href": "/casio-ap470-v-arendu/",
+        "old_label": "Casio AP-470, когда домашняя практика уже требует большего, чем просто корпус и три педали",
+        "new_label": "Casio AP-470: когда домашняя практика становится регулярной",
+        "reason": "Карточка сохраняет неподтверждённый переход на более требовательную ступень, который снимается из тела."
+      }
+    },
+    {
+      "slug": "casio-ap550-v-arendu",
+      "brand": "Casio",
+      "body_decision": "enrich",
+      "reason": "«Более высокого класса» и «более точную клавиатуру уже на этапе обучения» обещают преимущество без конкретного исходного инструмента и критерия точности. Сохраняются проверка до покупки и текущий уровень исполнителя, превосходство заменяется паспортным названием механики и действиями для пробы.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-550BK/",
+          "supports": "Корпусная AP-550 и Smart Hybrid Hammer Action Keyboard CELVIANO Edition; источник не определяет точность по сравнению с неназванной исходной клавиатурой ученика."
+        }
+      ],
+      "parent_card_change": {
+        "parent": "cifrovoe-pianino",
+        "href": "/casio-ap550-v-arendu/",
+        "old_label": "Casio AP-550, когда ученик уже способен использовать инструмент классом выше того, который семья готова купить",
+        "new_label": "Casio AP-550: какой отклик нужен вашим занятиям",
+        "reason": "Карточка прямо связывает предполагаемый уровень ученика с недоступным семье более высоким классом покупки; это прежнее качественное/ценовое обещание."
+      },
+      "canon_refinement": "Сохранён доступ к подходящему инструменту на нужном учебном этапе без немедленной покупки; проба помогает проверить полезные различия отклика."
+    },
+    {
+      "slug": "casio-ap750-v-arendu",
+      "brand": "Casio",
+      "body_decision": "enrich",
+      "reason": "«Старшая ... для профессиональной практики» и «высокий класс цифровой клавиатуры» использованы как достаточное основание для конкурса или замены акустики. Программа и перенос привычного движения должны проверяться; формат и временная интенсивная задача сохраняются.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/europe/electronic-musical-instruments/product.AP-750/",
+          "supports": "Корпусная AP-750 Celviano, механика CELVIANO Edition. Вывод о пригодности любой конкурсной программы или замены акустики требует конкретной исполнительской проверки."
+        }
+      ],
+      "parent_card_change": {
+        "parent": "cifrovoe-pianino",
+        "href": "/casio-ap750-v-arendu/",
+        "old_label": "Casio AP-750, когда доступ к флагманскому домашнему инструменту становится частью самой практики",
+        "new_label": "Casio AP-750: инструмент для интенсивной домашней работы",
+        "reason": "В карточке остаётся флагманская статусная аргументация выбора вместо задачи конкретной программы."
+      }
+    },
+    {
+      "slug": "casio-aps450-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Смысл — тонкий корпус при постоянной домашней установке. Компактность и встроенные педали подтверждены; текст просит размеры и требования, не обещает универсальную пригодность. Проверка полного места уже есть в осмысленном соседнем маршруте.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-S450BK/",
+          "supports": "Тонкий корпус, встроенные три педали; габариты указаны как 1393×299×866 мм без пюпитра. В исходный или новый текст числа не добавляются, полное место проверяется на соседней странице компактного комплекта."
+        }
+      ]
+    },
+    {
+      "slug": "casio-celviano-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Короткий вход объясняет корпусной формат и необходимость выбора конкретной модели. Различия механизмов, акустики и корпуса между AP-270 и AP-550 подтверждаются; ранжирования конкретного ученика по цене нет.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-270BN/",
+          "supports": "88 клавиш, Tri-sensor Scaled Hammer Action Keyboard II, три встроенные педали; источник не подтверждает стоимость аренды или универсальную достаточность для ученика."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-470BK/",
+          "supports": "Tri-sensor Scaled Hammer Action Keyboard II, 88 клавиш, акустика с четырьмя динамиками. Паспортное название механики совпадает с AP-270; самостоятельное превосходство клавиатуры по неназванному критерию из этого не следует."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-550BK/",
+          "supports": "Корпусная AP-550 и Smart Hybrid Hammer Action Keyboard CELVIANO Edition; источник не определяет точность по сравнению с неназванной исходной клавиатурой ученика."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-S450BK/",
+          "supports": "Тонкий корпус, встроенные три педали; габариты указаны как 1393×299×866 мм без пюпитра. В исходный или новый текст числа не добавляются, полное место проверяется на соседней странице компактного комплекта."
+        }
+      ]
+    },
+    {
+      "slug": "casio-privia-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Серия описана через 88 клавиш, компактность и разные функции/мобильность. Официальный ряд действительно включает разные механики и конфигурации; требование выбрать модель и задачу сохранено. Перечень типов применения не является обещанием одному ученику определённого результата.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/us/electronic-musical-instruments/privia/",
+          "supports": "Разные конфигурации и задачи Privia; PX-S1100, PX-S3100, PX-S5000, PX-S6000 и PX-S7000 отличаются функциями и комплектами. Общего рейтинга пригодности для учеников не выводится."
+        }
+      ]
+    },
+    {
+      "slug": "casio-px160-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Тело прямо ставит состояние экземпляра, механику и соответствие текущему уровню выше одного возраста. 88 клавиш и статус прежней модели подтверждены. Для тела самостоятельного дефекта нет; безусловная родительская карточка правится отдельно.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/content/dam/casio/global/support/manuals/electronic-musical-instruments/pdf/008-en/w/Web_PX160-ES-1B_EN.pdf",
+          "supports": "Руководство PX-160, EN-30 / PDF p.31: 88-клавишная клавиатура с Touch Response, педальные возможности и подключения."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/old-models/",
+          "supports": "Casio относит PX-160 к прежним моделям. Сам возраст не сообщает состояние конкретного экземпляра."
+        }
+      ],
+      "parent_card_change": {
+        "parent": "cifrovoe-pianino",
+        "href": "/casio-px160-v-arendu/",
+        "old_label": "Casio PX-160, когда старшая по возрасту модель всё ещё честно закрывает домашнюю практику",
+        "new_label": "Casio PX-160: состояние инструмента важнее возраста модели",
+        "reason": "Карточка безусловно обещает закрыть практику прежней моделью, тогда как сохранённое тело правильно ставит условия по экземпляру и текущему уровню."
+      }
+    },
+    {
+      "slug": "casio-px560-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Privia Pro — реальное обозначение производителя. 88 клавиш, аранжировочные возможности, запись и сценические подключения подтверждены. Последний вопрос о нужных функциях достаточно конкретен; добавление всех чисел или длинного обзора не требуется.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/us/electronic-musical-instruments/product.PX-560MBE/",
+          "supports": "Производитель прямо использует Privia Pro PX-560 и описывает аранжировочные функции, MIDI/audio запись и сценические подключения. Числовые расхождения маркетинговых абзацев страницы не переносятся в наш текст."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-560MBE/",
+          "supports": "88 клавиш, тембры/ритмы, MIDI- и аудиорекордер, линейные входы/выходы подтверждают общие функции существующего текста."
+        }
+      ]
+    },
+    {
+      "slug": "casio-pxs1000-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "88 клавиш в тонком переносном корпусе подтверждены. Различие с корпусным форматом и вопросы мобильности/срока дают самостоятельную модельную задачу без обещания превосходства.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S1000BK/",
+          "supports": "88 клавиш и Smart Scaled Hammer Action в тонком переносном корпусе. В текущем тексте нет обещания конкретного превосходства."
+        }
+      ]
+    },
+    {
+      "slug": "casio-pxs1100-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Компактный переносной 88-клавишный инструмент с молоточковой механикой подтверждён. Нужная степень мобильности поставлена вопросом; гарантии пригодности для всех стадий обучения нет.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S1100BK/",
+          "supports": "Компактная 88-клавишная Privia с молоточковой механикой, возможностью домашней установки и переноса; сведения согласуются с ранее прочитанной официальной US-карточкой PX-S1100."
+        }
+      ]
+    },
+    {
+      "slug": "casio-pxs3000-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Расширенные тембры, ритмы и аранжировочная работа подтверждены. Последний вопрос об использовании дополнительных функций ограничивает рекомендацию реальной потребностью.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S3000BK/",
+          "supports": "88 клавиш Smart Scaled Hammer Action, расширенные тембры/ритмы и автоаккомпанемент; общий аранжировочный сценарий исходного текста подтверждается."
+        }
+      ]
+    },
+    {
+      "slug": "casio-pxs3100-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Сценарий домашней практики с репетициями поддержан функциями и переносным корпусом. Текст просит выбрать основную площадку и не обещает результат обучения или превосходство над иной моделью.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S3100BK/",
+          "supports": "88 клавиш, расширенные тембры/ритмы, управление и способы записи подтверждают гибкое применение дома/на репетиции."
+        }
+      ]
+    },
+    {
+      "slug": "casio-pxs5000-v-arendu",
+      "brand": "Casio",
+      "body_decision": "enrich",
+      "reason": "«Клавиатура более высокого класса» превращается в обещание подходящего следующего инструмента тому, кому «недостаточно базовой механики». Техническое различие подтверждено, личная пригодность из него не следует. Сохраняются клавиатурная задача и мобильность.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S5000BK/",
+          "supports": "Название механики Smart Hybrid Hammer Action и компактный корпус. В новом тексте это конкретное устройство для проверки, не обещание нужного ученику уровня."
+        }
+      ],
+      "parent_card_change": {
+        "parent": "cifrovoe-pianino",
+        "href": "/casio-pxs5000-v-arendu/",
+        "old_label": "Casio PX-S5000, когда тонкий корпус уже не должен означать базовую клавиатуру",
+        "new_label": "Casio PX-S5000: требования к клавиатуре и мобильности",
+        "reason": "Карточка повторяет неопределённую лестницу базовой и небазовой клавиатуры вместо проверяемого требования к отклику."
+      }
+    },
+    {
+      "slug": "casio-pxs6000-v-arendu",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Реально есть Smart Hybrid Hammer Action и подключения/запись для домашней, студийной и сценической задач. Тело заканчивается выбором основной задачи; неопределённые прилагательные сами по себе не основание для переписывания. У карточки снимается отдельное обещание одинаковой пригодности.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S6000BK/",
+          "supports": "Smart Hybrid Hammer Action, LINE OUT, MIC IN, USB и MIDI/audio запись подтверждают домашний, студийный и сценический сценарии. Равную пригодность во всех условиях из перечня подключений не выводим."
+        }
+      ],
+      "parent_card_change": {
+        "parent": "cifrovoe-pianino",
+        "href": "/casio-pxs6000-v-arendu/",
+        "old_label": "Casio PX-S6000, когда один инструмент должен одинаково естественно жить дома, в студии и на сцене",
+        "new_label": "Casio PX-S6000: домашняя практика, запись и сцена",
+        "reason": "Карточка обещает одинаково естественную работу во всех трёх средах, тогда как сохранённое тело просит выбрать основную задачу."
+      }
+    },
+    {
+      "slug": "casio-pxs7000-v-arendu",
+      "brand": "Casio",
+      "body_decision": "enrich",
+      "reason": "«Более высокий класс клавиатуры» не содержит критерия сравнения. Сохраняется полезный комплектный формат; принадлежности явно отнесены к заводской комплектации, отдельно от выдаваемого экземпляра.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S7000BK/",
+          "supports": "88 клавиш, Smart Hybrid Hammer Action; в заводском комплекте перечислены стойка и Fixed 3-pedal Unit. Это не информация о фактическом составе выдачи фонда."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S5000BK/",
+          "supports": "Название механики Smart Hybrid Hammer Action и компактный корпус. В новом тексте это конкретное устройство для проверки, не обещание нужного ученику уровня."
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-casio",
+      "brand": "Casio",
+      "body_decision": "keep",
+      "reason": "Вводный выбор по формату, клавиатуре, педалям, габаритам и подключениям соответствует реальному ассортименту. Утверждение о переносных Privia не объявляет все Privia переносными и не исключает корпусные PX-770/PX-870. Доращивание ради полноты не требуется.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.casio.com/us/electronic-musical-instruments/privia/",
+          "supports": "Разные конфигурации и задачи Privia; PX-S1100, PX-S3100, PX-S5000, PX-S6000 и PX-S7000 отличаются функциями и комплектами. Общего рейтинга пригодности для учеников не выводится."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-270BN/",
+          "supports": "88 клавиш, Tri-sensor Scaled Hammer Action Keyboard II, три встроенные педали; источник не подтверждает стоимость аренды или универсальную достаточность для ученика."
+        },
+        {
+          "url": "https://www.casio.com/intl/electronic-musical-instruments/product.AP-S450BK/",
+          "supports": "Тонкий корпус, встроенные три педали; габариты указаны как 1393×299×866 мм без пюпитра. В исходный или новый текст числа не добавляются, полное место проверяется на соседней странице компактного комплекта."
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-kawai",
+      "brand": "Kawai",
+      "body_decision": "keep",
+      "reason": "Обзор различает переносные ES и корпусные CN/CA и предлагает выбрать формат, механику, педали и акустику. Официальный каталог подтверждает семейства и отдельную категорию гибридов. Текст не обещает результат обучения от марки; выражение «более серьёзная домашняя клавиатура» здесь обозначает ещё не выясненный запрос. Краткость и единственный маршрут сами по себе не основание переписывать текст в рамках аудита тела.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "title": "Kawai: каталог цифровых пианино",
+          "url": "https://www.kawai-global.com/product/c/digitalpianos/",
+          "supports": "Каталог отдельно перечисляет CA, CN и переносную ES, а также MP, VPC и DG; это подтверждает различие форматов, без универсальной педагогической иерархии."
+        },
+        {
+          "title": "Kawai: каталог гибридных пианино",
+          "url": "https://www.kawai-global.com/product/c/hybridpianos/",
+          "supports": "Отдельная категория Hybrid Pianos содержит Novus, AnyTime и AURES."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-ca401-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "keep",
+      "reason": "Содержательная задача — работа над прикосновением дома при чередовании с акустическим инструментом; финальный вопрос уточняет прежнюю клавиатуру и уровень исполнителя. Grand Feel Compact и деревянные клавиши подтверждены. Текст связывает выбор с требованиями к механике, но не обещает, что именно CA401 автоматически улучшит технику; причин для обязательной правки не установлено.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "title": "Kawai CA401: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/ca401/",
+          "supports": "Grand Feel Compact, 88 деревянных клавиш, корпусный формат и встроенные динамики. Это описание устройства, а не доказательство результата занятий конкретного ученика."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-ca501-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "enrich",
+      "reason": "«Более развитая акустика» не называет предмет сравнения, а аренда объявлена способом получить «более точную обратную связь» без пробы и условий. Сохраняем роль тихой фразы, педали, домашней акустики и временной проверки перед долгим выбором; меняем только первые два абзаца и повторённое в description сравнение.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Kawai CA501: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/ca501/",
+          "supports": "Механика Grand Feel Compact, 88 деревянных клавиш и встроенная акустика подтверждены. Производитель перечисляет особенности устройства; они не устанавливают гарантированное улучшение контроля у данного исполнителя."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-ca701-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "enrich",
+      "reason": "Фраза «более длинная деревянная клавиатура» технически двусмысленна: официальный текст описывает длину отдельных деревянных клавиш и плечо до оси, а не увеличение ширины или диапазона всей клавиатуры. Заменяем её точным названием механики и числом клавиш. Задачу перехода к акустическому инструменту сохраняем через сравнение привычного фрагмента.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Kawai CA701: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/ca701/",
+          "supports": "Спецификация: Grand Feel III, 88 деревянных клавиш. Раздел TOUCH отдельно описывает length of each key и key pivot length. Это не утверждение об увеличенной ширине клавиатуры."
+        }
+      ],
+      "canon_refinement": "Сохранено подтверждённое свойство длинных отдельных клавиш, диапазон прямо указан как 88 клавиш; ранг педагогического результата не добавлен."
+    },
+    {
+      "slug": "kawai-ca901-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "enrich",
+      "reason": "Нельзя обещать «максимально точный» отклик без определённого критерия и сравнения. Сохраняем программу интенсивной учёбы или профессиональной работы и уточняем пробу, срок и условия звука. Первый абзац и description остаются: официальный сайт действительно называет CA901 флагманом Concert Artist, подтверждает Grand Feel III и акустическую систему с декой; само слово «флагман» не объявляем ошибкой.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Kawai CA901: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/ca901/",
+          "supports": "Официальное обозначение флагмана Concert Artist; Grand Feel III с деревянными клавишами; TwinDrive Soundboard и подключение наушников. Из этих характеристик нельзя вывести «максимальную» точность для конкретного исполнителя."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-cn201-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "enrich",
+      "reason": "Сравнение «более серьёзная клавиатура, чем у базовых переносных моделей» не задаёт ни моделей, ни технического критерия. Сохраняем подтверждённую RH III и задачу постоянного домашнего места с тремя педалями; вместо иерархии — проверка повторных нот, тихой фразы и посадки. Description и остальные абзацы точны и не меняются.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Kawai CN201: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/cn201/",
+          "supports": "Responsive Hammer III, 88 клавиш и три педали: damper, soft, sostenuto."
+        },
+        {
+          "title": "Kawai ES920: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/es920/",
+          "supports": "Переносной ES920 также использует Responsive Hammer III. Совпадение названия механики не доказывает тождество ощущений всех экземпляров; оно лишь исключает простой вывод о превосходстве по формату корпуса."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-cn301-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "enrich",
+      "reason": "Формулировки «развитая клавиатура» и предложение брать модель ради «более тонкого контроля» подменяют техническое описание оценкой без критерия. У CN301 и CN201 одинаковое обозначение механики RH III; различаются, в частности, акустическая схема и функции. Указываем конкретное устройство CN301 и сохраняем самостоятельную задачу слышать и контролировать фразу во время долгих занятий.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Kawai CN301: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/cn301/",
+          "supports": "Responsive Hammer III, три педали, четыре встроенных динамика (две пары)."
+        },
+        {
+          "title": "Kawai CN201: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/cn201/",
+          "supports": "CN201 также использует RH III; наличие у CN301 другого номера не доказывает улучшение механики или результата занятий."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-es120-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "keep",
+      "reason": "88 клавиш, молоточковая механика и переносной формат соответствуют официальной спецификации RHC. Текст решает задачу начала занятий при необходимости перемещать инструмент и прямо спрашивает частоту перевозок; не обещает лёгкость полного комплекта, гарантированный педагогический эффект или превосходство над акустическим инструментом.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "title": "Kawai ES120: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/es120/",
+          "supports": "Responsive Hammer Compact, 88 клавиш с градуированными молоточками и переносной формат. В тексте нет утверждений о конкретной комплектации педалями или массе, поэтому эти новые детали не добавляются."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-es520-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "enrich",
+      "reason": "Только первый абзац и его повтор в description содержат неопределённое сравнение с «базовыми моделями». Подставляем подтверждённую RHC II и встроенные динамики. Самостоятельный сценарий одного инструмента дома и на выезде, а также вопрос о доле каждой работы сохраняются дословно.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "description",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Kawai ES520: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/es520/",
+          "supports": "Responsive Hammer Compact II, 88 клавиш; две встроенные полнодиапазонные колонки. Эти данные подтверждают конкретное устройство без универсального ранжирования моделей."
+        }
+      ]
+    },
+    {
+      "slug": "kawai-es920-v-arendu",
+      "brand": "Kawai",
+      "body_decision": "enrich",
+      "reason": "Фраза «без сильного снижения качества клавиатуры» не называет исходный инструмент и обещает неопределённый результат сравнения. Меняем только этот абзац на пробу требовательной партии и удобства полного комплекта. Подтверждённые RH III, переносной формат, задачи дома и сцены, а также выбор между временной заменой и постоянной мобильной моделью сохраняются.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Kawai ES920: официальное описание и спецификации",
+          "url": "https://www.kawai-global.com/product/es920/",
+          "supports": "Responsive Hammer III, 88 клавиш; официальный сценарий home/studio/stage и переносной корпус. Отзывчивость в собственной партии требует сравнения с привычным инструментом, а не вывода из названия механики."
+        }
+      ]
+    },
+    {
+      "slug": "roland-fp10-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Полезный компактный учебный сценарий сохраняется. Единственный содержательный дефект — обещание «без переплаты за функции» без сведений о цене, комплекте и условиях аренды.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland FP-10: клавиатура и характеристики",
+          "url": "https://www.roland.com/global/products/fp-10/",
+          "verified_facts": {
+            "key_count": 88,
+            "keyboard": "PHA-4 Standard",
+            "hammer_action": true,
+            "compact_portable_format": true
+          },
+          "fact_note": "Подтверждены характеристики исходного первого абзаца. Рекламные оценки стоимости производителя не доказывают отсутствие переплаты в конкретной аренде."
+        }
+      ]
+    },
+    {
+      "slug": "roland-fp30x-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Формат ежедневных занятий с возможностью перемещения полезен. Формулы «более серьёзная нагрузка» и «более собранный, чем базовая модель» подменяют конкретные различия качественным рангом.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland FP-30X: клавиатура, выходы и домашний комплект",
+          "url": "https://www.roland.com/global/products/fp-30x/",
+          "verified_facts": {
+            "key_count": 88,
+            "keyboard": "PHA-4 Standard",
+            "headphone_outputs": 2,
+            "portable_format": true
+          },
+          "fact_note": "Два выхода для наушников указаны в Connectors. Использована предметная особенность домашнего занятия вместо обещанного превосходства над базовой моделью."
+        }
+      ]
+    },
+    {
+      "slug": "roland-fp60x-v-arendu",
+      "brand": "Roland",
+      "body_decision": "keep",
+      "reason": "KEEP: полный короткий текст уже различает домашнюю практику, репетиции, сцену и работу с тембрами. Проверяемые характеристики подтверждены; ценового или качественного ранга относительно другой модели нет.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "title": "Roland FP-60X: клавиатура и функции для исполнения",
+          "url": "https://www.roland.com/global/products/fp-60x/",
+          "verified_facts": {
+            "key_count": 88,
+            "keyboard": "PHA-4 Standard",
+            "hammer_action": true,
+            "multiple_sound_families": true,
+            "line_outputs": true
+          },
+          "fact_note": "88-клавишная молоточковая механика и разные семейства тембров подтверждены. Домашний и сценический сценарии соответствуют функциям модели; универсальная пригодность для любой программы не заявлена."
+        }
+      ]
+    },
+    {
+      "slug": "roland-fp90x-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Задача сравнить отклик и возможность перевозки сохраняется. «Более серьёзная клавиатура» и заранее мешающий компромисс не описывают наблюдаемое различие; их заменяют PHA-50 и проверка массы полного комплекта.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland FP-90X: PHA-50, динамики и масса комплекта",
+          "url": "https://www.roland.com/global/products/fp-90x/",
+          "verified_facts": {
+            "keyboard": "PHA-50",
+            "built_in_speakers": true,
+            "weight_with_music_rest_kg": 23.6
+          },
+          "fact_note": "Масса 23,6 кг относится к FP-90X с пюпитром, без стойки и отдельного педального блока. Уточнение непосредственно относится к сохранённой задаче перевозки."
+        }
+      ]
+    },
+    {
+      "slug": "roland-hp702-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Домашнее постоянное место и три педали — полезные и подтверждённые различия. Требуется исправить «нужна устойчивый корпус» и заменить неопределённую серьёзность клавиатуры вопросом о текущей программе.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland HP702: клавиатура и педальный блок",
+          "url": "https://www.roland.com/global/products/hp702/",
+          "verified_facts": {
+            "key_count": 88,
+            "keyboard": "PHA-4 Standard",
+            "pedals": [
+              "damper",
+              "soft",
+              "sostenuto"
+            ],
+            "cabinet_format": true
+          },
+          "fact_note": "Тройной педальный блок подтверждён. Исправляется грамматическая ошибка и неопределённый вопрос о серьёзности клавиатуры."
+        }
+      ]
+    },
+    {
+      "slug": "roland-hp704-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Длительность занятия, динамика и повторение ноты сохраняются как задачи. «Более продвинутая» модель и предположение, что прежняя клавиатура уже ограничивает исполнителя, заранее обещают иерархию результата.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland HP704: клавиатура PHA-50 и характеристики",
+          "url": "https://www.roland.com/global/products/hp704/",
+          "verified_facts": {
+            "keyboard": "PHA-50",
+            "key_count": 88,
+            "cabinet_format": true
+          },
+          "fact_note": "Название PHA-50 заменяет неопределённое превосходство. Оно не превращено в гарантию лучшего результата для любого исполнителя."
+        }
+      ]
+    },
+    {
+      "slug": "roland-lx5-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Сохраняется домашнее сравнение с привычным инструментом. «Младшая современная», «более точная механика» и обещание повысить качество заменяются конкретной PHA-50, акустической системой и сравнительной пробой.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland LX-5: клавиатура PHA-50 и акустическая система",
+          "url": "https://www.roland.com/global/products/lx-5/",
+          "verified_facts": {
+            "keyboard": "PHA-50",
+            "key_count": 88,
+            "speaker_system_manufacturer_count": 4
+          },
+          "fact_note": "Производитель указывает систему с четырьмя динамиками. Количество используется как описание комплектации, без вывода о гарантированно лучшем звуке."
+        }
+      ]
+    },
+    {
+      "slug": "roland-lx6-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Сохраняется усложнение программы. Исправляется двусмысленность «более длинная клавиатура» и обещание более точного отклика: источник говорит о длинных отдельных клавишах, а диапазон имеет 88 клавиш.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland LX-6: Hybrid Grand и акустическая система",
+          "url": "https://www.roland.com/global/products/lx-6/",
+          "verified_facts": {
+            "keyboard": "Hybrid Grand",
+            "key_count": 88,
+            "long_keys": true,
+            "speaker_system_manufacturer_count": 5
+          },
+          "fact_note": "Длинными названы отдельные клавиши Hybrid Grand; спецификация по-прежнему указывает 88 клавиш. Исходное «более длинная клавиатура» заменено названием конструкции и точным числом клавиш."
+        }
+      ],
+      "canon_refinement": "Сохранено подтверждённое свойство длинных отдельных клавиш, диапазон прямо указан как 88 клавиш; ранг педагогического результата не добавлен."
+    },
+    {
+      "slug": "roland-lx9-v-arendu",
+      "brand": "Roland",
+      "body_decision": "enrich",
+      "reason": "Сохраняется период интенсивной учёбы или профессиональной работы. Вместо «самой развитой» клавиатуры и «максимально точной» обратной связи названы подтверждённые особенности Hybrid Grand, вибрации клавиш и акустики.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "incoming_labels"
+      ],
+      "changed_fields": [
+        "description",
+        "intro",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "title": "Roland LX-9: Hybrid Grand, вибрация клавиш и акустическая система",
+          "url": "https://www.roland.com/global/products/lx-9/",
+          "verified_facts": {
+            "keyboard": "Hybrid Grand",
+            "key_count": 88,
+            "haptic_key_vibration": true,
+            "speaker_system_manufacturer_count": 8
+          },
+          "fact_note": "Названы конкретные особенности — тактильная вибрация клавиш и система с восемью динамиками. Снято обещание максимально точной обратной связи."
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskoe-pianino",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Самостоятельная сцена акустической домашней практики раскрыта через механику, непосредственный звук комнаты, настройку, посадку и перевозку. Нет универсальной рекомендации марки или обещания, что акустический инструмент подходит каждому. Образная итоговая фраза об обучающем прикосновении согласуется с каноном и сохраняется.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/selection/",
+          "supports": "Вертикальная механика пианино отличается от горизонтальной механики рояля; предметная разница не сводится к корпусу."
+        },
+        {
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/selection/selection002.html",
+          "supports": "Удар молоточка, колебание струны и передача колебаний деке в акустическом звукообразовании."
+        }
+      ]
+    },
+    {
+      "slug": "arenda-akkordeona-moskva",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Различены правая клавиатура, басовая система, реальная посадка и движение меха; число басов не объявлено единой шкалой размера. Проба по программе и время на освоение временной замены сохранены. Hohner подтверждает клавишные, кнопочные и готово-выборные системы; конкретных ложных обобщений не найдено.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://hohner.de/en/instruments/accordions",
+          "supports": "Клавишные и кнопочные правые системы, chromatic/diatonic, переключаемый standard/free bass."
+        }
+      ]
+    },
+    {
+      "slug": "arenda-bayana-moskva",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Текст задаёт предметные вопросы: готовый/выборный бас, программа, посадка, управление мехом и привычная модель. Крупный корпус не назначается «на вырост». Отзывчивость описана как требование к подобранному экземпляру, а не гарантированный эффект марки; хороший текст сохраняется.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://hohner.de/en/instruments/accordions",
+          "supports": "Различие standard bass, free bass и converter."
+        },
+        {
+          "url": "https://harmonica-tula.ru/",
+          "supports": "Действующий изготовитель отдельно представляет баяны, гармони и аккордеоны. Его маркетинговые универсальные сравнения в текст не переносятся."
+        }
+      ]
+    },
+    {
+      "slug": "elektromehanicheskie-klavishnye",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Сохранена физическая природа электромеханического пианино и роль всей цепи звукосниматель–усиление. Rhodes, Wurlitzer и Clavinet не объявлены тождественными по механике или тембру. Студийный выбор между звуком инструмента, усилителя и обработкой является самостоятельной полезной сценой.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://rhodesmusic.com/rhodes-mk8/",
+          "supports": "Официальная индексированная страница описывает electro-mechanical tine piano, tines, pickups, dampers и педальный механизм. Это конкретное основание Rhodes, без приписывания этой конструкции всем трём названным инструментам.",
+          "access_note": "Первое открытие вернуло карточку страницы; повторное извлечение дало 502. Содержимое изготовителя прочитано в результатах поиска по официальному домену. Временную ошибку извлечения не выдаём за доказательство неработающего публичного URL."
+        }
+      ]
+    },
+    {
+      "slug": "fortepiano",
+      "group": "remaining_legacy",
+      "body_decision": "enrich",
+      "reason": "В блоке о цифровом пианино мобильность перечислена как свойство всей категории. Цифровые пианино бывают переносными и тяжёлыми корпусными; удобство перевозки не следует из электронного звукообразования. Уточняем только этот абзац, сохраняя обучающий отклик, механику, акустические различия и выбор по музыке. Добавленный источник показывает конкретный корпусный цифровой пример.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [
+        "blocks",
+        "sources"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/selection/selection002.html",
+          "supports": "Разное звукообразование, электронная регулировка и зависимость ощущений цифровой клавиатуры от модели. Общие маркетинговые слова о лёгкости не распространяем на каждую конструкцию."
+        },
+        {
+          "url": "https://www.kawai-global.com/product/ca901/",
+          "supports": "Корпусный цифровой CA901 имеет массу 82,5 кг либо 91,5 кг в указанной отделке; это прямой пример, почему цифровое звукообразование не равно удобству регулярной переноски."
+        },
+        {
+          "url": "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+          "supports": "P-225 описана как переносная модель с отдельными стойкой и педальными аксессуарами. Сравнение форматов является редакционным выводом из двух конкретных конструкций."
+        }
+      ]
+    },
+    {
+      "slug": "istoricheskie-klavishnye",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Содержательно различены щипок клавесина, выразительное касание клавикорда и ранняя молоточковая механика. Дальнейший выбор связан с репертуаром, строем, ансамблем и диапазоном. Современная реконструкция не обесценена возрастом древесины; текст не требует увеличения объёма.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/504534",
+          "supports": "Музей описывает тихое звукообразование клавикорда через тангент, управление оттенками громкости и bebung. Именно это подтверждает данная музейная ссылка; она не объявляется каталогом всех исторических механик."
+        }
+      ]
+    },
+    {
+      "slug": "midi-klaviatury",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Разделены данные управления и источник звука, ощущения клавиатуры и готовность всей системы. Есть конкретная разница домашней записи и концертной подготовки. Текст не утверждает, что всякое устройство с MIDI лишено встроенного звука: без источника не звучит именно контроллер как интерфейс. Правок не требуется.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://support.roland.com/hc/en-us/articles/115002212963-FA-06-FA-07-FA-08-Using-DAW-Control-Mode",
+          "supports": "Официальный пример MIDI-управления DAW и согласования портов/режимов. Конкретная настройка FA не превращается в обязательную инструкцию для любых контроллеров."
+        }
+      ]
+    },
+    {
+      "slug": "organy",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Мануалы, педальная клавиатура, регистры и акустическое пространство связаны с партией. Большой стационарный орган отделён от переносимого инструмента; доставка архитектурного органа не обещана. Образную формулу об архитектуре звука не трактуем как запрет существования одномануального органа.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/pipeorgan/mechanism/",
+          "supports": "Мануалы, педальная клавиатура, подача воздуха и выбор труб."
+        },
+        {
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/pipeorgan/play/play002.html",
+          "supports": "Роль регистров в выборе тембра и высотного слоя."
+        }
+      ]
+    },
+    {
+      "slug": "orkestrovye-klavishnye",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Партитура, тембр, диапазон и репетиционный график объясняют временный доступ; клавиши не служат основанием взаимозаменяемости челесты, фортепиано и органа. Удар по металлическим пластинам челесты подтверждается Yamaha. Краткость соответствует самостоятельной вводной теме.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/celesta/mechanism/",
+          "supports": "Металлические звуковые пластины, молоточки и резонаторные коробки челесты."
+        }
+      ]
+    },
+    {
+      "slug": "royal",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Объяснены горизонтальная механика, низкий регистр, проекция, конкретный зал и ансамблевый баланс. Yamaha подтверждает возврат молоточка под собственным весом и отличие повторения. В текст не перенесены универсальные частотные нормативы или вывод, что размер/марка автоматически гарантируют лучший результат. Сохраняем авторскую логику управляемого качества.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/selection/",
+          "supports": "Горизонтальная механика и возврат молоточков под собственным весом. Опубликованные в источнике примерные числовые пределы повторения не перенесены как универсальная норма."
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Хорошая общая сцена концертной работы: переключения, разделение клавиатуры, комплект, мониторинг и внимание внутри музыки. Перечень балансных выходов, DI и других частей тракта не утверждает обязательность их одновременного наличия у любой модели. Источниковая таблица сама по себе не нужна этому редакционному способу подготовки.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": []
+    },
+    {
+      "slug": "sintezatory",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Текст отличает исполнение на готовом тембре от создания и изменения звука, учитывает голоса, управление, память и сцену. Разные методы синтеза названы без неверного единого набора для каждой модели; Korg приведён как конкретный пример сочетания аналоговой и цифровой генерации. Полезные различия сохраняются.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.korg.com/us/products/synthesizers/minilogue_xd/",
+          "supports": "Конкретный инструмент сочетает аналоговые VCO и цифровой multi-engine, включая VPM/FM и пользовательские осцилляторы. Он также показывает сохранение программ и органы управления, без утверждения одинаковых функций у всех синтезаторов."
+        }
+      ]
+    },
+    {
+      "slug": "violonchel-knilling",
+      "group": "remaining_legacy",
+      "body_decision": "keep",
+      "reason": "Прочитано всё старое тело вместе с поздним дополнением. Запрос марки уточняется до серии, размера, полного названия и установленного комплекта; Bucharest Cello действительно описана изготовителем. Общая возможность разных учебных этапов не объявлена рекомендацией любой Knilling консерваторцу. Необходимость проверки шпиля и посадки сохраняет независимость экземпляра от марки.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [],
+      "primary_sources": [
+        {
+          "url": "https://www.knilling.com/instruments/157/",
+          "supports": "Изготовитель отдельно публикует Bucharest Carved Cello, её спецификацию и комплект; это не универсальная педагогическая рекомендация всей марки."
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-p225-v-arendu",
+      "group": "remaining_legacy",
+      "body_decision": "enrich",
+      "reason": "GHC, 88 клавиш, CFX voice и поддержка дополнительных трёхпедальных блоков подтверждены; динамическая проба и полноценная домашняя посадка полезны. Однако заголовок блока педалей превращает один sustain и три педали в обязательные учебные ступени, а итоговая формула приравнивает полноценность места к трём педалям. Yamaha прямо подтверждает полупедаль с одиночной FC3A. Меняем блок педалей и заключительный вопрос, сохраняя прочий текст и философию качества.",
+      "public_fields_read": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "kicker",
+        "intro",
+        "blocks",
+        "quote",
+        "sources",
+        "outgoing_labels",
+        "parent_labels",
+        "other_incoming_labels"
+      ],
+      "changed_fields": [
+        "blocks",
+        "quote"
+      ],
+      "primary_sources": [
+        {
+          "url": "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+          "supports": "GHC, 88 клавиш, CFX voice, LP-1/FC35 и одиночная FC3A с полупедалью подтверждены официальной страницей.",
+          "scope_note": "Функция полупедали не требует непременно трёх педалей; дополнительные педальные действия и устройство установки выбирают по программе и совместимости."
+        }
+      ]
+    }
+  ],
+  "method_notes": [
+    "Сохраняются все адреса, заголовки, родители, kicker и маршруты. Пустые blocks и quote не заполняются ради длины.",
+    "Неподтверждённые сравнения качества и цены заменяются конкретной проверкой, сохраняя цель временного доступа и учебную обратную связь.",
+    "Название механики не доказывает тождество ощущений двух инструментов; корпус и номер модели не устанавливают учебный ранг.",
+    "Подтверждённое обозначение CA901 как флагмана сохранено; нейтральный язык сам по себе не является целью редактирования.",
+    "Заводская комплектация PX-S7000 отделена от согласования конкретной выдачи. Масса FP-90X 23,6 кг относится к инструменту с пюпитром."
+  ],
+  "related_canon": "../education-quality-canon.md"
+}
