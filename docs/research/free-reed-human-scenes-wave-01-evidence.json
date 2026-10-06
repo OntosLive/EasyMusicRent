@@ -1,0 +1,143 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Первая крупная волна свободноязычковых человеческих сцен: аккордеон, баян, гармонь, бандонеон, концертина, губная гармоника и мелодика.",
+  "base_subjects": 1532,
+  "new_subjects": 64,
+  "target_subjects": 1596,
+  "source_roles": {
+    "manufacturer_spec": "Подтверждает размер корпуса, число басов, клавиатурную/кнопочную систему, free-bass/convertor-функцию, строй и конструкцию конкретной модели.",
+    "education_context": "Подтверждает использование конкретного размерного или учебного формата в обучении.",
+    "system_reference": "Подтверждает существование разных систем инструмента: piano/button accordion, ready/free bass, diatonic/chromatic harmonica, English/Anglo/Duet concertina и др.",
+    "editorial_inference": "Связывает подтверждённую систему с человеческой сценой, способом пробы и смыслом временного доступа."
+  },
+  "package": {
+    "accordion": 16,
+    "bayan": 16,
+    "harmonica_melodica": 16,
+    "garmon_bandoneon_concertina": 16
+  },
+  "sources": {
+    "hohner_accordions": {
+      "url": "https://hohner.de/en/instruments/accordions",
+      "supports": [
+        "Piano/button accordions, ready/free-bass и системные различия."
+      ]
+    },
+    "weltmeister_perle": {
+      "url": "https://www.musikland-online.de/Weltmeister-PERLE-26-48-II-3-blau/",
+      "supports": [
+        "26/48 beginner accordion как компактная первая ступень."
+      ]
+    },
+    "weltmeister_rubin": {
+      "url": "https://www.musikland-online.de/Weltmeister-RUBIN-30-60-weiss/",
+      "supports": [
+        "30/60 как следующий компактный детский/учебный размер."
+      ]
+    },
+    "hohner_bravo_72": {
+      "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-iii-72",
+      "supports": [
+        "72-bass accordion как самостоятельная размерная ступень."
+      ]
+    },
+    "weltmeister_achat_72": {
+      "url": "https://www.accordeonshop.ru/catalog/akkordeony_weltmeister/achat_34_72_iii_5_3/",
+      "supports": [
+        "34/72 как другой учебный 72-басовый вариант."
+      ]
+    },
+    "hohner_bravo_freebass": {
+      "url": "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-i-49f",
+      "supports": [
+        "Компактный вход в melody/free-bass обучение."
+      ]
+    },
+    "tula": {
+      "url": "https://harmonica-tula.ru/",
+      "supports": [
+        "Российские семейства баянов и гармоней."
+      ]
+    },
+    "jupiter2d": {
+      "url": "https://www.bayanjupiter.com/models/jupiter2d.html",
+      "supports": [
+        "Готово-выборная архитектура Юпитер-2Д."
+      ]
+    },
+    "pigini_sirius": {
+      "url": "https://www.pigini.nl/webwinkel/accordions-en/convertor-en/super-bayan-sirius/?lang=en",
+      "supports": [
+        "Профессиональный convertor/free-bass баян как крупная концертная система."
+      ]
+    },
+    "pigini_kyma": {
+      "url": "https://www.pigini.nl/webwinkel/accordions-en/convertor-en/sirius-kyma/?lang=en",
+      "supports": [
+        "Меньший корпус внутри профессиональной convertor-линии."
+      ]
+    },
+    "hohner_harmonicas": {
+      "url": "https://hohner.de/en/instruments/harmonicas",
+      "supports": [
+        "Diatonic, chromatic и другие harmonica systems."
+      ]
+    },
+    "hohner_special20": {
+      "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20",
+      "supports": [
+        "Diatonic harmonica с доступным откликом."
+      ]
+    },
+    "hohner_chromatic": {
+      "url": "https://hohner.de/en/instruments/harmonicas/chromatic/chromonica/super-chromonica",
+      "supports": [
+        "Chromatic harmonica и slide mechanism."
+      ]
+    },
+    "hohner_melodica": {
+      "url": "https://hohner.de/en/instruments/melodica",
+      "supports": [
+        "Melodica как клавишно-дыхательный инструмент и варианты позиции исполнения."
+      ]
+    },
+    "yamaha_p32d": {
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html",
+      "supports": [
+        "32-key Pianica as educational format."
+      ]
+    },
+    "suzuki_m32c": {
+      "url": "https://suzukimusic-global.com/products_single.php?products_cd=125",
+      "supports": [
+        "32-key educational Melodion."
+      ]
+    },
+    "aa_bandoneon": {
+      "url": "https://aa-bandoneon.de/en/beispiel-seite/",
+      "supports": [
+        "Разные системы бандонеона."
+      ]
+    },
+    "ica_concertina": {
+      "url": "https://concertina.org/concertina-systems/",
+      "supports": [
+        "English, Anglo и Duet systems."
+      ]
+    },
+    "concertina_connection": {
+      "url": "https://concertinaconnection.com/",
+      "supports": [
+        "Современные инструменты нескольких concertina systems."
+      ]
+    }
+  },
+  "editorial_rules": [
+    "Число басов трактуется как размерно-функциональная координата, а не рейтинг качества.",
+    "Баян и аккордеон не смешиваются: правая клавиатурная система является самостоятельным интерфейсом.",
+    "Выборный/free bass публикуется как новая функция левой руки, а не премиальная опция.",
+    "Губная гармоника сначала различается по системе и тональности, затем по жанру.",
+    "Гармонь, бандонеон и концертина требуют точного выбора исполнительской системы до бренда.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ]
+}
