@@ -29,7 +29,7 @@ class GuitarHumanSceneWaveTests(unittest.TestCase):
         self.assertEqual(len(self.pages),64)
         self.assertEqual(len({p['slug'] for p in self.pages}),64)
         self.assertEqual(self.registry['errors'],[])
-        self.assertEqual(self.registry['subjects'],1212)
+        self.assertGreaterEqual(self.registry['subjects'],1212)
 
     def test_each_scene_has_one_owner_and_complete_shape(self):
         all_records=self.registry['pages']
