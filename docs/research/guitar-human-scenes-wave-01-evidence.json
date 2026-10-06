@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-06",
+  "scope": "Первая крупная волна человеческих гитарных сцен: акустика, электроакустика, электрогитара, бас, классическая и специальные гитары.",
+  "base_subjects": 1148,
+  "new_subjects": 64,
+  "target_subjects": 1212,
+  "source_roles": {
+    "manufacturer_spec": "Подтверждает конструкцию, мензуру, конфигурацию датчиков, органы управления и позиционирование конкретной модели/серии. Не превращается в универсальную педагогическую рекомендацию.",
+    "manufacturer_guide": "Даёт общие различения формы корпуса, типа струн и исполнительских применений. Используется как предметный ориентир, а не как обязательный рейтинг.",
+    "school_program": "Подтверждает учебные действия и принцип индивидуального подбора в конкретной программе. Не назначает обязательную модель для всех учеников.",
+    "editorial_inference": "Связывает подтверждённое свойство инструмента с человеческой сценой и способом пробы. Это вывод фонда, а не цитата источника."
+  },
+  "sources": {
+    "yamaha_acoustic_guide": {
+      "kind": "manufacturer_guide",
+      "url": "https://www.yamaha.com/US/houseofworship/downloadables/How-to-Choose-Guides/How-to-Choose-an-Acoustic-Guitar.pdf",
+      "supports": [
+        "Различия акустических корпусов, влияние формы на удобство и проекцию, steel/nylon distinction, роль cutaway."
+      ]
+    },
+    "yamaha_fgfs": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-9/",
+      "supports": [
+        "FG как более крупный dreadnought-style корпус; FS как меньший concert-style корпус; различия в проекции и чувствительности."
+      ]
+    },
+    "fender_beginner_acoustic": {
+      "kind": "manufacturer_guide",
+      "url": "https://www.fender.com/articles/instruments/beginner-acoustic-guitar-gear-guide",
+      "supports": [
+        "Steel-string beginner context, различия корпусов, принадлежности и начальная практика."
+      ]
+    },
+    "yamaha_pacifica_112v": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/explore/pacifica-112v/",
+      "supports": [
+        "HSS, пятиступенчатый переключатель, coil split, vibrato bridge, learner positioning."
+      ]
+    },
+    "fender_playerii_strat": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.fender.com/products/player-ii-stratocaster",
+      "supports": [
+        "SSS, пятиступенчатое переключение, 25.5-inch scale, 2-point synchronized tremolo."
+      ]
+    },
+    "fender_playerii_hss": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.fender.com/products/player-ii-stratocaster-hss",
+      "supports": [
+        "HSS-конфигурация и tremolo."
+      ]
+    },
+    "fender_playerii_tele": {
+      "kind": "manufacturer_spec",
+      "url": "https://eu.fender.com/products/player-ii-telecaster",
+      "supports": [
+        "Два single-coil, трёхпозиционное переключение, 25.5-inch scale, fixed Tele bridge."
+      ]
+    },
+    "gibson_sg_standard": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.gibson.com/products/gibson-sg-standard-heritage-cherry",
+      "supports": [
+        "Двухhumbuckerная архитектура SG Standard."
+      ]
+    },
+    "fender_playerii_precision": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.fender.com/products/player-ii-precision-bass",
+      "supports": [
+        "34-inch scale, split single-coil, passive volume/tone, nut width."
+      ]
+    },
+    "fender_playerii_jazz": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.fender.com/products/player-ii-jazz-bass",
+      "supports": [
+        "34-inch scale, два Jazz Bass single-coil с раздельными громкостями и master tone, nut width."
+      ]
+    },
+    "fender_mini_precision": {
+      "kind": "manufacturer_spec",
+      "url": "https://ch.fender.com/en/products/mini-precision-bass",
+      "supports": [
+        "28.6-inch scale, thin/lightweight body, simple split single-coil scheme."
+      ]
+    },
+    "ibanez_sr300e": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.ibanez.com/usa/products/detail/sr300e_1p_05.html",
+      "supports": [
+        "PowerSpan Dual Coil pickups, 3-band active EQ, three-way Power Tap switching."
+      ]
+    },
+    "ru_classical_guitar_engels": {
+      "kind": "school_program",
+      "url": "https://engart1.ru/wp-content/uploads/PO.01.-UP.01.-Spetsialnost-Klassicheskaya-gitara.pdf",
+      "supports": [
+        "Индивидуальный подбор размера, посадка, постановка рук, apoyando, tirando, арпеджио, экзаменационные и конкурсные контексты."
+      ]
+    },
+    "yamaha_flamenco": {
+      "kind": "manufacturer_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/classical_guitar/mechanism/mechanism003.html",
+      "supports": [
+        "Конструктивные и исполнительские различия flamenco guitar."
+      ]
+    },
+    "beard_resonator": {
+      "kind": "manufacturer_spec",
+      "url": "https://beardguitars.com/radio-standard/",
+      "supports": [
+        "Round-neck/square-neck and resonator construction distinctions."
+      ]
+    },
+    "taylor_baritone": {
+      "kind": "manufacturer_guide",
+      "url": "https://www.taylorguitars.com/guitars/acoustic/features/specialty/baritone",
+      "supports": [
+        "Баритонная гитара как отдельная длинномензурная низко настроенная конфигурация."
+      ]
+    },
+    "taylor_12string": {
+      "kind": "manufacturer_guide",
+      "url": "https://www.taylorguitars.com/guitars/acoustic/features/specialty/12-string",
+      "supports": [
+        "Парные курсы, варианты корпусов и исполнительская специфика 12-string."
+      ]
+    }
+  },
+  "package": {
+    "acoustic_and_electroacoustic": 20,
+    "electric": 20,
+    "bass": 16,
+    "classical_and_special": 8
+  },
+  "editorial_rules": [
+    "Новая страница существует только при самостоятельной музыкальной или человеческой задаче.",
+    "Жанровый вход не назначает обязательную модель: он формулирует проверяемое действие внутри ансамбля или партии.",
+    "Перед покупкой, переход между типами инструмента и отдельный строй являются самостоятельными сценами временного доступа.",
+    "Модельные источники подтверждают свойства кандидатов; решение о пригодности остаётся сценическим и исполнительским.",
+    "Никакого перемножения город × инструмент × срок × синоним в этой волне не использовалось."
+  ]
+}
