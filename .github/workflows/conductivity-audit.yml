@@ -1,0 +1,22 @@
+name: Temporary conductivity audit
+
+on:
+  push:
+    branches:
+      - codex/conductivity-audit-02
+    paths:
+      - 'scripts/conductivity_audit.py'
+      - '.github/workflows/conductivity-audit.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install compiler dependency
+        run: pip install -r requirements-site.txt
+      - name: Measure subject graph conductivity
+        run: python scripts/conductivity_audit.py
