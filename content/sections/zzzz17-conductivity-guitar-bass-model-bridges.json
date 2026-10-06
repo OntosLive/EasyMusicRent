@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "yamaha-fg800-v-arendu": [
+      {
+        "label": "Акустическая гитара для игры боем",
+        "href": "/akusticheskaya-gitara-dlya-igry-boem/"
+      },
+      {
+        "label": "Акустическая гитара перед покупкой",
+        "href": "/akusticheskaya-gitara-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-fgx800c-v-arendu": [
+      {
+        "label": "Электроакустика для репетиции с группой",
+        "href": "/elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy/"
+      },
+      {
+        "label": "Подключение электроакустики в пульт",
+        "href": "/elektroakusticheskaya-gitara-dlya-podklyucheniya-v-pult/"
+      }
+    ],
+    "yamaha-pac112v-v-arendu": [
+      {
+        "label": "Первая электрогитара",
+        "href": "/elektrogitara-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Электрогитара HSS",
+        "href": "/elektrogitara-s-hss-datchikami/"
+      }
+    ],
+    "ibanez-sr300e-v-arendu": [
+      {
+        "label": "Бас-гитара перед покупкой",
+        "href": "/bas-gitara-pered-pokupkoy/"
+      },
+      {
+        "label": "Бас с двумя звукоснимателями",
+        "href": "/bas-gitara-s-dvumya-zvukosnimatelyami/"
+      }
+    ],
+    "fender-player-ii-stratocaster-sss-v-arendu": [
+      {
+        "label": "Три single-coil датчика",
+        "href": "/elektrogitara-s-tremya-singlami/"
+      },
+      {
+        "label": "Электрогитара для чистого звука",
+        "href": "/elektrogitara-dlya-chistogo-zvuka/"
+      }
+    ],
+    "fender-player-ii-telecaster-v-arendu": [
+      {
+        "label": "Фиксированный бридж",
+        "href": "/elektrogitara-s-fiksirovannym-bridzhem/"
+      },
+      {
+        "label": "Электрогитара для чистого звука",
+        "href": "/elektrogitara-dlya-chistogo-zvuka/"
+      }
+    ],
+    "fender-player-ii-precision-bass-v-arendu": [
+      {
+        "label": "Бас с простым управлением",
+        "href": "/bas-gitara-s-prostym-upravleniem/"
+      },
+      {
+        "label": "Бас-гитара для рока",
+        "href": "/bas-gitara-dlya-roka/"
+      }
+    ],
+    "fender-player-ii-jazz-bass-v-arendu": [
+      {
+        "label": "Бас с двумя звукоснимателями",
+        "href": "/bas-gitara-s-dvumya-zvukosnimatelyami/"
+      },
+      {
+        "label": "Бас-гитара для фанка",
+        "href": "/bas-gitara-dlya-fanka/"
+      }
+    ],
+    "gibson-sg-standard-v-arendu": [
+      {
+        "label": "Два humbucker",
+        "href": "/elektrogitara-s-dvumya-hambakerami/"
+      },
+      {
+        "label": "Электрогитара для перегруза",
+        "href": "/elektrogitara-dlya-peregruza/"
+      }
+    ],
+    "rickenbacker-330-v-arendu": [
+      {
+        "label": "Электрогитара для чистого звука",
+        "href": "/elektrogitara-dlya-chistogo-zvuka/"
+      },
+      {
+        "label": "Электрогитара для сессии",
+        "href": "/elektrogitara-dlya-sessii/"
+      }
+    ],
+    "fender-cd60s-v-arendu": [
+      {
+        "label": "Акустическая гитара для игры боем",
+        "href": "/akusticheskaya-gitara-dlya-igry-boem/"
+      },
+      {
+        "label": "Акустическая гитара перед покупкой",
+        "href": "/akusticheskaya-gitara-pered-pokupkoy/"
+      }
+    ],
+    "fender-cc60s-v-arendu": [
+      {
+        "label": "Акустика с компактным корпусом",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      },
+      {
+        "label": "Акустическая гитара подростку",
+        "href": "/akusticheskaya-gitara-podrostku/"
+      }
+    ],
+    "squier-mini-stratocaster-v-arendu": [
+      {
+        "label": "Электрогитара для небольшой руки",
+        "href": "/elektrogitara-dlya-nebolshoy-ruki/"
+      },
+      {
+        "label": "Первая электрогитара",
+        "href": "/elektrogitara-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "ibanez-pgmm31-v-arendu": [
+      {
+        "label": "Электрогитара для небольшой руки",
+        "href": "/elektrogitara-dlya-nebolshoy-ruki/"
+      },
+      {
+        "label": "Электрогитара перед покупкой",
+        "href": "/elektrogitara-pered-pokupkoy/"
+      }
+    ],
+    "squier-mini-precision-bass-v-arendu": [
+      {
+        "label": "Короткая мензура для небольшой руки",
+        "href": "/bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki/"
+      },
+      {
+        "label": "Короткомензурный бас взрослому",
+        "href": "/korotkomensurnaya-bas-gitara-vzroslomu/"
+      }
+    ],
+    "ibanez-gsrm20-v-arendu": [
+      {
+        "label": "Короткая мензура для небольшой руки",
+        "href": "/bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki/"
+      },
+      {
+        "label": "Бас-гитара перед покупкой",
+        "href": "/bas-gitara-pered-pokupkoy/"
+      }
+    ]
+  }
+}
