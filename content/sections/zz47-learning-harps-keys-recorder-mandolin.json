@@ -135,18 +135,18 @@
       "slug": "lyon-healy-drake-v-arendu",
       "parent": "leversnaya-arfa",
       "search_title": "Арфа Lyon & Healy Drake в аренду",
-      "editorial_title": "Lyon & Healy Drake: лёгкое натяжение для первого полноценного 34-струнного диапазона",
-      "description": "Lyon & Healy Drake: 34-string light-tension lever harp, 10 kg, beginner-oriented and available in official rental program.",
-      "kicker": "DRAKE · 34 СТРУНЫ · LIGHT TENSION",
+      "editorial_title": "Lyon & Healy Drake: 34 струны с леверсным натяжением для учебной практики",
+      "description": "Lyon & Healy Drake: 34-струнная леверсная арфа учебного класса, 10 кг, с леверсными синтетическими и металлическими струнами.",
+      "kicker": "DRAKE · 34 СТРУНЫ · ЛЕВЕРСНОЕ НАТЯЖЕНИЕ",
       "intro": [
-        "<p>После совсем маленькой арфы ученику может понадобиться полноценный 34‑струнный диапазон, но педальное натяжение пока не является целью. Drake создан именно как light-tension lever harp и производитель прямо описывает её как вдохновляющий инструмент для начинающего любого возраста.</p>"
+        "<p>После совсем маленькой арфы ученику может понадобиться полноценный 34‑струнный диапазон, при этом переход к педальному натяжению ещё не является целью. В актуальной rental-программе Lyon & Healy Drake указана с леверсными синтетическими и металлическими струнами. Это даёт понятную точку сравнения с Ogden, где производитель прямо указывает pedal tension.</p>"
       ],
       "blocks": [
         {
           "label": "01 / НАТЯЖЕНИЕ",
-          "title": "Лёгкие струны меняют нагрузку пальцев на первых годах",
+          "title": "Леверсное натяжение — отдельный учебный вариант",
           "paragraphs": [
-            "На пробе ученик играет простое арпеджио и повторяющиеся ноты. Нужно понять, может ли он добиться ясной атаки без лишнего сжатия кисти. Light tension является реальным свойством модели, но педагог решает, соответствует ли оно его технике."
+            "На пробе ученик играет знакомое арпеджио и повторяющиеся ноты. Нужно понять, остаётся ли кисть свободной и насколько предсказуемо возникает атака. Тип натяжения является свойством модели, однако его педагогический смысл определяет преподаватель: сама по себе более лёгкая или более плотная струна не является преимуществом."
           ]
         },
         {
@@ -167,12 +167,22 @@
       "quote": "Нужен больший диапазон при лёгком натяжении или преподаватель уже готовит ученика к pedal-tension арфе?",
       "sources": [
         {
-          "title": "Lyon & Healy: Drake",
-          "url": "https://www.lyonhealy.com/harps/drake/"
-        },
-        {
           "title": "Lyon & Healy: Lever Harp Rental Program",
           "url": "https://www.lyonhealy.com/rental-program-lever-harps/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Леверсная арфа ребёнку",
+          "href": "/leversnaya-arfa-rebenku/"
+        },
+        {
+          "label": "Подбор по натяжению струн",
+          "href": "/arfa-s-udobnym-natyazheniem-strun/"
+        },
+        {
+          "label": "Арфа для домашних занятий",
+          "href": "/arfa-dlya-domashnih-zanyatiy/"
         }
       ]
     },
@@ -181,8 +191,8 @@
       "parent": "leversnaya-arfa",
       "search_title": "Арфа Salvi Mia в аренду",
       "editorial_title": "Salvi Mia: компактная 34-струнная арфа как надёжный инструмент ежедневной практики",
-      "description": "Salvi Mia: 34-string compact lever harp in official Lyon & Healy/Salvi learning rental pool.",
-      "kicker": "SALVI MIA · 34 СТРУНЫ · BEGINNER",
+      "description": "Salvi Mia: компактная 34-струнная леверсная арфа для регулярной учебной практики.",
+      "kicker": "SALVI MIA · 34 СТРУНЫ · УЧЕБНАЯ ПРАКТИКА",
       "intro": [
         "<p>Salvi Mia находится в официальной программе учебной аренды Lyon & Healy/Salvi и в rental-брошюре описана как компактная, лёгкая и надёжная 34‑струнная арфа для начинающих любого возраста. Это хороший «золотой» ориентир именно для регулярной практики, а не универсально лучший инструмент.</p>"
       ],
@@ -218,6 +228,28 @@
         {
           "title": "Lyon & Healy rental brochure: Salvi Mia for beginners",
           "url": "https://www.lyonhealy.com/wp-content/uploads/2024/07/Rental_Program-brochure-OK-updated-7.19.24.pdf"
+        },
+        {
+          "title": "Salvi: техническая карточка Mia",
+          "url": "https://www.salviharps.com/wp-content/uploads/2016/05/Schede-website_Salvi-OK_Mia.pdf"
+        },
+        {
+          "title": "ДМШ им. Н. А. Римского-Корсакова: программа «Специальность (арфа)», 5(6) лет",
+          "url": "https://rimskors.ru/official/programmes/in-use/harp-5.pdf"
+        }
+      ],
+      "links": [
+        {
+          "label": "Арфа для домашних занятий",
+          "href": "/arfa-dlya-domashnih-zanyatiy/"
+        },
+        {
+          "label": "Леверсная арфа ребёнку",
+          "href": "/leversnaya-arfa-rebenku/"
+        },
+        {
+          "label": "Подбор по натяжению струн",
+          "href": "/arfa-s-udobnym-natyazheniem-strun/"
         }
       ]
     },
@@ -226,8 +258,8 @@
       "parent": "leversnaya-arfa",
       "search_title": "Арфа Lyon & Healy Ogden в аренду",
       "editorial_title": "Lyon & Healy Ogden: 34 струн с pedal tension как мост к педальной арфе",
-      "description": "Lyon & Healy Ogden: 34-string lever harp with pedal tension, adjustable legs and official learner rental availability.",
-      "kicker": "OGDEN · PEDAL TENSION · 34 STRINGS",
+      "description": "Lyon & Healy Ogden: 34-струнная леверсная арфа с педальным натяжением, регулируемой высотой и учебным применением.",
+      "kicker": "OGDEN · ПЕДАЛЬНОЕ НАТЯЖЕНИЕ · 34 СТРУНЫ",
       "intro": [
         "<p>Ogden решает особую учебную задачу: это леверсная арфа, но с pedal tension. Для ученика, который позже должен перейти на педальную арфу, сопротивление струны и spacing могут стать важнее минимального веса. Производитель одновременно адресует Ogden начинающим и профессиональным folk harpists.</p>"
       ],
@@ -263,6 +295,24 @@
         {
           "title": "Lyon & Healy: Lever Harp Rental Program",
           "url": "https://www.lyonhealy.com/rental-program-lever-harps/"
+        },
+        {
+          "title": "ДМШ им. Н. А. Римского-Корсакова: программа «Специальность (арфа)», 5(6) лет",
+          "url": "https://rimskors.ru/official/programmes/in-use/harp-5.pdf"
+        }
+      ],
+      "links": [
+        {
+          "label": "Подбор по натяжению струн",
+          "href": "/arfa-s-udobnym-natyazheniem-strun/"
+        },
+        {
+          "label": "Переход к педальной арфе",
+          "href": "/pedalnaya-arfa-pered-pokupkoy/"
+        },
+        {
+          "label": "Леверсная арфа ребёнку",
+          "href": "/leversnaya-arfa-rebenku/"
         }
       ]
     },
