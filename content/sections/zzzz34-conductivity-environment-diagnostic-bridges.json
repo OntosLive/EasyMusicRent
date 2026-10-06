@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-esli-slishkom-gromko-dlya-doma": [
+      {
+        "label": "Электроскрипка для занятий в наушниках",
+        "href": "/elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah/"
+      },
+      {
+        "label": "Электронные барабаны для дома",
+        "href": "/elektronnye-barabany-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-esli-ne-pomeschaetsya-v-komnate": [
+      {
+        "label": "Цифровое пианино для маленькой комнаты",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Акустическая гитара с компактным корпусом",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      }
+    ],
+    "instrument-esli-slozhno-perevozit": [
+      {
+        "label": "Электрический контрабас для гастролей",
+        "href": "/elektricheskiy-kontrabas-dlya-gastroley/"
+      },
+      {
+        "label": "Цифровое пианино для временного жилья",
+        "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/"
+      }
+    ],
+    "instrument-esli-dolgo-sobirat-pered-zanyatiem": [
+      {
+        "label": "Электронные барабаны для временного жилья",
+        "href": "/elektronnye-barabany-dlya-vremennogo-zhilya/"
+      },
+      {
+        "label": "Цифровое пианино для съёмной квартиры",
+        "href": "/cifrovoe-pianino-dlya-syemnoy-kvartiry/"
+      }
+    ],
+    "instrument-esli-nuzhno-igrat-v-naushnikah": [
+      {
+        "label": "Электроскрипка для занятий в наушниках",
+        "href": "/elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah/"
+      },
+      {
+        "label": "Электронные барабаны в наушниках",
+        "href": "/elektronnye-barabany-dlya-trenirovki-v-naushnikah/"
+      }
+    ],
+    "instrument-esli-nuzhno-podklyuchit-v-pult": [
+      {
+        "label": "Электроакустическая гитара прямо в пульт",
+        "href": "/elektroakusticheskaya-gitara-dlya-podklyucheniya-v-pult/"
+      },
+      {
+        "label": "Сценические клавишные для пианиста",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      }
+    ],
+    "instrument-esli-nuzhen-chistyy-di-signal": [
+      {
+        "label": "Электроскрипка для прямой записи",
+        "href": "/elektroskripka-dlya-zapisi-napryamuyu/"
+      },
+      {
+        "label": "Бас-гитара для прямой записи",
+        "href": "/bas-gitara-dlya-zapisi-napryamuyu/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-monitoringa": [
+      {
+        "label": "Электроакустика на репетиции с группой",
+        "href": "/elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy/"
+      },
+      {
+        "label": "Сценические клавишные для пианиста",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      }
+    ],
+    "instrument-esli-teryaetsya-v-ansamble": [
+      {
+        "label": "Акустическая гитара для ансамбля",
+        "href": "/akusticheskaya-gitara-dlya-ansamblya/"
+      },
+      {
+        "label": "Саксофон для камерного ансамбля",
+        "href": "/saksofon-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "instrument-esli-perekryvaet-golos": [
+      {
+        "label": "Акустическая гитара для автора песен",
+        "href": "/akusticheskaya-gitara-dlya-avtora-pesen/"
+      },
+      {
+        "label": "Ручная перкуссия для вокалиста",
+        "href": "/ruchnaya-perkussiya-dlya-vokalista/"
+      }
+    ],
+    "instrument-esli-slishkom-mnogo-nizkih-chastot": [
+      {
+        "label": "Акустическая гитара в ансамбле",
+        "href": "/akusticheskaya-gitara-dlya-ansamblya/"
+      },
+      {
+        "label": "Контрабас в камерном ансамбле",
+        "href": "/kontrabas-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-ataki": [
+      {
+        "label": "Бас-гитара для рок-группы",
+        "href": "/bas-gitara-dlya-rok-gruppy/"
+      },
+      {
+        "label": "Барабанная установка для рока",
+        "href": "/barabannaya-ustanovka-dlya-roka/"
+      }
+    ],
+    "instrument-esli-slishkom-dolgiy-sustain": [
+      {
+        "label": "Вибрафон: работа с педалью",
+        "href": "/vibrafon-dlya-raboty-s-pedalyu/"
+      },
+      {
+        "label": "Тарелки перед покупкой",
+        "href": "/tarelki-pered-pokupkoy/"
+      }
+    ],
+    "instrument-esli-mikrofon-slyshit-lishniy-shum": [
+      {
+        "label": "Электроскрипка для прямой записи",
+        "href": "/elektroskripka-dlya-zapisi-napryamuyu/"
+      },
+      {
+        "label": "Цифровое пианино для записи audio",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      }
+    ],
+    "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene": [
+      {
+        "label": "Сценические клавишные для быстрых переключений",
+        "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/"
+      },
+      {
+        "label": "Workstation для концертного сета",
+        "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/"
+      }
+    ],
+    "instrument-esli-nuzhen-rezerv-na-kontsert": [
+      {
+        "label": "Электрогитара на гастрольную замену",
+        "href": "/elektrogitara-dlya-zameny-na-gastrolyah/"
+      },
+      {
+        "label": "Сценические клавишные на гастрольную замену",
+        "href": "/scenicheskie-klavishnye-dlya-gastrolnoy-zameny/"
+      }
+    ]
+  }
+}
