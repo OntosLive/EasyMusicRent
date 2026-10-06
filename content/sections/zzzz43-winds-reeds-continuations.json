@@ -1,0 +1,326 @@
+{
+  "navigation": {
+    "altovyy-klarinet": [
+      {
+        "label": "Отличить от бассетгорна",
+        "href": "/bassetgorn/"
+      },
+      {
+        "label": "Собрать кларнетовый ансамбль",
+        "href": "/instrumenty-dlya-klarnetovogo-ansamblya/"
+      }
+    ],
+    "bassetgorn": [
+      {
+        "label": "Бассетгорн или альтовый кларнет",
+        "href": "/altovyy-klarinet/"
+      },
+      {
+        "label": "Партии кларнетового ансамбля",
+        "href": "/instrumenty-dlya-klarnetovogo-ansamblya/"
+      }
+    ],
+    "duhovoy-s-legkim-otklikom": [
+      {
+        "label": "Если тихая нота не начинается",
+        "href": "/instrument-esli-tihaya-nota-ne-nachinaetsya/"
+      },
+      {
+        "label": "Если регистры отвечают по-разному",
+        "href": "/instrument-esli-zvuk-nerovnyy-po-diapazonu/"
+      }
+    ],
+    "fleyta-dlya-saksofonista": [
+      {
+        "label": "Освоить флейтовый звук",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      }
+    ],
+    "fleyta-na-vremya-remonta": [
+      {
+        "label": "Проверить тихую атаку",
+        "href": "/instrument-esli-tihaya-nota-ne-nachinaetsya/"
+      },
+      {
+        "label": "Подготовить концерт на замене",
+        "href": "/fleyta-dlya-kontserta/"
+      }
+    ],
+    "fleyta-s-izognutoy-golovkoy": [
+      {
+        "label": "Gemeinhardt 2SPCH: две головки",
+        "href": "/gemeinhardt-2spch-v-arendu/"
+      },
+      {
+        "label": "Trevor James 10x: вариант головки",
+        "href": "/trevor-james-10x-v-arendu/"
+      }
+    ],
+    "goboy-dlya-kontserta": [
+      {
+        "label": "Гобой и фортепиано в дуэте",
+        "href": "/instrumenty-dlya-dueta-goboy-fortepiano/"
+      }
+    ],
+    "goboy-dlya-nebolshoy-ruki": [
+      {
+        "label": "Yamaha YOB-241: ученическая система",
+        "href": "/yamaha-yob241-v-arendu/"
+      },
+      {
+        "label": "Проверить опору большого пальца",
+        "href": "/instrument-esli-bolshoy-palets-ne-nahodit-oporu/"
+      }
+    ],
+    "goboy-dlya-studii": [
+      {
+        "label": "Нижние ноты партии",
+        "href": "/instrument-esli-ne-hvataet-nizhnego-registra/"
+      },
+      {
+        "label": "Побочные шумы в записи",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      }
+    ],
+    "goboy-na-proslushivanie": [
+      {
+        "label": "Порог тихого вступления",
+        "href": "/instrument-esli-tihaya-nota-ne-nachinaetsya/"
+      },
+      {
+        "label": "Повторить программу прослушивания",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      }
+    ],
+    "hromaticheskaya-garmonika-dlya-melodicheskoy-linii": [
+      {
+        "label": "Динамика длинной фразы",
+        "href": "/instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu/"
+      },
+      {
+        "label": "Хроматическая линия в джазе",
+        "href": "/hromaticheskaya-garmonika-dlya-dzhaza/"
+      }
+    ],
+    "hromaticheskaya-garmonika-pered-pokupkoy": [
+      {
+        "label": "Проба на длинной мелодии",
+        "href": "/hromaticheskaya-garmonika-dlya-melodicheskoy-linii/"
+      },
+      {
+        "label": "Проба в джазовом ансамбле",
+        "href": "/hromaticheskaya-garmonika-dlya-dzhaza/"
+      }
+    ],
+    "klarinet-na-vremya-remonta": [
+      {
+        "label": "Если в партии кларнет in A",
+        "href": "/klarinet-in-a/"
+      },
+      {
+        "label": "Подготовить концерт на замене",
+        "href": "/klarinet-dlya-kontserta/"
+      }
+    ],
+    "kontrabasovyy-klarinet": [
+      {
+        "label": "Низкий голос в ансамбле",
+        "href": "/instrumenty-dlya-klarnetovogo-ansamblya/"
+      },
+      {
+        "label": "Сопоставить с бас-кларнетом",
+        "href": "/bas-klarinet/"
+      }
+    ],
+    "kornet-dlya-nebolshoy-ruki": [
+      {
+        "label": "Yamaha YCR-2330III",
+        "href": "/yamaha-ycr2330iii-v-arendu/"
+      },
+      {
+        "label": "Besson Prodige 120",
+        "href": "/besson-prodige120-v-arendu/"
+      }
+    ],
+    "legkaya-valtorna-rebenku": [
+      {
+        "label": "Yamaha YHR-314II: одинарная F",
+        "href": "/yamaha-yhr314ii-v-arendu/"
+      },
+      {
+        "label": "Когда нужна двойная система",
+        "href": "/valtorna-dlya-perehoda-na-dvoynuyu-sistemu/"
+      }
+    ],
+    "legkiy-evfonium-rebenku": [
+      {
+        "label": "Yamaha YEP-201: три клапана",
+        "href": "/yamaha-yep201-v-arendu/"
+      },
+      {
+        "label": "Besson Prodige 162: система 3+1",
+        "href": "/besson-prodige-162-v-arendu/"
+      }
+    ],
+    "saksofon-dlya-semki": [
+      {
+        "label": "Сопрано: форма и голос",
+        "href": "/saksofon-soprano/"
+      },
+      {
+        "label": "Альт: положение и звучание",
+        "href": "/saksofon-alt/"
+      },
+      {
+        "label": "Тенор: корпус и фраза",
+        "href": "/saksofon-tenor/"
+      }
+    ],
+    "saksofon-na-vremya-remonta": [
+      {
+        "label": "Подготовить концерт на замене",
+        "href": "/saksofon-dlya-kontserta/"
+      }
+    ],
+    "saksofon-vzroslomu-nachinayuschemu": [
+      {
+        "label": "Первая проба альта",
+        "href": "/saksofon-alt-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Первая проба тенора",
+        "href": "/saksofon-tenor-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Первые занятия с преподавателем",
+        "href": "/instrument-dlya-vzroslogo-novichka-s-prepodavatelem/"
+      }
+    ],
+    "trombon-dlya-korotkoy-ruki": [
+      {
+        "label": "Yamaha YSL-350C: короткие позиции",
+        "href": "/yamaha-ysl350c-v-arendu/"
+      }
+    ],
+    "tuba-podhodyaschego-razmera-rebenku": [
+      {
+        "label": "Yamaha YBB-105: формат 3/4",
+        "href": "/yamaha-ybb105-v-arendu/"
+      },
+      {
+        "label": "Посадка и место дома",
+        "href": "/tuba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "akkordeon-dlya-folklornogo-ansamblya": [
+      {
+        "label": "Баланс с партнёрами",
+        "href": "/akkordeon-dlya-kamernogo-ansamblya/"
+      },
+      {
+        "label": "Если в составе несколько баянов и аккордеонов",
+        "href": "/instrumenty-dlya-ansamblya-bayanov-akkordeonov/"
+      }
+    ],
+    "akkordeon-dlya-raboty-nad-mehom": [
+      {
+        "label": "Если мех движется рывками",
+        "href": "/instrument-esli-meh-idet-ryvkami/"
+      },
+      {
+        "label": "Управлять динамикой фразы",
+        "href": "/instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu/"
+      }
+    ],
+    "akkordeon-dlya-rebenka": [
+      {
+        "label": "48 басов на первом этапе",
+        "href": "/akkordeon-48-basov-dlya-pervogo-etapa/"
+      },
+      {
+        "label": "Когда переходить к следующему размеру",
+        "href": "/akkordeon-dlya-smeny-razmera/"
+      }
+    ],
+    "akkordeon-dlya-svadby": [
+      {
+        "label": "Проверить инструмент на программе",
+        "href": "/akkordeon-dlya-kontserta/"
+      }
+    ],
+    "akkordeon-dlya-vtorogo-mesta-zanyatiy": [
+      {
+        "label": "Совместимость двух инструментов",
+        "href": "/instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii/"
+      },
+      {
+        "label": "Проверить домашний комплект",
+        "href": "/akkordeon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "akkordeon-na-vremya-remonta": [
+      {
+        "label": "Подготовить выступление на замене",
+        "href": "/akkordeon-dlya-kontserta/"
+      },
+      {
+        "label": "Если программа требует выборного баса",
+        "href": "/akkordeon-s-vybornym-basom-dlya-obucheniya/"
+      }
+    ],
+    "bayan-dlya-kontserta": [
+      {
+        "label": "Если нужен выборный бас",
+        "href": "/bayan-s-vybornym-basom/"
+      },
+      {
+        "label": "Динамика и ход меха",
+        "href": "/bayan-dlya-raboty-nad-mehom/"
+      },
+      {
+        "label": "Баланс в ансамбле",
+        "href": "/bayan-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "bayan-dlya-vtorogo-mesta-zanyatiy": [
+      {
+        "label": "Согласовать совместимость",
+        "href": "/instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii/"
+      },
+      {
+        "label": "Если дома нужен выборный бас",
+        "href": "/bayan-s-vybornym-basom-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "bayan-na-vremya-remonta": [
+      {
+        "label": "Подготовить концерт на замене",
+        "href": "/bayan-dlya-kontserta/"
+      },
+      {
+        "label": "Если нужен выборный бас",
+        "href": "/bayan-s-vybornym-basom/"
+      }
+    ],
+    "bayan-po-razmeru-rebenka": [
+      {
+        "label": "Тула БН-46: детская конфигурация",
+        "href": "/tula-bn46-detskiy-bayan-v-arendu/"
+      },
+      {
+        "label": "Проверить лёгкость меха",
+        "href": "/bayan-s-legkim-mehom/"
+      }
+    ],
+    "bayan-s-legkim-mehom": [
+      {
+        "label": "Проверить фразу мехом",
+        "href": "/bayan-dlya-raboty-nad-mehom/"
+      },
+      {
+        "label": "Если движение прерывается рывком",
+        "href": "/instrument-esli-meh-idet-ryvkami/"
+      }
+    ]
+  }
+}

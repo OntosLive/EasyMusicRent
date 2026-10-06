@@ -1,0 +1,230 @@
+{
+  "navigation": {
+    "arenda-pianino-moskva": [
+      {
+        "label": "Домашние занятия ребёнка",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      },
+      {
+        "label": "Вернуться к акустическому пианино",
+        "href": "/pianino-dlya-vzroslogo-posle-pereryva/"
+      },
+      {
+        "label": "Цифровое пианино для квартиры",
+        "href": "/cifrovoe-pianino-dlya-kvartiry/"
+      }
+    ],
+    "istoricheskoe-fortepiano": [
+      {
+        "label": "Согласовать высоту и темперацию",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      }
+    ],
+    "keytara": [
+      {
+        "label": "Управление внешним источником звука",
+        "href": "/klavishnye-dlya-upravleniya-vneshnimi-modulyami/"
+      },
+      {
+        "label": "Подключение к пульту и мониторинг",
+        "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/"
+      }
+    ],
+    "klavesin-dlya-basso-continuo": [
+      {
+        "label": "Согласовать клавесин с басовой линией",
+        "href": "/barochnaya-violonchel-dlya-basso-continuo/"
+      },
+      {
+        "label": "Подготовить общий ансамблевый комплект",
+        "href": "/instrumenty-dlya-barochnogo-ansamblya/"
+      }
+    ],
+    "klavesin-dlya-kontserta": [
+      {
+        "label": "Если клавесин ведёт continuo",
+        "href": "/klavesin-dlya-basso-continuo/"
+      },
+      {
+        "label": "Высотный строй и темперация",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      }
+    ],
+    "klavesin-dlya-studii": [
+      {
+        "label": "Проверить механический шум в записи",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      },
+      {
+        "label": "Запись барочного ансамбля",
+        "href": "/barochnye-instrumenty-dlya-studiynoy-zapisi/"
+      }
+    ],
+    "klavikord": [
+      {
+        "label": "Проверить шум на пробной записи",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      }
+    ],
+    "klavishnye-dlya-stereo-vyhoda": [
+      {
+        "label": "Подключение к пульту и мониторинг",
+        "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/"
+      }
+    ],
+    "modulnyy-sintezator-dlya-kontserta": [
+      {
+        "label": "Управлять тембром во время игры",
+        "href": "/sintezator-dlya-zhivogo-vystupleniya/"
+      },
+      {
+        "label": "Сигнал в зал и монитор исполнителя",
+        "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/"
+      }
+    ],
+    "modulnyy-sintezator-dlya-studii": [
+      {
+        "label": "Вернуться к найденному тембру",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      }
+    ],
+    "pianino-dlya-kamernogo-ansamblya": [
+      {
+        "label": "Подготовить камерную партию дома",
+        "href": "/pianino-dlya-razuchivaniya-kamernoy-partii/"
+      },
+      {
+        "label": "Если на площадке нужен рояль",
+        "href": "/royal-dlya-kamernogo-kontserta/"
+      }
+    ],
+    "pianino-dlya-repetitsionnogo-klassa": [
+      {
+        "label": "Проверить полное занятие",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      },
+      {
+        "label": "Пианино и акустика класса",
+        "href": "/pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "pianino-dlya-vokalista": [
+      {
+        "label": "Проверить аккомпанемент с партнёром",
+        "href": "/pianino-dlya-akkompanementa/"
+      },
+      {
+        "label": "Управляемое тихое начало ноты",
+        "href": "/pianino-s-upravlyaemym-tihim-zvukom/"
+      }
+    ],
+    "pianino-na-vremya-remonta": [
+      {
+        "label": "Проверить отклик временной клавиатуры",
+        "href": "/pianino-s-rovnoy-klaviaturoy/"
+      },
+      {
+        "label": "Если временно нужен цифровой вариант",
+        "href": "/cifrovoe-pianino-posle-akusticheskogo/"
+      }
+    ],
+    "pianino-s-rovnoy-klaviaturoy": [
+      {
+        "label": "Повторение на цифровой клавиатуре",
+        "href": "/cifrovoe-pianino-s-tochnoy-repetitsiey/"
+      },
+      {
+        "label": "Проверить тихую музыкальную фразу",
+        "href": "/pianino-s-upravlyaemym-tihim-zvukom/"
+      }
+    ],
+    "sintezator-s-ponyatnym-upravleniem": [
+      {
+        "label": "Первые опыты со звуком",
+        "href": "/sintezator-dlya-pervogo-opyta-sinteza/"
+      },
+      {
+        "label": "Если курс посвящён FM-синтезу",
+        "href": "/fm-sintezator/"
+      }
+    ],
+    "arfa-dlya-kamernogo-ansamblya": [
+      {
+        "label": "Арфа и флейта",
+        "href": "/instrumenty-dlya-dueta-arfa-fleyta/"
+      },
+      {
+        "label": "Арфа и виолончель",
+        "href": "/instrumenty-dlya-dueta-arfa-violonchel/"
+      },
+      {
+        "label": "Флейта, альт и арфа",
+        "href": "/instrumenty-dlya-trio-fleyta-alt-arfa/"
+      }
+    ],
+    "arfa-dlya-semki": [
+      {
+        "label": "Если важна достоверность эпохи",
+        "href": "/istoricheskie-instrumenty-dlya-istoricheskoy-semki/"
+      },
+      {
+        "label": "Если нужен живой звук арфы",
+        "href": "/arfa-dlya-studiynoy-zapisi/"
+      }
+    ],
+    "arfa-dlya-vokalista": [
+      {
+        "label": "Возможности леверсной арфы",
+        "href": "/leversnaya-arfa/"
+      },
+      {
+        "label": "Когда нужна педальная механика",
+        "href": "/pedalnaya-arfa/"
+      }
+    ],
+    "arfa-na-koncert": [
+      {
+        "label": "Педальная механика для программы",
+        "href": "/pedalnaya-arfa/"
+      },
+      {
+        "label": "Если подходит леверсная арфа",
+        "href": "/leversnaya-arfa/"
+      },
+      {
+        "label": "Согласовать арфу с ансамблем",
+        "href": "/arfa-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "arfa-na-svadbu": [
+      {
+        "label": "Если арфа сопровождает певца",
+        "href": "/arfa-dlya-vokalista/"
+      },
+      {
+        "label": "Подготовить инструмент до начала события",
+        "href": "/arfa-na-koncert/"
+      }
+    ],
+    "istoricheskaya-arfa": [
+      {
+        "label": "Строй для исторической программы",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      },
+      {
+        "label": "Если нужен исторический образ в кадре",
+        "href": "/istoricheskie-instrumenty-dlya-istoricheskoy-semki/"
+      }
+    ],
+    "keltskaya-arfa": [
+      {
+        "label": "Современная леверсная арфа",
+        "href": "/leversnaya-arfa/"
+      },
+      {
+        "label": "Историческая конструкция под репертуар",
+        "href": "/istoricheskaya-arfa/"
+      }
+    ]
+  }
+}

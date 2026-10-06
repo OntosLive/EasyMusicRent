@@ -1,0 +1,392 @@
+{
+  "navigation": {
+    "akusticheskaya-bas-gitara": [
+      {
+        "label": "Если бас теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      },
+      {
+        "label": "Если записываете через выход",
+        "href": "/instrument-esli-nuzhen-chistyy-di-signal/"
+      }
+    ],
+    "akusticheskaya-gitara-dlya-kontserta": [
+      {
+        "label": "Подключение гитары в пульт",
+        "href": "/elektroakusticheskaya-gitara-dlya-podklyucheniya-v-pult/"
+      },
+      {
+        "label": "Проба стоя с ремнём",
+        "href": "/akusticheskaya-gitara-dlya-zanyatiy-stoya/"
+      },
+      {
+        "label": "Если в программе открытый строй",
+        "href": "/akusticheskaya-gitara-dlya-otkrytyh-stroev/"
+      }
+    ],
+    "akusticheskaya-gitara-dlya-studii": [
+      {
+        "label": "Если микрофон слышит лишнее",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Сравнить корпуса на одном фрагменте",
+        "href": "/akusticheskaya-gitara-dlya-sravneniya-korpusov/"
+      }
+    ],
+    "akusticheskaya-gitara-dlya-vokalista": [
+      {
+        "label": "Если гитара закрывает голос",
+        "href": "/instrument-esli-perekryvaet-golos/"
+      },
+      {
+        "label": "Сохранить баланс после подключения",
+        "href": "/elektroakusticheskaya-gitara-dlya-podklyucheniya-v-pult/"
+      }
+    ],
+    "akusticheskaya-gitara-na-vremya-remonta": [
+      {
+        "label": "Сравнить посадку корпусов",
+        "href": "/akusticheskaya-gitara-dlya-sravneniya-korpusov/"
+      },
+      {
+        "label": "Проверить привычную высоту струн",
+        "href": "/gitara-s-nizkoy-vysotoy-strun/"
+      }
+    ],
+    "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey": [
+      {
+        "label": "Если строй расходится по ладам",
+        "href": "/instrument-esli-lady-ne-stroyat/"
+      },
+      {
+        "label": "Если строй меняется во время игры",
+        "href": "/instrument-esli-stroy-uplyvaet/"
+      }
+    ],
+    "bas-gitara-dlya-kontserta": [
+      {
+        "label": "Басовый комплект по райдеру",
+        "href": "/basovyy-backline-po-rayderu/"
+      },
+      {
+        "label": "Если нужна пятая струна",
+        "href": "/pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy/"
+      }
+    ],
+    "bas-gitara-dlya-repetitsii": [
+      {
+        "label": "Усилитель под репетиционный состав",
+        "href": "/basovyy-usilitel-dlya-repetitsii/"
+      },
+      {
+        "label": "Если хвост ноты мешает ритму",
+        "href": "/instrument-esli-slishkom-dolgiy-sustain/"
+      }
+    ],
+    "bas-gitara-dlya-studii": [
+      {
+        "label": "Прямая запись баса",
+        "href": "/bas-gitara-dlya-zapisi-napryamuyu/"
+      },
+      {
+        "label": "Запись усилителя вместе с DI",
+        "href": "/basovyy-usilitel-dlya-studii/"
+      }
+    ],
+    "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki": [
+      {
+        "label": "Squier Mini Precision Bass",
+        "href": "/squier-mini-precision-bass-v-arendu/"
+      },
+      {
+        "label": "Ibanez GSRM20 miKro",
+        "href": "/ibanez-gsrm20-v-arendu/"
+      }
+    ],
+    "bas-gitara-na-vremya-remonta": [
+      {
+        "label": "Если впереди репетиции",
+        "href": "/bas-gitara-dlya-repetitsii/"
+      },
+      {
+        "label": "Если впереди концерт",
+        "href": "/bas-gitara-dlya-kontserta/"
+      },
+      {
+        "label": "Если впереди запись",
+        "href": "/bas-gitara-dlya-studii/"
+      }
+    ],
+    "elektrogitara-dlya-kontserta": [
+      {
+        "label": "Гитарный комплект по райдеру",
+        "href": "/gitarnyy-backline-po-rayderu/"
+      }
+    ],
+    "elektrogitara-dlya-nebolshoy-ruki": [
+      {
+        "label": "Squier Mini Stratocaster",
+        "href": "/squier-mini-stratocaster-v-arendu/"
+      },
+      {
+        "label": "Ibanez PGMM31 miKro",
+        "href": "/ibanez-pgmm31-v-arendu/"
+      }
+    ],
+    "elektrogitara-dlya-repetitsii": [
+      {
+        "label": "Усилитель для вашей группы",
+        "href": "/gitarnyy-usilitel-dlya-repetitsii/"
+      },
+      {
+        "label": "Если строй не держится",
+        "href": "/instrument-esli-stroy-uplyvaet/"
+      }
+    ],
+    "elektrogitara-dlya-studii": [
+      {
+        "label": "Прямая запись гитары",
+        "href": "/elektrogitara-dlya-zapisi-napryamuyu/"
+      },
+      {
+        "label": "Реальный усилитель в записи",
+        "href": "/gitarnyy-usilitel-dlya-studii/"
+      }
+    ],
+    "elektrogitara-na-vremya-remonta": [
+      {
+        "label": "Проверить замену на репетиции",
+        "href": "/elektrogitara-dlya-repetitsii/"
+      },
+      {
+        "label": "Если ремонт совпал с концертом",
+        "href": "/elektrogitara-dlya-kontserta/"
+      }
+    ],
+    "gitara-dlya-levshi": [
+      {
+        "label": "Сравнить варианты с преподавателем",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ],
+    "gitara-s-nizkoy-vysotoy-strun": [
+      {
+        "label": "Высота струн или натяжение?",
+        "href": "/instrument-esli-struny-slishkom-zhestkie/"
+      }
+    ],
+    "klassicheskaya-gitara-dlya-zapisi": [
+      {
+        "label": "Если микрофон слышит лишнее",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Если регистры звучат неровно",
+        "href": "/instrument-esli-zvuk-nerovnyy-po-diapazonu/"
+      }
+    ],
+    "klassicheskaya-gitara-na-svadbu": [
+      {
+        "label": "Если гитара сопровождает голос",
+        "href": "/instrumenty-dlya-vokalnogo-dueta-s-gitaroy/"
+      },
+      {
+        "label": "Если играете с другими инструментами",
+        "href": "/klassicheskaya-gitara-dlya-ansamblya/"
+      }
+    ],
+    "lap-stil-gitara": [
+      {
+        "label": "Строй под конкретную партию",
+        "href": "/instrument-esli-nuzhen-drugoy-stroy/"
+      }
+    ],
+    "shestistrunnaya-bas-gitara": [
+      {
+        "label": "Проверить бас в своей группе",
+        "href": "/bas-gitara-pered-pokupkoy/"
+      },
+      {
+        "label": "Проверить прямой сигнал",
+        "href": "/bas-gitara-dlya-zapisi-napryamuyu/"
+      }
+    ],
+    "alt-dlya-kvarteta": [
+      {
+        "label": "Собрать квартет под программу",
+        "href": "/instrumenty-dlya-strunnogo-kvarteta/"
+      },
+      {
+        "label": "Если альтовая партия теряется",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "alt-dlya-nebolshoy-ruki": [
+      {
+        "label": "Сравнить соседние размеры",
+        "href": "/alt-pered-pokupkoy/"
+      },
+      {
+        "label": "Если левая рука быстро устаёт",
+        "href": "/instrument-esli-bystro-ustaet-levaya-ruka/"
+      }
+    ],
+    "alt-na-proslushivanie": [
+      {
+        "label": "Проверить рискованные места программы",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      },
+      {
+        "label": "Смычок для тихого вступления",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      }
+    ],
+    "alt-na-vremya-remonta": [
+      {
+        "label": "Если впереди оркестровый цикл",
+        "href": "/alt-dlya-orkestra/"
+      },
+      {
+        "label": "Если впереди квартетная программа",
+        "href": "/alt-dlya-kvarteta/"
+      }
+    ],
+    "alt-posle-skripki": [
+      {
+        "label": "Проверить альтовый смычок",
+        "href": "/altovyy-smychok-pered-pokupkoy/"
+      },
+      {
+        "label": "Закрепить переход дома",
+        "href": "/alt-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "elektricheskiy-kontrabas-dlya-maloy-stseny": [
+      {
+        "label": "Если на сцене не слышно себя",
+        "href": "/instrument-esli-ne-hvataet-monitoringa/"
+      }
+    ],
+    "elektroskripka-dlya-lupinga": [
+      {
+        "label": "Напольный лупер BOSS RC-600",
+        "href": "/boss-rc-600-v-arendu/"
+      },
+      {
+        "label": "Слышать скрипку и записанные слои",
+        "href": "/instrument-esli-ne-hvataet-monitoringa/"
+      }
+    ],
+    "elektroviolonchel-dlya-zapisi": [
+      {
+        "label": "Yamaha SVC110",
+        "href": "/yamaha-svc110-v-arendu/"
+      },
+      {
+        "label": "Сохранить чистый исходный сигнал",
+        "href": "/instrument-esli-nuzhen-chistyy-di-signal/"
+      }
+    ],
+    "skripka-dlya-kontserta": [
+      {
+        "label": "Проверить тихое начало ноты",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      },
+      {
+        "label": "Если переходы регистров неровны",
+        "href": "/instrument-esli-zvuk-nerovnyy-po-diapazonu/"
+      }
+    ],
+    "skripka-dlya-kvarteta": [
+      {
+        "label": "Согласовать весь квартет",
+        "href": "/instrumenty-dlya-strunnogo-kvarteta/"
+      },
+      {
+        "label": "Если тихая партия исчезает",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "skripka-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Проверить следующий размер",
+        "href": "/skripka-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Продолжить уроки дома",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "skripka-dlya-studii": [
+      {
+        "label": "Если комплект шумит в записи",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      },
+      {
+        "label": "Проверить тихую атаку",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      }
+    ],
+    "skripka-na-uchebnyy-god": [
+      {
+        "label": "Если за год нужен другой размер",
+        "href": "/skripka-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Если изменилась программа",
+        "href": "/instrument-posle-izmeneniya-repertuara/"
+      }
+    ],
+    "skripka-na-vremya-remonta": [
+      {
+        "label": "Сохранить ежедневные занятия",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Если впереди выступление",
+        "href": "/skripka-dlya-kontserta/"
+      }
+    ],
+    "skripka-rebenku-kupit-ili-arendovat": [
+      {
+        "label": "Проверить размер по игре",
+        "href": "/skripka-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Несколько занятий перед покупкой",
+        "href": "/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"
+      }
+    ],
+    "skripka-v-arendu-na-mesyats": [
+      {
+        "label": "Ежедневные занятия дома",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Если месяц нужен для выбора",
+        "href": "/skripka-pered-pokupkoy/"
+      }
+    ],
+    "smychok-dlya-rebenka": [
+      {
+        "label": "Проверить баланс на струне",
+        "href": "/smychok-s-udobnym-balansom/"
+      },
+      {
+        "label": "Если преподаватель заметил компенсацию",
+        "href": "/instrument-posle-zamechaniya-o-postanovke/"
+      }
+    ],
+    "smychok-na-vremya-peretyazhki": [
+      {
+        "label": "Сравнить баланс временного смычка",
+        "href": "/smychok-s-udobnym-balansom/"
+      },
+      {
+        "label": "Проверить целую репетицию",
+        "href": "/smychok-dlya-dolgih-repetitsiy/"
+      }
+    ]
+  }
+}
