@@ -90,16 +90,6 @@
         "href": "/klarinet-pered-pokupkoy/"
       }
     ],
-    "yamaha-yfg812-v-arendu": [
-      {
-        "label": "Фагот перед покупкой",
-        "href": "/fagot-pered-pokupkoy/"
-      },
-      {
-        "label": "Фагот для концерта",
-        "href": "/fagot-dlya-kontserta/"
-      }
-    ],
     "yamaha-ytr4335gii-v-arendu": [
       {
         "label": "Труба перед покупкой",
@@ -158,6 +148,16 @@
       {
         "label": "Домашние занятия на трубе",
         "href": "/truba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "besson-prodige-162-v-arendu": [
+      {
+        "label": "Первый эуфониум",
+        "href": "/evfonium-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Домашние занятия на эуфониуме",
+        "href": "/evfonium-dlya-domashnih-zanyatiy/"
       }
     ]
   }
