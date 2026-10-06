@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "elektronnyy-organ": [
+      {
+        "label": "Переход с фортепиано на орган",
+        "href": "/organ-dlya-perehoda-s-fortepiano/"
+      },
+      {
+        "label": "Электронный орган для педальной практики",
+        "href": "/elektronnyy-organ-dlya-pedalnoy-praktiki/"
+      }
+    ],
+    "elektronnyy-organ-dlya-pedalnoy-praktiki": [
+      {
+        "label": "Полная координация рук и ног",
+        "href": "/organ-dlya-polnoy-koordinatsii-ruk-i-nog/"
+      },
+      {
+        "label": "Орган с двумя мануалами",
+        "href": "/organ-dlya-raboty-dvuh-manualov/"
+      }
+    ],
+    "organ-dlya-barochnogo-ansamblya": [
+      {
+        "label": "Орган с двумя мануалами",
+        "href": "/organ-dlya-raboty-dvuh-manualov/"
+      },
+      {
+        "label": "Полная координация рук и ног",
+        "href": "/organ-dlya-polnoy-koordinatsii-ruk-i-nog/"
+      }
+    ],
+    "organ-dlya-kontserta": [
+      {
+        "label": "Орган для репетиции",
+        "href": "/organ-dlya-repetitsii/"
+      },
+      {
+        "label": "Полная координация рук и ног",
+        "href": "/organ-dlya-polnoy-koordinatsii-ruk-i-nog/"
+      }
+    ],
+    "organ-dlya-myuzikla": [
+      {
+        "label": "Орган для концерта",
+        "href": "/organ-dlya-kontserta/"
+      },
+      {
+        "label": "Орган для репетиции",
+        "href": "/organ-dlya-repetitsii/"
+      }
+    ],
+    "organ-dlya-repetitsii": [
+      {
+        "label": "Полная координация рук и ног",
+        "href": "/organ-dlya-polnoy-koordinatsii-ruk-i-nog/"
+      },
+      {
+        "label": "Орган с двумя мануалами",
+        "href": "/organ-dlya-raboty-dvuh-manualov/"
+      }
+    ],
+    "organ-dlya-studii": [
+      {
+        "label": "Орган с двумя мануалами",
+        "href": "/organ-dlya-raboty-dvuh-manualov/"
+      },
+      {
+        "label": "Орган для концерта",
+        "href": "/organ-dlya-kontserta/"
+      }
+    ],
+    "portativnyy-organ": [
+      {
+        "label": "Переход с фортепиано на орган",
+        "href": "/organ-dlya-perehoda-s-fortepiano/"
+      },
+      {
+        "label": "Орган для репетиции",
+        "href": "/organ-dlya-repetitsii/"
+      }
+    ],
+    "ampeg-svt-810e-v-arendu": [
+      {
+        "label": "Басовый кабинет перед покупкой",
+        "href": "/basovyy-kabinet-pered-pokupkoy/"
+      },
+      {
+        "label": "Басовый усилитель для репетиции",
+        "href": "/basovyy-usilitel-dlya-repetitsii/"
+      }
+    ],
+    "basovyy-kabinet-4x10-dlya-pervogo-opyta": [
+      {
+        "label": "Басовый кабинет перед покупкой",
+        "href": "/basovyy-kabinet-pered-pokupkoy/"
+      },
+      {
+        "label": "Басовый усилитель для репетиции",
+        "href": "/basovyy-usilitel-dlya-repetitsii/"
+      }
+    ],
+    "basovyy-kabinet-pered-pokupkoy": [
+      {
+        "label": "Первый опыт с басовым кабинетом 4×10",
+        "href": "/basovyy-kabinet-4x10-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Басовый усилитель перед покупкой",
+        "href": "/basovyy-usilitel-pered-pokupkoy/"
+      }
+    ],
+    "bariton-ili-evfonium-po-partii": [
+      {
+        "label": "Первый баритон-горн",
+        "href": "/bariton-gorn-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Первый эуфониум",
+        "href": "/evfonium-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "besson-prodige157-v-arendu": [
+      {
+        "label": "Первый баритон-горн",
+        "href": "/bariton-gorn-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Баритон или эуфониум по партии",
+        "href": "/bariton-ili-evfonium-po-partii/"
+      }
+    ],
+    "yamaha-ybh301-v-arendu": [
+      {
+        "label": "Первый баритон-горн",
+        "href": "/bariton-gorn-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Баритон или эуфониум по партии",
+        "href": "/bariton-ili-evfonium-po-partii/"
+      }
+    ],
+    "gusli-dlya-pesennogo-soprovozhdeniya": [
+      {
+        "label": "Гусли взрослому начинающему",
+        "href": "/gusli-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Гусли перед покупкой",
+        "href": "/gusli-pered-pokupkoy/"
+      }
+    ],
+    "gusli-s-diapazonom-po-programme": [
+      {
+        "label": "Гусли перед покупкой",
+        "href": "/gusli-pered-pokupkoy/"
+      },
+      {
+        "label": "Гусли для сопровождения песни",
+        "href": "/gusli-dlya-pesennogo-soprovozhdeniya/"
+      }
+    ]
+  }
+}
