@@ -225,6 +225,18 @@ def main():
         "thin_clusters": thin_clusters,
         "sources_by_lateral_coverage": lateral_sources[:80],
         "thin_leaf_samples": thin_samples,
+        "thin_members_top_clusters": {
+            row["parent"]: [
+                {
+                    "slug": kid,
+                    "title": pages[kid].search_title,
+                    "source": pages[kid].provenance,
+                }
+                for kid in sorted(children[row["parent"]])
+                if not children.get(kid) and not lateral[kid]
+            ][:80]
+            for row in thin_clusters[:20]
+        },
     }
 
     print("CONDUCTIVITY_AUDIT_JSON_BEGIN")
