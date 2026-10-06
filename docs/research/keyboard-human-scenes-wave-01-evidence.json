@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-06",
+  "scope": "Первая крупная клавишная волна человеческих сцен: цифровое и акустическое пианино, синтезаторы, сценические клавишные, MIDI, орган, клавесин и Rhodes.",
+  "base_subjects": 1212,
+  "new_subjects": 64,
+  "target_subjects": 1276,
+  "source_roles": {
+    "manufacturer_spec": "Подтверждает конструкцию, механику, подключения, органы управления и функции конкретной модели/серии.",
+    "instrument_guide": "Подтверждает общую конструктивную разницу инструмента; не назначает модель конкретному человеку.",
+    "editorial_inference": "Связывает подтверждённое свойство с человеческой задачей, способом пробы и смыслом временного доступа."
+  },
+  "sources": {
+    "yamaha_p225": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/",
+      "supports": [
+        "88-клавишная GHC-механика, компактный корпус, позиционирование для серьёзной фортепианной практики."
+      ]
+    },
+    "kawai_es120": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.kawai-global.com/product/es120/",
+      "supports": [
+        "RHC-механика, 88-key sampling, line out, USB/Bluetooth MIDI/Audio, стойка и тройной педальный блок как опции."
+      ]
+    },
+    "roland_fp30x": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.roland.com/global/products/fp-30x/",
+      "supports": [
+        "88-note PHA-4 Standard, домашняя и небольшая сценическая практика, Bluetooth."
+      ]
+    },
+    "casio_cdps110": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.casio.com/intl/electronic-musical-instruments/product.CDP-S110BK/",
+      "supports": [
+        "Компактный портативный формат цифрового пианино."
+      ]
+    },
+    "yamaha_b_series": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/b-series/specs.html",
+      "supports": [
+        "Разные размеры вертикальных пианино серии b."
+      ]
+    },
+    "yamaha_u_series": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/u-series/specs.html",
+      "supports": [
+        "Актуальные параметры вертикальных U-серии."
+      ]
+    },
+    "yamaha_cx_series": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/pianos/products/grand-pianos/cx-series/specs.html",
+      "supports": [
+        "Концертные и салонные рояли CX как основание сравнения с вертикальным пианино."
+      ]
+    },
+    "roland_gaia2": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.roland.com/global/products/gaia_2/",
+      "supports": [
+        "Осцилляторы, синтез, Motional Pad и исполнительское управление параметрами."
+      ]
+    },
+    "yamaha_ck": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/music_production/stagekeyboards/ck/specs.html",
+      "supports": [
+        "CK61/CK88, сценические функции, Live Set, различия клавиатур."
+      ]
+    },
+    "nord_piano5": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.nordkeyboards.com/legacy-products/nord-piano-5/specifications/",
+      "supports": [
+        "Сценическое piano, layers, клавиатурные версии и подключения."
+      ]
+    },
+    "yamaha_montage_m8x": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html",
+      "supports": [
+        "Современная workstation/performance-платформа и многослойное управление."
+      ]
+    },
+    "roland_fantom8ex": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.roland.com/uk/products/fantom_8_ex/",
+      "supports": [
+        "Workstation/performance-платформа для сложных сценических конфигураций."
+      ]
+    },
+    "yamaha_pipe_organ": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/pipeorgan/",
+      "supports": [
+        "Мануалы и педальная клавиатура как части органного исполнительского интерфейса."
+      ]
+    },
+    "yamaha_harpsichord": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/structure/",
+      "supports": [
+        "Щипковая механика клавесина и отличие от молоточкового фортепиано."
+      ]
+    },
+    "rhodes_history": {
+      "kind": "instrument_guide",
+      "url": "https://rhodesmusic.com/the-history-of-rhodes/",
+      "supports": [
+        "Электромеханическая природа Rhodes и историческая линия Mark I."
+      ]
+    }
+  },
+  "package": {
+    "digital_piano": 20,
+    "acoustic_piano": 17,
+    "synth_and_stage": 16,
+    "midi_organ_historical": 11
+  },
+  "editorial_rules": [
+    "Бытовая ситуация создаёт страницу только тогда, когда меняет музыкальную доступность: время практики, помещение, перемещение, канал связи или способ управления.",
+    "Техническая функция переводится в исполнительское действие: pedal, dynamics, split, layer, MIDI, modulation, manuals.",
+    "Переход между типами клавишных рассматривается как самостоятельная сцена адаптации, а не как иерархия «хуже/лучше».",
+    "Модельные источники дают кандидатов и факты; пригодность определяется конкретной сценой.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра."
+  ]
+}
