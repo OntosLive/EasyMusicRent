@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "fender-65-twin-reverb-v-arendu": [
+      {
+        "label": "Гитарный усилитель для clean",
+        "href": "/gitarnyy-usilitel-dlya-klina/"
+      },
+      {
+        "label": "Гитарный усилитель для студии",
+        "href": "/gitarnyy-usilitel-dlya-studii/"
+      }
+    ],
+    "fender-65-deluxe-reverb-v-arendu": [
+      {
+        "label": "Гитарный усилитель для clean",
+        "href": "/gitarnyy-usilitel-dlya-klina/"
+      },
+      {
+        "label": "Гитарный усилитель для малой сцены",
+        "href": "/gitarnyy-usilitel-dlya-maloy-stseny/"
+      }
+    ],
+    "vox-ac30c2-v-arendu": [
+      {
+        "label": "Гитарный усилитель для crunch",
+        "href": "/gitarnyy-usilitel-dlya-krancha/"
+      },
+      {
+        "label": "Гитарный усилитель для студии",
+        "href": "/gitarnyy-usilitel-dlya-studii/"
+      }
+    ],
+    "marshall-jcm800-2203-v-arendu": [
+      {
+        "label": "Гитарный усилитель для crunch",
+        "href": "/gitarnyy-usilitel-dlya-krancha/"
+      },
+      {
+        "label": "Гитарный усилитель для high-gain",
+        "href": "/gitarnyy-usilitel-dlya-high-gain/"
+      }
+    ],
+    "marshall-1960a-v-arendu": [
+      {
+        "label": "Первый опыт с кабинетом 4x12",
+        "href": "/gitarnyy-kabinet-4x12-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Гитарный кабинет перед покупкой",
+        "href": "/gitarnyy-kabinet-pered-pokupkoy/"
+      }
+    ],
+    "roland-jc120-v-arendu": [
+      {
+        "label": "Гитарный усилитель для clean",
+        "href": "/gitarnyy-usilitel-dlya-klina/"
+      },
+      {
+        "label": "Гитарный усилитель для студии",
+        "href": "/gitarnyy-usilitel-dlya-studii/"
+      }
+    ],
+    "evh-5150iii-100s-v-arendu": [
+      {
+        "label": "Гитарный усилитель для high-gain",
+        "href": "/gitarnyy-usilitel-dlya-high-gain/"
+      },
+      {
+        "label": "Гитарный усилитель перед покупкой",
+        "href": "/gitarnyy-usilitel-pered-pokupkoy/"
+      }
+    ],
+    "orange-rockerverb-50-mkiii-v-arendu": [
+      {
+        "label": "Гитарный усилитель для crunch",
+        "href": "/gitarnyy-usilitel-dlya-krancha/"
+      },
+      {
+        "label": "Гитарный усилитель для high-gain",
+        "href": "/gitarnyy-usilitel-dlya-high-gain/"
+      }
+    ],
+    "mesa-dual-rectifier-v-arendu": [
+      {
+        "label": "Гитарный усилитель для high-gain",
+        "href": "/gitarnyy-usilitel-dlya-high-gain/"
+      },
+      {
+        "label": "Гитарный усилитель для первого концерта",
+        "href": "/gitarnyy-usilitel-dlya-pervogo-kontserta/"
+      }
+    ],
+    "fishman-loudbox-artist-v-arendu": [
+      {
+        "label": "Акустический усилитель для вокалиста с гитарой",
+        "href": "/akusticheskiy-usilitel-dlya-vokalista-s-gitaroy/"
+      },
+      {
+        "label": "Backline для акустического концерта",
+        "href": "/backline-dlya-akusticheskogo-kontserta/"
+      }
+    ],
+    "leslie-122-v-arendu": [
+      {
+        "label": "Первый опыт с Leslie",
+        "href": "/leslie-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Hammond + Leslie по райдеру",
+        "href": "/hammond-leslie-po-rayderu/"
+      }
+    ],
+    "roland-td17kvx2-v-arendu": [
+      {
+        "label": "После акустической установки",
+        "href": "/elektronnye-barabany-posle-akusticheskih/"
+      },
+      {
+        "label": "Работа над hi-hat",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-hi-hatom/"
+      }
+    ],
+    "roland-td27kv2-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Работа над hi-hat",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-hi-hatom/"
+      }
+    ],
+    "yamaha-dtx6k3x-v-arendu": [
+      {
+        "label": "Работа над динамикой",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Электронные барабаны перед покупкой",
+        "href": "/elektronnye-barabany-pered-pokupkoy/"
+      }
+    ],
+    "alesis-nitro-max-v-arendu": [
+      {
+        "label": "Электронные барабаны взрослому начинающему",
+        "href": "/elektronnye-barabany-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Электронные барабаны для временного жилья",
+        "href": "/elektronnye-barabany-dlya-vremennogo-zhilya/"
+      }
+    ],
+    "ludwig-black-beauty-v-arendu": [
+      {
+        "label": "Малый барабан перед покупкой",
+        "href": "/malyy-baraban-pered-pokupkoy/"
+      },
+      {
+        "label": "Установка для фанка",
+        "href": "/barabannaya-ustanovka-dlya-fanka/"
+      }
+    ]
+  }
+}
