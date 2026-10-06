@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "fender-american-professional-ii-stratocaster-v-arendu": [
+      {
+        "label": "Электрогитара для чистого звука",
+        "href": "/elektrogitara-dlya-chistogo-zvuka/"
+      },
+      {
+        "label": "Электрогитара перед покупкой",
+        "href": "/elektrogitara-pered-pokupkoy/"
+      }
+    ],
+    "gibson-les-paul-standard-60s-v-arendu": [
+      {
+        "label": "Два humbucker",
+        "href": "/elektrogitara-s-dvumya-hambakerami/"
+      },
+      {
+        "label": "Электрогитара для перегруза",
+        "href": "/elektrogitara-dlya-peregruza/"
+      }
+    ],
+    "gibson-es335-v-arendu": [
+      {
+        "label": "Электрогитара для сессии",
+        "href": "/elektrogitara-dlya-sessii/"
+      },
+      {
+        "label": "Электрогитара для чистого звука",
+        "href": "/elektrogitara-dlya-chistogo-zvuka/"
+      }
+    ],
+    "martin-d28-v-arendu": [
+      {
+        "label": "Акустическая гитара с большим корпусом",
+        "href": "/akusticheskaya-gitara-s-bolshim-korpusom/"
+      },
+      {
+        "label": "Акустическая гитара для автора песен",
+        "href": "/akusticheskaya-gitara-dlya-avtora-pesen/"
+      }
+    ],
+    "fender-american-professional-ii-jazz-bass-v-arendu": [
+      {
+        "label": "Бас с двумя звукоснимателями",
+        "href": "/bas-gitara-s-dvumya-zvukosnimatelyami/"
+      },
+      {
+        "label": "Бас-гитара для фанка",
+        "href": "/bas-gitara-dlya-fanka/"
+      }
+    ],
+    "music-man-stingray-special-v-arendu": [
+      {
+        "label": "Бас-гитара перед покупкой",
+        "href": "/bas-gitara-pered-pokupkoy/"
+      },
+      {
+        "label": "Бас-гитара для сессии",
+        "href": "/bas-gitara-dlya-sessii/"
+      }
+    ],
+    "dw-collectors-series-v-arendu": [
+      {
+        "label": "Установка перед покупкой",
+        "href": "/barabannaya-ustanovka-pered-pokupkoy/"
+      },
+      {
+        "label": "Установка для долгой репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      }
+    ],
+    "yamaha-recording-custom-v-arendu": [
+      {
+        "label": "Установка перед покупкой",
+        "href": "/barabannaya-ustanovka-pered-pokupkoy/"
+      },
+      {
+        "label": "Установка для долгой репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      }
+    ],
+    "gretsch-usa-custom-v-arendu": [
+      {
+        "label": "Установка перед покупкой",
+        "href": "/barabannaya-ustanovka-pered-pokupkoy/"
+      },
+      {
+        "label": "Установка для джаза",
+        "href": "/barabannaya-ustanovka-dlya-dzheza/"
+      }
+    ],
+    "buffet-r13-v-arendu": [
+      {
+        "label": "Переход на деревянный кларнет",
+        "href": "/klarinet-dlya-perehoda-na-derevyannyy-korpus/"
+      },
+      {
+        "label": "Кларнет перед покупкой",
+        "href": "/klarinet-pered-pokupkoy/"
+      }
+    ],
+    "bach-180s37-v-arendu": [
+      {
+        "label": "Труба перед покупкой",
+        "href": "/truba-pered-pokupkoy/"
+      },
+      {
+        "label": "Труба для оркестрового прослушивания",
+        "href": "/truba-dlya-orkestrovogo-proslushivaniya/"
+      }
+    ],
+    "conn-8d-v-arendu": [
+      {
+        "label": "Валторна перед покупкой",
+        "href": "/valtorna-pered-pokupkoy/"
+      },
+      {
+        "label": "Переход на двойную систему",
+        "href": "/valtorna-dlya-perehoda-na-dvoynuyu-sistemu/"
+      }
+    ],
+    "lyon-healy-style-23-v-arendu": [
+      {
+        "label": "Педальная арфа перед покупкой",
+        "href": "/pedalnaya-arfa-pered-pokupkoy/"
+      },
+      {
+        "label": "Арфа для студийной записи",
+        "href": "/arfa-dlya-studiynoy-zapisi/"
+      }
+    ],
+    "scandalli-super-vi-v-arendu": [
+      {
+        "label": "Аккордеон перед покупкой",
+        "href": "/akkordeon-pered-pokupkoy/"
+      },
+      {
+        "label": "Аккордеон для концерта",
+        "href": "/akkordeon-dlya-kontserta/"
+      }
+    ],
+    "minimoog-model-d-v-arendu": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      }
+    ],
+    "roland-juno-106-v-arendu": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      }
+    ]
+  }
+}
