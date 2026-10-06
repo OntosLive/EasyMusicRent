@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "kontrabas-rubner": [
+      {
+        "label": "Сравнить мензуры контрабаса",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      },
+      {
+        "label": "Купить или взять контрабас в аренду",
+        "href": "/kontrabas-kupit-ili-vzyat-v-arendu/"
+      }
+    ],
+    "violonchel-musima": [
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      },
+      {
+        "label": "Виолончель после перерыва",
+        "href": "/violonchel-posle-pereryva/"
+      }
+    ],
+    "violonchel-knilling": [
+      {
+        "label": "Виолончель для домашних занятий",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      },
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      }
+    ],
+    "fender-american-professional-ii-stratocaster-v-arendu": [
+      {
+        "label": "Электрогитара для чистого звука",
+        "href": "/elektrogitara-dlya-chistogo-zvuka/"
+      },
+      {
+        "label": "Электрогитара перед покупкой",
+        "href": "/elektrogitara-pered-pokupkoy/"
+      }
+    ],
+    "gibson-les-paul-standard-60s-v-arendu": [
+      {
+        "label": "Электрогитара с двумя humbucker",
+        "href": "/elektrogitara-s-dvumya-hambakerami/"
+      },
+      {
+        "label": "Электрогитара для перегруза",
+        "href": "/elektrogitara-dlya-peregruza/"
+      }
+    ],
+    "gibson-es335-v-arendu": [
+      {
+        "label": "Электрогитара для блюза",
+        "href": "/elektrogitara-dlya-blyuza/"
+      },
+      {
+        "label": "Электрогитара для сессии",
+        "href": "/elektrogitara-dlya-sessii/"
+      }
+    ],
+    "martin-d28-v-arendu": [
+      {
+        "label": "Акустическая гитара с большим корпусом",
+        "href": "/akusticheskaya-gitara-s-bolshim-korpusom/"
+      },
+      {
+        "label": "Акустическая гитара для игры боем",
+        "href": "/akusticheskaya-gitara-dlya-igry-boem/"
+      }
+    ],
+    "fender-american-professional-ii-jazz-bass-v-arendu": [
+      {
+        "label": "Бас-гитара для фанка",
+        "href": "/bas-gitara-dlya-fanka/"
+      },
+      {
+        "label": "Бас с двумя звукоснимателями",
+        "href": "/bas-gitara-s-dvumya-zvukosnimatelyami/"
+      }
+    ],
+    "music-man-stingray-special-v-arendu": [
+      {
+        "label": "Бас-гитара для сессии",
+        "href": "/bas-gitara-dlya-sessii/"
+      },
+      {
+        "label": "Бас-гитара перед покупкой",
+        "href": "/bas-gitara-pered-pokupkoy/"
+      }
+    ],
+    "dw-collectors-series-v-arendu": [
+      {
+        "label": "Установка для долгой репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      },
+      {
+        "label": "Установка перед покупкой",
+        "href": "/barabannaya-ustanovka-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-recording-custom-v-arendu": [
+      {
+        "label": "Установка для долгой репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      },
+      {
+        "label": "Установка перед покупкой",
+        "href": "/barabannaya-ustanovka-pered-pokupkoy/"
+      }
+    ],
+    "gretsch-usa-custom-v-arendu": [
+      {
+        "label": "Установка для джаза",
+        "href": "/barabannaya-ustanovka-dlya-dzheza/"
+      },
+      {
+        "label": "Установка перед покупкой",
+        "href": "/barabannaya-ustanovka-pered-pokupkoy/"
+      }
+    ],
+    "buffet-r13-v-arendu": [
+      {
+        "label": "Переход на деревянный кларнет",
+        "href": "/klarinet-dlya-perehoda-na-derevyannyy-korpus/"
+      },
+      {
+        "label": "Кларнет перед покупкой",
+        "href": "/klarinet-pered-pokupkoy/"
+      }
+    ],
+    "bach-180s37-v-arendu": [
+      {
+        "label": "Труба на оркестровое прослушивание",
+        "href": "/truba-dlya-orkestrovogo-proslushivaniya/"
+      },
+      {
+        "label": "Труба перед покупкой",
+        "href": "/truba-pered-pokupkoy/"
+      }
+    ],
+    "conn-8d-v-arendu": [
+      {
+        "label": "Валторна на прослушивание",
+        "href": "/valtorna-na-proslushivanie/"
+      },
+      {
+        "label": "Валторна перед покупкой",
+        "href": "/valtorna-pered-pokupkoy/"
+      }
+    ],
+    "lyon-healy-style-23-v-arendu": [
+      {
+        "label": "Педальная арфа перед покупкой",
+        "href": "/pedalnaya-arfa-pered-pokupkoy/"
+      },
+      {
+        "label": "Арфа на концерт",
+        "href": "/arfa-na-koncert/"
+      }
+    ]
+  }
+}
