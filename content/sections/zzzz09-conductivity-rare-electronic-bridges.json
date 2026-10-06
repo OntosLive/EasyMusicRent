@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "moog-etherwave-v-arendu": [
+      {
+        "label": "Терменвокс для концерта",
+        "href": "/termenvoks-dlya-kontserta/"
+      },
+      {
+        "label": "Терменвокс для студийной записи",
+        "href": "/termenvoks-dlya-studii/"
+      }
+    ],
+    "moog-theremini-v-arendu": [
+      {
+        "label": "Терменвокс для концерта",
+        "href": "/termenvoks-dlya-kontserta/"
+      },
+      {
+        "label": "Терменвокс для студийной записи",
+        "href": "/termenvoks-dlya-studii/"
+      }
+    ],
+    "termenvoks-dlya-kontserta": [
+      {
+        "label": "Moog Etherwave",
+        "href": "/moog-etherwave-v-arendu/"
+      },
+      {
+        "label": "Терменвокс для студийной записи",
+        "href": "/termenvoks-dlya-studii/"
+      }
+    ],
+    "termenvoks-dlya-studii": [
+      {
+        "label": "Moog Etherwave",
+        "href": "/moog-etherwave-v-arendu/"
+      },
+      {
+        "label": "Терменвокс для концерта",
+        "href": "/termenvoks-dlya-kontserta/"
+      }
+    ],
+    "mehanicheskiy-instrument-dlya-muzeynoy-ekspozitsii": [
+      {
+        "label": "Первый опыт с механическим музыкальным инструментом",
+        "href": "/mehanicheskiy-instrument-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Механический инструмент для спектакля",
+        "href": "/mehanicheskiy-instrument-dlya-teatralnoy-postanovki/"
+      }
+    ],
+    "mehanicheskiy-instrument-dlya-pervogo-opyta": [
+      {
+        "label": "Механический инструмент для музейной экспозиции",
+        "href": "/mehanicheskiy-instrument-dlya-muzeynoy-ekspozitsii/"
+      },
+      {
+        "label": "Механический инструмент для спектакля",
+        "href": "/mehanicheskiy-instrument-dlya-teatralnoy-postanovki/"
+      }
+    ],
+    "mehanicheskiy-instrument-dlya-semki": [
+      {
+        "label": "Механический инструмент для музейной экспозиции",
+        "href": "/mehanicheskiy-instrument-dlya-muzeynoy-ekspozitsii/"
+      },
+      {
+        "label": "Механический инструмент для спектакля",
+        "href": "/mehanicheskiy-instrument-dlya-teatralnoy-postanovki/"
+      }
+    ],
+    "mehanicheskiy-instrument-dlya-teatralnoy-postanovki": [
+      {
+        "label": "Механический инструмент для съёмки",
+        "href": "/mehanicheskiy-instrument-dlya-semki/"
+      },
+      {
+        "label": "Механический инструмент для музейной экспозиции",
+        "href": "/mehanicheskiy-instrument-dlya-muzeynoy-ekspozitsii/"
+      }
+    ],
+    "zhestovyy-kontroller-dlya-kontserta": [
+      {
+        "label": "Первый опыт с жестовым контроллером",
+        "href": "/zhestovyy-kontroller-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Жестовый контроллер для саунд-дизайна",
+        "href": "/zhestovyy-kontroller-dlya-saund-dizayna/"
+      }
+    ],
+    "zhestovyy-kontroller-dlya-pervogo-opyta": [
+      {
+        "label": "Жестовый контроллер для концерта",
+        "href": "/zhestovyy-kontroller-dlya-kontserta/"
+      },
+      {
+        "label": "Жестовый контроллер для саунд-дизайна",
+        "href": "/zhestovyy-kontroller-dlya-saund-dizayna/"
+      }
+    ],
+    "zhestovyy-kontroller-dlya-saund-dizayna": [
+      {
+        "label": "Первый опыт с жестовым контроллером",
+        "href": "/zhestovyy-kontroller-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Жестовый контроллер для концерта",
+        "href": "/zhestovyy-kontroller-dlya-kontserta/"
+      }
+    ],
+    "hohner-clavinet-e7-v-arendu": [
+      {
+        "label": "Сравнить с электропиано Rhodes",
+        "href": "/rhodes/"
+      },
+      {
+        "label": "Wurlitzer 200A",
+        "href": "/wurlitzer-200a-v-arendu/"
+      }
+    ],
+    "rhodes": [
+      {
+        "label": "Первый опыт с Rhodes",
+        "href": "/rhodes-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Rhodes для студийной сессии",
+        "href": "/rhodes-dlya-studiynoy-sessii/"
+      }
+    ],
+    "rhodes-mark-i-stage-73-v-arendu": [
+      {
+        "label": "Первый опыт с Rhodes",
+        "href": "/rhodes-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Rhodes для студийной сессии",
+        "href": "/rhodes-dlya-studiynoy-sessii/"
+      }
+    ],
+    "wurlitzer-200a-v-arendu": [
+      {
+        "label": "Сравнить с электропиано Rhodes",
+        "href": "/rhodes/"
+      },
+      {
+        "label": "Hohner Clavinet E7",
+        "href": "/hohner-clavinet-e7-v-arendu/"
+      }
+    ],
+    "eksperimentalnyy-akusticheskiy-instrument-dlya-pervogo-opyta": [
+      {
+        "label": "Экспериментальный акустический инструмент для записи",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-dlya-zapisi/"
+      },
+      {
+        "label": "Экспериментальный акустический инструмент перед покупкой",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-pered-pokupkoy/"
+      }
+    ]
+  }
+}
