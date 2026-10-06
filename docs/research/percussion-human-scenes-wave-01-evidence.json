@@ -1,0 +1,244 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Первая крупная ударная волна человеческих сцен: акустическая и электронная установка, малый барабан, тарелки, литавры, клавишная и оркестровая перкуссия, ручная перкуссия и Orff.",
+  "base_subjects": 1340,
+  "new_subjects": 64,
+  "target_subjects": 1404,
+  "source_roles": {
+    "manufacturer_spec": "Подтверждает состав комплекта, размеры, пэды, механизмы, диапазон, настройку и конструкцию конкретной модели.",
+    "instrument_guide": "Подтверждает устройство и исполнительские различия типа инструмента.",
+    "editorial_inference": "Связывает подтверждённые свойства с человеческой сценой, способом пробы и смыслом временного доступа."
+  },
+  "sources": {
+    "yamaha_rydeen": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/drums/ac_drums/drum_sets/rydeen/",
+      "supports": [
+        "Пятичастные конфигурации с 20- и 22-дюймовой бас-бочкой для сравнения размерной геометрии установки."
+      ]
+    },
+    "tama_imperialstar": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.tama.com/eu/products/detail/imperialstar_drumkit.html",
+      "supports": [
+        "Entry-class acoustic drum kit and complete-set context."
+      ]
+    },
+    "pearl_sk910": {
+      "kind": "manufacturer_spec",
+      "url": "https://pearldrum.com/products/concert/education-kits/snare-kit-sk/",
+      "supports": [
+        "Учебная связка малого барабана и practice pad."
+      ]
+    },
+    "paiste_2002": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.paiste.com/en/products/series/s2002",
+      "supports": [
+        "Профессиональная серия тарелок как яркий rock-oriented reference."
+      ]
+    },
+    "sabian_hhx": {
+      "kind": "manufacturer_spec",
+      "url": "https://sabian.com/cymbal-series/hhx/",
+      "supports": [
+        "Профессиональная HHX series как иной cymbal language."
+      ]
+    },
+    "roland_td17": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.roland.com/global/products/td-17kvx2/",
+      "supports": [
+        "PDX-12 snare, PDX-8 toms, VH-10 hi-hat и состав комплекта."
+      ]
+    },
+    "roland_td27": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.roland.com/global/products/td-27kv2/",
+      "supports": [
+        "Цифровые PD-140DS, VH-14D и CY-18DR для работы над тонкой артикуляцией."
+      ]
+    },
+    "yamaha_dtx6": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/",
+      "supports": [
+        "DTX-PRO и состав DTX6K3-X, TCS surfaces и configuration context."
+      ]
+    },
+    "roland_td02": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.roland.com/global/products/td-02k/",
+      "supports": [
+        "Compact entry-level V-Drums, adjustable stand and practice tools."
+      ]
+    },
+    "yamaha_dtx402": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/4014/",
+      "supports": [
+        "Entry-level DTX402K and built-in training orientation."
+      ]
+    },
+    "yamaha_timpani": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/timpani/",
+      "supports": [
+        "Тимпани как настроенные мембранные инструменты, педальная настройка и диапазон."
+      ]
+    },
+    "adams_timpani": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.adams-music.com/en/percussion/timpani/professional",
+      "supports": [
+        "Professional Gen II timpani as a pedal-system reference."
+      ]
+    },
+    "yamaha_marimba": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/marimba/",
+      "supports": [
+        "Устройство маримбы, диапазон и конструктивная логика."
+      ]
+    },
+    "yamaha_ym6100": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/percussion/products/marimbas/ym-6100/",
+      "supports": [
+        "Пятиоктавная Concert Grand marimba."
+      ]
+    },
+    "yamaha_xylophone": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/marimba/structure/structure003.html",
+      "supports": [
+        "Различие ксилофона и маримбы."
+      ]
+    },
+    "yamaha_yx2035": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/percussion/xylophones/yx2035pr/index.html",
+      "supports": [
+        "Учебный xylophone и регулируемая высота."
+      ]
+    },
+    "yamaha_vibraphone": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/marimba/trivia/trivia004.html",
+      "supports": [
+        "Металлические пластины, motor и pedal damping вибрафона."
+      ]
+    },
+    "yamaha_glockenspiel": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/percussion/products/glockenspiel/yg-250d/",
+      "supports": [
+        "Металлические пластины и диапазон оркестровых колокольчиков."
+      ]
+    },
+    "yamaha_chimes": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/marimba/trivia/trivia005.html",
+      "supports": [
+        "Трубчатые оркестровые колокола как самостоятельный инструмент."
+      ]
+    },
+    "zildjian_orchestral": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.zildjian.jp/cymbals/a-orchestral/classic-orchestral/20-a-zildjian-classic-orchestral-selection-medium-heavy-pair.html",
+      "supports": [
+        "Matched orchestral cymbal pair."
+      ]
+    },
+    "black_swamp_triangle": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.blackswamp.com/arch-bronze-triangles",
+      "supports": [
+        "Характер обертонов профессионального треугольника."
+      ]
+    },
+    "yamaha_concert_bass_drum": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/percussion/bass_drums/cb-9000/index.html",
+      "supports": [
+        "Concert bass drum and support-frame context."
+      ]
+    },
+    "lp_cajon": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.lpmusic.com/drums/cajons/",
+      "supports": [
+        "Cajon as independent hand-percussion family."
+      ]
+    },
+    "lp_conga": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.lpmusic.com/drums/congas/",
+      "supports": [
+        "Conga sizes and multi-drum performance context."
+      ]
+    },
+    "lp_bongo": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.lpmusic.com/drums/bongos/",
+      "supports": [
+        "Bongo as two-drum hand-percussion system."
+      ]
+    },
+    "meinl_djembe": {
+      "kind": "manufacturer_spec",
+      "url": "https://meinlpercussion.com/en/products/adj7-m-m7566.html",
+      "supports": [
+        "Djembe construction and tuning example."
+      ]
+    },
+    "meinl_frame": {
+      "kind": "manufacturer_spec",
+      "url": "https://meinlpercussion.com/en/products/hd12ab-tf-m7684.html",
+      "supports": [
+        "Frame drum size and membrane construction."
+      ]
+    },
+    "meinl_handpan": {
+      "kind": "manufacturer_spec",
+      "url": "https://meinlsonicenergy.com/en/instruments/handpans",
+      "supports": [
+        "Handpans in different fixed tunings."
+      ]
+    },
+    "meinl_kalimba": {
+      "kind": "manufacturer_spec",
+      "url": "https://meinlsonicenergy.com/kalimbas",
+      "supports": [
+        "Kalimba sizes and tunings."
+      ]
+    },
+    "sonor_orff": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.sonor.com/orff-percussion",
+      "supports": [
+        "Orff percussion and elementary music-education instrument families."
+      ]
+    },
+    "studio49_orff": {
+      "kind": "manufacturer_spec",
+      "url": "https://studio49.de/",
+      "supports": [
+        "Orff-Schulwerk education percussion context."
+      ]
+    }
+  },
+  "package": {
+    "acoustic_drum_kit": 16,
+    "electronic_drums": 16,
+    "orchestral_and_mallet": 16,
+    "hand_and_orff": 16
+  },
+  "editorial_rules": [
+    "Жанровая страница существует только там, где меняется конкретная динамическая или ансамблевая задача: ride, ghost notes, projection, акустический баланс.",
+    "Переход электро ↔ акустика описывается как изменение физического интерфейса, а не иерархия качества.",
+    "Редкие оркестровые инструменты публикуются как партитурные и проектные функции, что напрямую соответствует модели временного доступа.",
+    "Orff и ручная перкуссия не превращаются в отдельное верхнее семейство; они остаются внутри действующей ударной структуры.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ]
+}
