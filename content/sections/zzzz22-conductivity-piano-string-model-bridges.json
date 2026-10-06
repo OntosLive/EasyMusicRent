@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "yamaha-b1-v-arendu": [
+      {
+        "label": "Пианино для маленькой комнаты",
+        "href": "/pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Пианино ребёнку для домашних занятий",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      }
+    ],
+    "yamaha-b2-v-arendu": [
+      {
+        "label": "Пианино перед покупкой",
+        "href": "/pianino-pered-pokupkoy/"
+      },
+      {
+        "label": "Пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-b3-v-arendu": [
+      {
+        "label": "Пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      },
+      {
+        "label": "Сравнить пианино с роялем",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "yamaha-u1-v-arendu": [
+      {
+        "label": "Пианино для аккомпанемента",
+        "href": "/pianino-dlya-akkompanementa/"
+      },
+      {
+        "label": "Пианино перед покупкой",
+        "href": "/pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-u3-v-arendu": [
+      {
+        "label": "Пианино для подготовки концертмейстера",
+        "href": "/pianino-dlya-podgotovki-akkompaniatora/"
+      },
+      {
+        "label": "Пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "kawai-k200-v-arendu": [
+      {
+        "label": "Пианино ребёнку для домашних занятий",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      },
+      {
+        "label": "Пианино перед покупкой",
+        "href": "/pianino-pered-pokupkoy/"
+      }
+    ],
+    "skripka-strunal": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "kontrabas-rubner": [
+      {
+        "label": "Сравнить мензуры контрабаса",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      },
+      {
+        "label": "Работа смычком на контрабасе",
+        "href": "/kontrabas-dlya-raboty-smychkom/"
+      }
+    ],
+    "violonchel-musima": [
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      },
+      {
+        "label": "Виолончель после перерыва",
+        "href": "/violonchel-posle-pereryva/"
+      }
+    ],
+    "stentor-student-ii-skripka-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "stentor-student-ii-kontrabas-v-arendu": [
+      {
+        "label": "Смена размера контрабаса",
+        "href": "/kontrabas-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Сравнить мензуры контрабаса",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      }
+    ],
+    "yamaha-v5-skripka-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      }
+    ],
+    "eastman-va100-v-arendu": [
+      {
+        "label": "Смена размера альта",
+        "href": "/alt-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Альт перед покупкой",
+        "href": "/alt-pered-pokupkoy/"
+      }
+    ],
+    "stentor-student-ii-alt-v-arendu": [
+      {
+        "label": "Домашние занятия на альте",
+        "href": "/alt-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера альта",
+        "href": "/alt-dlya-smeny-razmera/"
+      }
+    ],
+    "goronok-nova-alt-v-arendu": [
+      {
+        "label": "Домашние занятия на альте",
+        "href": "/alt-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера альта",
+        "href": "/alt-dlya-smeny-razmera/"
+      }
+    ],
+    "goronok-kadentsiya-alt-v-arendu": [
+      {
+        "label": "Альт перед покупкой",
+        "href": "/alt-pered-pokupkoy/"
+      },
+      {
+        "label": "Смена размера альта",
+        "href": "/alt-dlya-smeny-razmera/"
+      }
+    ]
+  }
+}
