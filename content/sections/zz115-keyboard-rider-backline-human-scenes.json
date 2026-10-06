@@ -1,0 +1,892 @@
+{
+  "pages": [
+    {
+      "slug": "scenicheskie-klavishnye-po-rayderu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные по райдеру в аренду",
+      "editorial_title": "Клавишный райдер: модель является сокращением привычной исполнительской системы",
+      "description": "Клавишные по райдеру: 88/73/61 клавиша, action, splits, pedals, outputs и согласование substitute.",
+      "kicker": "RIDER · STAGE KEYS · SUBSTITUTE",
+      "intro": [
+        "<p>В клавишном райдере конкретная модель часто кодирует сразу несколько привычек: механику, диапазон, сценические программы, педали и выходы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Райдер раскладывают на обязательные функции",
+          "paragraphs": [
+            "Nord Stage, CP88, RD-2000 EX и Kronos могут решать разные наборы задач, поэтому замена по принципу «тоже 88 клавиш» недостаточна."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Substitute проверяют на реальном сет-листе",
+          "paragraphs": [
+            "Самые сложные splits, layers и переключения должны работать до концерта."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет артисту не перевозить тяжёлую клавиатуру",
+          "paragraphs": [
+            "Локальный backline восстанавливает привычный интерфейс на каждой площадке."
+          ]
+        }
+      ],
+      "quote": "Какие параметры клавишного райдера действительно обязательны по модели, а какие можно заменить функционально?",
+      "sources": [
+        {
+          "title": "Backline Source: digital keyboard rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        },
+        {
+          "title": "Swiss Backline: professional keyboard inventory",
+          "url": "https://backline.ch/equipment/"
+        },
+        {
+          "title": "Nomad Music: Nord Stage 3 88 as in-demand backline",
+          "url": "https://www.nomadmusicco.com/nashville-tn-backline-rental"
+        }
+      ],
+      "links": [
+        {
+          "label": "Nord Stage 3 88",
+          "href": "/nord-stage-3-88-v-arendu/"
+        },
+        {
+          "label": "Yamaha CP88",
+          "href": "/yamaha-cp88-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "stage-piano-po-rayderu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Stage piano по райдеру в аренду",
+      "editorial_title": "Stage piano по райдеру: сохранить фортепианную механику и сценические выходы",
+      "description": "Stage piano rental by rider: weighted action, 88 keys, pedals, line outputs and substitute approval.",
+      "kicker": "STAGE PIANO · RIDER · 88 KEYS",
+      "intro": [
+        "<p>Когда пианист пишет в райдере конкретное stage piano, обычно важны не только звуки, но и вес клавиатуры, педаль и скорость сценического доступа.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют механику и педальную функцию",
+          "paragraphs": [
+            "CP88 и RD-2000 EX существуют как профессиональные stage pianos с 88-клавишной сценической логикой."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте самый тихий и самый быстрый фрагмент",
+          "paragraphs": [
+            "Замена должна сохранять движение руки, а не просто воспроизводить piano preset."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда совпадает со сроком концерта или тура",
+          "paragraphs": [
+            "После даты тяжёлый инструмент остаётся у backline-провайдера."
+          ]
+        }
+      ],
+      "quote": "Что в stage piano нельзя потерять: action, педаль, диапазон или сценический workflow?",
+      "sources": [
+        {
+          "title": "Yamaha: CP88 / CP73 Stage Pianos",
+          "url": "https://ru.yamaha.com/ru/musical-instruments/keyboards/products/stagekeyboards/cp88-73/"
+        },
+        {
+          "title": "Roland: RD-2000 EX",
+          "url": "https://www.roland.com/global/products/rd-2000_ex/"
+        },
+        {
+          "title": "Backline Source: digital keyboard rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha CP88",
+          "href": "/yamaha-cp88-v-arendu/"
+        },
+        {
+          "label": "Roland RD-2000 EX",
+          "href": "/roland-rd2000ex-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "workstation-po-rayderu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Workstation по райдеру в аренду",
+      "editorial_title": "Workstation по райдеру: восстановить не клавиатуру, а весь подготовленный концертный проект",
+      "description": "Workstation rental by rider: performances, samples, splits, MIDI and preloaded live set.",
+      "kicker": "WORKSTATION · RIDER · LIVE PROJECT",
+      "intro": [
+        "<p>Workstation в райдере часто является контейнером целого концертного проекта. Замена модели может означать перенос структуры, а не только выбор другого звука.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют, что хранится внутри проекта",
+          "paragraphs": [
+            "Kronos и Motif historically использовались как полноценные touring workstations, где важны performances и sequence-логика."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверяют загрузку и все переходы до саундчека",
+          "paragraphs": [
+            "Получить workstation в день концерта недостаточно, если проект ещё не развернут."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда должна включать время на подготовку",
+          "paragraphs": [
+            "Техническая выдача и музыкальная готовность здесь не совпадают по времени."
+          ]
+        }
+      ],
+      "quote": "Что именно нужно перенести в арендную workstation: звуки, splits, samples, sequences или всё сразу?",
+      "sources": [
+        {
+          "title": "Backline Source: Korg Kronos II 88",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        },
+        {
+          "title": "Swiss Backline: professional keyboard inventory",
+          "url": "https://backline.ch/equipment/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Korg Kronos 2 88",
+          "href": "/korg-kronos-2-88-v-arendu/"
+        },
+        {
+          "label": "Yamaha Motif XF8",
+          "href": "/yamaha-motif-xf8-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "hammond-leslie-po-rayderu",
+      "parent": "hammond-organ",
+      "search_title": "Hammond B3 с Leslie по райдеру в аренду",
+      "editorial_title": "B3 + Leslie: райдерная связка, которую нельзя разрезать на орган и колонку",
+      "description": "Hammond B3 + Leslie rider: organ, rotary speaker, pedalboard, bench and full-stage setup.",
+      "kicker": "HAMMOND · LESLIE · RIDER",
+      "intro": [
+        "<p>Hammond B3 и Leslie часто приезжают как единый исполнительский организм. Орган без rotary или Leslie без правильного интерфейса не восстанавливают райдерную функцию.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Комплект проверяют целиком",
+          "paragraphs": [
+            "Backline-провайдеры держат B3 + Leslie 122 именно как связку, а не как случайные две позиции."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Soundcheck должен включать slow/fast и педальную работу",
+          "paragraphs": [
+            "Исполнитель должен почувствовать весь интерфейс до начала программы."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда особенно естественна для тяжёлой винтажной системы",
+          "paragraphs": [
+            "Её рационально получать локально на площадке."
+          ]
+        }
+      ],
+      "quote": "Райдер требует полный B3, Leslie, bench и pedalboard или допускает более компактную замену?",
+      "sources": [
+        {
+          "title": "Backline Source: Hammond B3 and Leslie 122 rental",
+          "url": "https://www.backlinesource.com/hammond-b3-and-leslie-122"
+        }
+      ],
+      "links": [
+        {
+          "label": "Hammond B3 + Leslie 122",
+          "href": "/hammond-b3-leslie-122-v-arendu/"
+        },
+        {
+          "label": "Leslie 122",
+          "href": "/leslie-122-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-festivalya",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Клавишные для фестиваля в аренду",
+      "editorial_title": "Фестивальные клавишные: один backline должен пережить несколько артистов и короткие changeover",
+      "description": "Keyboard backline for festival: shared stage piano/workstation, pedals, outputs and fast changeover.",
+      "kicker": "FESTIVAL · CHANGEOVER · SHARED BACKLINE",
+      "intro": [
+        "<p>На фестивале клавишный backline часто должен обслуживать несколько артистов за один день. Значит, важны не только модели, но и скорость возврата к базовой конфигурации.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала собирают общую основу и артистические исключения",
+          "paragraphs": [
+            "Один универсальный stage piano может закрывать часть сетов, но отдельным артистам могут требоваться Nord, workstation или Hammond."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Репетируют changeover как техническую операцию",
+          "paragraphs": [
+            "Педали, line outputs и стойки должны возвращаться к известному состоянию без долгой отладки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда совпадает с фестивальным циклом",
+          "paragraphs": [
+            "Площадке не нужно покупать весь парк ради одного события."
+          ]
+        }
+      ],
+      "quote": "Какие позиции могут быть shared, а какие должны меняться между артистами?",
+      "sources": [
+        {
+          "title": "Backline Source: digital keyboard rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        },
+        {
+          "title": "Swiss Backline: professional keyboard inventory",
+          "url": "https://backline.ch/equipment/"
+        },
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Nord Stage 4",
+          "href": "/nord-stage-4-v-arendu/"
+        },
+        {
+          "label": "Roland RD-88 EX",
+          "href": "/roland-rd88ex-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-festivalnoy-smeny-artistov",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Клавишные для быстрой смены артистов на фестивале в аренду",
+      "editorial_title": "Changeover: клавишный сет должен менять владельца быстрее, чем распадается расписание",
+      "description": "Keyboard changeover: preset reset, pedals, stands, line check and artist handoff.",
+      "kicker": "CHANGEOVER · HANDOFF · LINE CHECK",
+      "intro": [
+        "<p>Между артистами часто есть несколько минут. В этот момент важна не творческая гибкость инструмента, а повторяемая техническая процедура.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Для каждого артиста фиксируют минимальный snapshot конфигурации",
+          "paragraphs": [
+            "Какая клавиатура, какие педали, какие выходы и какие уровни должны быть готовы к line check."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проводят dry-run смены до открытия дверей",
+          "paragraphs": [
+            "Тогда техническая команда знает порядок действий без импровизации."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Арендный парк удобен именно как управляемая сменная инфраструктура",
+          "paragraphs": [
+            "Нужные инструменты приезжают и уходят по расписанию."
+          ]
+        }
+      ],
+      "quote": "Сколько минут есть на смену и какие элементы клавишного сета должны меняться физически?",
+      "sources": [
+        {
+          "title": "Backline Source: digital keyboard rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        },
+        {
+          "title": "Swiss Backline: professional keyboard inventory",
+          "url": "https://backline.ch/equipment/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Сценические клавишные по райдеру",
+          "href": "/scenicheskie-klavishnye-po-rayderu/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-s-pedalyami-po-rayderu",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Клавишные с педалями по райдеру в аренду",
+      "editorial_title": "Педали в клавишном райдере: маленькая строка, которая может сломать всю механику фразы",
+      "description": "Keyboard pedals by rider: sustain, expression, triple pedal and compatibility with stage keyboards.",
+      "kicker": "PEDALS · RIDER · COMPATIBILITY",
+      "intro": [
+        "<p>Педаль легко воспринимать как аксессуар, пока на сцене не выясняется, что конкретная партия зависит от half-damper, expression или тройного блока.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала перечисляют музыкальные функции, а не разъёмы",
+          "paragraphs": [
+            "Sustain, expression и triple-pedal logic требуют разной совместимости с конкретным stage keyboard."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверяют все педали на репетиции программы",
+          "paragraphs": [
+            "Полярность и mapping не должны выясняться на первой ноте концерта."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда комплекта должна включать совместимые педали",
+          "paragraphs": [
+            "Клавиатура без рабочего педального интерфейса считается неполным backline."
+          ]
+        }
+      ],
+      "quote": "Какие педальные функции реально записаны в партии и какие из них критичны?",
+      "sources": [
+        {
+          "title": "Yamaha: CP88 / CP73 Stage Pianos",
+          "url": "https://ru.yamaha.com/ru/musical-instruments/keyboards/products/stagekeyboards/cp88-73/"
+        },
+        {
+          "title": "Roland: RD-2000 EX",
+          "url": "https://www.roland.com/global/products/rd-2000_ex/"
+        },
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Stage piano по райдеру",
+          "href": "/stage-piano-po-rayderu/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-stereo-vyhoda",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Клавишные со stereo output в аренду",
+      "editorial_title": "Stereo keyboard rig: два выхода нужны только там, где сцена действительно слышит пространство",
+      "description": "Keyboard stereo output: L/R routing, FOH channels, DI and live stereo compatibility.",
+      "kicker": "STEREO OUT · FOH · ROUTING",
+      "intro": [
+        "<p>Многие сценические клавишные дают stereo L/R, но реальная польза stereo зависит от PA, DI и того, слышит ли зал эту панораму.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала решают, нужен ли stereo музыкально",
+          "paragraphs": [
+            "Некоторые piano/organ/synth patches используют ширину заметно, другие спокойно живут в mono."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте mono collapse и stereo на площадке",
+          "paragraphs": [
+            "Если ключевые элементы теряются в mono, routing требует отдельного внимания."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать stereo-связку под конкретный production",
+          "paragraphs": [
+            "Не каждая площадка обязана поддерживать её постоянно."
+          ]
+        }
+      ],
+      "quote": "Что именно в вашей программе теряется при сведении клавиш в mono?",
+      "sources": [
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        },
+        {
+          "title": "Roland: RD-2000 EX",
+          "url": "https://www.roland.com/global/products/rd-2000_ex/"
+        },
+        {
+          "title": "Backline Source: digital keyboard rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Сценические клавишные",
+          "href": "/scenicheskie-klavishnye/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Клавишные для прямого подключения в пульт в аренду",
+      "editorial_title": "Клавишные напрямую в FOH: сценический звук начинается с правильной линии, а не с отдельного combo",
+      "description": "Keyboard direct to mixer: line outputs, DI, mono/stereo routing and stage monitoring.",
+      "kicker": "KEYS → FOH · DIRECT · MONITORING",
+      "intro": [
+        "<p>Сценические клавишные часто не нуждаются в отдельном усилителе: line output может идти напрямую в FOH, а мониторинг решается отдельно.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала проектируют routing L/R и DI",
+          "paragraphs": [
+            "Balanced/unbalanced outputs и длина линии определяют, нужен ли дополнительный DI-слой."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Soundcheck проверяет FOH и монитор исполнителя раздельно",
+          "paragraphs": [
+            "Хороший заловый сигнал не гарантирует удобной сцены для клавишника."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать полный direct rig на концерт",
+          "paragraphs": [
+            "Без отдельного клавишного combo."
+          ]
+        }
+      ],
+      "quote": "Как клавишник слышит себя, если инструмент идёт напрямую в FOH?",
+      "sources": [
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        },
+        {
+          "title": "Roland: RD-88 EX",
+          "url": "https://www.roland.com/global/products/rd-88_ex/"
+        },
+        {
+          "title": "Backline Source: digital keyboard rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "DI-боксы",
+          "href": "/di-boksy/"
+        },
+        {
+          "label": "Сценические клавишные",
+          "href": "/scenicheskie-klavishnye/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-upravleniya-vneshnimi-modulyami",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные для управления внешними модулями в аренду",
+      "editorial_title": "Master keyboard на сцене: клавиатура управляет не только собой",
+      "description": "Stage keyboard for external modules: MIDI zones, program changes, splits and controller workflow.",
+      "kicker": "MIDI · ZONES · EXTERNAL MODULES",
+      "intro": [
+        "<p>В сложном live-rig сценическая клавиатура может быть центром управления внешними модулями и software-инструментами.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала рисуют карту зон и внешних адресатов",
+          "paragraphs": [
+            "RD-2000 EX и современные stage keyboards поддерживают расширенную controller-логику, но полезность определяется конкретным live setup."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверяют каждый program change и split отдельно",
+          "paragraphs": [
+            "Ошибка адресации может сломать следующий номер ещё до первой ноты."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда должна включать время на программирование",
+          "paragraphs": [
+            "Такой rig нельзя выдавать как обычное piano за час до концерта."
+          ]
+        }
+      ],
+      "quote": "Сколькими внешними источниками должна управлять одна клавиатура и какие переключения происходят между песнями?",
+      "sources": [
+        {
+          "title": "Roland: RD-2000 EX",
+          "url": "https://www.roland.com/global/products/rd-2000_ex/"
+        },
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland RD-2000 EX",
+          "href": "/roland-rd2000ex-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Двухклавиатурный сет для концерта в аренду",
+      "editorial_title": "Две клавиатуры: разделить роли так, чтобы руки не переключали весь концерт одной кнопкой",
+      "description": "Two-keyboard live rig: stage piano + synth/workstation, stands, pedals and outputs.",
+      "kicker": "2 KEYBOARDS · LIVE RIG · РОЛИ",
+      "intro": [
+        "<p>Два инструмента имеют смысл, когда они физически разделяют роли: например, weighted piano снизу и synth/organ сверху.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют функцию каждой клавиатуры",
+          "paragraphs": [
+            "Нижний и верхний инструмент не должны дублировать друг друга без причины."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте переходы рук между двумя уровнями",
+          "paragraphs": [
+            "Высота стоек и угол второго яруса становятся частью техники."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать большой rig только на концертный период",
+          "paragraphs": [
+            "Дома такой сет может быть избыточен."
+          ]
+        }
+      ],
+      "quote": "Какая роль остаётся на нижней клавиатуре и какая уходит на верхнюю?",
+      "sources": [
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        },
+        {
+          "title": "Yamaha: CP88 / CP73 Stage Pianos",
+          "url": "https://ru.yamaha.com/ru/musical-instruments/keyboards/products/stagekeyboards/cp88-73/"
+        },
+        {
+          "title": "Roland: RD-88 EX",
+          "url": "https://www.roland.com/global/products/rd-88_ex/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Stage piano по райдеру",
+          "href": "/stage-piano-po-rayderu/"
+        },
+        {
+          "label": "Workstation по райдеру",
+          "href": "/workstation-po-rayderu/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-maloy-stseny",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Сценические клавишные для небольшой сцены в аренду",
+      "editorial_title": "Малая сцена: сократить rig, не потеряв нужные роли",
+      "description": "Compact stage keyboard rig: 61/73/88 keys, built-in sounds, direct output and small-stage setup.",
+      "kicker": "МАЛАЯ СЦЕНА · COMPACT RIG · DIRECT",
+      "intro": [
+        "<p>На небольшой площадке каждый дополнительный корпус отнимает пространство и усложняет смену артистов. Полезно собрать минимальный rig, который всё ещё закрывает программу.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют минимальный набор ролей",
+          "paragraphs": [
+            "Piano, organ, synth и pads не обязаны жить на четырёх разных устройствах."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте весь сет на одной компактной конфигурации",
+          "paragraphs": [
+            "Если переключения остаются музыкально удобными, rig можно уменьшить."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет подобрать компактный инструмент под конкретную площадку",
+          "paragraphs": [
+            "Большой touring set не нужен в каждом клубе."
+          ]
+        }
+      ],
+      "quote": "Какие функции можно объединить в одном инструменте без потери исполнительской свободы?",
+      "sources": [
+        {
+          "title": "Roland: RD-88 EX",
+          "url": "https://www.roland.com/global/products/rd-88_ex/"
+        },
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland RD-88 EX",
+          "href": "/roland-rd88ex-v-arendu/"
+        },
+        {
+          "label": "Nord Stage 4",
+          "href": "/nord-stage-4-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Клавишные backline без своего инструмента в аренду",
+      "editorial_title": "Прилететь без клавиатуры: восстановить привычный rig локально",
+      "description": "Local keyboard backline: rider matching, pedals, programs, outputs and artist handoff.",
+      "kicker": "FLY DATE · LOCAL BACKLINE · HANDOFF",
+      "intro": [
+        "<p>Fly-date формат особенно естественен для клавишных: тяжёлый instrument остаётся дома, а площадка собирает локальный эквивалент по райдеру.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "До поездки фиксируют модель или функциональный substitute",
+          "paragraphs": [
+            "Backline-провайдеры держат профессиональные клавишные именно для такой логики."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "На месте нужен технический handoff до soundcheck",
+          "paragraphs": [
+            "Артист проверяет механику, педали, output routing и сохранённые настройки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда заканчивается после даты",
+          "paragraphs": [
+            "Логистика тяжёлого инструмента исчезает из маршрута."
+          ]
+        }
+      ],
+      "quote": "Какой минимум нужно отправить площадке заранее, чтобы fly-date прошёл без собственного инструмента?",
+      "sources": [
+        {
+          "title": "Backline Source: digital keyboard rental inventory",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        },
+        {
+          "title": "Swiss Backline: professional keyboard inventory",
+          "url": "https://backline.ch/equipment/"
+        },
+        {
+          "title": "Nomad Music: Nord Stage 3 88 as in-demand backline",
+          "url": "https://www.nomadmusicco.com/nashville-tn-backline-rental"
+        }
+      ],
+      "links": [
+        {
+          "label": "Сценические клавишные по райдеру",
+          "href": "/scenicheskie-klavishnye-po-rayderu/"
+        }
+      ]
+    },
+    {
+      "slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Stage piano в аренду перед покупкой для концертов",
+      "editorial_title": "Перед покупкой stage piano: проверить его не дома, а в полном концертном режиме",
+      "description": "Stage piano before purchase: weighted action, pedals, outputs, patch changes and real gig test.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · STAGE PIANO · LIVE TEST",
+      "intro": [
+        "<p>Stage piano покупают ради сцены, но часто тестируют только в магазине или дома. Это пропускает половину задачи.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала соберите типичный концертный rig",
+          "paragraphs": [
+            "Стойка, педали, stereo/mono output и мониторинг должны быть такими же, как на реальной площадке."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проведите один настоящий концерт или генеральную репетицию",
+          "paragraphs": [
+            "Только там проявятся скорость переключений и устойчивость механики под стрессом."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт live-критерий до покупки",
+          "paragraphs": [
+            "После этого спецификации уже читаются через собственный опыт."
+          ]
+        }
+      ],
+      "quote": "Что должно подтвердиться именно на сцене, а не в магазине?",
+      "sources": [
+        {
+          "title": "Yamaha: CP88 / CP73 Stage Pianos",
+          "url": "https://ru.yamaha.com/ru/musical-instruments/keyboards/products/stagekeyboards/cp88-73/"
+        },
+        {
+          "title": "Roland: RD-2000 EX",
+          "url": "https://www.roland.com/global/products/rd-2000_ex/"
+        },
+        {
+          "title": "Nord: Stage 4 specifications",
+          "url": "https://www.nordkeyboards.com/products/nord-stage-4/specifications/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha CP88",
+          "href": "/yamaha-cp88-v-arendu/"
+        },
+        {
+          "label": "Roland RD-2000 EX",
+          "href": "/roland-rd2000ex-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "workstation-dlya-gastrolnogo-tura",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Workstation для гастрольного тура в аренду",
+      "editorial_title": "Touring workstation: проект должен переживать города, питание и ежедневный запуск",
+      "description": "Workstation for tour: live set, backups, outputs, MIDI and local backline reliability.",
+      "kicker": "TOUR · WORKSTATION · RELIABILITY",
+      "intro": [
+        "<p>На туре workstation становится не просто синтезатором, а узлом, который каждый день должен одинаково запускать весь клавишный проект.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала готовят backup и понятную процедуру загрузки",
+          "paragraphs": [
+            "Kronos/Motif-class rigs historically использовались именно как touring project containers."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверяют cold start и восстановление после полного выключения",
+          "paragraphs": [
+            "Музыкант должен знать, как вернуться в рабочее состояние без сервисного инженера."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда локальной workstation требует заранее совместимого проекта",
+          "paragraphs": [
+            "Иначе физически похожий прибор не становится функциональной заменой."
+          ]
+        }
+      ],
+      "quote": "Как быстро концертный проект можно восстановить на другой compatible workstation?",
+      "sources": [
+        {
+          "title": "Backline Source: Korg Kronos II 88",
+          "url": "https://www.backlinesource.com/digitalkeyboardrentals"
+        },
+        {
+          "title": "Swiss Backline: professional keyboard inventory",
+          "url": "https://backline.ch/equipment/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Korg Kronos 2 88",
+          "href": "/korg-kronos-2-88-v-arendu/"
+        },
+        {
+          "label": "Yamaha Motif XF8",
+          "href": "/yamaha-motif-xf8-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+      "parent": "hammond-organ",
+      "search_title": "Hammond B3 с Leslie для первого опыта в аренду",
+      "editorial_title": "Первый B3 + Leslie: органная клавиатура, drawbars и вращающийся воздух становятся одной системой",
+      "description": "First Hammond B3 + Leslie experience: drawbars, manuals, rotary speeds, pedalboard and real-room sound.",
+      "kicker": "B3 + LESLIE · ПЕРВЫЙ ОПЫТ · ROTARY",
+      "intro": [
+        "<p>Эмуляции дают представление о тембре, но физический B3 + Leslie меняет сам способ взаимодействия с drawbars, мануалами и движущимся звуком в комнате.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала оставьте простой organ registration",
+          "paragraphs": [
+            "Не нужно исследовать все drawbars сразу. Важно услышать базовую связь клавиатуры и rotary."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте slow/fast, два мануала и динамику через артикуляцию",
+          "paragraphs": [
+            "Органная фраза строится иначе, чем piano-line."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет получить реальный опыт без покупки винтажной системы",
+          "paragraphs": [
+            "Несколько часов с настоящей связкой создают собственный референс."
+          ]
+        }
+      ],
+      "quote": "Что вы хотите почувствовать в первую очередь: drawbars, два мануала, Leslie или педальную клавиатуру?",
+      "sources": [
+        {
+          "title": "Backline Source: Hammond B3 and Leslie 122 rental",
+          "url": "https://www.backlinesource.com/hammond-b3-and-leslie-122"
+        }
+      ],
+      "links": [
+        {
+          "label": "Hammond B3 + Leslie 122",
+          "href": "/hammond-b3-leslie-122-v-arendu/"
+        },
+        {
+          "label": "Leslie 122",
+          "href": "/leslie-122-v-arendu/"
+        }
+      ]
+    }
+  ]
+}
