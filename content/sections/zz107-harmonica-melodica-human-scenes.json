@@ -1,0 +1,924 @@
+{
+  "pages": [
+    {
+      "slug": "gubnaya-garmonika-vzroslomu-nachinayuschemu",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника взрослому начинающему в аренду",
+      "editorial_title": "Начать гармонику взрослым: сначала система и тональность, потом приёмы",
+      "description": "Губная гармоника взрослому начинающему: диатоническая/хроматическая система, тональность и первые упражнения.",
+      "kicker": "ВЗРОСЛЫЙ · ПЕРВЫЙ ЗВУК · СИСТЕМА",
+      "intro": [
+        "<p>На губной гармонике выбор типа инструмента особенно важен: диатоническая и хроматическая системы дают разные карты нот и разные техники.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала выбирают систему и тональность",
+          "paragraphs": [
+            "HOHNER отдельно разводит diatonic и chromatic harmonicas. Для большинства начальных диатонических курсов часто используется C, но конкретный материал нужно сверять с преподавателем."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте одиночную ноту, простую гамму и дыхательный рисунок",
+          "paragraphs": [
+            "Главная задача первых дней — научиться извлекать контролируемый звук без лишнего давления воздуха."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда или временный доступ позволяют проверить саму систему",
+          "paragraphs": [
+            "После нескольких занятий уже понятно, нужен ли diatonic, chromatic или другой маршрут."
+          ]
+        }
+      ],
+      "quote": "Какой тип гармоники и какая тональность указаны в вашем учебном материале?",
+      "sources": [
+        {
+          "title": "HOHNER: диатонические, хроматические и другие гармоники",
+          "url": "https://hohner.de/en/instruments/harmonicas"
+        },
+        {
+          "title": "HOHNER: Beginner Series harmonicas",
+          "url": "https://hohner.de/en/instruments/harmonicas/beginner"
+        },
+        {
+          "title": "HOHNER: Special 20",
+          "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гармоника в C для обучения",
+          "href": "/gubnaya-garmonika-v-do-mazhore-dlya-obucheniya/"
+        },
+        {
+          "label": "Диатоническая гармоника",
+          "href": "/diatonicheskaya-garmoshka/"
+        }
+      ]
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-domashnih-zanyatiy",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника для домашних занятий в аренду",
+      "editorial_title": "Домашняя гармоника: воздух должен получать ежедневную обратную связь",
+      "description": "Губная гармоника для дома: тональность, лёгкий отклик, дыхание и регулярная практика.",
+      "kicker": "ДОМ · ВОЗДУХ · РЕГУЛЯРНОСТЬ",
+      "intro": [
+        "<p>Губная гармоника компактна, но техника дыхания требует регулярного повторения. Домашний инструмент должен совпадать с системой и тональностью учебного материала.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Лёгкий отклик помогает услышать качество воздуха",
+          "paragraphs": [
+            "HOHNER Special 20 и beginner-линии показывают инструменты, ориентированные на доступное звукоизвлечение, но конкретную тональность всё равно выбирают по курсу."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте длинные ноты, простую мелодию и ритмическое дыхание",
+          "paragraphs": [
+            "Нужно понять, где звук теряется из-за техники, а где из-за несоответствия инструмента."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Арендный период полезен для выбора системы до покупки набора тональностей",
+          "paragraphs": [
+            "После этого можно покупать уже осознанно."
+          ]
+        }
+      ],
+      "quote": "Домашние занятия сейчас требуют одну тональность или уже несколько инструментов под разные песни?",
+      "sources": [
+        {
+          "title": "HOHNER: Beginner Series harmonicas",
+          "url": "https://hohner.de/en/instruments/harmonicas/beginner"
+        },
+        {
+          "title": "HOHNER: Special 20",
+          "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20"
+        }
+      ],
+      "links": [
+        {
+          "label": "Special 20 C",
+          "href": "/hohner-special20-c-v-arendu/"
+        },
+        {
+          "label": "Гармоника с лёгким откликом",
+          "href": "/gubnaya-garmonika-s-legkim-otklikom/"
+        }
+      ]
+    },
+    {
+      "slug": "gubnaya-garmonika-pered-pokupkoy",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника в аренду перед покупкой",
+      "editorial_title": "Перед покупкой гармоники: сначала доказать систему и тональность",
+      "description": "Губная гармоника перед покупкой: diatonic/chromatic, строй, отклик и собственный критерий.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · ГАРМОНИКА · СИСТЕМА",
+      "intro": [
+        "<p>Покупать гармонику по бренду раньше выбора системы бессмысленно. Диапазон, слайдер и bending живут в разных исполнительских архитектурах.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют тип и музыкальную задачу",
+          "paragraphs": [
+            "Diatonic Richter и chromatic slide-harmonica требуют разных технических маршрутов."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте реальную мелодию и дыхательную технику",
+          "paragraphs": [
+            "Нужно понять, хватает ли доступных нот и насколько свободно отвечает инструмент."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Временная проба создаёт критерий до покупки",
+          "paragraphs": [
+            "Особенно если дальше потребуется несколько тональностей."
+          ]
+        }
+      ],
+      "quote": "Вы выбираете систему, тональность или конкретный характер отклика?",
+      "sources": [
+        {
+          "title": "HOHNER: диатонические, хроматические и другие гармоники",
+          "url": "https://hohner.de/en/instruments/harmonicas"
+        },
+        {
+          "title": "HOHNER: пример диатонической гармоники системы Рихтера",
+          "url": "https://hohner.de/en/instruments/harmonicas/diatonic/ms-series/pro-harp"
+        },
+        {
+          "title": "HOHNER: Super Chromonica, диапазон и переключатель",
+          "url": "https://hohner.de/en/instruments/harmonicas/chromatic/chromonica/super-chromonica"
+        }
+      ],
+      "links": [
+        {
+          "label": "Диатоническая гармоника",
+          "href": "/diatonicheskaya-garmoshka/"
+        },
+        {
+          "label": "Хроматическая гармоника",
+          "href": "/hromaticheskaya-garmoshka/"
+        }
+      ]
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "parent": "diatonicheskaya-garmoshka",
+      "search_title": "Диатоническая губная гармоника для первого опыта в аренду",
+      "editorial_title": "Первая диатоника: ограниченный набор нот становится собственной музыкальной логикой",
+      "description": "Первый опыт на diatonic harmonica: Richter tuning, тональность, дыхание и bending.",
+      "kicker": "DIATONIC · RICHTER · ПЕРВЫЙ ОПЫТ",
+      "intro": [
+        "<p>Диатоническая гармоника не пытается дать все полутона напрямую. Её музыкальный язык строится вокруг конкретной тональности, дыхания и техник изменения высоты.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Первый инструмент лучше привязать к учебному материалу",
+          "paragraphs": [
+            "HOHNER приводит Richter-style diatonic как отдельную систему. Часто первым инструментом становится C, но это не универсальное правило для любой песни."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте чистые одиночные ноты прежде bending",
+          "paragraphs": [
+            "Сначала воздух должен быть управляемым, затем появляется смысл менять высоту."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет понять саму диатоническую логику",
+          "paragraphs": [
+            "После этого набор тональностей покупается уже под реальный репертуар."
+          ]
+        }
+      ],
+      "quote": "Какая тональность и какие первые позиции нужны в вашей музыке?",
+      "sources": [
+        {
+          "title": "HOHNER: пример диатонической гармоники системы Рихтера",
+          "url": "https://hohner.de/en/instruments/harmonicas/diatonic/ms-series/pro-harp"
+        },
+        {
+          "title": "HOHNER: Special 20",
+          "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20"
+        }
+      ],
+      "links": [
+        {
+          "label": "Special 20 C",
+          "href": "/hohner-special20-c-v-arendu/"
+        },
+        {
+          "label": "Гармоника в C",
+          "href": "/gubnaya-garmonika-v-do-mazhore-dlya-obucheniya/"
+        }
+      ]
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-pervogo-opyta",
+      "parent": "hromaticheskaya-garmoshka",
+      "search_title": "Хроматическая губная гармоника для первого опыта в аренду",
+      "editorial_title": "Первая хроматика: полутона появляются через отдельный жест слайдера",
+      "description": "Первый опыт на chromatic harmonica: слайдер, полный хроматизм, дыхание и мелодическая практика.",
+      "kicker": "CHROMATIC · SLIDE · ПОЛУТОНА",
+      "intro": [
+        "<p>Хроматическая гармоника организует полный набор полутонов иначе, чем диатоника: дополнительный слой появляется через слайдер.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Слайдер нужно встроить в мелодическую аппликатуру",
+          "paragraphs": [
+            "HOHNER Super Chromonica показывает классическую chromatic-конструкцию с переключателем."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте простую хроматическую последовательность",
+          "paragraphs": [
+            "Нужно сохранить ровное дыхание и точный момент работы большого пальца."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет понять, подходит ли эта система до покупки",
+          "paragraphs": [
+            "Если музыка постоянно требует хроматизма, этот интерфейс может быть естественнее набора диатоник."
+          ]
+        }
+      ],
+      "quote": "Полутона нужны постоянно в мелодии или только как отдельные выразительные приёмы?",
+      "sources": [
+        {
+          "title": "HOHNER: Super Chromonica, диапазон и переключатель",
+          "url": "https://hohner.de/en/instruments/harmonicas/chromatic/chromonica/super-chromonica"
+        },
+        {
+          "title": "HOHNER: диатонические, хроматические и другие гармоники",
+          "url": "https://hohner.de/en/instruments/harmonicas"
+        }
+      ],
+      "links": [
+        {
+          "label": "Хроматическая гармоника",
+          "href": "/hromaticheskaya-garmoshka/"
+        },
+        {
+          "label": "Губная гармошка",
+          "href": "/gubnaya-garmoshka/"
+        }
+      ]
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-bendinga",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника для bending в аренду",
+      "editorial_title": "Bending: высота должна меняться дыханием, а не силой",
+      "description": "Губная гармоника для bending: диатоническая система, лёгкий отклик, контроль воздуха и интонация.",
+      "kicker": "BENDING · ВОЗДУХ · ИНТОНАЦИЯ",
+      "intro": [
+        "<p>Bending на диатонической гармонике — не просто эффект, а способ изменить высоту внутри самой воздушной техники.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала нужен чистый базовый звук",
+          "paragraphs": [
+            "Лёгкий отклик помогает различать тонкие изменения воздушного тракта, но не заменяет правильной техники."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сравните исходную ноту и контролируемое понижение",
+          "paragraphs": [
+            "Нужно слышать высоту, а не просто ощущать, что звук изменился."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Временный инструмент полезен на отдельный технический этап",
+          "paragraphs": [
+            "После освоения bending критерий переносится и на другие тональности той же системы."
+          ]
+        }
+      ],
+      "quote": "Bending нужен для учебной техники, блюзовой фразы или интонационной работы?",
+      "sources": [
+        {
+          "title": "HOHNER: Special 20",
+          "url": "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20"
+        },
+        {
+          "title": "HOHNER: пример диатонической гармоники системы Рихтера",
+          "url": "https://hohner.de/en/instruments/harmonicas/diatonic/ms-series/pro-harp"
+        }
+      ],
+      "links": [
+        {
+          "label": "Special 20 C",
+          "href": "/hohner-special20-c-v-arendu/"
+        },
+        {
+          "label": "Гармоника с лёгким откликом",
+          "href": "/gubnaya-garmonika-s-legkim-otklikom/"
+        }
+      ]
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-zapisi",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника для студийной записи в аренду",
+      "editorial_title": "Гармоника в студии: сначала точная система и тональность, потом микрофон",
+      "description": "Губная гармоника для записи: diatonic/chromatic, тональность, дыхание и микрофонная партия.",
+      "kicker": "СТУДИЯ · ГАРМОНИКА · ТОНАЛЬНОСТЬ",
+      "intro": [
+        "<p>В записи маленькая ошибка выбора тональности или системы обнаруживается раньше, чем любой вопрос микрофона.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала проверяют ноты партии",
+          "paragraphs": [
+            "Diatonic и chromatic дают разный доступ к полутонам. Инструмент должен полностью покрывать реальную мелодию."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Запишите сухой дубль без эффектов",
+          "paragraphs": [
+            "Так слышны дыхание, атака и стабильность высоты."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда естественна для одной сессии",
+          "paragraphs": [
+            "Если нужна редкая тональность или система, покупать отдельный инструмент ради одного трека необязательно."
+          ]
+        }
+      ],
+      "quote": "Какие ноты и какая техника должны прозвучать в записи?",
+      "sources": [
+        {
+          "title": "HOHNER: диатонические, хроматические и другие гармоники",
+          "url": "https://hohner.de/en/instruments/harmonicas"
+        },
+        {
+          "title": "HOHNER: пример диатонической гармоники системы Рихтера",
+          "url": "https://hohner.de/en/instruments/harmonicas/diatonic/ms-series/pro-harp"
+        },
+        {
+          "title": "HOHNER: Super Chromonica, диапазон и переключатель",
+          "url": "https://hohner.de/en/instruments/harmonicas/chromatic/chromonica/super-chromonica"
+        }
+      ],
+      "links": [
+        {
+          "label": "Диатоническая гармоника",
+          "href": "/diatonicheskaya-garmoshka/"
+        },
+        {
+          "label": "Хроматическая гармоника",
+          "href": "/hromaticheskaya-garmoshka/"
+        }
+      ]
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-ansamblya",
+      "parent": "gubnaya-garmonika",
+      "search_title": "Губная гармоника для ансамбля в аренду",
+      "editorial_title": "Гармоника в ансамбле: маленький инструмент должен заранее совпасть с общей тональностью",
+      "description": "Губная гармоника для ансамбля: тональность, diatonic/chromatic system, динамика и партия.",
+      "kicker": "АНСАМБЛЬ · ТОНАЛЬНОСТЬ · ПАРТИЯ",
+      "intro": [
+        "<p>В ансамбле гармоника особенно чувствительна к тональности и доступным нотам. Ошибка выбора инструмента превращает всю репетицию в обход ограничений.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала сверяют партитуру и тональный план",
+          "paragraphs": [
+            "Если модуляции выходят за удобную диатоническую систему, chromatic или другой комплект может быть рациональнее."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте самые хроматические и тихие места вместе с составом",
+          "paragraphs": [
+            "Инструмент должен входить в баланс без лишнего давления воздуха."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет взять конкретную систему на проект",
+          "paragraphs": [
+            "После концерта редкая тональность или chromatic-модель может больше не требоваться."
+          ]
+        }
+      ],
+      "quote": "В какой тональности и с какими модуляциями играет ансамбль?",
+      "sources": [
+        {
+          "title": "HOHNER: диатонические, хроматические и другие гармоники",
+          "url": "https://hohner.de/en/instruments/harmonicas"
+        },
+        {
+          "title": "HOHNER: пример диатонической гармоники системы Рихтера",
+          "url": "https://hohner.de/en/instruments/harmonicas/diatonic/ms-series/pro-harp"
+        },
+        {
+          "title": "HOHNER: Super Chromonica, диапазон и переключатель",
+          "url": "https://hohner.de/en/instruments/harmonicas/chromatic/chromonica/super-chromonica"
+        }
+      ],
+      "links": [
+        {
+          "label": "Губная гармоника для записи",
+          "href": "/gubnaya-garmonika-dlya-zapisi/"
+        },
+        {
+          "label": "Губная гармошка",
+          "href": "/gubnaya-garmoshka/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-vzroslomu-nachinayuschemu",
+      "parent": "melodika",
+      "search_title": "Мелодика взрослому начинающему в аренду",
+      "editorial_title": "Начать мелодику взрослым: клавиши знакомы глазу, звук рождается воздухом",
+      "description": "Мелодика взрослому начинающему: 32 клавиши, дыхание, клавиатура и пробный период.",
+      "kicker": "МЕЛОДИКА · ПЕРВЫЙ ВЫДОХ · КЛАВИШИ",
+      "intro": [
+        "<p>Мелодика соединяет клавишную карту и дыхательную фразу. Даже пианисту приходится учиться распределять воздух во времени.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "На старте важны доступный диапазон и свободное дыхание",
+          "paragraphs": [
+            "Yamaha P-32D и Suzuki M-32C показывают устойчивую 32-клавишную образовательную категорию."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте гамму, аккорд и длинную мелодию",
+          "paragraphs": [
+            "Нужно понять, где воздух заканчивается раньше музыкальной фразы."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить сам гибридный интерфейс",
+          "paragraphs": [
+            "После нескольких занятий становится ясно, нужен ли инструмент постоянно."
+          ]
+        }
+      ],
+      "quote": "Что новее для вас: клавиатура, дыхание или соединение двух функций?",
+      "sources": [
+        {
+          "title": "HOHNER: мелодика, клавиатура и варианты исполнительской позы",
+          "url": "https://hohner.de/en/instruments/melodica"
+        },
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha P-32D",
+          "href": "/yamaha-p32d-v-arendu/"
+        },
+        {
+          "label": "Suzuki M-32C",
+          "href": "/suzuki-m32c-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-dlya-domashnih-zanyatiy",
+      "parent": "melodika",
+      "search_title": "Мелодика для домашних занятий в аренду",
+      "editorial_title": "Домашняя мелодика: клавиши и дыхание должны повторяться между уроками",
+      "description": "Мелодика для дома: диапазон, дыхание, клавиатура и регулярная школьная практика.",
+      "kicker": "ДОМ · МЕЛОДИКА · РЕГУЛЯРНОСТЬ",
+      "intro": [
+        "<p>Если ребёнок играет на мелодике в школе, домашняя практика требует того же диапазона и понятной клавиатуры.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "32 клавиши дают запас после первых песен",
+          "paragraphs": [
+            "Yamaha и Suzuki сохраняют эту категорию как образовательный стандартный формат."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте школьную песню и упражнение на длинный выдох",
+          "paragraphs": [
+            "Нужно проверить, свободно ли ребёнок держит инструмент и хватает ли диапазона."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда следует школьному периоду",
+          "paragraphs": [
+            "После курса инструмент можно вернуть без ненужного хранения."
+          ]
+        }
+      ],
+      "quote": "Какие пьесы и какой диапазон уже используются в школьной программе?",
+      "sources": [
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Мелодика 32 клавиши",
+          "href": "/melodika-32-klavishi-dlya-shkoly/"
+        },
+        {
+          "label": "Yamaha P-32D",
+          "href": "/yamaha-p32d-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-pered-pokupkoy",
+      "parent": "melodika",
+      "search_title": "Мелодика в аренду перед покупкой",
+      "editorial_title": "Перед покупкой мелодики: диапазон и дыхание должны доказать свою полезность",
+      "description": "Аренда мелодики перед покупкой: 32 клавиши, мундштук/трубка, дыхание и собственный критерий.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · МЕЛОДИКА · ДИАПАЗОН",
+      "intro": [
+        "<p>Мелодики выглядят похожими, но диапазон, сопротивление воздуха и способ игры с трубкой или мундштуком заметно меняют практику.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют основную сцену использования",
+          "paragraphs": [
+            "Школа, ансамбль, запись и сценическое соло требуют разного удобства и положения инструмента."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте длинную мелодию и аккордовую работу",
+          "paragraphs": [
+            "Нужно понять, насколько предсказуемо сочетаются дыхание и клавиатура."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт критерий до покупки",
+          "paragraphs": [
+            "После нескольких занятий можно выбрать другой конкретный инструмент."
+          ]
+        }
+      ],
+      "quote": "Что вы хотите понять до покупки: диапазон, сопротивление воздуха или способ держать инструмент?",
+      "sources": [
+        {
+          "title": "HOHNER: мелодика, клавиатура и варианты исполнительской позы",
+          "url": "https://hohner.de/en/instruments/melodica"
+        },
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha P-32D",
+          "href": "/yamaha-p32d-v-arendu/"
+        },
+        {
+          "label": "Suzuki M-32C",
+          "href": "/suzuki-m32c-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-dlya-raboty-nad-dyhaniem",
+      "parent": "melodika",
+      "search_title": "Мелодика для работы над дыханием в аренду",
+      "editorial_title": "Дыхание на мелодике: фраза должна продолжаться через клавиши",
+      "description": "Мелодика для дыхательной практики: длинная фраза, атака, динамика и координация с клавиатурой.",
+      "kicker": "ДЫХАНИЕ · ФРАЗА · КЛАВИШИ",
+      "intro": [
+        "<p>Мелодика делает расход воздуха слышимым сразу: пальцы могут знать ноты, но фраза закончится там, где неправильно распределён выдох.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Начинают с длинных нот и короткой мелодии",
+          "paragraphs": [
+            "Сопротивление воздуха конкретного инструмента нужно узнать до работы над сложной фразой."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте crescendo и длинное legato без ускорения",
+          "paragraphs": [
+            "Нужно сохранить давление воздуха и плавную клавишную линию одновременно."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда может поддержать отдельный технический период",
+          "paragraphs": [
+            "После него навык переносится и в ансамблевую игру."
+          ]
+        }
+      ],
+      "quote": "Дыхание заканчивается слишком рано, атака нестабильна или динамика неуправляема?",
+      "sources": [
+        {
+          "title": "HOHNER: мелодика, клавиатура и варианты исполнительской позы",
+          "url": "https://hohner.de/en/instruments/melodica"
+        },
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Мелодика",
+          "href": "/melodika/"
+        },
+        {
+          "label": "Yamaha P-32D",
+          "href": "/yamaha-p32d-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-dlya-ansamblya",
+      "parent": "melodika",
+      "search_title": "Мелодика для ансамбля в аренду",
+      "editorial_title": "Мелодика в ансамбле: дыхательный голос должен занять своё место среди клавишных и духовых",
+      "description": "Мелодика для ансамбля: диапазон, динамика, 32 клавиши и баланс.",
+      "kicker": "АНСАМБЛЬ · МЕЛОДИКА · БАЛАНС",
+      "intro": [
+        "<p>Мелодика может звучать как клавишный и духовой голос одновременно, поэтому в ансамбле важно не только сыграть ноты, но и выбрать динамический масштаб.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют функцию партии",
+          "paragraphs": [
+            "Мелодическая линия, аккордовый слой и унисон требуют разного дыхания и диапазона."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте самый плотный участок вместе с составом",
+          "paragraphs": [
+            "Инструмент должен быть слышен без постоянного форсирования выдоха."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда может совпадать со сроком одной программы",
+          "paragraphs": [
+            "После проекта отдельная мелодика не обязательно нужна постоянно."
+          ]
+        }
+      ],
+      "quote": "Мелодика в ансамбле ведёт мелодию, гармонию или дублирует другой голос?",
+      "sources": [
+        {
+          "title": "HOHNER: мелодика, клавиатура и варианты исполнительской позы",
+          "url": "https://hohner.de/en/instruments/melodica"
+        },
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Мелодика",
+          "href": "/melodika/"
+        },
+        {
+          "label": "Suzuki M-32C",
+          "href": "/suzuki-m32c-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-dlya-zapisi",
+      "parent": "melodika",
+      "search_title": "Мелодика для студийной записи в аренду",
+      "editorial_title": "Мелодика в студии: воздух и клавишная атака становятся одним микрофонным событием",
+      "description": "Мелодика для записи: диапазон, дыхание, механические шумы и микрофонная партия.",
+      "kicker": "СТУДИЯ · МЕЛОДИКА · ДЫХАНИЕ",
+      "intro": [
+        "<p>На близком микрофоне мелодика показывает и дыхание, и шум клавиш. Это может быть частью характера, но должно быть осознанно.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала выбирают способ игры",
+          "paragraphs": [
+            "Прямой мундштук и гибкая трубка меняют положение инструмента и расстояние до микрофона."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Запишите сухой фрагмент с тихой и сильной динамикой",
+          "paragraphs": [
+            "Так слышно реальный шум механики и диапазон воздуха до обработки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда естественна для одной сессии",
+          "paragraphs": [
+            "Редкая тембровая партия не требует постоянной покупки."
+          ]
+        }
+      ],
+      "quote": "В записи важнее дыхательный характер, клавишная атака или чистый мелодический слой?",
+      "sources": [
+        {
+          "title": "HOHNER: мелодика, клавиатура и варианты исполнительской позы",
+          "url": "https://hohner.de/en/instruments/melodica"
+        },
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Мелодика",
+          "href": "/melodika/"
+        },
+        {
+          "label": "Yamaha P-32D",
+          "href": "/yamaha-p32d-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-dlya-distantsionnogo-uroka",
+      "parent": "melodika",
+      "search_title": "Мелодика для дистанционного урока в аренду",
+      "editorial_title": "Дистанционный урок мелодики: преподаватель должен видеть пальцы и слышать дыхание",
+      "description": "Мелодика для онлайн-урока: камера, дыхание, клавиши и стабильная домашняя практика.",
+      "kicker": "ОНЛАЙН-УРОК · КАМЕРА · ДЫХАНИЕ",
+      "intro": [
+        "<p>На онлайн-уроке мелодика удобна тем, что инструмент компактен, но камера должна одновременно показывать руки и положение мундштука или трубки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала собирают простой ракурс",
+          "paragraphs": [
+            "Преподавателю нужно видеть клавиатуру и общую дыхательную постановку, а не только лицо ученика."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проведите короткую техническую репетицию звонка",
+          "paragraphs": [
+            "Микрофон не должен обрезать тихое начало и перегружаться на сильном выдохе."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда подходит на период дистанционного формата",
+          "paragraphs": [
+            "Когда занятия возвращаются в класс, дополнительный домашний инструмент можно вернуть."
+          ]
+        }
+      ],
+      "quote": "Преподавателю важнее видеть клавиатуру, дыхательную постановку или слышать прямой акустический звук?",
+      "sources": [
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Мелодика для домашних занятий",
+          "href": "/melodika-dlya-domashnih-zanyatiy/"
+        },
+        {
+          "label": "Мелодика",
+          "href": "/melodika/"
+        }
+      ]
+    },
+    {
+      "slug": "melodika-posle-fortepiano",
+      "parent": "melodika",
+      "search_title": "Мелодика после фортепиано в аренду",
+      "editorial_title": "После фортепиано: знакомые клавиши впервые начинают зависеть от дыхания",
+      "description": "Переход с фортепиано на мелодику: клавиатура, дыхание, legato и новый способ динамики.",
+      "kicker": "ФОРТЕПИАНО → МЕЛОДИКА · ДЫХАНИЕ · ФРАЗА",
+      "intro": [
+        "<p>Пианист быстро узнаёт клавишную карту мелодики, но привычная динамика пальца перестаёт быть единственным источником выразительности.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Главное новое различие — воздух",
+          "paragraphs": [
+            "Hohner, Yamaha и Suzuki строят мелодику как клавишно-дыхательный инструмент: звучание существует только вместе с выдохом."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте знакомую фортепианную мелодию одним дыханием",
+          "paragraphs": [
+            "Нужно заново распределить legato и динамику внутри ограниченного воздуха."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить новый интерфейс без покупки",
+          "paragraphs": [
+            "Мелодика может стать отдельным ансамблевым голосом или остаться полезным экспериментом."
+          ]
+        }
+      ],
+      "quote": "Что хочется перенести с фортепиано, а что именно должна добавить дыхательная фраза?",
+      "sources": [
+        {
+          "title": "HOHNER: мелодика, клавиатура и варианты исполнительской позы",
+          "url": "https://hohner.de/en/instruments/melodica"
+        },
+        {
+          "title": "Yamaha: P-32D Pianica",
+          "url": "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html"
+        },
+        {
+          "title": "Suzuki: M-32C standard educational melodion",
+          "url": "https://suzukimusic-global.com/products_single.php?products_cd=125"
+        }
+      ],
+      "links": [
+        {
+          "label": "Мелодика",
+          "href": "/melodika/"
+        },
+        {
+          "label": "Цифровое пианино",
+          "href": "/cifrovoe-pianino/"
+        }
+      ]
+    }
+  ]
+}
