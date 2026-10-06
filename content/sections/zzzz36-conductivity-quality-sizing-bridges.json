@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "domra-po-razmeru-rebenka": [
+      {
+        "label": "Домра для ученика",
+        "href": "/domra-dlya-uchenika/"
+      },
+      {
+        "label": "Домра для домашних занятий",
+        "href": "/domra-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "balalayka-po-razmeru-rebenka": [
+      {
+        "label": "Балалайка для домашних занятий",
+        "href": "/balalayka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Первый оркестровый опыт на балалайке",
+        "href": "/balalayka-dlya-pervogo-orkestrovogo-opyta/"
+      }
+    ],
+    "klassicheskaya-gitara-po-razmeru-rebenka": [
+      {
+        "label": "Классическая гитара для этюдов",
+        "href": "/klassicheskaya-gitara-dlya-etudov/"
+      },
+      {
+        "label": "Классическая гитара для ансамбля",
+        "href": "/klassicheskaya-gitara-dlya-ansamblya/"
+      }
+    ],
+    "ukulele-so-stabilnymi-kolkami": [
+      {
+        "label": "Укулеле для домашних занятий",
+        "href": "/ukulele-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Укулеле перед покупкой",
+        "href": "/ukulele-pered-pokupkoy/"
+      }
+    ],
+    "goboy-dlya-nebolshoy-ruki": [
+      {
+        "label": "Первый гобой",
+        "href": "/goboy-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Гобой перед покупкой",
+        "href": "/goboy-pered-pokupkoy/"
+      }
+    ],
+    "fagot-dlya-nebolshoy-ruki": [
+      {
+        "label": "Первый фагот",
+        "href": "/fagot-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      }
+    ],
+    "legkaya-valtorna-rebenku": [
+      {
+        "label": "Первая валторна",
+        "href": "/valtorna-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Валторна для домашних занятий",
+        "href": "/valtorna-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "tuba-podhodyaschego-razmera-rebenku": [
+      {
+        "label": "Первая туба",
+        "href": "/tuba-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Туба для домашних занятий",
+        "href": "/tuba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "bayan-po-razmeru-rebenka": [
+      {
+        "label": "Баян ребёнку на первый год",
+        "href": "/bayan-rebenku-pervyy-god/"
+      },
+      {
+        "label": "Баян для домашних занятий",
+        "href": "/bayan-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "gusli-s-diapazonom-po-programme": [
+      {
+        "label": "Гусли взрослому начинающему",
+        "href": "/gusli-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Гусли перед покупкой",
+        "href": "/gusli-pered-pokupkoy/"
+      }
+    ],
+    "skripka-s-udobnoy-nastroykoy": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      }
+    ],
+    "violonchel-s-ustoychivym-shpilem": [
+      {
+        "label": "Виолончель для домашних занятий",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      },
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "pianino-s-upravlyaemym-tihim-zvukom": [
+      {
+        "label": "Цифровое пианино для ранних занятий",
+        "href": "/cifrovoe-pianino-dlya-rannih-zanyatiy/"
+      },
+      {
+        "label": "Цифровое пианино: работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "cifrovoe-pianino-s-tochnoy-repetitsiey": [
+      {
+        "label": "Пианино для быстрых повторных нот",
+        "href": "/pianino-dlya-bystryh-povtornyh-not/"
+      },
+      {
+        "label": "Сравнить механики цифровых пианино",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      }
+    ],
+    "pianino-dlya-videozayavki": [
+      {
+        "label": "Цифровое пианино для записи audio",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      },
+      {
+        "label": "Пианино перед покупкой",
+        "href": "/pianino-pered-pokupkoy/"
+      }
+    ],
+    "kontrabas-s-nizkoy-vysotoy-strun": [
+      {
+        "label": "Сравнить мензуры контрабаса",
+        "href": "/kontrabas-dlya-sravneniya-menzur/"
+      },
+      {
+        "label": "Контрабас для работы смычком",
+        "href": "/kontrabas-dlya-raboty-smychkom/"
+      }
+    ]
+  }
+}
