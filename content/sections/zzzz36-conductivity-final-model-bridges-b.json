@@ -1,0 +1,100 @@
+{
+  "navigation": {
+    "yamaha-dtx402k-v-arendu": [
+      {"label":"Домашние занятия","href":"/elektronnye-barabany-dlya-domashnih-zanyatiy/"},
+      {"label":"Работа с метрономом","href":"/elektronnye-barabany-dlya-raboty-s-metronomom/"}
+    ],
+    "yamaha-yfl212-v-arendu": [
+      {"label":"Флейта для домашних занятий","href":"/fleyta-dlya-domashnih-zanyatiy/"},
+      {"label":"Флейта перед покупкой","href":"/fleyta-pered-pokupkoy/"}
+    ],
+    "yamaha-yfl372-v-arendu": [
+      {"label":"Переход на открытые клапаны","href":"/fleyta-dlya-perehoda-na-otkrytye-klapany/"},
+      {"label":"Флейта перед покупкой","href":"/fleyta-pered-pokupkoy/"}
+    ],
+    "yamaha-ycl255-v-arendu": [
+      {"label":"Кларнет для домашних занятий","href":"/klarinet-dlya-domashnih-zanyatiy/"},
+      {"label":"Кларнет перед покупкой","href":"/klarinet-pered-pokupkoy/"}
+    ],
+    "yamaha-ycl450-v-arendu": [
+      {"label":"Переход на деревянный корпус","href":"/klarinet-dlya-perehoda-na-derevyannyy-korpus/"},
+      {"label":"Кларнет перед покупкой","href":"/klarinet-pered-pokupkoy/"}
+    ],
+    "boss-rc-505mkii-v-arendu": [
+      {"label":"Луп-станция для вокала","href":"/lup-stantsiya-dlya-vokala/"},
+      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+    ],
+    "boss-rc-600-v-arendu": [
+      {"label":"Backline для первого концерта","href":"/backline-dlya-pervogo-kontserta/"},
+      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+    ],
+    "yamaha-ysl354-v-arendu": [
+      {"label":"Первый тромбон","href":"/trombon-dlya-pervogo-instrumenta/"},
+      {"label":"Домашние занятия","href":"/trombon-dlya-domashnih-zanyatiy/"}
+    ],
+    "yamaha-ysl448g-v-arendu": [
+      {"label":"Переход на квартвентиль","href":"/trombon-s-kvartventilem-dlya-perehoda/"},
+      {"label":"Тромбон перед покупкой","href":"/trombon-pered-pokupkoy/"}
+    ],
+    "yamaha-ytr2330-v-arendu": [
+      {"label":"Труба взрослому начинающему","href":"/truba-vzroslomu-nachinayuschemu/"},
+      {"label":"Домашние занятия","href":"/truba-dlya-domashnih-zanyatiy/"}
+    ],
+    "yamaha-ytr4335gii-v-arendu": [
+      {"label":"Оркестровое прослушивание","href":"/truba-dlya-orkestrovogo-proslushivaniya/"},
+      {"label":"Труба перед покупкой","href":"/truba-pered-pokupkoy/"}
+    ],
+    "yamaha-psr-e383-v-arendu": [
+      {"label":"Первый урок с преподавателем","href":"/instrument-dlya-pervogo-uroka-s-prepodavatelem/"},
+      {"label":"Первые домашние занятия","href":"/instrument-dlya-pervyh-zanyatiy-doma/"}
+    ],
+    "roland-gokeys3-v-arendu": [
+      {"label":"Первые домашние занятия","href":"/instrument-dlya-pervyh-zanyatiy-doma/"},
+      {"label":"Инструмент по рекомендации преподавателя","href":"/instrument-po-rekomendatsii-prepodavatelya/"}
+    ],
+    "gibson-j45-v-arendu": [
+      {"label":"Акустическая гитара для игры боем","href":"/akusticheskaya-gitara-dlya-igry-boem/"},
+      {"label":"Перед покупкой","href":"/akusticheskaya-gitara-pered-pokupkoy/"}
+    ],
+    "hohner-bravo-ii-48-v-arendu": [
+      {"label":"Аккордеон 48 басов","href":"/akkordeon-48-basov-dlya-pervogo-etapa/"},
+      {"label":"Домашние занятия","href":"/akkordeon-dlya-domashnih-zanyatiy/"}
+    ],
+    "radial-jdi-v-arendu": [
+      {"label":"Первый passive DI","href":"/passivnyy-di-boks-dlya-pervogo-opyta/"},
+      {"label":"DI-бокс перед покупкой","href":"/di-boks-pered-pokupkoy/"}
+    ],
+    "squier-affinity-stratocaster-v-arendu": [
+      {"label":"Первая электрогитара","href":"/elektrogitara-dlya-pervogo-instrumenta/"},
+      {"label":"Домашние занятия","href":"/elektrogitara-dlya-domashnih-zanyatiy/"}
+    ],
+    "mpkmi-gusli-pikkolo-v-arendu": [
+      {"label":"Гусли взрослому начинающему","href":"/gusli-vzroslomu-nachinayuschemu/"},
+      {"label":"Гусли перед покупкой","href":"/gusli-pered-pokupkoy/"}
+    ],
+    "hammond-b3-leslie-122-v-arendu": [
+      {"label":"Первый опыт B3 + Leslie","href":"/hammond-b3-leslie-dlya-pervogo-opyta/"},
+      {"label":"Hammond + Leslie по райдеру","href":"/hammond-leslie-po-rayderu/"}
+    ],
+    "yamaha-yas280-v-arendu": [
+      {"label":"Первый альт-саксофон","href":"/saksofon-alt-dlya-pervogo-instrumenta/"},
+      {"label":"Саксофон перед покупкой","href":"/saksofon-pered-pokupkoy/"}
+    ],
+    "roland-spd-sx-pro-v-arendu": [
+      {"label":"Backline для ритм-секции","href":"/backline-dlya-ritm-sektsii/"},
+      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+    ],
+    "roland-sp-404mkii-v-arendu": [
+      {"label":"Семплер для театральных эффектов","href":"/sempler-dlya-teatralnyh-effektov/"},
+      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+    ],
+    "yamaha-yhr567-v-arendu": [
+      {"label":"Переход на двойную валторну","href":"/valtorna-dlya-perehoda-na-dvoynuyu-sistemu/"},
+      {"label":"Валторна перед покупкой","href":"/valtorna-pered-pokupkoy/"}
+    ],
+    "musser-m55-v-arendu": [
+      {"label":"Первый опыт на вибрафоне","href":"/vibrafon-dlya-pervogo-opyta/"},
+      {"label":"Работа с педалью вибрафона","href":"/vibrafon-dlya-raboty-s-pedalyu/"}
+    ]
+  }
+}
