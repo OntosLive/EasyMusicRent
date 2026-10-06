@@ -47,12 +47,12 @@
 | Контрабас | 16 | 32 |
 | **Итого** | **64** | **128** |
 
-Файлы:
+Файлы загружаются после всех предметных JSON, чтобы навигационные мосты накладывались только на уже созданные темы:
 
-- `content/sections/zz129-conductivity-keyboard-bridges.json`;
-- `content/sections/zz130-conductivity-royal-cello-bridges.json`;
-- `content/sections/zz131-conductivity-cello-bass-bridges.json`;
-- `content/sections/zz132-conductivity-bass-bridges.json`.
+- `content/sections/zzzz01-conductivity-keyboard-bridges.json`;
+- `content/sections/zzzz02-conductivity-royal-cello-bridges.json`;
+- `content/sections/zzzz03-conductivity-cello-bass-bridges.json`;
+- `content/sections/zzzz04-conductivity-bass-bridges.json`.
 
 ## Как выбирались страницы
 
