@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "arcata-gasparo-v-arendu": [
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      },
+      {
+        "label": "Скрипка на прослушивание",
+        "href": "/skripka-na-proslushivanie/"
+      }
+    ],
+    "arcata-giovanni-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      }
+    ],
+    "cremona-sv175-v-arendu": [
+      {
+        "label": "Скрипка для музыкальной школы",
+        "href": "/skripka-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "eastman-vl100-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "gewa-allegro-skripka-v-arendu": [
+      {
+        "label": "Скрипка для музыкальной школы",
+        "href": "/skripka-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "gewa-ideale-skripka-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "gewa-maestro1-skripka-v-arendu": [
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      },
+      {
+        "label": "Скрипка на прослушивание",
+        "href": "/skripka-na-proslushivanie/"
+      }
+    ],
+    "goronok-aleksey-romanov-v-arendu": [
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      },
+      {
+        "label": "Скрипка на прослушивание",
+        "href": "/skripka-na-proslushivanie/"
+      }
+    ],
+    "goronok-etyud-v-arendu": [
+      {
+        "label": "Скрипка для музыкальной школы",
+        "href": "/skripka-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "goronok-fantaziya-v-arendu": [
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      },
+      {
+        "label": "Скрипка на конкурс",
+        "href": "/skripka-na-konkurs-v-arendu/"
+      }
+    ],
+    "goronok-kadentsiya-v-arendu": [
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      },
+      {
+        "label": "Скрипка на прослушивание",
+        "href": "/skripka-na-proslushivanie/"
+      }
+    ],
+    "goronok-kapris-v-arendu": [
+      {
+        "label": "Скрипка на прослушивание",
+        "href": "/skripka-na-proslushivanie/"
+      },
+      {
+        "label": "Скрипка для концерта",
+        "href": "/skripka-dlya-kontserta/"
+      }
+    ],
+    "goronok-nova-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "hidersine-vivente-academy-skripka-v-arendu": [
+      {
+        "label": "Скрипка для музыкальной школы",
+        "href": "/skripka-dlya-muzykalnoy-shkoly/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "hidersine-vivente-skripka-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "skripka-chetvert-rebenku": [
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Смычок подходящего размера ребёнку",
+        "href": "/smychok-dlya-rebenka/"
+      }
+    ]
+  }
+}
