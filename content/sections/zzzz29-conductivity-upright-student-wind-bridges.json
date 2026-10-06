@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "yamaha-b1-v-arendu": [
+      {
+        "label": "Пианино для маленькой комнаты",
+        "href": "/pianino-dlya-malenkoy-komnaty/"
+      },
+      {
+        "label": "Пианино ребёнку для домашних занятий",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      }
+    ],
+    "yamaha-b2-v-arendu": [
+      {
+        "label": "Пианино перед покупкой",
+        "href": "/pianino-pered-pokupkoy/"
+      },
+      {
+        "label": "Пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "yamaha-b3-v-arendu": [
+      {
+        "label": "Пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      },
+      {
+        "label": "Пианино для полифонии",
+        "href": "/pianino-dlya-polifonii/"
+      }
+    ],
+    "yamaha-u1-v-arendu": [
+      {
+        "label": "Переход с цифрового пианино",
+        "href": "/pianino-dlya-perehoda-s-cifrovogo/"
+      },
+      {
+        "label": "Пианино перед покупкой",
+        "href": "/pianino-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-u3-v-arendu": [
+      {
+        "label": "Пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      },
+      {
+        "label": "Сравнить пианино с роялем",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "kawai-k200-v-arendu": [
+      {
+        "label": "Домашнее пианино ребёнка",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      },
+      {
+        "label": "Пианино для маленькой комнаты",
+        "href": "/pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "kawai-k300-v-arendu": [
+      {
+        "label": "Пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      },
+      {
+        "label": "Пианино для чтения с листа",
+        "href": "/pianino-dlya-chteniya-s-lista/"
+      }
+    ],
+    "gemeinhardt-2sp-v-arendu": [
+      {
+        "label": "Флейта для домашних занятий",
+        "href": "/fleyta-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Флейта перед покупкой",
+        "href": "/fleyta-pered-pokupkoy/"
+      }
+    ],
+    "gemeinhardt-2spch-v-arendu": [
+      {
+        "label": "Флейта с изогнутой головкой",
+        "href": "/fleyta-s-izognutoy-golovkoy/"
+      },
+      {
+        "label": "Если трудно дотягиваться",
+        "href": "/instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov/"
+      }
+    ],
+    "jupiter-jfl700-v-arendu": [
+      {
+        "label": "Флейта взрослому начинающему",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Флейта перед покупкой",
+        "href": "/fleyta-pered-pokupkoy/"
+      }
+    ],
+    "buffet-prodige-v-arendu": [
+      {
+        "label": "Кларнет взрослому начинающему",
+        "href": "/klarinet-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Кларнет перед покупкой",
+        "href": "/klarinet-pered-pokupkoy/"
+      }
+    ],
+    "jupiter-jcl700n-v-arendu": [
+      {
+        "label": "Кларнет для домашних занятий",
+        "href": "/klarinet-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Кларнет перед покупкой",
+        "href": "/klarinet-pered-pokupkoy/"
+      }
+    ],
+    "bach-btr302-v-arendu": [
+      {
+        "label": "Труба взрослому начинающему",
+        "href": "/truba-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Труба перед покупкой",
+        "href": "/truba-pered-pokupkoy/"
+      }
+    ],
+    "jupiter-jtr700-v-arendu": [
+      {
+        "label": "Труба для домашних занятий",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Труба перед покупкой",
+        "href": "/truba-pered-pokupkoy/"
+      }
+    ],
+    "bach-btb302-v-arendu": [
+      {
+        "label": "Первый тромбон",
+        "href": "/trombon-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Тромбон перед покупкой",
+        "href": "/trombon-pered-pokupkoy/"
+      }
+    ],
+    "jupiter-jtb700-v-arendu": [
+      {
+        "label": "Тромбон для домашних занятий",
+        "href": "/trombon-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Тромбон перед покупкой",
+        "href": "/trombon-pered-pokupkoy/"
+      }
+    ]
+  }
+}
