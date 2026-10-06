@@ -1,0 +1,216 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Первая крупная духовая волна человеческих сцен: флейтовые, кларнетовые, саксофонные, гобойные, фаготовые, трубные, валторновые, тромбоновые, эуфониумовые, тубовые и brass-band маршруты.",
+  "base_subjects": 1276,
+  "new_subjects": 64,
+  "target_subjects": 1340,
+  "source_roles": {
+    "manufacturer_spec": "Подтверждает строй, материал, клапанную/клавишную систему, размеры и учебное позиционирование конкретной модели.",
+    "instrument_guide": "Подтверждает конструктивную самостоятельность голоса или семейства: пикколо, альтовая/басовая флейта, разные кларнеты, саксофоны, английский рожок, сузафон и т. п.",
+    "editorial_inference": "Связывает подтверждённую конструкцию с человеческой сценой, способом пробы и смыслом временного доступа. Не является утверждением производителя."
+  },
+  "sources": {
+    "yamaha_yfl212": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.yamahamusiclondon.com/YFL-212-Student-Flute/pidBYFL212ID",
+      "supports": [
+        "Ученическая флейта, закрытая механика и вариант изогнутой головки."
+      ]
+    },
+    "yamaha_yfl372": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.yamahamusiclondon.com/YFL-372-Step-Up-Flute/pidBYFL372-SUPER",
+      "supports": [
+        "Переходная флейтовая модель для сравнения с начальным инструментом."
+      ]
+    },
+    "yamaha_flute_family": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/flute/structure/structure002.html",
+      "supports": [
+        "Пикколо, альтовая и басовая флейта как отдельные голоса семейства."
+      ]
+    },
+    "yamaha_ycl255": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/clarinets/ycl-255/specs.html",
+      "supports": [
+        "B♭, Boehm 17/6, ABS-корпус, регулируемая опора большого пальца."
+      ]
+    },
+    "yamaha_ycl450": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/clarinets/ycl-450_03/specs.html",
+      "supports": [
+        "Деревянный корпус и иной конструктивный этап относительно ABS student-кларнета."
+      ]
+    },
+    "yamaha_clarinet_family": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/clarinet/",
+      "supports": [
+        "Разновидности кларнета, включая A и bass clarinet."
+      ]
+    },
+    "yamaha_yas280": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/saxophones/yas-280/index.html",
+      "supports": [
+        "Ученический Eb-альт, регулируемый крючок, лёгкий отклик и современная student-конструкция."
+      ]
+    },
+    "yamaha_yts280": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/saxophones/yts-280/specs.html",
+      "supports": [
+        "B♭ tenor sax, регулируемый крючок, комплектный мундштук и механизм 280."
+      ]
+    },
+    "yamaha_sax_family": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/structure002.html",
+      "supports": [
+        "Soprano, alto, tenor и baritone как самостоятельные голоса семейства."
+      ]
+    },
+    "yamaha_yob241": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/oboes/yob-241/specs.html",
+      "supports": [
+        "Учебный гобой и его система."
+      ]
+    },
+    "yamaha_oboe_family": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/oboe/structure/structure002.html",
+      "supports": [
+        "Гобой д’амур и родственные гобойные инструменты."
+      ]
+    },
+    "yamaha_english_horn": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/oboe/trivia/trivia004.html",
+      "supports": [
+        "Конструктивные различия гобоя и английского рожка."
+      ]
+    },
+    "fox_601": {
+      "kind": "manufacturer_spec",
+      "url": "https://foxproducts.com/bassoons/fox-model-601/",
+      "supports": [
+        "Профессиональная фаготовая конструкция как предметный референс механики."
+      ]
+    },
+    "heckel_contrabassoon": {
+      "kind": "manufacturer_spec",
+      "url": "https://heckel.de/en/instrumente/contrabassoon/",
+      "supports": [
+        "Контрафагот как самостоятельный низкий профессиональный инструмент."
+      ]
+    },
+    "yamaha_ytr2330": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/trumpets/bb-trumpets/ytr-2330/specs.html",
+      "supports": [
+        "B♭, ML bore, medium weight, student trumpet configuration."
+      ]
+    },
+    "yamaha_trumpet_family": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/trumpet/structure/structure003.html",
+      "supports": [
+        "Корнет и флюгельгорн как отдельные инструменты семейства трубы."
+      ]
+    },
+    "yamaha_yhr314ii": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/frenchhorns/yhr-314ii/index.html",
+      "supports": [
+        "Одинарная F-валторна как student route."
+      ]
+    },
+    "yamaha_yhr567": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/frenchhorns/yhr-567/specs.html",
+      "supports": [
+        "Двойная F/B♭ валторна."
+      ]
+    },
+    "yamaha_ysl354": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-354/specs.html",
+      "supports": [
+        "Ученическая тенор-тромбоновая конструкция."
+      ]
+    },
+    "yamaha_ysl448g": {
+      "kind": "manufacturer_spec",
+      "url": "https://ch.yamaha.com/de/musical-instruments/brass-woodwinds/products/trombones/ysl-448g-446g/specs.html",
+      "supports": [
+        "Крупная мензура и F-квартвентиль как отдельный интерфейс."
+      ]
+    },
+    "yamaha_yep201": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/euphoniums/yep-201/specs.html",
+      "supports": [
+        "Трёхклапанный учебный эуфониум."
+      ]
+    },
+    "besson_prodige162": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.besson.com/de/instruments/euphoniums-de/prodige-be162/",
+      "supports": [
+        "Student euphonium с иной клапанной архитектурой для дальнейшего этапа."
+      ]
+    },
+    "besson_prestige2052": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.besson.com/en/instruments/euphoniums/prestige-be2051-2052/",
+      "supports": [
+        "Профессиональная compensating 3+1 конфигурация."
+      ]
+    },
+    "yamaha_ybb105": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/winds/tubas/ybb-105/index.html",
+      "supports": [
+        "Student 3/4 BB♭ tuba."
+      ]
+    },
+    "yamaha_sousaphone": {
+      "kind": "instrument_guide",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/tuba/structure/structure003.html",
+      "supports": [
+        "Сузафон как отдельная тубовая конструкция для движения."
+      ]
+    },
+    "yamaha_ybh301": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/baritones/ybh-301/",
+      "supports": [
+        "Student baritone horn."
+      ]
+    },
+    "yamaha_yah203": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/altohorns/yah-203/",
+      "supports": [
+        "Student Eb tenor/alto horn."
+      ]
+    }
+  },
+  "package": {
+    "flute_and_clarinet": 16,
+    "saxophone_oboe_bassoon": 16,
+    "high_brass": 16,
+    "low_brass": 16
+  },
+  "editorial_rules": [
+    "Переход между голосами одного семейства является самостоятельной сценой, если меняется физический интерфейс, строй, диапазон или функция в ансамбле.",
+    "Страница «перед покупкой» существует только там, где инструмент достаточно сложен и дорог, а длительная проба действительно добавляет самостоятельную информацию.",
+    "Ученическая модель служит конструктивным кандидатом, а не универсальной рекомендацией всем ученикам.",
+    "Жанровая или ансамблевая сцена описывает конкретную роль в секции и способ проверки, а не назначает обязательный бренд.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ]
+}
