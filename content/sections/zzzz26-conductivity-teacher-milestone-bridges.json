@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-po-programme-ekzamena": [
+      {
+        "label": "Работа над техникой",
+        "href": "/instrument-dlya-raboty-nad-tehnikoy-po-zadaniyu/"
+      },
+      {
+        "label": "Работа над динамикой",
+        "href": "/instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu/"
+      }
+    ],
+    "instrument-po-programme-konkursa": [
+      {
+        "label": "Программа прослушивания",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      },
+      {
+        "label": "Работа над звуком",
+        "href": "/instrument-dlya-raboty-nad-zvukom-po-zadaniyu/"
+      }
+    ],
+    "instrument-po-programme-proslushivaniya": [
+      {
+        "label": "Программа конкурса",
+        "href": "/instrument-po-programme-konkursa/"
+      },
+      {
+        "label": "Несколько занятий перед покупкой",
+        "href": "/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"
+      }
+    ],
+    "instrument-dlya-postupleniya-v-muzykalnuyu-shkolu": [
+      {
+        "label": "Первый урок с преподавателем",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      },
+      {
+        "label": "Инструмент ребёнку после выбора преподавателя",
+        "href": "/instrument-rebenku-posle-vybora-prepodavatelya/"
+      }
+    ],
+    "instrument-dlya-postupleniya-v-uchilishche": [
+      {
+        "label": "Программа прослушивания",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      },
+      {
+        "label": "Step-up по рекомендации",
+        "href": "/instrument-dlya-step-up-po-rekomendatsii/"
+      }
+    ],
+    "instrument-dlya-postupleniya-v-konservatoriyu": [
+      {
+        "label": "Программа прослушивания",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      },
+      {
+        "label": "Step-up по рекомендации",
+        "href": "/instrument-dlya-step-up-po-rekomendatsii/"
+      }
+    ],
+    "instrument-dlya-perehoda-v-sleduyushchiy-klass": [
+      {
+        "label": "Step-up по рекомендации",
+        "href": "/instrument-dlya-step-up-po-rekomendatsii/"
+      },
+      {
+        "label": "Смена размера по рекомендации",
+        "href": "/instrument-smenit-razmer-po-rekomendatsii/"
+      }
+    ],
+    "instrument-posle-izmeneniya-repertuara": [
+      {
+        "label": "Если не хватает диапазона",
+        "href": "/instrument-esli-ne-hvataet-diapazona/"
+      },
+      {
+        "label": "Смена системы по рекомендации",
+        "href": "/instrument-smenit-sistemu-po-rekomendatsii/"
+      }
+    ],
+    "instrument-dlya-orkestrovogo-klassa": [
+      {
+        "label": "Если инструмент теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      },
+      {
+        "label": "Ансамблевый урок",
+        "href": "/instrument-dlya-ansamblevogo-uroka/"
+      }
+    ],
+    "instrument-dlya-kamernogo-klassa": [
+      {
+        "label": "Ансамблевый урок",
+        "href": "/instrument-dlya-ansamblevogo-uroka/"
+      },
+      {
+        "label": "Если инструмент теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "instrument-dlya-raboty-nad-tehnikoy-po-zadaniyu": [
+      {
+        "label": "Если повторная нота не успевает",
+        "href": "/instrument-esli-povtornaya-nota-ne-uspevaet/"
+      },
+      {
+        "label": "Если тяжело прижимать",
+        "href": "/instrument-esli-tyazhelo-prizhimat/"
+      }
+    ],
+    "instrument-dlya-raboty-nad-zvukom-po-zadaniyu": [
+      {
+        "label": "Если тихая нота не начинается",
+        "href": "/instrument-esli-tihaya-nota-ne-nachinaetsya/"
+      },
+      {
+        "label": "Если нота начинается с шума",
+        "href": "/instrument-esli-nota-nachinaetsya-s-shumom/"
+      }
+    ],
+    "instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu": [
+      {
+        "label": "Если тихая нота не начинается",
+        "href": "/instrument-esli-tihaya-nota-ne-nachinaetsya/"
+      },
+      {
+        "label": "Если педаль не даёт промежуточного положения",
+        "href": "/instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya/"
+      }
+    ],
+    "instrument-dlya-raboty-nad-intonatsiey-po-zadaniyu": [
+      {
+        "label": "Если строй уплывает",
+        "href": "/instrument-esli-stroy-uplyvaet/"
+      },
+      {
+        "label": "Если лады не строят",
+        "href": "/instrument-esli-lady-ne-stroyat/"
+      }
+    ],
+    "instrument-dlya-raboty-nad-ritmom-po-zadaniyu": [
+      {
+        "label": "Если повторная нота не успевает",
+        "href": "/instrument-esli-povtornaya-nota-ne-uspevaet/"
+      },
+      {
+        "label": "Если клапан запаздывает",
+        "href": "/instrument-esli-klapan-zapazdyvaet/"
+      }
+    ],
+    "instrument-dlya-raboty-nad-vynoslivostyu-po-zadaniyu": [
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      },
+      {
+        "label": "Если быстро устаёт правая рука",
+        "href": "/instrument-esli-bystro-ustaet-pravaya-ruka/"
+      }
+    ]
+  }
+}
