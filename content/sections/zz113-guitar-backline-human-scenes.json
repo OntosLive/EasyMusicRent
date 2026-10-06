@@ -1,0 +1,892 @@
+{
+  "pages": [
+    {
+      "slug": "gitarnyy-usilitel-dlya-pervogo-kontserta",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель для первого концерта в аренду",
+      "editorial_title": "Первый концерт: усилитель должен сохранить домашнюю партию в новом масштабе",
+      "description": "Гитарный усилитель для первого концерта: clean headroom, перегруз, громкость сцены и soundcheck.",
+      "kicker": "ПЕРВЫЙ КОНЦЕРТ · SOUND CHECK · AMP",
+      "intro": [
+        "<p>Первый выход на сцену меняет громкость, расстояние до кабинета и способ слышать себя. Усилитель должен помогать перенести уже выученную партию, а не заставлять собирать новый звук в последний момент.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют рабочий домашний звук",
+          "paragraphs": [
+            "Нужно понять, где перегруз рождается: в усилителе, педалях или обоих слоях."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "На soundcheck проверяют чистый запас и рабочий перегруз",
+          "paragraphs": [
+            "Сценическая громкость не должна уничтожать баланс группы или заставлять гитариста менять атаку."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда естественна для первых концертов без покупки большого combo",
+          "paragraphs": [
+            "После нескольких сцен уже понятнее, какой формат нужен постоянно."
+          ]
+        }
+      ],
+      "quote": "Какой домашний звук нужно сохранить на сцене и кто создаёт перегруз?",
+      "sources": [
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        },
+        {
+          "title": "Fender: '65 Deluxe Reverb",
+          "url": "https://www.fender.com/products/65-deluxe-reverb/"
+        },
+        {
+          "title": "Fender: '65 Twin Reverb",
+          "url": "https://www.fender.com/products/65-twin-reverb/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарные усилители",
+          "href": "/gitarnye-usiliteli/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-klina",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель для чистого звука в аренду",
+      "editorial_title": "Clean: усилитель должен увеличить гитару, не меняя её раньше времени",
+      "description": "Гитарный усилитель для clean sound: headroom, stereo chorus, педали и сценическая громкость.",
+      "kicker": "CLEAN · HEADROOM · ДИНАМИКА",
+      "intro": [
+        "<p>Чистый усилитель нужен не просто без distortion. Он должен сохранять динамику руки и не входить в нежелательный перегруз на рабочей громкости.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Большой clean headroom и характерный clean — разные задачи",
+          "paragraphs": [
+            "Fender Twin и Roland JC-120 стали известны как разные профессиональные clean-референсы."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте тихую фразу, аккорд и сильную атаку",
+          "paragraphs": [
+            "Усилитель должен сохранять различия движения, а не выравнивать всё одной громкостью."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет подобрать clean под один зал или запись",
+          "paragraphs": [
+            "Необязательно покупать мощный сценический combo ради нескольких дат."
+          ]
+        }
+      ],
+      "quote": "Нужен нейтральный запас clean, Fender-подобная динамика или характерный JC-120?",
+      "sources": [
+        {
+          "title": "Fender: '65 Twin Reverb",
+          "url": "https://www.fender.com/products/65-twin-reverb/"
+        },
+        {
+          "title": "Roland: JC-120 Jazz Chorus",
+          "url": "https://www.roland.com/global/products/jc-120/"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Fender Twin Reverb",
+          "href": "/fender-65-twin-reverb-v-arendu/"
+        },
+        {
+          "label": "Roland JC-120",
+          "href": "/roland-jc120-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-krancha",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель для crunch в аренду",
+      "editorial_title": "Crunch: перегруз должен начинаться там, где рука уже решила играть сильнее",
+      "description": "Гитарный усилитель для crunch: динамический перегруз, громкость, master volume и реальная партия.",
+      "kicker": "CRUNCH · АТАКА · ДИНАМИКА",
+      "intro": [
+        "<p>Хороший crunch живёт между чистым и плотным перегрузом. Музыканту важно слышать, как усилитель реагирует на силу атаки и ручку громкости гитары.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала выбирают источник crunch",
+          "paragraphs": [
+            "VOX AC30 и Marshall JCM800 представляют разные классические способы получить сценический перегруженный характер."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте одну фразу тихо и сильно без переключения канала",
+          "paragraphs": [
+            "Если звук меняет степень перегруза вместе с рукой, система работает на задачу."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет сравнить две архитектуры на своей гитаре",
+          "paragraphs": [
+            "После нескольких репетиций выбор перестаёт быть легендой бренда."
+          ]
+        }
+      ],
+      "quote": "Crunch должен реагировать на руку или быть одинаково плотным на всей партии?",
+      "sources": [
+        {
+          "title": "VOX: AC30 Custom",
+          "url": "https://voxamps.com/en-gb/product/ac30-custom/"
+        },
+        {
+          "title": "Marshall: JCM800 2203",
+          "url": "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Vox AC30C2",
+          "href": "/vox-ac30c2-v-arendu/"
+        },
+        {
+          "label": "Marshall JCM800",
+          "href": "/marshall-jcm800-2203-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-high-gain",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель high-gain в аренду",
+      "editorial_title": "High-gain: плотность не должна стирать атаку риффа",
+      "description": "High-gain усилитель для гитары: gain, noise, low end, кабинет и сценическая проверка.",
+      "kicker": "HIGH-GAIN · RIFF · КОНТРОЛЬ",
+      "intro": [
+        "<p>Большой gain легко создаёт массу, но реальная задача — сохранить начало ноты, muting и читаемость низких струн.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Голова и кабинет рассматриваются вместе",
+          "paragraphs": [
+            "EVH 5150III и Orange Rockerverb — разные современные high-gain референсы, а реальный результат зависит и от подключённого кабинета."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте короткий рифф и длинную ноту на рабочей громкости",
+          "paragraphs": [
+            "Нужно услышать атаку, шум между нотами и поведение низкого регистра."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет взять high-gain систему на тур или запись",
+          "paragraphs": [
+            "Домашняя покупка большого stack для одной программы не обязательна."
+          ]
+        }
+      ],
+      "quote": "Нужна прежде всего атака риффа, длинный sustain или большой низ?",
+      "sources": [
+        {
+          "title": "EVH: 5150III 100S Head",
+          "url": "https://www.evhgear.com/gear/amplifiers/head/5150iii-100s-head/2250250000"
+        },
+        {
+          "title": "Orange: Rockerverb 50 MKIII",
+          "url": "https://orangeamps.com/en-us/products/rockerverb-50-mkiii"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "EVH 5150III 100S",
+          "href": "/evh-5150iii-100s-v-arendu/"
+        },
+        {
+          "label": "Orange Rockerverb 50",
+          "href": "/orange-rockerverb-50-mkiii-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-studii",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель для студийной записи в аренду",
+      "editorial_title": "Усилитель в студии: записать реальную цепочку до того, как её заменит плагин",
+      "description": "Гитарный усилитель для записи: combo/head, кабинет, микрофонная громкость и повторяемость дублей.",
+      "kicker": "СТУДИЯ · AMP · REAMP-ЛОГИКА",
+      "intro": [
+        "<p>В студии усилитель нужен как реальный источник характера и динамики. Выбор начинается с роли трека, а не с максимальной мощности.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала решают, нужен clean, crunch или high-gain слой",
+          "paragraphs": [
+            "Каждая архитектура создаёт другой исходный материал для микрофона."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Запишите короткий одинаковый фрагмент на нескольких усилителях",
+          "paragraphs": [
+            "Сравнение записи полезнее памяти о звуке в комнате."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет получить конкретный amp только на нужные дорожки",
+          "paragraphs": [
+            "После сессии студия не получает обязанность хранить весь парк."
+          ]
+        }
+      ],
+      "quote": "Какую часть гитарного характера должен дать именно реальный усилитель?",
+      "sources": [
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        },
+        {
+          "title": "Fender: '65 Twin Reverb",
+          "url": "https://www.fender.com/products/65-twin-reverb/"
+        },
+        {
+          "title": "VOX: AC30 Custom",
+          "url": "https://voxamps.com/en-gb/product/ac30-custom/"
+        },
+        {
+          "title": "Marshall: JCM800 2203",
+          "url": "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарные усилители",
+          "href": "/gitarnye-usiliteli/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-repetitsii",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель для репетиции в аренду",
+      "editorial_title": "Репетиционный amp: группа должна услышать партию без соревнования громкости",
+      "description": "Гитарный усилитель для репетиции: мощность, clean headroom, перегруз и баланс с барабанами.",
+      "kicker": "РЕПЕТИЦИЯ · БАЛАНС · ГРОМКОСТЬ",
+      "intro": [
+        "<p>На репетиции усилитель должен занять место между барабанами, басом и голосом, а не просто быть слышен гитаристу.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Мощность выбирают от состава и помещения",
+          "paragraphs": [
+            "Большой Twin и меньший Deluxe решают разный масштаб, но реальный баланс определяет комната."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте самый плотный участок всей группой",
+          "paragraphs": [
+            "Если каждый музыкант вынужден повышать громкость вслед за гитарой, система не собрана."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет подобрать amp к конкретной репетиционной сцене",
+          "paragraphs": [
+            "Не нужно покупать концертную мощность ради временного состава."
+          ]
+        }
+      ],
+      "quote": "С кем должен сбалансироваться усилитель и где сейчас начинается гонка громкости?",
+      "sources": [
+        {
+          "title": "Fender: '65 Twin Reverb",
+          "url": "https://www.fender.com/products/65-twin-reverb/"
+        },
+        {
+          "title": "Fender: '65 Deluxe Reverb",
+          "url": "https://www.fender.com/products/65-deluxe-reverb/"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Fender Deluxe Reverb",
+          "href": "/fender-65-deluxe-reverb-v-arendu/"
+        },
+        {
+          "label": "Fender Twin Reverb",
+          "href": "/fender-65-twin-reverb-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-pered-pokupkoy",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель в аренду перед покупкой",
+      "editorial_title": "Перед покупкой усилителя: прожить с громкостью, каналами и своей гитарой",
+      "description": "Аренда гитарного усилителя перед покупкой: clean, gain, мощность, кабинет и собственный критерий.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · AMP · КРИТЕРИЙ",
+      "intro": [
+        "<p>Усилитель особенно плохо выбирается по короткому магазинному тесту на чужой гитаре и маленькой громкости.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "До аренды выбирают несколько спорных координат",
+          "paragraphs": [
+            "Clean headroom, тип перегруза, мощность, вес и формат combo/head — отдельные вопросы."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Используйте свою гитару дома, на репетиции и в записи",
+          "paragraphs": [
+            "Только несколько сцен показывают реальный характер усилителя."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Покупать именно арендованный экземпляр необязательно",
+          "paragraphs": [
+            "Главный результат — собственный язык выбора."
+          ]
+        }
+      ],
+      "quote": "Какие свойства должны стать понятны до покупки усилителя?",
+      "sources": [
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        },
+        {
+          "title": "Fender: '65 Twin Reverb",
+          "url": "https://www.fender.com/products/65-twin-reverb/"
+        },
+        {
+          "title": "VOX: AC30 Custom",
+          "url": "https://voxamps.com/en-gb/product/ac30-custom/"
+        },
+        {
+          "title": "Marshall: JCM800 2203",
+          "url": "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарные усилители",
+          "href": "/gitarnye-usiliteli/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-gastrolnoy-zameny",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель на замену в гастролях в аренду",
+      "editorial_title": "Гастрольная замена amp: восстановить функцию райдера за один soundcheck",
+      "description": "Гитарный усилитель для гастрольной замены: тип канала, мощность, кабинет, педали и согласование substitute.",
+      "kicker": "ГАСТРОЛИ · SUBSTITUTE · RIDER",
+      "intro": [
+        "<p>Когда основной усилитель не приехал, задача не в поиске «хорошего amp», а в восстановлении того интерфейса, под который уже собран pedalboard и программа.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Райдер переводят в функциональные требования",
+          "paragraphs": [
+            "Clean/headroom, количество каналов, тип перегруза, loop и кабинет важнее внешнего сходства."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "На soundcheck проходят самые чувствительные места программы",
+          "paragraphs": [
+            "Педали, переключения и обратная связь с кабинетом должны стать знакомыми до первого концерта."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда заканчивается вместе с гастрольной проблемой",
+          "paragraphs": [
+            "Покупать дубль в чужом городе не нужно."
+          ]
+        }
+      ],
+      "quote": "Какие свойства основного усилителя нельзя потерять в substitute?",
+      "sources": [
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        },
+        {
+          "title": "Backline Source: rider substitutions should be coordinated in advance",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-1x12-dlya-pervogo-opyta",
+      "parent": "gitarnye-kabinety",
+      "search_title": "Гитарный кабинет 1×12 для первого опыта в аренду",
+      "editorial_title": "1×12: услышать голову через компактный кабинет",
+      "description": "Гитарный кабинет 1x12: компактность, громкость, динамик и сравнение с крупными кабинетами.",
+      "kicker": "1×12 · КОМПАКТНОСТЬ · CAB",
+      "intro": [
+        "<p>Малый кабинет полезен как отдельная точка сравнения: он меняет физический масштаб системы и способ взаимодействия головы с комнатой.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала сохраняют ту же голову и настройки",
+          "paragraphs": [
+            "Так можно услышать именно влияние кабинета, а не всей цепочки сразу."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сравните один clean и один перегруженный рифф",
+          "paragraphs": [
+            "Оцените атаку, низ и то, как кабинет заполняет помещение."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет понять, хватает ли компактного формата",
+          "paragraphs": [
+            "После реальной репетиции выбор становится предметным."
+          ]
+        }
+      ],
+      "quote": "Компактность нужна ради транспорта, комнаты или другого характера отдачи?",
+      "sources": [
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарные кабинеты",
+          "href": "/gitarnye-kabinety/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-2x12-dlya-pervogo-opyta",
+      "parent": "gitarnye-kabinety",
+      "search_title": "Гитарный кабинет 2×12 для первого опыта в аренду",
+      "editorial_title": "2×12: промежуточный масштаб между компактностью и большим stack",
+      "description": "Гитарный кабинет 2x12: площадь динамиков, транспорт, громкость и сравнение с 1x12/4x12.",
+      "kicker": "2×12 · БАЛАНС · CAB",
+      "intro": [
+        "<p>2×12 часто выбирают как компромисс, но слово «компромисс» ничего не говорит о конкретной партии и сцене.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнивают на одной голове",
+          "paragraphs": [
+            "Это отделяет кабинет от характера усилителя."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте репетицию и перенос",
+          "paragraphs": [
+            "Музыкальная отдача и физическая логистика должны рассматриваться вместе."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт реальный ответ до покупки",
+          "paragraphs": [
+            "Если 2×12 закрывает сцену и транспорт, больший stack может быть лишним."
+          ]
+        }
+      ],
+      "quote": "Что вы хотите получить от 2×12 относительно 1×12 или 4×12?",
+      "sources": [
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарные кабинеты",
+          "href": "/gitarnye-kabinety/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-4x12-dlya-pervogo-opyta",
+      "parent": "gitarnye-kabinety",
+      "search_title": "Гитарный кабинет 4×12 для первого опыта в аренду",
+      "editorial_title": "4×12: большой физический источник звука должен оправдать свой масштаб",
+      "description": "Гитарный кабинет 4x12: проекция, низ, взаимодействие с головой и сценическая логистика.",
+      "kicker": "4×12 · STACK · БОЛЬШАЯ СЦЕНА",
+      "intro": [
+        "<p>4×12 — не просто больше динамиков. Это другой физический объект на сцене и в транспорте, который имеет смысл только при соответствующей задаче.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Marshall 1960A даёт классическую точку отсчёта",
+          "paragraphs": [
+            "Наклонный 4×12 существует как самостоятельный backline standard рядом с головами Marshall и другими amp heads."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте рабочую громкость на сцене",
+          "paragraphs": [
+            "В маленькой комнате большой кабинет может быть физически и акустически избыточен."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда особенно естественна для тура и больших концертов",
+          "paragraphs": [
+            "Необязательно хранить 4×12 дома ради нескольких сцен."
+          ]
+        }
+      ],
+      "quote": "Большой кабинет нужен ради проекции, ощущения за спиной или требования райдера?",
+      "sources": [
+        {
+          "title": "Marshall: 1960A 4x12 Angled Cabinet",
+          "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Marshall 1960A",
+          "href": "/marshall-1960a-v-arendu/"
+        },
+        {
+          "label": "Гитарные кабинеты",
+          "href": "/gitarnye-kabinety/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-kabinet-pered-pokupkoy",
+      "parent": "gitarnye-kabinety",
+      "search_title": "Гитарный кабинет в аренду перед покупкой",
+      "editorial_title": "Перед покупкой кабинета: услышать свою голову через реальный объём воздуха",
+      "description": "Аренда гитарного кабинета перед покупкой: 1x12/2x12/4x12, динамики, транспорт и сценическая практика.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · CAB · СРАВНЕНИЕ",
+      "intro": [
+        "<p>Кабинет меняет ощущение усилителя настолько, что покупать его отдельно от своей головы и своих сцен рискованно.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала выбирают два размера-кандидата",
+          "paragraphs": [
+            "Сравнение имеет смысл при одинаковой голове и партии."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте и звук, и физическую логистику",
+          "paragraphs": [
+            "Вес, габарит, погрузка и место на сцене входят в реальную стоимость решения."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда превращает кабинет из спецификации в опыт",
+          "paragraphs": [
+            "После нескольких репетиций выбор становится устойчивым."
+          ]
+        }
+      ],
+      "quote": "Что важнее в будущем кабинете: отдача, низ, размер или логистика?",
+      "sources": [
+        {
+          "title": "Marshall: 1960A 4x12 Angled Cabinet",
+          "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Marshall 1960A",
+          "href": "/marshall-1960a-v-arendu/"
+        },
+        {
+          "label": "Гитарные кабинеты",
+          "href": "/gitarnye-kabinety/"
+        }
+      ]
+    },
+    {
+      "slug": "golova-i-kabinet-dlya-kontserta",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарная голова и кабинет для концерта в аренду",
+      "editorial_title": "Head + cab: концертный звук должен быть собран как одна система",
+      "description": "Гитарная голова и кабинет на концерт: impedance, мощность, характер усилителя и сценическая сборка.",
+      "kicker": "HEAD + CAB · КОНЦЕРТ · СИСТЕМА",
+      "intro": [
+        "<p>Голова и кабинет не являются двумя независимыми предметами: их электрическая совместимость и акустическая связка определяют реальный результат.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала согласуют безопасную совместимость и нужный формат",
+          "paragraphs": [
+            "Райдер должен указывать конкретную голову и допустимый кабинет, а не только логотип на сцене."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Soundcheck проводят на полной связке",
+          "paragraphs": [
+            "Педали и гитара должны быть подключены так же, как в концерте."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда идеально соответствует большой сценической связке",
+          "paragraphs": [
+            "После концерта stack не нужно хранить музыканту."
+          ]
+        }
+      ],
+      "quote": "Какая голова, какой кабинет и какой режим подключения требуются вашей программе?",
+      "sources": [
+        {
+          "title": "Marshall: JCM800 2203",
+          "url": "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head"
+        },
+        {
+          "title": "Marshall: 1960A 4x12 Angled Cabinet",
+          "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Marshall JCM800",
+          "href": "/marshall-jcm800-2203-v-arendu/"
+        },
+        {
+          "label": "Marshall 1960A",
+          "href": "/marshall-1960a-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "combo-ili-golova-i-kabinet",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Combo или голова с кабинетом в аренду для сравнения",
+      "editorial_title": "Combo или stack: выбрать форму системы, а не размер статуса",
+      "description": "Сравнение combo и head+cab: transport, сценическая громкость, гибкость и реальная партия.",
+      "kicker": "COMBO ↔ STACK · СРАВНЕНИЕ · ЛОГИСТИКА",
+      "intro": [
+        "<p>Combo и раздельная связка решают одну базовую задачу усиления разными физическими способами. Выбор связан со сценой, транспортом и нужной гибкостью.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнивают функции, а не престиж",
+          "paragraphs": [
+            "Deluxe/Twin — complete combos, JCM800 + 1960A — раздельная система."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте один и тот же сет на двух форматах",
+          "paragraphs": [
+            "Отметьте не только тембр, но и время сборки и перенос."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет выбрать архитектуру до покупки",
+          "paragraphs": [
+            "После пары реальных сцен аргументы становятся гораздо конкретнее."
+          ]
+        }
+      ],
+      "quote": "Что важнее: один переносимый корпус или возможность независимо менять голову и кабинет?",
+      "sources": [
+        {
+          "title": "Fender: '65 Deluxe Reverb",
+          "url": "https://www.fender.com/products/65-deluxe-reverb/"
+        },
+        {
+          "title": "Fender: '65 Twin Reverb",
+          "url": "https://www.fender.com/products/65-twin-reverb/"
+        },
+        {
+          "title": "Marshall: JCM800 2203",
+          "url": "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head"
+        },
+        {
+          "title": "Marshall: 1960A 4x12 Angled Cabinet",
+          "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарные усилители",
+          "href": "/gitarnye-usiliteli/"
+        },
+        {
+          "label": "Гитарные кабинеты",
+          "href": "/gitarnye-kabinety/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-backline-po-rayderu",
+      "parent": "usiliteli-backline",
+      "search_title": "Гитарный backline по райдеру в аренду",
+      "editorial_title": "Гитарный райдер: модель является сокращением функции, а substitute нужно согласовывать",
+      "description": "Гитарный backline по райдеру: guitars, amps, cabinets, pedals compatibility и согласование замены.",
+      "kicker": "RIDER · GUITAR BACKLINE · SUBSTITUTE",
+      "intro": [
+        "<p>В райдере конкретная модель часто кодирует привычный интерфейс музыканта. Если точного экземпляра нет, замену нужно обсуждать как функцию, а не подбирать по цене.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Райдер раскладывают на обязательные и заменяемые параметры",
+          "paragraphs": [
+            "Backline-провайдеры прямо рекомендуют заранее согласовывать substitutes для популярных позиций."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Замена проходит soundcheck на реальной программе",
+          "paragraphs": [
+            "Педали, уровни и кабинет должны вести себя предсказуемо."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда существует ровно сроком тура или даты",
+          "paragraphs": [
+            "Артисту не нужно перевозить тяжёлый backline через весь маршрут."
+          ]
+        }
+      ],
+      "quote": "Какие позиции райдера обязательны по модели, а какие допускают функциональную замену?",
+      "sources": [
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        },
+        {
+          "title": "Backline Source: rider substitutions should be coordinated in advance",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-maloy-stseny",
+      "parent": "gitarnye-usiliteli",
+      "search_title": "Гитарный усилитель для небольшой сцены в аренду",
+      "editorial_title": "Малая сцена: усилитель должен работать ниже точки, где зал становится его заложником",
+      "description": "Гитарный усилитель для малого клуба: мощность, master volume, PA support и сценический баланс.",
+      "kicker": "МАЛАЯ СЦЕНА · МОЩНОСТЬ · БАЛАНС",
+      "intro": [
+        "<p>На маленькой сцене слишком большой amp может лишить звукорежиссёра возможности собрать общий баланс ещё до появления PA.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Выбирают минимальную мощность, которая сохраняет нужный характер",
+          "paragraphs": [
+            "Deluxe Reverb и другие меньшие combos дают иной рабочий масштаб, чем Twin или большой stack."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте баланс с барабанами без лишнего сценического давления",
+          "paragraphs": [
+            "Гитарист должен слышать себя, но amp не должен заполнять весь зал напрямую."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет подобрать размер усиления к конкретной площадке",
+          "paragraphs": [
+            "Домашняя или туровая собственность не обязана решать все сцены."
+          ]
+        }
+      ],
+      "quote": "Сколько громкости реально нужно на сцене до того, как начинает работать PA?",
+      "sources": [
+        {
+          "title": "Fender: '65 Deluxe Reverb",
+          "url": "https://www.fender.com/products/65-deluxe-reverb/"
+        },
+        {
+          "title": "Backline Source: professional guitar amp rental inventory",
+          "url": "https://www.backlinesource.com/guitar-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Fender Deluxe Reverb",
+          "href": "/fender-65-deluxe-reverb-v-arendu/"
+        }
+      ]
+    }
+  ]
+}
