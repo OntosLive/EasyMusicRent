@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-dlya-uroka-na-domu": [
+      {
+        "label": "Первые занятия дома",
+        "href": "/instrument-dlya-pervyh-zanyatiy-doma/"
+      },
+      {
+        "label": "Занятия между уроками",
+        "href": "/instrument-dlya-zanyatiy-mezhdu-urokami/"
+      }
+    ],
+    "instrument-dlya-zanyatiya-u-prepodavatelya": [
+      {
+        "label": "Если инструмент сложно перевозить",
+        "href": "/instrument-esli-slozhno-perevozit/"
+      },
+      {
+        "label": "Урок в другом городе",
+        "href": "/instrument-dlya-uroka-v-drugom-gorode/"
+      }
+    ],
+    "instrument-dlya-onlayn-uroka-s-prepodavatelem": [
+      {
+        "label": "Цифровое пианино для дистанционного урока",
+        "href": "/cifrovoe-pianino-dlya-distantsionnogo-uroka/"
+      },
+      {
+        "label": "Электронные барабаны для дистанционного урока",
+        "href": "/elektronnye-barabany-dlya-distantsionnogo-uroka/"
+      }
+    ],
+    "instrument-dlya-master-klassa-s-prepodavatelem": [
+      {
+        "label": "Консультация с профессором",
+        "href": "/instrument-dlya-konsultatsii-s-professorom/"
+      },
+      {
+        "label": "Урок в другом городе",
+        "href": "/instrument-dlya-uroka-v-drugom-gorode/"
+      }
+    ],
+    "instrument-dlya-konsultatsii-s-professorom": [
+      {
+        "label": "Мастер-класс с преподавателем",
+        "href": "/instrument-dlya-master-klassa-s-prepodavatelem/"
+      },
+      {
+        "label": "Если преподаватель назвал точную модель",
+        "href": "/instrument-po-tochnoy-modeli-prepodavatelya/"
+      }
+    ],
+    "instrument-dlya-otkrytogo-uroka": [
+      {
+        "label": "Групповой урок",
+        "href": "/instrument-dlya-gruppovogo-uroka/"
+      },
+      {
+        "label": "Урок с концертмейстером",
+        "href": "/instrument-dlya-uroka-s-kontsertmeysterom/"
+      }
+    ],
+    "instrument-dlya-gruppovogo-uroka": [
+      {
+        "label": "Orff для группы детей",
+        "href": "/orf-instrumenty-dlya-gruppy-detey/"
+      },
+      {
+        "label": "Ансамблевый урок",
+        "href": "/instrument-dlya-ansamblevogo-uroka/"
+      }
+    ],
+    "instrument-dlya-ansamblevogo-uroka": [
+      {
+        "label": "Камерный класс",
+        "href": "/instrument-dlya-kamernogo-klassa/"
+      },
+      {
+        "label": "Групповой урок",
+        "href": "/instrument-dlya-gruppovogo-uroka/"
+      }
+    ],
+    "instrument-dlya-uroka-s-kontsertmeysterom": [
+      {
+        "label": "Пианино для аккомпанемента",
+        "href": "/pianino-dlya-akkompanementa/"
+      },
+      {
+        "label": "Камерный класс",
+        "href": "/instrument-dlya-kamernogo-klassa/"
+      }
+    ],
+    "instrument-dlya-uroka-v-studii": [
+      {
+        "label": "Если механика шумит в записи",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      },
+      {
+        "label": "Работа над звуком по заданию",
+        "href": "/instrument-dlya-raboty-nad-zvukom-po-zadaniyu/"
+      }
+    ],
+    "instrument-dlya-uroka-v-drugom-gorode": [
+      {
+        "label": "Если сложно перевозить",
+        "href": "/instrument-esli-slozhno-perevozit/"
+      },
+      {
+        "label": "Второе место занятий",
+        "href": "/instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii/"
+      }
+    ],
+    "instrument-dlya-vyezdnoy-shkoly": [
+      {
+        "label": "Летняя академия",
+        "href": "/instrument-dlya-letney-akademii/"
+      },
+      {
+        "label": "Учебный сбор",
+        "href": "/instrument-dlya-uchebnogo-sbora/"
+      }
+    ],
+    "instrument-dlya-letney-akademii": [
+      {
+        "label": "Интенсивный курс",
+        "href": "/instrument-dlya-intensivnogo-kursa/"
+      },
+      {
+        "label": "Выездная школа",
+        "href": "/instrument-dlya-vyezdnoy-shkoly/"
+      }
+    ],
+    "instrument-dlya-uchebnogo-sbora": [
+      {
+        "label": "Интенсивный курс",
+        "href": "/instrument-dlya-intensivnogo-kursa/"
+      },
+      {
+        "label": "Выездная школа",
+        "href": "/instrument-dlya-vyezdnoy-shkoly/"
+      }
+    ],
+    "instrument-dlya-zanyatiy-s-dvumya-prepodavatelyami": [
+      {
+        "label": "Сравнить два варианта",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      },
+      {
+        "label": "Параметры преподавателя",
+        "href": "/instrument-po-parametram-prepodavatelya/"
+      }
+    ],
+    "instrument-na-period-smeny-prepodavatelya": [
+      {
+        "label": "Если новый преподаватель не назвал модель",
+        "href": "/instrument-esli-prepodavatel-ne-nazval-model/"
+      },
+      {
+        "label": "На время подбора постоянного",
+        "href": "/instrument-na-period-podbora-postoyannogo/"
+      }
+    ]
+  }
+}
