@@ -1,0 +1,832 @@
+{
+  "pages": [
+    {
+      "slug": "basovyy-usilitel-dlya-repetitsii",
+      "parent": "basovye-usiliteli",
+      "search_title": "Басовый усилитель для репетиции в аренду",
+      "editorial_title": "Бас на репетиции: усилитель должен соединить пальцы с бочкой, а не просто добавить низ",
+      "description": "Басовый усилитель для репетиции: мощность, кабинет, DI и баланс с барабанами.",
+      "kicker": "РЕПЕТИЦИЯ · БАС · БАЛАНС",
+      "intro": [
+        "<p>На репетиции басовый amp нужен не ради максимального давления, а чтобы атака и длительность ноты заняли своё место рядом с бочкой и гитарами.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют, нужен ли сценический кабинет вообще",
+          "paragraphs": [
+            "Часть сигнала может идти в PA через DI, а кабинет оставаться локальным монитором музыканта."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте самый плотный groove всей группой",
+          "paragraphs": [
+            "Нужно услышать атаку, а не только физический низ в комнате."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет подобрать масштаб под конкретную репетиционную",
+          "paragraphs": [
+            "Не нужно покупать touring stack для одного состава."
+          ]
+        }
+      ],
+      "quote": "Басу не хватает атаки, физического низа или просто собственного мониторинга?",
+      "sources": [
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        },
+        {
+          "title": "Aguilar: Tone Hammer 700",
+          "url": "https://aguilaramp.com/en-eu/products/tone-hammer-700-bass-amp"
+        }
+      ],
+      "links": [
+        {
+          "label": "Басовые усилители",
+          "href": "/basovye-usiliteli/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-kontserta",
+      "parent": "basovye-usiliteli",
+      "search_title": "Басовый усилитель для концерта в аренду",
+      "editorial_title": "Концертный бас: сцена и PA должны получить согласованный сигнал",
+      "description": "Басовый усилитель для концерта: head, cabinet, DI, stage volume и soundcheck.",
+      "kicker": "КОНЦЕРТ · BAS AMP · DI",
+      "intro": [
+        "<p>На концерте басовый звук часто разделяется: музыкант слышит кабинет, зал получает DI или комбинированный сигнал. Эти маршруты нужно собрать заранее.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют роль amp на сцене",
+          "paragraphs": [
+            "SVT-CL с большим кабинетом и лёгкая современная голова вроде Tone Hammer 700 создают разную сценическую инфраструктуру."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Soundcheck проверяет кабинет и FOH отдельно",
+          "paragraphs": [
+            "Зал не должен зависеть от случайного положения басиста перед кабинетом."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда естественна для большой сценической системы",
+          "paragraphs": [
+            "После концерта тяжёлый stack не нужно хранить дома."
+          ]
+        }
+      ],
+      "quote": "Какой сигнал получает FOH и что именно должен слышать басист со сцены?",
+      "sources": [
+        {
+          "title": "Ampeg: Classic Series SVT-CL",
+          "url": "https://ampeg.com/products/classic/heads.html"
+        },
+        {
+          "title": "Aguilar: Tone Hammer 700",
+          "url": "https://aguilaramp.com/en-eu/products/tone-hammer-700-bass-amp"
+        },
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Ampeg SVT-CL",
+          "href": "/ampeg-svt-cl-v-arendu/"
+        },
+        {
+          "label": "Aguilar Tone Hammer 700",
+          "href": "/aguilar-tone-hammer-700-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-studii",
+      "parent": "basovye-usiliteli",
+      "search_title": "Басовый усилитель для студии в аренду",
+      "editorial_title": "Басовый amp в студии: записать кабинет как отдельный слой, не теряя чистый DI",
+      "description": "Басовый усилитель для записи: DI, head, cabinet, microphone и parallel recording.",
+      "kicker": "СТУДИЯ · BAS AMP · PARALLEL",
+      "intro": [
+        "<p>В студии особенно полезно сохранить чистый DI параллельно с реальным amp/cab, чтобы характер кабинета оставался выбором, а не необратимым решением.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала проектируют два сигнальных пути",
+          "paragraphs": [
+            "DI сохраняет исходную атаку, amp/cab добавляет физический характер."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Запишите одинаковый рифф двумя путями",
+          "paragraphs": [
+            "Тогда можно услышать, что реально добавляет кабинет."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет привезти конкретный amp только на сессию",
+          "paragraphs": [
+            "После записи студии не нужен постоянный парк басовых stack."
+          ]
+        }
+      ],
+      "quote": "Какую часть финального басового характера должен дать реальный кабинет?",
+      "sources": [
+        {
+          "title": "Ampeg: Classic Series SVT-CL",
+          "url": "https://ampeg.com/products/classic/heads.html"
+        },
+        {
+          "title": "Ampeg: SVT-810E Classic",
+          "url": "https://ampeg.com/products/classic/cabs.html"
+        },
+        {
+          "title": "Radial Engineering: JDI",
+          "url": "https://www.radialeng.com/product/jdi"
+        }
+      ],
+      "links": [
+        {
+          "label": "Radial JDI",
+          "href": "/radial-jdi-v-arendu/"
+        },
+        {
+          "label": "Ampeg SVT-810E",
+          "href": "/ampeg-svt-810e-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-pered-pokupkoy",
+      "parent": "basovye-usiliteli",
+      "search_title": "Басовый усилитель в аренду перед покупкой",
+      "editorial_title": "Перед покупкой басового усилителя: проверить голову вместе с реальным кабинетом и группой",
+      "description": "Аренда басового усилителя перед покупкой: мощность, cabinet pairing, DI и transport.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · BAS AMP · КРИТЕРИЙ",
+      "intro": [
+        "<p>Басовая голова в магазине и та же голова на реальном кабинете с барабанами — две разные проверки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "До аренды формулируют спорные координаты",
+          "paragraphs": [
+            "Мощность, вес, встроенный DI, характер preamp и кабинет рассматриваются отдельно."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Используйте amp на полной репетиции",
+          "paragraphs": [
+            "Через несколько часов видны и звук, и логистика."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт собственный критерий до покупки",
+          "paragraphs": [
+            "После опыта можно выбрать другую голову уже по реальной функции."
+          ]
+        }
+      ],
+      "quote": "Что должно подтвердиться до покупки: мощность, DI, характер preamp или транспорт?",
+      "sources": [
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        },
+        {
+          "title": "Aguilar: Tone Hammer 700",
+          "url": "https://aguilaramp.com/en-eu/products/tone-hammer-700-bass-amp"
+        },
+        {
+          "title": "Ampeg: Classic Series SVT-CL",
+          "url": "https://ampeg.com/products/classic/heads.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Басовые усилители",
+          "href": "/basovye-usiliteli/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-gastroley",
+      "parent": "basovye-usiliteli",
+      "search_title": "Басовый усилитель для гастролей в аренду",
+      "editorial_title": "Гастрольный басовый amp: райдер должен восстановить привычную опору без перевозки холодильника",
+      "description": "Басовый усилитель для тура: rider, substitute, DI, cabinet and local backline.",
+      "kicker": "ГАСТРОЛИ · BAS BACKLINE · SUBSTITUTE",
+      "intro": [
+        "<p>Басовый backline особенно выгодно получать локально: большой кабинет плохо летает, а привычную функцию можно описать райдером.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Райдер разделяют на голову, кабинет и DI",
+          "paragraphs": [
+            "Точный Ampeg stack и лёгкая modern head решают разные привычки, поэтому substitute согласуют заранее."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "На soundcheck проверяют атаку и уровень DI",
+          "paragraphs": [
+            "Главное — восстановить программу, а не доказать идентичность оборудования."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда заканчивается вместе с гастрольной датой",
+          "paragraphs": [
+            "Тяжёлый cabinet остаётся в локальной инфраструктуре."
+          ]
+        }
+      ],
+      "quote": "Какие части басового райдера обязательны по модели, а какие допускают замену?",
+      "sources": [
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        },
+        {
+          "title": "Backline Source: rider substitutions and advance coordination",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-kabinet-4x10-dlya-pervogo-opyta",
+      "parent": "basovye-kabinety",
+      "search_title": "Басовый кабинет 4×10 для первого опыта в аренду",
+      "editorial_title": "4×10: компактнее большого stack, но уже полноценная сценическая поверхность",
+      "description": "Басовый кабинет 4x10: attack, transport, stage volume and pairing with bass head.",
+      "kicker": "4×10 · BAS CAB · ПЕРВЫЙ ОПЫТ",
+      "intro": [
+        "<p>4×10 полезно рассматривать как отдельный сценический формат, а не просто половину 8×10.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сохраняют одну и ту же голову для сравнения",
+          "paragraphs": [
+            "Так слышно именно вклад кабинета."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте groove на репетиции и рабочей громкости",
+          "paragraphs": [
+            "Оцените атаку, низ и насколько кабинет хватает музыканту как сценического монитора."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет понять, нужен ли больший cabinet",
+          "paragraphs": [
+            "Если 4×10 закрывает сцену, 8×10 может быть избыточен."
+          ]
+        }
+      ],
+      "quote": "Что вы ищете в 4×10: атаку, транспортабельность или достаточный сценический низ?",
+      "sources": [
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Басовые кабинеты",
+          "href": "/basovye-kabinety/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-kabinet-8x10-dlya-pervogo-opyta",
+      "parent": "basovye-kabinety",
+      "search_title": "Басовый кабинет 8×10 для первого опыта в аренду",
+      "editorial_title": "8×10: большой басовый cabinet должен оправдать свою физическую цену",
+      "description": "Басовый кабинет 8x10: large-stage projection, transport, SVT pairing and first test.",
+      "kicker": "8×10 · SVT · БОЛЬШАЯ СЦЕНА",
+      "intro": [
+        "<p>SVT-810E стал отдельным сценическим архетипом, но его масштаб имеет смысл только при соответствующей музыке и логистике.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала проверяют, нужен ли физический stack на сцене",
+          "paragraphs": [
+            "Современный PA часто может нести зал независимо от кабинета."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте полный сет рядом с барабанами",
+          "paragraphs": [
+            "Нужно понять, даёт ли 8×10 полезное ощущение или лишь увеличивает сценическое давление."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда особенно естественна для 8×10",
+          "paragraphs": [
+            "Редко рационально покупать и хранить такой cabinet ради нескольких дат."
+          ]
+        }
+      ],
+      "quote": "8×10 нужен райдером, ощущением сцены или реальным акустическим масштабом?",
+      "sources": [
+        {
+          "title": "Ampeg: SVT-810E Classic",
+          "url": "https://ampeg.com/products/classic/cabs.html"
+        },
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Ampeg SVT-810E",
+          "href": "/ampeg-svt-810e-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-kabinet-pered-pokupkoy",
+      "parent": "basovye-kabinety",
+      "search_title": "Басовый кабинет в аренду перед покупкой",
+      "editorial_title": "Перед покупкой басового кабинета: сравнить отдачу вместе со своей головой и логистикой",
+      "description": "Аренда басового кабинета перед покупкой: 4x10/8x10, transport, stage volume and head pairing.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · BAS CAB · СРАВНЕНИЕ",
+      "intro": [
+        "<p>Кабинет определяет не только низ, но и физический масштаб всей басовой системы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнивайте на одной голове",
+          "paragraphs": [
+            "Иначе невозможно понять, откуда взялось различие."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте репетицию, погрузку и сцену",
+          "paragraphs": [
+            "Вес и габариты входят в рабочую функцию не меньше тембра."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда превращает кабинет в реальный опыт",
+          "paragraphs": [
+            "После нескольких сцен выбор становится устойчивым."
+          ]
+        }
+      ],
+      "quote": "Какой компромисс между отдачей и логистикой вы готовы принять постоянно?",
+      "sources": [
+        {
+          "title": "Ampeg: SVT-810E Classic",
+          "url": "https://ampeg.com/products/classic/cabs.html"
+        },
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Басовые кабинеты",
+          "href": "/basovye-kabinety/"
+        }
+      ]
+    },
+    {
+      "slug": "basovyy-backline-po-rayderu",
+      "parent": "usiliteli-backline",
+      "search_title": "Басовый backline по райдеру в аренду",
+      "editorial_title": "Басовый райдер: разделить обязательную голову, cabinet и DI",
+      "description": "Басовый backline по райдеру: amp head, cabinet, DI, substitute and stage setup.",
+      "kicker": "RIDER · BAS BACKLINE · DI",
+      "intro": [
+        "<p>Одна строка «Ampeg SVT» часто скрывает несколько обязательных частей: конкретную голову, кабинет, DI и привычный сценический уровень.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Райдер раскладывают на функции",
+          "paragraphs": [
+            "Если точной модели нет, substitute должен сохранять интерфейс и сценическую задачу."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Soundcheck проверяет stage и FOH одновременно",
+          "paragraphs": [
+            "Замена считается успешной, если музыкант играет привычно, а зал получает стабильный сигнал."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда локального backline снимает перевозку тяжёлой системы",
+          "paragraphs": [
+            "Особенно кабинета."
+          ]
+        }
+      ],
+      "quote": "Что в басовом райдере действительно нельзя заменить без согласования?",
+      "sources": [
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        },
+        {
+          "title": "Backline Source: rider substitutions and advance coordination",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    },
+    {
+      "slug": "bas-cherez-di-bez-usilitelya",
+      "parent": "di-boksy",
+      "search_title": "Бас через DI без усилителя в аренду",
+      "editorial_title": "Бас без amp: пульт получает чистый сигнал, музыканту нужен другой способ слышать себя",
+      "description": "Bass direct to PA: DI box, monitoring, stage volume and amp-less setup.",
+      "kicker": "BASS → DI → PA · БЕЗ AMP · MONITORING",
+      "intro": [
+        "<p>На некоторых сценах бас может идти напрямую в PA без отдельного усилителя. Тогда DI решает путь сигнала, а мониторинг должен отдельно решить потребность музыканта слышать себя.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала проверяют выход баса и тип DI",
+          "paragraphs": [
+            "Пассивный JDI — один из классических способов безопасно подать инструментальный сигнал на балансную линию."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Soundcheck должен проверить FOH и мониторинг",
+          "paragraphs": [
+            "Хороший сигнал в зал не гарантирует комфорт исполнителю."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать минимальный amp-less комплект на одну сцену",
+          "paragraphs": [
+            "Без покупки отдельного head/cab."
+          ]
+        }
+      ],
+      "quote": "Чем басист будет слышать себя, если кабинет исчезает со сцены?",
+      "sources": [
+        {
+          "title": "Radial Engineering: JDI",
+          "url": "https://www.radialeng.com/product/jdi"
+        }
+      ],
+      "links": [
+        {
+          "label": "Radial JDI",
+          "href": "/radial-jdi-v-arendu/"
+        },
+        {
+          "label": "DI-боксы",
+          "href": "/di-boksy/"
+        }
+      ]
+    },
+    {
+      "slug": "di-boks-dlya-akusticheskoy-gitary",
+      "parent": "di-boksy",
+      "search_title": "DI-бокс для акустической гитары в аренду",
+      "editorial_title": "Акустическая гитара через DI: сохранить pickup-сигнал и дать пульту рабочую линию",
+      "description": "DI box for acoustic guitar: pickup output, balanced line, ground isolation and stage routing.",
+      "kicker": "ACOUSTIC GUITAR · DI · PA",
+      "intro": [
+        "<p>Подключённая акустическая гитара часто должна пройти длинный путь до пульта. DI переводит этот маршрут в более устойчивую сценическую линию.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала уточняют тип pickup и выход инструмента",
+          "paragraphs": [
+            "Не всякая акустика имеет одинаковый активный или пассивный выход."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте чистый сигнал до обработки FOH",
+          "paragraphs": [
+            "Так слышно, что приходит от инструмента и что добавляет пульт."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда DI естественна для концертного проекта",
+          "paragraphs": [
+            "Он может быть нужен только на нескольких площадках."
+          ]
+        }
+      ],
+      "quote": "Какой pickup стоит в гитаре и есть ли собственный предусилитель?",
+      "sources": [
+        {
+          "title": "Radial Engineering: JDI",
+          "url": "https://www.radialeng.com/product/jdi"
+        },
+        {
+          "title": "Fishman: Loudbox Artist",
+          "url": "https://fishman.com/dp/loudbox-artist-acoustic-amplifier/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Radial JDI",
+          "href": "/radial-jdi-v-arendu/"
+        },
+        {
+          "label": "Акустические усилители",
+          "href": "/akusticheskie-usiliteli/"
+        }
+      ]
+    },
+    {
+      "slug": "di-boks-dlya-bas-gitary",
+      "parent": "di-boksy",
+      "search_title": "DI-бокс для бас-гитары в аренду",
+      "editorial_title": "Bass DI: дать FOH стабильную атаку независимо от кабинета",
+      "description": "DI box for bass: passive/active bass, balanced line, ground isolation and parallel amp path.",
+      "kicker": "BASS · DI · FOH",
+      "intro": [
+        "<p>DI позволяет отправить пульту повторяемый басовый сигнал даже тогда, когда кабинет меняется от площадки к площадке.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала решают, где DI стоит в цепи",
+          "paragraphs": [
+            "До amp, после preamp или параллельно — разные музыкальные решения."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сравните FOH-сигнал с кабинетом и без него",
+          "paragraphs": [
+            "Нужно понять, что действительно необходимо залу."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда DI полезна как стабильная часть турового интерфейса",
+          "paragraphs": [
+            "Даже при локальном backline."
+          ]
+        }
+      ],
+      "quote": "Какую часть басового характера должен получить FOH до усилителя?",
+      "sources": [
+        {
+          "title": "Radial Engineering: JDI",
+          "url": "https://www.radialeng.com/product/jdi"
+        },
+        {
+          "title": "Backline Source: professional bass amp rental inventory",
+          "url": "https://www.backlinesource.com/bass-amp-rentals"
+        }
+      ],
+      "links": [
+        {
+          "label": "Radial JDI",
+          "href": "/radial-jdi-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "passivnyy-di-boks-dlya-pervogo-opyta",
+      "parent": "di-boksy",
+      "search_title": "Пассивный DI-бокс для первого опыта в аренду",
+      "editorial_title": "Первый пассивный DI: понять функцию между инструментом и пультом без лишних настроек",
+      "description": "Passive DI for first use: instrument input, thru, balanced XLR and ground lift.",
+      "kicker": "PASSIVE DI · ПЕРВЫЙ ОПЫТ · СИГНАЛ",
+      "intro": [
+        "<p>DI-бокс проще понять как маршрут сигнала, а не как «коробку для улучшения звука».</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Разберите три основных направления",
+          "paragraphs": [
+            "Инструмент входит в DI, thru может продолжить путь к amp, а balanced output идёт к пульту."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте один инструмент с amp и без amp",
+          "paragraphs": [
+            "Так функция DI становится слышимой и понятной."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить необходимость DI в своей системе",
+          "paragraphs": [
+            "После нескольких сцен становится ясно, нужен ли он постоянно."
+          ]
+        }
+      ],
+      "quote": "Какой сигнал должен идти дальше в amp и какой — в FOH?",
+      "sources": [
+        {
+          "title": "Radial Engineering: JDI",
+          "url": "https://www.radialeng.com/product/jdi"
+        }
+      ],
+      "links": [
+        {
+          "label": "Radial JDI",
+          "href": "/radial-jdi-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "di-boks-pered-pokupkoy",
+      "parent": "di-boksy",
+      "search_title": "DI-бокс в аренду перед покупкой",
+      "editorial_title": "Перед покупкой DI: проверить его внутри своей реальной цепи",
+      "description": "DI box before purchase: passive/active source, thru path, ground isolation and stage testing.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · DI · ЦЕПЬ",
+      "intro": [
+        "<p>DI выбирается не в вакууме: бас, акустическая гитара, клавиши и другие источники имеют разные выходы и сценические маршруты.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют источник и следующий узел",
+          "paragraphs": [
+            "Пассивный JDI — конкретный референс, но не универсальный ответ на любой источник."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте DI на реальной площадке или в студии",
+          "paragraphs": [
+            "Особенно ground noise, уровень и thru path."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт критерий до покупки",
+          "paragraphs": [
+            "После нескольких сценариев понятно, сколько DI и каких типов действительно нужно."
+          ]
+        }
+      ],
+      "quote": "Какой источник, длина линии и параллельный путь должны обслуживаться одним DI?",
+      "sources": [
+        {
+          "title": "Radial Engineering: JDI",
+          "url": "https://www.radialeng.com/product/jdi"
+        }
+      ],
+      "links": [
+        {
+          "label": "DI-боксы",
+          "href": "/di-boksy/"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+      "parent": "akusticheskie-usiliteli",
+      "search_title": "Акустический усилитель для вокалиста с гитарой в аренду",
+      "editorial_title": "Голос и акустическая гитара в одном combo: два канала должны оставаться двумя музыкальными ролями",
+      "description": "Acoustic amp for singer-guitarist: instrument input, vocal channel, reverb and small-stage use.",
+      "kicker": "ВОКАЛ + ГИТАРА · ACOUSTIC AMP · 2 CHANNELS",
+      "intro": [
+        "<p>На небольшой сцене акустический combo может стать компактным рабочим местом для гитары и голоса, если два канала действительно независимы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала разделяют уровни и обработку",
+          "paragraphs": [
+            "Loudbox Artist создан как профессиональный acoustic amplifier с несколькими каналами и сценическим назначением."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте куплет голосом и гитарой одновременно",
+          "paragraphs": [
+            "Ни один канал не должен заставлять другой работать в неудобном диапазоне."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда полезна для камерного концерта и мобильного проекта",
+          "paragraphs": [
+            "Без покупки отдельной маленькой PA-системы."
+          ]
+        }
+      ],
+      "quote": "Нужно ли усиливать голос и гитару одним устройством или только гитару?",
+      "sources": [
+        {
+          "title": "Fishman: Loudbox Artist",
+          "url": "https://fishman.com/dp/loudbox-artist-acoustic-amplifier/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Fishman Loudbox Artist",
+          "href": "/fishman-loudbox-artist-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "parent": "rotornye-akusticheskie-sistemy",
+      "search_title": "Leslie для первого опыта в аренду",
+      "editorial_title": "Первый Leslie: движение воздуха становится частью самой ноты",
+      "description": "Первый опыт с rotary speaker: slow/fast, acceleration, organ pairing and room interaction.",
+      "kicker": "LESLIE · ROTARY · ПЕРВЫЙ ОПЫТ",
+      "intro": [
+        "<p>Leslie интересен не как эффект после органа, а как физически движущаяся акустическая система, где скорость вращения входит в исполнение.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала слушают slow и fast как два состояния",
+          "paragraphs": [
+            "Hammond продолжает выпускать rotary speakers семейства 122/147, а backline-провайдеры держат связку B3 + Leslie как единый standard."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте сам переход между скоростями",
+          "paragraphs": [
+            "Acceleration и deceleration становятся частью фразы, а не просто переключателем."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет прожить физический rotary до покупки или эмуляции",
+          "paragraphs": [
+            "Для одного проекта настоящий Leslie особенно естественен как временный доступ."
+          ]
+        }
+      ],
+      "quote": "Вам нужен сам физический rotary или достаточно тембровой эмуляции?",
+      "sources": [
+        {
+          "title": "Hammond: Leslie 122A / 122XB / 147A",
+          "url": "https://hammondorganco.com/products/leslie-speakers/122-147-981-147a"
+        },
+        {
+          "title": "Backline Source: Hammond B3 and Leslie 122 rental",
+          "url": "https://www.backlinesource.com/hammond-b3-and-leslie-122"
+        }
+      ],
+      "links": [
+        {
+          "label": "Leslie 122",
+          "href": "/leslie-122-v-arendu/"
+        },
+        {
+          "label": "Hammond B3 + Leslie",
+          "href": "/hammond-b3-leslie-122-v-arendu/"
+        }
+      ]
+    }
+  ]
+}
