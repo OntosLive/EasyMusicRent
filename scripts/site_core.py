@@ -208,9 +208,10 @@ def normal_href(value: str) -> str:
 
 
 def connect(pages: dict[str, Page], aliases: dict[str, str]) -> None:
+    errors = []
     for page in pages.values():
         if page.parent and page.parent not in pages:
-            raise ValueError(f'{page.slug}: missing parent {page.parent}')
+            errors.append(f'{page.slug}: missing parent {page.parent}')
         unique = {}
         for item in page.links:
             href = normal_href(item.get('href', ''))
@@ -219,11 +220,14 @@ def connect(pages: dict[str, Page], aliases: dict[str, str]) -> None:
                 continue
             slug = aliases.get(url_slug(href), url_slug(href))
             if slug not in pages:
-                raise ValueError(f'{page.slug}: missing linked subject {href}')
+                errors.append(f'{page.slug}: missing linked subject {href}')
+                continue
             if slug == page.slug:
                 continue
             unique[slug] = {'href': pages[slug].entry, 'label': item['label']}
         page.links = list(unique.values())
+    if errors:
+        raise ValueError('Link graph errors:\n' + '\n'.join(errors))
     for page in pages.values():
         if page.parent:
             parent = pages[page.parent]
