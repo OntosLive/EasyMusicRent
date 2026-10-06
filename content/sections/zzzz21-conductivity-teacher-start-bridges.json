@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-dlya-pervogo-uroka-s-prepodavatelem": [
+      {
+        "label": "Что делать после пробного урока",
+        "href": "/instrument-posle-probnogo-uroka/"
+      },
+      {
+        "label": "Пробный месяц занятий",
+        "href": "/instrument-na-probnyy-mesyats-zanyatiy/"
+      }
+    ],
+    "instrument-na-probnyy-mesyats-zanyatiy": [
+      {
+        "label": "Первые занятия дома",
+        "href": "/instrument-dlya-pervyh-zanyatiy-doma/"
+      },
+      {
+        "label": "Несколько занятий перед покупкой",
+        "href": "/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"
+      }
+    ],
+    "instrument-posle-probnogo-uroka": [
+      {
+        "label": "Первые занятия дома",
+        "href": "/instrument-dlya-pervyh-zanyatiy-doma/"
+      },
+      {
+        "label": "На время подбора постоянного",
+        "href": "/instrument-na-period-podbora-postoyannogo/"
+      }
+    ],
+    "instrument-dlya-pervyh-zanyatiy-doma": [
+      {
+        "label": "Занятия между уроками",
+        "href": "/instrument-dlya-zanyatiy-mezhdu-urokami/"
+      },
+      {
+        "label": "Ежедневная практика",
+        "href": "/instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya/"
+      }
+    ],
+    "instrument-dlya-zanyatiy-mezhdu-urokami": [
+      {
+        "label": "Один урок в неделю",
+        "href": "/instrument-dlya-zanyatiy-raz-v-nedelyu/"
+      },
+      {
+        "label": "Ежедневная практика",
+        "href": "/instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya/"
+      }
+    ],
+    "instrument-dlya-vzroslogo-novichka-s-prepodavatelem": [
+      {
+        "label": "Первый урок с преподавателем",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      },
+      {
+        "label": "Если модель не названа",
+        "href": "/instrument-esli-prepodavatel-ne-nazval-model/"
+      }
+    ],
+    "instrument-rebenku-posle-vybora-prepodavatelya": [
+      {
+        "label": "Смена размера по рекомендации",
+        "href": "/instrument-smenit-razmer-po-rekomendatsii/"
+      },
+      {
+        "label": "Первые занятия дома",
+        "href": "/instrument-dlya-pervyh-zanyatiy-doma/"
+      }
+    ],
+    "instrument-dlya-vozvrashcheniya-k-zanyatiyam-s-prepodavatelem": [
+      {
+        "label": "На время подбора постоянного",
+        "href": "/instrument-na-period-podbora-postoyannogo/"
+      },
+      {
+        "label": "Если преподаватель заметил проблему постановки",
+        "href": "/instrument-posle-zamechaniya-o-postanovke/"
+      }
+    ],
+    "instrument-na-period-podbora-postoyannogo": [
+      {
+        "label": "Несколько занятий перед покупкой",
+        "href": "/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"
+      },
+      {
+        "label": "Сравнить два варианта с преподавателем",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ],
+    "instrument-dlya-letnih-zanyatiy-s-prepodavatelem": [
+      {
+        "label": "Задание на каникулы",
+        "href": "/instrument-na-kanikuly-po-zadaniyu-prepodavatelya/"
+      },
+      {
+        "label": "Второе место занятий",
+        "href": "/instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii/"
+      }
+    ],
+    "instrument-na-kanikuly-po-zadaniyu-prepodavatelya": [
+      {
+        "label": "Летние занятия с преподавателем",
+        "href": "/instrument-dlya-letnih-zanyatiy-s-prepodavatelem/"
+      },
+      {
+        "label": "Ежедневная практика",
+        "href": "/instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya/"
+      }
+    ],
+    "instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii": [
+      {
+        "label": "Если инструмент сложно перевозить",
+        "href": "/instrument-esli-slozhno-perevozit/"
+      },
+      {
+        "label": "Летние занятия",
+        "href": "/instrument-dlya-letnih-zanyatiy-s-prepodavatelem/"
+      }
+    ],
+    "instrument-dlya-intensivnogo-kursa": [
+      {
+        "label": "Ежедневная практика",
+        "href": "/instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya/"
+      },
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      }
+    ],
+    "instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy": [
+      {
+        "label": "Сравнить два варианта",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      },
+      {
+        "label": "Если преподаватель назвал точную модель",
+        "href": "/instrument-po-tochnoy-modeli-prepodavatelya/"
+      }
+    ],
+    "instrument-dlya-zanyatiy-raz-v-nedelyu": [
+      {
+        "label": "Практика между уроками",
+        "href": "/instrument-dlya-zanyatiy-mezhdu-urokami/"
+      },
+      {
+        "label": "Ежедневная практика",
+        "href": "/instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya/"
+      }
+    ],
+    "instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya": [
+      {
+        "label": "Практика между уроками",
+        "href": "/instrument-dlya-zanyatiy-mezhdu-urokami/"
+      },
+      {
+        "label": "Интенсивный курс",
+        "href": "/instrument-dlya-intensivnogo-kursa/"
+      }
+    ]
+  }
+}
