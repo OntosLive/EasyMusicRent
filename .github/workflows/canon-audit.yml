@@ -6,7 +6,6 @@ on:
       - '.github/workflows/canon-audit.yml'
       - 'scripts/**'
       - 'assets/**'
-      - 'content/**'
       - 'tests/**'
       - 'requirements-site.txt'
   workflow_dispatch:
