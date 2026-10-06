@@ -1,0 +1,324 @@
+{
+  "navigation": {
+    "klassicheskaya-gitara-rebenku": [
+      {
+        "label": "Классическая гитара для ученика",
+        "href": "/klassicheskaya-gitara-dlya-uchenika/"
+      },
+      {
+        "label": "Классическая гитара подходящего размера ребёнку",
+        "href": "/klassicheskaya-gitara-po-razmeru-rebenka/"
+      }
+    ],
+    "akusticheskaya-gitara-dlya-vzroslogo-nachinayuschego": [
+      {
+        "label": "Акустическая гитара для первых аккордов",
+        "href": "/akusticheskaya-gitara-dlya-pervyh-akkordov/"
+      },
+      {
+        "label": "Акустическая гитара перед покупкой",
+        "href": "/akusticheskaya-gitara-pered-pokupkoy/"
+      }
+    ],
+    "elektrogitara-dlya-pervyh-repetitsiy": [
+      {
+        "label": "Первая электрогитара",
+        "href": "/elektrogitara-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Электрогитара для домашних занятий",
+        "href": "/elektrogitara-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "gitara-na-vremya-remonta": [
+      {
+        "label": "Резервный музыкальный инструмент на концерт",
+        "href": "/instrument-esli-nuzhen-rezerv-na-kontsert/"
+      },
+      {
+        "label": "Электрогитара на замену в гастролях",
+        "href": "/elektrogitara-dlya-zameny-na-gastrolyah/"
+      }
+    ],
+    "elektroakusticheskaya-gitara-na-vystuplenie": [
+      {
+        "label": "Электроакустическая гитара для подключения в пульт",
+        "href": "/elektroakusticheskaya-gitara-dlya-podklyucheniya-v-pult/"
+      },
+      {
+        "label": "Электроакустическая гитара для репетиции с группой",
+        "href": "/elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy/"
+      }
+    ],
+    "dvenadtsatistrunnaya-gitara-dlya-zapisi": [
+      {
+        "label": "Акустическая гитара для студии",
+        "href": "/akusticheskaya-gitara-dlya-studii/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "bas-gitara-dlya-gastroley": [
+      {
+        "label": "Backline для гастрольного тура",
+        "href": "/backline-dlya-gastrolnogo-tura/"
+      },
+      {
+        "label": "Бас-гитара для концерта",
+        "href": "/bas-gitara-dlya-kontserta/"
+      }
+    ],
+    "gitara-dlya-semki-klipa": [
+      {
+        "label": "Инструменты для видеосъёмки живого ансамбля",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      },
+      {
+        "label": "Инструменты для телеэфира с живым ансамблем",
+        "href": "/instrumenty-dlya-teleefira-s-zhivym-ansamblem/"
+      }
+    ],
+    "ukulele-dlya-shkolnogo-ansamblya": [
+      {
+        "label": "Укулеле для ансамбля",
+        "href": "/instrumenty-dlya-ansamblya-ukulele/"
+      },
+      {
+        "label": "Укулеле для школьных занятий",
+        "href": "/ukulele-dlya-shkoly/"
+      }
+    ],
+    "gitary-dlya-dueta": [
+      {
+        "label": "Классические гитары для ансамбля",
+        "href": "/instrumenty-dlya-ansamblya-klassicheskih-gitar/"
+      },
+      {
+        "label": "Акустическая гитара для ансамбля",
+        "href": "/akusticheskaya-gitara-dlya-ansamblya/"
+      }
+    ],
+    "elektrogitara-v-ponizhennom-stroe": [
+      {
+        "label": "Электрогитара для тяжёлого пониженного строя",
+        "href": "/elektrogitara-dlya-tyazhelogo-stroya/"
+      },
+      {
+        "label": "Отдельный инструмент под другой строй",
+        "href": "/instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy/"
+      }
+    ],
+    "barabannaya-ustanovka-dlya-zapisi": [
+      {
+        "label": "Барабанная установка для студии",
+        "href": "/barabannaya-ustanovka-dlya-studii/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "barabannaya-ustanovka-dlya-kontserta": [
+      {
+        "label": "Backline для первого концерта",
+        "href": "/backline-dlya-pervogo-kontserta/"
+      },
+      {
+        "label": "Барабанная установка для долгой репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      }
+    ],
+    "elektronnye-barabany-dlya-kvartiry": [
+      {
+        "label": "Электронные барабаны для домашних занятий",
+        "href": "/elektronnye-barabany-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Инструмент, если дома слишком громко",
+        "href": "/instrument-esli-slishkom-gromko-dlya-doma/"
+      }
+    ],
+    "barabany-dlya-gastrolnogo-raydera": [
+      {
+        "label": "Backline для гастрольного тура",
+        "href": "/backline-dlya-gastrolnogo-tura/"
+      },
+      {
+        "label": "Backline для ритм-секции",
+        "href": "/backline-dlya-ritm-sektsii/"
+      }
+    ],
+    "malyy-baraban-na-vremya-remonta": [
+      {
+        "label": "Резервный музыкальный инструмент на концерт",
+        "href": "/instrument-esli-nuzhen-rezerv-na-kontsert/"
+      },
+      {
+        "label": "Малый барабан для домашней практики",
+        "href": "/malyy-baraban-dlya-domashney-praktiki/"
+      }
+    ],
+    "marimba-dlya-podgotovki-k-konkursu": [
+      {
+        "label": "Инструмент по конкурсной программе",
+        "href": "/instrument-po-programme-konkursa/"
+      },
+      {
+        "label": "Пятиоктавная маримба для программы",
+        "href": "/marimba-dlya-pyatioktavnoy-programmy/"
+      }
+    ],
+    "vibrafon-dlya-dzhazovoy-zapisi": [
+      {
+        "label": "Вибрафон для работы с педалью",
+        "href": "/vibrafon-dlya-raboty-s-pedalyu/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "litavry-pered-proslushivaniem": [
+      {
+        "label": "Инструмент по программе прослушивания",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      },
+      {
+        "label": "Литавры для работы над педальными переходами",
+        "href": "/litavry-dlya-pedalnyh-perehodov/"
+      }
+    ],
+    "kahon-dlya-akusticheskogo-vystupleniya": [
+      {
+        "label": "Backline для акустического концерта",
+        "href": "/backline-dlya-akusticheskogo-kontserta/"
+      },
+      {
+        "label": "Ручная перкуссия для вокалиста",
+        "href": "/ruchnaya-perkussiya-dlya-vokalista/"
+      }
+    ],
+    "perkussiya-dlya-odnogo-ispolnitelya": [
+      {
+        "label": "Оркестровая перкуссия для первого опыта",
+        "href": "/perkussiya-dlya-pervogo-orkestrovogo-opyta/"
+      },
+      {
+        "label": "Ударные инструменты для первого ансамбля",
+        "href": "/instrumenty-dlya-pervogo-ansamblya-udarnyh/"
+      }
+    ],
+    "truba-rebenku-dlya-muzykalnoy-shkoly": [
+      {
+        "label": "Труба для домашних занятий",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Инструмент для оркестрового класса",
+        "href": "/instrument-dlya-orkestrovogo-klassa/"
+      }
+    ],
+    "truba-na-vremya-remonta": [
+      {
+        "label": "Резервный музыкальный инструмент на концерт",
+        "href": "/instrument-esli-nuzhen-rezerv-na-kontsert/"
+      },
+      {
+        "label": "Труба для домашних занятий",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "flyugelgorn-dlya-zapisi": [
+      {
+        "label": "Флюгельгорн для первого опыта",
+        "href": "/flyugelgorn-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "truba-pikkolo-dlya-barochnoy-programmy": [
+      {
+        "label": "Барочные инструменты для камерной программы",
+        "href": "/barochnye-instrumenty-dlya-kamernoy-programmy/"
+      },
+      {
+        "label": "Инструменты для камерной фестивальной программы",
+        "href": "/instrumenty-dlya-festivalnoy-kamernoy-programmy/"
+      }
+    ],
+    "valtorna-na-proslushivanie": [
+      {
+        "label": "Инструмент по программе прослушивания",
+        "href": "/instrument-po-programme-proslushivaniya/"
+      },
+      {
+        "label": "Валторна перед покупкой",
+        "href": "/valtorna-pered-pokupkoy/"
+      }
+    ],
+    "valtorna-na-vremya-remonta": [
+      {
+        "label": "Резервный музыкальный инструмент на концерт",
+        "href": "/instrument-esli-nuzhen-rezerv-na-kontsert/"
+      },
+      {
+        "label": "Валторна для домашних занятий",
+        "href": "/valtorna-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "trombon-dlya-big-benda": [
+      {
+        "label": "Инструменты для школьного биг-бенда",
+        "href": "/instrumenty-dlya-shkolnogo-big-benda/"
+      },
+      {
+        "label": "Тромбон для концерта",
+        "href": "/trombon-dlya-kontserta/"
+      }
+    ],
+    "bas-trombon-dlya-orkestrovoy-programmy": [
+      {
+        "label": "Бас-тромбон для первого опыта",
+        "href": "/bas-trombon-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Инструмент для оркестрового класса",
+        "href": "/instrument-dlya-orkestrovogo-klassa/"
+      }
+    ],
+    "tuba-dlya-gastroley": [
+      {
+        "label": "Backline для гастрольного тура",
+        "href": "/backline-dlya-gastrolnogo-tura/"
+      },
+      {
+        "label": "Инструмент, если сложно перевозить свой",
+        "href": "/instrument-esli-slozhno-perevozit/"
+      }
+    ],
+    "evfonium-dlya-duhovogo-orkestra": [
+      {
+        "label": "Инструменты для школьного духового оркестра",
+        "href": "/instrumenty-dlya-shkolnogo-duhovogo-orkestra/"
+      },
+      {
+        "label": "Инструмент для оркестрового класса",
+        "href": "/instrument-dlya-orkestrovogo-klassa/"
+      }
+    ],
+    "akusticheskoe-pianino-na-vremya-remonta": [
+      {
+        "label": "Пианино ребёнку для домашних занятий",
+        "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/"
+      },
+      {
+        "label": "Инструмент на время подбора постоянного",
+        "href": "/instrument-na-period-podbora-postoyannogo/"
+      }
+    ]
+  }
+}
