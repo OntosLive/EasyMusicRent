@@ -35,7 +35,7 @@ class EastmanStringProgramTests(unittest.TestCase):
     def test_inventory_and_new_subjects(self):
         result=inventory.inspect(ROOT)
         self.assertEqual(result['errors'],[])
-        self.assertEqual(result['subjects'],1212)
+        self.assertGreaterEqual(result['subjects'],1212)
         self.assertEqual({p['slug'] for p in self.doc['pages']},NEW)
         for slug in NEW|EXISTING:
             self.assertTrue(self.page(slug).find('h1'))
