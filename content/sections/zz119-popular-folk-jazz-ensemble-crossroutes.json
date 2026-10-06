@@ -1,0 +1,824 @@
+{
+  "pages": [
+    {
+      "slug": "instrumenty-dlya-dzhazovogo-trio",
+      "parent": "kontrabas",
+      "search_title": "Инструменты для джазового трио в аренду",
+      "editorial_title": "Джазовое трио: ритм-секция становится всем оркестром",
+      "description": "Инструменты для джазового трио: контрабас, ударные, фортепиано или гитара и клубная комплектация.",
+      "kicker": "JAZZ TRIO · РИТМ-СЕКЦИЯ · ИМПРОВИЗАЦИЯ",
+      "intro": [
+        "<p>В трио каждый инструмент одновременно держит форму, ритм и пространство для импровизации. Здесь невозможно спрятать неподходящий контрабас или перегруженный комплект барабанов.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Сначала определяют конкретный тип трио",
+          "paragraphs": [
+            "Фортепианное, гитарное или саксофонное трио требуют разной ритм-секции и разного пространства на сцене."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте groove и тихую балладу",
+          "paragraphs": [
+            "Контрабас, ride и гармонический инструмент должны сохранять пульс без соревнования громкости."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать ритм-секцию под один клубный цикл",
+          "paragraphs": [
+            "После концерта большой акустический парк не нужно хранить."
+          ]
+        }
+      ],
+      "quote": "Кто третий голос трио и какой тип ритм-секции нужен именно ему?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Контрабас для джаза",
+          "href": "/kontrabas-dlya-dzhaza/"
+        },
+        {
+          "label": "Барабанная установка для джаза",
+          "href": "/barabannaya-ustanovka-dlya-dzheza/"
+        },
+        {
+          "label": "Рояль",
+          "href": "/royal/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-dzhazovogo-kvarteta",
+      "parent": "saksofon",
+      "search_title": "Инструменты для джазового квартета в аренду",
+      "editorial_title": "Джазовый квартет: солист и ритм-секция должны оставить друг другу воздух",
+      "description": "Инструменты для джазового квартета: саксофон/труба, piano/guitar, bass, drums и backline.",
+      "kicker": "JAZZ QUARTET · СОЛИСТ · РИТМ-СЕКЦИЯ",
+      "intro": [
+        "<p>В квартете солирующий голос уже получает полноценную ритм-секцию, а значит подбор усиления и акустических инструментов должен поддерживать динамику импровизации.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Солист определяет верхний контур, ритм-секция — архитектуру сцены",
+          "paragraphs": [
+            "Саксофон, труба или другой голос меняют требования к мониторингу и общему масштабу."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте solo chorus и общий head",
+          "paragraphs": [
+            "Ритм-секция не должна увеличивать громкость каждый раз, когда солист меняет регистр."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда может собрать весь local set на один вечер",
+          "paragraphs": [
+            "Музыканты приезжают без большого парка, а сцена получает готовый состав."
+          ]
+        }
+      ],
+      "quote": "Кто солист квартета и какая ритм-секция уже есть на площадке?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Саксофон",
+          "href": "/saksofon/"
+        },
+        {
+          "label": "Труба",
+          "href": "/truba/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        },
+        {
+          "label": "Backline для джазового квинтета",
+          "href": "/backline-dlya-dzhazovogo-kvinteta/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-dzhazovogo-seksteta",
+      "parent": "saksofon",
+      "search_title": "Инструменты для джазового секстета в аренду",
+      "editorial_title": "Джазовый секстет: дополнительные голоса не должны утопить ритм-секцию",
+      "description": "Инструменты для джазового секстета: духовые, rhythm section, клавишные и сценическая комплектация.",
+      "kicker": "JAZZ SEXTET · ДУХОВЫЕ · RHYTHM SECTION",
+      "intro": [
+        "<p>Секстет уже позволяет строить полноценную аранжировку с несколькими фронтальными голосами, но требует более точного баланса сцены.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Состав читают по аранжировке, а не по общему слову jazz",
+          "paragraphs": [
+            "Два или три духовых голоса могут требовать разных инструментов и дополнительных подставок/мониторинга."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте tutti фронтальной линии и отдельные soli",
+          "paragraphs": [
+            "Ритм-секция должна оставаться ясной, не превращаясь в усиленный фон."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда закрывает фестивальную или студийную сессию",
+          "paragraphs": [
+            "Редкие дополнительные духовые можно добрать только на проект."
+          ]
+        }
+      ],
+      "quote": "Какие фронтальные голоса написаны и сколько инструментов реально привозит каждый музыкант?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Саксофоны",
+          "href": "/saksofon/"
+        },
+        {
+          "label": "Медные духовые",
+          "href": "/mednye-duhovye/"
+        },
+        {
+          "label": "Backline",
+          "href": "/backline/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-bossa-nova-ansamblya",
+      "parent": "klassicheskaya-gitara",
+      "search_title": "Инструменты для bossa nova ансамбля в аренду",
+      "editorial_title": "Bossa nova: тихий пульс требует точного баланса гитары, голоса и перкуссии",
+      "description": "Инструменты для bossa nova: nylon guitar, bass, light percussion, vocal/piano and stage setup.",
+      "kicker": "BOSSA NOVA · NYLON · ТИХИЙ ПУЛЬС",
+      "intro": [
+        "<p>В bossa nova ритм живёт в небольшом движении, поэтому слишком мощный backline или тяжёлые тарелки быстро разрушают жанровую прозрачность.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Гитара и лёгкая перкуссия задают основу",
+          "paragraphs": [
+            "Нужен комплект, где nylon-string атака и тихий пульс слышны без лишнего усиления."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте ансамбль на самой низкой рабочей громкости",
+          "paragraphs": [
+            "Если groove сохраняется только после увеличения уровня, контур ещё не собран."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать камерный комплект на ресторан, клуб или запись",
+          "paragraphs": [
+            "После проекта редкие инструменты возвращаются."
+          ]
+        }
+      ],
+      "quote": "Что держит пульс в вашей версии: гитара, percussion, piano или всё вместе?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Классическая гитара",
+          "href": "/klassicheskaya-gitara/"
+        },
+        {
+          "label": "Кахон",
+          "href": "/kahon/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-fank-gruppy",
+      "parent": "bas-gitara",
+      "search_title": "Инструменты для funk-группы в аренду",
+      "editorial_title": "Funk-группа: короткая атака каждого инструмента должна складываться в один groove",
+      "description": "Инструменты для funk-группы: bass, drums, clean guitar, keys, brass and stage backline.",
+      "kicker": "FUNK · GROOVE · КОРОТКАЯ АТАКА",
+      "intro": [
+        "<p>В funk почти каждый инструмент работает как ритмический, поэтому лишний sustain и тяжёлый спектр быстро размывают общий рисунок.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Ритм-секция строится вокруг bass + drums",
+          "paragraphs": [
+            "Гитара, клавиши и духовые добавляют короткие функции, а не отдельные стены звука."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте groove без вокала и затем с полным составом",
+          "paragraphs": [
+            "Если после добавления клавиш и духовых пропадает bass drum/bass lock, backline нужно пересобрать."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать clean-oriented rig на один проект",
+          "paragraphs": [
+            "Не нужно перестраивать основной rock backline группы навсегда."
+          ]
+        }
+      ],
+      "quote": "Какой инструмент сейчас размывает groove: guitar, keys, horns или percussion?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Бас для фанка",
+          "href": "/bas-gitara-dlya-fanka/"
+        },
+        {
+          "label": "Электрогитара для фанка",
+          "href": "/elektrogitara-dlya-fanka/"
+        },
+        {
+          "label": "Установка для фанка",
+          "href": "/barabannaya-ustanovka-dlya-fanka/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-soul-gruppy",
+      "parent": "scenicheskie-klavishnye",
+      "search_title": "Инструменты для soul-группы в аренду",
+      "editorial_title": "Soul-группа: голосу нужна ритм-секция, которая умеет поддерживать, а не заполнять всё пространство",
+      "description": "Инструменты для soul-группы: keys, bass, drums, guitar, horns and vocal-oriented backline.",
+      "kicker": "SOUL · ВОКАЛ · RHYTHM SECTION",
+      "intro": [
+        "<p>В soul ансамбль строится вокруг вокальной линии и groove, поэтому инструменты должны иметь запас выразительности без постоянной борьбы за передний план.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Клавиши и гитара распределяют гармоническое пространство",
+          "paragraphs": [
+            "Rhodes/piano/organ и clean guitar могут легко дублировать друг друга, если роли не определены заранее."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте куплет под голосом и инструментальную кульминацию",
+          "paragraphs": [
+            "Вокал должен оставаться центром без искусственного уменьшения всей группы."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать keys/horns/backline под одну постановку",
+          "paragraphs": [
+            "После проекта специальный парк возвращается."
+          ]
+        }
+      ],
+      "quote": "Кто несёт основную гармонию в куплете и кто выходит вперёд в инструментальных эпизодах?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Сценические клавишные",
+          "href": "/scenicheskie-klavishnye/"
+        },
+        {
+          "label": "Бас-гитара",
+          "href": "/bas-gitara/"
+        },
+        {
+          "label": "Медные духовые",
+          "href": "/mednye-duhovye/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-indie-gruppy",
+      "parent": "elektrogitara",
+      "search_title": "Инструменты для indie-группы в аренду",
+      "editorial_title": "Indie-группа: характер рождается из сочетания простых, но несовпадающих голосов",
+      "description": "Инструменты для indie-группы: guitars, bass, drums, synths and flexible club backline.",
+      "kicker": "INDIE · GUITARS · SYNTHS",
+      "intro": [
+        "<p>Indie-состав может быть минимальным или многослойным, поэтому аренда полезна как способ собрать конкретный звук проекта без постоянной покупки каждого второго инструмента.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Сначала фиксируют, какие роли действительно нужны",
+          "paragraphs": [
+            "Вторая гитара, synth, baritone или дополнительная percussion существуют только если они меняют аранжировку."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте полный set на клубной громкости",
+          "paragraphs": [
+            "Новые слои не должны закрывать голос и ритм-секцию."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проекту менять инструментальный язык от релиза к релизу",
+          "paragraphs": [
+            "Не каждый временный тембр становится постоянным активом."
+          ]
+        }
+      ],
+      "quote": "Какие инструменты являются ядром группы, а какие нужны только текущему материалу?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Электрогитара",
+          "href": "/elektrogitara/"
+        },
+        {
+          "label": "Синтезаторы",
+          "href": "/sintezatory/"
+        },
+        {
+          "label": "Backline для клубной сцены",
+          "href": "/backline-dlya-klubnoy-stseny/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-akusticheskogo-trio",
+      "parent": "akusticheskaya-gitara",
+      "search_title": "Инструменты для акустического трио в аренду",
+      "editorial_title": "Акустическое трио: три инструмента должны помещаться в комнату без электрической стены",
+      "description": "Инструменты для акустического трио: guitar/keys, bass/cello, percussion and vocal balance.",
+      "kicker": "ACOUSTIC TRIO · НИЗКАЯ ГРОМКОСТЬ · БАЛАНС",
+      "intro": [
+        "<p>В акустическом трио слышно каждую лишнюю атаку и каждый чрезмерный резонанс, поэтому комплект должен работать прежде всего на малой громкости.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Состав определяют от функции, а не от привычной rock-схемы",
+          "paragraphs": [
+            "Низ может вести контрабас или виолончель, ритм — кахон или щётки, гармонию — guitar/piano."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте ансамбль без усиления прежде DI и PA",
+          "paragraphs": [
+            "Если он уже сбалансирован акустически, усиление становится продолжением, а не спасением."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда идеально подходит под камерный концерт или выездной сет",
+          "paragraphs": [
+            "Комплект может существовать один вечер."
+          ]
+        }
+      ],
+      "quote": "Кто несёт низ, кто ритм и нужен ли вообще полноценный drum set?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Акустическая гитара",
+          "href": "/akusticheskaya-gitara/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        },
+        {
+          "label": "Кахон",
+          "href": "/kahon/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "parent": "bandzho",
+      "search_title": "Инструменты для bluegrass ансамбля в аренду",
+      "editorial_title": "Bluegrass: banjo, mandolin и акустические струны должны делить одну быстую атаку",
+      "description": "Инструменты для bluegrass: banjo, mandolin, acoustic guitar, upright bass and ensemble setup.",
+      "kicker": "BLUEGRASS · BANJO · MANDOLIN",
+      "intro": [
+        "<p>В bluegrass много быстрых щипковых атак, поэтому каждому инструменту нужно собственное место в ритме и спектре.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Состав собирают вокруг реальных партий",
+          "paragraphs": [
+            "Banjo и mandolin не являются декоративными тембрами, если аранжировка строится на их ритмической функции."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте общий быстрый groove без усиления",
+          "paragraphs": [
+            "Контрабас должен оставаться опорой, а верхние щипковые не сливаться в один щелчок."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет добрать редкий banjo/mandolin/upright под один проект",
+          "paragraphs": [
+            "После концертов инструмент возвращается."
+          ]
+        }
+      ],
+      "quote": "Какие партии уже написаны для banjo, mandolin и upright, а какие пока только предполагаются?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Банджо",
+          "href": "/bandzho/"
+        },
+        {
+          "label": "Мандолина",
+          "href": "/mandolina/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-tango-kvarteta",
+      "parent": "bandoneon",
+      "search_title": "Инструменты для tango-квартета в аренду",
+      "editorial_title": "Tango-квартет: bandoneon должен быть системой, а не просто тембром",
+      "description": "Инструменты для tango-квартета: bandoneon, violin, piano, double bass and exact system matching.",
+      "kicker": "TANGO · BANDONEON · QUARTET",
+      "intro": [
+        "<p>В tango ключевой риск временной комплектации — взять не ту систему bandoneon или инструмент, который физически не совпадает с привычной техникой музыканта.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Bandoneon проверяют первым",
+          "paragraphs": [
+            "Его раскладка и логика меха должны совпадать с исполнителем; остальные инструменты уже собираются вокруг программы."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте rubato и плотный marcato всем составом",
+          "paragraphs": [
+            "Контрабас, фортепиано и скрипка должны сохранять артикуляцию, не превращая tango в просто громкий квартет."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда особенно естественна для touring tango project",
+          "paragraphs": [
+            "Редкий bandoneon можно получить на срок гастролей."
+          ]
+        }
+      ],
+      "quote": "Какая система bandoneon нужна исполнителю и кто привозит остальные три инструмента?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Бандонеон",
+          "href": "/bandoneon/"
+        },
+        {
+          "label": "Скрипка",
+          "href": "/skripka/"
+        },
+        {
+          "label": "Рояль",
+          "href": "/royal/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-flamenko-ansamblya",
+      "parent": "klassicheskaya-gitara",
+      "search_title": "Инструменты для flamenco ансамбля в аренду",
+      "editorial_title": "Flamenco-ансамбль: guitar, voice и percussion должны держать общий compás",
+      "description": "Инструменты для flamenco: guitar, cajon/palmas support, vocal and stage amplification.",
+      "kicker": "FLAMENCO · COMPÁS · GUITAR",
+      "intro": [
+        "<p>Здесь ритм не принадлежит одному барабану, поэтому слишком тяжёлая percussion или неподходящая guitar amplification быстро разрушает compás.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Гитара и ритмическая опора собираются как единая система",
+          "paragraphs": [
+            "Кахон может дополнять compás, но не обязан заменять всю ручную ритмику."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте ensemble groove без лишнего усиления",
+          "paragraphs": [
+            "Голос и guitar attack должны оставаться читаемыми рядом с percussion."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать stage-ready комплект на один концерт",
+          "paragraphs": [
+            "После него дополнительный cajon/DI/guitar возвращается."
+          ]
+        }
+      ],
+      "quote": "Кто держит compás в вашей версии и нужен ли отдельный cajon?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Классическая гитара",
+          "href": "/klassicheskaya-gitara/"
+        },
+        {
+          "label": "Кахон",
+          "href": "/kahon/"
+        },
+        {
+          "label": "DI для акустической гитары",
+          "href": "/di-dlya-akusticheskoy-gitary/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-klezmer-ansamblya",
+      "parent": "klarinet",
+      "search_title": "Инструменты для klezmer ансамбля в аренду",
+      "editorial_title": "Klezmer-ансамбль: мелодический голос должен оставаться гибким поверх подвижного сопровождения",
+      "description": "Инструменты для klezmer: clarinet/violin, accordion, bass and ensemble setup.",
+      "kicker": "KLEZMER · KLARINET · ACCORDION",
+      "intro": [
+        "<p>Klezmer-состав может строиться вокруг кларнета или скрипки, а аккордеон и низ создают подвижную гармоническую опору.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Главный мелодический голос определяет остальной масштаб",
+          "paragraphs": [
+            "Если он акустический и камерный, большой stage backline не нужен."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте rubato и быстрый танцевальный эпизод",
+          "paragraphs": [
+            "Ансамбль должен менять характер без смены всей технической схемы."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет добрать accordion/clarinet/upright на фестиваль или запись",
+          "paragraphs": [
+            "После проекта редкий состав распадается без лишнего склада."
+          ]
+        }
+      ],
+      "quote": "Кто ведёт мелодию и какой инструмент нужен только текущей программе?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Кларнет",
+          "href": "/klarinet/"
+        },
+        {
+          "label": "Скрипка",
+          "href": "/skripka/"
+        },
+        {
+          "label": "Аккордеон",
+          "href": "/arenda-akkordeona-moskva/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-balkanskogo-ansamblya",
+      "parent": "bayan-akkordeon",
+      "search_title": "Инструменты для балканского ансамбля в аренду",
+      "editorial_title": "Балканский ансамбль: медные, reeds и percussion должны совпасть по масштабу движения",
+      "description": "Инструменты для Balkan ensemble: accordion/free-reed, brass, woodwinds, percussion and mobile setup.",
+      "kicker": "BALKAN · BRASS · REEDS · PERCUSSION",
+      "intro": [
+        "<p>Балканские составы бывают очень разными, поэтому важнее не жанровая этикетка, а конкретные партии: accordion, clarinet, brass, drum or other voices.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Состав собирают от нот и привычной системы исполнителей",
+          "paragraphs": [
+            "Особенно важно не подменить баян/гармонь/аккордеон только потому, что все они имеют мех."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте танцевальный groove на реальной громкости",
+          "paragraphs": [
+            "Медные не должны полностью закрывать свободно-язычковый или деревянный голос."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать мобильный фестивальный состав",
+          "paragraphs": [
+            "Редкие инструменты появляются ровно на срок программы."
+          ]
+        }
+      ],
+      "quote": "Какие конкретные голоса написаны и какая система мехового инструмента нужна музыканту?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Баян и аккордеон",
+          "href": "/bayan-akkordeon/"
+        },
+        {
+          "label": "Медные духовые",
+          "href": "/mednye-duhovye/"
+        },
+        {
+          "label": "Кларнет",
+          "href": "/klarinet/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-latino-ansamblya",
+      "parent": "ruchnaya-perkussiya",
+      "search_title": "Инструменты для latin ансамбля в аренду",
+      "editorial_title": "Latin-ансамбль: percussion должна распределять пульс, а не просто увеличивать количество ударов",
+      "description": "Инструменты для latin ensemble: congas, bongos, timbales/percussion, bass, keys and stage balance.",
+      "kicker": "LATIN · PERCUSSION · GROOVE",
+      "intro": [
+        "<p>Несколько перкуссионных голосов имеют смысл только тогда, когда каждый держит собственную ритмическую функцию.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Сначала распределяют роли между congas, bongos и другими поверхностями",
+          "paragraphs": [
+            "Если все играют один и тот же пульс, ансамбль становится плотнее, но не богаче."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте groove только percussion + bass, затем добавьте остальной состав",
+          "paragraphs": [
+            "Так видно, где именно теряется ритмическая сцепка."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать расширенный percussion-парк под один проект",
+          "paragraphs": [
+            "После концерта большие conga sets не нужно хранить."
+          ]
+        }
+      ],
+      "quote": "Какие ритмические функции уже распределены и какой percussion-голос ещё отсутствует?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Конги",
+          "href": "/kongi/"
+        },
+        {
+          "label": "Бонго",
+          "href": "/bongi/"
+        },
+        {
+          "label": "Ручная перкуссия",
+          "href": "/ruchnaya-perkussiya/"
+        },
+        {
+          "label": "Бас-гитара",
+          "href": "/bas-gitara/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-reggae-gruppy",
+      "parent": "bas-gitara",
+      "search_title": "Инструменты для reggae-группы в аренду",
+      "editorial_title": "Reggae-группа: низ и пространство важнее плотности",
+      "description": "Инструменты для reggae: bass, drums, clean guitar, keys, delay/reverb and stage backline.",
+      "kicker": "REGGAE · BASS · SPACE",
+      "intro": [
+        "<p>В reggae ансамбль живёт на глубоком низе, короткой guitar attack и большом количестве пространства между событиями.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Bass и drums собирают прежде дополнительных слоёв",
+          "paragraphs": [
+            "Если низ уже перегружен, organ/keys и guitar только усиливают проблему."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте groove на умеренной сценической громкости",
+          "paragraphs": [
+            "Bass должен оставаться читаемым, а snare/guitar skank — короткими и отдельными."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать clean backline и нужные эффекты на тур",
+          "paragraphs": [
+            "Не нужно перестраивать основной rock rig группы навсегда."
+          ]
+        }
+      ],
+      "quote": "Что должно быть главным в миксе: bass, vocal или guitar/keys offbeat?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Бас-гитара",
+          "href": "/bas-gitara/"
+        },
+        {
+          "label": "Электрогитара clean",
+          "href": "/elektrogitara-dlya-chistogo-zvuka/"
+        },
+        {
+          "label": "Клавишные",
+          "href": "/scenicheskie-klavishnye/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "parent": "mandolina",
+      "search_title": "Инструменты для folk-группы в аренду",
+      "editorial_title": "Folk-группа: акустические инструменты должны сохранять различие происхождения и функции",
+      "description": "Инструменты для folk-группы: acoustic strings, reeds, percussion and flexible project setup.",
+      "kicker": "FOLK · ACOUSTIC · PROJECT",
+      "intro": [
+        "<p>Слово folk слишком широкое, чтобы назначить готовый комплект. Страница нужна как вход к конкретной комбинации инструментов из одной программы.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / СОСТАВ",
+          "title": "Сначала фиксируют реальные инструменты и традицию",
+          "paragraphs": [
+            "Mandolin, fiddle, accordion, flute, banjo или percussion могут быть совместимы в одном проекте, но не являются универсальным набором."
+          ]
+        },
+        {
+          "label": "02 / РЕПЕТИЦИЯ",
+          "title": "Проверьте общий акустический баланс до усиления",
+          "paragraphs": [
+            "Только после этого решают, кому нужен DI или микрофон."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проекту собрать редкие голоса без долгого владения",
+          "paragraphs": [
+            "После записи или тура состав может измениться полностью."
+          ]
+        }
+      ],
+      "quote": "Какая традиция и какие конкретные партии определяют ваш folk-состав?",
+      "sources": [],
+      "links": [
+        {
+          "label": "Мандолина",
+          "href": "/mandolina/"
+        },
+        {
+          "label": "Банджо",
+          "href": "/bandzho/"
+        },
+        {
+          "label": "Аккордеон",
+          "href": "/arenda-akkordeona-moskva/"
+        },
+        {
+          "label": "Флейта",
+          "href": "/fleyta/"
+        }
+      ]
+    }
+  ]
+}
