@@ -1,0 +1,920 @@
+{
+  "pages": [
+    {
+      "slug": "elektronnye-barabany-vzroslomu-nachinayuschemu",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны взрослому начинающему в аренду",
+      "editorial_title": "Начать барабаны взрослым: сначала собрать ритм, а не домашнюю студию",
+      "description": "Электронные барабаны взрослому начинающему: посадка, педали, наушники, метроном и пробный период.",
+      "kicker": "ВЗРОСЛЫЙ · ПЕРВЫЙ ГРУВ · ДОМ",
+      "intro": [
+        "<p>Взрослому новичку электронная установка позволяет начать дома без покупки акустического комплекта и отдельной комнаты. Главный вопрос первых недель — возникает ли регулярный ритмический цикл.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "На старте достаточно устойчивой посадки и понятного рабочего звука",
+          "paragraphs": [
+            "TD-02K, DTX402K и Nitro Max показывают разные начальные подходы, но все они полезны только после настройки высоты малого, томов и педалей под конкретного человека."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте простой groove, rudiment и работу ног",
+          "paragraphs": [
+            "Нужно понять, не распадается ли посадка и насколько удобно слышать себя в наушниках на обычной домашней громкости."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда отвечает на вопрос, становится ли барабанная практика регулярной",
+          "paragraphs": [
+            "Через несколько недель уже ясно, нужен ли более развитый hi-hat, другая педаль или акустический комплект."
+          ]
+        }
+      ],
+      "quote": "Что вы хотите проверить первым: сам интерес к барабанам, удобство дома или координацию рук и ног?",
+      "sources": [
+        {
+          "title": "Roland: TD-02K entry-level V-Drums",
+          "url": "https://www.roland.com/global/products/td-02k/"
+        },
+        {
+          "title": "Yamaha: DTX402K beginner electronic drum system",
+          "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/4014/"
+        },
+        {
+          "title": "Alesis Support: Nitro Max, пэды, Bluetooth и состав",
+          "url": "https://support.alesis.com/support/solutions/articles/69000845703-alesis-nitro-max-kit-frequently-asked-questions"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-02K",
+          "href": "/roland-td02k-v-arendu/"
+        },
+        {
+          "label": "Yamaha DTX402K",
+          "href": "/yamaha-dtx402k-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для домашних занятий в аренду",
+      "editorial_title": "Домашняя электронная установка: ритм должен быть доступен каждый день",
+      "description": "Электронные барабаны для дома: посадка, наушники, механический шум, метроном и регулярная практика.",
+      "kicker": "ДОМ · НАУШНИКИ · РЕГУЛЯРНОСТЬ",
+      "intro": [
+        "<p>Электронный комплект особенно ценен там, где акустическая громкость мешает регулярности. Но наушники не убирают физический стук по пэдам и передачу вибрации через пол.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала собирают рабочее место, а не выбирают пресет",
+          "paragraphs": [
+            "Высота стула, педали, малый и hi-hat должны позволять повторять обычные учебные движения без постоянной перестановки."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте полный домашний сеанс",
+          "paragraphs": [
+            "Rudiments, metronome, песня и работа ног покажут больше, чем короткая демонстрация звуков модуля."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить само помещение",
+          "paragraphs": [
+            "Если квартира не выдерживает даже механический шум, это лучше узнать до покупки."
+          ]
+        }
+      ],
+      "quote": "Главное ограничение дома сейчас — акустическая громкость, вибрация пола, место или сама регулярность занятий?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Alesis Support: Nitro Max, пэды, Bluetooth и состав",
+          "url": "https://support.alesis.com/support/solutions/articles/69000845703-alesis-nitro-max-kit-frequently-asked-questions"
+        },
+        {
+          "title": "Yamaha: DTX402K beginner electronic drum system",
+          "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/4014/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Электронные барабаны для квартиры",
+          "href": "/elektronnye-barabany-dlya-kvartiry/"
+        },
+        {
+          "label": "Roland TD-17KVX2",
+          "href": "/roland-td17kvx2-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-posle-akusticheskih",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны после акустической установки в аренду",
+      "editorial_title": "После акустики: сохранить движение, когда звук начинает жить в модуле",
+      "description": "Переход с акустической установки на электронную: hi-hat, ride, малый, динамика и настройка чувствительности.",
+      "kicker": "АКУСТИКА → ЭЛЕКТРО · ОТКЛИК · АДАПТАЦИЯ",
+      "intro": [
+        "<p>Опытный барабанщик приносит на электронный комплект готовую механику движения. Поэтому особенно заметны различия малого, hi-hat и ride, а также настройки чувствительности.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Переход начинают с самых знакомых поверхностей",
+          "paragraphs": [
+            "TD-27KV2 использует цифровые малый, hi-hat и ride; TD-17KVX2 предлагает более компактную систему. Сравнивать нужно на собственных привычных фрагментах."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте ghost notes, открытия hi-hat и ride articulation",
+          "paragraphs": [
+            "Если техника приходится резко менять ради считывания, настройка ещё не адаптирована под исполнителя."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет понять, какая электронная система действительно переносит акустическую технику",
+          "paragraphs": [
+            "После нескольких репетиций становится ясно, нужен ли продвинутый комплект или домашней практике хватает более простого."
+          ]
+        }
+      ],
+      "quote": "Какие акустические движения вы больше всего боитесь потерять на электронной установке?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-27KV2",
+          "href": "/roland-td27kv2-v-arendu/"
+        },
+        {
+          "label": "Roland TD-17KVX2",
+          "href": "/roland-td17kvx2-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskaya-ustanovka-posle-elektronnyh",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Акустическая барабанная установка после электронных барабанов в аренду",
+      "editorial_title": "После электронных барабанов: услышать реальную громкость и масштаб движения",
+      "description": "Переход с электронных барабанов на акустическую установку: динамика, педали, тарелки, пространство и контроль удара.",
+      "kicker": "ЭЛЕКТРО → АКУСТИКА · ГРОМКОСТЬ · ПРОСТРАНСТВО",
+      "intro": [
+        "<p>Ученик, начинавший дома на электронном комплекте, может впервые столкнуться с реальным акустическим объёмом на репетиции. Временная установка даёт возможность пройти этот переход заранее.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Главное новое различие — звук больше нельзя уменьшить ручкой громкости",
+          "paragraphs": [
+            "Каждый удар физически создаёт акустическую энергию, а тарелки продолжают звучать сами. Это требует нового контроля амплитуды движения."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте знакомый groove сначала тихо, затем на рабочей громкости группы",
+          "paragraphs": [
+            "Нужно услышать, где электронная привычка к удару требует переработки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда полезна перед первым акустическим концертом или переходом в группу",
+          "paragraphs": [
+            "Несколько репетиций снимают резкий разрыв между домашней и сценической средой."
+          ]
+        }
+      ],
+      "quote": "Что новое на акустике сложнее всего: громкость, тарелки, бас-бочка или физический масштаб установки?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Барабанная установка для репетиции",
+          "href": "/barabannaya-ustanovka-dlya-repetitsii/"
+        },
+        {
+          "label": "Первая барабанная установка",
+          "href": "/barabannaya-ustanovka-dlya-pervogo-instrumenta/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-pered-pokupkoy",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны в аренду перед покупкой",
+      "editorial_title": "Перед покупкой электронных барабанов: прожить с пэдами, педалями и шумом пола",
+      "description": "Аренда электронных барабанов перед покупкой: отклик, hi-hat, педали, механический шум и подключения.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · ОТКЛИК · КРИТЕРИЙ",
+      "intro": [
+        "<p>Электронная установка раскрывается только после нескольких длинных занятий. Первое впечатление от звуков модуля почти ничего не говорит о hi-hat, педалях и физическом шуме дома.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определите спорные координаты",
+          "paragraphs": [
+            "Размер пэдов, тип малого, hi-hat на стойке или отдельной педали, kick-пэд и возможности модуля — разные вопросы."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Используйте комплект дома и на репетиции",
+          "paragraphs": [
+            "Так становится ясно, где важен сам отклик, а где проблема решается настройкой или инфраструктурой."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Результат аренды — собственный критерий до покупки",
+          "paragraphs": [
+            "После периода практики можно выбрать другую модель уже по реальным движениям."
+          ]
+        }
+      ],
+      "quote": "Какие свойства должны стать понятны до покупки: малый, hi-hat, kick, динамика или подключения?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        },
+        {
+          "title": "Alesis Support: Nitro Max, пэды, Bluetooth и состав",
+          "url": "https://support.alesis.com/support/solutions/articles/69000845703-alesis-nitro-max-kit-frequently-asked-questions"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-27KV2",
+          "href": "/roland-td27kv2-v-arendu/"
+        },
+        {
+          "label": "Yamaha DTX6K3-X",
+          "href": "/yamaha-dtx6k3x-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-v-naushnikah",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для занятий в наушниках в аренду",
+      "editorial_title": "Наушники: слышать каждую атаку без гонки за громкостью",
+      "description": "Электронные барабаны для занятий в наушниках: баланс, метроном, фонограмма и контроль физического шума.",
+      "kicker": "НАУШНИКИ · БАЛАНС · ТИХАЯ ПРАКТИКА",
+      "intro": [
+        "<p>Наушники позволяют убрать звук модуля из комнаты, но не должны превращать занятие в слишком громкое закрытое пространство для ушей.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Баланс между барабанами, метрономом и фонограммой задаётся заранее",
+          "paragraphs": [
+            "Если клик приходится выкручивать слишком громко, проблема может быть не в наушниках, а в общем миксе и выбранных тембрах."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте тихий groove и длинный сеанс",
+          "paragraphs": [
+            "Важно, чтобы детали ghost notes оставались слышны без чрезмерного уровня громкости."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить конкретную домашнюю схему",
+          "paragraphs": [
+            "Наушники, модуль и пэды работают как единая среда, а не как отдельные покупки."
+          ]
+        }
+      ],
+      "quote": "В наушниках важнее слышать метроном, фонограмму или самую тихую динамику малого?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        },
+        {
+          "title": "Alesis Support: Nitro Max, пэды, Bluetooth и состав",
+          "url": "https://support.alesis.com/support/solutions/articles/69000845703-alesis-nitro-max-kit-frequently-asked-questions"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-17KVX2",
+          "href": "/roland-td17kvx2-v-arendu/"
+        },
+        {
+          "label": "Электронные барабаны для дома",
+          "href": "/elektronnye-barabany-dlya-domashnih-zanyatiy/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-midi",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для записи MIDI в аренду",
+      "editorial_title": "MIDI-запись барабанов: сохранить движение отдельно от выбранного звука",
+      "description": "Электронные барабаны для MIDI: velocity, зоны пэдов, hi-hat data, USB/MIDI и редактируемая запись.",
+      "kicker": "MIDI · VELOCITY · РЕДАКТИРУЕМАЯ ПАРТИЯ",
+      "intro": [
+        "<p>Если финальный звук будет выбран позже, электронная установка становится интерфейсом записи движения барабанщика.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Нужно сохранить не только ноты, но и динамические различия",
+          "paragraphs": [
+            "Малый, rim, hi-hat и ride могут передавать разные зоны и уровни. Поэтому важно заранее проверить, что нужные исполнительские данные доходят до проекта."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Запишите один groove и посмотрите MIDI-события",
+          "paragraphs": [
+            "Сравните velocity ghost notes и основных ударов, а также работу hi-hat. Если данные не отражают реальную игру, настройка ещё не готова."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда подходит под конкретную production-сессию",
+          "paragraphs": [
+            "После записи MIDI остаётся в проекте, а комплект возвращается."
+          ]
+        }
+      ],
+      "quote": "Нужно записать просто ноты или сохранить тонкие различия малого, hi-hat и ride?",
+      "sources": [
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-27KV2",
+          "href": "/roland-td27kv2-v-arendu/"
+        },
+        {
+          "label": "Yamaha DTX6K3-X",
+          "href": "/yamaha-dtx6k3x-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-audio",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для записи аудио в аренду",
+      "editorial_title": "Аудиозапись: модуль должен дать готовый звук, который выдержит микс",
+      "description": "Электронные барабаны для аудиозаписи: stereo out, USB audio, тембры, динамика и повторяемость.",
+      "kicker": "AUDIO · MODULE · ГОТОВЫЙ ЗВУК",
+      "intro": [
+        "<p>Иногда нужен не MIDI для последующей замены звуков, а готовый звук модуля. Тогда выбор комплекта включает и исполнительский отклик, и характер самого аудиосигнала.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Путь записи определяют до сессии",
+          "paragraphs": [
+            "Stereo out, USB audio или другой маршрут должны быть согласованы с интерфейсом и проектом заранее."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Запишите тихую и плотную динамику",
+          "paragraphs": [
+            "Нужно услышать, сохраняется ли различие ghost notes и акцентов уже в готовом аудио."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда естественна для одной записи",
+          "paragraphs": [
+            "После сохранения дорожек нет необходимости держать весь комплект постоянно."
+          ]
+        }
+      ],
+      "quote": "Нужен готовый звук модуля или возможность потом заменить тембры через MIDI?",
+      "sources": [
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-27KV2",
+          "href": "/roland-td27kv2-v-arendu/"
+        },
+        {
+          "label": "MIDI-запись",
+          "href": "/elektronnye-barabany-dlya-zapisi-midi/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для работы над двойной педалью в аренду",
+      "editorial_title": "Двойная педаль: ноги должны тренироваться на реальном kick-интерфейсе",
+      "description": "Электронные барабаны для двойной педали: kick pad, совместимость, посадка и равномерность ног.",
+      "kicker": "DOUBLE PEDAL · НОГИ · KICK PAD",
+      "intro": [
+        "<p>Для двойной педали важна не только электроника модуля, но и физический kick-пэд, который принимает обе колотушки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Совместимость проверяют по конкретному kick-пэду",
+          "paragraphs": [
+            "У разных электронных комплектов kick-системы различаются. До аренды нужно знать ширину поверхности, используемую педаль и рабочую посадку."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте медленные ровные восьмые и ускорение",
+          "paragraphs": [
+            "Если левая и правая нога получают разный физический ответ, техника быстро начинает компенсировать интерфейс."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда полезна на период отдельной технической работы",
+          "paragraphs": [
+            "После освоения задачи комплект может вернуться к обычной домашней конфигурации."
+          ]
+        }
+      ],
+      "quote": "Какая двойная педаль уже используется и должен ли электронный kick принимать обе колотушки без перестройки?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-17KVX2",
+          "href": "/roland-td17kvx2-v-arendu/"
+        },
+        {
+          "label": "Roland TD-27KV2",
+          "href": "/roland-td27kv2-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dinamikoy",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для работы над динамикой в аренду",
+      "editorial_title": "Динамика на электронных барабанах: модуль должен различать не только тихо и громко",
+      "description": "Электронные барабаны для динамики: velocity, ghost notes, чувствительность, zones и настройка response.",
+      "kicker": "ДИНАМИКА · VELOCITY · GHOST NOTES",
+      "intro": [
+        "<p>Продвинутый электронный комплект имеет смысл тогда, когда он возвращает различия между близкими ударами, а не только переключает звуки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Чувствительность нужно настраивать под реальную руку",
+          "paragraphs": [
+            "TD-27KV2 и DTX6 позволяют глубже работать с откликом. Но заводская настройка не обязана совпадать с техникой конкретного барабанщика."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте один рисунок от ghost notes до акцентов",
+          "paragraphs": [
+            "Ритм должен сохраняться, а динамика меняться плавно и повторяемо."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить, действительно ли более сложная система нужна вашей практике",
+          "paragraphs": [
+            "Если разница не используется в музыке, дорогой комплект может не дать реального преимущества."
+          ]
+        }
+      ],
+      "quote": "Какая часть динамического диапазона сейчас теряется: самые тихие ноты, средние акценты или крайняя атака?",
+      "sources": [
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-27KV2",
+          "href": "/roland-td27kv2-v-arendu/"
+        },
+        {
+          "label": "Yamaha DTX6K3-X",
+          "href": "/yamaha-dtx6k3x-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-vremennogo-zhilya",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для временного жилья в аренду",
+      "editorial_title": "Временное жильё: барабанная практика не обязана ждать постоянной комнаты",
+      "description": "Электронные барабаны на несколько месяцев: компактность, механический шум, быстрый монтаж и домашняя практика.",
+      "kicker": "ВРЕМЕННОЕ ЖИЛЬЁ · КОМПАКТНОСТЬ · ПРАКТИКА",
+      "intro": [
+        "<p>Командировка, ремонт или несколько месяцев в другом месте легко обрывают барабанную практику, если основной сет остаётся дома.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Временный комплект должен быстро собираться в устойчивую геометрию",
+          "paragraphs": [
+            "Компактные системы вроде TD-02K и Nitro Max полезны там, где площадь и срок проживания ограничены."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте не только габариты, но и вибрацию пола",
+          "paragraphs": [
+            "Наушники не решают механический шум педалей и ударов по пэдам."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда заканчивается вместе с временным адресом",
+          "paragraphs": [
+            "После возвращения домой комплект не нужно перевозить или продавать."
+          ]
+        }
+      ],
+      "quote": "На какой срок нужно сохранить практику и сколько места реально есть в новом помещении?",
+      "sources": [
+        {
+          "title": "Roland: TD-02K entry-level V-Drums",
+          "url": "https://www.roland.com/global/products/td-02k/"
+        },
+        {
+          "title": "Alesis Support: Nitro Max, пэды, Bluetooth и состав",
+          "url": "https://support.alesis.com/support/solutions/articles/69000845703-alesis-nitro-max-kit-frequently-asked-questions"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-02K",
+          "href": "/roland-td02k-v-arendu/"
+        },
+        {
+          "label": "Alesis Nitro Max",
+          "href": "/alesis-nitro-max-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-s-metronomom",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для работы с метрономом в аренду",
+      "editorial_title": "Метроном: клик должен стать частью ритма, а не сигналом тревоги",
+      "description": "Электронные барабаны для метронома: click, training modes, balance и ежедневная работа над timing.",
+      "kicker": "METRONOME · TIMING · PRACTICE",
+      "intro": [
+        "<p>Электронный модуль удобен тем, что метроном и тренировочные функции уже встроены в рабочую среду.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Клик должен быть слышен без лишней громкости",
+          "paragraphs": [
+            "TD-02K и DTX402K имеют встроенные тренировочные инструменты, которые позволяют работать над timing без отдельного компьютера."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте ровный groove, паузы и возвращение к клику",
+          "paragraphs": [
+            "Полезнее слышать собственное отклонение, чем просто играть вместе с громким метрономом."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда может закрыть отдельный период технической дисциплины",
+          "paragraphs": [
+            "После восстановления timing-комплект продолжает служить обычной домашней установкой или возвращается."
+          ]
+        }
+      ],
+      "quote": "Нужно держаться клика постоянно или тренировать возвращение после пауз и fills?",
+      "sources": [
+        {
+          "title": "Roland: TD-02K entry-level V-Drums",
+          "url": "https://www.roland.com/global/products/td-02k/"
+        },
+        {
+          "title": "Yamaha: DTX402K beginner electronic drum system",
+          "url": "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/4014/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-02K",
+          "href": "/roland-td02k-v-arendu/"
+        },
+        {
+          "label": "Yamaha DTX402K",
+          "href": "/yamaha-dtx402k-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-distantsionnogo-uroka",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для дистанционного урока в аренду",
+      "editorial_title": "Дистанционный урок: преподаватель должен слышать удар и видеть посадку одновременно",
+      "description": "Электронные барабаны для онлайн-урока: камера, аудио, метроном, наушники и стабильная домашняя схема.",
+      "kicker": "ОНЛАЙН-УРОК · КАМЕРА · АУДИО",
+      "intro": [
+        "<p>На дистанционном уроке электронная установка становится частью канала связи. Важно, чтобы преподаватель видел руки и ноги и слышал не только микрофон комнаты.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала собирают технический маршрут урока",
+          "paragraphs": [
+            "Камера должна показывать посадку, а аудио от модуля — попадать в звонок или запись понятным способом."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проведите короткую техническую репетицию до урока",
+          "paragraphs": [
+            "Проверьте, не исчезает ли звук при подключении наушников и слышен ли голос преподавателя поверх модуля."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда подходит на период дистанционного формата",
+          "paragraphs": [
+            "Когда уроки возвращаются в класс, дополнительная домашняя схема может больше не требоваться."
+          ]
+        }
+      ],
+      "quote": "Преподавателю нужен прямой сигнал модуля или достаточно качественного звука установки в комнате?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-17KVX2",
+          "href": "/roland-td17kvx2-v-arendu/"
+        },
+        {
+          "label": "Домашние занятия",
+          "href": "/elektronnye-barabany-dlya-domashnih-zanyatiy/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные и акустические барабаны в аренду для сравнения",
+      "editorial_title": "Электро или акустика: сравнить не идеологию, а конкретные движения",
+      "description": "Сравнение электронных и акустических барабанов: отклик, громкость, hi-hat, педали и реальная практика.",
+      "kicker": "ЭЛЕКТРО ↔ АКУСТИКА · СРАВНЕНИЕ · ФУНКЦИЯ",
+      "intro": [
+        "<p>Спор о том, что «лучше», мало полезен. Гораздо точнее взять знакомый groove и сравнить, какие движения и условия меняются на двух типах установок.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сравнение должно идти по одинаковым задачам",
+          "paragraphs": [
+            "Ghost notes, hi-hat openings, ride, bass drum и общая посадка дают пять разных координат, а не один общий балл."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте один и тот же фрагмент на двух системах",
+          "paragraphs": [
+            "Запишите, что стало легче, что сложнее и какие различия принадлежат не инструменту, а помещению."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет выбрать функцию, а не лагерь",
+          "paragraphs": [
+            "Можно оставить электронный комплект дома и акустический использовать только в репетиционной среде."
+          ]
+        }
+      ],
+      "quote": "Что вы хотите сравнить честно: динамику, hi-hat, педали, громкость или саму домашнюю доступность?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        },
+        {
+          "title": "Yamaha: DTX6K3-X и модуль DTX-PRO",
+          "url": "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Акустическая установка после электронных",
+          "href": "/akusticheskaya-ustanovka-posle-elektronnyh/"
+        },
+        {
+          "label": "Электронные после акустических",
+          "href": "/elektronnye-barabany-posle-akusticheskih/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для работы над хай-хэтом в аренду",
+      "editorial_title": "Hi-hat: нога и палка должны менять один инструмент согласованно",
+      "description": "Электронные барабаны для hi-hat техники: openings, foot chick, стойка, чувствительность и переход с акустики.",
+      "kicker": "HI-HAT · НОГА · ОТКРЫТИЯ",
+      "intro": [
+        "<p>Hi-hat часто становится самым заметным местом различия между электронным и акустическим комплектом.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Система hi-hat должна соответствовать типу практики",
+          "paragraphs": [
+            "TD-17KVX2 использует VH-10 на механической стойке, TD-27KV2 — цифровой VH-14D. Это разные уровни физического и цифрового интерфейса."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте closed, half-open, open и foot chick",
+          "paragraphs": [
+            "Переходы должны быть повторяемыми без необходимости постоянно менять силу ноги ради срабатывания."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет понять, насколько продвинутый hi-hat нужен дома",
+          "paragraphs": [
+            "Если техника ещё не использует тонкие состояния, более простая система может быть достаточной."
+          ]
+        }
+      ],
+      "quote": "Какие hi-hat движения уже есть в вашей реальной партии: foot chick, half-open, быстрые открытия или всё сразу?",
+      "sources": [
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-17KVX2",
+          "href": "/roland-td17kvx2-v-arendu/"
+        },
+        {
+          "label": "Roland TD-27KV2",
+          "href": "/roland-td27kv2-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-nog",
+      "parent": "elektronnaya-barabannaya-ustanovka",
+      "search_title": "Электронные барабаны для тренировки ног в аренду",
+      "editorial_title": "Ноги: педали должны стать ежедневной практикой, а не редкой репетицией",
+      "description": "Электронные барабаны для работы ног: bass drum, hi-hat, педали, координация и домашняя практика.",
+      "kicker": "НОГИ · ПЕДАЛИ · КООРДИНАЦИЯ",
+      "intro": [
+        "<p>Если акустическая установка доступна только раз в неделю, именно работа ног чаще всего остаётся без регулярного повторения.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Домашний комплект должен давать реальный педальный интерфейс",
+          "paragraphs": [
+            "Педаль бас-барабана и hi-hat требуют физической настройки под ноги. Beaterless-системы и полноразмерные педали ощущаются по-разному."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте одинаковый рисунок правой и левой ногой",
+          "paragraphs": [
+            "Равномерность лучше слышна на простых упражнениях, чем внутри сложного groove."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт ежедневный цикл до следующей акустической репетиции",
+          "paragraphs": [
+            "После укрепления координации можно решить, какой уровень домашнего комплекта нужен постоянно."
+          ]
+        }
+      ],
+      "quote": "Какая нога сейчас получает меньше практики: бас-бочка, hi-hat или обе одновременно?",
+      "sources": [
+        {
+          "title": "Roland: TD-02K entry-level V-Drums",
+          "url": "https://www.roland.com/global/products/td-02k/"
+        },
+        {
+          "title": "Roland: TD-17KVX2, состав и конфигурация",
+          "url": "https://www.roland.com/global/products/td-17kvx2/"
+        },
+        {
+          "title": "Roland: TD-27KV2, цифровые малый, хай-хэт и райд",
+          "url": "https://www.roland.com/global/products/td-27kv2/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Roland TD-17KVX2",
+          "href": "/roland-td17kvx2-v-arendu/"
+        },
+        {
+          "label": "Работа над двойной педалью",
+          "href": "/elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu/"
+        }
+      ]
+    }
+  ]
+}
