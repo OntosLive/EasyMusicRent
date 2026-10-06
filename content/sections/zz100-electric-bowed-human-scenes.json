@@ -1,0 +1,860 @@
+{
+  "pages": [
+    {
+      "slug": "elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah",
+      "parent": "elektroskripka",
+      "search_title": "Электроскрипка для домашних занятий в наушниках в аренду",
+      "editorial_title": "Тихая практика: скрипичная рука должна работать даже когда комната почти не слышит инструмент",
+      "description": "Электроскрипка для дома и наушников: контрольный блок, посадка, смычок и тихая практика.",
+      "kicker": "ДОМ · НАУШНИКИ · СКРИПИЧНАЯ ПРАКТИКА",
+      "intro": [
+        "<p>Когда акустическая скрипка слишком громка для времени или места занятий, silent-инструмент может сохранить регулярность. Но наушники не должны менять саму постановку рук.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "YSV104 создан именно вокруг тихой practice-сцены",
+          "paragraphs": [
+            "Yamaha использует отдельный control box и SRT Powered processing. Это другой рабочий контур, чем сценическая пассивная YEV."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте гамму, длинное legato и обычную пьесу в наушниках",
+          "paragraphs": [
+            "Нужно убедиться, что посадка, положение подбородника и смычковая геометрия остаются знакомыми."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить сам домашний режим",
+          "paragraphs": [
+            "Если тихая практика действительно становится регулярной, можно решать вопрос о постоянном silent-инструменте."
+          ]
+        }
+      ],
+      "quote": "Главное ограничение дома — время занятий, соседи или невозможность регулярно доставать акустическую скрипку?",
+      "sources": [
+        {
+          "title": "Yamaha: YSV104, SRT Powered and practice control unit",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/ysv104/features.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha YSV104",
+          "href": "/yamaha-ysv104-v-arendu/"
+        },
+        {
+          "label": "Электроскрипка",
+          "href": "/elektroskripka/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "parent": "elektroskripka",
+      "search_title": "Электроскрипка после акустической в аренду",
+      "editorial_title": "С акустической скрипки на электрическую: левая рука остаётся знакомой, путь звука меняется полностью",
+      "description": "Переход с акустической скрипки на электроскрипку: pickup, output, мониторинг и сценическая адаптация.",
+      "kicker": "АКУСТИКА → ЭЛЕКТРО · СИГНАЛ · СЦЕНА",
+      "intro": [
+        "<p>Скрипач уже владеет инструментальной техникой, но электрическая скрипка добавляет новый слой: звукосниматель, кабель, усиление и мониторинг.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала оставляют знакомую механику рук",
+          "paragraphs": [
+            "YEV104 — четырёхструнная пассивная электроскрипка, которую удобно рассматривать как переход от привычной скрипичной аппликатуры к сценическому сигналу."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте знакомую пьесу сначала без эффектов",
+          "paragraphs": [
+            "Так легче услышать сам новый инструмент и путь сигнала, прежде чем эффектами скрыть различия."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт время освоить сценическую инфраструктуру",
+          "paragraphs": [
+            "После нескольких репетиций становится ясно, нужен ли электрический инструмент постоянно."
+          ]
+        }
+      ],
+      "quote": "Что новое нужно освоить прежде всего: прямой сигнал, мониторинг, эффекты или сама геометрия корпуса?",
+      "sources": [
+        {
+          "title": "Yamaha: YEV104/YEV105 specifications and passive electronics",
+          "url": "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha YEV104",
+          "href": "/yamaha-yev104-v-arendu/"
+        },
+        {
+          "label": "Скрипка",
+          "href": "/skripka/"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskaya-skripka-posle-elektroskripki",
+      "parent": "skripka",
+      "search_title": "Акустическая скрипка после электроскрипки в аренду",
+      "editorial_title": "Вернуться от электрической скрипки к акустике: корпус снова начинает отвечать без усилителя",
+      "description": "Переход с электроскрипки на акустическую: резонанс корпуса, динамика под ухом, смычок и адаптация.",
+      "kicker": "ЭЛЕКТРО → АКУСТИКА · РЕЗОНАНС · ДИНАМИКА",
+      "intro": [
+        "<p>Музыкант, долго работавший через электрический тракт, может заново встретиться с непосредственным акустическим ответом корпуса.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Главное различие — звук формируется и распространяется без электронного звена",
+          "paragraphs": [
+            "Полезно вернуть внимание к тому, как сама скрипка реагирует на скорость и вес смычка."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте знакомую электрическую программу на акустике без усиления",
+          "paragraphs": [
+            "Так видно, где техника привыкла к компрессии или мониторингу, а где остаётся полностью переносимой."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет вернуться к акустике под отдельный проект",
+          "paragraphs": [
+            "Не обязательно сразу покупать вторую скрипку ради одного камерного или классического периода."
+          ]
+        }
+      ],
+      "quote": "Что после электроскрипки ощущается непривычнее: динамика под ухом, резонанс корпуса или тихая атака?",
+      "sources": [
+        {
+          "title": "Yamaha: YEV104/YEV105 specifications and passive electronics",
+          "url": "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html"
+        },
+        {
+          "title": "Yamaha: YSV104, SRT Powered and practice control unit",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/ysv104/features.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Скрипка",
+          "href": "/skripka/"
+        },
+        {
+          "label": "Электроскрипка",
+          "href": "/elektroskripka/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroskripka-pered-pokupkoy",
+      "parent": "elektroskripka",
+      "search_title": "Электроскрипка в аренду перед покупкой",
+      "editorial_title": "Перед покупкой электроскрипки: проверить не дизайн, а весь путь сигнала",
+      "description": "Аренда электроскрипки перед покупкой: passive/active path, outputs, мониторинг, вес и сценическая практика.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · СИГНАЛ · КРИТЕРИЙ",
+      "intro": [
+        "<p>Электроскрипка живёт только вместе с трактом. Красивый корпус и хороший звук в наушниках ещё не отвечают на вопрос, как инструмент работает на вашей сцене.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала выбирают функцию: silent practice или stage",
+          "paragraphs": [
+            "YSV104 и YEV104 показывают две разные архитектуры Yamaha: домашняя silent-система и пассивная сценическая электроскрипка."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте инструмент через свой реальный усилитель, DI или интерфейс",
+          "paragraphs": [
+            "Нужно услышать шум, уровень сигнала, мониторинг и удобство движения с кабелем."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт критерий до покупки",
+          "paragraphs": [
+            "После нескольких репетиций понятнее, какая система нужна постоянно."
+          ]
+        }
+      ],
+      "quote": "Электроскрипка нужна прежде всего для тихой практики, сцены, записи или эффектов?",
+      "sources": [
+        {
+          "title": "Yamaha: YSV104, SRT Powered and practice control unit",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/ysv104/features.html"
+        },
+        {
+          "title": "Yamaha: YEV104/YEV105 specifications and passive electronics",
+          "url": "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html"
+        },
+        {
+          "title": "Yamaha: SV250/SV255 features and stage outputs",
+          "url": "https://europe.yamaha.com/en/musical-instruments/strings/products/silent-series/sv250-255/features.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha YSV104",
+          "href": "/yamaha-ysv104-v-arendu/"
+        },
+        {
+          "label": "Yamaha YEV104",
+          "href": "/yamaha-yev104-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroskripka-dlya-zapisi-napryamuyu",
+      "parent": "elektroskripka",
+      "search_title": "Электроскрипка для прямой записи в аренду",
+      "editorial_title": "Прямая запись: смычковый жест должен пережить преобразование в линейный сигнал",
+      "description": "Электроскрипка для DI/interface записи: passive output, gain, noise, bow attack and repeatability.",
+      "kicker": "DI · ИНТЕРФЕЙС · СКРИПИЧНАЯ АТАКА",
+      "intro": [
+        "<p>При прямой записи электроскрипки особенно хорошо слышно начало смычка и шумы тракта. Это полезно, если сигнал затем будет reamp или сильно обработан.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Путь сигнала согласуют до первого дубля",
+          "paragraphs": [
+            "YEV104 использует пассивный выход, а SV250/SV255 имеют более развитую сценическую систему. Они требуют разного подхода к gain staging."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Запишите одинаковую фразу на нескольких динамиках",
+          "paragraphs": [
+            "Нужно проверить, сохраняется ли разница тихой и сильной атаки без лишнего шума."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда естественно совпадает с длительностью сессии",
+          "paragraphs": [
+            "После сохранения дорожек отдельный электрический инструмент не обязан оставаться в студии."
+          ]
+        }
+      ],
+      "quote": "Нужен максимально чистый DI для обработки или уже сформированный сценический сигнал?",
+      "sources": [
+        {
+          "title": "Yamaha: YEV104/YEV105 specifications and passive electronics",
+          "url": "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html"
+        },
+        {
+          "title": "Yamaha: SV250/SV255 features and stage outputs",
+          "url": "https://europe.yamaha.com/en/musical-instruments/strings/products/silent-series/sv250-255/features.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha YEV104",
+          "href": "/yamaha-yev104-v-arendu/"
+        },
+        {
+          "label": "Электроскрипка для лупинга",
+          "href": "/elektroskripka-dlya-lupinga/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroskripka-dlya-stsenicheskih-effektov",
+      "parent": "elektroskripka",
+      "search_title": "Электроскрипка для сценических эффектов в аренду",
+      "editorial_title": "Эффекты: скрипичная фраза должна оставаться узнаваемой после обработки",
+      "description": "Электроскрипка для pedalboard: passive output, effects, feedback control and stage monitoring.",
+      "kicker": "ЭФФЕКТЫ · PEDALBOARD · СЦЕНА",
+      "intro": [
+        "<p>Электроскрипка даёт доступ к гитароподобному миру эффектов, но каждый эффект меняет атаку, sustain и место инструмента в ансамбле.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Начинают с чистого сигнала",
+          "paragraphs": [
+            "YEV104 и сценические SV-модели дают разные варианты выхода, но полезно сначала услышать исходный звук."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Добавляйте эффекты по одному на реальной партии",
+          "paragraphs": [
+            "Delay, drive, modulation и reverb должны иметь музыкальную функцию, а не просто заполнять пространство."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать конкретный сценический сет",
+          "paragraphs": [
+            "После проекта сложный тракт может больше не требоваться."
+          ]
+        }
+      ],
+      "quote": "Какие эффекты реально участвуют в партии и что они должны сделать со скрипичной фразой?",
+      "sources": [
+        {
+          "title": "Yamaha: YEV104/YEV105 specifications and passive electronics",
+          "url": "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html"
+        },
+        {
+          "title": "Yamaha: SV250/SV255 features and stage outputs",
+          "url": "https://europe.yamaha.com/en/musical-instruments/strings/products/silent-series/sv250-255/features.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SV250",
+          "href": "/yamaha-sv250-v-arendu/"
+        },
+        {
+          "label": "Электроскрипка для лупинга",
+          "href": "/elektroskripka-dlya-lupinga/"
+        }
+      ]
+    },
+    {
+      "slug": "pyatistrunnaya-elektroskripka-dlya-pervogo-opyta",
+      "parent": "elektroskripka",
+      "search_title": "Пятиструнная электроскрипка для первого опыта в аренду",
+      "editorial_title": "Пятая струна: скрипичная карта получает нижний голос альта",
+      "description": "Первый опыт на пятиструнной электроскрипке: C-string, ширина грифа, смычок и сценическая партия.",
+      "kicker": "5 СТРУН · C-СТРУНА · НОВЫЙ ДИАПАЗОН",
+      "intro": [
+        "<p>Пятая струна добавляет C и расширяет скрипичный диапазон вниз, но одновременно меняет расстояния и работу смычка между струнами.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Новый диапазон должен решать реальную музыкальную задачу",
+          "paragraphs": [
+            "YEV105 и SV255 существуют как пятиструнные варианты, что позволяет проверить расширенную партию без смены семейства инструмента."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте знакомые скрипичные фразы и новые ноты на C",
+          "paragraphs": [
+            "Нужно понять, не мешает ли изменённая геометрия четырём привычным струнам."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда особенно полезна до покупки специализированного инструмента",
+          "paragraphs": [
+            "Несколько репетиций покажут, становится ли пятая струна рабочей или остаётся редким эффектом."
+          ]
+        }
+      ],
+      "quote": "Какие реальные ноты или партии требуют пятой струны?",
+      "sources": [
+        {
+          "title": "Yamaha: YEV104/YEV105 specifications and passive electronics",
+          "url": "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html"
+        },
+        {
+          "title": "Yamaha: SV250/SV255 features and stage outputs",
+          "url": "https://europe.yamaha.com/en/musical-instruments/strings/products/silent-series/sv250-255/features.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha YEV105",
+          "href": "/yamaha-yev105-v-arendu/"
+        },
+        {
+          "label": "Yamaha SV255",
+          "href": "/yamaha-sv255-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "parent": "elektroviolonchel",
+      "search_title": "Электровиолончель для домашних занятий в аренду",
+      "editorial_title": "Домашняя электровиолончель: сохранить точки опоры там, где акустический корпус слишком громок или велик",
+      "description": "Электровиолончель для дома: support points, endpin, headphones/output and daily practice.",
+      "kicker": "ДОМ · ЭЛЕКТРОВИОЛОНЧЕЛЬ · ОПОРЫ",
+      "intro": [
+        "<p>Электровиолончель может уменьшить акустическую громкость и габарит, но полезна только если тело узнаёт основные точки опоры обычной виолончели.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Конструкция должна поддерживать знакомую посадку",
+          "paragraphs": [
+            "SVC50 и SVC110 решают вопрос опоры по-разному, поэтому модель выбирают не только по размеру сложенного корпуса."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте гамму, shifts и длинное legato",
+          "paragraphs": [
+            "Если посадка заставляет иначе держать левую руку или смычок, домашняя практика начинает обучать другой геометрии."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить компактный формат без отказа от акустики",
+          "paragraphs": [
+            "После нескольких недель понятно, подходит ли электрический инструмент именно для регулярной практики."
+          ]
+        }
+      ],
+      "quote": "Что нужно сохранить от акустической виолончели прежде всего: опору корпуса, шпиль, мензуру или смычковую ось?",
+      "sources": [
+        {
+          "title": "Yamaha: SVC50, supports and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc50/specs.html"
+        },
+        {
+          "title": "Yamaha: SVC110, construction and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc110/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SVC50",
+          "href": "/yamaha-svc50-v-arendu/"
+        },
+        {
+          "label": "Yamaha SVC110",
+          "href": "/yamaha-svc110-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroviolonchel-posle-akusticheskoy",
+      "parent": "elektroviolonchel",
+      "search_title": "Электровиолончель после акустической в аренду",
+      "editorial_title": "С акустической виолончели на электрическую: точки опоры остаются, путь звука меняется",
+      "description": "Переход на электровиолончель: support points, output, monitoring, compact body and stage adaptation.",
+      "kicker": "АКУСТИКА → ЭЛЕКТРО · ОПОРЫ · СИГНАЛ",
+      "intro": [
+        "<p>Виолончелист приносит на электрический инструмент готовую левую руку и смычок, но встречает другой корпус и сценическую инфраструктуру.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Переход начинается с физических опор",
+          "paragraphs": [
+            "SVC50 и SVC110 сохраняют виолончельную мензуру, но по-разному моделируют ощущение корпуса."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сначала сыграйте знакомую пьесу без эффектов",
+          "paragraphs": [
+            "Так видно, где меняется посадка и что уже относится только к электрическому тракту."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт время встроить сценическую систему в привычную технику",
+          "paragraphs": [
+            "После нескольких репетиций понятно, нужен ли электрический инструмент постоянно."
+          ]
+        }
+      ],
+      "quote": "Что сложнее всего перенести с акустики: посадку, смычок, мониторинг или ощущение корпуса?",
+      "sources": [
+        {
+          "title": "Yamaha: SVC50, supports and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc50/specs.html"
+        },
+        {
+          "title": "Yamaha: SVC110, construction and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc110/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SVC110",
+          "href": "/yamaha-svc110-v-arendu/"
+        },
+        {
+          "label": "Виолончель",
+          "href": "/violonchel/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroviolonchel-pered-pokupkoy",
+      "parent": "elektroviolonchel",
+      "search_title": "Электровиолончель в аренду перед покупкой",
+      "editorial_title": "Перед покупкой электровиолончели: компактность должна доказать, что не разрушает знакомую постановку",
+      "description": "Аренда электровиолончели перед покупкой: support geometry, outputs, headphones, stage use and practice.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · ЭЛЕКТРОВИОЛОНЧЕЛЬ · КРИТЕРИЙ",
+      "intro": [
+        "<p>Электровиолончель легко выбрать по компактности, но реальный вопрос — насколько её опоры и тракт подходят вашей технике.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют основную функцию",
+          "paragraphs": [
+            "Домашняя тихая практика, сцена, запись и поездки могут требовать разных компромиссов."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте инструмент дома и в реальном тракте",
+          "paragraphs": [
+            "Один и тот же корпус может быть удобен в комнате и неудобен на сцене из-за мониторинга или кабелей."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт критерий до покупки",
+          "paragraphs": [
+            "После нескольких дней понятнее, какая конструкция нужна постоянно."
+          ]
+        }
+      ],
+      "quote": "Что должно победить в выборе: компактность, знакомые опоры, тихая практика или сценический сигнал?",
+      "sources": [
+        {
+          "title": "Yamaha: SVC50, supports and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc50/specs.html"
+        },
+        {
+          "title": "Yamaha: SVC110, construction and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc110/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SVC50",
+          "href": "/yamaha-svc50-v-arendu/"
+        },
+        {
+          "label": "Yamaha SVC110",
+          "href": "/yamaha-svc110-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektroviolonchel-dlya-kontserta",
+      "parent": "elektroviolonchel",
+      "search_title": "Электровиолончель для концерта в аренду",
+      "editorial_title": "Электровиолончель на сцене: опоры тела и мониторинг должны стать одной системой",
+      "description": "Электровиолончель для концерта: line out, monitoring, support geometry, cable path and soundcheck.",
+      "kicker": "КОНЦЕРТ · МОНИТОРИНГ · ЭЛЕКТРОВИОЛОНЧЕЛЬ",
+      "intro": [
+        "<p>На сцене электровиолончель живёт одновременно в теле музыканта и в звуковом тракте. Если одно из двух не собрано, исполнитель начинает менять технику ради того, чтобы себя услышать.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала настраивают посадку и чистый сигнал",
+          "paragraphs": [
+            "SVC110 и SVC50 имеют разные конструкции и подключения, поэтому комплект согласуют до soundcheck."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте тихую атаку и большой динамический участок в мониторинге",
+          "paragraphs": [
+            "Музыкант не должен давить смычком сильнее только потому, что монитор настроен плохо."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда должна включать время на полноценный soundcheck",
+          "paragraphs": [
+            "Получить инструмент прямо перед выходом на сцену недостаточно."
+          ]
+        }
+      ],
+      "quote": "На концерте важнее компактность, прямой выход, свой мониторинг или знакомые точки опоры?",
+      "sources": [
+        {
+          "title": "Yamaha: SVC50, supports and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc50/specs.html"
+        },
+        {
+          "title": "Yamaha: SVC110, construction and connections",
+          "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc110/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Электровиолончель для записи",
+          "href": "/elektroviolonchel-dlya-zapisi/"
+        },
+        {
+          "label": "Yamaha SVC110",
+          "href": "/yamaha-svc110-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "elektricheskiy-kontrabas-dlya-domashnih-zanyatiy",
+      "parent": "elektricheskiy-kontrabas",
+      "search_title": "Электрический контрабас для домашних занятий в аренду",
+      "editorial_title": "Домашний электроконтрабас: сохранить вертикальную игру там, где акустический корпус не помещается",
+      "description": "Электрический контрабас для дома: mensura, supports, headphones/output and regular practice.",
+      "kicker": "ДОМ · ЭЛЕКТРОКОНТРАБАС · МЕНЗУРА",
+      "intro": [
+        "<p>Электрический контрабас может решить проблему пространства, но домашняя практика полезна только при сохранении привычной мензуры и вертикальной постановки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Мензура и точки опоры важнее компактности в сложенном виде",
+          "paragraphs": [
+            "SLB300 сохраняет контрабасовую scale length и вертикальную ориентацию, что делает его кандидатом для такой сцены."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте pizzicato, arco и первую позицию",
+          "paragraphs": [
+            "Инструмент не должен превращать домашнюю практику в новую отдельную технику."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет проверить компактный формат в реальной комнате",
+          "paragraphs": [
+            "После нескольких недель становится ясно, нужен ли электрический дубль постоянно."
+          ]
+        }
+      ],
+      "quote": "Главное ограничение дома — место, громкость или перевозка акустического контрабаса?",
+      "sources": [
+        {
+          "title": "Yamaha: SLB300, scale length, supports and outputs",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SLB300",
+          "href": "/yamaha-slb300-v-arendu/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        }
+      ]
+    },
+    {
+      "slug": "elektricheskiy-kontrabas-posle-akusticheskogo",
+      "parent": "elektricheskiy-kontrabas",
+      "search_title": "Электрический контрабас после акустического в аренду",
+      "editorial_title": "С акустического контрабаса на электрический: мензура остаётся, корпус перестаёт быть источником звука",
+      "description": "Переход на electric upright bass: mensura, supports, pizzicato/arco, output and monitoring.",
+      "kicker": "АКУСТИКА → ЭЛЕКТРО · МЕНЗУРА · СИГНАЛ",
+      "intro": [
+        "<p>Контрабасист приходит на электрический инструмент с готовой вертикальной техникой, но встречает иной способ слышать и ощущать низ.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала сохраняют высоту инструмента и первую позицию",
+          "paragraphs": [
+            "SLB300 построен вокруг контрабасовой мензуры и вертикальных опор, что помогает переносить знакомую карту левой руки."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте одинаковую линию pizzicato и arco",
+          "paragraphs": [
+            "Так видно, где меняется только звук, а где новая конструкция влияет на само движение."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт время освоить мониторинг и сценический тракт",
+          "paragraphs": [
+            "После проекта электрический инструмент не обязан становиться постоянным."
+          ]
+        }
+      ],
+      "quote": "Что нужно сохранить от акустического контрабаса и что именно должен изменить электрический?",
+      "sources": [
+        {
+          "title": "Yamaha: SLB300, scale length, supports and outputs",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SLB300",
+          "href": "/yamaha-slb300-v-arendu/"
+        },
+        {
+          "label": "Контрабас",
+          "href": "/kontrabas/"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskiy-kontrabas-posle-elektricheskogo",
+      "parent": "kontrabas",
+      "search_title": "Акустический контрабас после электрического в аренду",
+      "editorial_title": "Вернуться от electric upright к акустике: большой корпус снова начинает отвечать телом",
+      "description": "Переход с электрического контрабаса на акустический: body resonance, mensura, arco, pizzicato and adaptation.",
+      "kicker": "ЭЛЕКТРО → АКУСТИКА · КОРПУС · РЕЗОНАНС",
+      "intro": [
+        "<p>Музыкант, привыкший к электрическому вертикальному басу, может сохранить мензуру и левую руку, но заново встретиться с большим акустическим корпусом.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Главное новое различие — физический резонанс и габарит",
+          "paragraphs": [
+            "SLB300 показывает, что электрический upright может сохранить scale length без полного акустического корпуса."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Сыграйте одну линию pizzicato и длинное arco на акустическом инструменте",
+          "paragraphs": [
+            "Нужно почувствовать, как корпус меняет обратную связь, sustain и правую руку."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет вернуться к акустике под оркестр или джазовый проект",
+          "paragraphs": [
+            "Не обязательно сразу покупать большой инструмент ради временной программы."
+          ]
+        }
+      ],
+      "quote": "Что после электрического инструмента непривычнее: корпус, акустический отклик или arco?",
+      "sources": [
+        {
+          "title": "Yamaha: SLB300, scale length, supports and outputs",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Контрабас для джаза",
+          "href": "/kontrabas-dlya-dzhaza/"
+        },
+        {
+          "label": "Контрабас для классики",
+          "href": "/kontrabas-dlya-klassiki/"
+        }
+      ]
+    },
+    {
+      "slug": "elektricheskiy-kontrabas-pered-pokupkoy",
+      "parent": "elektricheskiy-kontrabas",
+      "search_title": "Электрический контрабас в аренду перед покупкой",
+      "editorial_title": "Перед покупкой electric upright: компактность должна сохранить контрабасовую карту тела",
+      "description": "Аренда электрического контрабаса перед покупкой: mensura, supports, output, monitoring and transport.",
+      "kicker": "ПЕРЕД ПОКУПКОЙ · ELECTRIC UPRIGHT · КРИТЕРИЙ",
+      "intro": [
+        "<p>Электрический контрабас покупают ради мобильности и управляемого сигнала, но он должен оставаться инструментом, на котором контрабасист узнаёт свою технику.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют функцию: дом, сцена, гастроли или запись",
+          "paragraphs": [
+            "SLB300 сочетает контрабасовую мензуру и линейный выход, что делает его подходящим кандидатом для такой проверки."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "Проверьте инструмент без эффектов и в полном рабочем тракте",
+          "paragraphs": [
+            "Нужно оценить и физический интерфейс, и способ слышать себя."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда создаёт собственный критерий до дорогой покупки",
+          "paragraphs": [
+            "Несколько репетиций показывают, действительно ли компактность расширяет свободу хода."
+          ]
+        }
+      ],
+      "quote": "Электрический контрабас нужен ради транспорта, тишины, выхода в пульт или всего сразу?",
+      "sources": [
+        {
+          "title": "Yamaha: SLB300, scale length, supports and outputs",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SLB300",
+          "href": "/yamaha-slb300-v-arendu/"
+        },
+        {
+          "label": "Электрический контрабас для малой сцены",
+          "href": "/elektricheskiy-kontrabas-dlya-maloy-stseny/"
+        }
+      ]
+    },
+    {
+      "slug": "elektricheskiy-kontrabas-dlya-gastroley",
+      "parent": "elektricheskiy-kontrabas",
+      "search_title": "Электрический контрабас для гастролей в аренду",
+      "editorial_title": "Гастрольный electric upright: сократить логистику, не меняя басовую функцию",
+      "description": "Electric upright bass for touring: scale length, transport, output, monitoring and quick adaptation.",
+      "kicker": "ГАСТРОЛИ · МОБИЛЬНОСТЬ · ВЕРТИКАЛЬНАЯ ИГРА",
+      "intro": [
+        "<p>На гастролях электрический контрабас может уменьшить объём транспортировки и упростить подключение, сохраняя вертикальный способ игры.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют критические свойства домашнего контрабаса",
+          "paragraphs": [
+            "Мензура, высота инструмента, система смычка и рабочий строй важнее внешнего сходства."
+          ]
+        },
+        {
+          "label": "02 / ПРОБА",
+          "title": "До выезда пройдите весь сет через гастрольный тракт",
+          "paragraphs": [
+            "Проверьте DI, мониторинг, pizzicato и arco, если оба используются."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда существует ровно на срок поездки",
+          "paragraphs": [
+            "После тура музыкант возвращается к акустическому инструменту без покупки второго большого актива."
+          ]
+        }
+      ],
+      "quote": "Какие свойства акустического контрабаса нельзя потерять в гастрольном электрическом дубле?",
+      "sources": [
+        {
+          "title": "Yamaha: SLB300, scale length, supports and outputs",
+          "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/specs.html"
+        }
+      ],
+      "links": [
+        {
+          "label": "Yamaha SLB300",
+          "href": "/yamaha-slb300-v-arendu/"
+        },
+        {
+          "label": "Контрабас на гастроли",
+          "href": "/kontrabas-na-gastroli-v-moskve/"
+        }
+      ]
+    }
+  ]
+}
