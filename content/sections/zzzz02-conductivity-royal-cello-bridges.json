@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "royal-dlya-semki": [
+      {
+        "label": "Рояль для студийной записи",
+        "href": "/royal-dlya-zapisi/"
+      },
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "royal-dlya-vokalnogo-kontserta": [
+      {
+        "label": "Рояль для камерного концерта",
+        "href": "/royal-dlya-kamernogo-kontserta/"
+      },
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      }
+    ],
+    "royal-dlya-zapisi": [
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      },
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "steinway-b211-v-arendu": [
+      {
+        "label": "Рояль для камерного концерта",
+        "href": "/royal-dlya-kamernogo-kontserta/"
+      },
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "steinway-d274-v-arendu": [
+      {
+        "label": "Рояль для конкурса",
+        "href": "/royal-dlya-konkursa/"
+      },
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      }
+    ],
+    "yamaha-c3x-v-arendu": [
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      },
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      }
+    ],
+    "yamaha-c7x-v-arendu": [
+      {
+        "label": "Рояль для репетиции",
+        "href": "/royal-dlya-repetitsii/"
+      },
+      {
+        "label": "Рояль для студийной записи",
+        "href": "/royal-dlya-zapisi/"
+      }
+    ],
+    "yamaha-cfx-v-arendu": [
+      {
+        "label": "Рояль для конкурса",
+        "href": "/royal-dlya-konkursa/"
+      },
+      {
+        "label": "Рояль для камерного концерта",
+        "href": "/royal-dlya-kamernogo-kontserta/"
+      }
+    ],
+    "yamaha-gb1k-v-arendu": [
+      {
+        "label": "Рояль для камерного концерта",
+        "href": "/royal-dlya-kamernogo-kontserta/"
+      },
+      {
+        "label": "Сравнить пианино и рояль",
+        "href": "/pianino-dlya-sravneniya-s-royalem/"
+      }
+    ],
+    "cheshskaya-violonchel": [
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      },
+      {
+        "label": "Виолончель для камерного ансамбля",
+        "href": "/violonchel-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "eastman-vc100-v-arendu": [
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Виолончель ребёнку для занятий дома",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      }
+    ],
+    "frantsuzskaya-violonchel": [
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      },
+      {
+        "label": "Виолончель для камерного ансамбля",
+        "href": "/violonchel-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "gewa-allegro-violonchel-v-arendu": [
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Виолончель ребёнку для занятий дома",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      }
+    ],
+    "goronok-kadentsiya-violonchel-v-arendu": [
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "goronok-nova-violonchel-v-arendu": [
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Виолончель ребёнку для занятий дома",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      }
+    ],
+    "hidersine-vivente-violonchel-v-arendu": [
+      {
+        "label": "Смена размера виолончели",
+        "href": "/violonchel-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Виолончель ребёнку для занятий дома",
+        "href": "/violonchel-dlya-domashnih-zanyatiy-rebenku/"
+      }
+    ]
+  }
+}
