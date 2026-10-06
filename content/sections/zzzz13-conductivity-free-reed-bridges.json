@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "hohner-gola-v-arendu": [
+      {
+        "label": "Аккордеон перед покупкой",
+        "href": "/akkordeon-pered-pokupkoy/"
+      },
+      {
+        "label": "Аккордеон в камерном ансамбле",
+        "href": "/akkordeon-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "pigini-super-bayan-sirius-v-arendu": [
+      {
+        "label": "Баян перед покупкой",
+        "href": "/bayan-pered-pokupkoy/"
+      },
+      {
+        "label": "Баян в камерном ансамбле",
+        "href": "/bayan-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "pigini-sirius-kyma-v-arendu": [
+      {
+        "label": "Баян перед покупкой",
+        "href": "/bayan-pered-pokupkoy/"
+      },
+      {
+        "label": "Работа над мехом",
+        "href": "/bayan-dlya-raboty-nad-mehom/"
+      }
+    ],
+    "weltmeister-perle-v-arendu": [
+      {
+        "label": "48 басов для первого этапа",
+        "href": "/akkordeon-48-basov-dlya-pervogo-etapa/"
+      },
+      {
+        "label": "Переход на следующий размер",
+        "href": "/akkordeon-dlya-smeny-razmera/"
+      }
+    ],
+    "weltmeister-rubin-v-arendu": [
+      {
+        "label": "60 басов как переходная ступень",
+        "href": "/akkordeon-60-basov-dlya-perehoda/"
+      },
+      {
+        "label": "Переход на следующий размер",
+        "href": "/akkordeon-dlya-smeny-razmera/"
+      }
+    ],
+    "hohner-bravo-iii-72-v-arendu": [
+      {
+        "label": "72 баса для продолжения обучения",
+        "href": "/akkordeon-72-basa-dlya-prodolzheniya-obucheniya/"
+      },
+      {
+        "label": "Перед переходом на 120 басов",
+        "href": "/akkordeon-72-basov-pered-perehodom-na-120/"
+      }
+    ],
+    "weltmeister-achat-34-72-v-arendu": [
+      {
+        "label": "72 баса для продолжения обучения",
+        "href": "/akkordeon-72-basa-dlya-prodolzheniya-obucheniya/"
+      },
+      {
+        "label": "Домашние занятия",
+        "href": "/akkordeon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "akkordeon-72-basa-dlya-prodolzheniya-obucheniya": [
+      {
+        "label": "Hohner Bravo III 72",
+        "href": "/hohner-bravo-iii-72-v-arendu/"
+      },
+      {
+        "label": "Переход на следующий размер",
+        "href": "/akkordeon-dlya-smeny-razmera/"
+      }
+    ],
+    "hohner-bravo-i-49f-v-arendu": [
+      {
+        "label": "Выборный бас для обучения",
+        "href": "/akkordeon-s-vybornym-basom-dlya-obucheniya/"
+      },
+      {
+        "label": "Free-bass перед покупкой",
+        "href": "/akkordeon-s-vybornym-basom-pered-pokupkoy/"
+      }
+    ],
+    "akkordeon-s-vybornym-basom-dlya-obucheniya": [
+      {
+        "label": "Hohner Bravo I 49 F",
+        "href": "/hohner-bravo-i-49f-v-arendu/"
+      },
+      {
+        "label": "Переход баяниста на выборный бас",
+        "href": "/bayan-dlya-perehoda-na-vybornyy-bas/"
+      }
+    ],
+    "hohner-special20-c-v-arendu": [
+      {
+        "label": "Гармоника в C для обучения",
+        "href": "/gubnaya-garmonika-v-do-mazhore-dlya-obucheniya/"
+      },
+      {
+        "label": "Работа над bending",
+        "href": "/diatonicheskaya-garmonika-dlya-bendinga/"
+      }
+    ],
+    "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya": [
+      {
+        "label": "Hohner Special 20 C",
+        "href": "/hohner-special20-c-v-arendu/"
+      },
+      {
+        "label": "Гармоника взрослому начинающему",
+        "href": "/gubnaya-garmonika-vzroslomu-nachinayuschemu/"
+      }
+    ],
+    "gubnaya-garmonika-s-legkim-otklikom": [
+      {
+        "label": "Hohner Special 20 C",
+        "href": "/hohner-special20-c-v-arendu/"
+      },
+      {
+        "label": "Работа над bending",
+        "href": "/diatonicheskaya-garmonika-dlya-bendinga/"
+      }
+    ],
+    "yamaha-p32d-v-arendu": [
+      {
+        "label": "32 клавиши для школы",
+        "href": "/melodika-32-klavishi-dlya-shkoly/"
+      },
+      {
+        "label": "Домашние занятия на мелодике",
+        "href": "/melodika-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "suzuki-m32c-v-arendu": [
+      {
+        "label": "32 клавиши для школы",
+        "href": "/melodika-32-klavishi-dlya-shkoly/"
+      },
+      {
+        "label": "Мелодика перед покупкой",
+        "href": "/melodika-pered-pokupkoy/"
+      }
+    ],
+    "melodika-32-klavishi-dlya-shkoly": [
+      {
+        "label": "Yamaha P-32D",
+        "href": "/yamaha-p32d-v-arendu/"
+      },
+      {
+        "label": "Suzuki M-32C",
+        "href": "/suzuki-m32c-v-arendu/"
+      }
+    ]
+  }
+}
