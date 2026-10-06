@@ -1,0 +1,432 @@
+{
+  "navigation": {
+    "balalayka-dlya-orkestra": [
+      {
+        "label": "Согласовать недостающие голоса оркестра",
+        "href": "/instrumenty-dlya-russkogo-narodnogo-orkestra/"
+      }
+    ],
+    "balalayka-po-razmeru-rebenka": [
+      {
+        "label": "БалалайкерЪ Юниор",
+        "href": "/balalayker-junior-v-arendu/"
+      },
+      {
+        "label": "БалалайкерЪ Студент Оптимум",
+        "href": "/balalayker-student-optimum-v-arendu/"
+      }
+    ],
+    "bandzho-dlya-odnoy-kompozitsii": [
+      {
+        "label": "Если банджо осваивается впервые",
+        "href": "/bandzho-vzroslomu-nachinayuschemu/"
+      }
+    ],
+    "domra-dlya-uchenika": [
+      {
+        "label": "Примерить домру по движениям ребёнка",
+        "href": "/domra-po-razmeru-rebenka/"
+      },
+      {
+        "label": "Продолжить урок дома",
+        "href": "/domra-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "domra-po-razmeru-rebenka": [
+      {
+        "label": "Домра-юниор Doff",
+        "href": "/doff-domra-junior-v-arendu/"
+      },
+      {
+        "label": "Сравнить размеры с преподавателем",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ],
+    "mandola": [
+      {
+        "label": "Найти место мандолы в составе",
+        "href": "/instrumenty-dlya-mandolinnogo-ansamblya/"
+      }
+    ],
+    "mandolina-dlya-kamernogo-ansamblya": [
+      {
+        "label": "Сохранить линию в тихом тремоло",
+        "href": "/mandolina-dlya-raboty-nad-tremolo/"
+      }
+    ],
+    "mandolina-dlya-orkestra": [
+      {
+        "label": "Проверить непрерывность тремоло",
+        "href": "/mandolina-dlya-raboty-nad-tremolo/"
+      },
+      {
+        "label": "Если партия теряется в оркестре",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "mandolina-dlya-studii": [
+      {
+        "label": "Если микрофон слышит лишнее",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Если нужна протяжённая мелодия",
+        "href": "/mandolina-dlya-zapisi-tremolo/"
+      }
+    ],
+    "mandolina-dlya-zapisi-tremolo": [
+      {
+        "label": "Если тремоло распадается",
+        "href": "/mandolina-dlya-raboty-nad-tremolo/"
+      },
+      {
+        "label": "Подготовить инструмент к микрофону",
+        "href": "/mandolina-dlya-studii/"
+      }
+    ],
+    "mandolina-na-vremya-remonta": [
+      {
+        "label": "Если впереди камерная репетиция",
+        "href": "/mandolina-dlya-kamernogo-ansamblya/"
+      },
+      {
+        "label": "Если ремонт совпал с записью",
+        "href": "/mandolina-dlya-studii/"
+      }
+    ],
+    "teorba-dlya-kontserta": [
+      {
+        "label": "Согласовать высотный строй",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      },
+      {
+        "label": "Теорба в партии continuo",
+        "href": "/teorba-dlya-continuo/"
+      }
+    ],
+    "teorba-dlya-studii": [
+      {
+        "label": "Если басовые струны звучат слишком долго",
+        "href": "/instrument-esli-slishkom-dolgiy-sustain/"
+      },
+      {
+        "label": "Собрать исторический ансамбль для записи",
+        "href": "/barochnye-instrumenty-dlya-studiynoy-zapisi/"
+      }
+    ],
+    "ud-dlya-kamernogo-ansamblya": [
+      {
+        "label": "Проверить повторяемость интонации",
+        "href": "/ud-dlya-raboty-nad-intonatsiey/"
+      },
+      {
+        "label": "Если щипок теряется среди партнёров",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "ud-dlya-kontserta": [
+      {
+        "label": "Проверить линию с партнёрами",
+        "href": "/ud-dlya-kamernogo-ansamblya/"
+      },
+      {
+        "label": "Если на сцене не слышно себя",
+        "href": "/instrument-esli-ne-hvataet-monitoringa/"
+      }
+    ],
+    "ud-dlya-pervogo-osvoeniya": [
+      {
+        "label": "Подготовить первый урок",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      },
+      {
+        "label": "Закрепить первые занятия дома",
+        "href": "/ud-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "ud-dlya-studiynoy-zapisi": [
+      {
+        "label": "Проверить интонацию в нескольких дублях",
+        "href": "/ud-dlya-raboty-nad-intonatsiey/"
+      },
+      {
+        "label": "Если в пробной записи слышны призвуки",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      }
+    ],
+    "ukulele-dlya-rebenka": [
+      {
+        "label": "Сравнить размеры на одной песне",
+        "href": "/ukulele-dlya-sravneniya-razmerov/"
+      },
+      {
+        "label": "Продолжить занятия дома",
+        "href": "/ukulele-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "ukulele-dlya-shkoly": [
+      {
+        "label": "Подготовить комплект к выступлению",
+        "href": "/ukulele-dlya-shkolnogo-ansamblya/"
+      },
+      {
+        "label": "Проверить размер на учениках",
+        "href": "/ukulele-dlya-sravneniya-razmerov/"
+      }
+    ],
+    "ukulele-dlya-zapisi": [
+      {
+        "label": "Проверить строй рабочих аккордов",
+        "href": "/ukulele-so-stroyaschimi-ladami/"
+      },
+      {
+        "label": "Если микрофон слышит лишнее",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Если записываете электрический выход",
+        "href": "/instrument-esli-nuzhen-chistyy-di-signal/"
+      }
+    ],
+    "ukulele-koncert": [
+      {
+        "label": "Сравнить размеры на знакомых аккордах",
+        "href": "/ukulele-dlya-sravneniya-razmerov/"
+      },
+      {
+        "label": "Если нужен выход в пульт",
+        "href": "/instrument-esli-nuzhno-podklyuchit-v-pult/"
+      }
+    ],
+    "ukulele-na-svadbu": [
+      {
+        "label": "Пройти песню вместе с голосом",
+        "href": "/ukulele-dlya-vokalista/"
+      },
+      {
+        "label": "Если используете звукосниматель",
+        "href": "/instrument-esli-nuzhno-podklyuchit-v-pult/"
+      }
+    ],
+    "ukulele-so-stabilnymi-kolkami": [
+      {
+        "label": "Если аккорд не строит при точных струнах",
+        "href": "/ukulele-so-stroyaschimi-ladami/"
+      },
+      {
+        "label": "Kala KA-15S",
+        "href": "/kala-ka15s-v-arendu/"
+      },
+      {
+        "label": "Makala Dolphin",
+        "href": "/makala-dolphin-v-arendu/"
+      }
+    ],
+    "ukulele-soprano": [
+      {
+        "label": "Если пальцам тесно на сопрано",
+        "href": "/ukulele-koncert/"
+      },
+      {
+        "label": "Проверить полный домашний сеанс",
+        "href": "/ukulele-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "ukulele-tenor": [
+      {
+        "label": "Сравнить тенор с нынешним размером",
+        "href": "/ukulele-dlya-sravneniya-razmerov/"
+      }
+    ],
+    "barochnaya-skripka-dlya-ansamblya": [
+      {
+        "label": "Уточнить общий высотный строй",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      },
+      {
+        "label": "Закрепить конфигурацию дома",
+        "href": "/barochnaya-skripka-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "barochnaya-skripka-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Проверить домашнюю работу в ансамбле",
+        "href": "/barochnaya-skripka-dlya-ansamblya/"
+      }
+    ],
+    "barochnaya-violonchel-dlya-basso-continuo": [
+      {
+        "label": "Распределить бас и гармоническую опору",
+        "href": "/barochnye-instrumenty-dlya-basso-continuo/"
+      },
+      {
+        "label": "Согласовать высоту и темперацию",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      }
+    ],
+    "barochnaya-violonchel-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Проверить басовую линию с партнёрами",
+        "href": "/barochnaya-violonchel-dlya-basso-continuo/"
+      }
+    ],
+    "barochnye-instrumenty-dlya-studiynoy-zapisi": [
+      {
+        "label": "Согласовать конфигурации всего состава",
+        "href": "/instrumenty-dlya-barochnogo-ansamblya/"
+      },
+      {
+        "label": "Различить атаку и побочные звуки",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      }
+    ],
+    "istoricheskie-duhovye-dlya-pervogo-proekta": [
+      {
+        "label": "После современной флейты",
+        "href": "/traverso-posle-sovremennoy-fleyty/"
+      },
+      {
+        "label": "После современного тромбона",
+        "href": "/sakbut-posle-sovremennogo-trombona/"
+      },
+      {
+        "label": "После клапанной трубы",
+        "href": "/naturalnaya-truba-posle-sovremennoy-truby/"
+      }
+    ],
+    "istoricheskie-instrumenty-dlya-istoricheskoy-semki": [
+      {
+        "label": "Если в кадре нужен живой звук",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      }
+    ],
+    "istoricheskie-instrumenty-dlya-master-klassa": [
+      {
+        "label": "Первые опыты на исторических струнных",
+        "href": "/istoricheskie-strunnye-dlya-pervogo-proekta/"
+      },
+      {
+        "label": "Первые опыты на исторических духовых",
+        "href": "/istoricheskie-duhovye-dlya-pervogo-proekta/"
+      }
+    ],
+    "istoricheskie-strunnye-dlya-pervogo-proekta": [
+      {
+        "label": "Первый опыт на барочной скрипке",
+        "href": "/barochnaya-skripka-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Первое знакомство с гамбой",
+        "href": "/viola-da-gamba-dlya-pervogo-osvoeniya/"
+      },
+      {
+        "label": "Первое знакомство с ребеком",
+        "href": "/rebek-dlya-pervogo-opyta/"
+      }
+    ],
+    "istoricheskiy-instrument-s-nuzhnym-stroem": [
+      {
+        "label": "Если нужно настроить клавесин ансамбля",
+        "href": "/klavesin-dlya-basso-continuo/"
+      },
+      {
+        "label": "Согласовать барочный комплект целиком",
+        "href": "/instrumenty-dlya-barochnogo-ansamblya/"
+      }
+    ],
+    "naturalnaya-truba-pered-pokupkoy": [
+      {
+        "label": "Сверить комплект со строем ансамбля",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      }
+    ],
+    "sakbut-pered-pokupkoy": [
+      {
+        "label": "Если переходите с современного тромбона",
+        "href": "/sakbut-posle-sovremennogo-trombona/"
+      },
+      {
+        "label": "Проверить голос в ренессансном составе",
+        "href": "/renessansnye-muzykalnye-instrumenty/"
+      }
+    ],
+    "shalmei-pered-pokupkoy": [
+      {
+        "label": "Проверить шалмей в полном составе",
+        "href": "/shalmei-dlya-rannego-ansamblya/"
+      },
+      {
+        "label": "Согласовать строй реконструкции",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      }
+    ],
+    "traverso-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Проверить траверсо вместе с партнёрами",
+        "href": "/traverso-dlya-kamernoy-programmy/"
+      }
+    ],
+    "traverso-dlya-kamernoy-programmy": [
+      {
+        "label": "Сверить высотный стандарт",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      },
+      {
+        "label": "Закрепить аппликатуру до репетиции",
+        "href": "/traverso-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "tsink-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Соединить устойчивую атаку и пальцы",
+        "href": "/tsink-dlya-pervogo-opyta/"
+      }
+    ],
+    "tsink-pered-pokupkoy": [
+      {
+        "label": "Дать время регулярной интонационной работе",
+        "href": "/tsink-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Ренессансный состав и полифония",
+        "href": "/renessansnye-muzykalnye-instrumenty/"
+      }
+    ],
+    "viola-da-gamba-dlya-konsorta": [
+      {
+        "label": "Освоить нужный голос между репетициями",
+        "href": "/viola-da-gamba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "viola-da-gamba-dlya-kontserta": [
+      {
+        "label": "Согласовать строй с партнёрами",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      },
+      {
+        "label": "Привыкнуть к комплекту до концерта",
+        "href": "/viola-da-gamba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "viola-da-gamba-dlya-pervogo-osvoeniya": [
+      {
+        "label": "Если переходите с виолончели",
+        "href": "/viola-da-gamba-posle-violoncheli/"
+      },
+      {
+        "label": "Закрепить первые занятия дома",
+        "href": "/viola-da-gamba-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "viola-da-gamba-dlya-studii": [
+      {
+        "label": "Подтвердить строй до сессии",
+        "href": "/istoricheskiy-instrument-s-nuzhnym-stroem/"
+      },
+      {
+        "label": "Если микрофон слышит побочный след",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      }
+    ]
+  }
+}

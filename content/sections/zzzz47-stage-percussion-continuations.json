@@ -1,0 +1,368 @@
+{
+  "navigation": {
+    "barabannaya-ustanovka-dlya-repetitsii": [
+      {
+        "label": "Проверить посадку на длинной репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      },
+      {
+        "label": "Если бас и барабаны плохо слышат друг друга",
+        "href": "/backline-dlya-ritm-sektsii/"
+      }
+    ],
+    "barabannaya-ustanovka-dlya-studii": [
+      {
+        "label": "Выбрать тарелки по их месту в записи",
+        "href": "/tarelki-dlya-studiynoy-zapisi/"
+      },
+      {
+        "label": "Если в дубле слышны скрипы механики",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      }
+    ],
+    "barabannaya-ustanovka-na-vremya-remonta": [
+      {
+        "label": "Проверить временную установку на полной репетиции",
+        "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/"
+      },
+      {
+        "label": "Если заменить нужно только малый барабан",
+        "href": "/malyy-baraban-na-vremya-remonta/"
+      }
+    ],
+    "barabany-s-upravlyaemym-otskokom": [
+      {
+        "label": "Если отскок мешает контролировать следующий удар",
+        "href": "/instrument-esli-otskok-slishkom-vysokiy/"
+      },
+      {
+        "label": "Если палочку приходится поднимать рукой",
+        "href": "/instrument-esli-otskok-slishkom-myagkiy/"
+      },
+      {
+        "label": "Сравнить акустическую и электронную установку на одном груве",
+        "href": "/elektronnye-barabany-dlya-sravneniya-s-akusticheskoy/"
+      }
+    ],
+    "handpan-dlya-kontserta": [
+      {
+        "label": "Проверить резонанс и микрофон в пробной записи",
+        "href": "/handpan-dlya-zapisi-improvizatsii/"
+      }
+    ],
+    "handpan-dlya-studii": [
+      {
+        "label": "Записать пробный фрагмент с нужными интервалами",
+        "href": "/handpan-dlya-zapisi-improvizatsii/"
+      }
+    ],
+    "handpan-pered-pokupkoy": [
+      {
+        "label": "Начать с набора нот и простого музыкального опыта",
+        "href": "/handpan-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Сравнить впечатление с записью своей импровизации",
+        "href": "/handpan-dlya-zapisi-improvizatsii/"
+      }
+    ],
+    "kovbell": [
+      {
+        "label": "Если ковбелл входит в набор одного перкуссиониста",
+        "href": "/perkussiya-dlya-odnogo-ispolnitelya/"
+      }
+    ],
+    "krotali": [
+      {
+        "label": "Разместить кротали среди других инструментов партии",
+        "href": "/perkussiya-dlya-odnogo-ispolnitelya/"
+      },
+      {
+        "label": "Если партия кроталей готовится к оркестровой записи",
+        "href": "/perkussiya-dlya-orkestra-na-zapisi/"
+      }
+    ],
+    "orkestrovyy-buben": [
+      {
+        "label": "Подготовить смены бубна и других инструментов",
+        "href": "/perkussiya-dlya-odnogo-ispolnitelya/"
+      }
+    ],
+    "perkussiya-dlya-orkestra-na-zapisi": [
+      {
+        "label": "Разложить инструменты по движениям исполнителя",
+        "href": "/perkussiya-dlya-odnogo-ispolnitelya/"
+      },
+      {
+        "label": "Если микрофон слышит лишние движения и шумы",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      }
+    ],
+    "perkussiya-dlya-studii": [
+      {
+        "label": "Если весь набор играет один перкуссионист",
+        "href": "/perkussiya-dlya-odnogo-ispolnitelya/"
+      },
+      {
+        "label": "Если в записи слышны лишние прикосновения",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      }
+    ],
+    "podvesnaya-tarelka": [
+      {
+        "label": "Если в партии нужен удар двух тарелок",
+        "href": "/orkestrovye-parnye-tarelki/"
+      },
+      {
+        "label": "Если нужно проверить хвост тарелки в оркестровой записи",
+        "href": "/perkussiya-dlya-orkestra-na-zapisi/"
+      }
+    ],
+    "tsimbaly": [
+      {
+        "label": "Если в партии не хватает крайних нот диапазона",
+        "href": "/instrument-esli-ne-hvataet-diapazona/"
+      },
+      {
+        "label": "Если цимбалы указаны в техническом райдере",
+        "href": "/redkiy-instrument-dlya-tehnicheskogo-raydera/"
+      }
+    ],
+    "udu": [
+      {
+        "label": "Если уду нужен как отдельный голос в записи",
+        "href": "/perkussiya-dlya-studii/"
+      },
+      {
+        "label": "Если уду должен сочетаться с голосом или гитарой",
+        "href": "/perkussiya-dlya-akusticheskogo-kontserta/"
+      }
+    ],
+    "backline-dlya-odnodnevnoy-arendy": [
+      {
+        "label": "Проверить сценическую цепь до приезда музыканта",
+        "href": "/backline-dlya-soundcheck-do-priezda-artista/"
+      },
+      {
+        "label": "Если заявленная модель требует согласованной замены",
+        "href": "/funktsionalnaya-zamena-backline-po-rayderu/"
+      }
+    ],
+    "backline-dlya-pervogo-kontserta": [
+      {
+        "label": "Подготовить техническую проверку до выхода группы",
+        "href": "/backline-dlya-soundcheck-do-priezda-artista/"
+      },
+      {
+        "label": "Если бас и барабаны не собираются в общий пульс",
+        "href": "/backline-dlya-ritm-sektsii/"
+      }
+    ],
+    "backline-dlya-rezervnogo-komplekta": [
+      {
+        "label": "Уточнить, какие функции обязан сохранить резерв",
+        "href": "/funktsionalnaya-zamena-backline-po-rayderu/"
+      }
+    ],
+    "backline-po-rayderu-dlya-gruppy": [
+      {
+        "label": "Если нужно уточнить гитарную часть райдера",
+        "href": "/gitarnyy-backline-po-rayderu/"
+      },
+      {
+        "label": "Если нужно уточнить басовую часть райдера",
+        "href": "/basovyy-backline-po-rayderu/"
+      },
+      {
+        "label": "Если нужно уточнить комплект ударных",
+        "href": "/barabany-dlya-gastrolnogo-raydera/"
+      }
+    ],
+    "basovyy-backline-po-rayderu": [
+      {
+        "label": "Определить место DI в басовой цепи",
+        "href": "/di-boks-dlya-bas-gitary/"
+      },
+      {
+        "label": "Если басовый комплект нужно заменить по функциям",
+        "href": "/funktsionalnaya-zamena-backline-po-rayderu/"
+      }
+    ],
+    "di-boks-pered-pokupkoy": [
+      {
+        "label": "Если DI нужен для бас-гитары",
+        "href": "/di-boks-dlya-bas-gitary/"
+      },
+      {
+        "label": "Если DI нужен для подключённой акустической гитары",
+        "href": "/di-boks-dlya-akusticheskoy-gitary/"
+      },
+      {
+        "label": "Если к пульту подключаются клавишные",
+        "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/"
+      }
+    ],
+    "gitarnyy-backline-po-rayderu": [
+      {
+        "label": "Согласовать замену с сохранением нужных функций",
+        "href": "/funktsionalnaya-zamena-backline-po-rayderu/"
+      }
+    ],
+    "gitarnyy-kabinet-1x12-dlya-pervogo-opyta": [
+      {
+        "label": "Если нужно сравнить формат 2×12",
+        "href": "/gitarnyy-kabinet-2x12-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Проверить кабинет на своих репетициях перед выбором",
+        "href": "/gitarnyy-kabinet-pered-pokupkoy/"
+      }
+    ],
+    "gitarnyy-kabinet-2x12-dlya-pervogo-opyta": [
+      {
+        "label": "Если хочется проверить более компактный 1×12",
+        "href": "/gitarnyy-kabinet-1x12-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Если задача требует сравнения с 4×12",
+        "href": "/gitarnyy-kabinet-4x12-dlya-pervogo-opyta/"
+      }
+    ],
+    "gitarnyy-usilitel-dlya-pervogo-kontserta": [
+      {
+        "label": "Если первое выступление проходит на малой сцене",
+        "href": "/gitarnyy-usilitel-dlya-maloy-stseny/"
+      },
+      {
+        "label": "Проверить концертный звук на репетиции всей группы",
+        "href": "/gitarnyy-usilitel-dlya-repetitsii/"
+      }
+    ],
+    "gitarnyy-usilitel-dlya-studii": [
+      {
+        "label": "Если в треке нужен чистый звук",
+        "href": "/gitarnyy-usilitel-dlya-klina/"
+      },
+      {
+        "label": "Если партия строится на кранче",
+        "href": "/gitarnyy-usilitel-dlya-krancha/"
+      },
+      {
+        "label": "Если нужен плотный перегруз с читаемой атакой",
+        "href": "/gitarnyy-usilitel-dlya-high-gain/"
+      }
+    ],
+    "gitarnyy-usilitel-pered-pokupkoy": [
+      {
+        "label": "Если усилитель выбирается для занятий дома",
+        "href": "/usilitel-dlya-domashnih-uchebnyh-zanyatiy/"
+      },
+      {
+        "label": "Если усилитель нужен для репетиций с группой",
+        "href": "/gitarnyy-usilitel-dlya-repetitsii/"
+      },
+      {
+        "label": "Если главный сценарий — студийная запись",
+        "href": "/gitarnyy-usilitel-dlya-studii/"
+      }
+    ],
+    "usilitel-dlya-domashnih-uchebnyh-zanyatiy": [
+      {
+        "label": "Если занятия должны проходить в наушниках",
+        "href": "/instrument-esli-nuzhno-igrat-v-naushnikah/"
+      },
+      {
+        "label": "Если для электрогитары важен чистый отклик",
+        "href": "/gitarnyy-usilitel-dlya-klina/"
+      }
+    ],
+    "eksperimentalnyy-akusticheskiy-instrument-pered-pokupkoy": [
+      {
+        "label": "Разобраться с жестом и акустическим механизмом",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Если инструмент нужен прежде всего для записи",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-dlya-zapisi/"
+      },
+      {
+        "label": "Если важен видимый жест в перформансе",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-dlya-performansa/"
+      }
+    ],
+    "gibridnyy-instrument-dlya-kontserta": [
+      {
+        "label": "Если электронные звуки добавляются к ударной партии",
+        "href": "/elektronnaya-perkussiya/"
+      },
+      {
+        "label": "Если отказ электронного устройства может остановить номер",
+        "href": "/backline-dlya-rezervnogo-komplekta/"
+      }
+    ],
+    "gibridnyy-instrument-dlya-pervogo-opyta": [
+      {
+        "label": "Если гибридную систему нужно вынести на сцену",
+        "href": "/gibridnyy-instrument-dlya-kontserta/"
+      },
+      {
+        "label": "Если нужно записать акустический и электронный слои",
+        "href": "/gibridnyy-instrument-dlya-zapisi/"
+      }
+    ],
+    "gibridnyy-instrument-dlya-zapisi": [
+      {
+        "label": "Если электронную ударную партию нужно сохранить как MIDI",
+        "href": "/elektronnye-barabany-dlya-zapisi-midi/"
+      },
+      {
+        "label": "Если нужен готовый звук барабанного модуля",
+        "href": "/elektronnye-barabany-dlya-zapisi-audio/"
+      },
+      {
+        "label": "Если важно отдельно услышать необычный акустический механизм",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-dlya-zapisi/"
+      }
+    ],
+    "instrument-dlya-odnogo-spetsialnogo-proekta": [
+      {
+        "label": "Если нужен необычный акустический жест",
+        "href": "/eksperimentalnyy-akusticheskiy-instrument-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Если инструмент должен соответствовать исторической съёмке",
+        "href": "/istoricheskie-instrumenty-dlya-istoricheskoy-semki/"
+      },
+      {
+        "label": "Если акустический жест должен добавлять электронный звук",
+        "href": "/gibridnyy-instrument-dlya-pervogo-opyta/"
+      }
+    ],
+    "redkiy-instrument-dlya-tehnicheskogo-raydera": [
+      {
+        "label": "Если редкую позицию нужно заменить с согласия артиста",
+        "href": "/funktsionalnaya-zamena-backline-po-rayderu/"
+      }
+    ],
+    "elektronnye-barabany-dlya-obucheniya-rebenka": [
+      {
+        "label": "Проверить отскок на упражнениях с урока",
+        "href": "/barabany-s-upravlyaemym-otskokom/"
+      },
+      {
+        "label": "Проверить место, удары и вибрацию дома",
+        "href": "/elektronnye-barabany-dlya-kvartiry/"
+      }
+    ],
+    "elektronnyy-duhovoy-dlya-doma": [
+      {
+        "label": "Проверить музыкальную обратную связь в наушниках",
+        "href": "/instrument-esli-nuzhno-igrat-v-naushnikah/"
+      },
+      {
+        "label": "Пример для пробы: Roland Aerophone AE-20",
+        "href": "/roland-aerophone-ae20-v-arendu/"
+      }
+    ]
+  }
+}

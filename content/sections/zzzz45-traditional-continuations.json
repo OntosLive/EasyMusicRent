@@ -1,0 +1,276 @@
+{
+  "navigation": {
+    "balafon": [
+      {
+        "label": "Уточнить вариант и звукоряд",
+        "href": "/podbor-traditsionnogo-muzykalnogo-instrumenta/"
+      }
+    ],
+    "bansuri-dlya-ansamblya": [
+      {
+        "label": "Если нужен другой строй",
+        "href": "/instrument-esli-nuzhen-drugoy-stroy/"
+      },
+      {
+        "label": "Если флейта теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "dizi": [
+      {
+        "label": "Если партия требует другого строя",
+        "href": "/instrument-esli-nuzhen-drugoy-stroy/"
+      }
+    ],
+    "duduk-dlya-saundtreka": [
+      {
+        "label": "Собрать живой состав саундтрека",
+        "href": "/instrumenty-dlya-saundtreka-kamernogo-sostava/"
+      },
+      {
+        "label": "Если не хватает дыхания на фразу",
+        "href": "/instrument-esli-ne-hvataet-dyhaniya/"
+      }
+    ],
+    "dutar": [
+      {
+        "label": "Уточнить региональный вариант",
+        "href": "/podbor-traditsionnogo-muzykalnogo-instrumenta/"
+      },
+      {
+        "label": "Если аккомпанемент закрывает голос",
+        "href": "/instrument-esli-perekryvaet-golos/"
+      }
+    ],
+    "erhu-dlya-kontserta": [
+      {
+        "label": "Если партия теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      },
+      {
+        "label": "Если на сцене не слышно себя",
+        "href": "/instrument-esli-ne-hvataet-monitoringa/"
+      }
+    ],
+    "erhu-dlya-studii": [
+      {
+        "label": "Если микрофон слышит лишний шум",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Если партия пока в MIDI-эскизе",
+        "href": "/erhu-dlya-studiynoy-partii/"
+      }
+    ],
+    "erhu-dlya-studiynoy-partii": [
+      {
+        "label": "Проверить эрху под микрофоном",
+        "href": "/erhu-dlya-studii/"
+      }
+    ],
+    "guzhen-dlya-kontserta": [
+      {
+        "label": "Если неудобна посадка",
+        "href": "/instrument-esli-neudobno-igrat-sidya/"
+      }
+    ],
+    "guzhen-dlya-obucheniya": [
+      {
+        "label": "Подготовить гучжэн для дома",
+        "href": "/guzhen-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Проверить перед покупкой",
+        "href": "/guzhen-pered-pokupkoy/"
+      }
+    ],
+    "guzhen-dlya-studii": [
+      {
+        "label": "Если затухание мешает следующей фразе",
+        "href": "/instrument-esli-slishkom-dolgiy-sustain/"
+      }
+    ],
+    "indiyskiy-ansambl": [
+      {
+        "label": "Если мелодию ведёт ситар",
+        "href": "/sitar/"
+      },
+      {
+        "label": "Если ритмическая партия у табла",
+        "href": "/tabla-dlya-ansamblevogo-proekta/"
+      },
+      {
+        "label": "Если нужна живая танпура",
+        "href": "/tanpura/"
+      }
+    ],
+    "kayagym": [
+      {
+        "label": "Уточнить разновидность каягыма",
+        "href": "/podbor-traditsionnogo-muzykalnogo-instrumenta/"
+      }
+    ],
+    "kemancha": [
+      {
+        "label": "Уточнить исполнительский вариант",
+        "href": "/podbor-traditsionnogo-muzykalnogo-instrumenta/"
+      },
+      {
+        "label": "Если ансамбль играет в кадре",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      }
+    ],
+    "koto-dlya-kamernogo-ansamblya": [
+      {
+        "label": "Подготовить кото к сцене",
+        "href": "/koto-dlya-kontserta/"
+      },
+      {
+        "label": "Если кото теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "koto-dlya-kontserta": [
+      {
+        "label": "Согласовать кото с ансамблем",
+        "href": "/koto-dlya-kamernogo-ansamblya/"
+      },
+      {
+        "label": "Если концерт в другом городе",
+        "href": "/koto-na-gastroli/"
+      }
+    ],
+    "koto-dlya-zapisi": [
+      {
+        "label": "Если затухание перекрывает ноты",
+        "href": "/instrument-esli-slishkom-dolgiy-sustain/"
+      },
+      {
+        "label": "Если ансамбль записывают на видео",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      }
+    ],
+    "mridangam": [
+      {
+        "label": "Если неудобно расположить барабан",
+        "href": "/instrument-esli-neudobno-igrat-sidya/"
+      },
+      {
+        "label": "Если партия написана для табла",
+        "href": "/tabla-dlya-ansamblevogo-proekta/"
+      }
+    ],
+    "ney-dlya-pervogo-osvoeniya": [
+      {
+        "label": "Сверить вариант с педагогом",
+        "href": "/narodnyy-instrument-po-trebovaniyam-pedagoga/"
+      },
+      {
+        "label": "Проверить инструмент на первом уроке",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      }
+    ],
+    "pastushiy-rozhok": [
+      {
+        "label": "Свирель: свистковый голос",
+        "href": "/svirel/"
+      },
+      {
+        "label": "Жалейка: язычковый голос",
+        "href": "/zhaleyka/"
+      }
+    ],
+    "pipa": [
+      {
+        "label": "Если партия пипы теряется",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      },
+      {
+        "label": "Если ансамбль играет в кадре",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      }
+    ],
+    "podbor-traditsionnogo-muzykalnogo-instrumenta": [
+      {
+        "label": "Если инструмент нужен для обучения",
+        "href": "/narodnyy-instrument-po-trebovaniyam-pedagoga/"
+      },
+      {
+        "label": "Если инструмент указан в райдере",
+        "href": "/redkiy-instrument-dlya-tehnicheskogo-raydera/"
+      },
+      {
+        "label": "Если нужен живой ансамбль в кадре",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      }
+    ],
+    "sarangi": [
+      {
+        "label": "Если близкая запись добавляет шум",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Если предстоит первое занятие",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      }
+    ],
+    "sarod": [
+      {
+        "label": "Согласовать состав и высотную опору",
+        "href": "/indiyskiy-ansambl/"
+      }
+    ],
+    "sitar-dlya-studiynoy-zapisi": [
+      {
+        "label": "Если резонанс перекрывает следующую ноту",
+        "href": "/instrument-esli-slishkom-dolgiy-sustain/"
+      }
+    ],
+    "svirel": [
+      {
+        "label": "Сверить учебный образец",
+        "href": "/narodnyy-instrument-po-trebovaniyam-pedagoga/"
+      },
+      {
+        "label": "Если ансамблю нужен другой строй",
+        "href": "/instrument-esli-nuzhen-drugoy-stroy/"
+      }
+    ],
+    "syakuhati": [
+      {
+        "label": "Если начинаете осваивать инструмент",
+        "href": "/instrument-dlya-pervogo-uroka-s-prepodavatelem/"
+      },
+      {
+        "label": "Если флейта теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "tabla-dlya-ansamblevogo-proekta": [
+      {
+        "label": "Согласовать табла со всем составом",
+        "href": "/indiyskiy-ansambl/"
+      }
+    ],
+    "tar": [
+      {
+        "label": "Уточнить разновидность тара",
+        "href": "/podbor-traditsionnogo-muzykalnogo-instrumenta/"
+      },
+      {
+        "label": "Если ансамбль играет в кадре",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      }
+    ],
+    "zhaleyka": [
+      {
+        "label": "Уточнить местное название и образец",
+        "href": "/podbor-traditsionnogo-muzykalnogo-instrumenta/"
+      },
+      {
+        "label": "Если ансамбль играет в кадре",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      }
+    ]
+  }
+}
