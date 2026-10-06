@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-po-tochnoy-modeli-prepodavatelya": [
+      {
+        "label": "Параметры, которые назвал преподаватель",
+        "href": "/instrument-po-parametram-prepodavatelya/"
+      },
+      {
+        "label": "Сравнить два варианта",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ],
+    "instrument-po-marke-prepodavatelya": [
+      {
+        "label": "Точная модель преподавателя",
+        "href": "/instrument-po-tochnoy-modeli-prepodavatelya/"
+      },
+      {
+        "label": "Сравнить два варианта",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ],
+    "instrument-po-parametram-prepodavatelya": [
+      {
+        "label": "Если модель не названа",
+        "href": "/instrument-esli-prepodavatel-ne-nazval-model/"
+      },
+      {
+        "label": "Сравнить два кандидата",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ],
+    "instrument-esli-prepodavatel-ne-nazval-model": [
+      {
+        "label": "Выбрать по параметрам преподавателя",
+        "href": "/instrument-po-parametram-prepodavatelya/"
+      },
+      {
+        "label": "Сравнить два варианта",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ],
+    "instrument-smenit-razmer-po-rekomendatsii": [
+      {
+        "label": "Если корпус слишком большой",
+        "href": "/instrument-esli-korpus-slishkom-bolshoy/"
+      },
+      {
+        "label": "Если трудно дотягиваться",
+        "href": "/instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov/"
+      }
+    ],
+    "instrument-smenit-menzuru-po-rekomendatsii": [
+      {
+        "label": "Если нужна короткая мензура",
+        "href": "/instrument-esli-nuzhna-korotkaya-menzura/"
+      },
+      {
+        "label": "Если быстро устаёт левая рука",
+        "href": "/instrument-esli-bystro-ustaet-levaya-ruka/"
+      }
+    ],
+    "instrument-smenit-sistemu-po-rekomendatsii": [
+      {
+        "label": "Step-up по рекомендации",
+        "href": "/instrument-dlya-step-up-po-rekomendatsii/"
+      },
+      {
+        "label": "Параметры новой системы",
+        "href": "/instrument-po-parametram-prepodavatelya/"
+      }
+    ],
+    "instrument-smenit-stroy-po-rekomendatsii": [
+      {
+        "label": "Если нужен другой строй",
+        "href": "/instrument-esli-nuzhen-drugoy-stroy/"
+      },
+      {
+        "label": "Отдельный инструмент под строй",
+        "href": "/instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy/"
+      }
+    ],
+    "instrument-posle-zamechaniya-o-postanovke": [
+      {
+        "label": "Если поднимается плечо",
+        "href": "/instrument-esli-podnimaetsya-plecho/"
+      },
+      {
+        "label": "Если неудобно играть сидя",
+        "href": "/instrument-esli-neudobno-igrat-sidya/"
+      }
+    ],
+    "instrument-posle-zamechaniya-o-vyse-strun": [
+      {
+        "label": "Если тяжело прижимать",
+        "href": "/instrument-esli-tyazhelo-prizhimat/"
+      },
+      {
+        "label": "Если быстро устаёт левая рука",
+        "href": "/instrument-esli-bystro-ustaet-levaya-ruka/"
+      }
+    ],
+    "instrument-posle-zamechaniya-o-mehanike": [
+      {
+        "label": "Если соседние клавиши отвечают по-разному",
+        "href": "/instrument-esli-sosednie-klavishi-otvechayut-po-raznomu/"
+      },
+      {
+        "label": "Если повторная нота не успевает",
+        "href": "/instrument-esli-povtornaya-nota-ne-uspevaet/"
+      }
+    ],
+    "instrument-posle-zamechaniya-o-pedali": [
+      {
+        "label": "Если педаль работает как кнопка",
+        "href": "/instrument-esli-pedal-rabotaet-kak-knopka/"
+      },
+      {
+        "label": "Если педаль не даёт промежуточного положения",
+        "href": "/instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya/"
+      }
+    ],
+    "instrument-posle-zamechaniya-o-diapazone": [
+      {
+        "label": "Если не хватает диапазона",
+        "href": "/instrument-esli-ne-hvataet-diapazona/"
+      },
+      {
+        "label": "Если не хватает нижнего регистра",
+        "href": "/instrument-esli-ne-hvataet-nizhnego-registra/"
+      }
+    ],
+    "instrument-posle-zamechaniya-o-vese": [
+      {
+        "label": "Если инструмент слишком тяжёлый",
+        "href": "/instrument-esli-instrument-slishkom-tyazhelyy/"
+      },
+      {
+        "label": "Если поднимается плечо",
+        "href": "/instrument-esli-podnimaetsya-plecho/"
+      }
+    ],
+    "instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem": [
+      {
+        "label": "Параметры преподавателя",
+        "href": "/instrument-po-parametram-prepodavatelya/"
+      },
+      {
+        "label": "Несколько занятий перед покупкой",
+        "href": "/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"
+      }
+    ],
+    "instrument-dlya-step-up-po-rekomendatsii": [
+      {
+        "label": "Если не хватает диапазона",
+        "href": "/instrument-esli-ne-hvataet-diapazona/"
+      },
+      {
+        "label": "Сравнить два варианта",
+        "href": "/instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem/"
+      }
+    ]
+  }
+}
