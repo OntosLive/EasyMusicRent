@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "blokfleyta-alt": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Блокфлейта для концерта",
+        "href": "/blokfleyta-dlya-kontserta/"
+      }
+    ],
+    "blokfleyta-bas": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Блокфлейта для концерта",
+        "href": "/blokfleyta-dlya-kontserta/"
+      }
+    ],
+    "blokfleyta-grosbas": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Блокфлейта для концерта",
+        "href": "/blokfleyta-dlya-kontserta/"
+      }
+    ],
+    "blokfleyta-sopranino": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Блокфлейта для студийной записи",
+        "href": "/blokfleyta-dlya-studii/"
+      }
+    ],
+    "blokfleyta-soprano": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Переход с блокфлейты на поперечную флейту",
+        "href": "/fleyta-posle-blokfleyty/"
+      }
+    ],
+    "blokfleyta-tenor": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Блокфлейта для студийной записи",
+        "href": "/blokfleyta-dlya-studii/"
+      }
+    ],
+    "blokfleyty-dlya-ansamblya": [
+      {
+        "label": "Блокфлейта для концерта",
+        "href": "/blokfleyta-dlya-kontserta/"
+      },
+      {
+        "label": "Блокфлейта для студийной записи",
+        "href": "/blokfleyta-dlya-studii/"
+      }
+    ],
+    "blokfleyty-mollenhauer-dlya-obucheniya": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Переход с блокфлейты на поперечную флейту",
+        "href": "/fleyta-posle-blokfleyty/"
+      }
+    ],
+    "yamaha-yrs24b-v-arendu": [
+      {
+        "label": "Блокфлейты для ансамбля",
+        "href": "/blokfleyty-dlya-ansamblya/"
+      },
+      {
+        "label": "Переход с блокфлейты на поперечную флейту",
+        "href": "/fleyta-posle-blokfleyty/"
+      }
+    ],
+    "fagot-dlya-kontserta": [
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      },
+      {
+        "label": "Фагот для студийной записи",
+        "href": "/fagot-dlya-studii/"
+      }
+    ],
+    "fagot-dlya-nebolshoy-ruki": [
+      {
+        "label": "Первый фагот",
+        "href": "/fagot-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Фагот для студента",
+        "href": "/fagot-dlya-studenta/"
+      }
+    ],
+    "fagot-dlya-studenta": [
+      {
+        "label": "Первый фагот",
+        "href": "/fagot-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      }
+    ],
+    "fagot-dlya-studii": [
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      },
+      {
+        "label": "Фагот для концерта",
+        "href": "/fagot-dlya-kontserta/"
+      }
+    ],
+    "fox-601-v-arendu": [
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      },
+      {
+        "label": "Фагот для концерта",
+        "href": "/fagot-dlya-kontserta/"
+      }
+    ],
+    "fox-renard-41-v-arendu": [
+      {
+        "label": "Фагот для студента",
+        "href": "/fagot-dlya-studenta/"
+      },
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-yfg812-v-arendu": [
+      {
+        "label": "Фагот перед покупкой",
+        "href": "/fagot-pered-pokupkoy/"
+      },
+      {
+        "label": "Фагот для концерта",
+        "href": "/fagot-dlya-kontserta/"
+      }
+    ]
+  }
+}
