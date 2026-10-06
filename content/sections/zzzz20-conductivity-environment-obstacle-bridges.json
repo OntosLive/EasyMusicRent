@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-esli-slishkom-gromko-dlya-doma": [
+      {
+        "label": "Если нужно играть в наушниках",
+        "href": "/instrument-esli-nuzhno-igrat-v-naushnikah/"
+      },
+      {
+        "label": "Электронные барабаны для дома",
+        "href": "/elektronnye-barabany-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-esli-ne-pomeschaetsya-v-komnate": [
+      {
+        "label": "Если нужен компактный корпус",
+        "href": "/instrument-esli-nuzhen-kompaktnyy-korpus/"
+      },
+      {
+        "label": "Цифровое пианино для маленькой комнаты",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "instrument-esli-slozhno-perevozit": [
+      {
+        "label": "Второе место занятий",
+        "href": "/instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii/"
+      },
+      {
+        "label": "Смычковые на гастроли",
+        "href": "/smychkovye-na-gastroli/"
+      }
+    ],
+    "instrument-esli-dolgo-sobirat-pered-zanyatiem": [
+      {
+        "label": "Первые занятия дома",
+        "href": "/instrument-dlya-pervyh-zanyatiy-doma/"
+      },
+      {
+        "label": "Если нужен компактный корпус",
+        "href": "/instrument-esli-nuzhen-kompaktnyy-korpus/"
+      }
+    ],
+    "instrument-esli-nuzhno-igrat-v-naushnikah": [
+      {
+        "label": "Электроскрипка для занятий в наушниках",
+        "href": "/elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah/"
+      },
+      {
+        "label": "Электронные барабаны в наушниках",
+        "href": "/elektronnye-barabany-dlya-trenirovki-v-naushnikah/"
+      }
+    ],
+    "instrument-esli-nuzhno-podklyuchit-v-pult": [
+      {
+        "label": "Если нужен чистый DI",
+        "href": "/instrument-esli-nuzhen-chistyy-di-signal/"
+      },
+      {
+        "label": "Электроакустическая гитара прямо в пульт",
+        "href": "/elektroakusticheskaya-gitara-dlya-podklyucheniya-v-pult/"
+      }
+    ],
+    "instrument-esli-nuzhen-chistyy-di-signal": [
+      {
+        "label": "Электрогитара: прямая запись",
+        "href": "/elektrogitara-dlya-zapisi-napryamuyu/"
+      },
+      {
+        "label": "Электроскрипка: прямая запись",
+        "href": "/elektroskripka-dlya-zapisi-napryamuyu/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-monitoringa": [
+      {
+        "label": "Подключение в пульт",
+        "href": "/instrument-esli-nuzhno-podklyuchit-v-pult/"
+      },
+      {
+        "label": "Электроакустика на репетиции с группой",
+        "href": "/elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy/"
+      }
+    ],
+    "instrument-esli-teryaetsya-v-ansamble": [
+      {
+        "label": "Если не хватает атаки",
+        "href": "/instrument-esli-ne-hvataet-ataki/"
+      },
+      {
+        "label": "Если слишком много низких частот",
+        "href": "/instrument-esli-slishkom-mnogo-nizkih-chastot/"
+      }
+    ],
+    "instrument-esli-perekryvaet-golos": [
+      {
+        "label": "Если слишком много низких частот",
+        "href": "/instrument-esli-slishkom-mnogo-nizkih-chastot/"
+      },
+      {
+        "label": "Акустическая гитара для вокалиста",
+        "href": "/akusticheskaya-gitara-dlya-vokalista/"
+      }
+    ],
+    "instrument-esli-slishkom-mnogo-nizkih-chastot": [
+      {
+        "label": "Если инструмент перекрывает голос",
+        "href": "/instrument-esli-perekryvaet-golos/"
+      },
+      {
+        "label": "Если инструмент теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-ataki": [
+      {
+        "label": "Если инструмент теряется в ансамбле",
+        "href": "/instrument-esli-teryaetsya-v-ansamble/"
+      },
+      {
+        "label": "Если sustain слишком длинный",
+        "href": "/instrument-esli-slishkom-dolgiy-sustain/"
+      }
+    ],
+    "instrument-esli-slishkom-dolgiy-sustain": [
+      {
+        "label": "Если не хватает атаки",
+        "href": "/instrument-esli-ne-hvataet-ataki/"
+      },
+      {
+        "label": "Если инструмент перекрывает голос",
+        "href": "/instrument-esli-perekryvaet-golos/"
+      }
+    ],
+    "instrument-esli-mikrofon-slyshit-lishniy-shum": [
+      {
+        "label": "Если механика шумит в записи",
+        "href": "/instrument-esli-mehanika-shumit-v-zapisi/"
+      },
+      {
+        "label": "Если нужен чистый DI",
+        "href": "/instrument-esli-nuzhen-chistyy-di-signal/"
+      }
+    ],
+    "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene": [
+      {
+        "label": "Сценические клавишные для быстрых переключений",
+        "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/"
+      },
+      {
+        "label": "Workstation для концертного сета",
+        "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/"
+      }
+    ],
+    "instrument-esli-nuzhen-rezerv-na-kontsert": [
+      {
+        "label": "Электрогитара на гастрольную замену",
+        "href": "/elektrogitara-dlya-zameny-na-gastrolyah/"
+      },
+      {
+        "label": "Бас-гитара на гастрольную замену",
+        "href": "/bas-gitara-dlya-zameny-na-gastrolyah/"
+      }
+    ]
+  }
+}
