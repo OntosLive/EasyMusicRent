@@ -1,0 +1,104 @@
+{
+  "navigation": {
+    "violonchel-na-ekzamen-v-arendu": [
+      {"label":"Экзаменационная программа","href":"/instrument-po-programme-ekzamena/"},
+      {"label":"Виолончель на прослушивание","href":"/violonchel-na-proslushivanie/"}
+    ],
+    "violonchel-na-konkurs-v-arendu": [
+      {"label":"Конкурсная программа","href":"/instrument-po-programme-konkursa/"},
+      {"label":"Виолончель на прослушивание","href":"/violonchel-na-proslushivanie/"}
+    ],
+    "violonchel-odna-desyataya-v-arendu": [
+      {"label":"Смена размера виолончели","href":"/violonchel-dlya-smeny-razmera/"},
+      {"label":"Виолончель ребёнку","href":"/violonchel-rebenku-v-arendu/"}
+    ],
+    "violonchel-odna-shestnadtsataya-v-arendu": [
+      {"label":"Смена размера виолончели","href":"/violonchel-dlya-smeny-razmera/"},
+      {"label":"Виолончель ребёнку","href":"/violonchel-rebenku-v-arendu/"}
+    ],
+    "violonchel-odna-tridtsat-vtoraya-v-arendu": [
+      {"label":"Смена размера виолончели","href":"/violonchel-dlya-smeny-razmera/"},
+      {"label":"Виолончель ребёнку","href":"/violonchel-rebenku-v-arendu/"}
+    ],
+    "violonchel-odna-vosmaya-v-arendu": [
+      {"label":"Смена размера виолончели","href":"/violonchel-dlya-smeny-razmera/"},
+      {"label":"Виолончель ребёнку","href":"/violonchel-rebenku-v-arendu/"}
+    ],
+    "violonchel-polovina-v-arendu": [
+      {"label":"Смена размера виолончели","href":"/violonchel-dlya-smeny-razmera/"},
+      {"label":"Виолончель ребёнку","href":"/violonchel-rebenku-v-arendu/"}
+    ],
+    "violonchel-tri-chetverti-v-arendu": [
+      {"label":"Смена размера виолончели","href":"/violonchel-dlya-smeny-razmera/"},
+      {"label":"Виолончель ребёнку","href":"/violonchel-rebenku-v-arendu/"}
+    ],
+    "violonchel-rebenku-v-arendu": [
+      {"label":"Домашние занятия ребёнка","href":"/violonchel-dlya-domashnih-zanyatiy-rebenku/"},
+      {"label":"Смена размера","href":"/violonchel-dlya-smeny-razmera/"}
+    ],
+    "violonchel-sem-vosmyh-v-arendu": [
+      {"label":"Виолончель для небольшой руки","href":"/violonchel-dlya-nebolshoy-ruki/"},
+      {"label":"Виолончель перед покупкой","href":"/violonchel-pered-pokupkoy/"}
+    ],
+    "skripka-dlya-semki-v-arendu": [
+      {"label":"Смычковые для киносъёмки","href":"/smychkovye-dlya-kinosemki/"},
+      {"label":"Видеосъёмка живого ансамбля","href":"/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"}
+    ],
+    "skripka-odna-shestnadtsataya-v-arendu": [
+      {"label":"Смена размера скрипки","href":"/skripka-dlya-smeny-razmera/"},
+      {"label":"Скрипка ребёнку","href":"/skripka-rebenku-v-arendu/"}
+    ],
+    "skripka-odna-vosmaya-v-arendu": [
+      {"label":"Смена размера скрипки","href":"/skripka-dlya-smeny-razmera/"},
+      {"label":"Скрипка ребёнку","href":"/skripka-rebenku-v-arendu/"}
+    ],
+    "skripka-polovina-v-arendu": [
+      {"label":"Смена размера скрипки","href":"/skripka-dlya-smeny-razmera/"},
+      {"label":"Скрипка ребёнку","href":"/skripka-rebenku-v-arendu/"}
+    ],
+    "skripka-tri-chetverti-v-arendu": [
+      {"label":"Смена размера скрипки","href":"/skripka-dlya-smeny-razmera/"},
+      {"label":"Скрипка ребёнку","href":"/skripka-rebenku-v-arendu/"}
+    ],
+    "skripka-rebenku-v-arendu": [
+      {"label":"Домашние занятия","href":"/skripka-dlya-domashnih-zanyatiy/"},
+      {"label":"Смена размера","href":"/skripka-dlya-smeny-razmera/"}
+    ],
+    "kontrabas-dlya-semki-v-arendu": [
+      {"label":"Смычковые для киносъёмки","href":"/smychkovye-dlya-kinosemki/"},
+      {"label":"Видеосъёмка живого ансамбля","href":"/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"}
+    ],
+    "kontrabas-kupit-ili-vzyat-v-arendu": [
+      {"label":"Несколько занятий перед покупкой","href":"/instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy/"},
+      {"label":"Сравнить мензуры","href":"/kontrabas-dlya-sravneniya-menzur/"}
+    ],
+    "kontrabas-na-konkurs-v-arendu": [
+      {"label":"Конкурсная программа","href":"/instrument-po-programme-konkursa/"},
+      {"label":"Контрабас на прослушивание","href":"/kontrabas-na-proslushivanie/"}
+    ],
+    "pyatistrunnyy-kontrabas-v-arendu": [
+      {"label":"Не хватает нижнего регистра","href":"/instrument-esli-ne-hvataet-nizhnego-registra/"},
+      {"label":"Нужна дополнительная низкая струна","href":"/instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna/"}
+    ],
+    "yamaha-trbx174-v-arendu": [
+      {"label":"Бас-гитара для начинающего","href":"/bas-gitara-dlya-nachinayuschego/"},
+      {"label":"Домашние занятия","href":"/bas-gitara-dlya-domashnih-zanyatiy/"}
+    ],
+    "yamaha-bb234-v-arendu": [
+      {"label":"Домашние занятия","href":"/bas-gitara-dlya-domashnih-zanyatiy/"},
+      {"label":"Бас-гитара перед покупкой","href":"/bas-gitara-pered-pokupkoy/"}
+    ],
+    "roland-tr808-v-arendu": [
+      {"label":"Работа над ритмом","href":"/instrument-dlya-raboty-nad-ritmom-po-zadaniyu/"},
+      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+    ],
+    "roland-tr909-v-arendu": [
+      {"label":"Работа над ритмом","href":"/instrument-dlya-raboty-nad-ritmom-po-zadaniyu/"},
+      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+    ],
+    "roland-td02k-v-arendu": [
+      {"label":"Электронные барабаны взрослому","href":"/elektronnye-barabany-vzroslomu-nachinayuschemu/"},
+      {"label":"Домашние занятия","href":"/elektronnye-barabany-dlya-domashnih-zanyatiy/"}
+    ]
+  }
+}
