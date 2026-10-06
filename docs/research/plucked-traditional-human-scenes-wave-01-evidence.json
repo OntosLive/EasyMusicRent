@@ -1,0 +1,170 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Первая крупная волна щипковых и традиционных человеческих сцен: укулеле, мандолина, банджо, домра, балалайка, гусли, уд, лютня, теорба, канун, кора, ситар, танпура, кото, гучжэн, сямисэн, мбира и домбра.",
+  "base_subjects": 1468,
+  "new_subjects": 64,
+  "target_subjects": 1532,
+  "source_roles": {
+    "museum_or_unesco": "Подтверждает конструкцию, историческую/традиционную функцию и исполнительскую практику инструмента.",
+    "manufacturer_or_workshop": "Подтверждает современные размеры, системы, строи и оркестровые семейства.",
+    "editorial_inference": "Связывает подтверждённую конструкцию с человеческой сценой, способом пробы и смыслом временного доступа."
+  },
+  "package": {
+    "ukulele_mandolin_banjo": 16,
+    "russian_plucked": 16,
+    "lute_oud_qanun_kora": 16,
+    "asian_and_traditional": 16
+  },
+  "sources": {
+    "kala_sizes": {
+      "url": "https://www.kalaukuleleapp.com/2026/07/09/what-size-ukulele-should-a-beginner-get/",
+      "supports": [
+        "Soprano, concert, tenor и baritone как разные форматы укулеле."
+      ]
+    },
+    "kala_baritone": {
+      "url": "https://kalabrand.com/blogs/home/new-product-kala-learn-to-play-baritone-q-a-with-instructor-kevin-presbrey",
+      "supports": [
+        "D-G-B-E baritone tuning и связь с верхними четырьмя струнами гитары."
+      ]
+    },
+    "met_mandolin": {
+      "url": "https://www.metmuseum.org/art/collection/search/506858",
+      "supports": [
+        "Современная мандолина с четырьмя парами струн."
+      ]
+    },
+    "deering_banjos": {
+      "url": "https://www.deeringbanjos.com/collections/banjos",
+      "supports": [
+        "Разные типы банджо как самостоятельные исполнительские системы."
+      ]
+    },
+    "deering_5string": {
+      "url": "https://www.deeringbanjos.com/collections/5-string-banjos",
+      "supports": [
+        "Короткая пятая струна 5-string banjo."
+      ]
+    },
+    "deering_tenor": {
+      "url": "https://www.deeringbanjos.com/collections/tenor-banjos",
+      "supports": [
+        "Tenor banjo и иные настройки/исполнительские функции."
+      ]
+    },
+    "domra_three": {
+      "url": "https://www.thomann.pt/thomann_domra_prima_standard_3_str.htm",
+      "supports": [
+        "Современная трёхструнная домра-прима."
+      ]
+    },
+    "domra_four": {
+      "url": "https://www.thomann.cz/hora_domra_m1084.htm",
+      "supports": [
+        "Современная четырёхструнная домра."
+      ]
+    },
+    "mayorov_orchestra": {
+      "url": "https://master-mayorov.ru/",
+      "supports": [
+        "Оркестровые семейства балалаек и домр."
+      ]
+    },
+    "music_orchestra": {
+      "url": "https://muzkarta.ru/kollektiv/orkestr-severnyy-gorod/foto",
+      "supports": [
+        "Реальные оркестровые роли домр и балалаек."
+      ]
+    },
+    "balalaika_museum": {
+      "url": "https://music.theatremuseum.ru/balalaika",
+      "supports": [
+        "Балалайка и её исполнительская традиция."
+      ]
+    },
+    "gusli_history": {
+      "url": "https://shm.ru/shows/47880/",
+      "supports": [
+        "Разнообразие исторических и концертных форм гуслей."
+      ]
+    },
+    "met_oud": {
+      "url": "https://www.metmuseum.org/art/collection/search/776535",
+      "supports": [
+        "Конструкция уда и безладовая щипковая система."
+      ]
+    },
+    "met_lute": {
+      "url": "https://www.metmuseum.org/ru/perspectives/listening-to-paintings",
+      "supports": [
+        "Исторические изменения лютни и добавление басовых струн."
+      ]
+    },
+    "lute_society_theorbo": {
+      "url": "https://lutesocietyofamerica.org/about/instruments/theorbo-or-chitarrone/",
+      "supports": [
+        "Теорба, длинные басовые струны и continuo-функция."
+      ]
+    },
+    "met_qanun": {
+      "url": "https://www.metmuseum.org/art/collection/search/500957",
+      "supports": [
+        "Канун, хоры струн и рычажки изменения высоты."
+      ]
+    },
+    "met_kora": {
+      "url": "https://www.metmuseum.org/art/collection/search/501115",
+      "supports": [
+        "Кора как многструнный инструмент с крупным резонатором."
+      ]
+    },
+    "met_sitar": {
+      "url": "https://www.metmuseum.org/art/collection/search/503529",
+      "supports": [
+        "Игровые и резонирующие струны современного ситара."
+      ]
+    },
+    "duke_tanpura": {
+      "url": "https://sites.duke.edu/dumic/instruments/strings/southern-and-eastern-asia/tambura/",
+      "supports": [
+        "Танпура как высотная drone-опора."
+      ]
+    },
+    "met_koto": {
+      "url": "https://www.metmuseum.org/art/collection/search/502981",
+      "supports": [
+        "Кото, подвижные подставки и плектры."
+      ]
+    },
+    "met_guzheng": {
+      "url": "https://www.metmuseum.org/art/collection/search/500623",
+      "supports": [
+        "Чжэн/гучжэн и раздельные функции обеих рук."
+      ]
+    },
+    "met_shamisen": {
+      "url": "https://www.metmuseum.org/art/collection/search/500666",
+      "supports": [
+        "Сямисэн и техника большого плектра bachi."
+      ]
+    },
+    "unesco_mbira": {
+      "url": "https://ich.unesco.org/en/RL/art-of-crafting-and-playing-mbira-sansi-the-finger-plucking-traditional-musical-instrument-in-malawi-and-zimbabwe-01541",
+      "supports": [
+        "Традиция mbira/sansi и разнообразие исполнительских практик."
+      ]
+    },
+    "unesco_dombra": {
+      "url": "https://ich.unesco.org/en/RL/kazakh-traditional-art-of-dombra-kuy-00996",
+      "supports": [
+        "Домбра и искусство исполнения кюя как целостная традиция."
+      ]
+    }
+  },
+  "editorial_rules": [
+    "Традиционный инструмент не редуцируется к внешней форме: страница должна различать исполнительскую школу, строй, систему или ансамблевую функцию.",
+    "Оркестровые голоса домр и балалаек рассматриваются как самостоятельные функции, а не как размерные варианты одного товара.",
+    "Исторические и традиционные инструменты особенно подходят модели временного доступа, когда нужны на конкретную программу, запись или учебный период.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ]
+}
