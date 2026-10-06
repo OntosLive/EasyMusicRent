@@ -1,0 +1,324 @@
+{
+  "navigation": {
+    "klavishnye-dlya-myuzikla": [
+      {
+        "label": "Инструменты для pit band мюзикла",
+        "href": "/instrumenty-dlya-myuziklovogo-pit-benda/"
+      },
+      {
+        "label": "Клавишные с педалями по райдеру",
+        "href": "/klavishnye-s-pedalyami-po-rayderu/"
+      }
+    ],
+    "sintezator-dlya-studiynoy-partii": [
+      {
+        "label": "Синтезатор для студии",
+        "href": "/sintezator-dlya-studii/"
+      },
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      }
+    ],
+    "analogovyy-sintezator-pered-pokupkoy": [
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      },
+      {
+        "label": "Аппаратный синтезатор для сравнения с программным",
+        "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
+      }
+    ],
+    "midi-klaviatura-dlya-zapisi-fortepiano": [
+      {
+        "label": "Цифровое пианино для записи MIDI",
+        "href": "/cifrovoe-pianino-dlya-zapisi-midi/"
+      },
+      {
+        "label": "MIDI-клавиатура для композитора",
+        "href": "/midi-klaviatura-dlya-kompozitora/"
+      }
+    ],
+    "sempler-dlya-teatralnyh-effektov": [
+      {
+        "label": "Инструменты для театрального ансамбля",
+        "href": "/instrumenty-dlya-teatralnogo-ansamblya/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "lup-stantsiya-dlya-vokala": [
+      {
+        "label": "Инструменты для вокального дуэта с гитарой",
+        "href": "/instrumenty-dlya-vokalnogo-dueta-s-gitaroy/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "mpe-kontroller-dlya-proby": [
+      {
+        "label": "Жестовый контроллер для первого опыта",
+        "href": "/zhestovyy-kontroller-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Синтезатор для модуляции в реальном времени",
+        "href": "/sintezator-dlya-modulyatsii-v-realnom-vremeni/"
+      }
+    ],
+    "chelesta-dlya-zapisi-muzyki-k-filmu": [
+      {
+        "label": "Инструменты для камерного состава саундтрека",
+        "href": "/instrumenty-dlya-saundtreka-kamernogo-sostava/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "sintezator-dlya-studii": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      }
+    ],
+    "sintezator-dlya-kontserta": [
+      {
+        "label": "Синтезатор для живого выступления",
+        "href": "/sintezator-dlya-zhivogo-vystupleniya/"
+      },
+      {
+        "label": "Сценические клавишные для быстрых переключений",
+        "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/"
+      }
+    ],
+    "sintezator-dlya-nachinayuschego": [
+      {
+        "label": "Синтезатор для первого опыта синтеза",
+        "href": "/sintezator-dlya-pervogo-opyta-sinteza/"
+      },
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      }
+    ],
+    "sintezator-dlya-basa": [
+      {
+        "label": "Синтезатор для первого опыта синтеза",
+        "href": "/sintezator-dlya-pervogo-opyta-sinteza/"
+      },
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      }
+    ],
+    "sintezator-dlya-pedov": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Сценические клавишные для слоя piano и pad",
+        "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/"
+      }
+    ],
+    "sintezator-dlya-zhivogo-vystupleniya": [
+      {
+        "label": "Сценические клавишные для быстрых переключений",
+        "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/"
+      },
+      {
+        "label": "Синтезатор для импровизации",
+        "href": "/sintezator-dlya-improvizatsii/"
+      }
+    ],
+    "sintezator-na-vremya-remonta": [
+      {
+        "label": "Резервный музыкальный инструмент на концерт",
+        "href": "/instrument-esli-nuzhen-rezerv-na-kontsert/"
+      },
+      {
+        "label": "Сценические клавишные на замену в гастролях",
+        "href": "/scenicheskie-klavishnye-dlya-gastrolnoy-zameny/"
+      }
+    ],
+    "sintezator-dlya-eksperimentalnoy-muzyki": [
+      {
+        "label": "Синтезатор для саунд-дизайна",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Жестовый контроллер для саунд-дизайна",
+        "href": "/zhestovyy-kontroller-dlya-saund-dizayna/"
+      }
+    ],
+    "smychkovye-dlya-opernogo-orkestra": [
+      {
+        "label": "Инструменты для оркестровой ямы оперы",
+        "href": "/instrumenty-dlya-opernoy-yamy/"
+      },
+      {
+        "label": "Инструменты для замены участника ансамбля",
+        "href": "/instrumenty-dlya-zameny-uchastnika-ansamblya/"
+      }
+    ],
+    "smychkovye-dlya-kamernogo-orkestra": [
+      {
+        "label": "Инструменты для студенческого камерного оркестра",
+        "href": "/instrumenty-dlya-studencheskogo-kamernogo-orkestra/"
+      },
+      {
+        "label": "Инструменты для камерной фестивальной программы",
+        "href": "/instrumenty-dlya-festivalnoy-kamernoy-programmy/"
+      }
+    ],
+    "smychkovye-dlya-molodezhnogo-orkestra": [
+      {
+        "label": "Инструменты для учебного струнного оркестра",
+        "href": "/instrumenty-dlya-uchebnogo-strunnogo-orkestra/"
+      },
+      {
+        "label": "Инструменты для первого струнного ансамбля",
+        "href": "/instrumenty-dlya-pervogo-strunnogo-ansamblya/"
+      }
+    ],
+    "smychkovye-dlya-studiynoy-zapisi": [
+      {
+        "label": "Инструменты для live session в студии",
+        "href": "/instrumenty-dlya-studiynoy-live-sessii/"
+      },
+      {
+        "label": "Инструменты для камерного состава саундтрека",
+        "href": "/instrumenty-dlya-saundtreka-kamernogo-sostava/"
+      }
+    ],
+    "smychkovye-dlya-kinosemki": [
+      {
+        "label": "Инструменты для видеосъёмки живого ансамбля",
+        "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/"
+      },
+      {
+        "label": "Инструменты для камерного состава саундтрека",
+        "href": "/instrumenty-dlya-saundtreka-kamernogo-sostava/"
+      }
+    ],
+    "smychkovye-na-gastroli": [
+      {
+        "label": "Инструменты для гастрольного камерного состава",
+        "href": "/instrumenty-dlya-gastrolnogo-kamernogo-sostava/"
+      },
+      {
+        "label": "Инструменты для замены участника ансамбля",
+        "href": "/instrumenty-dlya-zameny-uchastnika-ansamblya/"
+      }
+    ],
+    "smychkovye-dlya-festivalya": [
+      {
+        "label": "Инструменты для камерной фестивальной программы",
+        "href": "/instrumenty-dlya-festivalnoy-kamernoy-programmy/"
+      },
+      {
+        "label": "Backline для фестиваля",
+        "href": "/backline-dlya-festivalya/"
+      }
+    ],
+    "smychkovye-dlya-istoricheskogo-ansamblya": [
+      {
+        "label": "Исторические струнные для первого проекта",
+        "href": "/istoricheskie-strunnye-dlya-pervogo-proekta/"
+      },
+      {
+        "label": "Барочные инструменты для камерной программы",
+        "href": "/barochnye-instrumenty-dlya-kamernoy-programmy/"
+      }
+    ],
+    "arfa-na-vremya-remonta": [
+      {
+        "label": "Арфа для домашних занятий",
+        "href": "/arfa-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Инструмент на время подбора постоянного",
+        "href": "/instrument-na-period-podbora-postoyannogo/"
+      }
+    ],
+    "arfa-dlya-studiynoy-zapisi": [
+      {
+        "label": "Инструменты для камерного состава саундтрека",
+        "href": "/instrumenty-dlya-saundtreka-kamernogo-sostava/"
+      },
+      {
+        "label": "Арфа для камерного ансамбля",
+        "href": "/arfa-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "elektricheskaya-arfa-dlya-kontsertnogo-nomera": [
+      {
+        "label": "Арфа на концерт",
+        "href": "/arfa-na-koncert/"
+      },
+      {
+        "label": "Инструмент для подключения в пульт",
+        "href": "/instrument-esli-nuzhno-podklyuchit-v-pult/"
+      }
+    ],
+    "bayan-rebenku-pervyy-god": [
+      {
+        "label": "Баян для домашних занятий",
+        "href": "/bayan-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Баян подходящего размера ребёнку",
+        "href": "/bayan-po-razmeru-rebenka/"
+      }
+    ],
+    "gotovo-vybornyy-bayan-na-konkurs": [
+      {
+        "label": "Инструмент по конкурсной программе",
+        "href": "/instrument-po-programme-konkursa/"
+      },
+      {
+        "label": "Баян для перехода на выборный бас",
+        "href": "/bayan-dlya-perehoda-na-vybornyy-bas/"
+      }
+    ],
+    "akkordeon-dlya-gastroley": [
+      {
+        "label": "Backline для гастрольного тура",
+        "href": "/backline-dlya-gastrolnogo-tura/"
+      },
+      {
+        "label": "Аккордеон для концерта",
+        "href": "/akkordeon-dlya-kontserta/"
+      }
+    ],
+    "bandoneon-dlya-tango-proekta": [
+      {
+        "label": "Инструменты для tango-квартета",
+        "href": "/instrumenty-dlya-tango-kvarteta/"
+      },
+      {
+        "label": "Бандонеон перед покупкой",
+        "href": "/bandoneon-pered-pokupkoy/"
+      }
+    ],
+    "kontsertina-dlya-ansamblya": [
+      {
+        "label": "Концертина для folk-проекта",
+        "href": "/kontsertina-dlya-folk-proekta/"
+      },
+      {
+        "label": "Инструменты для folk-группы",
+        "href": "/instrumenty-dlya-folk-gruppy/"
+      }
+    ]
+  }
+}
