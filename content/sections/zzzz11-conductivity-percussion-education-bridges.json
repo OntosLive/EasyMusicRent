@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "orf-instrument-s-cvetovoy-kodirovkoy": [
+      {
+        "label": "Orff-инструменты для домашних занятий",
+        "href": "/orf-instrumenty-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Orff-инструменты для группы детей",
+        "href": "/orf-instrumenty-dlya-gruppy-detey/"
+      }
+    ],
+    "orf-instrument-s-podpisannymi-notami": [
+      {
+        "label": "Orff-инструменты для домашних занятий",
+        "href": "/orf-instrumenty-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Первый Orff-ансамбль",
+        "href": "/orf-instrumenty-dlya-pervogo-ansamblya/"
+      }
+    ],
+    "sonor-first-beat-v-arendu": [
+      {
+        "label": "Orff-инструменты для группы детей",
+        "href": "/orf-instrumenty-dlya-gruppy-detey/"
+      },
+      {
+        "label": "Первый Orff-ансамбль",
+        "href": "/orf-instrumenty-dlya-pervogo-ansamblya/"
+      }
+    ],
+    "sonor-global-beat-v-arendu": [
+      {
+        "label": "Orff-инструменты для группы детей",
+        "href": "/orf-instrumenty-dlya-gruppy-detey/"
+      },
+      {
+        "label": "Первый Orff-ансамбль",
+        "href": "/orf-instrumenty-dlya-pervogo-ansamblya/"
+      }
+    ],
+    "sonor-primary-sxp11-v-arendu": [
+      {
+        "label": "Orff-инструменты для домашних занятий",
+        "href": "/orf-instrumenty-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Первый Orff-ансамбль",
+        "href": "/orf-instrumenty-dlya-pervogo-ansamblya/"
+      }
+    ],
+    "studio49-easycussion500-v-arendu": [
+      {
+        "label": "Orff-инструменты для группы детей",
+        "href": "/orf-instrumenty-dlya-gruppy-detey/"
+      },
+      {
+        "label": "Первый Orff-ансамбль",
+        "href": "/orf-instrumenty-dlya-pervogo-ansamblya/"
+      }
+    ],
+    "studio49-seriya1000-v-arendu": [
+      {
+        "label": "Orff-инструменты для группы детей",
+        "href": "/orf-instrumenty-dlya-gruppy-detey/"
+      },
+      {
+        "label": "Orff-инструменты для домашних занятий",
+        "href": "/orf-instrumenty-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "adams-academy-xylophone-v-arendu": [
+      {
+        "label": "Первый опыт на ксилофоне",
+        "href": "/ksilofon-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Ксилофон для домашних занятий",
+        "href": "/ksilofon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "ksilofon-s-reguliruemoy-vysotoy": [
+      {
+        "label": "Первый опыт на ксилофоне",
+        "href": "/ksilofon-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Ксилофон для домашних занятий",
+        "href": "/ksilofon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-yx135-v-arendu": [
+      {
+        "label": "Первый опыт на ксилофоне",
+        "href": "/ksilofon-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Ксилофон для домашних занятий",
+        "href": "/ksilofon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "yamaha-yx2035pr-v-arendu": [
+      {
+        "label": "Первый опыт на ксилофоне",
+        "href": "/ksilofon-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Ксилофон для домашних занятий",
+        "href": "/ksilofon-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "paiste-2002-set-v-arendu": [
+      {
+        "label": "Первый комплект тарелок",
+        "href": "/tarelki-dlya-pervogo-komplekta/"
+      },
+      {
+        "label": "Тарелки перед покупкой",
+        "href": "/tarelki-pered-pokupkoy/"
+      }
+    ],
+    "sabian-hhx-set-v-arendu": [
+      {
+        "label": "Первый комплект тарелок",
+        "href": "/tarelki-dlya-pervogo-komplekta/"
+      },
+      {
+        "label": "Тарелки перед покупкой",
+        "href": "/tarelki-pered-pokupkoy/"
+      }
+    ],
+    "tarelki-dlya-studiynoy-zapisi": [
+      {
+        "label": "Тарелки перед покупкой",
+        "href": "/tarelki-pered-pokupkoy/"
+      },
+      {
+        "label": "Первый комплект тарелок",
+        "href": "/tarelki-dlya-pervogo-komplekta/"
+      }
+    ],
+    "zildjian-a-series-set-v-arendu": [
+      {
+        "label": "Первый комплект тарелок",
+        "href": "/tarelki-dlya-pervogo-komplekta/"
+      },
+      {
+        "label": "Тарелки перед покупкой",
+        "href": "/tarelki-pered-pokupkoy/"
+      }
+    ],
+    "zildjian-k-series-set-v-arendu": [
+      {
+        "label": "Первый комплект тарелок",
+        "href": "/tarelki-dlya-pervogo-komplekta/"
+      },
+      {
+        "label": "Тарелки перед покупкой",
+        "href": "/tarelki-pered-pokupkoy/"
+      }
+    ]
+  }
+}
