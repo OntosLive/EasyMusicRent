@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "reviewed_on": "2026-10-06",
   "baseline_subjects": 1138,
   "new_subjects": 10,
@@ -33,7 +33,8 @@
       "url": "https://pearldrum.com/en/products/concert/education-kits/percussion-learning-center-pl?pearl=en",
       "country_of_evidence": "JP/US",
       "kind": "manufacturer_education",
-      "scope": "Combined student kit with wood snare, 2.5-octave bells, practice pad, rack, sticks, mallets and wheeled case.",
+      "scope": "Combined student kit with a 13-inch wood snare, 2.5-octave bells, practice pad, rack, sticks, mallets and wheeled case. The snare depth is not asserted.",
+      "limitations": "The same manufacturer page gives 13x3 inches in its main component table and 13x3.5 inches in Features. This is an unresolved source discrepancy, not evidence of separate generations. Confirm the supplied drum against the actual kit documentation.",
       "reviewed_on": "2026-10-06"
     },
     "yamaha_yx2035": {
@@ -203,6 +204,27 @@
     "YX-135 is marked legacy/discontinued in Europe; YX-2035PR is the current successor.",
     "Russian curriculum confirms xylophone/snare educational roles, not Pearl/Yamaha/Adams model recommendations.",
     "Adjustable height is a quality-led criterion independent of brand.",
-    "Public pages do not claim ONTOS.RENT stock."
-  ]
+    "Public pages do not claim ONTOS.RENT stock.",
+    "PL910C snare depth remains unresolved because two sections of the manufacturer page disagree; only the 13-inch diameter is retained.",
+    "The Adams Academy height range 77-97 cm applies to MSLD33W, not automatically to both Academy marimba configurations.",
+    "Fixed working height is checked against the individual player; adulthood does not establish ergonomic suitability."
+  ],
+  "second_pass": {
+    "reviewed_on": "2026-10-06",
+    "scope": "All ten existing pages: Russian public language, distinct learning tasks, reasons for temporary access and bounded technical claims. Routes, subject count and navigation are preserved.",
+    "directly_rechecked": [
+      "pearl_sk",
+      "pearl_pk",
+      "pearl_pl",
+      "adams_xylo",
+      "adams_marimba"
+    ],
+    "manufacturer_index_rechecked": [
+      "yamaha_yx2035",
+      "yamaha_launch",
+      "yamaha_yx135_eu"
+    ],
+    "retrieval_limits": "Yamaha direct page opens returned HTTP 403; indexed official Yamaha results supported the successor, gas-spring adjustment and European discontinued status. Russian school PDFs remain prior evidence; this pass does not claim to have re-read them.",
+    "editorial_inferences": "Suggested comparison exercises, rehearsal duration and checks of the actual rental kit are editorial applications to the task, not a mandatory teaching method or manufacturer guarantee."
+  }
 }
