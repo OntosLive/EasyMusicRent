@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "yamaha-ysl350c-v-arendu": [
+      {
+        "label": "Тромбон для короткой руки",
+        "href": "/trombon-dlya-korotkoy-ruki/"
+      },
+      {
+        "label": "Первый тромбон",
+        "href": "/trombon-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "yamaha-ycr2330iii-v-arendu": [
+      {
+        "label": "Первый корнет",
+        "href": "/kornet-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Корнет перед покупкой",
+        "href": "/kornet-pered-pokupkoy/"
+      }
+    ],
+    "besson-prodige120-v-arendu": [
+      {
+        "label": "Первый корнет",
+        "href": "/kornet-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Корнет перед покупкой",
+        "href": "/kornet-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-yah203-v-arendu": [
+      {
+        "label": "Первый тенор-горн",
+        "href": "/tenor-gorn-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Оркестровый класс",
+        "href": "/instrument-dlya-orkestrovogo-klassa/"
+      }
+    ],
+    "besson-prodige152-v-arendu": [
+      {
+        "label": "Первый тенор-горн",
+        "href": "/tenor-gorn-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Оркестровый класс",
+        "href": "/instrument-dlya-orkestrovogo-klassa/"
+      }
+    ],
+    "besson-prodige-162-v-arendu": [
+      {
+        "label": "Переход на систему 3+1",
+        "href": "/evfonium-dlya-perehoda-na-sistemu-3-plus-1/"
+      },
+      {
+        "label": "Эуфониум перед покупкой",
+        "href": "/evfonium-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-yep201-v-arendu": [
+      {
+        "label": "Первый эуфониум",
+        "href": "/evfonium-dlya-pervogo-instrumenta/"
+      },
+      {
+        "label": "Эуфониум для домашних занятий",
+        "href": "/evfonium-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "eastman-va100-v-arendu": [
+      {
+        "label": "Альт для домашних занятий",
+        "href": "/alt-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера альта",
+        "href": "/alt-dlya-smeny-razmera/"
+      }
+    ],
+    "stentor-student-ii-alt-v-arendu": [
+      {
+        "label": "Альт взрослому начинающему",
+        "href": "/alt-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Смена размера альта",
+        "href": "/alt-dlya-smeny-razmera/"
+      }
+    ],
+    "goronok-nova-alt-v-arendu": [
+      {
+        "label": "Смена размера альта",
+        "href": "/alt-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Альт для домашних занятий",
+        "href": "/alt-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "goronok-kadentsiya-alt-v-arendu": [
+      {
+        "label": "Альт перед покупкой",
+        "href": "/alt-pered-pokupkoy/"
+      },
+      {
+        "label": "Альт для оркестра",
+        "href": "/alt-dlya-orkestra/"
+      }
+    ],
+    "hidersine-vivente-alt-v-arendu": [
+      {
+        "label": "Альт взрослому начинающему",
+        "href": "/alt-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Альт перед покупкой",
+        "href": "/alt-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-v5-skripka-v-arendu": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смена размера скрипки",
+        "href": "/skripka-dlya-smeny-razmera/"
+      }
+    ],
+    "stentor-student-ii-skripka-v-arendu": [
+      {
+        "label": "Скрипка взрослому начинающему",
+        "href": "/skripka-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "stentor-student-ii-kontrabas-v-arendu": [
+      {
+        "label": "Смена размера контрабаса",
+        "href": "/kontrabas-dlya-smeny-razmera/"
+      },
+      {
+        "label": "Контрабас для музыкальной школы",
+        "href": "/kontrabas-dlya-muzykalnoy-shkoly-rebenku/"
+      }
+    ],
+    "skripka-strunal": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Скрипка перед покупкой",
+        "href": "/skripka-pered-pokupkoy/"
+      }
+    ]
+  }
+}
