@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-esli-tihaya-nota-ne-nachinaetsya": [
+      {
+        "label": "Если быстро устают губы",
+        "href": "/instrument-esli-guby-bystro-ustayut/"
+      },
+      {
+        "label": "Работа над звуком по заданию",
+        "href": "/instrument-dlya-raboty-nad-zvukom-po-zadaniyu/"
+      }
+    ],
+    "instrument-esli-nota-nachinaetsya-s-shumom": [
+      {
+        "label": "Если микрофон слышит лишний шум",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Работа над звуком",
+        "href": "/instrument-dlya-raboty-nad-zvukom-po-zadaniyu/"
+      }
+    ],
+    "instrument-esli-sosednie-klavishi-otvechayut-po-raznomu": [
+      {
+        "label": "Замечание преподавателя о механике",
+        "href": "/instrument-posle-zamechaniya-o-mehanike/"
+      },
+      {
+        "label": "Если повторная нота не успевает",
+        "href": "/instrument-esli-povtornaya-nota-ne-uspevaet/"
+      }
+    ],
+    "instrument-esli-povtornaya-nota-ne-uspevaet": [
+      {
+        "label": "Замечание преподавателя о механике",
+        "href": "/instrument-posle-zamechaniya-o-mehanike/"
+      },
+      {
+        "label": "Работа над ритмом",
+        "href": "/instrument-dlya-raboty-nad-ritmom-po-zadaniyu/"
+      }
+    ],
+    "instrument-esli-klapan-zapazdyvaet": [
+      {
+        "label": "Замечание преподавателя о механике",
+        "href": "/instrument-posle-zamechaniya-o-mehanike/"
+      },
+      {
+        "label": "Работа над ритмом",
+        "href": "/instrument-dlya-raboty-nad-ritmom-po-zadaniyu/"
+      }
+    ],
+    "instrument-esli-kulisa-idet-tugo": [
+      {
+        "label": "Тромбон перед покупкой",
+        "href": "/trombon-pered-pokupkoy/"
+      },
+      {
+        "label": "Тромбон с квартвентилем",
+        "href": "/trombon-s-kvartventilem-dlya-perehoda/"
+      }
+    ],
+    "instrument-esli-piston-zakusaet": [
+      {
+        "label": "Труба перед покупкой",
+        "href": "/truba-pered-pokupkoy/"
+      },
+      {
+        "label": "Замечание преподавателя о механике",
+        "href": "/instrument-posle-zamechaniya-o-mehanike/"
+      }
+    ],
+    "instrument-esli-pedal-rabotaet-kak-knopka": [
+      {
+        "label": "Замечание преподавателя о педали",
+        "href": "/instrument-posle-zamechaniya-o-pedali/"
+      },
+      {
+        "label": "Педаль с промежуточным положением",
+        "href": "/instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya/"
+      }
+    ],
+    "instrument-esli-struny-slishkom-zhestkie": [
+      {
+        "label": "Если тяжело прижимать",
+        "href": "/instrument-esli-tyazhelo-prizhimat/"
+      },
+      {
+        "label": "Если устаёт левая рука",
+        "href": "/instrument-esli-bystro-ustaet-levaya-ruka/"
+      }
+    ],
+    "instrument-esli-otskok-slishkom-vysokiy": [
+      {
+        "label": "Электронные барабаны: работа над динамикой",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Малый барабан для rudiments",
+        "href": "/malyy-baraban-dlya-rudimentov/"
+      }
+    ],
+    "instrument-esli-otskok-slishkom-myagkiy": [
+      {
+        "label": "Электронные барабаны: работа над динамикой",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-dinamikoy/"
+      },
+      {
+        "label": "Малый барабан для rudiments",
+        "href": "/malyy-baraban-dlya-rudimentov/"
+      }
+    ],
+    "instrument-esli-meh-idet-ryvkami": [
+      {
+        "label": "Аккордеон: работа над мехом",
+        "href": "/akkordeon-dlya-raboty-nad-mehom/"
+      },
+      {
+        "label": "Баян: работа над мехом",
+        "href": "/bayan-dlya-raboty-nad-mehom/"
+      }
+    ],
+    "instrument-esli-stroy-uplyvaet": [
+      {
+        "label": "Работа над интонацией",
+        "href": "/instrument-dlya-raboty-nad-intonatsiey-po-zadaniyu/"
+      },
+      {
+        "label": "Если нужен другой строй",
+        "href": "/instrument-esli-nuzhen-drugoy-stroy/"
+      }
+    ],
+    "instrument-esli-lady-ne-stroyat": [
+      {
+        "label": "Если строй уплывает",
+        "href": "/instrument-esli-stroy-uplyvaet/"
+      },
+      {
+        "label": "Работа над интонацией",
+        "href": "/instrument-dlya-raboty-nad-intonatsiey-po-zadaniyu/"
+      }
+    ],
+    "instrument-esli-zvuk-nerovnyy-po-diapazonu": [
+      {
+        "label": "Если не хватает диапазона",
+        "href": "/instrument-esli-ne-hvataet-diapazona/"
+      },
+      {
+        "label": "Работа над звуком",
+        "href": "/instrument-dlya-raboty-nad-zvukom-po-zadaniyu/"
+      }
+    ],
+    "instrument-esli-mehanika-shumit-v-zapisi": [
+      {
+        "label": "Если микрофон слышит лишний шум",
+        "href": "/instrument-esli-mikrofon-slyshit-lishniy-shum/"
+      },
+      {
+        "label": "Если нужен чистый DI",
+        "href": "/instrument-esli-nuzhen-chistyy-di-signal/"
+      }
+    ]
+  }
+}
