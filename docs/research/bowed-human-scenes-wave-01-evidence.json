@@ -1,0 +1,167 @@
+{
+  "reviewed_on": "2026-10-06",
+  "scope": "Первая крупная смычковая волна человеческих сцен: скрипка, альт, виолончель, контрабас, смычки и электрические смычковые.",
+  "base_subjects": 1404,
+  "new_subjects": 64,
+  "target_subjects": 1468,
+  "source_roles": {
+    "manufacturer_spec": "Подтверждает размеры, комплектацию, конструкцию, мензуру, варианты смычка и электрические подключения конкретной модели.",
+    "education_product_line": "Показывает, что учебная линейка существует в нескольких размерах или конфигурациях. Не превращается в универсальную рекомендацию каждому ученику.",
+    "editorial_inference": "Связывает подтверждённую конструкцию с человеческой сценой, способом пробы и смыслом временного доступа."
+  },
+  "sources": {
+    "stentor_student_ii_violin": {
+      "kind": "education_product_line",
+      "url": "https://www.stentor-music.com/products/stentor-student-ii-violin-outfit-1500.html",
+      "supports": [
+        "Учебная скрипичная линейка и комплект."
+      ]
+    },
+    "eastman_vl100": {
+      "kind": "education_product_line",
+      "url": "https://www.eastmanstrings.com/violin/vl100/",
+      "supports": [
+        "Samuel Eastman VL100 как учебная серия скрипок."
+      ]
+    },
+    "yamaha_v5": {
+      "kind": "education_product_line",
+      "url": "https://es.yamaha.com/es/musical-instruments/strings/products/acoustic-strings/v5s/",
+      "supports": [
+        "V5 student violin family and outfit variants."
+      ]
+    },
+    "eastman_va100": {
+      "kind": "education_product_line",
+      "url": "https://www.eastmanstrings.com/viola/va100/",
+      "supports": [
+        "VA100 как учебная альтовая серия с размерными вариантами."
+      ]
+    },
+    "stentor_student_ii_viola": {
+      "kind": "education_product_line",
+      "url": "https://www.stentor-music.com/products/stentor-student-ii-viola-outfit-1505.html",
+      "supports": [
+        "Student II viola outfit and size context."
+      ]
+    },
+    "eastman_vc100": {
+      "kind": "education_product_line",
+      "url": "https://www.eastmanstrings.com/cello/vc100/",
+      "supports": [
+        "VC100 как учебная виолончельная серия в нескольких размерах."
+      ]
+    },
+    "goronok_cello": {
+      "kind": "education_product_line",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/",
+      "supports": [
+        "Российская размерная линейка виолончелей."
+      ]
+    },
+    "eastman_vb80": {
+      "kind": "education_product_line",
+      "url": "https://www.eastmanstrings.com/bass/vb80/",
+      "supports": [
+        "VB80 как school/rental-oriented double bass."
+      ]
+    },
+    "goronok_bass": {
+      "kind": "education_product_line",
+      "url": "https://goronok.ru/catalog/muzykalnye-instrumenty/kontrabasy/uchenicheskie-kontrabasy/",
+      "supports": [
+        "Учебные контрабасы в нескольких размерах."
+      ]
+    },
+    "doerfler_6_6a": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic",
+      "supports": [
+        "Brazilwood student bow series."
+      ]
+    },
+    "codabow_violin": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.codabow.com/products/prodigy-violin",
+      "supports": [
+        "Prodigy Violin as carbon-fiber student bow reference."
+      ]
+    },
+    "codabow_viola": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.codabow.com/products/prodigy-viola",
+      "supports": [
+        "Prodigy Viola as separate viola-bow model."
+      ]
+    },
+    "codabow_cello": {
+      "kind": "manufacturer_spec",
+      "url": "https://www.codabow.com/products/prodigy-cello",
+      "supports": [
+        "Prodigy Cello as separate cello-bow model."
+      ]
+    },
+    "upton_bass_bow": {
+      "kind": "manufacturer_spec",
+      "url": "https://uptonbass.com/product/ub-workshop-double-bass-bow-french-and-german-styles/",
+      "supports": [
+        "French and German bass-bow variants within one workshop line."
+      ]
+    },
+    "yamaha_ysv104": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/ysv104/features.html",
+      "supports": [
+        "YSV104 silent-practice architecture with control unit."
+      ]
+    },
+    "yamaha_yev": {
+      "kind": "manufacturer_spec",
+      "url": "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html",
+      "supports": [
+        "YEV104/YEV105 electric violin variants, four/five strings and passive stage-oriented output."
+      ]
+    },
+    "yamaha_sv250_255": {
+      "kind": "manufacturer_spec",
+      "url": "https://europe.yamaha.com/en/musical-instruments/strings/products/silent-series/sv250-255/features.html",
+      "supports": [
+        "Stage-oriented silent violin family and five-string SV255."
+      ]
+    },
+    "yamaha_svc50": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc50/specs.html",
+      "supports": [
+        "SVC50 body-support and connectivity context."
+      ]
+    },
+    "yamaha_svc110": {
+      "kind": "manufacturer_spec",
+      "url": "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc110/specs.html",
+      "supports": [
+        "SVC110 support geometry and connections."
+      ]
+    },
+    "yamaha_slb300": {
+      "kind": "manufacturer_spec",
+      "url": "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/specs.html",
+      "supports": [
+        "SLB300 scale length, supports and line-output context."
+      ]
+    }
+  },
+  "package": {
+    "violin_and_viola": 16,
+    "cello_and_double_bass": 16,
+    "bows": 16,
+    "electric_bowed": 16
+  },
+  "editorial_rules": [
+    "Размерная сцена строится от реальной геометрии руки и корпуса, а не от возраста как единственного правила.",
+    "Смычок рассматривается как отдельный интерфейс техники: баланс, упругость, система держания и работа в разных участках трости.",
+    "French/German double-bass bow, wood/carbon and electric/acoustic transitions являются независимыми координатами, а не лестницей качества.",
+    "Электрический инструмент не объявляется выше или ниже акустического: он решает другую сцену доступа, сигнала, мобильности и мониторинга.",
+    "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ]
+}
