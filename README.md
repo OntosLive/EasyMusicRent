@@ -10,28 +10,7 @@
 
 Действующие правила: [активный канон](docs/active-canon-2026-10-04.md). Полная восстановленная концепция: [концепция проекта](docs/project-concept.md).
 
-Последняя контрольная точка: [Волна проводимости 11 — 1916 тем](docs/audits/2026-10-06-conductivity-bridges-wave-11-1916.md). Новых URL нет: 64 немодельных task/scenario-листа получили 128 боковых переходов после достижения 100% модельного покрытия.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Последняя контрольная точка: [порядок в навигации и восстановлении — 1916 тем](docs/audits/2026-10-07-navigation-hygiene-1916.md). После волны проводимости 11 устранены 16 повторных маршрутов и одна самоссылка в источниках, усилена предварительная проверка, разделены метрики явной и боковой навигации. Публичный результат сохранён. Следующий содержательный участок задаёт текущий рабочий указатель.
 
 Учебный слой: [канон](docs/education-quality-canon.md) и [реестр источников и покрытия](docs/research/education-quality-coverage.json), дополненный [смычками и школьными требованиями](docs/research/bows-and-school-evidence.json) и [российской учебной арфой](docs/research/russian-harp-school-evidence.json) и [российской учебной классической гитарой](docs/research/russian-classical-guitar-school-evidence.json).
 
@@ -79,11 +58,14 @@
 | Установить зависимости | `python -m pip install -r requirements-site.txt` |
 | Проверить полный состав тем | `python scripts/content_inventory.py --output _audit/inventory.json` |
 | Найти близкие темы перед добавлением | `python scripts/content_inventory.py --match "контрабас"` |
+| Проверить весь граф, повторы и самоссылки | `python scripts/link_audit.py --report _audit/links.json` |
 | Собрать сайт | `python scripts/site_core.py --output _site --report _audit/build.json` |
 | Запустить тесты | `python -m unittest discover -s tests -v` |
 | Проверить готовые страницы | `python scripts/validate_site.py --site _site --report _audit/build.json --output _audit/validation.json` |
 
 Инвентаризация обнаруживает точные дубли и отсутствующих родителей. Смысловую самостоятельность и фактическую точность текста нужно проверять отдельно.
+
+Отчёт связности сохраняет прежние верхние показатели для сравнения с историческими волнами. Блок `strict_lateral` отдельно исключает прямого объявленного родителя страницы и её прямых детей. Полные определения и списки страниц находятся в `_audit/links.json`; отчёт включён в артефакты автоматических проверок.
 
 ## Сохранение и публикация
 

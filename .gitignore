@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+_site/
+_preview/
+_audit/
+.venv/

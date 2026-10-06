@@ -120,36 +120,16 @@
         "href": "/eastman-vb80-v-arendu/"
       }
     ],
-    "alt": [
-      {
-        "label": "Samuel Eastman VA100",
-        "href": "/eastman-va100-v-arendu/"
-      }
-    ],
     "violonchel": [
       {
         "label": "Samuel Eastman VC100",
         "href": "/eastman-vc100-v-arendu/"
       }
     ],
-    "kontrabas": [
-      {
-        "label": "Samuel Eastman VB80",
-        "href": "/eastman-vb80-v-arendu/"
-      }
-    ],
     "instrument-po-rekomendatsii-prepodavatelya": [
-      {
-        "label": "Eastman VA100",
-        "href": "/eastman-va100-v-arendu/"
-      },
       {
         "label": "Eastman VC100",
         "href": "/eastman-vc100-v-arendu/"
-      },
-      {
-        "label": "Eastman VB80",
-        "href": "/eastman-vb80-v-arendu/"
       }
     ]
   }
