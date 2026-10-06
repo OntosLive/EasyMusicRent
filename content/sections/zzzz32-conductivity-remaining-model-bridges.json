@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "scandalli-super-vi-v-arendu": [
+      {
+        "label": "Аккордеон перед покупкой",
+        "href": "/akkordeon-pered-pokupkoy/"
+      },
+      {
+        "label": "Аккордеон в камерном ансамбле",
+        "href": "/akkordeon-dlya-kamernogo-ansamblya/"
+      }
+    ],
+    "minimoog-model-d-v-arendu": [
+      {
+        "label": "Синтезатор для lead",
+        "href": "/sintezator-dlya-sozdaniya-lida/"
+      },
+      {
+        "label": "Аналоговый синтезатор перед покупкой",
+        "href": "/analogovyy-sintezator-pered-pokupkoy/"
+      }
+    ],
+    "roland-juno-106-v-arendu": [
+      {
+        "label": "Синтезатор для sound design",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Синтезатор перед покупкой",
+        "href": "/sintezator-pered-pokupkoy/"
+      }
+    ],
+    "fender-american-professional-ii-telecaster-v-arendu": [
+      {
+        "label": "Электрогитара для чистого звука",
+        "href": "/elektrogitara-dlya-chistogo-zvuka/"
+      },
+      {
+        "label": "Электрогитара с фиксированным бриджем",
+        "href": "/elektrogitara-s-fiksirovannym-bridzhem/"
+      }
+    ],
+    "fender-american-professional-ii-precision-bass-v-arendu": [
+      {
+        "label": "Бас с простым управлением",
+        "href": "/bas-gitara-s-prostym-upravleniem/"
+      },
+      {
+        "label": "Бас-гитара для рока",
+        "href": "/bas-gitara-dlya-roka/"
+      }
+    ],
+    "korg-monologue-v-arendu": [
+      {
+        "label": "Синтезатор для lead",
+        "href": "/sintezator-dlya-sozdaniya-lida/"
+      },
+      {
+        "label": "Hardware и software для сравнения",
+        "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
+      }
+    ],
+    "arturia-microfreak-v-arendu": [
+      {
+        "label": "Синтезатор для sound design",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Синтезатор для экспериментальной музыки",
+        "href": "/sintezator-dlya-eksperimentalnoy-muzyki/"
+      }
+    ],
+    "roland-aerophone-ae20-v-arendu": [
+      {
+        "label": "Электронный духовой для дома",
+        "href": "/elektronnyy-duhovoy-dlya-doma/"
+      },
+      {
+        "label": "Если нужно играть в наушниках",
+        "href": "/instrument-esli-nuzhno-igrat-v-naushnikah/"
+      }
+    ],
+    "expressive-e-osmose-v-arendu": [
+      {
+        "label": "MPE-контроллер для пробы",
+        "href": "/mpe-kontroller-dlya-proby/"
+      },
+      {
+        "label": "Синтезатор для импровизации",
+        "href": "/sintezator-dlya-improvizatsii/"
+      }
+    ],
+    "yamaha-p225-v-arendu": [
+      {
+        "label": "Сравнить механики цифровых пианино",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Цифровое пианино перед покупкой",
+        "href": "/cifrovoe-pianino-pered-pokupkoy/"
+      }
+    ],
+    "vic-firth-fresh-approach-starter-pack-v-arendu": [
+      {
+        "label": "Малый барабан для rudiments",
+        "href": "/malyy-baraban-dlya-rudimentov/"
+      },
+      {
+        "label": "Первый оркестровый опыт",
+        "href": "/perkussiya-dlya-pervogo-orkestrovogo-opyta/"
+      }
+    ],
+    "vic-firth-v8705-percussion-kit-v-arendu": [
+      {
+        "label": "Ударные на экзамен: ксилофон и малый",
+        "href": "/udarnye-dlya-ekzamena-ksilofon-i-malyy-baraban/"
+      },
+      {
+        "label": "Первый оркестровый опыт",
+        "href": "/perkussiya-dlya-pervogo-orkestrovogo-opyta/"
+      }
+    ],
+    "tula-bn46-detskiy-bayan-v-arendu": [
+      {
+        "label": "Баян ребёнку на первый год",
+        "href": "/bayan-rebenku-pervyy-god/"
+      },
+      {
+        "label": "Баян для домашних занятий",
+        "href": "/bayan-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "tula-etud205m2-v-arendu": [
+      {
+        "label": "Баян для домашних занятий",
+        "href": "/bayan-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Баян перед покупкой",
+        "href": "/bayan-pered-pokupkoy/"
+      }
+    ],
+    "mir-gusley-detskie-v-arendu": [
+      {
+        "label": "Инструмент ребёнку после выбора преподавателя",
+        "href": "/instrument-rebenku-posle-vybora-prepodavatelya/"
+      },
+      {
+        "label": "Первые занятия дома",
+        "href": "/instrument-dlya-pervyh-zanyatiy-doma/"
+      }
+    ],
+    "mir-gusley-zvonchatye-dlya-obucheniya": [
+      {
+        "label": "Гусли для сопровождения песни",
+        "href": "/gusli-dlya-pesennogo-soprovozhdeniya/"
+      },
+      {
+        "label": "Гусли перед покупкой",
+        "href": "/gusli-pered-pokupkoy/"
+      }
+    ]
+  }
+}
