@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-esli-tihaya-nota-ne-nachinaetsya": [
+      {
+        "label": "Смычок для тихой атаки",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      },
+      {
+        "label": "Цифровое пианино: работа над динамикой",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "instrument-esli-nota-nachinaetsya-s-shumom": [
+      {
+        "label": "Смычок для тихой атаки",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      },
+      {
+        "label": "Флейта перед покупкой: проверить отклик",
+        "href": "/fleyta-pered-pokupkoy/"
+      }
+    ],
+    "instrument-esli-sosednie-klavishi-otvechayut-po-raznomu": [
+      {
+        "label": "Сравнить механики цифровых пианино",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Акустическое пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "instrument-esli-povtornaya-nota-ne-uspevaet": [
+      {
+        "label": "Пианино для быстрых повторных нот",
+        "href": "/pianino-dlya-bystryh-povtornyh-not/"
+      },
+      {
+        "label": "Сравнить механики цифровых пианино",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      }
+    ],
+    "instrument-esli-klapan-zapazdyvaet": [
+      {
+        "label": "Труба для домашних занятий",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Валторна для домашних занятий",
+        "href": "/valtorna-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-esli-kulisa-idet-tugo": [
+      {
+        "label": "Тромбон для домашних занятий",
+        "href": "/trombon-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Тромбон перед покупкой",
+        "href": "/trombon-pered-pokupkoy/"
+      }
+    ],
+    "instrument-esli-piston-zakusaet": [
+      {
+        "label": "Труба для домашних занятий",
+        "href": "/truba-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Эуфониум для домашних занятий",
+        "href": "/evfonium-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-esli-pedal-rabotaet-kak-knopka": [
+      {
+        "label": "Цифровое пианино: работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Вибрафон: работа с педалью",
+        "href": "/vibrafon-dlya-raboty-s-pedalyu/"
+      }
+    ],
+    "instrument-esli-struny-slishkom-zhestkie": [
+      {
+        "label": "Акустическая гитара для первых аккордов",
+        "href": "/akusticheskaya-gitara-dlya-pervyh-akkordov/"
+      },
+      {
+        "label": "Скрипка взрослому начинающему",
+        "href": "/skripka-vzroslomu-nachinayuschemu/"
+      }
+    ],
+    "instrument-esli-otskok-slishkom-vysokiy": [
+      {
+        "label": "Малый барабан для rudiments",
+        "href": "/malyy-baraban-dlya-rudimentov/"
+      },
+      {
+        "label": "Электронные барабаны: работа над динамикой",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "instrument-esli-otskok-slishkom-myagkiy": [
+      {
+        "label": "Малый барабан для rudiments",
+        "href": "/malyy-baraban-dlya-rudimentov/"
+      },
+      {
+        "label": "Первая барабанная установка",
+        "href": "/barabannaya-ustanovka-dlya-pervogo-instrumenta/"
+      }
+    ],
+    "instrument-esli-meh-idet-ryvkami": [
+      {
+        "label": "Аккордеон: работа над мехом",
+        "href": "/akkordeon-dlya-raboty-nad-mehom/"
+      },
+      {
+        "label": "Баян: работа над мехом",
+        "href": "/bayan-dlya-raboty-nad-mehom/"
+      }
+    ],
+    "instrument-esli-stroy-uplyvaet": [
+      {
+        "label": "Электрогитара с фиксированным бриджем",
+        "href": "/elektrogitara-s-fiksirovannym-bridzhem/"
+      },
+      {
+        "label": "Акустическая гитара перед покупкой",
+        "href": "/akusticheskaya-gitara-pered-pokupkoy/"
+      }
+    ],
+    "instrument-esli-lady-ne-stroyat": [
+      {
+        "label": "Акустическая гитара перед покупкой",
+        "href": "/akusticheskaya-gitara-pered-pokupkoy/"
+      },
+      {
+        "label": "Электрогитара перед покупкой",
+        "href": "/elektrogitara-pered-pokupkoy/"
+      }
+    ],
+    "instrument-esli-zvuk-nerovnyy-po-diapazonu": [
+      {
+        "label": "Кларнет перед покупкой",
+        "href": "/klarinet-pered-pokupkoy/"
+      },
+      {
+        "label": "Виолончель перед покупкой",
+        "href": "/violonchel-pered-pokupkoy/"
+      }
+    ],
+    "instrument-esli-mehanika-shumit-v-zapisi": [
+      {
+        "label": "Цифровое пианино для записи audio",
+        "href": "/cifrovoe-pianino-dlya-zapisi-audio/"
+      },
+      {
+        "label": "Электроскрипка для прямой записи",
+        "href": "/elektroskripka-dlya-zapisi-napryamuyu/"
+      }
+    ]
+  }
+}
