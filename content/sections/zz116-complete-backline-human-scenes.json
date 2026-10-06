@@ -1,0 +1,876 @@
+{
+  "pages": [
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для первого концерта в аренду",
+      "editorial_title": "Первый концерт: собрать сцену так, чтобы музыканты продолжили играть, а не изучать оборудование",
+      "description": "Backline для первого концерта: drums, guitar/bass amps, keyboards, DI and soundcheck.",
+      "kicker": "ПЕРВЫЙ КОНЦЕРТ · BACKLINE · SOUND CHECK",
+      "intro": [
+        "<p>Первый концерт часто ломается не на музыке, а на том, что каждый участник впервые встречается с чужой сценической инфраструктурой.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала фиксируют домашние и репетиционные интерфейсы группы",
+          "paragraphs": [
+            "Какие педали, усилители, клавиши и размеры барабанов уже встроены в программу."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Backline собирают как минимальную систему продолжения",
+          "paragraphs": [
+            "Не нужно давать группе больше оборудования, чем она умеет использовать. Нужно восстановить знакомые функции."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда закрывает первый сценический опыт без закупки концертного парка",
+          "paragraphs": [
+            "После нескольких концертов группа уже знает, что действительно нужно постоянно."
+          ]
+        }
+      ],
+      "quote": "Какие три-четыре интерфейса группы критично сохранить на первой сцене?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-klubnoy-stseny",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для клубной сцены в аренду",
+      "editorial_title": "Клубная сцена: компактный backline должен оставить место музыке и людям",
+      "description": "Backline для клуба: compact drums, guitar/bass amps, keyboards and fast stage setup.",
+      "kicker": "КЛУБ · COMPACT BACKLINE · STAGE SPACE",
+      "intro": [
+        "<p>На клубной сцене каждый лишний корпус отнимает физическое пространство и увеличивает сценическую громкость.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала уменьшают систему до реальных ролей",
+          "paragraphs": [
+            "Большой 4×12, 8×10 или двухклавиатурный rig нужны только если программа действительно использует их преимущества."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Проверяют сцену как геометрию",
+          "paragraphs": [
+            "Музыканты должны безопасно перемещаться, а звукорежиссёр получать управляемый уровень до PA."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет адаптировать backline к конкретному клубу",
+          "paragraphs": [
+            "Один и тот же собственный парк не обязан подходить всем площадкам."
+          ]
+        }
+      ],
+      "quote": "Что на этой сцене ограничено сильнее: место, громкость или время сборки?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарный усилитель для малой сцены",
+          "href": "/gitarnyy-usilitel-dlya-maloy-stseny/"
+        },
+        {
+          "label": "Клавишные для малой сцены",
+          "href": "/klavishnye-dlya-maloy-stseny/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-festivalya",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для фестиваля в аренду",
+      "editorial_title": "Фестиваль: backline должен пережить много артистов и не превратиться в археологию кабелей",
+      "description": "Festival backline: shared drums, amps, keyboards, DI, changeover and artist-specific exceptions.",
+      "kicker": "FESTIVAL · SHARED BACKLINE · CHANGEOVER",
+      "intro": [
+        "<p>Фестивальный backline отличается от концертного тем, что один парк должен обслужить несколько артистов с короткими интервалами.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют shared base и исключения",
+          "paragraphs": [
+            "Установка, некоторые amps и keyboards могут быть общими, но отдельные райдерные позиции требуют замены между сетами."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Changeover репетируют как отдельный сценарий",
+          "paragraphs": [
+            "Кабели, педали и уровни должны возвращаться к известному состоянию."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать большой парк ровно на фестивальные даты",
+          "paragraphs": [
+            "После события вся инфраструктура исчезает из постоянных расходов площадки."
+          ]
+        }
+      ],
+      "quote": "Какие позиции можно сделать общими для всех артистов, а какие должны меняться?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Клавишные для фестиваля",
+          "href": "/klavishnye-dlya-festivalya/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-bystroy-smeny-grupp",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для быстрой смены групп в аренду",
+      "editorial_title": "Быстрая смена групп: каждая минута changeover должна быть заранее запрограммирована людьми",
+      "description": "Fast changeover backline: shared kit, amps, keyboard reset, patching and stage handoff.",
+      "kicker": "CHANGEOVER · SHARED RIG · HANDOFF",
+      "intro": [
+        "<p>Смена групп за десять минут невозможна, если каждый backline-узел собирается заново из случайных предметов.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют, что остаётся на сцене",
+          "paragraphs": [
+            "Общий drum shell pack, часть кабинетов и стойки могут не двигаться вообще."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Для сменяемых элементов создают порядок handoff",
+          "paragraphs": [
+            "Головы, педали, keyboards и DI подключаются в известной последовательности."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда даёт единый парк и единую ответственность",
+          "paragraphs": [
+            "Это снижает количество несовместимых частных комплектов."
+          ]
+        }
+      ],
+      "quote": "Какие элементы должны оставаться на сцене между группами, чтобы changeover был реальным?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backstage Backline: published instrument and backline inventory",
+          "url": "https://www.backstagebackline.com/instruments-and-more"
+        },
+        {
+          "title": "Show4Rent: backline and stage connectivity",
+          "url": "https://www.show4rent.ru/backline"
+        }
+      ],
+      "links": [
+        {
+          "label": "Backline для фестиваля",
+          "href": "/backline-dlya-festivalya/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для гастрольного тура в аренду",
+      "editorial_title": "Туровый backline: одинаковая функция должна возникать в каждом городе заново",
+      "description": "Tour backline: rider, local suppliers, substitutes, keyboards, amps, drums and daily verification.",
+      "kicker": "TOUR · LOCAL BACKLINE · RIDER",
+      "intro": [
+        "<p>В туре тяжёлый backline выгодно не возить, а воспроизводить локально. Тогда главным активом становится точный rider и процедура проверки.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Райдер переводят в функциональный контракт",
+          "paragraphs": [
+            "Модели, размеры, интерфейсы и допустимые substitutes должны быть описаны заранее."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "В каждом городе проводят короткую повторяемую проверку",
+          "paragraphs": [
+            "Артист должен получить знакомую систему независимо от поставщика."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда локализует тяжёлую логистику",
+          "paragraphs": [
+            "Группа перевозит только то, что действительно индивидуально и незаменимо."
+          ]
+        }
+      ],
+      "quote": "Что в вашем backline можно воспроизводить локально, а что должно ехать с артистом?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        },
+        {
+          "title": "Swiss Backline: professional equipment inventory",
+          "url": "https://backline.ch/equipment/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарный backline по райдеру",
+          "href": "/gitarnyy-backline-po-rayderu/"
+        },
+        {
+          "label": "Басовый backline по райдеру",
+          "href": "/basovyy-backline-po-rayderu/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-fly-date",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для fly-date концерта в аренду",
+      "editorial_title": "Fly-date: артист прилетает с руками и личным минимумом, сцена уже собрана",
+      "description": "Fly-date backline: local instruments, amps, keyboards, drums, pedals and pre-advance.",
+      "kicker": "FLY DATE · LOCAL BACKLINE · ADVANCE",
+      "intro": [
+        "<p>Fly-date логика особенно чисто показывает смысл backline: музыкант не перевозит тяжёлый парк, а получает локально заранее согласованную среду.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "До вылета закрывают advance",
+          "paragraphs": [
+            "Модель, размеры, педали, стойки и допустимые замены должны быть подтверждены письменно."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "На площадке остаётся только handoff и line check",
+          "paragraphs": [
+            "Саундчек не должен превращаться в переговоры о том, что приехало."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда существует ровно одну дату или короткий run",
+          "paragraphs": [
+            "Это один из самых чистых случаев временного доступа."
+          ]
+        }
+      ],
+      "quote": "Какой личный минимум артист всё же везёт с собой, а что полностью отдаётся локальному backline?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        },
+        {
+          "title": "Backstage Backline: published instrument and backline inventory",
+          "url": "https://www.backstagebackline.com/instruments-and-more"
+        }
+      ],
+      "links": [
+        {
+          "label": "Клавишные без своего инструмента",
+          "href": "/klavishnye-dlya-backline-bez-svoego-instrumenta/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-po-rayderu-dlya-gruppy",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline по райдеру для группы в аренду",
+      "editorial_title": "Групповой райдер: несколько инструментальных систем должны встретиться на одной сцене без конфликтов",
+      "description": "Band backline by rider: guitar, bass, drums, keyboards, DI and approved substitutes.",
+      "kicker": "BAND RIDER · SYSTEM · COMPATIBILITY",
+      "intro": [
+        "<p>Райдер группы состоит из нескольких автономных привычек музыкантов. Backline-провайдер должен собрать их так, чтобы они не конфликтовали по пространству и коммутации.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Каждую позицию сначала читают внутри партии музыканта",
+          "paragraphs": [
+            "Гитарный amp, басовый DI, drum sizes и keyboard action несут разные типы обязательности."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Затем собирают общий сценический план",
+          "paragraphs": [
+            "Даже идеальные отдельные позиции могут не поместиться физически или электрически вместе."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда переводит райдер в готовую сцену",
+          "paragraphs": [
+            "Не в набор коробок у погрузочной двери."
+          ]
+        }
+      ],
+      "quote": "Какие позиции райдера индивидуальны, а какие должны быть согласованы на уровне всей сцены?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        },
+        {
+          "title": "Backstage Backline: published instrument and backline inventory",
+          "url": "https://www.backstagebackline.com/instruments-and-more"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-ritm-sektsii",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для ритм-секции в аренду",
+      "editorial_title": "Ритм-секция: бас и барабаны должны сначала сцепиться физически, потом уже громко",
+      "description": "Rhythm section backline: drums, bass amp/DI, stage placement and shared groove.",
+      "kicker": "RHYTHM SECTION · DRUMS + BASS · GROOVE",
+      "intro": [
+        "<p>Backline ритм-секции — это не просто барабаны рядом с басовым кабинетом. Их физическое и звуковое расположение определяет, насколько легко музыканты держат общий пульс.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала собирают drums и bass monitoring",
+          "paragraphs": [
+            "Басист должен слышать атаку бочки, барабанщик — артикуляцию баса."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Проверяют простой groove до остальных инструментов",
+          "paragraphs": [
+            "Если секция не сцепляется в одиночку, общий микс ситуацию не исправит."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать согласованную основу группы",
+          "paragraphs": [
+            "Особенно на фестивале и fly-date."
+          ]
+        }
+      ],
+      "quote": "Как басист и барабанщик будут слышать друг друга до появления полного микса?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Басовый усилитель для концерта",
+          "href": "/basovyy-usilitel-dlya-kontserta/"
+        },
+        {
+          "label": "Барабанная установка для концерта",
+          "href": "/barabannaya-ustanovka-dlya-kontserta/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-akusticheskogo-kontserta",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для акустического концерта в аренду",
+      "editorial_title": "Акустический концерт: backline должен уменьшить масштаб, а не исчезнуть полностью",
+      "description": "Acoustic concert backline: acoustic amps, cajon/percussion, DI and compact keyboards.",
+      "kicker": "ACOUSTIC · COMPACT · DI",
+      "intro": [
+        "<p>Акустический формат не означает отсутствие инфраструктуры. Просто её роль меняется: меньше сценической громкости, больше аккуратной передачи естественного тембра.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала отделяют источники, которым нужен только DI, от тех, кому нужен локальный amp",
+          "paragraphs": [
+            "Акустическая гитара, клавиши и лёгкая перкуссия требуют разных путей."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Проверяют концерт без лишнего сценического давления",
+          "paragraphs": [
+            "Backline должен поддерживать живую динамику, а не превращать acoustic set в обычный громкий концерт."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать отдельный камерный парк",
+          "paragraphs": [
+            "Не перестраивая постоянный роковый backline."
+          ]
+        }
+      ],
+      "quote": "Какие инструменты должны остаться реально акустическими, а какие требуют лёгкого усиления?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Show4Rent: backline and stage connectivity",
+          "url": "https://www.show4rent.ru/backline"
+        }
+      ],
+      "links": [
+        {
+          "label": "Акустические усилители",
+          "href": "/akusticheskie-usiliteli/"
+        },
+        {
+          "label": "DI-боксы",
+          "href": "/di-boksy/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-dzhazovogo-kvinteta",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для джазового квинтета в аренду",
+      "editorial_title": "Джазовый backline: инструменты должны оставлять место спонтанной динамике",
+      "description": "Jazz quintet backline: drums, bass amp/DI, piano/keyboard and small-stage balance.",
+      "kicker": "JAZZ · DYNAMICS · SHARED SPACE",
+      "intro": [
+        "<p>Джазовый состав особенно чувствителен к слишком большому backline: громкий amp или большой drum setup быстро убирают динамическую свободу.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала выбирают минимальный рабочий масштаб",
+          "paragraphs": [
+            "Компактный drum set, bass amp/DI и piano/keyboard должны поддерживать акустический баланс."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Проверяют тихий chorus и плотный tutti",
+          "paragraphs": [
+            "Backline должен позволять ансамблю менять динамику без технической перестройки."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда полезна для клубной или фестивальной даты",
+          "paragraphs": [
+            "Парк можно собрать именно под размер сцены."
+          ]
+        }
+      ],
+      "quote": "Какая часть backline сильнее всего рискует перегрузить джазовый баланс?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backstage Backline: published instrument and backline inventory",
+          "url": "https://www.backstagebackline.com/instruments-and-more"
+        }
+      ],
+      "links": [
+        {
+          "label": "Барабанная установка для джаза",
+          "href": "/barabannaya-ustanovka-dlya-dzheza/"
+        },
+        {
+          "label": "Stage piano по райдеру",
+          "href": "/stage-piano-po-rayderu/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-rok-gruppy",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для рок-группы в аренду",
+      "editorial_title": "Рок-backline: плотность должна возникать из согласованной системы, а не из четырёх независимых максимумов",
+      "description": "Rock band backline: guitar amps, bass rig, drums, keyboards and stage volume.",
+      "kicker": "ROCK · STAGE VOLUME · SYSTEM",
+      "intro": [
+        "<p>Рок-группа легко превращает сцену в соревнование усилителей. Хороший backline собирает плотность без потери общего контроля.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют допустимый stage volume",
+          "paragraphs": [
+            "Гитарные amps, басовый cabinet и drums должны работать как одна система внутри конкретного PA."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Проверяют самый плотный рифф всей группой",
+          "paragraphs": [
+            "Если каждый участник увеличивает громкость вслед за соседом, backline не собран."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет масштабировать рок-сет под площадку",
+          "paragraphs": [
+            "От клуба до большой сцены без одной универсальной стены кабинетов."
+          ]
+        }
+      ],
+      "quote": "Где в вашем рок-сете начинается гонка сценической громкости?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backstage Backline: published instrument and backline inventory",
+          "url": "https://www.backstagebackline.com/instruments-and-more"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарный усилитель high-gain",
+          "href": "/gitarnyy-usilitel-dlya-high-gain/"
+        },
+        {
+          "label": "Басовый усилитель для концерта",
+          "href": "/basovyy-usilitel-dlya-kontserta/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-vokalista-s-gitaroy",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для вокалиста с гитарой в аренду",
+      "editorial_title": "Один исполнитель: минимальная сцена должна закрыть голос, гитару и самоконтроль",
+      "description": "Singer-guitarist backline: acoustic amp or DI, guitar amp, keyboard optional and compact stage setup.",
+      "kicker": "SOLO · VOCAL + GUITAR · COMPACT",
+      "intro": [
+        "<p>Сольный артист часто не нуждается в полном band backline, но ему всё равно нужна рабочая цепь инструмента и удобный контроль на сцене.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяется акустическая или электрическая гитарная логика",
+          "paragraphs": [
+            "Акустическая гитара может идти через DI/акустический amp, электрическая — через отдельный guitar amp."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Проверяют весь номер вместе с голосом",
+          "paragraphs": [
+            "Инструментальная инфраструктура не должна заставлять вокалиста перекрикивать собственную гитару."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать компактный one-person rig на тур",
+          "paragraphs": [
+            "Без покупки полноценного band-парка."
+          ]
+        }
+      ],
+      "quote": "Гитара акустическая или электрическая и что артист должен контролировать со сцены самостоятельно?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Show4Rent: backline and stage connectivity",
+          "url": "https://www.show4rent.ru/backline"
+        }
+      ],
+      "links": [
+        {
+          "label": "Акустический усилитель для вокалиста",
+          "href": "/akusticheskiy-usilitel-dlya-vokalista-s-gitaroy/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-rezervnogo-komplekta",
+      "parent": "usiliteli-backline",
+      "search_title": "Резервный backline для концерта в аренду",
+      "editorial_title": "Резервный комплект: запасной путь должен быть готов раньше первой поломки",
+      "description": "Backup backline: spare amp, keyboard, DI and fast failover for live production.",
+      "kicker": "BACKUP · FAILOVER · LIVE",
+      "intro": [
+        "<p>Резервный backline имеет смысл только тогда, когда его можно включить быстро. Запасной amp в кейсе на другом конце площадки не является рабочим failover.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала определяют точки, где отказ останавливает концерт",
+          "paragraphs": [
+            "Клавиатура, guitar amp, bass DI или critical pedal chain могут иметь разную цену отказа."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Проверяют процедуру переключения заранее",
+          "paragraphs": [
+            "Команда должна знать, кто и что меняет без обсуждения во время шоу."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет создать резерв только на критическую дату",
+          "paragraphs": [
+            "Постоянно покупать дубль каждой позиции не нужно."
+          ]
+        }
+      ],
+      "quote": "Какие три отказа способны остановить ваш концерт и сколько секунд есть на переключение?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-soundcheck-do-priezda-artista",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline для soundcheck до приезда артиста в аренду",
+      "editorial_title": "Backline до приезда артиста: техническая команда должна проверить всё, что можно проверить без его рук",
+      "description": "Pre-artist backline check: power, routing, pedals, outputs, amp/cab pairing and line test.",
+      "kicker": "PRE-CHECK · LINE TEST · ADVANCE",
+      "intro": [
+        "<p>Часть backline можно и нужно проверить до появления музыканта: питание, кабели, routing, pedals polarity, DI and amp/cab compatibility.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала отделяют объективные проверки от исполнительских",
+          "paragraphs": [
+            "Техническая команда может проверить сигнал и коммутацию, но не заменить артиста в оценке action или feel."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "К приезду артиста оставляют только handoff",
+          "paragraphs": [
+            "Это экономит soundcheck и снижает число сюрпризов."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда вместе с advance превращает backline в подготовленную инфраструктуру",
+          "paragraphs": [
+            "А не в набор нераспакованных кейсов."
+          ]
+        }
+      ],
+      "quote": "Что можно проверить до артиста, а что обязательно требует его рук и ушей?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        },
+        {
+          "title": "Show4Rent: backline and stage connectivity",
+          "url": "https://www.show4rent.ru/backline"
+        }
+      ],
+      "links": [
+        {
+          "label": "Backline по райдеру",
+          "href": "/backline-po-rayderu-dlya-gruppy/"
+        }
+      ]
+    },
+    {
+      "slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "parent": "usiliteli-backline",
+      "search_title": "Функциональная замена backline по райдеру в аренду",
+      "editorial_title": "Substitute: заменить название можно только после того, как понятна функция",
+      "description": "Functional backline substitute: rider requirements, compatibility, artist approval and soundcheck.",
+      "kicker": "SUBSTITUTE · RIDER · FUNCTION",
+      "intro": [
+        "<p>Когда точной модели нет, худшая замена — выбрать похожий предмет без понимания того, зачем артист написал исходную позицию.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Сначала извлекают функцию из названия модели",
+          "paragraphs": [
+            "Action, channels, output, speaker format, dimensions and familiar workflow могут быть скрыты в одном брендовом имени."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "Замена согласовывается с артистом заранее",
+          "paragraphs": [
+            "Backline-провайдеры прямо рекомендуют не оставлять substitution на день шоу."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Аренда позволяет собрать эквивалентную функцию из локального парка",
+          "paragraphs": [
+            "Это и есть зрелая работа фонда и backline."
+          ]
+        }
+      ],
+      "quote": "Что именно артист теряет, если заменить исходную модель случайным аналогом?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        },
+        {
+          "title": "Swiss Backline: professional equipment inventory",
+          "url": "https://backline.ch/equipment/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Гитарный backline по райдеру",
+          "href": "/gitarnyy-backline-po-rayderu/"
+        },
+        {
+          "label": "Сценические клавишные по райдеру",
+          "href": "/scenicheskie-klavishnye-po-rayderu/"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-odnodnevnoy-arendy",
+      "parent": "usiliteli-backline",
+      "search_title": "Backline на один день в аренду",
+      "editorial_title": "Один день: временная инфраструктура должна быть полностью готова, потому что второго дня на настройку нет",
+      "description": "One-day backline rental: advance, delivery, setup, soundcheck and same-day return.",
+      "kicker": "1 ДЕНЬ · READY-TO-PLAY · ЛОГИСТИКА",
+      "intro": [
+        "<p>Короткая аренда не означает упрощённую подготовку. Наоборот, чем меньше срок, тем важнее закрыть все вопросы до даты.</p>"
+      ],
+      "blocks": [
+        {
+          "label": "01 / ЗАДАЧА",
+          "title": "Advance завершают заранее",
+          "paragraphs": [
+            "Список моделей, допустимых замен, время доступа и stage plan должны быть известны до доставки."
+          ]
+        },
+        {
+          "label": "02 / СБОРКА",
+          "title": "На площадке backline сразу собирается в playable state",
+          "paragraphs": [
+            "Времени на исследование неизвестных интерфейсов нет."
+          ]
+        },
+        {
+          "label": "03 / СРОК",
+          "title": "Вся система существует один день и затем исчезает",
+          "paragraphs": [
+            "Это чистая модель временного доступа к способности сцены."
+          ]
+        }
+      ],
+      "quote": "Что должно быть уже решено до дня аренды, чтобы сама дата осталась только исполнением?",
+      "sources": [
+        {
+          "title": "Backline Source: professional backline rental categories",
+          "url": "https://www.backlinesource.com/"
+        },
+        {
+          "title": "Backline Source: advance planning and rider substitutes",
+          "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+        },
+        {
+          "title": "Backstage Backline: published instrument and backline inventory",
+          "url": "https://www.backstagebackline.com/instruments-and-more"
+        }
+      ],
+      "links": [
+        {
+          "label": "Усилители и backline",
+          "href": "/usiliteli-backline/"
+        }
+      ]
+    }
+  ]
+}
