@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "skripka-s-legkim-otklikom": [
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Смычок для тихой атаки",
+        "href": "/smychok-dlya-tihoy-ataki/"
+      }
+    ],
+    "pianino-s-rovnoy-klaviaturoy": [
+      {
+        "label": "Сравнить механики цифровых пианино",
+        "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/"
+      },
+      {
+        "label": "Акустическое пианино для долгих занятий",
+        "href": "/pianino-dlya-dolgih-zanyatiy/"
+      }
+    ],
+    "cifrovoe-pianino-s-polupedalyu": [
+      {
+        "label": "Цифровое пианино: работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Акустическое пианино: работа над педалью",
+        "href": "/pianino-dlya-raboty-nad-pedalyu/"
+      }
+    ],
+    "gitara-s-nizkoy-vysotoy-strun": [
+      {
+        "label": "Акустическая гитара для первых аккордов",
+        "href": "/akusticheskaya-gitara-dlya-pervyh-akkordov/"
+      },
+      {
+        "label": "Электрогитара для домашних занятий",
+        "href": "/elektrogitara-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "ukulele-so-stroyaschimi-ladami": [
+      {
+        "label": "Укулеле для домашних занятий",
+        "href": "/ukulele-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Укулеле перед покупкой",
+        "href": "/ukulele-pered-pokupkoy/"
+      }
+    ],
+    "arfa-s-udobnym-natyazheniem-strun": [
+      {
+        "label": "Арфа для домашних занятий",
+        "href": "/arfa-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Леверсная арфа ребёнку",
+        "href": "/leversnaya-arfa-rebenku/"
+      }
+    ],
+    "duhovoy-s-legkim-otklikom": [
+      {
+        "label": "Флейта взрослому начинающему",
+        "href": "/fleyta-vzroslomu-nachinayuschemu/"
+      },
+      {
+        "label": "Труба взрослому начинающему",
+        "href": "/truba-vzroslomu-nachinayuschemu/"
+      }
+    ],
+    "barabany-s-upravlyaemym-otskokom": [
+      {
+        "label": "Малый барабан для rudiments",
+        "href": "/malyy-baraban-dlya-rudimentov/"
+      },
+      {
+        "label": "Электронные барабаны: работа над динамикой",
+        "href": "/elektronnye-barabany-dlya-raboty-nad-dinamikoy/"
+      }
+    ],
+    "bayan-s-legkim-mehom": [
+      {
+        "label": "Баян: работа над мехом",
+        "href": "/bayan-dlya-raboty-nad-mehom/"
+      },
+      {
+        "label": "Баян для домашних занятий",
+        "href": "/bayan-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "sintezator-s-ponyatnym-upravleniem": [
+      {
+        "label": "Первый опыт синтеза",
+        "href": "/sintezator-dlya-pervogo-opyta-sinteza/"
+      },
+      {
+        "label": "Hardware и software: сравнить способ работы",
+        "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
+      }
+    ],
+    "narodnyy-instrument-po-trebovaniyam-pedagoga": [
+      {
+        "label": "Домра для домашних занятий",
+        "href": "/domra-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Балалайка для домашних занятий",
+        "href": "/balalayka-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "istoricheskiy-instrument-s-nuzhnym-stroem": [
+      {
+        "label": "Лютня для барочной программы",
+        "href": "/lyutnya-dlya-barochnoy-programmy/"
+      },
+      {
+        "label": "Теорба для continuo",
+        "href": "/teorba-dlya-continuo/"
+      }
+    ],
+    "eksperimentalnyy-instrument-s-povtoryaemoy-nastroykoy": [
+      {
+        "label": "Синтезатор для sound design",
+        "href": "/sintezator-dlya-saund-dizayna/"
+      },
+      {
+        "label": "Модуляция в реальном времени",
+        "href": "/sintezator-dlya-modulyatsii-v-realnom-vremeni/"
+      }
+    ],
+    "usilitel-dlya-domashnih-uchebnyh-zanyatiy": [
+      {
+        "label": "Электрогитара для домашних занятий",
+        "href": "/elektrogitara-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Бас-гитара для домашних занятий",
+        "href": "/bas-gitara-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-po-rekomendatsii-prepodavatelya": [
+      {
+        "label": "Цифровое пианино на пробный учебный период",
+        "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/"
+      },
+      {
+        "label": "Скрипка для домашних занятий",
+        "href": "/skripka-dlya-domashnih-zanyatiy/"
+      }
+    ],
+    "instrument-po-trebovaniyam-k-kachestvu": [
+      {
+        "label": "Если тяжело прижимать",
+        "href": "/instrument-esli-tyazhelo-prizhimat/"
+      },
+      {
+        "label": "Если слишком громко для дома",
+        "href": "/instrument-esli-slishkom-gromko-dlya-doma/"
+      }
+    ]
+  }
+}
