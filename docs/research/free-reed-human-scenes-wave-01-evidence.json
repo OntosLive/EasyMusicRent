@@ -11,10 +11,10 @@
     "editorial_inference": "Связывает подтверждённую систему с человеческой сценой, способом пробы и смыслом временного доступа."
   },
   "package": {
-    "accordion": 16,
-    "bayan": 16,
-    "harmonica_melodica": 16,
-    "garmon_bandoneon_concertina": 16
+    "accordion_bayan_core": 16,
+    "sizes_freebass_garmon_bandoneon": 16,
+    "harmonica": 16,
+    "melodica_and_free_reed_transitions": 16
   },
   "sources": {
     "hohner_accordions": {
@@ -134,10 +134,17 @@
   },
   "editorial_rules": [
     "Число басов трактуется как размерно-функциональная координата, а не рейтинг качества.",
-    "Баян и аккордеон не смешиваются: правая клавиатурная система является самостоятельным интерфейсом.",
+    "Баян и piano accordion не смешиваются: правая клавиатурная система является самостоятельным интерфейсом.",
     "Выборный/free bass публикуется как новая функция левой руки, а не премиальная опция.",
     "Губная гармоника сначала различается по системе и тональности, затем по жанру.",
+    "Мелодика рассматривается как отдельный клавишно-дыхательный интерфейс, а не как игрушечная клавиатура.",
     "Гармонь, бандонеон и концертина требуют точного выбора исполнительской системы до бренда.",
     "Наличие страницы не подтверждает наличие конкретного экземпляра фонда."
+  ],
+  "actual_files": [
+    "content/sections/zz105-accordion-bayan-human-scenes.json",
+    "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+    "content/sections/zz107-harmonica-human-scenes.json",
+    "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json"
   ]
 }
