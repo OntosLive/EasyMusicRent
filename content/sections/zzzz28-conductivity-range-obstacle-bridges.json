@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "instrument-esli-ne-hvataet-nizhnego-registra": [
+      {
+        "label": "Если не хватает диапазона",
+        "href": "/instrument-esli-ne-hvataet-diapazona/"
+      },
+      {
+        "label": "Если нужна дополнительная низкая струна",
+        "href": "/instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-verhnego-registra": [
+      {
+        "label": "Если не хватает диапазона",
+        "href": "/instrument-esli-ne-hvataet-diapazona/"
+      },
+      {
+        "label": "Step-up по рекомендации",
+        "href": "/instrument-dlya-step-up-po-rekomendatsii/"
+      }
+    ],
+    "instrument-esli-ne-hvataet-diapazona": [
+      {
+        "label": "Если не хватает нижнего регистра",
+        "href": "/instrument-esli-ne-hvataet-nizhnego-registra/"
+      },
+      {
+        "label": "Если не хватает верхнего регистра",
+        "href": "/instrument-esli-ne-hvataet-verhnego-registra/"
+      }
+    ],
+    "instrument-esli-nuzhen-drugoy-stroy": [
+      {
+        "label": "Отдельный инструмент под строй",
+        "href": "/instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy/"
+      },
+      {
+        "label": "Смена строя по рекомендации",
+        "href": "/instrument-smenit-stroy-po-rekomendatsii/"
+      }
+    ],
+    "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna": [
+      {
+        "label": "Пятиструнная электроскрипка",
+        "href": "/pyatistrunnaya-elektroskripka-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Пятиструнная бас-гитара",
+        "href": "/bas-gitara-dlya-pyatoy-struny/"
+      }
+    ],
+    "instrument-esli-nuzhen-vybornyy-bas": [
+      {
+        "label": "Баян: переход на выборный бас",
+        "href": "/bayan-dlya-perehoda-na-vybornyy-bas/"
+      },
+      {
+        "label": "Аккордеон с выборным басом",
+        "href": "/akkordeon-s-vybornym-basom-dlya-obucheniya/"
+      }
+    ],
+    "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya": [
+      {
+        "label": "Если педаль работает как кнопка",
+        "href": "/instrument-esli-pedal-rabotaet-kak-knopka/"
+      },
+      {
+        "label": "Цифровое пианино с полупедалью",
+        "href": "/cifrovoe-pianino-s-polupedalyu/"
+      }
+    ],
+    "instrument-esli-nuzhen-kvartventil": [
+      {
+        "label": "Тромбон с квартвентилем",
+        "href": "/trombon-s-kvartventilem-dlya-perehoda/"
+      },
+      {
+        "label": "Первый опыт на бас-тромбоне",
+        "href": "/bas-trombon-dlya-pervogo-opyta/"
+      }
+    ],
+    "instrument-esli-nuzhny-otkrytye-klapany": [
+      {
+        "label": "Переход на открытые клапаны",
+        "href": "/fleyta-dlya-perehoda-na-otkrytye-klapany/"
+      },
+      {
+        "label": "Yamaha YFL-372",
+        "href": "/yamaha-yfl372-v-arendu/"
+      }
+    ],
+    "instrument-esli-nuzhna-dvoynaya-valtorna": [
+      {
+        "label": "Переход на двойную валторну",
+        "href": "/valtorna-dlya-perehoda-na-dvoynuyu-sistemu/"
+      },
+      {
+        "label": "Yamaha YHR-567",
+        "href": "/yamaha-yhr567-v-arendu/"
+      }
+    ],
+    "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury": [
+      {
+        "label": "Stage keyboard для пианиста",
+        "href": "/scenicheskie-klavishnye-dlya-pianista/"
+      },
+      {
+        "label": "MIDI-клавиатура для оркестровки",
+        "href": "/midi-klaviatura-dlya-orkestrovki/"
+      }
+    ],
+    "instrument-esli-nuzhen-vyrez-korpusa": [
+      {
+        "label": "Акустическая гитара с вырезом",
+        "href": "/akusticheskaya-gitara-s-vyrezom/"
+      },
+      {
+        "label": "Yamaha FGX800C",
+        "href": "/yamaha-fgx800c-v-arendu/"
+      }
+    ],
+    "instrument-esli-nuzhna-korotkaya-menzura": [
+      {
+        "label": "Короткомензурный бас взрослому",
+        "href": "/korotkomensurnaya-bas-gitara-vzroslomu/"
+      },
+      {
+        "label": "Электрогитара для небольшой руки",
+        "href": "/elektrogitara-dlya-nebolshoy-ruki/"
+      }
+    ],
+    "instrument-esli-nuzhen-kompaktnyy-korpus": [
+      {
+        "label": "Акустическая гитара с компактным корпусом",
+        "href": "/akusticheskaya-gitara-s-kompaktnym-korpusom/"
+      },
+      {
+        "label": "Цифровое пианино для маленькой комнаты",
+        "href": "/cifrovoe-pianino-dlya-malenkoy-komnaty/"
+      }
+    ],
+    "instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy": [
+      {
+        "label": "Акустическая гитара для открытых строев",
+        "href": "/akusticheskaya-gitara-dlya-otkrytyh-stroev/"
+      },
+      {
+        "label": "Электрогитара для тяжёлого строя",
+        "href": "/elektrogitara-dlya-tyazhelogo-stroya/"
+      }
+    ],
+    "instrument-esli-nuzhna-dopolnitelnaya-pedal": [
+      {
+        "label": "Цифровое пианино: работа над педалью",
+        "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/"
+      },
+      {
+        "label": "Орган: полная координация рук и ног",
+        "href": "/organ-dlya-polnoy-koordinatsii-ruk-i-nog/"
+      }
+    ]
+  }
+}
