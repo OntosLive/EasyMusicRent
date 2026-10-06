@@ -1,0 +1,164 @@
+{
+  "navigation": {
+    "yamaha-ysv104-v-arendu": [
+      {
+        "label": "Занятия на электроскрипке в наушниках",
+        "href": "/elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah/"
+      },
+      {
+        "label": "Электроскрипка перед покупкой",
+        "href": "/elektroskripka-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-yev104-v-arendu": [
+      {
+        "label": "Переход с акустической скрипки",
+        "href": "/elektroskripka-posle-akusticheskoy/"
+      },
+      {
+        "label": "Прямая запись электроскрипки",
+        "href": "/elektroskripka-dlya-zapisi-napryamuyu/"
+      }
+    ],
+    "yamaha-yev105-v-arendu": [
+      {
+        "label": "Первый опыт пятиструнной электроскрипки",
+        "href": "/pyatistrunnaya-elektroskripka-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Электроскрипка перед покупкой",
+        "href": "/elektroskripka-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-sv250-v-arendu": [
+      {
+        "label": "Электроскрипка для сценических эффектов",
+        "href": "/elektroskripka-dlya-stsenicheskih-effektov/"
+      },
+      {
+        "label": "Прямая запись электроскрипки",
+        "href": "/elektroskripka-dlya-zapisi-napryamuyu/"
+      }
+    ],
+    "yamaha-sv255-v-arendu": [
+      {
+        "label": "Первый опыт пятиструнной электроскрипки",
+        "href": "/pyatistrunnaya-elektroskripka-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Электроскрипка для сценических эффектов",
+        "href": "/elektroskripka-dlya-stsenicheskih-effektov/"
+      }
+    ],
+    "yamaha-svc50-v-arendu": [
+      {
+        "label": "Электровиолончель для дома",
+        "href": "/elektroviolonchel-dlya-domashnih-zanyatiy/"
+      },
+      {
+        "label": "Электровиолончель перед покупкой",
+        "href": "/elektroviolonchel-pered-pokupkoy/"
+      }
+    ],
+    "yamaha-svc110-v-arendu": [
+      {
+        "label": "Переход с акустической виолончели",
+        "href": "/elektroviolonchel-posle-akusticheskoy/"
+      },
+      {
+        "label": "Электровиолончель для концерта",
+        "href": "/elektroviolonchel-dlya-kontserta/"
+      }
+    ],
+    "yamaha-slb300-v-arendu": [
+      {
+        "label": "Электрический контрабас для гастролей",
+        "href": "/elektricheskiy-kontrabas-dlya-gastroley/"
+      },
+      {
+        "label": "Электрический контрабас перед покупкой",
+        "href": "/elektricheskiy-kontrabas-pered-pokupkoy/"
+      }
+    ],
+    "doerfler-6-6a-smychki-v-arendu": [
+      {
+        "label": "Первый опыт деревянного смычка",
+        "href": "/derevyannyy-smychok-dlya-pervogo-opyta/"
+      },
+      {
+        "label": "Работа над détaché",
+        "href": "/smychok-dlya-raboty-nad-detache/"
+      }
+    ],
+    "codabow-prodigy-skripka-v-arendu": [
+      {
+        "label": "Скрипичный смычок перед покупкой",
+        "href": "/skripichnyy-smychok-pered-pokupkoy/"
+      },
+      {
+        "label": "Работа над spiccato",
+        "href": "/smychok-dlya-raboty-nad-spikkato/"
+      }
+    ],
+    "codabow-prodigy-alt-v-arendu": [
+      {
+        "label": "Альтовый смычок перед покупкой",
+        "href": "/altovyy-smychok-pered-pokupkoy/"
+      },
+      {
+        "label": "Смычок для долгих репетиций",
+        "href": "/smychok-dlya-dolgih-repetitsiy/"
+      }
+    ],
+    "codabow-prodigy-violonchel-v-arendu": [
+      {
+        "label": "Виолончельный смычок перед покупкой",
+        "href": "/violonchelnyy-smychok-pered-pokupkoy/"
+      },
+      {
+        "label": "Работа над legato",
+        "href": "/smychok-dlya-raboty-nad-legato/"
+      }
+    ],
+    "upton-workshop-smychok-v-arendu": [
+      {
+        "label": "Контрабасовый смычок перед покупкой",
+        "href": "/kontrabasovyy-smychok-pered-pokupkoy/"
+      },
+      {
+        "label": "Французский или немецкий смычок",
+        "href": "/kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy/"
+      }
+    ],
+    "frantsuzskiy-smychok-dlya-kontrabasa": [
+      {
+        "label": "Сравнить французскую и немецкую систему",
+        "href": "/kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy/"
+      },
+      {
+        "label": "Контрабасовый смычок перед покупкой",
+        "href": "/kontrabasovyy-smychok-pered-pokupkoy/"
+      }
+    ],
+    "nemetskiy-smychok-dlya-kontrabasa": [
+      {
+        "label": "Сравнить французскую и немецкую систему",
+        "href": "/kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy/"
+      },
+      {
+        "label": "Контрабасовый смычок перед покупкой",
+        "href": "/kontrabasovyy-smychok-pered-pokupkoy/"
+      }
+    ],
+    "smychok-s-udobnym-balansom": [
+      {
+        "label": "Смычок для долгих репетиций",
+        "href": "/smychok-dlya-dolgih-repetitsiy/"
+      },
+      {
+        "label": "Работа у колодки",
+        "href": "/smychok-dlya-raboty-u-kolodki/"
+      }
+    ]
+  }
+}
