@@ -1,0 +1,268 @@
+{
+  "status": "provisional_until_actual_snapshot_after_group06",
+  "reviewer": "project_history",
+  "projection_file": "corpus-provisional-language-06-label-audit.json",
+  "projection_sha256": "b3d55a553dfa8162121f6e42dc869124ea5f39e1d456bc60971aced521594d85",
+  "baseline_repo_head": "b45101f654a73e2834c1c5e1048219ca4f367913",
+  "current_source_head_at_check": "366608c9ed1d1f50e827b3c275e029cb4f31becc",
+  "scope": "Три грамматические поправки в двух страницах, отдельно от 51 навигационной подписи. Полные значения изменяемых полей; минимальный enrich с полными массивами intro.",
+  "counts": {
+    "pages": 2,
+    "operations": 3,
+    "editorial_titles": 1,
+    "intro_elements": 2,
+    "additional_label_operations": 0
+  },
+  "operations": [
+    {
+      "slug": "kontsertina-dlya-ansamblya",
+      "json_path": [
+        "editorial_title"
+      ],
+      "before": "Подобрать концертины голос без смены привычной раскладки",
+      "after": "Подобрать голос концертины без смены привычной раскладки",
+      "reason": "Исправлен нарушенный порядок слов в существующем названии задачи: подбирают голос концертины. Система, привычная раскладка и музыкальный смысл сохранены."
+    },
+    {
+      "slug": "kontsertina-dlya-ansamblya",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертины внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>",
+      "after": "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертин внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>",
+      "reason": "После «разных» нужна форма родительного падежа множественного числа «концертин». Все сведения об исполнительских системах и работе меха сохранены."
+    },
+    {
+      "slug": "ukulele-dlya-letney-praktiki",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>На поездке или даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>",
+      "after": "<p>В поездке или на даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>",
+      "reason": "Исправлены предлоги в существующей сцене летней практики: в поездке или на даче. Цель поддержания контакта со струнной практикой и условие перевозки сохранены."
+    }
+  ],
+  "candidate": {
+    "pages": [
+      {
+        "slug": "kontsertina-dlya-ansamblya",
+        "mode": "enrich",
+        "editorial_title": "Подобрать голос концертины без смены привычной раскладки",
+        "intro": [
+          "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертин внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>"
+        ]
+      },
+      {
+        "slug": "ukulele-dlya-letney-praktiki",
+        "mode": "enrich",
+        "intro": [
+          "<p>В поездке или на даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>"
+        ]
+      }
+    ]
+  },
+  "page_projection_checks": [
+    {
+      "slug": "kontsertina-dlya-ansamblya",
+      "groups_04_05_06": {
+        "04": {
+          "in_cohort": false,
+          "in_body_candidate": false
+        },
+        "05": {
+          "in_cohort": false,
+          "in_body_candidate": false
+        },
+        "06": {
+          "in_cohort": false,
+          "in_body_candidate": false
+        }
+      },
+      "changed_fields": [
+        {
+          "field": "editorial_title",
+          "current_source_equals_projection": true,
+          "baseline_03_equals_projection": true
+        },
+        {
+          "field": "intro",
+          "current_source_equals_projection": true,
+          "baseline_03_equals_projection": true
+        }
+      ],
+      "public_text_read_in_full": true,
+      "note": "Страница не входит в языковые группы 04–06; перечисленные поля совпадают с базой 03 и текущей проекцией."
+    },
+    {
+      "slug": "ukulele-dlya-letney-praktiki",
+      "groups_04_05_06": {
+        "04": {
+          "in_cohort": false,
+          "in_body_candidate": false
+        },
+        "05": {
+          "in_cohort": false,
+          "in_body_candidate": false
+        },
+        "06": {
+          "in_cohort": false,
+          "in_body_candidate": false
+        }
+      },
+      "changed_fields": [
+        {
+          "field": "intro",
+          "current_source_equals_projection": true,
+          "baseline_03_equals_projection": true
+        }
+      ],
+      "public_text_read_in_full": true,
+      "note": "Страница не входит в языковые группы 04–06; перечисленные поля совпадают с базой 03 и текущей проекцией."
+    }
+  ],
+  "concertina_h1_incoming_caption_check": {
+    "target_slug": "kontsertina-dlya-ansamblya",
+    "before": "Подобрать концертины голос без смены привычной раскладки",
+    "after": "Подобрать голос концертины без смены привычной раскладки",
+    "normalization": "HTML entities decoded, tags removed through BeautifulSoup get_text with space separator, whitespace collapsed.",
+    "effective_incoming_count": 4,
+    "effective_incoming": [
+      {
+        "source_slug": "kontsertina",
+        "link_index": 0,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "automatic_child_search_title": false
+      },
+      {
+        "source_slug": "kontsertina-dlya-pervogo-opyta",
+        "link_index": 1,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "automatic_child_search_title": false
+      },
+      {
+        "source_slug": "kontsertina-pered-pokupkoy",
+        "link_index": 1,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "automatic_child_search_title": false
+      },
+      {
+        "source_slug": "kontsertina-dlya-folk-proekta",
+        "link_index": 1,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "automatic_child_search_title": false
+      }
+    ],
+    "raw_authored_definition_count": 4,
+    "raw_authored_definitions": [
+      {
+        "source_slug": "kontsertina",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/99n-harp-bellows-landings.json",
+          "json_path": [
+            "navigation",
+            "kontsertina",
+            0,
+            "label"
+          ],
+          "before": "Для ансамбля",
+          "file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac"
+        }
+      },
+      {
+        "source_slug": "kontsertina-dlya-pervogo-opyta",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+          "json_path": [
+            "pages",
+            15,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "14343c7af3860fde7e7941857d9f0162de750ca5ebc4e67a26daf3516cb11127"
+        }
+      },
+      {
+        "source_slug": "kontsertina-pered-pokupkoy",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+          "json_path": [
+            "pages",
+            10,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549"
+        }
+      },
+      {
+        "source_slug": "kontsertina-dlya-folk-proekta",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+          "json_path": [
+            "pages",
+            12,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549"
+        }
+      }
+    ],
+    "exact_matching_labels": 0,
+    "html_normalized_matching_labels": 0,
+    "automatic_incoming_count": 0,
+    "automatic_caption_note": "Все четыре входящие подписи заданы явно. N.0 не меняется; дополнительный автоматический эффект отсутствует.",
+    "conclusion": "Среди всех действующих входящих ссылок и исходных JSON/HTML-определений нет точных либо HTML-нормализованных копий старого H1. Дополнительные label-операции не требуются."
+  },
+  "label_operations": [],
+  "integrity": {
+    "all_before_values_match_projection": true,
+    "all_changed_fields_match_current_source": true,
+    "complete_changed_arrays": true,
+    "new_routes": 0,
+    "h1_commercial_regexp_matches": 0,
+    "repository_modified": false,
+    "suite_or_build_run": false
+  },
+  "finalization_required": "Перед включением в пакет сверить три full before и входящие подписи с фактическим post-06 snapshot."
+}

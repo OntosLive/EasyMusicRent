@@ -1,0 +1,74 @@
+{
+  "package": "public-language-05",
+  "base_commit": "366608c9ed1d1f50e827b3c275e029cb4f31becc",
+  "input_release": {
+    "id": 37553950487,
+    "head_sha": "366608c9ed1d1f50e827b3c275e029cb4f31becc",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "tests": {
+    "count": 209,
+    "seconds": 94.478,
+    "result": "passed",
+    "test_files_changed": false
+  },
+  "compiler_and_css_unchanged": true,
+  "initial_test_run": null,
+  "test_changes": [],
+  "inventory": {
+    "subjects": 1901,
+    "errors": []
+  },
+  "graph": {
+    "metric_definitions": {
+      "top_level": "Unique explicit subject routes after alias normalization, excluding self-links and duplicate targets. Direct parent/child routes remain; legacy lateral_* names are retained for comparison with earlier reports.",
+      "strict_lateral": "Explicit routes excluding declared direct parents and direct children. Neither graph includes automatic child routes added by core.connect.",
+      "thin_leaf": "No declared children and no outgoing route in the measured graph.",
+      "hygiene_counts": "Every self-link occurrence and every duplicate after the first canonical target. A repeated self-link contributes to both counts; both block preflight.",
+      "model_pages": "Existing slug-based cohort: subjects ending in -v-arendu."
+    },
+    "subjects": 1901,
+    "errors": [],
+    "error_count": 0,
+    "link_edges": 5285,
+    "pages_with_links": 1859,
+    "pages_without_links": 42,
+    "lateral_coverage_pct": 97.79,
+    "parent_edges": 1885,
+    "parents_with_children": 215,
+    "leaf_pages": 1686,
+    "thin_leaf_pages": 0,
+    "thin_leaf_pct": 0.0,
+    "pages_without_lateral_inbound": 269,
+    "model_pages": 409,
+    "model_pages_with_links": 409,
+    "model_lateral_coverage_pct": 100.0,
+    "model_thin_leaves": 0,
+    "root_pages": 16,
+    "duplicate_route_count": 0,
+    "self_link_count": 0,
+    "strict_lateral": {
+      "link_edges": 3757,
+      "pages_with_links": 1745,
+      "pages_without_links": 156,
+      "lateral_coverage_pct": 91.79,
+      "thin_leaf_pages": 0,
+      "thin_leaf_pct": 0.0,
+      "pages_without_lateral_inbound": 647,
+      "model_pages_with_links": 409,
+      "model_lateral_coverage_pct": 100.0,
+      "model_thin_leaves": 0
+    }
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "preservation": "2026-10-07-language-05-preservation.json",
+  "publication_note": "Verify the resulting main SHA release separately; the listed successful release belongs to the input."
+}

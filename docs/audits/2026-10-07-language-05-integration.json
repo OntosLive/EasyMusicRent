@@ -1,0 +1,405 @@
+{
+  "package": "public-language-05",
+  "base_commit": "366608c9ed1d1f50e827b3c275e029cb4f31becc",
+  "base_snapshot": "corpus-after-language-04.json",
+  "base_snapshot_sha256": "a43f71e685370a3566487ee6f1ca2405632789dfcd8f03f13f31c6c78ee82db4",
+  "overlay_files": [
+    "content/sections/zzzz65-public-language-05.json"
+  ],
+  "source_label_patches": [
+    {
+      "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+      "pointer": "/navigation/sintezator-dlya-studii/1/label",
+      "source": "sintezator-dlya-studii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+      "pointer": "/navigation/smychkovye-dlya-studiynoy-zapisi/0/label",
+      "source": "smychkovye-dlya-studiynoy-zapisi",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+      "pointer": "/navigation/korg-monologue-v-arendu/0/label",
+      "source": "korg-monologue-v-arendu",
+      "href": "/sintezator-dlya-sozdaniya-lida/",
+      "before": "Синтезатор для lead",
+      "after": "Синтезатор для лида"
+    },
+    {
+      "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+      "pointer": "/navigation/korg-monologue-v-arendu/1/label",
+      "source": "korg-monologue-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware и software для сравнения",
+      "after": "Аппаратный и программный синтезаторы для сравнения"
+    },
+    {
+      "file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "pointer": "/pages/0/links/1/label",
+      "source": "traverso-dlya-pervogo-opyta",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "before": "Traverso для камерной программы",
+      "after": "Траверсо для камерной программы"
+    },
+    {
+      "file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "pointer": "/pages/3/links/0/label",
+      "source": "traverso-pered-pokupkoy",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "before": "Traverso для камерной программы",
+      "after": "Траверсо для камерной программы"
+    },
+    {
+      "file": "content/sections/zz111-historical-project-human-scenes.json",
+      "pointer": "/pages/10/links/0/label",
+      "source": "barochnye-instrumenty-dlya-kamernoy-programmy",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "before": "Traverso для камерной программы",
+      "after": "Траверсо для камерной программы"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/roland-rd2000ex-v-arendu/0/label",
+      "source": "roland-rd2000ex-v-arendu",
+      "href": "/stage-piano-po-rayderu/",
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру"
+    },
+    {
+      "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+      "pointer": "/navigation/minimoog-model-d-v-arendu/0/label",
+      "source": "minimoog-model-d-v-arendu",
+      "href": "/sintezator-dlya-sozdaniya-lida/",
+      "before": "Синтезатор для lead",
+      "after": "Синтезатор для лида"
+    },
+    {
+      "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+      "pointer": "/navigation/roland-juno-106-v-arendu/0/label",
+      "source": "roland-juno-106-v-arendu",
+      "href": "/sintezator-dlya-saund-dizayna/",
+      "before": "Синтезатор для sound design",
+      "after": "Синтезатор для саунд-дизайна"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/korg-kronos-2-88-v-arendu/0/label",
+      "source": "korg-kronos-2-88-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/korg-kronos-2-88-v-arendu/1/label",
+      "source": "korg-kronos-2-88-v-arendu",
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "before": "Workstation для гастрольного тура",
+      "after": "Рабочая станция для гастрольного тура"
+    },
+    {
+      "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+      "pointer": "/navigation/yamaha-dx7-v-arendu/1/label",
+      "source": "yamaha-dx7-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+      "pointer": "/navigation/sequential-prophet-5-v-arendu/0/label",
+      "source": "sequential-prophet-5-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+      "pointer": "/navigation/roland-d50-v-arendu/0/label",
+      "source": "roland-d50-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+      "pointer": "/navigation/korg-m1-v-arendu/0/label",
+      "source": "korg-m1-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/yamaha-montage-m8x-v-arendu/0/label",
+      "source": "yamaha-montage-m8x-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/yamaha-montage-m8x-v-arendu/1/label",
+      "source": "yamaha-montage-m8x-v-arendu",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "before": "Workstation для одного музыканта",
+      "after": "Рабочая станция для одного музыканта"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/roland-fantom-8-ex-v-arendu/0/label",
+      "source": "roland-fantom-8-ex-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/roland-fantom-8-ex-v-arendu/1/label",
+      "source": "roland-fantom-8-ex-v-arendu",
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "before": "Workstation для гастрольного тура",
+      "after": "Рабочая станция для гастрольного тура"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/korg-nautilus-88-at-v-arendu/0/label",
+      "source": "korg-nautilus-88-at-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+      "pointer": "/navigation/korg-nautilus-88-at-v-arendu/1/label",
+      "source": "korg-nautilus-88-at-v-arendu",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "before": "Workstation для одного музыканта",
+      "after": "Рабочая станция для одного музыканта"
+    }
+  ],
+  "approved_label_changes": [
+    {
+      "source": "fortepiano",
+      "href": "/instrumenty-dlya-vokalnogo-dueta-s-fortepiano/",
+      "before": "Инструменты для вокального дуэта с фортепиано в аренду",
+      "after": "Инструменты для дуэта голоса и фортепиано в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/workstation-po-rayderu/",
+      "before": "Workstation по райдеру в аренду",
+      "after": "Клавишная рабочая станция по райдеру в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "before": "Workstation для гастрольного тура в аренду",
+      "after": "Клавишная рабочая станция для гастрольного тура в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/instrumenty-dlya-soul-gruppy/",
+      "before": "Инструменты для soul-группы в аренду",
+      "after": "Инструменты для соул-группы в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для подготовки концертного сета в аренду",
+      "after": "Клавишная рабочая станция для подготовки концертного сета в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "before": "Workstation для выступления одного музыканта в аренду",
+      "after": "Клавишная рабочая станция для выступления одного музыканта в аренду"
+    },
+    {
+      "source": "sintezator-dlya-studii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "source": "smychkovye-dlya-studiynoy-zapisi",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "source": "korg-monologue-v-arendu",
+      "href": "/sintezator-dlya-sozdaniya-lida/",
+      "before": "Синтезатор для lead",
+      "after": "Синтезатор для лида"
+    },
+    {
+      "source": "korg-monologue-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware и software для сравнения",
+      "after": "Аппаратный и программный синтезаторы для сравнения"
+    },
+    {
+      "source": "traverso-dlya-pervogo-opyta",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "before": "Traverso для камерной программы",
+      "after": "Траверсо для камерной программы"
+    },
+    {
+      "source": "traverso-pered-pokupkoy",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "before": "Traverso для камерной программы",
+      "after": "Траверсо для камерной программы"
+    },
+    {
+      "source": "barochnye-instrumenty-dlya-kamernoy-programmy",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "before": "Traverso для камерной программы",
+      "after": "Траверсо для камерной программы"
+    },
+    {
+      "source": "roland-rd2000ex-v-arendu",
+      "href": "/stage-piano-po-rayderu/",
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру"
+    },
+    {
+      "source": "minimoog-model-d-v-arendu",
+      "href": "/sintezator-dlya-sozdaniya-lida/",
+      "before": "Синтезатор для lead",
+      "after": "Синтезатор для лида"
+    },
+    {
+      "source": "roland-juno-106-v-arendu",
+      "href": "/sintezator-dlya-saund-dizayna/",
+      "before": "Синтезатор для sound design",
+      "after": "Синтезатор для саунд-дизайна"
+    },
+    {
+      "source": "korg-kronos-2-88-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "source": "korg-kronos-2-88-v-arendu",
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "before": "Workstation для гастрольного тура",
+      "after": "Рабочая станция для гастрольного тура"
+    },
+    {
+      "source": "yamaha-dx7-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "source": "sequential-prophet-5-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "source": "roland-d50-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "source": "korg-m1-v-arendu",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "before": "Hardware или software: сравнить способ работы",
+      "after": "Аппаратный или программный: сравнить способ работы"
+    },
+    {
+      "source": "yamaha-montage-m8x-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "source": "yamaha-montage-m8x-v-arendu",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "before": "Workstation для одного музыканта",
+      "after": "Рабочая станция для одного музыканта"
+    },
+    {
+      "source": "roland-fantom-8-ex-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "source": "roland-fantom-8-ex-v-arendu",
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "before": "Workstation для гастрольного тура",
+      "after": "Рабочая станция для гастрольного тура"
+    },
+    {
+      "source": "korg-nautilus-88-at-v-arendu",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "source": "korg-nautilus-88-at-v-arendu",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "before": "Workstation для одного музыканта",
+      "after": "Рабочая станция для одного музыканта"
+    }
+  ],
+  "approved_shape_changes": [],
+  "approved_numeric_changes": [
+    {
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Backline Musician Services прямо выделяет Hammond B3 среди редких винтажных инструментов, а специализированные парки держат несколько B3 и Leslie 122. Это один из наиболее чистых примеров Legendary Rider Core.",
+      "after": "Backline Musician Services прямо выделяет Hammond B3 среди редких винтажных инструментов, а специализированные парки держат несколько B3 и Leslie 122. Это пример запроса на конкретную винтажную связку B3 и Leslie."
+    },
+    {
+      "slug": "steinway-b211-v-arendu",
+      "field": "quote",
+      "before": "B‑211 нужен по точному райдеру или как профессиональный 210-сантиметровый Steinway для камерной сцены?",
+      "after": "B‑211 нужен по точному райдеру или как профессиональный 211-сантиметровый Steinway для камерной сцены?"
+    },
+    {
+      "slug": "sequential-prophet-5-v-arendu",
+      "field": "intro[0]",
+      "before": "<p>Sequential сам маркирует Prophet‑5 как Legendary 5‑voice Analog Poly Synth. Современная версия сознательно воспроизводит все три ревизии оригинала и позволяет выбирать характер старых фильтров, поэтому здесь особенно важно различать vintage original и current reissue.</p>",
+      "after": "<p>Sequential сам представляет Prophet‑5 как легендарный пятиголосный аналоговый полифонический синтезатор. Современная версия сознательно воспроизводит все три ревизии оригинала и позволяет выбирать характер старых фильтров, поэтому здесь особенно важно различать винтажный оригинал и современное переиздание.</p>"
+    },
+    {
+      "slug": "korg-m1-v-arendu",
+      "field": "description",
+      "before": "Korg M1: 1988 original music workstation with PCM synthesis, effects, drums and 8-track sequencer.",
+      "after": "Korg M1: первая музыкальная рабочая станция 1988 года с PCM-синтезом, эффектами, ударными и восьмидорожечным секвенсором."
+    },
+    {
+      "slug": "korg-m1-v-arendu",
+      "field": "blocks[0].paragraphs[0]",
+      "before": "Встроенный 8-track sequencer и PCM-based AI synthesis сделали возможной полноценную работу без отдельной цепочки устройств.",
+      "after": "Встроенный восьмидорожечный секвенсор и AI-синтез на основе PCM сделали возможной полноценную работу без отдельной цепочки устройств."
+    },
+    {
+      "slug": "yamaha-montage-m8x-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "BacklineNow, Backline Rental Nederland и другие парки прямо сдают M8x. Это позволяет классифицировать его как Current Pro Rider Core.",
+      "after": "BacklineNow, Backline Rental Nederland и другие парки прямо сдают M8x. В запросе нужно сохранять точное обозначение M8x."
+    },
+    {
+      "slug": "korg-nautilus-88-at-v-arendu",
+      "field": "description",
+      "before": "Korg NAUTILUS 88 AT: RH3 weighted 88-key workstation with aftertouch, nine sound engines and professional touring rental presence.",
+      "after": "Korg NAUTILUS 88 AT: 88-клавишная рабочая станция с взвешенной механикой RH3, послекасанием, девятью звуковыми движками и присутствием в профессиональном гастрольном прокате."
+    }
+  ],
+  "numeric_review_reason": "Seven individually reviewed deltas: six preserve quantities/model identifiers (three written-word counts, two existing model repetitions, one RH3/88 token reordering); the Steinway B-211 quote corrects an old 210 cm typo to 211 cm, confirmed by the manufacturer page https://eu.steinway.com/en/pianos/grand-pianos/b-211.",
+  "all_label_changes_match_reviewed_plan": true,
+  "candidate_sha256": "184db92a597b412310f126aba0253a570f9dd922ae8c3c4906f7f2fe51403e82"
+}

@@ -1,0 +1,3059 @@
+{
+  "status": "complete_ready_for_root_integration_not_published",
+  "source_snapshot": "corpus-after-legacy-closure.json",
+  "source_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "frozen_inputs": {
+    "language-05-candidate.json": "bee076fd1485a37f0ab5954a88d1d26b930de704c08c8c0ee8a34892fa9d0f06",
+    "language-05-review.json": "2a592815533712ab9a63401b27fb77c727d156ec1cb02cef7e5750a10882dd23",
+    "language-05-labels.json": "0ae32f7194ba6af7b1ce81bf3c257a680b858324c7e99c37b3ffc6a12f9c09c9"
+  },
+  "coverage": {
+    "requested_pages": 143,
+    "full_pages_independently_read": 143,
+    "page_records": 100,
+    "label_only_enrich_pages": 2,
+    "keep_pages": 41,
+    "changed_text_paths": 434,
+    "changed_field_counts": {
+      "description": 78,
+      "kicker": 62,
+      "blocks": 164,
+      "links": 22,
+      "intro": 41,
+      "editorial_title": 30,
+      "quote": 29,
+      "search_title": 6,
+      "sources": 2
+    }
+  },
+  "structural_checks": {
+    "snapshot_sha_matches": true,
+    "all_actual_leaf_changes_derived_from_candidate": true,
+    "intro_blocks_sources_lengths_preserved": true,
+    "source_urls_order_preserved": true,
+    "outgoing_destinations_order_preserved": true,
+    "changed_non_guide_H1_commercial_words": 0,
+    "amendment_before_values_match_frozen_after": true,
+    "repository_modified": false,
+    "frozen_author_files_modified": false,
+    "builds_or_tests_run": false,
+    "all_143_full_public_pages_read": true,
+    "all_434_actual_changed_leaves_read": true,
+    "all_22_explicit_label_origins_verified": true,
+    "all_6_automatic_labels_verified": true,
+    "all_6_numeric_delta_paths_resolved": true,
+    "frozen_candidate_hash_unchanged_at_completion": true,
+    "source_titles_changed_only_by_two_contextual_translations": true,
+    "no_new_source_urls": true,
+    "no_new_url_slugs": true
+  },
+  "reviews": [
+    {
+      "index": 1,
+      "slug": "midi-klaviatury",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Velocity и aftertouch допустимы как MIDI-параметры. Передача данных явно отделена от источника готового звука; корпус сохранён целиком."
+    },
+    {
+      "index": 2,
+      "slug": "sintezatory",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Wavetable в перечне методов обозначает самостоятельный синтез; рядом имеется предметный переход. Полифония, память и сценические требования не изменены."
+    },
+    {
+      "index": 3,
+      "slug": "hammond-organ",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Drawbars точно переданы регистровыми движками. Leslie остаётся отдельной частью тракта, наличие усиления по имени Hammond не обещается."
+    },
+    {
+      "index": 4,
+      "slug": "organ-dlya-barochnogo-ansamblya",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Continuo является предметом барочной страницы. Гармоническая и басовая части, строй и размещение сохранены, изменений нет."
+    },
+    {
+      "index": 5,
+      "slug": "organ-dlya-kontserta",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Continuo — один из реальных вариантов органной функции. Площадка, питание, педаль и время знакомства сохранены без изменений."
+    },
+    {
+      "index": 6,
+      "slug": "sintezator-dlya-studii",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Clock в данном контексте секвенсора и арпеджиатора точно передан синхронизацией темпа. Прочитана полная цель live session: одновременная запись группы соответствует новой подписи."
+    },
+    {
+      "index": 7,
+      "slug": "sintezator-dlya-zhivogo-vystupleniya",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Aftertouch передан послекасанием в перечне регуляторов; тип чувствительности или обязательная комплектация не добавлены."
+    },
+    {
+      "index": 8,
+      "slug": "smychkovye-dlya-studiynoy-zapisi",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Меняется только собственная подпись перехода к одновременно записываемой группе. Тело и музыкальные обозначения штрихов полностью сохранены; это label-only enrich."
+    },
+    {
+      "index": 9,
+      "slug": "tsink",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Cornetto нужен как второй идентификатор цинка, отдельно отличённого от современного клапанного корнета. Музейный источник не превращён в наличие инструмента."
+    },
+    {
+      "index": 10,
+      "slug": "fm-sintezator",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "FM и opsix являются методом и моделью. Уже уточнённые взаимодействия операторов, сохранение и ограничения реакции не изменены."
+    },
+    {
+      "index": 11,
+      "slug": "wavetable-sintezator",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Wavetable является предметным термином после русского объяснения волновой таблицы; ограничения импорта и проверки конкретной модели сохраняются."
+    },
+    {
+      "index": 12,
+      "slug": "melodika",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Alto models точно передано моделями альтового диапазона. Число 32, условие другого требования учреждения и существующие источники сохранены."
+    },
+    {
+      "index": 13,
+      "slug": "analogovyy-sintezator-pered-pokupkoy",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Модель minilogue сохранена; память не обещается всем аналоговым конструкциям. Существующий полный текст не требует языкового изменения."
+    },
+    {
+      "index": 14,
+      "slug": "barochnaya-violonchel-dlya-basso-continuo",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Basso continuo и Chorda обозначают функцию и марку струн. Высотный стандарт, подбор толщины и общий ансамбль сохранены без изменений."
+    },
+    {
+      "index": 15,
+      "slug": "klavesin-dlya-basso-continuo",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Continuo раскрыто гармонической опорой; сохранено различие щипковой механики и похожего цифрового тембра, настройщика и общей темперации."
+    },
+    {
+      "index": 16,
+      "slug": "korg-minilogue-xd-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Нет новых изменений четырёхголосной модели; пользовательские расширения отделены от фактически установленного содержимого арендного экземпляра."
+    },
+    {
+      "index": 17,
+      "slug": "korg-monologue-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Тело monologue остаётся прежним. Две подписи сохраняют лид и сравнение аппаратного/программного способов без переписывания модели; второй label-only enrich."
+    },
+    {
+      "index": 18,
+      "slug": "nord-electro-6d-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Waterfall и три названия секций Nord сохранены корректно. 61/73 клавиши, полувзвешенная 6D и молоточковая 6 HP не смешаны."
+    },
+    {
+      "index": 19,
+      "slug": "casio-px770-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Tri-sensor Scaled Hammer Action II — фирменная механика. Сохранились три педали, два динамика, 8+8 Вт и подтверждение принадлежностей."
+    },
+    {
+      "index": 20,
+      "slug": "yamaha-u3-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Sostenuto прямо отличается от приглушения и проверяется у выпуска U3. Высота 131 см и все текущие ограничения сохранены."
+    },
+    {
+      "index": 21,
+      "slug": "pianino-dlya-videozayavki",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Graded exams передано экзаменами по уровням. Апрель 2023, достаточный диапазон, взвешенность без усиления до молоточков, ATCL/LTCL и отсутствие универсальных 88 клавиш сохранены."
+    },
+    {
+      "index": 22,
+      "slug": "klavishnye-s-mikrotonalnoy-nastroykoy",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "MIDI Tuning Standard — точный протокол; микротональная настройка, транспозиция и монофония monologue разделены. Изменений нет."
+    },
+    {
+      "index": 23,
+      "slug": "elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Silent/practice/control box/processing переведены в функции тихой практики и блока управления; SRT Powered сохранён, пассивная YEV остаётся другим контуром."
+    },
+    {
+      "index": 24,
+      "slug": "elektroskripka-dlya-zapisi-napryamuyu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Полное английское описание передано без потери пассивности выхода, усиления, шума, смычковой атаки и повторяемости; реампинг сохраняет назначение обработки."
+    },
+    {
+      "index": 25,
+      "slug": "pyatistrunnaya-elektroskripka-dlya-pervogo-opyta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "C-string заменено C-струной, уже имеющейся в теле. Пять струн, нижний альтовый голос и изменения смычковой геометрии не изменены."
+    },
+    {
+      "index": 26,
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Support points/endpin/headphones/output переданы опорами, шпилем и подключением; shifts — именно смены позиций. Различие SVC50 и SVC110 сохранено."
+    },
+    {
+      "index": 27,
+      "slug": "elektroviolonchel-dlya-kontserta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Line out, cable path и soundcheck переданы линейным выходом, прокладкой кабеля и саундчеком. Опоры, мониторинг и предварительное согласование не потеряны."
+    },
+    {
+      "index": 28,
+      "slug": "elektricheskiy-kontrabas-dlya-domashnih-zanyatiy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Mensura/scale length правильно относятся к мензуре. Точки опоры, вертикальная постановка и отдельные приёмы arco/pizzicato сохранены."
+    },
+    {
+      "index": 29,
+      "slug": "melodika-dlya-kontserta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Melodica/soundcheck переданы мелодикой/саундчеком; физическая поза, дыхание и микрофон не меняются."
+    },
+    {
+      "index": 30,
+      "slug": "barochnaya-violonchel-dlya-pervogo-opyta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Единственная правка — «со знакомой». Барочная конфигурация, Chorda, C-струна и три способа работы/музыкальные термины полностью сохранены."
+    },
+    {
+      "index": 31,
+      "slug": "barochnaya-violonchel-dlya-domashnih-zanyatiy",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Continuo является предметом домашней подготовки к ансамблю. Поля не меняются; языковое keep допустимо."
+    },
+    {
+      "index": 32,
+      "slug": "viola-da-gamba-pered-pokupkoy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Treble/tenor/bass viols переданы дискантовыми, теноровыми и басовыми виолами; отдельные голоса семейства не смешаны."
+    },
+    {
+      "index": 33,
+      "slug": "traverso-dlya-pervogo-opyta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Одноклапанная система уточняет уже указанную одну клавишу, не вводит другую конструкцию. Траверсо переведено как название инструмента; строй и модели реконструкций сохранены."
+    },
+    {
+      "index": 34,
+      "slug": "traverso-dlya-domashnih-zanyatiy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Изменено только русское написание траверсо в фразах и рубрике. Точный строй, аппликатура и домашний период сохранены."
+    },
+    {
+      "index": 35,
+      "slug": "traverso-posle-sovremennoy-fleyty",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Траверсо русифицировано без подмены аппликатуры современной флейтой. Сохранены одна клавиша и сопоставление знакомой фразы."
+    },
+    {
+      "index": 36,
+      "slug": "traverso-pered-pokupkoy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Название траверсо и короткий переход переведены; исторический образец, разные высотные стандарты и совместная проба сохранены."
+    },
+    {
+      "index": 37,
+      "slug": "tsink-dlya-pervogo-opyta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Cornetto/cornetti корректно переданы корнетто в прозе. Второе имя цинка остаётся в N.0 и коротком идентифицирующем переходе; мундштук и отверстия не смешаны с клапанным корнетом."
+    },
+    {
+      "index": 38,
+      "slug": "tsink-dlya-domashnih-zanyatiy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Русское корнетто не меняет работу губ и пальцев или историческое сравнение с голосом. Поисковый синоним сохраняется."
+    },
+    {
+      "index": 39,
+      "slug": "tsink-pered-pokupkoy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Название и множественное cornetti переведены без подмены регистров, реконструкции или мундштука; ансамблевая интонация остаётся критерием."
+    },
+    {
+      "index": 40,
+      "slug": "sakbut-dlya-pervogo-opyta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Sackbut переведён сакбутом с верным падежом. Кулиса, мензура, мундштук и различие атаки от современного тромбона сохранены."
+    },
+    {
+      "index": 41,
+      "slug": "sakbut-posle-sovremennogo-trombona",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Сакбут получил естественное управление «игре на сакбуте». Forte оставлено динамическим обозначением; переход не требует отказаться от современного инструмента."
+    },
+    {
+      "index": 42,
+      "slug": "sakbut-pered-pokupkoy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Tenor sackbut точно передан теноровым сакбутом; исторические образцы Egger, регистр и сопротивление не изменены."
+    },
+    {
+      "index": 43,
+      "slug": "naturalnaya-truba-dlya-pervogo-opyta",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Clarino — уместное обозначение регистра натуральной трубы. Сменные кроны, строй и необходимость освоения средних обертонов сохранены."
+    },
+    {
+      "index": 44,
+      "slug": "naturalnaya-truba-posle-sovremennoy-truby",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Baroque articulation передано барочной артикуляцией; обертоновая система без клапанов и временность исторического проекта не изменены."
+    },
+    {
+      "index": 45,
+      "slug": "naturalnaya-truba-pered-pokupkoy",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Значение crooks как кронов трубы передано правильно, но родительный множественного в третьем абзаце требует «комплект кронов». Одна минимальная поправка указана в amendments."
+    },
+    {
+      "index": 46,
+      "slug": "shalmei-dlya-rannego-ansamblya",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Shawms переведено шалмеями, не смешано с гобоем или смычковыми. Размеры, двойная трость и действующие предметные источники сохранены."
+    },
+    {
+      "index": 47,
+      "slug": "srednevekovye-instrumenty-dlya-studiynoy-zapisi",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Sample передан семплом. Механизмы звука и разделение собственного тембра/обработки сохранены."
+    },
+    {
+      "index": 48,
+      "slug": "renessansnye-instrumenty-dlya-konsorta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 6,
+      "note": "Consort передан консортом в нужных падежах. Связь родственных голосов, регистры и общая полифония не потеряны."
+    },
+    {
+      "index": 49,
+      "slug": "renessansnye-instrumenty-dlya-teatralnoy-postanovki",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Cornetto передан корнетто. Сценическая функция, громкость относительно текста и мягкость виол сохранены."
+    },
+    {
+      "index": 50,
+      "slug": "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Консорт и корнетто остаются разными предметами: семейство регистров и другой духовой голос. Образовательная демонстрация не изменена."
+    },
+    {
+      "index": 51,
+      "slug": "barochnye-instrumenty-dlya-basso-continuo",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Basso continuo является предметом страницы и сразу раскрыто басом/гармонией. Теорба, клавесин и виолончель не объявлены взаимозаменяемыми."
+    },
+    {
+      "index": 52,
+      "slug": "barochnye-instrumenty-dlya-opery",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Traverso переведено траверсо; continuo оставлено функцией. Строй, редакция, состав партитуры и общий баланс с певцами сохранены."
+    },
+    {
+      "index": 53,
+      "slug": "barochnye-instrumenty-dlya-kamernoy-programmy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Strings/pitch переведены струнными и высотным строем. Стандарт высоты не подменён тембром или транспозицией; continuo и тихая полифония сохранены."
+    },
+    {
+      "index": 54,
+      "slug": "istoricheskie-strunnye-dlya-pervogo-proekta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Historical performance передано историческим исполнительством. Различение барочной скрипки, гамбы и ребека не превращено в линейную ступень качества."
+    },
+    {
+      "index": 55,
+      "slug": "istoricheskie-instrumenty-dlya-master-klassa",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Название исторического исполнительства и траверсо переведены; контраст механик, лады гамбы, обертоновая труба и управляемая проба сохранены."
+    },
+    {
+      "index": 56,
+      "slug": "workstation-po-rayderu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 8,
+      "note": "Workstation — клавишная рабочая станция, splits — разделения клавиатуры, sequences — секвенсорные последовательности. Загрузка проекта не смешивается с простой выдачей корпуса."
+    },
+    {
+      "index": 57,
+      "slug": "workstation-dlya-gastrolnogo-tura",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 10,
+      "note": "Backup, live set, touring rigs и cold start переданы резервной копией, концертным набором, гастрольным комплектом и запуском после выключения; совместимость заранее остаётся обязательной."
+    },
+    {
+      "index": 58,
+      "slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 9,
+      "note": "Drawbars, organ registration и rotary speeds переведены регистровыми движками, настройкой регистров и скоростями вращения. Pedalboard в органном контексте точно сохранён педальной клавиатурой."
+    },
+    {
+      "index": 59,
+      "slug": "instrumenty-dlya-strunnogo-trio",
+      "author_decision": "keep",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Музыкальный термин tutti уместен, но в сохраняемом заголовке ошибочно согласован мужской род. Грамота подтверждает средний род; требуется только «общее тутти»."
+    },
+    {
+      "index": 60,
+      "slug": "instrumenty-dlya-dzhazovogo-trio",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Грув/райд переведены предметно. Ограничение гармонического инструмента фортепианным/гитарным вариантом устраняет противоречие с уже названным саксофонным трио."
+    },
+    {
+      "index": 61,
+      "slug": "instrumenty-dlya-soul-gruppy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 7,
+      "note": "Soul/rhythm section/keys/clean guitar переведены соулом, ритм-секцией, клавишными и гитарой с чистым звуком. Rhodes сохранён, инструментальные функции не сужены до марки."
+    },
+    {
+      "index": 62,
+      "slug": "instrumenty-dlya-vokalnogo-dueta-s-fortepiano",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Уточнение дуэта голоса и фортепиано соответствует исходным H1, одному певцу и масштабу рояля; не добавляет второго певца или новую сцену."
+    },
+    {
+      "index": 63,
+      "slug": "instrumenty-dlya-horovogo-akkompanementa",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Фортепиано/орган, репетиционная и концертная функции переданы точно. A cappella остаётся осмысленным переходом без сопровождения."
+    },
+    {
+      "index": 64,
+      "slug": "instrumenty-dlya-opernoy-yamy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Струнные/духовые/ударные/клавишные и организация ямы переведены без исключения арф и редких духовых; «смена» исправляет согласование."
+    },
+    {
+      "index": 65,
+      "slug": "instrumenty-dlya-festivalnoy-kamernoy-programmy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Chamber festival и temporary/multi-program logistics переведены камерным фестивалем, временным комплектом и организацией программ; временные конфликты не потеряны."
+    },
+    {
+      "index": 66,
+      "slug": "korg-opsix-mk2-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Сохраняется свежий текст opsix: шесть операторов, до 64 голосов с оговоркой, 37 клавиш и отсутствие полупедали. FM и имя модели не требуют замены."
+    },
+    {
+      "index": 67,
+      "slug": "korg-wavestate-mk2-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Wave Sequencing 2.0, Performance и wavetable обозначают разные методы/структуры. Сохранены четыре слоя, 96 стереоголосов, 37 клавиш и получение aftertouch извне."
+    },
+    {
+      "index": 68,
+      "slug": "arturia-minifreak-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Aftertouch передан послекасанием без изменения 37 уменьшенных клавиш. Шесть полифонических и двенадцать парафонических голосов, версия ПО и отсутствие передачи лицензий сохранены."
+    },
+    {
+      "index": 69,
+      "slug": "roland-gaia2-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Motional Pad/SH-101 Model Expansion — имена функций. Цифровые wavetable и виртуально-аналоговые генераторы не подменены аналоговыми; всё сохранено."
+    },
+    {
+      "index": 70,
+      "slug": "kontrabas-dlya-studii",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Pizzicato/arco обозначают отдельные способы игры под микрофоном; менять их ради латиницы не требуется. Состояние шпиля/струн и проба реальной партии сохранены."
+    },
+    {
+      "index": 71,
+      "slug": "kontrabas-dlya-dzhaza",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Pizzicato/walking bass уместны в джазовой задаче, а русское пиццикато уже раскрывает термин. Свежий отказ от жанрово заданной конфигурации и условия доступа сохранены."
+    },
+    {
+      "index": 72,
+      "slug": "klavesin-dlya-kontserta",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Continuo обозначает другую роль относительно сольного клавесина; строй, мануалы, регистры и темперация сохранены."
+    },
+    {
+      "index": 73,
+      "slug": "roland-rd2000ex-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Rider Core заменён сценической рубрикой, main out — основными выходами. Сохранены PHA-50, восемь зон и балансные XLR; новая коммутация не добавлена."
+    },
+    {
+      "index": 74,
+      "slug": "minimoog-model-d-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 8,
+      "note": "Ladder filter передан лестничным фильтром, hardware/reissue — физическим инструментом/переизданием. Три осциллятора, монофония, 1970 и отличие MIDI поздних версий сохранены."
+    },
+    {
+      "index": 75,
+      "slug": "roland-juno-106-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 8,
+      "note": "Chorus передан хорусом именно как эффект. Шесть голосов, 1984, MIDI, 128 программ и условие согласования замены сохранены."
+    },
+    {
+      "index": 76,
+      "slug": "korg-kronos-2-88-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 9,
+      "note": "Термины рабочей станции и бэклайна переведены верно; combi/set list, 61/73/88 и USB сохранены. Нужны согласование «нужна» в вопросе и удаление оставшейся фразы о назначении страницы."
+    },
+    {
+      "index": 77,
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 8,
+      "note": "Drawbars и комплект Hammond–Leslie переведены без потери цифровой альтернативы и согласования доставки. После замены позиции на комплект осталось «которая» — требуется «который»."
+    },
+    {
+      "index": 78,
+      "slug": "steinway-d274-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Concert grand передан концертным роялем; 274 см, выбор между экземплярами и условия пианиста сохранены. В третьем абзаце остаётся служебное объяснение модельной страницы; удалить только его."
+    },
+    {
+      "index": 79,
+      "slug": "steinway-b211-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 6,
+      "note": "211 см в вопросе восстанавливают внутреннюю согласованность с description и блоком размера. 274-сантиметровое сравнение, атрибуция Steinway и проверка конкретного рояля сохраняются."
+    },
+    {
+      "index": 80,
+      "slug": "yamaha-cfx-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 8,
+      "note": "Flagship/concert grand/rental переданы флагманом/концертным роялем/прокатом. 275 см и поколения 2010/2022 сохранены вместе с согласованием доставки и повторной настройки."
+    },
+    {
+      "index": 81,
+      "slug": "boesendorfer-280vc-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 7,
+      "note": "Resonance-case передано принципом резонирующего корпуса, Vienna Concert сохранено. 280 см, 88 клавиш, 530 кг и возможность выбора при допустимой замене не изменены."
+    },
+    {
+      "index": 82,
+      "slug": "legendarnye-sintezatory",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Hardware/ветвь/обязанность страницы в основном тексте переведены в предметный запрос. В одном неизменённом заголовке остался адрес вместо условия доступа; предлагается только исправить этот заголовок."
+    },
+    {
+      "index": 83,
+      "slug": "yamaha-dx7-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 10,
+      "note": "Цитатная оценка Yamaha передана атрибутированным пересказом, без ложной дословной русской цитаты. 1983, 1980-е, шесть операторов и 32 алгоритма сохранены; membrane switches — мембранные кнопки."
+    },
+    {
+      "index": 84,
+      "slug": "sequential-prophet-5-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 12,
+      "note": "Polysynth/reissue/front panel переведены точно; Vintage остаётся именем регулятора. Пять голосов, три ревизии, два типа фильтров и оригинал/переиздание различены."
+    },
+    {
+      "index": 85,
+      "slug": "roland-jupiter-8-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 10,
+      "note": "Восьмиголосный синтез, два осциллятора на голос, cross-modulation и sync переданы без потерь. Оценка Roland атрибутирована, формы доступа не превращены в иерархию качества."
+    },
+    {
+      "index": 86,
+      "slug": "roland-d50-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 11,
+      "note": "LA/PCM/Fantasia/Boutique/Cloud сохранены как имена технологий и программ. Aftertouch — послекасание; 1987, 61 клавиша и 16 голосов не изменены. Общая страница заменена уточнением звуковой задачи."
+    },
+    {
+      "index": 87,
+      "slug": "korg-m1-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 15,
+      "note": "Рабочая станция, восьмидорожечный секвенсор и PCM переданы точно. AI является сохранённым именем синтеза Korg, а не заявлением о современном ИИ; 1988 и различия физической/программной версии сохранены."
+    },
+    {
+      "index": 88,
+      "slug": "yamaha-montage-m8x-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 14,
+      "note": "Сохранены 88 клавиш GEX, полифоническое послекасание M8x и канальное M6/M7, три движка AWM2/FM-X/AN-X. Наборы Performance и совместимость проектов не подменены общей заменяемостью."
+    },
+    {
+      "index": 89,
+      "slug": "roland-fantom-8-ex-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 11,
+      "note": "88 молоточковых клавиш отличаются от 61/76 синтезаторных; послекасание, 16 зон, семплирование и секвенсор переведены точно. EX-содержимое и USB/MIDI-маршруты сохранены с прежними условиями."
+    },
+    {
+      "index": 90,
+      "slug": "korg-nautilus-88-at-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 15,
+      "note": "Взвешенная RH3 не усилена до новой характеристики; послекасание отличает AT от обычного NAUTILUS. Девять движков, 61/88 и обновление сохранены; комплектность атрибутирована внешнему прокату."
+    },
+    {
+      "index": 91,
+      "slug": "gewa-ideale-skripka-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Изменены только две рубрики Step-up. Проба pianissimo, размеры 1/4–4/4 и уже уточнённые комплектация, происхождение и готовность к занятиям не затронуты."
+    },
+    {
+      "index": 92,
+      "slug": "sintezator-s-ponyatnym-upravleniem",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Minilogue является примером наглядного управления, FM — другим методом. Все поля прочитаны; keep сохраняет различие учебной архитектуры и общего числа тембров."
+    },
+    {
+      "index": 93,
+      "slug": "yamaha-psr-e383-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "61 чувствительная клавиша и аккомпанемент переданы точно. 3-Step Lesson и Keys To Success сохранены именами функций; различие лёгкой клавиатуры и 88 взвешенных клавиш остаётся явным."
+    },
+    {
+      "index": 94,
+      "slug": "upton-workshop-smychok-v-arendu",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Workshop — имя серии, brazilwood — обозначение древесины с прежним источником. Французское/немецкое исполнения, Китай и спецификация Upton не смешаны; keep обоснован."
+    },
+    {
+      "index": 95,
+      "slug": "cifrovoe-pianino-na-ustoychivoy-stoyke",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Forte обозначает проверку устойчивости на реальной динамике. Сохраняется источник о конкретном школьном комплекте, а не универсальном требовании; изменений не требуется."
+    },
+    {
+      "index": 96,
+      "slug": "goronok-kadentsiya-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "School/applicants/college точно переданы учащимися школ, абитуриентами и студентами колледжей. Student в вопросе означает исходный ученический инструмент; размер 1/8 и индивидуальная проба сохранены."
+    },
+    {
+      "index": 97,
+      "slug": "goronok-nova-alt-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Описание русского изготовителя и нескольких длин альта передано точно. 394/406/420 мм, досягаемость руки и различие размера/категории сохраняются."
+    },
+    {
+      "index": 98,
+      "slug": "goronok-kadentsiya-alt-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Описание и рубрика серии переведены без новых рангов. В изменённом заголовке сохраняется требование уже слышать и использовать разницу; требуется учесть освоение возможностей, не меняя пробу и диапазоны."
+    },
+    {
+      "index": 99,
+      "slug": "goronok-nova-violonchel-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Cello и варианты размеров переведены точно; 650 мм, 1/2 и разные корпуса 4/4 остаются отдельными сведениями. Настройка шпиля и посадка сохранены."
+    },
+    {
+      "index": 100,
+      "slug": "goronok-kadentsiya-violonchel-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Step-up передан переходом. 7/8, 3/4 и 4/4 не потеряны; музыкальное сравнение отличается от подбора корпуса. Временная практика до постоянной покупки явно сохранена."
+    },
+    {
+      "index": 101,
+      "slug": "goronok-nova-kontrabas-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Student и mensur переданы ученическим инструментом и мензурой. 1/4, 1/2 и 3/4, фактическая подготовка комплекта и приоритет руки над возрастной таблицей сохранены."
+    },
+    {
+      "index": 102,
+      "slug": "goronok-kadentsiya-kontrabas-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Дробный размер не подменён уровнем отклика. Массив ели/клёна, струны и карбоновый шпиль только у отдельных вариантов сохранены с прежней атрибуцией и проверкой конкретного экземпляра."
+    },
+    {
+      "index": 103,
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Мастеровой контрабас и аудитория переведены точно; 3/4 и 7/8, arco/pizzicato и временная проба сохранены. Два неизменённых поля связывают доступ с уже освоенными различиями; нужны точные поправки по действующему канону обучения."
+    },
+    {
+      "index": 104,
+      "slug": "hidersine-vivente-kontrabas-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 6,
+      "note": "Student outfit, gigbag и nominal size переданы учебным комплектом, чехлом и номинальным размером. Заводская комплектность сохраняет атрибуцию Hidersine и отдельную проверку смычка для аренды."
+    },
+    {
+      "index": 105,
+      "slug": "smychkovye-gewa",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Ready-to-play передано готовностью к игре; имена каталожных фильтров сохранены. В первом абзаце остаётся безусловное исключение перехода, если прежний инструмент годится для текущей программы; нужно сохранить и возможность освоения нового."
+    },
+    {
+      "index": 106,
+      "slug": "gewa-allegro-violonchel-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Cello и перечень размеров переведены без потерь; фирменное имя в H1 сохранено. Подбор корпуса, шпиль и подставка не превращены в новое обещание свойства серии."
+    },
+    {
+      "index": 107,
+      "slug": "eastman-vc100-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 5,
+      "note": "Резные деки из массива не смешаны с ламинированными обечайками; эбен и 1/10–4/4 сохранены. Оценка Model 100 остаётся атрибутированным пересказом Eastman."
+    },
+    {
+      "index": 108,
+      "slug": "yamaha-p32d-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "32 клавиши, диапазон F3–C6 и школьные/домашние/сценические применения переданы точно. Pianica и модельные обозначения сохранены; 1960-е и 2⅔ октавы не затронуты."
+    },
+    {
+      "index": 109,
+      "slug": "suzuki-m32c-v-arendu",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 6,
+      "note": "Long-seller переведён многолетней историей с атрибуцией Suzuki. Стальная крышка, фосфористая бронза, 32 клавиши и условие требований школы сохраняются; Melodion остаётся именем серии."
+    },
+    {
+      "index": 110,
+      "slug": "cifrovoe-pianino-dlya-zapisi-midi",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Velocity уместно как конкретный параметр MIDI-записи. Данные исполнения отделены от последующего выбора звука; сравнение фортепианного движения и ввода нот сохраняется без изменений."
+    },
+    {
+      "index": 111,
+      "slug": "cifrovoe-pianino-dlya-zapisi-audio",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Линейные стереовыходы ES120 переданы точно; компьютерное подключение P-225 не расширено до нового обещания всем моделям. MIDI и готовое аудио остаются разными целями."
+    },
+    {
+      "index": 112,
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-dinamikoy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Touch передано чувствительностью. Кривая чувствительности не подменяет физическую механику; pp–ff, piano/forte и задача обучения градациям сохранены."
+    },
+    {
+      "index": 113,
+      "slug": "cifrovoe-pianino-dlya-ansamblya-doma",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Line out и домашняя репетиция переведены точно. Баланс зависит от комнаты и состава, а окончание аренды связано с реальным продолжением репетиций, не с автоматическим сроком."
+    },
+    {
+      "index": 114,
+      "slug": "sintezator-dlya-sozdaniya-lida",
+      "author_decision": "enrich",
+      "independent_decision": "amend",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Лид, скольжение высоты, модуляция и послекасание переданы предметно. В изменённом абзаце остаётся условие заранее знать исполнительское движение; требуется допустить его освоение без изменения музыкальной задачи."
+    },
+    {
+      "index": 115,
+      "slug": "sintezator-dlya-arpeggiatora",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Latch передано удержанием арпеджио. Темп, диапазон, внешняя синхронизация и смена гармонии не смешаны; новых аппаратных обещаний нет."
+    },
+    {
+      "index": 116,
+      "slug": "sintezator-dlya-saund-dizayna",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Саунд-дизайн и рабочие станции переданы по-русски. Патч является сохранённым музыкально-техническим термином; сохранение и восстановление состояния остаются задачами пробы."
+    },
+    {
+      "index": 117,
+      "slug": "sintezator-dlya-modulyatsii-v-realnom-vremeni",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Real-time modulation, routing и aftertouch переданы модуляцией в реальном времени, маршрутизацией и послекасанием. Десять повторений и время освоения контроллера сохранены."
+    },
+    {
+      "index": 118,
+      "slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 6,
+      "note": "Hardware/software/workflow переданы аппаратным/программным способом работы. Лид, пэд и секвенсорная последовательность сохраняют разные задачи; общий рейтинг звука не добавлен."
+    },
+    {
+      "index": 119,
+      "slug": "sintezator-pered-pokupkoy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Bass/lead/pad/split/patch переданы басом, лидом, пэдом, разделением клавиатуры и патчем. Возможность выработать собственный критерий без обязательной покупки того же экземпляра сохранена."
+    },
+    {
+      "index": 120,
+      "slug": "scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 3,
+      "note": "Live Set сохранено именем функции Yamaha CK, registrations передано регистрациями. Переключения остаются отдельной частью подготовки, а не обещанием автоматической совместимости программ."
+    },
+    {
+      "index": 121,
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 8,
+      "note": "Рабочая станция, слои, разделения клавиатуры и последовательности переведены без потери разных функций. Подготовка сет-листа и перенос проекта сохраняются; N.0 и H1 остаются разными."
+    },
+    {
+      "index": 122,
+      "slug": "workstation-dlya-odnogo-muzykanta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 7,
+      "note": "Один исполнитель, звуковые слои, последовательности и живое управление переданы точно. Необходимость функций определяется программой, а не полной комплектацией всех перечисленных ролей."
+    },
+    {
+      "index": 123,
+      "slug": "midi-klaviatura-dlya-kompozitora",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Mapping передано назначением функций. DAW/MIDI остаются точными обозначениями, диапазон выбирается под фактуру и ввод материала, а не фиксированное число клавиш."
+    },
+    {
+      "index": 124,
+      "slug": "midi-klaviatura-dlya-notnogo-nabora",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 4,
+      "note": "Step input передан пошаговым вводом. Velocity сохранено параметром, а не субъективной громкостью; десять минут пробы и различие мелодии/гармоний сохранены."
+    },
+    {
+      "index": 125,
+      "slug": "midi-klaviatura-dlya-orkestrovki",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 6,
+      "note": "Keyswitch объяснён клавишами-переключателями и сохранён один раз для узнавания; Expression остаётся конкретным параметром пробы. Артикуляции, диапазон и библиотека не подменены пустым MIDI-треком."
+    },
+    {
+      "index": 126,
+      "slug": "midi-klaviatura-dlya-virtualnyh-instrumentov",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 6,
+      "note": "Weighted action передано взвешенной механикой без усиления до молоточковой. Mapping/controls и четыре типа виртуальных партий переведены с сохранением различий интерфейса."
+    },
+    {
+      "index": 127,
+      "slug": "organ-dlya-raboty-dvuh-manualov",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Echo-эффект передан эффектом эха между мануалами. Новый электронный эффект или дополнительный блок задержки не добавляется; регистровые планы и координация сохранены."
+    },
+    {
+      "index": 128,
+      "slug": "klavesin-dlya-barochnoy-programmy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Сольная роль передана грамматически правильно. Continuo остаётся другой музыкальной функцией, а диапазон/мануалы/строй выбираются по репертуару."
+    },
+    {
+      "index": 129,
+      "slug": "rhodes-dlya-pervogo-opyta",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "Tines передано звучащими стержнями с исходным термином в скобках. Молоточки, электромеханический съём и сравнение физического отклика с цифровым пресетом сохранены."
+    },
+    {
+      "index": 130,
+      "slug": "kontrabas-dlya-perehoda-s-bas-gitary",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Pizzicato является предметным приёмом перехода с бас-гитары. Мензура, безладовая интонация и геометрия контрабаса не подменяются уже имеющимся басовым опытом; keep обоснован."
+    },
+    {
+      "index": 131,
+      "slug": "kontrabas-dlya-perehoda-s-violoncheli",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Pizzicato и arco различают две пробы после виолончели. Строй, расстояния и новая мензура сохраняются самостоятельными задачами; изменений нет."
+    },
+    {
+      "index": 132,
+      "slug": "kontrabas-dlya-kamernogo-ansamblya",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Arco/pizzicato — разные роли камерного баса. Тихий/плотный эпизоды и баланс с партнёрами полностью сохранены; языковой дефект отсутствует."
+    },
+    {
+      "index": 133,
+      "slug": "kontrabas-dlya-raboty-smychkom",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Arco/pizzicato являются содержанием страницы о смычковом отклике. Сохранены французская/немецкая системы, длинный смычок, смены струн и тихая атака."
+    },
+    {
+      "index": 134,
+      "slug": "skripichnyy-smychok-pered-pokupkoy",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Legato/spiccato — конкретные штрихи сравнения скрипичных смычков. Личный инструмент, баланс и программа сохранены, перевод ради латиницы не нужен."
+    },
+    {
+      "index": 135,
+      "slug": "altovyy-smychok-pered-pokupkoy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 1,
+      "note": "Исправлено только согласование «массу саму по себе». Détaché/legato и C-струна остаются музыкальными обозначениями; масса не подменяет движение и контроль нижнего голоса."
+    },
+    {
+      "index": 136,
+      "slug": "violonchelnyy-smychok-pered-pokupkoy",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Legato и C-струна обозначают конкретные места пробы виолончельного смычка. Никаких новых характеристик или причин менять полный русский текст не найдено."
+    },
+    {
+      "index": 137,
+      "slug": "smychok-dlya-raboty-nad-legato",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Legato — предмет страницы и техника длинной фразы, полностью раскрытая распределением скорости и веса. Согласование среднего рода верно, keep допустим."
+    },
+    {
+      "index": 138,
+      "slug": "smychok-dlya-raboty-nad-spikkato",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Spiccato обозначает отскок, пояснённый балансом и упругостью; характер трости отделён от координации музыканта. Музыкальный термин не требует замены."
+    },
+    {
+      "index": 139,
+      "slug": "smychok-dlya-tihoy-ataki",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Pianissimo соответствует тихой атаке и повторяемому контакту. Десять повторений и освоение нового динамического уровня сохранены, языкового дефекта нет."
+    },
+    {
+      "index": 140,
+      "slug": "smychok-dlya-raboty-u-kontsa",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Legato — реальный приём пробы у конца смычка. Распределение веса, тихая атака и отсутствие лишнего напряжения сохраняются без изменений."
+    },
+    {
+      "index": 141,
+      "slug": "derevyannyy-smychok-dlya-pervogo-opyta",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Brazilwood/Brazil Wood — торговое обозначение древесины и имя серии Dörfler, détaché/legato — штрихи. Материал не превращён в гарантированный характер смычка; keep обоснован."
+    },
+    {
+      "index": 142,
+      "slug": "kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy",
+      "author_decision": "enrich",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 2,
+      "note": "French/German double bass bow передано французским/немецким контрабасовыми смычками. Upton Workshop, две системы держания, гамма и длинная нота сохранены."
+    },
+    {
+      "index": 143,
+      "slug": "smychok-dlya-raboty-nad-stakkato",
+      "author_decision": "keep",
+      "independent_decision": "accept",
+      "full_public_after_context_read": true,
+      "all_actual_before_changed_leaves_read": true,
+      "changed_leaf_count": 0,
+      "note": "Staccato и détaché являются предметными музыкальными терминами. Серия коротких атак, темп и контроль накопления напряжения полностью прочитаны; keep обоснован."
+    }
+  ],
+  "findings": [
+    {
+      "slug": "naturalnaya-truba-pered-pokupkoy",
+      "severity": "minor_required_language_fix",
+      "field": "blocks[2].paragraphs[0]",
+      "reason": "Название детали — крон, мужского рода; родительный множественного — кронов. Кандидат употребил форму крон от существительного крона. Предметный перевод crooks и вся остальная фраза верны."
+    },
+    {
+      "slug": "instrumenty-dlya-strunnogo-trio",
+      "severity": "minor_required_language_fix",
+      "field": "blocks[1].title",
+      "reason": "При допустимом keep музыкального термина осталась ошибка согласования: тутти — существительное среднего рода. Правка относится к публичному языку уже прочитанной страницы."
+    },
+    {
+      "slug": "korg-kronos-2-88-v-arendu",
+      "severity": "minor_required_language_fix",
+      "json_path": [
+        "quote"
+      ],
+      "reason": "После перевода workstation как рабочая станция требуется женский род сказуемого «нужна»; исходный выбор функций полностью сохранён."
+    },
+    {
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "severity": "minor_required_language_fix",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "reason": "После перевода backline-позиция как комплект требуется «который». Условия доставки, установки и конкретной связки не меняются."
+    },
+    {
+      "slug": "korg-kronos-2-88-v-arendu",
+      "severity": "minor_required_public_canon_fix",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "reason": "Удаляется только заключение о том, зачем нужна страница, по согласованному публичному канону. Все факты об обозначениях моделей и источниках сохранены; новые обещания не добавлены."
+    },
+    {
+      "slug": "steinway-d274-v-arendu",
+      "severity": "minor_required_public_canon_fix",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "reason": "Удаляется только служебное объяснение модельной страницы; факт отдельного именованного запроса остаётся. Полезные условия выбора экземпляра уже раскрыты соседним блоком."
+    },
+    {
+      "slug": "legendarnye-sintezatory",
+      "severity": "minor_required_public_canon_fix",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "reason": "Заголовок об адресе относится к устройству каталога. Он заменён уже раскрытым в этом блоке условием подтверждения конкретного экземпляра, состояния и даты, без изменения содержания."
+    },
+    {
+      "slug": "goronok-kadentsiya-alt-v-arendu",
+      "severity": "minor_required_learning_canon_fix",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "reason": "Условие «уже слышит и использует» исключает освоение нового как самостоятельную задачу. Заголовок включает текущую программу и обучение; абзац с pianissimo, верхней позицией, ансамблевой проекцией и проверкой посадки/настройки сохраняется."
+    },
+    {
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "severity": "minor_required_learning_canon_fix",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "reason": "Сохранены размеры и аудитория с атрибуцией производителю. Вместо требования уже уметь использовать инструмент обозначены текущая программа и освоение отклика как самостоятельные задачи временной пробы."
+    },
+    {
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "severity": "minor_required_learning_canon_fix",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "reason": "Сохраняются все четыре критерия сравнения и отсутствие автоматической выгоды от названия класса. Снимается условие заранее использовать различия: работа над ними также является основанием доступа."
+    },
+    {
+      "slug": "smychkovye-gewa",
+      "severity": "minor_required_learning_canon_fix",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "reason": "Сохранены сравнение трёх серий и отказ от выбора по одному статусу. Безусловное «переход выше не нужен» заменено оценкой текущей программы и осваиваемых возможностей; новая категория качества или техническое свойство не вводится."
+    },
+    {
+      "slug": "sintezator-dlya-sozdaniya-lida",
+      "severity": "minor_required_learning_canon_fix",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "reason": "Перечень средств и задача выразительного движения сохранены. Вместо требования заранее знать движение допускается его освоение на инструменте; это соответствует уже существующей пробе короткой мелодии в следующем блоке."
+    }
+  ],
+  "amendments": [
+    {
+      "slug": "naturalnaya-truba-pered-pokupkoy",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "before": "После проекта понятнее, какой комплект крон действительно нужен.",
+      "after": "После проекта понятнее, какой комплект кронов действительно нужен.",
+      "reason": "Грамматическое согласование технического существительного крон (мужской род), уже принятого в проекте; число, предмет и смысл не меняются.",
+      "amendment_id": "05-independent-01",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "instrumenty-dlya-strunnogo-trio",
+      "json_path": [
+        "blocks",
+        1,
+        "title"
+      ],
+      "before": "Сыграйте тихий эпизод и общий tutti",
+      "after": "Сыграйте тихий эпизод и общее тутти",
+      "reason": "По Русскому орфографическому словарю/метасловарю Грамоты тутти — несклоняемое существительное среднего рода; требуется согласование «общее». Состав и музыкальный термин сохраняются.",
+      "amendment_id": "05-independent-02",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "korg-kronos-2-88-v-arendu",
+      "json_path": [
+        "quote"
+      ],
+      "before": "Артист использует собственные Kronos-программы или ему нужен только знакомая 88-клавишная рабочая станция?",
+      "after": "Артист использует собственные Kronos-программы или ему нужна только знакомая 88-клавишная рабочая станция?",
+      "reason": "После перевода workstation как рабочая станция требуется женский род сказуемого «нужна»; исходный выбор функций полностью сохранён.",
+      "amendment_id": "05-independent-03",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Это тяжёлый комплект бэклайна, которая влияет на доступ к сцене, расстановку и время установки. Поэтому наличие B3 нельзя подтверждать отдельно от доставки и конкретного Leslie-комплекта.",
+      "after": "Это тяжёлый комплект бэклайна, который влияет на доступ к сцене, расстановку и время установки. Поэтому наличие B3 нельзя подтверждать отдельно от доставки и конкретного Leslie-комплекта.",
+      "reason": "После перевода backline-позиция как комплект требуется «который». Условия доставки, установки и конкретной связки не меняются.",
+      "amendment_id": "05-independent-04",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "korg-kronos-2-88-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "before": "Swiss Backline и другие прокаты продолжают перечислять Kronos 2 88 и Kronos II 88 как отдельные позиции. Значит, страница отвечает существующему языку гастрольного заказа.",
+      "after": "Swiss Backline и другие прокаты продолжают перечислять Kronos 2 88 и Kronos II 88 как отдельные позиции.",
+      "reason": "Удаляется только заключение о том, зачем нужна страница, по согласованному публичному канону. Все факты об обозначениях моделей и источниках сохранены; новые обещания не добавлены.",
+      "amendment_id": "05-independent-05",
+      "category": "public_content_canon",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "steinway-d274-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "before": "Концертные сервисы предлагают D‑274 по имени. Это именно тот случай, где модельная страница описывает реальный язык профессионального заказа.",
+      "after": "Концертные сервисы предлагают D‑274 по имени.",
+      "reason": "Удаляется только служебное объяснение модельной страницы; факт отдельного именованного запроса остаётся. Полезные условия выбора экземпляра уже раскрыты соседним блоком.",
+      "amendment_id": "05-independent-06",
+      "category": "public_content_canon",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "legendarnye-sintezatory",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "before": "Редкость не отменяет адрес, а меняет способ подтверждения",
+      "after": "Доступ к редкому инструменту подтверждают отдельно",
+      "reason": "Заголовок об адресе относится к устройству каталога. Он заменён уже раскрытым в этом блоке условием подтверждения конкретного экземпляра, состояния и даты, без изменения содержания.",
+      "amendment_id": "05-independent-07",
+      "category": "public_content_canon",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "goronok-kadentsiya-alt-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "before": "Переход нужен тогда, когда ученик уже слышит и использует разницу",
+      "after": "Переход оценивают на текущей программе и новых исполнительских задачах",
+      "reason": "Условие «уже слышит и использует» исключает освоение нового как самостоятельную задачу. Заголовок включает текущую программу и обучение; абзац с pianissimo, верхней позицией, ансамблевой проекцией и проверкой посадки/настройки сохраняется.",
+      "amendment_id": "05-independent-08",
+      "category": "learning_access_canon",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>Мастеровой контрабас «Алексей Романов» выпускается Goronok в 3/4 и 7/8 и производителем адресуется одарённым детям, выпускникам музыкальных школ и студентам колледжей. Это уже не ранний учебный размер, а следующий слой для музыканта, который способен использовать более подробный инструмент.</p>",
+      "after": "<p>Мастеровой контрабас «Алексей Романов» выпускается Goronok в 3/4 и 7/8 и производителем адресуется одарённым детям, выпускникам музыкальных школ и студентам колледжей. Это уже не ранний учебный размер, а следующий вариант для текущей программы и освоения более подробного отклика.</p>",
+      "reason": "Сохранены размеры и аудитория с атрибуцией производителю. Вместо требования уже уметь использовать инструмент обозначены текущая программа и освоение отклика как самостоятельные задачи временной пробы.",
+      "amendment_id": "05-independent-09",
+      "category": "learning_access_canon",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Сравнивают проекцию arco, ясность pizzicato, равномерность регистров и реакцию на тихий смычок. Если ученик ещё не использует эти различия, мастеровой класс не обязан давать образовательную выгоду сам по себе.",
+      "after": "Сравнивают проекцию arco, ясность pizzicato, равномерность регистров и реакцию на тихий смычок. Эти различия проверяют на текущей программе и осваиваемых приёмах; само обозначение мастерового класса не заменяет такой пробы.",
+      "reason": "Сохраняются все четыре критерия сравнения и отсутствие автоматической выгоды от названия класса. Снимается условие заранее использовать различия: работа над ними также является основанием доступа.",
+      "amendment_id": "05-independent-10",
+      "category": "learning_access_canon",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "smychkovye-gewa",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "before": "Для фонда важно не объявить одну серию «правильной», а понять, какое качество уже использует ученик. Пока Allegro позволяет работать над текущей программой, переход выше не нужен. Когда появляется конкретное ограничение отклика или динамики, можно сравнивать Ideale и Maestro.",
+      "after": "Для фонда важно не объявить одну серию «правильной», а связать выбор с текущей программой и тем, что ученик осваивает. Allegro можно сохранить, если её отклик позволяет работать над этими задачами. Ideale и Maestro сравнивают, когда требуется другой отклик или более подробная работа с динамикой.",
+      "reason": "Сохранены сравнение трёх серий и отказ от выбора по одному статусу. Безусловное «переход выше не нужен» заменено оценкой текущей программы и осваиваемых возможностей; новая категория качества или техническое свойство не вводится.",
+      "amendment_id": "05-independent-11",
+      "category": "learning_access_canon",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "sintezator-dlya-sozdaniya-lida",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "before": "Изменение высоты, модуляция, послекасание или другие средства управления имеют смысл только тогда, когда музыкант заранее знает, какое движение ими делает.",
+      "after": "Изменение высоты, модуляция, послекасание или другие средства управления могут стать частью выразительного движения, которое музыкант уже использует или осваивает.",
+      "reason": "Перечень средств и задача выразительного движения сохранены. Вместо требования заранее знать движение допускается его освоение на инструменте; это соответствует уже существующей пробе короткой мелодии в следующем блоке.",
+      "amendment_id": "05-independent-12",
+      "category": "learning_access_canon",
+      "root_review_status": "accepted_exact_wording"
+    }
+  ],
+  "source_checks": [
+    {
+      "question": "Род и согласование тутти",
+      "url": "https://gramota.ru/meta/tutti",
+      "ref": "turn156view0",
+      "evidence": "Метасловарь, строка 207: существительное, средний род, несклоняемое; значения и словари прочитаны.",
+      "applies_to": [
+        "instrumenty-dlya-strunnogo-trio"
+      ],
+      "public_sources_change": false
+    },
+    {
+      "question": "Родительный множественного технического крон",
+      "url": "https://ru.yamaha.com/ru/musical-instruments/brass-woodwinds/products/frenchhorns/yhr-871/",
+      "ref": "turn155view0",
+      "evidence": "Первичная русская страница изготовителя: «Форма кронов и раструба», «Изгибы кронов», «части всех кронов», «настроечный крон». Прочитан весь соответствующий раздел.",
+      "applies_to": [
+        "naturalnaya-truba-pered-pokupkoy"
+      ],
+      "public_sources_change": false
+    },
+    {
+      "question": "Длина B-211 при исправлении 210→211",
+      "url": "https://eu.steinway.com/en/pianos/grand-pianos/b-211",
+      "ref": "turn162view0",
+      "evidence": "Первичная страница Steinway, строки 38, 73 и 89 указывают длину 211 см; строки 92–94 подтверждают уже описанные концертные и учебные применения. Публичный источник уже существует в странице.",
+      "applies_to": [
+        "steinway-b211-v-arendu"
+      ],
+      "public_sources_change": false
+    },
+    {
+      "question": "M1: восемь дорожек, 1988, AI на основе PCM и история рабочей станции",
+      "url": "https://www.korg.com/us/products/software/kc_m1/index.php",
+      "ref": "turn162view1",
+      "evidence": "Первичная страница Korg: строка 73 — 1988, PCM и восьмидорожечный секвенсор; строки 96–98 раскрывают AI как advanced integrated synthesis с PCM. Прочитаны разделы об исходном инструменте и программном воспроизведении.",
+      "applies_to": [
+        "korg-m1-v-arendu"
+      ],
+      "public_sources_change": false
+    },
+    {
+      "question": "Основание уже присутствующего слова «первая» у M1",
+      "url": "https://www.korg.com/de/products/synthesizers/m1/",
+      "ref": "turn162view2",
+      "evidence": "Первичная историческая страница Korg, строки 55–59: изготовитель называет M1 первой рабочей станцией, указывает 1988–1994 и состав синтезатор/эффекты/ритм-машина/восемь дорожек. В исходном intro это утверждение уже атрибутировано Korg.",
+      "applies_to": [
+        "korg-m1-v-arendu"
+      ],
+      "public_sources_change": false
+    }
+  ],
+  "review_type": "independent_full_context_and_exact_diff_review",
+  "outcome": "Frozen candidate accepted with 12 exact amendments on 10 pages: four grammatical corrections, three public catalog-meta corrections and five fields applying the agreed learning-access canon. Root read the complete context of all ten pages and approved all 12 exact wordings. All 143 pages and all actual changed leaves were read. No new routes or sources are proposed.",
+  "review_policy": {
+    "full_context": "For each of 143 records, read all current public fields, including kept fields, and exact full original values for every changed leaf. Review author decisions separately from the actual candidate.",
+    "preservation": "Keep useful technical and musical names, model identifiers, musical functions, sizes, dates, ranges, version conditions, source attribution, array structure and destinations.",
+    "scope_boundary": "This is a full language/diff review, not a fresh exhaustive specification or live-inventory audit. Source checks were targeted to concrete ambiguity. No product availability inferred."
+  },
+  "numeric_deltas": [
+    {
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "path": "blocks.2.paragraphs.0",
+      "before": "Backline Musician Services прямо выделяет Hammond B3 среди редких винтажных инструментов, а специализированные парки держат несколько B3 и Leslie 122. Это один из наиболее чистых примеров Legendary Rider Core.",
+      "after": "Backline Musician Services прямо выделяет Hammond B3 среди редких винтажных инструментов, а специализированные парки держат несколько B3 и Leslie 122. Это пример запроса на конкретную винтажную связку B3 и Leslie.",
+      "removed": [],
+      "added": [
+        "3"
+      ],
+      "decision": "accept",
+      "reason": "Дополнительное вхождение 3 — повтор имени B3 в замене внутренней категории. Модель и Leslie 122 уже названы в той же исходной фразе."
+    },
+    {
+      "slug": "steinway-b211-v-arendu",
+      "path": "quote",
+      "before": "B‑211 нужен по точному райдеру или как профессиональный 210-сантиметровый Steinway для камерной сцены?",
+      "after": "B‑211 нужен по точному райдеру или как профессиональный 211-сантиметровый Steinway для камерной сцены?",
+      "removed": [
+        "210"
+      ],
+      "added": [
+        "211"
+      ],
+      "decision": "accept",
+      "reason": "210 исправлено на 211 см. 211 см уже есть в исходных description и blocks[0].title; первичная страница Steinway дополнительно открыта и подтверждает 211 см. Это точечное устранение противоречия, не стилистическая смена числа."
+    },
+    {
+      "slug": "sequential-prophet-5-v-arendu",
+      "path": "intro.0",
+      "before": "<p>Sequential сам маркирует Prophet‑5 как Legendary 5‑voice Analog Poly Synth. Современная версия сознательно воспроизводит все три ревизии оригинала и позволяет выбирать характер старых фильтров, поэтому здесь особенно важно различать vintage original и current reissue.</p>",
+      "after": "<p>Sequential сам представляет Prophet‑5 как легендарный пятиголосный аналоговый полифонический синтезатор. Современная версия сознательно воспроизводит все три ревизии оригинала и позволяет выбирать характер старых фильтров, поэтому здесь особенно важно различать винтажный оригинал и современное переиздание.</p>",
+      "removed": [
+        "5"
+      ],
+      "added": [],
+      "decision": "accept",
+      "reason": "5-voice передано словом «пятиголосный»; количество не изменилось. Имя Prophet-5 сохранено отдельно."
+    },
+    {
+      "slug": "korg-m1-v-arendu",
+      "path": "description",
+      "before": "Korg M1: 1988 original music workstation with PCM synthesis, effects, drums and 8-track sequencer.",
+      "after": "Korg M1: первая музыкальная рабочая станция 1988 года с PCM-синтезом, эффектами, ударными и восьмидорожечным секвенсором.",
+      "removed": [
+        "8"
+      ],
+      "added": [],
+      "decision": "accept",
+      "reason": "8-track передано словом «восьмидорожечный»; 1988 сохранён. Первая рабочая станция уже заявлена в исходных H1/intro и прямо названа так на первичной немецкой странице Korg."
+    },
+    {
+      "slug": "korg-m1-v-arendu",
+      "path": "blocks.0.paragraphs.0",
+      "before": "Встроенный 8-track sequencer и PCM-based AI synthesis сделали возможной полноценную работу без отдельной цепочки устройств.",
+      "after": "Встроенный восьмидорожечный секвенсор и AI-синтез на основе PCM сделали возможной полноценную работу без отдельной цепочки устройств.",
+      "removed": [
+        "8"
+      ],
+      "added": [],
+      "decision": "accept",
+      "reason": "8-track передано словом «восьмидорожечный». AI остаётся именем синтеза Korg на основе PCM; это не современный ИИ."
+    },
+    {
+      "slug": "yamaha-montage-m8x-v-arendu",
+      "path": "blocks.2.paragraphs.0",
+      "before": "BacklineNow, Backline Rental Nederland и другие парки прямо сдают M8x. Это позволяет классифицировать его как Current Pro Rider Core.",
+      "after": "BacklineNow, Backline Rental Nederland и другие парки прямо сдают M8x. В запросе нужно сохранять точное обозначение M8x.",
+      "removed": [],
+      "added": [
+        "8"
+      ],
+      "decision": "accept",
+      "reason": "Дополнительное вхождение 8 — повтор полного имени M8x вместо внутренней классификации. Число клавиш или новая модель не добавлялись."
+    }
+  ],
+  "label_verification": {
+    "status": "complete",
+    "repository_head_at_check": "b45101f654a73e2834c1c5e1048219ca4f367913",
+    "scope": "Read source JSON/HTML and merge/connect Page objects in memory only. No rendering, writing repository files, build, test or audit() invocation.",
+    "explicit_operations": [
+      {
+        "index": 1,
+        "source_slug": "sintezator-dlya-studii",
+        "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+        "old_label": "Инструменты для live session в студии",
+        "new_label": "Инструменты для одновременной записи в студии",
+        "origins": [
+          {
+            "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+            "json_path": [
+              "navigation",
+              "sintezator-dlya-studii",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 2,
+        "source_slug": "smychkovye-dlya-studiynoy-zapisi",
+        "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+        "old_label": "Инструменты для live session в студии",
+        "new_label": "Инструменты для одновременной записи в студии",
+        "origins": [
+          {
+            "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+            "json_path": [
+              "navigation",
+              "smychkovye-dlya-studiynoy-zapisi",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 3,
+        "source_slug": "korg-monologue-v-arendu",
+        "target_slug": "sintezator-dlya-sozdaniya-lida",
+        "old_label": "Синтезатор для lead",
+        "new_label": "Синтезатор для лида",
+        "origins": [
+          {
+            "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+            "json_path": [
+              "navigation",
+              "korg-monologue-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 4,
+        "source_slug": "korg-monologue-v-arendu",
+        "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+        "old_label": "Hardware и software для сравнения",
+        "new_label": "Аппаратный и программный синтезаторы для сравнения",
+        "origins": [
+          {
+            "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+            "json_path": [
+              "navigation",
+              "korg-monologue-v-arendu",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 5,
+        "source_slug": "traverso-dlya-pervogo-opyta",
+        "target_slug": "traverso-dlya-kamernoy-programmy",
+        "old_label": "Traverso для камерной программы",
+        "new_label": "Траверсо для камерной программы",
+        "origins": [
+          {
+            "file": "content/sections/zz110-historical-winds-human-scenes.json",
+            "json_path": [
+              "pages",
+              0,
+              "links",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 6,
+        "source_slug": "traverso-pered-pokupkoy",
+        "target_slug": "traverso-dlya-kamernoy-programmy",
+        "old_label": "Traverso для камерной программы",
+        "new_label": "Траверсо для камерной программы",
+        "origins": [
+          {
+            "file": "content/sections/zz110-historical-winds-human-scenes.json",
+            "json_path": [
+              "pages",
+              3,
+              "links",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 7,
+        "source_slug": "barochnye-instrumenty-dlya-kamernoy-programmy",
+        "target_slug": "traverso-dlya-kamernoy-programmy",
+        "old_label": "Traverso для камерной программы",
+        "new_label": "Траверсо для камерной программы",
+        "origins": [
+          {
+            "file": "content/sections/zz111-historical-project-human-scenes.json",
+            "json_path": [
+              "pages",
+              10,
+              "links",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 8,
+        "source_slug": "roland-rd2000ex-v-arendu",
+        "target_slug": "stage-piano-po-rayderu",
+        "old_label": "Stage piano по райдеру",
+        "new_label": "Сценическое пианино по райдеру",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "roland-rd2000ex-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 9,
+        "source_slug": "minimoog-model-d-v-arendu",
+        "target_slug": "sintezator-dlya-sozdaniya-lida",
+        "old_label": "Синтезатор для lead",
+        "new_label": "Синтезатор для лида",
+        "origins": [
+          {
+            "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+            "json_path": [
+              "navigation",
+              "minimoog-model-d-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 10,
+        "source_slug": "roland-juno-106-v-arendu",
+        "target_slug": "sintezator-dlya-saund-dizayna",
+        "old_label": "Синтезатор для sound design",
+        "new_label": "Синтезатор для саунд-дизайна",
+        "origins": [
+          {
+            "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+            "json_path": [
+              "navigation",
+              "roland-juno-106-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 11,
+        "source_slug": "korg-kronos-2-88-v-arendu",
+        "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+        "old_label": "Workstation для концертного сета",
+        "new_label": "Рабочая станция для концертного сета",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "korg-kronos-2-88-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 12,
+        "source_slug": "korg-kronos-2-88-v-arendu",
+        "target_slug": "workstation-dlya-gastrolnogo-tura",
+        "old_label": "Workstation для гастрольного тура",
+        "new_label": "Рабочая станция для гастрольного тура",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "korg-kronos-2-88-v-arendu",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 13,
+        "source_slug": "yamaha-dx7-v-arendu",
+        "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+        "old_label": "Hardware или software: сравнить способ работы",
+        "new_label": "Аппаратный или программный: сравнить способ работы",
+        "origins": [
+          {
+            "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+            "json_path": [
+              "navigation",
+              "yamaha-dx7-v-arendu",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 14,
+        "source_slug": "sequential-prophet-5-v-arendu",
+        "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+        "old_label": "Hardware или software: сравнить способ работы",
+        "new_label": "Аппаратный или программный: сравнить способ работы",
+        "origins": [
+          {
+            "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+            "json_path": [
+              "navigation",
+              "sequential-prophet-5-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 15,
+        "source_slug": "roland-d50-v-arendu",
+        "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+        "old_label": "Hardware или software: сравнить способ работы",
+        "new_label": "Аппаратный или программный: сравнить способ работы",
+        "origins": [
+          {
+            "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+            "json_path": [
+              "navigation",
+              "roland-d50-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 16,
+        "source_slug": "korg-m1-v-arendu",
+        "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+        "old_label": "Hardware или software: сравнить способ работы",
+        "new_label": "Аппаратный или программный: сравнить способ работы",
+        "origins": [
+          {
+            "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+            "json_path": [
+              "navigation",
+              "korg-m1-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 17,
+        "source_slug": "yamaha-montage-m8x-v-arendu",
+        "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+        "old_label": "Workstation для концертного сета",
+        "new_label": "Рабочая станция для концертного сета",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "yamaha-montage-m8x-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 18,
+        "source_slug": "yamaha-montage-m8x-v-arendu",
+        "target_slug": "workstation-dlya-odnogo-muzykanta",
+        "old_label": "Workstation для одного музыканта",
+        "new_label": "Рабочая станция для одного музыканта",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "yamaha-montage-m8x-v-arendu",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 19,
+        "source_slug": "roland-fantom-8-ex-v-arendu",
+        "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+        "old_label": "Workstation для концертного сета",
+        "new_label": "Рабочая станция для концертного сета",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "roland-fantom-8-ex-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 20,
+        "source_slug": "roland-fantom-8-ex-v-arendu",
+        "target_slug": "workstation-dlya-gastrolnogo-tura",
+        "old_label": "Workstation для гастрольного тура",
+        "new_label": "Рабочая станция для гастрольного тура",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "roland-fantom-8-ex-v-arendu",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 21,
+        "source_slug": "korg-nautilus-88-at-v-arendu",
+        "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+        "old_label": "Workstation для концертного сета",
+        "new_label": "Рабочая станция для концертного сета",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "korg-nautilus-88-at-v-arendu",
+              0,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      },
+      {
+        "index": 22,
+        "source_slug": "korg-nautilus-88-at-v-arendu",
+        "target_slug": "workstation-dlya-odnogo-muzykanta",
+        "old_label": "Workstation для одного музыканта",
+        "new_label": "Рабочая станция для одного музыканта",
+        "origins": [
+          {
+            "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+            "json_path": [
+              "navigation",
+              "korg-nautilus-88-at-v-arendu",
+              1,
+              "label"
+            ],
+            "exact_old_value_verified": true,
+            "target_verified": true
+          }
+        ],
+        "frozen_corpus_exact_route_count": 1,
+        "current_explicit_exact_route_count": 1,
+        "decision": "accept",
+        "projected_effective_label_verified": true
+      }
+    ],
+    "automatic_operations": [
+      {
+        "source_slug": "fortepiano",
+        "link_index": 15,
+        "href": "/instrumenty-dlya-vokalnogo-dueta-s-fortepiano/",
+        "target_slug": "instrumenty-dlya-vokalnogo-dueta-s-fortepiano",
+        "field": "search_title",
+        "before": "Инструменты для вокального дуэта с фортепиано в аренду",
+        "after": "Инструменты для дуэта голоса и фортепиано в аренду",
+        "frozen_index_and_value_verified": true,
+        "not_an_authored_route": true,
+        "parent_relation_verified": true,
+        "projected_label_from_search_title_verified": true,
+        "decision": "accept_no_manual_route"
+      },
+      {
+        "source_slug": "scenicheskie-klavishnye",
+        "link_index": 20,
+        "href": "/workstation-po-rayderu/",
+        "target_slug": "workstation-po-rayderu",
+        "field": "search_title",
+        "before": "Workstation по райдеру в аренду",
+        "after": "Клавишная рабочая станция по райдеру в аренду",
+        "frozen_index_and_value_verified": true,
+        "not_an_authored_route": true,
+        "parent_relation_verified": true,
+        "projected_label_from_search_title_verified": true,
+        "decision": "accept_no_manual_route"
+      },
+      {
+        "source_slug": "scenicheskie-klavishnye",
+        "link_index": 31,
+        "href": "/workstation-dlya-gastrolnogo-tura/",
+        "target_slug": "workstation-dlya-gastrolnogo-tura",
+        "field": "search_title",
+        "before": "Workstation для гастрольного тура в аренду",
+        "after": "Клавишная рабочая станция для гастрольного тура в аренду",
+        "frozen_index_and_value_verified": true,
+        "not_an_authored_route": true,
+        "parent_relation_verified": true,
+        "projected_label_from_search_title_verified": true,
+        "decision": "accept_no_manual_route"
+      },
+      {
+        "source_slug": "scenicheskie-klavishnye",
+        "link_index": 32,
+        "href": "/instrumenty-dlya-soul-gruppy/",
+        "target_slug": "instrumenty-dlya-soul-gruppy",
+        "field": "search_title",
+        "before": "Инструменты для soul-группы в аренду",
+        "after": "Инструменты для соул-группы в аренду",
+        "frozen_index_and_value_verified": true,
+        "not_an_authored_route": true,
+        "parent_relation_verified": true,
+        "projected_label_from_search_title_verified": true,
+        "decision": "accept_no_manual_route"
+      },
+      {
+        "source_slug": "scenicheskie-klavishnye",
+        "link_index": 41,
+        "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+        "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+        "field": "search_title",
+        "before": "Workstation для подготовки концертного сета в аренду",
+        "after": "Клавишная рабочая станция для подготовки концертного сета в аренду",
+        "frozen_index_and_value_verified": true,
+        "not_an_authored_route": true,
+        "parent_relation_verified": true,
+        "projected_label_from_search_title_verified": true,
+        "decision": "accept_no_manual_route"
+      },
+      {
+        "source_slug": "scenicheskie-klavishnye",
+        "link_index": 42,
+        "href": "/workstation-dlya-odnogo-muzykanta/",
+        "target_slug": "workstation-dlya-odnogo-muzykanta",
+        "field": "search_title",
+        "before": "Workstation для выступления одного музыканта в аренду",
+        "after": "Клавишная рабочая станция для выступления одного музыканта в аренду",
+        "frozen_index_and_value_verified": true,
+        "not_an_authored_route": true,
+        "parent_relation_verified": true,
+        "projected_label_from_search_title_verified": true,
+        "decision": "accept_no_manual_route"
+      }
+    ],
+    "title_coverage": {
+      "changed_H1": 30,
+      "changed_search_title": 6,
+      "frozen_pages_scanned": 1901,
+      "frozen_links_scanned": 6066,
+      "source_json_files_indexed": 240,
+      "source_karta_html_files_indexed": 16,
+      "active_legacy_index_html_files_examined": 253,
+      "legacy_family_grids_checked": 14,
+      "source_definition_keys_indexed": 5268,
+      "exact_or_html_whitespace_normalized_H1_copies": [],
+      "authored_H1_copies": [],
+      "contextual_incoming_labels": [
+        {
+          "source_slug": "istoricheskie",
+          "target_slug": "istoricheskie-instrumenty-dlya-master-klassa",
+          "index": 16,
+          "label": "Исторические музыкальные инструменты для мастер-класса в аренду"
+        },
+        {
+          "source_slug": "royal",
+          "target_slug": "yamaha-cfx-v-arendu",
+          "index": 12,
+          "label": "Yamaha CFX"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "korg-kronos-2-88-v-arendu",
+          "index": 13,
+          "label": "Korg Kronos 2 88"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "yamaha-montage-m8x-v-arendu",
+          "index": 15,
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "roland-fantom-8-ex-v-arendu",
+          "index": 16,
+          "label": "Roland FANTOM 8 EX"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "korg-nautilus-88-at-v-arendu",
+          "index": 17,
+          "label": "Korg NAUTILUS 88 AT"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "workstation-po-rayderu",
+          "index": 20,
+          "label": "Workstation по райдеру в аренду"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "workstation-dlya-gastrolnogo-tura",
+          "index": 31,
+          "label": "Workstation для гастрольного тура в аренду"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "instrumenty-dlya-soul-gruppy",
+          "index": 32,
+          "label": "Инструменты для soul-группы в аренду"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "index": 41,
+          "label": "Workstation для подготовки концертного сета в аренду"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye",
+          "target_slug": "workstation-dlya-odnogo-muzykanta",
+          "index": 42,
+          "label": "Workstation для выступления одного музыканта в аренду"
+        },
+        {
+          "source_slug": "sintezatory",
+          "target_slug": "sintezator-dlya-sozdaniya-lida",
+          "index": 24,
+          "label": "Синтезатор для создания лидов в аренду"
+        },
+        {
+          "source_slug": "sintezatory",
+          "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+          "index": 29,
+          "label": "Аппаратный синтезатор в аренду для сравнения с программным"
+        },
+        {
+          "source_slug": "violonchel",
+          "target_slug": "goronok-kadentsiya-violonchel-v-arendu",
+          "index": 10,
+          "label": "Goronok Каденция"
+        },
+        {
+          "source_slug": "violonchel-goronok",
+          "target_slug": "goronok-kadentsiya-violonchel-v-arendu",
+          "index": 1,
+          "label": "Серия Горонок Каденция"
+        },
+        {
+          "source_slug": "hammond-organ",
+          "target_slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+          "index": 2,
+          "label": "Hammond B3 с Leslie для первого опыта в аренду"
+        },
+        {
+          "source_slug": "renessansnye-muzykalnye-instrumenty",
+          "target_slug": "renessansnye-instrumenty-dlya-konsorta",
+          "index": 7,
+          "label": "Ренессансные инструменты для консорта в аренду"
+        },
+        {
+          "source_slug": "renessansnye-muzykalnye-instrumenty",
+          "target_slug": "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta",
+          "index": 10,
+          "label": "Ренессансные инструменты для образовательного проекта в аренду"
+        },
+        {
+          "source_slug": "traverso",
+          "target_slug": "traverso-dlya-pervogo-opyta",
+          "index": 1,
+          "label": "Траверсо для первого опыта в аренду"
+        },
+        {
+          "source_slug": "traverso",
+          "target_slug": "traverso-dlya-domashnih-zanyatiy",
+          "index": 2,
+          "label": "Траверсо для домашних занятий в аренду"
+        },
+        {
+          "source_slug": "traverso",
+          "target_slug": "traverso-pered-pokupkoy",
+          "index": 4,
+          "label": "Траверсо в аренду перед покупкой"
+        },
+        {
+          "source_slug": "tsink",
+          "target_slug": "tsink-dlya-pervogo-opyta",
+          "index": 0,
+          "label": "Цинк, cornetto, для первого опыта в аренду"
+        },
+        {
+          "source_slug": "tsink",
+          "target_slug": "tsink-dlya-domashnih-zanyatiy",
+          "index": 1,
+          "label": "Цинк, cornetto, для домашних занятий в аренду"
+        },
+        {
+          "source_slug": "tsink",
+          "target_slug": "tsink-pered-pokupkoy",
+          "index": 2,
+          "label": "Цинк, cornetto, в аренду перед покупкой"
+        },
+        {
+          "source_slug": "sakbut",
+          "target_slug": "sakbut-dlya-pervogo-opyta",
+          "index": 0,
+          "label": "Сакбут для первого опыта в аренду"
+        },
+        {
+          "source_slug": "sakbut",
+          "target_slug": "sakbut-pered-pokupkoy",
+          "index": 2,
+          "label": "Сакбут в аренду перед покупкой"
+        },
+        {
+          "source_slug": "melodika",
+          "target_slug": "suzuki-m32c-v-arendu",
+          "index": 1,
+          "label": "Suzuki M-32C"
+        },
+        {
+          "source_slug": "analogovyy-sintezator-pered-pokupkoy",
+          "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+          "index": 1,
+          "label": "Аппаратный синтезатор для сравнения с программным"
+        },
+        {
+          "source_slug": "traverso-dlya-kamernoy-programmy",
+          "target_slug": "traverso-dlya-domashnih-zanyatiy",
+          "index": 1,
+          "label": "Закрепить аппликатуру до репетиции"
+        },
+        {
+          "source_slug": "korg-monologue-v-arendu",
+          "target_slug": "sintezator-dlya-sozdaniya-lida",
+          "index": 0,
+          "label": "Синтезатор для lead"
+        },
+        {
+          "source_slug": "korg-monologue-v-arendu",
+          "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+          "index": 1,
+          "label": "Hardware и software для сравнения"
+        },
+        {
+          "source_slug": "melodika-vzroslomu-nachinayuschemu",
+          "target_slug": "suzuki-m32c-v-arendu",
+          "index": 1,
+          "label": "Suzuki M-32C"
+        },
+        {
+          "source_slug": "melodika-pered-pokupkoy",
+          "target_slug": "suzuki-m32c-v-arendu",
+          "index": 1,
+          "label": "Suzuki M-32C"
+        },
+        {
+          "source_slug": "melodika-dlya-ansamblya",
+          "target_slug": "suzuki-m32c-v-arendu",
+          "index": 1,
+          "label": "Suzuki M-32C"
+        },
+        {
+          "source_slug": "tsink-dlya-domashnih-zanyatiy",
+          "target_slug": "tsink-dlya-pervogo-opyta",
+          "index": 1,
+          "label": "Соединить устойчивую атаку и пальцы"
+        },
+        {
+          "source_slug": "tsink-pered-pokupkoy",
+          "target_slug": "tsink-dlya-domashnih-zanyatiy",
+          "index": 1,
+          "label": "Дать время регулярной интонационной работе"
+        },
+        {
+          "source_slug": "renessansnye-instrumenty-dlya-teatralnoy-postanovki",
+          "target_slug": "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta",
+          "index": 2,
+          "label": "Ренессансные инструменты для образовательного проекта"
+        },
+        {
+          "source_slug": "renessansnye-instrumenty-dlya-studiynoy-zapisi",
+          "target_slug": "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta",
+          "index": 1,
+          "label": "Ренессансные инструменты для образовательного проекта"
+        },
+        {
+          "source_slug": "workstation-po-rayderu",
+          "target_slug": "korg-kronos-2-88-v-arendu",
+          "index": 0,
+          "label": "Korg Kronos 2 88"
+        },
+        {
+          "source_slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+          "target_slug": "workstation-po-rayderu",
+          "index": 1,
+          "label": "Workstation по райдеру"
+        },
+        {
+          "source_slug": "workstation-dlya-gastrolnogo-tura",
+          "target_slug": "korg-kronos-2-88-v-arendu",
+          "index": 0,
+          "label": "Korg Kronos 2 88"
+        },
+        {
+          "source_slug": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+          "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "index": 3,
+          "label": "Workstation для концертного сета"
+        },
+        {
+          "source_slug": "minimoog-model-d-v-arendu",
+          "target_slug": "sintezator-dlya-sozdaniya-lida",
+          "index": 0,
+          "label": "Синтезатор для lead"
+        },
+        {
+          "source_slug": "korg-kronos-2-88-v-arendu",
+          "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "index": 0,
+          "label": "Workstation для концертного сета"
+        },
+        {
+          "source_slug": "korg-kronos-2-88-v-arendu",
+          "target_slug": "workstation-dlya-gastrolnogo-tura",
+          "index": 1,
+          "label": "Workstation для гастрольного тура"
+        },
+        {
+          "source_slug": "yamaha-motif-xf8-v-arendu",
+          "target_slug": "workstation-dlya-odnogo-muzykanta",
+          "index": 0,
+          "label": "Workstation для одного музыканта"
+        },
+        {
+          "source_slug": "yamaha-motif-xf8-v-arendu",
+          "target_slug": "workstation-po-rayderu",
+          "index": 1,
+          "label": "Workstation по райдеру"
+        },
+        {
+          "source_slug": "hammond-b3-leslie-122-v-arendu",
+          "target_slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+          "index": 0,
+          "label": "Первый опыт B3 + Leslie"
+        },
+        {
+          "source_slug": "legendarnye-sintezatory",
+          "target_slug": "sequential-prophet-5-v-arendu",
+          "index": 1,
+          "label": "Sequential Prophet‑5"
+        },
+        {
+          "source_slug": "legendarnye-sintezatory",
+          "target_slug": "roland-jupiter-8-v-arendu",
+          "index": 2,
+          "label": "Roland JUPITER‑8"
+        },
+        {
+          "source_slug": "legendarnye-sintezatory",
+          "target_slug": "roland-d50-v-arendu",
+          "index": 3,
+          "label": "Roland D‑50"
+        },
+        {
+          "source_slug": "legendarnye-sintezatory",
+          "target_slug": "korg-m1-v-arendu",
+          "index": 4,
+          "label": "Korg M1"
+        },
+        {
+          "source_slug": "yamaha-dx7-v-arendu",
+          "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+          "index": 1,
+          "label": "Hardware или software: сравнить способ работы"
+        },
+        {
+          "source_slug": "sequential-prophet-5-v-arendu",
+          "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+          "index": 0,
+          "label": "Hardware или software: сравнить способ работы"
+        },
+        {
+          "source_slug": "roland-d50-v-arendu",
+          "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+          "index": 0,
+          "label": "Hardware или software: сравнить способ работы"
+        },
+        {
+          "source_slug": "korg-m1-v-arendu",
+          "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+          "index": 0,
+          "label": "Hardware или software: сравнить способ работы"
+        },
+        {
+          "source_slug": "yamaha-montage-m8x-v-arendu",
+          "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "index": 0,
+          "label": "Workstation для концертного сета"
+        },
+        {
+          "source_slug": "yamaha-montage-m8x-v-arendu",
+          "target_slug": "workstation-dlya-odnogo-muzykanta",
+          "index": 1,
+          "label": "Workstation для одного музыканта"
+        },
+        {
+          "source_slug": "roland-fantom-8-ex-v-arendu",
+          "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "index": 0,
+          "label": "Workstation для концертного сета"
+        },
+        {
+          "source_slug": "roland-fantom-8-ex-v-arendu",
+          "target_slug": "workstation-dlya-gastrolnogo-tura",
+          "index": 1,
+          "label": "Workstation для гастрольного тура"
+        },
+        {
+          "source_slug": "korg-nautilus-88-at-v-arendu",
+          "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "index": 0,
+          "label": "Workstation для концертного сета"
+        },
+        {
+          "source_slug": "korg-nautilus-88-at-v-arendu",
+          "target_slug": "workstation-dlya-odnogo-muzykanta",
+          "index": 1,
+          "label": "Workstation для одного музыканта"
+        },
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "target_slug": "suzuki-m32c-v-arendu",
+          "index": 74,
+          "label": "Suzuki M-32C"
+        },
+        {
+          "source_slug": "smychkovye-goronok",
+          "target_slug": "goronok-kadentsiya-violonchel-v-arendu",
+          "index": 9,
+          "label": "Каденция — виолончель"
+        },
+        {
+          "source_slug": "melodika-32-klavishi-dlya-shkoly",
+          "target_slug": "suzuki-m32c-v-arendu",
+          "index": 1,
+          "label": "Suzuki M-32C"
+        },
+        {
+          "source_slug": "sintezator-pered-pokupkoy",
+          "target_slug": "yamaha-montage-m8x-v-arendu",
+          "index": 1,
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+          "target_slug": "yamaha-montage-m8x-v-arendu",
+          "index": 1,
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy",
+          "target_slug": "yamaha-montage-m8x-v-arendu",
+          "index": 1,
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye-dlya-dvuh-zon",
+          "target_slug": "roland-fantom-8-ex-v-arendu",
+          "index": 1,
+          "label": "Roland FANTOM 8 EX"
+        },
+        {
+          "source_slug": "scenicheskie-klavishnye-dlya-treh-sloev",
+          "target_slug": "roland-fantom-8-ex-v-arendu",
+          "index": 1,
+          "label": "Roland FANTOM 8 EX"
+        },
+        {
+          "source_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "target_slug": "yamaha-montage-m8x-v-arendu",
+          "index": 0,
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "source_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+          "target_slug": "roland-fantom-8-ex-v-arendu",
+          "index": 1,
+          "label": "Roland FANTOM 8 EX"
+        },
+        {
+          "source_slug": "workstation-dlya-odnogo-muzykanta",
+          "target_slug": "yamaha-montage-m8x-v-arendu",
+          "index": 0,
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "source_slug": "workstation-dlya-odnogo-muzykanta",
+          "target_slug": "roland-fantom-8-ex-v-arendu",
+          "index": 1,
+          "label": "Roland FANTOM 8 EX"
+        }
+      ],
+      "contextual_labels_not_automatically_aligned": true
+    },
+    "source_file_hashes": {
+      "content/sections/zzzz38-conductivity-task-leaves-b.json": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+      "content/sections/zzzz32-conductivity-remaining-model-bridges.json": "7a6d85069c8d55d7c05fbfdbbae28a99230debb75dfc590db9457b1460ea82db",
+      "content/sections/zz110-historical-winds-human-scenes.json": "bf15ceec900e51ae47f1b8e8501d81f9e2511ab1f2cc08de41432711751367a1",
+      "content/sections/zz111-historical-project-human-scenes.json": "7d55fcd28bcac9b2ed45391dbf9737af0c55918f78986d3c7cfc8ba793aedcaf",
+      "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04",
+      "content/sections/zzzz01-conductivity-keyboard-bridges.json": "e6fca6135bd2d0f594dd147cf8e0d3266fb1f140273426d3cdde1ec31c69647b"
+    },
+    "source_files_stable_during_check": true,
+    "extra_target_full_context_read": [
+      "instrumenty-dlya-studiynoy-live-sessii"
+    ]
+  },
+  "frozen_candidate_totals": {
+    "requested_decisions": 143,
+    "enrich_decisions": 102,
+    "keep_decisions": 41,
+    "body_metadata_records": 100,
+    "label_only_enrich_records": 2,
+    "changed_leaf_paths_including_22_labels": 434,
+    "changed_H1": 30,
+    "changed_search_title": 6,
+    "explicit_label_operations": 22,
+    "automatic_parent_labels": 6
+  },
+  "independent_result_totals": {
+    "pages_accepted_without_amendments": 133,
+    "pages_with_amendments": 10,
+    "exact_amendment_fields": 12,
+    "grammar_fields": 4,
+    "public_catalog_meta_fields": 3,
+    "learning_access_fields": 5,
+    "root_accepted_exact_wordings": 12,
+    "new_body_record_slugs": [
+      "instrumenty-dlya-strunnogo-trio"
+    ]
+  },
+  "root_review_closure": {
+    "all_12_amendments_approved_in_exact_wording": true,
+    "all_10_affected_pages_read_in_full_context_by_root": true,
+    "numeric_correction_note": "210→211 см у Steinway B-211 — исправление старой фактической ошибки, не числовой инвариант. Root дополнительно открыл первичную страницу Steinway (turn163view0): 38/73/89 — 211 см, 94 — концертные сцены, университеты и музыкальные школы.",
+    "integrated_or_published_by_this_report": false
+  },
+  "expected_root_totals_if_all_amendments_are_applied": {
+    "enrich_decisions": 103,
+    "keep_decisions": 40,
+    "body_metadata_records": 101,
+    "label_only_enrich_records": 2,
+    "changed_leaf_paths_including_22_labels": 441,
+    "new_record_reason": "instrumenty-dlya-strunnogo-trio was a keep decision and now requires one minimal enrich with its complete existing blocks array and corrected title."
+  },
+  "integration_notes": [
+    "Frozen author files remain unchanged. Amendments refer to exact values after applying frozen candidate and label operations.",
+    "For a path inside intro or blocks, copy the complete corresponding array from the projected full page and replace only the specified scalar.",
+    "Do not encode six automatic parent-child labels as authored navigation; connect() derives them from the changed search_title.",
+    "The 22 explicit operations were checked at their exact source JSON paths, against the frozen corpus, against effective explicit routes and after an in-memory projection. No new destinations or ordering changes are needed.",
+    "No source caption matches any changed old H1, including HTML/whitespace normalization, in the frozen 6066 links or inspected authored sources. The 74 contextual incoming labels are retained; they are not automatically aligned to H1."
+  ],
+  "artifact_files": {
+    "full_actual_diff": "language05-actual-diff.json",
+    "label_proof": "language05-label-independent-proof.json",
+    "notes": "language05_cross_notes.py"
+  },
+  "limitations": [
+    "No build, test suite, source audit() or release was run by this reviewer. Root handles integration gates.",
+    "Current source provenance was read at the repository HEAD recorded inside label_verification; candidate/body comparisons always use the frozen input SHA.",
+    "An unchanged existing technical claim is not certified as a freshly audited manufacturer specification unless listed in source_checks."
+  ]
+}

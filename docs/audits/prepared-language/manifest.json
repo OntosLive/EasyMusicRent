@@ -93,13 +93,13 @@
     },
     {
       "cohort": 5,
-      "status": "prepared_not_integrated",
+      "status": "integrated_with_root_refinements",
       "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
       "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
       "reviewed_pages": 143,
-      "enrich": 102,
-      "keep": 41,
-      "content_or_metadata_records": 100,
+      "enrich": 103,
+      "keep": 40,
+      "content_or_metadata_records": 101,
       "label_only_decisions": 2,
       "files": [
         {
@@ -118,7 +118,13 @@
           "sha256": "0ae32f7194ba6af7b1ce81bf3c257a680b858324c7e99c37b3ffc6a12f9c09c9"
         }
       ],
-      "independent_review": "Pending; frozen originals remain unchanged."
+      "independent_review": [
+        "docs/audits/prepared-language/language-05-independent-review.json"
+      ],
+      "integration_record": "docs/audits/2026-10-07-language-05-review.json",
+      "integrated_overlay": "content/sections/zzzz65-public-language-05.json",
+      "supplemental_root_review": "docs/audits/prepared-language/language-05-root-review.json",
+      "note": "Frozen originals remain unchanged. Final counts and approved amendments are recorded in the integration record."
     },
     {
       "cohort": 6,
@@ -161,5 +167,24 @@
     }
   ],
   "continuation": "../../CURRENT-WORK-STATE.md",
-  "file_path_base": "repository root"
+  "file_path_base": "repository root",
+  "navigation_residual": {
+    "status": "provisional_not_integrated",
+    "requires": "Reconcile against the exact compiled snapshot after successful publication of group 06; review root Ogden refinement and supplemental grammar separately.",
+    "files": [
+      {
+        "path": "docs/audits/prepared-navigation/mixed-language-label-residual-review.json",
+        "sha256": "f63d60f759aecf288fe3a4b37893bca21595f299eb572ca6aff93dff43f605c8"
+      },
+      {
+        "path": "docs/audits/prepared-navigation/mixed-language-label-residual-candidate.json",
+        "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747"
+      },
+      {
+        "path": "docs/audits/prepared-navigation/residual-language-supplemental.json",
+        "sha256": "976d5dabc8315c914d7ee58f398b3085d46ada3339b19e0f50c8919e2ce0ad4a"
+      }
+    ],
+    "compiler_input": false
+  }
 }

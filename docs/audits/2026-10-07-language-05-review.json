@@ -1,0 +1,56 @@
+{
+  "cohort": 5,
+  "status": "integrated_and_locally_verified",
+  "base_commit": "366608c9ed1d1f50e827b3c275e029cb4f31becc",
+  "frozen_proposal_base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "source_decision_register": "prepared-language/language-05-review.json",
+  "frozen_proposal": "prepared-language/language-05-candidate.json",
+  "original_label_plan": "prepared-language/language-05-labels.json",
+  "independent_review_files": [
+    "prepared-language/language-05-independent-review.json"
+  ],
+  "root_review_and_refinements": "prepared-language/language-05-root-review.json",
+  "full_public_pages_read_by_author_and_independent_reviewer": 143,
+  "final_decisions": {
+    "enrich": 103,
+    "keep": 40,
+    "body_records": 101,
+    "label_only": 2
+  },
+  "root_refinements_applied": 12,
+  "intervening_packages_changed_no_candidate_fields": true,
+  "integrated_content": "../../content/sections/zzzz65-public-language-05.json",
+  "integrated_sha256": "184db92a597b412310f126aba0253a570f9dd922ae8c3c4906f7f2fe51403e82",
+  "changes": {
+    "pages": 101,
+    "text_leaf_changes": 419,
+    "changed_field_counts": {
+      "description": 78,
+      "kicker": 62,
+      "blocks": 82,
+      "intro": 42,
+      "editorial_title": 30,
+      "quote": 29,
+      "search_title": 6,
+      "sources": 2
+    },
+    "candidate_sha256": "184db92a597b412310f126aba0253a570f9dd922ae8c3c4906f7f2fe51403e82",
+    "base_snapshot": "corpus-after-language-04.json",
+    "base_snapshot_sha256": "a43f71e685370a3566487ee6f1ca2405632789dfcd8f03f13f31c6c78ee82db4",
+    "intervening_candidate_fields_unchanged": true,
+    "numeric_delta_count": 7,
+    "shape_changes": []
+  },
+  "label_count": {
+    "explicit": 22,
+    "automatic": 6,
+    "total": 28
+  },
+  "numeric_review_count": 7,
+  "tests": {
+    "count": 209,
+    "seconds": 94.478,
+    "test_files_changed": false
+  },
+  "snapshot_reconstruction": "The input snapshot is reproducible from base_commit using read_legacy, merge_records, merge_legacy_navigation, alias removal, connect and dataclasses.asdict."
+}

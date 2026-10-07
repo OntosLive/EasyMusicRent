@@ -1,0 +1,192 @@
+{
+  "group": 5,
+  "source_review": "language-05-independent-review.json",
+  "frozen_candidate_sha256": "bee076fd1485a37f0ab5954a88d1d26b930de704c08c8c0ee8a34892fa9d0f06",
+  "integrated_candidate_sha256": "184db92a597b412310f126aba0253a570f9dd922ae8c3c4906f7f2fe51403e82",
+  "base_snapshot": "corpus-after-language-04.json",
+  "root_approved_amendments": [
+    {
+      "slug": "naturalnaya-truba-pered-pokupkoy",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "before": "После проекта понятнее, какой комплект крон действительно нужен.",
+      "after": "После проекта понятнее, какой комплект кронов действительно нужен.",
+      "reason": "Грамматическое согласование технического существительного крон (мужской род), уже принятого в проекте; число, предмет и смысл не меняются.",
+      "amendment_id": "05-independent-01",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "instrumenty-dlya-strunnogo-trio",
+      "json_path": [
+        "blocks",
+        1,
+        "title"
+      ],
+      "before": "Сыграйте тихий эпизод и общий tutti",
+      "after": "Сыграйте тихий эпизод и общее тутти",
+      "reason": "По Русскому орфографическому словарю/метасловарю Грамоты тутти — несклоняемое существительное среднего рода; требуется согласование «общее». Состав и музыкальный термин сохраняются.",
+      "amendment_id": "05-independent-02",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "korg-kronos-2-88-v-arendu",
+      "json_path": [
+        "quote"
+      ],
+      "before": "Артист использует собственные Kronos-программы или ему нужен только знакомая 88-клавишная рабочая станция?",
+      "after": "Артист использует собственные Kronos-программы или ему нужна только знакомая 88-клавишная рабочая станция?",
+      "reason": "После перевода workstation как рабочая станция требуется женский род сказуемого «нужна»; исходный выбор функций полностью сохранён.",
+      "amendment_id": "05-independent-03",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Это тяжёлый комплект бэклайна, которая влияет на доступ к сцене, расстановку и время установки. Поэтому наличие B3 нельзя подтверждать отдельно от доставки и конкретного Leslie-комплекта.",
+      "after": "Это тяжёлый комплект бэклайна, который влияет на доступ к сцене, расстановку и время установки. Поэтому наличие B3 нельзя подтверждать отдельно от доставки и конкретного Leslie-комплекта.",
+      "reason": "После перевода backline-позиция как комплект требуется «который». Условия доставки, установки и конкретной связки не меняются.",
+      "amendment_id": "05-independent-04",
+      "category": "grammar",
+      "root_review_status": "accepted_exact_wording"
+    },
+    {
+      "slug": "korg-kronos-2-88-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "before": "Swiss Backline и другие прокаты продолжают перечислять Kronos 2 88 и Kronos II 88 как отдельные позиции. Значит, страница отвечает существующему языку гастрольного заказа.",
+      "after": "Swiss Backline и другие прокаты продолжают перечислять Kronos 2 88 и Kronos II 88 как отдельные позиции.",
+      "reason": "Удаляется только заключение о том, зачем нужна страница, по согласованному публичному канону. Все факты об обозначениях моделей и источниках сохранены; новые обещания не добавлены.",
+      "amendment_id": "05-independent-05",
+      "category": "public_content_canon",
+      "root_review_status": "exact_proposal_for_root_review"
+    },
+    {
+      "slug": "steinway-d274-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "before": "Концертные сервисы предлагают D‑274 по имени. Это именно тот случай, где модельная страница описывает реальный язык профессионального заказа.",
+      "after": "Концертные сервисы предлагают D‑274 по имени.",
+      "reason": "Удаляется только служебное объяснение модельной страницы; факт отдельного именованного запроса остаётся. Полезные условия выбора экземпляра уже раскрыты соседним блоком.",
+      "amendment_id": "05-independent-06",
+      "category": "public_content_canon",
+      "root_review_status": "exact_proposal_for_root_review"
+    },
+    {
+      "slug": "legendarnye-sintezatory",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "before": "Редкость не отменяет адрес, а меняет способ подтверждения",
+      "after": "Доступ к редкому инструменту подтверждают отдельно",
+      "reason": "Заголовок об адресе относится к устройству каталога. Он заменён уже раскрытым в этом блоке условием подтверждения конкретного экземпляра, состояния и даты, без изменения содержания.",
+      "amendment_id": "05-independent-07",
+      "category": "public_content_canon",
+      "root_review_status": "exact_proposal_for_root_review"
+    },
+    {
+      "slug": "goronok-kadentsiya-alt-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "before": "Переход нужен тогда, когда ученик уже слышит и использует разницу",
+      "after": "Переход оценивают на текущей программе и новых исполнительских задачах",
+      "reason": "Условие «уже слышит и использует» исключает освоение нового как самостоятельную задачу. Заголовок включает текущую программу и обучение; абзац с pianissimo, верхней позицией, ансамблевой проекцией и проверкой посадки/настройки сохраняется.",
+      "amendment_id": "05-independent-08",
+      "category": "learning_access_canon",
+      "root_review_status": "exact_proposal_under_previously_agreed_canon"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>Мастеровой контрабас «Алексей Романов» выпускается Goronok в 3/4 и 7/8 и производителем адресуется одарённым детям, выпускникам музыкальных школ и студентам колледжей. Это уже не ранний учебный размер, а следующий слой для музыканта, который способен использовать более подробный инструмент.</p>",
+      "after": "<p>Мастеровой контрабас «Алексей Романов» выпускается Goronok в 3/4 и 7/8 и производителем адресуется одарённым детям, выпускникам музыкальных школ и студентам колледжей. Это уже не ранний учебный размер, а следующий вариант для текущей программы и освоения более подробного отклика.</p>",
+      "reason": "Сохранены размеры и аудитория с атрибуцией производителю. Вместо требования уже уметь использовать инструмент обозначены текущая программа и освоение отклика как самостоятельные задачи временной пробы.",
+      "amendment_id": "05-independent-09",
+      "category": "learning_access_canon",
+      "root_review_status": "exact_proposal_under_previously_agreed_canon"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Сравнивают проекцию arco, ясность pizzicato, равномерность регистров и реакцию на тихий смычок. Если ученик ещё не использует эти различия, мастеровой класс не обязан давать образовательную выгоду сам по себе.",
+      "after": "Сравнивают проекцию arco, ясность pizzicato, равномерность регистров и реакцию на тихий смычок. Эти различия проверяют на текущей программе и осваиваемых приёмах; само обозначение мастерового класса не заменяет такой пробы.",
+      "reason": "Сохраняются все четыре критерия сравнения и отсутствие автоматической выгоды от названия класса. Снимается условие заранее использовать различия: работа над ними также является основанием доступа.",
+      "amendment_id": "05-independent-10",
+      "category": "learning_access_canon",
+      "root_review_status": "exact_proposal_under_previously_agreed_canon"
+    },
+    {
+      "slug": "smychkovye-gewa",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "before": "Для фонда важно не объявить одну серию «правильной», а понять, какое качество уже использует ученик. Пока Allegro позволяет работать над текущей программой, переход выше не нужен. Когда появляется конкретное ограничение отклика или динамики, можно сравнивать Ideale и Maestro.",
+      "after": "Для фонда важно не объявить одну серию «правильной», а связать выбор с текущей программой и тем, что ученик осваивает. Allegro можно сохранить, если её отклик позволяет работать над этими задачами. Ideale и Maestro сравнивают, когда требуется другой отклик или более подробная работа с динамикой.",
+      "reason": "Сохранены сравнение трёх серий и отказ от выбора по одному статусу. Безусловное «переход выше не нужен» заменено оценкой текущей программы и осваиваемых возможностей; новая категория качества или техническое свойство не вводится.",
+      "amendment_id": "05-independent-11",
+      "category": "learning_access_canon",
+      "root_review_status": "exact_proposal_under_previously_agreed_canon"
+    },
+    {
+      "slug": "sintezator-dlya-sozdaniya-lida",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "before": "Изменение высоты, модуляция, послекасание или другие средства управления имеют смысл только тогда, когда музыкант заранее знает, какое движение ими делает.",
+      "after": "Изменение высоты, модуляция, послекасание или другие средства управления могут стать частью выразительного движения, которое музыкант уже использует или осваивает.",
+      "reason": "Перечень средств и задача выразительного движения сохранены. Вместо требования заранее знать движение допускается его освоение на инструменте; это соответствует уже существующей пробе короткой мелодии в следующем блоке.",
+      "amendment_id": "05-independent-12",
+      "category": "learning_access_canon",
+      "root_review_status": "exact_proposal_under_previously_agreed_canon"
+    }
+  ],
+  "additional_content_records": [
+    "instrumenty-dlya-strunnogo-trio"
+  ],
+  "content_records": 101,
+  "numeric_review": {
+    "count": 7,
+    "status": "all individually read and accepted",
+    "correction": "Steinway B-211 quote corrected from 210 to 211 cm, confirmed on primary https://eu.steinway.com/en/pianos/grand-pianos/b-211",
+    "tokenization_difference": "The independent multiset count is 6; root additionally detects reordering of RH3 / 88-key numeric tokens in Korg NAUTILUS 88 AT description. Values are unchanged."
+  },
+  "all_amendments_accepted_by_root": true
+}

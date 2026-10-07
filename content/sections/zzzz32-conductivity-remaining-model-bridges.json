@@ -12,7 +12,7 @@
     ],
     "minimoog-model-d-v-arendu": [
       {
-        "label": "Синтезатор для lead",
+        "label": "Синтезатор для лида",
         "href": "/sintezator-dlya-sozdaniya-lida/"
       },
       {
@@ -22,7 +22,7 @@
     ],
     "roland-juno-106-v-arendu": [
       {
-        "label": "Синтезатор для sound design",
+        "label": "Синтезатор для саунд-дизайна",
         "href": "/sintezator-dlya-saund-dizayna/"
       },
       {
@@ -52,11 +52,11 @@
     ],
     "korg-monologue-v-arendu": [
       {
-        "label": "Синтезатор для lead",
+        "label": "Синтезатор для лида",
         "href": "/sintezator-dlya-sozdaniya-lida/"
       },
       {
-        "label": "Hardware и software для сравнения",
+        "label": "Аппаратный и программный синтезаторы для сравнения",
         "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/"
       }
     ],
