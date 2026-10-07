@@ -7,10 +7,10 @@ from pathlib import Path
 from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 
-RENT = re.compile(r'\\b(?:аренд\\w*|прокат\\w*|напрокат)\\b', re.I)
-RENT_A = re.compile(r'\\bаренд\\w*\\b', re.I)
-RENT_P = re.compile(r'\\b(?:прокат\\w*|напрокат)\\b', re.I)
-TEMP = re.compile(r'\\b(?:временн\\w*|срок\\w*|период\\w*|взять|берём|берут|доступ\\w*)\\b', re.I)
+RENT = re.compile(r'\b(?:аренд\w*|прокат\w*|напрокат)\b', re.I)
+RENT_A = re.compile(r'\bаренд\w*\b', re.I)
+RENT_P = re.compile(r'\b(?:прокат\w*|напрокат)\b', re.I)
+TEMP = re.compile(r'\b(?:временн\w*|срок\w*|период\w*|взять|берём|берут|доступ\w*)\b', re.I)
 
 def clean_text(node):
     if node is None:
@@ -46,8 +46,14 @@ def main():
     rows=[]
     self_links=[]
     layer_counts=Counter()
-    for path in sorted((site/'details').rglob('index.html')):
-        route=route_for(path,site)
+    sitemap=BeautifulSoup((site/'sitemap.xml').read_text(encoding='utf-8'),'xml')
+    detail_routes=sorted(
+        urlsplit(loc.get_text(strip=True)).path
+        for loc in sitemap.find_all('loc')
+        if urlsplit(loc.get_text(strip=True)).path.startswith('/details/')
+    )
+    for route in detail_routes:
+        path = site / route.strip('/') / 'index.html'
         doc=BeautifulSoup(path.read_text(encoding='utf-8'),'html.parser')
         main_node=doc.select_one('main.editorial') or doc.find('main')
         body=clean_text(main_node)
