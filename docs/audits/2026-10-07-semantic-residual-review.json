@@ -1,0 +1,773 @@
+{
+  "package": "public-semantic-residual",
+  "base_commit": "61659abebf78859eaaa75714038f58f5918bd909",
+  "status": "integrated_requires_exact_sha_release_confirmation",
+  "counts": {
+    "full_contexts_read": 62,
+    "enrich": 19,
+    "keep": 43,
+    "exact_operations": 25,
+    "complete_intro_arrays": 7,
+    "complete_block_arrays": 13,
+    "quote_fields": 1,
+    "internal_meta_pages": 11,
+    "learning_access_pages": 8,
+    "shared_page_between_those_categories": "goronok-aleksey-romanov-v-arendu",
+    "additional_salvi_wording": 1
+  },
+  "author": "navigation_cleanup",
+  "independent_reader": "project_history",
+  "root_approved": true,
+  "independent_amendments": [],
+  "candidate_sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+  "records": [
+    {
+      "slug": "violonchel-stentor",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "fender-player-ii-telecaster-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrumenty-dlya-fortepiannogo-trio",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "kontrafagot",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "yamaha-b3-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "pianino-dlya-videozayavki",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "instrumenty-dlya-folk-gruppy",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Слово «фолк» слишком широкое, чтобы назначить готовый комплект. Страница нужна как вход к конкретной комбинации инструментов из одной программы.</p>",
+          "after": "<p>Слово «фолк» слишком широкое, чтобы назначить готовый комплект. Состав инструментов уточняют по конкретной программе.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Если облегчение устойчиво повторяется, можно уже выбирать предметную страницу и конкретный инструмент.",
+          "after": "Если облегчение устойчиво повторяется, можно уже выбирать конкретный инструмент."
+        }
+      ]
+    },
+    {
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Прокатные парки держат Fender J Bass рядом с P Bass и Music Man StingRay. Поэтому модельная ветвь должна учитывать эти три разных басовых референса, а не сжимать их в одну страницу «бас-гитара».",
+          "after": "Прокатные парки держат Fender J Bass рядом с P Bass и Music Man StingRay. При выборе важно различать эти три басовых варианта."
+        }
+      ]
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "dw-collectors-series-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Прокаты держат Collector’s Series как отдельную позицию премиального класса, а DW строит серию как американский инструмент индивидуальной конфигурации. Это делает название серии осмысленным адресом в каталоге.",
+          "after": "Прокаты держат Collector’s Series как отдельную позицию премиального класса, а DW строит серию как американский инструмент индивидуальной конфигурации."
+        },
+        {
+          "slug": "dw-collectors-series-v-arendu",
+          "json_path": [
+            "blocks",
+            1,
+            "paragraphs",
+            0
+          ],
+          "before": "DW предлагает широкий диапазон диаметров и глубин. Для артиста 22-10-12-16 и 24-13-16-18 — разные рабочие установки, хотя обе называются Collector’s Series. Поэтому модельная страница должна вести к уточнению конфигурации.",
+          "after": "DW предлагает широкий диапазон диаметров и глубин. Для артиста 22-10-12-16 и 24-13-16-18 — разные рабочие установки, хотя обе называются Collector’s Series. Поэтому перед заказом уточняют конфигурацию."
+        },
+        {
+          "slug": "dw-collectors-series-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Профессиональный прокат нередко собирает установку из серии, но тарелки, малый, педаль и стойки определяются райдером отдельно. Это нужно сохранять и в нашем разговоре с заказчиком.",
+          "after": "Профессиональный прокат нередко собирает установку из серии, но тарелки, малый, педаль и стойки определяются райдером отдельно."
+        }
+      ]
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "gibson-j45-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Запрос на J-45 имеет смысл сохранять как отдельную модельную ветвь. Музыкант может искать именно эту посадку, середину и характер атаки, а не любую профессиональную акустику.",
+          "after": "Музыкант может искать именно эту посадку, середину и характер атаки, а не любую профессиональную акустику."
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "yamaha-motif-xf8-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Motif XF8 — хороший пример того, почему наш каталог не должен равняться только на актуальный магазин. Модель давно не новая, а прокаты всё ещё держат её как 88-клавишную флагманскую рабочую станцию, потому что огромный пласт концертных программ был построен именно вокруг Motif.</p>",
+          "after": "<p>Motif XF8 давно не новая модель, а прокаты всё ещё держат её как 88-клавишную флагманскую рабочую станцию, потому что огромный пласт концертных программ был построен именно вокруг Motif.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "ampeg-svt-cl-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "ampeg-svt-810e-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "fazioli-f278-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "fazioli-f278-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Как и с Steinway или Bösendorfer, артист может оценивать фактический инструмент в зале. Страница должна вести к организации такого доступа, а не обещать абстрактный «звук Fazioli».",
+          "after": "Как и с Steinway или Bösendorfer, артист может оценивать фактический инструмент в зале. Возможность такой пробы уточняют при подборе."
+        }
+      ]
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "wurlitzer-200a-v-arendu",
+          "json_path": [
+            "blocks",
+            1,
+            "paragraphs",
+            0
+          ],
+          "before": "Механика, строй, электрический фон и состояние встроенного усиления у старых экземпляров различаются. Модельная страница должна вести к проверке реального инструмента.",
+          "after": "Механика, строй, электрический фон и состояние встроенного усиления у старых экземпляров различаются."
+        }
+      ]
+    },
+    {
+      "slug": "smychkovye-cremona-saga",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "mpkmi-gusli-pikkolo-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Для академического класса гуслей полезен не только общий брендовый вход, но и точная конструкция. ПКМИ выпускает звончатые крыловидные гусли Пикколо на 15 струн с указанным диапазоном, материалами и мензурой. Такая страница позволяет сразу сверить инструмент с учебной партией.</p>",
+          "after": "<p>Для академического класса гуслей важно уточнить конструкцию инструмента. ПКМИ выпускает звончатые крыловидные гусли Пикколо на 15 струн с указанным диапазоном, материалами и мензурой. Эти параметры позволяют сверить инструмент с учебной партией.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_quality_label"
+      ],
+      "operations": [
+        {
+          "slug": "salvi-mia-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Salvi Mia находится в официальной программе учебной аренды Lyon & Healy/Salvi и в брошюре этой программы описана как компактная, лёгкая и надёжная 34‑струнная арфа для начинающих любого возраста. Это хороший «золотой» ориентир именно для регулярной практики, а не универсально лучший инструмент.</p>",
+          "after": "<p>Salvi Mia находится в официальной программе учебной аренды Lyon & Healy/Salvi и в брошюре этой программы описана как компактная, лёгкая и надёжная 34‑струнная арфа для начинающих любого возраста. Это один из вариантов для регулярной практики, а не универсально лучший инструмент.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "kawai-k200-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "bayan-yupiter-2d-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "smychkovye-knilling",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "goronok-nova-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "goronok-nova-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "title"
+          ],
+          "before": "Лёгкость звукоизвлечения имеет смысл только если ребёнок действительно её слышит",
+          "after": "Лёгкость звукоизвлечения проверяют на первых упражнениях"
+        }
+      ]
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta",
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "goronok-aleksey-romanov-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Линия «Алексей Романов» особенно важна для нашей архитектуры: мастеровой уровень здесь существует не только в 4/4. Производитель выпускает модель в дробных размерах и прямо адресует её одарённым детям, ведущим концертную деятельность, выпускникам музыкальных школ и студентам колледжей.</p>",
+          "after": "<p>Мастеровые скрипки «Алексей Романов» выпускаются не только в размере 4/4. Производитель предлагает модель в дробных размерах и прямо адресует её одарённым детям, ведущим концертную деятельность, выпускникам музыкальных школ и студентам колледжей.</p>"
+        },
+        {
+          "slug": "goronok-aleksey-romanov-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "label"
+          ],
+          "before": "03 / ДОПУСК",
+          "after": "03 / ЗАДАЧА"
+        },
+        {
+          "slug": "goronok-aleksey-romanov-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "title"
+          ],
+          "before": "Мастеровой уровень нужен только там, где ученик способен его использовать",
+          "after": "Мастеровой инструмент выбирают под текущую учебную и концертную задачу"
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-perehoda-s-akusticheskoy",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "internal_meta"
+      ],
+      "operations": [
+        {
+          "slug": "gibson-f5-master-model-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Редкий оригинал может требовать внешнего владельца или коллекции. Адрес существует потому, что модель сама является музыкальным запросом.",
+          "after": "Редкий оригинал может требовать внешнего владельца или коллекции."
+        }
+      ]
+    },
+    {
+      "slug": "klassicheskaya-gitara-na-ekzamen",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "valtorna-na-proslushivanie",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "domra-pered-pokupkoy",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Выборный бас имеет смысл, когда левая рука уже ведёт самостоятельный материал и новый репертуар реально использует эту возможность.</p>",
+          "after": "<p>Выборный бас имеет смысл, когда программа требует самостоятельной партии левой руки, в том числе если эту возможность только предстоит освоить.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "bandoneon-pered-pokupkoy",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "backline-dlya-klubnoy-stseny",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrumenty-dlya-pervogo-duhovogo-ansamblya",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrument-po-programme-ekzamena",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrument-po-programme-proslushivaniya",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrument-esli-povtornaya-nota-ne-uspevaet",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "alhambra-4p-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "gusli-s-diapazonom-po-programme",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "shen-sb150-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "yamaha-fs800-v-arendu",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "gewa-maestro1-skripka-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "title"
+          ],
+          "before": "Название Maestro имеет смысл только если ученик уже использует дополнительный отклик",
+          "after": "Дополнительный отклик Maestro проверяют на задачах текущей программы"
+        },
+        {
+          "slug": "gewa-maestro1-skripka-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "На конкурсной или поступательной программе сравнивают оттенки, верхний регистр и скорость реакции. Если разница не превращается в музыкальную свободу, серия более высокого уровня пока не нужна.",
+          "after": "На конкурсной или поступательной программе сравнивают оттенки, верхний регистр и скорость реакции. Нужно проверить, помогает ли дополнительный отклик выполнять или осваивать задачи текущей программы."
+        },
+        {
+          "slug": "gewa-maestro1-skripka-v-arendu",
+          "json_path": [
+            "quote"
+          ],
+          "before": "Ученик уже способен использовать инструмент для продвинутого этапа в своём текущем размере?",
+          "after": "Какие задачи текущей программы помогут проверить Maestro в подходящем ученику размере?"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Одному ученику может быть достаточно базовой педали и начальной механики, другому уже нужны более тонкая педализация и динамический контроль. Инструмент выбирают по более требовательной из реально используемых функций.",
+          "after": "Одному ученику может быть достаточно базовой педали и начальной механики, другому уже нужны более тонкая педализация и динамический контроль. Инструмент выбирают по более требовательной из функций, нужных для текущих программ."
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Kawai ES120 допускает тройной блок F-351, Yamaha и Roland также имеют расширенные педальные решения. Но сам факт трёх педалей ещё не доказывает, что ученик умеет ими пользоваться.",
+          "after": "Kawai ES120 допускает тройной блок F-351, Yamaha и Roland также имеют расширенные педальные решения. При выборе блока проверяют нужную программе функцию, а не только число педалей."
+        }
+      ]
+    },
+    {
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "kongi-dlya-pervogo-opyta",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "arcata-giovanni-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "arcata-giovanni-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Giovanni Arcata обозначает не просто более дорогую комплектацию Gasparo. Мануфактура относит её к студенческой категории, использует более требовательный отбор древесины и описывает дополнительную доводку конструкции и звука. Модель имеет смысл тогда, когда ученик уже способен использовать это различие в своей программе.</p>",
+          "after": "<p>Giovanni Arcata обозначает не просто более дорогую комплектацию Gasparo. Мануфактура относит её к студенческой категории, использует более требовательный отбор древесины и описывает дополнительную доводку конструкции и звука. Различие проверяют на задачах текущей программы, в том числе тех, которые ученику только предстоит освоить.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+      "decision": "enrich",
+      "complete_context_read_by_both": true,
+      "categories": [
+        "learning_access"
+      ],
+      "operations": [
+        {
+          "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Такой инструмент может быть разумен и начинающему, и школе для фонда, если соответствует программе и хорошо подготовлен. Более высокая категория имеет смысл тогда, когда ученик уже способен использовать конкретное дополнительное качество.",
+          "after": "Такой инструмент может быть разумен и начинающему, и школе для фонда, если соответствует программе и хорошо подготовлен. Более высокую категорию рассматривают, когда конкретное дополнительное качество нужно для текущей программы, в том числе для освоения нового навыка."
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "garmon",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "kontrafagot-dlya-pervogo-opyta",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "trombon-s-kvartventilem-dlya-perehoda",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    },
+    {
+      "slug": "sintezator-pered-pokupkoy",
+      "decision": "keep",
+      "complete_context_read_by_both": true,
+      "categories": [],
+      "operations": []
+    }
+  ],
+  "prior_recovery": "prepared-semantic/post-language-semantic-recovery.json",
+  "scope_note": "A bounded semantic review, not a renewed full reading of all 1901 pages or verification of every external factual source."
+}

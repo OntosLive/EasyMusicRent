@@ -1,0 +1,35 @@
+{
+  "head_sha": "61659abebf78859eaaa75714038f58f5918bd909",
+  "release_run_id": 37558667195,
+  "build_job_id": 112590702956,
+  "release_status": "completed",
+  "release_conclusion": "success",
+  "tests": {
+    "count": 209,
+    "seconds": 64.876,
+    "result": "passed"
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "artifact_html_paths": 3888,
+  "artifact_html_paths_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "all_html_paths_equal_group06": true,
+  "graph_summary": {
+    "subjects": 1901,
+    "link_edges": 5285,
+    "strict_link_edges": 3757,
+    "thin_leaf_pages": 0,
+    "strict_thin_leaf_pages": 0,
+    "duplicates": 0,
+    "self_links": 0,
+    "errors": []
+  },
+  "source": "Complete GitHub Actions job logs",
+  "release_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37558667195"
+}

@@ -1,0 +1,37 @@
+{
+  "package": "public-semantic-residual",
+  "base_commit": "61659abebf78859eaaa75714038f58f5918bd909",
+  "input_release_confirmation": "2026-10-07-language-residual-release-confirmation.json",
+  "source_replay": {
+    "result": "passed",
+    "pages": 19,
+    "exact_leaf_changes": 25,
+    "top_level_fields": 21,
+    "complete_arrays": 20,
+    "quote_fields": 1,
+    "original_candidate_sha256_match": true,
+    "all_source_before_values_matched": true,
+    "all_other_fields_preserved": true,
+    "source_provider_drift_after_recovery": 0
+  },
+  "test_files_unchanged": true,
+  "compiler_and_css_unchanged": true,
+  "relevant_existing_test_contracts_read": [
+    "tests/test_russian_arcata_learning.py",
+    "tests/test_russian_goronok_learning.py",
+    "tests/test_education_quality.py"
+  ],
+  "expected_artifact": {
+    "subjects": 1901,
+    "ordinary_documents": 3810,
+    "redirects": 78,
+    "html_paths": 3888,
+    "sitemap_entries": 1901,
+    "unreachable": 0,
+    "errors": []
+  },
+  "baseline_artifact_html_paths_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "local_execution": "The shared execution transport is unavailable; no new local suite or build is claimed.",
+  "required_ci": "Full graph check, all 209 tests, static build and complete validator in the existing release workflow before deployment. Confirm the exact SHA release and compare the 3888 HTML path set afterwards.",
+  "publication_status": "requires_exact_sha_confirmation"
+}

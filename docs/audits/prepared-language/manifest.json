@@ -203,7 +203,7 @@
   },
   "pending_work": "docs/audits/2026-10-07-pending-reviewed-work.json",
   "semantic_residual": {
-    "status": "prepared_exact_candidate_recovered_not_integrated",
+    "status": "integrated_exact_frozen_candidate",
     "reviewed": 62,
     "enrich": 19,
     "keep": 43,
@@ -227,6 +227,10 @@
         "sha256": "88bd327ef185d66a6466561a7a8401701c167beb86662b71b267f795ce15296c"
       }
     ],
-    "compiler_input": false
+    "compiler_input": false,
+    "integration_record": "docs/audits/2026-10-07-semantic-residual-integration.json",
+    "integrated_overlay": "content/sections/zzzz68-public-semantic-residual.json",
+    "review_record": "docs/audits/2026-10-07-semantic-residual-review.json",
+    "note": "The preserved candidate and recovered evidence remain outside compiler inputs; the exact candidate is now integrated as the listed content overlay. Confirm the latest exact SHA release through CURRENT-WORK-STATE.md."
   }
 }
