@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-10-07T07:16:40.797Z",
+  "scope": "Chrome desktop; реальные переходы и выборочный визуальный просмотр. Мобильный viewport в этой проверке не заявляется.",
+  "checks": [
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/",
+      "check": "root_navigation",
+      "labels": [
+        "Электронные инструменты и DJ",
+        "Сценический звук, усилители и бэклайн"
+      ]
+    },
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/usiliteli-backline/",
+      "check": "root_to_stage_family",
+      "passed": true
+    },
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/usiliteli-backline/",
+      "check": "stage_family_details",
+      "passed": true
+    },
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/scenicheskiy-zvuk/",
+      "check": "stage_navigation_link",
+      "passed": true
+    },
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/scenicheskiy-zvuk/",
+      "check": "stage_hub_content",
+      "passed": true
+    },
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/scenicheskiy-zvuk/",
+      "check": "stage_visual_desktop",
+      "geometry": {
+        "clientWidth": 1348,
+        "documentWidth": 1348,
+        "heading": "Сценический звук: музыка в зале и опора на сцене",
+        "viewportWidth": 1363
+      },
+      "visual": "Заголовок и текст читаются, источники свернуты перед контактом"
+    },
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/komplekt-dlya-obucheniya-vokalu-s-mikrofonom/",
+      "check": "vocal_kit_N0",
+      "geometry": {
+        "clientWidth": 1363,
+        "documentWidth": 1363,
+        "heading": "Прокат комплекта для обучения вокалу с микрофоном",
+        "viewportWidth": 1363
+      }
+    },
+    {
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/komplekt-dlya-obucheniya-vokalu-s-mikrofonom/",
+      "check": "vocal_kit_N1",
+      "geometry": {
+        "clientWidth": 1348,
+        "documentWidth": 1348,
+        "heading": "Учиться петь с микрофоном: услышать связь голоса и движения",
+        "viewportWidth": 1363
+      },
+      "sourceBlock": "Свёрнут, перед контактом; подтверждено AX"
+    }
+  ],
+  "screenshot_file": "docs/audits/2026-10-07-rental-expansion-stage.jpg"
+}

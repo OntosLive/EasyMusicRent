@@ -52,7 +52,7 @@
   },
   "sources_proposal": {
     "applied": false,
-    "current": "Закрытый details после цитаты перед контактами; заголовок «Об инструменте: источники»,14px.",
+    "current": "Закрытый details после цитаты перед контактами; заголовок «Об инструменте: источники», 14px.",
     "recommendation": "Убрать блок из основной последовательности внимания и перенести после контакта к самому низу раскрытия; одна спокойная свёрнутая строка. Внутри оставлять релевантную документацию модели, а исследовательские каталоги и основания редакционных решений сохранять в репозитории.",
     "reason": "Источники обеспечивают проверяемость; постоянная заметная плашка перед контактом не является обязательным условием индексации. Краткий поисковый вход остаётся минимальным.",
     "public_change_requires_separate_decision": "В текущем запросе владелец попросил предложение в конце; изменение отображения этим пакетом не вносится."
@@ -63,8 +63,8 @@
     "Индексирование подробных раскрытий требует отдельного решения о поисковой самостоятельности; noindex не снимается автоматически.",
     "Точные модели без достаточного первичного подтверждения отложены с причиной в исследовательских журналах."
   ],
-  "continuity": "Пакет считается законченным после успешного workflow точного SHA main и публичной проверки; при разрыве сначала сверить main/codex/active и состояние того же выпуска. Не накладывать исторический stash повторно и не возобновлять закрытые старые очереди.",
-  "status": "local_checks_passed_awaiting_exact_remote_release",
+  "continuity": "Содержательный выпуск 37585580963 для 3e4c6ed2bf022e4838e7d752979d240bb296583c успешно опубликован; все 238 HTTP-проверок завершены. При разрыве сверить актуальные main/codex/active и точный выпуск документационной фиксации, не повторяя закрытый контентный пакет и исторические очереди.",
+  "status": "published_and_public_bytes_verified",
   "recorded_at_utc": "2026-10-07T07:05:31.307342+00:00",
   "counts": {
     "baseline_subjects": 1901,
@@ -750,7 +750,19 @@
     "docs/audits/2026-10-07-rental-expansion-tests.log": "780e54955170dddeba761689b30b4b3161c5d54ecf824d15e6963cd39ed10c64"
   },
   "publication": {
-    "status": "pending",
-    "required": "Проверить точный commit/tree, линейное обновление codex/active и main, успешный workflow этого SHA, затем сравнить все235новых/изменённыхHTML и3контрольныхфайла с локальным артефактом."
-  }
+    "status": "pass",
+    "content_commit": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+    "content_tree": "714b93610efd2639c4cd058a493efc4b8d9865a6",
+    "release_run": 37585580963,
+    "release_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37585580963",
+    "deploy_reported_success_at": "2026-10-07T07:11:42.1991927Z",
+    "http_finished_at": "2026-10-07T07:20:27.320305+00:00",
+    "http_requests": 238,
+    "html_checked": 235,
+    "all_public_bytes_equal": true,
+    "confirmation": "docs/audits/2026-10-07-rental-expansion-release-confirmation.json",
+    "http_evidence": "docs/audits/2026-10-07-rental-expansion-live-verification.json",
+    "documentation_checkpoint": "Evidence-only follow-up; its exact workflow must also succeed before the turn is closed. This field does not claim knowledge of its future SHA."
+  },
+  "publication_confirmed_at_utc": "2026-10-07T07:21:53.677213+00:00"
 }

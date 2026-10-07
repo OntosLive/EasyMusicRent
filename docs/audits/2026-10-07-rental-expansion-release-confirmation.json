@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "recorded_at": "2026-10-07T07:21:53.677213+00:00",
+  "repository": "OntosLive/EasyMusicRent",
+  "content_commit": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+  "content_tree": "714b93610efd2639c4cd058a493efc4b8d9865a6",
+  "pre_checkpoint_remote_and_root_verification": {
+    "recorded_at": "2026-10-07T07:20:54.066Z",
+    "repository": "OntosLive/EasyMusicRent",
+    "refs": {
+      "main": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+      "active": "3e4c6ed2bf022e4838e7d752979d240bb296583c"
+    },
+    "independent_root_run_read": {
+      "id": 37585580963,
+      "head_sha": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+      "status": "completed",
+      "conclusion": "success",
+      "updated_at": "2026-10-07T07:11:45Z",
+      "url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37585580963"
+    },
+    "content_tree": "714b93610efd2639c4cd058a493efc4b8d9865a6"
+  },
+  "local_alignment_after_exact_blob_check": {
+    "verified_at": "2026-10-07T07:13:51.795901+00:00",
+    "commit": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+    "tree": "714b93610efd2639c4cd058a493efc4b8d9865a6",
+    "files_verified": 25,
+    "working_tree_clean": true,
+    "index_clean": true,
+    "stash_preserved": "f6da4d29256b85d7b78a11b41ebe0ca12f6f7736",
+    "alignment": "git reset --mixed after exact local and commit blob proof"
+  },
+  "ci": {
+    "run": {
+      "id": 37585580963,
+      "html_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37585580963",
+      "name": "Build, validate and deploy ONTOS.RENT",
+      "head_branch": "main",
+      "head_sha": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-07T07:09:04Z",
+      "run_started_at": "2026-10-07T07:09:04Z",
+      "updated_at": "2026-10-07T07:11:45Z"
+    },
+    "jobs": [
+      {
+        "id": 112674813129,
+        "name": "build",
+        "html_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37585580963/job/112674813129",
+        "head_sha": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-07T07:09:07Z",
+        "completed_at": "2026-10-07T07:11:23Z"
+      },
+      {
+        "id": 112675563113,
+        "name": "deploy",
+        "html_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37585580963/job/112675563113",
+        "head_sha": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2026-10-07T07:11:32Z",
+        "completed_at": "2026-10-07T07:11:44Z"
+      }
+    ],
+    "all_job_steps_success": true,
+    "tests": {
+      "count": 209,
+      "duration_seconds": 99.095,
+      "result": "OK"
+    },
+    "build": {
+      "source_pages": 1980,
+      "public_pair_pages": 3960,
+      "conditions": 8,
+      "css_version": "0b048bad40e4",
+      "authored_records": 1844
+    },
+    "validation": {
+      "documents_checked": 3968,
+      "redirects": 78,
+      "contact_variants": 1,
+      "unreachable": 0,
+      "sitemap_entries": 1980,
+      "errors": []
+    },
+    "graph": {
+      "subjects": 1980,
+      "explicit_edges": 5598,
+      "strict_lateral_edges": 4031,
+      "errors": [],
+      "duplicate_route_count": 0,
+      "self_link_count": 0,
+      "leaf_pages": 1754,
+      "thin_leaf_pages": 0,
+      "strict_thin_leaf_pages": 0,
+      "root_pages": 16,
+      "model_pages": 437
+    },
+    "deployment": {
+      "pages_build_version": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+      "artifact_id": 11466411841,
+      "reported_success": true,
+      "reported_success_at": "2026-10-07T07:11:42.1991927Z",
+      "environment_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/"
+    },
+    "artifact_inventory": [
+      {
+        "id": 11466506124,
+        "name": "release-audit",
+        "size_in_bytes": 126683,
+        "url": "https://api.github.com/repos/OntosLive/EasyMusicRent/actions/artifacts/11466506124",
+        "archive_download_url": "https://api.github.com/repos/OntosLive/EasyMusicRent/actions/artifacts/11466506124/zip",
+        "expired": false,
+        "created_at": "2026-10-07T07:11:17Z",
+        "expires_at": "2026-10-21T07:11:16Z",
+        "updated_at": "2026-10-07T07:11:17Z",
+        "digest": "sha256:212747db36d9734bbaf9eb403806ca778635cc8389bff66cee0fd8d25bc3dc2a",
+        "workflow_run": {
+          "id": 37585580963,
+          "repository_id": 1393256793,
+          "head_repository_id": 1393256793,
+          "head_branch": "main",
+          "head_sha": "3e4c6ed2bf022e4838e7d752979d240bb296583c"
+        }
+      },
+      {
+        "id": 11466411841,
+        "name": "github-pages",
+        "size_in_bytes": 2315735,
+        "url": "https://api.github.com/repos/OntosLive/EasyMusicRent/actions/artifacts/11466411841",
+        "archive_download_url": "https://api.github.com/repos/OntosLive/EasyMusicRent/actions/artifacts/11466411841/zip",
+        "expired": false,
+        "created_at": "2026-10-07T07:11:19Z",
+        "expires_at": "2026-10-08T07:11:18Z",
+        "updated_at": "2026-10-07T07:11:19Z",
+        "digest": "sha256:d6f786829b14533d11f1a5ea0f27c975fd3be724a1c8c122afb1298c4bb03d9e",
+        "workflow_run": {
+          "id": 37585580963,
+          "repository_id": 1393256793,
+          "head_repository_id": 1393256793,
+          "head_branch": "main",
+          "head_sha": "3e4c6ed2bf022e4838e7d752979d240bb296583c"
+        }
+      }
+    ],
+    "log_line_evidence": {
+      "tests": [
+        {
+          "line": 439,
+          "text": "2026-10-07T07:10:55.4609301Z Ran 209 tests in 99.095s"
+        }
+      ],
+      "build": [
+        {
+          "line": 455,
+          "text": "2026-10-07T07:10:57.7395177Z {\"source_pages\": 1980, \"public_pair_pages\": 3960, \"conditions\": 8, \"css_version\": \"0b048bad40e4\", \"authored_records\": 1844}"
+        }
+      ],
+      "validation": [
+        {
+          "line": 468,
+          "text": "2026-10-07T07:11:16.7833867Z {\"documents_checked\": 3968, \"redirects\": 78, \"contact_variants\": 1, \"unreachable\": 0, \"sitemap_entries\": 1980, \"errors\": []}"
+        }
+      ],
+      "deploy": [
+        {
+          "line": 49,
+          "text": "2026-10-07T07:11:35.1440333Z \t\"pages_build_version\": \"3e4c6ed2bf022e4838e7d752979d240bb296583c\","
+        },
+        {
+          "line": 52,
+          "text": "2026-10-07T07:11:36.6655136Z Created deployment for 3e4c6ed2bf022e4838e7d752979d240bb296583c, ID: 3e4c6ed2bf022e4838e7d752979d240bb296583c"
+        },
+        {
+          "line": 54,
+          "text": "2026-10-07T07:11:42.1991927Z Reported success!"
+        }
+      ]
+    },
+    "manifest": {
+      "source": "Original build log, upload-pages-artifact@v3 Archive artifact tar listing for INPUT_PATH=_site",
+      "original_log_start_line": 538,
+      "original_log_end_line": 8635,
+      "html_paths": 4046,
+      "all_file_paths": 4050,
+      "html_path_sha256": "e0218c941f2e41e29e0f6ab8a0211641c2747cd99eabd05ea2bd7a68f3b1f24c",
+      "hash_algorithm": "hashlib.sha256(json.dumps(sorted(set(relative_posix_paths)), ensure_ascii=False, separators=(',', ':')).encode('utf-8')).hexdigest(); no './' prefix or trailing newline",
+      "local_html_path_method": "sorted(str(p.relative_to(site)) for p in site.rglob('index.html'))",
+      "exact_html_set_equal": true,
+      "exact_all_file_set_equal": true,
+      "missing_local_html_paths_in_ci": [],
+      "unexpected_ci_html_paths": []
+    },
+    "artifact_hash_scope": "ZIP digest values are reported by the GitHub API; ZIP bytes were not downloaded or recomputed. The actual CI upload file listing was compared with the locally tested artifact. Public changed files were additionally compared byte for byte in the HTTP proof.",
+    "graph_definition_note": "root_pages is an audit metric, not the number of 13 public families. model_pages in this audit is the existing -v-arendu suffix group, not all possible model subjects.",
+    "source_monitor_record_sha256": "8e597d0bcdf8878358482f76269acec66e7b80bb53e583acae2ec9960bd1136b"
+  },
+  "live": {
+    "head_sha": "3e4c6ed2bf022e4838e7d752979d240bb296583c",
+    "release_run_id": "37585580963",
+    "started_at": "2026-10-07T07:13:56.370290+00:00",
+    "finished_at": "2026-10-07T07:20:27.320305+00:00",
+    "domain": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai",
+    "method": "Один HTTP GET для каждого нового или побайтно изменённого HTML относительно проверенной основы; дополнительно robots.txt, sitemap.xml, общий CSS. Равенство полных байтов локальному проверенному артефакту, а не только HTTP 200.",
+    "requests": 238,
+    "html_checked": 235,
+    "byte_equal": 238,
+    "failed": [],
+    "all_passed": true
+  },
+  "live_html_robots_counts": {
+    "null": 91,
+    "noindex,follow": 144
+  },
+  "live_html_own_canonical": 235,
+  "live_html_contact_present": 235,
+  "browser": {
+    "checks": 8,
+    "scope": "Chrome desktop; реальные переходы и выборочный визуальный просмотр. Мобильный viewport в этой проверке не заявляется.",
+    "no_horizontal_overflow_in_sampled_views": true
+  },
+  "preserved_evidence": [
+    {
+      "path": "docs/audits/2026-10-07-rental-expansion-release-build.log.gz",
+      "bytes": 99593,
+      "sha256": "26e117ff483ba767686194ce05ed40c5b5ed403d49837857d2bbfb1d2b3cfeaf",
+      "storage": "gzip, lossless, mtime=0",
+      "original_bytes": 634939,
+      "original_sha256": "3843ea7e64d49c7a6075f6531599610e384d980654cef0d263ffc2163b2e6798"
+    },
+    {
+      "path": "docs/audits/2026-10-07-rental-expansion-release-deploy.log",
+      "bytes": 3565,
+      "sha256": "737280c7f18f655ab75a625d21f7f26e4f3b696a78588cdc2896d5c597e94680"
+    },
+    {
+      "path": "docs/audits/2026-10-07-rental-expansion-release-run.json",
+      "bytes": 12833,
+      "sha256": "8b9472bf9a763faa4249f294cb62c369fb14498ac14cd30b85ab8339fe3712d4"
+    },
+    {
+      "path": "docs/audits/2026-10-07-rental-expansion-release-jobs.json",
+      "bytes": 4690,
+      "sha256": "203a586cb8e4eeb57e827f55fd526dd23ff518afa812bf066eee94784ee25f37"
+    },
+    {
+      "path": "docs/audits/2026-10-07-rental-expansion-live-verification.json",
+      "bytes": 240541,
+      "sha256": "edfc3e8e0303128906de2211e42f78e548e339d7f31850854cc5c666ec8352f2"
+    },
+    {
+      "path": "docs/audits/2026-10-07-rental-expansion-stage.jpg",
+      "bytes": 126173,
+      "sha256": "5351724c9ecb61b5e8473af350c53922b2c55e35a2d9b94cb533410d4ae9e5bd"
+    },
+    {
+      "path": "docs/audits/2026-10-07-rental-expansion-browser-review.json",
+      "bytes": 2772,
+      "sha256": "49893dbd014c4b5f0299a5c6f7ad27dbc04db81d8fe1c01334cb39a658da3733"
+    }
+  ],
+  "completion_scope": [
+    "79 new subjects and 25 existing authored-content or metadata enrichments have been published and verified. All 235 new or changed HTML files plus robots.txt, sitemap.xml and CSS match the tested artifact.",
+    "The complete 4046 HTML path inventory is preserved. Public byte verification covers the changed scope; it is not represented as a fresh byte download of all unchanged pages.",
+    "Actual search-engine index inclusion, availability of stock and quoted rental prices are not established by this publication check.",
+    "Public source-block placement is unchanged; the requested proposal remains a proposal.",
+    "This evidence belongs to the content release. A subsequent documentation-only checkpoint must complete its own exact-head workflow; another commit just to record its own SHA is not required."
+  ],
+  "errors": []
+}
