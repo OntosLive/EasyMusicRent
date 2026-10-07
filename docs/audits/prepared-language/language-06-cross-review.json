@@ -1,0 +1,1093 @@
+{
+  "reviewer": "project_history",
+  "status": "ready_with_two_approved_amendments",
+  "scope": "Независимая смысловая проверка полного публичного текста всех 139 тем группы 06 и полного diff замороженного кандидата относительно corpus-after-legacy-closure.json; дополнительные 8 целевых контекстов подписей прочитаны целиком.",
+  "input_sha256": {
+    "language-06-review.json": "3c375512bfd31fff59fd134180c555eb40454b38a1db7c3528c3f0728f21ab56",
+    "language-06-candidate.json": "9cd96e26ad4d9ee93c21ad5d3068e0309d0ec9a2e4e87d826da5cf75cab636cc",
+    "language-06-labels.json": "3c5b9c7ba60f65eb7ef4633a0f99ecbc5966bd3186659ed51b55be8dfbd3446f",
+    "corpus-after-legacy-closure.json": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71"
+  },
+  "counts": {
+    "corpus": 1901,
+    "subjects": 139,
+    "enrich": 128,
+    "keep": 11,
+    "top_level_fields": 383,
+    "fragment_edits": 498,
+    "changed_array_fields": 153,
+    "h1_changes": 27,
+    "numeric_token_changes": 10,
+    "source_title_changes": 5,
+    "authored_label_operations": 20,
+    "authored_label_locations": 20,
+    "derived_labels": 8,
+    "source_json_scanned": 241,
+    "source_html_scanned": 278
+  },
+  "amendments": [
+    {
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах курса.",
+      "after": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах пары.",
+      "reason": "В контексте парных струн мандолины «курс» является калькой string course. «Пары» согласуется с остальным текстом и убирает двусмысленность без нового технического утверждения.",
+      "origin": "pre_existing_in_changed_array",
+      "approval": "accepted_by_root"
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "json_path": [
+        "quote"
+      ],
+      "before": "Вам нужен сама реальная роторная система или достаточно тембровой эмуляции?",
+      "after": "Вам нужна сама реальная роторная система или достаточно тембровой эмуляции?",
+      "reason": "После перевода rotary в «роторную систему» требуется согласовать «нужна» по женскому роду. Музыкальный выбор между реальным вращением и эмуляцией сохраняется.",
+      "origin": "introduced_grammar",
+      "approval": "accepted_by_root"
+    }
+  ],
+  "conclusion": "После двух согласованных точечных поправок содержательных возражений к интеграции группы 06 нет. Переводы сохраняют предметные различия, числа, модельные обозначения, условия примерки и авторскую логику качества: пригодный инструмент даёт понятную обратную связь и доступ к текущей музыкальной задаче. Короткие хорошие тексты и уместные названия не выравниваются по шаблону.",
+  "semantic_checks": [
+    {
+      "area": "Укулеле, мандолина и традиционные щипковые",
+      "result": "Сопрано/концерт/тенор остаются размерами; не превращены в ранг качества, электронику или гарантированный строй. G-C-E-A / D-G-B-E, высокая/низкая G, парные струны, пятиструнное и теноровое банджо различены. Continuo и уместные названия приёмов сохранены."
+    },
+    {
+      "area": "Усилители, Leslie и бэклайн",
+      "result": "Clean/headroom/crunch, два режима роторов, электрическая несовместимость Leslie 122/147, предварительное согласование, передача комплекта и line check переданы по контексту. Каналы Normal/Top Boost, модели, Chorus, CV/Gate сохранены; функция конкретного райдера не заменена сравнением цены."
+    },
+    {
+      "area": "Musser M55: комплект",
+      "result": "Принято: заголовок требует проверить мотор, педаль и раму как части рабочего комплекта. Отсутствует автоматическое обещание выдачи полного состава. Проверка состава перед выдачей и транспортной конфигурации остаётся."
+    },
+    {
+      "area": "SONOR First Beat: Early music",
+      "result": "Принято: «ПЕРВЫЕ МУЗЫКАЛЬНЫЕ ШАГИ» точно соответствует раннему обучению ребёнка в полном тексте. Историческая музыка здесь не подразумевается; принцип точного строя и осмысленного звукового ответа сохранён."
+    },
+    {
+      "area": "Электронные барабаны: MIDI и аудио",
+      "result": "Динамика velocity, разные зоны, открывание хай-хэта и звук закрытия педалью различены. MIDI не превращено в аудио; аудио по USB названо только там, где оно уже присутствовало. Механический шум и вибрация пола не исчезают при переходе к наушникам."
+    },
+    {
+      "area": "Завершение срока аудиозаписи",
+      "result": "Принято условие «Если комплект был нужен только для этой записи…». Оно сохраняет возможность временного доступа и не объявляет постоянную домашнюю практику ненужной после записи."
+    },
+    {
+      "area": "Ручная и оркестровая перкуссия",
+      "result": "Дробь малого барабана, тремоло маримбы/треугольника, глушение парных тарелок, басовый/открытый удар и слэп, дум/тек переведены по семейству. Число инструментов, границы диапазона, размеры и обозначения моделей не меняются."
+    },
+    {
+      "area": "Числа и подписи источников",
+      "result": "Все 10 отличий цифровых токенов прочитаны: количество струн/октав переведено словами; B20 взято из существующего текста этой же страницы. Пять смешанных подписей источников переведены; URL, порядок и прочие свойства источников сохранены."
+    }
+  ],
+  "independent_integrity": {
+    "status": "passed",
+    "report": "language-06-cross-integrity.json",
+    "full_fragment_replay": {
+      "fragments": 498,
+      "top_level_fields": 383,
+      "result": "Все записи edits воспроизведены из frozen snapshot; результат точно совпадает со значениями всех полей frozen candidate."
+    },
+    "complete_arrays": {
+      "fields": 153,
+      "result": "Вложенные ключи, длины и позиции массивов сохранены; все различия покрыты точными edits."
+    },
+    "identity_and_graph": "Все 1901 slug, parent, kind и provenance сохранены; candidate не содержит links и не меняет их значения. Все источниковые URL сохранены.",
+    "h1": "Проверены 139 новых полных редакционных H1; запрещённых коммерческих слов нет. 27 изменённых H1 точно соответствуют реестру.",
+    "labels": "20 исходных подписей совпали по source_slug, href, old_label и указанному месту JSON; 8 автоматических родительских подписей выводятся из N.0 цели. Все 7 отложенных подписей группы 03 покрыты. Новые подписи не длиннее 72 символов; href и порядок сохраняются.",
+    "h1_echo_scan": "Дословных устаревающих H1-подписей не найдено в 1901 собранной теме, 241 исходном JSON и 278 HTML входного уровня текущего checkout.",
+    "numeric_changes": [
+      {
+        "slug": "bandzho-vzroslomu-nachinayuschemu",
+        "field": "quote",
+        "before": [
+          "5"
+        ],
+        "after": []
+      },
+      {
+        "slug": "bandzho-vzroslomu-nachinayuschemu",
+        "field": "blocks",
+        "before": [
+          "01",
+          "5",
+          "02",
+          "03"
+        ],
+        "after": [
+          "01",
+          "02",
+          "03"
+        ]
+      },
+      {
+        "slug": "bandzho-vzroslomu-nachinayuschemu",
+        "field": "description",
+        "before": [
+          "5"
+        ],
+        "after": []
+      },
+      {
+        "slug": "bandzho-dlya-domashnih-zanyatiy",
+        "field": "description",
+        "before": [
+          "5"
+        ],
+        "after": []
+      },
+      {
+        "slug": "bandzho-pered-pokupkoy",
+        "field": "description",
+        "before": [
+          "5"
+        ],
+        "after": []
+      },
+      {
+        "slug": "bandzho-pered-pokupkoy",
+        "field": "blocks",
+        "before": [
+          "01",
+          "5",
+          "02",
+          "03"
+        ],
+        "after": [
+          "01",
+          "02",
+          "03"
+        ]
+      },
+      {
+        "slug": "yamaha-ym6100-v-arendu",
+        "field": "description",
+        "before": [
+          "6100",
+          "5",
+          "4"
+        ],
+        "after": [
+          "6100",
+          "4"
+        ]
+      },
+      {
+        "slug": "sabian-hhx-set-v-arendu",
+        "field": "kicker",
+        "before": [],
+        "after": [
+          "20"
+        ]
+      },
+      {
+        "slug": "deering-sierra-v-arendu",
+        "field": "description",
+        "before": [
+          "5",
+          "06"
+        ],
+        "after": [
+          "06"
+        ]
+      },
+      {
+        "slug": "deering-goodtime-v-arendu",
+        "field": "description",
+        "before": [
+          "5"
+        ],
+        "after": []
+      }
+    ],
+    "source_title_changes": [
+      {
+        "slug": "kala-ka15s-v-arendu",
+        "field": "sources[0].title",
+        "before": "Music ConstructED / West Music: Kala KA-15S в classroom-программе",
+        "after": "Music ConstructED / West Music: Kala KA-15S в программе школьного класса"
+      },
+      {
+        "slug": "makala-dolphin-v-arendu",
+        "field": "sources[1].title",
+        "before": "West Music: Makala Dolphin в classroom-сравнении",
+        "after": "West Music: Makala Dolphin в сравнении для школьного класса"
+      },
+      {
+        "slug": "barabannaya-ustanovka-dlya-dzheza",
+        "field": "sources[1].title",
+        "before": "Zildjian K/K Custom: профессиональный rental inventory",
+        "after": "Zildjian K/K Custom: профессиональный прокатный парк"
+      },
+      {
+        "slug": "barabannaya-ustanovka-dlya-fanka",
+        "field": "sources[1].title",
+        "before": "Zildjian K/K Custom: профессиональный rental inventory",
+        "after": "Zildjian K/K Custom: профессиональный прокатный парк"
+      },
+      {
+        "slug": "barabannaya-ustanovka-dlya-akusticheskogo-sostava",
+        "field": "sources[1].title",
+        "before": "Zildjian K/K Custom: профессиональный rental inventory",
+        "after": "Zildjian K/K Custom: профессиональный прокатный парк"
+      }
+    ]
+  },
+  "records": [
+    {
+      "slug": "teorba",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-koncert",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-vzroslomu-nachinayuschemu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-dlya-sravneniya-razmerov",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-posle-gitary",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-bariton-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "candidate_decision": "enrich",
+      "cross_review": "approved_amendment",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "mandolina-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "mandolina-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "mandolina-dlya-raboty-nad-tremolo",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "bandzho-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "domra-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "domra-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "domra-dlya-raboty-mediatorom",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "domra-alt-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "domra-bas-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "balalayka-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "balalayka-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "balalayka-dlya-pervogo-orkestrovogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "balalayka-bas-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-pervogo-opyta",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-continuo",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "teorba-pered-pokupkoy",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "kanun-dlya-raboty-s-mandalami",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "sitar-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "sitar-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "tanpura-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "tanpura-dlya-zapisi",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "koto-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "guzhen-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "syamisen-dlya-pervogo-opyta",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "syamisen-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "syamisen-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "mbira-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "mbira-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-posle-pereryva",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-zapisi",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-kontserta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "eksperimentalnyy-akusticheskiy-instrument-dlya-performansa",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-kontserta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-saund-dizayna",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-klina",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-krancha",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gitarnyy-backline-po-rayderu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "approved_amendment",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "backline-dlya-festivalya",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "backline-dlya-fly-date",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-korpus-slishkom-bolshoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-tihaya-nota-ne-nachinaetsya",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-klapan-zapazdyvaet",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-diapazona",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-vybornyy-bas",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-kvartventil",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-vyrez-korpusa",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-korotkaya-menzura",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-pedal",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-slishkom-gromko-dlya-doma",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhno-igrat-v-naushnikah",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-monitoringa",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "klaves",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-studii",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-kontserta",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "musser-m55-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "rotornye-akusticheskie-sistemy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "fender-65-deluxe-reverb-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "roland-jc120-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "yamaha-ym6100-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "sabian-hhx-set-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "roland-tr808-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "deering-sierra-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "moog-etherwave-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "doff-domra-junior-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "kala-ka15s-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "makala-dolphin-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "vic-firth-v8705-percussion-kit-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ukulele-so-stabilnymi-kolkami",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "sonor-primary-sxp11-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "studio49-seriya1000-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "sonor-first-beat-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "studio49-easycussion500-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "deering-goodtime-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-ponizhe-dlya-rebenka",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "hohner-special20-c-v-arendu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "pearl-pl910c-v-arendu",
+      "candidate_decision": "keep",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-malenkoy-komnaty",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-fanka",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-akusticheskogo-sostava",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "malyy-baraban-dlya-domashney-praktiki",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "malyy-baraban-dlya-rudimentov",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "malyy-baraban-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-vzroslomu-nachinayuschemu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-posle-akusticheskih",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "akusticheskaya-ustanovka-posle-elektronnyh",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-v-naushnikah",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-midi",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-audio",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dinamikoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-s-metronomom",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-nog",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "marimba-dlya-perehoda-na-chetyre-palochki",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "orkestrovye-kolokolchiki-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "orkestrovye-kolokola-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "orkestrovye-parnye-tarelki-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "orkestrovyy-treugolnik-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "kahon-vzroslomu-nachinayuschemu",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "kahon-pered-pokupkoy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "dzhembe-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "kongi-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "bongi-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "darbuka-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ramochnyy-baraban-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "handpan-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "glyukofon-dlya-pervogo-opyta",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "orf-instrumenty-dlya-domashnih-zanyatiy",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    },
+    {
+      "slug": "ruchnaya-perkussiya-dlya-vokalista",
+      "candidate_decision": "enrich",
+      "cross_review": "clear",
+      "full_public_context_read": true
+    }
+  ],
+  "related_contexts_read": [
+    "ukulele-soprano",
+    "ukulele-tenor",
+    "mandolina-dlya-zapisi-tremolo",
+    "scenicheskie-klavishnye-dlya-pianista",
+    "diatonicheskaya-garmonika-dlya-bendinga",
+    "usiliteli-backline",
+    "basovyy-backline-po-rayderu",
+    "instrumenty-dlya-studiynoy-live-sessii"
+  ],
+  "frozen_files_unchanged": true,
+  "repository_modified": false,
+  "build_or_suite_run": false,
+  "release_claim": "review_only"
+}

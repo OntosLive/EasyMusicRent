@@ -1,0 +1,3574 @@
+{
+  "status": "clear",
+  "repo_head": "b45101f654a73e2834c1c5e1048219ca4f367913",
+  "input_sha256": {
+    "corpus-after-legacy-closure.json": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+    "language-cohort-04.json": "5c30ce6cb2604a1e994a32277602e4f1a295d5c1e47e5bf58d166efa167c24d8",
+    "language-04-candidate.json": "dcbf5b943bbd27c0be49411da0ef55652564435d3af3d187ea4e434833c33ed2",
+    "language-04-review.json": "ffb2af38fc1effaeb815a1ebf710a35fcfc4cf4a2aa432149a9a5aecc58c9e9b",
+    "language-04-labels.json": "ed39ebd2242d73cb614834cd8722e5bdfa7c275e934fa1dea49c59b5cb0524a6",
+    "language-04-checkpoint.json": "3e94600e427663080c37e21046bbc51aa5be51cbcb7e62cb24a215263f634b66",
+    "language04-independent-review-progress.json": "1c897217eb6fbd89f0a5f35d3737352c341bc4ae5621fd6fb66287dbaa317233"
+  },
+  "counts": {
+    "corpus_pages": 1901,
+    "corpus_links": 6066,
+    "cohort": 141,
+    "independently_read_full_pages": 141,
+    "enrich": 139,
+    "keep": 2,
+    "changed_top_fields": {
+      "blocks": 113,
+      "intro": 60,
+      "sources": 83,
+      "description": 90,
+      "kicker": 82,
+      "editorial_title": 32,
+      "search_title": 4,
+      "quote": 35
+    },
+    "changed_top_field_count": 499,
+    "changed_text_paths": 669,
+    "full_changed_arrays": 256,
+    "numeric_token_changes": 9,
+    "frozen_checkpoint_enrich_unchanged": 102,
+    "changed_candidate_h1": 32,
+    "proposed_extra_h1": 1,
+    "exact_h1_echoes_including_proposed": 0,
+    "normalized_h1_echoes_including_proposed": 0,
+    "explicit_label_operations": 8,
+    "automatic_n0_labels": 4,
+    "expected_label_changes": 12
+  },
+  "array_checks": [
+    {
+      "slug": "klarinet-in-a",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yfl212-v-arendu",
+      "field": "intro",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yas280-v-arendu",
+      "field": "intro",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yts280-v-arendu",
+      "field": "intro",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yts280-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yep201-v-arendu",
+      "field": "blocks",
+      "items": 6,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yep201-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-fg800-v-arendu",
+      "field": "intro",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-fg800-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yas62-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yas62-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yas62-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yob241-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yob241-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "klassicheskaya-gitara-dlya-uchenika",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bayan-dlya-perehoda-na-vybornyy-bas",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bayan-dlya-perehoda-na-vybornyy-bas",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bayan-s-vybornym-basom-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bayan-s-vybornym-basom-dlya-domashnih-zanyatiy",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gotovovybornyy-bayan-dlya-pervogo-opyta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-blyuza",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-vokalista",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-v-drugoy-tonalnosti",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-v-drugoy-tonalnosti",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-pervogo-opyta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-pervogo-opyta",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-posle-diatonicheskoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-posle-diatonicheskoy",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-dzhaza",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-dzhaza",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-melodicheskoy-linii",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-melodicheskoy-linii",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-pered-pokupkoy",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-pered-pokupkoy",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "kontsertina-dlya-folk-proekta",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "kontsertina-dlya-folk-proekta",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bandoneon-posle-akkordeona",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bandoneon-posle-akkordeona",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrumenty-dlya-dueta-valtorna-fortepiano",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrumenty-dlya-saksofonovogo-kvarteta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrumenty-dlya-shkolnogo-big-benda",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrumenty-dlya-shkolnogo-big-benda",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrumenty-dlya-dzhazovogo-seksteta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrumenty-dlya-indie-gruppy",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrumenty-dlya-indie-gruppy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrument-posle-zamechaniya-o-pedali",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrument-dlya-konsultatsii-s-professorom",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrument-po-programme-konkursa",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrument-posle-izmeneniya-repertuara",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trombon-dlya-studii",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trombon-dlya-studii",
+      "field": "sources",
+      "items": 4,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trombon-dlya-kontserta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trombon-dlya-kontserta",
+      "field": "sources",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tuba-dlya-studii",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gibson-les-paul-standard-60s-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gibson-es335-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "martin-d28-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "martin-d28-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "music-man-stingray-special-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "music-man-stingray-special-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "buffet-r13-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "buffet-r13-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "selmer-mark-vi-tenor-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-180s37-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-180s37-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "conn-8d-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-style-23-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "scandalli-super-vi-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "scandalli-super-vi-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fender-american-professional-ii-precision-bass-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fender-american-professional-ii-precision-bass-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yfl677-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yfl677-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yfl677-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "loree-royal-oboe-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "loree-royal-oboe-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "loree-royal-oboe-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fox-601-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fox-601-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fox-601-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-42bo-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-42bo-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "alexander-103-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "alexander-103-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "alexander-103-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-chicago-cg-extended-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-chicago-cg-extended-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-chicago-cg-extended-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "pigini-super-bayan-sirius-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "pigini-super-bayan-sirius-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "pigini-super-bayan-sirius-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "alhambra-4p-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fox-renard-41-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fox-renard-41-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fox-renard-41-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yhr314ii-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ybb105-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "cordoba-c1m-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "cordoba-c1m-3-4-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "goboy-dlya-nebolshoy-ruki",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "goboy-dlya-nebolshoy-ruki",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fagot-dlya-nebolshoy-ruki",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fagot-dlya-nebolshoy-ruki",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fagot-dlya-nebolshoy-ruki",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "legkaya-valtorna-rebenku",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "legkaya-valtorna-rebenku",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gemeinhardt-2sp-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gemeinhardt-2sp-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gemeinhardt-2spch-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gemeinhardt-2spch-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gemeinhardt-2spch-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jfl700-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jfl700-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jfl700-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-btr302-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-btr302-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-btr302-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jtr700-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jtr700-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-btb302-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-btb302-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bach-btb302-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jtb700-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jtb700-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jtb700-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-drake-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-drake-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-drake-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "field": "sources",
+      "items": 4,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-ogden-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-ogden-v-arendu",
+      "field": "sources",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "lyon-healy-ogden-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yrs24b-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yrs24b-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yrs24b-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "field": "intro",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jas700-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jas700-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jas700-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jhr700-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jhr700-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jhr700-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trevor-james-10x-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trevor-james-10x-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige-162-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige-162-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige-162-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fleyta-s-izognutoy-golovkoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "fleyta-s-izognutoy-golovkoy",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jts700-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jts700-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "jupiter-jts700-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ysl350c-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ysl350c-v-arendu",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trombon-dlya-korotkoy-ruki",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "trombon-dlya-korotkoy-ruki",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "ibanez-pgmm31-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "ibanez-pgmm31-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-dlya-nebolshoy-ruki",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-dlya-nebolshoy-ruki",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige120-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige120-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige120-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "kornet-dlya-nebolshoy-ruki",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "kornet-dlya-nebolshoy-ruki",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bariton-gorn",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bariton-gorn",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bariton-gorn",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ybh301-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ybh301-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ybh301-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige157-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige157-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige157-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tenor-gorn",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tenor-gorn",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tenor-gorn",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yah203-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yah203-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "yamaha-yah203-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige152-v-arendu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige152-v-arendu",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "besson-prodige152-v-arendu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-igry-boem",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-igry-boem",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-kompaktnym-korpusom",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-kompaktnym-korpusom",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-vyrezom",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-vyrezom",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-sravneniya-korpusov",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-sravneniya-korpusov",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-dlya-pervogo-instrumenta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-dlya-pervogo-instrumenta",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-dlya-chistogo-zvuka",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-dlya-fanka",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "elektrogitara-dlya-zapisi-napryamuyu",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-dlya-nachinayuschego",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-dlya-fanka",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-dlya-fanka",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-dlya-rok-gruppy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-dlya-rok-gruppy",
+      "field": "sources",
+      "items": 2,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-dlya-dzhaza",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-s-passivnym-upravleniem",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-s-aktivnym-ekvalayzerom",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "korotkomensurnaya-bas-gitara-vzroslomu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-pered-pokupkoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bas-gitara-pered-pokupkoy",
+      "field": "sources",
+      "items": 4,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "klassicheskaya-gitara-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "klassicheskaya-gitara-posle-pereryva",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "klassicheskaya-gitara-dlya-etudov",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "gitara-flamenko-dlya-pervogo-opyta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "goboy-dlya-pervogo-instrumenta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "truba-dlya-big-benda",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "kornet-dlya-pervogo-instrumenta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "kornet-posle-truby",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "kornet-pered-pokupkoy",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "valtorna-dlya-pervogo-instrumenta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "valtorna-pered-pokupkoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "evfonium-pered-pokupkoy",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "evfonium-pered-pokupkoy",
+      "field": "sources",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tuba-dlya-pervogo-instrumenta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tuba-dlya-pervogo-instrumenta",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bariton-gorn-dlya-pervogo-instrumenta",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bariton-gorn-dlya-pervogo-instrumenta",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "bariton-gorn-dlya-pervogo-instrumenta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tenor-gorn-dlya-pervogo-instrumenta",
+      "field": "intro",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tenor-gorn-dlya-pervogo-instrumenta",
+      "field": "sources",
+      "items": 1,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    },
+    {
+      "slug": "tenor-gorn-dlya-pervogo-instrumenta",
+      "field": "blocks",
+      "items": 3,
+      "same_shape": true,
+      "exact_diff_replay_equal": true
+    }
+  ],
+  "numeric_changes": [
+    {
+      "slug": "fender-american-professional-ii-stratocaster-v-arendu",
+      "path": "description",
+      "before": "Fender American Professional II Stratocaster: SSS, 25.5, 2-point tremolo и привычная Stratocaster-логика для сцены и записи.",
+      "after": "Fender American Professional II Stratocaster: SSS, мензура 25.5 дюйма, двухточечное тремоло и привычная схема Stratocaster для сцены и записи.",
+      "removed": [
+        "2"
+      ],
+      "added": [],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "lyon-healy-style-23-v-arendu",
+      "path": "kicker",
+      "before": "LEGENDARY CORE · CONCERT GRAND · STYLE 23",
+      "after": "STYLE 23 · CONCERT GRAND · 47 СТРУН",
+      "removed": [],
+      "added": [
+        "47"
+      ],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "yamaha-yfl677-v-arendu",
+      "path": "blocks.2.paragraphs.0",
+      "before": "Это прямое подтверждение, что профессиональная модель может существовать как самостоятельная единица временного доступа.",
+      "after": "Программа производителя предусматривала временное использование YFL‑677.",
+      "removed": [],
+      "added": [
+        "677"
+      ],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "fox-601-v-arendu",
+      "path": "blocks.2.title",
+      "before": "Модель может быть адресом до собственного экземпляра фонда",
+      "after": "Наличие конкретного Fox 601 на период работы подтверждается отдельно",
+      "removed": [],
+      "added": [
+        "601"
+      ],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "path": "blocks.2.paragraphs.0",
+      "before": "Такой источник особенно важен для нашего канона: сама профессиональная модель официально существует как предмет временного доступа.",
+      "after": "В программе производителя именно YTR‑8335RS представлена для временного использования.",
+      "removed": [],
+      "added": [
+        "8335"
+      ],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "besson-prodige120-v-arendu",
+      "path": "intro.0",
+      "before": "<p>Prodige 120 Besson проектирует именно как student Bb cornet в классической британской традиции. Это полезная альтернатива Yamaha: другой производитель, но та же ясная учебная задача — настоящий cornet sound, удобная 3-valve механика и регулируемое кольцо третьего крона.</p>",
+      "after": "<p>Prodige 120 Besson проектирует именно как ученический корнет Bb в классической британской традиции. Это полезная альтернатива Yamaha: другой производитель, но та же ясная учебная задача — настоящий корнетный звук, удобная трёхклапанная механика и регулируемое кольцо третьего крона.</p>",
+      "removed": [
+        "3"
+      ],
+      "added": [],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "path": "description",
+      "before": "Аренда 12-string перед покупкой: парные струны, настройка, усилие левой руки и реальный репертуар.",
+      "after": "Аренда двенадцатиструнной гитары перед покупкой: парные струны, настройка, усилие левой руки и реальный репертуар.",
+      "removed": [
+        "12"
+      ],
+      "added": [],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "path": "blocks.0.paragraphs.0",
+      "before": "Taylor описывает 12-string как систему с парными курсами и собственными вариантами корпусов. Для музыканта это означает другой контакт медиатора, больше работы при настройке и другое ощущение прижима.",
+      "after": "Taylor описывает двенадцатиструнную гитару как систему с парными струнами и собственными вариантами корпусов. Для музыканта это означает другой контакт медиатора, больше работы при настройке и другое ощущение прижима.",
+      "removed": [
+        "12"
+      ],
+      "added": [],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "path": "sources.0.title",
+      "before": "Taylor: 12-string guitar construction and tuning",
+      "after": "Taylor: конструкция и настройка двенадцатиструнной гитары",
+      "removed": [
+        "12"
+      ],
+      "added": [],
+      "independent_decision": "clear: исходное значение сохранено словами, либо повторено уже указанное число/имя модели"
+    }
+  ],
+  "source_label_checks": [
+    {
+      "source_slug": "instrumenty-dlya-shkolnogo-big-benda",
+      "target_slug": "usiliteli-backline",
+      "definition": "content/sections/zz118-educational-ensemble-crossroutes.json#/pages/6/links/2",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "0a2b56f82cca274d3b5364a4a48a26b07fb6aabdd9c5ebc069b35894788f9a0c",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    },
+    {
+      "source_slug": "instrumenty-dlya-dzhazovogo-seksteta",
+      "target_slug": "usiliteli-backline",
+      "definition": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json#/pages/2/links/2",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "f27550feecf5c8ca882b192089554f35baeceb46fae542c3a59eabf496eae317",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    },
+    {
+      "source_slug": "instrumenty-dlya-indie-gruppy",
+      "target_slug": "backline-dlya-klubnoy-stseny",
+      "definition": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json#/pages/6/links/2",
+      "before": "Backline для клубной сцены",
+      "after": "Бэклайн для клубной сцены",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "f27550feecf5c8ca882b192089554f35baeceb46fae542c3a59eabf496eae317",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    },
+    {
+      "source_slug": "instrument-dlya-postupleniya-v-uchilishche",
+      "target_slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "definition": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json#/navigation/instrument-dlya-postupleniya-v-uchilishche/1",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "b8c64ce8c2885f10d8118ba16fd3053ea36fb55b30b808b68ca99785d535f6c1",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    },
+    {
+      "source_slug": "instrument-dlya-perehoda-v-sleduyushchiy-klass",
+      "target_slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "definition": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json#/navigation/instrument-dlya-perehoda-v-sleduyushchiy-klass/0",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "b8c64ce8c2885f10d8118ba16fd3053ea36fb55b30b808b68ca99785d535f6c1",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    },
+    {
+      "source_slug": "gibson-les-paul-standard-60s-v-arendu",
+      "target_slug": "elektrogitara-s-dvumya-hambakerami",
+      "definition": "content/sections/zzzz31-conductivity-rider-model-bridges.json#/navigation/gibson-les-paul-standard-60s-v-arendu/0",
+      "before": "Электрогитара с двумя humbucker",
+      "after": "Электрогитара с двумя хамбакерами",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "486a031c58827410642a8d2c04217e5a65a2872b08daeb64948b6eda3354e82c",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    },
+    {
+      "source_slug": "bas-gitara-dlya-dzhaza",
+      "target_slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "definition": "content/sections/zz83-bass-guitar-human-scenes.json#/pages/7/links/1",
+      "before": "Первый опыт fretless",
+      "after": "Первый опыт на безладовом басе",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "9db6a43898e2ad0065b385f29df0983407832c6d391be6a19fc19d65c90e0470",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    },
+    {
+      "source_slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "target_slug": "dvenadtsatistrunnaya-gitara-dlya-zapisi",
+      "definition": "content/sections/zz84-special-classical-guitar-human-scenes.json#/pages/7/links/1",
+      "before": "12-string для записи",
+      "after": "Двенадцатиструнная гитара для записи",
+      "exact_old_value_href_source_match": true,
+      "current_file_sha256": "481a56a7885ce6ca79dd72d4ed76f1e4a180dbf3d8ba6d1dca09ff209de5b11a",
+      "manifest_file_sha_matches": true,
+      "effective_last_label_match": true
+    }
+  ],
+  "automatic_n0_labels": [
+    {
+      "source_slug": "diatonicheskaya-garmoshka",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "link_index": 1,
+      "before": "Диатоническая гармоника для bends в аренду",
+      "after": "Диатоническая гармоника для бендинга в аренду",
+      "parent_source_is_json": true,
+      "legacy_karta_exists": false,
+      "explicit_effective_source_route_count": 0
+    },
+    {
+      "source_slug": "kontsertina",
+      "target_slug": "kontsertina-dlya-folk-proekta",
+      "link_index": 5,
+      "before": "Концертина для folk-проекта в аренду",
+      "after": "Концертина для фолк-проекта в аренду",
+      "parent_source_is_json": true,
+      "legacy_karta_exists": false,
+      "explicit_effective_source_route_count": 0
+    },
+    {
+      "source_slug": "elektrogitara",
+      "target_slug": "instrumenty-dlya-indie-gruppy",
+      "link_index": 20,
+      "before": "Инструменты для indie-группы в аренду",
+      "after": "Инструменты для инди-группы в аренду",
+      "parent_source_is_json": true,
+      "legacy_karta_exists": false,
+      "explicit_effective_source_route_count": 0
+    },
+    {
+      "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+      "target_slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "link_index": 116,
+      "before": "Step-up инструмент по рекомендации преподавателя в аренду",
+      "after": "Следующий инструмент по рекомендации преподавателя в аренду",
+      "parent_source_is_json": true,
+      "legacy_karta_exists": false,
+      "explicit_effective_source_route_count": 0
+    }
+  ],
+  "h1_echoes": [],
+  "source_file_sha256_at_review": {
+    "content/sections/zz118-educational-ensemble-crossroutes.json": "0a2b56f82cca274d3b5364a4a48a26b07fb6aabdd9c5ebc069b35894788f9a0c",
+    "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json": "f27550feecf5c8ca882b192089554f35baeceb46fae542c3a59eabf496eae317",
+    "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json": "b8c64ce8c2885f10d8118ba16fd3053ea36fb55b30b808b68ca99785d535f6c1",
+    "content/sections/zzzz31-conductivity-rider-model-bridges.json": "486a031c58827410642a8d2c04217e5a65a2872b08daeb64948b6eda3354e82c",
+    "content/sections/zz83-bass-guitar-human-scenes.json": "9db6a43898e2ad0065b385f29df0983407832c6d391be6a19fc19d65c90e0470",
+    "content/sections/zz84-special-classical-guitar-human-scenes.json": "481a56a7885ce6ca79dd72d4ed76f1e4a180dbf3d8ba6d1dca09ff209de5b11a"
+  },
+  "reviewed_records": [
+    {
+      "slug": "klarinet-in-a",
+      "ordinal": 1,
+      "candidate_record_sha256": "62a38123541e8eb4b2a9378da879945233f60d5cde830474909d707500aaeac7",
+      "source_page_sha256": "5a6ec8bbc466ef7b52d73a35d54331512eca3b5105f15581aa9c7623016276e5",
+      "final_author_review_record_sha256": "d42341675e36d5557fa7ed6d1301dbb76e26f323ac8656c7424878bb90835214",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "rezonatornaya-gitara",
+      "ordinal": 2,
+      "candidate_record_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "source_page_sha256": "8bed17c2abe4042636ed80aadb4081b7e6cc9508c534a565e429014442f19018",
+      "final_author_review_record_sha256": "bd0035d77f499457846779e2ce421f421efb5fa7842ea1b59404a8fa39cfee26",
+      "decision": "clear",
+      "note": "Keep обоснован: spider и biscuit обозначают конкретные типы опоры; круглый/квадратный гриф, положение игры и все ограничения сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yfl212-v-arendu",
+      "ordinal": 3,
+      "candidate_record_sha256": "ab776e28ee7b4372a1a61dadba13f7e98ef6da54f4d6fd56c5486dc3731a7e5b",
+      "source_page_sha256": "9485c43cc08edf63c80f1b46d2c321ab7f46fb9ab54a3d93b84d6b8b682d9a52",
+      "final_author_review_record_sha256": "514eab54c5df211a77caa6b6f0fd63a3e2f689e8a30734312abe8bc860c7ee6a",
+      "decision": "clear",
+      "note": "Изменено только student → ученической. Российские даты/учреждения, ограничения свидетельства, закрытые клапаны и отдельное согласование изогнутой головки сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yas280-v-arendu",
+      "ordinal": 4,
+      "candidate_record_sha256": "c2b55dcad990fe7545be0c2735d20bc4bb7569c6d9b1f90baba46b7f999f43da",
+      "source_page_sha256": "25e871bcfa1a71931c351a5126efe8e0774bcefc0e4357e9be8436692f7f4ae4",
+      "final_author_review_record_sha256": "d4c5c640e0eedc4c1a00b162da359b18213a3169605e4baaab403fc25836ab79",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yts280-v-arendu",
+      "ordinal": 5,
+      "candidate_record_sha256": "367e6a972a62caa18c4c8d1981a8d9856ff8d91f9a1a11d32960558d78a04a7d",
+      "source_page_sha256": "e88cc5df5c04d216e912c6745f6bf6f397e76ebf7581d77e73b01f58a9aec868",
+      "final_author_review_record_sha256": "09242ff22a80accf50b96a19b3930a65ace94112e4a9a9142ea0a5846a933449",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yep201-v-arendu",
+      "ordinal": 6,
+      "candidate_record_sha256": "39d7eda89358968aa1ec516d25b902e07dd5a71467a0a9be6c287960999cb208",
+      "source_page_sha256": "e42c9b9a68f15b636c3daa63a0c396aea64217c71553f2f678109baaa2c3ebf0",
+      "final_author_review_record_sha256": "f56a37980774562b8dc7bbcb07aa49a8f56d949972f793b7ed5555d8d48858a4",
+      "decision": "clear",
+      "note": "Все шесть исходных блоков сохранены, в том числе ограничение трёх пистонов и необходимость отдельно согласовать четвёртый клапан/комплект. Правка student и названия источника не меняет устройство.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-fg800-v-arendu",
+      "ordinal": 7,
+      "candidate_record_sha256": "51fe9780775efc4564cd10d4c4fbca965455c9384b1dc07d2ff04909c02e11f9",
+      "source_page_sha256": "333efa85eb659572b892ac150fbef5a9d4b44b64cd22e8adf16ee1d4dfacd515",
+      "final_author_review_record_sha256": "9137a46e80edc3aa375c77989629fddd6b4d7dd19dada03dfe8898c99674af5d",
+      "decision": "clear",
+      "note": "Внутреннее «усиливает модельный вход» удалено без потери рекомендации Yamaha и её ограничения; цельная дека, большой корпус и отсутствие автоматического подключения сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yas62-v-arendu",
+      "ordinal": 8,
+      "candidate_record_sha256": "0ec380706585de0932068f71d037464283776052d837938d41b8b519c224e0c3",
+      "source_page_sha256": "7c01489ff4cc22419a376aea488f055bb08823d25303a1121fb15efbabd22c1c",
+      "final_author_review_record_sha256": "abd7a628c4293f16b66ae00ddc558ac6d064d35d55196363fafc4204deb64930",
+      "decision": "clear",
+      "note": "Описание программы Yamaha остаётся атрибутированным производителю, не становится обещанием собственного наличия; внутренняя причина отдельного URL заменена тем же фактом программы.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yob241-v-arendu",
+      "ordinal": 9,
+      "candidate_record_sha256": "bd52c4576e1e7ca273e2ab34755411ca648da91044168b68eead76e8313148a6",
+      "source_page_sha256": "2b69ba2c420bfb14584aa094ed53af5de1c383f6ed21a6be934acf6a682c543e",
+      "final_author_review_record_sha256": "b4e3c426fc2ff9c9d9bdfbddf8899ebfb062f19126a2572be34302603b2925e6",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "klassicheskaya-gitara-dlya-uchenika",
+      "ordinal": 10,
+      "candidate_record_sha256": "b9e526e6dc19fd06d41dff1f04808d532b01f286e9773e3eea0b52f69e67bd7a",
+      "source_page_sha256": "f4652961b016297c59d67bcbcdfddbc75469d718651410035f394fa94f9cb75b",
+      "final_author_review_record_sha256": "6e88a03a0ed2431c4aefd5038c8f1dea67e39416266c2a1f60c6b73531ca1daf",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "bayan-dlya-perehoda-na-vybornyy-bas",
+      "ordinal": 11,
+      "candidate_record_sha256": "c1345d8378c5156ca8f567c136322db5bce8db6eb36a62cd88fa631e25e1cc7b",
+      "source_page_sha256": "7d650fade5a005e37459c5110af8c5fe56c2525d705edd5f9477cba33a2e5381",
+      "final_author_review_record_sha256": "6650251a1e2e7523c365592d62c378d555681afda68f5331ac76bc4bfe0bbcdb",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "ordinal": 12,
+      "candidate_record_sha256": "0bc203a5a30a2c5a1127fb86b57d98535db087fb8f004ffc0f0385088b01822d",
+      "source_page_sha256": "e8cbf9b0b0153c83612481e96f2ddeec6e4051dd4d823283e56010aa5a00ceb0",
+      "final_author_review_record_sha256": "32ecd50fc8dd216c8d8833e07badc9cfd6f6268a2a4ae6caed4d012fc44e6736",
+      "decision": "clear",
+      "note": "Standard и free-bass корректно различены как готовый и выборный бас; melody bass передано функцией мелодической игры левой рукой. Конвертер и условие реального репертуара сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "bayan-s-vybornym-basom-dlya-domashnih-zanyatiy",
+      "ordinal": 13,
+      "candidate_record_sha256": "bcc37eec659a023de10dc9cb70d7870af61e0ab7ec1b8aa4de51c03e33df352b",
+      "source_page_sha256": "a5ca91ba98796b7463af97fb3d291808ffcc71ec40f12ff394e114952a447ead",
+      "final_author_review_record_sha256": "4eff685404ef6af3b458b59e08bfcfebfc1a3e7d0a965b0f85a762d973b1913b",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "gotovovybornyy-bayan-dlya-pervogo-opyta",
+      "ordinal": 14,
+      "candidate_record_sha256": "d279a9599c4f02899ae0830d0a84b13b676120b3cca7ef29e1db82bdb74885ce",
+      "source_page_sha256": "7e695a0d96a3d877423886c7ca9951101925ceb71eda384cc78269f00ee97110",
+      "final_author_review_record_sha256": "ae9c4c14e65f1270e3710b7f925fbccaaf3dd254ce4aaded2944fa4a0cb39058",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "ordinal": 15,
+      "candidate_record_sha256": "b0c09f72d55774713c7b0d0dc2bd4a5ea2b04e5e3bcebde75d86a5dbc9dcdefb",
+      "source_page_sha256": "850edee6694a6737bbcdb1e5e23c19f3722422d5fc9e1192ba066ff74faf4031",
+      "final_author_review_record_sha256": "eaf0a0e6a54c6ea4fce7491b443ccf7c0ee630caf9e2d4ff71b6ebe8595d1b0e",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "ordinal": 16,
+      "candidate_record_sha256": "d7ba156eee7e4d50d706da69ea30a8446b6faa5b9d088a750a2cf46b4541b02f",
+      "source_page_sha256": "9554d2bd913a748f0e62c0f9ae3013342e8118139c59a31e4bc7b0802828a034",
+      "final_author_review_record_sha256": "81cb685d365328fd1bb2af46004fc05979ab71ddffb88e7f889281b414118104",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-blyuza",
+      "ordinal": 17,
+      "candidate_record_sha256": "e4879d6a9162a6f65f6fb04243c89e0b1ea250db178bfe8c13daa1abe0a509fc",
+      "source_page_sha256": "e3ad671567aed93fd98e5590eee8b1b70b6f3d9dbfc47dbc58a1e2497193df41",
+      "final_author_review_record_sha256": "6f7a1f2a765c35274c1f04497e2d1c36de2248ef0cb669e9994d204b4f7498dd",
+      "decision": "clear",
+      "note": "Cross harp точно передано второй позицией; конкретные тональные схемы не добавлены. Fills соседней вокальной сцены переведены как вставки между фразами, не как ударные сбивки.",
+      "findings": []
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-dlya-vokalista",
+      "ordinal": 18,
+      "candidate_record_sha256": "4532ff8903b8dc3bc97e6184542a13db4a20cb2231f8ce3974caa5ea29b21dae",
+      "source_page_sha256": "b1efba94ca5cf214e990f1f48287f3093f5543efd9c004eb1e4d0b141f21ccd9",
+      "final_author_review_record_sha256": "4e348b41b6979d868673cf7df41856d1769a37e333d24472dc79f09ff6514860",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "diatonicheskaya-garmonika-v-drugoy-tonalnosti",
+      "ordinal": 19,
+      "candidate_record_sha256": "ea38f37f5845897a20c7b60996a3ad41285de9fd5c327a3067b018f80e9a9f61",
+      "source_page_sha256": "34fcd2ad4d9c455431823a91fb2083d1050c194436defb1f79881cd075a3c3b5",
+      "final_author_review_record_sha256": "558a07ff368c59a954b536d45f0a3a51272f46549b13c361d557677055b1c263",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-pervogo-opyta",
+      "ordinal": 20,
+      "candidate_record_sha256": "d92cc7dfa0d28f2124a24ff450f684e346881c2a06d97d8c0411420ba4ce5d64",
+      "source_page_sha256": "d995dbe6bd21b99c8570a222c9c55c322f241ccad864ee5dd33f340fcb7acfd9",
+      "final_author_review_record_sha256": "045e0c01f406a3f728512fb300bbed32ebf3218dbf146d0c17cab190c23b4867",
+      "decision": "clear",
+      "note": "Slider описан через кнопочный механизм и работу кнопки; доступ к хроматическим нотам и необходимость координации дыхания сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-posle-diatonicheskoy",
+      "ordinal": 21,
+      "candidate_record_sha256": "8c542920515b266336f434aafa70d4ea4460f24e75a37fead208506111f6da3e",
+      "source_page_sha256": "ac0bec7290de6e08ffa182cf2c9d1e25aeb05495fbd76874e62196916120d4b1",
+      "final_author_review_record_sha256": "39d9f5bfa837d5dea0682987a062942fd8e45bb555d37f6db2604397f011f34e",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-dzhaza",
+      "ordinal": 22,
+      "candidate_record_sha256": "590953b205bf3eccde3ef64ec9666ab689dd23c68b9e54d2a3c08b1898c5094a",
+      "source_page_sha256": "77571fcda17fa560938dbf5b2e1a4d946a907e003f56e99fe74ee74cd39d60b1",
+      "final_author_review_record_sha256": "b95d6487704ab32ba6d184fdcd7bec2b190609b70f5f757f3713605692f6be28",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-dlya-melodicheskoy-linii",
+      "ordinal": 23,
+      "candidate_record_sha256": "fe774f15ad9e6c4c6c7a06b165270a2c59a123b3227e55baf36f7371d661bcbf",
+      "source_page_sha256": "43012ca1b1fa992e2cd5c9d6d7d10fe5d8d9c7a0c3494709dbb09159259039a8",
+      "final_author_review_record_sha256": "f08a3f25823008e7813fab514dd118db48ce448ed59c8848b48b8cc925a526c7",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "hromaticheskaya-garmonika-pered-pokupkoy",
+      "ordinal": 24,
+      "candidate_record_sha256": "b3cf05d78c7bf4c444cb677b926a5a3e0f0ac7e61d1c3a6ab6bdf5f307636f26",
+      "source_page_sha256": "9ad5d84498efea770ac2fea889afa47205f5111420df8cc2f3b08ad297ef8817",
+      "final_author_review_record_sha256": "b3c20fa94581a01a8eb76642d96df9a83900466f3ab719e15ab01ce65be13ed7",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "kontsertina-dlya-folk-proekta",
+      "ordinal": 25,
+      "candidate_record_sha256": "ff2e711272cbe27d8e64a72c4f8b3311e1983fc8e2cf006365879f7bee5eba96",
+      "source_page_sha256": "b6efbf984f4adc0f0ba82dd5dcd38ca25d510c8235fc23cc1ed7d8015db7c579",
+      "final_author_review_record_sha256": "8868816440db7add79ce89ca35278290418d3ccea236222c2694cfbbfda6d7f5",
+      "decision": "clear",
+      "note": "Folk переведено, Anglo/English/Duet сохранены как точные имена систем; ни состав голосов, ни функция меха не потеряны.",
+      "findings": []
+    },
+    {
+      "slug": "bandoneon-posle-akkordeona",
+      "ordinal": 26,
+      "candidate_record_sha256": "0a41562a853156dd0616c40004d41a86821b050291f3edb6b72304d2127a310d",
+      "source_page_sha256": "ea56093b3737e7e6ba706f76c5317cb079848fcef32d13e51437961dbb691adb",
+      "final_author_review_record_sha256": "377196cd19e100e3da2880fbb87e2a6e0d616a9ba51ab91febf830c9bf3df447",
+      "decision": "clear",
+      "note": "Раскрытие bidirectional logic не снимает важное условие «в некоторых системах»; сначала по-прежнему требуется определить конкретную систему.",
+      "findings": []
+    },
+    {
+      "slug": "instrumenty-dlya-dueta-valtorna-fortepiano",
+      "ordinal": 27,
+      "candidate_record_sha256": "a0baea94eb0a873f2b979cdb8ee254637234255b8730154961ca2bd3d1ba7884",
+      "source_page_sha256": "a48eb026e1d9467ec0066201a39d59eaeaf9251a13fda522cea57db28725c10d",
+      "final_author_review_record_sha256": "1ae48c4f56600633cc6489b6f435c168d01448a5bb4ae494f0936c0e4682a06b",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrumenty-dlya-saksofonovogo-kvarteta",
+      "ordinal": 28,
+      "candidate_record_sha256": "d040f6bac1587f64ebda42fe8db839245430ed8aad218db077db410a08f6c21e",
+      "source_page_sha256": "c8d8995d48ec1ecb68e285fab85513a9f8b829275d949e48cab9ffdcdb7bf52d",
+      "final_author_review_record_sha256": "c737a93f01c21af586d9f320a7bfb8ccb59ec692b2f4c49065921ebcac1208e2",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrumenty-dlya-trio-valtorna-skripka-fortepiano",
+      "ordinal": 29,
+      "candidate_record_sha256": "8c6d6b6aae393261a8a0968066d40c1a0bbd503c637bdd3ad27df1579e98bbc5",
+      "source_page_sha256": "e88658b2150a3444e59a202d06aeb3a63c56505f9c84c4cf2a2384b1abf529a7",
+      "final_author_review_record_sha256": "a890c4bcc618d7727ef84c7548147fa9105a4ede15b0764304d530ec455edf39",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrumenty-dlya-pervogo-brass-ansamblya",
+      "ordinal": 30,
+      "candidate_record_sha256": "cf1605e748094055a1b74bf3dead30b3ff0c458af79b6049088dac8777082616",
+      "source_page_sha256": "4697227597e3c85d6a5e9abd540a7706d73bfcab161823716e20b94a2af86660",
+      "final_author_review_record_sha256": "ce531d448cb12a977a26cbec870dc7c941a046ad6b0847a5065419806dc8058c",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrumenty-dlya-shkolnogo-big-benda",
+      "ordinal": 31,
+      "candidate_record_sha256": "6fb7e708d88e1194182d6e058791cb1b373bc776f9bf7c17d5acea5bedc3d784",
+      "source_page_sha256": "b83c3c086f45fa85f228f30e5ac28bff82a87e2a9452231b0dacf8a8239bb5da",
+      "final_author_review_record_sha256": "ae7b5b5a81610551c6931e9c581959b49d64da541b405a21bbde9baceb12db4b",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrumenty-dlya-dzhazovogo-seksteta",
+      "ordinal": 32,
+      "candidate_record_sha256": "71eab8103a82994c86064354f7ee47ca3189828393aac58c302c3c19dc9cdd79",
+      "source_page_sha256": "ec4621e8dbaa460cdccc715ef5ec52b24d17ae65fca0d9b02202a84333dc6c6c",
+      "final_author_review_record_sha256": "f7686bd2a558afccf19c385d655c99d32b21b5709fdae1e76447f2fe5281154e",
+      "decision": "clear",
+      "note": "Tutti и soli сохранены как разные формы ансамблевого эпизода; soli не подменено индивидуальным соло, ритм-секция и состав духовых сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "instrumenty-dlya-indie-gruppy",
+      "ordinal": 33,
+      "candidate_record_sha256": "d45af27ba7a6e7c508bc9b92fcf17c4ca28934c10f5087a08c93f917c964e0fc",
+      "source_page_sha256": "54fff4dabbad0672bb89d5727eca1cbd49a9607318963c4a22bec78d069c7531",
+      "final_author_review_record_sha256": "604bdc21dfd01a07c4a227fdbf45f84db1fc05759dddf68089d933e021fe0235",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-posle-zamechaniya-o-pedali",
+      "ordinal": 34,
+      "candidate_record_sha256": "e49a2cfbced2d10984f293237a66f9d0a1d0436fde79d2fc9f68640dc31126c7",
+      "source_page_sha256": "6ebd6b2d6cf7d779d8fc0f517ffadc46dc4a1811817023b4b6944ee98e1c2c82",
+      "final_author_review_record_sha256": "35c95e19f3e4e2c58538702cb4d648217f02e5a2136e9262656a46742ec3e283",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "ordinal": 35,
+      "candidate_record_sha256": "f3b1baf093447f680a1dfd9df7c64a21057428f95dda9828d0fb93fc412c58c2",
+      "source_page_sha256": "0fb337558eabf18f13221423c4a9e933db0177f3c28ac113473eb1436cb40bc8",
+      "final_author_review_record_sha256": "9ed3be445ac28c8a979142681f95a3601331b20dadc7f36c5a8bdf7cbc0cebe8",
+      "decision": "clear",
+      "note": "Согласованная смысловая правка снимает необоснованное требование заранее владеть новой возможностью; основание перехода теперь текущая программа и освоение с педагогом. Проба на знакомой пьесе и предметные параметры сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-dlya-konsultatsii-s-professorom",
+      "ordinal": 36,
+      "candidate_record_sha256": "27d0e4b528bccf220dc65b74cd277a3fe1d7d3ad077b6b6a4f5c7938278a9b18",
+      "source_page_sha256": "871b14d5ac5e604dfaf4e0d0030a3175c3ce876c23ea56a14ecbd1eb44ab603b",
+      "final_author_review_record_sha256": "46efbb7740680b74cde6f97cba0b1eee29e720db12e07a7a360a4a5245967fd4",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-po-programme-konkursa",
+      "ordinal": 37,
+      "candidate_record_sha256": "f92e4c93444b97a0575bf3b93d5d5af164b55c6789b2d68ee82ccf3cfab1fcea",
+      "source_page_sha256": "70caeaa8ef5d93526530cc063103cb4a50dfda1de2d72400bdabd18b17cfa046",
+      "final_author_review_record_sha256": "776b21f8ffed523916f8726e14648e5f48c2bfcd1856333d24c5d944ee3eb3ad",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-dlya-postupleniya-v-uchilishche",
+      "ordinal": 38,
+      "candidate_record_sha256": "f5a57a755c0cf543fbcc85defac265e051e881d46cf3c65ac056e72cda75208f",
+      "source_page_sha256": "82249ecc10ce716f289335954425a07d564b6dd5db2f7103029fc23e91223e52",
+      "final_author_review_record_sha256": "6fc38d1989e9df91cf1246acb8f7e2988b5bf4ded44a0e42611083fac2fc6755",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-dlya-perehoda-v-sleduyushchiy-klass",
+      "ordinal": 39,
+      "candidate_record_sha256": "6bd75fc0fa8cd7fca0c9c4fbc14990931048c77e6a53896a983a20ad4c6666db",
+      "source_page_sha256": "e499d759d55230601dc12fd3dde32aa407b235a3876f108ac5be96842f9287d9",
+      "final_author_review_record_sha256": "ded6604220ebb82ac1134594649e2fbba46248a8c0a4c9229a2b2790f31216fe",
+      "decision": "clear",
+      "note": "Сохранена явная оговорка: сам переход в следующий класс не требует смены инструмента.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-posle-izmeneniya-repertuara",
+      "ordinal": 40,
+      "candidate_record_sha256": "6cf81be4aafc50e5eb13f8dd2e188b97b66077d3a84beaf5ff2f10404a1258d3",
+      "source_page_sha256": "23a1afe311fa71501f704a3a6ee1b9cab7669c146cc1eb8a8be4f001852071c9",
+      "final_author_review_record_sha256": "30ef1dae55804f26c7e827871f95ff4e69e95de308a52474e51672ae25aee668",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu",
+      "ordinal": 41,
+      "candidate_record_sha256": "a67dd843414d05fcc51aea2fd152f20d682d8ece4826b148645deae131435abc",
+      "source_page_sha256": "44c29777e57a7c0ca80761c5326aa9282856e538f66244be9b20eb1971985cf4",
+      "final_author_review_record_sha256": "3d9de4c242d3e08feb54f3542da93b119bbe44a1cc5a98a950154110e335ff64",
+      "decision": "clear",
+      "note": "PP–FF оставлены точными обозначениями; диапазон в смысловой правке явно динамический, а не нотный. Освоение с преподавателем сохранено как основание доступа.",
+      "findings": []
+    },
+    {
+      "slug": "trombon-dlya-studii",
+      "ordinal": 42,
+      "candidate_record_sha256": "ec1292d99714d9889c2bd3c0f839438db50fa19b7524007762eb19f73240de9d",
+      "source_page_sha256": "4e6b78787d957e3d9d91fd6583ddaec1a1ffaab350cd5d522ceba1382aad995b",
+      "final_author_review_record_sha256": "3671382e9c4916eab7d4580af105253d1ebe18e7914279b4f00d8a1d9eb2c925",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "trombon-dlya-kontserta",
+      "ordinal": 43,
+      "candidate_record_sha256": "ae07d707de8cccef820dbfe8f08f9f90bc24348404beb2b02cc8d58ce0a9a7a1",
+      "source_page_sha256": "d5b4e1bbc03ccd180a5c373d6680e37798ef4d990a062e109d2886e2e6cff4bf",
+      "final_author_review_record_sha256": "8de702f86b52a82596aec40b3e5a24a0199e17cd4fa254a1fd7214b35f8154f9",
+      "decision": "clear",
+      "note": "Квартвентиль переведён точно; H2 теперь перечисляет три инструмента, не ставит устройство в один ряд с двумя видами тромбона. Смещение позиций, условие обычно для басового канала, мундштук и сурдины сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "tuba-dlya-studii",
+      "ordinal": 44,
+      "candidate_record_sha256": "155cbf20214828eb328b17ae3a3e5c078fd00564c6d700662c4cfe3c11b0b984",
+      "source_page_sha256": "27d84b8eb32bd3cb0a7f5e34390efcd28b8facc1d061cb6b7bf00c08d7d87dc0",
+      "final_author_review_record_sha256": "1e9b8643ee0a1c2e0842674c28ff93c75bcbe84a80b9645fc4f8edb599a02fdc",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "fender-american-professional-ii-stratocaster-v-arendu",
+      "ordinal": 45,
+      "candidate_record_sha256": "4a9f4d57eb9e0a59bc9eddc4e58a0e3d993415efc7ec8a31572056fd1339408b",
+      "source_page_sha256": "884e3ec9bd48faa58b59979c4a1aa77ac672705bec7a02768e5ebb07a8ad0892",
+      "final_author_review_record_sha256": "f5b73df8338fcd87ed926757919e24f4416e286c8e8eca7f3a9aa3e1b34e80f4",
+      "decision": "clear",
+      "note": "SSS/HSS, Deep C, мензура 25.5, радиус 9.5, пять положений и необходимость согласования струн/рычага сохранены. Rider Core заменён имеющейся конструкцией.",
+      "findings": []
+    },
+    {
+      "slug": "gibson-les-paul-standard-60s-v-arendu",
+      "ordinal": 46,
+      "candidate_record_sha256": "a6dff73cf96ae94f3e13ef7a9a23bb33b89f9f1320e42c125d6d0cbac335bb4b",
+      "source_page_sha256": "ebd54ef5cb4ea9ebc60ad6c77b28b27872e34d9977ed4a59ed1e760cddc4c17d",
+      "final_author_review_record_sha256": "aa4e3bb8841dfed994a239938be882c8f6d6b5ec080d2abb88f3112efe505a0d",
+      "decision": "clear",
+      "note": "Сохранились цельный корпус без облегчения, 24.75, 50s/60s, SlimTaper/Burstbucker/Tune-O-Matic и независимые регуляторы; перевод volume/tone не потерял раздельность.",
+      "findings": []
+    },
+    {
+      "slug": "gibson-es335-v-arendu",
+      "ordinal": 47,
+      "candidate_record_sha256": "4e9ca8033ce3c552ec6e591cd61c3a1d40f0d5cd5124c10a4c02fbbb763675bb",
+      "source_page_sha256": "9517a6ff818fb1dfac833e6ad9cc8dc69e49e6b65bff970ea082f6eab3219d48",
+      "final_author_review_record_sha256": "5f098ec92458d57a079c1730de5a09202bbc9a003cfe8834ca5e39ddae28ef27",
+      "decision": "clear",
+      "note": "Сохранено сравнение склонности к обратной связи относительно полностью полых гитар; центральный блок и клён/тополь/клён переведены точно.",
+      "findings": []
+    },
+    {
+      "slug": "martin-d28-v-arendu",
+      "ordinal": 48,
+      "candidate_record_sha256": "66693bf2bee04d41e50130441e7f48691a63801906caccd321cb58a66237fd75",
+      "source_page_sha256": "4d7560351889f4cff8a04fcc08e8abb49f2fee8247fb9186e866deb24d94f38f",
+      "final_author_review_record_sha256": "5595a5f832c3fea8a2d245a9efa7c2b491f974c3b9780ea2759ebc412b07dfa2",
+      "decision": "clear",
+      "note": "Оговорка об отсутствии встроенной электроники у базового современного D-28 сохранена; точное имя D-14 Fret и K&K у прокатного экземпляра не переводились.",
+      "findings": []
+    },
+    {
+      "slug": "music-man-stingray-special-v-arendu",
+      "ordinal": 49,
+      "candidate_record_sha256": "2a2974220eb8401702a4d336a19edbc21b2545fbea8cac5bee653887a08c9ef6",
+      "source_page_sha256": "d3f265f6b12a020defae27e3b5d6ef0394f3e997070b389beb9f05739e426162",
+      "final_author_review_record_sha256": "5470684cd93723fdc92b66cc4a7f7ca6a8be531cfceb8a86aa3eab3a588e205b",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "buffet-r13-v-arendu",
+      "ordinal": 50,
+      "candidate_record_sha256": "6aa55254f96773fb7f34fee647ad5dfc207922cfa6317d76067d216114011211",
+      "source_page_sha256": "aaaff8114931af5091467db868f75df5288f50c37ff1432d794384b7aa9959c6",
+      "final_author_review_record_sha256": "cd06f79d5e27b13bbefe7b8feaf9280dcfe4f9f4adfe339daa65741abbb5a5bb",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "selmer-mark-vi-tenor-v-arendu",
+      "ordinal": 51,
+      "candidate_record_sha256": "513211b94d32de3cf393945e39f156e16e01b002d060c155feca033a0f21e72d",
+      "source_page_sha256": "aaae1d34f490d364aa24ee37991a1f2be722e91de5c6fb8d54f5095c6b2dadbb",
+      "final_author_review_record_sha256": "00c111220973ab7b28adf965981896fbe7a989f7376c67edb4d7bfa7c8c00798",
+      "decision": "clear",
+      "note": "Удалена внутренняя логика отдельного адреса; условие отдельного подтверждения наличия, состояние экземпляра, год 1954 и различие винтажного/современного тенора сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "bach-180s37-v-arendu",
+      "ordinal": 52,
+      "candidate_record_sha256": "e254fbc37b71b8d8e6e02456125401f606a416178680568ac33f956e3b9cd63e",
+      "source_page_sha256": "4b61dba026d9218429750e1aa6cd5f23ea12d7dd5294f0a7282b2faea4c51770",
+      "final_author_review_record_sha256": "82fcc6664be805b9f6a8c178126f43624111a3cb4484b59a151288ce9efcb6a7",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "conn-8d-v-arendu",
+      "ordinal": 53,
+      "candidate_record_sha256": "2fc625b75f1503a9a434fdac6b7685425de6067100d81731443e4806712167b5",
+      "source_page_sha256": "1c7bc4005199a51916514a667e9ab62c4d1a390299eb01287f251a67273c20fb",
+      "final_author_review_record_sha256": "ea951f7f5d5451d76f4893bbf0dd155a28587ae85e9d923d304d35191abc5867",
+      "decision": "clear",
+      "note": "Nickel silver → нейзильбер, wrap → расположение трубок. Kruspe/Geyer, F/B♭, 1938 и широкое горло раструба сохранены; горло не подменено каналом.",
+      "findings": []
+    },
+    {
+      "slug": "lyon-healy-style-23-v-arendu",
+      "ordinal": 54,
+      "candidate_record_sha256": "d42fabb953f23b0dbdb78b70c9cb173b72222208b805e9b1eb603bc16b7afe96",
+      "source_page_sha256": "0c63f492ae414c3e1833ebab03ac10b227ba22a4b7d1574d27ab7c1412abfb15",
+      "final_author_review_record_sha256": "28d461b37d52f60f7fcef3da4f67884a9c76fa577c3771115a35114345afa4b5",
+      "decision": "findings",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": [
+        {
+          "id": "L04-01",
+          "severity": "medium",
+          "category": "existing_operational_generalization",
+          "introduced_by_candidate": false,
+          "field": "blocks[2]",
+          "problem": "Общее H2 об обязательной транспортной инфраструктуре и неопределённое множественное «реальные прокаты» расширяют частное предложение одного указанного арендодателя. Первичный источник перечисляет комплект для конкретного Style 23 Misty Williams.",
+          "proposed_changes": [
+            {
+              "field": "blocks[2].title",
+              "before": "Профессиональная аренда включает транспортную инфраструктуру",
+              "after": "Транспорт и принадлежности согласуют вместе с арфой"
+            },
+            {
+              "field": "blocks[2].paragraphs[0]",
+              "before": "Реальные прокаты Style 23 выдают с транспортным чехлом, тележкой, ключом, запасными струнами, пюпитром и банкеткой. Такой инструмент нельзя сводить к строке «арфа, 1 шт.».",
+              "after": "В предложении Misty Williams для Style 23 перечислены транспортный чехол, тележка, ключ, запасные струны, пюпитр и банкетка. Такой инструмент нельзя сводить к строке «арфа, 1 шт.».",
+              "note": "Сохранён исходный перечень принадлежностей и заключительная фраза; добавлена только точная атрибуция уже приведённого первичного источника."
+            }
+          ],
+          "primary_source": {
+            "url": "https://www.mistywilliamsharpist.com/rentals",
+            "retrieved_ref": "turn149view0",
+            "evidence_location": "Pedal Harps, конкретное предложение Lyon & Healy Style 23 Concert Grand; строки 23–25."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "scandalli-super-vi-v-arendu",
+      "ordinal": 55,
+      "candidate_record_sha256": "232c8e84d6e06bc297fd3c4b45f5594d4148262b4b4c449cc7e27bb9bcf25033",
+      "source_page_sha256": "3c1bd940ff46afcccd252a43a2b1aba99c3ebda7679fa0d66211097415255651",
+      "final_author_review_record_sha256": "8f8c14dee18be64ddc5450c5b75002d59dda4b5187807d2ff545b8949d1fbe96",
+      "decision": "clear",
+      "note": "41/120/1950-е, кассотто, Tradizione и граница винтажного/современного экземпляра сохранены. Внутренний каталоговый текст заменён условием доступа после запроса.",
+      "findings": []
+    },
+    {
+      "slug": "fender-american-professional-ii-precision-bass-v-arendu",
+      "ordinal": 56,
+      "candidate_record_sha256": "5b57a4da699feba4b9fede48f83bdedf2690659710f8efddb5913be30ae46a78",
+      "source_page_sha256": "2a4ae2c046c262fc99ea35c7cf91a14b09e676666b929e40174902d5c6eb23f2",
+      "final_author_review_record_sha256": "f55ee6b5e98ff4092dfb700cd756b9a282e2f91ebf65f4ae1f8daeaf9e83cbaf",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yfl677-v-arendu",
+      "ordinal": 57,
+      "candidate_record_sha256": "38dd421ec9e07b3f85d261dc789456613328467300bb6e28e49c2af2cb493506",
+      "source_page_sha256": "c1b60a6d625533f71f1f053cb5a0805a9520a75c99882727536e2592d5eece87",
+      "final_author_review_record_sha256": "ed2e07c2dedfca276fe16d76a33a363a072940e2e21e295826d62216844f2ce9",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "loree-royal-oboe-v-arendu",
+      "ordinal": 58,
+      "candidate_record_sha256": "e2b7d93c34db3d561e9d590db7e9d41f6c824f232baa20f1c19ca5e240aacc37",
+      "source_page_sha256": "4370fb13c2b9a33f50a52a8ce01966bb0ce7c30fb119143b33f5851861b25497",
+      "final_author_review_record_sha256": "18cb888f4957f4b4e44b49d8a4d9e8f38c5b7931be11e0eac86aa747faaf1aaf",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "fox-601-v-arendu",
+      "ordinal": 59,
+      "candidate_record_sha256": "24b0af698cd9625ed93680568569ec1ababee80f50317314b282a21e4ad84c70",
+      "source_page_sha256": "03c9e782aa561fe35a2c87318dcb4de162e6f389786e8815ce5dcbb4895923f3",
+      "final_author_review_record_sha256": "cf2bea7105e93692673609351168f0d920a13c1e90abd18e7b11a92206704138",
+      "decision": "clear",
+      "note": "Long-bore оставлено точным именем геометрии, ошибочное буквальное длинный канал уточнено без новой спецификации; утолщённые стенки и отдельное подтверждение доступа сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "ordinal": 60,
+      "candidate_record_sha256": "dad1ba6129c9fcb337148d8c6241433e9fef3b9e59527e26eaaf803c0e081d9b",
+      "source_page_sha256": "50ca584efaa35fcc7ef3dc65949c92664c535755de55844f9ba089a60127f3b6",
+      "final_author_review_record_sha256": "859a7ed266b65ef630a2d9b1772ed6f014728a83471630d55a6a3bdc44bd297a",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "bach-42bo-v-arendu",
+      "ordinal": 61,
+      "candidate_record_sha256": "05737aac034a7f2513cb012a918296f628c14fb089ec81da045a2be8cf227c17",
+      "source_page_sha256": "f1ea948293b9530c786c149fcb0640da8d7464903bb540196812df23c9cc89f9",
+      "final_author_review_record_sha256": "976455a40f605554c7c892e54e4d956c017505c06d7e5e62418eb8ab64654386",
+      "decision": "clear",
+      "note": "Сохранены .547, 8.5/8½, индекс O, различие открытого/закрытого крона и согласование другого вентиля. Оценка Top Pick остаётся атрибутированной Conn-Selmer.",
+      "findings": []
+    },
+    {
+      "slug": "alexander-103-v-arendu",
+      "ordinal": 62,
+      "candidate_record_sha256": "b7d92d503c6cd18b4ca7c54d2b6654883469c6d51720f897dff44f77c9f88c06",
+      "source_page_sha256": "7864b7e60a59c7711263bd75f85503895a08660ef8fd7d55711ce3a1eff6e963",
+      "final_author_review_record_sha256": "85b2e7d8307ec7e94da34e9fac770775339b96efa5b2fce5b717a371379c93a8",
+      "decision": "clear",
+      "note": "1909 и двойная система F/B♭ сохранены; Kruspe, Geyer и Alexander не объявлены одной конструкцией, наличие отдельно подтверждается.",
+      "findings": []
+    },
+    {
+      "slug": "lyon-healy-chicago-cg-extended-v-arendu",
+      "ordinal": 63,
+      "candidate_record_sha256": "874e5c790e103abfbc4a8ea504716b51ee9d8566057f714070f9c67b22093055",
+      "source_page_sha256": "7e4fcfb136832ec121ce89a60a8c7026e13f19feebc3223139f7443d70255f49",
+      "final_author_review_record_sha256": "ea4683ab3e32b5518075d14c49d74fce151718e6b0168daf66415380a054e0fe",
+      "decision": "clear",
+      "note": "47 струн, 185 см, 37.6 кг и условие «при наличии» сохранены; программа производителя не стала обещанием местного наличия.",
+      "findings": []
+    },
+    {
+      "slug": "pigini-super-bayan-sirius-v-arendu",
+      "ordinal": 64,
+      "candidate_record_sha256": "1b9b7c4133972bf55f89b0a7512a618e858688ec4187ed73a1acc994f33b75b1",
+      "source_page_sha256": "2295b9cb455c85d2ec35674da706443978659cd974dda9c2609d2a49eb0506c1",
+      "final_author_review_record_sha256": "13151dec30368aed4219264df4d26b3e2dfd32b1befced6912fd50b9ca7ddd4f",
+      "decision": "clear",
+      "note": "106 кнопок, 64 тона, 58 нот выборного и 120 готовых басов сохранены; convertor корректно передано готово-выборной системой, chin registers — подбородочными переключателями.",
+      "findings": []
+    },
+    {
+      "slug": "rickenbacker-330-v-arendu",
+      "ordinal": 65,
+      "candidate_record_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "source_page_sha256": "92b39f8442e72792dbacd31a7fc9dc81d441659037e1a19063d4db24636e4d0d",
+      "final_author_review_record_sha256": "dc87fcdb7c600e4c52f6f3232a324bd74d4c3f2919604925b19a0a73166a76fb",
+      "decision": "clear",
+      "note": "Keep обоснован: Hi-gain — собственное имя звукоснимателей; шесть/двенадцать струн, монофонический выход и граница зарубежного парка/местного наличия сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "alhambra-4p-v-arendu",
+      "ordinal": 66,
+      "candidate_record_sha256": "1b24469f1327011b9b5b5590cbe68052feadf83811ba80f9f1597159f1fe1d05",
+      "source_page_sha256": "df51c41eb1f11889be8d22f2a76b2c1238918667ef7c352cc78ea20c4fc9dd5d",
+      "final_author_review_record_sha256": "391465d8e7c009c6be65bd05e526f4de78d387a413d65536a9b1c5dd8c5a83db",
+      "decision": "clear",
+      "note": "Extra hard tension точно передано особо высоким натяжением; Conservatorio осталось именем серии. Не потеряны оговорки о российской школе и индивидуальной пригодности струн.",
+      "findings": []
+    },
+    {
+      "slug": "fox-renard-41-v-arendu",
+      "ordinal": 67,
+      "candidate_record_sha256": "79b9af72264beec223198828a976d157396287ac6020f3bd2140ca0e96565e3a",
+      "source_page_sha256": "3885fa046d4f9d68b306b50591e8385f88a79acbf73e006ea662f5cd4365ae1b",
+      "final_author_review_record_sha256": "11ca46298eb0f6f0ffed77c62c8df4ae7c0e533ff4480f9ad8d2cc62b607231c",
+      "decision": "clear",
+      "note": "Short-reach plateau key уточнено для левой руки, полная немецкая система и полипропилен сохранены. Seat strap не подменён шейным ремнём; уменьшение всего корпуса не заявлено.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yhr314ii-v-arendu",
+      "ordinal": 68,
+      "candidate_record_sha256": "7d982f0411bd84e4b797ac895eb5c18fbd729160fec85103d96943ffb98f0299",
+      "source_page_sha256": "b9157f5611f4e8cbdd7c1fe8f0843bc703faeb0df55cd343a53423cee39c7476",
+      "final_author_review_record_sha256": "0201b4d546fa72e37705810506880a852b103d3fda15d9c50d00a9cab91b6b0d",
+      "decision": "clear",
+      "note": "Одинарная F отличается от двойной F/B♭; меньший вес не заменяет примерку, заявленный отклик по-прежнему проверяют на экземпляре.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-ybb105-v-arendu",
+      "ordinal": 69,
+      "candidate_record_sha256": "e8cc7709406af7faccec8b52703c6a7abf46ccd8ae051232dbafb2581c4d3fec",
+      "source_page_sha256": "210fa489355a147bc390b1ed833618d3d0af70a71eeb88b1e63f6f78ea75dc6d",
+      "final_author_review_record_sha256": "82c26850a66e52865b29ad709cd16a718757e5a984cc005c17834416c4e976ab",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "cordoba-c1m-v-arendu",
+      "ordinal": 70,
+      "candidate_record_sha256": "c8940a8bd94750bf8a5117288b81cedb1f89db6ffc2852cf253558f9262bcf6a",
+      "source_page_sha256": "4c918fbe6cd961b541e69e6c8f9a3c341b40bb26d218c65d72fac2d1532a8807",
+      "final_author_review_record_sha256": "67d4b3b0cae8664199c6033190798b95d41c79338ed27ea0b76c8dd4badcf975",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "cordoba-c1m-3-4-v-arendu",
+      "ordinal": 71,
+      "candidate_record_sha256": "8de58bfd5c75c0e497df7ffe1dc0ae5c3a355c794e9408e349f1f73d2a183f90",
+      "source_page_sha256": "87ccc02b818b27fdf73f107c38732265ff5f404fa005ed9d8471c7a00792ce05",
+      "final_author_review_record_sha256": "ffb99a1cd4c23cdcca75b3cca78408345a3bd19cb1002f21dd10bef811c0e989",
+      "decision": "clear",
+      "note": "615/48/953 мм и сравнение с 580 мм CS40II сохранены; обозначение 3/4 не выдано за одинаковую мензуру.",
+      "findings": []
+    },
+    {
+      "slug": "goboy-dlya-nebolshoy-ruki",
+      "ordinal": 72,
+      "candidate_record_sha256": "1a1fd95a55efba47bd7a4d892102c90ade364745e375a384dc0cf576977be3ae",
+      "source_page_sha256": "8640ffeab05b55107944dabd5f8ccb32ac33716f2c0f4b0c58145a10c89050c2",
+      "final_author_review_record_sha256": "d7c13de31d7672200f41e7c95fc7bd9c3c11c63d2eef8191b6fe4520e0cffb0e",
+      "decision": "clear",
+      "note": "Fingerplate отнесена к клапану правого указательного пальца, не смешана с отдельной опорой большого пальца во втором блоке.",
+      "findings": []
+    },
+    {
+      "slug": "fagot-dlya-nebolshoy-ruki",
+      "ordinal": 73,
+      "candidate_record_sha256": "673985d903a05c3501b89572d7a4e17a45381c0208f014744856adfbdcc1d4e0",
+      "source_page_sha256": "850594a836225d90ea9881b01ef72575f1bc8f6399f2320f93777bb9c3a98cd1",
+      "final_author_review_record_sha256": "9b8a1e9cdf668669d75d5260574204390147f7f3d8ec2e2508ca19a187d12e43",
+      "decision": "clear",
+      "note": "Уточнение относится к одному клапану для левого безымянного пальца, не к меньшему корпусу. Связь общей досягаемости с посадочным ремнём сохранена.",
+      "findings": []
+    },
+    {
+      "slug": "legkaya-valtorna-rebenku",
+      "ordinal": 74,
+      "candidate_record_sha256": "b746d249e30bb446bcf0f52b64509ce6ff19c1dca951e91d75ad3f41025ddf09",
+      "source_page_sha256": "e01476129447094c1412d3cee25311e026a86539fc9192c595eebdf0bafa4f5d",
+      "final_author_review_record_sha256": "3be9f6346a2aece31a68f4668a9e518fb384593ae381bb7aae12c399773598d6",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "gemeinhardt-2sp-v-arendu",
+      "ordinal": 75,
+      "candidate_record_sha256": "15454897902308d7f61f8d38151faff2791be230d660c5b5d3c3d4534628a0cc",
+      "source_page_sha256": "d83ffac3518086126ddbbc0d67ff8ac5aafe513fb441b13190d5a687303a972a",
+      "final_author_review_record_sha256": "b7c9ec6c5e80f22a1749a9e3bf9d0ea6c7ffbc0fb5c15a53bcb597cd8ce7f5fb",
+      "decision": "clear",
+      "note": "J1, закрытые клапаны, offset G, C foot и pad seating переведены по разным элементам флейты; прилегание подушек не смешано с посадкой человека.",
+      "findings": []
+    },
+    {
+      "slug": "gemeinhardt-2spch-v-arendu",
+      "ordinal": 76,
+      "candidate_record_sha256": "f86972a3fce037101f33d44eb3d99f6b293191ed63ad29cc4c090346a913f5da",
+      "source_page_sha256": "682d167dc261a4e8ae604fb0ca00f5c2e68973b46f06baeaf0143f1765d960d2",
+      "final_author_review_record_sha256": "2f0657776c32d93101f8624cb1a102ac794bb65d61873b06d8293aec92293b88",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "jupiter-jfl700-v-arendu",
+      "ordinal": 77,
+      "candidate_record_sha256": "5cab2a26edd3a9f4d2a4d51e0a31711f2733f28f9a04c292ae321241bb80b95c",
+      "source_page_sha256": "c84b51185ed8d83ec029924f2c79d18dfbcbd9b480a21b5aaf95548f86276758",
+      "final_author_review_record_sha256": "543431d0807797e2ac205e6f214b09815e50f9a24a8c05739cc4330019a8536c",
+      "decision": "clear",
+      "note": "Genesis сохранено, riser отнесён к стенкам амбушюрного отверстия; исполнительская проверка заявленного отклика и закрытые клапаны/смещённая соль не потеряны.",
+      "findings": []
+    },
+    {
+      "slug": "bach-btr302-v-arendu",
+      "ordinal": 78,
+      "candidate_record_sha256": "ac1eb36f3e4d65eb155d9b94f8945dbeb1b0aa996b8d265a7abb46415108b9fd",
+      "source_page_sha256": "659e79bbd171e2c339a92b86751793822fbdf5161bc708d7a56a294ac223e55a",
+      "final_author_review_record_sha256": "9c8a1a7bd534f67c3e4b21fdabd5271b104949a8bc9786363f6d45752ffe682d",
+      "decision": "clear",
+      "note": "Student horn в контексте BTR302 переведено как ученическая труба. Атрибутированная оценка Conn-Selmer, конструкция для интенсивной аренды и 7C как исходная, не универсальная точка сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "jupiter-jtr700-v-arendu",
+      "ordinal": 79,
+      "candidate_record_sha256": "61d55acae81bd607d74fb6a269266bffbbcb4844ebf4c0107928c2492dfb07a2",
+      "source_page_sha256": "9215f94443c10156601f32c840a3b84c8b7bbbe6a96b9e6c478ea920cea35926",
+      "final_author_review_record_sha256": "ca0ed7e9f19a45efd16e429b86d1c4edd7b57165612500893fe75f152c0098b4",
+      "decision": "clear",
+      "note": "Регулируемые valve slides переданы как кроны трубы; нержавеющая сталь поршней не перепутана с нейзильбером кулисы соседнего тромбона.",
+      "findings": []
+    },
+    {
+      "slug": "bach-btb302-v-arendu",
+      "ordinal": 80,
+      "candidate_record_sha256": "19edc6d99480ee9077e13705d369fa9ed7145ac002146b7bf09d8fb826f2ece8",
+      "source_page_sha256": "00db452c99b2a217aca6a8c5346fc0cbe888067a5cc94d458a77d9663f91c8a9",
+      "final_author_review_record_sha256": "0fd3bcb764d8e15202020bd6c736f15703a55eb6fd7a27cb2197121ad888551c",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "jupiter-jtb700-v-arendu",
+      "ordinal": 81,
+      "candidate_record_sha256": "1b59c87ee82c8a012514eaa428355d0e48e7751eb0495b6ec3dd2717efddda3f",
+      "source_page_sha256": "ad53beaec59d2eeaf6736c504a72fa71f3583ad83139fdc320640d43f02c33d4",
+      "final_author_review_record_sha256": "76d225576ad03b05e62dae0649174551b4027fa60d9124e7d4a287d38e375e57",
+      "decision": "clear",
+      "note": "Отклик звука и ход кулисы разделены в H1; канал .500 и 8-дюймовый раструб сохранены вместе с оговоркой о фактическом состоянии кулисы.",
+      "findings": []
+    },
+    {
+      "slug": "lyon-healy-drake-v-arendu",
+      "ordinal": 82,
+      "candidate_record_sha256": "d81b06c15cb5a9875e82fd3f49b4dcb9275a14fcbbf89ab73f9254ac7a85d836",
+      "source_page_sha256": "6dde3cc96b42d8a9c4b165affc9e07231732ea5357824a4c01507d8a52ceab29",
+      "final_author_review_record_sha256": "f10731816013a784d589cf5bb9344adbaa32b86cb45cbdee47d8d75f676541a5",
+      "decision": "clear",
+      "note": "Сохранено недавнее разграничение Drake с леверсными струнами и Ogden с педальным натяжением; 34 струны, 10 кг и отсутствие вывода о наличии в Москве не потеряны.",
+      "findings": []
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "ordinal": 83,
+      "candidate_record_sha256": "92a66d90187056243f8629d176fac934be3c406e3316cb6c2213f9efff9778d3",
+      "source_page_sha256": "7b2757a618b7a531c78555d8d394263cf3e012e5eedef6085db47588a23a67a4",
+      "final_author_review_record_sha256": "f98966687b71d7827e623f90d7dc70f724d8d3f8ace8ed10231e3610140bf9f1",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "lyon-healy-ogden-v-arendu",
+      "ordinal": 84,
+      "candidate_record_sha256": "3bb5d4041ee6098d224dc04cec53ae692bb4529489ef9603eb81076b82cc87f9",
+      "source_page_sha256": "68181ac8f7a208256ef3acf2d8e15b7937e19fcef0d7d80f034223cdbad62801",
+      "final_author_review_record_sha256": "58dd03887ad63f25e3170541b631c9b8a58ef6985a0283cb6d5692c509053d1d",
+      "decision": "clear",
+      "note": "Леверсная арфа с педальным натяжением не превратилась в педальную; 34 струны, ножки 4/8 дюймов и индивидуальная пригодность натяжения сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yrs24b-v-arendu",
+      "ordinal": 85,
+      "candidate_record_sha256": "79f902db0deb2b8afbaa8b8af51df28065c613264dffcf91e1366058fcb9ebd0",
+      "source_page_sha256": "a0d0bda8c48ca86546d46f68d1e1831b379ec6a93be342edfc5dba1c19d03455",
+      "final_author_review_record_sha256": "1dde9d537c2830d1c463bcdc3bd33a08e6b8a89fa6b91330ee22237f7223fb16",
+      "decision": "clear",
+      "note": "Исправлена исходная логическая ошибка модель/серия с атрибуцией Yamaha; барочная/немецкая аппликатуры остаются различными, ABS и трёхчастный корпус сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "ordinal": 86,
+      "candidate_record_sha256": "9faa829f62d085e98e0fdd5f1a120d0820828fc26b993d6fee1ae80b5e8ed75b",
+      "source_page_sha256": "ac8e98940f2f7d439fcfb9499784a81b3260559a876af425a52b43a6d3887c71",
+      "final_author_review_record_sha256": "0e9d0c5115ade874876b3dfbd13191292bc4a002c959a2bb5280b3e375cb0838",
+      "decision": "clear",
+      "note": "Concert-body назван типом корпуса, не уровнем концертной гитары. Различие корпуса и мензуры, а также CD-60S/CC-60S/FS800 сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "jupiter-jas700-v-arendu",
+      "ordinal": 87,
+      "candidate_record_sha256": "f663505816f22c7008a59aa9412eefebef8bbc2b9f3b89d9e4b26e3e91567598",
+      "source_page_sha256": "266cf2a03d328ec5e7400f41f39728226830a88265906d9b985676391509586f",
+      "final_author_review_record_sha256": "7b7885c696e325bc74793c6daa62b5894aa808ec0e84400bd612942d4657d38c",
+      "decision": "clear",
+      "note": "Ладонные клапаны и группа клавиш левого мизинца точно различены; high F# передано верхним фа-диезом, а не случайной клавишей соль.",
+      "findings": []
+    },
+    {
+      "slug": "jupiter-jhr700-v-arendu",
+      "ordinal": 88,
+      "candidate_record_sha256": "93b3738532e97e4dd096a1e88fcfeaf5e47df5ad76e595dc71737a4eb12e6de4",
+      "source_page_sha256": "7a664e7e19abc1b58b9ad5c6aadedeaa18c1b67bccb316b87d55253d8256a661",
+      "final_author_review_record_sha256": "1f8773d4a987a3b793d74924060a931ed606d0b18eadfc20765095beaa154098",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "trevor-james-10x-v-arendu",
+      "ordinal": 89,
+      "candidate_record_sha256": "399944c439645a7e302ec75c27f49a3d80ae36ec445f372985dc3b84ab373950",
+      "source_page_sha256": "cd464a4c8e67d67d81ec11897e30c81282a8f00c0cfa3e8c2539538db9f36967",
+      "final_author_review_record_sha256": "ec51be5d4ff113e7ebaf0533ef4e1977531e150d933178b8149d3dc0b6cb18fc",
+      "decision": "clear",
+      "note": "Посеребрение не стало цельным серебром. Подрезка снизу/сверху и заострённые лапки клапанов сохранены; curved option остаётся отдельным вариантом.",
+      "findings": []
+    },
+    {
+      "slug": "besson-prodige-162-v-arendu",
+      "ordinal": 90,
+      "candidate_record_sha256": "768d3fc92f96a9b0f8a7f27c1c310eae937f99651fcec0695e7bda828503b1d1",
+      "source_page_sha256": "126e5fec56476f901f0577f8055d6c562eb4c23b760ce9b9674272feceab13ba",
+      "final_author_review_record_sha256": "c3587a8aa2bfefe16a98a1922e7b5b71952886abf23327ae55f6439328ec3bd7",
+      "decision": "clear",
+      "note": "3+1 остаётся расположением клапанов, не обещанием компенсирующей системы. Сохранена оговорка: при трёхклапанной школьной программе эта особенность не обязана быть преимуществом.",
+      "findings": []
+    },
+    {
+      "slug": "fleyta-s-izognutoy-golovkoy",
+      "ordinal": 91,
+      "candidate_record_sha256": "6cceda9a0a02a2ecde3179371aa8cac46e2ad46220594935b507f4d80c940e87",
+      "source_page_sha256": "f76415ab1b4fa620c2cc1e28bd117e156a6bacdb63680c4363da50be2d1a9131",
+      "final_author_review_record_sha256": "3eff843ac295aadfcee358cb86a84f9af5cf97d490ef083df43b97922eb66a5e",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "jupiter-jts700-v-arendu",
+      "ordinal": 92,
+      "candidate_record_sha256": "6a8cf0cfd14f1c2dda66c5ea1547940946b1681b6170be5edb32afe6a82b9a1e",
+      "source_page_sha256": "72d4444360ad1ab7f3da6949f5eeac7029173325e897dc71d1e1277d65a5eff3",
+      "final_author_review_record_sha256": "96d7963599558f2b5baac2861627c55784fad8f162ef15c3edd9889fedd635ee",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-ysl350c-v-arendu",
+      "ordinal": 93,
+      "candidate_record_sha256": "1f07787b0fde6a570eb5b2f3a4643027b3c720811f3a0aaceb3745207fe0ea99",
+      "source_page_sha256": "55dec64ba93d0a0d8a980304269a3455f3229341164c6834beaa6183d8fb6fc2",
+      "final_author_review_record_sha256": "7bc71fff14bb1bbe19f60cd7d211ce66546eed4c13a8153ae09ac2811b59933e",
+      "decision": "clear",
+      "note": "Повышающий Bb/C-вентиль не перепутан с квартвентилем; исходные позиции, альтернативы шестой/седьмой и применимость взрослым сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "trombon-dlya-korotkoy-ruki",
+      "ordinal": 94,
+      "candidate_record_sha256": "94a7d8eeb388695671ed0ae77fd6df016983d3ad771c0410c40bf0e3dfb4b8c8",
+      "source_page_sha256": "22800156a9cfc7c91c4a04c0bc1a7f10080a764cd3c65378589a911bed9d1da4",
+      "final_author_review_record_sha256": "d25f8d23c49784aaa9d39fbeb4d063705237e67dd746787a7fd4c19fc139123d",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "ibanez-pgmm31-v-arendu",
+      "ordinal": 95,
+      "candidate_record_sha256": "db7a22e5334199f7f00ce5400d32d7b80c626a195c449ab7db028ba38544c57c",
+      "source_page_sha256": "6e594e66132591ebc39561ba97818aeb9ffd623d2ae167728ea9ee13f385656c",
+      "final_author_review_record_sha256": "aee7a97afd1565dd2d0b8cfa87450500b074d6ba4bf2790efd1cff9de671965e",
+      "decision": "clear",
+      "note": "22.2 дюйма/564 мм, 24 лада, два хамбакера и противопоставление SSS сохранены; H1 снимает исходную двусмысленность двухдатчиковой схемы.",
+      "findings": []
+    },
+    {
+      "slug": "elektrogitara-dlya-nebolshoy-ruki",
+      "ordinal": 96,
+      "candidate_record_sha256": "8f4dd92038d565bd6f0981b6c7c1e14adc1b8f3e18eec18c1d5eccde96b57d87",
+      "source_page_sha256": "ecb2d17bf74a6224a5c18ad53e13651713da9cd119da8408fd15639024e59a0f",
+      "final_author_review_record_sha256": "9bfb6b5a73f44151e571db7399608c7b4a5a3dba146c9ce3b65381b6ee265b6a",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "besson-prodige120-v-arendu",
+      "ordinal": 97,
+      "candidate_record_sha256": "723e43d21aab9edee7d8be69247e4be7b91a8efc72f1eea9891b920960f77df9",
+      "source_page_sha256": "22ab76ada8164f2b99c00b252982b09022c2894d62559ea40ce0240b7b165008",
+      "final_author_review_record_sha256": "e1f16659ff9d0f5432cb73ed3f3c41646fdfdcabb006d94540a062d2d55d9011",
+      "decision": "clear",
+      "note": "Shepherd’s Crook и Sovereign сохранены, third-valve slide ring корректно передано кольцом третьего крона. Комплектация в H2 явно относится к производителю.",
+      "findings": []
+    },
+    {
+      "slug": "kornet-dlya-nebolshoy-ruki",
+      "ordinal": 98,
+      "candidate_record_sha256": "0cf3d05b5b0d5fc608557ee33bb0884657a2f4369b31f106e65c6078dad84667",
+      "source_page_sha256": "fd7354cec48758f712d6ae03de082b5911ed4d88112aeaaf59a8e666352a15df",
+      "final_author_review_record_sha256": "3c84ccebbdde6a69faaaf8787232988e3675b46416f20e7ccffc55832f8039ce",
+      "decision": "clear",
+      "note": "В источнике исправлен trigger на кольцо, соответствующее текущему телу и модели; не добавлен автоматический механический привод.",
+      "findings": []
+    },
+    {
+      "slug": "bariton-gorn",
+      "ordinal": 99,
+      "candidate_record_sha256": "cfab61f7254d278b28dbe10b583b8554534b79fef2cebbc90ebeb23d5aef3ef6",
+      "source_page_sha256": "75fb82f66f9004574c6ad992dc84e8924fa2ade88ae315430044f4f4468ef3c8",
+      "final_author_review_record_sha256": "18d36e69b517a235a31a7b1db0c75d2db101a2afd33d0775fec26bbe25781ca0",
+      "decision": "findings",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": [
+        {
+          "id": "L04-02",
+          "severity": "low",
+          "category": "translation_comparative_grammar",
+          "introduced_by_candidate": true,
+          "field": "description",
+          "problem": "В переводе narrower bore, brighter timbre сравнительная степень сохранена только у канала, тогда как общее «чем у эуфониума» относится к обоим признакам. В текущем русском варианте «ярким тембром, чем» грамматически не завершает сравнение.",
+          "proposed_changes": [
+            {
+              "field": "description",
+              "before": "Баритон-горн для обучения и оркестра медных духовых: инструмент Bb с более узким каналом и ярким тембром, чем у эуфониума, и отдельными ученическими моделями.",
+              "after": "Баритон-горн для обучения и оркестра медных духовых: инструмент Bb с более узким каналом и более ярким тембром, чем у эуфониума, и отдельными ученическими моделями.",
+              "note": "Минимальное добавление «более» сохраняет исходное brighter и уже существующее утверждение тела о более ярком звуке."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-ybh301-v-arendu",
+      "ordinal": 100,
+      "candidate_record_sha256": "db688e25618d49c72448f19901f41ec4fb88ad28eea60e4d436e389e9a523c25",
+      "source_page_sha256": "3de1b2438e50f4936df6ac31f48c3ae2aa3d6a1f9fdaf9da82934709b9287dea",
+      "final_author_review_record_sha256": "9737b15ec0ae9faf3e4a1d8088f741c95c7b40919f339c8cf5d538e9332a5c45",
+      "decision": "clear",
+      "note": "Баритон-горн не смешан с эуфониумом, Bb и три верхних поршня сохранены. Заявленная интонация по-прежнему требует проверки экземпляра.",
+      "findings": []
+    },
+    {
+      "slug": "besson-prodige157-v-arendu",
+      "ordinal": 101,
+      "candidate_record_sha256": "37f174bb55d6567fa2b9b2746a6f7050fb59d925c1232d9cddf26cc7d774c9ec",
+      "source_page_sha256": "af45c1ae0ab2c9985df2e4af342d1cf6d589ee41b9bcb7e0ced7d37b34891378",
+      "final_author_review_record_sha256": "5183cfd07ca3f7f6e894b7c866ef2d820b50291296dfeddd2162ab97794a7831",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "tenor-gorn",
+      "ordinal": 102,
+      "candidate_record_sha256": "0726c5c16fadcefd988c1015b8756cd3103fd11432fe79aa4483eaad0afebd00",
+      "source_page_sha256": "7dcdcc7a4a245ee04ebb2c85cdc60e8ca27a127969cacbf8c13009082c6358eb",
+      "final_author_review_record_sha256": "c075ab655552f0436a99a0a5059e32094337ea9a461b4eee2c21fb7ff1757636",
+      "decision": "clear",
+      "note": "Альт-горн/тенор-горн сохранены как два названия, Eb не подменено Bb и не смешано с валторной.",
+      "findings": []
+    },
+    {
+      "slug": "yamaha-yah203-v-arendu",
+      "ordinal": 103,
+      "candidate_record_sha256": "f0e65caf5d6135d0f5f8e739ef526b30f5324a4cf3ffae8c20db7b7ae3a4a1b9",
+      "source_page_sha256": "bb9c04088d59c7903d2a9cbdd8bdc327a0926768e047d1e20276cbbbf4a3c286",
+      "final_author_review_record_sha256": "1a51af50eb68c77febe1834d5755eb5623eb9a62bacfb4700d6ec1798d8a8f3f",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "besson-prodige152-v-arendu",
+      "ordinal": 104,
+      "candidate_record_sha256": "eb5ad9abf6a02e6ab8cc724056fec634dd325470b6c455f56b4d96862fe9a126",
+      "source_page_sha256": "d755e5ea8b7590a83c90485077cca4dd6d27ab512cbdc73846b361a8830d8f7c",
+      "final_author_review_record_sha256": "948091d917fdaf142d2d745d46368c597fa0565b93bff542957d52f7643ae063",
+      "decision": "clear",
+      "note": "Начальный уровень не повышен; три стальных поршня, мягкий чехол и необходимость примерки сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-igry-boem",
+      "ordinal": 105,
+      "candidate_record_sha256": "d63130267be556ee5bf4babb182b85876f2c616825e05141dfdfe6440c228600",
+      "source_page_sha256": "d1383c1b00bf35238dfa48879ace0e43c3594f473b25496c0aee784287cbfed6",
+      "final_author_review_record_sha256": "d2ca8b1e4269125d0875768e7fb0484bacd758856a36d62c5f34759a2e347692",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-kompaktnym-korpusom",
+      "ordinal": 106,
+      "candidate_record_sha256": "f425f9eb9e3a291bd9bfabc360f64f4d470da6c1898886a23d5a6e35af7a6382",
+      "source_page_sha256": "54ec004df4863ceb2baef0db79d66c836b61ffcd73a51eedf9f6faa3849a2a52",
+      "final_author_review_record_sha256": "88ef0bc8c96182256d3dc8b7cfa163d6f3dcdbd4759411f1cfb89c3264a75542",
+      "decision": "clear",
+      "note": "Concert сохраняет смысл формы корпуса; не добавлены преимущества по уровню или профессиональности.",
+      "findings": []
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "ordinal": 107,
+      "candidate_record_sha256": "a264d1bf0286dddbee3409235ec0937ba3a4920e5884c04dc54ae043415d545d",
+      "source_page_sha256": "cbd39c54c22f1b5253dd9e73285f11f021a62092d89f51c8c8df95d3b48743ad",
+      "final_author_review_record_sha256": "920ce297f9b29e8bc5161fbbf18da399c1ff1d310a29696612498467331137ff",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-vyrezom",
+      "ordinal": 108,
+      "candidate_record_sha256": "02664e20fb420dbf2fbad2fd9e1c211c9f8d4329fb2926d66e39b6d8da390d8a",
+      "source_page_sha256": "b2f20715a475275aa7095654719e3326f6c475cac7363fc43222cda434a66227",
+      "final_author_review_record_sha256": "5289dc9b023bce521410889df171bab85966bb1940246f0a1b71aa285cf96e88",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy",
+      "ordinal": 109,
+      "candidate_record_sha256": "0768beb8c81b9e38681200c7daab0a1c97153e1f410db27a181d319aae536251",
+      "source_page_sha256": "3cf9035973194bde2b8821ab0bbbbbd233a388400f7aba09bad2ed790342ce69",
+      "final_author_review_record_sha256": "0997d69e4418878f4000a925834fce4ee2aaecaeabd7b5b207b40f0854525480",
+      "decision": "clear",
+      "note": "Переход означает другой инструмент со стальными струнами, не замену нейлона сталью на классической гитаре. Оба инструмента могут сохраниться для разных задач.",
+      "findings": []
+    },
+    {
+      "slug": "akusticheskaya-gitara-dlya-sravneniya-korpusov",
+      "ordinal": 110,
+      "candidate_record_sha256": "4408e0b71a55092c61c22aff07de9ff3cdd7f19a1720c93c5f481cb56a336d63",
+      "source_page_sha256": "78761181ed614671cc6e74661f7e127f300bb4ba890b731580ddb89a08cc4453",
+      "final_author_review_record_sha256": "7dad9e06865f2ab376b54d8457a41f7b75a3ad1a6e02da37014f6892797337fb",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "elektrogitara-dlya-pervogo-instrumenta",
+      "ordinal": 111,
+      "candidate_record_sha256": "7e0ba3d0f7fe28dcfcfc75709cff04df087be6134b94587aa516baec6a4bf21b",
+      "source_page_sha256": "0b6ed71931276fe4db56ad56478c9e2581a65c61793fbdf7d1f85f69a9007bd2",
+      "final_author_review_record_sha256": "164e191ec4acc79b78be2f37808793cf2c211bc1592dfc9882cbab8c49296bfc",
+      "decision": "clear",
+      "note": "Coil split переведено как отсечка катушки; это не split-coil конструкция P Bass. HSS и пятиступенчатый переключатель сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "elektrogitara-dlya-chistogo-zvuka",
+      "ordinal": 112,
+      "candidate_record_sha256": "d4dab0d9fae3fa98267ba33ab01835713f2b5dce84a662c9e8ba73fd7fbbad71",
+      "source_page_sha256": "60c93564667c5164ae590773f97cf2af5444dcb8750432f5882aaef6761cfda3",
+      "final_author_review_record_sha256": "d1d41155014f0741ae58eab4587d8a8865f1d6d9b64772f656a7d25ba094dd43",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "elektrogitara-dlya-fanka",
+      "ordinal": 113,
+      "candidate_record_sha256": "81deeb2c9e811d54f219e6e08ad16c3cb8cc778e4d8f0aef3340b2bf2715866f",
+      "source_page_sha256": "8df7c32213862dfa3881d43d53199ab0c7e76ebcdc886272d79d1531ca235778",
+      "final_author_review_record_sha256": "c27fd3dca79c07262d86f9c5ca70556f7210129e61e2af2310753ac516ba93a9",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "ordinal": 114,
+      "candidate_record_sha256": "a1bcab73b4ba2f9cb04fee7ac611508d91a0ace05c2216f9c35edc9e3a4ca0a0",
+      "source_page_sha256": "e66a64bc4a36e944cf3312592b31b25d48127b25c87ef32501fd209715465e3e",
+      "final_author_review_record_sha256": "57aef7303caff6cea553306af071a12a8c559e49e0dc8d0e1089364478095c47",
+      "decision": "clear",
+      "note": "Бриджевый хамбакер, синглы и дополнительная отсечка Pacifica не смешаны. Существующая подписанная ссылка на SSS сохраняется как другая конфигурация, не переименована в несуществующую HSS-цель.",
+      "findings": []
+    },
+    {
+      "slug": "elektrogitara-dlya-zapisi-napryamuyu",
+      "ordinal": 115,
+      "candidate_record_sha256": "98f6d637543744ad0588be0efe0ec4f0a0e761c61f2d9f1a294e519961966592",
+      "source_page_sha256": "663cdb9ec3cdb722903369a94ae9899d772cf7781b1847bcae6fec03c7c32fde",
+      "final_author_review_record_sha256": "d9fff69d4efa10dd467303437ac269305007f3c34375f6c745f07b25b4164d75",
+      "decision": "clear",
+      "note": "DI, интерфейс, реампинг и конфигурации SSS/HSS/HH сохраняют разные роли. Не добавлены обещания прямой совместимости без настройки.",
+      "findings": []
+    },
+    {
+      "slug": "bas-gitara-dlya-nachinayuschego",
+      "ordinal": 116,
+      "candidate_record_sha256": "a85a7ab619e3bf1b5740c90193f029ae27de174493683fbffdf934967b8c78b0",
+      "source_page_sha256": "40503c1e132bbd027f68eb19d383b29cfc41437691f3d9a7c7c408a6b3daa204",
+      "final_author_review_record_sha256": "dbfde18fd2f1170f526acacb52550c369496ca324b5b5bd1b98d9038faa403f4",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "bas-gitara-dlya-fanka",
+      "ordinal": 117,
+      "candidate_record_sha256": "194b9346e80ecaaa40227a9ed50289a25b4cb3a37a1c357784ed208d30cf87dd",
+      "source_page_sha256": "a1bc645c77d8371c384bab67a7570a186b5d60a4fab915e9f38eda3803598c27",
+      "final_author_review_record_sha256": "94b5b382958bc0a24d8f51af66f72b8dae33e1312437a1cec6d480862ae6a833",
+      "decision": "clear",
+      "note": "Активным по-прежнему назван EQ, не датчики SR300E; слэп не становится единственным обязательным приёмом фанка.",
+      "findings": []
+    },
+    {
+      "slug": "bas-gitara-dlya-rok-gruppy",
+      "ordinal": 118,
+      "candidate_record_sha256": "3c16e20dfc6c96924dec8d760259b3d990f817cad13f493cbed35bbdc361929b",
+      "source_page_sha256": "6079b72537b2d05afcc5388df294973970b008c6fdb7823ea62d855482e0615f",
+      "final_author_review_record_sha256": "885511d3a9a1eac12f16dc0391b88c7cf77d0a7b5ae5e51055e7dc9cc164a5cf",
+      "decision": "clear",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": []
+    },
+    {
+      "slug": "bas-gitara-dlya-dzhaza",
+      "ordinal": 119,
+      "candidate_record_sha256": "4fe33e258fed11cd4997bc32f631025febfbd3f4c1690bd46018ce09015b76b4",
+      "source_page_sha256": "55293309c6a2f55298ffd62cf138219bd10b055c1982b22e5ff11dd50082605a",
+      "final_author_review_record_sha256": "5213aa1ce28d117695a705e66969f2d04c7ef257ce51b35ef19afdd02a7b8523",
+      "decision": "findings",
+      "note": "Прочитаны полный исходный контекст и все изменения публичных строк; значимых дефектов перевода, потерь оговорок или характеристик не найдено.",
+      "findings": [
+        {
+          "id": "L04-03",
+          "severity": "low",
+          "category": "existing_spelling",
+          "introduced_by_candidate": false,
+          "field": "blocks[2].paragraphs[0]",
+          "problem": "В полном изменяемом массиве остаётся опечатка «бесладовая», тогда как название инструмента и соседний H2 используют «безладовый».",
+          "proposed_changes": [
+            {
+              "field": "blocks[2].paragraphs[0]",
+              "before": "Если нужна бесладовая интонация, лучше выделить её в отдельный опыт. Обычный ладовый бас остаётся самостоятельным полноценным решением.",
+              "after": "Если нужна безладовая интонация, лучше выделить её в отдельный опыт. Обычный ладовый бас остаётся самостоятельным полноценным решением.",
+              "note": "Одна орфографическая правка; смысл отдельного опыта и полноценность ладового баса сохранены."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-s-passivnym-upravleniem",
+      "ordinal": 120,
+      "candidate_record_sha256": "daa9cbbdd3566d274e3a43e347cee2c0440ba7c74426323c433e255ca1d2f222",
+      "source_page_sha256": "465cc6fbc53ab0e016e81c9b8a58f7136bddbcce17c05243941992c1f10bcb88",
+      "final_author_review_record_sha256": "1bc6fe8b58f9ee787536fa5cddd9a7b25d701995c2927fddc8f3f62e905005d0",
+      "decision": "clear",
+      "note": "Сохранены пассивная схема, различие Precision/Jazz, условное соотношение датчиков и внешний тракт. Разделённый сингл относится к конструкции P-bass, не к отсечке катушки.",
+      "findings": []
+    },
+    {
+      "slug": "bas-gitara-s-aktivnym-ekvalayzerom",
+      "ordinal": 121,
+      "candidate_record_sha256": "218b044cd7fe4b52449a0cc7db65b40ab36d38a4d983e5843f082e932504aa6e",
+      "source_page_sha256": "3f6d142591d2cb6cbd43e090a0b17f9aad624fd07b31f4693b2e0b6b6af66c50",
+      "final_author_review_record_sha256": "1a9377606d6b7d29dbc96b59afee36487a107f40fbffefe76842118d09ea89a5",
+      "decision": "clear",
+      "note": "Активность прямо отнесена к встроенному эквалайзеру, тип датчиков не подменён. 3-полосный EQ, режимы PowerSpan и сравнение с пассивной схемой сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+      "ordinal": 122,
+      "candidate_record_sha256": "a4f9182fbb0bc51920d4c0d026084475e726e6e23bbf3825c7d4c01d59cf6026",
+      "source_page_sha256": "9afc87f02e396c222ce0ebd504170160cfbdca32caa7a7c9b8c4ebc6669e6b3b",
+      "final_author_review_record_sha256": "fbb2c7713d5c3ff14a20ce0b5325167e426249d0a2b69cd08ac5f8dca928b363",
+      "decision": "clear",
+      "note": "Muting корректно раскрыто как глушение струн; переход 4→5, нижний диапазон, ширина грифа и условный выбор постоянного перехода сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "ordinal": 123,
+      "candidate_record_sha256": "51c77d493b8e5be77d38b93ba08b1cad3a56f21d59910ef9e62eaf594488bd82",
+      "source_page_sha256": "06e1e3d2bea949aca392312b4b79ed0989999798e2861e9bf02eac3f4853c737",
+      "final_author_review_record_sha256": "589045462dfd6987d93efcb74712a1c2a526cd3cfb0416e6bb244095a17c78c5",
+      "decision": "clear",
+      "note": "Fretless раскрыт безладовым басом, glissando — глиссандо с согласованием рода; интонация, ориентир высоты и отдельный пробный опыт сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "korotkomensurnaya-bas-gitara-vzroslomu",
+      "ordinal": 124,
+      "candidate_record_sha256": "b4152bea45b543176fc87e400a8e19f9d9da309cfc0268d8baeb3ea19889291a",
+      "source_page_sha256": "3fd5fa97ef701e19e02f84e5b31e94845bfac6fd1116759345c1b801ceacbcc1",
+      "final_author_review_record_sha256": "f7e32284cffe9f822378a8498d8de0bcc06a649af336bf16b53162021a640a53",
+      "decision": "clear",
+      "note": "Сопоставление 28,6 и 34 дюймов сохранено; короткая/полная мензура не превращена в число ладов. Индивидуальный взрослый выбор, вес и первая позиция остаются разными осями.",
+      "findings": []
+    },
+    {
+      "slug": "bas-gitara-pered-pokupkoy",
+      "ordinal": 125,
+      "candidate_record_sha256": "6b58fdc0ec8ef1c42c9356195d4c8f11df29e951f7e54f2a903038cf8300b132",
+      "source_page_sha256": "6e208e9f92c9ccae3f6e87e86bfb884800ff65f45e01f399ff1f1214748261d3",
+      "final_author_review_record_sha256": "8f4e5b040bf082770305f41e5f73f46547b4fa2760b922c27795cb7bfd693112",
+      "decision": "clear",
+      "note": "К 34 добавлена уже подразумеваемая единица дюймов; passive/active раскрыты схемой, не типом датчиков. Сохранены репетиция, сравнение осей и возможность не покупать этот экземпляр.",
+      "findings": []
+    },
+    {
+      "slug": "klassicheskaya-gitara-vzroslomu-nachinayuschemu",
+      "ordinal": 126,
+      "candidate_record_sha256": "e5f690fdd46da258cdf3166c009d9fa1dba6d938be0b49d3e9f2dcbfada0f566",
+      "source_page_sha256": "3010a369eed1bdde5a35873b9955652b2365a39165d3740597e5cb5b22d0a237",
+      "final_author_review_record_sha256": "6f1e29a04453df46c6f84b2ae7e33eceec92a3dca2d52af53f19cf39a6427e65",
+      "decision": "clear",
+      "note": "Переданы только названия приёмов апояндо/тирандо. Индивидуальный подбор взрослому и ограничение применимости возрастных ориентиров школьного источника сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "klassicheskaya-gitara-posle-pereryva",
+      "ordinal": 127,
+      "candidate_record_sha256": "64b2cdc0c07c88780616ef0f408f66d91c27324e7af8509eed3a9686666b21c7",
+      "source_page_sha256": "a24d635f0502c8ab21a32875ba58c344e85f144190db2964ab64903f5adf8d2c",
+      "final_author_review_record_sha256": "36828a546ec3b89c8487be777f70537c735b8f62dce71d075366de5d23666e70",
+      "decision": "clear",
+      "note": "Изменены только названия двух приёмов; восстановление моторики, медленный темп и отсутствие необходимости доказывать прежний уровень сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "klassicheskaya-gitara-dlya-etudov",
+      "ordinal": 128,
+      "candidate_record_sha256": "152b962a654628ec02b1fc9291bdc5ef4e831a82e5ee6001b1b879d35191c861",
+      "source_page_sha256": "28039be5919cdf91d3307ea59f028814fd7cbe2e623d353f66cf38346e18bfbd",
+      "final_author_review_record_sha256": "357b6d85befca6c9cb67e7cbc3d9e69c85fcaf5a13812c6fba8b0484a99b16b0",
+      "decision": "clear",
+      "note": "Изменён только музыкальный термин legato→легато; конкретная задача этюда, повторяемость и временный технический блок сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "gitara-flamenko-dlya-pervogo-opyta",
+      "ordinal": 129,
+      "candidate_record_sha256": "97f8e27b5bea577563578562656b06730153b9bae063504df4273a6546a9dc4f",
+      "source_page_sha256": "522b504aa399594bcdda71a1fd05a5d50e4d2d31f3463e72d211a94efe236ee8",
+      "final_author_review_record_sha256": "120bfa994749bb6b7ab9305187ec426cff5a3813734528335347431a451c8ca2",
+      "decision": "clear",
+      "note": "Расгеадо/гольпе переданы как названия приёмов, без нового описания техники; атака, корпус, высота струн и условность постоянной практики сохранены. Русское написание независимо подтверждено первичной статьёй Синельниковой и Максимовой, 2024: с. 27, прим. 1, и с. 32, прим. 4; публичные источники не меняются.",
+      "findings": []
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "ordinal": 130,
+      "candidate_record_sha256": "a7310a7b40af59e0d5b54c29d99b85ba56c38824e4cf514797b05a3ded571942",
+      "source_page_sha256": "6117f9fb569c27f940547db7eb51d2b928f05590473fcb4afa85912aea70ba80",
+      "final_author_review_record_sha256": "b7bd6065adf8159d29f03ec125f58c39cf8ecfb64728616061d768facaf7dd00",
+      "decision": "clear",
+      "note": "12-string переведено словами, парные courses корректно раскрыты парными струнами. Нагрузка, настройка, баррэ и временный доступ после пробы сохранены; связанная подпись требует отдельной locator-проверки.",
+      "findings": []
+    },
+    {
+      "slug": "goboy-dlya-pervogo-instrumenta",
+      "ordinal": 131,
+      "candidate_record_sha256": "04e33e204f7aca9b00a4dbdc8070ffa31ba2c24afcb75051c5da04187eb11048",
+      "source_page_sha256": "5e84eb3e114bf9a4c1e72138e35ef915369d84d3330f397f8fb547f955a8b4d9",
+      "final_author_review_record_sha256": "21d63543b2cc64c1005f0c7d54cf4ed4eba74412aa6f86cbfd05745864081331",
+      "decision": "clear",
+      "note": "Student корректно передано «ученический»; трость, современная система, механика и возможные разные результаты пробного периода сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "truba-dlya-big-benda",
+      "ordinal": 132,
+      "candidate_record_sha256": "8a9f6a7f08c4910865edff40dc4020c82e19a6fe63e55bcb82556a878e5f8519",
+      "source_page_sha256": "6283b188da0ad00b634f3987285e607100b452204b551d0d0803283bbf4ac17b",
+      "final_author_review_record_sha256": "8b3bc5c60f39157b89763f2422a18c448065f0c0dfcce9820f0f2cb068c49dcd",
+      "decision": "clear",
+      "note": "Ведущая партия не спутана с сольными эпизодами, внутренний голос и плотное тутти сохранены. Перевод не расширяет условное временное существование биг-бенда до обязательного конца проекта.",
+      "findings": []
+    },
+    {
+      "slug": "kornet-dlya-pervogo-instrumenta",
+      "ordinal": 133,
+      "candidate_record_sha256": "4966921170c0931268224006ae66e5a4dbd0bd0e55253de0a1edd66a6393a3c9",
+      "source_page_sha256": "bfbfdb3d73c405230302d33988eb3fe538aedba1eab4695d0fff046e96488025",
+      "final_author_review_record_sha256": "11102c413c2ec47ee2f1123cae21d5e7d4a22434083fa54cb38ff85423a2b201",
+      "decision": "clear",
+      "note": "Brass band передан оркестром медных духовых; корнет сохраняет самостоятельную конструкцию/роль при знакомой аппликатуре. Три клапана не превращены в тождество инструментов.",
+      "findings": []
+    },
+    {
+      "slug": "kornet-posle-truby",
+      "ordinal": 134,
+      "candidate_record_sha256": "097e61b8a24b576cc52ebcf4118047bd183c43398c30060919893b707e26ac87",
+      "source_page_sha256": "2231b27bffb9bf2dde3a49d63690774cfa278a9442f19d63bb50c07598271368",
+      "final_author_review_record_sha256": "03877983946bb1fc7cb02d903961037a724ec6eb0f08d99e81db3d5065df0a9d",
+      "decision": "clear",
+      "note": "Корректно раскрыты партия оркестра медных духовых и привычные упражнения для трубы; отдельная проба сопротивления, корпуса и атаки сохранена.",
+      "findings": []
+    },
+    {
+      "slug": "kornet-pered-pokupkoy",
+      "ordinal": 135,
+      "candidate_record_sha256": "efc294c2533ab7d98ad9b7f25cb9956c4332f0180e10960db43cee2676886f35",
+      "source_page_sha256": "d777560dc8890cacaf44708581102d94d9b2bc7f2500682f488d42c668b5eb1b",
+      "final_author_review_record_sha256": "e971267c1b469ec5a18277aaf8ebca99f254decb1a01a2b512e1e8f9fe99d22f",
+      "decision": "clear",
+      "note": "Brass-band партия переведена по ансамблю; сольная альтернатива, привычный мундштук, несколько репетиций и критерий до покупки сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "valtorna-dlya-pervogo-instrumenta",
+      "ordinal": 136,
+      "candidate_record_sha256": "711243791e4edde2cf5611fa7d27aa9d7d1723f8ccfc07b4885bcb942302b82d",
+      "source_page_sha256": "914737161bdda6e4deb3839c6b198fde00bb88d32da990c7a80af9b4f85db0a7",
+      "final_author_review_record_sha256": "dde9fe1d62c354f5fa19363f9fbc8209e6b27bdcbb0861113e8015a985e8d9d4",
+      "decision": "clear",
+      "note": "Одинарная F-система передана точно, сохранён выбор преподавателем и явное отсутствие универсальной обязанности новичка. Переход на двойную систему оставлен как возможный при требовании программы.",
+      "findings": []
+    },
+    {
+      "slug": "valtorna-pered-pokupkoy",
+      "ordinal": 137,
+      "candidate_record_sha256": "8bbd9770524e01c864594f74b4960e11284abbeda08fdb6d67a0d243a317897b",
+      "source_page_sha256": "6061cd60e504d93f4f80acc8d1865664c21110dfb0ef7b60b3c3b9877b23cc1b",
+      "final_author_review_record_sha256": "302de5e6a9f92e7f63eb3b101dbf5aee6b2d71d93ba6bad3db26b84f04b6739d",
+      "decision": "clear",
+      "note": "Изменено лишь legato→легато; системы F и F/B♭, повторы и личный критерий до покупки сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "evfonium-pered-pokupkoy",
+      "ordinal": 138,
+      "candidate_record_sha256": "bdd4a870b31f6a509d8488a05ba4046fc2a8b62b3ba86bf7a1d1423030e53101",
+      "source_page_sha256": "3b2b974929a6389c82158851163005f717cb0e6ac12aa4679613b9bba30444da",
+      "final_author_review_record_sha256": "3964fd3736b0b974efd26b7e874edfd9ad6554b40c74d5fd17097698302d0d38",
+      "decision": "clear",
+      "note": "Компенсационная система названа по-русски, остаётся отдельным вопросом от четвёртого клапана и 3+1. Масса, мундштук, низкий регистр и длинная репетиция сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "tuba-dlya-pervogo-instrumenta",
+      "ordinal": 139,
+      "candidate_record_sha256": "7b7d13b0b3b6a1966d76aba71b06f43ccd65975f2a6ebe1d1eb9cacbea3698c1",
+      "source_page_sha256": "f8d59efc706a38d3b3a7a133fc2ca4357bf1a01b7d0429d214a4d9d5e3f52308",
+      "final_author_review_record_sha256": "053b57732758fcb65c32de6b1fc7f33813c6d88d2430e8aac0cf6411e99b9fe8",
+      "decision": "findings",
+      "note": "Student BB♭ tuba корректно передано ученической тубой BB♭, 3/4 остаётся размером, а не строем. Посадка и клапаны сохранены. В исходном H1 выявлена отдельная смысловая двусмысленность «помещаться в тело».",
+      "findings": [
+        {
+          "id": "L04-04",
+          "severity": "low",
+          "category": "existing_editorial_ambiguity",
+          "introduced_by_candidate": false,
+          "field": "editorial_title",
+          "problem": "Фраза «инструмент должен помещаться в тело» буквально помещает тубу внутрь человека. Полное тело страницы описывает соответствие размера, посадки и доступ к клапанам; достаточно назвать соответствие размера прямо.",
+          "proposed_changes": [
+            {
+              "field": "editorial_title",
+              "before": "Первая туба: инструмент должен помещаться в тело прежде чем стать опорой оркестра",
+              "after": "Первая туба: инструмент должен подходить по размеру, прежде чем стать опорой оркестра",
+              "note": "Минимальное прояснение исходной физической совместимости, без новой характеристики модели или возрастного обещания. Дословные входящие подписи проверяются отдельно."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "bariton-gorn-dlya-pervogo-instrumenta",
+      "ordinal": 140,
+      "candidate_record_sha256": "7779fe1abeb0a69d6bb40cb2d29fcff6e76f93fc2e14ceccda4ec90a9e8c390d",
+      "source_page_sha256": "fce442259b36bf5ab07788d82f669a12d6e2ae1e267d46f7c42fff1b2c8bc23d",
+      "final_author_review_record_sha256": "5ff5b5033765803ea3d511059c79fbc486f920668811f4595315e366b82a971a",
+      "decision": "clear",
+      "note": "Отдельная роль оркестра медных духовых в H1 раскрыта из прежнего intro; самостоятельная конструкция осталась в intro. Три клапана, пересечение диапазонов без тождества эуфониуму и изменение партии сохранены.",
+      "findings": []
+    },
+    {
+      "slug": "tenor-gorn-dlya-pervogo-instrumenta",
+      "ordinal": 141,
+      "candidate_record_sha256": "349b6f7d76f6c51dba41172839c84a034cc38c14fbe36fc395d816ee9d1f052e",
+      "source_page_sha256": "d5aab962074455e7276662f4a1f17cdbb47723f6bf07c4043e1a5ef95da5b012",
+      "final_author_review_record_sha256": "7b901eb1acfd9d829d72c80a336608f72a229873bd664f4dc14a8fb8accf9165",
+      "decision": "clear",
+      "note": "Tenor horn переведён тенор-горном, источник сохраняет альтернативное имя альт-горн. Eb-строй, три клапана, секционная роль и условное изменение траектории сохранены.",
+      "findings": []
+    }
+  ],
+  "issues": [],
+  "frozen_inputs_unchanged": true,
+  "repository_written": false,
+  "builds_or_tests_run": false,
+  "method": "Чистая сверка JSON, точное воспроизведение before/after, чтение локаторов, самостоятельный повтор объединения только JSON-навигации восьми исходных страниц без legacy karta и полный входящий проход по 1901 странице снимка. Общую компиляцию и граф выпуска проверяет root."
+}

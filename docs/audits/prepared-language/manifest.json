@@ -56,6 +56,42 @@
       "note": "Frozen originals and root review remain as evidence; integration records 43 effective labels, including the additional automatic parent label, and defers 7 to group 06."
     },
     {
+      "cohort": 4,
+      "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+      "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+      "files": [
+        {
+          "kind": "review",
+          "path": "docs/audits/prepared-language/language-04-review.json",
+          "sha256": "ffb2af38fc1effaeb815a1ebf710a35fcfc4cf4a2aa432149a9a5aecc58c9e9b"
+        },
+        {
+          "kind": "candidate",
+          "path": "docs/audits/prepared-language/language-04-candidate.json",
+          "sha256": "dcbf5b943bbd27c0be49411da0ef55652564435d3af3d187ea4e434833c33ed2"
+        },
+        {
+          "kind": "labels",
+          "path": "docs/audits/prepared-language/language-04-labels.json",
+          "sha256": "ed39ebd2242d73cb614834cd8722e5bdfa7c275e934fa1dea49c59b5cb0524a6"
+        }
+      ],
+      "status": "integrated_with_root_refinements",
+      "reviewed_pages": 141,
+      "enrich": 139,
+      "keep": 2,
+      "content_or_metadata_records": 139,
+      "label_only_decisions": 0,
+      "integration_record": "docs/audits/2026-10-07-language-04-review.json",
+      "integrated_overlay": "content/sections/zzzz64-public-language-04.json",
+      "independent_review": [
+        "docs/audits/prepared-language/language-04-independent-review.json",
+        "docs/audits/prepared-language/language-04-independent-structure.json"
+      ],
+      "supplemental_root_review": "docs/audits/prepared-language/language-04-root-review.json",
+      "note": "Frozen originals remain unchanged. Final counts and approved amendments are recorded in the integration record."
+    },
+    {
       "cohort": 5,
       "status": "prepared_not_integrated",
       "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
@@ -109,7 +145,13 @@
           "sha256": "3c5b9c7ba60f65eb7ef4633a0f99ecbc5966bd3186659ed51b55be8dfbd3446f"
         }
       ],
-      "independent_review": "Pending; frozen originals remain unchanged.",
+      "independent_review": {
+        "status": "completed_with_root_approved_amendments_not_integrated",
+        "files": [
+          "docs/audits/prepared-language/language-06-cross-review.json",
+          "docs/audits/prepared-language/language-06-cross-integrity.json"
+        ]
+      },
       "structure_review": {
         "path": "docs/audits/prepared-language/language-06-structure-review.json",
         "sha256": "af53fff105079af82b4c0b5afb92cd0ca681b6c6e2554eaadcf578731a5fad17",

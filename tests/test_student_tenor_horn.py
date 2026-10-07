@@ -40,7 +40,7 @@ class StudentTenorHornTests(unittest.TestCase):
     def test_tenor_horn_is_eb_and_distinct(self):
         text=self.page('tenor-gorn',True).get_text(' ',strip=True).casefold()
         self.assertIn('eb',text)
-        self.assertIn('brass band',text)
+        self.assertRegex(text,r'оркестр\w* медных духовых')
         self.assertIn('эуфониум',text)
         self.assertIn('валторн',text)
         self.assertNotIn('это тот же инструмент',text)

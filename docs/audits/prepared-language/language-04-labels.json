@@ -1,0 +1,927 @@
+{
+  "cohort": 4,
+  "status": "ready_for_root_review",
+  "snapshot": "corpus-after-legacy-closure.json",
+  "snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "source_definition_repo_head": "478b860d18c52b7955c8e05ea0e71fe990df9940",
+  "scope": "Все фактические ссылки исходного снимка для точных копий изменённых H1, собственные языковые подписи и точные копии четырёх изменённых поисковых названий. Контекстные входящие подписи не выравниваются.",
+  "coverage": {
+    "corpus_pages": 1901,
+    "corpus_links_inspected": 6066,
+    "changed_editorial_h1_count": 32,
+    "exact_h1_copy_count": 0,
+    "html_whitespace_equivalent_h1_count": 0,
+    "contextual_incoming_h1_labels_kept": 60,
+    "changed_search_title_count": 4,
+    "own_language_label_count": 8,
+    "explicit_search_title_copy_count": 0,
+    "generated_search_title_child_count": 4,
+    "effective_source_links_read": true
+  },
+  "operations": [
+    {
+      "source_slug": "instrumenty-dlya-shkolnogo-big-benda",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "reason": "Устоявшееся производственное название дано в русском написании.",
+      "canonical_target": "usiliteli-backline",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz118-educational-ensemble-crossroutes.json#/pages/6/links/2",
+          "raw_href": "/usiliteli-backline/",
+          "file_sha256": "0a2b56f82cca274d3b5364a4a48a26b07fb6aabdd9c5ebc069b35894788f9a0c"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    },
+    {
+      "source_slug": "instrumenty-dlya-dzhazovogo-seksteta",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "reason": "Устоявшееся производственное название дано в русском написании.",
+      "canonical_target": "usiliteli-backline",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json#/pages/2/links/2",
+          "raw_href": "/usiliteli-backline/",
+          "file_sha256": "f27550feecf5c8ca882b192089554f35baeceb46fae542c3a59eabf496eae317"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    },
+    {
+      "source_slug": "instrumenty-dlya-indie-gruppy",
+      "href": "/backline-dlya-klubnoy-stseny/",
+      "before": "Backline для клубной сцены",
+      "after": "Бэклайн для клубной сцены",
+      "reason": "Смысловая подпись сохранена, изменено только русское написание backline.",
+      "canonical_target": "backline-dlya-klubnoy-stseny",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json#/pages/6/links/2",
+          "raw_href": "/backline-dlya-klubnoy-stseny/",
+          "file_sha256": "f27550feecf5c8ca882b192089554f35baeceb46fae542c3a59eabf496eae317"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    },
+    {
+      "source_slug": "instrument-dlya-postupleniya-v-uchilishche",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации",
+      "reason": "Переход по рекомендации преподавателя сохранён; непрозрачный ярлык раскрыт.",
+      "canonical_target": "instrument-dlya-step-up-po-rekomendatsii",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json#/navigation/instrument-dlya-postupleniya-v-uchilishche/1",
+          "raw_href": "/instrument-dlya-step-up-po-rekomendatsii/",
+          "file_sha256": "b8c64ce8c2885f10d8118ba16fd3053ea36fb55b30b808b68ca99785d535f6c1"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    },
+    {
+      "source_slug": "instrument-dlya-perehoda-v-sleduyushchiy-klass",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации",
+      "reason": "Переход по рекомендации преподавателя сохранён; непрозрачный ярлык раскрыт.",
+      "canonical_target": "instrument-dlya-step-up-po-rekomendatsii",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json#/navigation/instrument-dlya-perehoda-v-sleduyushchiy-klass/0",
+          "raw_href": "/instrument-dlya-step-up-po-rekomendatsii/",
+          "file_sha256": "b8c64ce8c2885f10d8118ba16fd3053ea36fb55b30b808b68ca99785d535f6c1"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    },
+    {
+      "source_slug": "gibson-les-paul-standard-60s-v-arendu",
+      "href": "/elektrogitara-s-dvumya-hambakerami/",
+      "before": "Электрогитара с двумя humbucker",
+      "after": "Электрогитара с двумя хамбакерами",
+      "reason": "Существующая схема датчиков сохранена, исправлено русское написание.",
+      "canonical_target": "elektrogitara-s-dvumya-hambakerami",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz31-conductivity-rider-model-bridges.json#/navigation/gibson-les-paul-standard-60s-v-arendu/0",
+          "raw_href": "/elektrogitara-s-dvumya-hambakerami/",
+          "file_sha256": "486a031c58827410642a8d2c04217e5a65a2872b08daeb64948b6eda3354e82c"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    },
+    {
+      "source_slug": "bas-gitara-dlya-dzhaza",
+      "href": "/bezladovaya-bas-gitara-dlya-pervogo-opyta/",
+      "before": "Первый опыт fretless",
+      "after": "Первый опыт на безладовом басе",
+      "reason": "Смешанная подпись переведена по предмету существующей цели; маршрут сохранён.",
+      "canonical_target": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz83-bass-guitar-human-scenes.json#/pages/7/links/1",
+          "raw_href": "/bezladovaya-bas-gitara-dlya-pervogo-opyta/",
+          "file_sha256": "9db6a43898e2ad0065b385f29df0983407832c6d391be6a19fc19d65c90e0470"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    },
+    {
+      "source_slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "href": "/dvenadtsatistrunnaya-gitara-dlya-zapisi/",
+      "before": "12-string для записи",
+      "after": "Двенадцатиструнная гитара для записи",
+      "reason": "Смешанная подпись переведена, конкретная задача записи и URL сохранены.",
+      "canonical_target": "dvenadtsatistrunnaya-gitara-dlya-zapisi",
+      "kind": "local_public_label_language",
+      "current_state": "before_still_effective",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz84-special-classical-guitar-human-scenes.json#/pages/7/links/1",
+          "raw_href": "/dvenadtsatistrunnaya-gitara-dlya-zapisi/",
+          "file_sha256": "481a56a7885ce6ca79dd72d4ed76f1e4a180dbf3d8ba6d1dca09ff209de5b11a"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Definitions могут включать раннее совпадающее определение; действующий маршрут проверен через штатное объединение источников."
+    }
+  ],
+  "h1_review": [
+    {
+      "target_slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "old_h1": "Перед покупкой free-bass аккордеона: левая рука должна доказать новую функцию",
+      "new_h1": "Перед покупкой аккордеона с выборным басом: проверить новую функцию левой руки",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "arenda-akkordeona-moskva",
+          "link_index": 29,
+          "href": "/akkordeon-s-vybornym-basom-pered-pokupkoy/",
+          "label": "Аккордеон с выборным басом в аренду перед покупкой"
+        },
+        {
+          "source_slug": "hohner-bravo-i-49f-v-arendu",
+          "link_index": 1,
+          "href": "/akkordeon-s-vybornym-basom-pered-pokupkoy/",
+          "label": "Free-bass перед покупкой"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "old_h1": "Первая диатоника: одна тональность как лаборатория воздуха и bends",
+      "new_h1": "Первая диатоника: одна тональность для работы с дыханием и бендами",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "diatonicheskaya-garmoshka",
+          "link_index": 0,
+          "href": "/diatonicheskaya-garmonika-dlya-pervogo-opyta/",
+          "label": "Диатоническая губная гармоника для первого опыта в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "old_h1": "Bend: нота должна опускаться управляемым воздухом, а не силой",
+      "new_h1": "Бенд: понижать ноту управляемым дыханием, а не силой",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "diatonicheskaya-garmoshka",
+          "link_index": 1,
+          "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+          "label": "Диатоническая гармоника для bends в аренду"
+        },
+        {
+          "source_slug": "hohner-special20-c-v-arendu",
+          "link_index": 1,
+          "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+          "label": "Работа над bending"
+        },
+        {
+          "source_slug": "gubnaya-garmonika-s-legkim-otklikom",
+          "link_index": 1,
+          "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+          "label": "Работа над bending"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "hromaticheskaya-garmonika-pered-pokupkoy",
+      "old_h1": "Перед покупкой хроматики: проверить slider, герметичность и фразу в реальной музыке",
+      "new_h1": "Перед покупкой хроматики: проверить механизм, герметичность и фразу в реальной музыке",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "hromaticheskaya-garmoshka",
+          "link_index": 4,
+          "href": "/hromaticheskaya-garmonika-pered-pokupkoy/",
+          "label": "Хроматическая гармоника в аренду перед покупкой"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "kontsertina-dlya-folk-proekta",
+      "old_h1": "Концертина в folk-проекте: система должна соответствовать реальной манере игры",
+      "new_h1": "Концертина в фолк-проекте: система должна соответствовать реальной манере игры",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "kontsertina",
+          "link_index": 5,
+          "href": "/kontsertina-dlya-folk-proekta/",
+          "label": "Концертина для folk-проекта в аренду"
+        },
+        {
+          "source_slug": "kontsertina-dlya-ansamblya",
+          "link_index": 0,
+          "href": "/kontsertina-dlya-folk-proekta/",
+          "label": "Концертина для folk-проекта"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-pervogo-brass-ansamblya",
+      "old_h1": "Первый brass-ансамбль: воздух и атака должны стать секцией раньше громкости",
+      "new_h1": "Первый ансамбль медных духовых: согласовать дыхание и атаку до работы над громкостью",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "mednye-duhovye",
+          "link_index": 8,
+          "href": "/instrumenty-dlya-pervogo-brass-ansamblya/",
+          "label": "Медные духовые для первого ансамбля в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-indie-gruppy",
+      "old_h1": "Indie-группа: характер рождается из сочетания простых, но несовпадающих голосов",
+      "new_h1": "Инди-группа: характер рождается из сочетания простых, но несовпадающих голосов",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "elektrogitara",
+          "link_index": 20,
+          "href": "/instrumenty-dlya-indie-gruppy/",
+          "label": "Инструменты для indie-группы в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "martin-d28-v-arendu",
+      "old_h1": "Martin D-28: тот самый dreadnought, который в райдере пишут по имени",
+      "new_h1": "Martin D-28: тот самый дредноут, который в райдере пишут по имени",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "akusticheskaya-gitara",
+          "link_index": 8,
+          "href": "/martin-d28-v-arendu/",
+          "label": "Martin D-28"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "selmer-mark-vi-tenor-v-arendu",
+      "old_h1": "Selmer Mark VI tenor: легендарный референс, где каждый экземпляр уже отдельная история",
+      "new_h1": "Selmer Mark VI: легендарный тенор, где каждый экземпляр уже отдельная история",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "saksofon-tenor",
+          "link_index": 3,
+          "href": "/selmer-mark-vi-tenor-v-arendu/",
+          "label": "Selmer Mark VI"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "bach-180s37-v-arendu",
+      "old_h1": "Bach 180S37: профессиональная B♭ труба, которую Conn-Selmer называет Top Pick",
+      "new_h1": "Bach 180S37: профессиональная труба B♭ для класса, студии и сцены",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "truba",
+          "link_index": 10,
+          "href": "/bach-180s37-v-arendu/",
+          "label": "Bach Stradivarius 180S37"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "fender-american-professional-ii-precision-bass-v-arendu",
+      "old_h1": "American Professional II Precision Bass: один split-coil и понятная басовая опора",
+      "new_h1": "American Professional II Precision Bass: один разделённый сингл и понятная басовая опора",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bas-gitara",
+          "link_index": 15,
+          "href": "/fender-american-professional-ii-precision-bass-v-arendu/",
+          "label": "Fender American Professional II Precision Bass"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "loree-royal-oboe-v-arendu",
+      "old_h1": "Lorée Royal: профессиональный гобой как реальная специализированная rental-позиция",
+      "new_h1": "Lorée Royal: профессиональный гобой для временной замены и пробы программы",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "goboy",
+          "link_index": 6,
+          "href": "/loree-royal-oboe-v-arendu/",
+          "label": "Lorée Royal"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "yamaha-ytr8335rs-v-arendu",
+      "old_h1": "Yamaha Xeno YTR‑8335RS: современная профессиональная B♭ труба как реальная rental-модель",
+      "new_h1": "Yamaha Xeno YTR‑8335RS: профессиональная труба B♭ для подготовки программы",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "truba",
+          "link_index": 11,
+          "href": "/yamaha-ytr8335rs-v-arendu/",
+          "label": "Yamaha Xeno YTR‑8335RS"
+        },
+        {
+          "source_slug": "duhovye-dlya-perehoda-na-professionalnyy-uroven",
+          "link_index": 1,
+          "href": "/yamaha-ytr8335rs-v-arendu/",
+          "label": "Yamaha Xeno"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "alexander-103-v-arendu",
+      "old_h1": "Alexander 103: европейский двойной horn-standard с историей с 1909 года",
+      "new_h1": "Alexander 103: европейская двойная валторна с историей с 1909 года",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "valtorna",
+          "link_index": 6,
+          "href": "/alexander-103-v-arendu/",
+          "label": "Alexander 103"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "lyon-healy-chicago-cg-extended-v-arendu",
+      "old_h1": "Chicago CG Extended: concert-grand арфа из официального Lyon & Healy rental pool",
+      "new_h1": "Chicago CG Extended: концертная педальная арфа для оркестра, фестиваля и тура",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "pedalnaya-arfa",
+          "link_index": 3,
+          "href": "/lyon-healy-chicago-cg-extended-v-arendu/",
+          "label": "Lyon & Healy Chicago CG Extended"
+        },
+        {
+          "source_slug": "pedalnaya-arfa-pered-pokupkoy",
+          "link_index": 1,
+          "href": "/lyon-healy-chicago-cg-extended-v-arendu/",
+          "label": "Chicago CG Extended"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "pigini-super-bayan-sirius-v-arendu",
+      "old_h1": "Pigini Super Bayan Sirius: концертный баян как большая свободнобасовая система",
+      "new_h1": "Pigini Super Bayan Sirius: концертный баян с широким диапазоном и готово-выборной системой",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "arenda-bayana-moskva",
+          "link_index": 4,
+          "href": "/pigini-super-bayan-sirius-v-arendu/",
+          "label": "Pigini Super Bayan Sirius"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "fagot-dlya-nebolshoy-ruki",
+      "old_h1": "Фагот для небольшой руки: полный German system с более коротким доступом",
+      "new_h1": "Фагот для небольшой руки: полная немецкая система с более близким расположением клапана",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "fagot",
+          "link_index": 7,
+          "href": "/fagot-dlya-nebolshoy-ruki/",
+          "label": "Для небольшой руки"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "bach-btr302-v-arendu",
+      "old_h1": "Bach BTR302: американский rental-standard для первых лет трубы",
+      "new_h1": "Bach BTR302: ученическая труба для первых лет обучения",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "truba",
+          "link_index": 12,
+          "href": "/bach-btr302-v-arendu/",
+          "label": "Bach BTR302"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "bach-btb302-v-arendu",
+      "old_h1": "Bach BTB302: student rental trombone, где кулиса должна исчезнуть внутри движения руки",
+      "new_h1": "Bach BTB302: свободный ход кулисы для начинающего тромбониста",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "trombon",
+          "link_index": 8,
+          "href": "/bach-btb302-v-arendu/",
+          "label": "Bach BTB302"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "jupiter-jtb700-v-arendu",
+      "old_h1": "Jupiter JTB700: лёгкий отклик кулисы как условие раннего успеха",
+      "new_h1": "Jupiter JTB700: лёгкий отклик и свободный ход кулисы для первых занятий",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "trombon",
+          "link_index": 9,
+          "href": "/jupiter-jtb700-v-arendu/",
+          "label": "Jupiter JTB700"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "lyon-healy-ogden-v-arendu",
+      "old_h1": "Lyon & Healy Ogden: 34 струн с pedal tension как мост к педальной арфе",
+      "new_h1": "Lyon & Healy Ogden: 34 струны с педальным натяжением как мост к педальной арфе",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "leversnaya-arfa",
+          "link_index": 4,
+          "href": "/lyon-healy-ogden-v-arendu/",
+          "label": "Lyon & Healy Ogden"
+        },
+        {
+          "source_slug": "pedalnaya-arfa-pered-pokupkoy",
+          "link_index": 2,
+          "href": "/lyon-healy-ogden-v-arendu/",
+          "label": "Ogden: pedal tension без педалей"
+        },
+        {
+          "source_slug": "arfa-s-udobnym-natyazheniem-strun",
+          "link_index": 1,
+          "href": "/lyon-healy-ogden-v-arendu/",
+          "label": "Lyon & Healy Ogden"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "besson-prodige-162-v-arendu",
+      "old_h1": "Besson Prodige 162: student-euphonium, который заранее готовит руку к взрослой 3+1 системе",
+      "new_h1": "Besson Prodige 162: ученический эуфониум для освоения системы 3+1",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 5,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "evfonium",
+          "link_index": 3,
+          "href": "/besson-prodige-162-v-arendu/",
+          "label": "Besson Prodige 162"
+        },
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 40,
+          "href": "/besson-prodige-162-v-arendu/",
+          "label": "Besson Prodige 162"
+        },
+        {
+          "source_slug": "legkiy-evfonium-rebenku",
+          "link_index": 1,
+          "href": "/besson-prodige-162-v-arendu/",
+          "label": "Besson Prodige 162: система 3+1"
+        },
+        {
+          "source_slug": "evfonium-dlya-domashnih-zanyatiy",
+          "link_index": 1,
+          "href": "/besson-prodige-162-v-arendu/",
+          "label": "Besson Prodige 162"
+        },
+        {
+          "source_slug": "evfonium-dlya-perehoda-na-sistemu-3-plus-1",
+          "link_index": 0,
+          "href": "/besson-prodige-162-v-arendu/",
+          "label": "Besson Prodige 162"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "ibanez-pgmm31-v-arendu",
+      "old_h1": "Ibanez PGMM31 miKro: короткая мензура для маленькой руки без упрощённой двухдатчиковой схемы",
+      "new_h1": "Ibanez PGMM31 miKro: короткая мензура для небольшой руки и два хамбакера",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "elektrogitara",
+          "link_index": 18,
+          "href": "/ibanez-pgmm31-v-arendu/",
+          "label": "Ibanez PGMM31 miKro"
+        },
+        {
+          "source_slug": "elektrogitara-dlya-nebolshoy-ruki",
+          "link_index": 1,
+          "href": "/ibanez-pgmm31-v-arendu/",
+          "label": "Ibanez PGMM31 miKro"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "besson-prodige120-v-arendu",
+      "old_h1": "Besson Prodige 120: student-корнет внутри британской brass-band традиции",
+      "new_h1": "Besson Prodige 120: ученический корнет в британской традиции оркестров медных духовых",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "kornet",
+          "link_index": 2,
+          "href": "/besson-prodige120-v-arendu/",
+          "label": "Besson Prodige 120"
+        },
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 76,
+          "href": "/besson-prodige120-v-arendu/",
+          "label": "Besson Prodige 120"
+        },
+        {
+          "source_slug": "kornet-dlya-nebolshoy-ruki",
+          "link_index": 1,
+          "href": "/besson-prodige120-v-arendu/",
+          "label": "Besson Prodige 120"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "yamaha-ybh301-v-arendu",
+      "old_h1": "Yamaha YBH‑301: student-баритон с простой трёхклапанной системой",
+      "new_h1": "Yamaha YBH‑301: ученический баритон-горн с простой трёхклапанной системой",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 77,
+          "href": "/yamaha-ybh301-v-arendu/",
+          "label": "Yamaha YBH-301"
+        },
+        {
+          "source_slug": "bariton-gorn",
+          "link_index": 0,
+          "href": "/yamaha-ybh301-v-arendu/",
+          "label": "Yamaha YBH-301"
+        },
+        {
+          "source_slug": "bariton-gorn-dlya-pervogo-instrumenta",
+          "link_index": 0,
+          "href": "/yamaha-ybh301-v-arendu/",
+          "label": "Yamaha YBH-301"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "besson-prodige157-v-arendu",
+      "old_h1": "Besson Prodige 157: лёгкий student-баритон для молодого brass-band музыканта",
+      "new_h1": "Besson Prodige 157: лёгкий ученический баритон-горн для молодого музыканта оркестра медных духовых",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 78,
+          "href": "/besson-prodige157-v-arendu/",
+          "label": "Besson Prodige 157"
+        },
+        {
+          "source_slug": "bariton-gorn",
+          "link_index": 1,
+          "href": "/besson-prodige157-v-arendu/",
+          "label": "Besson Prodige 157"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "tenor-gorn",
+      "old_h1": "Тенор-горн: Eb-голос brass band между корнетом и баритоном",
+      "new_h1": "Тенор-горн: голос Eb между корнетом и баритоном в оркестре медных духовых",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "mednye-duhovye",
+          "link_index": 7,
+          "href": "/tenor-gorn/",
+          "label": "Тенор-горн"
+        },
+        {
+          "source_slug": "tenor-gorn-dlya-pervogo-instrumenta",
+          "link_index": 1,
+          "href": "/tenor-gorn/",
+          "label": "Тенор-горн"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "yamaha-yah203-v-arendu",
+      "old_h1": "Yamaha YAH‑203: student Eb tenor horn с простой трёхклапанной системой",
+      "new_h1": "Yamaha YAH‑203: ученический тенор-горн Eb с простой трёхклапанной системой",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 79,
+          "href": "/yamaha-yah203-v-arendu/",
+          "label": "Yamaha YAH-203"
+        },
+        {
+          "source_slug": "tenor-gorn",
+          "link_index": 0,
+          "href": "/yamaha-yah203-v-arendu/",
+          "label": "Yamaha YAH-203"
+        },
+        {
+          "source_slug": "tenor-gorn-dlya-pervogo-instrumenta",
+          "link_index": 0,
+          "href": "/yamaha-yah203-v-arendu/",
+          "label": "Yamaha YAH-203"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "besson-prodige152-v-arendu",
+      "old_h1": "Besson Prodige 152: entry-level Eb tenor horn в традиции brass band",
+      "new_h1": "Besson Prodige 152: начальный тенор-горн Eb в традиции оркестров медных духовых",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 80,
+          "href": "/besson-prodige152-v-arendu/",
+          "label": "Besson Prodige 152"
+        },
+        {
+          "source_slug": "tenor-gorn",
+          "link_index": 1,
+          "href": "/besson-prodige152-v-arendu/",
+          "label": "Besson Prodige 152"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "old_h1": "Первый fretless: услышать высоту там, где лад больше не принимает решение",
+      "new_h1": "Первый безладовый бас: услышать высоту там, где лад больше не принимает решение",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bezladovaya-bas-gitara",
+          "link_index": 0,
+          "href": "/bezladovaya-bas-gitara-dlya-pervogo-opyta/",
+          "label": "Безладовая бас-гитара для первого опыта в аренду"
+        },
+        {
+          "source_slug": "bas-gitara-dlya-dzhaza",
+          "link_index": 1,
+          "href": "/bezladovaya-bas-gitara-dlya-pervogo-opyta/",
+          "label": "Первый опыт fretless"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "korotkomensurnaya-bas-gitara-vzroslomu",
+      "old_h1": "Short scale взрослому: уменьшить расстояние, не объясняя выбор возрастом",
+      "new_h1": "Короткая мензура для взрослого: уменьшить расстояние, не объясняя выбор возрастом",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "korotkomensurnaya-bas-gitara",
+          "link_index": 0,
+          "href": "/korotkomensurnaya-bas-gitara-vzroslomu/",
+          "label": "Короткомензурная бас-гитара взрослому в аренду"
+        },
+        {
+          "source_slug": "instrument-esli-nuzhna-korotkaya-menzura",
+          "link_index": 2,
+          "href": "/korotkomensurnaya-bas-gitara-vzroslomu/",
+          "label": "Короткомензурный бас взрослому"
+        },
+        {
+          "source_slug": "squier-mini-precision-bass-v-arendu",
+          "link_index": 1,
+          "href": "/korotkomensurnaya-bas-gitara-vzroslomu/",
+          "label": "Короткомензурный бас взрослому"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "bariton-gorn-dlya-pervogo-instrumenta",
+      "old_h1": "Первый баритон-горн: знакомый низкий диапазон в отдельной brass-band конструкции",
+      "new_h1": "Первый баритон-горн: знакомый низкий диапазон и отдельная роль в оркестре медных духовых",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 4,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bariton-gorn",
+          "link_index": 3,
+          "href": "/bariton-gorn-dlya-pervogo-instrumenta/",
+          "label": "Баритон-горн для первого инструмента в аренду"
+        },
+        {
+          "source_slug": "yamaha-ybh301-v-arendu",
+          "link_index": 0,
+          "href": "/bariton-gorn-dlya-pervogo-instrumenta/",
+          "label": "Первый баритон-горн"
+        },
+        {
+          "source_slug": "besson-prodige157-v-arendu",
+          "link_index": 0,
+          "href": "/bariton-gorn-dlya-pervogo-instrumenta/",
+          "label": "Первый баритон-горн"
+        },
+        {
+          "source_slug": "bariton-ili-evfonium-po-partii",
+          "link_index": 0,
+          "href": "/bariton-gorn-dlya-pervogo-instrumenta/",
+          "label": "Первый баритон-горн"
+        }
+      ],
+      "action": "keep_labels"
+    }
+  ],
+  "generated_child_labels_no_manual_change": [
+    {
+      "source_slug": "diatonicheskaya-garmoshka",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "link_index": 1,
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "before": "Диатоническая гармоника для bends в аренду",
+      "after": "Диатоническая гармоника для бендинга в аренду",
+      "matching_source_definitions": [],
+      "generation": "site_core.connect: parent child uses target search_title",
+      "instruction": "Отдельная правка ссылки не нужна; подпись изменится вместе с search_title цели."
+    },
+    {
+      "source_slug": "kontsertina",
+      "target_slug": "kontsertina-dlya-folk-proekta",
+      "link_index": 5,
+      "href": "/kontsertina-dlya-folk-proekta/",
+      "before": "Концертина для folk-проекта в аренду",
+      "after": "Концертина для фолк-проекта в аренду",
+      "matching_source_definitions": [],
+      "generation": "site_core.connect: parent child uses target search_title",
+      "instruction": "Отдельная правка ссылки не нужна; подпись изменится вместе с search_title цели."
+    },
+    {
+      "source_slug": "elektrogitara",
+      "target_slug": "instrumenty-dlya-indie-gruppy",
+      "link_index": 20,
+      "href": "/instrumenty-dlya-indie-gruppy/",
+      "before": "Инструменты для indie-группы в аренду",
+      "after": "Инструменты для инди-группы в аренду",
+      "matching_source_definitions": [],
+      "generation": "site_core.connect: parent child uses target search_title",
+      "instruction": "Отдельная правка ссылки не нужна; подпись изменится вместе с search_title цели."
+    },
+    {
+      "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+      "target_slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "link_index": 116,
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up инструмент по рекомендации преподавателя в аренду",
+      "after": "Следующий инструмент по рекомендации преподавателя в аренду",
+      "matching_source_definitions": [],
+      "generation": "site_core.connect: parent child uses target search_title",
+      "instruction": "Отдельная правка ссылки не нужна; подпись изменится вместе с search_title цели."
+    }
+  ]
+}

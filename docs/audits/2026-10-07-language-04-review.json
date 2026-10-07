@@ -1,0 +1,57 @@
+{
+  "cohort": 4,
+  "status": "integrated_and_locally_verified",
+  "base_commit": "b45101f654a73e2834c1c5e1048219ca4f367913",
+  "frozen_proposal_base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "source_decision_register": "prepared-language/language-04-review.json",
+  "frozen_proposal": "prepared-language/language-04-candidate.json",
+  "original_label_plan": "prepared-language/language-04-labels.json",
+  "independent_review_files": [
+    "prepared-language/language-04-independent-review.json",
+    "prepared-language/language-04-independent-structure.json"
+  ],
+  "root_review_and_refinements": "prepared-language/language-04-root-review.json",
+  "full_public_pages_read_by_author_and_independent_reviewer": 141,
+  "final_decisions": {
+    "enrich": 139,
+    "keep": 2,
+    "body_records": 139,
+    "label_only": 0
+  },
+  "root_refinements_applied": 5,
+  "intervening_packages_changed_no_candidate_fields": true,
+  "integrated_content": "../../content/sections/zzzz64-public-language-04.json",
+  "integrated_sha256": "a842130333cb128bec085b2fa490d8b23e595c9ed040bdc6f67cdef41abd90f8",
+  "changes": {
+    "pages": 139,
+    "text_leaf_changes": 673,
+    "changed_field_counts": {
+      "blocks": 114,
+      "intro": 60,
+      "sources": 83,
+      "description": 90,
+      "kicker": 82,
+      "editorial_title": 33,
+      "search_title": 4,
+      "quote": 35
+    },
+    "candidate_sha256": "a842130333cb128bec085b2fa490d8b23e595c9ed040bdc6f67cdef41abd90f8",
+    "base_snapshot": "corpus-after-language-03.json",
+    "base_snapshot_sha256": "eaba636fc65faa702bab3a628356250c0aa6dfdc73d855a644470a05ab62b7d3",
+    "intervening_candidate_fields_unchanged": true,
+    "numeric_delta_count": 10,
+    "shape_changes": []
+  },
+  "label_count": {
+    "explicit": 8,
+    "automatic": 4,
+    "total": 12
+  },
+  "numeric_review_count": 10,
+  "tests": {
+    "count": 209,
+    "seconds": 97.046,
+    "test_files_changed": true
+  },
+  "snapshot_reconstruction": "The input snapshot is reproducible from base_commit using read_legacy, merge_records, merge_legacy_navigation, alias removal, connect and dataclasses.asdict."
+}

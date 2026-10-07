@@ -45,7 +45,7 @@ class CompactTromboneBassClarinetTests(unittest.TestCase):
     def test_compact_trombone_preserves_standard_logic(self):
         text=self.page('yamaha-ysl350c-v-arendu',True).get_text(' ',strip=True).casefold()
         self.assertIn('стандарт',text)
-        self.assertIn('ascending',text)
+        self.assertIn('повышающий вентиль',text)
         quality=self.page('trombon-dlya-korotkoy-ruki',True).get_text(' ',strip=True).casefold()
         self.assertIn('длин',quality)
         self.assertIn('плеч',quality)

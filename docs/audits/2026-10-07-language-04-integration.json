@@ -1,0 +1,215 @@
+{
+  "package": "public-language-04",
+  "base_commit": "b45101f654a73e2834c1c5e1048219ca4f367913",
+  "base_snapshot": "corpus-after-language-03.json",
+  "base_snapshot_sha256": "eaba636fc65faa702bab3a628356250c0aa6dfdc73d855a644470a05ab62b7d3",
+  "overlay_files": [
+    "content/sections/zzzz64-public-language-04.json"
+  ],
+  "source_label_patches": [
+    {
+      "file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "pointer": "/pages/6/links/2/label",
+      "source": "instrumenty-dlya-shkolnogo-big-benda",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "pointer": "/pages/2/links/2/label",
+      "source": "instrumenty-dlya-dzhazovogo-seksteta",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "pointer": "/pages/6/links/2/label",
+      "source": "instrumenty-dlya-indie-gruppy",
+      "href": "/backline-dlya-klubnoy-stseny/",
+      "before": "Backline для клубной сцены",
+      "after": "Бэклайн для клубной сцены"
+    },
+    {
+      "file": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json",
+      "pointer": "/navigation/instrument-dlya-postupleniya-v-uchilishche/1/label",
+      "source": "instrument-dlya-postupleniya-v-uchilishche",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "file": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json",
+      "pointer": "/navigation/instrument-dlya-perehoda-v-sleduyushchiy-klass/0/label",
+      "source": "instrument-dlya-perehoda-v-sleduyushchiy-klass",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "file": "content/sections/zzzz31-conductivity-rider-model-bridges.json",
+      "pointer": "/navigation/gibson-les-paul-standard-60s-v-arendu/0/label",
+      "source": "gibson-les-paul-standard-60s-v-arendu",
+      "href": "/elektrogitara-s-dvumya-hambakerami/",
+      "before": "Электрогитара с двумя humbucker",
+      "after": "Электрогитара с двумя хамбакерами"
+    },
+    {
+      "file": "content/sections/zz83-bass-guitar-human-scenes.json",
+      "pointer": "/pages/7/links/1/label",
+      "source": "bas-gitara-dlya-dzhaza",
+      "href": "/bezladovaya-bas-gitara-dlya-pervogo-opyta/",
+      "before": "Первый опыт fretless",
+      "after": "Первый опыт на безладовом басе"
+    },
+    {
+      "file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "pointer": "/pages/7/links/1/label",
+      "source": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "href": "/dvenadtsatistrunnaya-gitara-dlya-zapisi/",
+      "before": "12-string для записи",
+      "after": "Двенадцатиструнная гитара для записи"
+    }
+  ],
+  "approved_label_changes": [
+    {
+      "source": "elektrogitara",
+      "href": "/instrumenty-dlya-indie-gruppy/",
+      "before": "Инструменты для indie-группы в аренду",
+      "after": "Инструменты для инди-группы в аренду"
+    },
+    {
+      "source": "kontsertina",
+      "href": "/kontsertina-dlya-folk-proekta/",
+      "before": "Концертина для folk-проекта в аренду",
+      "after": "Концертина для фолк-проекта в аренду"
+    },
+    {
+      "source": "diatonicheskaya-garmoshka",
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "before": "Диатоническая гармоника для bends в аренду",
+      "after": "Диатоническая гармоника для бендинга в аренду"
+    },
+    {
+      "source": "instrumenty-dlya-shkolnogo-big-benda",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-dzhazovogo-seksteta",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-indie-gruppy",
+      "href": "/backline-dlya-klubnoy-stseny/",
+      "before": "Backline для клубной сцены",
+      "after": "Бэклайн для клубной сцены"
+    },
+    {
+      "source": "instrument-dlya-postupleniya-v-uchilishche",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "source": "instrument-dlya-perehoda-v-sleduyushchiy-klass",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "source": "gibson-les-paul-standard-60s-v-arendu",
+      "href": "/elektrogitara-s-dvumya-hambakerami/",
+      "before": "Электрогитара с двумя humbucker",
+      "after": "Электрогитара с двумя хамбакерами"
+    },
+    {
+      "source": "instrument-po-rekomendatsii-prepodavatelya",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up инструмент по рекомендации преподавателя в аренду",
+      "after": "Следующий инструмент по рекомендации преподавателя в аренду"
+    },
+    {
+      "source": "bas-gitara-dlya-dzhaza",
+      "href": "/bezladovaya-bas-gitara-dlya-pervogo-opyta/",
+      "before": "Первый опыт fretless",
+      "after": "Первый опыт на безладовом басе"
+    },
+    {
+      "source": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "href": "/dvenadtsatistrunnaya-gitara-dlya-zapisi/",
+      "before": "12-string для записи",
+      "after": "Двенадцатиструнная гитара для записи"
+    }
+  ],
+  "approved_shape_changes": [],
+  "approved_numeric_changes": [
+    {
+      "slug": "fender-american-professional-ii-stratocaster-v-arendu",
+      "field": "description",
+      "before": "Fender American Professional II Stratocaster: SSS, 25.5, 2-point tremolo и привычная Stratocaster-логика для сцены и записи.",
+      "after": "Fender American Professional II Stratocaster: SSS, мензура 25.5 дюйма, двухточечное тремоло и привычная схема Stratocaster для сцены и записи."
+    },
+    {
+      "slug": "lyon-healy-style-23-v-arendu",
+      "field": "kicker",
+      "before": "LEGENDARY CORE · CONCERT GRAND · STYLE 23",
+      "after": "STYLE 23 · CONCERT GRAND · 47 СТРУН"
+    },
+    {
+      "slug": "yamaha-yfl677-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Это прямое подтверждение, что профессиональная модель может существовать как самостоятельная единица временного доступа.",
+      "after": "Программа производителя предусматривала временное использование YFL‑677."
+    },
+    {
+      "slug": "fox-601-v-arendu",
+      "field": "blocks[2].title",
+      "before": "Модель может быть адресом до собственного экземпляра фонда",
+      "after": "Наличие конкретного Fox 601 на период работы подтверждается отдельно"
+    },
+    {
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Такой источник особенно важен для нашего канона: сама профессиональная модель официально существует как предмет временного доступа.",
+      "after": "В программе производителя именно YTR‑8335RS представлена для временного использования."
+    },
+    {
+      "slug": "jupiter-jhr700-v-arendu",
+      "field": "intro[0]",
+      "before": "<p>До сих пор учебная валторна в нашем слое почти полностью была представлена Yamaha YHR‑314II. Jupiter JHR700 даёт вторую устойчивую серийную линию: одинарная F-система, простой отклик и конструкция, которую производитель прямо рассчитывает на начальные стадии музыкального обучения.</p>",
+      "after": "<p>Jupiter JHR700 даёт ещё одну учебную серийную линию рядом с Yamaha YHR‑314II: одинарная система F, простой отклик и конструкция, которую производитель прямо рассчитывает на начальные стадии музыкального обучения.</p>"
+    },
+    {
+      "slug": "besson-prodige120-v-arendu",
+      "field": "intro[0]",
+      "before": "<p>Prodige 120 Besson проектирует именно как student Bb cornet в классической британской традиции. Это полезная альтернатива Yamaha: другой производитель, но та же ясная учебная задача — настоящий cornet sound, удобная 3-valve механика и регулируемое кольцо третьего крона.</p>",
+      "after": "<p>Prodige 120 Besson проектирует именно как ученический корнет Bb в классической британской традиции. Это полезная альтернатива Yamaha: другой производитель, но та же ясная учебная задача — настоящий корнетный звук, удобная трёхклапанная механика и регулируемое кольцо третьего крона.</p>"
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "field": "description",
+      "before": "Аренда 12-string перед покупкой: парные струны, настройка, усилие левой руки и реальный репертуар.",
+      "after": "Аренда двенадцатиструнной гитары перед покупкой: парные струны, настройка, усилие левой руки и реальный репертуар."
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "field": "blocks[0].paragraphs[0]",
+      "before": "Taylor описывает 12-string как систему с парными курсами и собственными вариантами корпусов. Для музыканта это означает другой контакт медиатора, больше работы при настройке и другое ощущение прижима.",
+      "after": "Taylor описывает двенадцатиструнную гитару как систему с парными струнами и собственными вариантами корпусов. Для музыканта это означает другой контакт медиатора, больше работы при настройке и другое ощущение прижима."
+    },
+    {
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "field": "sources[0].title",
+      "before": "Taylor: 12-string guitar construction and tuning",
+      "after": "Taylor: конструкция и настройка двенадцатиструнной гитары"
+    }
+  ],
+  "numeric_review_reason": "Individually reviewed changes preserve values; quantities written as words and attributed model identifiers remain explicit in context.",
+  "all_label_changes_match_reviewed_plan": true,
+  "candidate_sha256": "a842130333cb128bec085b2fa490d8b23e595c9ed040bdc6f67cdef41abd90f8"
+}
