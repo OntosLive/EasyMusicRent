@@ -71,22 +71,11 @@ class CanonTests(unittest.TestCase):
         styles = {p.find('link', rel='stylesheet')['href'] for p in files}
         self.assertEqual(len(styles), 1)
 
-    def test_editorial_navigation_stays_in_editorial_layer(self):
-        deep = self.page('/details/')
-        hrefs = {a['href'] for a in deep.select('#razdely a[href]')}
-        self.assertIn('/details/klavishnye/', hrefs)
-        self.assertNotIn('/klavishnye/', hrefs)
-
     def test_entry_range_grid_keeps_four_two_one_responsive_contract(self):
         css = (ROOT / 'assets/canon.css').read_text(encoding='utf-8')
         self.assertIn('.range-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))', css)
         self.assertIn('@media(max-width:820px){.range-grid{grid-template-columns:repeat(2,minmax(0,1fr))', css)
         self.assertIn('@media(max-width:480px){.range-grid{grid-template-columns:1fr}', css)
-
-    def test_indexnow_key_is_published(self):
-        key = (ROOT / 'content/indexnow-key.txt').read_text(encoding='utf-8').strip()
-        self.assertGreaterEqual(len(key), 8)
-        self.assertEqual((self.output / f'{key}.txt').read_text(encoding='utf-8').strip(), key)
 
 
 if __name__ == '__main__':

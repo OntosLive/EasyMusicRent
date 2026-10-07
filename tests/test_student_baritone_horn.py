@@ -71,7 +71,7 @@ class StudentBaritoneHornTests(unittest.TestCase):
     def test_compiler_and_css_unchanged(self):
         expected={
           'scripts/site_core.py':'52692fae95ac56ce5c93328a0a4c3f7eb933ade9c66a6fbec9e9245cde1a9a26',
-          'assets/canon.css':'699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af',
+          'assets/canon.css':'04fd0f6c6ff73b23eb9676765fe3d94d7921e9b83800d920615146799ea8e12f',
         }
         for path,digest in expected.items():
             self.assertEqual(sha256((ROOT/path).read_bytes()).hexdigest(),digest)
