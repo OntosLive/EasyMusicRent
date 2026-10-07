@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "recorded_at": "2026-10-07T13:46:25.256188+00:00",
+  "repository": "OntosLive/EasyMusicRent",
+  "content_commit": "7860a822f6044648c27f5660b8682eba73b561cc",
+  "content_tree": "68c545aa3fec6bf0bf1686b1d141ed955347323d",
+  "baseline_commit": "f9789a41743221af9758374c216fc39fffcfd6a6",
+  "publication_files_verified": 57,
+  "local_alignment": {
+    "verified_at": "2026-10-07T13:39:05.005046+00:00",
+    "commit": "7860a822f6044648c27f5660b8682eba73b561cc",
+    "tree": "68c545aa3fec6bf0bf1686b1d141ed955347323d",
+    "files_verified": 57,
+    "working_tree_clean": true,
+    "index_clean": true,
+    "stash_preserved": "f6da4d29256b85d7b78a11b41ebe0ca12f6f7736",
+    "alignment": "git reset --mixed after exact bytes, blob SHAs, tree and remote-tracking-ref proof"
+  },
+  "ci": {
+    "release": {
+      "tests": {
+        "count": 237,
+        "duration_seconds": 131.054
+      },
+      "build": {
+        "source_pages": 1980,
+        "public_pair_pages": 3960,
+        "conditions": 8,
+        "css_version": "699834b7f598",
+        "authored_records": 1844
+      },
+      "validation": {
+        "documents_checked": 3968,
+        "redirects": 78,
+        "contact_variants": 1,
+        "unreachable": 0,
+        "sitemap_entries": 3960,
+        "errors": []
+      }
+    },
+    "canon": {
+      "tests": {
+        "count": 237,
+        "duration_seconds": 132.278
+      },
+      "build": {
+        "source_pages": 1980,
+        "public_pair_pages": 3960,
+        "conditions": 8,
+        "css_version": "699834b7f598",
+        "authored_records": 1844
+      },
+      "validation": {
+        "documents_checked": 3968,
+        "redirects": 78,
+        "contact_variants": 1,
+        "unreachable": 0,
+        "sitemap_entries": 3960,
+        "errors": []
+      }
+    }
+  },
+  "exact_runs": {
+    "release": {
+      "id": 37629966272,
+      "name": "Build, validate and deploy ONTOS.RENT",
+      "head_sha": "7860a822f6044648c27f5660b8682eba73b561cc",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37629966272",
+      "created_at": "2026-10-07T13:37:25Z",
+      "updated_at": "2026-10-07T13:40:44Z"
+    },
+    "canon": {
+      "id": 37629966253,
+      "name": "Canon audit",
+      "head_sha": "7860a822f6044648c27f5660b8682eba73b561cc",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37629966253",
+      "created_at": "2026-10-07T13:37:25Z",
+      "updated_at": "2026-10-07T13:40:28Z"
+    }
+  },
+  "all_jobs_successful": true,
+  "public_verification": {
+    "started_at": "2026-10-07T13:41:14.809609+00:00",
+    "finished_at": "2026-10-07T13:42:47.850611+00:00",
+    "scope": "Both pages of home and all 13 families; five documentation cases, one conditions page, one redirect, and robots/sitemap/CSS. All local HTML is verified separately. This is not an HTTP crawl of all 4046 HTML paths or a search-engine index inspection.",
+    "requests": 43,
+    "html_checked": 40,
+    "byte_equal": 43,
+    "failed": [],
+    "all_passed": true
+  },
+  "browser_verification": {
+    "scope": "One desktop browser viewport: commercial-to-editorial navigation, independent headings and canonical, no robots restriction, documentation below footer, expand/collapse. Mobile viewport matrix not tested.",
+    "entry_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/shure-sm58-v-arendu/",
+    "details_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/shure-sm58-v-arendu/",
+    "default_closed": true,
+    "primary_link_visible_when_expanded": true,
+    "closed_again": true,
+    "no_horizontal_overflow": true,
+    "saved_screenshot": "2026-10-07-dual-index-documentation.jpg"
+  },
+  "evidence_files": {
+    "2026-10-07-dual-index-live-verification.json": {
+      "bytes": 49415,
+      "sha256": "037020bca0df0c9bf38a8049f1a211d5d400021ab38c61d21bf22e239e1039dc"
+    },
+    "2026-10-07-dual-index-browser-review.json": {
+      "bytes": 1760,
+      "sha256": "6dd1c3f67b4694b18dfc6ef59798e06fd7fcd5640b90b28dc9a213ba309df614"
+    },
+    "2026-10-07-dual-index-release-meta.json": {
+      "bytes": 35496,
+      "sha256": "07c317b19a978761ca4edd49b92e7ea44aa4cf5ff7a3b59427647bd43c327931"
+    },
+    "2026-10-07-dual-index-release-deploy.log": {
+      "bytes": 3603,
+      "sha256": "a6b70873f852cc41c02cf38888c6b7aa557dea7d4bf81fc908635d1f7813a7f1"
+    },
+    "2026-10-07-dual-index-release-build.log.gz": {
+      "bytes": 101063,
+      "sha256": "a450b664ef944d6b3eb406c4d6df033c19d9d9e34321c6d649858969b262bfa1",
+      "uncompressed_sha256": "5767efabc4fe52d0b0b24fe98474cfade1284f96813293e197e74d7051f5d1e8",
+      "uncompressed_bytes": 640171
+    },
+    "2026-10-07-dual-index-canon.log.gz": {
+      "bytes": 13321,
+      "sha256": "93e11c60564218f1f4ed0ad8a3d6e6a133b43c7aacd6bc005c3220d2e3eeffa3",
+      "uncompressed_sha256": "111412ec042f6a28066176ef04103512bb40d9da5829b191b5864e371d110149",
+      "uncompressed_bytes": 63479
+    },
+    "2026-10-07-dual-index-documentation.jpg": {
+      "bytes": 133892,
+      "sha256": "6c281fbca32adee594f623124022896e8220791aae3e81a80544a0041203d131"
+    }
+  },
+  "limits": [
+    "Actual inclusion or ranking in Google/Yandex was not measured.",
+    "HTTP verification covers 40 representative HTML files and 3 controls; the local artifact check covers all 4046 HTML paths.",
+    "Browser review covers one desktop viewport, not a mobile matrix.",
+    "The following documentation checkpoint does not change generated site files and needs no recursive commit recording its own SHA."
+  ]
+}

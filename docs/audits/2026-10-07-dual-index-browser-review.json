@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-10-07T13:41:41.061Z",
+  "commit": "7860a822f6044648c27f5660b8682eba73b561cc",
+  "entry": {
+    "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/shure-sm58-v-arendu/",
+    "state": {
+      "canonical": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/shure-sm58-v-arendu/",
+      "clientWidth": 1363,
+      "documentWidth": 1363,
+      "h1": "Прокат вокального микрофона Shure SM58 в Москве",
+      "robots": [],
+      "viewport": 1363
+    }
+  },
+  "details": {
+    "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/shure-sm58-v-arendu/",
+    "state": {
+      "bottomChildren": [
+        "editorial",
+        "site-footer",
+        "sources"
+      ],
+      "canonical": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/shure-sm58-v-arendu/",
+      "clientWidth": 1348,
+      "documentWidth": 1348,
+      "documentationClosed": true,
+      "documentationLinks": [
+        {
+          "title": "Shure: руководство SM58, направленность и работа с микрофоном",
+          "url": "https://pubs.shure.com/view/guide/SM58/en-US.pdf"
+        }
+      ],
+      "h1": "Shure SM58: голос и работа с расстоянием",
+      "robots": [],
+      "viewport": 1363
+    }
+  },
+  "expanded": {
+    "open": "",
+    "primaryLinkVisible": true
+  },
+  "closedAgain": true,
+  "primaryLinkHiddenWhenClosed": true,
+  "scope": "One desktop browser viewport: commercial-to-editorial navigation, independent headings and canonical, no robots restriction, documentation below footer, expand/collapse. Mobile viewport matrix not tested.",
+  "screenshot": "dual-index-documentation-1791380544167.jpg"
+}
