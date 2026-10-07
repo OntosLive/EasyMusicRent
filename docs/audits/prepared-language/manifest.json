@@ -298,10 +298,12 @@
     "local_synchronization_proof": "docs/audits/2026-10-07-local-execution-recovery-proof.json",
     "public_equality_proof": "docs/audits/2026-10-07-public-build-equality-proof.json",
     "validation_record": "docs/audits/2026-10-07-execution-recovery-validation.json",
-    "scope": "Nine captured public files match the exact base build. This is sampled public-byte verification; historical prepared queues remain closed."
+    "scope": "Nine captured public files match the exact base build. This is sampled public-byte verification; historical prepared queues remain closed.",
+    "completed_package_release": "docs/audits/2026-10-07-execution-recovery-release-confirmation.json",
+    "changed_page_public_verification": "docs/audits/2026-10-07-gewa-public-release-verification.json"
   },
   "current_wording_followup": {
-    "status": "reviewed_local_overlay_pending_release",
+    "status": "integrated_and_release_confirmed",
     "base_commit": "8d869697a32b17193339c584bd6901423448f3c3",
     "slug": "gewa-maestro1-skripka-v-arendu",
     "pages": 1,
@@ -309,7 +311,22 @@
     "candidate": "content/sections/zzzz69-public-wording-precision.json",
     "candidate_sha256": "8cc4089c03054fc58dba12a9fbc1189e85c8a8841996548c624bf5cfebf1d488",
     "review_record": "docs/audits/2026-10-07-gewa-wording-precision.json",
-    "release_status": "pending",
-    "counting_note": "A separate subsequent wording correction; it does not change the closed semantic package counts of 62 reviewed pages, 19 enrich records and 25 operations."
+    "release_status": "completed",
+    "counting_note": "A separate subsequent wording correction; it does not change the closed semantic package counts of 62 reviewed pages, 19 enrich records and 25 operations.",
+    "integrated_overlay": "content/sections/zzzz69-public-wording-precision.json",
+    "release_head_sha": "a670ee10251c9bc519a9b068f210127b35c62a59",
+    "release_run_id": 37574461872,
+    "release_conclusion": "success",
+    "release_confirmation": "docs/audits/2026-10-07-execution-recovery-release-confirmation.json",
+    "public_verification": "docs/audits/2026-10-07-gewa-public-release-verification.json",
+    "public_html_sha256": "c4bcbead60bafacf8d2441253a1aa3f9815790b4a0214b717b85d8de99b029c5"
+  },
+  "latest_content_release": {
+    "head_sha": "a670ee10251c9bc519a9b068f210127b35c62a59",
+    "run_id": 37574461872,
+    "status": "completed",
+    "conclusion": "success",
+    "confirmation": "docs/audits/2026-10-07-execution-recovery-release-confirmation.json",
+    "public_verification": "docs/audits/2026-10-07-gewa-public-release-verification.json"
   }
 }

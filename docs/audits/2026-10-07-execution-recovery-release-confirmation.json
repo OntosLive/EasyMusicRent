@@ -1,0 +1,123 @@
+{
+  "head_sha": "a670ee10251c9bc519a9b068f210127b35c62a59",
+  "tree_sha": "765e44fe20d278fb1a5e1be379ce09667bb2ed54",
+  "release_run_id": 37574461872,
+  "release_status": "completed",
+  "release_conclusion": "success",
+  "release_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37574461872",
+  "build_job_id": 112640130711,
+  "deploy_job_id": 112640809347,
+  "tests": {
+    "count": 209,
+    "seconds": 121.001,
+    "result": "passed"
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "html_paths": 3888,
+  "html_path_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "all_html_paths_preserved": true,
+  "graph": {
+    "metric_definitions": {
+      "top_level": "Unique explicit subject routes after alias normalization, excluding self-links and duplicate targets. Direct parent/child routes remain; legacy lateral_* names are retained for comparison with earlier reports.",
+      "strict_lateral": "Explicit routes excluding declared direct parents and direct children. Neither graph includes automatic child routes added by core.connect.",
+      "thin_leaf": "No declared children and no outgoing route in the measured graph.",
+      "hygiene_counts": "Every self-link occurrence and every duplicate after the first canonical target. A repeated self-link contributes to both counts; both block preflight.",
+      "model_pages": "Existing slug-based cohort: subjects ending in -v-arendu."
+    },
+    "subjects": 1901,
+    "errors": [],
+    "error_count": 0,
+    "link_edges": 5285,
+    "pages_with_links": 1859,
+    "pages_without_links": 42,
+    "lateral_coverage_pct": 97.79,
+    "parent_edges": 1885,
+    "parents_with_children": 215,
+    "leaf_pages": 1686,
+    "thin_leaf_pages": 0,
+    "thin_leaf_pct": 0,
+    "pages_without_lateral_inbound": 269,
+    "model_pages": 409,
+    "model_pages_with_links": 409,
+    "model_lateral_coverage_pct": 100,
+    "model_thin_leaves": 0,
+    "root_pages": 16,
+    "duplicate_route_count": 0,
+    "self_link_count": 0,
+    "strict_lateral": {
+      "link_edges": 3757,
+      "pages_with_links": 1745,
+      "pages_without_links": 156,
+      "lateral_coverage_pct": 91.79,
+      "thin_leaf_pages": 0,
+      "thin_leaf_pct": 0,
+      "pages_without_lateral_inbound": 647,
+      "model_pages_with_links": 409,
+      "model_lateral_coverage_pct": 100,
+      "model_thin_leaves": 0
+    }
+  },
+  "branches": {
+    "status": "identical",
+    "main": "a670ee10251c9bc519a9b068f210127b35c62a59",
+    "codex_active": "a670ee10251c9bc519a9b068f210127b35c62a59"
+  },
+  "package": "execution-originals-public-verification-and-gewa-wording",
+  "base_commit": "8d869697a32b17193339c584bd6901423448f3c3",
+  "recorded_date": "2026-10-07",
+  "source": "Complete GitHub Actions build/deploy job logs, exact remote comparison, local candidate byte comparison and fresh public HTTP response.",
+  "candidate": {
+    "path": "content/sections/zzzz69-public-wording-precision.json",
+    "sha256": "8cc4089c03054fc58dba12a9fbc1189e85c8a8841996548c624bf5cfebf1d488",
+    "pages": 1,
+    "text_leaves": 1,
+    "changed_compiled_html_files": 1,
+    "other_html_files_byte_equal": 3887
+  },
+  "artifact_path_method": "Sorted unique index.html paths extracted from the upload-pages-artifact tar listing in complete build logs; SHA256 of JSON.stringify(sorted_paths) equals the validated local build and preserved 3888-path set.",
+  "build_log_sha256": "e1edd652c0094bd2d47abe330a8356e14462e1a6a58ee22f1479ff18321fca78",
+  "deploy_log_sha256": "ffe38fafc7ef0d1c0bb9c91242db141f196cc6bf7548b863459d9800735ba556",
+  "deployment": {
+    "head_sha": "a670ee10251c9bc519a9b068f210127b35c62a59",
+    "reported_success_at_utc": "2026-10-07T05:06:35.1626771Z",
+    "environment_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/",
+    "evidence_lines": [
+      "2026-10-07T05:06:30.9798237Z Created deployment for a670ee10251c9bc519a9b068f210127b35c62a59, ID: a670ee10251c9bc519a9b068f210127b35c62a59",
+      "2026-10-07T05:06:35.1626771Z Reported success!",
+      "2026-10-07T05:06:35.1891992Z Evaluated environment url: https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/"
+    ]
+  },
+  "independent_public_html_check": {
+    "status": "observed_exact_candidate_bytes",
+    "proof": "2026-10-07-gewa-public-release-verification.json",
+    "requested_at_utc": "2026-10-07T05:07:46.229793+00:00",
+    "finished_at_utc": "2026-10-07T05:07:53.332989+00:00",
+    "status_code": 200,
+    "public_sha256": "c4bcbead60bafacf8d2441253a1aa3f9815790b4a0214b717b85d8de99b029c5",
+    "byte_equal_to_candidate_build": true,
+    "new_complete_paragraph_present": true,
+    "old_complete_paragraph_absent": true
+  },
+  "local_alignment": {
+    "from": "8d869697a32b17193339c584bd6901423448f3c3",
+    "to": "a670ee10251c9bc519a9b068f210127b35c62a59",
+    "fast_forward_parent_verified": true,
+    "all_23_files_matched_published_blob_sha_before_alignment": true,
+    "operation": "git reset --mixed verified descendant; working-tree files preserved",
+    "clean_after_alignment": true,
+    "original_recovery_stash_preserved": "f6da4d29256b85d7b78a11b41ebe0ca12f6f7736"
+  },
+  "preserved_originals": {
+    "files": 6,
+    "bytes": 1405852,
+    "manifest": "2026-10-07-restored-evidence-manifest.json"
+  },
+  "scope_note": "The content and recovered evidence package is confirmed. A following documentation checkpoint records these observed results and has its own release gate; no recursive commit solely to record that checkpoint's own SHA is required."
+}

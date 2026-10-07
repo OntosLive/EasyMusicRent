@@ -1,6 +1,6 @@
 {
   "status": "all_prepared_approved_operations_integrated_and_release_confirmed",
-  "base_for_pending_work": "The historical prepared queues are closed with zero remaining approved operations. Base 8d869697a32b17193339c584bd6901423448f3c3 has a successful release; the separate current wording follow-up below is pending its own release.",
+  "base_for_pending_work": "All known approved queues, including the separate GEWA wording follow-up, are integrated with zero remaining operations. Content commit a670ee10251c9bc519a9b068f210127b35c62a59 has a successful release and fresh public-byte verification. A subsequent documentation checkpoint has its own CI gate.",
   "navigation": {
     "frozen_candidate": "prepared-navigation/mixed-language-label-residual-candidate.json",
     "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
@@ -89,13 +89,14 @@
     "audit": "2026-10-07-documentation-consistency.json"
   },
   "remaining_approved_operations": 0,
-  "scope_note": "The historical prepared queues are closed with zero remaining approved operations. The separate current wording follow-up is tracked below and awaits its own release. This status does not assert universal factual verification, stock availability or completion of every future project task.",
+  "scope_note": "All known approved prepared queues and the separate wording follow-up are closed. This status does not assert universal factual verification, stock availability or completion of every future project task. It does not pre-confirm the release of the documentation checkpoint recording these results.",
   "latest_content_release": {
-    "head_sha": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
-    "run_id": 37559271966,
+    "head_sha": "a670ee10251c9bc519a9b068f210127b35c62a59",
+    "run_id": 37574461872,
     "status": "completed",
     "conclusion": "success",
-    "confirmation": "2026-10-07-semantic-residual-release-confirmation.json"
+    "confirmation": "2026-10-07-execution-recovery-release-confirmation.json",
+    "public_verification": "2026-10-07-gewa-public-release-verification.json"
   },
   "recovery_checkpoint": "2026-10-07-project-recovery-checkpoint.md",
   "current_recovery_audit": "2026-10-07-execution-and-public-recovery.md",
@@ -108,7 +109,7 @@
     "public_equality_proof": "2026-10-07-public-build-equality-proof.json"
   },
   "current_wording_followup": {
-    "status": "reviewed_local_overlay_pending_release",
+    "status": "integrated_and_release_confirmed",
     "base_commit": "8d869697a32b17193339c584bd6901423448f3c3",
     "slug": "gewa-maestro1-skripka-v-arendu",
     "pages": 1,
@@ -116,7 +117,14 @@
     "candidate": "content/sections/zzzz69-public-wording-precision.json",
     "candidate_sha256": "8cc4089c03054fc58dba12a9fbc1189e85c8a8841996548c624bf5cfebf1d488",
     "review_record": "2026-10-07-gewa-wording-precision.json",
-    "release_status": "pending",
-    "counting_note": "A separate subsequent wording correction; it does not change the closed semantic package counts of 62 reviewed pages, 19 enrich records and 25 operations."
+    "release_status": "completed",
+    "counting_note": "A separate subsequent wording correction; it does not change the closed semantic package counts of 62 reviewed pages, 19 enrich records and 25 operations.",
+    "integrated_overlay": "content/sections/zzzz69-public-wording-precision.json",
+    "release_head_sha": "a670ee10251c9bc519a9b068f210127b35c62a59",
+    "release_run_id": 37574461872,
+    "release_conclusion": "success",
+    "release_confirmation": "2026-10-07-execution-recovery-release-confirmation.json",
+    "public_verification": "2026-10-07-gewa-public-release-verification.json",
+    "public_html_sha256": "c4bcbead60bafacf8d2441253a1aa3f9815790b4a0214b717b85d8de99b029c5"
   }
 }
