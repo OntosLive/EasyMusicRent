@@ -32,12 +32,16 @@ jobs:
         run: |
           python scripts/site_core.py --output _site
           touch _site/.nojekyll
+      - name: Install invisible Yandex Metrika counter
+        run: python scripts/install_metrika.py --site _site
       - name: Publish IndexNow verification key
         run: |
           key="$(tr -d '\r\n' < content/indexnow-key.txt)"
           cp content/indexnow-key.txt "_site/$key.txt"
       - name: Validate complete published artifact
         run: python scripts/validate_site.py --site _site
+      - name: Verify Yandex Metrika covers all live HTML documents
+        run: python scripts/install_metrika.py --site _site --check
       - name: Audit page roles and rental language
         run: python scripts/page_contract_audit.py --site _site --report _audit/page-contract.json
       - name: Save release audit

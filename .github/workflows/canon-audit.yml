@@ -31,7 +31,9 @@ jobs:
           python -m compileall -q scripts tests
           python -m unittest discover -s tests -v
           python scripts/site_core.py --output _preview
+          python scripts/install_metrika.py --site _preview
           python scripts/validate_site.py --site _preview
+          python scripts/install_metrika.py --site _preview --check
           python scripts/page_contract_audit.py --site _preview --report _audit/page-contract.json
       - name: Snapshot exact tested sources
         if: always()
