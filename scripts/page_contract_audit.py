@@ -2,6 +2,7 @@
 """Audit page-role links and rental-language distribution across the built site."""
 from __future__ import annotations
 import argparse, json, re
+import xml.etree.ElementTree as ET
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -46,11 +47,12 @@ def main():
     rows=[]
     self_links=[]
     layer_counts=Counter()
-    sitemap=BeautifulSoup((site/'sitemap.xml').read_text(encoding='utf-8'),'xml')
+    sitemap=ET.parse(site/'sitemap.xml').getroot()
+    namespace={'sm':'http://www.sitemaps.org/schemas/sitemap/0.9'}
     detail_routes=sorted(
-        urlsplit(loc.get_text(strip=True)).path
-        for loc in sitemap.find_all('loc')
-        if urlsplit(loc.get_text(strip=True)).path.startswith('/details/')
+        urlsplit(loc.text.strip()).path
+        for loc in sitemap.findall('sm:url/sm:loc', namespace)
+        if loc.text and urlsplit(loc.text.strip()).path.startswith('/details/')
     )
     for route in detail_routes:
         path = site / route.strip('/') / 'index.html'
