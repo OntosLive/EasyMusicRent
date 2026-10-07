@@ -1,0 +1,30 @@
+name: Check rental capital lab
+on:
+  push:
+    branches: ['codex/rental-finmodel-*']
+    paths:
+      - 'tools/rental_finmodel/**'
+      - 'tests/test_rental_finmodel.py'
+      - '.github/workflows/rental-finmodel-check.yml'
+  pull_request:
+    paths:
+      - 'tools/rental_finmodel/**'
+      - 'tests/test_rental_finmodel.py'
+      - '.github/workflows/rental-finmodel-check.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: HTML and financial contracts
+        run: python -m unittest discover -s tests -p test_rental_finmodel.py -v
+      - name: Confirm no trackers and no indexing directives
+        run: |
+          grep -q 'noindex,nofollow,noarchive' tools/rental_finmodel/index.html
+          if grep -q 'https://mc.yandex.ru/' tools/rental_finmodel/index.html; then exit 1; fi

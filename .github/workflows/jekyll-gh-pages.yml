@@ -44,6 +44,14 @@ jobs:
         run: python scripts/install_metrika.py --site _site --check
       - name: Audit page roles and rental language
         run: python scripts/page_contract_audit.py --site _site --report _audit/page-contract.json
+      - name: Publish separate non-indexed rental finance laboratory
+        run: |
+          test ! -e _site/lab/arenda-economics/index.html
+          mkdir -p _site/lab/arenda-economics
+          cp tools/rental_finmodel/index.html _site/lab/arenda-economics/index.html
+          grep -q 'noindex,nofollow,noarchive' _site/lab/arenda-economics/index.html
+          grep -q 'function simulate(input)' _site/lab/arenda-economics/index.html
+          if grep -q 'lab/arenda-economics' _site/sitemap.xml; then exit 1; fi
       - name: Save release audit
         if: always()
         uses: actions/upload-artifact@v4
