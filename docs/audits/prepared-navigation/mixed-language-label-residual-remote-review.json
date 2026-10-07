@@ -1,0 +1,37 @@
+{
+  "status": "approved_exact_source_replay",
+  "reviewer": "graph_audit",
+  "root_approved": true,
+  "source_base_commit": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "group06_content_commit": "dd6dbb9f6164b8e939b820643cf7223fde4ea669",
+  "frozen_candidate_sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
+  "supplemental_sha256": "976d5dabc8315c914d7ee58f398b3085d46ada3339b19e0f50c8919e2ce0ad4a",
+  "explicit_labels_replayed": 51,
+  "source_files_modified": 15,
+  "source_files_checked": 17,
+  "preceding_group06_label_operations": 20,
+  "intersection_by_locator": [],
+  "intersection_by_source_target": [],
+  "shared_files_different_locations": [
+    "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+    "content/sections/zzzz20-conductivity-backline-edrum-bridges.json"
+  ],
+  "grammar_operations": 3,
+  "grammar_pages": 2,
+  "complete_intro_arrays_checked": 2,
+  "concertina_incoming_definitions_checked": 4,
+  "old_h1_copies_in_known_incoming_definitions": 0,
+  "ogden_wording": "Ogden: натяжение как у педальной арфы, без педалей",
+  "full_context_review": {
+    "source_and_target_pages": 74,
+    "latin_distinct_variants": 633,
+    "occurrences": 1190,
+    "all_navigation_captions_scanned": 6066,
+    "fix_variants": 29,
+    "fix_occurrences": 51,
+    "keep_variants": 604,
+    "keep_occurrences": 1139,
+    "automatic_latin_children_kept": 36
+  },
+  "scope_note": "Source-value, owner, href, target and JSON-path replay plus previously completed full contextual reading. No new compiler or suite run was performed by this reviewer. Root repeats the exact source checks at the actual group06 commit; the release workflow validates the assembled output."
+}

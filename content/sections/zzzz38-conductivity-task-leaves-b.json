@@ -2,7 +2,7 @@
   "navigation": {
     "klavishnye-dlya-myuzikla": [
       {
-        "label": "Инструменты для pit band мюзикла",
+        "label": "Инструменты для пит-бенда мюзикла",
         "href": "/instrumenty-dlya-myuziklovogo-pit-benda/"
       },
       {
@@ -46,7 +46,7 @@
         "href": "/instrumenty-dlya-teatralnogo-ansamblya/"
       },
       {
-        "label": "Инструменты для live session в студии",
+        "label": "Инструменты для одновременной записи в студии",
         "href": "/instrumenty-dlya-studiynoy-live-sessii/"
       }
     ],
@@ -56,7 +56,7 @@
         "href": "/instrumenty-dlya-vokalnogo-dueta-s-gitaroy/"
       },
       {
-        "label": "Инструменты для live session в студии",
+        "label": "Инструменты для одновременной записи в студии",
         "href": "/instrumenty-dlya-studiynoy-live-sessii/"
       }
     ],
@@ -76,7 +76,7 @@
         "href": "/instrumenty-dlya-saundtreka-kamernogo-sostava/"
       },
       {
-        "label": "Инструменты для live session в студии",
+        "label": "Инструменты для одновременной записи в студии",
         "href": "/instrumenty-dlya-studiynoy-live-sessii/"
       }
     ],
@@ -126,7 +126,7 @@
         "href": "/sintezator-dlya-saund-dizayna/"
       },
       {
-        "label": "Сценические клавишные для слоя piano и pad",
+        "label": "Сценические клавишные: фортепиано и подкладка",
         "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/"
       }
     ],
@@ -226,7 +226,7 @@
         "href": "/instrumenty-dlya-festivalnoy-kamernoy-programmy/"
       },
       {
-        "label": "Backline для фестиваля",
+        "label": "Бэклайн для фестиваля",
         "href": "/backline-dlya-festivalya/"
       }
     ],
@@ -292,7 +292,7 @@
     ],
     "akkordeon-dlya-gastroley": [
       {
-        "label": "Backline для гастрольного тура",
+        "label": "Бэклайн для гастрольного тура",
         "href": "/backline-dlya-gastrolnogo-tura/"
       },
       {
@@ -302,7 +302,7 @@
     ],
     "bandoneon-dlya-tango-proekta": [
       {
-        "label": "Инструменты для tango-квартета",
+        "label": "Инструменты для танго-квартета",
         "href": "/instrumenty-dlya-tango-kvarteta/"
       },
       {
@@ -312,11 +312,11 @@
     ],
     "kontsertina-dlya-ansamblya": [
       {
-        "label": "Концертина для folk-проекта",
+        "label": "Концертина для фолк-проекта",
         "href": "/kontsertina-dlya-folk-proekta/"
       },
       {
-        "label": "Инструменты для folk-группы",
+        "label": "Инструменты для фолк-группы",
         "href": "/instrumenty-dlya-folk-gruppy/"
       }
     ]

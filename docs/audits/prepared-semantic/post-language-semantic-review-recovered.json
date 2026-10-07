@@ -1,0 +1,398 @@
+{
+  "status": "semantic_review_complete_candidate_exactly_recovered_not_integrated",
+  "author": "navigation_cleanup",
+  "independent_reader": "project_history",
+  "root_approved": true,
+  "counts": {
+    "full_contexts_read": 62,
+    "enrich": 19,
+    "keep": 43,
+    "accepted_exact_operations": 25
+  },
+  "independent_amendments": [],
+  "original_review_sha256": "09867e6cda7df7b8a22cf2ac3217117238d535839117689d5c3e544d89d45a80",
+  "candidate_sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+  "records": [
+    {
+      "slug": "violonchel-stentor",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "fender-player-ii-telecaster-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrumenty-dlya-fortepiannogo-trio",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "kontrafagot",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "yamaha-b3-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "pianino-dlya-videozayavki",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "ampeg-svt-cl-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "ampeg-svt-810e-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "fazioli-f278-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "smychkovye-cremona-saga",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "kawai-k200-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "bayan-yupiter-2d-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "smychkovye-knilling",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "goronok-nova-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "elektrogitara-dlya-perehoda-s-akusticheskoy",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "klassicheskaya-gitara-na-ekzamen",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "valtorna-na-proslushivanie",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "domra-pered-pokupkoy",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "bandoneon-pered-pokupkoy",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "backline-dlya-klubnoy-stseny",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrumenty-dlya-pervogo-duhovogo-ansamblya",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrument-po-programme-ekzamena",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrument-po-programme-proslushivaniya",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrument-esli-povtornaya-nota-ne-uspevaet",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "alhambra-4p-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "gusli-s-diapazonom-po-programme",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "shen-sb150-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "yamaha-fs800-v-arendu",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "kongi-dlya-pervogo-opyta",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "arcata-giovanni-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+      "decision": "enrich",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "garmon",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "kontrafagot-dlya-pervogo-opyta",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "trombon-s-kvartventilem-dlya-perehoda",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    },
+    {
+      "slug": "sintezator-pered-pokupkoy",
+      "decision": "keep",
+      "full_context_read_by_author": true,
+      "full_context_read_by_independent_reviewer": true
+    }
+  ],
+  "preserved": [
+    "Dates of specific examinations and performances",
+    "Testing with familiar fragments",
+    "Setup, body size and adaptation time",
+    "Instrument model facts and source URLs",
+    "Exact kit and availability confirmation",
+    "Exercise sequence for congas and first contrabassoon experience"
+  ],
+  "scope_note": "This recovered decision manifest records the confirmed reading and verdict. It is not represented as a byte-identical copy of the original detailed review whose full prose was unavailable."
+}

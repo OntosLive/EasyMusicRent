@@ -1,0 +1,29 @@
+{
+  "status": "single_confirmed_conflict_resolved",
+  "reviewer": "graph_audit",
+  "root_approved": true,
+  "markdown_documents_read": 21,
+  "workflows_read": 2,
+  "research_registers_read": 5,
+  "changed_file": "docs/page-pair-architecture.md",
+  "changed_section": 7,
+  "before": "## 7. Текущий статус /details/\n\n`/details/` остаётся полезным переходным техническим слоем и страховочной копией полной страницы.\n\nЭто не обязательно финальная публичная информационная архитектура.\n\nСамостоятельные страницы знания в будущем могут получать собственные предметные адреса, например:\n- /models/...;\n- /guides/...;\n- другие семейства, когда их смысл доказан.\n\nДо этого момента /details/ может оставаться noindex.\n\n",
+  "after": "## 7. Действующий статус /details/\n\n`/details/<slug>/` — действующий адрес самостоятельного содержательного раскрытия N.1; для главной используется `/details/`. Раскрытие содержит предметный текст и дочерние переходы перед блоком 01.\n\nДо отдельной проверки поисковой самостоятельности раскрытия сохраняют `noindex,follow`, как установлено [активным каноном](active-canon-2026-10-04.md).\n\nРанняя идея считать `/details/` переходной страховочной копией и позднее выносить знание в `/models/` или `/guides/` относится к истории формирования пары. Она не задаёт текущую миграцию адресов. Порядок продолжения определяет [CURRENT-WORK-STATE.md](CURRENT-WORK-STATE.md).\n\n",
+  "source_blob_sha": "02e3f927976507d3121b45237da59ccbcea3522b",
+  "source_sha256": "908a6bc9098eb794eaa7635eea4e74b9e762b21abb221475ba2e79203c875902",
+  "result_sha256": "7397c47b9a56175557d9ad154dcce4fb85e0e94afccc1550d492fe6b2aa1081d",
+  "basis": [
+    "docs/active-canon-2026-10-04.md: public structure and indexing",
+    "docs/project-concept.md: independent role of N.1",
+    "docs/canon.md: semantic functions of page pairs"
+  ],
+  "other_instructions_consistent": [
+    "main and codex/active",
+    "exact release gate",
+    "performing-music identity",
+    "retired public N.2",
+    "learning access for capabilities still being developed",
+    "historical audit figures remain historical"
+  ],
+  "note": "Read-only review completed before the execution transport interruption; final document patch reconstructed from the exact GitHub source and approved replacement. No historical audit rewritten."
+}

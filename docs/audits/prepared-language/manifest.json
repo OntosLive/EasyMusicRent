@@ -175,8 +175,8 @@
   "continuation": "../../CURRENT-WORK-STATE.md",
   "file_path_base": "repository root",
   "navigation_residual": {
-    "status": "provisional_not_integrated",
-    "requires": "After successful publication of group06, apply 51 verified explicit caption changes, the approved Ogden wording and three supplemental grammar changes; confirm exact source before values.",
+    "status": "integrated_with_root_refinement",
+    "requires": "Confirm the residual package exact SHA release; no remaining operation in this caption set.",
     "files": [
       {
         "path": "docs/audits/prepared-navigation/mixed-language-label-residual-review.json",
@@ -191,7 +191,42 @@
         "sha256": "976d5dabc8315c914d7ee58f398b3085d46ada3339b19e0f50c8919e2ce0ad4a"
       }
     ],
-    "compiler_input": false
+    "compiler_input": false,
+    "explicit_label_changes": 51,
+    "source_files_modified": 15,
+    "source_files_checked": 17,
+    "grammar_pages": 2,
+    "grammar_fields": 3,
+    "integration_record": "docs/audits/2026-10-07-language-residual-integration.json",
+    "root_candidate": "docs/audits/prepared-navigation/mixed-language-label-residual-root-candidate.json",
+    "independent_review": "docs/audits/prepared-navigation/mixed-language-label-residual-remote-review.json"
   },
-  "pending_work": "docs/audits/2026-10-07-pending-reviewed-work.json"
+  "pending_work": "docs/audits/2026-10-07-pending-reviewed-work.json",
+  "semantic_residual": {
+    "status": "prepared_exact_candidate_recovered_not_integrated",
+    "reviewed": 62,
+    "enrich": 19,
+    "keep": 43,
+    "operations": 25,
+    "candidate_sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+    "files": [
+      {
+        "path": "docs/audits/prepared-semantic/post-language-semantic-candidate.json",
+        "sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c"
+      },
+      {
+        "path": "docs/audits/prepared-semantic/post-language-semantic-operations-recovered.json",
+        "sha256": "9624d274f3700d71952bf5fcf1446aba3c3521f9d2f8aa737d7b85a33cf58f7e"
+      },
+      {
+        "path": "docs/audits/prepared-semantic/post-language-semantic-recovery.json",
+        "sha256": "0670041dc92d5ac58d23a55eca525a3a25d3ce4a47aa3a71c9ef032909971d82"
+      },
+      {
+        "path": "docs/audits/prepared-semantic/post-language-semantic-review-recovered.json",
+        "sha256": "88bd327ef185d66a6466561a7a8401701c167beb86662b71b267f795ce15296c"
+      }
+    ],
+    "compiler_input": false
+  }
 }

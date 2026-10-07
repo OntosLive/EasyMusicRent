@@ -22,11 +22,11 @@
     ],
     "boss-rc-505mkii-v-arendu": [
       {"label":"Луп-станция для вокала","href":"/lup-stantsiya-dlya-vokala/"},
-      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+      {"label":"Одновременная запись в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
     ],
     "boss-rc-600-v-arendu": [
-      {"label":"Backline для первого концерта","href":"/backline-dlya-pervogo-kontserta/"},
-      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+      {"label":"Бэклайн для первого концерта","href":"/backline-dlya-pervogo-kontserta/"},
+      {"label":"Одновременная запись в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
     ],
     "yamaha-ysl354-v-arendu": [
       {"label":"Первый тромбон","href":"/trombon-dlya-pervogo-instrumenta/"},
@@ -61,7 +61,7 @@
       {"label":"Домашние занятия","href":"/akkordeon-dlya-domashnih-zanyatiy/"}
     ],
     "radial-jdi-v-arendu": [
-      {"label":"Первый passive DI","href":"/passivnyy-di-boks-dlya-pervogo-opyta/"},
+      {"label":"Первый пассивный DI-бокс","href":"/passivnyy-di-boks-dlya-pervogo-opyta/"},
       {"label":"DI-бокс перед покупкой","href":"/di-boks-pered-pokupkoy/"}
     ],
     "squier-affinity-stratocaster-v-arendu": [
@@ -81,12 +81,12 @@
       {"label":"Саксофон перед покупкой","href":"/saksofon-pered-pokupkoy/"}
     ],
     "roland-spd-sx-pro-v-arendu": [
-      {"label":"Backline для ритм-секции","href":"/backline-dlya-ritm-sektsii/"},
-      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+      {"label":"Бэклайн для ритм-секции","href":"/backline-dlya-ritm-sektsii/"},
+      {"label":"Одновременная запись в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
     ],
     "roland-sp-404mkii-v-arendu": [
       {"label":"Семплер для театральных эффектов","href":"/sempler-dlya-teatralnyh-effektov/"},
-      {"label":"Live session в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
+      {"label":"Одновременная запись в студии","href":"/instrumenty-dlya-studiynoy-live-sessii/"}
     ],
     "yamaha-yhr567-v-arendu": [
       {"label":"Переход на двойную валторну","href":"/valtorna-dlya-perehoda-na-dvoynuyu-sistemu/"},

@@ -1,0 +1,39 @@
+{
+  "package": "public-language-residual",
+  "base_commit": "dd6dbb9f6164b8e939b820643cf7223fde4ea669",
+  "input_release_confirmation": "2026-10-07-language-06-release-confirmation.json",
+  "source_checks": {
+    "result": "passed",
+    "exact_label_scalars": 51,
+    "exact_grammar_scalars": 3,
+    "source_label_files": 15,
+    "grammar_array_lengths_before_after": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "new_urls": 0,
+    "route_targets_and_order_unchanged": true,
+    "all_other_source_scalars_unchanged": true
+  },
+  "compiler_and_css_unchanged": true,
+  "test_files_unchanged": true,
+  "expected_output": {
+    "subjects": 1901,
+    "ordinary_documents": 3810,
+    "redirects": 78,
+    "html_paths": 3888,
+    "sitemap_entries": 1901,
+    "unreachable": 0,
+    "errors": []
+  },
+  "baseline_artifact_html_paths_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "local_execution": "Unavailable after the shared execution transport failed. No local suite/build/compiled-graph result is invented for this package.",
+  "required_ci": "The existing release workflow runs all 209 tests, the graph check, build and full validator before deployment. Read its exact SHA result and compare the emitted HTML path set to the 3888-path baseline after publication.",
+  "publication_status": "requires_exact_sha_confirmation"
+}

@@ -1,6 +1,6 @@
 {
-  "status": "prepared_work_not_integrated",
-  "base_for_pending_work": "content of language06, whose release must be confirmed first",
+  "status": "navigation_and_documentation_integrated_semantic_prepared",
+  "base_for_pending_work": "Residual package exact SHA after its successful release; current input is dd6dbb9f6164b8e939b820643cf7223fde4ea669",
   "navigation": {
     "frozen_candidate": "prepared-navigation/mixed-language-label-residual-candidate.json",
     "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
@@ -32,7 +32,9 @@
     "supplemental_pages": 2,
     "supplemental_fields": 3,
     "source_files_modified": 15,
-    "source_files_checked_including_incoming_concertina_links": 17
+    "source_files_checked_including_incoming_concertina_links": 17,
+    "status": "integrated_requires_exact_sha_release_confirmation",
+    "integration_record": "2026-10-07-language-residual-integration.json"
   },
   "semantic": {
     "full_contexts_read": 62,
@@ -48,8 +50,12 @@
     "frozen_amendments_sha256": "6e45a1537652539ab619b0931c91788b7ad6c41fd94ff79b6beff04ea3dab2cc",
     "full_arrays": 20,
     "quote_fields": 1,
-    "mechanical_final_binding": "pending because execution transport failed; do not claim the final cross-review file saved",
-    "purpose": "Remove internal descriptions of pages/branches and requirements to have already mastered a capability before gaining access to learn it. Preserve dates, familiar test fragments, model facts, exact kits and source URLs."
+    "mechanical_final_binding": "Exact original candidate SHA reproduced from current complete source fields and all 25 recovered operations; see prepared-semantic recovery record.",
+    "purpose": "Remove internal descriptions of pages/branches and requirements to have already mastered a capability before gaining access to learn it. Preserve dates, familiar test fragments, model facts, exact kits and source URLs.",
+    "status": "exact_frozen_candidate_recovered_not_integrated",
+    "candidate": "prepared-semantic/post-language-semantic-candidate.json",
+    "recovery": "prepared-semantic/post-language-semantic-recovery.json",
+    "independent_review": "prepared-semantic/post-language-semantic-review-recovered.json"
   },
   "documentation": {
     "documents_read": 21,
@@ -58,6 +64,8 @@
     "reader": "graph_audit",
     "confirmed_issue": "docs/page-pair-architecture.md section 7 still describes /details/ as a transitional backup under Current status",
     "approved_resolution": "Describe /details/<slug>/ as the current independent N.1 document, retaining noindex,follow and keeping the early /models or /guides idea as history only.",
-    "repository_modified_by_reviewer": false
+    "repository_modified_by_reviewer": false,
+    "status": "resolved_in_docs/page-pair-architecture.md",
+    "audit": "2026-10-07-documentation-consistency.json"
   }
 }

@@ -1,0 +1,51 @@
+{
+  "head_sha": "dd6dbb9f6164b8e939b820643cf7223fde4ea669",
+  "release_run_id": 37557834509,
+  "release_build_job_id": 112588058603,
+  "canon_run_id": 37557834507,
+  "canon_job_id": 112588058367,
+  "tests": {
+    "count": 209,
+    "seconds": 120.741,
+    "result": "passed"
+  },
+  "canon_tests": {
+    "count": 209,
+    "seconds": 118.926,
+    "result": "passed"
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "artifact_html_paths": 3888,
+  "artifact_html_paths_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "source": "GitHub Actions complete job logs",
+  "release": {
+    "id": 37557834509,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "dd6dbb9f6164b8e939b820643cf7223fde4ea669",
+    "url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37557834509"
+  },
+  "canon": {
+    "id": 37557834507,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "dd6dbb9f6164b8e939b820643cf7223fde4ea669",
+    "url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37557834507"
+  },
+  "graph_summary": {
+    "subjects": 1901,
+    "link_edges": 5285,
+    "strict_link_edges": 3757,
+    "duplicate_route_count": 0,
+    "self_link_count": 0,
+    "errors": []
+  },
+  "note": "Confirms the previous language06 package, including successful deployment. It does not certify the new residual package."
+}
