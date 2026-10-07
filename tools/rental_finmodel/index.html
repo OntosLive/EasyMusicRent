@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Интерактивная модель аренды инструментов: капитализация фонда, депозиты, кредиты и денежный поток. Все расчёты выполняются в браузере.">
+<title>Арендный синхротрон | ONTOS LAB</title>
+<style>
+:root{--paper:#f5f2e9;--white:#fffefa;--ink:#182322;--muted:#667571;--line:#d9dfd8;--dark:#1a2e2a;--moss:#2e7663;--peach:#cf7949;--red:#b45042;--blue:#3f6495;--shade:#ecf0e9;--gold:#9a7428}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #5cae98;outline-offset:2px}
+a{color:var(--moss)}.frame{max-width:1550px;margin:0 auto;padding:24px 26px 48px}
+.header{display:flex;gap:18px;align-items:flex-start;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:17px;margin-bottom:24px}
+.eyebrow{text-transform:uppercase;font-size:11px;letter-spacing:.20em;font-weight:800;color:var(--moss)}.title{font:600 clamp(30px,3.6vw,53px)/1.08 Georgia,"Times New Roman",serif;letter-spacing:-.035em;margin:9px 0 11px}.sub{max-width:720px;color:#566360;font-size:14px;margin:0}.meta{display:flex;flex-wrap:wrap;gap:7px;justify-content:flex-end;max-width:320px}.chip{padding:5px 9px;border:1px solid #bfcac2;border-radius:100px;font-size:11px;color:#53655d;background:#fefcf7;white-space:nowrap}.status{background:#e9efe6;color:#31553f;border-color:#bbd1c1}
+.layout{display:grid;grid-template-columns:310px minmax(0,1fr);gap:22px;align-items:start}.sidebar{background:var(--white);border:1px solid var(--line);border-radius:15px;padding:18px 18px 14px}.sidebar h2{font:600 21px Georgia,serif;margin:0 0 5px}.side-desc{font-size:12px;color:var(--muted);margin:0 0 14px}.control{border-top:1px solid #e7e9e3;padding:12px 0 8px}.control-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}.control label{font-size:12px;color:#31433d;font-weight:680;line-height:1.28}.value-input{width:103px;text-align:right;border:1px solid #cfd7cc;background:#fbfbf7;color:var(--ink);border-radius:8px;padding:7px 8px;font-variant-numeric:tabular-nums;font-size:14px;min-height:35px;min-width:0}.range{width:100%;margin:5px 0 1px;accent-color:var(--moss);cursor:pointer}.hint{font-size:10px;color:var(--muted);margin-top:3px}.unit{font-size:11px;color:#60716a;min-width:16px;text-align:left}.pair{display:flex;gap:5px;align-items:center}.advanced{border-top:1px solid #d3dad1;margin-top:10px}.advanced>summary{cursor:pointer;padding:14px 4px;font-weight:750;font-size:13px}.advanced .control:first-of-type{border-top:0}.controls-footer{color:#67746c;font-size:11px;line-height:1.55;border-top:1px solid #e4e7e0;margin-top:9px;padding-top:14px}
+.dashboard{min-width:0}.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 17px}.btn{border:1px solid #b9c8c0;background:#fffdf6;padding:10px 13px;border-radius:9px;color:#253932;font-size:12px;font-weight:750;min-height:39px}.btn:hover{background:#e9eee7}.btn.dark{background:var(--dark);color:white;border-color:var(--dark)}.btn.dark:hover{background:#355048}.toolbar .spacer{flex:1}.reset{font-weight:500;color:#68756f}.toolnote{font-size:11px;color:var(--muted);flex-basis:100%;margin-top:1px}
+.topline{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:11px}.topline h2{font:600 clamp(21px,2.3vw,30px)/1.2 Georgia,serif;margin:0}.topline span{font-size:12px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}.stat{background:var(--white);border:1px solid var(--line);border-radius:12px;min-width:0;padding:14px 14px 15px;position:relative}.stat strong{font-size:clamp(21px,2.0vw,32px);line-height:1.13;letter-spacing:-.035em;display:block;margin:9px 0 5px;font-variant-numeric:tabular-nums}.stat h3{font-size:11px;color:var(--muted);letter-spacing:.01em;font-weight:650;margin:0}.stat p{font-size:11px;color:#67756d;line-height:1.4;margin:0}.stat.emphasis{background:var(--dark);color:#f6f4e9;border-color:var(--dark)}.stat.emphasis h3,.stat.emphasis p{color:#c2d4c9}.stat .delta{font-weight:650;color:var(--moss);font-size:11px}
+.panel{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:17px 18px;margin-top:15px}.panel h2{font:600 23px/1.1 Georgia,serif;margin:0}.panel p{margin:5px 0;color:var(--muted);font-size:12px}.panel-title{display:flex;gap:8px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}.tabs{display:flex;flex-wrap:wrap;gap:4px;margin:17px 0 12px}.tab{padding:8px 12px;border:1px solid transparent;background:transparent;color:#596861;border-radius:7px;font-size:12px;font-weight:700}.tab[aria-selected="true"]{background:#e2ebe4;border-color:#c7d8ce;color:#164b3d}
+.chart-wrap{position:relative}.chart{width:100%;display:block;height:auto;max-height:380px;min-height:190px;user-select:none;touch-action:pan-y;cursor:crosshair}.chart-readout{font-size:11px;display:flex;flex-wrap:wrap;gap:14px;color:#56665d;margin:10px 0 4px;min-height:18px}.leg{display:inline-flex;align-items:center;gap:6px}.dot{width:9px;height:9px;border-radius:50%;display:inline-block}.pick-day{display:grid;grid-template-columns:1fr 90px;gap:12px;align-items:center;margin-top:9px}.pick-day label{font-size:12px;color:#52635a}.pick-day input[type=range]{width:100%;accent-color:var(--moss)}.pick-day input[type=number]{width:90px;text-align:right;border:1px solid #cbd6ca;border-radius:8px;padding:8px 7px;background:#fbfbf7}.pick-day-hint{font-size:11px;color:#738078;margin-top:2px}
+.milestones{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:13px}.mile{border-top:3px solid #c6d0c8;background:#f9faf6;border-radius:6px;padding:12px 9px 10px;min-width:0}.mile strong{display:block;font-size:clamp(17px,1.65vw,23px);letter-spacing:-.04em}.mile span{font-size:11px;color:#60716b;line-height:1.25;display:block;margin-top:5px}.mile.attain{border-top-color:var(--moss)}.mile.critical{border-top-color:var(--peach)}.mile.none{border-top-color:#aeb7b2}.annotation{background:#f0f5ee;border-left:3px solid var(--moss);padding:12px 14px;color:#324d42;font-size:12px;margin-top:13px;border-radius:3px;line-height:1.6}
+.sensitivity{width:100%;border-collapse:collapse;table-layout:fixed;margin-top:13px}.sensitivity th{text-align:right;border-bottom:2px solid #d6dfd6;padding:8px 7px;font-size:10px;line-height:1.35;color:#65756b}.sensitivity th:first-child,.sensitivity td:first-child{text-align:left;width:37%}.sensitivity td{padding:12px 7px;border-bottom:1px solid #e6ebe4;font-size:12px;text-align:right;line-height:1.3;font-variant-numeric:tabular-nums;vertical-align:middle}.sensitivity td:first-child{font-weight:680;font-variant-numeric:normal}.negative{color:#b45242}.positive{color:#28755e}.neutral{color:#6c7870}.tiny{font-size:11px;color:var(--muted)}.compare{background:#f6f5eb;border:1px dashed #b9c6b8;border-radius:11px;padding:14px;margin-top:12px;display:none}.compare.shown{display:block}.compare strong{color:var(--dark)}
+.audit{display:grid;grid-template-columns:1fr 1fr;gap:14px}.audit table{border-collapse:collapse;width:100%}.audit td{font-size:12px;border-bottom:1px solid #e2e6de;padding:7px 0}.audit td+td{text-align:right;font-variant-numeric:tabular-nums}.heat-grid{width:100%;border-collapse:separate;border-spacing:4px;table-layout:fixed;margin-top:15px}.heat-grid th{font-size:11px;font-weight:650;color:#66756b;padding:7px 4px;text-align:center}.heat-grid th:first-child{text-align:right}.heat-grid td{text-align:center;padding:0}.heat{display:block;width:100%;min-height:47px;border-radius:7px;padding:8px 3px;border:1px solid #cbd7cf;font-size:12px;font-weight:700;color:#24483c;background:#e9f1ec}.heat:hover{outline:2px solid #375c4c}.heat[data-warn="true"]{border-style:dashed;color:#6f755f}.heat[data-selected="true"]{outline:3px solid #233f34;background:#c5e3d5}.heat-key{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#75857b;font-size:11px}.heat-info{font-size:11px;color:#566b5b;background:#f0f5ee;padding:10px 12px;border-radius:7px;margin-top:12px}.disclaimer{padding:16px 0;margin-top:20px;border-top:1px solid #c6d0c5;color:#586a60;font-size:12px;line-height:1.55}.download-file{display:none}
+@media(max-width:1150px){.layout{grid-template-columns:280px minmax(0,1fr)}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.milestones{grid-template-columns:repeat(2,minmax(0,1fr))}.frame{padding:18px}}
+@media(max-width:790px){.layout{display:flex;flex-direction:column}.sidebar{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 15px}.sidebar h2,.sidebar .side-desc,.sidebar>.advanced,.sidebar>.controls-footer{grid-column:1/-1}.sidebar .control{min-width:0}.header{display:block}.meta{justify-content:flex-start;margin-top:12px}.audit{grid-template-columns:1fr}}
+@media(max-width:530px){.frame{padding:12px 10px 30px}.header{margin-bottom:14px}.sidebar{grid-template-columns:1fr}.stats{gap:7px}.stat{padding:11px 10px}.stat strong{font-size:clamp(19px,5vw,26px)}.stat h3{font-size:10px}.stat p{font-size:10px}.panel{padding:13px 11px}.milestones{gap:7px}.sensitivity td,.sensitivity th{padding:10px 4px;font-size:10px}.sensitivity th:first-child,.sensitivity td:first-child{width:42%}.btn{padding:9px 10px;font-size:11px}.chart{min-height:160px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="frame" id="rent-lab">
+  <header class="header">
+    <div><div class="eyebrow">ОНТОС / финансовая лаборатория / выпуск 01</div>
+      <h1 class="title">Арендный синхротрон</h1>
+      <p class="sub">Замкнутая модель инструментального фонда. Изменяй одну цифру и смотри, как сдвигаются капитал, обязательства, ежедневный денежный поток и граница самофинансирования.</p>
+    </div>
+    <div class="meta"><span class="chip status">Расчёт в браузере</span><span class="chip">Месяц = 30 дней</span><span class="chip">Без внешних запросов</span></div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" id="controls">
+      <h2>Входные параметры</h2><p class="side-desc">Поля справа от ползунков можно редактировать вручную. Изменения применяются сразу.</p>
+      <div id="primary-controls"></div>
+      <details class="advanced" id="advanced"><summary>Больше параметров: финансирование, возвраты, расходы</summary><div id="advanced-controls"></div></details>
+      <p class="controls-footer">Обеспечительный депозит остаётся обязательством к возврату. Оценка рыночной стоимости не равна деньгам на счёте. В этой модели каждый новый договор имеет одинаковый фиксированный срок.</p>
+    </aside>
+    <main class="dashboard">
+      <div class="toolbar" aria-label="Управление сценарием">
+        <button class="btn dark" type="button" id="preset-default">База: 10 в день</button>
+        <button class="btn" type="button" id="preset-strict">Депозиты в резерве</button>
+        <button class="btn" type="button" id="pin">Зафиксировать А</button>
+        <button class="btn" type="button" id="export-csv">Скачать расчёт CSV</button>
+        <button class="btn" type="button" id="export-json">Сохранить сценарий</button>
+        <button class="btn reset" type="button" id="reset">Сброс</button>
+        <span class="toolnote" id="notice" aria-live="polite">Исходный сценарий: 100 своих инструментов, 10 выдач в день, 13 месяцев аренды.</span>
+        <input id="import-file" class="download-file" type="file" accept="application/json,.json" aria-label="Загрузить сценарий">
+        <button class="btn" type="button" id="import-json">Загрузить сценарий</button>
+      </div>
+      <div class="topline"><h2>Состояние на <span id="focus-label">100-й день</span></h2><span>Горизонт расчёта: <span id="horizon-label">540</span> дней</span></div>
+      <section class="stats" aria-label="Ключевые финансовые показатели" id="stats"></section>
+      <section class="panel" aria-label="Динамика капитала">
+        <div class="panel-title"><div><h2>Траектория фонда</h2><p>Сдвигай день по графику. Ноль на линии ликвидности показывает границу потребности в финансировании.</p></div></div>
+        <div class="tabs" role="tablist" aria-label="Показатели графика">
+          <button type="button" class="tab" data-chart="cash" role="tab" aria-selected="true">Кассовый разрыв</button>
+          <button type="button" class="tab" data-chart="assets" role="tab" aria-selected="false">Капитал</button>
+          <button type="button" class="tab" data-chart="business" role="tab" aria-selected="false">Поток</button>
+          <button type="button" class="tab" data-chart="stock" role="tab" aria-selected="false">Инструменты</button>
+        </div>
+        <div class="chart-wrap"><svg id="chart" class="chart" viewBox="0 0 880 300" role="img" aria-label="График финансовых показателей по дням"></svg></div>
+        <div id="chart-readout" class="chart-readout" aria-live="polite"></div>
+        <div class="pick-day"><label for="day-slider">День, который рассматриваем <input type="range" id="day-slider" min="1" max="540" value="100"></label><input type="number" id="day-number" value="100" min="1" max="540" aria-label="День просмотра"></div>
+        <div class="pick-day-hint">Точное значение берётся из дневного расчёта, а не усредняется по графику.</div>
+      </section>
+      <section class="panel" aria-label="Точки перехода">
+        <div class="panel-title"><h2>Точки изменения режима</h2><p>Дни вычисляются заново при каждом изменении сценария.</p></div>
+        <div class="milestones" id="milestones"></div>
+        <div class="annotation" id="interpretation"></div>
+      </section>
+      <section class="panel" aria-label="Чувствительность к параметрам">
+        <div class="panel-title"><h2>Где подкрутить?</h2><p>Каждая строка: меняем ровно один параметр, остальные оставляем прежними. Разница относительно текущего сценария на выбранный день.</p></div>
+        <div style="overflow-x:auto"><table class="sensitivity"><thead><tr><th>Изменение</th><th>Δ регулярный поток / мес.</th><th>Δ пик потребности в деньгах</th><th>Δ рыночный собственный капитал</th></tr></thead><tbody id="sens-body"></tbody></table></div>
+        <div class="compare" id="comparison" aria-live="polite"></div>
+        <p class="tiny" id="bottleneck"></p>
+      </section>
+      <section class="panel" aria-label="Матрица нелинейных переходов">
+        <div class="panel-title"><h2>Матрица перелома</h2><p>Меняем сразу два параметра: ежемесячную цену и число новых арендаторов. В клетках день, когда выдачи начинают устойчиво финансировать новые закупки.</p></div>
+        <div style="overflow-x:auto"><table class="heat-grid" id="heat-table"><thead></thead><tbody></tbody></table></div>
+        <div class="heat-key"><span>Раньше перелом → светлее</span><span>«—» означает: рубеж не достигнут в пределах расчёта</span></div>
+        <div id="heat-info" class="heat-info" aria-live="polite">Нажми клетку, чтобы применить сочетание двух параметров к основной модели.</div>
+      </section>
+      <section class="panel" aria-label="Структура денег и собственности">
+        <div class="panel-title"><h2>Что именно нам принадлежит</h2><p>Касса, долг, обязательства по депозитам и стоимость самих инструментов считаются отдельно.</p></div>
+        <div class="audit"><table><tbody id="capital-table"></tbody></table><table><tbody id="flow-table"></tbody></table></div>
+      </section>
+      <footer class="disclaimer">Это лабораторная модель, не прогноз и не бухгалтерская отчётность. Учитываются денежные события по дням, постоянный спрос и выбранный срок договора; реальная структура сроков, возвраты, налоги, амортизация, взыскания, НДС и правила обеспечения могут существенно изменить результат. Ориентир стоимости фонда не является гарантированной ценой продажи. Депозит учтён как возвратное обязательство, а не прибыль. Страница не содержит счётчиков и не отправляет введённые значения на сервер. Если открыть опубликованную версию, сам адрес страницы остаётся доступным всем, кто знает ссылку.</footer>
+    </main>
+  </div>
+</div>
+<script>
+'use strict';
+// Pure, deterministic 30-day billing-period cohort simulator. No I/O or remote services.
+const RENT_LAB_DEFAULTS = Object.freeze({
+  horizon: 540, focusDay: 100, demand: 10, deliveryCapacity: 10, purchaseCapacity: 10,
+  openingStock: 100, openingBookPerUnit: 50000,
+  purchasePrice: 50000, retailPrice: 75000, buyoutPrice: 75000,
+  rentalPrice: 6000, deposit: 6000, rentalMonths: 13,
+  returnDelay: 3, buyoutPercent: 0, usedMarketPercent: 90, depreciationPercent: 5,
+  priceGrowth: 0, purchaseGrowth: 0, rentGrowth: 0,
+  reservePercent: 0, cashStart: 0, debtStart: 0, loanAnnualPercent: 0,
+  monthlyMaintenance: 0, monthlyFixed: 0, taxPercent: 0, deliveryNetCost: 0,
+  goalMonthly: 3000000
+});
+
+function safeNumber(input, fallback, low, high, whole = false) {
+  const numeric = Number(input);
+  if (!Number.isFinite(numeric)) return fallback;
+  return whole ? Math.round(Math.max(low, Math.min(high, numeric))) : Math.max(low, Math.min(high, numeric));
+}
+const LIMITS = {
+  horizon:[60,1500,true], focusDay:[1,1500,true], demand:[0,40,true],
+  deliveryCapacity:[0,60,true], purchaseCapacity:[0,60,true],
+  openingStock:[0,5000,true], openingBookPerUnit:[0,3000000,false],
+  purchasePrice:[1000,3000000,false], retailPrice:[1000,5000000,false],
+  buyoutPrice:[0,5000000,false], rentalPrice:[0,300000,false], deposit:[0,300000,false],
+  rentalMonths:[1,96,true], returnDelay:[0,90,true], buyoutPercent:[0,100,false],
+  usedMarketPercent:[0,150,false], depreciationPercent:[0,70,false],
+  priceGrowth:[-30,100,false], purchaseGrowth:[-30,100,false], rentGrowth:[-30,100,false],
+  reservePercent:[0,100,false], cashStart:[0,300000000,false], debtStart:[0,300000000,false],
+  loanAnnualPercent:[0,120,false], monthlyMaintenance:[0,300000,false],
+  monthlyFixed:[0,30000000,false], taxPercent:[0,50,false],
+  deliveryNetCost:[0,200000,false], goalMonthly:[0,100000000,false]
+};
+function sanitize(input) {
+  const p = {};
+  for (const [key, value] of Object.entries(RENT_LAB_DEFAULTS)) {
+    const [low, high, whole] = LIMITS[key];
+    p[key] = safeNumber(input?.[key] ?? value, value, low, high, whole);
+  }
+  p.focusDay = Math.min(p.focusDay,p.horizon);
+  return p;
+}
+function priceAt(base,annualPercent, day) {
+  return base * Math.pow(1 + annualPercent / 100, (day-1)/365);
+}
+function simulate(input) {
+  const p = sanitize(input);
+  const H = p.horizon, scheduleRent = new Float64Array(H+1), scheduleReturn = Array.from({length:H+1},()=>[]);
+  const ready = new Float64Array(H + 1 + p.returnDelay);
+  const x = [];
+  let cash = p.cashStart, debt = p.debtStart, deposits = 0, fleet = p.openingStock,
+      idle = p.openingStock, active = 0, book = p.openingStock * p.openingBookPerUnit,
+      ageDaysSum = 0, monthlyRunRate = 0, peakBorrow = debt,
+      noFinanceCash = p.cashStart, maxNeed = Math.max(0, -p.cashStart),
+      neededDay = 0, interestTotal = 0, sumDraws = 0, sumRental = 0,
+      sumSale = 0, sumCosts = 0, sumPurchases = 0, sumRefund = 0, sumTaxes = 0,
+      sumLost = 0, sumNew = 0, sumResales = 0, sumDepositPaid = 0;
+  const reserveFraction = p.reservePercent/100;
+  let positiveOperationalDay = null, rentOnlyDay = null, previousHolding = 0;
+  const startMonth = p.rentalMonths*30;
+  for(let day=1;day<=H;day++) {
+    // Everyone owned at the start of the day has aged one day. Resale value is an estimate.
+    ageDaysSum += fleet;
+    idle += ready[day] || 0;
+    let returned=0, sold=0, saleProceeds=0, refunded=0, expiryRentRate=0;
+    for (const cohort of scheduleReturn[day]) {
+      returned += cohort.count;
+      refunded += cohort.count * cohort.deposit;
+      expiryRentRate += cohort.count * cohort.rent;
+      const soldHere = cohort.count * p.buyoutPercent / 100;
+      sold += soldHere;
+      const leaseAgeYears = p.rentalMonths*30/365;
+      saleProceeds += soldHere * priceAt(p.buyoutPrice,p.priceGrowth,day)
+        * (p.usedMarketPercent/100) * Math.pow(1-p.depreciationPercent/100,leaseAgeYears);
+      const reused = cohort.count - soldHere;
+      if(p.returnDelay===0)idle+=reused;
+      else if(day+p.returnDelay<=H) ready[day+p.returnDelay]+=reused;
+    }
+    if(returned){
+      active -= returned;
+      deposits -= refunded;
+      cash -= refunded;
+      sumRefund += refunded;
+      monthlyRunRate -= expiryRentRate;
+      if(sold>0){
+        const averageCost = fleet > 0 ? book / fleet : 0;
+        const averageAge = fleet > 0 ? ageDaysSum / fleet : 0;
+        fleet = Math.max(0,fleet-sold);
+        book = Math.max(0,book-sold*averageCost);
+        ageDaysSum = Math.max(0,ageDaysSum-sold*averageAge);
+      }
+    }
+    let rentReceipts = scheduleRent[day];
+    cash+=rentReceipts+saleProceeds;
+    sumRental+=rentReceipts;
+    sumSale+=saleProceeds;
+    const desired=Math.min(p.demand,p.deliveryCapacity);
+    const usedIdle=Math.min(desired,idle);
+    const purchases=Math.min(p.purchaseCapacity,Math.max(0,desired-usedIdle));
+    const served=usedIdle+purchases;
+    const lost=Math.max(0,p.demand-served);
+    idle-=usedIdle;
+    sumLost+=lost;
+    sumNew+=served;
+    const unitCost=priceAt(p.purchasePrice,p.purchaseGrowth,day);
+    const purchaseOutlay = purchases*unitCost;
+    fleet+=purchases;
+    book+=purchaseOutlay;
+    sumPurchases+=purchaseOutlay;
+    const newRentPrice=priceAt(p.rentalPrice,p.rentGrowth,day);
+    const rentNew=served*newRentPrice;
+    const newDeposits=served*p.deposit;
+    deposits+=newDeposits;
+    sumDepositPaid+=newDeposits;
+    cash+=rentNew+newDeposits-purchaseOutlay;
+    rentReceipts+=rentNew;
+    sumRental+=rentNew;
+    monthlyRunRate+=rentNew;
+    active+=served;
+    if(served>0){
+      const end=day+startMonth;
+      if(end<=H)scheduleReturn[end].push({count:served,rent:newRentPrice,deposit:p.deposit});
+      for(let next=day+30;next<end && next<=H;next+=30)scheduleRent[next]+=rentNew;
+    }
+    const serviceCosts=active*p.monthlyMaintenance/30 +p.monthlyFixed/30 + served*p.deliveryNetCost;
+    const taxes=(rentReceipts+saleProceeds)*p.taxPercent/100;
+    const interest=debt*p.loanAnnualPercent/36500;
+    interestTotal+=interest;
+    sumCosts+=serviceCosts;
+    sumTaxes+=taxes;
+    cash-=serviceCosts+taxes+interest;
+    const liabilityChange=newDeposits-refunded;
+    // This is the daily change in freely usable cash, without credit advances or principal repayment.
+    const netFreeMovement=rentReceipts+saleProceeds+newDeposits-refunded-purchaseOutlay-serviceCosts-taxes-interest - reserveFraction*liabilityChange;
+    noFinanceCash+=netFreeMovement;
+    if(noFinanceCash < -maxNeed){maxNeed=-noFinanceCash;neededDay=day;}
+    let draw=0,principalRepay=0;
+    const accessible=cash-deposits*reserveFraction;
+    if(accessible<0){draw=-accessible;debt+=draw;cash+=draw;sumDraws+=draw;}
+    else if(debt>0){principalRepay=Math.min(debt,accessible);debt-=principalRepay;cash-=principalRepay;}
+    peakBorrow=Math.max(peakBorrow,debt);
+    const netRentsMonthly=monthlyRunRate * (1-p.taxPercent/100) - active*p.monthlyMaintenance - p.monthlyFixed;
+    const valuation = priceAt(p.retailPrice,p.priceGrowth,day) * p.usedMarketPercent/100
+        * Math.pow(1-p.depreciationPercent/100,(fleet>0?ageDaysSum/fleet:0)/365);
+    const marketValue= Math.max(0,fleet*valuation);
+    const liquidAccessible=cash-deposits*reserveFraction;
+    x.push({day,active,owned:fleet,idle,delivered:served,desired:p.demand,lost,returned,sold,purchases,
+      unitCost, cash,debt,deposits,accessible:liquidAccessible,
+      book,marketValue,bookEquity:book+cash-debt-deposits,marketEquity:marketValue+cash-debt-deposits,
+      monthlyRunRate,netRentsMonthly,dayRent:rentReceipts,daySales:saleProceeds,
+      dayDeposits:newDeposits,dayRefund:refunded,dayPurchase:purchaseOutlay,dayNet:netFreeMovement,
+      dayCredit:draw,dayRepayment:principalRepay,dayInterest:interest,
+      rawCash:noFinanceCash, needed:maxNeed,
+      cumRental:sumRental,cumSale:sumSale,cumPurchases:sumPurchases,cumInterest:interestTotal,
+      cumOperating:sumCosts,cumTaxes:sumTaxes,cumRefund:sumRefund,
+      cumDeposits:sumDepositPaid,cumDraw:sumDraws,cumLost:sumLost,cumNew:sumNew});
+  }
+  const firstPurchase=x.find(t=>t.purchases>0)?.day ?? null;
+  // Persistent positive daily contribution, not one lucky day, in a 30-day window.
+  function milestone(predicate) {
+    if(firstPurchase===null)return null;
+    for(let day=firstPurchase;day+29<=H;day++) {
+      let works=true;
+      for(let u=day-1;u<day+29;u++)if(!predicate(x[u])){works=false;break;}
+      if(works)return day;
+    }
+    return null;
+  }
+  positiveOperationalDay=milestone(t=>t.dayNet>=-0.0001);
+  rentOnlyDay=milestone(t=>t.dayNet - t.dayDeposits>=-0.0001);
+  let recoveryDay=null;
+  if (maxNeed > 0) {
+    for(let idx=neededDay;idx<H;idx++) {
+      if(x[idx].rawCash>=-0.0001){recoveryDay=idx+1;break;}
+    }
+  } else {
+    neededDay=null;
+  }
+  const reachedTarget=x.find(t=>t.netRentsMonthly>=p.goalMonthly)?.day ?? null;
+  const strongest=x.reduce((max,t)=>t.needed>max.needed?t:max,x[0]);
+  return {params:p,series:x,summary:{firstPurchase,positiveOperationalDay,rentOnlyDay,neededDay,peakNeed:maxNeed,
+     peakBorrow, recoveryDay,reachedTarget,peakLoss:strongest.needed,
+     totalPurchased:sumPurchases,totalRental:sumRental,totalSales:sumSale,
+     totalInterest:interestTotal,totalNew:sumNew,totalLost:sumLost,
+     disclaimer:'Допущение: фиксированный срок аренды, 30-дневный расчётный месяц, равномерный спрос; не прогноз.'}};
+}
+function sensitivity(p,viewDay,seriesBase=null){
+  const baseResult=seriesBase||simulate(p), p0=baseResult.params, day=Math.max(1,Math.min(p0.horizon,viewDay));
+  const base=baseResult.series[day-1];
+  const plans=[
+    ['Аренда +200 ₽','rentalPrice',200],['Минус 1 клиент/сутки','demand',-1],
+    ['Плюс 1 клиент/сутки','demand',1],['Закупка −2 000 ₽','purchasePrice',-2000],
+    ['Депозит +1 000 ₽','deposit',1000],['Срок аренды +1 месяц','rentalMonths',1],
+    ['Склад +100 готовых','openingStock',100],['Резерв депозитов до 100%','reservePercent',100-p0.reservePercent]
+  ];
+  return plans.map(([label,key,delta])=>{
+    const candidate=sanitize({...p0,[key]:p0[key]+delta});
+    const hasChange=Math.abs(candidate[key]-p0[key])>1e-8;
+    if(!hasChange)return {label,key,delta,changed:false};
+    const sim=simulate(candidate), at=sim.series[day-1];
+    return {label,key,delta,changed:true,
+      netMonthly:at.netRentsMonthly-base.netRentsMonthly,
+      peakNeed:at.needed-base.needed,
+      debt:at.debt-base.debt, marketEquity:at.marketEquity-base.marketEquity,
+      active:at.active-base.active, buy:at.cumPurchases-base.cumPurchases};
+  });
+}
+if(typeof module!=='undefined' && module.exports)module.exports={RENT_LAB_DEFAULTS,sanitize,simulate,sensitivity};
+
+</script>
+<script>
+'use strict';
+(function(){
+const root=document.getElementById('rent-lab');
+if(!root||root.dataset.ready)return;root.dataset.ready='yes';
+const q=(sel)=>root.querySelector(sel), qa=(sel)=>Array.from(root.querySelectorAll(sel));
+const fmtInt=new Intl.NumberFormat('ru-RU',{maximumFractionDigits:0});
+const fmtPrecision=new Intl.NumberFormat('ru-RU',{maximumFractionDigits:1});
+let P={...RENT_LAB_DEFAULTS}, results=null, currentChart='cash', baseA=null, noticeTimeout=0;
+const definitions=[
+ ['demand','Новых клиентов в день','шт.',0,30,1,'Ежедневная потребность; если мощностей не хватает, часть не обслуживается.',true],
+ ['rentalPrice','Аренда инструмента в месяц','₽',0,20000,100,'Первый месяц оплачивается при выдаче. Дальше каждые 30 дней.',true],
+ ['purchasePrice','Цена закупки нового','₽',1000,200000,1000,'Покупаем только недостающие экземпляры под аренду.',true],
+ ['deposit','Возвратный страховой депозит','₽',0,30000,500,'Это деньги клиента и одновременно наше обязательство.',true],
+ ['openingStock','Свободных собственных инструментов','шт.',0,2500,10,'Не оплачиваем повторно. Имеющиеся договора сюда не входят.',true],
+ ['rentalMonths','Средняя аренда как срок одного договора','мес.',1,60,1,'Модель использует фиксированный срок для всех. Это приближение.',true],
+ ['retailPrice','Рыночная цена нового инструмента','₽',5000,400000,1000,'Основа оценочной стоимости фонда. Не гарантирует цену продажи.',true],
+ ['buyoutPrice','Цена выкупа из аренды','₽',0,300000,1000,'Применяется при завершении договора вместе с поправкой на состояние.',true],
+ ['buyoutPercent','Доля выкупов при завершении срока','%',0,80,1,'Ожидаемая доля. По умолчанию ноль: нет наблюдаемой статистики.',true],
+ ['horizon','Горизонт наблюдения','дн.',60,1500,30,'100 дней удобно для разгона; 540 для возвратов и самофинансирования.',false],
+ ['deliveryCapacity','Способность доставлять ежедневно','шт.',0,60,1,'Верхняя граница выполняемых выдач. Потребность сверх неё теряется.',false],
+ ['purchaseCapacity','Способность закупать ежедневно','шт.',0,60,1,'Предел пополнения при нехватке инструментов.',false],
+ ['returnDelay','Пауза до повторной сдачи возврата','дн.',0,90,1,'Доставка назад, осмотр, комплектация и следующая выдача.',false],
+ ['reservePercent','Доля депозитов в отдельном резерве','%',0,100,5,'Ноль показывает максимум временной ликвидности. Сто означает полный резерв.',false],
+ ['loanAnnualPercent','Стоимость привлекаемого долга','% год.',0,60,1,'Проценты начисляются ежедневно на остаток долга.',false],
+ ['cashStart','Свободные деньги на старте','₽',0,100000000,100000,'Не включает стоимость инструментов; это денежный баланс.',false],
+ ['debtStart','Уже привлечённый долг','₽',0,100000000,100000,'Считаем существующим обязательством, а не новым поступлением в кассу.',false],
+ ['monthlyMaintenance','Обслуживание активного инструмента','₽/мес.',0,10000,100,'Текущая нагрузка на каждый инструмент в аренде.',false],
+ ['monthlyFixed','Постоянные расходы всего фонда','₽/мес.',0,3000000,10000,'Команда, склад, связь, управление. Делятся на 30 дней.',false],
+ ['taxPercent','Условный налог с арендных и продажных поступлений','%',0,30,1,'Упрощённая модель; фактический налоговый режим надо рассчитывать отдельно.',false],
+ ['deliveryNetCost','Не покрытые клиентом расходы на выдачу','₽/шт.',0,10000,100,'Если клиент полностью оплачивает доставку, укажите ноль.',false],
+ ['openingBookPerUnit','Балансовая оценка имеющегося инструмента','₽',0,300000,1000,'Отдельно от затрат на новые закупки и рыночной оценки.',false],
+ ['usedMarketPercent','Цена подержанного относительно новой','%',0,150,5,'Оценочный множитель при продаже и в капитализации.',false],
+ ['depreciationPercent','Снижение рыночной цены от износа','% год.',0,40,1,'Приблизительная поправка на возраст инструмента.',false],
+ ['priceGrowth','Изменение рыночной цены','% год.',-30,100,1,'Номинальная динамика цены нового и ориентира выкупа.',false],
+ ['purchaseGrowth','Рост цены закупки','% год.',-30,100,1,'В отличие от рыночной цены влияет на потребность в деньгах.',false],
+ ['rentGrowth','Изменение тарифа на новые договоры','% год.',-30,100,1,'Прежние договоры остаются по первоначальной ставке.',false],
+ ['goalMonthly','Цель операционного потока в месяц','₽/мес.',0,15000000,50000,'После условных текущих расходов и налога, до закупок и погашения долга.',false]
+];
+function num(value){return fmtInt.format(Math.round(value||0))}
+function compact(value){
+ const sign=value<0?'−':'';let a=Math.abs(value);
+ if(a>=1e9)return sign+fmtPrecision.format(a/1e9)+' млрд';
+ if(a>=1e6)return sign+fmtPrecision.format(a/1e6)+' млн';
+ if(a>=1e3)return sign+fmtPrecision.format(a/1e3)+' тыс.';
+ return sign+num(a);
+}
+function rub(value){return compact(value)+' ₽'}
+function signed(value){return(value>0?'+':value<0?'−':'')+compact(Math.abs(value))+' ₽'}
+function ordinal(day){return day===null?'не достигнуто':num(day)+'-й день'}
+function daysBar(day){return day===null?'—':num(day)+' д.'}
+function eText(input){return String(input).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+const makeControl=([key,label,unit,min,max,step,hint])=>{
+ const value=P[key];const high=Math.max(max,value);
+ return `<div class="control"><div class="control-head"><label for="n-${key}">${eText(label)}</label><span class="pair"><input class="value-input" data-key="${key}" id="n-${key}" type="number" min="${min}" max="${LIMITS[key][1]}" step="${step}" value="${value}" aria-label="${eText(label)}"><span class="unit">${unit}</span></span></div><input class="range" data-key="${key}" id="r-${key}" aria-label="Изменить ${eText(label)}" type="range" min="${min}" max="${high}" step="${step}" value="${value}"><div class="hint">${eText(hint)}</div></div>`;
+};
+q('#primary-controls').innerHTML=definitions.filter(x=>x[7]).map(makeControl).join('');
+q('#advanced-controls').innerHTML=definitions.filter(x=>!x[7]).map(makeControl).join('');
+function syncInputs(){for(const el of qa('[data-key]')){
+ const k=el.dataset.key;
+ if(el.type==='range' && P[k]>Number(el.max))el.max=String(P[k]);
+ el.value=P[k];
+}q('#day-slider').max=P.horizon;q('#day-number').max=P.horizon;q('#day-slider').value=P.focusDay;q('#day-number').value=P.focusDay;}
+let timer=0;
+root.addEventListener('input',evt=>{
+ const el=evt.target;
+ if(el.dataset.key){const key=el.dataset.key;
+   const n=Number(el.value);if(!Number.isFinite(n)||el.value==='')return;
+   P[key]=safeNumber(n,RENT_LAB_DEFAULTS[key],LIMITS[key][0],LIMITS[key][1],LIMITS[key][2]);
+   if(key==='horizon' && P.focusDay>P.horizon)P.focusDay=P.horizon;
+   for(const other of qa(`[data-key="${key}"]`))if(other!==el)other.value=P[key];
+   clearTimeout(timer);timer=setTimeout(recompute,75);
+ }else if(el.id==='day-slider'||el.id==='day-number'){
+   const n=Number(el.value);if(!Number.isFinite(n))return;
+   P.focusDay=Math.max(1,Math.min(P.horizon,Math.round(n)));
+   q('#day-slider').value=P.focusDay;q('#day-number').value=P.focusDay;
+   render();
+ }
+});
+root.addEventListener('change',evt=>{
+ if(evt.target.dataset.key||evt.target.id==='day-number'){syncInputs();recompute()}
+});
+const notice=(msg)=>{q('#notice').textContent=msg;clearTimeout(noticeTimeout);};
+function summaryStats(t){
+ const entries=[
+ ['В работе',num(t.active),'инструментов в действующей аренде',false],
+ ['Потенциальные платежи / месяц',rub(t.monthlyRunRate),'при сохранении текущих договоров',true],
+ ['Операционный поток / месяц',rub(t.netRentsMonthly),'без закупок и обслуживания долга',false],
+ ['Стоимость фонда по закупке',rub(t.book),'учётная оценка; не свободные деньги',false],
+ ['Рыночная оценка фонда',rub(t.marketValue),'ориентир вторичного рынка с износом',false],
+ ['Собственный капитал, рыночный',rub(t.marketEquity),'фонд + касса − кредиты − депозиты',false],
+ ['Долг на выбранный день',rub(t.debt),'автоматическое покрытие кассового разрыва',false],
+ ['Макс. потребность в финансировании',rub(t.needed),'максимум дефицита до выбранного дня',false],
+ ['Обязательства по депозитам',rub(t.deposits),'возвратные деньги клиентов',false]
+ ];
+ q('#stats').innerHTML=entries.map(([name,value,desc,dark])=>`<article class="stat ${dark?'emphasis':''}"><h3>${name}</h3><strong>${value}</strong><p>${desc}</p></article>`).join('');
+}
+function renderMilestones(s){
+ const x=[
+  ['Первые закупки',s.firstPurchase,'Начало приобретений под новые договоры',''],
+  ['Пик внешнего финансирования',s.neededDay,`${rub(s.peakNeed)} при выбранной стоимости кредита, расходах и резервах`,'critical'],
+  ['Закупки покрываются дневными поступлениями',s.positiveOperationalDay,'С учётом новых депозитов и выбранной доли резерва','attain'],
+  ['Закупки покрываются без новых депозитов',s.rentOnlyDay,'Нужные поступления от аренды и продаж в течение 30 дней','attain'],
+  ['Вернули накопленный кассовый разрыв',s.recoveryDay,'Полностью закрыт дефицит после пика без внешнего долга','attain'],
+  ['Достигнута цель операционного потока',s.reachedTarget,`${rub(P.goalMonthly)} в месяц; до новых закупок и долга`,'attain']
+ ];
+ q('#milestones').innerHTML=x.map(([label,day,description,style])=>`<div class="mile ${day===null?'none':style}"><strong>${daysBar(day)}</strong><span>${label}</span><span class="tiny">${description}</span></div>`).join('');
+ const t=results.series[P.focusDay-1];
+ const notes=[];
+ if(t.lost>0)notes.push(`В выбранный день неудовлетворённый спрос: ${num(t.lost)} клиента. Ограничение выдачи ${num(P.deliveryCapacity)} и закупки ${num(P.purchaseCapacity)} в сутки.`);
+ if(P.deposit>0&&P.reservePercent<100)notes.push(`Депозиты используются как временная ликвидность: в резерве ${num(P.reservePercent)}%. Возвратное обязательство на выбранный день — ${rub(t.deposits)}.`);
+ else notes.push('Депозиты зарезервированы полностью либо не взимаются. Эта схема требует больше свободного финансирования.');
+ if(s.positiveOperationalDay!==null)notes.push(`С ${num(s.positiveOperationalDay)}-го дня модель впервые показывает 30 последовательных дней, когда ежедневные поступления покрывают новые закупки. Это не означает, что прежний дефицит уже закрыт.`);
+ else notes.push('На выбранном горизонте устойчивого дневного покрытия закупок пока не возникло.');
+ q('#interpretation').textContent=notes.join(' ');
+}
+function renderTables(t){
+ const a=[['Принадлежит инструментов',num(t.owned)+' шт.'],['В аренде',num(t.active)+' шт.'],['Свободно на складе',num(t.idle)+' шт.'],['Стоимость по закупке',rub(t.book)],['Рыночная оценка',rub(t.marketValue)],['Деньги на счетах вместе с резервом',rub(t.cash)],['Обеспечительный депозит к возврату',rub(t.deposits)],['Долг кредиторам',rub(t.debt)],['Собственный капитал (по закупке)',rub(t.bookEquity)],['Собственный капитал (по рынку)',rub(t.marketEquity)]];
+ const b=[['Выдано всего',num(t.cumNew)+' шт.'],['Потеряно новых клиентов',num(t.cumLost)+' чел.'],['Арендные поступления с начала',rub(t.cumRental)],['Поступления от выкупа',rub(t.cumSale)],['Новые закупки с начала',rub(t.cumPurchases)],['Возврат депозитов с начала',rub(t.cumRefund)],['Ремонт, логистика и фикс. расходы',rub(t.cumOperating)],['Условный налог',rub(t.cumTaxes)],['Проценты по финансированию',rub(t.cumInterest)],['Свободная ликвидность до внешних займов',rub(t.rawCash)]];
+ const renderRow=(arr)=>arr.map(([name,value])=>`<tr><td>${eText(name)}</td><td>${value}</td></tr>`).join('');
+ q('#capital-table').innerHTML=renderRow(a);q('#flow-table').innerHTML=renderRow(b);
+}
+function colorDelta(v,lowerBetter=false){const good=lowerBetter?v<0:v>0;return v===0?'neutral':good?'positive':'negative'}
+function renderHeatmap(){
+  const table=q('#heat-table'), priceStep=200, nCenter=P.demand;
+  const speeds=[-2,-1,0,1,2].map(v=>Math.max(0,Math.min(40,nCenter+v)));
+  const rents=[-2,-1,0,1,2].map(v=>Math.max(0,P.rentalPrice+priceStep*v));
+  table.querySelector('thead').innerHTML='<tr><th>₽ / шт.</th>'+speeds.map(n=>`<th>${num(n)}/сут</th>`).join('')+'</tr>';
+  const scenarios=[];
+  for(const rent of rents){const row=[];
+    for(const speed of speeds){
+      if(rent===P.rentalPrice && speed===P.demand){row.push(results.summary.positiveOperationalDay);continue;}
+      row.push(simulate({...P,rentalPrice:rent,demand:speed}).summary.positiveOperationalDay);
+    }scenarios.push(row);
+  }
+  const all=scenarios.flat().filter(Number.isFinite),minimum=all.length?Math.min(...all):0,maximum=all.length?Math.max(...all):1;
+  table.querySelector('tbody').innerHTML=scenarios.map((row,i)=>'<tr><th>'+num(rents[i])+' ₽</th>'+row.map((day,j)=>{
+    const sel=rents[i]===P.rentalPrice&&speeds[j]===P.demand;
+    const warn=speeds[j]>P.deliveryCapacity;
+    const intensity=day===null?.84:.12+.50*(day-minimum)/Math.max(1,maximum-minimum);
+    const style=day===null?'background:#eff0ed':`background:rgba(91,160,126,${Math.max(.12,.65-intensity).toFixed(3)})`;
+    return `<td><button class="heat" data-rent="${rents[i]}" data-speed="${speeds[j]}" data-selected="${sel}" data-warn="${warn}" style="${style}" aria-label="Аренда ${rents[i]} рублей, ${speeds[j]} выдач в день: ${day===null?'нет перелома':day+' дней'}" title="При цене ${rents[i]} ₽ и спросе ${speeds[j]}/сут: ${day===null?'перелом не достигнут':'устойчивое покрытие с '+day+'-го дня'}${warn?'; спрос ограничен логистикой':''}">${day===null?'—':day+' д.'}</button></td>`;
+  }).join('')+'</tr>').join('');
+  for(const b of table.querySelectorAll('button[data-rent]'))b.onclick=()=>{
+     P.rentalPrice=Number(b.dataset.rent);P.demand=Number(b.dataset.speed);
+     notice(`Сценарий: аренда ${num(P.rentalPrice)} ₽, спрос ${P.demand} шт./сут.`);
+     recompute();
+  };
+  q('#heat-info').textContent=`Текущий рубеж: ${results.summary.positiveOperationalDay===null?'не достигнут':results.summary.positiveOperationalDay+'-й день'}. ${P.demand>P.deliveryCapacity?'Спрос превышает лимит доставки.':'При изменении спроса учитывается доступная команда и скорость закупки.'} Это модельные рубежи без гарантий повторения в реальности.`;
+}
+function renderSensitivity(){
+ const rows=sensitivity(P,P.focusDay,results);
+ q('#sens-body').innerHTML=rows.map(r=>{
+ if(!r.changed)return `<tr><td>${eText(r.label)}</td><td colspan="3" class="neutral">Параметр уже на границе</td></tr>`;
+ const numbers=[['netMonthly',false],['peakNeed',true],['marketEquity',false]];
+ return `<tr><td>${eText(r.label)}</td>${numbers.map(([key,lower])=>`<td class="${colorDelta(r[key],lower)}">${signed(r[key])}</td>`).join('')}</tr>`;
+ }).join('');
+ const t=results.series[P.focusDay-1];const p=P;
+ let messages=[];
+ if(p.demand>=p.deliveryCapacity)messages.push(`Спрос ${num(p.demand)}/день упирается в доставочную мощность ${num(p.deliveryCapacity)}/день. Добавочный клиент не станет дополнительной арендой, пока эту границу не поднять.`);
+ if(p.demand>p.purchaseCapacity && p.openingStock<=t.active)messages.push('Расширение ограничено возможностью закупать недостающие инструменты.');
+ messages.push('Изменения параметров действуют с первого дня сценария. Зелёные и красные Δ лишь направление эффекта по выбранному показателю, а не оценка всей жизнеспособности бизнеса.');
+ q('#bottleneck').textContent=messages.join(' ');
+ if(baseA){
+   const v=baseA.result.series[Math.min(P.focusDay,baseA.result.params.horizon)-1];const m=t;
+   q('#comparison').classList.add('shown');
+   q('#comparison').innerHTML=`<strong>Сравнение Б с зафиксированным А.</strong> В выбранный день: активных договоров ${num(v.active)} → ${num(m.active)} (Δ ${num(m.active-v.active)}); месячный поток ${rub(v.netRentsMonthly)} → ${rub(m.netRentsMonthly)}; кассовый разрыв ${rub(v.needed)} → ${rub(m.needed)}. На графике «Кассовый разрыв» пунктиром показан сценарий А.`;
+ }else{q('#comparison').classList.remove('shown');q('#comparison').innerHTML='';}
+}
+const CHARTS={
+ cash:[['rawCash','Деньги без новых кредитов','#bf6246'],['debt','Остаток долга','#416594']],
+ assets:[['marketValue','Рыночная стоимость','#3f8665'],['book','Стоимость по закупке','#8f793f'],['marketEquity','Капитал собственника','#42618a']],
+ business:[['monthlyRunRate','Аренда / месяц','#3b7e63'],['netRentsMonthly','Поток после текущих расходов','#bd7c39']],
+ stock:[['active','В аренде','#2d806a'],['owned','Принадлежит фонду','#49699b'],['idle','Свободные','#b47745']]
+};
+function renderChart(){
+ const svg=q('#chart'),series=results.series,H=P.horizon,lines=CHARTS[currentChart];
+ const left=64,top=16,right=16,bottom=34,width=880-left-right,height=300-top-bottom;
+ let sample=[];
+ for(const [key] of lines)sample.push(...series.map(x=>x[key]));
+ if(baseA && currentChart==='cash')sample.push(...baseA.result.series.map(x=>x.rawCash));
+ let minimum=Math.min(0,...sample),maximum=Math.max(0,...sample);
+ if(maximum-minimum<1)maximum=minimum+1;
+ const pad=(maximum-minimum)*0.065;minimum-=pad;maximum+=pad;
+ const xpos=d=>left+(Math.max(1,Math.min(H,d))-1)/(H-1)*width;
+ const ypos=v=>top+(maximum-v)/(maximum-minimum)*height;
+ const decimate=Math.max(1,Math.ceil(H/500));
+ function path(points,key){let result='';for(let i=0;i<points.length;i+=decimate){const x=points[i];result+= (result?' L':'M')+xpos(x.day).toFixed(2)+','+ypos(x[key]).toFixed(2)}
+ const last=points[points.length-1]; if(last && (points.length-1)%decimate!==0)result+=' L'+xpos(last.day).toFixed(2)+','+ypos(last[key]).toFixed(2);
+ return result;}
+ let out='';
+ for(let i=0;i<=4;i++){
+   const v=minimum+(maximum-minimum)*(4-i)/4,yy=top+i*height/4;
+   out+=`<line x1="${left}" y1="${yy}" x2="${left+width}" y2="${yy}" stroke="#e5ebe3" stroke-width="1"/><text x="${left-10}" y="${yy+4}" text-anchor="end" font-size="11" fill="#687770">${compact(v)}</text>`;
+ }
+ const zero=ypos(0);if(zero>=top && zero<=top+height)out+=`<line x1="${left}" y1="${zero}" x2="${left+width}" y2="${zero}" stroke="#abb8b0" stroke-width="1.5" stroke-dasharray="5 5"/>`;
+ const xTicks=[1,Math.round(H*.25),Math.round(H*.5),Math.round(H*.75),H];
+ for(const tick of xTicks)out+=`<text x="${xpos(tick)}" y="${top+height+23}" text-anchor="middle" font-size="11" fill="#65746d">${tick} д.</text>`;
+ if(baseA&&currentChart==='cash'){
+   const b=baseA.result.series.slice(0,H);
+   out+=`<path d="${path(b,'rawCash')}" fill="none" stroke="#8c9793" stroke-width="2" stroke-dasharray="6 5" opacity="0.95"/>`;
+ }
+ for(const [key,label,color] of lines){
+   out+=`<path d="${path(series,key)}" fill="none" stroke="${color}" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/>`;
+ }
+ const current=series[P.focusDay-1],cx=xpos(P.focusDay);
+ out+=`<line x1="${cx}" y1="${top}" x2="${cx}" y2="${top+height}" stroke="#2b453b" stroke-dasharray="4 4" stroke-width="1.2"/>`;
+ for(const [key,label,color] of lines)out+=`<circle cx="${cx}" cy="${ypos(current[key])}" r="4.4" fill="${color}" stroke="white" stroke-width="1.5"/>`;
+ svg.innerHTML=out;
+ const unit=currentChart==='stock'?' шт.':' ₽';
+ q('#chart-readout').innerHTML=`<b>${num(P.focusDay)}-й день</b>`+lines.map(([key,label,color])=>`<span class="leg"><i class="dot" style="background:${color}"></i>${eText(label)}: <b>${compact(current[key])}${unit}</b></span>`).join('')+(baseA&&currentChart==='cash'?'<span class="leg"><i class="dot" style="background:#999"></i>серый пунктир: сохранённый А</span>':'');
+ svg.onclick=event=>{
+   const box=svg.getBoundingClientRect();if(!box.width)return;
+   const px=((event.clientX-box.left)/box.width)*880;
+   const tick=Math.round(1+(px-left)/width*(H-1));
+   P.focusDay=Math.max(1,Math.min(H,tick));syncInputs();render();
+ };
+}
+function render(){if(!results)return;
+ const t=results.series[P.focusDay-1];
+ q('#focus-label').textContent=num(P.focusDay)+'-й день';
+ q('#horizon-label').textContent=num(P.horizon);
+ summaryStats(t);renderMilestones(results.summary);renderChart();renderSensitivity();renderHeatmap();renderTables(t);
+}
+function recompute(){P=sanitize(P);syncInputs();results=simulate(P);render();}
+qa('[data-chart]').forEach(btn=>btn.addEventListener('click',()=>{
+ currentChart=btn.dataset.chart;
+ qa('[data-chart]').forEach(x=>x.setAttribute('aria-selected',String(x===btn)));
+ renderChart();
+}));
+q('#reset').onclick=()=>{P={...RENT_LAB_DEFAULTS};baseA=null;notice('Исходная модель восстановлена.');recompute()};
+q('#preset-default').onclick=()=>{P={...RENT_LAB_DEFAULTS};notice('База: десять в день, сто готовых, нулевые условные расходы.');recompute()};
+q('#preset-strict').onclick=()=>{P={...P,reservePercent:100,loanAnnualPercent:20,monthlyMaintenance:200,monthlyFixed:100000,taxPercent:6};notice('Консервативный опыт: резерв 100%, кредит 20%, обслуживание и условный налог.');recompute()};
+q('#pin').onclick=()=>{baseA={params:{...P},result:results};notice('Сценарий А зафиксирован. Меняй параметры и сравнивай с Б.');q('#pin').textContent='Перезаписать А';render()};
+function save(text,name,type){const blob=new Blob([text],{type});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download=name;anchor.style.display='none';document.body.appendChild(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);}
+q('#export-csv').onclick=()=>{
+ const heads=['day','active','owned','idle','delivered','lost','purchases','dayRent','dayDeposits','dayRefund','dayPurchase','dayNet','cash','debt','deposits','rawCash','needed','book','marketValue','bookEquity','marketEquity','monthlyRunRate','netRentsMonthly','cumRental','cumPurchases','cumInterest','cumTaxes'];
+ const lines=[heads.join(';'),...results.series.map(t=>heads.map(k=>Number(t[k]??0).toFixed(2).replace('.',',')).join(';'))];
+ save('\ufeff'+lines.join('\r\n'),'ontos-rent-daily-cashflow.csv','text/csv;charset=utf-8');notice('Ежедневные результаты сохранены в CSV.');
+};
+q('#export-json').onclick=()=>{save(JSON.stringify({format:'ontos-rent-lab-1',scenario:P},null,2),'ontos-rent-scenario.json','application/json;charset=utf-8');notice('Параметры сценария сохранены на устройстве.');};
+q('#import-json').onclick=()=>q('#import-file').click();
+q('#import-file').addEventListener('change',async event=>{
+ try{
+ const file=event.target.files[0];if(!file)return;
+ if(file.size>100000)throw new Error('Файл слишком большой');
+ const json=JSON.parse(await file.text());if(json.format!=='ontos-rent-lab-1'||!json.scenario)throw new Error('Неподдерживаемый формат');
+ P=sanitize(json.scenario);baseA=null;recompute();notice('Параметры сценария загружены.');
+ }catch(error){notice('Не удалось загрузить сценарий: '+error.message)}
+ event.target.value='';
+});
+recompute();
+})();
+
+</script>
+</body>
+</html>
