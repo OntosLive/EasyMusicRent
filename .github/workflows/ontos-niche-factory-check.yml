@@ -1,0 +1,42 @@
+name: ONTOS niche factory checks
+on:
+  push:
+    branches:
+      - 'codex/ontos-niche-factory-*'
+    paths:
+      - 'tools/ontos_factory/**'
+      - 'data/niche_factory/**'
+      - 'docs/niche_factory.md'
+      - 'docs/curated_ten.md'
+      - 'tests/test_ontos_factory.py'
+      - '.github/workflows/ontos-niche-factory-check.yml'
+  pull_request:
+    paths:
+      - 'tools/ontos_factory/**'
+      - 'data/niche_factory/**'
+      - 'tests/test_ontos_factory.py'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate niche research and compile a safe demo
+        run: |
+          python -m compileall -q tools/ontos_factory tests/test_ontos_factory.py
+          python -m unittest discover -s tests -p 'test_ontos_factory.py' -v
+          PYTHONPATH=tools python -m ontos_factory.cli top --data data/niche_factory/100_hypotheses.csv --expected-count 100 --output _audit/top-ten.md
+          PYTHONPATH=tools python -m ontos_factory.cli brief --data data/niche_factory/100_hypotheses.csv --id N001 --output _audit/brief-N001.md
+          PYTHONPATH=tools python -m ontos_factory.cli build --config tools/ontos_factory/sample_contrabass_repair.json --output _audit/demo-contrabass
+          test ! -f _audit/demo-contrabass/sitemap.xml
+          grep -q 'noindex,nofollow' _audit/demo-contrabass/index.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ontos-niche-factory-demo
+          path: _audit/
+          retention-days: 7
