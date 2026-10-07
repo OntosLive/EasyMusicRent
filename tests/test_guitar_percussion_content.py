@@ -109,7 +109,7 @@ class GuitarPercussionContentTests(unittest.TestCase):
         for document in self.documents:
             self.assertNotIn('navigation_replace', document)
             self.assertTrue(all('mode' not in p for p in document['pages']))
-        expected_hash = '699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af'
+        expected_hash = '04fd0f6c6ff73b23eb9676765fe3d94d7921e9b83800d920615146799ea8e12f'
         self.assertEqual(sha256((ROOT / 'assets/canon.css').read_bytes()).hexdigest(), expected_hash)
 
 
