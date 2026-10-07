@@ -49,6 +49,7 @@ class RecoveryLandingTests(unittest.TestCase):
         cls.documents = {name: core.read_json(ROOT / 'content/sections' / name, {})
                          for name in {**RECOVERED, **ADDED}}
         cls.records = [p for d in cls.documents.values() for p in d['pages']]
+        cls.current = {p['slug']: p for p in cls.report['pages']}
 
     @classmethod
     def tearDownClass(cls):
@@ -71,10 +72,12 @@ class RecoveryLandingTests(unittest.TestCase):
             with self.subTest(slug=record['slug']):
                 entry = self.page('/' + record['slug'] + '/')
                 deep = self.page('/details/' + record['slug'] + '/')
-                self.assertEqual(core.text(entry.h1), record['search_title'])
-                self.assertEqual(core.text(deep.h1), record['editorial_title'])
-                self.assertIsNotNone(COMMERCIAL.search(record['search_title']))
-                self.assertIsNone(COMMERCIAL.search(record['editorial_title']))
+                current = self.current[record['slug']]
+                self.assertEqual(core.text(entry.h1), current['entry_title'])
+                self.assertEqual(core.text(deep.h1), current['editorial_title'])
+                self.assertNotEqual(current['entry_title'], current['editorial_title'])
+                self.assertIsNotNone(COMMERCIAL.search(current['entry_title']))
+                self.assertIsNone(COMMERCIAL.search(current['editorial_title']))
                 self.assertIsNone(entry.find('meta', attrs={'name': 'robots'}))
                 self.assertIn('noindex', deep.find('meta', attrs={'name': 'robots'})['content'])
                 self.assertEqual(entry.select_one('.site-footer a')['href'],

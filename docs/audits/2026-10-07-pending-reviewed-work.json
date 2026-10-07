@@ -1,0 +1,63 @@
+{
+  "status": "prepared_work_not_integrated",
+  "base_for_pending_work": "content of language06, whose release must be confirmed first",
+  "navigation": {
+    "frozen_candidate": "prepared-navigation/mixed-language-label-residual-candidate.json",
+    "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
+    "review": "prepared-navigation/mixed-language-label-residual-review.json",
+    "captions_scanned": 6066,
+    "latin_unique_variants": 633,
+    "latin_occurrences": 1190,
+    "fix_variants": 29,
+    "explicit_fix_occurrences": 51,
+    "keep_variants": 604,
+    "keep_occurrences": 1139,
+    "automatic_latin_children_kept": 36,
+    "full_contexts_read": 74,
+    "independent_reader": "graph_audit",
+    "independent_content_verdict": "accepted",
+    "root_refinement": {
+      "source_slug": "pedalnaya-arfa-pered-pokupkoy",
+      "target_slug": "lyon-healy-ogden-v-arendu",
+      "before": "Ogden: pedal tension без педалей",
+      "after": "Ogden: натяжение как у педальной арфы, без педалей"
+    },
+    "local_reconciliation": {
+      "snapshot_sha256": "7c0d88348010de9369a6b7544d42ee86954fcc3fa9cf1084efa6dc8efd0c8302",
+      "explicit_before_values_matched": 51,
+      "supplemental_before_values_matched": 3,
+      "status": "completed before execution transport interruption; original final file not copied into repository"
+    },
+    "supplemental": "prepared-navigation/residual-language-supplemental.json",
+    "supplemental_pages": 2,
+    "supplemental_fields": 3,
+    "source_files_modified": 15,
+    "source_files_checked_including_incoming_concertina_links": 17
+  },
+  "semantic": {
+    "full_contexts_read": 62,
+    "enrich": 19,
+    "keep": 43,
+    "exact_operations": 25,
+    "author": "navigation_cleanup",
+    "independent_reader": "project_history",
+    "semantic_verdict": "all 19 / 25 accepted with no further amendments",
+    "frozen_candidate_local_name": "post-language-semantic-candidate.json",
+    "frozen_candidate_sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+    "frozen_review_sha256": "09867e6cda7df7b8a22cf2ac3217117238d535839117689d5c3e544d89d45a80",
+    "frozen_amendments_sha256": "6e45a1537652539ab619b0931c91788b7ad6c41fd94ff79b6beff04ea3dab2cc",
+    "full_arrays": 20,
+    "quote_fields": 1,
+    "mechanical_final_binding": "pending because execution transport failed; do not claim the final cross-review file saved",
+    "purpose": "Remove internal descriptions of pages/branches and requirements to have already mastered a capability before gaining access to learn it. Preserve dates, familiar test fragments, model facts, exact kits and source URLs."
+  },
+  "documentation": {
+    "documents_read": 21,
+    "workflow_files_read": 2,
+    "research_registers_read": 5,
+    "reader": "graph_audit",
+    "confirmed_issue": "docs/page-pair-architecture.md section 7 still describes /details/ as a transitional backup under Current status",
+    "approved_resolution": "Describe /details/<slug>/ as the current independent N.1 document, retaining noindex,follow and keeping the early /models or /guides idea as history only.",
+    "repository_modified_by_reviewer": false
+  }
+}

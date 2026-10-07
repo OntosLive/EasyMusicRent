@@ -1,0 +1,4273 @@
+{
+  "status": "all_701_decisions_integrated_release06_requires_confirmation",
+  "baseline_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "input_commit_for_last_package": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "baseline_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "result_local_snapshot_sha256": "7c0d88348010de9369a6b7544d42ee86954fcc3fa9cf1084efa6dc8efd0c8302",
+  "counts": {
+    "reviewed": 701,
+    "enrich": 641,
+    "keep": 60,
+    "content_or_metadata": 639,
+    "label_only": 2
+  },
+  "cohorts_disjoint": true,
+  "overlays": [
+    {
+      "cohort": 1,
+      "path": "content/sections/zzzz61-public-language-01.json",
+      "sha256": "a4151b5f20ee4f26904dafab2fbcca68f4041daa8ae131cd0e4375f41809fa11",
+      "body_records": 93
+    },
+    {
+      "cohort": 2,
+      "path": "content/sections/zzzz62-public-language-02.json",
+      "sha256": "bf5eec606c2bd9b9183afc6330da0cc89bd3fe081b784b0be0417f1e2b17889b",
+      "body_records": 86
+    },
+    {
+      "cohort": 3,
+      "path": "content/sections/zzzz63-public-language-03.json",
+      "sha256": "b2da383e4f880900f8035abe7e770c221f9a9e846d376deebf0af9928fb0f2b0",
+      "body_records": 92
+    },
+    {
+      "cohort": 4,
+      "path": "content/sections/zzzz64-public-language-04.json",
+      "sha256": "a842130333cb128bec085b2fa490d8b23e595c9ed040bdc6f67cdef41abd90f8",
+      "body_records": 139
+    },
+    {
+      "cohort": 5,
+      "path": "content/sections/zzzz65-public-language-05.json",
+      "sha256": "184db92a597b412310f126aba0253a570f9dd922ae8c3c4906f7f2fe51403e82",
+      "body_records": 101
+    },
+    {
+      "cohort": 6,
+      "path": "content/sections/zzzz66-public-language-06.json",
+      "sha256": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923",
+      "body_records": 128
+    }
+  ],
+  "reported_cumulative_text_leaf_changes": 3023,
+  "reported_cumulative_compiled_label_changes": 136,
+  "preservation": {
+    "subjects": 1901,
+    "html_paths": 3888,
+    "aliases_unchanged": true,
+    "parents_and_kinds_unchanged": true,
+    "source_urls_and_order_unchanged": true,
+    "hrefs_and_order_unchanged": true,
+    "evidence": "Package preservation reports 01–05 and group06 local verification before transport interruption, plus exact content/label reconstruction in the group06 recovery record."
+  },
+  "records": [
+    {
+      "cohort": 1,
+      "slug": "lyon-healy-style-30-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "akkordeon-72-basa-dlya-prodolzheniya-obucheniya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "akkordeon-s-vybornym-basom-dlya-obucheniya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "hohner-bravo-i-49f-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "hohner-bravo-iii-72-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "hohner-gola-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "weltmeister-achat-34-72-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "weltmeister-perle-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "weltmeister-rubin-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "pigini-sirius-kyma-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-tango-kvarteta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-ansamblya-bayanov-akkordeonov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-balkanskogo-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bariton-ili-evfonium-po-partii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-klarinet-dlya-obucheniya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "jupiter-jbc1000-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "yamaha-ycl221ii-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "besson-prestige-2052-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "marigaux-901-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "backun-alpha-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "buffet-prodige-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-klezmer-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "jupiter-jcl700n-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "klarinet-dlya-nebolshoy-ruki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "klarinet-in-a-dlya-pervogo-orkestrovogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "yamaha-ycr2330iii-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-dzhazovogo-kvarteta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "yamaha-yts62-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "roland-tr909-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektronnye-barabany-dlya-obucheniya-rebenka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektronnye-barabany-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "roland-td02k-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "yamaha-dtx402k-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "akusticheskaya-gitara-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "akusticheskaya-gitara-dlya-drop-d",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "akusticheskaya-gitara-dlya-fingerstayla",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "akusticheskaya-gitara-dlya-otkrytyh-stroev",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "fender-cc60s-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "fender-cd60s-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "gibson-j45-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-akusticheskogo-trio",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-vokalnogo-dueta-s-gitaroy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "yamaha-fs800-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bariton-gitara-dlya-ponizhennogo-stroya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-dlya-igry-mediatorem",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-dlya-igry-paltsami",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-dlya-ponizhennogo-stroya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-dlya-slepa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-dlya-studii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-dlya-zapisi-napryamuyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "ibanez-gsrm20-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-fank-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-reggae-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "squier-mini-precision-bass-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "yamaha-bb234-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "yamaha-trbx174-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-blyuza",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-otkrytyh-stroev",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-peregruza",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-perehoda-s-akusticheskoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-sessii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-slayda",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-tyazhelogo-stroya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-dlya-zameny-na-gastrolyah",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-s-dvumya-hambakerami",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-s-fiksirovannym-bridzhem",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-s-tremolo",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "elektrogitara-s-tremya-singlami",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "fender-american-professional-ii-telecaster-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "squier-affinity-stratocaster-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "squier-mini-stratocaster-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-bossa-nova-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrumenty-dlya-flamenko-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "rezonatornaya-gitara-dlya-slayda",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-dlya-raboty-nad-zvukom-po-zadaniyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-posle-zamechaniya-o-vyse-strun",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-lady-ne-stroyat",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-mehanika-shumit-v-zapisi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-ne-hvataet-ataki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-ne-hvataet-verhnego-registra",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-nuzhen-chistyy-di-signal",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-nuzhen-rezerv-na-kontsert",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-pedal-rabotaet-kak-knopka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 1,
+      "slug": "instrument-esli-slishkom-dolgiy-sustain",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrument-esli-struny-slishkom-zhestkie",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrument-esli-teryaetsya-v-ansamble",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrument-esli-tyazhelo-prizhimat",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "barochnaya-skripka-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "barochnaya-skripka-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "barochnaya-violonchel-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "barochnye-instrumenty-dlya-studiynoy-zapisi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "renessansnye-instrumenty-dlya-studiynoy-zapisi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "kawai-k300-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "pianino-dlya-raboty-nad-pedalyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "yamaha-u1-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "cifrovoe-pianino-s-troynoy-pedalyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "yamaha-clp775-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 2,
+      "slug": "yamaha-clp875-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 2,
+      "slug": "yamaha-clp885-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 2,
+      "slug": "yamaha-p225-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "hohner-clavinet-e7-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "rhodes-mark-i-stage-73-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "wurlitzer-200a-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-kamernogo-hora-s-ansamblem",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "pianino-s-pedalyu-sostenuto",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "hammond-leslie-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-ansamblya-melodiki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "melodika-32-klavishi-dlya-shkoly",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "melodika-posle-fortepiano",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "fazioli-f278-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-vokalnogo-trio",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-dlya-festivalnoy-smeny-artistov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-dlya-festivalya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-dlya-maloy-stseny",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-dlya-stereo-vyhoda",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-dlya-upravleniya-vneshnimi-modulyami",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "klavishnye-s-pedalyami-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "nord-piano-5-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 2,
+      "slug": "nord-stage-3-88-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "nord-stage-4-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 2,
+      "slug": "scenicheskie-klavishnye-dlya-dvuh-zon",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "scenicheskie-klavishnye-dlya-gastrolnoy-zameny",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "scenicheskie-klavishnye-dlya-pianista",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "scenicheskie-klavishnye-dlya-treh-sloev",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "scenicheskie-klavishnye-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "stage-piano-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "yamaha-cp88-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "roland-gokeys3-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "gibridnyy-instrument-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "gibridnyy-instrument-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "gibridnyy-instrument-dlya-zapisi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "eastman-md305-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "gibson-f5-master-model-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-ansamblya-gitar-i-ukulele",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-ansamblya-ukulele",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "alt-posle-pereryva",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "hidersine-vivente-alt-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektricheskiy-kontrabas-dlya-gastroley",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektricheskiy-kontrabas-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektricheskiy-kontrabas-posle-akusticheskogo",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektroskripka-dlya-stsenicheskih-effektov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektroskripka-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektroviolonchel-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "elektroviolonchel-posle-akusticheskoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "akusticheskiy-kontrabas-posle-elektricheskogo",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "codabow-prodigy-skripka-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 2,
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "goronok-etyud-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "goronok-fantaziya-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "goronok-kapris-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "hidersine-vivente-academy-skripka-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "hidersine-vivente-skripka-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "knilling-bucharest-skripka-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 2,
+      "slug": "skripka-dlya-letney-praktiki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "skripka-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "skripka-posle-pereryva",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "karbonovyy-smychok-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "instrumenty-dlya-saundtreka-kamernogo-sostava",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "smychkovye-eastman",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "smychkovye-hidersine",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "hidersine-vivente-violonchel-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "violonchel-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "violonchel-posle-pereryva",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 2,
+      "slug": "dw-collectors-series-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gretsch-usa-custom-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "ludwig-classic-maple-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "pearl-masters-custom-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "tama-imperialstar-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "tama-starclassic-performer-bb-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "yamaha-absolute-hybrid-maple-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "yamaha-recording-custom-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "yamaha-rydeen-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "bolshoy-orkestrovyy-baraban-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "handpan-dlya-zapisi-improvizatsii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "adams-professional-gen2-litavry-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "ludwig-black-beauty-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "ludwig-supraphonic-lm400-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "sonor-global-beat-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-pervogo-ansamblya-udarnyh",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-latino-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "paiste-2002-set-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "tarelki-dlya-pervogo-komplekta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "tarelki-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "zildjian-a-series-set-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "zildjian-k-series-set-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "orf-instrumenty-dlya-obucheniya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "vic-firth-fresh-approach-starter-pack-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "vibrafon-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "vibrafon-dlya-raboty-s-pedalyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "usiliteli-backline",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "fishman-loudbox-artist-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "ampeg-svt-810e-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-kabinet-4x10-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-kabinet-8x10-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-kabinet-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "aguilar-tone-hammer-700-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "ampeg-rb110-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "ampeg-svt-cl-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-usilitel-dlya-gastroley",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-usilitel-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-usilitel-dlya-repetitsii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-usilitel-dlya-studii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-usilitel-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gallien-krueger-800rb-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "markbass-little-mark-iii-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "bas-cherez-di-bez-usilitelya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "di-boks-dlya-akusticheskoy-gitary",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "di-boks-dlya-bas-gitary",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "di-boks-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "passivnyy-di-boks-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-kabinet-1x12-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-kabinet-2x12-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-kabinet-4x12-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-kabinet-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "marshall-1960a-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "combo-ili-golova-i-kabinet",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "evh-5150iii-100s-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "fender-65-twin-reverb-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "fender-mustang-lt25-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-usilitel-dlya-gastrolnoy-zameny",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-usilitel-dlya-high-gain",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-usilitel-dlya-maloy-stseny",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-usilitel-dlya-pervogo-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-usilitel-dlya-repetitsii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-usilitel-dlya-studii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnyy-usilitel-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "golova-i-kabinet-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "marshall-jcm800-2203-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "mesa-dual-rectifier-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "orange-rockerverb-50-mkiii-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "leslie-122-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "akusticheskie-usiliteli",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-akusticheskogo-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-bystroy-smeny-grupp",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-dzhazovogo-kvinteta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-klubnoy-stseny",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-odnodnevnoy-arendy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-rezervnogo-komplekta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-ritm-sektsii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-rok-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-soundcheck-do-priezda-artista",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-dlya-vokalista-s-gitaroy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "backline-po-rayderu-dlya-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovye-kabinety",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovye-usiliteli",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "basovyy-backline-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnye-kabinety",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "gitarnye-usiliteli",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-gastrolnogo-kamernogo-sostava",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-teatralnogo-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-teleefira-s-zhivym-ansamblem",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-videosyemki-zhivogo-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 3,
+      "slug": "instrumenty-dlya-zameny-uchastnika-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "klarinet-in-a",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "rezonatornaya-gitara",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yfl212-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yas280-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yts280-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yep201-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-fg800-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yas62-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yob241-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "klassicheskaya-gitara-dlya-uchenika",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bayan-dlya-perehoda-na-vybornyy-bas",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bayan-s-vybornym-basom-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "gotovovybornyy-bayan-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "diatonicheskaya-garmonika-dlya-blyuza",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "diatonicheskaya-garmonika-dlya-vokalista",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "diatonicheskaya-garmonika-v-drugoy-tonalnosti",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "hromaticheskaya-garmonika-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "hromaticheskaya-garmonika-posle-diatonicheskoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "hromaticheskaya-garmonika-dlya-dzhaza",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "hromaticheskaya-garmonika-dlya-melodicheskoy-linii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "hromaticheskaya-garmonika-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "kontsertina-dlya-folk-proekta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bandoneon-posle-akkordeona",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrumenty-dlya-dueta-valtorna-fortepiano",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrumenty-dlya-saksofonovogo-kvarteta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrumenty-dlya-trio-valtorna-skripka-fortepiano",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrumenty-dlya-pervogo-brass-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrumenty-dlya-shkolnogo-big-benda",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrumenty-dlya-dzhazovogo-seksteta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrumenty-dlya-indie-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-posle-zamechaniya-o-pedali",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-dlya-konsultatsii-s-professorom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-po-programme-konkursa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-dlya-postupleniya-v-uchilishche",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-dlya-perehoda-v-sleduyushchiy-klass",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-posle-izmeneniya-repertuara",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "trombon-dlya-studii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "trombon-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "tuba-dlya-studii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "fender-american-professional-ii-stratocaster-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "gibson-les-paul-standard-60s-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "gibson-es335-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "martin-d28-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "music-man-stingray-special-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "buffet-r13-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "selmer-mark-vi-tenor-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bach-180s37-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "conn-8d-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "lyon-healy-style-23-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "scandalli-super-vi-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "fender-american-professional-ii-precision-bass-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yfl677-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "loree-royal-oboe-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "fox-601-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bach-42bo-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "alexander-103-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "lyon-healy-chicago-cg-extended-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "pigini-super-bayan-sirius-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "rickenbacker-330-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 4,
+      "slug": "alhambra-4p-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "fox-renard-41-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yhr314ii-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-ybb105-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "cordoba-c1m-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "cordoba-c1m-3-4-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "goboy-dlya-nebolshoy-ruki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "fagot-dlya-nebolshoy-ruki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "legkaya-valtorna-rebenku",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "gemeinhardt-2sp-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "gemeinhardt-2spch-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "jupiter-jfl700-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bach-btr302-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "jupiter-jtr700-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bach-btb302-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "jupiter-jtb700-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "lyon-healy-drake-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "salvi-mia-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "lyon-healy-ogden-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yrs24b-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "jupiter-jas700-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "jupiter-jhr700-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "trevor-james-10x-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "besson-prodige-162-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "fleyta-s-izognutoy-golovkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "jupiter-jts700-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-ysl350c-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "trombon-dlya-korotkoy-ruki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "ibanez-pgmm31-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "elektrogitara-dlya-nebolshoy-ruki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "besson-prodige120-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "kornet-dlya-nebolshoy-ruki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bariton-gorn",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-ybh301-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "besson-prodige157-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "tenor-gorn",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "yamaha-yah203-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "besson-prodige152-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akusticheskaya-gitara-dlya-igry-boem",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akusticheskaya-gitara-s-kompaktnym-korpusom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akusticheskaya-gitara-s-vyrezom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "akusticheskaya-gitara-dlya-sravneniya-korpusov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "elektrogitara-dlya-pervogo-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "elektrogitara-dlya-chistogo-zvuka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "elektrogitara-dlya-fanka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "elektrogitara-s-hss-datchikami",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "elektrogitara-dlya-zapisi-napryamuyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bas-gitara-dlya-nachinayuschego",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bas-gitara-dlya-fanka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bas-gitara-dlya-rok-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bas-gitara-dlya-dzhaza",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bas-gitara-s-passivnym-upravleniem",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bas-gitara-s-aktivnym-ekvalayzerom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "korotkomensurnaya-bas-gitara-vzroslomu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bas-gitara-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "klassicheskaya-gitara-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "klassicheskaya-gitara-posle-pereryva",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "klassicheskaya-gitara-dlya-etudov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "gitara-flamenko-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "goboy-dlya-pervogo-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "truba-dlya-big-benda",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "kornet-dlya-pervogo-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "kornet-posle-truby",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "kornet-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "valtorna-dlya-pervogo-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "valtorna-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "evfonium-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "tuba-dlya-pervogo-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "bariton-gorn-dlya-pervogo-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 4,
+      "slug": "tenor-gorn-dlya-pervogo-instrumenta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "midi-klaviatury",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezatory",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "hammond-organ",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "organ-dlya-barochnogo-ansamblya",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "organ-dlya-kontserta",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-dlya-studii",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-dlya-zhivogo-vystupleniya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "smychkovye-dlya-studiynoy-zapisi",
+      "decision": "enrich",
+      "scope": "labels_only"
+    },
+    {
+      "cohort": 5,
+      "slug": "tsink",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "fm-sintezator",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "wavetable-sintezator",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "melodika",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "analogovyy-sintezator-pered-pokupkoy",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "barochnaya-violonchel-dlya-basso-continuo",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "klavesin-dlya-basso-continuo",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "korg-minilogue-xd-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "korg-monologue-v-arendu",
+      "decision": "enrich",
+      "scope": "labels_only"
+    },
+    {
+      "cohort": 5,
+      "slug": "nord-electro-6d-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "casio-px770-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "yamaha-u3-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "pianino-dlya-videozayavki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "klavishnye-s-mikrotonalnoy-nastroykoy",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "elektroskripka-dlya-zapisi-napryamuyu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "pyatistrunnaya-elektroskripka-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "elektroviolonchel-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "elektricheskiy-kontrabas-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "melodika-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "barochnaya-violonchel-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "barochnaya-violonchel-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "viola-da-gamba-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "traverso-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "traverso-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "traverso-posle-sovremennoy-fleyty",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "traverso-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "tsink-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "tsink-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "tsink-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sakbut-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sakbut-posle-sovremennogo-trombona",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sakbut-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "naturalnaya-truba-dlya-pervogo-opyta",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "naturalnaya-truba-posle-sovremennoy-truby",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "naturalnaya-truba-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "shalmei-dlya-rannego-ansamblya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "srednevekovye-instrumenty-dlya-studiynoy-zapisi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "renessansnye-instrumenty-dlya-konsorta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "renessansnye-instrumenty-dlya-teatralnoy-postanovki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "barochnye-instrumenty-dlya-basso-continuo",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "barochnye-instrumenty-dlya-opery",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "barochnye-instrumenty-dlya-kamernoy-programmy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "istoricheskie-strunnye-dlya-pervogo-proekta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "istoricheskie-instrumenty-dlya-master-klassa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "workstation-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "workstation-dlya-gastrolnogo-tura",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "instrumenty-dlya-strunnogo-trio",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "instrumenty-dlya-dzhazovogo-trio",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "instrumenty-dlya-soul-gruppy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "instrumenty-dlya-vokalnogo-dueta-s-fortepiano",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "instrumenty-dlya-horovogo-akkompanementa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "instrumenty-dlya-opernoy-yamy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "instrumenty-dlya-festivalnoy-kamernoy-programmy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "korg-opsix-mk2-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "korg-wavestate-mk2-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "arturia-minifreak-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "roland-gaia2-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "kontrabas-dlya-studii",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "kontrabas-dlya-dzhaza",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "klavesin-dlya-kontserta",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "roland-rd2000ex-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "minimoog-model-d-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "roland-juno-106-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "korg-kronos-2-88-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "steinway-d274-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "steinway-b211-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "yamaha-cfx-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "boesendorfer-280vc-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "legendarnye-sintezatory",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "yamaha-dx7-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sequential-prophet-5-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "roland-jupiter-8-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "roland-d50-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "korg-m1-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "yamaha-montage-m8x-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "roland-fantom-8-ex-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "korg-nautilus-88-at-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "gewa-ideale-skripka-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-s-ponyatnym-upravleniem",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "yamaha-psr-e383-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "upton-workshop-smychok-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "cifrovoe-pianino-na-ustoychivoy-stoyke",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-kadentsiya-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-nova-alt-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-kadentsiya-alt-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-nova-violonchel-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-kadentsiya-violonchel-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-nova-kontrabas-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-kadentsiya-kontrabas-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "hidersine-vivente-kontrabas-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "smychkovye-gewa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "gewa-allegro-violonchel-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "eastman-vc100-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "yamaha-p32d-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "suzuki-m32c-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "cifrovoe-pianino-dlya-zapisi-midi",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "cifrovoe-pianino-dlya-zapisi-audio",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-dinamikoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "cifrovoe-pianino-dlya-ansamblya-doma",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-dlya-sozdaniya-lida",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-dlya-arpeggiatora",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-dlya-saund-dizayna",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-dlya-modulyatsii-v-realnom-vremeni",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "sintezator-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "workstation-dlya-odnogo-muzykanta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "midi-klaviatura-dlya-kompozitora",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "midi-klaviatura-dlya-notnogo-nabora",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "midi-klaviatura-dlya-orkestrovki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "midi-klaviatura-dlya-virtualnyh-instrumentov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "organ-dlya-raboty-dvuh-manualov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "klavesin-dlya-barochnoy-programmy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "rhodes-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "kontrabas-dlya-perehoda-s-bas-gitary",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "kontrabas-dlya-perehoda-s-violoncheli",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "kontrabas-dlya-kamernogo-ansamblya",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "kontrabas-dlya-raboty-smychkom",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "skripichnyy-smychok-pered-pokupkoy",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "altovyy-smychok-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "violonchelnyy-smychok-pered-pokupkoy",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "smychok-dlya-raboty-nad-legato",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "smychok-dlya-raboty-nad-spikkato",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "smychok-dlya-tihoy-ataki",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "smychok-dlya-raboty-u-kontsa",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "derevyannyy-smychok-dlya-pervogo-opyta",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 5,
+      "slug": "kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 5,
+      "slug": "smychok-dlya-raboty-nad-stakkato",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "teorba",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-koncert",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-dlya-sravneniya-razmerov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-posle-gitary",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-bariton-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "mandolina-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "mandolina-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "mandolina-dlya-raboty-nad-tremolo",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "bandzho-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "domra-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "domra-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "domra-dlya-raboty-mediatorom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "domra-alt-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "domra-bas-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "balalayka-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "balalayka-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "balalayka-dlya-pervogo-orkestrovogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "balalayka-bas-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "teorba-dlya-pervogo-opyta",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "teorba-dlya-continuo",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "teorba-pered-pokupkoy",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "kanun-dlya-raboty-s-mandalami",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "sitar-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "sitar-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "tanpura-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "tanpura-dlya-zapisi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "koto-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "guzhen-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "syamisen-dlya-pervogo-opyta",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "syamisen-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "syamisen-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "mbira-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "mbira-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gubnaya-garmonika-posle-pereryva",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gubnaya-garmonika-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gubnaya-garmonika-dlya-zapisi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gubnaya-garmonika-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "eksperimentalnyy-akusticheskiy-instrument-dlya-performansa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "zhestovyy-kontroller-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "zhestovyy-kontroller-dlya-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "zhestovyy-kontroller-dlya-saund-dizayna",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gitarnyy-usilitel-dlya-klina",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gitarnyy-usilitel-dlya-krancha",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gitarnyy-backline-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "leslie-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "backline-dlya-pervogo-kontserta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "backline-dlya-festivalya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "backline-dlya-fly-date",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-korpus-slishkom-bolshoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-tihaya-nota-ne-nachinaetsya",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-klapan-zapazdyvaet",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-ne-hvataet-diapazona",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhen-vybornyy-bas",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhen-kvartventil",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhen-vyrez-korpusa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhna-korotkaya-menzura",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-pedal",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-slishkom-gromko-dlya-doma",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-nuzhno-igrat-v-naushnikah",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "instrument-esli-ne-hvataet-monitoringa",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "klaves",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "teorba-dlya-studii",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "teorba-dlya-kontserta",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "musser-m55-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "rotornye-akusticheskie-sistemy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "fender-65-deluxe-reverb-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "vox-ac30c2-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "roland-jc120-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "yamaha-ym6100-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "sabian-hhx-set-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "roland-tr808-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "deering-sierra-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "moog-etherwave-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "doff-domra-junior-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "kala-ka15s-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "makala-dolphin-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "vic-firth-v8705-percussion-kit-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ukulele-so-stabilnymi-kolkami",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "sonor-primary-sxp11-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "studio49-seriya1000-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "sonor-first-beat-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "studio49-easycussion500-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "deering-goodtime-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "barabannaya-ustanovka-ponizhe-dlya-rebenka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gubnaya-garmonika",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "hohner-special20-c-v-arendu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "pearl-pl910c-v-arendu",
+      "decision": "keep",
+      "scope": "keep"
+    },
+    {
+      "cohort": 6,
+      "slug": "barabannaya-ustanovka-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "barabannaya-ustanovka-dlya-malenkoy-komnaty",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "barabannaya-ustanovka-dlya-fanka",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "barabannaya-ustanovka-dlya-akusticheskogo-sostava",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "malyy-baraban-dlya-domashney-praktiki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "malyy-baraban-dlya-rudimentov",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "malyy-baraban-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-posle-akusticheskih",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "akusticheskaya-ustanovka-posle-elektronnyh",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-trenirovki-v-naushnikah",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-zapisi-midi",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-zapisi-audio",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dinamikoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-raboty-s-metronomom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "elektronnye-barabany-dlya-trenirovki-nog",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "marimba-dlya-perehoda-na-chetyre-palochki",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "orkestrovye-kolokolchiki-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "orkestrovye-kolokola-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "orkestrovye-parnye-tarelki-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "orkestrovyy-treugolnik-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "kahon-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "kahon-pered-pokupkoy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "dzhembe-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "kongi-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "bongi-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "darbuka-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ramochnyy-baraban-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "handpan-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "glyukofon-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "orf-instrumenty-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    },
+    {
+      "cohort": 6,
+      "slug": "ruchnaya-perkussiya-dlya-vokalista",
+      "decision": "enrich",
+      "scope": "content_or_metadata"
+    }
+  ],
+  "scope_note": "Closes this selected language queue only. Residual navigation labels and the bounded semantic review remain separate; this is not verification of all external factual claims or completion of the project."
+}

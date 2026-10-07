@@ -1,0 +1,897 @@
+{
+  "package": "public-language-06",
+  "status": "integrated_release_requires_confirmation",
+  "base_commit": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "scope": {
+    "read": 139,
+    "enrich": 128,
+    "keep": 11,
+    "content_or_metadata": 128,
+    "label_only": 0
+  },
+  "changed_text_leaves": 483,
+  "field_counts": {
+    "editorial_title": 27,
+    "description": 89,
+    "kicker": 70,
+    "intro": 34,
+    "blocks": 114,
+    "quote": 35,
+    "search_title": 9,
+    "sources": 5
+  },
+  "labels": {
+    "explicit": 20,
+    "automatic": 8,
+    "source_files": 8,
+    "deferred_from_group03_closed": 7
+  },
+  "frozen_evidence": "prepared-language/language-06-review.json",
+  "independent_review": "prepared-language/language-06-cross-review.json",
+  "root_review": "prepared-language/language-06-root-review.json",
+  "decisions": [
+    {
+      "slug": "teorba",
+      "decision": "keep",
+      "reason": "Keep: полный текст предметный и русский. Continuo — уместное международное обозначение ансамблевой функции теорбы в ранней музыке; описание не подменяет его бытовым «сопровождением». Нового содержания и косметической замены ради латиницы не требуется.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-koncert",
+      "decision": "enrich",
+      "reason": "Concert употребляется как общее название размера внутри русской сцены для начинающего; переведено как концертный размер. Сохранено прямое различие размера, электроники и профессионального класса.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "reason": "Общие названия размеров укулеле переведены по контексту начального выбора; буквенные обозначения строя и имя Kala сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Размеры и баритонный строй названы по-русски; G-C-E-A и D-G-B-E сохранены дословно, без изменения принятого уточнения о строях.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Soprano/concert/tenor/baritone — общие форматы, переведены для русской сцены сравнения; варианты G и баритонный строй не изменены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-dlya-sravneniya-razmerov",
+      "decision": "enrich",
+      "reason": "Общие названия трёх размеров переведены, сама проверка одной песни на нескольких инструментах сохранена.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-posle-gitary",
+      "decision": "enrich",
+      "reason": "Английские имена форматов переведены с сохранением буквенных строев и условности «часто используют».",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-bariton-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Baritone/tuning названы по-русски в обычной русской инструкции; буквенная схема и сравнение с четырьмя гитарными струнами сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "reason": "Tremolo не ошибочный приём: здесь это слово в обычных русских инструкциях начинающему, а не обозначение из нот. Использовано принятое русское «тремоло», The Met сохранено как имя источника.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "mandolina-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Латинское tremolo последовательно вставлено в обычную русскую речь о домашней практике; русское написание сохраняет приём и весь учебный смысл.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "mandolina-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Tremolo в русских перечнях задач передано как тремоло; это языковое оформление существующего термина, а не исправление исполнительской рекомендации.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "mandolina-dlya-raboty-nad-tremolo",
+      "decision": "enrich",
+      "reason": "Тремоло раскрыто верно. В заголовках и учебных фразах использовано русское написание термина; техника, темп и условный проектный срок сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "reason": "Английские названия типов банджо и техник правой руки переведены для начального выбора; конструктивное различие пятиструнного и тенорового сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Названия пятиструнного и тенорового банджо переведены; выбор конструкции под учебный материал сохранён.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "bandzho-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Общие английские названия типов переведены, Deering оставлено как название производителя.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "domra-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Одна вставка tremolo в русской учебной инструкции передана как тремоло; рекомендация и система струн не изменены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "domra-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Одна вставка tremolo в обычном русском заголовке проверки передана как тремоло, без изменения смысла.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "domra-dlya-raboty-mediatorom",
+      "decision": "enrich",
+      "reason": "В учебном объяснении медиаторного движения используется русское написание тремоло; сам международный термин и приём не объявляются ошибочными.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "domra-alt-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Tremolo в русском задании передано как тремоло; Doff и оркестровая функция сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "domra-bas-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Единственная латинская вставка в учебной пробе — tremolo; русское написание не меняет приём и низкую оркестровую функцию.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "balalayka-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Английская транслитерация голосов русского оркестрового семейства заменена их русскими названиями.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "balalayka-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Латинские названия голосов в описании переведены; перечень и вопрос выбора партии сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "balalayka-dlya-pervogo-orkestrovogo-opyta",
+      "decision": "enrich",
+      "reason": "Названия балалаечных голосов переведены в метаданных и оркестровом объяснении, без изменения числа голосов или их функций.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "balalayka-bas-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Общий bass внутри русской фразы заменён русским названием оркестрового голоса.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-pervogo-opyta",
+      "decision": "keep",
+      "reason": "Keep: единственное содержательное латинское обозначение — continuo, точная международная функция теорбы. Полный текст раскрывает её через басовую линию и аккорды; имя Lute Society of America корректно. Нет общего английского предложения или новой смысловой проблемы.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-continuo",
+      "decision": "keep",
+      "reason": "Keep: basso continuo — предмет самой страницы и принятый термин ранней музыки. Рядом дано понятное русское объяснение басовой и гармонической роли. Не требуется заменять корректное обозначение ради отсутствия латиницы.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "teorba-pered-pokupkoy",
+      "decision": "keep",
+      "reason": "Keep: continuo употреблено в точном профессиональном смысле и сопоставлено с сольной музыкой и записью; остальной текст русский, сцена выбора конструкции раскрыта. Само международное название практики не дефект.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "kanun-dlya-raboty-s-mandalami",
+      "decision": "enrich",
+      "reason": "Mandal levers — общее описание уже названных по-русски рычажков мандал; метаданные приведены к русской терминологии самого текста.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "sitar-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Sympathetic strings переведены тем же термином «резонирующие струны», который уже используется в теле страницы.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "sitar-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Английское родовое название резонирующих струн переведено без изменения конфигурации или школы ситара.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "tanpura-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Drone в описании звуковой функции танпуры передан русским музыкальным термином «бурдон»; поддержка голоса и цикл щипков сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "tanpura-dlya-zapisi",
+      "decision": "enrich",
+      "reason": "Drone переведён как бурдон в обычных русских фразах о записи, без замены звуковой функции или добавления характеристик.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "koto-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Bridges переведены как подставки — тот же конструктивный термин уже используется во всех остальных полях страницы.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "guzhen-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Tuning routine и bend-движения переведены по настройке и изменению высоты звука; не навязывается гитарный способ подтяжки струны.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "syamisen-dlya-pervogo-opyta",
+      "decision": "keep",
+      "reason": "Keep: bachi — уместное традиционное название плектра, прямо объяснённое в первом абзаце как крупный плектр; это не общее английское слово и не неподтверждённая характеристика. Остальной текст естественный и предметный.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "syamisen-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "В самостоятельной домашней сцене bachi-техника и удар bachi не пояснены. Использовано русское «плектр» по уже прочитанному соседнему первому знакомству; традиционное название bachi сохранено рядом с пояснением.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "syamisen-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Смешанная bachi-техника передана по-русски как работа плектром; традиционное имя bachi сохранено в описании рядом с пояснением.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "mbira-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Латинские написания mbira/sansi внутри обычной русской фразы заменены русскими названиями, уже данными в подписи источника; разнообразие раскладок сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "mbira-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Названия мбира и санси переданы по-русски в обычной речи; имена организаций и источники не изменены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-posle-pereryva",
+      "decision": "enrich",
+      "reason": "Названия амбушюрных способов и бендов переданы русской речью; bend здесь относится к высоте звука гармоники, а не к подтяжке струны.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Bends в русских фразах переданы как бенды; различие диатоники и хроматической механики сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-zapisi",
+      "decision": "enrich",
+      "reason": "Key означает тональность; diatonic/chromatic и bends/slider переведены по системе губной гармоники, без смешения с клавишами или аудиоканалом.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-kontserta",
+      "decision": "enrich",
+      "reason": "Key/keys означает набор тональностей под песни; переведено в H1, подзаголовке и теле, не затрагивая число инструментов или систему.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "eksperimentalnyy-akusticheskiy-instrument-dlya-performansa",
+      "decision": "enrich",
+      "reason": "Performance в метаданных обозначает уже описанный по-русски перформанс; факт о видимом жесте и источнике звука сохранён.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Mapping и synthesizer control объяснены через назначение параметров жестам; Touché сохранено как модель, первое выступление не получает новых требований.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-kontserta",
+      "decision": "enrich",
+      "reason": "Gesture/live/mapping/performance переведены по сцене живого исполнения и связям жеста со звуком; программные возможности не добавлены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-saund-dizayna",
+      "decision": "enrich",
+      "reason": "Sound design, gesture, mapping и automation переведены по непрерывному управлению параметрами. Название Touché и действующие свойства сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-klina",
+      "decision": "enrich",
+      "reason": "Clean/headroom/distortion и combo переведены по запасу чистого звука; stereo chorus — эффект, а Jazz Chorus в названии модели и источника сохранён.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-krancha",
+      "decision": "enrich",
+      "reason": "Crunch передан принятым русским «кранч», master volume — общим регулятором громкости; сценическая реакция на атаку сохранена. N.0 закрывает производную подпись из группы 03.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gitarnyy-backline-po-rayderu",
+      "decision": "enrich",
+      "reason": "Backline/substitute/soundcheck и список оборудования переведены, обязанность согласовать замену сохранена. N.0 закрывает производную подпись группы 03.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Роторная система и переход скоростей описаны по-русски; Leslie/Hammond и обозначения Slow/Fast сохранены для узнавания режимов. Уточнено реальное вращение внутри системы вместо впечатления вращающегося корпуса.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "decision": "enrich",
+      "reason": "Смешанное описание бэклайна и подзаголовки переведены; домашние привычки группы и масштаб первой сцены сохранены. N.0 закрывает производную подпись группы 03.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "backline-dlya-festivalya",
+      "decision": "enrich",
+      "reason": "Shared base и changeover переведены по сценарию нескольких артистов; общий парк и исключения не смешаны. N.0 закрывает производную подпись группы 03.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "decision": "enrich",
+      "reason": "Туровый бэклайн, райдер, местные поставщики и замены названы по-русски; повторяемая проверка в каждом городе сохранена. N.0 закрывает производную подпись группы 03.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "backline-dlya-fly-date",
+      "decision": "enrich",
+      "reason": "Fly-date раскрыт как концерт с перелётом; advance, handoff, line check и короткий run переведены по существующей последовательности подготовки. N.0 закрывает точную производную подпись группы 03.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "decision": "enrich",
+      "reason": "Смешанное описание функций и согласования переведено. Action раскрыто по двум инструментальным переходам страницы: высота струн либо механика клавиатуры. N.0 закрывает производную подпись группы 03.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-korpus-slishkom-bolshoy",
+      "decision": "enrich",
+      "reason": "Compact/short-scale переведены с сохранением различия компактного корпуса и короткой мензуры.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-tihaya-nota-ne-nachinaetsya",
+      "decision": "keep",
+      "reason": "Keep: pianissimo и PP — корректные музыкальные обозначения конкретной тихой динамики, на которую прямо направлена проверка. Полный контекст русский; обозначение не перепутано с характеристикой модели или обещанием услуги.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-klapan-zapazdyvaet",
+      "decision": "enrich",
+      "reason": "Маркетинговый step-up переведён через выбор более дорогого инструмента; сохранён приоритет ремонта исправимой механики.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "decision": "enrich",
+      "reason": "Rebound — уже описанный в теле отскок; английские вставки переведены без изменения техники сравнения.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "decision": "enrich",
+      "reason": "Rebound, doubles и rudiments переведены как отскок, двойные удары и рудименты; моторная причина сравнения сохранена.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-diapazona",
+      "decision": "enrich",
+      "reason": "Step-up заменён конкретным расширением диапазона, без новой лестницы качества или статуса.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "decision": "enrich",
+      "reason": "Muting переведён как глушение струн в общем контексте бас-гитары и смычкового инструмента; обе техники и эффект дополнительной струны сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-vybornyy-bas",
+      "decision": "enrich",
+      "reason": "Free-bass передан как выборный бас; выборная и готово-выборная системы не объединены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya",
+      "decision": "enrich",
+      "reason": "Cross-route и пояснение устройства предметных запросов — внутренний язык сайта. Заменены непосредственной проверкой функции и совместимости; причина симптома и сравнение промежуточных положений сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-kvartventil",
+      "decision": "keep",
+      "reason": "Keep: F-attachment — полезное международное обозначение конкретной системы, рядом последовательно объяснённой как F-квартвентиль. Полный текст русский и направлен на аппликатурную задачу; обозначение F сохранено без навязанного перевода.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "decision": "enrich",
+      "reason": "Open holes переведено тем же русским названием открытых клапанов, которое уже дано в H1 и теле. Не добавлен ранг качества.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "decision": "enrich",
+      "reason": "Splits переданы как разделение клавиатуры на зоны, production-проект — музыкальный проект. MIDI и численные диапазоны сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-vyrez-korpusa",
+      "decision": "enrich",
+      "reason": "Cutaway переведён как вырез корпуса в задаче доступа к верхним ладам; русское N.0 и все параметры сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-korotkaya-menzura",
+      "decision": "enrich",
+      "reason": "Short-scale переведён через короткую мензуру; отличие от детского инструмента сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-pedal",
+      "decision": "enrich",
+      "reason": "В перечне функций использованы русские названия состенуто и экспрессии; они не объединяются с переключателем или педальной клавиатурой.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-slishkom-gromko-dlya-doma",
+      "decision": "enrich",
+      "reason": "Generic silent/electric переведено как тихий или электрический формат; не объявляется фирменной системой Yamaha и не обещает полного отсутствия механического шума.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-nuzhno-igrat-v-naushnikah",
+      "decision": "enrich",
+      "reason": "Общие silent/electric и control box переведены; выбор сигнала для наушников, динамика и отсутствие гарантии полной тишины сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-monitoringa",
+      "decision": "enrich",
+      "reason": "Monitor и soundcheck переведены по сценическому контролю звука, без изменения границы между инструментом и мониторным трактом.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "klaves",
+      "decision": "keep",
+      "reason": "Keep: clave специально приведено как международное название ритмического принципа, отличаемого от самих палочек; это полезное терминологическое различие. Текст и действующее согласование числа пар предметные, новые изменения не нужны.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-studii",
+      "decision": "keep",
+      "reason": "Keep: continuo — точное обозначение партии и функции ранней музыки. Весь контекст русский и раскрывает басовую опору, резонанс и баланс записи; международный термин не создаёт двусмысленности.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "teorba-dlya-kontserta",
+      "decision": "keep",
+      "reason": "Keep: continuo употреблено как профессиональное название басово-гармонической функции и сопоставлено с самостоятельной партией. Никакого общего английского предложения или внутренней классификации в полном тексте нет.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "musser-m55-v-arendu",
+      "decision": "enrich",
+      "reason": "Vibraphone/rental-standard/backline/vibrato/mallets переведены; Rider Core заменён сценой. Удалены объяснения модельного URL и причины создания страницы. Отдельно: H2 о безусловной комплектации стал проверкой мотора, педали и рамы, сохраняя существующую задачу полного рабочего комплекта.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "rotornye-akusticheskie-sistemy",
+      "decision": "enrich",
+      "reason": "Rotary/horn/interface panel/rental переведены по устройству и подключению. Slow/Chorale и Fast/Tremolo сохранены как обозначения скоростей; внутреннее требование собственной ветви фонда удалено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "fender-65-deluxe-reverb-v-arendu",
+      "decision": "enrich",
+      "reason": "Общие англоязычные характеристики и эффекты переведены. Rider Core заменён предметным подзаголовком, вывод о внутреннем приоритете удалён; факт о десяти Deluxe Reissue сохранён.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "decision": "enrich",
+      "reason": "British Invasion передано принятым русским названием культурного явления; общие описания усилителя переведены. Normal/Top Boost и Greenback/Alnico Blue сохранены как названия каналов и динамиков.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "roland-jc120-v-arendu",
+      "decision": "enrich",
+      "reason": "Clean/combo/breakup и стереохорус переведены как общие свойства. Dimensional Space Chorus сохранён как фирменное имя эффекта; внутренний Rider Core удалён без потери факта о шести JC-120.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "yamaha-ym6100-v-arendu",
+      "decision": "enrich",
+      "reason": "Общее английское описание, октавы, материал и резонаторы переведены; Concert Grand, Keiko Abe, диапазон и численные параметры сохранены. Внутренний Legendary Pro заменён уже описанными конструктивными характеристиками.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "sabian-hhx-set-v-arendu",
+      "decision": "enrich",
+      "reason": "Общие английские тембровые определения и состав тарелок переведены; Legacy, Complex, Legacy Ride и B20 сохранены как подсерии, модель и сплав. Внутренний модельный вход и набор сущностей заменены задачей сравнения и точным перечнем райдера.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "roland-tr808-v-arendu",
+      "decision": "enrich",
+      "reason": "Английская общая речь о драм-машине, затухании, секвенсоре и эмуляции переведена; TR-REC, ACB и Rhythm Composer сохранены как фирменные обозначения. Внутренний собственный адрес заменён различением оригинала и эмуляций.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "deering-sierra-v-arendu",
+      "decision": "enrich",
+      "reason": "Общие характеристики пятиструнного банджо, резонатора и материалов переведены. Sierra Openback, Deering -06 и техника clawhammer сохранены; spikes пояснены как фиксаторы пятой струны. Удалено внутреннее рассуждение об устройстве модельной страницы.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "moog-etherwave-v-arendu",
+      "decision": "enrich",
+      "reason": "Общие англоязычные свойства терменвокса и сценического управления переведены; Moog Etherwave, имена выходов Pitch CV/Volume CV/Gate и исторические даты сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "doff-domra-junior-v-arendu",
+      "decision": "enrich",
+      "reason": "Student — общий магазинный ярлык, переведён как «учебный». Doff, размеры и сведения о российском проекте не изменены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "kala-ka15s-v-arendu",
+      "decision": "enrich",
+      "reason": "Classroom, soprano, geared tuners и concert названы по-русски, с сохранением школьного контекста и проверки строя. Смешанная описательная подпись источника переведена без изменения URL.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "makala-dolphin-v-arendu",
+      "decision": "enrich",
+      "reason": "Classroom/durability/geared tuners переведены через применение в школьном классе. Двусмысленное «классный» в H1 уточнено как «для класса», без нового ранга качества. Смешанная подпись источника переведена, URL сохранён.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "vic-firth-v8705-percussion-kit-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание учебного комплекта и bells/pad переведены. Палочки для колокольчиков и барабанные палочки различены; название V8705 Percussion Kit, 32 ноты и F5–C8 сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ukulele-so-stabilnymi-kolkami",
+      "decision": "enrich",
+      "reason": "Geared tuners переданы как колки с зубчатой передачей, classroom-модели — школьные модели. Различие растяжения струн и качества колков сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "sonor-primary-sxp11-v-arendu",
+      "decision": "enrich",
+      "reason": "Общее английское описание сопрано-ксилофона и нотной маркировки переведено. Primary, Orff, SCH 11 и Pao Rosa сохранены как имена серии, подхода, палочки и торговое название материала; диапазон не изменён.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "studio49-seriya1000-v-arendu",
+      "decision": "enrich",
+      "reason": "Переведено общее английское описание компактных учебных инструментов. Series 1000 и Orff-Schulwerk сохранены как реальные имена серии и педагогического направления.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "sonor-first-beat-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание детских колокольчиков и цветовой системы переведено. Early music здесь означает раннее знакомство с музыкой, а не историческую раннюю музыку; First Beat сохранено как имя серии.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "studio49-easycussion500-v-arendu",
+      "decision": "enrich",
+      "reason": "Родовые названия альтовых колокольчиков, ксилофона и металлофона переведены; easycussion и Series 500 сохранены. Пентатоника не превращается в новую рекомендацию или универсальную учебную систему.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "deering-goodtime-v-arendu",
+      "decision": "enrich",
+      "reason": "Общие beginner/openback/resonator, колки и action переведены по устройству банджо. Action — высота струн, hammer-on сохранён рядом с русским названием приёма. Числа и ограничение о собственном опросе Deering сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-ponizhe-dlya-rebenka",
+      "decision": "enrich",
+      "reason": "Bass drum, rack tom, groove/fill и дюймовые комплектации названы по-русски. RYDEEN/Imperialstar и числа 18/20/22 сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika",
+      "decision": "enrich",
+      "reason": "Общие beginner и 10-hole diatonic переведены с сохранением десяти отверстий, диатонической системы и тональности C; названия производителей и преподавателей сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "hohner-special20-c-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание гармоники, планок, гребня и язычков переведено. Bending здесь музыкальный приём бендинга, а не физическая правка язычка; C и модель Special 20 сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "decision": "enrich",
+      "reason": "Метаданные и beginner/blow переведены; C, A/D/G и номер отверстия сохраняют роль буквенных тональностей и конкретного примера.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "decision": "enrich",
+      "reason": "Reeds в гармонике — язычки; blow/draw — выдох/вдох. Эти общие английские вставки и метаданные переведены, приём бендинга и граница техники/исправности сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "pearl-pl910c-v-arendu",
+      "decision": "keep",
+      "reason": "Keep: актуальное тело уже предметно исправлено. Bells оставлено в скобках после русского «оркестровые колокольчики» как полезное обозначение производителя, а Percussion Learning Center — реальное имя комплекта. Недавнее различение ксилофона и колокольчиков, диапазон и оговорка о глубине сохранены без переписывания.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Rudiments в русском описании учебного цикла переведены как рудименты; размеры и возможность перехода на электронный комплект сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-malenkoy-komnaty",
+      "decision": "enrich",
+      "reason": "Floor tom переведён как напольный том, без изменения сравнения конфигураций RYDEEN.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "decision": "enrich",
+      "reason": "Ride передан как райд в русской джазовой сцене; смешанная подпись источника переведена без изменения URL.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-fanka",
+      "decision": "enrich",
+      "reason": "Ghost notes объяснены как тихие фоновые удары; международное обозначение сохранено при первом пояснении. Контраст основной и тихой ноты и проверка с басом не изменены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-akusticheskogo-sostava",
+      "decision": "enrich",
+      "reason": "Общее ride переведено как райд; в смешанной русской подписи источника переведено rental inventory. Фирменные имена источника и тихая акустическая сцена сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "malyy-baraban-dlya-domashney-praktiki",
+      "decision": "enrich",
+      "reason": "Rudiments в русской инструкции переведены как рудименты; сравнение пэда и барабана с теми же палочками сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "malyy-baraban-dlya-rudimentov",
+      "decision": "enrich",
+      "reason": "Общие rudiments/rudiment переведены; pianissimo и forte сохранены как точные международные обозначения границ динамического упражнения.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "malyy-baraban-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Ghost notes переданы как тихие фоновые удары, roll на малом — дробь; римшот и бэкбит сохранены как музыкальные термины в русском написании.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "reason": "Groove/rudiment/hi-hat переведены по начальной барабанной практике; модели и варианты будущего выбора сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Hi-hat/rudiments/metronome переведены; важное существующее различие звука в наушниках и физической вибрации сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-posle-akusticheskih",
+      "decision": "enrich",
+      "reason": "Hi-hat/ride/ghost notes и артикуляция названы по-русски. Цифровые поверхности TD-27KV2 и компактность TD-17KVX2 не меняются; попутно исправлен явный падеж «техника приходится».",
+      "complete_context_read": true
+    },
+    {
+      "slug": "akusticheskaya-ustanovka-posle-elektronnyh",
+      "decision": "enrich",
+      "reason": "Единственный общий английский термин groove передан как грув; самостоятельная сцена перехода к акустической громкости сохранена.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-v-naushnikah",
+      "decision": "enrich",
+      "reason": "Сцена баланса наушников уже предметна; переведены только groove и ghost notes в упражнении, без изменения уровня громкости или свойств комплекта.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-midi",
+      "decision": "enrich",
+      "reason": "Сохранены MIDI, USB/MIDI и техническое обозначение velocity; объяснён его смысл в описании, переведены названия частей установки и production-сессии. Различие записи исполнительских данных и готового звука сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-audio",
+      "decision": "enrich",
+      "reason": "Stereo out, USB audio и ghost notes переведены по задаче записи готового звука; MIDI и USB сохранены. Отдельная операционная причина: фраза о ненужности комплекта после записи стала условной сценой одного проекта, без решения за музыканта о дальнейшей практике.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dinamikoy",
+      "decision": "enrich",
+      "reason": "Переведены generic zones/response и ghost notes; velocity сохранён как обозначение параметра динамики. Проверка реальной пользы чувствительности, ограничение более дорогого комплекта и все модели сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-s-metronomom",
+      "decision": "enrich",
+      "reason": "Обычные click/training modes/balance/timing/practice/fills переведены в словарь работы с метрономом. Исправлен склеенный timing-комплект; сохранены встроенные функции двух указанных моделей и варианты дальнейшего использования. Английские библиографические названия не меняются.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy",
+      "decision": "enrich",
+      "reason": "Переведены hi-hat, groove, ghost notes, hi-hat openings, ride и bass drum как конкретные части и движения. Сравнение по пяти разным координатам и различие помещения/инструмента сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "decision": "enrich",
+      "reason": "Hi-hat переведён в устоявшееся хай-хэт; состояния тарелок и foot chick описаны как открывание и звук закрытия педалью, без смешения удара палкой с работой ноги. VH-10, VH-14D и различия моделей сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-nog",
+      "decision": "enrich",
+      "reason": "Названия бас-барабана и хай-хэта, generic groove и Beaterless переведены по физической задаче педалей. Система без колотушки не названа бесшумной; различие ощущений от педалей сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "marimba-dlya-perehoda-na-chetyre-palochki",
+      "decision": "enrich",
+      "reason": "4 mallets и rolling-фрагмент переведены в четыре палочки и фрагмент с тремоло. Сцена нового хвата, интервалов и высоты инструмента не меняется.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "orkestrovye-kolokolchiki-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Основное название инструмента приведено по-русски; glockenspiel оставлен один раз в скобках для точной международной идентификации. Yamaha YG-250D, металлические пластины и учебная сцена сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "orkestrovye-kolokola-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Tubular bells заменено русским названием трубчатых колоколов. Описание молотка, педали, траектории и глушения полностью сохранено.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "orkestrovye-parnye-tarelki-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Crash cymbals в этом оркестровом контексте — парные тарелки, crash — их удар, choke — глушение. Переведены эти вставки; pianissimo оставлено как точное музыкальное обозначение динамики.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "orkestrovyy-treugolnik-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Beater здесь означает палочку треугольника, roll — тремоло. Переведены эти названия в описании, упражнении и вопросе; бренд и английское название первичного источника сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "kahon-vzroslomu-nachinayuschemu",
+      "decision": "enrich",
+      "reason": "Bass/slap и groove переведены в басовый удар, слэп и грув. Сохранено различение тембров и посадки. Точечно уточнён безусловный результат пробного периода: несколько недель дают возможность оценить потребность, а не гарантируют готовое решение.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "kahon-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Slap и groove приведены в устоявшуюся русскую форму, с нужным падежом слэпа в H1. Различия баса, верхнего удара, посадки и ансамблевой задачи сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "dzhembe-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Bass, tone/open tone и slap названы по-русски как три раздельных способа звукоизвлечения: басовый удар, открытый тон и слэп. Размеры и системы настройки не обобщаются.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "kongi-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Open tone, slap и bass переведены по ручной технике; conga-система заменена комплектом конг. Сохранена последовательность от одного барабана к паре, без новых рекомендаций по числу корпусов.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "bongi-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Bongos заменено названием бонго; macho/hembra сохранены как конкретные названия двух барабанов и связаны со словом пара. Martillo передано как мартильо без добавления новой техники; исправлено управление в медленном темпе.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "darbuka-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Названия ударов переданы как дум и тек; dum/tek сохранены рядом в описании для узнавания традиционных слогов. Darbuka/doumbek переведены в дарбуку/думбек, без сведения разных приёмов к одной громкости.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ramochnyy-baraban-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Frame drum(s) переведено как рамочный барабан в описании, kicker и теле. Все ограничения по диаметру, хвату и выбранной традиции сохранены.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "handpan-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Handpan(s) переведено в хэндпан; ding сохранён как название центрального поля рядом с русским объяснением. Калька настроенные системы заменена строями, без добавления диапазона или числа нот.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "glyukofon-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Tongue drum(s) переведено в глюкофон/язычковый барабан. Сохранены фиксированный строй и условие игры руками и палочками только если конкретный инструмент это допускает.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "orf-instrumenty-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Orff и названия производителей/серий оставлены как собственные имена. Переведена только обычная фраза elementary music education в контексте начального музыкального обучения; учебный этап и предмет домашней практики не меняются.",
+      "complete_context_read": true
+    },
+    {
+      "slug": "ruchnaya-perkussiya-dlya-vokalista",
+      "decision": "enrich",
+      "reason": "Shaker/cajon/frame drum названы по-русски как шейкер, кахон и рамочный барабан. Сцена координации с голосом сохранена; условное может больше не требоваться после концерта не считается обещанием прекращения практики и не переписывается.",
+      "complete_context_read": true
+    }
+  ],
+  "root_amendments": [
+    {
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах курса.",
+      "after": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах пары.",
+      "reason": "В контексте парных струн мандолины «курс» является калькой string course. «Пары» согласуется с остальным текстом и убирает двусмысленность без нового технического утверждения.",
+      "origin": "pre_existing_in_changed_array",
+      "approval": "accepted_by_root"
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "json_path": [
+        "quote"
+      ],
+      "before": "Вам нужен сама реальная роторная система или достаточно тембровой эмуляции?",
+      "after": "Вам нужна сама реальная роторная система или достаточно тембровой эмуляции?",
+      "reason": "После перевода rotary в «роторную систему» требуется согласовать «нужна» по женскому роду. Музыкальный выбор между реальным вращением и эмуляцией сохраняется.",
+      "origin": "introduced_grammar",
+      "approval": "accepted_by_root"
+    }
+  ],
+  "preservation": "2026-10-07-language-06-preservation.json",
+  "verification": "2026-10-07-language-06-verification.json"
+}

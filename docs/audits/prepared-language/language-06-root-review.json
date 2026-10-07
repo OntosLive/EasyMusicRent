@@ -1,0 +1,152 @@
+{
+  "status": "all_amendments_accepted_and_exact_content_reconstructed",
+  "frozen_candidate": "language-06-candidate.json",
+  "frozen_candidate_sha256": "9cd96e26ad4d9ee93c21ad5d3068e0309d0ec9a2e4e87d826da5cf75cab636cc",
+  "root_candidate_sha256": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923",
+  "base_commit": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "base_snapshot_sha256": "864367f10af4f404fd075816586e555fe9e4266e38990a5e242585db98d39a28",
+  "amendments": [
+    {
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах курса.",
+      "after": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах пары.",
+      "reason": "В контексте парных струн мандолины «курс» является калькой string course. «Пары» согласуется с остальным текстом и убирает двусмысленность без нового технического утверждения.",
+      "origin": "pre_existing_in_changed_array",
+      "approval": "accepted_by_root"
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "json_path": [
+        "quote"
+      ],
+      "before": "Вам нужен сама реальная роторная система или достаточно тембровой эмуляции?",
+      "after": "Вам нужна сама реальная роторная система или достаточно тембровой эмуляции?",
+      "reason": "После перевода rotary в «роторную систему» требуется согласовать «нужна» по женскому роду. Музыкальный выбор между реальным вращением и эмуляцией сохраняется.",
+      "origin": "introduced_grammar",
+      "approval": "accepted_by_root"
+    }
+  ],
+  "all_amendments_accepted": true,
+  "numeric_changes_approved": [
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "old_number_tokens": [
+        "01",
+        "5",
+        "02",
+        "03"
+      ],
+      "new_number_tokens": [
+        "01",
+        "02",
+        "03"
+      ],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "field": "quote",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-pered-pokupkoy",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-pered-pokupkoy",
+      "field": "blocks",
+      "old_number_tokens": [
+        "01",
+        "5",
+        "02",
+        "03"
+      ],
+      "new_number_tokens": [
+        "01",
+        "02",
+        "03"
+      ],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "yamaha-ym6100-v-arendu",
+      "field": "description",
+      "old_number_tokens": [
+        "6100",
+        "5",
+        "4"
+      ],
+      "new_number_tokens": [
+        "6100",
+        "4"
+      ],
+      "explanation": "5-octave переведено в пятиоктавная; C–c4 и модель YM-6100 сохранены."
+    },
+    {
+      "slug": "sabian-hhx-set-v-arendu",
+      "field": "kicker",
+      "old_number_tokens": [],
+      "new_number_tokens": [
+        "20"
+      ],
+      "explanation": "B20 перенесено в предметный kicker из существующего тела; новый материал или параметр не добавлен."
+    },
+    {
+      "slug": "deering-sierra-v-arendu",
+      "field": "description",
+      "old_number_tokens": [
+        "5",
+        "06"
+      ],
+      "new_number_tokens": [
+        "06"
+      ],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "deering-goodtime-v-arendu",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    }
+  ],
+  "independent_review": "language-06-cross-review.json",
+  "reconstruction": "../2026-10-07-language-06-reconstruction.json"
+}

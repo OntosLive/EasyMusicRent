@@ -1,0 +1,90 @@
+{
+  "package": "public-language-06",
+  "base_commit": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "input_release": {
+    "id": 37554639083,
+    "head_sha": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "tests": {
+    "count": 209,
+    "result": "repeat_process_exit_code_zero_log_unavailable",
+    "session_id": 8792,
+    "exit_code": 0,
+    "seconds": null,
+    "test_files_changed": true,
+    "remote_repeat": "Required by the unchanged release workflow before deployment; inspect the resulting exact SHA run."
+  },
+  "compiler_and_css_unchanged": true,
+  "initial_test_run": {
+    "count": 209,
+    "seconds": 108.766,
+    "failures": 1,
+    "test": "test_recovery_landings.RecoveryLandingTests.test_request_and_editorial_roles_are_not_interchanged",
+    "cause": "The assertion compared the translated ukulele H1 to a historical source layer."
+  },
+  "test_changes": [
+    {
+      "file": "tests/test_recovery_landings.py",
+      "change": "Compare actual N.0 and N.1 headings with current compiled entry_title/editorial_title; require distinct headings and retain commercial-word, robots and footer contracts. No tests added or removed."
+    }
+  ],
+  "inventory": {
+    "subjects": 1901,
+    "errors": []
+  },
+  "graph": {
+    "metric_definitions": {
+      "top_level": "Unique explicit subject routes after alias normalization, excluding self-links and duplicate targets. Direct parent/child routes remain; legacy lateral_* names are retained for comparison with earlier reports.",
+      "strict_lateral": "Explicit routes excluding declared direct parents and direct children. Neither graph includes automatic child routes added by core.connect.",
+      "thin_leaf": "No declared children and no outgoing route in the measured graph.",
+      "hygiene_counts": "Every self-link occurrence and every duplicate after the first canonical target. A repeated self-link contributes to both counts; both block preflight.",
+      "model_pages": "Existing slug-based cohort: subjects ending in -v-arendu."
+    },
+    "subjects": 1901,
+    "errors": [],
+    "error_count": 0,
+    "link_edges": 5285,
+    "pages_with_links": 1859,
+    "pages_without_links": 42,
+    "lateral_coverage_pct": 97.79,
+    "parent_edges": 1885,
+    "parents_with_children": 215,
+    "leaf_pages": 1686,
+    "thin_leaf_pages": 0,
+    "thin_leaf_pct": 0,
+    "pages_without_lateral_inbound": 269,
+    "model_pages": 409,
+    "model_pages_with_links": 409,
+    "model_lateral_coverage_pct": 100,
+    "model_thin_leaves": 0,
+    "root_pages": 16,
+    "duplicate_route_count": 0,
+    "self_link_count": 0,
+    "strict_lateral": {
+      "link_edges": 3757,
+      "pages_with_links": 1745,
+      "pages_without_links": 156,
+      "lateral_coverage_pct": 91.79,
+      "thin_leaf_pages": 0,
+      "thin_leaf_pct": 0,
+      "pages_without_lateral_inbound": 647,
+      "model_pages_with_links": 409,
+      "model_lateral_coverage_pct": 100,
+      "model_thin_leaves": 0
+    }
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "checks_evidence": "These local structural outcomes were recorded before the transport interruption. The repeated suite's exit code was recovered through its existing process session; the final local log could not be read. Content was then exactly reconstructed from committed prepared evidence. The unchanged GitHub release workflow repeats the full suite, build and validator before deployment.",
+  "preservation": "2026-10-07-language-06-preservation.json",
+  "reconstruction": "2026-10-07-language-06-reconstruction.json",
+  "publication_note": "The input release is successful. The new release and Canon audit are not claimed successful by this pre-publication record; verify both for the new main SHA."
+}

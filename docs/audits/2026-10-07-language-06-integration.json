@@ -1,0 +1,436 @@
+{
+  "package": "public-language-06",
+  "base_commit": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "overlay_files": [
+    "content/sections/zzzz66-public-language-06.json"
+  ],
+  "overlay_sha256": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923",
+  "approved_label_changes": [
+    {
+      "source_slug": "ukulele-vzroslomu-nachinayuschemu",
+      "target_slug": "ukulele-koncert",
+      "href": "/ukulele-koncert/",
+      "before": "Укулеле-concert",
+      "after": "Концертная укулеле",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "target_slug": "ukulele-soprano",
+      "href": "/ukulele-soprano/",
+      "before": "Soprano",
+      "after": "Сопрано",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "target_slug": "ukulele-koncert",
+      "href": "/ukulele-koncert/",
+      "before": "Concert",
+      "after": "Концерт",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "target_slug": "ukulele-tenor",
+      "href": "/ukulele-tenor/",
+      "before": "Tenor",
+      "after": "Тенор",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "mandolina-vzroslomu-nachinayuschemu",
+      "target_slug": "mandolina-dlya-zapisi-tremolo",
+      "href": "/mandolina-dlya-zapisi-tremolo/",
+      "before": "Мандолина для записи tremolo",
+      "after": "Мандолина для записи тремоло",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "mandolina-dlya-raboty-nad-tremolo",
+      "target_slug": "mandolina-dlya-zapisi-tremolo",
+      "href": "/mandolina-dlya-zapisi-tremolo/",
+      "before": "Мандолина для записи tremolo",
+      "after": "Мандолина для записи тремоло",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "gitarnyy-backline-po-rayderu",
+      "target_slug": "usiliteli-backline",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "backline-dlya-pervogo-kontserta",
+      "target_slug": "usiliteli-backline",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "backline-dlya-gastrolnogo-tura",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "before": "Гитарный backline по райдеру",
+      "after": "Гитарный бэклайн по райдеру",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "backline-dlya-gastrolnogo-tura",
+      "target_slug": "basovyy-backline-po-rayderu",
+      "href": "/basovyy-backline-po-rayderu/",
+      "before": "Басовый backline по райдеру",
+      "after": "Басовый бэклайн по райдеру",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "before": "Гитарный backline по райдеру",
+      "after": "Гитарный бэклайн по райдеру",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "target_slug": "malyy-baraban-dlya-rudimentov",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "before": "Малый барабан для rudiments",
+      "after": "Малый барабан для рудиментов",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "target_slug": "malyy-baraban-dlya-rudimentov",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "before": "Малый барабан для rudiments",
+      "after": "Малый барабан для рудиментов",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "target_slug": "scenicheskie-klavishnye-dlya-pianista",
+      "href": "/scenicheskie-klavishnye-dlya-pianista/",
+      "before": "Stage keyboard для пианиста",
+      "after": "Сценические клавишные для пианиста",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "fender-65-deluxe-reverb-v-arendu",
+      "target_slug": "gitarnyy-usilitel-dlya-klina",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "before": "Гитарный усилитель для clean",
+      "after": "Гитарный усилитель для чистого звука",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "vox-ac30c2-v-arendu",
+      "target_slug": "gitarnyy-usilitel-dlya-krancha",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "before": "Гитарный усилитель для crunch",
+      "after": "Гитарный усилитель для кранча",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "roland-jc120-v-arendu",
+      "target_slug": "gitarnyy-usilitel-dlya-klina",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "before": "Гитарный усилитель для clean",
+      "after": "Гитарный усилитель для чистого звука",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "roland-tr808-v-arendu",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Live session в студии",
+      "after": "Живая студийная запись",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "hohner-special20-c-v-arendu",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "before": "Работа над bending",
+      "after": "Работа над бендингом",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "before": "Работа над bending",
+      "after": "Работа над бендингом",
+      "kind": "explicit_source_label"
+    },
+    {
+      "source_slug": "mandolina",
+      "target_slug": "mandolina-dlya-raboty-nad-tremolo",
+      "href": "/mandolina-dlya-raboty-nad-tremolo/",
+      "before": "Мандолина для работы над tremolo в аренду",
+      "after": "Мандолина для работы над тремоло в аренду",
+      "kind": "derived_child_search_title"
+    },
+    {
+      "source_slug": "gitarnye-usiliteli",
+      "target_slug": "gitarnyy-usilitel-dlya-krancha",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "before": "Гитарный усилитель для crunch в аренду",
+      "after": "Гитарный усилитель для кранча в аренду",
+      "kind": "derived_child_search_title"
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "before": "Гитарный backline по райдеру в аренду",
+      "after": "Гитарный бэклайн по райдеру в аренду",
+      "kind": "derived_child_search_title"
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-pervogo-kontserta",
+      "href": "/backline-dlya-pervogo-kontserta/",
+      "before": "Backline для первого концерта в аренду",
+      "after": "Бэклайн для первого концерта в аренду",
+      "kind": "derived_child_search_title"
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-festivalya",
+      "href": "/backline-dlya-festivalya/",
+      "before": "Backline для фестиваля в аренду",
+      "after": "Бэклайн для фестиваля в аренду",
+      "kind": "derived_child_search_title"
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "before": "Backline для гастрольного тура в аренду",
+      "after": "Бэклайн для гастрольного тура в аренду",
+      "kind": "derived_child_search_title"
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-fly-date",
+      "href": "/backline-dlya-fly-date/",
+      "before": "Backline для fly-date концерта в аренду",
+      "after": "Бэклайн для концерта с перелётом в аренду",
+      "kind": "derived_child_search_title"
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+      "before": "Функциональная замена backline по райдеру в аренду",
+      "after": "Функциональная замена бэклайна по райдеру в аренду",
+      "kind": "derived_child_search_title"
+    }
+  ],
+  "source_label_patches": [
+    {
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "base_blob_sha": "f52d4bb846a6b13c48e74b38245ccfc74d5ce6d1",
+      "base_sha256": "bbabc92dd8c3ff8b661de390f03363f7c407665115af7b30dc3685ba7db0a10d",
+      "result_sha256": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+      "changed_string_tokens": 6
+    },
+    {
+      "file": "content/sections/zz113-guitar-backline-human-scenes.json",
+      "base_blob_sha": "705d8ecade54694b3e750178a772930e87e5f629",
+      "base_sha256": "a61a53ea4eff7173d19fbb557473e20d1f6a27690bbc02241871bce5ef8ad058",
+      "result_sha256": "7af1cfcd509048a10a1a8a5bcab13c8bd4aebafeaef44f6b412e5eeeb6f23c4e",
+      "changed_string_tokens": 1
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "base_blob_sha": "87b4e4b8a6c4242f65a6b61cd7ebfa3a5930697c",
+      "base_sha256": "7fc743c0fd4c4ffe76780f626846bca1b710b5be6b4787fa9651df2c837e9bb4",
+      "result_sha256": "ad757c244faada8c5851294c92d4dbd092c1410de0ee571ed2c21152be8d2239",
+      "changed_string_tokens": 4
+    },
+    {
+      "file": "content/sections/zzzz27-conductivity-response-obstacle-bridges.json",
+      "base_blob_sha": "0bb8c9ad7ec294688fe9dc45fb78955e862c0024",
+      "base_sha256": "bd7f63d8ef91de1de5692db7a2e153ecadbace32d49978bac72043c22bb897cd",
+      "result_sha256": "5a29a20130d287698e8f4802f27ac46738b5947c3fe7bab2a93bf5bbd8bb6b72",
+      "changed_string_tokens": 2
+    },
+    {
+      "file": "content/sections/zzzz28-conductivity-range-obstacle-bridges.json",
+      "base_blob_sha": "896b8ccd45f42026b5c647079bded4247c5d77f8",
+      "base_sha256": "06825f039b11ee47b7212056aa1dc205f10e7bffab8e4138735fbbcfcd8ee3e3",
+      "result_sha256": "b21d87e738a961e1b3a5be46871ce41ca33c954da8fdddc0fd02151382d8e65d",
+      "changed_string_tokens": 1
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "base_blob_sha": "0c527b81bd29ab347ab8191bf0aeed690e3df96b",
+      "base_sha256": "99f7ca6798eb965aace5e42c3ebe3b5da2a488f0f8b668d4264bff7fa64ec99f",
+      "result_sha256": "97a4b26d9733b538d5b45071a3d9cfdd89aa36258606f10e1f32b544948a53dd",
+      "changed_string_tokens": 3
+    },
+    {
+      "file": "content/sections/zzzz35-conductivity-final-model-bridges-a.json",
+      "base_blob_sha": "c7b16db542c0a1ba00d6be2bbcc26cb3311970b8",
+      "base_sha256": "a1bfd8a03a8f6082f01cbaab6a26f300391ae56bab9f8617e8e43ce088cdd13a",
+      "result_sha256": "335bf1f3fbce17eb679b2eda273d10f375ebf9d958f2664e72c26226d4d860ae",
+      "changed_string_tokens": 1
+    },
+    {
+      "file": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+      "base_blob_sha": "6775a82abc5fb1d8cccd9135b711b3e813de4881",
+      "base_sha256": "c4b1db0fb4af86eccc8013d22eb656410d44fb8da518ae896690296f056d3c8a",
+      "result_sha256": "f7561e4acb5b3b132d9815d472d197b32a381909a40f1dbfad0e3bdeed096f9c",
+      "changed_string_tokens": 2
+    }
+  ],
+  "approved_shape_changes": [],
+  "approved_numeric_changes": [
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "old_number_tokens": [
+        "01",
+        "5",
+        "02",
+        "03"
+      ],
+      "new_number_tokens": [
+        "01",
+        "02",
+        "03"
+      ],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "field": "quote",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-pered-pokupkoy",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "bandzho-pered-pokupkoy",
+      "field": "blocks",
+      "old_number_tokens": [
+        "01",
+        "5",
+        "02",
+        "03"
+      ],
+      "new_number_tokens": [
+        "01",
+        "02",
+        "03"
+      ],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "yamaha-ym6100-v-arendu",
+      "field": "description",
+      "old_number_tokens": [
+        "6100",
+        "5",
+        "4"
+      ],
+      "new_number_tokens": [
+        "6100",
+        "4"
+      ],
+      "explanation": "5-octave переведено в пятиоктавная; C–c4 и модель YM-6100 сохранены."
+    },
+    {
+      "slug": "sabian-hhx-set-v-arendu",
+      "field": "kicker",
+      "old_number_tokens": [],
+      "new_number_tokens": [
+        "20"
+      ],
+      "explanation": "B20 перенесено в предметный kicker из существующего тела; новый материал или параметр не добавлен."
+    },
+    {
+      "slug": "deering-sierra-v-arendu",
+      "field": "description",
+      "old_number_tokens": [
+        "5",
+        "06"
+      ],
+      "new_number_tokens": [
+        "06"
+      ],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    },
+    {
+      "slug": "deering-goodtime-v-arendu",
+      "field": "description",
+      "old_number_tokens": [
+        "5"
+      ],
+      "new_number_tokens": [],
+      "explanation": "5-string переведено в пятиструнное; количество струн сохранено словами."
+    }
+  ],
+  "prepared_input": "docs/audits/prepared-language/language-06-candidate.json",
+  "root_amendments": [
+    {
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "before": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах курса.",
+      "after": "Важно не ускоряться раньше, чем медиатор начинает одинаково работать на обеих струнах пары.",
+      "reason": "В контексте парных струн мандолины «курс» является калькой string course. «Пары» согласуется с остальным текстом и убирает двусмысленность без нового технического утверждения.",
+      "origin": "pre_existing_in_changed_array",
+      "approval": "accepted_by_root"
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "json_path": [
+        "quote"
+      ],
+      "before": "Вам нужен сама реальная роторная система или достаточно тембровой эмуляции?",
+      "after": "Вам нужна сама реальная роторная система или достаточно тембровой эмуляции?",
+      "reason": "После перевода rotary в «роторную систему» требуется согласовать «нужна» по женскому роду. Музыкальный выбор между реальным вращением и эмуляцией сохраняется.",
+      "origin": "introduced_grammar",
+      "approval": "accepted_by_root"
+    }
+  ],
+  "reconstruction_record": "2026-10-07-language-06-reconstruction.json"
+}

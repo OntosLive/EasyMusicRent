@@ -1,0 +1,741 @@
+{
+  "status": "exact_root_content_and_source_label_replay_verified",
+  "base_commit": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "frozen_candidate_sha256": "9cd96e26ad4d9ee93c21ad5d3068e0309d0ec9a2e4e87d826da5cf75cab636cc",
+  "root_candidate_sha256": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923",
+  "matches_pre_interruption_local_candidate": true,
+  "body_records": 128,
+  "changed_text_leaves": 483,
+  "field_counts": {
+    "editorial_title": 27,
+    "description": 89,
+    "kicker": 70,
+    "intro": 34,
+    "blocks": 114,
+    "quote": 35,
+    "search_title": 9,
+    "sources": 5
+  },
+  "changed_content": {
+    "ukulele-koncert": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro"
+    ],
+    "ukulele-vzroslomu-nachinayuschemu": [
+      "description",
+      "blocks"
+    ],
+    "ukulele-dlya-domashnih-zanyatiy": [
+      "blocks"
+    ],
+    "ukulele-pered-pokupkoy": [
+      "description",
+      "intro",
+      "blocks"
+    ],
+    "ukulele-dlya-sravneniya-razmerov": [
+      "editorial_title",
+      "kicker",
+      "blocks"
+    ],
+    "ukulele-posle-gitary": [
+      "blocks"
+    ],
+    "ukulele-bariton-dlya-pervogo-opyta": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "mandolina-vzroslomu-nachinayuschemu": [
+      "blocks",
+      "quote"
+    ],
+    "mandolina-dlya-domashnih-zanyatiy": [
+      "editorial_title",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "mandolina-pered-pokupkoy": [
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "mandolina-dlya-raboty-nad-tremolo": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "quote"
+    ],
+    "bandzho-vzroslomu-nachinayuschemu": [
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "bandzho-dlya-domashnih-zanyatiy": [
+      "description",
+      "blocks"
+    ],
+    "bandzho-pered-pokupkoy": [
+      "description",
+      "blocks"
+    ],
+    "domra-dlya-domashnih-zanyatiy": [
+      "blocks"
+    ],
+    "domra-pered-pokupkoy": [
+      "blocks"
+    ],
+    "domra-dlya-raboty-mediatorom": [
+      "description",
+      "kicker",
+      "intro",
+      "quote"
+    ],
+    "domra-alt-dlya-pervogo-opyta": [
+      "blocks"
+    ],
+    "domra-bas-dlya-pervogo-opyta": [
+      "blocks"
+    ],
+    "balalayka-dlya-domashnih-zanyatiy": [
+      "blocks"
+    ],
+    "balalayka-pered-pokupkoy": [
+      "description"
+    ],
+    "balalayka-dlya-pervogo-orkestrovogo-opyta": [
+      "description",
+      "blocks"
+    ],
+    "balalayka-bas-dlya-pervogo-opyta": [
+      "blocks"
+    ],
+    "kanun-dlya-raboty-s-mandalami": [
+      "description",
+      "kicker"
+    ],
+    "sitar-dlya-domashnih-zanyatiy": [
+      "description"
+    ],
+    "sitar-pered-pokupkoy": [
+      "blocks"
+    ],
+    "tanpura-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "tanpura-dlya-zapisi": [
+      "editorial_title",
+      "description",
+      "kicker"
+    ],
+    "koto-dlya-pervogo-opyta": [
+      "blocks"
+    ],
+    "guzhen-pered-pokupkoy": [
+      "blocks"
+    ],
+    "syamisen-dlya-domashnih-zanyatiy": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro"
+    ],
+    "syamisen-pered-pokupkoy": [
+      "description",
+      "blocks"
+    ],
+    "mbira-dlya-pervogo-opyta": [
+      "blocks"
+    ],
+    "mbira-pered-pokupkoy": [
+      "intro",
+      "blocks"
+    ],
+    "gubnaya-garmonika-posle-pereryva": [
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "gubnaya-garmonika-pered-pokupkoy": [
+      "blocks",
+      "quote"
+    ],
+    "gubnaya-garmonika-dlya-zapisi": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gubnaya-garmonika-dlya-kontserta": [
+      "editorial_title",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "eksperimentalnyy-akusticheskiy-instrument-dlya-performansa": [
+      "description",
+      "kicker"
+    ],
+    "zhestovyy-kontroller-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "zhestovyy-kontroller-dlya-kontserta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "zhestovyy-kontroller-dlya-saund-dizayna": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gitarnyy-usilitel-dlya-klina": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "gitarnyy-usilitel-dlya-krancha": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "gitarnyy-backline-po-rayderu": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "leslie-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "backline-dlya-pervogo-kontserta": [
+      "search_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "backline-dlya-festivalya": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-gastrolnogo-tura": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "backline-dlya-fly-date": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "funktsionalnaya-zamena-backline-po-rayderu": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-korpus-slishkom-bolshoy": [
+      "blocks"
+    ],
+    "instrument-esli-klapan-zapazdyvaet": [
+      "blocks"
+    ],
+    "instrument-esli-otskok-slishkom-vysokiy": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-otskok-slishkom-myagkiy": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-ne-hvataet-diapazona": [
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna": [
+      "intro"
+    ],
+    "instrument-esli-nuzhen-vybornyy-bas": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya": [
+      "intro",
+      "blocks"
+    ],
+    "instrument-esli-nuzhny-otkrytye-klapany": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury": [
+      "intro",
+      "blocks"
+    ],
+    "instrument-esli-nuzhen-vyrez-korpusa": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-nuzhna-korotkaya-menzura": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-nuzhna-dopolnitelnaya-pedal": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-slishkom-gromko-dlya-doma": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-nuzhno-igrat-v-naushnikah": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-ne-hvataet-monitoringa": [
+      "description",
+      "blocks"
+    ],
+    "musser-m55-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "rotornye-akusticheskie-sistemy": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "fender-65-deluxe-reverb-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "vox-ac30c2-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "roland-jc120-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "yamaha-ym6100-v-arendu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "sabian-hhx-set-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "roland-tr808-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "deering-sierra-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "moog-etherwave-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "doff-domra-junior-v-arendu": [
+      "blocks"
+    ],
+    "kala-ka15s-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "makala-dolphin-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "vic-firth-v8705-percussion-kit-v-arendu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "ukulele-so-stabilnymi-kolkami": [
+      "blocks"
+    ],
+    "sonor-primary-sxp11-v-arendu": [
+      "description",
+      "kicker"
+    ],
+    "studio49-seriya1000-v-arendu": [
+      "description"
+    ],
+    "sonor-first-beat-v-arendu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "studio49-easycussion500-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "deering-goodtime-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "barabannaya-ustanovka-ponizhe-dlya-rebenka": [
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "gubnaya-garmonika": [
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "hohner-special20-c-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "gubnaya-garmonika-s-legkim-otklikom": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "barabannaya-ustanovka-dlya-domashnih-zanyatiy": [
+      "blocks"
+    ],
+    "barabannaya-ustanovka-dlya-malenkoy-komnaty": [
+      "blocks"
+    ],
+    "barabannaya-ustanovka-dlya-dzheza": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "barabannaya-ustanovka-dlya-fanka": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "quote",
+      "sources"
+    ],
+    "barabannaya-ustanovka-dlya-akusticheskogo-sostava": [
+      "blocks",
+      "sources"
+    ],
+    "malyy-baraban-dlya-domashney-praktiki": [
+      "blocks"
+    ],
+    "malyy-baraban-dlya-rudimentov": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "malyy-baraban-pered-pokupkoy": [
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektronnye-barabany-vzroslomu-nachinayuschemu": [
+      "blocks"
+    ],
+    "elektronnye-barabany-dlya-domashnih-zanyatiy": [
+      "blocks"
+    ],
+    "elektronnye-barabany-posle-akusticheskih": [
+      "description",
+      "intro",
+      "blocks"
+    ],
+    "akusticheskaya-ustanovka-posle-elektronnyh": [
+      "blocks"
+    ],
+    "elektronnye-barabany-dlya-trenirovki-v-naushnikah": [
+      "blocks"
+    ],
+    "elektronnye-barabany-dlya-zapisi-midi": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "elektronnye-barabany-dlya-zapisi-audio": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "elektronnye-barabany-dlya-raboty-nad-dinamikoy": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "elektronnye-barabany-dlya-raboty-s-metronomom": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy": [
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektronnye-barabany-dlya-raboty-nad-hi-hatom": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektronnye-barabany-dlya-trenirovki-nog": [
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "marimba-dlya-perehoda-na-chetyre-palochki": [
+      "kicker",
+      "blocks"
+    ],
+    "orkestrovye-kolokolchiki-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "orkestrovye-kolokola-dlya-pervogo-opyta": [
+      "description",
+      "kicker"
+    ],
+    "orkestrovye-parnye-tarelki-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "orkestrovyy-treugolnik-dlya-pervogo-opyta": [
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "kahon-vzroslomu-nachinayuschemu": [
+      "description",
+      "blocks"
+    ],
+    "kahon-pered-pokupkoy": [
+      "editorial_title",
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "dzhembe-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "kongi-dlya-pervogo-opyta": [
+      "description",
+      "blocks"
+    ],
+    "bongi-dlya-pervogo-opyta": [
+      "description",
+      "blocks"
+    ],
+    "darbuka-dlya-pervogo-opyta": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "ramochnyy-baraban-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "handpan-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "glyukofon-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "orf-instrumenty-dlya-domashnih-zanyatiy": [
+      "blocks"
+    ],
+    "ruchnaya-perkussiya-dlya-vokalista": [
+      "description",
+      "blocks"
+    ]
+  },
+  "prior_language_overlay_overlap": [],
+  "all_changed_arrays_complete": true,
+  "all_source_url_arrays_preserved": true,
+  "source_label_changes": [
+    {
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "base_blob_sha": "f52d4bb846a6b13c48e74b38245ccfc74d5ce6d1",
+      "base_sha256": "bbabc92dd8c3ff8b661de390f03363f7c407665115af7b30dc3685ba7db0a10d",
+      "result_sha256": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+      "changed_string_tokens": 6
+    },
+    {
+      "file": "content/sections/zz113-guitar-backline-human-scenes.json",
+      "base_blob_sha": "705d8ecade54694b3e750178a772930e87e5f629",
+      "base_sha256": "a61a53ea4eff7173d19fbb557473e20d1f6a27690bbc02241871bce5ef8ad058",
+      "result_sha256": "7af1cfcd509048a10a1a8a5bcab13c8bd4aebafeaef44f6b412e5eeeb6f23c4e",
+      "changed_string_tokens": 1
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "base_blob_sha": "87b4e4b8a6c4242f65a6b61cd7ebfa3a5930697c",
+      "base_sha256": "7fc743c0fd4c4ffe76780f626846bca1b710b5be6b4787fa9651df2c837e9bb4",
+      "result_sha256": "ad757c244faada8c5851294c92d4dbd092c1410de0ee571ed2c21152be8d2239",
+      "changed_string_tokens": 4
+    },
+    {
+      "file": "content/sections/zzzz27-conductivity-response-obstacle-bridges.json",
+      "base_blob_sha": "0bb8c9ad7ec294688fe9dc45fb78955e862c0024",
+      "base_sha256": "bd7f63d8ef91de1de5692db7a2e153ecadbace32d49978bac72043c22bb897cd",
+      "result_sha256": "5a29a20130d287698e8f4802f27ac46738b5947c3fe7bab2a93bf5bbd8bb6b72",
+      "changed_string_tokens": 2
+    },
+    {
+      "file": "content/sections/zzzz28-conductivity-range-obstacle-bridges.json",
+      "base_blob_sha": "896b8ccd45f42026b5c647079bded4247c5d77f8",
+      "base_sha256": "06825f039b11ee47b7212056aa1dc205f10e7bffab8e4138735fbbcfcd8ee3e3",
+      "result_sha256": "b21d87e738a961e1b3a5be46871ce41ca33c954da8fdddc0fd02151382d8e65d",
+      "changed_string_tokens": 1
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "base_blob_sha": "0c527b81bd29ab347ab8191bf0aeed690e3df96b",
+      "base_sha256": "99f7ca6798eb965aace5e42c3ebe3b5da2a488f0f8b668d4264bff7fa64ec99f",
+      "result_sha256": "97a4b26d9733b538d5b45071a3d9cfdd89aa36258606f10e1f32b544948a53dd",
+      "changed_string_tokens": 3
+    },
+    {
+      "file": "content/sections/zzzz35-conductivity-final-model-bridges-a.json",
+      "base_blob_sha": "c7b16db542c0a1ba00d6be2bbcc26cb3311970b8",
+      "base_sha256": "a1bfd8a03a8f6082f01cbaab6a26f300391ae56bab9f8617e8e43ce088cdd13a",
+      "result_sha256": "335bf1f3fbce17eb679b2eda273d10f375ebf9d958f2664e72c26226d4d860ae",
+      "changed_string_tokens": 1
+    },
+    {
+      "file": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+      "base_blob_sha": "6775a82abc5fb1d8cccd9135b711b3e813de4881",
+      "base_sha256": "c4b1db0fb4af86eccc8013d22eb656410d44fb8da518ae896690296f056d3c8a",
+      "result_sha256": "f7561e4acb5b3b132d9815d472d197b32a381909a40f1dbfad0e3bdeed096f9c",
+      "changed_string_tokens": 2
+    }
+  ],
+  "automatic_label_changes": 8,
+  "tests": {
+    "local_full_suite_session": 8792,
+    "completion": {
+      "exit_code": 0
+    },
+    "log_read_after_interrupt": "unavailable",
+    "elapsed_seconds": null,
+    "remote_repeat_required_before_publication": true
+  },
+  "note": "This reconstruction records checks performed through the GitHub connector after the local execution transport stopped responding. It does not fabricate missing local log contents. The existing release workflow runs the full suite and validator before deployment.",
+  "independent_content_reconstruction": {
+    "reviewer": "project_history",
+    "result": "exact match",
+    "frozen_utf8_bytes": 214318,
+    "root_utf8_bytes": 214316,
+    "changed_leaf_fields": 2,
+    "arrays_and_key_order_preserved": true,
+    "hash_method": "Independent SHA256 implementation checked against four standard vectors, including one million a characters."
+  }
+}

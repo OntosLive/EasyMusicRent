@@ -128,7 +128,7 @@
     },
     {
       "cohort": 6,
-      "status": "prepared_not_integrated",
+      "status": "integrated_with_root_refinements",
       "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
       "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
       "reviewed_pages": 139,
@@ -152,7 +152,7 @@
         }
       ],
       "independent_review": {
-        "status": "completed_with_root_approved_amendments_not_integrated",
+        "status": "completed_with_two_root_approved_amendments_integrated",
         "files": [
           "docs/audits/prepared-language/language-06-cross-review.json",
           "docs/audits/prepared-language/language-06-cross-integrity.json"
@@ -163,14 +163,20 @@
         "sha256": "af53fff105079af82b4c0b5afb92cd0ca681b6c6e2554eaadcf578731a5fad17",
         "status": "clear",
         "scope": "Frozen proposal integrity and 20 label locators compared to the working tree with group 03 integrated; not the independent content cross-review."
-      }
+      },
+      "content_or_metadata_records": 128,
+      "label_only_decisions": 0,
+      "integration_record": "docs/audits/2026-10-07-language-06-review.json",
+      "integrated_overlay": "content/sections/zzzz66-public-language-06.json",
+      "supplemental_root_review": "docs/audits/prepared-language/language-06-root-review.json",
+      "note": "The exact locally reviewed root overlay was reconstructed from frozen evidence after execution transport failure; see the reconstruction record. Confirm the resulting exact SHA release separately."
     }
   ],
   "continuation": "../../CURRENT-WORK-STATE.md",
   "file_path_base": "repository root",
   "navigation_residual": {
     "status": "provisional_not_integrated",
-    "requires": "Reconcile against the exact compiled snapshot after successful publication of group 06; review root Ogden refinement and supplemental grammar separately.",
+    "requires": "After successful publication of group06, apply 51 verified explicit caption changes, the approved Ogden wording and three supplemental grammar changes; confirm exact source before values.",
     "files": [
       {
         "path": "docs/audits/prepared-navigation/mixed-language-label-residual-review.json",
@@ -186,5 +192,6 @@
       }
     ],
     "compiler_input": false
-  }
+  },
+  "pending_work": "docs/audits/2026-10-07-pending-reviewed-work.json"
 }
