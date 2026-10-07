@@ -1,0 +1,3067 @@
+{
+  "cohort": 2,
+  "input_snapshot": "corpus-after-legacy-closure.json",
+  "snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "status": "ready_for_root_integration_not_published",
+  "summary": {
+    "candidate_count": 93,
+    "full_public_context_read": 93,
+    "enrich": 86,
+    "keep": 7,
+    "editorial_title_changes": 23,
+    "search_title_changes": 9,
+    "explicit_label_operations": 0,
+    "automatic_parent_label_updates": 9,
+    "agreed_semantic_corrections": 4
+  },
+  "method": "Каждая страница прочитана по всем публичным полям фактического снимка: N.0, N.1, description, kicker, полные intro/blocks/quote, links и sources. Совпадение латиницы не считалось дефектом. Правки адресные, изменяемые массивы переданы полностью; все остальные элементы массивов сохранены.",
+  "guidance": "mixed-language-guidance.json; уточнение root об удалении непрозрачных внутренних Rider Core / Legendary Core из публичной речи без нового ранга качества.",
+  "input_note": "Некоторые поля индексного списка отражают более старые совпадения. Решения и массивы построены только из подтверждённого SHA corpus-after-legacy-closure.json, в том числе актуальный P-225 с FC3A.",
+  "preservation": {
+    "new_pages": 0,
+    "new_urls": 0,
+    "new_sources": 0,
+    "source_urls_changed": 0,
+    "parent_changes": 0,
+    "outgoing_destinations_changed": 0,
+    "intro_or_block_items_added_or_removed": 0,
+    "repository_files_changed_by_agent": 0,
+    "builds_or_tests_run": false,
+    "existing_compared_properties_not_generally_rewritten": true,
+    "cheap_n1_commercial_word_regexp_passed": true
+  },
+  "semantic_corrections": [
+    {
+      "slug": "kawai-k300-v-arendu",
+      "status": "agreed_by_root",
+      "reason": "Доступ к K-300 проверяется на текущей программе; прежняя рамка обязательного повышения класса и полного исчерпания K-200/цифрового инструмента снята. Первичные сведения заново сверены root по существующим URL, новых источников нет.",
+      "fields": [
+        "intro",
+        "blocks[1].title",
+        "quote"
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-vokalnogo-trio",
+      "status": "agreed_by_root",
+      "reason": "Название состава согласовано с полным текстом: один певец и два инструмента; третий участник не назван третьим инструментом. Сцена, URL и полезные тезисы сохранены.",
+      "fields": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "blocks[2].paragraphs[0]"
+      ]
+    },
+    {
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "status": "agreed_by_root",
+      "reason": "У обычной скрипки ошибочное упоминание ладов в проверке строя заменено грифом; новых свойств не добавлено.",
+      "fields": [
+        "blocks[1].paragraphs[0]"
+      ]
+    },
+    {
+      "slug": "goronok-etyud-v-arendu",
+      "status": "agreed_by_root",
+      "reason": "У обычной скрипки ошибочное упоминание ладов в проверке строя заменено грифом; новых свойств не добавлено.",
+      "fields": [
+        "blocks[2].paragraphs[0]"
+      ]
+    }
+  ],
+  "keep_slugs": [
+    "yamaha-clp775-v-arendu",
+    "yamaha-clp875-v-arendu",
+    "yamaha-clp885-v-arendu",
+    "nord-piano-5-v-arendu",
+    "nord-stage-4-v-arendu",
+    "codabow-prodigy-skripka-v-arendu",
+    "knilling-bucharest-skripka-v-arendu"
+  ],
+  "decisions": [
+    {
+      "index": 1,
+      "slug": "instrument-esli-struny-slishkom-zhestkie",
+      "decision": "enrich",
+      "reason": "Ненужный setup в итоговом маршруте обозначает конфигурацию собственного инструмента.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "до замены собственного setup",
+          "after": "до изменения конфигурации собственного инструмента"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "slug": "instrument-esli-teryaetsya-v-ansamble",
+      "decision": "enrich",
+      "reason": "Английские step-up и pickup в русских предложениях заменены без новой оценки качества.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "инструментальный step-up",
+          "after": "переход на другой инструмент"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "pickup",
+          "after": "звукоснимателю"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "slug": "instrument-esli-tyazhelo-prizhimat",
+      "decision": "enrich",
+      "reason": "Setup в описании и рубрике означает регулировку струнного инструмента.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "и setup",
+          "after": "и регулировка инструмента"
+        },
+        {
+          "path": "kicker",
+          "before": "SETUP",
+          "after": "РЕГУЛИРОВКА"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "slug": "barochnaya-skripka-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Setup переведён как конфигурация исторического инструмента; музыкальный штрих détaché уместен и сохранён.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "иной setup",
+          "after": "иная конфигурация инструмента"
+        }
+      ],
+      "preserved": "détaché; Pirastro Chorda; устройство исторического инструмента и проба фразы"
+    },
+    {
+      "index": 5,
+      "slug": "barochnaya-skripka-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Setup в перечне условий покупки означает конфигурацию инструмента.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "setup",
+          "after": "конфигурация инструмента"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "slug": "barochnaya-violonchel-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Смешанный historical setup в редакционном заголовке и рубрике заменён русским обозначением; термин continuo сохранён.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "весь historical setup",
+          "after": "всю историческую конфигурацию"
+        },
+        {
+          "path": "kicker",
+          "before": "SETUP",
+          "after": "КОНФИГУРАЦИЯ"
+        }
+      ],
+      "preserved": "continuo и Basso continuo как музыкальные термины; N.0 и историческая ансамблевая задача"
+    },
+    {
+      "index": 7,
+      "slug": "barochnye-instrumenty-dlya-studiynoy-zapisi",
+      "decision": "enrich",
+      "reason": "Названия инструмента и периода записи в русской прозе приведены к естественному русскому; музыкальная функция continuo сохранена.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "traverso",
+          "after": "траверсо"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "traverso",
+          "after": "траверсо"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "Аренда совпадает со сроком recording block",
+          "after": "Срок аренды совпадает с периодом записи"
+        }
+      ],
+      "preserved": "continuo; названия и адреса источников; сухой дубль полного ансамбля"
+    },
+    {
+      "index": 8,
+      "slug": "renessansnye-instrumenty-dlya-studiynoy-zapisi",
+      "decision": "enrich",
+      "reason": "Consort/cornetto в русской прозе названы консортом/корнетто; recording block передан как период записи.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "consort, cornetto",
+          "after": "консорт, корнетто"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "cornetto",
+          "after": "корнетто"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "на один recording block",
+          "after": "на период записи"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "slug": "kawai-k300-v-arendu",
+      "decision": "enrich",
+      "reason": "Переведены английское описание и родовые слова; отдельно согласована рамка пробы текущей программы вместо обязательного повышения класса. Технические свойства и атрибуция сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "профессиональный upright",
+          "after": "профессиональное пианино"
+        },
+        {
+          "path": "description",
+          "before": "Kawai K-300: 122 cm professional upright with Millennium III action, solid spruce soundboard and school/studio positioning.",
+          "after": "Kawai K-300: профессиональное пианино высотой 122 см с механикой Millennium III и декой из цельной ели, рассчитанное на музыкальную школу и студию."
+        },
+        {
+          "path": "kicker",
+          "before": "122 CM · MUSIC SCHOOL",
+          "after": "122 СМ · МУЗЫКАЛЬНАЯ ШКОЛА"
+        },
+        {
+          "path": "intro.0",
+          "before": "K‑300 стоит выше уже существующего K‑200 и имеет другой смысл в учебной лестнице.",
+          "after": "K‑300 — акустическое пианино высотой 122 см."
+        },
+        {
+          "path": "intro.0",
+          "before": "upright своего класса для ambitious beginners, advanced pianists и music schools",
+          "after": "пианино своего класса для начинающих с серьёзными планами, опытных пианистов и музыкальных школ"
+        },
+        {
+          "path": "intro.0",
+          "before": "как один из самых популярных пианино",
+          "after": "как одно из самых популярных пианино"
+        },
+        {
+          "path": "intro.0",
+          "before": "Это хороший кандидат, когда компактный домашний уровень уже перестаёт быть достаточным.",
+          "after": "Практическая проба на текущей программе покажет, как инструмент отвечает на ваше прикосновение."
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "longer keys и ABS-Carbon action",
+          "after": "удлинённые клавиши и механику ABS-Carbon"
+        },
+        {
+          "path": "blocks.1.label",
+          "before": "122 CM",
+          "after": "122 СМ"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Высота корпуса уже относится к профессиональному upright-классу",
+          "after": "Корпус высотой 122 см оценивают вместе с помещением и характером звучания"
+        },
+        {
+          "path": "sources.1.title",
+          "before": "для ambitious beginners и music schools",
+          "after": "для начинающих с серьёзными планами и музыкальных школ"
+        },
+        {
+          "path": "quote",
+          "before": "Ученик уже использует возможности K-200/цифрового инструмента полностью или действительно нужен следующий акустический уровень?",
+          "after": "Как K-300 отвечает на вашу текущую программу по сравнению с привычным K-200 или цифровым инструментом?"
+        }
+      ],
+      "preserved": "Millennium III, ABS-Carbon, pianissimo, 122 см, существующие сравнения размеров с K-200, сведения о российском представительстве/сервисе и условия состояния/пробы",
+      "semantic_correction": {
+        "status": "agreed_by_root",
+        "reason": "Доступ к K-300 проверяется на текущей программе; прежняя рамка обязательного повышения класса и полного исчерпания K-200/цифрового инструмента снята. Первичные сведения заново сверены root по существующим URL, новых источников нет.",
+        "fields": [
+          "intro",
+          "blocks[1].title",
+          "quote"
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "slug": "pianino-dlya-raboty-nad-pedalyu",
+      "decision": "enrich",
+      "reason": "Английский damper заменён русским названием педали; уместный термин sostenuto сохранён вместе с конструктивным различием средней педали.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "damper, sostenuto/средняя педаль по конструкции",
+          "after": "демпферная педаль, sostenuto/средняя педаль по конструкции"
+        }
+      ],
+      "preserved": "sostenuto, резонанс, реальное демпфирование и отсутствие универсальной функции у средней педали"
+    },
+    {
+      "index": 11,
+      "slug": "yamaha-u1-v-arendu",
+      "decision": "enrich",
+      "reason": "Родовые upright/console и английское перечисление аудитории переведены; фактические и педагогические тезисы не пересматривались в языковом пакете.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "intro.1",
+          "before": "профессиональным upright",
+          "after": "профессиональным пианино"
+        },
+        {
+          "path": "blocks.4.title",
+          "before": "Большой upright",
+          "after": "Большое пианино"
+        },
+        {
+          "path": "blocks.4.paragraphs.0",
+          "before": "маленькие console-модели",
+          "after": "маленькие консольные модели"
+        },
+        {
+          "path": "blocks.5.paragraphs.0",
+          "before": "для experienced pianist и professional musician",
+          "after": "для опытных пианистов и профессиональных музыкантов"
+        },
+        {
+          "path": "blocks.5.paragraphs.0",
+          "before": "такие upright",
+          "after": "такие пианино"
+        }
+      ],
+      "preserved": "U1, 121–122 см, конкретная модификация, состояние, тихая динамика, временный доступ и учебный рост"
+    },
+    {
+      "index": 12,
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "decision": "enrich",
+      "reason": "Обычные английские обозначения педали и полупедали переведены в описании, рубрике и итоговом вопросе.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "damper, half-pedal",
+          "after": "демпферная педаль, полупедаль"
+        },
+        {
+          "path": "kicker",
+          "before": "HALF-PEDAL",
+          "after": "ПОЛУПЕДАЛЬ"
+        },
+        {
+          "path": "quote",
+          "before": "half-pedal",
+          "after": "полупедаль"
+        },
+        {
+          "path": "quote",
+          "before": "damper-педали",
+          "after": "демпферной педали"
+        }
+      ],
+      "preserved": "sostenuto как самостоятельный музыкальный термин; F-351, ES120, проверка гармонии и устойчивости блока"
+    },
+    {
+      "index": 13,
+      "slug": "cifrovoe-pianino-s-troynoy-pedalyu",
+      "decision": "enrich",
+      "reason": "Гибридное sustain-педаль в двух совпадающих публичных полях заменено русским названием без изменения учебного смысла.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "sustain-педали",
+          "after": "педали сустейна"
+        },
+        {
+          "path": "intro.0",
+          "before": "sustain-педали",
+          "after": "педали сустейна"
+        }
+      ],
+      "preserved": "Содержание остальных абзацев и подписи карточек, включая уместный термин sostenuto"
+    },
+    {
+      "index": 14,
+      "slug": "yamaha-clp775-v-arendu",
+      "decision": "keep",
+      "reason": "GP Response Damper и GrandTouch — точные названия педали и клавиатуры; они уже включены в ясный русский текст. Английский заголовок спецификации является названием источника.",
+      "public_context_read": true,
+      "changes": [],
+      "preserved": "Все публичные поля без изменений; проба прикосновения и педали сохранена"
+    },
+    {
+      "index": 15,
+      "slug": "yamaha-clp875-v-arendu",
+      "decision": "keep",
+      "reason": "GP Response Damper и GrandTouch — точные названия механики/педали, окружённые русским объяснением; ненужных английских вставок нет.",
+      "public_context_read": true,
+      "changes": [],
+      "preserved": "Все публичные поля и конкретная домашняя программа"
+    },
+    {
+      "index": 16,
+      "slug": "yamaha-clp885-v-arendu",
+      "decision": "keep",
+      "reason": "GP Response Damper и GrandTouch сохранены как точные названия. Русский текст объясняет противовесы и предлагает предметную пробу без языковой помехи.",
+      "public_context_read": true,
+      "changes": [],
+      "preserved": "Все публичные поля, различие противовесов и выбранная программа"
+    },
+    {
+      "index": 17,
+      "slug": "yamaha-p225-v-arendu",
+      "decision": "enrich",
+      "reason": "CFX voice и смешанная подпись источника переведены; в актуальном теле уже корректно разведены FC3A и трёхпедальный комплект.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "CFX voice",
+          "after": "тембром CFX"
+        },
+        {
+          "path": "sources.1.title",
+          "before": "practice and lessons",
+          "after": "занятий и уроков"
+        }
+      ],
+      "preserved": "GHC, CFX, FC3A, mezzo как музыкальное обозначение; весь актуальный блок о полупедали"
+    },
+    {
+      "index": 18,
+      "slug": "hohner-clavinet-e7-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание и рабочие слова об эффектах/сигнале переведены. Внутренний Legendary Core заменён предметной рубрикой по существующему содержанию.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Hohner Clavinet E7: vintage electro-mechanical clavinet and professional backline reference.",
+          "after": "Hohner Clavinet E7: винтажный электромеханический клавинет и профессиональный ориентир для бэклайна."
+        },
+        {
+          "path": "kicker",
+          "before": "LEGENDARY CORE",
+          "after": "ЭЛЕКТРОМЕХАНИЧЕСКИЕ КЛАВИШНЫЕ"
+        },
+        {
+          "path": "intro.0",
+          "before": "работа с wah или эффектами",
+          "after": "работа с эффектом «вау-вау» или другими эффектами"
+        },
+        {
+          "path": "intro.0",
+          "before": "В backline-парках",
+          "after": "В парках бэклайна"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "tangent-механикой",
+          "after": "тангентным механизмом"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "groove",
+          "after": "грува"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Wah, phaser и amp",
+          "after": "Вау-вау, фейзер и усилитель"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "чистый Clavinet output",
+          "after": "чистый выходной сигнал Clavinet"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Профессиональные keyboard rental inventories продолжают держать",
+          "after": "Профессиональные прокаты клавишных инструментов продолжают держать"
+        },
+        {
+          "path": "quote",
+          "before": "целая Clavinet-цепочка с wah/эффектами и усилением",
+          "after": "целая цепочка Clavinet с вау-вау, эффектами и усилением"
+        }
+      ],
+      "preserved": "Hohner Clavinet E7; самостоятельная атака/ощущение механизма, возможность полной цепочки, проверка состояния"
+    },
+    {
+      "index": 19,
+      "slug": "rhodes-mark-i-stage-73-v-arendu",
+      "decision": "enrich",
+      "reason": "Переведены описание, родовые названия узлов и усиления; Stage 73 и Suitcase сохранены как названия версий. Внутренняя рубрика заменена предметной.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Rhodes Mark I Stage 73: iconic 1970s tine piano, studio/live standard and genuine vintage backline instrument.",
+          "after": "Rhodes Mark I Stage 73: знаковое электропиано 1970-х с металлическими стержнями, студийный и сценический стандарт, винтажный инструмент для бэклайна."
+        },
+        {
+          "path": "kicker",
+          "before": "LEGENDARY CORE",
+          "after": "ЭЛЕКТРОМЕХАНИЧЕСКОЕ ПИАНИНО"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "tine и pickup",
+          "after": "металлического стержня и звукоснимателя"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "металлического tine",
+          "after": "металлического стержня"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "action и voicing",
+          "after": "механики и интонировки"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "speaker cabinet",
+          "after": "акустического кабинета"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "preamp",
+          "after": "предусилитель"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "в backline-флотах",
+          "after": "в парках бэклайна"
+        }
+      ],
+      "preserved": "Mark I Stage 73, Stage, Suitcase, Rhodes, имена исполнителей, DI; механический источник звука и внешний тракт"
+    },
+    {
+      "index": 20,
+      "slug": "wurlitzer-200a-v-arendu",
+      "decision": "enrich",
+      "reason": "Reed/tine переведены с сохранением различия язычка и стержня; остальные английские рабочие слова и внутренний ярлык заменены ясным русским.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Wurlitzer 200A electric piano: vintage reed-based electromechanical keyboard and long-lived backline standard.",
+          "after": "Wurlitzer 200A: винтажное электромеханическое пианино с язычковым механизмом, многолетний стандарт бэклайна."
+        },
+        {
+          "path": "kicker",
+          "before": "LEGENDARY CORE",
+          "after": "ЭЛЕКТРОМЕХАНИЧЕСКОЕ ПИАНИНО"
+        },
+        {
+          "path": "intro.0",
+          "before": "reed-механика",
+          "after": "язычковая механика"
+        },
+        {
+          "path": "blocks.0.label",
+          "before": "REED",
+          "after": "ЯЗЫЧОК"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "Металлический reed формирует другую атаку, чем tine Rhodes",
+          "after": "Металлический язычок формирует другую атаку, чем стержень Rhodes"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "Action, tuning, hum",
+          "after": "Механика, строй, электрический фон"
+        },
+        {
+          "path": "blocks.2.label",
+          "before": "BACKLINE",
+          "after": "БЭКЛАЙН"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "в профессиональных keyboard rentals",
+          "after": "в профессиональных прокатах клавишных инструментов"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Backline-флоты",
+          "after": "Парки бэклайна"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "stage keyboards",
+          "after": "сценическими клавишными"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Это реальный Legendary Core, а не музейная рубрика.",
+          "after": "200A остаётся инструментом для реальной сценической работы."
+        },
+        {
+          "path": "quote",
+          "before": "Wurlitzer 200A hardware",
+          "after": "Wurlitzer 200A"
+        }
+      ],
+      "preserved": "Wurlitzer 200A, Wurli, Rhodes, Hammond; тембровое отличие, проверка винтажного экземпляра и допустимость цифрового воспроизведения"
+    },
+    {
+      "index": 21,
+      "slug": "instrumenty-dlya-kamernogo-hora-s-ansamblem",
+      "decision": "enrich",
+      "reason": "Английская часть описания и названия сопровождающих партий в абзаце переведены; хор, партитура и слышимость текста остаются главным критерием.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "strings/winds/keyboard continuo and balance",
+          "after": "струнные, духовые, клавишное континуо и баланс"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "organ/piano или historical continuo",
+          "after": "орган/фортепиано или континуо на исторических инструментах"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "slug": "pianino-s-pedalyu-sostenuto",
+      "decision": "enrich",
+      "reason": "Sustain передан русским названием функции; sostenuto сохранён как уместный основной музыкальный термин этой темы.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "от sustain и модератора",
+          "after": "от педали сустейна и модератора"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Педаль sustain",
+          "after": "Педаль сустейна"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "для sustain",
+          "after": "для сустейна"
+        },
+        {
+          "path": "sources.0.title",
+          "before": "sostenuto, sustain и педали приглушения",
+          "after": "sostenuto, педали сустейна и педали приглушения"
+        }
+      ],
+      "preserved": "Выборочное удержание нот, различие полупедали/средней педали, проверка конфигурации; N.0 и N.1 не меняются"
+    },
+    {
+      "index": 23,
+      "slug": "hammond-leslie-po-rayderu",
+      "decision": "enrich",
+      "reason": "Райдерный комплект органа переведён целиком: pedalboard здесь педальная клавиатура, rotary — роторная акустическая система, а не педали эффектов.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Hammond B3 + Leslie rider: organ, rotary speaker, pedalboard, bench and full-stage setup.",
+          "after": "Hammond B3 + Leslie по райдеру: орган, роторная акустическая система, педальная клавиатура, банкетка и полный сценический комплект."
+        },
+        {
+          "path": "kicker",
+          "before": "RIDER",
+          "after": "РАЙДЕР"
+        },
+        {
+          "path": "intro.0",
+          "before": "Орган без rotary",
+          "after": "Орган без роторной акустической системы"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Backline-провайдеры",
+          "after": "Поставщики бэклайна"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Soundcheck должен включать slow/fast и педальную работу",
+          "after": "На саундчеке проверяют медленный и быстрый режимы и работу педальной клавиатуры"
+        },
+        {
+          "path": "quote",
+          "before": "полный B3, Leslie, bench и pedalboard",
+          "after": "полный комплект с B3, Leslie, банкеткой и педальной клавиатурой"
+        }
+      ],
+      "preserved": "Hammond B3, Leslie 122; целый исполнительский комплект и райдерная возможность компактной замены"
+    },
+    {
+      "index": 24,
+      "slug": "instrumenty-dlya-ansamblya-melodiki",
+      "decision": "enrich",
+      "reason": "Единственная ненужная английская вставка — название ансамбля в рубрике.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "kicker",
+          "before": "MELODICA ENSEMBLE",
+          "after": "АНСАМБЛЬ МЕЛОДИК"
+        }
+      ],
+      "preserved": "32 клавиши, дыхание, общий диапазон программы и учебная работа"
+    },
+    {
+      "index": 25,
+      "slug": "melodika-32-klavishi-dlya-shkoly",
+      "decision": "enrich",
+      "reason": "Переведены английское описание, рубрика и перечень диапазонов; атрибуция рекомендации Suzuki и исключение для иной школьной программы сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "32-key alto melodica for kindergarten, primary school and early ensemble learning, independent of brand.",
+          "after": "32-клавишная мелодика альтового диапазона для детского сада, начальной школы и первых ансамблевых занятий независимо от бренда."
+        },
+        {
+          "path": "kicker",
+          "before": "32 KEYS · ALTO · SCHOOL",
+          "after": "32 КЛАВИШИ · АЛЬТОВЫЙ ДИАПАЗОН · ШКОЛА"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "alto 32-key",
+          "after": "32-клавишную мелодику альтового диапазона"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "soprano, bass или другого диапазона",
+          "after": "сопранового, басового или другого диапазона"
+        }
+      ],
+      "preserved": "P-32D, M-32C, Yamaha, Suzuki; 32 клавиши и функциональный выбор до бренда"
+    },
+    {
+      "index": 26,
+      "slug": "melodika-posle-fortepiano",
+      "decision": "enrich",
+      "reason": "Sustain в дыхательной фразе обозначает продолжительность звучания ноты, а не педаль; уместный музыкальный термин legato сохранён.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "sustain",
+          "after": "продолжительность звучания"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "slug": "fazioli-f278-v-arendu",
+      "decision": "enrich",
+      "reason": "Английские родовые обозначения концертного рояля и прокатного сервиса переведены; внутренняя рубрика Rider Core убрана без нового ранга.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Fazioli F278 concert grand: 278 cm class, large-hall and recording-studio model with official rental service.",
+          "after": "Fazioli F278: концертный рояль класса 278 см для больших залов и студий записи, представленный в официальном прокате Fazioli."
+        },
+        {
+          "path": "kicker",
+          "before": "RIDER CORE · CONCERT GRAND",
+          "after": "КОНЦЕРТНЫЙ РОЯЛЬ"
+        },
+        {
+          "path": "intro.0",
+          "before": "через свой Milan concert service",
+          "after": "через свою миланскую концертную службу"
+        },
+        {
+          "path": "intro.0",
+          "before": "concert grands",
+          "after": "концертными роялями"
+        },
+        {
+          "path": "blocks.1.label",
+          "before": "RENTAL",
+          "after": "АРЕНДА"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Официальный Milan service",
+          "after": "Официальная служба в Милане"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "hire-сервис",
+          "after": "службу проката"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "«Fazioli sound»",
+          "after": "«звук Fazioli»"
+        }
+      ],
+      "preserved": "Fazioli F278, Steinway, Bösendorfer; параметры, прежняя атрибуция и выбор реального инструмента в зале"
+    },
+    {
+      "index": 28,
+      "slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "decision": "enrich",
+      "reason": "Смешанный текст о двух клавиатурах переведён. Weighted означает взвешенную клавиатуру; молоточковый механизм не добавлялся.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Two-keyboard live rig: stage piano + synth/workstation, stands, pedals and outputs.",
+          "after": "Две клавиатуры на сцене: сценическое пианино и синтезатор/рабочая станция, стойки, педали и выходы."
+        },
+        {
+          "path": "kicker",
+          "before": "2 KEYBOARDS · LIVE RIG",
+          "after": "2 КЛАВИАТУРЫ · СЦЕНИЧЕСКИЙ КОМПЛЕКТ"
+        },
+        {
+          "path": "intro.0",
+          "before": "weighted piano снизу и synth/organ сверху",
+          "after": "пианино со взвешенной клавиатурой снизу и синтезатор/орган сверху"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "большой rig",
+          "after": "большой комплект"
+        }
+      ],
+      "preserved": "Разделение ролей, стойки и переходы рук; названия Nord Stage 4 / Yamaha CP88 / Roland RD-88 EX; краткие исходные карточки не выравнивались"
+    },
+    {
+      "index": 29,
+      "slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "decision": "enrich",
+      "reason": "Pit band передан как пит-бенд, а doubling — как смена инструментов одним музыкантом. Сохранены карта партитуры, быстрые переходы и клавишные программы.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "для pit band мюзикла",
+          "after": "для пит-бенда мюзикла"
+        },
+        {
+          "path": "editorial_title",
+          "before": "Pit band мюзикла",
+          "after": "Пит-бенд мюзикла"
+        },
+        {
+          "path": "description",
+          "before": "Pit band для мюзикла: doubling winds, keyboards, guitars, rhythm section and quick changes.",
+          "after": "Пит-бенд для мюзикла: несколько духовых у одного исполнителя, клавишные, гитары, ритм-секция и быстрые смены."
+        },
+        {
+          "path": "kicker",
+          "before": "MUSICAL · PIT BAND · DOUBLING",
+          "after": "МЮЗИКЛ · ПИТ-БЕНД · СМЕНА ИНСТРУМЕНТОВ"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "Сначала составляют список doubling по каждому месту",
+          "after": "Сначала перечисляют смены инструментов для каждого музыканта"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "несколько keyboard patches",
+          "after": "несколько программ клавишного инструмента"
+        },
+        {
+          "path": "quote",
+          "before": "Какие doubling-смены",
+          "after": "Какие смены инструментов"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "slug": "instrumenty-dlya-vokalnogo-trio",
+      "decision": "enrich",
+      "reason": "Английское описание переведено. Отдельно согласована внутренняя смысловая поправка: эта сцена описывает трио с вокалом, то есть певца и два инструмента, а не трёх певцов.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "Инструменты для вокального трио в аренду",
+          "after": "Инструменты для трио с вокалом в аренду"
+        },
+        {
+          "path": "editorial_title",
+          "before": "Вокальное трио: два сопровождающих инструмента не должны делить один и тот же воздух",
+          "after": "Трио с вокалом: два сопровождающих инструмента не должны делить один и тот же воздух"
+        },
+        {
+          "path": "description",
+          "before": "Вокальное трио: voice plus two instruments, arrangement balance and temporary setup.",
+          "after": "Трио с вокалом: голос и два инструмента, баланс аранжировки и временный комплект."
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "После проекта третий инструмент может больше не понадобиться.",
+          "after": "После проекта дополнительный инструмент может больше не понадобиться."
+        }
+      ],
+      "preserved": "Intro, роли двух сопровождающих инструментов, куплет с одним/двумя инструментами и quote о третьем участнике",
+      "semantic_correction": {
+        "status": "agreed_by_root",
+        "reason": "Название состава согласовано с полным текстом: один певец и два инструмента; третий участник не назван третьим инструментом. Сцена, URL и полезные тезисы сохранены.",
+        "fields": [
+          "search_title",
+          "editorial_title",
+          "description",
+          "blocks[2].paragraphs[0]"
+        ]
+      }
+    },
+    {
+      "index": 31,
+      "slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "decision": "enrich",
+      "reason": "Перелёт без своего инструмента, местный комплект, замена и передача перед саундчеком описаны по-русски без смешения технических операций.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "Клавишные backline",
+          "after": "Клавишный бэклайн"
+        },
+        {
+          "path": "editorial_title",
+          "before": "привычный rig",
+          "after": "привычный комплект"
+        },
+        {
+          "path": "description",
+          "before": "Local keyboard backline: rider matching, pedals, programs, outputs and artist handoff.",
+          "after": "Клавишный бэклайн на месте выступления: соответствие райдеру, педали, программы, выходы и передача комплекта артисту."
+        },
+        {
+          "path": "kicker",
+          "before": "FLY DATE · LOCAL BACKLINE · HANDOFF",
+          "after": "ПЕРЕЛЁТ НА КОНЦЕРТ · МЕСТНЫЙ БЭКЛАЙН · ПЕРЕДАЧА КОМПЛЕКТА"
+        },
+        {
+          "path": "intro.0",
+          "before": "Fly-date формат особенно естественен для клавишных: тяжёлый instrument",
+          "after": "Концерт с перелётом без своего инструмента особенно естественен для клавишника: тяжёлый инструмент"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "функциональный substitute",
+          "after": "функциональную замену"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Backline-провайдеры",
+          "after": "Поставщики бэклайна"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "нужен технический handoff до soundcheck",
+          "after": "нужна техническая передача комплекта до саундчека"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "output routing",
+          "after": "маршрутизацию выходного сигнала"
+        },
+        {
+          "path": "quote",
+          "before": "fly-date",
+          "after": "концерт с перелётом"
+        }
+      ],
+      "preserved": "Модель или функциональная замена, механика, педали, выходы и сохранённые настройки"
+    },
+    {
+      "index": 32,
+      "slug": "klavishnye-dlya-festivalnoy-smeny-artistov",
+      "decision": "enrich",
+      "reason": "Changeover, snapshot, dry-run, handoff и line check переведены как конкретные действия при смене артистов; проверка линий не подменена саундчеком.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "Changeover",
+          "after": "Смена артистов"
+        },
+        {
+          "path": "description",
+          "before": "Keyboard changeover: preset reset, pedals, stands, line check and artist handoff.",
+          "after": "Смена артиста за клавишными: восстановление настроек программ, педали, стойки, проверка сигнальных линий и передача комплекта."
+        },
+        {
+          "path": "kicker",
+          "before": "CHANGEOVER · HANDOFF · LINE CHECK",
+          "after": "СМЕНА АРТИСТОВ · ПЕРЕДАЧА КОМПЛЕКТА · ПРОВЕРКА ЛИНИЙ"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "минимальный snapshot конфигурации",
+          "after": "краткую карту конфигурации"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "к line check",
+          "after": "к проверке сигнальных линий"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "dry-run смены",
+          "after": "пробную смену"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "slug": "klavishnye-dlya-festivalya",
+      "decision": "enrich",
+      "reason": "Общий фестивальный бэклайн и смены артистов описаны по-русски; модельные исключения и возврат к базовой конфигурации сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "один backline должен пережить несколько артистов и короткие changeover",
+          "after": "один комплект бэклайна должен пережить несколько артистов и короткие смены"
+        },
+        {
+          "path": "description",
+          "before": "Keyboard backline for festival: shared stage piano/workstation, pedals, outputs and fast changeover.",
+          "after": "Клавишный бэклайн фестиваля: сценическое пианино/рабочая станция для нескольких артистов, педали, выходы и быстрая смена."
+        },
+        {
+          "path": "kicker",
+          "before": "FESTIVAL · CHANGEOVER · SHARED BACKLINE",
+          "after": "ФЕСТИВАЛЬ · СМЕНА АРТИСТОВ · ОБЩИЙ БЭКЛАЙН"
+        },
+        {
+          "path": "intro.0",
+          "before": "клавишный backline",
+          "after": "клавишный бэклайн"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Один универсальный stage piano",
+          "after": "Одно универсальное сценическое пианино"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "workstation",
+          "after": "рабочая станция"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "changeover",
+          "after": "смену артистов"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "line outputs",
+          "after": "линейные выходы"
+        },
+        {
+          "path": "quote",
+          "before": "shared",
+          "after": "общими"
+        }
+      ],
+      "preserved": "Nord, Hammond, конкретные модели и допустимость общих позиций только для части артистов"
+    },
+    {
+      "index": 34,
+      "slug": "klavishnye-dlya-maloy-stseny",
+      "decision": "enrich",
+      "reason": "Rig, stage, direct, touring и родовые звуковые роли переведены; задача сокращения комплекта без потери музыкальных функций сохранена.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "сократить rig",
+          "after": "сократить комплект"
+        },
+        {
+          "path": "description",
+          "before": "Compact stage keyboard rig: 61/73/88 keys, built-in sounds, direct output and small-stage setup.",
+          "after": "Компактный сценический клавишный комплект: 61/73/88 клавиш, встроенные тембры, прямой выход и расстановка на небольшой сцене."
+        },
+        {
+          "path": "kicker",
+          "before": "COMPACT RIG · DIRECT",
+          "after": "КОМПАКТНЫЙ КОМПЛЕКТ · ПРЯМОЕ ПОДКЛЮЧЕНИЕ"
+        },
+        {
+          "path": "intro.0",
+          "before": "минимальный rig",
+          "after": "минимальный комплект"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Piano, organ, synth и pads",
+          "after": "Фортепиано, орган, синтезаторные тембры и фоновые подкладки"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "rig",
+          "after": "комплект"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "touring set",
+          "after": "гастрольный комплект"
+        }
+      ],
+      "preserved": "61/73/88, Nord Stage 4, Roland RD-88 EX; сценическое пространство и переключения программы"
+    },
+    {
+      "index": 35,
+      "slug": "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "decision": "enrich",
+      "reason": "Английские предложения о прямом подключении переведены; FOH, L/R и DI сохранены, монитор исполнителя по-прежнему проверяется отдельно.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "отдельного combo",
+          "after": "отдельного комбоусилителя"
+        },
+        {
+          "path": "description",
+          "before": "Keyboard direct to mixer: line outputs, DI, mono/stereo routing and stage monitoring.",
+          "after": "Клавишные напрямую в пульт: линейные выходы, DI, маршрутизация моно/стерео и мониторинг на сцене."
+        },
+        {
+          "path": "kicker",
+          "before": "KEYS → FOH · DIRECT · MONITORING",
+          "after": "КЛАВИШНЫЕ → FOH · ПРЯМОЕ ПОДКЛЮЧЕНИЕ · МОНИТОРИНГ"
+        },
+        {
+          "path": "intro.0",
+          "before": "line output может идти",
+          "after": "сигнал с линейного выхода может идти"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "проектируют routing L/R и DI",
+          "after": "планируют маршрутизацию L/R и подключение DI"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Balanced/unbalanced outputs и длина линии определяют, нужен ли дополнительный DI-слой.",
+          "after": "Балансные/небалансные выходы и длина линии определяют, нужно ли дополнительное подключение через DI."
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Soundcheck проверяет FOH и монитор исполнителя раздельно",
+          "after": "На саундчеке проверяют FOH и монитор исполнителя раздельно"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "полный direct rig",
+          "after": "полный комплект для прямого подключения"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "combo",
+          "after": "комбоусилителя"
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "slug": "klavishnye-dlya-stereo-vyhoda",
+      "decision": "enrich",
+      "reason": "Stereo/mono и маршрутизация переведены по контексту; mono collapse сохранён именно как сведение в моно, а не потеря сигнала.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "со stereo output",
+          "after": "со стереовыходом"
+        },
+        {
+          "path": "editorial_title",
+          "before": "Stereo keyboard rig",
+          "after": "Клавишные в стерео"
+        },
+        {
+          "path": "description",
+          "before": "Keyboard stereo output: L/R routing, FOH channels, DI and live stereo compatibility.",
+          "after": "Стереовыход клавишных: маршрутизация L/R, каналы FOH, DI и совместимость стереоподключения на сцене."
+        },
+        {
+          "path": "kicker",
+          "before": "STEREO OUT · FOH · ROUTING",
+          "after": "СТЕРЕОВЫХОД · FOH · МАРШРУТИЗАЦИЯ"
+        },
+        {
+          "path": "intro.0",
+          "before": "дают stereo L/R",
+          "after": "дают стереосигнал L/R"
+        },
+        {
+          "path": "intro.0",
+          "before": "польза stereo",
+          "after": "польза стерео"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "нужен ли stereo музыкально",
+          "after": "нужно ли стерео для музыкальной задачи"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Некоторые piano/organ/synth patches используют ширину заметно, другие спокойно живут в mono.",
+          "after": "Некоторые фортепианные, органные и синтезаторные программы заметно используют ширину стереопанорамы, другие спокойно работают в моно."
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "mono collapse и stereo",
+          "after": "сведение в моно и стереозвучание"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "в mono, routing",
+          "after": "в моно, маршрутизация"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "stereo-связку под конкретный production",
+          "after": "стереокомплект под конкретный сценический проект"
+        },
+        {
+          "path": "quote",
+          "before": "в mono",
+          "after": "в моно"
+        }
+      ],
+      "preserved": "L/R, FOH, PA, DI; слуховая проверка панорамы и сохранность ключевых элементов при сведении"
+    },
+    {
+      "index": 37,
+      "slug": "klavishnye-dlya-upravleniya-vneshnimi-modulyami",
+      "decision": "enrich",
+      "reason": "Смешанный текст об управляющей клавиатуре переведён; MIDI-зоны, смены программ и деление клавиатуры остаются разными проверками.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "Master keyboard на сцене: клавиатура управляет не только собой",
+          "after": "Управляющая клавиатура на сцене: инструмент управляет не только собой"
+        },
+        {
+          "path": "description",
+          "before": "Stage keyboard for external modules: MIDI zones, program changes, splits and controller workflow.",
+          "after": "Сценические клавишные для внешних модулей: MIDI-зоны, переключение программ, разделение клавиатуры и порядок управления."
+        },
+        {
+          "path": "kicker",
+          "before": "ZONES · EXTERNAL MODULES",
+          "after": "ЗОНЫ · ВНЕШНИЕ МОДУЛИ"
+        },
+        {
+          "path": "intro.0",
+          "before": "В сложном live-rig",
+          "after": "В сложном сценическом комплекте"
+        },
+        {
+          "path": "intro.0",
+          "before": "software-инструментами",
+          "after": "программными инструментами"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "современные stage keyboards поддерживают расширенную controller-логику",
+          "after": "современные сценические клавишные поддерживают расширенные возможности управления"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "конкретным live setup",
+          "after": "конкретным сценическим комплектом"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "каждый program change и split",
+          "after": "каждое переключение программы и каждое деление клавиатуры"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Такой rig",
+          "after": "Такой комплект"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "обычное piano",
+          "after": "обычное пианино"
+        }
+      ],
+      "preserved": "RD-2000 EX, MIDI, внешние модули, программирование до концерта"
+    },
+    {
+      "index": 38,
+      "slug": "klavishnye-s-pedalyami-po-rayderu",
+      "decision": "enrich",
+      "reason": "Педальные функции и назначение органов управления названы по-русски. Экспрессия не сужена до громкости, полупедаль не смешана с тройным блоком.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Keyboard pedals by rider: sustain, expression, triple pedal and compatibility with stage keyboards.",
+          "after": "Педали клавишных по райдеру: сустейн, экспрессия, тройной педальный блок и совместимость со сценическими клавишными."
+        },
+        {
+          "path": "kicker",
+          "before": "PEDALS · RIDER · COMPATIBILITY",
+          "after": "ПЕДАЛИ · РАЙДЕР · СОВМЕСТИМОСТЬ"
+        },
+        {
+          "path": "intro.0",
+          "before": "от half-damper, expression или тройного блока",
+          "after": "от полупедали, педали экспрессии или тройного блока"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Sustain, expression и triple-pedal logic требуют разной совместимости с конкретным stage keyboard.",
+          "after": "Совместимость педалей сустейна, экспрессии и тройного педального блока проверяют отдельно для конкретных сценических клавишных."
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "mapping",
+          "after": "назначения функций"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "неполным backline",
+          "after": "неполным бэклайном"
+        }
+      ],
+      "preserved": "Названия источников/моделей, раздельная совместимость функций и репетиция программы"
+    },
+    {
+      "index": 39,
+      "slug": "nord-piano-5-v-arendu",
+      "decision": "keep",
+      "reason": "Piano и Sample Synth обозначают звуковые секции Nord; Nord Triple Pedal — название комплектующего, USB/MIDI — интерфейсы. Весь окружающий текст естественно русский.",
+      "public_context_read": true,
+      "changes": [],
+      "preserved": "Все публичные поля; 73/88, два слоя каждой секции, границы относительно Nord Stage и отдельное планирование аудио"
+    },
+    {
+      "index": 40,
+      "slug": "nord-stage-3-88-v-arendu",
+      "decision": "enrich",
+      "reason": "Внутренняя рубрика Rider Core заменена прямым указанием на райдер, sustain назван педалью сустейна. Названия звуковых секций и Triple Pedal сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "kicker",
+          "before": "RIDER CORE",
+          "after": "ПО РАЙДЕРУ"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "sustain или Triple Pedal",
+          "after": "педаль сустейна или Triple Pedal"
+        }
+      ],
+      "preserved": "Nord Stage 3 88, Stage 4, Piano/Organ/Synth, Triple Pedal, MIDI и DI; точная модель, программа и согласование замены"
+    },
+    {
+      "index": 41,
+      "slug": "nord-stage-4-v-arendu",
+      "decision": "keep",
+      "reason": "Nord Stage 4, Compact, USB и MIDI употреблены как точные названия/интерфейсы внутри русского текста; языкового дефекта нет.",
+      "public_context_read": true,
+      "changes": [],
+      "preserved": "Все публичные поля, версии клавиатуры, подготовка программы и раздельные пути MIDI/аудио"
+    },
+    {
+      "index": 42,
+      "slug": "scenicheskie-klavishnye-dlya-dvuh-zon",
+      "decision": "enrich",
+      "reason": "Split переведён как разделение клавиатуры на зоны, keyboard — как клавишный инструмент; бас и фортепиано остаются разными функциями рук.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Stage keyboard для split",
+          "after": "Сценические клавишные с разделением клавиатуры"
+        },
+        {
+          "path": "kicker",
+          "before": "SPLIT",
+          "after": "РАЗДЕЛЕНИЕ КЛАВИАТУРЫ"
+        },
+        {
+          "path": "intro.0",
+          "before": "Split нужен",
+          "after": "Разделение клавиатуры нужно"
+        },
+        {
+          "path": "intro.0",
+          "before": "piano справа",
+          "after": "фортепиано справа"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "переход через split",
+          "after": "переход через границу зон"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "один keyboard",
+          "after": "один клавишный инструмент"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Если split",
+          "after": "Если разделение клавиатуры на зоны"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "slug": "scenicheskie-klavishnye-dlya-gastrolnoy-zameny",
+      "decision": "enrich",
+      "reason": "Текст о гастрольной замене переведён с сохранением различий взвешенной/невзвешенной механики, зон, слоёв и переключения программ.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "splits/layers",
+          "after": "зоны/слои"
+        },
+        {
+          "path": "intro.0",
+          "before": "основной stage keyboard",
+          "after": "основной сценический клавишный инструмент"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "weighted/unweighted action, splits, layers",
+          "after": "взвешенная/невзвешенная механика, разделение клавиатуры на зоны, слои"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Soundcheck",
+          "after": "Саундчек"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "split, sustain, program change",
+          "after": "разделение клавиатуры, сустейн, переключение программ"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "piano-патчи",
+          "after": "фортепианные тембры"
+        }
+      ],
+      "preserved": "Сет-лист, педали, выходы, проверка сложных переходов; источник не превращён в обещание совместимости"
+    },
+    {
+      "index": 44,
+      "slug": "scenicheskie-klavishnye-dlya-pianista",
+      "decision": "enrich",
+      "reason": "Weighted action, line out и touring keyboard переведены без добавления молоточковой механики или нового требования к модели.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "weighted action, педаль, line out",
+          "after": "взвешенная механика, педаль, линейный выход"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "Weighted action",
+          "after": "Взвешенная механика"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "а затем стабильно выйти в line out",
+          "after": "а его линейный выход — давать стабильный сигнал"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "своим touring keyboard",
+          "after": "своими гастрольными клавишными"
+        }
+      ],
+      "preserved": "88 клавиш, Yamaha CK88, Nord Piano 5, тихий/быстрый фрагменты и доступ на гастрольный период"
+    },
+    {
+      "index": 45,
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "decision": "enrich",
+      "reason": "Piano/pad переведены как фортепиано и фоновая подкладка; layer/split — как наложение слоёв и разделение клавиатуры. Нужный баланс остаётся исполнительским действием.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "для слоя piano и pad",
+          "after": "для сочетания фортепиано и подкладки"
+        },
+        {
+          "path": "editorial_title",
+          "before": "Piano + pad",
+          "after": "Фортепиано + подкладка"
+        },
+        {
+          "path": "description",
+          "before": "Клавишные для layer piano/pad: баланс слоёв, split/layer, контроллеры и быстрый сценический доступ.",
+          "after": "Клавишные для фортепиано с фоновой подкладкой: баланс слоёв, разделение клавиатуры и наложение тембров, контроллеры и быстрый доступ на сцене."
+        },
+        {
+          "path": "kicker",
+          "before": "PIANO + PAD · LAYER",
+          "after": "ФОРТЕПИАНО + ПОДКЛАДКА · СЛОИ"
+        },
+        {
+          "path": "intro.0",
+          "before": "Слой piano и pad нужен",
+          "after": "Сочетание фортепиано и подкладки нужно"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "современные stage/workstation-инструменты позволяют строить layered performance",
+          "after": "современные сценические клавишные и рабочие станции позволяют исполнять партии с несколькими слоями тембров"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "усилить pad",
+          "after": "усилить подкладку"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "layer ещё не стал исполнительской функцией",
+          "after": "сочетание слоёв ещё не стало исполнительской функцией"
+        },
+        {
+          "path": "quote",
+          "before": "Pad должен постоянно лежать под piano",
+          "after": "Подкладка должна постоянно звучать под фортепиано"
+        }
+      ],
+      "preserved": "Nord Piano 5, Yamaha MONTAGE M8x, Roland FANTOM 8 EX; независимое управление слоями внутри программы"
+    },
+    {
+      "index": 46,
+      "slug": "scenicheskie-klavishnye-dlya-treh-sloev",
+      "decision": "enrich",
+      "reason": "Английские названия звуковых ролей и исполнительской конфигурации переведены; каждый из трёх слоёв сохраняет свою функцию.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Stage keyboard для многослойного звука: piano, pad, strings, баланс и управление слоёв.",
+          "after": "Сценические клавишные для многослойного звука: фортепиано, подкладка, струнные, баланс и управление слоями."
+        },
+        {
+          "path": "kicker",
+          "before": "3 LAYERS · БАЛАНС · PERFORMANCE",
+          "after": "3 СЛОЯ · БАЛАНС · ИСПОЛНЕНИЕ"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "piano задаёт атаку, pad продолжает звук, strings усиливают кульминацию",
+          "after": "фортепиано задаёт атаку, подкладка продолжает звук, струнные усиливают кульминацию"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "сложная performance-конфигурация",
+          "after": "сложная конфигурация для исполнения"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "slug": "scenicheskie-klavishnye-po-rayderu",
+      "decision": "enrich",
+      "reason": "Рабочие слова райдера переведены, substitute назван заменой без обещания эквивалентности.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "action, splits, pedals, outputs и согласование substitute",
+          "after": "механика, зоны, педали, выходы и согласование замены"
+        },
+        {
+          "path": "kicker",
+          "before": "RIDER · STAGE KEYS · SUBSTITUTE",
+          "after": "РАЙДЕР · СЦЕНИЧЕСКИЕ КЛАВИШНЫЕ · ЗАМЕНА"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Substitute",
+          "after": "Замену"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "splits, layers",
+          "after": "деления клавиатуры, слои"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "backline",
+          "after": "бэклайн"
+        }
+      ],
+      "preserved": "Nord Stage, CP88, RD-2000 EX, Kronos и 88/73/61; обязательные функции проверяются на сет-листе"
+    },
+    {
+      "index": 48,
+      "slug": "stage-piano-po-rayderu",
+      "decision": "enrich",
+      "reason": "Родовой stage piano переведён в обеих формах заголовка и тексте; механика, педальная функция, выходы и согласование замены сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "Stage piano",
+          "after": "Сценическое пианино"
+        },
+        {
+          "path": "editorial_title",
+          "before": "Stage piano",
+          "after": "Сценическое пианино"
+        },
+        {
+          "path": "description",
+          "before": "Stage piano rental by rider: weighted action, 88 keys, pedals, line outputs and substitute approval.",
+          "after": "Сценическое пианино в аренду по райдеру: взвешенная механика, 88 клавиш, педали, линейные выходы и согласование замены."
+        },
+        {
+          "path": "kicker",
+          "before": "STAGE PIANO · RIDER · 88 KEYS",
+          "after": "СЦЕНИЧЕСКОЕ ПИАНИНО · РАЙДЕР · 88 КЛАВИШ"
+        },
+        {
+          "path": "intro.0",
+          "before": "конкретное stage piano",
+          "after": "конкретное сценическое пианино"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "профессиональные stage pianos",
+          "after": "профессиональные сценические пианино"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "piano preset",
+          "after": "готовый фортепианный тембр"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "у backline-провайдера",
+          "after": "у поставщика бэклайна"
+        },
+        {
+          "path": "quote",
+          "before": "в stage piano",
+          "after": "в сценическом пианино"
+        },
+        {
+          "path": "quote",
+          "before": "action",
+          "after": "механику"
+        },
+        {
+          "path": "quote",
+          "before": "сценический workflow",
+          "after": "порядок работы на сцене"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Stage piano и концертные рабочие слова переведены; полноценная сценическая проба до покупки остаётся исходной самостоятельной задачей.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "Stage piano",
+          "after": "Сценическое пианино"
+        },
+        {
+          "path": "editorial_title",
+          "before": "stage piano",
+          "after": "сценического пианино"
+        },
+        {
+          "path": "description",
+          "before": "Stage piano before purchase: weighted action, pedals, outputs, patch changes and real gig test.",
+          "after": "Сценическое пианино перед покупкой: взвешенная механика, педали, выходы, переключение программ и проба на настоящем концерте."
+        },
+        {
+          "path": "kicker",
+          "before": "STAGE PIANO · LIVE TEST",
+          "after": "СЦЕНИЧЕСКОЕ ПИАНИНО · ПРОБА НА КОНЦЕРТЕ"
+        },
+        {
+          "path": "intro.0",
+          "before": "Stage piano",
+          "after": "Сценическое пианино"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "концертный rig",
+          "after": "концертный комплект"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "stereo/mono output",
+          "after": "вывод сигнала в стерео или моно"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "Аренда создаёт live-критерий до покупки",
+          "after": "Аренда позволяет оценить инструмент на сцене до покупки"
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "slug": "yamaha-cp88-v-arendu",
+      "decision": "enrich",
+      "reason": "Внутренняя рубрика Rider Core заменена прямым указанием на райдер; родовой stage piano, зоны/слои и педаль названы по-русски.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "kicker",
+          "before": "RIDER CORE · STAGE PIANO",
+          "after": "ПО РАЙДЕРУ · СЦЕНИЧЕСКОЕ ПИАНИНО"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "splits, layers",
+          "after": "зоны, слои"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "sustain",
+          "after": "педаль сустейна"
+        }
+      ],
+      "preserved": "Yamaha CP88/CP73, 88, MIDI и DI; фортепианная роль, механика, готовая программа и полный комплект"
+    },
+    {
+      "index": 51,
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "decision": "enrich",
+      "reason": "Workstation и родовые слова бэклайна переведены. Внутренний Legendary Rider Core заменён существующим предметным объяснением: готовые программы поддерживают потребность в прежней модели.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "88-key flagship workstation и устойчивый гастрольный backline standard прошлой эпохи",
+          "after": "88-клавишная флагманская рабочая станция и устойчивый гастрольный стандарт бэклайна прошлой эпохи"
+        },
+        {
+          "path": "kicker",
+          "before": "LEGENDARY RIDER",
+          "after": "ГАСТРОЛЬНАЯ РАБОЧАЯ СТАНЦИЯ"
+        },
+        {
+          "path": "intro.0",
+          "before": "88-клавишную flagship workstation",
+          "after": "88-клавишную флагманскую рабочую станцию"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "Старый workstation",
+          "after": "Старая рабочая станция"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "split-архитектуры",
+          "after": "разделения клавиатуры на зоны"
+        },
+        {
+          "path": "blocks.2.label",
+          "before": "RIDER LEGACY",
+          "after": "ПРЕЖНИЕ МОДЕЛИ В РАЙДЕРЕ"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "в backline inventory",
+          "after": "в парках бэклайна"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "flagship workstation keyboard",
+          "after": "флагманскую клавишную рабочую станцию"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Именно такие модели должны жить в Legendary Rider Core даже после окончания активной розничной жизни.",
+          "after": "Готовые концертные программы сохраняют потребность в таких моделях и после окончания активных розничных продаж."
+        },
+        {
+          "path": "quote",
+          "before": "конкретной Motif XF программой",
+          "after": "конкретной программой Motif XF"
+        },
+        {
+          "path": "quote",
+          "before": "современная workstation после проверки сетапа",
+          "after": "современная рабочая станция после проверки конфигурации"
+        }
+      ],
+      "preserved": "Motif XF8/XF7, Warden Rock, 88 клавиш, совместимость с подготовленной программой и проверка замены"
+    },
+    {
+      "index": 52,
+      "slug": "roland-gokeys3-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание и две обычные рубрики переведены. Творческий вход в обучение, самостоятельная проба и дальнейший выбор инструмента полностью сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Roland GO:KEYS 3: 61-key music creation keyboard for beginners with interactive creative workflow and built-in sounds.",
+          "after": "Roland GO:KEYS 3: 61-клавишный инструмент для начинающих со встроенными тембрами и интерактивными возможностями создания музыки."
+        },
+        {
+          "path": "kicker",
+          "before": "CREATE · BEGINNER",
+          "after": "СОЗДАНИЕ МУЗЫКИ · ДЛЯ НАЧИНАЮЩИХ"
+        }
+      ],
+      "preserved": "GO:KEYS 3, 61 клавиша и педагогическая логика всего тела"
+    },
+    {
+      "index": 53,
+      "slug": "gibridnyy-instrument-dlya-kontserta",
+      "decision": "enrich",
+      "reason": "После прежнего предметного исправления тело уже русское; переводятся только описание и рубрика о сцене, датчиках и мониторинге.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "для live: triggers, module, monitoring",
+          "after": "для концерта: датчики, модуль, мониторинг"
+        },
+        {
+          "path": "kicker",
+          "before": "LIVE · HYBRID · TRIGGER",
+          "after": "КОНЦЕРТ · ГИБРИД · ДАТЧИК"
+        }
+      ],
+      "preserved": "Весь текущий блок о ложных/пропущенных срабатываниях, полный сет и сценический мониторинг"
+    },
+    {
+      "index": 54,
+      "slug": "gibridnyy-instrument-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Английские названия частей гибрида переведены; trigger в данном контексте означает датчик, а не новый тип звукового сигнала.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "acoustic source, trigger/sensor, electronic layer",
+          "after": "акустический источник, триггер/датчик, электронный слой"
+        },
+        {
+          "path": "kicker",
+          "before": "HYBRID",
+          "after": "ГИБРИД"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "через trigger и модуль",
+          "after": "через датчик и модуль"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "количество triggers",
+          "after": "количество датчиков"
+        }
+      ],
+      "preserved": "Roland TM-2; сравнение одного удара с электронным слоем и без него"
+    },
+    {
+      "index": 55,
+      "slug": "gibridnyy-instrument-dlya-zapisi",
+      "decision": "enrich",
+      "reason": "Английские слова о датчике, микрофоне и модуле переведены. Trigger-событие сохранено как срабатывание датчика, отдельно от микрофонного звука.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "trigger, acoustic mic, module",
+          "after": "датчик, микрофон для акустического источника, модуль"
+        },
+        {
+          "path": "kicker",
+          "before": "HYBRID",
+          "after": "ГИБРИД"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Trigger-событие",
+          "after": "Срабатывание датчика"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "triggers",
+          "after": "датчики"
+        }
+      ],
+      "preserved": "Два независимых сигнальных пути и раздельное последующее редактирование слоёв"
+    },
+    {
+      "index": 56,
+      "slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "decision": "enrich",
+      "reason": "Жанр и инструменты названы по-русски; upright здесь контрабас. В изменяемом H1 заодно исправлена явная опечатка «быстую».",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "для bluegrass ансамбля",
+          "after": "для ансамбля блюграсса"
+        },
+        {
+          "path": "editorial_title",
+          "before": "Bluegrass: banjo, mandolin и акустические струны должны делить одну быстую атаку",
+          "after": "Блюграсс: банджо, мандолина и акустические струны должны делить одну быструю атаку"
+        },
+        {
+          "path": "description",
+          "before": "Инструменты для bluegrass: banjo, mandolin, acoustic guitar, upright bass and ensemble setup.",
+          "after": "Инструменты для блюграсса: банджо, мандолина, акустическая гитара, контрабас и комплект для ансамбля."
+        },
+        {
+          "path": "kicker",
+          "before": "BLUEGRASS · BANJO · MANDOLIN",
+          "after": "БЛЮГРАСС · БАНДЖО · МАНДОЛИНА"
+        },
+        {
+          "path": "intro.0",
+          "before": "В bluegrass",
+          "after": "В блюграссе"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Banjo и mandolin",
+          "after": "Банджо и мандолина"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "groove",
+          "after": "грув"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "редкий banjo/mandolin/upright",
+          "after": "редкий инструмент — банджо, мандолину или контрабас —"
+        },
+        {
+          "path": "quote",
+          "before": "banjo, mandolin и upright",
+          "after": "банджо, мандолины и контрабаса"
+        }
+      ],
+      "preserved": "Ритмические функции, общий быстрый грув без усиления и опорная роль контрабаса"
+    },
+    {
+      "index": 57,
+      "slug": "eastman-md305-v-arendu",
+      "decision": "enrich",
+      "reason": "Action у мандолины означает высоту струн; bridge — подставку. Описание из solid wood передано как массив древесины, а не масса/габарит инструмента. Обозначения формы A-style/F-style сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Eastman MD305: A-style solid spruce/maple mandolin with adjustable ebony bridge and specified action.",
+          "after": "Eastman MD305: мандолина A-style из массива ели/клёна с регулируемой подставкой из эбенового дерева и указанной высотой струн."
+        },
+        {
+          "path": "kicker",
+          "before": "SOLID WOOD",
+          "after": "МАССИВ ДРЕВЕСИНЫ"
+        },
+        {
+          "path": "intro.0",
+          "before": "обязательная beginner-модель",
+          "after": "обязательная модель для начинающих"
+        },
+        {
+          "path": "intro.0",
+          "before": "массивная ель/клён",
+          "after": "массив ели/клёна"
+        },
+        {
+          "path": "intro.0",
+          "before": "параметры action",
+          "after": "параметры высоты струн"
+        },
+        {
+          "path": "blocks.0.label",
+          "before": "ACTION",
+          "after": "ВЫСОТА СТРУН"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "action 0.060/0.050",
+          "after": "высоту струн 0.060/0.050"
+        },
+        {
+          "path": "blocks.1.label",
+          "before": "BRIDGE",
+          "after": "ПОДСТАВКА"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Регулируемый compensated bridge",
+          "after": "Регулируемая компенсированная подставка"
+        },
+        {
+          "path": "quote",
+          "before": "Ученику нужен уже массивный акустический инструмент",
+          "after": "Ученику уже нужен акустический инструмент из массива"
+        }
+      ],
+      "preserved": "Eastman MD305, A-style/F-style, 0.060/0.050 дюйма, фабричный параметр не как универсальная норма, проверка мастером/учеником"
+    },
+    {
+      "index": 58,
+      "slug": "gibson-f5-master-model-v-arendu",
+      "decision": "enrich",
+      "reason": "Родовые английские описания конструкции и переиздания переведены, внутренний ярлык заменён предметным смыслом. Дословная атрибутированная цитата в H1 и собственные названия сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Gibson F-5 Master Model lineage: Lloyd Loar design, f-holes and bluegrass-defining construction; vintage original vs 1923 reissue distinguished.",
+          "after": "Gibson F-5 Master Model: конструкция Lloyd Loar, эфы и устройство, определившее звучание блюграсса; винтажный оригинал отличают от переиздания 1923 Reissue."
+        },
+        {
+          "path": "kicker",
+          "before": "LEGENDARY CORE · F-5 · MANDOLIN",
+          "after": "МАНДОЛИНА · F-5"
+        },
+        {
+          "path": "intro.0",
+          "before": "bluegrass sound",
+          "after": "звучания блюграсса"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "F-holes",
+          "after": "Эфы"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "bridge",
+          "after": "подставки"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "bracing-система",
+          "after": "система пружин деки"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "современного bluegrass-инструмента",
+          "after": "современного инструмента для блюграсса"
+        },
+        {
+          "path": "blocks.1.label",
+          "before": "ORIGINAL / REISSUE",
+          "after": "ОРИГИНАЛ / ПЕРЕИЗДАНИЕ"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Loar-signed F‑5",
+          "after": "F‑5 с подписью Loar"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "Custom Shop reissue",
+          "after": "переиздание Custom Shop"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "исторический экземпляр, reissue",
+          "after": "исторический экземпляр, переиздание"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "Legendary Core не означает обещание постоянного наличия",
+          "after": "Историческая значимость модели не означает обещания постоянного наличия"
+        },
+        {
+          "path": "quote",
+          "before": "F-style mandolin",
+          "after": "мандолина F-style"
+        }
+      ],
+      "preserved": "«Strad of Mandolins» как прямая цитата, Gibson F-5, Lloyd Loar, Custom Shop, 1923 Reissue, F-style, 3D; оригинал/переиздание и отсутствие обещания наличия"
+    },
+    {
+      "index": 59,
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "decision": "enrich",
+      "reason": "Фолк и родовые названия инструментов переведены без превращения широкого жанра в единую национальную традицию.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "search_title",
+          "before": "folk-группы",
+          "after": "фолк-группы"
+        },
+        {
+          "path": "editorial_title",
+          "before": "Folk-группа",
+          "after": "Фолк-группа"
+        },
+        {
+          "path": "description",
+          "before": "Инструменты для folk-группы: acoustic strings, reeds, percussion and flexible project setup.",
+          "after": "Инструменты для фолк-группы: акустические струнные, язычковые, перкуссия и гибкий комплект под проект."
+        },
+        {
+          "path": "kicker",
+          "before": "FOLK · ACOUSTIC · PROJECT",
+          "after": "ФОЛК · АКУСТИКА · ПРОЕКТ"
+        },
+        {
+          "path": "intro.0",
+          "before": "Слово folk",
+          "after": "Слово «фолк»"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Mandolin, fiddle, accordion, flute, banjo или percussion",
+          "after": "Мандолина, скрипка, аккордеон, флейта, банджо или перкуссия"
+        },
+        {
+          "path": "quote",
+          "before": "folk-состав",
+          "after": "фолк-состав"
+        }
+      ],
+      "preserved": "Реальные партии, конкретная традиция и сначала акустический баланс, затем DI/микрофон"
+    },
+    {
+      "index": 60,
+      "slug": "instrumenty-dlya-ansamblya-gitar-i-ukulele",
+      "decision": "enrich",
+      "reason": "Типоразмеры укулеле и музыкальные роли переведены; concert означает формат укулеле, bass-like support — басовую опору в аранжировке.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Ukulele soprano/concert/tenor/baritone и classical/acoustic guitar",
+          "after": "Укулеле сопрано, концерт, тенор и баритон, классическая и акустическая гитары"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "rhythm, melody и bass-like support",
+          "after": "ритм, мелодию и басовую опору"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Редкие baritone/tenor ukulele",
+          "after": "Редкие укулеле баритон и тенор"
+        }
+      ],
+      "preserved": "Различие диапазонов, распределение ролей и временный учебный состав; краткие карточки не выравнивались"
+    },
+    {
+      "index": 61,
+      "slug": "instrumenty-dlya-ansamblya-ukulele",
+      "decision": "enrich",
+      "reason": "Размеры укулеле и название ансамбля в рубрике переведены; роли регистров и возможность унисона остаются прежними.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "soprano, concert, tenor, baritone",
+          "after": "сопрано, концерт, тенор, баритон"
+        },
+        {
+          "path": "kicker",
+          "before": "UKULELE ENSEMBLE",
+          "after": "АНСАМБЛЬ УКУЛЕЛЕ"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "soprano-формат",
+          "after": "формат сопрано"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "редкие baritone/tenor варианты",
+          "after": "редкие варианты баритон/тенор"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "slug": "alt-posle-pereryva",
+      "decision": "enrich",
+      "reason": "Единственная лишняя вставка setup передана как конфигурация инструмента; буквенное обозначение C-струны является уместным музыкальным обозначением.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "размере и setup",
+          "after": "размере и конфигурации инструмента"
+        }
+      ],
+      "preserved": "Возвращение после паузы, первая позиция, C-струна и проверка выносливости"
+    },
+    {
+      "index": 63,
+      "slug": "hidersine-vivente-alt-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание учебного комплекта и обычные слова о подготовке/ступенях переведены. Vivente Viola остаётся названием модели; размеры и атрибуция не меняются.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Hidersine Vivente viola: 12–16 inch beginner outfit with solid spruce top, maple back/ribs and UK setup.",
+          "after": "Hidersine Vivente Viola: учебный комплект с альтом размером 12–16 дюймов, верхней декой из массива ели, нижней декой и обечайками из клёна, регулировкой в Великобритании."
+        },
+        {
+          "path": "kicker",
+          "before": "12–16 INCH · BEGINNER",
+          "after": "12–16 ДЮЙМОВ · ДЛЯ НАЧИНАЮЩИХ"
+        },
+        {
+          "path": "intro.0",
+          "before": "ambitious beginner",
+          "after": "начинающим с серьёзными планами"
+        },
+        {
+          "path": "blocks.1.label",
+          "before": "SETUP",
+          "after": "РЕГУЛИРОВКА"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "Vivente обещает ready-to-play workshop setup.",
+          "after": "Для Vivente заявлена подготовка в мастерской до состояния готовности к игре."
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "Beginner-series должна переживать первые grades без ранней замены",
+          "after": "Серия для начинающих должна сопровождать первые ступени обучения без ранней замены"
+        }
+      ],
+      "preserved": "12, 13, 14, 15, 15½ и 16 дюймов; совместная примерка, подставка/колки/струны/смычок и переход по музыкальной задаче"
+    },
+    {
+      "index": 64,
+      "slug": "elektricheskiy-kontrabas-dlya-gastroley",
+      "decision": "enrich",
+      "reason": "Electric upright в заголовке означает электрический контрабас; описание гастрольной задачи переведено. Pizzicato/arco сохранены как уместные приёмы игры.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "Гастрольный electric upright",
+          "after": "Гастрольный электрический контрабас"
+        },
+        {
+          "path": "description",
+          "before": "Electric upright bass for touring: scale length, transport, output, monitoring and quick adaptation.",
+          "after": "Электрический контрабас для гастролей: мензура, перевозка, выход, мониторинг и быстрая адаптация."
+        }
+      ],
+      "preserved": "DI, pizzicato/arco, Yamaha SLB300; вертикальная игра, критические свойства и проба через гастрольный тракт"
+    },
+    {
+      "index": 65,
+      "slug": "elektricheskiy-kontrabas-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Electric upright и смешанный список параметров переведены; опоры, мензура и прослушивание полного тракта остаются отдельными критериями.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "покупкой electric upright",
+          "after": "покупкой электрического контрабаса"
+        },
+        {
+          "path": "description",
+          "before": "mensura, supports, output, monitoring and transport",
+          "after": "мензура, опоры, выход, мониторинг и перевозка"
+        },
+        {
+          "path": "kicker",
+          "before": "ELECTRIC UPRIGHT",
+          "after": "ЭЛЕКТРИЧЕСКИЙ КОНТРАБАС"
+        }
+      ],
+      "preserved": "SLB300; прежняя цель мобильности, физическая техника и несколько репетиций до покупки"
+    },
+    {
+      "index": 66,
+      "slug": "elektricheskiy-kontrabas-posle-akusticheskogo",
+      "decision": "enrich",
+      "reason": "Описание перехода на электрический контрабас переведено; pizzicato/arco сохранены как понятные контрабасисту способы игры.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Переход на electric upright bass: mensura, supports, pizzicato/arco, output and monitoring.",
+          "after": "Переход на электрический контрабас: мензура, опоры, pizzicato/arco, выход и мониторинг."
+        }
+      ],
+      "preserved": "Полное тело, SLB300 и различение движения/сигнала"
+    },
+    {
+      "index": 67,
+      "slug": "elektroskripka-dlya-stsenicheskih-effektov",
+      "decision": "enrich",
+      "reason": "Pedalboard здесь означает педали эффектов, sustain — продолжительность звучания ноты. Названия обычных эффектов переведены без изменения их музыкальной роли.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Электроскрипка для pedalboard: passive output, effects, feedback control and stage monitoring.",
+          "after": "Электроскрипка для работы с педалями эффектов: пассивный выход, эффекты, контроль обратной связи и сценический мониторинг."
+        },
+        {
+          "path": "kicker",
+          "before": "PEDALBOARD",
+          "after": "ПЕДАЛИ ЭФФЕКТОВ"
+        },
+        {
+          "path": "intro.0",
+          "before": "sustain",
+          "after": "продолжительность звучания ноты"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "Delay, drive, modulation и reverb",
+          "after": "Задержка, перегруз, модуляция и реверберация"
+        }
+      ],
+      "preserved": "YEV104, SV-модели, чистый сигнал до обработки и постепенная проба на реальной партии"
+    },
+    {
+      "index": 68,
+      "slug": "elektroskripka-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Смешанные обозначения сигнального тракта и назначения системы переведены; тихая практика и сцена остаются разными задачами.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "passive/active path, outputs",
+          "after": "пассивный/активный тракт, выходы"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "silent practice или stage",
+          "after": "тихие занятия или сцена"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "домашняя silent-система",
+          "after": "домашняя система для тихих занятий"
+        }
+      ],
+      "preserved": "YSV104, YEV104, Yamaha, SRT Powered и DI; реальный усилитель/интерфейс, шум, сигнал и движение с кабелем"
+    },
+    {
+      "index": 69,
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "decision": "enrich",
+      "reason": "Описание уже раскрытых в русском теле звукоснимателя и выхода переведено; остальной текст не требует изменения.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "pickup, output",
+          "after": "звукосниматель, выход"
+        }
+      ],
+      "preserved": "Четыре струны, пассивная YEV104 и знакомая пьеса без эффектов"
+    },
+    {
+      "index": 70,
+      "slug": "elektroviolonchel-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Английская часть описания переведена; геометрия опор, наушники и сценический тракт сохраняют разные роли.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "support geometry, outputs, headphones, stage use and practice",
+          "after": "геометрия опор, выходы, наушники, сценическое использование и занятия"
+        }
+      ],
+      "preserved": "SVC50/SVC110; полное тело о постановке, домашней/сценической пробе и выборе конструкции"
+    },
+    {
+      "index": 71,
+      "slug": "elektroviolonchel-posle-akusticheskoy",
+      "decision": "enrich",
+      "reason": "Английская часть описания переведена; точки опоры и компактный корпус не смешиваются с электрическим сигналом.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "support points, output, monitoring, compact body and stage adaptation",
+          "after": "точки опоры, выход, мониторинг, компактный корпус и адаптация к сцене"
+        }
+      ],
+      "preserved": "SVC50/SVC110, мензура, посадка и знакомая пьеса без эффектов"
+    },
+    {
+      "index": 72,
+      "slug": "akusticheskiy-kontrabas-posle-elektricheskogo",
+      "decision": "enrich",
+      "reason": "Electric upright переведён как электрический контрабас, scale length — как мензура, sustain — как продолжительность звучания ноты. Музыкальные arco/pizzicato сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "от electric upright",
+          "after": "от электрического контрабаса"
+        },
+        {
+          "path": "description",
+          "before": "body resonance, mensura, arco, pizzicato and adaptation",
+          "after": "резонанс корпуса, мензура, arco, pizzicato и адаптация"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "электрический upright",
+          "after": "электрический контрабас"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "scale length",
+          "after": "мензуру"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "sustain",
+          "after": "продолжительность звучания ноты"
+        }
+      ],
+      "preserved": "SLB300, физический резонанс большого корпуса и временная оркестровая/джазовая программа"
+    },
+    {
+      "index": 73,
+      "slug": "codabow-prodigy-skripka-v-arendu",
+      "decision": "keep",
+      "reason": "Prodigy Violin — точное название скрипичного варианта смычка, отдельно объяснённое в тексте. Spiccato в карточке — уместный музыкальный термин; лишних английских вставок нет.",
+      "public_context_read": true,
+      "changes": [],
+      "preserved": "Все публичные поля, CodaBow, уменьшенный вариант, шкала производителя и сравнение на своей скрипке"
+    },
+    {
+      "index": 74,
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание и готовность к игре переведены; German Engineered сохранено как фирменное обозначение GEWA и не подменено утверждением о стране изготовления.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "GEWA Allegro violin: German Engineered serial violin line in sizes 1/16–4/4, including left-hand variant.",
+          "after": "GEWA Allegro: серийная скрипичная линия German Engineered в размерах 1/16–4/4, включая леворукую версию."
+        },
+        {
+          "path": "kicker",
+          "before": "VIOLIN",
+          "after": "СКРИПКА"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "отдельный ready-to-play признак",
+          "after": "отдельная отметка готовности к игре"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "Строй по ладам",
+          "after": "Строй по грифу"
+        }
+      ],
+      "preserved": "1/16–4/4, леворукая 4/4, размер/программа и проверка конкретного экземпляра; исходные сравнения серий не переосмысливаются",
+      "semantic_correction": {
+        "status": "agreed_by_root",
+        "reason": "У обычной скрипки ошибочное упоминание ладов в проверке строя заменено грифом; новых свойств не добавлено.",
+        "fields": [
+          "blocks[1].paragraphs[0]"
+        ]
+      }
+    },
+    {
+      "index": 75,
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "decision": "enrich",
+      "reason": "Advanced и higher-tier переданы как продвинутый этап и более высокая ступень; новая лестница качества не добавлялась, польза по текущей программе сохранена.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "серийный advanced-шаг, который тоже существует в дробных размерах",
+          "after": "серийная скрипка для продвинутого этапа, которая тоже существует в дробных размерах"
+        },
+        {
+          "path": "description",
+          "before": "GEWA Maestro 1 violin: serial advanced line in 1/4, 1/2, 3/4 and 4/4 within GEWA German Engineered range.",
+          "after": "GEWA Maestro 1: серийная линия для продвинутых учеников в размерах 1/4, 1/2, 3/4 и 4/4 в линейке GEWA German Engineered."
+        },
+        {
+          "path": "kicker",
+          "before": "ADVANCED · FRACTIONAL",
+          "after": "ПРОДВИНУТЫЙ ЭТАП · ДРОБНЫЕ РАЗМЕРЫ"
+        },
+        {
+          "path": "blocks.0.label",
+          "before": "ADVANCED",
+          "after": "ПРОДВИНУТЫЙ ЭТАП"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "higher-tier серия",
+          "after": "серия более высокого уровня"
+        },
+        {
+          "path": "quote",
+          "before": "advanced-инструмент",
+          "after": "инструмент для продвинутого этапа"
+        }
+      ],
+      "preserved": "GEWA German Engineered, Allegro/Ideale/Maestro и названия других линий; 1/4, 1/2, 3/4, 4/4 и проверка реального отклика"
+    },
+    {
+      "index": 76,
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "decision": "enrich",
+      "reason": "Переведены английское описание и рубрика мастерового инструмента; дробные размеры и атрибутированная аудитория остаются прежними.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Goronok Alexey Romanov: master-made violin line in fractional and full sizes for gifted performing children, school graduates and college students.",
+          "after": "Goronok Алексей Романов: мастеровые скрипки в дробных и полных размерах для одарённых концертирующих детей, выпускников музыкальных школ и студентов колледжей."
+        },
+        {
+          "path": "kicker",
+          "before": "MASTER-MADE",
+          "after": "МАСТЕРОВОЙ"
+        },
+        {
+          "path": "kicker",
+          "before": "FRACTIONAL",
+          "after": "ДРОБНЫЕ РАЗМЕРЫ"
+        }
+      ],
+      "preserved": "Всё тело: выбор конкретного экземпляра, польза по текущей программе и отсутствие награды за возраст/статус"
+    },
+    {
+      "index": 77,
+      "slug": "goronok-etyud-v-arendu",
+      "decision": "enrich",
+      "reason": "First stage и manufacturer evidence переведены; сохранено различие между сведениями изготовителя и независимой рекомендацией школы.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "kicker",
+          "before": "FIRST STAGE",
+          "after": "ПЕРВЫЙ ЭТАП"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "manufacturer evidence",
+          "after": "сведения производителя"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "Строй по ладам",
+          "after": "Строй по грифу"
+        }
+      ],
+      "preserved": "Нова/Этюд/Каприс, 1/32 и 1/16, подбор по телу и проверка исправности до выдачи",
+      "semantic_correction": {
+        "status": "agreed_by_root",
+        "reason": "У обычной скрипки ошибочное упоминание ладов в проверке строя заменено грифом; новых свойств не добавлено.",
+        "fields": [
+          "blocks[2].paragraphs[0]"
+        ]
+      }
+    },
+    {
+      "index": 78,
+      "slug": "goronok-fantaziya-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание и рубрика переведены, с сохранением студенческой категории Goronok и продвинутого учебного этапа; динамические обозначения pianissimo/forte уместны.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Goronok Fantaziya: student-category violin for performing school students, applicants, college students and serious stage work.",
+          "after": "Goronok Фантазия: скрипка студенческой категории для концертирующих школьников, абитуриентов, студентов колледжей и серьёзной сценической работы."
+        },
+        {
+          "path": "kicker",
+          "before": "STUDENT ADVANCED",
+          "after": "ПРОДВИНУТЫЙ УЧЕБНЫЙ ЭТАП"
+        }
+      ],
+      "preserved": "Все размеры, текущая конкурсная программа, временный доступ и конкретная атрибуция свойств"
+    },
+    {
+      "index": 79,
+      "slug": "goronok-kapris-v-arendu",
+      "decision": "enrich",
+      "reason": "Английское описание, развитие и родовое student переведены; условие реального ограничения прежней скрипки перед сравнением Каприс не меняется.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Goronok Каприс: upper student violin in fractional sizes, aimed at school players with stronger development ambitions.",
+          "after": "Goronok Каприс: ученическая скрипка более высокой ступени в дробных размерах, адресованная школьникам с серьёзными планами музыкального развития."
+        },
+        {
+          "path": "kicker",
+          "before": "DEVELOPMENT",
+          "after": "РАЗВИТИЕ"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "student-категории",
+          "after": "ученической категории"
+        }
+      ],
+      "preserved": "Нова/Этюд/Каприс, 4/4, программа и физический размер как разные условия выбора"
+    },
+    {
+      "index": 80,
+      "slug": "hidersine-vivente-academy-skripka-v-arendu",
+      "decision": "enrich",
+      "reason": "Student, internally geared, ready-to-play и teacher-linked переведены; точные Wittner Finetune/ESTA и передаточное отношение 4:1 сохранены. Участие педагогов не превращено в универсальную рекомендацию.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "student-скрипка",
+          "after": "ученическая скрипка"
+        },
+        {
+          "path": "description",
+          "before": "Hidersine Vivente Academy violin: 1/8–4/4 student outfit with Wittner Finetune pegs and ESTA-linked ergonomic design.",
+          "after": "Hidersine Vivente Academy: учебный скрипичный комплект 1/8–4/4 с колками Wittner Finetune; Hidersine связывает эргономику с консультациями членов ESTA."
+        },
+        {
+          "path": "intro.0",
+          "before": "internally geared Wittner Finetune pegs, ready-to-play setup",
+          "after": "колки Wittner Finetune со встроенным редуктором, подготовка к игре"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "4:1 geared tuning уменьшает",
+          "after": "Редукторная настройка с передаточным отношением 4:1 уменьшает"
+        },
+        {
+          "path": "blocks.2.label",
+          "before": "TEACHER-LINKED",
+          "after": "КОНСУЛЬТАЦИИ ПЕДАГОГОВ"
+        }
+      ],
+      "preserved": "Wittner Finetune, ESTA / European String Teachers Association, 4:1, 1/8–4/4, собственный преподаватель и предметная проба"
+    },
+    {
+      "index": 81,
+      "slug": "hidersine-vivente-skripka-v-arendu",
+      "decision": "enrich",
+      "reason": "Английские описания подготовки и материалов переведены; массив древесины не описывается как масса инструмента. Вопрос раздельно сохраняет размер и готовность к уроку.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "beginner-скрипка",
+          "after": "скрипка для начинающих"
+        },
+        {
+          "path": "description",
+          "before": "Hidersine Vivente violin: 1/8–4/4 beginner outfit, solid spruce top, maple back/ribs and UK ready-to-play setup.",
+          "after": "Hidersine Vivente: скрипичный комплект для начинающих в размерах 1/8–4/4, верхняя дека из массива ели, нижняя дека и обечайки из клёна, подготовка к игре в Великобритании."
+        },
+        {
+          "path": "kicker",
+          "before": "VIOLIN",
+          "after": "СКРИПКА"
+        },
+        {
+          "path": "intro.0",
+          "before": "ambitious beginner",
+          "after": "начинающим с серьёзными планами"
+        },
+        {
+          "path": "intro.0",
+          "before": "workshop setup",
+          "after": "подготовку в мастерской"
+        },
+        {
+          "path": "blocks.1.label",
+          "before": "SETUP",
+          "after": "ПОДГОТОВКА"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "Ready-to-play",
+          "after": "Готовность к игре"
+        },
+        {
+          "path": "blocks.2.label",
+          "before": "TONEWOOD",
+          "after": "ДРЕВЕСИНА"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "Массивная ель и клён",
+          "after": "Ель из массива и клён"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "solid spruce top и maple back/ribs",
+          "after": "верхнюю деку из массива ели, нижнюю деку и обечайки из клёна"
+        },
+        {
+          "path": "quote",
+          "before": "Какой размер Vivente сейчас даёт свободную руку и готовый к уроку setup?",
+          "after": "Какой размер Vivente сейчас даёт свободную руку и готов ли этот инструмент к уроку?"
+        }
+      ],
+      "preserved": "Hidersine Vivente, 1/8–4/4, британская мастерская, подбор у педагога/специалиста и проверка конкретного экземпляра"
+    },
+    {
+      "index": 82,
+      "slug": "knilling-bucharest-skripka-v-arendu",
+      "decision": "keep",
+      "reason": "Bucharest Violin — название модели, остальные латинские вкрапления — Knilling, Dominant, Despiau, Wittner. Все публичные предложения уже естественно русские.",
+      "public_context_read": true,
+      "changes": [],
+      "preserved": "Весь актуальный текст, обновление комплектации в 2025 году, различение нового каталога/старого экземпляра и примерка"
+    },
+    {
+      "index": 83,
+      "slug": "skripka-dlya-letney-praktiki",
+      "decision": "enrich",
+      "reason": "Setup в условии временного летнего комплекта обозначает конфигурацию инструмента, включая уже названные опоры, а не только строй.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.0.title",
+          "before": "текущий размер и setup",
+          "after": "текущий размер и конфигурацию инструмента"
+        }
+      ],
+      "preserved": "Проверка до отъезда, текущая программа, смычок, подбородник и плечевой упор"
+    },
+    {
+      "index": 84,
+      "slug": "skripka-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Единственная ненужная вставка setup в описании передана как регулировка; реальная игра несколько дней и свой критерий сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "setup",
+          "after": "регулировка"
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "slug": "skripka-posle-pereryva",
+      "decision": "enrich",
+      "reason": "Setup в отрицательном контексте раскрывается как плохая подготовка инструмента, уже перечисленная через подставку, струны и смычок.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "с борьбой против setup",
+          "after": "с борьбой с плохой подготовкой инструмента"
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "slug": "karbonovyy-smychok-dlya-pervogo-opyta",
+      "decision": "enrich",
+      "reason": "Родовое перечисление violin/viola/cello переведено; точные названия CodaBow в источниках и musical legato/spiccato сохранены.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "в отдельных violin/viola/cello версиях",
+          "after": "в отдельных версиях для скрипки, альта и виолончели"
+        }
+      ],
+      "preserved": "CodaBow Prodigy Violin/Viola/Cello, сравнение на одном инструменте, legato, spiccato и тихая атака"
+    },
+    {
+      "index": 87,
+      "slug": "instrumenty-dlya-saundtreka-kamernogo-sostava",
+      "decision": "enrich",
+      "reason": "Английские названия инструментов и студийной работы переведены. Cues в саундтреке означает музыкальные эпизоды, а не технические сигналы выхода на сцену.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "strings, winds, harp, unusual voices and studio session",
+          "after": "струнные, духовые, арфа, необычные голоса и студийная сессия"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "Один cello, bass clarinet, harp или rare instrument может быть важнее большой секции, если он несёт ключевой жест сцены.",
+          "after": "Одна виолончель, бас-кларнет, арфа или редкий инструмент может быть важнее большой секции, если несёт ключевой жест сцены."
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "scoring-сессии",
+          "after": "сессии записи саундтрека"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "только на нужные cues",
+          "after": "только для нужных музыкальных эпизодов"
+        }
+      ],
+      "preserved": "Черновой микс с диалогом, один день/неделя и выбор реальных смысловых голосов"
+    },
+    {
+      "index": 88,
+      "slug": "smychkovye-eastman",
+      "decision": "enrich",
+      "reason": "Rental-oriented, string programs и смешанная атрибуция изготовителю переведены; Model 100 и номера четырёх моделей сохранены. Прямая английская формулировка передана атрибутированным русским пересказом.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "editorial_title",
+          "before": "rental-oriented контрабас VB80",
+          "after": "контрабас VB80 для учебного фонда"
+        },
+        {
+          "path": "description",
+          "before": "Samuel Eastman educational bowed strings: VL100 violin, VA100 viola, VC100 cello and VB80 school/rental double bass.",
+          "after": "Учебные смычковые Samuel Eastman: скрипка VL100, альт VA100, виолончель VC100 и контрабас VB80 для школы и аренды."
+        },
+        {
+          "path": "kicker",
+          "before": "STRING PROGRAMS · SCHOOL / RENTAL",
+          "after": "УЧЕБНЫЕ ПРОГРАММЫ · ШКОЛА / АРЕНДА"
+        },
+        {
+          "path": "intro.0",
+          "before": "<p>Samuel Eastman — редкий случай, где сам производитель говорит не просто «student», а прямо связывает модели с string programs. VL100, VA100 и VC100 описываются как staple of string programs everywhere для начинающих и продолжающих; VB80 отдельно создан для schools, rentals and beginning players.</p>",
+          "after": "<p>Samuel Eastman — редкий случай, где сам производитель говорит не просто об ученических инструментах, а прямо связывает модели с учебными программами для смычковых. VL100, VA100 и VC100 он описывает как повсеместно используемую основу таких программ для начинающих и продолжающих; VB80 отдельно создан для школ, аренды и начинающих.</p>"
+        },
+        {
+          "path": "blocks.2.label",
+          "before": "SETUP",
+          "after": "ПОДГОТОВКА"
+        },
+        {
+          "path": "quote",
+          "before": "готовый setup",
+          "after": "подготовленный комплект"
+        }
+      ],
+      "preserved": "Model 100, VL100/VA100/VC100/VB80, различие инструментов и конструкций, школьная задача/долговечность и проверка перед выдачей"
+    },
+    {
+      "index": 89,
+      "slug": "smychkovye-hidersine",
+      "decision": "enrich",
+      "reason": "Описание учебных комплектов и педагогического участия переведено; geared pegs — редукторные колки, а teacher-linked evidence — свидетельство участия педагогов, без универсального одобрения школы.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Hidersine Vivente and Vivente Academy: educational bowed-string outfits, UK setup and ESTA-linked teaching support.",
+          "after": "Hidersine Vivente и Vivente Academy: учебные комплекты смычковых, подготовка в Великобритании и педагогическая поддержка при участии ESTA."
+        },
+        {
+          "path": "kicker",
+          "before": "EDUCATION · READY TO PLAY",
+          "after": "ОБУЧЕНИЕ · ГОТОВНОСТЬ К ИГРЕ"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "geared pegs с более быстрым и точным строем",
+          "after": "редукторные колки с более быстрой и точной настройкой"
+        },
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "сильное teacher-linked evidence",
+          "after": "весомое свидетельство участия педагогов"
+        }
+      ],
+      "preserved": "Hidersine, Vivente, Vivente Academy, Finetune, ESTA UK и European String Teachers Association; размер/комплект и педагогический контекст без национального стандарта"
+    },
+    {
+      "index": 90,
+      "slug": "hidersine-vivente-violonchel-v-arendu",
+      "decision": "enrich",
+      "reason": "Outfit и ready-to-play setup переведены как комплект и подготовка к игре; ebony fingerboard сохранён именно как накладка грифа, а не материал всего грифа.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "Hidersine Vivente cello: beginner outfit 1/8–4/4 with solid spruce top, ebony fingerboard, bow and ready-to-play setup.",
+          "after": "Hidersine Vivente Cello: комплект для начинающих в размерах 1/8–4/4, верхняя дека из массива ели, накладка грифа из эбенового дерева, смычок и подготовка к игре."
+        },
+        {
+          "path": "kicker",
+          "before": "OUTFIT",
+          "after": "КОМПЛЕКТ"
+        },
+        {
+          "path": "intro.0",
+          "before": "как outfit",
+          "after": "как комплект"
+        },
+        {
+          "path": "intro.0",
+          "before": "с случайным смычком",
+          "after": "со случайным смычком"
+        },
+        {
+          "path": "blocks.1.label",
+          "before": "OUTFIT",
+          "after": "КОМПЛЕКТ"
+        },
+        {
+          "path": "blocks.1.paragraphs.0",
+          "before": "ready-to-play setup",
+          "after": "подготовку к игре"
+        },
+        {
+          "path": "quote",
+          "before": "готовый outfit",
+          "after": "готовый комплект"
+        }
+      ],
+      "preserved": "Vivente Cello, 1/8–4/4, свой смычок/чехол и проверка готовности между выдачами"
+    },
+    {
+      "index": 91,
+      "slug": "violonchel-pered-pokupkoy",
+      "decision": "enrich",
+      "reason": "Единственная лишняя вставка setup в описании передана как регулировка; буква C у нижней струны — уместное музыкальное обозначение.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "setup",
+          "after": "регулировка"
+        }
+      ],
+      "preserved": "Текущая программа, тихая атака, верхние позиции, низкая нота и повторяемая проба до покупки"
+    },
+    {
+      "index": 92,
+      "slug": "violonchel-posle-pereryva",
+      "decision": "enrich",
+      "reason": "Size/setup в итоговом сроке передано как размер или конфигурация, без вмешательства в сцену возвращения после паузы.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "blocks.2.paragraphs.0",
+          "before": "другой размер/setup",
+          "after": "другой размер или иная конфигурация"
+        }
+      ],
+      "preserved": "Посадка, шпиль, знакомая гамма/пьеса и восстановление формы"
+    },
+    {
+      "index": 93,
+      "slug": "dw-collectors-series-v-arendu",
+      "decision": "enrich",
+      "reason": "Родовые слова ударного райдера и внутренняя рубрика переведены; серия, точная геометрия, основной набор барабанов и отдельное оснащение остаются разными требованиями.",
+      "public_context_read": true,
+      "changes": [
+        {
+          "path": "description",
+          "before": "DW Collector's Series: профессиональный custom-kit, варианты древесины и размеров; райдер требует точной конфигурации бочки и томов.",
+          "after": "DW Collector's Series: профессиональная установка с индивидуальным выбором древесины и размеров; райдер требует точной конфигурации бочки и томов."
+        },
+        {
+          "path": "kicker",
+          "before": "RIDER CORE · DW · SHELL SIZES",
+          "after": "ПО РАЙДЕРУ · DW · РАЗМЕРЫ БАРАБАНОВ"
+        },
+        {
+          "path": "blocks.0.title",
+          "before": "backline standard",
+          "after": "стандарт бэклайна"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "отдельную premium-позицию",
+          "after": "отдельную позицию премиального класса"
+        },
+        {
+          "path": "blocks.0.paragraphs.0",
+          "before": "американский custom-инструмент",
+          "after": "американский инструмент индивидуальной конфигурации"
+        },
+        {
+          "path": "blocks.1.title",
+          "before": "bass drum и каждый tom",
+          "after": "бас-барабан и каждый том"
+        },
+        {
+          "path": "blocks.2.title",
+          "before": "Shell pack, snare, hardware и cymbals",
+          "after": "Основной набор барабанов, малый барабан, стойки и педали, тарелки"
+        },
+        {
+          "path": "quote",
+          "before": "kick / tom / floor tom",
+          "after": "бочки, тома и напольного тома"
+        }
+      ],
+      "preserved": "DW Collector’s Series, 22-10-12-16 и 24-13-16-18, древесина/диаметры/глубины и отдельное согласование райдера"
+    }
+  ]
+}

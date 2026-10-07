@@ -1,0 +1,722 @@
+{
+  "package": "public-language-01",
+  "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "subjects_before": 1901,
+  "subjects_after": 1901,
+  "all_subject_slugs_preserved": true,
+  "aliases_unchanged": true,
+  "all_route_targets_and_order_preserved": true,
+  "all_parents_and_kinds_preserved": true,
+  "all_source_urls_and_order_preserved": true,
+  "changed_content_count": 93,
+  "changed_content": {
+    "elektronnye-barabany-dlya-obucheniya-rebenka": [
+      "intro",
+      "sources"
+    ],
+    "yamaha-yts62-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "bas-gitara-dlya-studii": [
+      "editorial_title"
+    ],
+    "instrumenty-dlya-ansamblya-bayanov-akkordeonov": [
+      "blocks"
+    ],
+    "instrumenty-dlya-dzhazovogo-kvarteta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrumenty-dlya-bossa-nova-ansamblya": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-fank-gruppy": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-akusticheskogo-trio": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-tango-kvarteta": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-flamenko-ansamblya": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-klezmer-ansamblya": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "instrumenty-dlya-balkanskogo-ansamblya": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "instrumenty-dlya-reggae-gruppy": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-vokalnogo-dueta-s-gitaroy": [
+      "description",
+      "blocks"
+    ],
+    "instrument-posle-zamechaniya-o-vyse-strun": [
+      "editorial_title",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-dlya-raboty-nad-zvukom-po-zadaniyu": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-bystro-ustaet-levaya-ruka": [
+      "intro",
+      "blocks"
+    ],
+    "instrument-esli-pedal-rabotaet-kak-knopka": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-lady-ne-stroyat": [
+      "blocks"
+    ],
+    "instrument-esli-mehanika-shumit-v-zapisi": [
+      "description"
+    ],
+    "instrument-esli-ne-hvataet-verhnego-registra": [
+      "blocks"
+    ],
+    "instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy": [
+      "description",
+      "intro"
+    ],
+    "instrument-esli-nuzhen-chistyy-di-signal": [
+      "quote"
+    ],
+    "instrument-esli-ne-hvataet-ataki": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-slishkom-dolgiy-sustain": [
+      "search_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrument-esli-nuzhen-rezerv-na-kontsert": [
+      "description",
+      "blocks"
+    ],
+    "fender-american-professional-ii-jazz-bass-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "fender-american-professional-ii-telecaster-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "gibson-j45-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "marigaux-901-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "besson-prestige-2052-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "lyon-healy-style-30-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "hohner-gola-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "pigini-sirius-kyma-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "roland-tr909-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "buffet-prodige-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "jupiter-jcl700n-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "squier-affinity-stratocaster-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "yamaha-trbx174-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "yamaha-bb234-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey": [
+      "editorial_title",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "yamaha-fs800-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "roland-td02k-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "yamaha-dtx402k-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "backun-alpha-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "klarinet-dlya-nebolshoy-ruki": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "weltmeister-perle-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "sources"
+    ],
+    "weltmeister-rubin-v-arendu": [
+      "description",
+      "kicker"
+    ],
+    "hohner-bravo-iii-72-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "weltmeister-achat-34-72-v-arendu": [
+      "description",
+      "kicker",
+      "sources"
+    ],
+    "akkordeon-72-basa-dlya-prodolzheniya-obucheniya": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "hohner-bravo-i-49f-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "akkordeon-s-vybornym-basom-dlya-obucheniya": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "fender-cd60s-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "fender-cc60s-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "yamaha-ycl221ii-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "jupiter-jbc1000-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "bas-klarinet-dlya-obucheniya": [
+      "description",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "squier-mini-stratocaster-v-arendu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "squier-mini-precision-bass-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "ibanez-gsrm20-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "yamaha-ycr2330iii-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "bariton-ili-evfonium-po-partii": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "akusticheskaya-gitara-dlya-domashnih-zanyatiy": [
+      "blocks",
+      "sources"
+    ],
+    "akusticheskaya-gitara-dlya-fingerstayla": [
+      "description",
+      "intro",
+      "sources"
+    ],
+    "akusticheskaya-gitara-dlya-otkrytyh-stroev": [
+      "description",
+      "blocks",
+      "sources"
+    ],
+    "akusticheskaya-gitara-dlya-drop-d": [
+      "blocks",
+      "sources"
+    ],
+    "elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy": [
+      "blocks",
+      "sources"
+    ],
+    "elektrogitara-dlya-perehoda-s-akusticheskoy": [
+      "quote",
+      "sources"
+    ],
+    "elektrogitara-dlya-peregruza": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "elektrogitara-dlya-blyuza": [
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "elektrogitara-dlya-tyazhelogo-stroya": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "elektrogitara-dlya-otkrytyh-stroev": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektrogitara-s-fiksirovannym-bridzhem": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "elektrogitara-s-tremolo": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "elektrogitara-s-tremya-singlami": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektrogitara-s-dvumya-hambakerami": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektrogitara-dlya-slayda": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektrogitara-dlya-sessii": [
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "elektrogitara-dlya-zameny-na-gastrolyah": [
+      "description",
+      "blocks",
+      "sources"
+    ],
+    "elektrogitara-pered-pokupkoy": [
+      "blocks",
+      "sources"
+    ],
+    "bas-gitara-dlya-igry-paltsami": [
+      "description"
+    ],
+    "bas-gitara-dlya-igry-mediatorem": [
+      "blocks"
+    ],
+    "bas-gitara-dlya-slepa": [
+      "description",
+      "kicker",
+      "blocks",
+      "sources"
+    ],
+    "bas-gitara-dlya-ponizhennogo-stroya": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "bas-gitara-dlya-zapisi-napryamuyu": [
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "rezonatornaya-gitara-dlya-slayda": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "bariton-gitara-dlya-ponizhennogo-stroya": [
+      "intro",
+      "blocks",
+      "sources"
+    ],
+    "klarinet-in-a-dlya-pervogo-orkestrovogo-opyta": [
+      "kicker"
+    ],
+    "elektronnye-barabany-pered-pokupkoy": [
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ]
+  },
+  "unchanged_content_count": 1808,
+  "label_changes": [
+    {
+      "source": "klassicheskaya-gitara",
+      "href": "/instrumenty-dlya-bossa-nova-ansamblya/",
+      "before": "Инструменты для bossa nova ансамбля в аренду",
+      "after": "Инструменты для ансамбля босановы в аренду"
+    },
+    {
+      "source": "klassicheskaya-gitara",
+      "href": "/instrumenty-dlya-flamenko-ansamblya/",
+      "before": "Инструменты для flamenco ансамбля в аренду",
+      "after": "Инструменты для ансамбля фламенко в аренду"
+    },
+    {
+      "source": "elektrogitara",
+      "href": "/elektrogitara-s-tremya-singlami/",
+      "before": "Электрогитара с тремя single-coil датчиками в аренду",
+      "after": "Электрогитара с тремя синглами в аренду"
+    },
+    {
+      "source": "bas-gitara",
+      "href": "/instrumenty-dlya-fank-gruppy/",
+      "before": "Инструменты для funk-группы в аренду",
+      "after": "Инструменты для фанк-группы в аренду"
+    },
+    {
+      "source": "bas-gitara",
+      "href": "/instrumenty-dlya-reggae-gruppy/",
+      "before": "Инструменты для reggae-группы в аренду",
+      "after": "Инструменты для регги-группы в аренду"
+    },
+    {
+      "source": "klarinet",
+      "href": "/instrumenty-dlya-klezmer-ansamblya/",
+      "before": "Инструменты для klezmer ансамбля в аренду",
+      "after": "Инструменты для клезмерского ансамбля в аренду"
+    },
+    {
+      "source": "bandoneon",
+      "href": "/instrumenty-dlya-tango-kvarteta/",
+      "before": "Инструменты для tango-квартета в аренду",
+      "after": "Инструменты для танго-квартета в аренду"
+    },
+    {
+      "source": "instrumenty-dlya-dzhazovogo-kvarteta",
+      "href": "/backline-dlya-dzhazovogo-kvinteta/",
+      "before": "Backline для джазового квинтета",
+      "after": "Бэклайн для джазового квинтета"
+    },
+    {
+      "source": "instrumenty-dlya-reggae-gruppy",
+      "href": "/elektrogitara-dlya-chistogo-zvuka/",
+      "before": "Электрогитара clean",
+      "after": "Электрогитара с чистым звуком"
+    },
+    {
+      "source": "instrument-esli-ne-hvataet-verhnego-registra",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "source": "instrument-esli-ne-hvataet-ataki",
+      "href": "/instrument-esli-slishkom-dolgiy-sustain/",
+      "before": "Если sustain слишком длинный",
+      "after": "Если звук длится слишком долго"
+    },
+    {
+      "source": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "source": "roland-tr909-v-arendu",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Live session в студии",
+      "after": "Живая сессия в студии"
+    },
+    {
+      "source": "instrument-po-trebovaniyam-k-kachestvu",
+      "href": "/instrument-esli-slishkom-dolgiy-sustain/",
+      "before": "Инструмент в аренду, если sustain слишком длинный",
+      "after": "Инструмент в аренду, если звук длится слишком долго"
+    },
+    {
+      "source": "hohner-bravo-i-49f-v-arendu",
+      "href": "/akkordeon-s-vybornym-basom-pered-pokupkoy/",
+      "before": "Free-bass перед покупкой",
+      "after": "Выборный бас перед покупкой"
+    },
+    {
+      "source": "elektrogitara-s-fiksirovannym-bridzhem",
+      "href": "/elektrogitara-s-tremolo/",
+      "before": "Электрогитара с tremolo",
+      "after": "Электрогитара с тремоло"
+    }
+  ],
+  "approved_numeric_changes": [
+    {
+      "slug": "fender-american-professional-ii-telecaster-v-arendu",
+      "field": "kicker",
+      "before": "RIDER CORE · TELECASTER · 2 SINGLE-COIL",
+      "after": "TELECASTER · ДВА СИНГЛА · ФИКСИРОВАННЫЙ БРИДЖ"
+    },
+    {
+      "slug": "besson-prestige-2052-v-arendu",
+      "field": "description",
+      "before": "Besson Prestige 2052 B-flat euphonium: 4 compensating valves, tuning-slide trigger and professional solo/band reference.",
+      "after": "Эуфониум Besson Prestige 2052 в строе B♭: четыре вентиля с компенсационной системой, триггер общего строя и профессиональная сольная и оркестровая практика."
+    },
+    {
+      "slug": "besson-prestige-2052-v-arendu",
+      "field": "blocks[0].title",
+      "before": "4-valve 3+1 compensating system входит в саму модель",
+      "after": "Четыре вентиля по схеме 3+1 и компенсационная система входят в саму модель"
+    },
+    {
+      "slug": "yamaha-trbx174-v-arendu",
+      "field": "description",
+      "before": "Yamaha TRBX174: entry-level 4-string bass with passive P/J pickups, straightforward controls and beginner-oriented playability.",
+      "after": "Yamaha TRBX174: начальный четырёхструнный бас с пассивными звукоснимателями P/J, простым управлением и удобством для начинающих."
+    },
+    {
+      "slug": "yamaha-bb234-v-arendu",
+      "field": "description",
+      "before": "Yamaha BB234: introductory BB-series 4-string bass with alder body, passive pickups and beginner-oriented playability.",
+      "after": "Yamaha BB234: начальный четырёхструнный бас серии BB с ольховым корпусом, пассивными звукоснимателями и удобством для начинающих."
+    },
+    {
+      "slug": "yamaha-dtx402k-v-arendu",
+      "field": "description",
+      "before": "Yamaha DTX402K: compact entry-level electronic drum kit with 10 training functions and beginner-oriented learning support.",
+      "after": "Yamaha DTX402K: компактный начальный электронный комплект с десятью тренировочными функциями и поддержкой обучения для начинающих."
+    },
+    {
+      "slug": "squier-mini-stratocaster-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Три single-coil pickups и 5-way switch позволяют изучать те же основные тембровые позиции. Hardtail bridge дополнительно убирает тремоло как лишнюю переменную первых занятий.",
+      "after": "Три сингла и пятипозиционный переключатель позволяют изучать те же основные тембровые позиции. Фиксированный бридж дополнительно убирает тремоло как лишнюю переменную первых занятий."
+    }
+  ],
+  "approved_shape_changes": [],
+  "html_paths_before": 3888,
+  "html_paths_after": 3888,
+  "all_html_paths_preserved": true
+}

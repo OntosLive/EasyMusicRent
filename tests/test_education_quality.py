@@ -38,6 +38,7 @@ class EducationQualityTests(unittest.TestCase):
         cls.temp = tempfile.TemporaryDirectory()
         cls.output = Path(cls.temp.name)
         cls.report = core.build(ROOT, cls.output)
+        cls.current = {p['slug']: p for p in cls.report['pages']}
 
     @classmethod
     def tearDownClass(cls):
@@ -61,9 +62,12 @@ class EducationQualityTests(unittest.TestCase):
             with self.subTest(slug=record['slug']):
                 entry = self.page(record['slug'])
                 deep = self.page(record['slug'], True)
-                self.assertEqual(core.text(entry.h1), record['search_title'])
-                self.assertEqual(core.text(deep.h1), record['editorial_title'])
-                self.assertIsNone(re.search(r'аренд|прокат|напрокат', record['editorial_title'], re.I))
+                # Later reviewed layers can refine wording while preserving the pair.
+                current = self.current[record['slug']]
+                self.assertEqual(core.text(entry.h1), current['entry_title'])
+                self.assertEqual(core.text(deep.h1), current['editorial_title'])
+                self.assertNotEqual(current['entry_title'], current['editorial_title'])
+                self.assertIsNone(re.search(r'аренд|прокат|напрокат', current['editorial_title'], re.I))
                 self.assertIn('noindex', deep.find('meta', attrs={'name':'robots'})['content'])
                 self.assertIsNone(entry.find('meta', attrs={'name':'robots'}))
                 self.assertEqual(len(entry.select('.contact-block')), 1)

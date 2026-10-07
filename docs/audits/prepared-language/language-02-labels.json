@@ -1,0 +1,295 @@
+{
+  "cohort": 2,
+  "input_snapshot": "corpus-after-legacy-closure.json",
+  "snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "status": "ready_for_root_integration_not_published",
+  "policy": "Только исходные подписи, дословно повторяющие изменённый H1 N.0 или N.1; краткие самостоятельные карточки не выравнивались.",
+  "operations": [],
+  "reason": "Ручных исходных подписей с точным старым H1 не найдено. Девять совпадений с N.0 — автоматически создаваемые связи родитель→ребёнок: connect() берёт page.search_title. Их подписи обновятся из новых search_title без navigation_replace.",
+  "title_changes": [
+    {
+      "target_slug": "barochnaya-violonchel-pered-pokupkoy",
+      "field": "editorial_title",
+      "before": "Перед покупкой барочной виолончели: проверить весь historical setup на собственной программе",
+      "after": "Перед покупкой барочной виолончели: проверить всю историческую конфигурацию на собственной программе"
+    },
+    {
+      "target_slug": "kawai-k300-v-arendu",
+      "field": "editorial_title",
+      "before": "Kawai K-300: профессиональный upright для серьёзного ученика и музыкальной школы",
+      "after": "Kawai K-300: профессиональное пианино для серьёзного ученика и музыкальной школы"
+    },
+    {
+      "target_slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "field": "editorial_title",
+      "before": "Pit band мюзикла: каждый музыкант может менять несколько инструментов, а сцена не должна это заметить",
+      "after": "Пит-бенд мюзикла: каждый музыкант может менять несколько инструментов, а сцена не должна это заметить"
+    },
+    {
+      "target_slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "field": "search_title",
+      "before": "Инструменты для pit band мюзикла в аренду",
+      "after": "Инструменты для пит-бенда мюзикла в аренду"
+    },
+    {
+      "target_slug": "instrumenty-dlya-vokalnogo-trio",
+      "field": "editorial_title",
+      "before": "Вокальное трио: два сопровождающих инструмента не должны делить один и тот же воздух",
+      "after": "Трио с вокалом: два сопровождающих инструмента не должны делить один и тот же воздух"
+    },
+    {
+      "target_slug": "instrumenty-dlya-vokalnogo-trio",
+      "field": "search_title",
+      "before": "Инструменты для вокального трио в аренду",
+      "after": "Инструменты для трио с вокалом в аренду"
+    },
+    {
+      "target_slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "field": "editorial_title",
+      "before": "Прилететь без клавиатуры: восстановить привычный rig локально",
+      "after": "Прилететь без клавиатуры: восстановить привычный комплект локально"
+    },
+    {
+      "target_slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "field": "search_title",
+      "before": "Клавишные backline без своего инструмента в аренду",
+      "after": "Клавишный бэклайн без своего инструмента в аренду"
+    },
+    {
+      "target_slug": "klavishnye-dlya-festivalnoy-smeny-artistov",
+      "field": "editorial_title",
+      "before": "Changeover: клавишный сет должен менять владельца быстрее, чем распадается расписание",
+      "after": "Смена артистов: клавишный сет должен менять владельца быстрее, чем распадается расписание"
+    },
+    {
+      "target_slug": "klavishnye-dlya-festivalya",
+      "field": "editorial_title",
+      "before": "Фестивальные клавишные: один backline должен пережить несколько артистов и короткие changeover",
+      "after": "Фестивальные клавишные: один комплект бэклайна должен пережить несколько артистов и короткие смены"
+    },
+    {
+      "target_slug": "klavishnye-dlya-maloy-stseny",
+      "field": "editorial_title",
+      "before": "Малая сцена: сократить rig, не потеряв нужные роли",
+      "after": "Малая сцена: сократить комплект, не потеряв нужные роли"
+    },
+    {
+      "target_slug": "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "field": "editorial_title",
+      "before": "Клавишные напрямую в FOH: сценический звук начинается с правильной линии, а не с отдельного combo",
+      "after": "Клавишные напрямую в FOH: сценический звук начинается с правильной линии, а не с отдельного комбоусилителя"
+    },
+    {
+      "target_slug": "klavishnye-dlya-stereo-vyhoda",
+      "field": "editorial_title",
+      "before": "Stereo keyboard rig: два выхода нужны только там, где сцена действительно слышит пространство",
+      "after": "Клавишные в стерео: два выхода нужны только там, где сцена действительно слышит пространство"
+    },
+    {
+      "target_slug": "klavishnye-dlya-stereo-vyhoda",
+      "field": "search_title",
+      "before": "Клавишные со stereo output в аренду",
+      "after": "Клавишные со стереовыходом в аренду"
+    },
+    {
+      "target_slug": "klavishnye-dlya-upravleniya-vneshnimi-modulyami",
+      "field": "editorial_title",
+      "before": "Master keyboard на сцене: клавиатура управляет не только собой",
+      "after": "Управляющая клавиатура на сцене: инструмент управляет не только собой"
+    },
+    {
+      "target_slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "field": "editorial_title",
+      "before": "Piano + pad: два слоя должны меняться одной музыкальной динамикой",
+      "after": "Фортепиано + подкладка: два слоя должны меняться одной музыкальной динамикой"
+    },
+    {
+      "target_slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "field": "search_title",
+      "before": "Сценические клавишные для слоя piano и pad в аренду",
+      "after": "Сценические клавишные для сочетания фортепиано и подкладки в аренду"
+    },
+    {
+      "target_slug": "stage-piano-po-rayderu",
+      "field": "editorial_title",
+      "before": "Stage piano по райдеру: сохранить фортепианную механику и сценические выходы",
+      "after": "Сценическое пианино по райдеру: сохранить фортепианную механику и сценические выходы"
+    },
+    {
+      "target_slug": "stage-piano-po-rayderu",
+      "field": "search_title",
+      "before": "Stage piano по райдеру в аренду",
+      "after": "Сценическое пианино по райдеру в аренду"
+    },
+    {
+      "target_slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "field": "editorial_title",
+      "before": "Перед покупкой stage piano: проверить его не дома, а в полном концертном режиме",
+      "after": "Перед покупкой сценического пианино: проверить его не дома, а в полном концертном режиме"
+    },
+    {
+      "target_slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "field": "search_title",
+      "before": "Stage piano в аренду перед покупкой для концертов",
+      "after": "Сценическое пианино в аренду перед покупкой для концертов"
+    },
+    {
+      "target_slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "field": "editorial_title",
+      "before": "Bluegrass: banjo, mandolin и акустические струны должны делить одну быстую атаку",
+      "after": "Блюграсс: банджо, мандолина и акустические струны должны делить одну быструю атаку"
+    },
+    {
+      "target_slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "field": "search_title",
+      "before": "Инструменты для bluegrass ансамбля в аренду",
+      "after": "Инструменты для ансамбля блюграсса в аренду"
+    },
+    {
+      "target_slug": "instrumenty-dlya-folk-gruppy",
+      "field": "editorial_title",
+      "before": "Folk-группа: акустические инструменты должны сохранять различие происхождения и функции",
+      "after": "Фолк-группа: акустические инструменты должны сохранять различие происхождения и функции"
+    },
+    {
+      "target_slug": "instrumenty-dlya-folk-gruppy",
+      "field": "search_title",
+      "before": "Инструменты для folk-группы в аренду",
+      "after": "Инструменты для фолк-группы в аренду"
+    },
+    {
+      "target_slug": "elektricheskiy-kontrabas-dlya-gastroley",
+      "field": "editorial_title",
+      "before": "Гастрольный electric upright: сократить логистику, не меняя басовую функцию",
+      "after": "Гастрольный электрический контрабас: сократить логистику, не меняя басовую функцию"
+    },
+    {
+      "target_slug": "elektricheskiy-kontrabas-pered-pokupkoy",
+      "field": "editorial_title",
+      "before": "Перед покупкой electric upright: компактность должна сохранить контрабасовую карту тела",
+      "after": "Перед покупкой электрического контрабаса: компактность должна сохранить контрабасовую карту тела"
+    },
+    {
+      "target_slug": "akusticheskiy-kontrabas-posle-elektricheskogo",
+      "field": "editorial_title",
+      "before": "Вернуться от electric upright к акустике: большой корпус снова начинает отвечать телом",
+      "after": "Вернуться от электрического контрабаса к акустике: большой корпус снова начинает отвечать телом"
+    },
+    {
+      "target_slug": "gewa-maestro1-skripka-v-arendu",
+      "field": "editorial_title",
+      "before": "GEWA Maestro 1: серийный advanced-шаг, который тоже существует в дробных размерах",
+      "after": "GEWA Maestro 1: серийная скрипка для продвинутого этапа, которая тоже существует в дробных размерах"
+    },
+    {
+      "target_slug": "hidersine-vivente-academy-skripka-v-arendu",
+      "field": "editorial_title",
+      "before": "Vivente Academy: student-скрипка, где точная настройка становится частью урока",
+      "after": "Vivente Academy: ученическая скрипка, где точная настройка становится частью урока"
+    },
+    {
+      "target_slug": "hidersine-vivente-skripka-v-arendu",
+      "field": "editorial_title",
+      "before": "Hidersine Vivente: beginner-скрипка, которую мастерская готовит к уроку заранее",
+      "after": "Hidersine Vivente: скрипка для начинающих, которую мастерская готовит к уроку заранее"
+    },
+    {
+      "target_slug": "smychkovye-eastman",
+      "field": "editorial_title",
+      "before": "Samuel Eastman: школьная Model 100 и rental-oriented контрабас VB80",
+      "after": "Samuel Eastman: школьная Model 100 и контрабас VB80 для учебного фонда"
+    }
+  ],
+  "automatic_label_updates": [
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 19,
+      "href": "/stage-piano-po-rayderu/",
+      "target_slug": "stage-piano-po-rayderu",
+      "field": "search_title",
+      "before": "Stage piano по райдеру в аренду",
+      "after": "Сценическое пианино по райдеру в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 24,
+      "href": "/klavishnye-dlya-stereo-vyhoda/",
+      "target_slug": "klavishnye-dlya-stereo-vyhoda",
+      "field": "search_title",
+      "before": "Клавишные со stereo output в аренду",
+      "after": "Клавишные со стереовыходом в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 29,
+      "href": "/klavishnye-dlya-backline-bez-svoego-instrumenta/",
+      "target_slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "field": "search_title",
+      "before": "Клавишные backline без своего инструмента в аренду",
+      "after": "Клавишный бэклайн без своего инструмента в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 30,
+      "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+      "target_slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "field": "search_title",
+      "before": "Stage piano в аренду перед покупкой для концертов",
+      "after": "Сценическое пианино в аренду перед покупкой для концертов"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 33,
+      "href": "/instrumenty-dlya-vokalnogo-trio/",
+      "target_slug": "instrumenty-dlya-vokalnogo-trio",
+      "field": "search_title",
+      "before": "Инструменты для вокального трио в аренду",
+      "after": "Инструменты для трио с вокалом в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 34,
+      "href": "/instrumenty-dlya-myuziklovogo-pit-benda/",
+      "target_slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "field": "search_title",
+      "before": "Инструменты для pit band мюзикла в аренду",
+      "after": "Инструменты для пит-бенда мюзикла в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 36,
+      "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/",
+      "target_slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "field": "search_title",
+      "before": "Сценические клавишные для слоя piano и pad в аренду",
+      "after": "Сценические клавишные для сочетания фортепиано и подкладки в аренду"
+    },
+    {
+      "source_slug": "mandolina",
+      "link_index": 14,
+      "href": "/instrumenty-dlya-folk-gruppy/",
+      "target_slug": "instrumenty-dlya-folk-gruppy",
+      "field": "search_title",
+      "before": "Инструменты для folk-группы в аренду",
+      "after": "Инструменты для фолк-группы в аренду"
+    },
+    {
+      "source_slug": "bandzho",
+      "link_index": 6,
+      "href": "/instrumenty-dlya-bluegrass-ansamblya/",
+      "target_slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "field": "search_title",
+      "before": "Инструменты для bluegrass ансамбля в аренду",
+      "after": "Инструменты для ансамбля блюграсса в аренду"
+    }
+  ],
+  "evidence": {
+    "frozen_corpus_pages_scanned": 1901,
+    "source_json_files_scanned": 239,
+    "source_html_files_scanned": 440,
+    "exact_authored_json_matches": 0,
+    "exact_authored_html_matches": 0,
+    "auto_label_rule": "scripts/site_core.py: connect(), parent.links.append with page.search_title",
+    "no_build_or_tests_run": true
+  }
+}

@@ -1,0 +1,946 @@
+{
+  "cohort": 1,
+  "status": "approved_for_integration",
+  "snapshot": "corpus-after-legacy-closure.json",
+  "snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "scope": "Все фактические ссылки снимка; точные старые H1 и восемь собственных языковых подписей. Контекстные входящие подписи не выравниваются.",
+  "coverage": {
+    "corpus_pages": 1901,
+    "corpus_links_inspected": 6066,
+    "changed_editorial_h1_count": 28,
+    "exact_h1_copy_count": 0,
+    "html_whitespace_equivalent_h1_count": 0,
+    "changed_search_title_count": 8,
+    "own_language_label_count": 8,
+    "explicit_search_title_copy_count": 0,
+    "generated_search_title_child_count": 8
+  },
+  "operations": [
+    {
+      "source_slug": "hohner-bravo-i-49f-v-arendu",
+      "href": "/akkordeon-s-vybornym-basom-pered-pokupkoy/",
+      "before": "Free-bass перед покупкой",
+      "after": "Выборный бас перед покупкой",
+      "reason": "Free-bass в подписи означает уже обсуждаемую выборную систему.",
+      "canonical_target": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz13-conductivity-free-reed-bridges.json#/navigation/hohner-bravo-i-49f-v-arendu/1",
+          "raw_href": "/akkordeon-s-vybornym-basom-pered-pokupkoy/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    },
+    {
+      "source_slug": "instrumenty-dlya-dzhazovogo-kvarteta",
+      "href": "/backline-dlya-dzhazovogo-kvinteta/",
+      "before": "Backline для джазового квинтета",
+      "after": "Бэклайн для джазового квинтета",
+      "reason": "В контекстной подписи переведён только способ написания установленного термина.",
+      "canonical_target": "backline-dlya-dzhazovogo-kvinteta",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json#/pages/1/links/3",
+          "raw_href": "/backline-dlya-dzhazovogo-kvinteta/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    },
+    {
+      "source_slug": "roland-tr909-v-arendu",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Live session в студии",
+      "after": "Живая сессия в студии",
+      "reason": "Перевод контекстной подписи сохраняет совместное живое исполнение в студии.",
+      "canonical_target": "instrumenty-dlya-studiynoy-live-sessii",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz35-conductivity-final-model-bridges-a.json#/navigation/roland-tr909-v-arendu/1",
+          "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    },
+    {
+      "source_slug": "instrumenty-dlya-reggae-gruppy",
+      "href": "/elektrogitara-dlya-chistogo-zvuka/",
+      "before": "Электрогитара clean",
+      "after": "Электрогитара с чистым звуком",
+      "reason": "Clean означает уже выбранную сцену чистого звука.",
+      "canonical_target": "elektrogitara-dlya-chistogo-zvuka",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json#/pages/14/links/1",
+          "raw_href": "/elektrogitara-dlya-chistogo-zvuka/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    },
+    {
+      "source_slug": "elektrogitara-s-fiksirovannym-bridzhem",
+      "href": "/elektrogitara-s-tremolo/",
+      "before": "Электрогитара с tremolo",
+      "after": "Электрогитара с тремоло",
+      "reason": "Русское написание технического термина в действующей подписи.",
+      "canonical_target": "elektrogitara-s-tremolo",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zz82-electric-guitar-human-scenes.json#/pages/10/links/1",
+          "raw_href": "/elektrogitara-s-tremolo/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    },
+    {
+      "source_slug": "instrument-esli-ne-hvataet-ataki",
+      "href": "/instrument-esli-slishkom-dolgiy-sustain/",
+      "before": "Если sustain слишком длинный",
+      "after": "Если звук длится слишком долго",
+      "reason": "Контекстная подпись переводит ту же проблему длительности звучания; URL сохранён.",
+      "canonical_target": "instrument-esli-slishkom-dolgiy-sustain",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz24-conductivity-environment-obstacle-bridges.json#/navigation/instrument-esli-ne-hvataet-ataki/1",
+          "raw_href": "/instrument-esli-slishkom-dolgiy-sustain/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    },
+    {
+      "source_slug": "instrument-esli-ne-hvataet-verhnego-registra",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации",
+      "reason": "Учебный переход назван по-русски без добавления ранга качества.",
+      "canonical_target": "instrument-dlya-step-up-po-rekomendatsii",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz28-conductivity-range-obstacle-bridges.json#/navigation/instrument-esli-ne-hvataet-verhnego-registra/1",
+          "raw_href": "/instrument-dlya-step-up-po-rekomendatsii/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    },
+    {
+      "source_slug": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета",
+      "reason": "Workstation здесь означает клавишную рабочую станцию, название модели не изменяется.",
+      "canonical_target": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "kind": "local_public_label_language",
+      "matching_source_definitions": [
+        {
+          "definition": "content/sections/zzzz24-conductivity-environment-obstacle-bridges.json#/navigation/instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene/1",
+          "raw_href": "/workstation-dlya-podgotovki-kontsertnogo-seta/"
+        }
+      ],
+      "instruction": "Изменить только подпись совпадающего действующего маршрута; href и порядок сохранить. Список definitions может включать более раннее совпадающее определение."
+    }
+  ],
+  "h1_review": [
+    {
+      "target_slug": "lyon-healy-style-30-v-arendu",
+      "old_h1": "Lyon & Healy Style 30: профессиональная 47-струнная арфа из реального rental pool производителя",
+      "new_h1": "Lyon & Healy Style 30: профессиональная 47-струнная арфа для концертов и записи",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "pedalnaya-arfa",
+          "link_index": 2,
+          "href": "/lyon-healy-style-30-v-arendu/",
+          "label": "Lyon & Healy Style 30"
+        },
+        {
+          "source_slug": "pedalnaya-arfa-pered-pokupkoy",
+          "link_index": 0,
+          "href": "/lyon-healy-style-30-v-arendu/",
+          "label": "Lyon & Healy Style 30"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "hohner-bravo-i-49f-v-arendu",
+      "old_h1": "Hohner Bravo I 49 F: самый лёгкий вход в melody bass и free-bass обучение",
+      "new_h1": "Hohner Bravo I 49 F: лёгкий аккордеон для обучения выборному басу",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 4,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "arenda-akkordeona-moskva",
+          "link_index": 15,
+          "href": "/hohner-bravo-i-49f-v-arendu/",
+          "label": "Hohner Bravo I 49 F"
+        },
+        {
+          "source_slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+          "link_index": 1,
+          "href": "/hohner-bravo-i-49f-v-arendu/",
+          "label": "Hohner Bravo I 49 F"
+        },
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 63,
+          "href": "/hohner-bravo-i-49f-v-arendu/",
+          "label": "Hohner Bravo I 49 F"
+        },
+        {
+          "source_slug": "akkordeon-s-vybornym-basom-dlya-obucheniya",
+          "link_index": 0,
+          "href": "/hohner-bravo-i-49f-v-arendu/",
+          "label": "Hohner Bravo I 49 F"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-tango-kvarteta",
+      "old_h1": "Tango-квартет: bandoneon должен быть системой, а не просто тембром",
+      "new_h1": "Танго-квартет: бандонеон должен быть системой, а не просто тембром",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bandoneon",
+          "link_index": 6,
+          "href": "/instrumenty-dlya-tango-kvarteta/",
+          "label": "Инструменты для tango-квартета в аренду"
+        },
+        {
+          "source_slug": "bandoneon-dlya-tango-proekta",
+          "link_index": 0,
+          "href": "/instrumenty-dlya-tango-kvarteta/",
+          "label": "Инструменты для tango-квартета"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-balkanskogo-ansamblya",
+      "old_h1": "Балканский ансамбль: медные, reeds и percussion должны совпасть по масштабу движения",
+      "new_h1": "Балканский ансамбль: медные, язычковые и перкуссия должны совпасть по масштабу движения",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bayan-akkordeon",
+          "link_index": 10,
+          "href": "/instrumenty-dlya-balkanskogo-ansamblya/",
+          "label": "Инструменты для балканского ансамбля в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "yamaha-ycl221ii-v-arendu",
+      "old_h1": "Yamaha YCL‑221II: student bass clarinet, который можно реально носить в школу",
+      "new_h1": "Yamaha YCL‑221II: учебный бас-кларнет, который можно реально носить в школу",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bas-klarinet",
+          "link_index": 1,
+          "href": "/yamaha-ycl221ii-v-arendu/",
+          "label": "Yamaha YCL-221II"
+        },
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 68,
+          "href": "/yamaha-ycl221ii-v-arendu/",
+          "label": "Yamaha YCL-221II"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "besson-prestige-2052-v-arendu",
+      "old_h1": "Besson Prestige 2052: профессиональный compensating euphonium как самостоятельный солистический стандарт",
+      "new_h1": "Besson Prestige 2052: профессиональный эуфониум с компенсационной системой как самостоятельный солистический стандарт",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "evfonium",
+          "link_index": 2,
+          "href": "/besson-prestige-2052-v-arendu/",
+          "label": "Besson Prestige 2052"
+        },
+        {
+          "source_slug": "evfonium-dlya-perehoda-na-sistemu-3-plus-1",
+          "link_index": 1,
+          "href": "/besson-prestige-2052-v-arendu/",
+          "label": "Besson Prestige 2052"
+        },
+        {
+          "source_slug": "evfonium-pered-pokupkoy",
+          "link_index": 1,
+          "href": "/besson-prestige-2052-v-arendu/",
+          "label": "Besson Prestige 2052"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "backun-alpha-v-arendu",
+      "old_h1": "Backun Alpha: современный student-кларнет, рассчитанный и на класс, и на улицу",
+      "new_h1": "Backun Alpha: современный ученический кларнет, рассчитанный и на класс, и на улицу",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "klarinet",
+          "link_index": 16,
+          "href": "/backun-alpha-v-arendu/",
+          "label": "Backun Alpha"
+        },
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 36,
+          "href": "/backun-alpha-v-arendu/",
+          "label": "Backun Alpha"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "buffet-prodige-v-arendu",
+      "old_h1": "Buffet Prodige: французская student-линия с ABS-корпусом и профессиональной геометрией",
+      "new_h1": "Buffet Prodige: французская ученическая линия с ABS-корпусом и профессиональной геометрией",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "klarinet",
+          "link_index": 14,
+          "href": "/buffet-prodige-v-arendu/",
+          "label": "Buffet Prodige"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-klezmer-ansamblya",
+      "old_h1": "Klezmer-ансамбль: мелодический голос должен оставаться гибким поверх подвижного сопровождения",
+      "new_h1": "Клезмерский ансамбль: мелодический голос должен оставаться гибким поверх подвижного сопровождения",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "klarinet",
+          "link_index": 20,
+          "href": "/instrumenty-dlya-klezmer-ansamblya/",
+          "label": "Инструменты для klezmer ансамбля в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "roland-tr909-v-arendu",
+      "old_h1": "Roland TR‑909: машина, на которой house и techno получили собственный пульс",
+      "new_h1": "Roland TR‑909: машина, на которой хаус и техно получили собственный пульс",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "dram-mashiny",
+          "link_index": 1,
+          "href": "/roland-tr909-v-arendu/",
+          "label": "Roland TR‑909"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+      "old_h1": "Двойная педаль: ноги должны тренироваться на реальном kick-интерфейсе",
+      "new_h1": "Двойная педаль: физический отклик важен для работы обеих ног",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "elektronnaya-barabannaya-ustanovka",
+          "link_index": 16,
+          "href": "/elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu/",
+          "label": "Электронные барабаны для работы над двойной педалью в аренду"
+        },
+        {
+          "source_slug": "elektronnye-barabany-dlya-trenirovki-nog",
+          "link_index": 1,
+          "href": "/elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu/",
+          "label": "Работа над двойной педалью"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "fender-cc60s-v-arendu",
+      "old_h1": "Fender CC‑60S: concert-корпус для начинающего, которому dreadnought уже велик",
+      "new_h1": "Fender CC‑60S: корпус типа «концерт» для начинающего, которому дредноут уже велик",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 8,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "akusticheskaya-gitara",
+          "link_index": 13,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        },
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 67,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+          "link_index": 1,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-pervyh-akkordov",
+          "link_index": 1,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-fingerstayla",
+          "link_index": 1,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-s-kompaktnym-korpusom",
+          "link_index": 1,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-podrostku",
+          "link_index": 1,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-zanyatiy-sidya",
+          "link_index": 1,
+          "href": "/fender-cc60s-v-arendu/",
+          "label": "Fender CC-60S"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "fender-cd60s-v-arendu",
+      "old_h1": "Fender CD‑60S: dreadnought для начинающего, если большой корпус действительно удобен",
+      "new_h1": "Fender CD‑60S: дредноут для начинающего, если большой корпус действительно удобен",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 4,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "akusticheskaya-gitara",
+          "link_index": 12,
+          "href": "/fender-cd60s-v-arendu/",
+          "label": "Fender CD-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+          "link_index": 0,
+          "href": "/fender-cd60s-v-arendu/",
+          "label": "Fender CD-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-igry-boem",
+          "link_index": 1,
+          "href": "/fender-cd60s-v-arendu/",
+          "label": "Fender CD-60S"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+          "link_index": 1,
+          "href": "/fender-cd60s-v-arendu/",
+          "label": "Fender CD-60S"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "gibson-j45-v-arendu",
+      "old_h1": "Gibson J-45: round-shoulder акустика, которую индустрия давно знает по имени",
+      "new_h1": "Gibson J-45: акустика со скруглёнными плечами, которую индустрия давно знает по имени",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "akusticheskaya-gitara",
+          "link_index": 9,
+          "href": "/gibson-j45-v-arendu/",
+          "label": "Gibson J-45"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "yamaha-fs800-v-arendu",
+      "old_h1": "Yamaha FS800: компактный корпус как альтернатива большому dreadnought на старте",
+      "new_h1": "Yamaha FS800: компактный корпус как альтернатива большому дредноуту на старте",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 13,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "akusticheskaya-gitara",
+          "link_index": 10,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+          "link_index": 2,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-pervyh-akkordov",
+          "link_index": 0,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-domashnih-zanyatiy",
+          "link_index": 1,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-fingerstayla",
+          "link_index": 0,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-s-kompaktnym-korpusom",
+          "link_index": 0,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy",
+          "link_index": 1,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-perehoda-s-elektrogitary",
+          "link_index": 1,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-podrostku",
+          "link_index": 0,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-avtora-pesen",
+          "link_index": 1,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-zanyatiy-sidya",
+          "link_index": 0,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-pered-pokupkoy",
+          "link_index": 2,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        },
+        {
+          "source_slug": "akusticheskaya-gitara-dlya-sravneniya-korpusov",
+          "link_index": 1,
+          "href": "/yamaha-fs800-v-arendu/",
+          "label": "Yamaha FS800"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey",
+      "old_h1": "Бас без дребезга: первая техника не должна строиться вокруг неисправного setup",
+      "new_h1": "Бас без дребезга: первая техника не должна строиться вокруг неверной регулировки",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bas-gitara",
+          "link_index": 18,
+          "href": "/bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey/",
+          "label": "Без дребезга и с точной интонацией"
+        },
+        {
+          "source_slug": "instrument-po-trebovaniyam-k-kachestvu",
+          "link_index": 24,
+          "href": "/bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey/",
+          "label": "Бас без дребезга и с точной интонацией"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "bas-gitara-dlya-studii",
+      "old_h1": "Бас-гитара в студии: атака, sustain и место в миксе",
+      "new_h1": "Бас-гитара в студии: атака, длительность звучания и место в миксе",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 4,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bas-gitara",
+          "link_index": 9,
+          "href": "/bas-gitara-dlya-studii/",
+          "label": "Для студии"
+        },
+        {
+          "source_slug": "bas-gitara-na-vremya-remonta",
+          "link_index": 2,
+          "href": "/bas-gitara-dlya-studii/",
+          "label": "Если впереди запись"
+        },
+        {
+          "source_slug": "bas-gitara-dlya-ponizhennogo-stroya",
+          "link_index": 1,
+          "href": "/bas-gitara-dlya-studii/",
+          "label": "Бас для студии"
+        },
+        {
+          "source_slug": "bas-gitara-dlya-zapisi-napryamuyu",
+          "link_index": 2,
+          "href": "/bas-gitara-dlya-studii/",
+          "label": "Бас для студии"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-fank-gruppy",
+      "old_h1": "Funk-группа: короткая атака каждого инструмента должна складываться в один groove",
+      "new_h1": "Фанк-группа: короткая атака каждого инструмента должна складываться в один грув",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bas-gitara",
+          "link_index": 22,
+          "href": "/instrumenty-dlya-fank-gruppy/",
+          "label": "Инструменты для funk-группы в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-reggae-gruppy",
+      "old_h1": "Reggae-группа: низ и пространство важнее плотности",
+      "new_h1": "Регги-группа: низ и пространство важнее плотности",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "bas-gitara",
+          "link_index": 23,
+          "href": "/instrumenty-dlya-reggae-gruppy/",
+          "label": "Инструменты для reggae-группы в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "elektrogitara-dlya-slayda",
+      "old_h1": "Slide: высота струн должна позволять скользить, не уничтожая обычную игру",
+      "new_h1": "Слайд: высота струн должна позволять скользить, не уничтожая обычную игру",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "elektrogitara",
+          "link_index": 36,
+          "href": "/elektrogitara-dlya-slayda/",
+          "label": "Электрогитара для слайда в аренду"
+        },
+        {
+          "source_slug": "elektrogitara-dlya-otkrytyh-stroev",
+          "link_index": 0,
+          "href": "/elektrogitara-dlya-slayda/",
+          "label": "Электрогитара для слайда"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "elektrogitara-s-dvumya-hambakerami",
+      "old_h1": "Два humbucker: плотность без необходимости собирать её эффектами",
+      "new_h1": "Два хамбакера: плотность без необходимости собирать её эффектами",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 3,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "elektrogitara",
+          "link_index": 35,
+          "href": "/elektrogitara-s-dvumya-hambakerami/",
+          "label": "Электрогитара с двумя хамбакерами в аренду"
+        },
+        {
+          "source_slug": "gibson-les-paul-standard-60s-v-arendu",
+          "link_index": 0,
+          "href": "/elektrogitara-s-dvumya-hambakerami/",
+          "label": "Электрогитара с двумя humbucker"
+        },
+        {
+          "source_slug": "gibson-sg-standard-v-arendu",
+          "link_index": 0,
+          "href": "/elektrogitara-s-dvumya-hambakerami/",
+          "label": "Два humbucker"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "elektrogitara-s-tremolo",
+      "old_h1": "Tremolo: рычаг должен стать музыкальным движением, а не источником настройки",
+      "new_h1": "Тремоло: использовать рычаг и проверять возврат в строй",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "elektrogitara",
+          "link_index": 32,
+          "href": "/elektrogitara-s-tremolo/",
+          "label": "Электрогитара с тремоло в аренду"
+        },
+        {
+          "source_slug": "elektrogitara-s-fiksirovannym-bridzhem",
+          "link_index": 1,
+          "href": "/elektrogitara-s-tremolo/",
+          "label": "Электрогитара с tremolo"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "elektrogitara-s-tremya-singlami",
+      "old_h1": "Три single-coil: пять положений как карта одной партии",
+      "new_h1": "Три сингла: пять положений как карта одной партии",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 2,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "elektrogitara",
+          "link_index": 34,
+          "href": "/elektrogitara-s-tremya-singlami/",
+          "label": "Электрогитара с тремя single-coil датчиками в аренду"
+        },
+        {
+          "source_slug": "fender-player-ii-stratocaster-sss-v-arendu",
+          "link_index": 0,
+          "href": "/elektrogitara-s-tremya-singlami/",
+          "label": "Три single-coil датчика"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-bossa-nova-ansamblya",
+      "old_h1": "Bossa nova: тихий пульс требует точного баланса гитары, голоса и перкуссии",
+      "new_h1": "Босанова: тихий пульс требует точного баланса гитары, голоса и перкуссии",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "klassicheskaya-gitara",
+          "link_index": 14,
+          "href": "/instrumenty-dlya-bossa-nova-ansamblya/",
+          "label": "Инструменты для bossa nova ансамбля в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrumenty-dlya-flamenko-ansamblya",
+      "old_h1": "Flamenco-ансамбль: guitar, voice и percussion должны держать общий compás",
+      "new_h1": "Фламенко-ансамбль: гитара, голос и перкуссия должны держать общий compás",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "klassicheskaya-gitara",
+          "link_index": 15,
+          "href": "/instrumenty-dlya-flamenko-ansamblya/",
+          "label": "Инструменты для flamenco ансамбля в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "rezonatornaya-gitara-dlya-slayda",
+      "old_h1": "Резонатор и slide: сначала способ удержания, потом характер металла",
+      "new_h1": "Резонатор и слайд: сначала способ удержания, потом характер металла",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "rezonatornaya-gitara",
+          "link_index": 1,
+          "href": "/rezonatornaya-gitara-dlya-slayda/",
+          "label": "Резонаторная гитара для слайда в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrument-posle-zamechaniya-o-vyse-strun",
+      "old_h1": "Высота струн: усилие должно обучать технике, а не борьбе с setup",
+      "new_h1": "Высота струн: осваивать технику без борьбы с неудобной регулировкой",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "instrument-po-rekomendatsii-prepodavatelya",
+          "link_index": 110,
+          "href": "/instrument-posle-zamechaniya-o-vyse-strun/",
+          "label": "Инструмент после замечания преподавателя о высоте струн в аренду"
+        }
+      ],
+      "action": "keep_labels"
+    },
+    {
+      "target_slug": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+      "old_h1": "Нужно быстро менять звуки: следующий patch должен быть готов раньше следующей песни",
+      "new_h1": "Нужно быстро менять звуки: следующий пресет должен быть готов раньше следующей песни",
+      "exact_copy_count": 0,
+      "html_whitespace_equivalent_count": 0,
+      "contextual_incoming_kept_count": 1,
+      "contextual_incoming_kept": [
+        {
+          "source_slug": "instrument-po-trebovaniyam-k-kachestvu",
+          "link_index": 106,
+          "href": "/instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene/",
+          "label": "Клавишный инструмент в аренду для быстрых смен звуков на сцене"
+        }
+      ],
+      "action": "keep_labels"
+    }
+  ],
+  "generated_child_labels_no_manual_change": [
+    {
+      "source_slug": "bandoneon",
+      "target_slug": "instrumenty-dlya-tango-kvarteta",
+      "link_index": 6,
+      "href": "/instrumenty-dlya-tango-kvarteta/",
+      "before": "Инструменты для tango-квартета в аренду",
+      "after": "Инструменты для танго-квартета в аренду",
+      "matching_source_definitions": []
+    },
+    {
+      "source_slug": "klarinet",
+      "target_slug": "instrumenty-dlya-klezmer-ansamblya",
+      "link_index": 20,
+      "href": "/instrumenty-dlya-klezmer-ansamblya/",
+      "before": "Инструменты для klezmer ансамбля в аренду",
+      "after": "Инструменты для клезмерского ансамбля в аренду",
+      "matching_source_definitions": []
+    },
+    {
+      "source_slug": "bas-gitara",
+      "target_slug": "instrumenty-dlya-fank-gruppy",
+      "link_index": 22,
+      "href": "/instrumenty-dlya-fank-gruppy/",
+      "before": "Инструменты для funk-группы в аренду",
+      "after": "Инструменты для фанк-группы в аренду",
+      "matching_source_definitions": []
+    },
+    {
+      "source_slug": "bas-gitara",
+      "target_slug": "instrumenty-dlya-reggae-gruppy",
+      "link_index": 23,
+      "href": "/instrumenty-dlya-reggae-gruppy/",
+      "before": "Инструменты для reggae-группы в аренду",
+      "after": "Инструменты для регги-группы в аренду",
+      "matching_source_definitions": []
+    },
+    {
+      "source_slug": "elektrogitara",
+      "target_slug": "elektrogitara-s-tremya-singlami",
+      "link_index": 34,
+      "href": "/elektrogitara-s-tremya-singlami/",
+      "before": "Электрогитара с тремя single-coil датчиками в аренду",
+      "after": "Электрогитара с тремя синглами в аренду",
+      "matching_source_definitions": []
+    },
+    {
+      "source_slug": "klassicheskaya-gitara",
+      "target_slug": "instrumenty-dlya-bossa-nova-ansamblya",
+      "link_index": 14,
+      "href": "/instrumenty-dlya-bossa-nova-ansamblya/",
+      "before": "Инструменты для bossa nova ансамбля в аренду",
+      "after": "Инструменты для ансамбля босановы в аренду",
+      "matching_source_definitions": []
+    },
+    {
+      "source_slug": "klassicheskaya-gitara",
+      "target_slug": "instrumenty-dlya-flamenko-ansamblya",
+      "link_index": 15,
+      "href": "/instrumenty-dlya-flamenko-ansamblya/",
+      "before": "Инструменты для flamenco ансамбля в аренду",
+      "after": "Инструменты для ансамбля фламенко в аренду",
+      "matching_source_definitions": []
+    },
+    {
+      "source_slug": "instrument-po-trebovaniyam-k-kachestvu",
+      "target_slug": "instrument-esli-slishkom-dolgiy-sustain",
+      "link_index": 104,
+      "href": "/instrument-esli-slishkom-dolgiy-sustain/",
+      "before": "Инструмент в аренду, если sustain слишком длинный",
+      "after": "Инструмент в аренду, если звук длится слишком долго",
+      "matching_source_definitions": []
+    }
+  ]
+}

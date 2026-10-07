@@ -1,0 +1,54 @@
+{
+  "purpose": "Durable prepared language proposals. These JSON files do not enter the site compiler; root review and integration are required. Public content includes only the packages named in CURRENT-WORK-STATE.md.",
+  "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "cohorts": [
+    {
+      "cohort": 2,
+      "status": "prepared_not_integrated",
+      "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+      "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+      "files": [
+        {
+          "kind": "review",
+          "path": "docs/audits/prepared-language/language-02-review.json",
+          "sha256": "547f7ce5e66f45f0d5eda3a7c75864985062868223ec6a4ab5a2cf58906be91e"
+        },
+        {
+          "kind": "candidate",
+          "path": "docs/audits/prepared-language/language-02-candidate.json",
+          "sha256": "4ba4fa314cfb9dceaef172ab0aa15d110792b75245bc2f0a5302a7a4819f13c3"
+        },
+        {
+          "kind": "labels",
+          "path": "docs/audits/prepared-language/language-02-labels.json",
+          "sha256": "e9d42c7c6d64dc454b8cd487e956c666e1498ed6af707e949df8173583ad32f4"
+        }
+      ]
+    },
+    {
+      "cohort": 3,
+      "status": "prepared_not_integrated",
+      "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+      "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+      "files": [
+        {
+          "kind": "review",
+          "path": "docs/audits/prepared-language/language-03-review.json",
+          "sha256": "ab965dfa9f2182e47f92349eb28e2055364b4f7d7d7ede2cadcfaede63046179"
+        },
+        {
+          "kind": "candidate",
+          "path": "docs/audits/prepared-language/language-03-candidate.json",
+          "sha256": "a0cf036ac2ebf18bea7f5dc6cf898e0605318eb47653d2c062abb41687fae1b8"
+        },
+        {
+          "kind": "labels",
+          "path": "docs/audits/prepared-language/language-03-labels.json",
+          "sha256": "86cff0e4155c34f5f773624b5c4c3a022509b50deef5460efbc55baf340ffce2"
+        }
+      ]
+    }
+  ],
+  "continuation": "../../CURRENT-WORK-STATE.md",
+  "file_path_base": "repository root"
+}

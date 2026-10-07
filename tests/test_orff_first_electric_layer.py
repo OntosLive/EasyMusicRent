@@ -33,6 +33,7 @@ class OrffFirstElectricTests(unittest.TestCase):
         cls.temp = tempfile.TemporaryDirectory()
         cls.output = Path(cls.temp.name)
         cls.report = core.build(ROOT, cls.output)
+        cls.current = {p['slug']: p for p in cls.report['pages']}
 
     @classmethod
     def tearDownClass(cls):
@@ -55,9 +56,12 @@ class OrffFirstElectricTests(unittest.TestCase):
         for p in self.new:
             with self.subTest(slug=p['slug']):
                 entry, deep = self.page(p['slug']), self.page(p['slug'],True)
-                self.assertEqual(core.text(entry.h1),p['search_title'])
-                self.assertEqual(core.text(deep.h1),p['editorial_title'])
-                self.assertIsNone(re.search(r'аренд|прокат|напрокат',p['editorial_title'],re.I))
+                # Check the current pair after later editorial layers are merged.
+                current = self.current[p['slug']]
+                self.assertEqual(core.text(entry.h1),current['entry_title'])
+                self.assertEqual(core.text(deep.h1),current['editorial_title'])
+                self.assertNotEqual(current['entry_title'],current['editorial_title'])
+                self.assertIsNone(re.search(r'аренд|прокат|напрокат',current['editorial_title'],re.I))
                 self.assertIsNone(entry.find('meta',attrs={'name':'robots'}))
                 self.assertIn('noindex',deep.find('meta',attrs={'name':'robots'})['content'])
                 self.assertEqual(len(entry.select('.contact-block')),1)

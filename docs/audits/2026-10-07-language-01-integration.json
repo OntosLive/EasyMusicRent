@@ -1,0 +1,203 @@
+{
+  "package": "public-language-01",
+  "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "base_snapshot": "corpus-after-legacy-closure.json",
+  "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "overlay_files": [
+    "content/sections/zzzz61-public-language-01.json"
+  ],
+  "approved_label_changes": [
+    {
+      "source": "hohner-bravo-i-49f-v-arendu",
+      "href": "/akkordeon-s-vybornym-basom-pered-pokupkoy/",
+      "before": "Free-bass перед покупкой",
+      "after": "Выборный бас перед покупкой"
+    },
+    {
+      "source": "instrumenty-dlya-dzhazovogo-kvarteta",
+      "href": "/backline-dlya-dzhazovogo-kvinteta/",
+      "before": "Backline для джазового квинтета",
+      "after": "Бэклайн для джазового квинтета"
+    },
+    {
+      "source": "roland-tr909-v-arendu",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Live session в студии",
+      "after": "Живая сессия в студии"
+    },
+    {
+      "source": "instrumenty-dlya-reggae-gruppy",
+      "href": "/elektrogitara-dlya-chistogo-zvuka/",
+      "before": "Электрогитара clean",
+      "after": "Электрогитара с чистым звуком"
+    },
+    {
+      "source": "elektrogitara-s-fiksirovannym-bridzhem",
+      "href": "/elektrogitara-s-tremolo/",
+      "before": "Электрогитара с tremolo",
+      "after": "Электрогитара с тремоло"
+    },
+    {
+      "source": "instrument-esli-ne-hvataet-ataki",
+      "href": "/instrument-esli-slishkom-dolgiy-sustain/",
+      "before": "Если sustain слишком длинный",
+      "after": "Если звук длится слишком долго"
+    },
+    {
+      "source": "instrument-esli-ne-hvataet-verhnego-registra",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "source": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    },
+    {
+      "source": "bandoneon",
+      "href": "/instrumenty-dlya-tango-kvarteta/",
+      "before": "Инструменты для tango-квартета в аренду",
+      "after": "Инструменты для танго-квартета в аренду"
+    },
+    {
+      "source": "klarinet",
+      "href": "/instrumenty-dlya-klezmer-ansamblya/",
+      "before": "Инструменты для klezmer ансамбля в аренду",
+      "after": "Инструменты для клезмерского ансамбля в аренду"
+    },
+    {
+      "source": "bas-gitara",
+      "href": "/instrumenty-dlya-fank-gruppy/",
+      "before": "Инструменты для funk-группы в аренду",
+      "after": "Инструменты для фанк-группы в аренду"
+    },
+    {
+      "source": "bas-gitara",
+      "href": "/instrumenty-dlya-reggae-gruppy/",
+      "before": "Инструменты для reggae-группы в аренду",
+      "after": "Инструменты для регги-группы в аренду"
+    },
+    {
+      "source": "elektrogitara",
+      "href": "/elektrogitara-s-tremya-singlami/",
+      "before": "Электрогитара с тремя single-coil датчиками в аренду",
+      "after": "Электрогитара с тремя синглами в аренду"
+    },
+    {
+      "source": "klassicheskaya-gitara",
+      "href": "/instrumenty-dlya-bossa-nova-ansamblya/",
+      "before": "Инструменты для bossa nova ансамбля в аренду",
+      "after": "Инструменты для ансамбля босановы в аренду"
+    },
+    {
+      "source": "klassicheskaya-gitara",
+      "href": "/instrumenty-dlya-flamenko-ansamblya/",
+      "before": "Инструменты для flamenco ансамбля в аренду",
+      "after": "Инструменты для ансамбля фламенко в аренду"
+    },
+    {
+      "source": "instrument-po-trebovaniyam-k-kachestvu",
+      "href": "/instrument-esli-slishkom-dolgiy-sustain/",
+      "before": "Инструмент в аренду, если sustain слишком длинный",
+      "after": "Инструмент в аренду, если звук длится слишком долго"
+    }
+  ],
+  "source_label_patches": [
+    {
+      "file": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+      "pointer": "/navigation/hohner-bravo-i-49f-v-arendu/1/label",
+      "before": "Free-bass перед покупкой",
+      "after": "Выборный бас перед покупкой"
+    },
+    {
+      "file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "pointer": "/pages/1/links/3/label",
+      "before": "Backline для джазового квинтета",
+      "after": "Бэклайн для джазового квинтета"
+    },
+    {
+      "file": "content/sections/zzzz35-conductivity-final-model-bridges-a.json",
+      "pointer": "/navigation/roland-tr909-v-arendu/1/label",
+      "before": "Live session в студии",
+      "after": "Живая сессия в студии"
+    },
+    {
+      "file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "pointer": "/pages/14/links/1/label",
+      "before": "Электрогитара clean",
+      "after": "Электрогитара с чистым звуком"
+    },
+    {
+      "file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "pointer": "/pages/10/links/1/label",
+      "before": "Электрогитара с tremolo",
+      "after": "Электрогитара с тремоло"
+    },
+    {
+      "file": "content/sections/zzzz24-conductivity-environment-obstacle-bridges.json",
+      "pointer": "/navigation/instrument-esli-ne-hvataet-ataki/1/label",
+      "before": "Если sustain слишком длинный",
+      "after": "Если звук длится слишком долго"
+    },
+    {
+      "file": "content/sections/zzzz28-conductivity-range-obstacle-bridges.json",
+      "pointer": "/navigation/instrument-esli-ne-hvataet-verhnego-registra/1/label",
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "file": "content/sections/zzzz24-conductivity-environment-obstacle-bridges.json",
+      "pointer": "/navigation/instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene/1/label",
+      "before": "Workstation для концертного сета",
+      "after": "Рабочая станция для концертного сета"
+    }
+  ],
+  "approved_shape_changes": [],
+  "approved_numeric_changes": [
+    {
+      "slug": "fender-american-professional-ii-telecaster-v-arendu",
+      "field": "kicker",
+      "before": "RIDER CORE · TELECASTER · 2 SINGLE-COIL",
+      "after": "TELECASTER · ДВА СИНГЛА · ФИКСИРОВАННЫЙ БРИДЖ"
+    },
+    {
+      "slug": "besson-prestige-2052-v-arendu",
+      "field": "description",
+      "before": "Besson Prestige 2052 B-flat euphonium: 4 compensating valves, tuning-slide trigger and professional solo/band reference.",
+      "after": "Эуфониум Besson Prestige 2052 в строе B♭: четыре вентиля с компенсационной системой, триггер общего строя и профессиональная сольная и оркестровая практика."
+    },
+    {
+      "slug": "besson-prestige-2052-v-arendu",
+      "field": "blocks[0].title",
+      "before": "4-valve 3+1 compensating system входит в саму модель",
+      "after": "Четыре вентиля по схеме 3+1 и компенсационная система входят в саму модель"
+    },
+    {
+      "slug": "yamaha-trbx174-v-arendu",
+      "field": "description",
+      "before": "Yamaha TRBX174: entry-level 4-string bass with passive P/J pickups, straightforward controls and beginner-oriented playability.",
+      "after": "Yamaha TRBX174: начальный четырёхструнный бас с пассивными звукоснимателями P/J, простым управлением и удобством для начинающих."
+    },
+    {
+      "slug": "yamaha-bb234-v-arendu",
+      "field": "description",
+      "before": "Yamaha BB234: introductory BB-series 4-string bass with alder body, passive pickups and beginner-oriented playability.",
+      "after": "Yamaha BB234: начальный четырёхструнный бас серии BB с ольховым корпусом, пассивными звукоснимателями и удобством для начинающих."
+    },
+    {
+      "slug": "yamaha-dtx402k-v-arendu",
+      "field": "description",
+      "before": "Yamaha DTX402K: compact entry-level electronic drum kit with 10 training functions and beginner-oriented learning support.",
+      "after": "Yamaha DTX402K: компактный начальный электронный комплект с десятью тренировочными функциями и поддержкой обучения для начинающих."
+    },
+    {
+      "slug": "squier-mini-stratocaster-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Три single-coil pickups и 5-way switch позволяют изучать те же основные тембровые позиции. Hardtail bridge дополнительно убирает тремоло как лишнюю переменную первых занятий.",
+      "after": "Три сингла и пятипозиционный переключатель позволяют изучать те же основные тембровые позиции. Фиксированный бридж дополнительно убирает тремоло как лишнюю переменную первых занятий."
+    }
+  ],
+  "numeric_review_reason": "Seven equivalent spellings were checked individually: 2→два, 4→четыре/четырёхструнный, 10→десять, 5-way→пятипозиционный. Quantities, model identifiers and 3+1 configuration are preserved."
+}
