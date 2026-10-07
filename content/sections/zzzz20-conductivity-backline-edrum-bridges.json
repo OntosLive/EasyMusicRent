@@ -2,7 +2,7 @@
   "navigation": {
     "fender-65-twin-reverb-v-arendu": [
       {
-        "label": "Гитарный усилитель для clean",
+        "label": "Гитарный усилитель для чистого звука",
         "href": "/gitarnyy-usilitel-dlya-klina/"
       },
       {
@@ -32,11 +32,11 @@
     ],
     "marshall-jcm800-2203-v-arendu": [
       {
-        "label": "Гитарный усилитель для crunch",
+        "label": "Гитарный усилитель для кранча",
         "href": "/gitarnyy-usilitel-dlya-krancha/"
       },
       {
-        "label": "Гитарный усилитель для high-gain",
+        "label": "Гитарный усилитель для плотного перегруза",
         "href": "/gitarnyy-usilitel-dlya-high-gain/"
       }
     ],
@@ -62,7 +62,7 @@
     ],
     "evh-5150iii-100s-v-arendu": [
       {
-        "label": "Гитарный усилитель для high-gain",
+        "label": "Гитарный усилитель для плотного перегруза",
         "href": "/gitarnyy-usilitel-dlya-high-gain/"
       },
       {
@@ -72,17 +72,17 @@
     ],
     "orange-rockerverb-50-mkiii-v-arendu": [
       {
-        "label": "Гитарный усилитель для crunch",
+        "label": "Гитарный усилитель для кранча",
         "href": "/gitarnyy-usilitel-dlya-krancha/"
       },
       {
-        "label": "Гитарный усилитель для high-gain",
+        "label": "Гитарный усилитель для плотного перегруза",
         "href": "/gitarnyy-usilitel-dlya-high-gain/"
       }
     ],
     "mesa-dual-rectifier-v-arendu": [
       {
-        "label": "Гитарный усилитель для high-gain",
+        "label": "Гитарный усилитель для плотного перегруза",
         "href": "/gitarnyy-usilitel-dlya-high-gain/"
       },
       {
@@ -96,7 +96,7 @@
         "href": "/akusticheskiy-usilitel-dlya-vokalista-s-gitaroy/"
       },
       {
-        "label": "Backline для акустического концерта",
+        "label": "Бэклайн для акустического концерта",
         "href": "/backline-dlya-akusticheskogo-kontserta/"
       }
     ],

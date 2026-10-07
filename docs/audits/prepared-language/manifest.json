@@ -30,7 +30,7 @@
     },
     {
       "cohort": 3,
-      "status": "prepared_not_integrated",
+      "status": "integrated_with_root_refinements",
       "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
       "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
       "files": [
@@ -50,7 +50,72 @@
           "sha256": "86cff0e4155c34f5f773624b5c4c3a022509b50deef5460efbc55baf340ffce2"
         }
       ],
-      "supplemental_root_review": "docs/audits/prepared-language/language-03-root-review.json"
+      "supplemental_root_review": "docs/audits/prepared-language/language-03-root-review.json",
+      "integration_record": "docs/audits/2026-10-07-language-03-review.json",
+      "integrated_overlay": "content/sections/zzzz63-public-language-03.json",
+      "note": "Frozen originals and root review remain as evidence; integration records 43 effective labels, including the additional automatic parent label, and defers 7 to group 06."
+    },
+    {
+      "cohort": 5,
+      "status": "prepared_not_integrated",
+      "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+      "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+      "reviewed_pages": 143,
+      "enrich": 102,
+      "keep": 41,
+      "content_or_metadata_records": 100,
+      "label_only_decisions": 2,
+      "files": [
+        {
+          "kind": "review",
+          "path": "docs/audits/prepared-language/language-05-review.json",
+          "sha256": "2a592815533712ab9a63401b27fb77c727d156ec1cb02cef7e5750a10882dd23"
+        },
+        {
+          "kind": "candidate",
+          "path": "docs/audits/prepared-language/language-05-candidate.json",
+          "sha256": "bee076fd1485a37f0ab5954a88d1d26b930de704c08c8c0ee8a34892fa9d0f06"
+        },
+        {
+          "kind": "labels",
+          "path": "docs/audits/prepared-language/language-05-labels.json",
+          "sha256": "0ae32f7194ba6af7b1ce81bf3c257a680b858324c7e99c37b3ffc6a12f9c09c9"
+        }
+      ],
+      "independent_review": "Pending; frozen originals remain unchanged."
+    },
+    {
+      "cohort": 6,
+      "status": "prepared_not_integrated",
+      "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+      "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+      "reviewed_pages": 139,
+      "enrich": 128,
+      "keep": 11,
+      "files": [
+        {
+          "kind": "review",
+          "path": "docs/audits/prepared-language/language-06-review.json",
+          "sha256": "3c375512bfd31fff59fd134180c555eb40454b38a1db7c3528c3f0728f21ab56"
+        },
+        {
+          "kind": "candidate",
+          "path": "docs/audits/prepared-language/language-06-candidate.json",
+          "sha256": "9cd96e26ad4d9ee93c21ad5d3068e0309d0ec9a2e4e87d826da5cf75cab636cc"
+        },
+        {
+          "kind": "labels",
+          "path": "docs/audits/prepared-language/language-06-labels.json",
+          "sha256": "3c5b9c7ba60f65eb7ef4633a0f99ecbc5966bd3186659ed51b55be8dfbd3446f"
+        }
+      ],
+      "independent_review": "Pending; frozen originals remain unchanged.",
+      "structure_review": {
+        "path": "docs/audits/prepared-language/language-06-structure-review.json",
+        "sha256": "af53fff105079af82b4c0b5afb92cd0ca681b6c6e2554eaadcf578731a5fad17",
+        "status": "clear",
+        "scope": "Frozen proposal integrity and 20 label locators compared to the working tree with group 03 integrated; not the independent content cross-review."
+      }
     }
   ],
   "continuation": "../../CURRENT-WORK-STATE.md",

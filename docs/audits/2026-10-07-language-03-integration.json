@@ -1,0 +1,624 @@
+{
+  "package": "public-language-03",
+  "base_commit": "478b860d18c52b7955c8e05ea0e71fe990df9940",
+  "base_snapshot": "corpus-after-language-02.json",
+  "base_snapshot_sha256": "99db5e858af20686309f52a7dd027419a32fec73d5070b4910fe4b4fa0f7b010",
+  "overlay_files": [
+    "content/sections/zzzz63-public-language-03.json"
+  ],
+  "source_label_patches": [
+    {
+      "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+      "pointer": "/navigation/vic-firth-fresh-approach-starter-pack-v-arendu/0/label",
+      "before": "Малый барабан для rudiments",
+      "after": "Малый барабан для рудиментов",
+      "source": "vic-firth-fresh-approach-starter-pack-v-arendu",
+      "href": "/malyy-baraban-dlya-rudimentov/"
+    },
+    {
+      "file": "content/sections/zz29-amplifiers-backline.json",
+      "pointer": "/navigation/usiliteli-backline/5/label",
+      "before": "Leslie и rotary-системы",
+      "after": "Leslie и роторные системы",
+      "source": "usiliteli-backline",
+      "href": "/rotornye-akusticheskie-sistemy/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/fishman-loudbox-artist-v-arendu/1/label",
+      "before": "Backline для акустического концерта",
+      "after": "Бэклайн для акустического концерта",
+      "source": "fishman-loudbox-artist-v-arendu",
+      "href": "/backline-dlya-akusticheskogo-kontserta/"
+    },
+    {
+      "file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "pointer": "/pages/4/links/0/label",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "source": "basovyy-usilitel-dlya-gastroley",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/evh-5150iii-100s-v-arendu/0/label",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза",
+      "source": "evh-5150iii-100s-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/fender-65-twin-reverb-v-arendu/0/label",
+      "before": "Гитарный усилитель для clean",
+      "after": "Гитарный усилитель для чистого звука",
+      "source": "fender-65-twin-reverb-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-klina/"
+    },
+    {
+      "file": "content/sections/zz113-guitar-backline-human-scenes.json",
+      "pointer": "/pages/7/links/0/label",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "source": "gitarnyy-usilitel-dlya-gastrolnoy-zameny",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/marshall-jcm800-2203-v-arendu/0/label",
+      "before": "Гитарный усилитель для crunch",
+      "after": "Гитарный усилитель для кранча",
+      "source": "marshall-jcm800-2203-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-krancha/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/marshall-jcm800-2203-v-arendu/1/label",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза",
+      "source": "marshall-jcm800-2203-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/mesa-dual-rectifier-v-arendu/0/label",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза",
+      "source": "mesa-dual-rectifier-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/orange-rockerverb-50-mkiii-v-arendu/0/label",
+      "before": "Гитарный усилитель для crunch",
+      "after": "Гитарный усилитель для кранча",
+      "source": "orange-rockerverb-50-mkiii-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-krancha/"
+    },
+    {
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "pointer": "/navigation/orange-rockerverb-50-mkiii-v-arendu/1/label",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза",
+      "source": "orange-rockerverb-50-mkiii-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/"
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "pointer": "/pages/3/links/0/label",
+      "before": "Backline для фестиваля",
+      "after": "Бэклайн для фестиваля",
+      "source": "backline-dlya-bystroy-smeny-grupp",
+      "href": "/backline-dlya-festivalya/"
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "pointer": "/pages/9/links/1/label",
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое цифровое пианино по райдеру",
+      "source": "backline-dlya-dzhazovogo-kvinteta",
+      "href": "/stage-piano-po-rayderu/"
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "pointer": "/pages/15/links/0/label",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "source": "backline-dlya-odnodnevnoy-arendy",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "pointer": "/pages/12/links/0/label",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "source": "backline-dlya-rezervnogo-komplekta",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "pointer": "/pages/10/links/0/label",
+      "before": "Гитарный усилитель high-gain",
+      "after": "Гитарный усилитель с плотным перегрузом",
+      "source": "backline-dlya-rok-gruppy",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/"
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "pointer": "/pages/13/links/0/label",
+      "before": "Backline по райдеру",
+      "after": "Бэклайн по райдеру",
+      "source": "backline-dlya-soundcheck-do-priezda-artista",
+      "href": "/backline-po-rayderu-dlya-gruppy/"
+    },
+    {
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "pointer": "/pages/6/links/0/label",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "source": "backline-po-rayderu-dlya-gruppy",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "pointer": "/pages/8/links/0/label",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн",
+      "source": "basovyy-backline-po-rayderu",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "pointer": "/pages/14/links/0/label",
+      "before": "Backline для fly-date",
+      "after": "Бэклайн для концерта с перелётом",
+      "source": "instrumenty-dlya-gastrolnogo-kamernogo-sostava",
+      "href": "/backline-dlya-fly-date/"
+    },
+    {
+      "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "pointer": "/pages/12/links/0/label",
+      "before": "Backline на один день",
+      "after": "Бэклайн на один день",
+      "source": "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya",
+      "href": "/backline-dlya-odnodnevnoy-arendy/"
+    },
+    {
+      "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "pointer": "/pages/8/links/0/label",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "source": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "pointer": "/pages/7/links/1/label",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "source": "instrumenty-dlya-teatralnogo-ansamblya",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "pointer": "/pages/10/links/0/label",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "source": "instrumenty-dlya-teleefira-s-zhivym-ansamblem",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "pointer": "/pages/11/links/1/label",
+      "before": "Backline",
+      "after": "Бэклайн",
+      "source": "instrumenty-dlya-videosyemki-zhivogo-ansamblya",
+      "href": "/usiliteli-backline/"
+    },
+    {
+      "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "pointer": "/pages/15/links/0/label",
+      "before": "Backline функциональная замена",
+      "after": "Функциональная замена бэклайна",
+      "source": "instrumenty-dlya-zameny-uchastnika-ansamblya",
+      "href": "/funktsionalnaya-zamena-backline-po-rayderu/"
+    }
+  ],
+  "approved_label_changes": [
+    {
+      "source": "ruchnaya-perkussiya",
+      "href": "/instrumenty-dlya-latino-ansamblya/",
+      "before": "Инструменты для latin ансамбля в аренду",
+      "after": "Инструменты для латиноамериканского ансамбля в аренду"
+    },
+    {
+      "source": "gitarnyy-usilitel-dlya-gastrolnoy-zameny",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "basovyy-usilitel-dlya-gastroley",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "basovyy-backline-po-rayderu",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "backline-dlya-bystroy-smeny-grupp",
+      "href": "/backline-dlya-festivalya/",
+      "before": "Backline для фестиваля",
+      "after": "Бэклайн для фестиваля"
+    },
+    {
+      "source": "backline-po-rayderu-dlya-gruppy",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "backline-dlya-dzhazovogo-kvinteta",
+      "href": "/stage-piano-po-rayderu/",
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое цифровое пианино по райдеру"
+    },
+    {
+      "source": "backline-dlya-rok-gruppy",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель high-gain",
+      "after": "Гитарный усилитель с плотным перегрузом"
+    },
+    {
+      "source": "backline-dlya-rezervnogo-komplekta",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "backline-dlya-soundcheck-do-priezda-artista",
+      "href": "/backline-po-rayderu-dlya-gruppy/",
+      "before": "Backline по райдеру",
+      "after": "Бэклайн по райдеру"
+    },
+    {
+      "source": "backline-dlya-odnodnevnoy-arendy",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-teatralnogo-ansamblya",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-teleefira-s-zhivym-ansamblem",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-videosyemki-zhivogo-ansamblya",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya",
+      "href": "/backline-dlya-odnodnevnoy-arendy/",
+      "before": "Backline на один день",
+      "after": "Бэклайн на один день"
+    },
+    {
+      "source": "instrumenty-dlya-gastrolnogo-kamernogo-sostava",
+      "href": "/backline-dlya-fly-date/",
+      "before": "Backline для fly-date",
+      "after": "Бэклайн для концерта с перелётом"
+    },
+    {
+      "source": "instrumenty-dlya-zameny-uchastnika-ansamblya",
+      "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+      "before": "Backline функциональная замена",
+      "after": "Функциональная замена бэклайна"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/rotornye-akusticheskie-sistemy/",
+      "before": "Leslie и rotary-системы",
+      "after": "Leslie и роторные системы"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/basovyy-backline-po-rayderu/",
+      "before": "Басовый backline по райдеру в аренду",
+      "after": "Басовый бэклайн по райдеру в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-klubnoy-stseny/",
+      "before": "Backline для клубной сцены в аренду",
+      "after": "Бэклайн для клубной сцены в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-bystroy-smeny-grupp/",
+      "before": "Backline для быстрой смены групп в аренду",
+      "after": "Бэклайн для быстрой смены групп в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-po-rayderu-dlya-gruppy/",
+      "before": "Backline по райдеру для группы в аренду",
+      "after": "Бэклайн по райдеру для группы в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-ritm-sektsii/",
+      "before": "Backline для ритм-секции в аренду",
+      "after": "Бэклайн для ритм-секции в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-akusticheskogo-kontserta/",
+      "before": "Backline для акустического концерта в аренду",
+      "after": "Бэклайн для акустического концерта в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-dzhazovogo-kvinteta/",
+      "before": "Backline для джазового квинтета в аренду",
+      "after": "Бэклайн для джазового квинтета в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-rok-gruppy/",
+      "before": "Backline для рок-группы в аренду",
+      "after": "Бэклайн для рок-группы в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-vokalista-s-gitaroy/",
+      "before": "Backline для вокалиста с гитарой в аренду",
+      "after": "Бэклайн для вокалиста с гитарой в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-rezervnogo-komplekta/",
+      "before": "Резервный backline для концерта в аренду",
+      "after": "Резервный бэклайн для концерта в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-soundcheck-do-priezda-artista/",
+      "before": "Backline для soundcheck до приезда артиста в аренду",
+      "after": "Бэклайн для саундчека до приезда артиста в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-odnodnevnoy-arendy/",
+      "before": "Backline на один день в аренду",
+      "after": "Бэклайн на один день в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Инструменты для live session в студии в аренду",
+      "after": "Инструменты для живой студийной записи в аренду"
+    },
+    {
+      "source": "gitarnye-usiliteli",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель high-gain в аренду",
+      "after": "Гитарный усилитель с плотным перегрузом (high-gain) в аренду"
+    },
+    {
+      "source": "gitarnye-usiliteli",
+      "href": "/combo-ili-golova-i-kabinet/",
+      "before": "Combo или голова с кабинетом в аренду для сравнения",
+      "after": "Комбоусилитель или голова с кабинетом в аренду для сравнения"
+    },
+    {
+      "source": "fender-65-twin-reverb-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "before": "Гитарный усилитель для clean",
+      "after": "Гитарный усилитель для чистого звука"
+    },
+    {
+      "source": "marshall-jcm800-2203-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "before": "Гитарный усилитель для crunch",
+      "after": "Гитарный усилитель для кранча"
+    },
+    {
+      "source": "marshall-jcm800-2203-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "evh-5150iii-100s-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "orange-rockerverb-50-mkiii-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "before": "Гитарный усилитель для crunch",
+      "after": "Гитарный усилитель для кранча"
+    },
+    {
+      "source": "orange-rockerverb-50-mkiii-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "mesa-dual-rectifier-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "fishman-loudbox-artist-v-arendu",
+      "href": "/backline-dlya-akusticheskogo-kontserta/",
+      "before": "Backline для акустического концерта",
+      "after": "Бэклайн для акустического концерта"
+    },
+    {
+      "source": "vic-firth-fresh-approach-starter-pack-v-arendu",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "before": "Малый барабан для rudiments",
+      "after": "Малый барабан для рудиментов"
+    }
+  ],
+  "approved_shape_changes": [],
+  "approved_numeric_changes": [
+    {
+      "slug": "marshall-1960a-v-arendu",
+      "field": "description",
+      "before": "Marshall 1960A: angled 4x12, 4 Celestion G12T-75, 300W mono / 150W stereo.",
+      "after": "Marshall 1960A: наклонный 4×12, четыре Celestion G12T-75, 300 Вт в моно / 150 Вт в стерео."
+    },
+    {
+      "slug": "ampeg-rb110-v-arendu",
+      "field": "description",
+      "before": "Ampeg RB-110: 50-watt 1x10 bass combo for practice and small venues with headphones, aux and XLR output.",
+      "after": "Ampeg RB-110: басовый комбоусилитель 1x10 мощностью 50 Вт для занятий и небольших площадок, с выходом для наушников, входом AUX и выходом XLR."
+    },
+    {
+      "slug": "yamaha-rydeen-v-arendu",
+      "field": "description",
+      "before": "Yamaha RYDEEN: 5-piece entry acoustic drum set in 20-inch and 22-inch bass-drum configurations for beginners and intermediate players.",
+      "after": "Yamaha RYDEEN: начальная акустическая установка из пяти барабанов, с бас-барабаном 20 или 22 дюйма, для начинающих и продолжающих обучение."
+    },
+    {
+      "slug": "yamaha-rydeen-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Yamaha использует фирменные tom holders и 6-ply poplar shells. Для ученика важнее, что стойки фиксируются, педали не уезжают, а барабаны можно нормально настроить. Конкретный rental-kit проверяют целиком вместе с hardware и тарелками.",
+      "after": "Yamaha использует фирменные держатели томов и шестислойные тополевые корпуса. Для ученика важнее, что стойки фиксируются, педали не уезжают, а барабаны можно нормально настроить. Конкретный арендный комплект проверяют целиком вместе с фурнитурой и тарелками."
+    }
+  ],
+  "numeric_review_reason": "Four individually reviewed leaves preserve values: 4/5/6 are written as words, and Ampeg 50 W is reordered after its 1x10 configuration.",
+  "deferred_automatic_labels_group_06": [
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[10].label",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "old_label": "Гитарный backline по райдеру в аренду",
+      "new_label": "Гитарный бэклайн по райдеру в аренду",
+      "reason": "Контекстный перевод английской вставки в собственной подписи; не выравнивание под H1.",
+      "kind": "derived_child_search_title",
+      "implementation": "Подпись порождается core.connect из N.0 цели. Не создавать navigation overlay.",
+      "target_search_title": "Гитарный бэклайн по райдеру в аренду",
+      "covered_by_group03_candidate": false,
+      "followup": "Изменить N.0 цели в её языковой группе; языковое предложение ниже не меняет тело цели."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[12].label",
+      "target_slug": "backline-dlya-pervogo-kontserta",
+      "href": "/backline-dlya-pervogo-kontserta/",
+      "old_label": "Backline для первого концерта в аренду",
+      "new_label": "Бэклайн для первого концерта в аренду",
+      "reason": "Контекстный перевод английской вставки в собственной подписи; не выравнивание под H1.",
+      "kind": "derived_child_search_title",
+      "implementation": "Подпись порождается core.connect из N.0 цели. Не создавать navigation overlay.",
+      "target_search_title": "Бэклайн для первого концерта в аренду",
+      "covered_by_group03_candidate": false,
+      "followup": "Изменить N.0 цели в её языковой группе; языковое предложение ниже не меняет тело цели."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[14].label",
+      "target_slug": "backline-dlya-festivalya",
+      "href": "/backline-dlya-festivalya/",
+      "old_label": "Backline для фестиваля в аренду",
+      "new_label": "Бэклайн для фестиваля в аренду",
+      "reason": "Контекстный перевод английской вставки в собственной подписи; не выравнивание под H1.",
+      "kind": "derived_child_search_title",
+      "implementation": "Подпись порождается core.connect из N.0 цели. Не создавать navigation overlay.",
+      "target_search_title": "Бэклайн для фестиваля в аренду",
+      "covered_by_group03_candidate": false,
+      "followup": "Изменить N.0 цели в её языковой группе; языковое предложение ниже не меняет тело цели."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[16].label",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "old_label": "Backline для гастрольного тура в аренду",
+      "new_label": "Бэклайн для гастрольного тура в аренду",
+      "reason": "Контекстный перевод английской вставки в собственной подписи; не выравнивание под H1.",
+      "kind": "derived_child_search_title",
+      "implementation": "Подпись порождается core.connect из N.0 цели. Не создавать navigation overlay.",
+      "target_search_title": "Бэклайн для гастрольного тура в аренду",
+      "covered_by_group03_candidate": false,
+      "followup": "Изменить N.0 цели в её языковой группе; языковое предложение ниже не меняет тело цели."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[17].label",
+      "target_slug": "backline-dlya-fly-date",
+      "href": "/backline-dlya-fly-date/",
+      "old_label": "Backline для fly-date концерта в аренду",
+      "new_label": "Бэклайн для концерта с перелётом в аренду",
+      "reason": "Контекстный перевод английской вставки в собственной подписи; не выравнивание под H1.",
+      "kind": "derived_child_search_title",
+      "implementation": "Подпись порождается core.connect из N.0 цели. Не создавать navigation overlay.",
+      "target_search_title": "Бэклайн для концерта с перелётом в аренду",
+      "covered_by_group03_candidate": false,
+      "followup": "Изменить N.0 цели в её языковой группе; языковое предложение ниже не меняет тело цели."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[26].label",
+      "target_slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+      "old_label": "Функциональная замена backline по райдеру в аренду",
+      "new_label": "Функциональная замена бэклайна по райдеру в аренду",
+      "reason": "Контекстный перевод английской вставки в собственной подписи; не выравнивание под H1.",
+      "kind": "derived_child_search_title",
+      "implementation": "Подпись порождается core.connect из N.0 цели. Не создавать navigation overlay.",
+      "target_search_title": "Функциональная замена бэклайна по райдеру в аренду",
+      "covered_by_group03_candidate": false,
+      "followup": "Изменить N.0 цели в её языковой группе; языковое предложение ниже не меняет тело цели."
+    },
+    {
+      "source_slug": "gitarnye-usiliteli",
+      "field": "links[12].label",
+      "target_slug": "gitarnyy-usilitel-dlya-krancha",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "old_label": "Гитарный усилитель для crunch в аренду",
+      "new_label": "Гитарный усилитель для кранча в аренду",
+      "reason": "Контекстный перевод английской вставки в собственной подписи; не выравнивание под H1.",
+      "kind": "derived_child_search_title",
+      "implementation": "Подпись порождается core.connect из N.0 цели. Не создавать navigation overlay.",
+      "target_search_title": "Гитарный усилитель для кранча в аренду",
+      "covered_by_group03_candidate": false,
+      "followup": "Изменить N.0 цели в её языковой группе; языковое предложение ниже не меняет тело цели."
+    }
+  ],
+  "approved_additional_automatic_labels": [
+    {
+      "source": "ruchnaya-perkussiya",
+      "href": "/instrumenty-dlya-latino-ansamblya/",
+      "before": "Инструменты для latin ансамбля в аренду",
+      "after": "Инструменты для латиноамериканского ансамбля в аренду"
+    }
+  ],
+  "root_label_review": "All 27 explicit operations, 16 effective automatic title updates and 7 deferred automatic updates were reviewed. The extra hand-percussion parent label is produced by the already approved Latin-ensemble search title; no new route is introduced."
+}

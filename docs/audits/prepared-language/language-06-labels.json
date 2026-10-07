@@ -1,0 +1,675 @@
+{
+  "snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "scope": "139 полностью прочитанных страниц группы 06; дословные входящие H1-подписи проверены во всех 1901 темах.",
+  "h1_changes": [
+    {
+      "slug": "ukulele-koncert",
+      "old": "Укулеле concert: больше пространства для привычных аккордов",
+      "new": "Концертная укулеле: больше пространства для привычных аккордов"
+    },
+    {
+      "slug": "ukulele-dlya-sravneniya-razmerov",
+      "old": "Soprano, concert или tenor: одна песня на трёх масштабах",
+      "new": "Сопрано, концерт или тенор: одна песня на трёх масштабах"
+    },
+    {
+      "slug": "ukulele-bariton-dlya-pervogo-opyta",
+      "old": "Первый baritone: четыре знакомые гитарные струны в другом корпусе",
+      "new": "Первый баритон: четыре знакомые гитарные струны в другом корпусе"
+    },
+    {
+      "slug": "mandolina-dlya-domashnih-zanyatiy",
+      "old": "Домашняя мандолина: tremolo должно расти из ежедневной точности",
+      "new": "Домашняя мандолина: тремоло должно расти из ежедневной точности"
+    },
+    {
+      "slug": "mandolina-dlya-raboty-nad-tremolo",
+      "old": "Tremolo: быстрые удары должны превратиться в длинную линию",
+      "new": "Тремоло: быстрые удары должны превратиться в длинную линию"
+    },
+    {
+      "slug": "tanpura-dlya-zapisi",
+      "old": "Танпура в записи: drone должен стать пространством, а не фоном без формы",
+      "new": "Танпура в записи: бурдон должен стать пространством, а не фоном без формы"
+    },
+    {
+      "slug": "syamisen-dlya-domashnih-zanyatiy",
+      "old": "Домашний сямисэн: bachi-техника требует регулярного повторения на реальном корпусе",
+      "new": "Домашний сямисэн: техника работы плектром требует регулярного повторения на реальном корпусе"
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-kontserta",
+      "old": "Концертный набор гармоник: каждая песня должна заранее знать свой key",
+      "new": "Концертный набор гармоник: для каждой песни нужно заранее знать тональность"
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-saund-dizayna",
+      "old": "Sound design руками: сложный параметр становится непрерывным телесным движением",
+      "new": "Саунд-дизайн руками: сложный параметр становится непрерывным телесным движением"
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-klina",
+      "old": "Clean: усилитель должен увеличить гитару, не меняя её раньше времени",
+      "new": "Чистый звук: усилить гитару без преждевременного перегруза"
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-krancha",
+      "old": "Crunch: перегруз должен начинаться там, где рука уже решила играть сильнее",
+      "new": "Кранч: перегруз должен начинаться там, где рука уже решила играть сильнее"
+    },
+    {
+      "slug": "gitarnyy-backline-po-rayderu",
+      "old": "Гитарный райдер: модель является сокращением функции, а substitute нужно согласовывать",
+      "new": "Гитарный райдер: модель является сокращением функции, а замену нужно согласовывать"
+    },
+    {
+      "slug": "backline-dlya-festivalya",
+      "old": "Фестиваль: backline должен пережить много артистов и не превратиться в археологию кабелей",
+      "new": "Фестиваль: бэклайн должен пережить много артистов и не превратиться в археологию кабелей"
+    },
+    {
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "old": "Туровый backline: одинаковая функция должна возникать в каждом городе заново",
+      "new": "Туровый бэклайн: одинаковая функция должна возникать в каждом городе заново"
+    },
+    {
+      "slug": "backline-dlya-fly-date",
+      "old": "Fly-date: артист прилетает с руками и личным минимумом, сцена уже собрана",
+      "new": "Концерт с перелётом: личный минимум в багаже, подготовленная сцена на месте"
+    },
+    {
+      "slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "old": "Substitute: заменить название можно только после того, как понятна функция",
+      "new": "Замена по райдеру: заменить название можно только после того, как понятна функция"
+    },
+    {
+      "slug": "instrument-esli-nuzhen-vyrez-korpusa",
+      "old": "Нужен cutaway: верхние позиции должны стать рабочей частью партии",
+      "new": "Нужен вырез корпуса: верхние позиции должны стать рабочей частью партии"
+    },
+    {
+      "slug": "rotornye-akusticheskie-sistemy",
+      "old": "Rotary-системы: движение звука является частью инструмента",
+      "new": "Роторные системы: движение звука является частью инструмента"
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "old": "Vox AC30C2: British Invasion остаётся живой райдерной конструкцией",
+      "new": "Vox AC30C2: «Британское вторжение» остаётся живой райдерной конструкцией"
+    },
+    {
+      "slug": "roland-jc120-v-arendu",
+      "old": "Roland JC-120: транзисторный clean стал легендой наравне с ламповыми усилителями",
+      "new": "Roland JC-120: транзисторный чистый звук стал легендой наравне с ламповыми усилителями"
+    },
+    {
+      "slug": "sabian-hhx-set-v-arendu",
+      "old": "Sabian HHX: современный тёмный cymbal language как отдельный профессиональный стандарт",
+      "new": "Sabian HHX: современное тёмное звучание тарелок как отдельный профессиональный стандарт"
+    },
+    {
+      "slug": "makala-dolphin-v-arendu",
+      "old": "Makala Dolphin: классный инструмент, где прочность и стабильность важнее декоративной роскоши",
+      "new": "Makala Dolphin: инструмент для класса, где прочность и стабильность важнее декоративной роскоши"
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "old": "Джазовый сет: ride и динамика важнее количества барабанов",
+      "new": "Джазовый сет: райд и динамика важнее количества барабанов"
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-fanka",
+      "old": "Фанк: ghost notes и хэт должны оставаться читаемыми внутри грува",
+      "new": "Фанк: тихие фоновые удары и хэт должны оставаться читаемыми внутри грува"
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "old": "Hi-hat: нога и палка должны менять один инструмент согласованно",
+      "new": "Хай-хэт: нога и палка должны менять один инструмент согласованно"
+    },
+    {
+      "slug": "kahon-pered-pokupkoy",
+      "old": "Перед покупкой кахона: прожить с корпусом, а не выбрать его по одному slap",
+      "new": "Перед покупкой кахона: прожить с корпусом, а не выбрать его по одному слэпу"
+    },
+    {
+      "slug": "darbuka-dlya-pervogo-opyta",
+      "old": "Первая дарбука: dum и tek должны различаться без лишней силы",
+      "new": "Первая дарбука: дум и тек должны различаться без лишней силы"
+    }
+  ],
+  "h1_exact_echo_operations": [],
+  "operations": [
+    {
+      "source_slug": "ukulele-vzroslomu-nachinayuschemu",
+      "field": "links[1].label",
+      "target_slug": "ukulele-koncert",
+      "href": "/ukulele-koncert/",
+      "old_label": "Укулеле-concert",
+      "new_label": "Концертная укулеле",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "field": "pages[0].links[1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "field": "links[0].label",
+      "target_slug": "ukulele-soprano",
+      "href": "/ukulele-soprano/",
+      "old_label": "Soprano",
+      "new_label": "Сопрано",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "field": "pages[3].links[0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "field": "links[1].label",
+      "target_slug": "ukulele-koncert",
+      "href": "/ukulele-koncert/",
+      "old_label": "Concert",
+      "new_label": "Концерт",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "field": "pages[3].links[1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "field": "links[2].label",
+      "target_slug": "ukulele-tenor",
+      "href": "/ukulele-tenor/",
+      "old_label": "Tenor",
+      "new_label": "Тенор",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "field": "pages[3].links[2].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "mandolina-vzroslomu-nachinayuschemu",
+      "field": "links[1].label",
+      "target_slug": "mandolina-dlya-zapisi-tremolo",
+      "href": "/mandolina-dlya-zapisi-tremolo/",
+      "old_label": "Мандолина для записи tremolo",
+      "new_label": "Мандолина для записи тремоло",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "field": "pages[8].links[1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "mandolina-dlya-raboty-nad-tremolo",
+      "field": "links[0].label",
+      "target_slug": "mandolina-dlya-zapisi-tremolo",
+      "href": "/mandolina-dlya-zapisi-tremolo/",
+      "old_label": "Мандолина для записи tremolo",
+      "new_label": "Мандолина для записи тремоло",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "field": "pages[11].links[0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "gitarnyy-backline-po-rayderu",
+      "field": "links[0].label",
+      "target_slug": "usiliteli-backline",
+      "href": "/usiliteli-backline/",
+      "old_label": "Усилители и backline",
+      "new_label": "Усилители и бэклайн",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz113-guitar-backline-human-scenes.json",
+          "field": "pages[14].links[0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "backline-dlya-pervogo-kontserta",
+      "field": "links[0].label",
+      "target_slug": "usiliteli-backline",
+      "href": "/usiliteli-backline/",
+      "old_label": "Усилители и backline",
+      "new_label": "Усилители и бэклайн",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz116-complete-backline-human-scenes.json",
+          "field": "pages[0].links[0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "backline-dlya-gastrolnogo-tura",
+      "field": "links[0].label",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "old_label": "Гитарный backline по райдеру",
+      "new_label": "Гитарный бэклайн по райдеру",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz116-complete-backline-human-scenes.json",
+          "field": "pages[4].links[0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "backline-dlya-gastrolnogo-tura",
+      "field": "links[1].label",
+      "target_slug": "basovyy-backline-po-rayderu",
+      "href": "/basovyy-backline-po-rayderu/",
+      "old_label": "Басовый backline по райдеру",
+      "new_label": "Басовый бэклайн по райдеру",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz116-complete-backline-human-scenes.json",
+          "field": "pages[4].links[1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "field": "links[0].label",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "old_label": "Гитарный backline по райдеру",
+      "new_label": "Гитарный бэклайн по райдеру",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz116-complete-backline-human-scenes.json",
+          "field": "pages[14].links[0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "field": "links[3].label",
+      "target_slug": "malyy-baraban-dlya-rudimentov",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "old_label": "Малый барабан для rudiments",
+      "new_label": "Малый барабан для рудиментов",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz27-conductivity-response-obstacle-bridges.json",
+          "field": "navigation[instrument-esli-otskok-slishkom-vysokiy][1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "field": "links[3].label",
+      "target_slug": "malyy-baraban-dlya-rudimentov",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "old_label": "Малый барабан для rudiments",
+      "new_label": "Малый барабан для рудиментов",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz27-conductivity-response-obstacle-bridges.json",
+          "field": "navigation[instrument-esli-otskok-slishkom-myagkiy][1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "field": "links[2].label",
+      "target_slug": "scenicheskie-klavishnye-dlya-pianista",
+      "href": "/scenicheskie-klavishnye-dlya-pianista/",
+      "old_label": "Stage keyboard для пианиста",
+      "new_label": "Сценические клавишные для пианиста",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz28-conductivity-range-obstacle-bridges.json",
+          "field": "navigation[instrument-esli-nuzhen-bolshiy-diapazon-klaviatury][0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "fender-65-deluxe-reverb-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "gitarnyy-usilitel-dlya-klina",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "old_label": "Гитарный усилитель для clean",
+      "new_label": "Гитарный усилитель для чистого звука",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+          "field": "navigation[fender-65-deluxe-reverb-v-arendu][0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "vox-ac30c2-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "gitarnyy-usilitel-dlya-krancha",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "old_label": "Гитарный усилитель для crunch",
+      "new_label": "Гитарный усилитель для кранча",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+          "field": "navigation[vox-ac30c2-v-arendu][0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "roland-jc120-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "gitarnyy-usilitel-dlya-klina",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "old_label": "Гитарный усилитель для clean",
+      "new_label": "Гитарный усилитель для чистого звука",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+          "field": "navigation[roland-jc120-v-arendu][0].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "roland-tr808-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "old_label": "Live session в студии",
+      "new_label": "Живая студийная запись",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz35-conductivity-final-model-bridges-a.json",
+          "field": "navigation[roland-tr808-v-arendu][1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "hohner-special20-c-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "old_label": "Работа над bending",
+      "new_label": "Работа над бендингом",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+          "field": "navigation[hohner-special20-c-v-arendu][1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    },
+    {
+      "source_slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "field": "links[1].label",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "old_label": "Работа над bending",
+      "new_label": "Работа над бендингом",
+      "reason": "Контекстный перевод собственной смешанной подписи; не выравнивание под новый H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+          "field": "navigation[gubnaya-garmonika-s-legkim-otklikom][1].label"
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись с проверкой href и old_label. Не добавлять маршрут или overlay."
+    }
+  ],
+  "carried_group03_derived_labels": [
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "old_label": "Гитарный backline по райдеру в аренду",
+      "new_label": "Гитарный бэклайн по райдеру в аренду",
+      "kind": "derived_child_search_title",
+      "covered_by_group06_candidate": true,
+      "implementation": "Отложенная авто-подпись из группы 03; изменяется через N.0 цели в группе 06 без отдельной записи navigation."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-pervogo-kontserta",
+      "href": "/backline-dlya-pervogo-kontserta/",
+      "old_label": "Backline для первого концерта в аренду",
+      "new_label": "Бэклайн для первого концерта в аренду",
+      "kind": "derived_child_search_title",
+      "covered_by_group06_candidate": true,
+      "implementation": "Отложенная авто-подпись из группы 03; изменяется через N.0 цели в группе 06 без отдельной записи navigation."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-festivalya",
+      "href": "/backline-dlya-festivalya/",
+      "old_label": "Backline для фестиваля в аренду",
+      "new_label": "Бэклайн для фестиваля в аренду",
+      "kind": "derived_child_search_title",
+      "covered_by_group06_candidate": true,
+      "implementation": "Отложенная авто-подпись из группы 03; изменяется через N.0 цели в группе 06 без отдельной записи navigation."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "old_label": "Backline для гастрольного тура в аренду",
+      "new_label": "Бэклайн для гастрольного тура в аренду",
+      "kind": "derived_child_search_title",
+      "covered_by_group06_candidate": true,
+      "implementation": "Отложенная авто-подпись из группы 03; изменяется через N.0 цели в группе 06 без отдельной записи navigation."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "backline-dlya-fly-date",
+      "href": "/backline-dlya-fly-date/",
+      "old_label": "Backline для fly-date концерта в аренду",
+      "new_label": "Бэклайн для концерта с перелётом в аренду",
+      "kind": "derived_child_search_title",
+      "covered_by_group06_candidate": true,
+      "implementation": "Отложенная авто-подпись из группы 03; изменяется через N.0 цели в группе 06 без отдельной записи navigation."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "target_slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+      "old_label": "Функциональная замена backline по райдеру в аренду",
+      "new_label": "Функциональная замена бэклайна по райдеру в аренду",
+      "kind": "derived_child_search_title",
+      "covered_by_group06_candidate": true,
+      "implementation": "Отложенная авто-подпись из группы 03; изменяется через N.0 цели в группе 06 без отдельной записи navigation."
+    },
+    {
+      "source_slug": "gitarnye-usiliteli",
+      "target_slug": "gitarnyy-usilitel-dlya-krancha",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "old_label": "Гитарный усилитель для crunch в аренду",
+      "new_label": "Гитарный усилитель для кранча в аренду",
+      "kind": "derived_child_search_title",
+      "covered_by_group06_candidate": true,
+      "implementation": "Отложенная авто-подпись из группы 03; изменяется через N.0 цели в группе 06 без отдельной записи navigation."
+    }
+  ],
+  "derived_child_search_title_effects_all_corpus": [
+    {
+      "source_slug": "mandolina",
+      "field": "links[12].label",
+      "target_slug": "mandolina-dlya-raboty-nad-tremolo",
+      "href": "/mandolina-dlya-raboty-nad-tremolo/",
+      "old_label": "Мандолина для работы над tremolo в аренду",
+      "new_label": "Мандолина для работы над тремоло в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Мандолина для работы над тремоло в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    },
+    {
+      "source_slug": "gitarnye-usiliteli",
+      "field": "links[12].label",
+      "target_slug": "gitarnyy-usilitel-dlya-krancha",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "old_label": "Гитарный усилитель для crunch в аренду",
+      "new_label": "Гитарный усилитель для кранча в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Гитарный усилитель для кранча в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[10].label",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "old_label": "Гитарный backline по райдеру в аренду",
+      "new_label": "Гитарный бэклайн по райдеру в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Гитарный бэклайн по райдеру в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[12].label",
+      "target_slug": "backline-dlya-pervogo-kontserta",
+      "href": "/backline-dlya-pervogo-kontserta/",
+      "old_label": "Backline для первого концерта в аренду",
+      "new_label": "Бэклайн для первого концерта в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Бэклайн для первого концерта в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[14].label",
+      "target_slug": "backline-dlya-festivalya",
+      "href": "/backline-dlya-festivalya/",
+      "old_label": "Backline для фестиваля в аренду",
+      "new_label": "Бэклайн для фестиваля в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Бэклайн для фестиваля в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[16].label",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "old_label": "Backline для гастрольного тура в аренду",
+      "new_label": "Бэклайн для гастрольного тура в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Бэклайн для гастрольного тура в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[17].label",
+      "target_slug": "backline-dlya-fly-date",
+      "href": "/backline-dlya-fly-date/",
+      "old_label": "Backline для fly-date концерта в аренду",
+      "new_label": "Бэклайн для концерта с перелётом в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Бэклайн для концерта с перелётом в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    },
+    {
+      "source_slug": "usiliteli-backline",
+      "field": "links[26].label",
+      "target_slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+      "old_label": "Функциональная замена backline по райдеру в аренду",
+      "new_label": "Функциональная замена бэклайна по райдеру в аренду",
+      "reason": "Автоматическая подпись дочерней темы меняется вслед за N.0, включая родителей вне группы 06.",
+      "kind": "derived_child_search_title",
+      "target_search_title": "Функциональная замена бэклайна по райдеру в аренду",
+      "covered_by_group06_candidate": true,
+      "implementation": "Подпись порождается core.connect из N.0 цели; существующий порядок и href сохраняются."
+    }
+  ],
+  "counts": {
+    "h1_changes": 27,
+    "h1_exact_echo_operations": 0,
+    "label_operations": 20,
+    "explicit_source_labels": 20,
+    "already_updated_source_labels": 0,
+    "derived_child_labels": 0,
+    "unlocated_labels": 0,
+    "group03_derived_labels_covered_by_group06": 7,
+    "all_corpus_derived_child_labels_changed": 8,
+    "expected_navigation_labels_changed": 28
+  },
+  "policy": "Подписи моделей, Orff, MIDI, basso continuo и тональностей сохранены. Русские компактные подписи не выравниваются под H1. Все href и позиции остаются прежними."
+}

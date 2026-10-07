@@ -1,0 +1,783 @@
+{
+  "cohort": 5,
+  "input_snapshot": "corpus-after-legacy-closure.json",
+  "snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "status": "ready_for_root_integration_not_published",
+  "policy": "Точные старые H1 ищутся по всему корпусу и исходным JSON/HTML. Собственные смешанные подписи переводятся адресно, сохраняя короткую задачу; остальные карточки не выравниваются. Названия моделей, musical terms и явные поисковые синонимы сохраняются.",
+  "operations": [
+    {
+      "source_slug": "sintezator-dlya-studii",
+      "field": "links[1].label",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "old_label": "Инструменты для live session в студии",
+      "new_label": "Инструменты для одновременной записи в студии",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "sintezator-dlya-studii",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "smychkovye-dlya-studiynoy-zapisi",
+      "field": "links[0].label",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "old_label": "Инструменты для live session в студии",
+      "new_label": "Инструменты для одновременной записи в студии",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "smychkovye-dlya-studiynoy-zapisi",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "korg-monologue-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "sintezator-dlya-sozdaniya-lida",
+      "href": "/sintezator-dlya-sozdaniya-lida/",
+      "old_label": "Синтезатор для lead",
+      "new_label": "Синтезатор для лида",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-monologue-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "korg-monologue-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "old_label": "Hardware и software для сравнения",
+      "new_label": "Аппаратный и программный синтезаторы для сравнения",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-monologue-v-arendu",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "traverso-dlya-pervogo-opyta",
+      "field": "links[1].label",
+      "target_slug": "traverso-dlya-kamernoy-programmy",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "old_label": "Traverso для камерной программы",
+      "new_label": "Траверсо для камерной программы",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz110-historical-winds-human-scenes.json",
+          "json_path": [
+            "pages",
+            0,
+            "links",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "traverso-pered-pokupkoy",
+      "field": "links[0].label",
+      "target_slug": "traverso-dlya-kamernoy-programmy",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "old_label": "Traverso для камерной программы",
+      "new_label": "Траверсо для камерной программы",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz110-historical-winds-human-scenes.json",
+          "json_path": [
+            "pages",
+            3,
+            "links",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "barochnye-instrumenty-dlya-kamernoy-programmy",
+      "field": "links[0].label",
+      "target_slug": "traverso-dlya-kamernoy-programmy",
+      "href": "/traverso-dlya-kamernoy-programmy/",
+      "old_label": "Traverso для камерной программы",
+      "new_label": "Траверсо для камерной программы",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zz111-historical-project-human-scenes.json",
+          "json_path": [
+            "pages",
+            10,
+            "links",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "roland-rd2000ex-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "stage-piano-po-rayderu",
+      "href": "/stage-piano-po-rayderu/",
+      "old_label": "Stage piano по райдеру",
+      "new_label": "Сценическое пианино по райдеру",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-rd2000ex-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "minimoog-model-d-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "sintezator-dlya-sozdaniya-lida",
+      "href": "/sintezator-dlya-sozdaniya-lida/",
+      "old_label": "Синтезатор для lead",
+      "new_label": "Синтезатор для лида",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+          "json_path": [
+            "navigation",
+            "minimoog-model-d-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "roland-juno-106-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "sintezator-dlya-saund-dizayna",
+      "href": "/sintezator-dlya-saund-dizayna/",
+      "old_label": "Синтезатор для sound design",
+      "new_label": "Синтезатор для саунд-дизайна",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-juno-106-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "korg-kronos-2-88-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "old_label": "Workstation для концертного сета",
+      "new_label": "Рабочая станция для концертного сета",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-kronos-2-88-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "korg-kronos-2-88-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "workstation-dlya-gastrolnogo-tura",
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "old_label": "Workstation для гастрольного тура",
+      "new_label": "Рабочая станция для гастрольного тура",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-kronos-2-88-v-arendu",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "yamaha-dx7-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "old_label": "Hardware или software: сравнить способ работы",
+      "new_label": "Аппаратный или программный: сравнить способ работы",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+          "json_path": [
+            "navigation",
+            "yamaha-dx7-v-arendu",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "sequential-prophet-5-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "old_label": "Hardware или software: сравнить способ работы",
+      "new_label": "Аппаратный или программный: сравнить способ работы",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+          "json_path": [
+            "navigation",
+            "sequential-prophet-5-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "roland-d50-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "old_label": "Hardware или software: сравнить способ работы",
+      "new_label": "Аппаратный или программный: сравнить способ работы",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-d50-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "korg-m1-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "href": "/sintezator-dlya-sravneniya-apparatnogo-i-programmnogo/",
+      "old_label": "Hardware или software: сравнить способ работы",
+      "new_label": "Аппаратный или программный: сравнить способ работы",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz01-conductivity-keyboard-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-m1-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "yamaha-montage-m8x-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "old_label": "Workstation для концертного сета",
+      "new_label": "Рабочая станция для концертного сета",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "yamaha-montage-m8x-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "yamaha-montage-m8x-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "workstation-dlya-odnogo-muzykanta",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "old_label": "Workstation для одного музыканта",
+      "new_label": "Рабочая станция для одного музыканта",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "yamaha-montage-m8x-v-arendu",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "roland-fantom-8-ex-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "old_label": "Workstation для концертного сета",
+      "new_label": "Рабочая станция для концертного сета",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-fantom-8-ex-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "roland-fantom-8-ex-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "workstation-dlya-gastrolnogo-tura",
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "old_label": "Workstation для гастрольного тура",
+      "new_label": "Рабочая станция для гастрольного тура",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-fantom-8-ex-v-arendu",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "korg-nautilus-88-at-v-arendu",
+      "field": "links[0].label",
+      "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "old_label": "Workstation для концертного сета",
+      "new_label": "Рабочая станция для концертного сета",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-nautilus-88-at-v-arendu",
+            0,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    },
+    {
+      "source_slug": "korg-nautilus-88-at-v-arendu",
+      "field": "links[1].label",
+      "target_slug": "workstation-dlya-odnogo-muzykanta",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "old_label": "Workstation для одного музыканта",
+      "new_label": "Рабочая станция для одного музыканта",
+      "reason": "Контекстный перевод собственной смешанной подписи с сохранением её задачи и длины; не выравнивание по H1.",
+      "kind": "explicit_source_label",
+      "locations": [
+        {
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-nautilus-88-at-v-arendu",
+            1,
+            "label"
+          ]
+        }
+      ],
+      "implementation": "Изменить существующую исходную подпись по точному старому тексту; не создавать новый маршрут."
+    }
+  ],
+  "title_changes": [
+    {
+      "target_slug": "traverso-dlya-pervogo-opyta",
+      "field": "editorial_title",
+      "before": "Первое traverso: современная флейтовая рука встречает одну клапанную систему и другой воздух",
+      "after": "Первое траверсо: современная флейтовая рука встречает одноклапанную систему и другой воздух"
+    },
+    {
+      "target_slug": "traverso-dlya-domashnih-zanyatiy",
+      "field": "editorial_title",
+      "before": "Домашнее traverso: новая интонация должна закрепляться между ансамблевыми репетициями",
+      "after": "Домашнее траверсо: новая интонация должна закрепляться между ансамблевыми репетициями"
+    },
+    {
+      "target_slug": "traverso-pered-pokupkoy",
+      "field": "editorial_title",
+      "before": "Перед покупкой traverso: строй и реконструкция должны прожить реальную программу",
+      "after": "Перед покупкой траверсо: строй и реконструкция должны прожить реальную программу"
+    },
+    {
+      "target_slug": "tsink-dlya-pervogo-opyta",
+      "field": "editorial_title",
+      "before": "Первый cornetto: мундштук и пальцевые отверстия должны соединиться в один голос",
+      "after": "Первый корнетто: мундштук и пальцевые отверстия должны соединиться в один голос"
+    },
+    {
+      "target_slug": "tsink-dlya-domashnih-zanyatiy",
+      "field": "editorial_title",
+      "before": "Домашний cornetto: редкая координация требует частого возвращения",
+      "after": "Домашний корнетто: редкая координация требует частого возвращения"
+    },
+    {
+      "target_slug": "tsink-pered-pokupkoy",
+      "field": "editorial_title",
+      "before": "Перед покупкой cornetto: проверить мундштук, отверстия и интонацию в ансамбле",
+      "after": "Перед покупкой корнетто: проверить мундштук, отверстия и интонацию в ансамбле"
+    },
+    {
+      "target_slug": "sakbut-dlya-pervogo-opyta",
+      "field": "editorial_title",
+      "before": "Первый sackbut: знакомая кулиса работает в меньшем историческом масштабе",
+      "after": "Первый сакбут: знакомая кулиса работает в меньшем историческом масштабе"
+    },
+    {
+      "target_slug": "sakbut-pered-pokupkoy",
+      "field": "editorial_title",
+      "before": "Перед покупкой sackbut: реконструкция должна совпасть с ансамблем и рукой",
+      "after": "Перед покупкой сакбута: реконструкция должна совпасть с ансамблем и рукой"
+    },
+    {
+      "target_slug": "renessansnye-instrumenty-dlya-konsorta",
+      "field": "editorial_title",
+      "before": "Consort: семейство инструментов должно сложиться по регистрам, а не по одиночным находкам",
+      "after": "Консорт: семейство инструментов должно сложиться по регистрам, а не по одиночным находкам"
+    },
+    {
+      "target_slug": "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta",
+      "field": "editorial_title",
+      "before": "Ренессанс через семейства: показать, как один голос превращается в consort",
+      "after": "Ренессанс через семейства: показать, как один голос превращается в консорт"
+    },
+    {
+      "target_slug": "istoricheskie-instrumenty-dlya-master-klassa",
+      "field": "editorial_title",
+      "before": "Мастер-класс по historical performance: дать участнику настоящий интерфейс эпохи",
+      "after": "Мастер-класс по историческому исполнительству: дать участнику настоящий интерфейс эпохи"
+    },
+    {
+      "target_slug": "workstation-po-rayderu",
+      "field": "editorial_title",
+      "before": "Workstation по райдеру: восстановить не клавиатуру, а весь подготовленный концертный проект",
+      "after": "Рабочая станция по райдеру: восстановить не клавиатуру, а весь подготовленный концертный проект"
+    },
+    {
+      "target_slug": "workstation-po-rayderu",
+      "field": "search_title",
+      "before": "Workstation по райдеру в аренду",
+      "after": "Клавишная рабочая станция по райдеру в аренду"
+    },
+    {
+      "target_slug": "workstation-dlya-gastrolnogo-tura",
+      "field": "editorial_title",
+      "before": "Touring workstation: проект должен переживать города, питание и ежедневный запуск",
+      "after": "Рабочая станция в гастрольном туре: проект должен переживать города, питание и ежедневный запуск"
+    },
+    {
+      "target_slug": "workstation-dlya-gastrolnogo-tura",
+      "field": "search_title",
+      "before": "Workstation для гастрольного тура в аренду",
+      "after": "Клавишная рабочая станция для гастрольного тура в аренду"
+    },
+    {
+      "target_slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+      "field": "editorial_title",
+      "before": "Первый B3 + Leslie: органная клавиатура, drawbars и вращающийся воздух становятся одной системой",
+      "after": "Первый B3 + Leslie: органная клавиатура, регистровые движки и вращающийся воздух становятся одной системой"
+    },
+    {
+      "target_slug": "instrumenty-dlya-soul-gruppy",
+      "field": "editorial_title",
+      "before": "Soul-группа: голосу нужна ритм-секция, которая умеет поддерживать, а не заполнять всё пространство",
+      "after": "Соул-группа: голосу нужна ритм-секция, которая умеет поддерживать, а не заполнять всё пространство"
+    },
+    {
+      "target_slug": "instrumenty-dlya-soul-gruppy",
+      "field": "search_title",
+      "before": "Инструменты для soul-группы в аренду",
+      "after": "Инструменты для соул-группы в аренду"
+    },
+    {
+      "target_slug": "instrumenty-dlya-vokalnogo-dueta-s-fortepiano",
+      "field": "search_title",
+      "before": "Инструменты для вокального дуэта с фортепиано в аренду",
+      "after": "Инструменты для дуэта голоса и фортепиано в аренду"
+    },
+    {
+      "target_slug": "korg-kronos-2-88-v-arendu",
+      "field": "editorial_title",
+      "before": "Korg Kronos 2 88: workstation, который до сих пор приезжает по райдеру",
+      "after": "Korg Kronos 2 88: рабочая станция, которая до сих пор приезжает по райдеру"
+    },
+    {
+      "target_slug": "yamaha-cfx-v-arendu",
+      "field": "editorial_title",
+      "before": "Yamaha CFX: флагманский concert grand как реальная альтернатива Steinway D на большой сцене",
+      "after": "Yamaha CFX: флагманский концертный рояль как реальная альтернатива Steinway D на большой сцене"
+    },
+    {
+      "target_slug": "sequential-prophet-5-v-arendu",
+      "field": "editorial_title",
+      "before": "Prophet‑5: легендарный пятиголосный polysynth вернулся как настоящий hardware, а не только воспоминание",
+      "after": "Prophet‑5: легендарный пятиголосный полифонический синтезатор вернулся как физический инструмент, а не только воспоминание"
+    },
+    {
+      "target_slug": "roland-jupiter-8-v-arendu",
+      "field": "editorial_title",
+      "before": "Roland JUPITER‑8: «king of polysynths» как редкий hardware-референс",
+      "after": "Roland JUPITER‑8: редкий аппаратный образец аналоговой полифонии"
+    },
+    {
+      "target_slug": "roland-d50-v-arendu",
+      "field": "editorial_title",
+      "before": "Roland D‑50: LA synthesis принесла студийно-готовый цифровой звук прямо на сцену",
+      "after": "Roland D‑50: LA-синтез принёс готовый для студии цифровой звук прямо на сцену"
+    },
+    {
+      "target_slug": "korg-m1-v-arendu",
+      "field": "editorial_title",
+      "before": "Korg M1: первая workstation превратила один синтезатор в производственную систему",
+      "after": "Korg M1: первая рабочая станция превратила один синтезатор в производственную систему"
+    },
+    {
+      "target_slug": "yamaha-montage-m8x-v-arendu",
+      "field": "editorial_title",
+      "before": "Yamaha MONTAGE M8x: сегодняшний флагман уже вошёл в профессиональный backline",
+      "after": "Yamaha MONTAGE M8x: сегодняшний флагман уже вошёл в профессиональный бэклайн"
+    },
+    {
+      "target_slug": "roland-fantom-8-ex-v-arendu",
+      "field": "editorial_title",
+      "before": "Roland FANTOM 8 EX: флагманская workstation как полноценная сценическая экосистема",
+      "after": "Roland FANTOM 8 EX: флагманская рабочая станция как полноценная сценическая экосистема"
+    },
+    {
+      "target_slug": "korg-nautilus-88-at-v-arendu",
+      "field": "editorial_title",
+      "before": "Korg NAUTILUS 88 AT: наследник KRONOS с aftertouch и девятью движками",
+      "after": "Korg NAUTILUS 88 AT: наследник KRONOS с послекасанием и девятью движками"
+    },
+    {
+      "target_slug": "goronok-kadentsiya-violonchel-v-arendu",
+      "field": "editorial_title",
+      "before": "Goronok Каденция: студенческая виолончель как step-up внутри знакомой размерной системы",
+      "after": "Goronok Каденция: студенческая виолончель как переход внутри знакомой размерной системы"
+    },
+    {
+      "target_slug": "suzuki-m32c-v-arendu",
+      "field": "editorial_title",
+      "before": "Suzuki M‑32C: long-seller образовательной мелодики с 32-клавишным альтовым диапазоном",
+      "after": "Suzuki M‑32C: долгая школьная история и 32-клавишный альтовый диапазон"
+    },
+    {
+      "target_slug": "sintezator-dlya-sozdaniya-lida",
+      "field": "editorial_title",
+      "before": "Lead: один голос должен выдержать всё внимание",
+      "after": "Лид: один голос должен выдержать всё внимание"
+    },
+    {
+      "target_slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "field": "editorial_title",
+      "before": "Hardware или software: сравнить не звук вообще, а способ думать тембром",
+      "after": "Аппаратный или программный синтезатор: сравнить не звук вообще, а способ думать тембром"
+    },
+    {
+      "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "field": "editorial_title",
+      "before": "Workstation: собрать концерт как последовательность воспроизводимых состояний",
+      "after": "Рабочая станция: собрать концерт как последовательность воспроизводимых состояний"
+    },
+    {
+      "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "field": "search_title",
+      "before": "Workstation для подготовки концертного сета в аренду",
+      "after": "Клавишная рабочая станция для подготовки концертного сета в аренду"
+    },
+    {
+      "target_slug": "workstation-dlya-odnogo-muzykanta",
+      "field": "editorial_title",
+      "before": "Один музыкант: workstation должен собрать несколько ролей без превращения в диспетчерскую",
+      "after": "Один музыкант: рабочая станция должна собрать несколько ролей без превращения в диспетчерскую"
+    },
+    {
+      "target_slug": "workstation-dlya-odnogo-muzykanta",
+      "field": "search_title",
+      "before": "Workstation для выступления одного музыканта в аренду",
+      "after": "Клавишная рабочая станция для выступления одного музыканта в аренду"
+    }
+  ],
+  "automatic_label_updates": [
+    {
+      "source_slug": "fortepiano",
+      "link_index": 15,
+      "href": "/instrumenty-dlya-vokalnogo-dueta-s-fortepiano/",
+      "target_slug": "instrumenty-dlya-vokalnogo-dueta-s-fortepiano",
+      "field": "search_title",
+      "before": "Инструменты для вокального дуэта с фортепиано в аренду",
+      "after": "Инструменты для дуэта голоса и фортепиано в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 20,
+      "href": "/workstation-po-rayderu/",
+      "target_slug": "workstation-po-rayderu",
+      "field": "search_title",
+      "before": "Workstation по райдеру в аренду",
+      "after": "Клавишная рабочая станция по райдеру в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 31,
+      "href": "/workstation-dlya-gastrolnogo-tura/",
+      "target_slug": "workstation-dlya-gastrolnogo-tura",
+      "field": "search_title",
+      "before": "Workstation для гастрольного тура в аренду",
+      "after": "Клавишная рабочая станция для гастрольного тура в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 32,
+      "href": "/instrumenty-dlya-soul-gruppy/",
+      "target_slug": "instrumenty-dlya-soul-gruppy",
+      "field": "search_title",
+      "before": "Инструменты для soul-группы в аренду",
+      "after": "Инструменты для соул-группы в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 41,
+      "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+      "target_slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "field": "search_title",
+      "before": "Workstation для подготовки концертного сета в аренду",
+      "after": "Клавишная рабочая станция для подготовки концертного сета в аренду"
+    },
+    {
+      "source_slug": "scenicheskie-klavishnye",
+      "link_index": 42,
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "target_slug": "workstation-dlya-odnogo-muzykanta",
+      "field": "search_title",
+      "before": "Workstation для выступления одного музыканта в аренду",
+      "after": "Клавишная рабочая станция для выступления одного музыканта в аренду"
+    }
+  ],
+  "reason": "Точных исходных подписей со старым изменённым H1 не найдено. Совпадения N.0 в собранном корпусе — автоматические связи родитель→ребёнок из page.search_title; ручной overlay для них не нужен. Отдельные операции — самостоятельный контекстный перевод собственных подписей.",
+  "evidence": {
+    "frozen_corpus_pages_scanned": 1901,
+    "source_json_files_scanned": 241,
+    "source_html_files_scanned": 440,
+    "exact_authored_title_matches": 0,
+    "own_contextual_labels_with_source_locations": 22,
+    "extra_target_context_read": [
+      "instrumenty-dlya-studiynoy-live-sessii"
+    ],
+    "auto_label_rule": "scripts/site_core.py: connect(), parent.links.append with page.search_title",
+    "no_build_or_tests_run": true
+  }
+}

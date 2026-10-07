@@ -1,0 +1,51 @@
+{
+  "cohort": 3,
+  "status": "integrated_and_locally_verified",
+  "base_commit": "478b860d18c52b7955c8e05ea0e71fe990df9940",
+  "frozen_proposal_base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "source_decision_register": "prepared-language/language-03-review.json",
+  "frozen_proposal": "prepared-language/language-03-candidate.json",
+  "original_label_plan": "prepared-language/language-03-labels.json",
+  "root_review_and_refinements": "prepared-language/language-03-root-review.json",
+  "all_92_full_candidate_diffs_read_by_root": true,
+  "root_refinements_applied": 3,
+  "intervening_packages_changed_no_candidate_fields": true,
+  "integrated_content": "../../content/sections/zzzz63-public-language-03.json",
+  "integrated_sha256": "b2da383e4f880900f8035abe7e770c221f9a9e846d376deebf0af9928fb0f2b0",
+  "changes": {
+    "pages": 92,
+    "text_leaf_changes": 565,
+    "changed_field_counts": {
+      "description": 84,
+      "kicker": 83,
+      "blocks": 82,
+      "search_title": 16,
+      "editorial_title": 41,
+      "intro": 48,
+      "quote": 38,
+      "sources": 2
+    }
+  },
+  "label_count": {
+    "explicit": 27,
+    "automatic": 16,
+    "total": 43,
+    "deferred_automatic_group_06": 7
+  },
+  "additional_automatic_label": [
+    {
+      "source": "ruchnaya-perkussiya",
+      "href": "/instrumenty-dlya-latino-ansamblya/",
+      "before": "Инструменты для latin ансамбля в аренду",
+      "after": "Инструменты для латиноамериканского ансамбля в аренду"
+    }
+  ],
+  "label_review": "The full compiled graph includes a hand-percussion parent outside the cohort; its Latin-ensemble child label changes automatically from the approved N.0. All 27 exact source patches retain file formatting.",
+  "numeric_review_count": 4,
+  "tests": {
+    "count": 209,
+    "seconds": 83.629,
+    "test_files_changed": false
+  },
+  "snapshot_reconstruction": "The input snapshot is reproducible from base_commit using read_legacy, merge_records, merge_legacy_navigation, alias removal, connect and dataclasses.asdict."
+}

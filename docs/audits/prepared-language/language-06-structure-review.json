@@ -1,0 +1,1507 @@
+{
+  "status": "clear",
+  "method": "Независимый структурный разбор JSON и текущих исходных локаторов. Тела повторно не редактировались; сборка, core.connect и suite не запускались.",
+  "repo_head": "478b860d18c52b7955c8e05ea0e71fe990df9940",
+  "repo_context": "После локальной интеграции группы 03; рабочее дерево может содержать ещё не опубликованные изменения root.",
+  "input_sha256": {
+    "language-cohort-06.json": "71f3fe8f69ade5f0fad87804366193251783d531bdb1c203cafa3a7cc76b3d96",
+    "corpus-after-legacy-closure.json": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+    "language-06-candidate.json": "9cd96e26ad4d9ee93c21ad5d3068e0309d0ec9a2e4e87d826da5cf75cab636cc",
+    "language-06-review.json": "3c375512bfd31fff59fd134180c555eb40454b38a1db7c3528c3f0728f21ab56",
+    "language-06-labels.json": "3c5b9c7ba60f65eb7ef4633a0f99ecbc5966bd3186659ed51b55be8dfbd3446f"
+  },
+  "counts": {
+    "cohort": 139,
+    "enrich": 128,
+    "keep": 11,
+    "changed_top_level_fields": 383,
+    "changed_string_fields": 482,
+    "complete_array_checks": 153,
+    "exact_current_source_locators": 20,
+    "h1_exact_echo_operations": 0,
+    "all_corpus_n0_auto_effects": 8,
+    "expected_navigation_label_changes": 28
+  },
+  "array_checks": [
+    {
+      "slug": "ukulele-koncert",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-pered-pokupkoy",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-dlya-sravneniya-razmerov",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-posle-gitary",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-bariton-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "mandolina-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "mandolina-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "mandolina-dlya-raboty-nad-tremolo",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "bandzho-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "domra-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "domra-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "domra-dlya-raboty-mediatorom",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "domra-alt-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "domra-bas-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "balalayka-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "balalayka-dlya-pervogo-orkestrovogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "balalayka-bas-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "sitar-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "tanpura-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "koto-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "guzhen-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "syamisen-dlya-domashnih-zanyatiy",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "syamisen-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "mbira-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "mbira-pered-pokupkoy",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "mbira-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-posle-pereryva",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-posle-pereryva",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-zapisi",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-dlya-kontserta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-kontserta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "zhestovyy-kontroller-dlya-saund-dizayna",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-klina",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-klina",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-krancha",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gitarnyy-usilitel-dlya-krancha",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gitarnyy-backline-po-rayderu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "leslie-dlya-pervogo-opyta",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "backline-dlya-festivalya",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "backline-dlya-festivalya",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "backline-dlya-fly-date",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "backline-dlya-fly-date",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-korpus-slishkom-bolshoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-klapan-zapazdyvaet",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-diapazona",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-vybornyy-bas",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhen-vyrez-korpusa",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-korotkaya-menzura",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-pedal",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-slishkom-gromko-dlya-doma",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-nuzhno-igrat-v-naushnikah",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-monitoringa",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "musser-m55-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "musser-m55-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "rotornye-akusticheskie-sistemy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "fender-65-deluxe-reverb-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "roland-jc120-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "roland-jc120-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "yamaha-ym6100-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "sabian-hhx-set-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "sabian-hhx-set-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "roland-tr808-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "roland-tr808-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "deering-sierra-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "deering-sierra-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "moog-etherwave-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "moog-etherwave-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "doff-domra-junior-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "kala-ka15s-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "kala-ka15s-v-arendu",
+      "field": "sources",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "makala-dolphin-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "makala-dolphin-v-arendu",
+      "field": "sources",
+      "before_items": 2,
+      "after_items": 2,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "vic-firth-v8705-percussion-kit-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ukulele-so-stabilnymi-kolkami",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "sonor-first-beat-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "studio49-easycussion500-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "studio49-easycussion500-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "deering-goodtime-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "deering-goodtime-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-ponizhe-dlya-rebenka",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "hohner-special20-c-v-arendu",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "hohner-special20-c-v-arendu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-malenkoy-komnaty",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "field": "sources",
+      "before_items": 2,
+      "after_items": 2,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-fanka",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-fanka",
+      "field": "sources",
+      "before_items": 2,
+      "after_items": 2,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-akusticheskogo-sostava",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-akusticheskogo-sostava",
+      "field": "sources",
+      "before_items": 2,
+      "after_items": 2,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "malyy-baraban-dlya-domashney-praktiki",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "malyy-baraban-dlya-rudimentov",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "malyy-baraban-pered-pokupkoy",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "malyy-baraban-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-posle-akusticheskih",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-posle-akusticheskih",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "akusticheskaya-ustanovka-posle-elektronnyh",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-v-naushnikah",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-midi",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-zapisi-audio",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dinamikoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-s-metronomom",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "field": "intro",
+      "before_items": 1,
+      "after_items": 1,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-trenirovki-nog",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "marimba-dlya-perehoda-na-chetyre-palochki",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "orkestrovye-kolokolchiki-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "orkestrovye-parnye-tarelki-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "orkestrovyy-treugolnik-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "kahon-vzroslomu-nachinayuschemu",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "kahon-pered-pokupkoy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "dzhembe-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "kongi-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "bongi-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "darbuka-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ramochnyy-baraban-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "handpan-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "glyukofon-dlya-pervogo-opyta",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "orf-instrumenty-dlya-domashnih-zanyatiy",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    },
+    {
+      "slug": "ruchnaya-perkussiya-dlya-vokalista",
+      "field": "blocks",
+      "before_items": 3,
+      "after_items": 3,
+      "same_shape": true,
+      "exact_edit_replay_equal": true
+    }
+  ],
+  "source_label_checks": [
+    {
+      "source_slug": "ukulele-vzroslomu-nachinayuschemu",
+      "target_slug": "ukulele-koncert",
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "field": "pages[0].links[1].label",
+      "expected_old_label": "Укулеле-concert",
+      "current_label": "Укулеле-concert",
+      "new_label": "Концертная укулеле",
+      "href": "/ukulele-koncert/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "target_slug": "ukulele-soprano",
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "field": "pages[3].links[0].label",
+      "expected_old_label": "Soprano",
+      "current_label": "Soprano",
+      "new_label": "Сопрано",
+      "href": "/ukulele-soprano/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "target_slug": "ukulele-koncert",
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "field": "pages[3].links[1].label",
+      "expected_old_label": "Concert",
+      "current_label": "Concert",
+      "new_label": "Концерт",
+      "href": "/ukulele-koncert/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "ukulele-dlya-sravneniya-razmerov",
+      "target_slug": "ukulele-tenor",
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "field": "pages[3].links[2].label",
+      "expected_old_label": "Tenor",
+      "current_label": "Tenor",
+      "new_label": "Тенор",
+      "href": "/ukulele-tenor/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "mandolina-vzroslomu-nachinayuschemu",
+      "target_slug": "mandolina-dlya-zapisi-tremolo",
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "field": "pages[8].links[1].label",
+      "expected_old_label": "Мандолина для записи tremolo",
+      "current_label": "Мандолина для записи tremolo",
+      "new_label": "Мандолина для записи тремоло",
+      "href": "/mandolina-dlya-zapisi-tremolo/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "mandolina-dlya-raboty-nad-tremolo",
+      "target_slug": "mandolina-dlya-zapisi-tremolo",
+      "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "field": "pages[11].links[0].label",
+      "expected_old_label": "Мандолина для записи tremolo",
+      "current_label": "Мандолина для записи tremolo",
+      "new_label": "Мандолина для записи тремоло",
+      "href": "/mandolina-dlya-zapisi-tremolo/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "gitarnyy-backline-po-rayderu",
+      "target_slug": "usiliteli-backline",
+      "file": "content/sections/zz113-guitar-backline-human-scenes.json",
+      "field": "pages[14].links[0].label",
+      "expected_old_label": "Усилители и backline",
+      "current_label": "Усилители и backline",
+      "new_label": "Усилители и бэклайн",
+      "href": "/usiliteli-backline/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "backline-dlya-pervogo-kontserta",
+      "target_slug": "usiliteli-backline",
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "field": "pages[0].links[0].label",
+      "expected_old_label": "Усилители и backline",
+      "current_label": "Усилители и backline",
+      "new_label": "Усилители и бэклайн",
+      "href": "/usiliteli-backline/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "backline-dlya-gastrolnogo-tura",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "field": "pages[4].links[0].label",
+      "expected_old_label": "Гитарный backline по райдеру",
+      "current_label": "Гитарный backline по райдеру",
+      "new_label": "Гитарный бэклайн по райдеру",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "backline-dlya-gastrolnogo-tura",
+      "target_slug": "basovyy-backline-po-rayderu",
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "field": "pages[4].links[1].label",
+      "expected_old_label": "Басовый backline по райдеру",
+      "current_label": "Басовый backline по райдеру",
+      "new_label": "Басовый бэклайн по райдеру",
+      "href": "/basovyy-backline-po-rayderu/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "target_slug": "gitarnyy-backline-po-rayderu",
+      "file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "field": "pages[14].links[0].label",
+      "expected_old_label": "Гитарный backline по райдеру",
+      "current_label": "Гитарный backline по райдеру",
+      "new_label": "Гитарный бэклайн по райдеру",
+      "href": "/gitarnyy-backline-po-rayderu/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "target_slug": "malyy-baraban-dlya-rudimentov",
+      "file": "content/sections/zzzz27-conductivity-response-obstacle-bridges.json",
+      "field": "navigation[instrument-esli-otskok-slishkom-vysokiy][1].label",
+      "expected_old_label": "Малый барабан для rudiments",
+      "current_label": "Малый барабан для rudiments",
+      "new_label": "Малый барабан для рудиментов",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "target_slug": "malyy-baraban-dlya-rudimentov",
+      "file": "content/sections/zzzz27-conductivity-response-obstacle-bridges.json",
+      "field": "navigation[instrument-esli-otskok-slishkom-myagkiy][1].label",
+      "expected_old_label": "Малый барабан для rudiments",
+      "current_label": "Малый барабан для rudiments",
+      "new_label": "Малый барабан для рудиментов",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "target_slug": "scenicheskie-klavishnye-dlya-pianista",
+      "file": "content/sections/zzzz28-conductivity-range-obstacle-bridges.json",
+      "field": "navigation[instrument-esli-nuzhen-bolshiy-diapazon-klaviatury][0].label",
+      "expected_old_label": "Stage keyboard для пианиста",
+      "current_label": "Stage keyboard для пианиста",
+      "new_label": "Сценические клавишные для пианиста",
+      "href": "/scenicheskie-klavishnye-dlya-pianista/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "fender-65-deluxe-reverb-v-arendu",
+      "target_slug": "gitarnyy-usilitel-dlya-klina",
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "field": "navigation[fender-65-deluxe-reverb-v-arendu][0].label",
+      "expected_old_label": "Гитарный усилитель для clean",
+      "current_label": "Гитарный усилитель для clean",
+      "new_label": "Гитарный усилитель для чистого звука",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "vox-ac30c2-v-arendu",
+      "target_slug": "gitarnyy-usilitel-dlya-krancha",
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "field": "navigation[vox-ac30c2-v-arendu][0].label",
+      "expected_old_label": "Гитарный усилитель для crunch",
+      "current_label": "Гитарный усилитель для crunch",
+      "new_label": "Гитарный усилитель для кранча",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "roland-jc120-v-arendu",
+      "target_slug": "gitarnyy-usilitel-dlya-klina",
+      "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "field": "navigation[roland-jc120-v-arendu][0].label",
+      "expected_old_label": "Гитарный усилитель для clean",
+      "current_label": "Гитарный усилитель для clean",
+      "new_label": "Гитарный усилитель для чистого звука",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "roland-tr808-v-arendu",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "file": "content/sections/zzzz35-conductivity-final-model-bridges-a.json",
+      "field": "navigation[roland-tr808-v-arendu][1].label",
+      "expected_old_label": "Live session в студии",
+      "current_label": "Live session в студии",
+      "new_label": "Живая студийная запись",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "hohner-special20-c-v-arendu",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "file": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+      "field": "navigation[hohner-special20-c-v-arendu][1].label",
+      "expected_old_label": "Работа над bending",
+      "current_label": "Работа над bending",
+      "new_label": "Работа над бендингом",
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    },
+    {
+      "source_slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "target_slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "file": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+      "field": "navigation[gubnaya-garmonika-s-legkim-otklikom][1].label",
+      "expected_old_label": "Работа над bending",
+      "current_label": "Работа над bending",
+      "new_label": "Работа над бендингом",
+      "href": "/diatonicheskaya-garmonika-dlya-bendinga/",
+      "source_slug_matches": true,
+      "exact_old_value_and_href_match": true
+    }
+  ],
+  "source_file_sha256_at_review": {
+    "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json": "bbabc92dd8c3ff8b661de390f03363f7c407665115af7b30dc3685ba7db0a10d",
+    "content/sections/zz113-guitar-backline-human-scenes.json": "a61a53ea4eff7173d19fbb557473e20d1f6a27690bbc02241871bce5ef8ad058",
+    "content/sections/zz116-complete-backline-human-scenes.json": "7fc743c0fd4c4ffe76780f626846bca1b710b5be6b4787fa9651df2c837e9bb4",
+    "content/sections/zzzz27-conductivity-response-obstacle-bridges.json": "bd7f63d8ef91de1de5692db7a2e153ecadbace32d49978bac72043c22bb897cd",
+    "content/sections/zzzz28-conductivity-range-obstacle-bridges.json": "06825f039b11ee47b7212056aa1dc205f10e7bffab8e4138735fbbcfcd8ee3e3",
+    "content/sections/zzzz20-conductivity-backline-edrum-bridges.json": "99f7ca6798eb965aace5e42c3ebe3b5da2a488f0f8b668d4264bff7fa64ec99f",
+    "content/sections/zzzz35-conductivity-final-model-bridges-a.json": "a1bfd8a03a8f6082f01cbaab6a26f300391ae56bab9f8617e8e43ce088cdd13a",
+    "content/sections/zzzz13-conductivity-free-reed-bridges.json": "c4b1db0fb4af86eccc8013d22eb656410d44fb8da518ae896690296f056d3c8a"
+  },
+  "issues": [],
+  "frozen_inputs_unchanged": true,
+  "repository_written": false,
+  "limitations": "Проверка подтверждает структуру и исходные места по текущему рабочему дереву. Полную компиляцию и интеграционный граф выпуска проверяет root."
+}

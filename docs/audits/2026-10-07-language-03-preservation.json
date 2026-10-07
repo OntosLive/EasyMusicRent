@@ -1,0 +1,884 @@
+{
+  "package": "public-language-03",
+  "base_commit": "478b860d18c52b7955c8e05ea0e71fe990df9940",
+  "base_snapshot_sha256": "99db5e858af20686309f52a7dd027419a32fec73d5070b4910fe4b4fa0f7b010",
+  "subjects_before": 1901,
+  "subjects_after": 1901,
+  "all_subject_slugs_preserved": true,
+  "aliases_unchanged": true,
+  "all_route_targets_and_order_preserved": true,
+  "all_parents_and_kinds_preserved": true,
+  "all_source_urls_and_order_preserved": true,
+  "changed_content_count": 92,
+  "changed_content": {
+    "gitarnyy-usilitel-dlya-pervogo-kontserta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gitarnyy-usilitel-dlya-high-gain": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "gitarnyy-usilitel-dlya-studii": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gitarnyy-usilitel-dlya-repetitsii": [
+      "editorial_title",
+      "description",
+      "blocks"
+    ],
+    "gitarnyy-usilitel-pered-pokupkoy": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gitarnyy-usilitel-dlya-gastrolnoy-zameny": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "gitarnyy-kabinet-1x12-dlya-pervogo-opyta": [
+      "kicker"
+    ],
+    "gitarnyy-kabinet-2x12-dlya-pervogo-opyta": [
+      "editorial_title",
+      "kicker",
+      "blocks"
+    ],
+    "gitarnyy-kabinet-4x12-dlya-pervogo-opyta": [
+      "kicker",
+      "blocks"
+    ],
+    "gitarnyy-kabinet-pered-pokupkoy": [
+      "kicker"
+    ],
+    "golova-i-kabinet-dlya-kontserta": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "combo-ili-golova-i-kabinet": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "gitarnyy-usilitel-dlya-maloy-stseny": [
+      "description",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "basovyy-usilitel-dlya-repetitsii": [
+      "intro",
+      "blocks"
+    ],
+    "basovyy-usilitel-dlya-kontserta": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "basovyy-usilitel-dlya-studii": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "basovyy-usilitel-pered-pokupkoy": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "basovyy-usilitel-dlya-gastroley": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "basovyy-kabinet-4x10-dlya-pervogo-opyta": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "basovyy-kabinet-8x10-dlya-pervogo-opyta": [
+      "editorial_title",
+      "description",
+      "blocks"
+    ],
+    "basovyy-kabinet-pered-pokupkoy": [
+      "description",
+      "kicker"
+    ],
+    "basovyy-backline-po-rayderu": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "bas-cherez-di-bez-usilitelya": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "di-boks-dlya-akusticheskoy-gitary": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "di-boks-dlya-bas-gitary": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "passivnyy-di-boks-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "di-boks-pered-pokupkoy": [
+      "description",
+      "blocks"
+    ],
+    "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-klubnoy-stseny": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "backline-dlya-bystroy-smeny-grupp": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "backline-po-rayderu-dlya-gruppy": [
+      "search_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-ritm-sektsii": [
+      "search_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-akusticheskogo-kontserta": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "backline-dlya-dzhazovogo-kvinteta": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "backline-dlya-rok-gruppy": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-vokalista-s-gitaroy": [
+      "search_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-rezervnogo-komplekta": [
+      "search_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-soundcheck-do-priezda-artista": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "backline-dlya-odnodnevnoy-arendy": [
+      "search_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrumenty-dlya-pervogo-ansamblya-udarnyh": [
+      "description",
+      "kicker"
+    ],
+    "instrumenty-dlya-latino-ansamblya": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-teatralnogo-ansamblya": [
+      "description"
+    ],
+    "instrumenty-dlya-studiynoy-live-sessii": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-teleefira-s-zhivym-ansamblem": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrumenty-dlya-videosyemki-zhivogo-ansamblya": [
+      "description",
+      "kicker"
+    ],
+    "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya": [
+      "description",
+      "blocks"
+    ],
+    "instrumenty-dlya-gastrolnogo-kamernogo-sostava": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-zameny-uchastnika-ansamblya": [
+      "description",
+      "blocks"
+    ],
+    "yamaha-recording-custom-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "gretsch-usa-custom-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "ludwig-black-beauty-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "zildjian-a-series-set-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "usiliteli-backline": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gitarnye-usiliteli": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "basovye-usiliteli": [
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "gitarnye-kabinety": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "basovye-kabinety": [
+      "kicker",
+      "intro",
+      "quote"
+    ],
+    "akusticheskie-usiliteli": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "fender-65-twin-reverb-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "marshall-jcm800-2203-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "marshall-1960a-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "evh-5150iii-100s-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "orange-rockerverb-50-mkiii-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "mesa-dual-rectifier-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "ampeg-svt-cl-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "ampeg-svt-810e-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "aguilar-tone-hammer-700-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "gallien-krueger-800rb-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "markbass-little-mark-iii-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "fishman-loudbox-artist-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "leslie-122-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "yamaha-absolute-hybrid-maple-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "ludwig-classic-maple-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "tama-starclassic-performer-bb-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "pearl-masters-custom-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "ludwig-supraphonic-lm400-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "adams-professional-gen2-litavry-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "paiste-2002-set-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "zildjian-k-series-set-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "vic-firth-fresh-approach-starter-pack-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "orf-instrumenty-dlya-obucheniya": [
+      "kicker"
+    ],
+    "sonor-global-beat-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "fender-mustang-lt25-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "ampeg-rb110-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "yamaha-rydeen-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "tama-imperialstar-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "tarelki-dlya-pervogo-komplekta": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "tarelki-pered-pokupkoy": [
+      "description",
+      "blocks",
+      "quote"
+    ],
+    "vibrafon-dlya-pervogo-opyta": [
+      "description",
+      "kicker"
+    ],
+    "vibrafon-dlya-raboty-s-pedalyu": [
+      "description",
+      "kicker"
+    ],
+    "bolshoy-orkestrovyy-baraban-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "handpan-dlya-zapisi-improvizatsii": [
+      "description",
+      "kicker",
+      "blocks"
+    ]
+  },
+  "unchanged_content_count": 1809,
+  "label_changes": [
+    {
+      "source": "ruchnaya-perkussiya",
+      "href": "/instrumenty-dlya-latino-ansamblya/",
+      "before": "Инструменты для latin ансамбля в аренду",
+      "after": "Инструменты для латиноамериканского ансамбля в аренду"
+    },
+    {
+      "source": "gitarnyy-usilitel-dlya-gastrolnoy-zameny",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "basovyy-usilitel-dlya-gastroley",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "basovyy-backline-po-rayderu",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "backline-dlya-bystroy-smeny-grupp",
+      "href": "/backline-dlya-festivalya/",
+      "before": "Backline для фестиваля",
+      "after": "Бэклайн для фестиваля"
+    },
+    {
+      "source": "backline-po-rayderu-dlya-gruppy",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "backline-dlya-dzhazovogo-kvinteta",
+      "href": "/stage-piano-po-rayderu/",
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое цифровое пианино по райдеру"
+    },
+    {
+      "source": "backline-dlya-rok-gruppy",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель high-gain",
+      "after": "Гитарный усилитель с плотным перегрузом"
+    },
+    {
+      "source": "backline-dlya-rezervnogo-komplekta",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "backline-dlya-soundcheck-do-priezda-artista",
+      "href": "/backline-po-rayderu-dlya-gruppy/",
+      "before": "Backline по райдеру",
+      "after": "Бэклайн по райдеру"
+    },
+    {
+      "source": "backline-dlya-odnodnevnoy-arendy",
+      "href": "/usiliteli-backline/",
+      "before": "Усилители и backline",
+      "after": "Усилители и бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-teatralnogo-ansamblya",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-teleefira-s-zhivym-ansamblem",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-videosyemki-zhivogo-ansamblya",
+      "href": "/usiliteli-backline/",
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "source": "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya",
+      "href": "/backline-dlya-odnodnevnoy-arendy/",
+      "before": "Backline на один день",
+      "after": "Бэклайн на один день"
+    },
+    {
+      "source": "instrumenty-dlya-gastrolnogo-kamernogo-sostava",
+      "href": "/backline-dlya-fly-date/",
+      "before": "Backline для fly-date",
+      "after": "Бэклайн для концерта с перелётом"
+    },
+    {
+      "source": "instrumenty-dlya-zameny-uchastnika-ansamblya",
+      "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+      "before": "Backline функциональная замена",
+      "after": "Функциональная замена бэклайна"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/rotornye-akusticheskie-sistemy/",
+      "before": "Leslie и rotary-системы",
+      "after": "Leslie и роторные системы"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/basovyy-backline-po-rayderu/",
+      "before": "Басовый backline по райдеру в аренду",
+      "after": "Басовый бэклайн по райдеру в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-klubnoy-stseny/",
+      "before": "Backline для клубной сцены в аренду",
+      "after": "Бэклайн для клубной сцены в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-bystroy-smeny-grupp/",
+      "before": "Backline для быстрой смены групп в аренду",
+      "after": "Бэклайн для быстрой смены групп в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-po-rayderu-dlya-gruppy/",
+      "before": "Backline по райдеру для группы в аренду",
+      "after": "Бэклайн по райдеру для группы в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-ritm-sektsii/",
+      "before": "Backline для ритм-секции в аренду",
+      "after": "Бэклайн для ритм-секции в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-akusticheskogo-kontserta/",
+      "before": "Backline для акустического концерта в аренду",
+      "after": "Бэклайн для акустического концерта в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-dzhazovogo-kvinteta/",
+      "before": "Backline для джазового квинтета в аренду",
+      "after": "Бэклайн для джазового квинтета в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-rok-gruppy/",
+      "before": "Backline для рок-группы в аренду",
+      "after": "Бэклайн для рок-группы в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-vokalista-s-gitaroy/",
+      "before": "Backline для вокалиста с гитарой в аренду",
+      "after": "Бэклайн для вокалиста с гитарой в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-rezervnogo-komplekta/",
+      "before": "Резервный backline для концерта в аренду",
+      "after": "Резервный бэклайн для концерта в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-soundcheck-do-priezda-artista/",
+      "before": "Backline для soundcheck до приезда артиста в аренду",
+      "after": "Бэклайн для саундчека до приезда артиста в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/backline-dlya-odnodnevnoy-arendy/",
+      "before": "Backline на один день в аренду",
+      "after": "Бэклайн на один день в аренду"
+    },
+    {
+      "source": "usiliteli-backline",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "before": "Инструменты для live session в студии в аренду",
+      "after": "Инструменты для живой студийной записи в аренду"
+    },
+    {
+      "source": "gitarnye-usiliteli",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель high-gain в аренду",
+      "after": "Гитарный усилитель с плотным перегрузом (high-gain) в аренду"
+    },
+    {
+      "source": "gitarnye-usiliteli",
+      "href": "/combo-ili-golova-i-kabinet/",
+      "before": "Combo или голова с кабинетом в аренду для сравнения",
+      "after": "Комбоусилитель или голова с кабинетом в аренду для сравнения"
+    },
+    {
+      "source": "fender-65-twin-reverb-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-klina/",
+      "before": "Гитарный усилитель для clean",
+      "after": "Гитарный усилитель для чистого звука"
+    },
+    {
+      "source": "marshall-jcm800-2203-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "before": "Гитарный усилитель для crunch",
+      "after": "Гитарный усилитель для кранча"
+    },
+    {
+      "source": "marshall-jcm800-2203-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "evh-5150iii-100s-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "orange-rockerverb-50-mkiii-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-krancha/",
+      "before": "Гитарный усилитель для crunch",
+      "after": "Гитарный усилитель для кранча"
+    },
+    {
+      "source": "orange-rockerverb-50-mkiii-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "mesa-dual-rectifier-v-arendu",
+      "href": "/gitarnyy-usilitel-dlya-high-gain/",
+      "before": "Гитарный усилитель для high-gain",
+      "after": "Гитарный усилитель для плотного перегруза"
+    },
+    {
+      "source": "fishman-loudbox-artist-v-arendu",
+      "href": "/backline-dlya-akusticheskogo-kontserta/",
+      "before": "Backline для акустического концерта",
+      "after": "Бэклайн для акустического концерта"
+    },
+    {
+      "source": "vic-firth-fresh-approach-starter-pack-v-arendu",
+      "href": "/malyy-baraban-dlya-rudimentov/",
+      "before": "Малый барабан для rudiments",
+      "after": "Малый барабан для рудиментов"
+    }
+  ],
+  "approved_numeric_changes": [
+    {
+      "slug": "marshall-1960a-v-arendu",
+      "field": "description",
+      "before": "Marshall 1960A: angled 4x12, 4 Celestion G12T-75, 300W mono / 150W stereo.",
+      "after": "Marshall 1960A: наклонный 4×12, четыре Celestion G12T-75, 300 Вт в моно / 150 Вт в стерео."
+    },
+    {
+      "slug": "ampeg-rb110-v-arendu",
+      "field": "description",
+      "before": "Ampeg RB-110: 50-watt 1x10 bass combo for practice and small venues with headphones, aux and XLR output.",
+      "after": "Ampeg RB-110: басовый комбоусилитель 1x10 мощностью 50 Вт для занятий и небольших площадок, с выходом для наушников, входом AUX и выходом XLR."
+    },
+    {
+      "slug": "yamaha-rydeen-v-arendu",
+      "field": "description",
+      "before": "Yamaha RYDEEN: 5-piece entry acoustic drum set in 20-inch and 22-inch bass-drum configurations for beginners and intermediate players.",
+      "after": "Yamaha RYDEEN: начальная акустическая установка из пяти барабанов, с бас-барабаном 20 или 22 дюйма, для начинающих и продолжающих обучение."
+    },
+    {
+      "slug": "yamaha-rydeen-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Yamaha использует фирменные tom holders и 6-ply poplar shells. Для ученика важнее, что стойки фиксируются, педали не уезжают, а барабаны можно нормально настроить. Конкретный rental-kit проверяют целиком вместе с hardware и тарелками.",
+      "after": "Yamaha использует фирменные держатели томов и шестислойные тополевые корпуса. Для ученика важнее, что стойки фиксируются, педали не уезжают, а барабаны можно нормально настроить. Конкретный арендный комплект проверяют целиком вместе с фурнитурой и тарелками."
+    }
+  ],
+  "approved_shape_changes": [],
+  "html_paths_before": 3888,
+  "html_paths_after": 3888,
+  "all_html_paths_preserved": true
+}
