@@ -1,0 +1,95 @@
+{
+  "package": "public-language-02",
+  "base_commit": "41bfa0220076c35aaca1ee87bd848f93d180fc05",
+  "base_snapshot": "corpus-after-language-01.json",
+  "base_snapshot_sha256": "9b97d71981672b6c6ff8836482c45983bba08117b863eee534c110a71c0be40c",
+  "prepared_proposal_base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
+  "overlay_files": [
+    "content/sections/zzzz62-public-language-02.json"
+  ],
+  "approved_label_changes": [
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/stage-piano-po-rayderu/",
+      "before": "Stage piano по райдеру в аренду",
+      "after": "Сценическое пианино по райдеру в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/klavishnye-dlya-stereo-vyhoda/",
+      "before": "Клавишные со stereo output в аренду",
+      "after": "Клавишные со стереовыходом в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/klavishnye-dlya-backline-bez-svoego-instrumenta/",
+      "before": "Клавишные backline без своего инструмента в аренду",
+      "after": "Клавишный бэклайн без своего инструмента в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+      "before": "Stage piano в аренду перед покупкой для концертов",
+      "after": "Сценическое пианино в аренду перед покупкой для концертов"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/instrumenty-dlya-vokalnogo-trio/",
+      "before": "Инструменты для вокального трио в аренду",
+      "after": "Инструменты для трио с вокалом в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/instrumenty-dlya-myuziklovogo-pit-benda/",
+      "before": "Инструменты для pit band мюзикла в аренду",
+      "after": "Инструменты для пит-бенда мюзикла в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/",
+      "before": "Сценические клавишные для слоя piano и pad в аренду",
+      "after": "Сценические клавишные для сочетания фортепиано и подкладки в аренду"
+    },
+    {
+      "source": "mandolina",
+      "href": "/instrumenty-dlya-folk-gruppy/",
+      "before": "Инструменты для folk-группы в аренду",
+      "after": "Инструменты для фолк-группы в аренду"
+    },
+    {
+      "source": "bandzho",
+      "href": "/instrumenty-dlya-bluegrass-ansamblya/",
+      "before": "Инструменты для bluegrass ансамбля в аренду",
+      "after": "Инструменты для ансамбля блюграсса в аренду"
+    }
+  ],
+  "source_label_patches": [],
+  "approved_shape_changes": [],
+  "approved_numeric_changes": [
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Backline-флоты перечисляют Wurlitzer 200A рядом с Rhodes, Hammond и современными stage keyboards. Это реальный Legendary Core, а не музейная рубрика.",
+      "after": "Парки бэклайна перечисляют Wurlitzer 200A рядом с Rhodes, Hammond и современными сценическими клавишными. 200A остаётся инструментом для реальной сценической работы."
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "field": "intro[0]",
+      "before": "<p>K‑300 стоит выше уже существующего K‑200 и имеет другой смысл в учебной лестнице. Kawai Germany прямо описывает его как один из самых популярных upright своего класса для ambitious beginners, advanced pianists и music schools. Это хороший кандидат, когда компактный домашний уровень уже перестаёт быть достаточным.</p>",
+      "after": "<p>K‑300 — акустическое пианино высотой 122 см. Kawai Germany прямо описывает его как одно из самых популярных пианино своего класса для начинающих с серьёзными планами, опытных пианистов и музыкальных школ. Практическая проба на текущей программе покажет, как инструмент отвечает на ваше прикосновение.</p>"
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "field": "blocks[1].title",
+      "before": "Высота корпуса уже относится к профессиональному upright-классу",
+      "after": "Корпус высотой 122 см оценивают вместе с помещением и характером звучания"
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "field": "quote",
+      "before": "Ученик уже использует возможности K-200/цифрового инструмента полностью или действительно нужен следующий акустический уровень?",
+      "after": "Как K-300 отвечает на вашу текущую программу по сравнению с привычным K-200 или цифровым инструментом?"
+    }
+  ],
+  "numeric_review_reason": "Four individually reviewed changes repeat the Wurlitzer 200A identifier or reframe the K-300 trial using its already stated and manufacturer-confirmed 122 cm height. The K-200 comparison remains in the body and final question."
+}

@@ -1,0 +1,45 @@
+{
+  "cohort": 3,
+  "status": "root_read_complete_pending_integration",
+  "frozen_candidate": "language-03-candidate.json",
+  "frozen_sha256": "a0cf036ac2ebf18bea7f5dc6cf898e0605318eb47653d2c062abb41687fae1b8",
+  "all_92_candidate_diffs_read": true,
+  "proposed_root_refinements": [
+    {
+      "slug": "basovyy-usilitel-dlya-studii",
+      "pointer": "/blocks/2/paragraphs/0",
+      "before_candidate": "После записи студии не нужен постоянный парк басовых комплектов усиления.",
+      "after": "Если комплект нужен только для этой сессии, его не приходится постоянно хранить в студии.",
+      "reason": "Уточнена граница временной сессии; одна запись не доказывает, что студии вообще не нужен собственный парк усиления."
+    },
+    {
+      "slug": "backline-dlya-soundcheck-do-priezda-artista",
+      "pointer": "/blocks/0/paragraphs/0",
+      "before_candidate": "Техническая команда может проверить сигнал и коммутацию, но не заменить артиста в оценке регулировки инструмента и ощущений при игре.",
+      "after": "Техническая команда может проверить сигнал и коммутацию, но не заменить артиста в оценке удобства игры и отклика инструмента.",
+      "reason": "Action в общем бэклайне не ограничен регулировкой: сохранена оценка самим исполнителем клавишных и струнных инструментов."
+    },
+    {
+      "slug": "instrumenty-dlya-zameny-uchastnika-ansamblya",
+      "pointer": "/blocks/0/paragraphs/0",
+      "before_candidate": "Размер, раскладка, система смычка, тип клавиатуры или бэклайн могут быть критичнее бренда.",
+      "after": "Размер, раскладка, тип смычка, тип клавиатуры или бэклайн могут быть критичнее бренда.",
+      "reason": "Уточнено обычное название параметра смычка без добавления новых типов или требований."
+    }
+  ],
+  "primary_checks": [
+    {
+      "url": "https://www.radialeng.com/product/jdi",
+      "result": "Primary page confirms passive transformer design and ground-loop isolation; the three DI pages already name JDI as the source/reference."
+    },
+    {
+      "url": "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet",
+      "result": "Primary page states 300W mono / 150W stereo; exact values and impedance-dependent compatibility are retained."
+    },
+    {
+      "url": "https://www.evhgear.com/gear/amplifiers/head/5150iii-100s-head/2250250000",
+      "result": "Direct open returned 403. Official indexed search snippets confirm independent gain, low, mid, high, volume and presence for each channel. The preserved technical claim is not broadened."
+    }
+  ],
+  "remaining": "Reconcile 27 explicit and 15 own automatic labels against current merged corpus; defer the 7 automatic labels whose N.0 belongs to group 06. Run the complete package checks and exact release gate."
+}

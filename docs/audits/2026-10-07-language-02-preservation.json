@@ -1,0 +1,550 @@
+{
+  "package": "public-language-02",
+  "base_commit": "41bfa0220076c35aaca1ee87bd848f93d180fc05",
+  "base_snapshot_sha256": "9b97d71981672b6c6ff8836482c45983bba08117b863eee534c110a71c0be40c",
+  "subjects_before": 1901,
+  "subjects_after": 1901,
+  "all_subject_slugs_preserved": true,
+  "aliases_unchanged": true,
+  "all_route_targets_and_order_preserved": true,
+  "all_parents_and_kinds_preserved": true,
+  "all_source_urls_and_order_preserved": true,
+  "changed_content_count": 86,
+  "changed_content": {
+    "cifrovoe-pianino-s-troynoy-pedalyu": [
+      "description",
+      "intro"
+    ],
+    "yamaha-p225-v-arendu": [
+      "description",
+      "sources"
+    ],
+    "yamaha-u1-v-arendu": [
+      "intro",
+      "blocks"
+    ],
+    "pianino-s-pedalyu-sostenuto": [
+      "description",
+      "blocks",
+      "sources"
+    ],
+    "elektroskripka-posle-akusticheskoy": [
+      "description"
+    ],
+    "elektroskripka-pered-pokupkoy": [
+      "description",
+      "blocks"
+    ],
+    "elektroskripka-dlya-stsenicheskih-effektov": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "elektroviolonchel-posle-akusticheskoy": [
+      "description"
+    ],
+    "elektroviolonchel-pered-pokupkoy": [
+      "description"
+    ],
+    "elektricheskiy-kontrabas-posle-akusticheskogo": [
+      "description"
+    ],
+    "akusticheskiy-kontrabas-posle-elektricheskogo": [
+      "editorial_title",
+      "description",
+      "blocks"
+    ],
+    "elektricheskiy-kontrabas-pered-pokupkoy": [
+      "editorial_title",
+      "description",
+      "kicker"
+    ],
+    "elektricheskiy-kontrabas-dlya-gastroley": [
+      "editorial_title",
+      "description"
+    ],
+    "melodika-posle-fortepiano": [
+      "blocks"
+    ],
+    "barochnaya-skripka-dlya-pervogo-opyta": [
+      "blocks"
+    ],
+    "barochnaya-skripka-pered-pokupkoy": [
+      "description"
+    ],
+    "barochnaya-violonchel-pered-pokupkoy": [
+      "editorial_title",
+      "kicker"
+    ],
+    "renessansnye-instrumenty-dlya-studiynoy-zapisi": [
+      "description",
+      "blocks"
+    ],
+    "barochnye-instrumenty-dlya-studiynoy-zapisi": [
+      "description",
+      "blocks"
+    ],
+    "gibridnyy-instrument-dlya-pervogo-opyta": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gibridnyy-instrument-dlya-kontserta": [
+      "description",
+      "kicker"
+    ],
+    "gibridnyy-instrument-dlya-zapisi": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "scenicheskie-klavishnye-po-rayderu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "stage-piano-po-rayderu": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "hammond-leslie-po-rayderu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "klavishnye-dlya-festivalya": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "klavishnye-dlya-festivalnoy-smeny-artistov": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "klavishnye-s-pedalyami-po-rayderu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "klavishnye-dlya-stereo-vyhoda": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "klavishnye-dlya-pryamogo-podklyucheniya-v-pult": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "klavishnye-dlya-upravleniya-vneshnimi-modulyami": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "dvuhklaviaturnyy-set-dlya-kontserta": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "klavishnye-dlya-maloy-stseny": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "klavishnye-dlya-backline-bez-svoego-instrumenta": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "instrumenty-dlya-ansamblya-ukulele": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "instrumenty-dlya-ansamblya-gitar-i-ukulele": [
+      "blocks"
+    ],
+    "instrumenty-dlya-ansamblya-melodiki": [
+      "kicker"
+    ],
+    "instrumenty-dlya-bluegrass-ansamblya": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-folk-gruppy": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-vokalnogo-trio": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "blocks"
+    ],
+    "instrumenty-dlya-kamernogo-hora-s-ansamblem": [
+      "description",
+      "blocks"
+    ],
+    "instrumenty-dlya-myuziklovogo-pit-benda": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "instrumenty-dlya-saundtreka-kamernogo-sostava": [
+      "description",
+      "blocks"
+    ],
+    "instrument-esli-tyazhelo-prizhimat": [
+      "description",
+      "kicker"
+    ],
+    "instrument-esli-struny-slishkom-zhestkie": [
+      "blocks"
+    ],
+    "instrument-esli-teryaetsya-v-ansamble": [
+      "blocks"
+    ],
+    "nord-stage-3-88-v-arendu": [
+      "kicker",
+      "blocks"
+    ],
+    "yamaha-cp88-v-arendu": [
+      "kicker",
+      "blocks"
+    ],
+    "dw-collectors-series-v-arendu": [
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "yamaha-motif-xf8-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "fazioli-f278-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "rhodes-mark-i-stage-73-v-arendu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "wurlitzer-200a-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "hohner-clavinet-e7-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "gibson-f5-master-model-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "roland-gokeys3-v-arendu": [
+      "description",
+      "kicker"
+    ],
+    "eastman-md305-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "goronok-etyud-v-arendu": [
+      "kicker",
+      "blocks"
+    ],
+    "goronok-kapris-v-arendu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "goronok-fantaziya-v-arendu": [
+      "description",
+      "kicker"
+    ],
+    "goronok-aleksey-romanov-v-arendu": [
+      "description",
+      "kicker"
+    ],
+    "smychkovye-hidersine": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "hidersine-vivente-skripka-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "hidersine-vivente-academy-skripka-v-arendu": [
+      "editorial_title",
+      "description",
+      "intro",
+      "blocks"
+    ],
+    "hidersine-vivente-alt-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "hidersine-vivente-violonchel-v-arendu": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "kawai-k300-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote",
+      "sources"
+    ],
+    "gewa-allegro-skripka-v-arendu": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "gewa-maestro1-skripka-v-arendu": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "blocks",
+      "quote"
+    ],
+    "smychkovye-eastman": [
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "melodika-32-klavishi-dlya-shkoly": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "cifrovoe-pianino-dlya-raboty-nad-pedalyu": [
+      "description",
+      "kicker",
+      "quote"
+    ],
+    "pianino-dlya-raboty-nad-pedalyu": [
+      "description"
+    ],
+    "scenicheskie-klavishnye-dlya-pianista": [
+      "description",
+      "blocks"
+    ],
+    "scenicheskie-klavishnye-dlya-sloya-piano-i-pad": [
+      "search_title",
+      "editorial_title",
+      "description",
+      "kicker",
+      "intro",
+      "blocks",
+      "quote"
+    ],
+    "scenicheskie-klavishnye-dlya-gastrolnoy-zameny": [
+      "description",
+      "intro",
+      "blocks"
+    ],
+    "scenicheskie-klavishnye-dlya-dvuh-zon": [
+      "description",
+      "kicker",
+      "intro",
+      "blocks"
+    ],
+    "scenicheskie-klavishnye-dlya-treh-sloev": [
+      "description",
+      "kicker",
+      "blocks"
+    ],
+    "skripka-posle-pereryva": [
+      "blocks"
+    ],
+    "skripka-pered-pokupkoy": [
+      "description"
+    ],
+    "skripka-dlya-letney-praktiki": [
+      "blocks"
+    ],
+    "alt-posle-pereryva": [
+      "blocks"
+    ],
+    "violonchel-posle-pereryva": [
+      "blocks"
+    ],
+    "violonchel-pered-pokupkoy": [
+      "description"
+    ],
+    "karbonovyy-smychok-dlya-pervogo-opyta": [
+      "blocks"
+    ]
+  },
+  "unchanged_content_count": 1815,
+  "label_changes": [
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/stage-piano-po-rayderu/",
+      "before": "Stage piano по райдеру в аренду",
+      "after": "Сценическое пианино по райдеру в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/klavishnye-dlya-stereo-vyhoda/",
+      "before": "Клавишные со stereo output в аренду",
+      "after": "Клавишные со стереовыходом в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/klavishnye-dlya-backline-bez-svoego-instrumenta/",
+      "before": "Клавишные backline без своего инструмента в аренду",
+      "after": "Клавишный бэклайн без своего инструмента в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+      "before": "Stage piano в аренду перед покупкой для концертов",
+      "after": "Сценическое пианино в аренду перед покупкой для концертов"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/instrumenty-dlya-vokalnogo-trio/",
+      "before": "Инструменты для вокального трио в аренду",
+      "after": "Инструменты для трио с вокалом в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/instrumenty-dlya-myuziklovogo-pit-benda/",
+      "before": "Инструменты для pit band мюзикла в аренду",
+      "after": "Инструменты для пит-бенда мюзикла в аренду"
+    },
+    {
+      "source": "scenicheskie-klavishnye",
+      "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/",
+      "before": "Сценические клавишные для слоя piano и pad в аренду",
+      "after": "Сценические клавишные для сочетания фортепиано и подкладки в аренду"
+    },
+    {
+      "source": "mandolina",
+      "href": "/instrumenty-dlya-folk-gruppy/",
+      "before": "Инструменты для folk-группы в аренду",
+      "after": "Инструменты для фолк-группы в аренду"
+    },
+    {
+      "source": "bandzho",
+      "href": "/instrumenty-dlya-bluegrass-ansamblya/",
+      "before": "Инструменты для bluegrass ансамбля в аренду",
+      "after": "Инструменты для ансамбля блюграсса в аренду"
+    }
+  ],
+  "approved_numeric_changes": [
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "field": "blocks[2].paragraphs[0]",
+      "before": "Backline-флоты перечисляют Wurlitzer 200A рядом с Rhodes, Hammond и современными stage keyboards. Это реальный Legendary Core, а не музейная рубрика.",
+      "after": "Парки бэклайна перечисляют Wurlitzer 200A рядом с Rhodes, Hammond и современными сценическими клавишными. 200A остаётся инструментом для реальной сценической работы."
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "field": "intro[0]",
+      "before": "<p>K‑300 стоит выше уже существующего K‑200 и имеет другой смысл в учебной лестнице. Kawai Germany прямо описывает его как один из самых популярных upright своего класса для ambitious beginners, advanced pianists и music schools. Это хороший кандидат, когда компактный домашний уровень уже перестаёт быть достаточным.</p>",
+      "after": "<p>K‑300 — акустическое пианино высотой 122 см. Kawai Germany прямо описывает его как одно из самых популярных пианино своего класса для начинающих с серьёзными планами, опытных пианистов и музыкальных школ. Практическая проба на текущей программе покажет, как инструмент отвечает на ваше прикосновение.</p>"
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "field": "blocks[1].title",
+      "before": "Высота корпуса уже относится к профессиональному upright-классу",
+      "after": "Корпус высотой 122 см оценивают вместе с помещением и характером звучания"
+    },
+    {
+      "slug": "kawai-k300-v-arendu",
+      "field": "quote",
+      "before": "Ученик уже использует возможности K-200/цифрового инструмента полностью или действительно нужен следующий акустический уровень?",
+      "after": "Как K-300 отвечает на вашу текущую программу по сравнению с привычным K-200 или цифровым инструментом?"
+    }
+  ],
+  "approved_shape_changes": [],
+  "html_paths_before": 3888,
+  "html_paths_after": 3888,
+  "all_html_paths_preserved": true
+}

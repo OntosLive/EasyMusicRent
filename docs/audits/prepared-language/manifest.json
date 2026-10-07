@@ -4,7 +4,7 @@
   "cohorts": [
     {
       "cohort": 2,
-      "status": "prepared_not_integrated",
+      "status": "integrated_with_root_refinement",
       "base_commit": "2b0ef0750ec1ada6b5c08708a103c365063137b2",
       "base_snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
       "files": [
@@ -23,7 +23,10 @@
           "path": "docs/audits/prepared-language/language-02-labels.json",
           "sha256": "e9d42c7c6d64dc454b8cd487e956c666e1498ed6af707e949df8173583ad32f4"
         }
-      ]
+      ],
+      "integration_record": "docs/audits/2026-10-07-language-02-review.json",
+      "integrated_overlay": "content/sections/zzzz62-public-language-02.json",
+      "note": "The frozen proposal remains unchanged as evidence; the integration record explains the one later wording refinement."
     },
     {
       "cohort": 3,
@@ -46,7 +49,8 @@
           "path": "docs/audits/prepared-language/language-03-labels.json",
           "sha256": "86cff0e4155c34f5f773624b5c4c3a022509b50deef5460efbc55baf340ffce2"
         }
-      ]
+      ],
+      "supplemental_root_review": "docs/audits/prepared-language/language-03-root-review.json"
     }
   ],
   "continuation": "../../CURRENT-WORK-STATE.md",

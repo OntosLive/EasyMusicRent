@@ -1,0 +1,116 @@
+{
+  "cohort": 2,
+  "input_snapshot": "corpus-after-legacy-closure.json",
+  "snapshot_sha256": "a897dd40ea681ca046e98d9739679fb90801b86007020fc248f6e95981edca71",
+  "status": "integrated_and_locally_verified",
+  "summary": {
+    "candidate_count": 93,
+    "full_public_context_read": 93,
+    "enrich": 86,
+    "keep": 7,
+    "editorial_title_changes": 23,
+    "search_title_changes": 9,
+    "explicit_label_operations": 0,
+    "automatic_parent_label_updates": 9,
+    "agreed_semantic_corrections": 4
+  },
+  "method": "Каждая страница прочитана по всем публичным полям фактического снимка: N.0, N.1, description, kicker, полные intro/blocks/quote, links и sources. Совпадение латиницы не считалось дефектом. Правки адресные, изменяемые массивы переданы полностью; все остальные элементы массивов сохранены.",
+  "guidance": "mixed-language-guidance.json; уточнение root об удалении непрозрачных внутренних Rider Core / Legendary Core из публичной речи без нового ранга качества.",
+  "input_note": "Некоторые поля индексного списка отражают более старые совпадения. Решения и массивы построены только из подтверждённого SHA corpus-after-legacy-closure.json, в том числе актуальный P-225 с FC3A.",
+  "preservation": {
+    "new_pages": 0,
+    "new_urls": 0,
+    "new_sources": 0,
+    "source_urls_changed": 0,
+    "parent_changes": 0,
+    "outgoing_destinations_changed": 0,
+    "intro_or_block_items_added_or_removed": 0,
+    "repository_files_changed_by_agent": 0,
+    "builds_or_tests_run": false,
+    "existing_compared_properties_not_generally_rewritten": true,
+    "cheap_n1_commercial_word_regexp_passed": true
+  },
+  "semantic_corrections": [
+    {
+      "slug": "kawai-k300-v-arendu",
+      "status": "agreed_by_root",
+      "reason": "Доступ к K-300 проверяется на текущей программе; прежняя рамка обязательного повышения класса и полного исчерпания K-200/цифрового инструмента снята. Первичные сведения заново сверены root по существующим URL, новых источников нет.",
+      "fields": [
+        "intro",
+        "blocks[1].title",
+        "quote"
+      ]
+    },
+    {
+      "slug": "instrumenty-dlya-vokalnogo-trio",
+      "status": "agreed_by_root",
+      "reason": "Название состава согласовано с полным текстом: один певец и два инструмента; третий участник не назван третьим инструментом. Сцена, URL и полезные тезисы сохранены.",
+      "fields": [
+        "search_title",
+        "editorial_title",
+        "description",
+        "blocks[2].paragraphs[0]"
+      ]
+    },
+    {
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "status": "agreed_by_root",
+      "reason": "У обычной скрипки ошибочное упоминание ладов в проверке строя заменено грифом; новых свойств не добавлено.",
+      "fields": [
+        "blocks[1].paragraphs[0]"
+      ]
+    },
+    {
+      "slug": "goronok-etyud-v-arendu",
+      "status": "agreed_by_root",
+      "reason": "У обычной скрипки ошибочное упоминание ладов в проверке строя заменено грифом; новых свойств не добавлено.",
+      "fields": [
+        "blocks[2].paragraphs[0]"
+      ]
+    }
+  ],
+  "keep_slugs": [
+    "yamaha-clp775-v-arendu",
+    "yamaha-clp875-v-arendu",
+    "yamaha-clp885-v-arendu",
+    "nord-piano-5-v-arendu",
+    "nord-stage-4-v-arendu",
+    "codabow-prodigy-skripka-v-arendu",
+    "knilling-bucharest-skripka-v-arendu"
+  ],
+  "root_refinements": [
+    {
+      "slug": "violonchel-posle-pereryva",
+      "field": "blocks[2].paragraphs[0]",
+      "before_candidate": "После нескольких недель уже понятнее, нужен ли прежний класс инструмента или другой размер или иная конфигурация.",
+      "after": "После нескольких недель уже понятнее, нужен ли инструмент прежнего класса, другой размер или иная регулировка.",
+      "reason": "Setup обычной виолончели здесь означает регулировку; убрано повторение союза без изменения сцены возвращения после перерыва."
+    }
+  ],
+  "root_review": {
+    "all_candidate_diffs_read": true,
+    "candidate_pages": 86,
+    "keep_decisions_read": 7,
+    "intervening_package_fields_unchanged": true,
+    "text_leaf_changes": 373,
+    "changed_field_counts": {
+      "description": 70,
+      "intro": 31,
+      "sources": 3,
+      "blocks": 66,
+      "kicker": 53,
+      "editorial_title": 23,
+      "search_title": 9,
+      "quote": 21
+    },
+    "test_count": 209,
+    "test_seconds": 89.363
+  },
+  "decision_register": "prepared-language/language-02-review.json",
+  "frozen_proposal": "prepared-language/language-02-candidate.json",
+  "label_plan": "prepared-language/language-02-labels.json",
+  "integrated_content": "../../content/sections/zzzz62-public-language-02.json",
+  "integrated_sha256": "bf5eec606c2bd9b9183afc6330da0cc89bd3fe081b784b0be0417f1e2b17889b",
+  "integration_base_commit": "41bfa0220076c35aaca1ee87bd848f93d180fc05",
+  "snapshot_reconstruction": "Input snapshots are reproducible from their base commit with read_legacy, merge_records, merge_legacy_navigation, alias removal, connect and dataclasses.asdict."
+}
