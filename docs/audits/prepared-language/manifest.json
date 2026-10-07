@@ -169,14 +169,20 @@
       "integration_record": "docs/audits/2026-10-07-language-06-review.json",
       "integrated_overlay": "content/sections/zzzz66-public-language-06.json",
       "supplemental_root_review": "docs/audits/prepared-language/language-06-root-review.json",
-      "note": "The exact locally reviewed root overlay was reconstructed from frozen evidence after execution transport failure; see the reconstruction record. Confirm the resulting exact SHA release separately."
+      "note": "The exact locally reviewed root overlay was reconstructed from frozen evidence after execution transport failure. The exact content release and Canon audit both succeeded; the frozen originals remain unchanged.",
+      "release_confirmation": {
+        "head_sha": "dd6dbb9f6164b8e939b820643cf7223fde4ea669",
+        "release_run_id": 37557834509,
+        "canon_run_id": 37557834507,
+        "status": "success"
+      }
     }
   ],
   "continuation": "../../CURRENT-WORK-STATE.md",
   "file_path_base": "repository root",
   "navigation_residual": {
-    "status": "integrated_with_root_refinement",
-    "requires": "Confirm the residual package exact SHA release; no remaining operation in this caption set.",
+    "status": "integrated_with_root_refinement_and_release_confirmed",
+    "requires": "No remaining operation in this caption set. Before new work verify the current remote head and its own release.",
     "files": [
       {
         "path": "docs/audits/prepared-navigation/mixed-language-label-residual-review.json",
@@ -199,11 +205,12 @@
     "grammar_fields": 3,
     "integration_record": "docs/audits/2026-10-07-language-residual-integration.json",
     "root_candidate": "docs/audits/prepared-navigation/mixed-language-label-residual-root-candidate.json",
-    "independent_review": "docs/audits/prepared-navigation/mixed-language-label-residual-remote-review.json"
+    "independent_review": "docs/audits/prepared-navigation/mixed-language-label-residual-remote-review.json",
+    "release_confirmation": "docs/audits/2026-10-07-language-residual-release-confirmation.json"
   },
   "pending_work": "docs/audits/2026-10-07-pending-reviewed-work.json",
   "semantic_residual": {
-    "status": "integrated_exact_frozen_candidate",
+    "status": "integrated_exact_frozen_candidate_and_release_confirmed",
     "reviewed": 62,
     "enrich": 19,
     "keep": 43,
@@ -231,6 +238,9 @@
     "integration_record": "docs/audits/2026-10-07-semantic-residual-integration.json",
     "integrated_overlay": "content/sections/zzzz68-public-semantic-residual.json",
     "review_record": "docs/audits/2026-10-07-semantic-residual-review.json",
-    "note": "The preserved candidate and recovered evidence remain outside compiler inputs; the exact candidate is now integrated as the listed content overlay. Confirm the latest exact SHA release through CURRENT-WORK-STATE.md."
-  }
+    "note": "The preserved candidate and recovered evidence remain outside compiler inputs. The exact candidate is integrated as the listed overlay, and its exact-SHA release succeeded. The current remote head and later documentation-only release are verified through CURRENT-WORK-STATE.md.",
+    "release_confirmation": "docs/audits/2026-10-07-semantic-residual-release-confirmation.json"
+  },
+  "recovery_checkpoint": "docs/audits/2026-10-07-project-recovery-checkpoint.md",
+  "remaining_approved_operations": 0
 }

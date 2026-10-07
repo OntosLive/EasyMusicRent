@@ -1,6 +1,6 @@
 {
-  "status": "all_prepared_approved_operations_integrated_requires_latest_release_confirmation",
-  "base_for_pending_work": "No remaining approved operation; confirm the latest exact SHA release before new work.",
+  "status": "all_prepared_approved_operations_integrated_and_release_confirmed",
+  "base_for_pending_work": "No remaining approved operation. The latest content release is confirmed; before new work confirm the current remote head and its own release through CURRENT-WORK-STATE.md.",
   "navigation": {
     "frozen_candidate": "prepared-navigation/mixed-language-label-residual-candidate.json",
     "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
@@ -53,12 +53,15 @@
     "quote_fields": 1,
     "mechanical_final_binding": "Exact original candidate SHA reproduced from current complete source fields and all 25 recovered operations; see prepared-semantic recovery record.",
     "purpose": "Remove internal descriptions of pages/branches and requirements to have already mastered a capability before gaining access to learn it. Preserve dates, familiar test fragments, model facts, exact kits and source URLs.",
-    "status": "integrated_exact_frozen_candidate_requires_latest_release_confirmation",
+    "status": "integrated_and_release_confirmed",
     "candidate": "prepared-semantic/post-language-semantic-candidate.json",
     "recovery": "prepared-semantic/post-language-semantic-recovery.json",
     "independent_review": "prepared-semantic/post-language-semantic-review-recovered.json",
     "integrated_overlay": "content/sections/zzzz68-public-semantic-residual.json",
-    "integration_record": "2026-10-07-semantic-residual-integration.json"
+    "integration_record": "2026-10-07-semantic-residual-integration.json",
+    "release_confirmation": "2026-10-07-semantic-residual-release-confirmation.json",
+    "release_head_sha": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
+    "release_run_id": 37559271966
   },
   "documentation": {
     "documents_read": 21,
@@ -72,5 +75,13 @@
     "audit": "2026-10-07-documentation-consistency.json"
   },
   "remaining_approved_operations": 0,
-  "scope_note": "These prepared queues are closed. This status does not assert universal factual verification, stock availability or completion of every future project task."
+  "scope_note": "These prepared queues are closed. This status does not assert universal factual verification, stock availability or completion of every future project task.",
+  "latest_content_release": {
+    "head_sha": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
+    "run_id": 37559271966,
+    "status": "completed",
+    "conclusion": "success",
+    "confirmation": "2026-10-07-semantic-residual-release-confirmation.json"
+  },
+  "recovery_checkpoint": "2026-10-07-project-recovery-checkpoint.md"
 }

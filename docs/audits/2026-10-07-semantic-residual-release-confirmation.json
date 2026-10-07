@@ -1,0 +1,102 @@
+{
+  "head_sha": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
+  "tree_sha": "8c24955a952ae8202ea0f683b49cc700c14f5aad",
+  "release_run_id": 37559271966,
+  "release_status": "completed",
+  "release_conclusion": "success",
+  "release_url": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37559271966",
+  "build_job_id": 112592613530,
+  "deploy_job_id": 112593100816,
+  "tests": {
+    "count": 209,
+    "seconds": 80.699,
+    "result": "passed"
+  },
+  "validation": {
+    "documents_checked": 3810,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1901,
+    "errors": []
+  },
+  "html_paths": 3888,
+  "html_path_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "all_html_paths_preserved": true,
+  "graph": {
+    "subjects": 1901,
+    "edges": 5285,
+    "strict_edges": 3757,
+    "leaf_pages": 1686,
+    "thin_leaf_pages": 0,
+    "strict_thin_leaf_pages": 0,
+    "duplicates": 0,
+    "self_links": 0,
+    "errors": []
+  },
+  "branches": {
+    "status": "identical",
+    "main": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
+    "codex_active": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4"
+  },
+  "recorded_date": "2026-10-07",
+  "package": "public-semantic-residual",
+  "source": "Complete GitHub Actions build and deploy job logs and exact remote branch comparison.",
+  "candidate": {
+    "path": "content/sections/zzzz68-public-semantic-residual.json",
+    "sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+    "reviewed_contexts": 62,
+    "enrich": 19,
+    "keep": 43,
+    "exact_operations": 25,
+    "complete_intro_arrays": 7,
+    "complete_blocks_arrays": 13,
+    "quote_fields": 1
+  },
+  "graph_metric_definitions": {
+    "top_level": "Unique explicit subject routes after alias normalization, excluding self-links and duplicate targets. Direct parent/child routes remain; legacy lateral_* names are retained for comparison with earlier reports.",
+    "strict_lateral": "Explicit routes excluding declared direct parents and direct children. Neither graph includes automatic child routes added by core.connect.",
+    "thin_leaf": "No declared children and no outgoing route in the measured graph.",
+    "hygiene_counts": "Every self-link occurrence and every duplicate after the first canonical target. A repeated self-link contributes to both counts; both block preflight.",
+    "model_pages": "Existing slug-based cohort: subjects ending in -v-arendu."
+  },
+  "previous_release": {
+    "head_sha": "61659abebf78859eaaa75714038f58f5918bd909",
+    "release_run_id": 37558667195,
+    "confirmation": "2026-10-07-language-residual-release-confirmation.json",
+    "all_3888_html_paths_equal": true
+  },
+  "artifact_path_method": "Sorted unique index.html paths extracted from the upload-pages-artifact tar listing in complete build job logs; SHA256 of JSON.stringify(sorted_paths). Compared all path strings, not only their count.",
+  "deployment": {
+    "job_id": 112593100816,
+    "head_sha": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
+    "reported_status": "success",
+    "reported_success_at_utc": "2026-10-07T01:55:02.2192601Z",
+    "environment_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/",
+    "evidence": "The deploy job states Created deployment for the exact head SHA, then Reported success and the evaluated environment URL."
+  },
+  "independent_public_html_check": {
+    "status": "not_observed_tool_access_limitation",
+    "attempted_paths": [
+      "/",
+      "/details/kontsertina-dlya-ansamblya/",
+      "/details/ukulele-koncert/",
+      "/details/gewa-maestro1-skripka-v-arendu/",
+      "/details/arcata-giovanni-v-arendu/"
+    ],
+    "observed_tool_response": "URL ... is not accessible via this tool",
+    "fresh_public_html_received": false,
+    "indexed_snippets_used_as_fresh_html_evidence": false,
+    "site_outage_inferred": false,
+    "note": "One equivalent Cyrillic-domain retry returned the same limitation. The successful deployment is established by GitHub; these web attempts do not establish public HTTP availability or an outage."
+  },
+  "execution_environment": {
+    "local_transport": "unavailable after exec-server recovery timeout",
+    "new_local_test_or_build_claimed": false,
+    "last_known_local_head": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+    "local_checkout_contains_uncommitted_group06_work": true,
+    "remote_reconstruction_and_release_completed": true,
+    "resumption": "Preserve and compare stale local changes before synchronizing, or use a fresh isolated checkout of the confirmed remote head."
+  },
+  "scope_note": "Confirms the exact content commit and its successful deployment. The later documentation checkpoint has its own exact-SHA release gate; no recursive proof-only commit is required."
+}
