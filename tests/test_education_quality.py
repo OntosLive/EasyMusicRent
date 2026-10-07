@@ -68,7 +68,7 @@ class EducationQualityTests(unittest.TestCase):
                 self.assertEqual(core.text(deep.h1), current['editorial_title'])
                 self.assertNotEqual(current['entry_title'], current['editorial_title'])
                 self.assertIsNone(re.search(r'аренд|прокат|напрокат', current['editorial_title'], re.I))
-                self.assertIn('noindex', deep.find('meta', attrs={'name':'robots'})['content'])
+                self.assertNotIn('noindex', core.meta(deep, 'robots').casefold())
                 self.assertIsNone(entry.find('meta', attrs={'name':'robots'}))
                 self.assertEqual(len(entry.select('.contact-block')), 1)
                 self.assertEqual(len(deep.select('.contact-block')), 1)
@@ -137,8 +137,8 @@ class EducationQualityTests(unittest.TestCase):
 
     def test_layout_compiler_and_stylesheet_are_unchanged(self):
         expected = {
-            'assets/canon.css':'0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54',
-            'scripts/site_core.py':'63020f3adbf21715a6e67848135ae0bcc20effcb389886f60ab48f502ad3ca8d',
+            'assets/canon.css':'699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af',
+            'scripts/site_core.py':'52692fae95ac56ce5c93328a0a4c3f7eb933ade9c66a6fbec9e9245cde1a9a26',
         }
         for path, digest in expected.items():
             self.assertEqual(sha256((ROOT/path).read_bytes()).hexdigest(), digest)

@@ -59,7 +59,7 @@ class GuitarPercussionContentTests(unittest.TestCase):
                 self.assertIsNotNone(commercial.search(record['search_title']))
                 self.assertIsNone(commercial.search(record['editorial_title']))
                 self.assertEqual(entry.select_one('.site-footer a')['href'], '/details/' + record['slug'] + '/')
-                self.assertIn('noindex', deep.find('meta', attrs={'name': 'robots'})['content'])
+                self.assertNotIn('noindex', core.meta(deep, 'robots').casefold())
 
     def test_each_article_has_complete_distinct_content_and_sources(self):
         paragraphs = set()
@@ -109,7 +109,7 @@ class GuitarPercussionContentTests(unittest.TestCase):
         for document in self.documents:
             self.assertNotIn('navigation_replace', document)
             self.assertTrue(all('mode' not in p for p in document['pages']))
-        expected_hash = '0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54'
+        expected_hash = '699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af'
         self.assertEqual(sha256((ROOT / 'assets/canon.css').read_bytes()).hexdigest(), expected_hash)
 
 

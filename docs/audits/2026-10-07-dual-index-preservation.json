@@ -1,0 +1,139 @@
+{
+  "schema": "ontos-dual-index-preservation-v1",
+  "checked_at_utc": "2026-10-07T13:30:42.315790+00:00",
+  "script": "/workspace/scratch/ccb7f80b4c57/verify-dual-index-preservation.py",
+  "script_sha256": "2acf7733cfd5f3c1b680209aef736b3aa927a568256b1e36285cfc3a4f53691d",
+  "baseline": "/workspace/scratch/ccb7f80b4c57/rental-expansion-site",
+  "candidate": "/workspace/scratch/ccb7f80b4c57/dual-index-site",
+  "baseline_commit": "f9789a41743221af9758374c216fc39fffcfd6a6",
+  "current_head": "f9789a41743221af9758374c216fc39fffcfd6a6",
+  "status": "pass",
+  "allowed_html_changes": [
+    "Remove the exact prior N1 noindex,follow meta tag",
+    "Change only the canonical CSS version",
+    "Remove, relocate and filter original .sources documentation"
+  ],
+  "html_paths": {
+    "before": 4046,
+    "after": 4046,
+    "removed": [],
+    "added": [],
+    "before_sha256": "e0218c941f2e41e29e0f6ab8a0211641c2747cd99eabd05ea2bd7a68f3b1f24c",
+    "after_sha256": "e0218c941f2e41e29e0f6ab8a0211641c2747cd99eabd05ea2bd7a68f3b1f24c",
+    "expected_sha256": "e0218c941f2e41e29e0f6ab8a0211641c2747cd99eabd05ea2bd7a68f3b1f24c"
+  },
+  "counts": {
+    "changed_html": 3968,
+    "ordinary_documents": 3968,
+    "entry_or_condition_documents": 1988,
+    "baseline_noindex_tags_removed": 1980,
+    "before_source_blocks": 1490,
+    "before_source_links": 2552,
+    "after_source_blocks": 1356,
+    "after_source_links": 2056,
+    "normalized_documents_equal": 3968,
+    "byte_identical_html": 78,
+    "redirects": 78,
+    "editorial_documents": 1980
+  },
+  "raw_html_manifest_sha256": {
+    "before": "18ad7ab492caf9b96b32762cd1d5b7f25aefe8f1267e2a0b8f02a3ed7dd046dc",
+    "after": "b4420d53311c442afa0dca64a0536dc56b4cec8edee298c62d5947625d67e56d"
+  },
+  "normalized_html_manifest_sha256": {
+    "before": "50a927ff38b9f50120d2d732b2cbf0f4a0ebf4f54fee600ef3b70063174f8143",
+    "after": "50a927ff38b9f50120d2d732b2cbf0f4a0ebf4f54fee600ef3b70063174f8143"
+  },
+  "redirect_manifest_sha256": {
+    "before": "390b32654fa72f38def7e5c69b3a09a3bd6fa375024d8eac658c67c30d7e901e",
+    "after": "390b32654fa72f38def7e5c69b3a09a3bd6fa375024d8eac658c67c30d7e901e"
+  },
+  "field_manifest_sha256": {
+    "title": {
+      "before": "286f4b3168daff68997fadfc9db12168d7d9a80b7727e0091f636308bbdbbf63",
+      "after": "286f4b3168daff68997fadfc9db12168d7d9a80b7727e0091f636308bbdbbf63"
+    },
+    "h1": {
+      "before": "0627faa11a1e4ed5875e66ffb9daeef2e0de848beac0f5e4c8bd2a04ca6bce53",
+      "after": "0627faa11a1e4ed5875e66ffb9daeef2e0de848beac0f5e4c8bd2a04ca6bce53"
+    },
+    "description": {
+      "before": "7a81f1e63f239ce776be5a3ebf7312cdbdabb514277272b706ed914ba6d79972",
+      "after": "7a81f1e63f239ce776be5a3ebf7312cdbdabb514277272b706ed914ba6d79972"
+    },
+    "canonical": {
+      "before": "84198d223f69519add6da20c9f55554953300b01b361a60905d74ec690d7c747",
+      "after": "84198d223f69519add6da20c9f55554953300b01b361a60905d74ec690d7c747"
+    },
+    "body": {
+      "before": "434781d6245fe0ea2a0c941ae0e8bfd145e7073816bd8329f84c36db0443c846",
+      "after": "434781d6245fe0ea2a0c941ae0e8bfd145e7073816bd8329f84c36db0443c846"
+    },
+    "navigation": {
+      "before": "a5c2796b588abd56b8046fd67bafcbfc55c0a16c29b62833fae4c43ae4b02d6d",
+      "after": "a5c2796b588abd56b8046fd67bafcbfc55c0a16c29b62833fae4c43ae4b02d6d"
+    },
+    "contact": {
+      "before": "1bbe04b73c559097056f41e1bd29ac2fefc773bf6abab5a70805e6d5829ec2e7",
+      "after": "1bbe04b73c559097056f41e1bd29ac2fefc773bf6abab5a70805e6d5829ec2e7"
+    },
+    "head": {
+      "before": "fb68077e973a2c4bd3ea2c7c835d0167ec77d1ad7c55c4562e4fa4dfd2bbf966",
+      "after": "fb68077e973a2c4bd3ea2c7c835d0167ec77d1ad7c55c4562e4fa4dfd2bbf966"
+    }
+  },
+  "css": {
+    "before_version": "0b048bad40e4",
+    "after_version": "699834b7f598",
+    "outside_documentation_equal": true,
+    "outside_documentation_sha256": "ee48e17fddccc356eb53b01c1d1cff2b619fdac2931eb2e3238bb4918227d8b0"
+  },
+  "non_html": [
+    {
+      "path": ".nojekyll",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "equal": true,
+      "change_allowed": false
+    },
+    {
+      "path": "assets/canon.css",
+      "before_sha256": "0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54",
+      "after_sha256": "699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af",
+      "equal": false,
+      "change_allowed": true
+    },
+    {
+      "path": "robots.txt",
+      "before_sha256": "e5a5a91705db83114cfa7564e979d0cd70baae71c1a6bba3f4c56f40b03331a7",
+      "after_sha256": "e5a5a91705db83114cfa7564e979d0cd70baae71c1a6bba3f4c56f40b03331a7",
+      "equal": true,
+      "change_allowed": false
+    },
+    {
+      "path": "sitemap.xml",
+      "before_sha256": "113477fa439cabfc97051efb9bace25c10da84c4b52415bbb8987c9d3214f933",
+      "after_sha256": "9e97b177e076c21b9ceed3e24b6b85696bee2a45f7695a989764d2a84dbc652a",
+      "equal": false,
+      "change_allowed": true
+    }
+  ],
+  "protected_sources": {
+    "scope": [
+      "content/sections",
+      "content/legacy-metadata.json",
+      "content/aliases.json"
+    ],
+    "tracked_files_checked": 254,
+    "changed_files": [],
+    "untracked_files": [],
+    "manifest_sha256": "f427f09e660a473d4e54b9e8fd4f1ff0d3ba24cd93c49037cb169f64b6f3a06f",
+    "all_git_blobs_equal": true
+  },
+  "page_records": {
+    "path": "/workspace/scratch/ccb7f80b4c57/dual-index-preservation-pages.json",
+    "sha256": "25eec7855f64576a7e6e97279cbbcabac5480841c4a899d37622464123cc5b1a",
+    "records": 4046
+  },
+  "errors": []
+}

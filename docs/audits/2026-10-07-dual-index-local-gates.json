@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "status": "local_pass_publication_pending",
+  "recorded_at": "2026-10-07T13:33:41.879499+00:00",
+  "baseline_commit": "f9789a41743221af9758374c216fc39fffcfd6a6",
+  "tests": {
+    "count": 237,
+    "duration_seconds": 104.233,
+    "result": "OK"
+  },
+  "initial_test_run": {
+    "count": 237,
+    "duration_seconds": 108.009,
+    "failures": 31,
+    "cause": "29 historical compiler/CSS checksum guards and 2 expectations that research sources remain public.",
+    "resolution": "Update exactly approved compiler/CSS fingerprints and preserve raw sources separately from public documentation; no tests removed."
+  },
+  "validation": {
+    "documents_checked": 3968,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 3960,
+    "errors": []
+  },
+  "preservation_summary": {
+    "changed_html": 3968,
+    "ordinary_documents": 3968,
+    "entry_or_condition_documents": 1988,
+    "baseline_noindex_tags_removed": 1980,
+    "before_source_blocks": 1490,
+    "before_source_links": 2552,
+    "after_source_blocks": 1356,
+    "after_source_links": 2056,
+    "normalized_documents_equal": 3968,
+    "byte_identical_html": 78,
+    "redirects": 78,
+    "editorial_documents": 1980
+  },
+  "source_summary": {
+    "n1_checked": 1980,
+    "n0_checked": 1980,
+    "raw_source_occurrences": 2552,
+    "expected_public_source_occurrences": 2056,
+    "n1_without_documentation": 624,
+    "n1_with_documentation": 1356,
+    "actual_public_source_occurrences": 2056
+  },
+  "protected_source_files": {
+    "scope": [
+      "content/sections",
+      "content/legacy-metadata.json",
+      "content/aliases.json"
+    ],
+    "tracked_files_checked": 254,
+    "changed_files": [],
+    "untracked_files": [],
+    "manifest_sha256": "f427f09e660a473d4e54b9e8fd4f1ff0d3ba24cd93c49037cb169f64b6f3a06f",
+    "all_git_blobs_equal": true
+  },
+  "compressed_evidence": {
+    "2026-10-07-dual-index-preservation-pages.json.gz": {
+      "original_bytes": 2358235,
+      "stored_bytes": 560028,
+      "original_sha256": "25eec7855f64576a7e6e97279cbbcabac5480841c4a899d37622464123cc5b1a",
+      "stored_sha256": "49963e450af0ecbe8d927b2472dbbaf18a9a86411f97af4749b8dfd9b8fdb6f8"
+    },
+    "2026-10-07-dual-index-initial-test-failures.log.gz": {
+      "original_bytes": 60532,
+      "stored_bytes": 6861,
+      "original_sha256": "fd47e7a9ab2660d6935cdcf7f85ffdee7cd4001eee4ed4d42354f6332876affe",
+      "stored_sha256": "d52fe155eee9a9ad4ccf51f385a232810b70f2db444fe750ca259c9cc51a1328"
+    }
+  },
+  "source_sha256": {
+    "scripts/site_core.py": "52692fae95ac56ce5c93328a0a4c3f7eb933ade9c66a6fbec9e9245cde1a9a26",
+    "assets/canon.css": "699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af",
+    "scripts/validate_site.py": "d674b0cd40428410ce0632a21b5706f2f415041302815a4b8229bd7a154b033d",
+    "scripts/source_policy.py": "1cb0adb59a130fdd023d58be3e2f235b65c90450fdfe0173237386f151379353",
+    "content/source-publication-policy.json": "cb93e511c54ed264086fad2433a9e27765c01f344086aa50cb21cc54bde57526"
+  },
+  "limits": [
+    "Local gates do not prove deployment or actual search-engine inclusion.",
+    "Historical release reports keep their original noindex/sitemap results.",
+    "This package does not change instrument copy, inventory, prices, service claims or URLs."
+  ]
+}

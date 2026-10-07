@@ -34,7 +34,7 @@ class CanonTests(unittest.TestCase):
         self.assertEqual(core.text(entry.h1), 'Аренда синтезаторов в Москве')
         self.assertEqual(core.text(deep.h1), 'Синтезаторы')
         self.assertEqual(core.text(deep.select_one('.wordmark')), 'ONTOS . RENT')
-        self.assertIn('noindex', deep.find('meta', attrs={'name':'robots'})['content'])
+        self.assertNotIn('noindex', core.meta(deep, 'robots').casefold())
 
     def test_model_title_is_not_editorial_sentence(self):
         entry = self.page('/yamaha-p115-v-arendu/')

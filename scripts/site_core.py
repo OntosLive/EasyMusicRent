@@ -16,6 +16,7 @@ import shutil
 from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup, Tag
+from source_policy import public_sources
 
 ROOT = Path(__file__).resolve().parents[1]
 DOMAIN = 'https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai'
@@ -310,8 +311,9 @@ def render_deep(page: Page, pages: dict[str, Page], icons, version: str) -> str:
     cards = ''.join('<article><p class="kicker">'+escape(x['label'])+'</p><h2>'+escape(x['title'])+'</h2>'+''.join('<p>'+p+'</p>' for p in x['paragraphs'])+'</article>' for x in page.blocks)
     quote = '<blockquote>'+escape(page.quote)+'</blockquote>' if page.quote else ''
     sources = ''
-    if page.sources:
-        sources = '<details class="sources"><summary>Об инструменте: источники</summary><ul>'+''.join(f'<li><a href="{escape(x["url"],quote=True)}" rel="noopener">{escape(x["title"])}</a></li>' for x in page.sources)+'</ul></details>'
+    documentation = public_sources(page.sources)
+    if documentation:
+        sources = '<details class="sources"><summary>Документация</summary><ul>'+''.join(f'<li><a href="{escape(x["url"],quote=True)}" rel="noopener">{escape(x["title"])}</a></li>' for x in documentation)+'</ul></details>'
     if page.parent:
         parent = pages[page.parent]
         link = footer(parent.deep, parent.editorial_title)
@@ -319,8 +321,8 @@ def render_deep(page: Page, pages: dict[str, Page], icons, version: str) -> str:
         link = footer('/details/#razdely', 'Все инструменты')
     else:
         link = footer('#razdely', 'Инструменты', 'Подробнее')
-    body = masthead()+'<main class="editorial">'+heading+intro+nav+('<section class="arguments">'+cards+'</section>' if cards else '')+quote+sources+contact(icons)+'</main>'+link
-    return frame(page.editorial_title, page.description, page.deep, body, version, deep=True, noindex=True)
+    body = masthead()+'<main class="editorial">'+heading+intro+nav+('<section class="arguments">'+cards+'</section>' if cards else '')+quote+contact(icons)+'</main>'+link+sources
+    return frame(page.editorial_title, page.description, page.deep, body, version, deep=True)
 
 
 def render_entry(page: Page, icons, version: str) -> str:
@@ -398,8 +400,9 @@ def build(root: Path, output: Path) -> dict:
     ET.register_namespace('',namespace)
     sitemap=ET.Element('{'+namespace+'}urlset')
     for page in pages.values():
-        node=ET.SubElement(sitemap,'{'+namespace+'}url')
-        ET.SubElement(node,'{'+namespace+'}loc').text=DOMAIN+page.entry
+        for url in (page.entry, page.deep):
+            node=ET.SubElement(sitemap,'{'+namespace+'}url')
+            ET.SubElement(node,'{'+namespace+'}loc').text=DOMAIN+url
     ET.ElementTree(sitemap).write(output/'sitemap.xml',encoding='utf-8',xml_declaration=True)
     (output/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+DOMAIN+'/sitemap.xml\n',encoding='utf-8')
     return {'source_pages':len(pages),'public_pair_pages':len(pages)*2,'conditions':len(list(root.glob('usloviya/*/index.html')))-2,'css_version':version,'authored_records':sum(p.reviewed for p in pages.values()),'pages':[{'slug':p.slug,'entry_title':p.search_title,'editorial_title':p.editorial_title,'parent':p.parent,'links':len(p.links),'source':p.provenance} for p in pages.values()]}

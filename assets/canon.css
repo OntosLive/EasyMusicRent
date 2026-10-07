@@ -35,7 +35,7 @@ blockquote{margin:52px 0 38px;font-size:clamp(29px,4vw,49px);font-style:italic;l
 .category-groups>details{border-bottom:1px solid var(--line)}
 .category-groups summary{padding:18px 0;cursor:pointer;font-weight:700;font-size:clamp(20px,2.5vw,29px)}
 .category-groups .category-grid{margin-top:0;border-top:1px solid var(--line);border-bottom:0}
-.sources{font:14px/1.45 Arial,sans-serif;color:var(--muted);margin:24px 0}.sources summary{cursor:pointer}.sources li{margin:8px 0}
+.sources{font:13px/1.45 Arial,sans-serif;color:var(--muted);margin:18px 0 0}.sources summary{cursor:pointer;width:fit-content}.sources ul{margin:12px 0 0;padding-left:18px}.sources li{margin:6px 0}.sources a{overflow-wrap:anywhere}
 .contact-block{margin-top:38px;margin-bottom:38px;container-type:inline-size}
 .contact-block--ruled{border-top:var(--rule) solid var(--ink);padding-top:18px;margin-top:clamp(48px,9vw,110px)}
 .contact{display:flex;justify-content:center;align-items:center;gap:8px;min-width:0}

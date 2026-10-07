@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 import site_core as core
 import content_inventory as inventory
+from source_policy import public_sources
 
 BATCHES = (
     'zz50-russian-bayan-school-context.json',
@@ -57,7 +58,7 @@ class SchoolBrandContinuationTests(unittest.TestCase):
                 self.assertEqual(core.text(deep.h1), p['editorial_title'])
                 self.assertIsNone(re.search(r'аренд|прокат|напрокат', p['editorial_title'], re.I))
                 self.assertIsNone(entry.find('meta', attrs={'name':'robots'}))
-                self.assertIn('noindex', deep.find('meta', attrs={'name':'robots'})['content'])
+                self.assertNotIn('noindex', core.meta(deep, 'robots').casefold())
                 self.assertEqual(len(entry.select('.contact-block')), 1)
                 self.assertEqual(len(deep.select('.contact-block')), 1)
                 self.assertEqual(deep.select_one('.site-footer a')['href'], '/details/'+p['parent']+'/')
@@ -126,6 +127,8 @@ class SchoolBrandContinuationTests(unittest.TestCase):
                                ('zz04-keyboard-repertoire-landings.json','pianino-dlya-videozayavki')]:
             doc = core.read_json(ROOT/'content/sections'/filename,{})
             old[slug] = next(p for p in doc['pages'] if p['slug']==slug)
+        merged = core.read_legacy(ROOT, core.read_json(ROOT/'content/legacy-metadata.json', {}))
+        core.merge_records(ROOT, merged)
         for record in self.enrich:
             self.assertTrue(record['append_intro'])
             self.assertFalse({'intro','blocks','search_title','editorial_title','parent'} & record.keys())
@@ -138,8 +141,12 @@ class SchoolBrandContinuationTests(unittest.TestCase):
             for block in get('blocks'):
                 for paragraph in block['paragraphs']:
                     self.assertIn(core.text(core.soup(paragraph)), text)
+            sources = merged[slug].sources
+            self.assertEqual(sources, record['sources'])
             for src in get('sources'):
-                self.assertIn(src['url'], {a['href'] for a in page.select('a[href]')})
+                self.assertIn(src, sources)
+            actual = [(a['href'], core.text(a)) for a in page.select('.sources a[href]')]
+            self.assertEqual(actual, [(s['url'], s['title']) for s in public_sources(sources)])
 
     def test_exam_scope_is_dated_and_not_a_universal_piano_rule(self):
         text=self.page('pianino-dlya-videozayavki',True).get_text(' ',strip=True)
@@ -150,8 +157,8 @@ class SchoolBrandContinuationTests(unittest.TestCase):
 
     def test_compiler_styles_and_prior_tests_are_unchanged(self):
         expected = {
-            'scripts/site_core.py':'63020f3adbf21715a6e67848135ae0bcc20effcb389886f60ab48f502ad3ca8d',
-            'assets/canon.css':'0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54',
+            'scripts/site_core.py':'52692fae95ac56ce5c93328a0a4c3f7eb933ade9c66a6fbec9e9245cde1a9a26',
+            'assets/canon.css':'699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af',
         }
         for path,digest in expected.items():
             self.assertEqual(sha256((ROOT/path).read_bytes()).hexdigest(),digest)

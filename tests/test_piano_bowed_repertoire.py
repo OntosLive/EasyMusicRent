@@ -65,7 +65,7 @@ class PianoBowedRepertoireTests(unittest.TestCase):
                 self.assertIsNotNone(COMMERCIAL.search(p['search_title']))
                 self.assertIsNone(COMMERCIAL.search(p['editorial_title']))
                 self.assertIsNone(entry.find('meta', attrs={'name': 'robots'}))
-                self.assertIn('noindex', deep.find('meta', attrs={'name': 'robots'})['content'])
+                self.assertNotIn('noindex', core.meta(deep, 'robots').casefold())
                 self.assertEqual(entry.select_one('.site-footer a')['href'], '/details/' + p['slug'] + '/')
                 self.assertEqual(deep.select_one('.site-footer a')['href'], '/details/' + p['parent'] + '/')
 
@@ -116,8 +116,8 @@ class PianoBowedRepertoireTests(unittest.TestCase):
             self.assertEqual(deep.select_one('.wordmark').get_text(strip=True), 'ONTOS.RENT')
             self.assertEqual(deep.select_one('.meta a')['href'], '/')
         for path, expected in {
-            'assets/canon.css': '0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54',
-            'scripts/site_core.py': '63020f3adbf21715a6e67848135ae0bcc20effcb389886f60ab48f502ad3ca8d',
+            'assets/canon.css': '699834b7f5983c453e7d8f5703fb56ebb30cf461896805926b7b68993e6338af',
+            'scripts/site_core.py': '52692fae95ac56ce5c93328a0a4c3f7eb933ade9c66a6fbec9e9245cde1a9a26',
         }.items():
             self.assertEqual(sha256((ROOT / path).read_bytes()).hexdigest(), expected)
         for doc in self.documents.values():

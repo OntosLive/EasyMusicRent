@@ -1,0 +1,106 @@
+{
+  "checked_at": "2026-10-07T13:28:27+00:00",
+  "status": "pass",
+  "scope": "All active N1 and N0 pages in built artifact; public sources and presentation placement.",
+  "output": "/workspace/scratch/ccb7f80b4c57/dual-index-site",
+  "counts": {
+    "n1_checked": 1980,
+    "n0_checked": 1980,
+    "raw_source_occurrences": 2552,
+    "expected_public_source_occurrences": 2056,
+    "n1_without_documentation": 624,
+    "n1_with_documentation": 1356,
+    "actual_public_source_occurrences": 2056
+  },
+  "errors": [],
+  "preservation": {
+    "raw_page_sources_unchanged": true,
+    "source_fields_sha256": "35b023aee3a57ca34d1ecfb38edeb1d217586882116029c417f58c7e11d503db"
+  },
+  "policy": {
+    "path": "/workspace/scratch/ccb7f80b4c57/EasyMusicRent/content/source-publication-policy.json",
+    "sha256": "cb93e511c54ed264086fad2433a9e27765c01f344086aa50cb21cc54bde57526"
+  },
+  "checks": [
+    "exact authored href/title pairs equal public_sources in original order",
+    "absent block when no public sources",
+    "no sources block on N0",
+    "single closed block named Документация",
+    "block follows entire footer",
+    "block is last direct element of .page"
+  ],
+  "examples": {
+    "manufacturer_only": {
+      "slug": "yamaha-clp735-v-arendu",
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/yamaha-clp735-v-arendu/",
+      "source_classes": {
+        "manufacturer": 1
+      },
+      "raw_sources": 1,
+      "public_sources": 1,
+      "public_links": [
+        {
+          "title": "Yamaha CLP-700: comparison specifications",
+          "url": "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html"
+        }
+      ]
+    },
+    "mixed_public_and_hidden": {
+      "slug": "shure-sm58-v-arendu",
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/shure-sm58-v-arendu/",
+      "source_classes": {
+        "manufacturer": 1,
+        "rental_research": 1
+      },
+      "raw_sources": 2,
+      "public_sources": 1,
+      "public_links": [
+        {
+          "title": "Shure: руководство SM58, направленность и работа с микрофоном",
+          "url": "https://pubs.shure.com/view/guide/SM58/en-US.pdf"
+        }
+      ]
+    },
+    "hidden_only": {
+      "slug": "weltmeister-perle-v-arendu",
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/weltmeister-perle-v-arendu/",
+      "source_classes": {
+        "retail_research": 2
+      },
+      "raw_sources": 2,
+      "public_sources": 0,
+      "public_links": []
+    },
+    "museum": {
+      "slug": "klavikord",
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/klavikord/",
+      "source_classes": {
+        "institution_document": 1
+      },
+      "raw_sources": 1,
+      "public_sources": 1,
+      "public_links": [
+        {
+          "title": "The Met: механизм и выразительность клавикорда",
+          "url": "https://www.metmuseum.org/art/collection/search/504534"
+        }
+      ]
+    },
+    "exact_cdn": {
+      "slug": "gitarnyy-kabinet-1x12-dlya-pervogo-opyta",
+      "url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/gitarnyy-kabinet-1x12-dlya-pervogo-opyta/",
+      "source_classes": {
+        "rental_research": 1,
+        "technical_document": 1
+      },
+      "raw_sources": 2,
+      "public_sources": 1,
+      "public_links": [
+        {
+          "title": "Marshall JCM800 2203: подключение кабинета и согласование нагрузки",
+          "url": "https://assets.ctfassets.net/javen7msabdh/5yGO5Slu3bppUANqqAImQR/1a5bfd3c073bc6394e67d713b3065c76/M3311.402_JCM800_2203_QSG_Web.pdf"
+        }
+      ]
+    }
+  }
+}

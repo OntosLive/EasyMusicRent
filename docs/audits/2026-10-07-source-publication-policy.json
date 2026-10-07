@@ -1,0 +1,5111 @@
+{
+  "version": 1,
+  "audited_at": "2026-10-07T13:26:01+00:00",
+  "baseline_commit": "f9789a41743221af9758374c216fc39fffcfd6a6",
+  "status": "pass",
+  "request": "Перенести публичные источники в спокойный закрытый блок «Документация» внизу; оставить полезные первичные документы, сохранить всю исследовательскую базу.",
+  "scope": "Этот журнал проверяет отбор содержимого публичного блока. Положение блока и правила индексации проверяются отдельными интеграционными тестами.",
+  "inventory_method": "site_core.read_legacy + merge_records, затем удаление aliases. Источники не зависят от автоматически добавляемых навигационных связей.",
+  "policy": {
+    "path": "content/source-publication-policy.json",
+    "version": 1,
+    "sha256": "cb93e511c54ed264086fad2433a9e27765c01f344086aa50cb21cc54bde57526",
+    "matching": "Точный hostname для однородных официальных каталогов; точный URL для музейных/институциональных материалов, общего CDN и смешанных торговых сайтов. Неизвестные адреса скрываются с отдельным классом unreviewed.",
+    "classes": {
+      "manufacturer": {
+        "public": true,
+        "reason": "Документация, характеристики или материал изготовителя и владельца марки о своих инструментах."
+      },
+      "institution_document": {
+        "public": true,
+        "reason": "Отобранная первичная музейная, институциональная или исследовательская документация об инструменте и его устройстве."
+      },
+      "technical_document": {
+        "public": true,
+        "reason": "Отобранная инструкция, спецификация или технический материал на точном проверенном адресе."
+      },
+      "rental_research": {
+        "public": false,
+        "reason": "Каталог проката или оборудования площадки: свидетельство исследовательской выборки, сохраняется в исходных данных."
+      },
+      "retail_research": {
+        "public": false,
+        "reason": "Каталог независимого продавца, импортёра или предложение чужой модели: сохраняется для исследования."
+      },
+      "context_research": {
+        "public": false,
+        "reason": "Образовательный, закупочный, исполнительский или репертуарный контекст исследования; не публичная документация инструмента."
+      },
+      "secondary_research": {
+        "public": false,
+        "reason": "Вторичный обзор или сторонняя копия документа: сохраняется для исследования."
+      },
+      "unreviewed": {
+        "public": false,
+        "reason": "Для этого точного хоста или адреса ещё нет принятого правила публикации."
+      },
+      "invalid": {
+        "public": false,
+        "reason": "Некорректная запись или небезопасный/неоднозначный абсолютный HTTP(S) URL."
+      }
+    },
+    "retained_record_rule": "Ничего не удаляется из page.sources или исследовательских журналов. public_sources возвращает новый список и копии выбранных словарей, сохраняет исходный порядок и снимает только точные URL-повторы внутри страницы.",
+    "relevance_scope": "Семантическая связь документа с темой сохраняется из авторской привязки источника. Функция не объявляет любую страницу разрешённого издателя релевантной автоматически и не заменяет редакционный просмотр нового содержания.",
+    "network_scope": "Проверка всех 937 URL на HTTP-доступность не выполнялась. Повторно проверены перечисленные ниже неоднозначные издатели и документы; остальные правила опираются на существующие первичные ссылки и исследовательские журналы проекта."
+  },
+  "summary": {
+    "subjects": 1980,
+    "pages_with_sources_before": 1490,
+    "source_occurrences_before": 2552,
+    "unique_urls_before": 937,
+    "exact_hosts_before": 321,
+    "public_source_occurrences": 2056,
+    "public_unique_urls": 758,
+    "pages_with_public_documentation": 1356,
+    "private_research_occurrences": 496,
+    "private_research_unique_urls": 179,
+    "unreviewed_occurrences": 0,
+    "unreviewed_unique_urls": 0,
+    "invalid_occurrences": 0,
+    "invalid_unique_urls": 0,
+    "exact_url_duplicates_removed_within_page": 0,
+    "pages_with_changed_source_list": 367,
+    "pages_with_no_public_documentation_after_filter": 134
+  },
+  "classes_summary": {
+    "manufacturer": {
+      "occurrences": 1812,
+      "unique_urls": 679,
+      "public": true
+    },
+    "institution_document": {
+      "occurrences": 239,
+      "unique_urls": 75,
+      "public": true
+    },
+    "technical_document": {
+      "occurrences": 5,
+      "unique_urls": 4,
+      "public": true
+    },
+    "rental_research": {
+      "occurrences": 267,
+      "unique_urls": 85,
+      "public": false
+    },
+    "retail_research": {
+      "occurrences": 96,
+      "unique_urls": 34,
+      "public": false
+    },
+    "context_research": {
+      "occurrences": 132,
+      "unique_urls": 59,
+      "public": false
+    },
+    "secondary_research": {
+      "occurrences": 1,
+      "unique_urls": 1,
+      "public": false
+    },
+    "unreviewed": {
+      "occurrences": 0,
+      "unique_urls": 0,
+      "public": false
+    },
+    "invalid": {
+      "occurrences": 0,
+      "unique_urls": 0,
+      "public": false
+    }
+  },
+  "preservation": {
+    "all_page_records_unchanged": true,
+    "all_page_sources_unchanged": true,
+    "source_fields_sha256": "35b023aee3a57ca34d1ecfb38edeb1d217586882116029c417f58c7e11d503db",
+    "all_page_records_sha256": "57b23f6a05840ab84ab6b8b7d73f8da2ff2c01b3587a87f78cda1c6723a43e49",
+    "original_records_removed": 0,
+    "replacement_urls_created": 0,
+    "arbitrary_link_cap": null
+  },
+  "tests": {
+    "command": "python -m unittest discover -s tests -p test_source_policy.py -v",
+    "tests": 12,
+    "status": "pass",
+    "coverage": [
+      "manufacturer and museum",
+      "retailer/context/secondary versus unknown",
+      "host boundary and title spoofing",
+      "HTTP(S), credentials, ports, whitespace and backslashes",
+      "shared CDN exact URL boundary",
+      "mixed own-brand retailer",
+      "unbounded authored order",
+      "exact URL deduplication",
+      "input immutability",
+      "malformed records",
+      "policy consistency"
+    ]
+  },
+  "additional_primary_checks": [
+    {
+      "url": "https://arcata.ru/",
+      "decision": "Страница прямо описывает собственное производство Arcata; разрешён точный хост.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://goronok.ru/",
+      "decision": "Совмещены собственные инструменты и торговля; разрешены только точные URL отобранных моделей Goronok, общие торговые категории скрыты.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://aa-bandoneon.de/en/275-2/",
+      "decision": "Продавец описывает реимпорт и реставрацию старых бандонеонов, а не изготовление марки AA; исследовательский материал скрыт.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.pigini.nl/",
+      "decision": "Сайт сообщает о статусе импортёра в Нидерландах; торговый каталог скрыт.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.kalaukuleleapp.com/2026/07/09/what-size-ukulele-should-a-beginner-get/",
+      "decision": "Статья приложения Musopia относится к учебному исследованию, не к паспорту модели; скрыта.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://barthopkin.com/psalt-water/",
+      "decision": "Авторское описание разработанного инструмента; первичный материал создателя.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://concertinaconnection.com/",
+      "decision": "Сайт прямо представляет себя изготовителем концертины.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://master-mayorov.ru/",
+      "decision": "Мастер показывает собственные балалайки и домры.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://masteras.ru/k/dukhovye/svireli/",
+      "decision": "Материал изготовителя; на смешанном каталоге разрешён только этот точный адрес.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://mpkmi.ru/",
+      "decision": "Производственный комбинат описывает собственное производство инструментов.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://mirgusley.com/about",
+      "decision": "Собственная мануфактура и изготовление гуслей.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://garmoniyazvuka.ru/product/svirel-c/",
+      "decision": "Собственная мастерская и техническая карточка свирели.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://kovacscimbalom.hu/en/the-history-of-the-cimbalom/",
+      "decision": "Мастер описывает историю конструкции и собственное продолжение изготовления цимбал.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.allantica.ch/en/instruments/shawms/",
+      "decision": "Конструкции и материалы собственных исторических духовых инструментов.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.robertomontagnaliutaio.it/en-medieval.html",
+      "decision": "Мастер описывает собственные реконструкции средневековых смычковых инструментов.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.cscproducts.com/products/bass-sb80.html",
+      "decision": "Существующая первичная брендовая карточка Samuel Shen; точечное разрешение согласуется с журналом school-brand-quality-continuation.json.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.zildjian.jp/",
+      "decision": "Региональная документация Zildjian на сайте Yamaha Music Japan; разрешены только две существующие карточки оркестровых тарелок.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.vicfirthinstruments.com/",
+      "decision": "Портал Vic Firth Educational Percussion; первичный учебный каталог также зафиксирован в education-quality-coverage.json.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://www.moogmusic.com/",
+      "decision": "Главная Moog прямо ссылается на moogmusic-help.freshdesk.com; разрешены два существующих технических документа, не весь Freshdesk.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://assets.ctfassets.net/javen7msabdh/5yGO5Slu3bppUANqqAImQR/1a5bfd3c073bc6394e67d713b3065c76/M3311.402_JCM800_2203_QSG_Web.pdf",
+      "decision": "Проверена сама инструкция Marshall JCM800 2203; разрешён один точный PDF, не весь общий CDN.",
+      "reviewed_on": "2026-10-07"
+    },
+    {
+      "url": "https://uptonbass.com/product/ub-workshop-double-bass-bow-french-and-german-styles/",
+      "decision": "Собственная спецификация смычка Workshop, также зафиксирована в bows-and-school-evidence.json; чужой Rubner на том же сайте скрыт.",
+      "reviewed_on": "2026-10-07"
+    }
+  ],
+  "unknown_urls": [],
+  "invalid_urls": [],
+  "pages_with_no_public_documentation_after_filter": [
+    "akkordeon-48-basov-dlya-pervogo-etapa",
+    "akkordeon-60-basov-dlya-perehoda",
+    "akkordeon-vzroslomu-nachinayuschemu",
+    "arfa-dlya-domashnih-zanyatiy",
+    "backline-dlya-bystroy-smeny-grupp",
+    "backline-dlya-dzhazovogo-kvinteta",
+    "backline-dlya-festivalya",
+    "backline-dlya-fly-date",
+    "backline-dlya-gastrolnogo-tura",
+    "backline-dlya-klubnoy-stseny",
+    "backline-dlya-odnodnevnoy-arendy",
+    "backline-dlya-pervogo-kontserta",
+    "backline-dlya-rezervnogo-komplekta",
+    "backline-dlya-ritm-sektsii",
+    "backline-dlya-rok-gruppy",
+    "backline-dlya-soundcheck-do-priezda-artista",
+    "backline-po-rayderu-dlya-gruppy",
+    "bandoneon",
+    "bandoneon-dlya-domashnih-zanyatiy",
+    "bandoneon-dlya-pervogo-opyta",
+    "bandoneon-dlya-tango-proekta",
+    "bandoneon-dlya-vozvrashcheniya-k-igre",
+    "bandoneon-pered-pokupkoy",
+    "bandoneon-posle-akkordeona",
+    "bansuri",
+    "bansuri-dlya-ansamblya",
+    "basovye-usiliteli",
+    "basovyy-backline-po-rayderu",
+    "basovyy-kabinet-4x10-dlya-pervogo-opyta",
+    "basovyy-usilitel-dlya-gastroley",
+    "belyy-royal",
+    "buffet-r13-v-arendu",
+    "chernyy-royal",
+    "cifrovoe-pianino-na-ustoychivoy-stoyke",
+    "doff-domra-junior-v-arendu",
+    "domra",
+    "domra-dlya-domashnih-zanyatiy",
+    "domra-dlya-raboty-mediatorom",
+    "domra-pered-pokupkoy",
+    "domra-po-razmeru-rebenka",
+    "domra-vzroslomu-nachinayuschemu",
+    "duhovoy-s-legkim-otklikom",
+    "duhovye-dlya-myuzikla",
+    "duhovye-dlya-perehoda-na-professionalnyy-uroven",
+    "duhovye-dlya-vyezdnogo-master-klassa",
+    "dva-royalya-dlya-fortepiannogo-dueta",
+    "fleyta-dlya-domashnih-zanyatiy",
+    "fleyta-dlya-perehoda-na-otkrytye-klapany",
+    "fleyta-dlya-saksofonista",
+    "fleyta-pered-pokupkoy",
+    "fleyta-posle-pereryva",
+    "fleyta-vzroslomu-nachinayuschemu",
+    "funktsionalnaya-zamena-backline-po-rayderu",
+    "gitarnye-usiliteli",
+    "gitarnyy-backline-po-rayderu",
+    "gitarnyy-kabinet-2x12-dlya-pervogo-opyta",
+    "gitarnyy-usilitel-dlya-gastrolnoy-zameny",
+    "goronok-etyud-v-arendu",
+    "goronok-kadentsiya-violonchel-v-arendu",
+    "goronok-nova-alt-v-arendu",
+    "goronok-nova-kontrabas-v-arendu",
+    "hammond-b3-leslie-122-v-arendu",
+    "hammond-b3-leslie-dlya-pervogo-opyta",
+    "hammond-leslie-po-rayderu",
+    "hohner-clavinet-e7-v-arendu",
+    "instrumenty-dlya-duhovogo-kvinteta",
+    "instrumenty-dlya-fleytovogo-ansamblya",
+    "instrumenty-dlya-klarnetovogo-ansamblya",
+    "instrumenty-dlya-mandolinnogo-ansamblya",
+    "instrumenty-dlya-russkogo-narodnogo-orkestra",
+    "instrumenty-dlya-strunnogo-kvarteta",
+    "kala-ka15s-v-arendu",
+    "klassicheskaya-gitara-dlya-ansamblya",
+    "klassicheskaya-gitara-dlya-etudov",
+    "klassicheskaya-gitara-na-ekzamen",
+    "klassicheskaya-gitara-na-konkurs",
+    "klassicheskaya-gitara-posle-pereryva",
+    "klassicheskaya-gitara-vzroslomu-nachinayuschemu",
+    "klavishnye-dlya-backline-bez-svoego-instrumenta",
+    "klavishnye-dlya-festivalnoy-smeny-artistov",
+    "klavishnye-dlya-nemogo-kino",
+    "komplekt-stoek-dlya-barabannoy-ustanovki",
+    "kontrabas-rubner",
+    "korg-kronos-2-88-v-arendu",
+    "korpusnoe-cifrovoe-pianino",
+    "krasnyy-royal",
+    "loree-royal-oboe-v-arendu",
+    "ludwig-classic-maple-v-arendu",
+    "lyon-healy-style-23-v-arendu",
+    "makala-dolphin-v-arendu",
+    "marigaux-901-v-arendu",
+    "mebel-i-pyupitry-dlya-ansamblya",
+    "mednye-duhovye-dlya-kvinteta",
+    "mesa-dual-rectifier-v-arendu",
+    "musser-m55-v-arendu",
+    "nord-stage-3-88-v-arendu",
+    "pearl-masters-custom-v-arendu",
+    "perenosnoe-cifrovoe-pianino",
+    "pianino-dlya-baletnogo-klassa",
+    "pianino-dlya-horovoy-repetitsii",
+    "pianino-dlya-videozayavki",
+    "pigini-sirius-kyma-v-arendu",
+    "pigini-super-bayan-sirius-v-arendu",
+    "pyupitr",
+    "royal-dlya-foye",
+    "saksofony-dlya-big-benda",
+    "scenicheskaya-mebel-i-stoyki",
+    "scenicheskie-klavishnye-po-rayderu",
+    "skripka-s-legkim-otklikom",
+    "smychkovye-goronok",
+    "stul-dlya-muzykanta",
+    "tama-starclassic-performer-bb-v-arendu",
+    "termenvoks",
+    "udarnye-dlya-ekzamena-ksilofon-i-malyy-baraban",
+    "ukulele-dlya-letney-praktiki",
+    "ukulele-dlya-sravneniya-razmerov",
+    "ukulele-so-stabilnymi-kolkami",
+    "usiliteli-backline",
+    "violonchel-odna-tridtsat-vtoraya-v-arendu",
+    "violonchel-s-ustoychivym-shpilem",
+    "weltmeister-achat-34-72-v-arendu",
+    "weltmeister-perle-v-arendu",
+    "weltmeister-rubin-v-arendu",
+    "workstation-dlya-gastrolnogo-tura",
+    "workstation-po-rayderu",
+    "wurlitzer-200a-v-arendu",
+    "yamaha-motif-xf8-v-arendu",
+    "yamaha-yas62-v-arendu",
+    "yamaha-yfl372-v-arendu",
+    "yamaha-yfl677-v-arendu",
+    "yamaha-ytr8335rs-v-arendu",
+    "yamaha-yts62-v-arendu",
+    "zildjian-a-series-set-v-arendu",
+    "zildjian-k-series-set-v-arendu"
+  ],
+  "domain_classification": {
+    "aa-bandoneon.de": {
+      "retail_research": 7
+    },
+    "accordeonshop.ru": {
+      "retail_research": 1
+    },
+    "aguilaramp.com": {
+      "manufacturer": 4
+    },
+    "alhambraguitarras.com": {
+      "manufacturer": 2
+    },
+    "alphatheta.com": {
+      "manufacturer": 4
+    },
+    "americanhistory.si.edu": {
+      "institution_document": 4
+    },
+    "ampeg.com": {
+      "manufacturer": 11
+    },
+    "api.moogmusic.com": {
+      "manufacturer": 1
+    },
+    "ar.culture.ru": {
+      "institution_document": 3
+    },
+    "arcata.ru": {
+      "manufacturer": 3
+    },
+    "archive.yamaha.com": {
+      "manufacturer": 1
+    },
+    "arenda-videozvuk.ru": {
+      "rental_research": 5
+    },
+    "arenda.pianino.ru": {
+      "rental_research": 3
+    },
+    "arendapiano.ru": {
+      "rental_research": 7
+    },
+    "arendaprokatzvuka.ru": {
+      "rental_research": 3
+    },
+    "assets.ctfassets.net": {
+      "technical_document": 1
+    },
+    "b2b.house": {
+      "context_research": 1
+    },
+    "backline.ch": {
+      "rental_research": 10
+    },
+    "backlinerentalnederland.nl": {
+      "rental_research": 1
+    },
+    "backunmusical.com": {
+      "manufacturer": 2
+    },
+    "balalaiker.ru": {
+      "manufacturer": 4
+    },
+    "banket.rent": {
+      "rental_research": 1
+    },
+    "barthopkin.com": {
+      "manufacturer": 8
+    },
+    "beardguitars.com": {
+      "manufacturer": 3
+    },
+    "bestmemories.ru": {
+      "rental_research": 1
+    },
+    "blog.codabow.com": {
+      "manufacturer": 2
+    },
+    "blog.taylorguitars.com": {
+      "manufacturer": 2
+    },
+    "bwmusic.ru": {
+      "retail_research": 1
+    },
+    "c-ser.ru": {
+      "rental_research": 2
+    },
+    "ca.yamaha.com": {
+      "manufacturer": 1
+    },
+    "canadianbrassstore.com": {
+      "context_research": 1
+    },
+    "ch.fender.com": {
+      "manufacturer": 8
+    },
+    "ch.yamaha.com": {
+      "manufacturer": 16
+    },
+    "classicalmandolinsociety.org": {
+      "context_research": 1
+    },
+    "cmccanada.org": {
+      "context_research": 1
+    },
+    "cmsmoscow.ru": {
+      "context_research": 1
+    },
+    "college.berklee.edu": {
+      "context_research": 4
+    },
+    "concertina.org": {
+      "institution_document": 6
+    },
+    "concertinaconnection.com": {
+      "manufacturer": 2
+    },
+    "connselmer.com": {
+      "manufacturer": 5
+    },
+    "cordobaguitars.com": {
+      "manufacturer": 6
+    },
+    "cz.yamaha.com": {
+      "manufacturer": 1
+    },
+    "data.yamaha.com": {
+      "manufacturer": 1
+    },
+    "de.yamaha.com": {
+      "manufacturer": 2
+    },
+    "dj-arenda.ru": {
+      "rental_research": 5
+    },
+    "doepfer.de": {
+      "manufacturer": 2
+    },
+    "doffguitar.com": {
+      "manufacturer": 2
+    },
+    "domrist.ru": {
+      "context_research": 2
+    },
+    "dshig.ru": {
+      "context_research": 5
+    },
+    "edu.tatar.ru": {
+      "context_research": 3
+    },
+    "eggerinstruments.ch": {
+      "manufacturer": 18
+    },
+    "engart1.ru": {
+      "context_research": 13
+    },
+    "es.yamaha.com": {
+      "manufacturer": 5
+    },
+    "eu.buffet-crampon.com": {
+      "manufacturer": 2
+    },
+    "eu.fender.com": {
+      "manufacturer": 11
+    },
+    "eu.steinway.com": {
+      "manufacturer": 2
+    },
+    "europe.yamaha.com": {
+      "manufacturer": 108
+    },
+    "fader-pro.ru": {
+      "rental_research": 3
+    },
+    "fi.yamaha.com": {
+      "manufacturer": 1
+    },
+    "fishman.com": {
+      "manufacturer": 4
+    },
+    "fortepianoservice.ru": {
+      "rental_research": 2
+    },
+    "foxproducts.com": {
+      "manufacturer": 5
+    },
+    "fr.fender.com": {
+      "manufacturer": 1
+    },
+    "fr.yamaha.com": {
+      "manufacturer": 8
+    },
+    "frankly-backline.com": {
+      "rental_research": 1
+    },
+    "garmoniyazvuka.ru": {
+      "manufacturer": 1
+    },
+    "gebr-alexander.de": {
+      "manufacturer": 1
+    },
+    "gemeinhardt.com": {
+      "manufacturer": 3
+    },
+    "goldenrivermusic.eu": {
+      "context_research": 1
+    },
+    "goldtonemusicgroup.com": {
+      "manufacturer": 1
+    },
+    "goronok.ru": {
+      "manufacturer": 11,
+      "retail_research": 36
+    },
+    "hammondorganco.com": {
+      "manufacturer": 3
+    },
+    "harmonica-tula.ru": {
+      "manufacturer": 18
+    },
+    "harp.ca": {
+      "retail_research": 1
+    },
+    "heckel.de": {
+      "manufacturer": 4
+    },
+    "hohner.de": {
+      "manufacturer": 92
+    },
+    "hora-instruments.com": {
+      "manufacturer": 1
+    },
+    "hornatelier.com": {
+      "rental_research": 1
+    },
+    "hub.europe.yamaha.com": {
+      "manufacturer": 3
+    },
+    "hub.yamaha.com": {
+      "manufacturer": 10
+    },
+    "i1.mosconsv.ru": {
+      "context_research": 1
+    },
+    "ich.unesco.org": {
+      "institution_document": 16
+    },
+    "idahopercussionrentals.com": {
+      "rental_research": 2
+    },
+    "intl.fender.com": {
+      "manufacturer": 2
+    },
+    "ip-orchestra.ru": {
+      "context_research": 6
+    },
+    "it.yamaha.com": {
+      "manufacturer": 3
+    },
+    "izi.show": {
+      "rental_research": 4
+    },
+    "jazz.org": {
+      "context_research": 2
+    },
+    "jp.fender.com": {
+      "manufacturer": 2
+    },
+    "jupitermusic.com": {
+      "manufacturer": 5
+    },
+    "jupitermusic.us": {
+      "manufacturer": 1
+    },
+    "kalabrand.com": {
+      "manufacturer": 14
+    },
+    "kawai.com.au": {
+      "manufacturer": 2
+    },
+    "kawai.ru": {
+      "manufacturer": 2
+    },
+    "konstantinekaratenislis.com": {
+      "context_research": 2
+    },
+    "kovacscimbalom.hu": {
+      "manufacturer": 1
+    },
+    "lutesocietyofamerica.org": {
+      "institution_document": 10
+    },
+    "m-max.ru": {
+      "rental_research": 1
+    },
+    "manual.yamaha.com": {
+      "manufacturer": 6
+    },
+    "markbass.it": {
+      "manufacturer": 1
+    },
+    "master-mayorov.ru": {
+      "manufacturer": 14
+    },
+    "masteras.ru": {
+      "manufacturer": 1
+    },
+    "mea.yamaha.com": {
+      "manufacturer": 6
+    },
+    "meinlpercussion.com": {
+      "manufacturer": 13
+    },
+    "meinlsonicenergy.com": {
+      "manufacturer": 10
+    },
+    "metodcabinet.ru": {
+      "context_research": 1
+    },
+    "midi.org": {
+      "technical_document": 2
+    },
+    "mirgusley.com": {
+      "manufacturer": 6
+    },
+    "mmagi.ru": {
+      "context_research": 1
+    },
+    "moogfoundation.org": {
+      "institution_document": 1
+    },
+    "moogmusic-help.freshdesk.com": {
+      "technical_document": 2
+    },
+    "mpkmi.ru": {
+      "manufacturer": 4
+    },
+    "museum-markneukirchen.de": {
+      "institution_document": 2
+    },
+    "music.theatremuseum.ru": {
+      "institution_document": 6
+    },
+    "musprokat.ru": {
+      "rental_research": 6
+    },
+    "muzakkord.ru": {
+      "context_research": 6
+    },
+    "muzkarta.ru": {
+      "context_research": 15
+    },
+    "nafme.org": {
+      "context_research": 3
+    },
+    "nazarovstudio.ru": {
+      "rental_research": 1
+    },
+    "onstageservices.com": {
+      "rental_research": 12
+    },
+    "orangeamps.com": {
+      "manufacturer": 2
+    },
+    "party365.ru": {
+      "rental_research": 2
+    },
+    "pearldrum.com": {
+      "manufacturer": 8
+    },
+    "pearlriverpianogroup.com": {
+      "manufacturer": 1
+    },
+    "philharmonia.co.uk": {
+      "institution_document": 1
+    },
+    "pl.yamaha.com": {
+      "manufacturer": 1
+    },
+    "poisktenderov.ru": {
+      "context_research": 1
+    },
+    "prestomusicalrepairs.com": {
+      "rental_research": 1
+    },
+    "prokofievcollege.ru": {
+      "context_research": 1
+    },
+    "pubs.shure.com": {
+      "manufacturer": 25
+    },
+    "rental.jp.yamaha.com": {
+      "rental_research": 4
+    },
+    "rentals.backlinenow.com": {
+      "rental_research": 2
+    },
+    "rentalservice.pro": {
+      "rental_research": 1
+    },
+    "ressources.ircam.fr": {
+      "context_research": 1
+    },
+    "rhodesmusic.com": {
+      "manufacturer": 8
+    },
+    "rimskors.ru": {
+      "context_research": 6
+    },
+    "rostcons.ru": {
+      "context_research": 1
+    },
+    "ru.yamaha.com": {
+      "manufacturer": 12
+    },
+    "rubinstein-school.ru": {
+      "context_research": 2
+    },
+    "sabian.com": {
+      "manufacturer": 4
+    },
+    "salviharps.jp": {
+      "retail_research": 2
+    },
+    "sanmichelepianoforti.it": {
+      "rental_research": 3
+    },
+    "scandalli.com": {
+      "manufacturer": 2
+    },
+    "school-ukulele-orchestra.net": {
+      "context_research": 2
+    },
+    "se.yamaha.com": {
+      "manufacturer": 2
+    },
+    "sequential.com": {
+      "manufacturer": 1
+    },
+    "shm.ru": {
+      "institution_document": 4
+    },
+    "shop.ucanplay.org.uk": {
+      "retail_research": 1
+    },
+    "shop.usa.yamaha.com": {
+      "manufacturer": 1
+    },
+    "silentfilm.org": {
+      "context_research": 1
+    },
+    "sites.duke.edu": {
+      "institution_document": 4
+    },
+    "skifmusic.ru": {
+      "retail_research": 1
+    },
+    "smg16.ru": {
+      "rental_research": 6
+    },
+    "sound4eck.ru": {
+      "rental_research": 4
+    },
+    "soundman24.ru": {
+      "rental_research": 2
+    },
+    "spotlight.fender.com": {
+      "manufacturer": 2
+    },
+    "static.roland.com": {
+      "manufacturer": 1
+    },
+    "strunal.cz": {
+      "manufacturer": 2
+    },
+    "strunalschonbach.cz": {
+      "manufacturer": 3
+    },
+    "studio49.de": {
+      "manufacturer": 5
+    },
+    "support.alesis.com": {
+      "manufacturer": 6
+    },
+    "support.allen-heath.com": {
+      "manufacturer": 2
+    },
+    "support.kalabrand.com": {
+      "manufacturer": 2
+    },
+    "support.roland.com": {
+      "manufacturer": 8
+    },
+    "suzukimusic-global.com": {
+      "manufacturer": 8
+    },
+    "svetsound.ru": {
+      "rental_research": 2
+    },
+    "synapsenet.ru": {
+      "context_research": 1
+    },
+    "test-edu.tatar.ru": {
+      "context_research": 2
+    },
+    "theatremuseum.ru": {
+      "institution_document": 3
+    },
+    "tjflutes.com": {
+      "manufacturer": 3
+    },
+    "uk.fender.com": {
+      "manufacturer": 1
+    },
+    "uk.yamaha.com": {
+      "manufacturer": 78
+    },
+    "uptonbass.com": {
+      "manufacturer": 8,
+      "retail_research": 1
+    },
+    "usa.yamaha.com": {
+      "manufacturer": 116
+    },
+    "vanbaarselflutes.com": {
+      "manufacturer": 7
+    },
+    "vibe.pl": {
+      "rental_research": 1
+    },
+    "vicfirth.com": {
+      "manufacturer": 1
+    },
+    "voxamps.com": {
+      "manufacturer": 4
+    },
+    "www.accordeonshop.ru": {
+      "retail_research": 2
+    },
+    "www.accordions.co.uk": {
+      "retail_research": 1
+    },
+    "www.adams-music.com": {
+      "manufacturer": 7
+    },
+    "www.allantica.ch": {
+      "manufacturer": 4
+    },
+    "www.allen-heath.com": {
+      "manufacturer": 8
+    },
+    "www.arenda-prokat.ru": {
+      "rental_research": 2
+    },
+    "www.arturia.com": {
+      "manufacturer": 2
+    },
+    "www.atxbackline.com": {
+      "rental_research": 6
+    },
+    "www.avvegas.com": {
+      "rental_research": 1
+    },
+    "www.backline.com": {
+      "rental_research": 1
+    },
+    "www.backline.fi": {
+      "rental_research": 6
+    },
+    "www.backlineandmore.com": {
+      "rental_research": 4
+    },
+    "www.backlinesource.com": {
+      "rental_research": 94
+    },
+    "www.backstagebackline.com": {
+      "rental_research": 8
+    },
+    "www.bayanjupiter.com": {
+      "manufacturer": 13
+    },
+    "www.behringer.com": {
+      "manufacturer": 7
+    },
+    "www.besson.com": {
+      "manufacturer": 15
+    },
+    "www.blackswamp.com": {
+      "manufacturer": 3
+    },
+    "www.boesendorfer.com": {
+      "manufacturer": 1
+    },
+    "www.boss.info": {
+      "manufacturer": 6
+    },
+    "www.buffetcrampon.com": {
+      "manufacturer": 2
+    },
+    "www.calpercla.com": {
+      "rental_research": 2
+    },
+    "www.camac-harps.com": {
+      "manufacturer": 4
+    },
+    "www.casio.com": {
+      "manufacturer": 18
+    },
+    "www.clevelandart.org": {
+      "institution_document": 9
+    },
+    "www.codabow.com": {
+      "manufacturer": 40
+    },
+    "www.cscproducts.com": {
+      "manufacturer": 4
+    },
+    "www.culture.ru": {
+      "context_research": 1
+    },
+    "www.dbaudio.com": {
+      "manufacturer": 1
+    },
+    "www.deeringbanjos.com": {
+      "manufacturer": 19
+    },
+    "www.doerfler-bogen.de": {
+      "manufacturer": 11
+    },
+    "www.dpamicrophones.com": {
+      "manufacturer": 7
+    },
+    "www.duoclarinetshop.com": {
+      "rental_research": 1
+    },
+    "www.dwdrums.com": {
+      "manufacturer": 1
+    },
+    "www.eastmanguitars.com": {
+      "manufacturer": 3
+    },
+    "www.eastmanstrings.com": {
+      "manufacturer": 40
+    },
+    "www.evhgear.com": {
+      "manufacturer": 2
+    },
+    "www.expressivee.com": {
+      "manufacturer": 9
+    },
+    "www.fazioli.com": {
+      "manufacturer": 2
+    },
+    "www.fender.com": {
+      "manufacturer": 65
+    },
+    "www.gallien-krueger.com": {
+      "manufacturer": 1
+    },
+    "www.gewamusic.com": {
+      "manufacturer": 6
+    },
+    "www.gibson.com": {
+      "manufacturer": 15
+    },
+    "www.gopce.com": {
+      "rental_research": 1
+    },
+    "www.gretschdrums.com": {
+      "manufacturer": 1
+    },
+    "www.henle.de": {
+      "context_research": 2
+    },
+    "www.herculesstands.com": {
+      "manufacturer": 1
+    },
+    "www.hidersine.com": {
+      "manufacturer": 8
+    },
+    "www.howarthlondon.com": {
+      "manufacturer": 2
+    },
+    "www.ibanez.com": {
+      "manufacturer": 11
+    },
+    "www.juilliard.edu": {
+      "context_research": 1
+    },
+    "www.jupiter.info": {
+      "manufacturer": 2
+    },
+    "www.jupitermusic.com": {
+      "manufacturer": 3
+    },
+    "www.k-m.de": {
+      "manufacturer": 7
+    },
+    "www.kalaukuleleapp.com": {
+      "context_research": 8
+    },
+    "www.kawai-global.com": {
+      "manufacturer": 34
+    },
+    "www.kawai.de": {
+      "manufacturer": 1
+    },
+    "www.knilling.com": {
+      "manufacturer": 6
+    },
+    "www.kolberg.com": {
+      "manufacturer": 1
+    },
+    "www.korg.com": {
+      "manufacturer": 19
+    },
+    "www.lightsoundmsk.ru": {
+      "rental_research": 1
+    },
+    "www.lmmv.gov.lv": {
+      "context_research": 1
+    },
+    "www.lpmusic.com": {
+      "manufacturer": 26
+    },
+    "www.ludwig-drums.com": {
+      "manufacturer": 2
+    },
+    "www.lvlmusicacademy.com": {
+      "retail_research": 1
+    },
+    "www.lyonhealy.com": {
+      "manufacturer": 17
+    },
+    "www.makenoisemusic.com": {
+      "manufacturer": 1
+    },
+    "www.manualshelf.com": {
+      "secondary_research": 1
+    },
+    "www.marshall.com": {
+      "manufacturer": 12
+    },
+    "www.martinguitar.com": {
+      "manufacturer": 1
+    },
+    "www.mastersound.su": {
+      "rental_research": 4
+    },
+    "www.metmuseum.org": {
+      "institution_document": 152
+    },
+    "www.michaelfmagee.com": {
+      "retail_research": 1
+    },
+    "www.midasconsoles.com": {
+      "manufacturer": 1
+    },
+    "www.mistywilliamsharpist.com": {
+      "rental_research": 1
+    },
+    "www.mmimports.com": {
+      "rental_research": 3
+    },
+    "www.mollenhauer.com": {
+      "manufacturer": 4
+    },
+    "www.moogmusic.com": {
+      "manufacturer": 2
+    },
+    "www.mosconsv.ru": {
+      "context_research": 1
+    },
+    "www.museodellarpavictorsalvi.it": {
+      "institution_document": 3
+    },
+    "www.music-man.com": {
+      "manufacturer": 1
+    },
+    "www.musicconstructed.com": {
+      "context_research": 3
+    },
+    "www.musikland-online.de": {
+      "retail_research": 18
+    },
+    "www.musikwissenschaft.uni-wuerzburg.de": {
+      "institution_document": 1
+    },
+    "www.muzarenda.ru": {
+      "rental_research": 3
+    },
+    "www.nevelsk-pravo.ru": {
+      "context_research": 2
+    },
+    "www.nfaonline.org": {
+      "context_research": 1
+    },
+    "www.nomadmusicco.com": {
+      "rental_research": 3
+    },
+    "www.nordkeyboards.com": {
+      "manufacturer": 17
+    },
+    "www.paiste.com": {
+      "manufacturer": 5
+    },
+    "www.pgcps.org": {
+      "context_research": 3
+    },
+    "www.phys.unsw.edu.au": {
+      "institution_document": 4
+    },
+    "www.pianos-service.ch": {
+      "rental_research": 3
+    },
+    "www.pigini.nl": {
+      "retail_research": 3
+    },
+    "www.pioneerdj.com": {
+      "manufacturer": 13
+    },
+    "www.pirastro.com": {
+      "manufacturer": 11
+    },
+    "www.pratum.ru": {
+      "context_research": 2
+    },
+    "www.qscaudio.com": {
+      "manufacturer": 10
+    },
+    "www.radialeng.com": {
+      "manufacturer": 10
+    },
+    "www.rickenbacker.com": {
+      "manufacturer": 1
+    },
+    "www.robertomontagnaliutaio.it": {
+      "manufacturer": 7
+    },
+    "www.roland.com": {
+      "manufacturer": 114
+    },
+    "www.royalballetschool.org.uk": {
+      "context_research": 1
+    },
+    "www.royalprideband.org": {
+      "context_research": 3
+    },
+    "www.rubner-markneukirchen.de": {
+      "context_research": 1
+    },
+    "www.sagamusic.com": {
+      "manufacturer": 3
+    },
+    "www.salviharps.com": {
+      "manufacturer": 4
+    },
+    "www.selmer.fr": {
+      "manufacturer": 3
+    },
+    "www.sennheiser.com": {
+      "manufacturer": 7
+    },
+    "www.sequential.com": {
+      "manufacturer": 1
+    },
+    "www.show4rent.ru": {
+      "rental_research": 7
+    },
+    "www.shure.com": {
+      "manufacturer": 1
+    },
+    "www.sinfoniavarsovia.org": {
+      "context_research": 1
+    },
+    "www.sonor.com": {
+      "manufacturer": 10
+    },
+    "www.soundpiter.ru": {
+      "rental_research": 2
+    },
+    "www.stahl.fi": {
+      "rental_research": 1
+    },
+    "www.stentor-music.com": {
+      "manufacturer": 21
+    },
+    "www.studio49.de": {
+      "manufacturer": 2
+    },
+    "www.suzuki-music.co.jp": {
+      "manufacturer": 4
+    },
+    "www.svet-teatr.ru": {
+      "rental_research": 4
+    },
+    "www.tama.com": {
+      "manufacturer": 12
+    },
+    "www.taylorguitars.com": {
+      "manufacturer": 7
+    },
+    "www.thameside.org": {
+      "context_research": 1
+    },
+    "www.thebacklinecompany.com": {
+      "rental_research": 1
+    },
+    "www.thomann.cz": {
+      "retail_research": 5
+    },
+    "www.thomann.pt": {
+      "retail_research": 5
+    },
+    "www.thomastik-infeld.com": {
+      "manufacturer": 1
+    },
+    "www.tomlinharmonicalessons.com": {
+      "context_research": 4
+    },
+    "www.trinitycollege.com": {
+      "context_research": 2
+    },
+    "www.uapevents.com": {
+      "rental_research": 1
+    },
+    "www.unesco.az": {
+      "institution_document": 1
+    },
+    "www.unesco.org": {
+      "institution_document": 3
+    },
+    "www.vdgsa.org": {
+      "institution_document": 6
+    },
+    "www.vicfirthinstruments.com": {
+      "manufacturer": 1
+    },
+    "www.vonhuene.com": {
+      "manufacturer": 5
+    },
+    "www.wardenrock.co.uk": {
+      "rental_research": 1
+    },
+    "www.yamaha.com": {
+      "manufacturer": 233
+    },
+    "www.yamahamusiclondon.com": {
+      "retail_research": 9
+    },
+    "www.yellowbellmusic.com": {
+      "context_research": 2
+    },
+    "www.zildjian.jp": {
+      "manufacturer": 3
+    },
+    "xn--3-7sbumfdq1b8b.xn--80acgfbsl1azdqr.xn--p1ai": {
+      "context_research": 4
+    },
+    "xn--80aald6ajjle5mb.xn--p1ai": {
+      "rental_research": 7
+    },
+    "zildjian.com": {
+      "manufacturer": 4
+    }
+  },
+  "url_classification": {
+    "https://aa-bandoneon.de/en/beispiel-seite/": {
+      "class": "retail_research",
+      "occurrences": 7
+    },
+    "https://accordeonshop.ru/catalog/akkordeony_weltmeister/rubin_30_60_ii_3/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://aguilaramp.com/en-eu/products/tone-hammer-700-bass-amp": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://alhambraguitarras.com/en-ch/products/4p": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://alhambraguitarras.com/es-es/products/4p": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://alphatheta.com/en/product/all-in-one-dj-system/xdj-az/black/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://alphatheta.com/en/product/player/cdj-3000x/black/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://americanhistory.si.edu/collections/object/nmah_606433": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://ampeg.com/products/classic/cabs.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://ampeg.com/products/classic/heads.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://ampeg.com/products/heritage/svt810e/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ampeg.com/rocket-bass/rb-110.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://api.moogmusic.com/sites/default/files/2022-04/Etherwave-Theremin_Manual_2022.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ar.culture.ru/ru/subject/domra-1": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://ar.culture.ru/ru/subject/rozhok-pastushiy": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://ar.culture.ru/ru/subject/zhaleyka": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://arcata.ru/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://archive.yamaha.com/ja/news_release/2016/16030801/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://arenda-videozvuk.ru/arenda-oborudovaniya/zvuk/mikrofony": {
+      "class": "rental_research",
+      "occurrences": 5
+    },
+    "https://arenda.pianino.ru/": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://arendapiano.ru/c3-krasny.html": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://arendapiano.ru/clp-765gp-black.html": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://arendapiano.ru/clp-765gp-wh-2.html": {
+      "class": "rental_research",
+      "occurrences": 4
+    },
+    "https://arendaprokatzvuka.ru/arenda-sceny/": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://assets.ctfassets.net/javen7msabdh/5yGO5Slu3bppUANqqAImQR/1a5bfd3c073bc6394e67d713b3065c76/M3311.402_JCM800_2203_QSG_Web.pdf": {
+      "class": "technical_document",
+      "occurrences": 1
+    },
+    "https://b2b.house/purchase/m11cb149b-8858-4c2a-a0e7-7b42c4b410ec_c7584cc3/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://backline.ch/equipment/": {
+      "class": "rental_research",
+      "occurrences": 10
+    },
+    "https://backlinerentalnederland.nl/keyboards-synthesizers/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://backunmusical.com/products/alpha-bb-clarinet": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://balalaiker.ru/akademicheskie_balalayki/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://balalaiker.ru/balalayker_student_optimum": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://balalaiker.ru/domry/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://banket.rent/catalog/sound/yamaha-mg10xu-mixing-console/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://barthopkin.com/psalt-water/": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://beardguitars.com/legacy-r/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://beardguitars.com/radio-standard/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://bestmemories.ru/fotostudiya-s-cikloramoy-i-royalem": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://blog.codabow.com/news/violin-bow-care/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://blog.codabow.com/news/violin-bow-rehair/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://blog.taylorguitars.com/buyers-resources/what-does-a-guitars-truss-rod-do": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://bwmusic.ru/catalog/uchenicheskie?page=all": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://c-ser.ru/audio_equip": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://ca.yamaha.com/en/musical-instruments/brass-woodwinds/products/saxophones/yas-280/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://canadianbrassstore.com/libertango-brass-quintet-piazzolla-arr-burgstaller/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://ch.fender.com/en/products/american-professional-ii-telecaster": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ch.fender.com/en/products/mini-precision-bass": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://ch.fender.com/en/products/mustang-lt25": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ch.yamaha.com/de/musical-instruments/brass-woodwinds/products/trombones/ysl-448g-446g/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://ch.yamaha.com/de/musical-instruments/keyboards/products/stagekeyboards/ck/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-735/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://ch.yamaha.com/de/musical-instruments/pianos/products/clavinova/clp-800-series/clp-825/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://ch.yamaha.com/de/musical-instruments/strings/products/silent-series/ysv104/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://classicalmandolinsociety.org/mandolin-orchestras/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://cmccanada.org/shop/680/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://cmsmoscow.ru/upload/iblock/cb4/f3c4nnbrq9wmwm75011gdtw5abacmurk/Otchet-o-samoobsledovanii-TSMSH-za-2025_20.04.2026.pdf": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://college.berklee.edu/courses/ilwd-324": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://college.berklee.edu/courses/me-620": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://college.berklee.edu/events/woodwind-doubling-master-class-with-emily-pecoraro": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://concertina.org/concertina-systems/": {
+      "class": "institution_document",
+      "occurrences": 6
+    },
+    "https://concertinaconnection.com/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://connselmer.com/instruments/horns/conn-connstellation-double-horn-in-f-bb-8d": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://connselmer.com/instruments/trombones/bach-stradivarius-tenor-trombone-in-bb-42bo-open-wrap": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://connselmer.com/instruments/trombones/bach-tenor-trombone-in-bb-btb302": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://connselmer.com/instruments/trumpets/bach-stradivarius-trumpet-in-bb-180s37": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://connselmer.com/instruments/trumpets/bach-trumpet-in-bb-btr302": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://cordobaguitars.com/protege/c1m": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://cordobaguitars.com/protege/c1m-34": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://cordobaguitars.com/protege/c1m-34/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://cz.yamaha.com/cs/products/musical_instruments/winds/recorders/abs_resin_bass/index.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://data.yamaha.com/files/download/other_assets/6/1204086/p515_en_om_b0.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://de.yamaha.com/de/products/contents/guitars_basses/guitar_finder/cl_guitars/index.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://dj-arenda.ru/arenda_sound_equipment.html": {
+      "class": "rental_research",
+      "occurrences": 5
+    },
+    "https://doepfer.de/a100s_e.htm": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://doepfer.de/faq/a100_faq.htm": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://doffguitar.com/shop/domry/alt/%D0%B4%D0%BE%D0%BC%D1%80%D0%B0-doff-das/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://domrist.ru/news/15838-proekt-domra-yunior-v-pomoshch-muzykalnym-shkolam": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://dshig.ru/materialno-tekhnicheskoe-obespechenie/": {
+      "class": "context_research",
+      "occurrences": 5
+    },
+    "https://edu.tatar.ru/priv/page2399.htm/page4818694.htm": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://edu.tatar.ru/upload/storage/org2323/files/%D0%BA%D1%81%D0%B8%D0%BB%D0%BE%D1%84%D0%BE%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%205%20%D0%BB%D0%B5%D1%82%281%29.pdf": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://edu.tatar.ru/upload/storage/org5617/files/%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D0%BD%D0%B0%20%D0%B4%D1%83%D1%85%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%B8%20%D1%83%D0%B4%D0%B0%D1%80%D0%BD%D1%8B%D0%B5%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_compressed.pdf": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://eggerinstruments.ch/en/historic/trumpets/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://eggerinstruments.ch/en/historic/trumpets/natural-trumpets/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://eggerinstruments.ch/en/produkt/tenor-sackbut-after-hainlein/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://eggerinstruments.ch/en/produkt/tenor-sackbut-after-schnitzer/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://engart1.ru/wp-content/uploads/PO.01.-UP.01.-Spetsialnost-Klassicheskaya-gitara.pdf": {
+      "class": "context_research",
+      "occurrences": 13
+    },
+    "https://es.yamaha.com/es/musical-instruments/strings/products/acoustic-strings/v5s/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://eu.buffet-crampon.com/bc_CZ_en/contralto-clarinet-bc1553-2-0.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://eu.buffet-crampon.com/bc_FR_en/prodige-clarinet-18-6-bc2541l-2-0gb.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://eu.fender.com/products/american-professional-ii-jazz-bass": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://eu.fender.com/products/american-professional-ii-stratocaster": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://eu.fender.com/products/player-ii-telecaster": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://eu.steinway.com/en/pianos/grand-pianos/b-211": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://eu.steinway.com/en/pianos/grand-pianos/d-274": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/altohorns/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/bassoons/yfg-812-812c-03/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/bassoons/yfg-812-812c/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/clarinets/ycl-255/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/clarinets/ycl-450_03/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/euphoniums/yep-201/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/euphoniums/yep-201/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/frenchhorns/yhr-314ii/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/frenchhorns/yhr-567/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/oboes/yob-241/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/saxophones/yts-280/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/trumpets/bb-trumpets/ytr-2330/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://europe.yamaha.com/en/musical-instruments/brass-woodwinds/products/trumpets/bb-trumpets/ytr-4335gii/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/": {
+      "class": "manufacturer",
+      "occurrences": 11
+    },
+    "https://europe.yamaha.com/en/musical-instruments/drums/products/electronic-drum-kits/dtx6-series/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/explore/pacifica-112v/": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-7/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-800/lineup.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/products/acoustic-guitars/fg-series/fg-9/": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://europe.yamaha.com/en/musical-instruments/guitars-basses-amps/products/classical-nylon-guitars/cs/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://europe.yamaha.com/en/musical-instruments/keyboards/products/portable-keyboards/psr-e383/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/percussion/products/glockenspiel/yg-250d/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/percussion/products/marimbas/ym-6100/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/percussion/products/xylophones/yx-135/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://europe.yamaha.com/en/musical-instruments/pianos/explore/size-comparison/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://europe.yamaha.com/en/musical-instruments/pianos/products/p-series/p-225/": {
+      "class": "manufacturer",
+      "occurrences": 19
+    },
+    "https://europe.yamaha.com/en/musical-instruments/strings/products/silent-series/sv250-255/features.html": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://europe.yamaha.com/files/download/brochure/1/325911/student_line.pdf": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://fader-pro.ru/arenda-personalnogo-monitoringa/sennheiser-iem-g4/": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://fi.yamaha.com/en/musical-instruments/pianos/products/p-series/p-525/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://fishman.com/dp/loudbox-artist-acoustic-amplifier/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://fortepianoservice.ru/belyj-royal/": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://foxproducts.com/bassoons/fox-model-601/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://foxproducts.com/bassoons/renard-model-41/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://fr.fender.com/products/player-ii-modified-active-jazz-bass": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://fr.yamaha.com/fr/musical-instruments/strings/products/electric-strings/yev104pro-105pro/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://frankly-backline.com/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://garmoniyazvuka.ru/product/svirel-c/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://gebr-alexander.de/products/f-b-horn-gebr-alexander-modell-103-vater": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://gemeinhardt.com/2sp/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://gemeinhardt.com/2spch/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://goldenrivermusic.eu/en/product/the-sound-of-silence-clarinet-choir/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://goldtonemusicgroup.com/goldtone/instruments/ls-6": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/catalog/kontrabasy/": {
+      "class": "retail_research",
+      "occurrences": 2
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/al-ty/": {
+      "class": "retail_research",
+      "occurrences": 2
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/kontrabasy/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/kontrabasy/uchenicheskie-kontrabasy/": {
+      "class": "retail_research",
+      "occurrences": 9
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/skripki/masterovye-skripki/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/skripki/studencheskie-skripki/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/skripki/uchenicheskie-skripki/": {
+      "class": "retail_research",
+      "occurrences": 3
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/": {
+      "class": "retail_research",
+      "occurrences": 10
+    },
+    "https://goronok.ru/catalog/muzykalnye-instrumenty/violoncheli/?filter_razmer=1-32": {
+      "class": "retail_research",
+      "occurrences": 2
+    },
+    "https://goronok.ru/kratkaya-klassifikaciya-instrumentov/": {
+      "class": "retail_research",
+      "occurrences": 4
+    },
+    "https://goronok.ru/shop/al-t-goronok-kadenciya-406-mm/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/kontrabas-goronok-aleksej-romanov-3-4/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/kontrabas-goronok-kadentsiya-7-8/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/skripka-goronok-aleksej-romanov-1-8/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/skripka-goronok-fantaziya-3-4/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/skripka-goronok-fantaziya-4-4/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/skripka-goronok-kadenciya-1-8/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/skripka-goronok-kapris-1-8/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/skripka-goronok-nova-1-10/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://goronok.ru/shop/violonchel-goronok-nova-1-2-650-mm/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://hammondorganco.com/products/leslie-speakers/122-147-981-147a": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://harmonica-tula.ru/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://harmonica-tula.ru/catalog/bayany/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://harmonica-tula.ru/catalog/bayany/uchenicheskie/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://harmonica-tula.ru/catalog/bayany/uchenicheskie/bayan-bn-46/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://harmonica-tula.ru/catalog/garmoni/garmoni-seriynogo-proizvodstva/g-6-garmon-tulskaya-301m-/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://harp.ca/product/style-23/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://heckel.de/en/instrumente/bassoon/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://heckel.de/en/instrumente/contrabassoon/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://heckel.de/en/instrumente/s-bocal/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/de/instrumente/akkordeons/chromatisch/gola/gola": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/de/instrumente/mundharmonika/diatonisch/progressive/special-20": {
+      "class": "manufacturer",
+      "occurrences": 13
+    },
+    "https://hohner.de/en/community/the-best-professional-harmonica-for-beginners": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://hohner.de/en/education/discover-the-hohner-xs": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://hohner.de/en/instruments/accordions": {
+      "class": "manufacturer",
+      "occurrences": 17
+    },
+    "https://hohner.de/en/instruments/accordions/chromatic/bravo": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-i-49f": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-ii-48": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://hohner.de/en/instruments/accordions/chromatic/bravo/bravo-iii-72": {
+      "class": "manufacturer",
+      "occurrences": 11
+    },
+    "https://hohner.de/en/instruments/accordions/chromatic/fun-line/fun-flash": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/en/instruments/accordions/chromatic/fun-line/fun-pro": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/en/instruments/accordions/chromatic/fun-line/fun-star-120": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/en/instruments/harmonicas": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://hohner.de/en/instruments/harmonicas/beginner": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://hohner.de/en/instruments/harmonicas/chromatic": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://hohner.de/en/instruments/harmonicas/chromatic/chromonica/super-chromonica": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/en/instruments/harmonicas/chromatic/performance/meisterklasse": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/en/instruments/harmonicas/diatonic/ms-series/pro-harp": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/en/instruments/melodica": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://hohner.de/en/service/accordion/faqs": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hohner.de/fileadmin/cat/catalogs/Accordion/pdf/complete.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hora-instruments.com/ro/category/bowed-instruments/cellos/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hornatelier.com/mieten": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://hub.europe.yamaha.com/articles/drumming-for-beginners---why-the-yamaha-dtx402-is-the-smart-choice-for-aspiring-musicians": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://hub.europe.yamaha.com/product-page/p-225": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hub.yamaha.com/guitars/bass/five-tips-for-playing-five-string-bass/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hub.yamaha.com/guitars/bass/how-to-choose-a-bass-amp/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hub.yamaha.com/guitars/bass/how-to-choose-your-first-bass/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hub.yamaha.com/guitars/g-how-to/how-to-choose-your-first-guitar/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hub.yamaha.com/music-educators/instruments/guitars-education/tone-and-sound-on-your-guitar-part-2/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hub.yamaha.com/parents/back-to-school-winds-and-strings-for-beginners/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://hub.yamaha.com/winds/brass/the-brass-family-explained/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://hub.yamaha.com/wp-content/uploads/2026/01/how-to-choose-a-bass-guitar-guide.pdf": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://i1.mosconsv.ru/ru/concert/204388": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://ich.unesco.org/en/RL/art-of-crafting-and-playing-mbira-sansi-the-finger-plucking-traditional-musical-instrument-in-malawi-and-zimbabwe-01541": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://ich.unesco.org/en/RL/art-of-crafting-and-playing-with-kamantcheh-kamancha-a-bowed-string-musical-instrument-01286": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://ich.unesco.org/en/RL/dutar-making-craftsmanship-and-traditional-music-performing-art-combined-with-singing-01565": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://ich.unesco.org/en/RL/kazakh-traditional-art-of-dombra-kuy-00996": {
+      "class": "institution_document",
+      "occurrences": 3
+    },
+    "https://ich.unesco.org/en/decisions/14.COM/10.B.18": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://ich.unesco.org/en/decisions/7.COM/11.21": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://ich.unesco.org/fr/RL/le-duduk-et-sa-musique-00092": {
+      "class": "institution_document",
+      "occurrences": 3
+    },
+    "https://idahopercussionrentals.com/rental-instruments": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://intl.fender.com/products/player-ii-jazz-bass": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://intl.fender.com/products/player-ii-telecaster": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ip-orchestra.ru/wp-content/uploads/2018/12/tehnicheskiy_rayder_ip_orchestra.pdf": {
+      "class": "context_research",
+      "occurrences": 6
+    },
+    "https://it.yamaha.com/it/musical-instruments/guitars-basses-amps/explore/pacifica-112v/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://it.yamaha.com/it/musical-instruments/pianos/products/arius/ydp-s34/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://izi.show/card/arenda_onstage_dpt4000/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://izi.show/catalog/arenda_barabannye_ustanovki/": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://jazz.org/the-orchestra/jlco-on-tour/": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://jp.fender.com/en/products/squier-sonic-bronco-bass": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://jp.fender.com/products/player-ii-stratocaster-left-handed": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://jupitermusic.com/international/product_detail.aspx?id=JCL700N": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://jupitermusic.com/international/product_detail.aspx?id=JTB700": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://jupitermusic.com/international/product_detail.aspx?id=JTS700": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://jupitermusic.com/international/products/Brass/Trumpets/JTR700": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://jupitermusic.us/product/jbc1000n-bb-bass-clarinet/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://kalabrand.com/blogs/home/new-product-kala-learn-to-play-baritone-q-a-with-instructor-kevin-presbrey": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://kalabrand.com/collections/exotic-mahogany-ukulele": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://kalabrand.com/collections/kala10/products/daddario-pro-arte-carbon-ukulele-strings": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://kalabrand.com/products/ka-15t-satin-mahogany-tenor-ukulele-bundle": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://kalabrand.com/products/ka-cm-c": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://kalabrand.com/products/mk-s-ia-pack": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://kalabrand.com/products/mk-te": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://kawai.com.au/product/gl-10/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://kawai.ru/upright-pianos/piano/kawai-k200/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://kawai.ru/upright-pianos/piano/kawai-k300/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://konstantinekaratenislis.com/blog/what-clarinet-should-my-child-use-for-school-band": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://kovacscimbalom.hu/en/the-history-of-the-cimbalom/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://lutesocietyofamerica.org/about/instruments/theorbo-or-chitarrone/": {
+      "class": "institution_document",
+      "occurrences": 10
+    },
+    "https://m-max.ru/equipment/pyupitr-stage-sm7211-s-pryamoy-notnoy-doskoy": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://manual.yamaha.com/mi/app/smartpianist/en/smartpianist_en_ug_j1_003.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://manual.yamaha.com/mi/common/computer/en/computer_en_rm_y0_07.htm": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://markbass.it/manuals/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://master-mayorov.ru/": {
+      "class": "manufacturer",
+      "occurrences": 14
+    },
+    "https://masteras.ru/k/dukhovye/svireli/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mea.yamaha.com/en/musical-instruments/percussion/products/glockenspiel/yg-2500/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-144/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mea.yamaha.com/en/musical-instruments/pianos/products/arius/ydp-165/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://meinlpercussion.com/en/products/adj7-m-m7566.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://meinlpercussion.com/en/products/ca5bk-m8567.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://meinlpercussion.com/en/products/ca7br-m8563.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://meinlpercussion.com/en/products/fca5-l-m6894.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://meinlpercussion.com/en/products/hd12ab-tf-m7684.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://meinlpercussion.com/en/products/mwm2am-m8888.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://meinlpercussion.com/en/products/pm1bk-m8876.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://meinlpercussion.com/en/wiki": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://meinlsonicenergy.com/en/instruments/handpans": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://meinlsonicenergy.com/en/products/std3bk-m5425.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://meinlsonicenergy.com/kalimbas": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://metodcabinet.ru/folkstringcenter": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://midi.org/mpe-midi-polyphonic-expression": {
+      "class": "technical_document",
+      "occurrences": 2
+    },
+    "https://mirgusley.com/about": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mirgusley.com/blog/18": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://mirgusley.com/faq": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mirgusley.com/shop/gusli/small": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mirgusley.com/shop/gusli/zvonchatie": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mmagi.ru/konkursy-i-festivali/vii-mezhdunarodnyj-konkurs-festival-gitaristov-vremya-gitary.html": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://moogfoundation.org/bob-moog-timeline/": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://moogmusic-help.freshdesk.com/en/support/solutions/articles/69000840561-theremini-general-troubleshooting": {
+      "class": "technical_document",
+      "occurrences": 1
+    },
+    "https://moogmusic-help.freshdesk.com/en/support/solutions/articles/69000840778-moog-theremini-can-the-pitch-correction-combined-with-the-cv-out-track-volt-per-octave-on-an-extern": {
+      "class": "technical_document",
+      "occurrences": 1
+    },
+    "https://mpkmi.ru/balalajki/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://mpkmi.ru/instrument/domra-3-x-strunnaya-malaya-kategoriya-uchenicheskaya/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://mpkmi.ru/instrument/gusli-zvonchatye-krylovidnye-pikkolo-15-strun/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://museum-markneukirchen.de/sammlungen-ausstellungen/ausstellungen/musima": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://music.theatremuseum.ru/balalaika": {
+      "class": "institution_document",
+      "occurrences": 6
+    },
+    "https://musprokat.ru/product/zvukovoe-oborudovanie/akusticheskie-sistemy/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://musprokat.ru/product/zvukovoe-oborudovanie/backline/instrumentalnye-mikrofony/": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-beta-52a/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-57/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-81/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://muzakkord.ru/nashi-proekty/mbudo-dmsh-im-fi-shalyapina-gkazani/": {
+      "class": "context_research",
+      "occurrences": 3
+    },
+    "https://muzakkord.ru/nashi-proekty/mbudo-khdshi-s-khorol/": {
+      "class": "context_research",
+      "occurrences": 3
+    },
+    "https://muzkarta.ru/kollektiv/orkestr-severnyy-gorod/foto": {
+      "class": "context_research",
+      "occurrences": 15
+    },
+    "https://nafme.org/blog/the-importance-of-proper-instrument-setup/": {
+      "class": "context_research",
+      "occurrences": 3
+    },
+    "https://nazarovstudio.ru/party": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://onstageservices.com/backline-rental/drums/": {
+      "class": "rental_research",
+      "occurrences": 12
+    },
+    "https://orangeamps.com/en-us/products/rockerverb-50-mkiii": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://party365.ru/backline/podstavka-pod-monitor-proel-el700/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://party365.ru/zvukovoe-oborudovanie/mikrofony/mikrofon-shure-sm58/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://pearldrum.com/en/products/concert/education-kits": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://pearldrum.com/en/products/concert/education-kits/bell-kit-pk": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://pearldrum.com/en/products/concert/education-kits/percussion-learning-center-pl?pearl=en": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://pearldrum.com/en/products/drum-sets/roadshow/roadshow": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://pearldrum.com/products/concert/education-kits/snare-kit-sk/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://pearlriverpianogroup.com/ritmuller-pianos-2/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://philharmonia.co.uk/resources/instruments/percussion/": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://pl.yamaha.com/pl/musical-instruments/brass-woodwinds/products/clarinets/ycl-450m_03/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://poisktenderov.ru/item/223/32110668370/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://prestomusicalrepairs.com/product/besson-2052-prestige-euphonium/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://prokofievcollege.ru/life/gallery/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://pubs.shure.com/view/guide/BETA52A/en-US.pdf": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://pubs.shure.com/view/guide/BETA58A/en-US.pdf": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://pubs.shure.com/view/guide/BLX/en-US.pdf": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://pubs.shure.com/view/guide/QLXD/en-US.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://pubs.shure.com/view/guide/SM57/en-US.pdf": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://pubs.shure.com/view/guide/SM58/en-US.pdf": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://pubs.shure.com/view/guide/SM81/en-US.pdf": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://rental.jp.yamaha.com/pdf/instruments/210311_web_pricelistfx.pdf": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://rental.jp.yamaha.com/shop/c/c101020_srd_p2/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://rental.jp.yamaha.com/shop/c/c101035_srd/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://rental.jp.yamaha.com/shop/g/gYTS380OTSUL/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://rentals.backlinenow.com/collections/drums-percussion": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://rentals.backlinenow.com/products/yamaha-montage-m8x-88-key-synthesizer": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://rentalservice.pro/prokat/zvykovoe-oborydovanie/mikshernie-pylti/cifrovoi-mikshernii-pylt-midas-m32": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://ressources.ircam.fr/en/work/contour-1": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://rhodesmusic.com/rhodes-anthology-plugin/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://rhodesmusic.com/rhodes-mk8/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://rhodesmusic.com/the-history-of-rhodes/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://rimskors.ru/official/programmes/in-use/harp-5.pdf": {
+      "class": "context_research",
+      "occurrences": 6
+    },
+    "https://rostcons.ru/assets/documents/2022/selfexam2021-1.pdf": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://ru.yamaha.com/ru/musical-instruments/brass-woodwinds/products/cornets/ycr-2330iii/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://ru.yamaha.com/ru/musical-instruments/brass-woodwinds/products/oboes/yob-241/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ru.yamaha.com/ru/musical-instruments/drums/products/drum-sets/rydeen/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ru.yamaha.com/ru/musical-instruments/guitars-basses-amps/products/electric-basses/trbx/lineup.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ru.yamaha.com/ru/musical-instruments/keyboards/products/stagekeyboards/cp88-73/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://ru.yamaha.com/ru/musical-instruments/percussion/products/xylophones/yx-135/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://ru.yamaha.com/ru/musical-instruments/pianos/products/clavinova/clp-785/features.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://rubinstein-school.ru/parents/question-answer/": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://sabian.com/cymbal-series/hhx/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://salviharps.jp/products/juno25/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://salviharps.jp/rental/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://sanmichelepianoforti.it/servizi/noleggio-pianoforte-per-eventi/": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://scandalli.com/la-storia/?lang=en": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://scandalli.com/super-vi/?lang=en": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://school-ukulele-orchestra.net/getting-started/": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://se.yamaha.com/sv/musical-instruments/strings/products/silent-series/svc110/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://sequential.com/all-products/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://shm.ru/shows/47880/": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://shop.ucanplay.org.uk/products/stentor-student-ii-viola": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://shop.usa.yamaha.com/en/p/instruments/guitars-basses-amps/acoustic-guitars/fgx800c-acoustic-electric-guitar": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://silentfilm.org/stephen-horne/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://sites.duke.edu/dumic/instruments/strings/southern-and-eastern-asia/tambura/": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://skifmusic.ru/catalog/akkordeonyi-288": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://smg16.ru/service/zvuk/": {
+      "class": "rental_research",
+      "occurrences": 6
+    },
+    "https://sound4eck.ru/categorija/arenda-beklajna/stoyki/": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://sound4eck.ru/categorija/arenda-zvuka/mikrofony/stojki-mikrofonnye/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://soundman24.ru/arenda-kolonok/qsc-k12-2": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://soundman24.ru/yamahatourcustommaple": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://spotlight.fender.com/newsroom/news/557": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://static.roland.com/assets/media/pdf/TM-2_e02_W.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://strunal.cz/Historie/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://strunalschonbach.cz/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://studio49.de/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://studio49.de/geschichte": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://support.alesis.com/support/solutions/articles/69000845703-alesis-nitro-max-kit-frequently-asked-questions": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://support.allen-heath.com/hc/en-gb/articles/43053562464017-Xone-96-User-Guide": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://support.kalabrand.com/hc/en-us/articles/360028985831-My-Ukulele-s-Intonation-Sounds-Off-How-Can-I-Adjust-The-Intonation-Of-My-Instrument": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://support.kalabrand.com/hc/en-us/articles/360028985891-My-Instrument-s-Action-Is-A-Bit-Too-High-Can-I-Lower-It-Myself-By-Modifying-The-Saddle": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://support.roland.com/hc/en-us/articles/115002212963-FA-06-FA-07-FA-08-Using-DAW-Control-Mode": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://support.roland.com/hc/en-us/articles/201966399-D-50-Technical-Specifications": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://support.roland.com/hc/en-us/articles/4404526760347-Digital-Piano-How-to-Reduce-Noise-Vibration": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://suzukimusic-global.com/products_single.php?products_cd=125": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://svetsound.ru/sound": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://synapsenet.ru/zakupki/gazprombank/%D0%B0%D0%BF120862%231349040--krasnodarskij-kraj-zakupka-muzikalnih": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://test-edu.tatar.ru/upload/storage/org5614/files/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F%20%D0%94%D0%9C%D0%A8%20%E2%84%9613%20%D0%BD%D0%B0%202020-2025%D0%B3%D0%B3.pdf": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://theatremuseum.ru/event/01_07_23": {
+      "class": "institution_document",
+      "occurrences": 3
+    },
+    "https://tjflutes.com/Chooseflute": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://tjflutes.com/products/cflutes/firstflute/tj10x": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://uk.fender.com/products/player-ii-stratocaster": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/business/audio/products/mixers/cl-series/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/business/audio/products/mixers/cl-series/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/news/2020/yamaha-student-range.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/altohorns/yah-203/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/baritones/ybh-301/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/cornets/ycr-2330iii/index.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/oboes/yob-241/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://uk.yamaha.com/en/musical-instruments/brass-woodwinds/products/trombones/ysl-350c/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/drums/products/drum-sets/recording-custom-2016/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/guitars-basses-amps/products/electric-basses/trb/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/explore/musical-instrument-guide/piano/selection/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/products/clavinova/clp-645/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/products/grand-pianos/cx-series/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/products/grand-pianos/gb1k/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/products/portable-grand/dgx-670/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/b-series/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 19
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/u-series/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://uk.yamaha.com/en/musical-instruments/pianos/products/upright-pianos/u-series/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 18
+    },
+    "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc110/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://uk.yamaha.com/en/musical-instruments/strings/products/silent-series/svc50/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://uptonbass.com/product/double-bass-bow-starter-kit/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://uptonbass.com/product/johannes-rubner-double-bass/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://uptonbass.com/product/ub-workshop-double-bass-bow-french-and-german-styles/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://usa.yamaha.com/news_events/2016/20160121_yamaha_recording_custom_drum_kits_a_us.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/news_events/2024/20241030_new_marching_hardware_and_student_xylophone_at_PASIC_2024.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/contents/music_production/synth_50th/history/chapter002.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/music_production/accessories/fc3a/index.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://usa.yamaha.com/products/music_production/stagekeyboards/ck/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://usa.yamaha.com/products/music_production/synthesizers/montagem/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 15
+    },
+    "https://usa.yamaha.com/products/musical_instruments/drums/ac_drums/drum_sets/absolute_hybrid_maple/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/drums/ac_drums/drum_sets/rydeen/": {
+      "class": "manufacturer",
+      "occurrences": 12
+    },
+    "https://usa.yamaha.com/products/musical_instruments/guitars_basses/cl_guitars/c_cx/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://usa.yamaha.com/products/musical_instruments/guitars_basses/el_basses/bb_2017/200_series.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/keyboards/portable_keyboards/psr-e383/audio_video.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/percussion/bass_drums/cb-9000/audio_video.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/percussion/bass_drums/cb-9000/index.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://usa.yamaha.com/products/musical_instruments/percussion/marimbas/ym-6100/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/percussion/xylophones/yx-135/index.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/percussion/xylophones/yx2035pr/index.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/clp-765gp/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://usa.yamaha.com/products/musical_instruments/pianos/grand_pianos/cfx_02/index.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/pianos/p_series/dgx-670/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/u_series/index.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/yus_series/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/features.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/slb300_series/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://usa.yamaha.com/products/musical_instruments/strings/silent_series/ysv104/features.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/clarinets/ycl-221ii/features.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/clarinets/ycl-221ii/index.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/clarinets/ycl-681/index.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/frenchhorns/yhr-314ii/index.html": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/pianica/p-32d/index.html": {
+      "class": "manufacturer",
+      "occurrences": 11
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/saxophones/yas-280/index.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-350c/features.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-350c/index.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-354/index.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/trombones/ysl-354/specs.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://usa.yamaha.com/products/musical_instruments/winds/tubas/ybb-105/index.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://usa.yamaha.com/products/proaudio/mixers/mg_series_xu_model/": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://vanbaarselflutes.com/baroque-flutes/": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://vibe.pl/pigini/akordeony/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://vicfirth.com/products/fresh-approach-starter-pack": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://voxamps.com/en-gb/product/ac30-custom/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.accordeonshop.ru/catalog/akkordeony_weltmeister/achat_34_72_iii_5_3/": {
+      "class": "retail_research",
+      "occurrences": 2
+    },
+    "https://www.accordions.co.uk/Newinstrumentlist.htm": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://www.adams-music.com/en/percussion/marimba/academy": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.adams-music.com/en/percussion/timpani/professional": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.adams-music.com/en/percussion/xylophone/academy-series": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.allantica.ch/en/instruments/shawms/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.allen-heath.com/hardware/xone-series/xone96/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.allen-heath.com/hardware/zed-series/zed-mini/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.arenda-prokat.ru/catalog/prokat-sczen/shtativyi/arenda-pyupitra-i-podsvetki.html": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://www.arturia.com/products/hardware-synths/microfreak/overview": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.arturia.com/products/hardware-synths/minifreak/details": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.atxbackline.com/instruments-1": {
+      "class": "rental_research",
+      "occurrences": 6
+    },
+    "https://www.avvegas.com/gear-list/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.backline.com/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.backline.fi/palvelumme": {
+      "class": "rental_research",
+      "occurrences": 6
+    },
+    "https://www.backlineandmore.com/professionelle-backline-vermietung/": {
+      "class": "rental_research",
+      "occurrences": 4
+    },
+    "https://www.backlinesource.com/": {
+      "class": "rental_research",
+      "occurrences": 17
+    },
+    "https://www.backlinesource.com/bass-amp-rentals": {
+      "class": "rental_research",
+      "occurrences": 15
+    },
+    "https://www.backlinesource.com/digitalkeyboardrentals": {
+      "class": "rental_research",
+      "occurrences": 11
+    },
+    "https://www.backlinesource.com/guitar-amp-rentals": {
+      "class": "rental_research",
+      "occurrences": 24
+    },
+    "https://www.backlinesource.com/guitarandbassamps": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://www.backlinesource.com/hammond-b3-and-leslie-122": {
+      "class": "rental_research",
+      "occurrences": 6
+    },
+    "https://www.backlinesource.com/keyboard-rentals": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment": {
+      "class": "rental_research",
+      "occurrences": 15
+    },
+    "https://www.backstagebackline.com/instruments-and-more": {
+      "class": "rental_research",
+      "occurrences": 8
+    },
+    "https://www.bayanjupiter.com/models/": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://www.bayanjupiter.com/models/jupiter2d.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.behringer.com/en/products/0605-AAD": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://www.besson.com/de/instruments/euphoniums-de/prodige-be162/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.besson.com/en/instruments/baritones/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.besson.com/en/instruments/baritones/prodige-be157/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.besson.com/en/instruments/cornets/prodige-be120/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.besson.com/en/instruments/euphoniums/prestige-be2051-2052/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.besson.com/en/instruments/new-standard-euphoniums/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.besson.com/en/instruments/tenor-horns/prodige-be152/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.blackswamp.com/arch-bronze-triangles": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.blackswamp.com/soundart-series-tambourines": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.boesendorfer.com/en/pianos/pianos/concert-grand-280VC": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.boss.info/global/products/katana-50_gen_3/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.boss.info/global/products/rc-500/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.boss.info/global/products/rc-505mk2/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.boss.info/global/products/rc-600/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.buffetcrampon.com/en-de/products/alto-clarinet-bc1503-2-0": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.buffetcrampon.com/en-it/products/basset-horn-clarinet-bc1723-2-0j": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.calpercla.com/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.calpercla.com/products/music-man-stingray-5-string-bassg-005": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.camac-harps.com/en/harps-en/electric/dhc-32-blue-light/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.casio.com/europe/electronic-musical-instruments/product.AP-750/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/europe/electronic-musical-instruments/product.PX-870BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.AP-270BN/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.AP-470BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.AP-550BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.CDP-S110BK/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.CDP-S160BK/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.CDP-S360BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.PX-770BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S5000BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/intl/electronic-musical-instruments/product.PX-S7000BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.casio.com/us/electronic-musical-instruments/product.PX-S1100BK/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.clevelandart.org/art/1918.352": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://www.clevelandart.org/art/1918.354": {
+      "class": "institution_document",
+      "occurrences": 5
+    },
+    "https://www.codabow.com/pages/service-request": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.codabow.com/products/prodigy-cello": {
+      "class": "manufacturer",
+      "occurrences": 12
+    },
+    "https://www.codabow.com/products/prodigy-viola": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.codabow.com/products/prodigy-violin": {
+      "class": "manufacturer",
+      "occurrences": 13
+    },
+    "https://www.cscproducts.com/products/bass-sb150.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.cscproducts.com/products/bass-sb80.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.culture.ru/events/3315608/master-klass-pishiki-golos-rodiny": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.dbaudio.com/global/en/arraycalc/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.deeringbanjos.com/collections/5-string-banjos": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.deeringbanjos.com/collections/banjos": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.deeringbanjos.com/collections/flagship-series/products/sierra-openback-5-string-banjo": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.deeringbanjos.com/collections/goodtime-banjos/products/goodtime-banjo": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.deeringbanjos.com/collections/tenor-banjos": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.deeringbanjos.com/pages/teachers-love-goodtime-banjos": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.deeringbanjos.com/products/deering-sierra-5-string-banjo": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.doerfler-bogen.de/en/bows/brasilholz/bow-6-6a-brazil-wood-basic": {
+      "class": "manufacturer",
+      "occurrences": 11
+    },
+    "https://www.dpamicrophones.com/mic-university/how-to-mic/how-to-mic-a-clarinet/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.dpamicrophones.com/mic-university/how-to-mic/how-to-mic-a-flute-or-recorder/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.dpamicrophones.com/mic-university/how-to-mic/how-to-mic-a-saxophone/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.dpamicrophones.com/mic-university/how-to-mic/how-to-mic-a-trumpet-and-trombone/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.dpamicrophones.com/mic-university/how-to-mic/how-to-mic-woodwinds-and-brass/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.duoclarinetshop.com/r13-rentals.html": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.dwdrums.com/drums/collectors-series/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.eastmanguitars.com/mandolin_a_style": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.eastmanguitars.com/md305": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.eastmanguitars.com/mda315": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.eastmanstrings.com/bass/vb80/": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.eastmanstrings.com/cello/vc100/": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.eastmanstrings.com/viola/va100/": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.eastmanstrings.com/violin/vl100/": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.evhgear.com/gear/amplifiers/head/5150iii-100s-head/2250250000": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.expressivee.com/1-touche": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.expressivee.com/2-osmose": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.expressivee.com/what-is-mpe-30": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fazioli.com/en/fazioli-milano": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fazioli.com/en/grand-pianos/f278/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com//articles/instruments/how-to-buy-a-bass-guitar": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/articles/instruments/7-electric-guitars-for-the-beginner": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/articles/instruments/beginner-acoustic-guitar-gear-guide": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.fender.com/articles/parts-and-accessories/guitar-amp-buying-guide": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/articles/setup/best-guitar-for-beginners": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.fender.com/products/65-deluxe-reverb/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.fender.com/products/65-twin-reverb/": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://www.fender.com/products/affinity-series-stratocaster": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/products/american-professional-ii-precision-bass": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/products/cc-60s-concert": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.fender.com/products/cd-60s-dreadnought-all-mahogany": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/products/classic-vibe-bass-vi": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/products/mini-stratocaster": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.fender.com/products/player-ii-jazz-bass": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://www.fender.com/products/player-ii-precision-bass": {
+      "class": "manufacturer",
+      "occurrences": 11
+    },
+    "https://www.fender.com/products/player-ii-stratocaster": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.fender.com/products/player-ii-stratocaster-hss": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.fender.com/products/redondo-player-left-handed": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gallien-krueger.com/legacy-heads": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gewamusic.com/en/products?categoryEntityId=20635": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gewamusic.com/en/products?categoryEntityId=21133": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.gewamusic.com/en/products?categoryEntityId=5070": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gibson.com/collections/gibson-j-45-acoustic-guitars": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gibson.com/en-eu/products/gibson-es-335-satin-cherry": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gibson.com/pages/gibson-mandolins": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gibson.com/products/gibson-les-paul-standard-60s-figured-top-bourbon-burst": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.gibson.com/products/gibson-sg-standard-heritage-cherry": {
+      "class": "manufacturer",
+      "occurrences": 11
+    },
+    "https://www.gopce.com/backline/vintage": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.gretschdrums.com/drums/usa-custom": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.henle.de/en/2-Pianos-4-hands/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.henle.de/en/Piano-4-hands/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.herculesstands.com/products/winds-and-percussion/percussion/ds800b": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.hidersine.com/education": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.hidersine.com/education/blog/item/115-top-3-beginner-violins": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.hidersine.com/instruments/product/113-vivente-cello-outfit-sizes-4-4-to-1-8": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.hidersine.com/instruments/product/118-vivente-double-bass-outfit-sizes-3-4-to-1-2": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.hidersine.com/instruments/product/122-vivente-viola-outfit-sizes-16-to-12": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.hidersine.com/instruments/product/138-vivente-academy-violin-finetune-outfit-sizes-4-4-to-1-8": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.hidersine.com/instruments/violins/product/133-vivente-violin-outfit-sizes-4-4-to-1-8": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.howarthlondon.com/product/xl-semi-automatic-system-oboe-damore/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.ibanez.com/eu/products/detail/gsrm20_2y_06.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.ibanez.com/eu/products/detail/sr300e_1p_05.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.ibanez.com/na/products/detail/pgmm31_5a_02.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.ibanez.com/usa/products/detail/sr300e_1p_05.html": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.juilliard.edu/arm/music/college/piano/bachelor-music": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.jupiter.info/en/instruments/wood/clarinet/bass-clarinet/1000-series-bass-clarinet-in-bb": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.jupiter.info/en/jhr700": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.jupitermusic.com/international/product_detail.aspx?id=JBC1000N": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.jupitermusic.com/international/product_detail.aspx?id=JFL700": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.jupitermusic.com/international/products/Woodwinds/Saxophones/JAS700": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.k-m.de/en/keyboard-stands/18990-keyboard-stand-rick-black": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.k-m.de/en/lights-without-cable/12295-music-stand-light-dimmer-light-black": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.k-m.de/en/special-stands-with-boom/259-microphone-stand-black": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.k-m.de/en/stands-with-neck-bracket/17670-guitar-stand-memphis-pro-black": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.k-m.de/en/stands/12185-laptop-stand-black": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.k-m.de/media/bc/83/23/1790942526/Aufstellanleitung_6371b8c193985f8bace138409989974e.pdf?ts=1790942526": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.k-m.de/us/amp-monitor-and-mixer-stands/28130-amp-stand-black": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kalaukuleleapp.com/2026/07/09/what-size-ukulele-should-a-beginner-get/": {
+      "class": "context_research",
+      "occurrences": 8
+    },
+    "https://www.kawai-global.com/product/ca501/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kawai-global.com/product/ca701/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kawai-global.com/product/ca901/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.kawai-global.com/product/cn201/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.kawai-global.com/product/cn301/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kawai-global.com/product/dg30/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.kawai-global.com/product/es120/": {
+      "class": "manufacturer",
+      "occurrences": 19
+    },
+    "https://www.kawai-global.com/product/es520/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kawai-global.com/product/es920/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kawai-global.com/product/k-300/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kawai-global.com/product/kdp120/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kawai.de/products/klaviere/kserie/k300/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.knilling.com/bucharest/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.knilling.com/instruments/157/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.knilling.com/instruments/3105/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.knilling.com/instruments/4k/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.knilling.com/pegs/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.kolberg.com/en/Burmese-Thai-gong-tuned/BGE2": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.korg.com/de/products/synthesizers/m1/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.korg.com/us/products/software/kc_m1/index.php": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.korg.com/us/products/synthesizers/minilogue/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.korg.com/us/products/synthesizers/minilogue_xd/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.korg.com/us/products/synthesizers/modwave/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.korg.com/us/products/synthesizers/monologue/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.korg.com/us/products/synthesizers/nautilus_at/index.php": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.korg.com/us/products/synthesizers/opsix/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.korg.com/us/products/synthesizers/opsix_mk2/specifications.php": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.korg.com/us/products/synthesizers/sv_2/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.korg.com/us/products/synthesizers/wavestate_mk2/specifications.php": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lightsoundmsk.ru/backline/sintezator-clavia-nord-stage-3-88.html": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.lmmv.gov.lv/lv/media/1581/download?attachment=": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/drums/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/drums/bongos/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.lpmusic.com/drums/cajons/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.lpmusic.com/drums/congas/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.lpmusic.com/drums/udu/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/percussion/castanets/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/percussion/guiros/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/percussion/maracas/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp008cs-chad-smith-8-ridge-rider-cowbell/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp1-8-deluxe-flex-a-tone/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp1415-pm-pedrito-14-15-steel-timbales/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp208-vibra-slap-standard/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp208x-vibra-slap-iii-jenigore/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp249-cuban-style-guiro/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp261-wood-clave/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp304-pro-merengue-guira-w-scraper/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp427-castanet-machine/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp455a-traditional-rainstick/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp456a-crystal-rainmaker-rainstick/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lpmusic.com/products/lp570g6-giovanni-8-1-2-cowbell/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.ludwig-drums.com/application/files/8014/6531/8340/AV8142_2009.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.ludwig-drums.com/en-us/ludwig/products/snare-drums/supraphonic": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lvlmusicacademy.com/shop/violin-bows/dorfler-violin-bow-6a-brazilwood-german-silver/": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://www.lyonhealy.com/fr/harps/chicago-cg-extended/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lyonhealy.com/fr/harps/style-30/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lyonhealy.com/harps-collections/professional-pedal-harps/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lyonhealy.com/harps/drake/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.lyonhealy.com/harps/ogden/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.lyonhealy.com/harps/troubadour-vi/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.lyonhealy.com/rental-program-lever-harps/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.lyonhealy.com/rental-program-pedal-harps/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.lyonhealy.com/wp-content/uploads/2024/07/Rental_Program-brochure-OK-updated-7.19.24.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.makenoisemusic.com/synthesizers-and-controllers/0-coast/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.manualshelf.com/manual/moog/theremini/user-manual-english.html": {
+      "class": "secondary_research",
+      "occurrences": 1
+    },
+    "https://www.marshall.com/us/en/product/1960a-4x12-angled-cabinet": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.marshall.com/us/en/product/jcm800-2203-vintage-reissue-head": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.martinguitar.com/guitars/standard-series/D-28.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.mastersound.su/equip/zvykovoe-oborydovanie/mikshernie-pylti-konsoli.html": {
+      "class": "rental_research",
+      "occurrences": 4
+    },
+    "https://www.metmuseum.org/art/collection/search/500623": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://www.metmuseum.org/art/collection/search/500635": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/500666": {
+      "class": "institution_document",
+      "occurrences": 5
+    },
+    "https://www.metmuseum.org/art/collection/search/500684": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/500769": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/500957": {
+      "class": "institution_document",
+      "occurrences": 6
+    },
+    "https://www.metmuseum.org/art/collection/search/501025": {
+      "class": "institution_document",
+      "occurrences": 3
+    },
+    "https://www.metmuseum.org/art/collection/search/501053": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.metmuseum.org/art/collection/search/501103": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/501115": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://www.metmuseum.org/art/collection/search/501131": {
+      "class": "institution_document",
+      "occurrences": 3
+    },
+    "https://www.metmuseum.org/art/collection/search/501157": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/501786": {
+      "class": "institution_document",
+      "occurrences": 5
+    },
+    "https://www.metmuseum.org/art/collection/search/502322": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/502447": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://www.metmuseum.org/art/collection/search/502981": {
+      "class": "institution_document",
+      "occurrences": 7
+    },
+    "https://www.metmuseum.org/art/collection/search/503045": {
+      "class": "institution_document",
+      "occurrences": 14
+    },
+    "https://www.metmuseum.org/art/collection/search/503206": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.metmuseum.org/art/collection/search/503301": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/503359": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://www.metmuseum.org/art/collection/search/503529": {
+      "class": "institution_document",
+      "occurrences": 5
+    },
+    "https://www.metmuseum.org/art/collection/search/503554": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/503679": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://www.metmuseum.org/art/collection/search/503951": {
+      "class": "institution_document",
+      "occurrences": 11
+    },
+    "https://www.metmuseum.org/art/collection/search/503991": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/504256": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/504453": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.metmuseum.org/art/collection/search/504534": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.metmuseum.org/art/collection/search/504845": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/505247": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.metmuseum.org/art/collection/search/505818": {
+      "class": "institution_document",
+      "occurrences": 3
+    },
+    "https://www.metmuseum.org/art/collection/search/506060": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.metmuseum.org/art/collection/search/506858": {
+      "class": "institution_document",
+      "occurrences": 7
+    },
+    "https://www.metmuseum.org/art/collection/search/656846": {
+      "class": "institution_document",
+      "occurrences": 5
+    },
+    "https://www.metmuseum.org/art/collection/search/718416": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/art/collection/search/776535": {
+      "class": "institution_document",
+      "occurrences": 8
+    },
+    "https://www.metmuseum.org/art/collection/search/898377": {
+      "class": "institution_document",
+      "occurrences": 5
+    },
+    "https://www.metmuseum.org/art/collection/search/903062": {
+      "class": "institution_document",
+      "occurrences": 5
+    },
+    "https://www.metmuseum.org/es/art/collection/search/501788": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/essays/musical-instruments-of-the-indian-subcontinent": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/ko/essays/the-viol": {
+      "class": "institution_document",
+      "occurrences": 9
+    },
+    "https://www.metmuseum.org/pt/perspectives/two-stradivari": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.metmuseum.org/ru/perspectives/listening-to-paintings": {
+      "class": "institution_document",
+      "occurrences": 4
+    },
+    "https://www.michaelfmagee.com/samuel-shen-instrument-sales": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://www.midasconsoles.com/en/products/0603-adx": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.mistywilliamsharpist.com/rentals": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.mmimports.com/collections/oboe-english-horn-rentals": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.mmimports.com/products/rental-buffet-r13-bb-clarinet": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.mmimports.com/products/rental-loree-royal-oboe": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.mollenhauer.com/en/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.mollenhauer.com/en/catalog/recorders/playing-level/recorders-for-masters/great-bass-recorder-denner-pearwood-detail": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.mollenhauer.com/en/catalog/recorders/recorder-fingerings/baroque-fingering/sopranino-recorder-denner-pearwood-detail": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.moogmusic.com/downloads/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.moogmusic.com/synthesizers": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.mosconsv.ru/ru/concert/138798": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.museodellarpavictorsalvi.it/en/arpa0890.html": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.museodellarpavictorsalvi.it/en/collezione.html": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.music-man.com/instruments/basses/stingray-special": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.musicconstructed.com/feature/which-ukulele-model-should-i-choose-part-3-starting-a-ukulele-program-in-your-classroom/": {
+      "class": "context_research",
+      "occurrences": 3
+    },
+    "https://www.musikland-online.de/Weltmeister-PERLE-26-48-II-3-blau/": {
+      "class": "retail_research",
+      "occurrences": 10
+    },
+    "https://www.musikland-online.de/Weltmeister-RUBIN-30-60-weiss/": {
+      "class": "retail_research",
+      "occurrences": 8
+    },
+    "https://www.musikwissenschaft.uni-wuerzburg.de/en/musikinstrumente/bestand/inventarliste/de240-cimbalom/": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.muzarenda.ru/uslugi/strunnye_instrumenty.html": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://www.muzarenda.ru/uslugi/zvukovoe_oborudovanie/komplekty_zvuka/komplekt_beklajna_malyj.html": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.nevelsk-pravo.ru/documenty/2025/%D0%B8%D1%8E%D0%BB%D1%8C/28/ps-1046-ot-18.07.2025.pdf": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://www.nfaonline.org/scholarships-competitions/competitions/nfa-competitions/flute-choir-competitions/professional-flute-choir-competition": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.nomadmusicco.com/nashville-tn-backline-rental": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://www.nordkeyboards.com/legacy-products/nord-piano-5/specifications/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.nordkeyboards.com/products/nord-electro-6/specifications/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.nordkeyboards.com/products/nord-grand-2/specifications/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.nordkeyboards.com/products/nord-stage-4/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.nordkeyboards.com/products/nord-stage-4/specifications/": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://www.paiste.com/en/products/gongs-und-orchstral-percussion/gong-1": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.paiste.com/en/products/series/s2002": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.pgcps.org/schools/beltsville-academy/school-programs/bandorchestra/elementary-music/other-information": {
+      "class": "context_research",
+      "occurrences": 3
+    },
+    "https://www.phys.unsw.edu.au/jw/clarinetacoustics.html": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.phys.unsw.edu.au/jw/fluteacoustics.html": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.phys.unsw.edu.au/music/flute/modernB/B3.html": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.pianos-service.ch/en/concert-booking": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://www.pigini.nl/product-categorie/accordions-en/professional-en/?lang=en": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://www.pigini.nl/webwinkel/accordions-en/convertor-en/sirius-kyma/?lang=en": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://www.pigini.nl/webwinkel/accordions-en/convertor-en/super-bayan-sirius/?lang=en": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://www.pioneerdj.com/en/news/2014/plx-1000/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.pioneerdj.com/en/product/all-in-one-dj-systems/xdj-rx3/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.pioneerdj.com/en/product/dj-controllers/ddj-flx4/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.pioneerdj.com/en/product/dj-mixers/djm-900nxs2/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.pioneerdj.com/en/product/dj-mixers/djm-a9/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.pioneerdj.com/en/product/dj-players-turntables/cdj-3000/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.pioneerdj.com/en/product/dj-players-turntables/plx-1000/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.pirastro.com/public_pirastro/pages/en/Chorda-00005/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.pirastro.com/public_pirastro/pages/en/Chorda-00008/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.pratum.ru/orchestra/": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/portable-pa/k2-series/k122/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/subwoofers/ks-series/ks118/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.qscaudio.com/resource-files/productresources/spk/ks/q_spk_ks_usermanual.pdf": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.radialeng.com/product/jdi": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.rickenbacker.com/guitars/model-330/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.robertomontagnaliutaio.it/en-medieval.html": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://www.roland.com/Global/products/tm-2/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.roland.com/US/products/rc_jupiter-8/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/ca/products/rd-2000/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/aerophone_ae-20/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.roland.com/global/products/ax-edge/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/fp-10/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/fp-30x/": {
+      "class": "manufacturer",
+      "occurrences": 14
+    },
+    "https://www.roland.com/global/products/fp-90x/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/fp-e50/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/gaia_2/": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://www.roland.com/global/products/gokeys_3/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.roland.com/global/products/hp702/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/hp704/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/jc-120/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.roland.com/global/products/lx-5/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/lx-6/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/lx-9/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/rc_tr-808/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/rd-2000_ex/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.roland.com/global/products/rd-88_ex/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.roland.com/global/products/sp-404mk2/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.roland.com/global/products/spd-sx_pro/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.roland.com/global/products/td-02k/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.roland.com/global/products/td-17kvx2/": {
+      "class": "manufacturer",
+      "occurrences": 12
+    },
+    "https://www.roland.com/global/products/td-27kv2/": {
+      "class": "manufacturer",
+      "occurrences": 10
+    },
+    "https://www.roland.com/global/products/tr-8s/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/global/products/vqd106pads/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.roland.com/global/promos/d-50_30th_anniversary/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/ru/products/fp-30x/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/uk/blog/roland-icon-series-juno-106-synthesizer/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/uk/products/fantom_8_ex/": {
+      "class": "manufacturer",
+      "occurrences": 11
+    },
+    "https://www.roland.com/uk/products/rc_juno-106/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/uk/promos/roland_tr-909/?lang=en-GB": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/us/company/history/?lang=en-US": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.roland.com/us/products/spd-sx_pro/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.roland.com/us/promos/roland_tr-808/?lang=en-US": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.royalballetschool.org.uk/2022/11/08/celebrating-our-musicians-this-world-pianist-day/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.royalprideband.org/step-up-instruments": {
+      "class": "context_research",
+      "occurrences": 3
+    },
+    "https://www.rubner-markneukirchen.de/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.sagamusic.com/shop/violin-family/cremona/cremona-sv-175-premier-student-violin-outfit-4-4-size/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.salviharps.com/harp/juno-25/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.salviharps.com/wp-content/uploads/2016/05/Schede-website_Salvi-OK_Mia.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.selmer.fr/en-au/blogs/infos/history-notes-10-mark-vi": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.selmer.fr/en-int/products/contrabass-clarinet": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.selmer.fr/en/pages/notre-histoire": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.sennheiser.com/en-us/catalog/products/microphones/e-835/e-835-s-004514": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.sennheiser.com/en-us/catalog/products/wireless-systems/ew-iem-g4/ew-iem-g4-a-509609": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.sequential.com/wp-content/uploads/2021/02/Prophet-5-Users-Guide-1.3.pdf": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.show4rent.ru/backline": {
+      "class": "rental_research",
+      "occurrences": 7
+    },
+    "https://www.shure.com/en-EU/products/wireless-systems/qlx-d_digital_wireless/qlxd24_b58_beta58a_wireless_set": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.sinfoniavarsovia.org/en/sinfonia-varsovia/chamber-ensembles/sinfonia-varsovia-wind-quintet/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.sonor.com/orff-percussion": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.sonor.com/orff-percussion/instruments/global-beat": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.sonor.com/orff-percussion/instruments/primary": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.sonor.com/orff-percussion/instruments/products/sxp-11": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.sonor.com/orff-percussion/instruments/sonor-first-beat": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.soundpiter.ru/service/backline/backline-stands.html": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://www.stahl.fi/backline": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.stentor-music.com/products/stentor-student-ii-cello-outfit-1108.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.stentor-music.com/products/stentor-student-ii-double-bass-outfit-1438.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.stentor-music.com/products/stentor-student-ii-viola-outfit-1505.html": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://www.stentor-music.com/products/stentor-student-ii-violin-outfit-1500.html": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://www.studio49.de/asset/C857CA7D-128D-4068-BA3191C9BB5F9D0A/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.suzuki-music.co.jp/support/faq/?question_id=22924": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.svet-teatr.ru/rent/sound/": {
+      "class": "rental_research",
+      "occurrences": 4
+    },
+    "https://www.tama.com/eu/products/detail/hp600d.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.tama.com/eu/products/detail/ht430b.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.tama.com/eu/products/detail/imperialstar_drumkit.html": {
+      "class": "manufacturer",
+      "occurrences": 8
+    },
+    "https://www.tama.com/jp/products/detail/imperialstar.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.tama.com/usa/products/detail/tdr-tl.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.taylorguitars.com/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.taylorguitars.com/guitars/acoustic/features/specialty/12-string": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.taylorguitars.com/guitars/acoustic/features/specialty/baritone": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.taylorguitars.com/guitars/acoustic/gs-mini-e-bass": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.thameside.org/clarinet-choirs": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.thebacklinecompany.com/equipment/korg-nautilus-88-at": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.thomann.cz/hora_domra_m1084.htm": {
+      "class": "retail_research",
+      "occurrences": 5
+    },
+    "https://www.thomann.pt/thomann_domra_prima_standard_3_str.htm": {
+      "class": "retail_research",
+      "occurrences": 5
+    },
+    "https://www.thomastik-infeld.com/de/stringtelligence/woerterbuch/was-ist-die-schwingende-saitenlaenge-bzw-die-mensur": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.tomlinharmonicalessons.com/hohner-vs-lee-oskar/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.tomlinharmonicalessons.com/is-the-hohner-special-20-still-worth-it-in-2024/": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.tomlinharmonicalessons.com/the-best-harmonica-to-start-with/": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://www.trinitycollege.com/qualifications/music/grade-exams/digital": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.trinitycollege.com/resource/?id=9276": {
+      "class": "context_research",
+      "occurrences": 1
+    },
+    "https://www.uapevents.com/backline-rental": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.unesco.az/en/articles/intangible_cultural_heritage/craftsmanship-performance-art-tar-long-necked-string-musical-instrument": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.unesco.org/archives/multimedia/document-3670": {
+      "class": "institution_document",
+      "occurrences": 1
+    },
+    "https://www.unesco.org/archives/multimedia/document-3754": {
+      "class": "institution_document",
+      "occurrences": 2
+    },
+    "https://www.vdgsa.org/about-the-viol": {
+      "class": "institution_document",
+      "occurrences": 6
+    },
+    "https://www.vicfirthinstruments.com/product/v8705-percussion-kit/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.vonhuene.com/p-37-von-huene-ga-rottenburgh-flute.aspx": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.wardenrock.co.uk/": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/US/20-series-recorders/bestStart.aspx": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/US/20-series-recorders/teachers.aspx": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/US/houseofworship/downloadables/How-to-Choose-Guides/How-to-Choose-a-Bass-Guitar.pdf": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/US/houseofworship/downloadables/How-to-Choose-Guides/How-to-Choose-an-Acoustic-Guitar.pdf": {
+      "class": "manufacturer",
+      "occurrences": 14
+    },
+    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/2017/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/3077/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/4014/": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/5013/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/about/experience/innovation-road/collection/detail/5014/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/acoustic_guitar/selection/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/bassoon/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/bassoon/play/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/bassoon/selection/selection003.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/celesta/": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/clarinet/": {
+      "class": "manufacturer",
+      "occurrences": 6
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/clarinet/mechanism/mechanism004.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/clarinet/selection/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/clarinet/trivia/trivia008.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/classical_guitar/mechanism/mechanism002.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/classical_guitar/mechanism/mechanism003.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/drums/mechanism/": {
+      "class": "manufacturer",
+      "occurrences": 9
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/mechanism/mechanism002.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/play/play005.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/selection/selection003.html": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/structure/structure002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/trivia/trivia003.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/trivia/trivia005.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/flute/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/flute/mechanism/mechanism002.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/flute/selection/selection002.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/flute/structure/structure002.html": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/horn/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/horn/mechanism/mechanism002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/horn/mechanism/mechanism003.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/horn/play/play002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/horn/selection/selection003.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/horn/selection/selection004.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/marimba/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/marimba/structure/structure003.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/marimba/trivia/trivia004.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/marimba/trivia/trivia005.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/oboe/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/oboe/play/play002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/oboe/selection/selection002.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/oboe/structure/structure002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/oboe/trivia/trivia004.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/piano/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/piano/manufacturing/manufacturing005.html": {
+      "class": "manufacturer",
+      "occurrences": 3
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/piano/play/play002.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/piano/selection/": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/piano/structure/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/pipeorgan/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/recorder/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/recorder/play/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/recorder/selection/selection002.html": {
+      "class": "manufacturer",
+      "occurrences": 4
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/recorder/structure/structure004.html": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/saxophone/selection/selection002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/saxophone/structure/structure002.html": {
+      "class": "manufacturer",
+      "occurrences": 16
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/timpani/": {
+      "class": "manufacturer",
+      "occurrences": 5
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trombone/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trombone/mechanism/mechanism003.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trombone/mechanism/mechanism005.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trombone/play/play003.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trombone/selection/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trombone/structure/structure002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trumpet/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trumpet/mechanism/mechanism002.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trumpet/mechanism/mechanism004.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trumpet/selection/selection002.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/trumpet/structure/structure003.html": {
+      "class": "manufacturer",
+      "occurrences": 12
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/tuba/mechanism/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/tuba/play/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/tuba/play/play004.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/tuba/selection/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/tuba/structure/structure003.html": {
+      "class": "manufacturer",
+      "occurrences": 7
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/violin/selection/": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/musical_instrument_guide/violin/structure/structure004.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://www.yamaha.com/en/tech-design/design/insights/id_009/": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.yamahamusiclondon.com/TRBX305-Electric-5-String-Bass-Guitar/pidTRBX305-SUPER": {
+      "class": "retail_research",
+      "occurrences": 1
+    },
+    "https://www.yamahamusiclondon.com/YFL-212-Student-Flute/pidBYFL212ID": {
+      "class": "retail_research",
+      "occurrences": 5
+    },
+    "https://www.yamahamusiclondon.com/YFL-372-Step-Up-Flute/pidBYFL372-SUPER": {
+      "class": "retail_research",
+      "occurrences": 3
+    },
+    "https://www.yellowbellmusic.com/instruments/woodwind/bansuri": {
+      "class": "context_research",
+      "occurrences": 2
+    },
+    "https://www.zildjian.jp/cymbals/a-orchestral/classic-orchestral/20-a-zildjian-classic-orchestral-selection-medium-heavy-pair.html": {
+      "class": "manufacturer",
+      "occurrences": 2
+    },
+    "https://www.zildjian.jp/cymbals/k-orchestral/k-symphonic/20-k-symphonic-pair.html": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://xn--3-7sbumfdq1b8b.xn--80acgfbsl1azdqr.xn--p1ai/uploads/main/01g/cffe2a347522bd30fef4f5db832654190003320ac2cb67fe7e92c5f4e7ed9b5b/2025-2026-muz.-instrument-_arfa_-_mms_..pdf": {
+      "class": "context_research",
+      "occurrences": 4
+    },
+    "https://xn--80aald6ajjle5mb.xn--p1ai/digital-instruments/kawai-dg30": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/black/yamaha-cfx": {
+      "class": "rental_research",
+      "occurrences": 1
+    },
+    "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/white/kawai-gl-10": {
+      "class": "rental_research",
+      "occurrences": 3
+    },
+    "https://xn--80aald6ajjle5mb.xn--p1ai/upright-pianos/yamaha-yus1-black": {
+      "class": "rental_research",
+      "occurrences": 2
+    },
+    "https://zildjian.com/products/classic-orchestral-selection-suspended": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://zildjian.com/products/crotales-high-octave-a440-tuning-13-notes-w-o-bar": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://zildjian.com/products/crotales-low-octave-a440-tuning-13-notes-w-o-bar": {
+      "class": "manufacturer",
+      "occurrences": 1
+    },
+    "https://zildjian.com/products/k-constantinople-suspended-cymbals": {
+      "class": "manufacturer",
+      "occurrences": 1
+    }
+  }
+}
