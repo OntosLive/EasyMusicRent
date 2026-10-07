@@ -1,0 +1,469 @@
+{
+  "date": "2026-10-07",
+  "project": "ONTOS.RENT",
+  "base_commit": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+  "merged_inventory_count": 1901,
+  "merged_snapshot_sha256": "c8259a55b3f90a257846bdfbfe217134b2bb1abfb98a8048ded3a375f8102318",
+  "scope": "Отсутствовавшая ветка DJ как часть исполнительской музыки: обучение, репетиция, райдер, живой совместный сет и принадлежности.",
+  "method": [
+    "Проверен полный объединённый корпус по DJ, диджей, CDJ, XDJ, DJM, Xone, Technics; релевантных тем нет. Совпадения dj внутри Zildjian исключены как ложные.",
+    "Полностью прочитаны текущие elektronnye, semplery, lup-stantsiya, midi-klaviatury, usiliteli-backline и backline-dlya-festivalya. Сохраняется 13 исходных семейств.",
+    "Открыты первичные российские каталоги; технические факты перенесены только после сверки с официальными страницами производителей.",
+    "Сетевые возможности описаны как зависящие от выбранного сервиса, подключения и своей учётной записи. Не заявлены доступность экземпляров, цена, гарантия безостановочной смены или услуга организации события."
+  ],
+  "catalogues": [
+    {
+      "name": "Base Audio",
+      "url": "https://baseaudio.moscow/",
+      "region": "Москва; в контактах указан ИП в Саратове",
+      "observed": [
+        "CDJ-3000",
+        "CDJ-3000X",
+        "DJM-A9",
+        "DJM-900NXS2",
+        "Xone:96",
+        "XDJ-RX3",
+        "виниловые проигрыватели",
+        "эффекты",
+        "звук"
+      ],
+      "role": "Первичный каталог собственного проката; свидетельство существования запроса, не собственных остатков ONTOS.RENT."
+    },
+    {
+      "name": "DJ Аренда / Event Системы",
+      "url": "https://dj-arenda.ru/",
+      "region": "Москва",
+      "observed": [
+        "комплекты CDJ-3000 + DJM-A9",
+        "DJM-900NXS2",
+        "XDJ-RX3",
+        "PLX-1000",
+        "SL-1210MK2",
+        "стол Quik Lok DJ233",
+        "наушники"
+      ],
+      "role": "Первичный прокатный каталог с отдельными аппаратами и полными комплектами."
+    },
+    {
+      "name": "MusProkat",
+      "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/dlya-dj-s/",
+      "region": "Москва",
+      "observed": [
+        "XDJ-AZ",
+        "Xone:96",
+        "CDJ-3000",
+        "DJM-A9",
+        "DJM-900NXS2",
+        "XDJ-RX3",
+        "DJ-столы"
+      ],
+      "role": "Первичный прокатный каталог; его неточное имя Pioneer для XDJ-AZ не перенесено: производитель указывает AlphaTheta."
+    },
+    {
+      "name": "Fader Pro",
+      "url": "https://fader-pro.ru/arenda-dj-oborudovanie/arena-dj-kontrollera/pioneer-ddj-flx4/",
+      "region": "Москва",
+      "observed": [
+        "DDJ-FLX4",
+        "контроллер с USB-C"
+      ],
+      "role": "Первичная арендная карточка; обещание отсутствия дополнительной коммутации не перенесено, состав проверяется целиком."
+    }
+  ],
+  "decisions": [
+    {
+      "slug": "dj-oborudovanie",
+      "decision": "new",
+      "reason": "В полном корпусе отсутствует ветка DJ, тогда как несколько первичных российских прокатов выделяют проигрыватели, микшеры, системы и комплекты.",
+      "technical_facts": [],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ DDJ-FLX4: контроллер и совместимые программы",
+          "url": "https://www.pioneerdj.com/en/product/dj-controllers/ddj-flx4/"
+        },
+        {
+          "title": "AlphaTheta XDJ-AZ: самостоятельное воспроизведение и подключение",
+          "url": "https://alphatheta.com/en/product/all-in-one-dj-system/xdj-az/black/"
+        }
+      ],
+      "explicit_continuations": [
+        "/scenicheskiy-zvuk/",
+        "/semplery/",
+        "/backline-dlya-festivalya/"
+      ]
+    },
+    {
+      "slug": "dj-komplekt-dlya-obucheniya",
+      "decision": "new",
+      "reason": "Домашний учебный комплект с программой и отдельным прослушиванием не раскрыт инструментальными или MIDI-страницами.",
+      "technical_facts": [],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ: возможности DDJ-FLX4 для первых занятий",
+          "url": "https://www.pioneerdj.com/en/product/dj-controllers/ddj-flx4/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-ddj-flx4-v-arendu/",
+        "/pioneer-xdj-rx3-v-arendu/",
+        "/instrument-po-rekomendatsii-prepodavatelya/"
+      ]
+    },
+    {
+      "slug": "dj-oborudovanie-dlya-repetitsii-pered-vystupleniem",
+      "decision": "new",
+      "reason": "Перенос подготовленной библиотеки и привычки рук на модель площадки — самостоятельная временная задача.",
+      "technical_facts": [],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ CDJ-3000: носители и работа с библиотекой",
+          "url": "https://www.pioneerdj.com/en/product/dj-players-turntables/cdj-3000/"
+        },
+        {
+          "title": "AlphaTheta CDJ-3000X: совместимость носителей и библиотеки",
+          "url": "https://alphatheta.com/en/product/player/cdj-3000x/black/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-cdj-3000-v-arendu/",
+        "/alphatheta-cdj-3000x-v-arendu/",
+        "/dj-komplekt-dlya-smeny-artistov/"
+      ]
+    },
+    {
+      "slug": "dj-komplekt-po-rayderu",
+      "decision": "new",
+      "reason": "Точный состав проигрывателей, микшера и мониторинга отличается от общего инструментального бэклайна.",
+      "technical_facts": [],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ DJM-A9: подключение и исполнительское управление",
+          "url": "https://www.pioneerdj.com/en/product/dj-mixers/djm-a9/"
+        },
+        {
+          "title": "Allen & Heath Xone:96: входы, мониторинг и соединения",
+          "url": "https://www.allen-heath.com/hardware/xone-series/xone96/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-djm-a9-v-arendu/",
+        "/allen-heath-xone-96-v-arendu/",
+        "/stol-dlya-dj-oborudovaniya/",
+        "/scenicheskiy-zvuk/"
+      ]
+    },
+    {
+      "slug": "dj-komplekt-dlya-smeny-artistov",
+      "decision": "new",
+      "reason": "Одновременное подключение и независимое прослушивание двух артистов дают отдельную задачу.",
+      "technical_facts": [],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ DJM-A9: независимые наушники и подключение двух компьютеров",
+          "url": "https://www.pioneerdj.com/en/product/dj-mixers/djm-a9/"
+        },
+        {
+          "title": "Allen & Heath Xone:96: две системы CUE и два USB-интерфейса",
+          "url": "https://www.allen-heath.com/hardware/xone-series/xone96/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-djm-a9-v-arendu/",
+        "/allen-heath-xone-96-v-arendu/",
+        "/backline-dlya-festivalya/"
+      ]
+    },
+    {
+      "slug": "dj-i-zhivye-instrumenty",
+      "decision": "new",
+      "reason": "Сигнал живого исполнителя, общий темп и мониторинг требуют отдельного разбора, не покрытого страницами семплеров.",
+      "technical_facts": [],
+      "official_sources": [
+        {
+          "title": "Allen & Heath Xone:96: музыкальные источники, посылы и возвраты",
+          "url": "https://www.allen-heath.com/hardware/xone-series/xone96/"
+        }
+      ],
+      "explicit_continuations": [
+        "/scenicheskiy-zvuk/",
+        "/semplernye-pedy/",
+        "/lup-stantsiya-dlya-vokala/",
+        "/allen-heath-xone-96-v-arendu/"
+      ]
+    },
+    {
+      "slug": "vinilovye-dj-proigryvateli",
+      "decision": "new",
+      "reason": "Механическая цепь пластинка — игла — PHONO и опора отсутствуют в действующем корпусе.",
+      "technical_facts": [],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ PLX-1000: прямой привод и регулировка темпа",
+          "url": "https://www.pioneerdj.com/en/product/dj-players-turntables/plx-1000/"
+        },
+        {
+          "title": "Allen & Heath Xone:96: входы PHONO и LINE",
+          "url": "https://support.allen-heath.com/hc/en-gb/articles/43053562464017-Xone-96-User-Guide"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-plx-1000-v-arendu/",
+        "/allen-heath-xone-96-v-arendu/",
+        "/stol-dlya-dj-oborudovaniya/"
+      ]
+    },
+    {
+      "slug": "stol-dlya-dj-oborudovaniya",
+      "decision": "new",
+      "reason": "Площадь аппаратов, коммутация и смена двух исполнителей отличаются от инструментальных стоек.",
+      "technical_facts": [],
+      "official_sources": [],
+      "explicit_continuations": [
+        "/dj-komplekt-po-rayderu/",
+        "/vinilovye-dj-proigryvateli/",
+        "/dj-komplekt-dlya-smeny-artistov/"
+      ]
+    },
+    {
+      "slug": "pioneer-cdj-3000-v-arendu",
+      "decision": "new",
+      "reason": "Точная райдерная модель: расположение Hot Cue, USB/SD и работа с подготовленной библиотекой.",
+      "technical_facts": [
+        "экран 9 дюймов",
+        "8 Hot Cue",
+        "USB/SD",
+        "Pro DJ Link"
+      ],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ: CDJ-3000, управление, носители и Pro DJ Link",
+          "url": "https://www.pioneerdj.com/en/product/dj-players-turntables/cdj-3000/"
+        }
+      ],
+      "explicit_continuations": [
+        "/alphatheta-cdj-3000x-v-arendu/",
+        "/pioneer-djm-900nxs2-v-arendu/",
+        "/dj-oborudovanie-dlya-repetitsii-pered-vystupleniem/"
+      ]
+    },
+    {
+      "slug": "alphatheta-cdj-3000x-v-arendu",
+      "decision": "new",
+      "reason": "Самостоятельная модель, реально обнаруженная в российском прокате; USB-C, экран и доступ к библиотеке отличаются от CDJ-3000.",
+      "technical_facts": [
+        "экран 10,1 дюйма",
+        "USB-C",
+        "Wi-Fi",
+        "NFC/QR",
+        "условия формата библиотеки"
+      ],
+      "official_sources": [
+        {
+          "title": "AlphaTheta CDJ-3000X: экран, соединения и требования к библиотеке",
+          "url": "https://alphatheta.com/en/product/player/cdj-3000x/black/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-cdj-3000-v-arendu/",
+        "/pioneer-djm-a9-v-arendu/",
+        "/dj-komplekt-po-rayderu/"
+      ]
+    },
+    {
+      "slug": "pioneer-djm-a9-v-arendu",
+      "decision": "new",
+      "reason": "Точная модель для отдельного прослушивания двух артистов и подключения компьютеров.",
+      "technical_facts": [
+        "4 канала",
+        "2 независимых системы предварительного прослушивания",
+        "подключение 2 PC/Mac"
+      ],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ DJM-A9: независимое прослушивание и два компьютера",
+          "url": "https://www.pioneerdj.com/en/product/dj-mixers/djm-a9/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-djm-900nxs2-v-arendu/",
+        "/dj-komplekt-dlya-smeny-artistov/",
+        "/pioneer-cdj-3000-v-arendu/"
+      ]
+    },
+    {
+      "slug": "pioneer-djm-900nxs2-v-arendu",
+      "decision": "new",
+      "reason": "Прежняя райдерная модель остаётся в российских парках; подготовленное управление эффектами не сводится к DJM-A9.",
+      "technical_facts": [
+        "4 канала",
+        "6 Sound Color FX",
+        "14 Beat FX",
+        "отдельный Send/Return",
+        "4 PHONO и 2 компьютерных USB"
+      ],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ DJM-900NXS2: каналы, эффекты и коммутация",
+          "url": "https://www.pioneerdj.com/en/product/dj-mixers/djm-900nxs2/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-djm-a9-v-arendu/",
+        "/pioneer-cdj-3000-v-arendu/",
+        "/dj-oborudovanie-dlya-repetitsii-pered-vystupleniem/"
+      ]
+    },
+    {
+      "slug": "allen-heath-xone-96-v-arendu",
+      "decision": "new",
+      "reason": "Аналоговый микшер с четырёхполосной эквализацией, внешней обработкой и двумя системами CUE.",
+      "technical_facts": [
+        "аналоговый микшер",
+        "4-полосный EQ основных 4 стереоканалов",
+        "2 USB-интерфейса",
+        "2 CUE",
+        "внешние посылы/возвраты"
+      ],
+      "official_sources": [
+        {
+          "title": "Allen & Heath Xone:96: аналоговая схема, EQ, интерфейсы и мониторинг",
+          "url": "https://www.allen-heath.com/hardware/xone-series/xone96/"
+        },
+        {
+          "title": "Allen & Heath: руководство Xone:96",
+          "url": "https://support.allen-heath.com/hc/en-gb/articles/43053562464017-Xone-96-User-Guide"
+        }
+      ],
+      "explicit_continuations": [
+        "/vinilovye-dj-proigryvateli/",
+        "/dj-komplekt-dlya-smeny-artistov/",
+        "/dj-i-zhivye-instrumenty/"
+      ]
+    },
+    {
+      "slug": "pioneer-xdj-rx3-v-arendu",
+      "decision": "new",
+      "reason": "Двухканальная система в одном корпусе; другой состав, чем контроллер и отдельные деки.",
+      "technical_facts": [
+        "2 канала",
+        "экран 10,1 дюйма",
+        "USB-воспроизведение",
+        "отдельный режим управления программой"
+      ],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ XDJ-RX3: два канала, экран и USB-воспроизведение",
+          "url": "https://www.pioneerdj.com/en/product/all-in-one-dj-systems/xdj-rx3/"
+        }
+      ],
+      "explicit_continuations": [
+        "/dj-komplekt-dlya-obucheniya/",
+        "/alphatheta-xdj-az-v-arendu/",
+        "/dj-komplekt-po-rayderu/"
+      ]
+    },
+    {
+      "slug": "alphatheta-xdj-az-v-arendu",
+      "decision": "new",
+      "reason": "Самостоятельное четырёхдековое воспроизведение даёт существенное отличие от RX3.",
+      "technical_facts": [
+        "самостоятельное воспроизведение на 4 деках"
+      ],
+      "official_sources": [
+        {
+          "title": "AlphaTheta XDJ-AZ: самостоятельное четырёхдековое воспроизведение",
+          "url": "https://alphatheta.com/en/product/all-in-one-dj-system/xdj-az/black/"
+        }
+      ],
+      "explicit_continuations": [
+        "/pioneer-xdj-rx3-v-arendu/",
+        "/dj-komplekt-po-rayderu/",
+        "/stol-dlya-dj-oborudovaniya/"
+      ]
+    },
+    {
+      "slug": "pioneer-ddj-flx4-v-arendu",
+      "decision": "new",
+      "reason": "Российский прокат подтверждает учебный контроллер; компьютер и программа являются частью состава.",
+      "technical_facts": [
+        "2-канальный контроллер",
+        "совместимая программа и внешнее устройство",
+        "USB-C PC/Mac",
+        "особый состав мобильного питания"
+      ],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ DDJ-FLX4: совместимые устройства, программы и подключение",
+          "url": "https://www.pioneerdj.com/en/product/dj-controllers/ddj-flx4/"
+        }
+      ],
+      "explicit_continuations": [
+        "/dj-komplekt-dlya-obucheniya/",
+        "/pioneer-xdj-rx3-v-arendu/",
+        "/instrument-po-rekomendatsii-prepodavatelya/"
+      ]
+    },
+    {
+      "slug": "pioneer-plx-1000-v-arendu",
+      "decision": "new",
+      "reason": "Точный виниловый аппарат; регулировка темпа и фактический состав головки/иглы требуют самостоятельного согласования.",
+      "technical_facts": [
+        "прямой привод",
+        "темп ±8/±16/±50%",
+        "Головка с иглой не входит в заводской комплект; состав прокатной выдачи уточняется отдельно.",
+        "PHONO/ground-коммутация"
+      ],
+      "official_sources": [
+        {
+          "title": "Pioneer DJ PLX-1000: привод и диапазоны темпа",
+          "url": "https://www.pioneerdj.com/en/product/dj-players-turntables/plx-1000/"
+        },
+        {
+          "title": "Pioneer DJ: состав PLX-1000 и съёмная коммутация",
+          "url": "https://www.pioneerdj.com/en/news/2014/plx-1000/"
+        }
+      ],
+      "explicit_continuations": [
+        "/allen-heath-xone-96-v-arendu/",
+        "/stol-dlya-dj-oborudovaniya/",
+        "/dj-komplekt-po-rayderu/"
+      ]
+    }
+  ],
+  "preserved_existing_topics": [
+    "elektronnye",
+    "semplery",
+    "lup-stantsiya",
+    "midi-klaviatury"
+  ],
+  "not_expanded": [
+    {
+      "topic": "Вся линейка производителей и каждый SKU",
+      "reason": "Ограничение канона полноты: новые модели нужны при отдельном исполнительском различии и арендном свидетельстве; каталог не переписывается целиком."
+    },
+    {
+      "topic": "Technics SL-1210MK2 как точная модель",
+      "reason": "Российские каталоги подтверждают запрос. В открытом официальном архиве найдено руководство SL-1200MK2, которое не выдаётся за документ SL-1210MK2. Семейный виниловый запрос раскрыт без неподтверждённых параметров версии; отдельная карточка требует точного руководства или документации экземпляра."
+    },
+    {
+      "topic": "Свет, экраны, конфетти, дым и полное событийное производство",
+      "reason": "Наличие у тех же прокатов не делает это инструментальным фондом исполнительской музыки. Текущий пакет расширяет музыкальные источники и их рабочую инфраструктуру."
+    }
+  ],
+  "known_source_failures": [
+    {
+      "url": "https://downloads.support.alphatheta.com/manuals/all-in-one-dj-systems/XDJ-RX3/XDJ-RX3_DRI1702C_manual?page=122",
+      "result": "Официальная ссылка Specifications вернула 404; не используется как действующая публичная ссылка."
+    },
+    {
+      "url": "https://downloads.support.alphatheta.com/manuals/turntables/PLX-1000/PLX-1000_DRC1694F_manual?page=18",
+      "result": "Официальная ссылка Specifications вернула 404; использованы действующие официальные product/news страницы."
+    }
+  ],
+  "authorship": "Новые сцены написаны самостоятельно в каноне проекта. Каталожные обещания, цены и тексты не копировались.",
+  "independent_review": {
+    "date": "2026-10-07",
+    "scope": "Все 17 публичных текстов и журнал решений; повторное открытие первичных страниц моделей.",
+    "outcome": "Приняты три уточнения PLX-1000: заводская головка не включена; наблюдается вращение диска; замена конкретной модели Technics требует согласования."
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "method": "Уникальные домены без www первичных российских прокатных источников, явно выбранных в шести предметных журналах. Это проверенная выборка, не все российские сайты. Производители и оркестровый райдер сюда не включены.",
+  "websites": 26,
+  "unique_urls": 43,
+  "cities_with_evidence": [
+    "Москва",
+    "Санкт-Петербург",
+    "Казань",
+    "Екатеринбург",
+    "Новосибирск"
+  ],
+  "domains": {
+    "party365.ru": [
+      {
+        "title": "Party365, Москва: прокат проводного Shure SM58",
+        "url": "https://party365.ru/zvukovoe-oborudovanie/mikrofony/mikrofon-shure-sm58/",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      },
+      {
+        "title": "Party365: стойка для гитарного комбоусилителя",
+        "url": "https://party365.ru/backline/podstavka-pod-monitor-proel-el700/",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "arenda-videozvuk.ru": [
+      {
+        "title": "Main Event, Екатеринбург: прокат микрофонов и радиосистем",
+        "url": "https://arenda-videozvuk.ru/arenda-oborudovaniya/zvuk/mikrofony",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      }
+    ],
+    "c-ser.ru": [
+      {
+        "title": "Центр-Сервис, Казань: микрофоны, микшеры и акустика в прокате",
+        "url": "https://c-ser.ru/audio_equip",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      }
+    ],
+    "smg16.ru": [
+      {
+        "title": "SMG, Казань: сценический звук и мониторные комплекты",
+        "url": "https://smg16.ru/service/zvuk/",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      }
+    ],
+    "mastersound.su": [
+      {
+        "title": "MasterSound, Новосибирск: микшерные пульты, включая XR18",
+        "url": "https://www.mastersound.su/equip/zvykovoe-oborydovanie/mikshernie-pylti-konsoli.html",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      }
+    ],
+    "svet-teatr.ru": [
+      {
+        "title": "СДТ-Рент, Санкт-Петербург: звук, микрофоны и мониторинг",
+        "url": "https://www.svet-teatr.ru/rent/sound/",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      }
+    ],
+    "banket.rent": [
+      {
+        "title": "BanketRent: прокат Yamaha MG10XU",
+        "url": "https://banket.rent/catalog/sound/yamaha-mg10xu-mixing-console/",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      }
+    ],
+    "dj-arenda.ru": [
+      {
+        "title": "DJ-Arenda, Москва: BLX24/SM58 и ZED-10FX в прокатном списке",
+        "url": "https://dj-arenda.ru/arenda_sound_equipment.html",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      },
+      {
+        "title": "DJ Аренда / Event Системы",
+        "url": "https://dj-arenda.ru/",
+        "research": "2026-10-07-dj-rider-research.json"
+      }
+    ],
+    "fader-pro.ru": [
+      {
+        "title": "Fader Pro, Москва: прокат Sennheiser IEM G4",
+        "url": "https://fader-pro.ru/arenda-personalnogo-monitoringa/sennheiser-iem-g4/",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      },
+      {
+        "title": "Fader Pro",
+        "url": "https://fader-pro.ru/arenda-dj-oborudovanie/arena-dj-kontrollera/pioneer-ddj-flx4/",
+        "research": "2026-10-07-dj-rider-research.json"
+      }
+    ],
+    "soundman24.ru": [
+      {
+        "title": "Soundman24: прокат QSC K12.2",
+        "url": "https://soundman24.ru/arenda-kolonok/qsc-k12-2",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      },
+      {
+        "title": "Soundman24: состав комплекта Yamaha Tour Custom",
+        "url": "https://soundman24.ru/yamahatourcustommaple",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "rentalservice.pro": [
+      {
+        "title": "RentalService, Санкт-Петербург: прокат Midas M32",
+        "url": "https://rentalservice.pro/prokat/zvykovoe-oborydovanie/mikshernie-pylti/cifrovoi-mikshernii-pylt-midas-m32",
+        "research": "2026-10-07-vocal-stage-sound-research.json"
+      }
+    ],
+    "sound4eck.ru": [
+      {
+        "title": "Sound4eck: стойки в прокатном каталоге",
+        "url": "https://sound4eck.ru/categorija/arenda-beklajna/stoyki/",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      },
+      {
+        "title": "Sound4eck, Санкт-Петербург: прямые, короткие и другие микрофонные стойки",
+        "url": "https://sound4eck.ru/categorija/arenda-zvuka/mikrofony/stojki-mikrofonnye/",
+        "research": "2026-10-07-instrument-microphones-research.json"
+      }
+    ],
+    "soundpiter.ru": [
+      {
+        "title": "SoundPiter: стойки для инструментов и пюпитры",
+        "url": "https://www.soundpiter.ru/service/backline/backline-stands.html",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "arendaprokatzvuka.ru": [
+      {
+        "title": "Kvazar Sound: стулья и сценическая мебель",
+        "url": "https://arendaprokatzvuka.ru/arenda-sceny/",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "izi.show": [
+      {
+        "title": "IZI.show: стулья, педали и стойки ударных",
+        "url": "https://izi.show/catalog/arenda_barabannye_ustanovki/",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      },
+      {
+        "title": "IZI.show: перкуссионный столик On-Stage DPT4000",
+        "url": "https://izi.show/card/arenda_onstage_dpt4000/",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "m-max.ru": [
+      {
+        "title": "Music Max Group: пюпитр On-Stage SM7211",
+        "url": "https://m-max.ru/equipment/pyupitr-stage-sm7211-s-pryamoy-notnoy-doskoy",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "arenda-prokat.ru": [
+      {
+        "title": "Аренда-Прокат: пюпитр с подсветкой",
+        "url": "https://www.arenda-prokat.ru/catalog/prokat-sczen/shtativyi/arenda-pyupitra-i-podsvetki.html",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "show4rent.ru": [
+      {
+        "title": "Show4Rent: бэклайн и стойка для ноутбука",
+        "url": "https://www.show4rent.ru/backline",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "muzarenda.ru": [
+      {
+        "title": "MUZarenda: струнные инструменты",
+        "url": "https://www.muzarenda.ru/uslugi/strunnye_instrumenty.html",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      },
+      {
+        "title": "MUZarenda: малый комплект бэклайна",
+        "url": "https://www.muzarenda.ru/uslugi/zvukovoe_oborudovanie/komplekty_zvuka/komplekt_beklajna_malyj.html",
+        "research": "2026-10-07-stage-furniture-study-kits-research.json"
+      }
+    ],
+    "fortepianoservice.ru": [
+      {
+        "title": "Forte & Piano Service: белый рояль для события",
+        "url": "https://fortepianoservice.ru/belyj-royal/",
+        "research": "2026-10-07-piano-format-color-research.json"
+      }
+    ],
+    "arendapiano.ru": [
+      {
+        "title": "Аренда роялей: красный экземпляр Yamaha C3",
+        "url": "https://arendapiano.ru/c3-krasny.html",
+        "research": "2026-10-07-piano-format-color-research.json"
+      },
+      {
+        "title": "Аренда роялей: цифровой Yamaha CLP-765GP",
+        "url": "https://arendapiano.ru/clp-765gp-wh-2.html",
+        "research": "2026-10-07-piano-format-color-research.json"
+      },
+      {
+        "title": "Аренда роялей: чёрный цифровой Yamaha CLP-765GP",
+        "url": "https://arendapiano.ru/clp-765gp-black.html",
+        "research": "2026-10-07-piano-format-color-research.json"
+      }
+    ],
+    "xn--80aald6ajjle5mb.xn--p1ai": [
+      {
+        "title": "АрендаРояля.рф: акустическое пианино Yamaha YUS1",
+        "url": "https://xn--80aald6ajjle5mb.xn--p1ai/upright-pianos/yamaha-yus1-black",
+        "research": "2026-10-07-piano-format-color-research.json"
+      },
+      {
+        "title": "АрендаРояля.рф: кабинетный Kawai GL-10",
+        "url": "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/white/kawai-gl-10",
+        "research": "2026-10-07-piano-format-color-research.json"
+      },
+      {
+        "title": "АрендаРояля.рф: цифровой Kawai DG30",
+        "url": "https://xn--80aald6ajjle5mb.xn--p1ai/digital-instruments/kawai-dg30",
+        "research": "2026-10-07-piano-format-color-research.json"
+      },
+      {
+        "title": "АрендаРояля.рф: чёрный концертный Yamaha CFX",
+        "url": "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/black/yamaha-cfx",
+        "research": "2026-10-07-piano-format-color-research.json"
+      }
+    ],
+    "arenda.pianino.ru": [
+      {
+        "title": "Пианино.ру: цифровые инструменты и состав домашних комплектов",
+        "url": "https://arenda.pianino.ru/",
+        "research": "2026-10-07-piano-format-color-research.json"
+      }
+    ],
+    "baseaudio.moscow": [
+      {
+        "title": "Base Audio",
+        "url": "https://baseaudio.moscow/",
+        "research": "2026-10-07-dj-rider-research.json"
+      }
+    ],
+    "musprokat.ru": [
+      {
+        "title": "MusProkat",
+        "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/dlya-dj-s/",
+        "research": "2026-10-07-dj-rider-research.json"
+      },
+      {
+        "title": "МузПрокат, Москва: инструментальные микрофоны в прокатном каталоге",
+        "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/backline/instrumentalnye-mikrofony/",
+        "research": "2026-10-07-instrument-microphones-research.json"
+      },
+      {
+        "title": "МузПрокат, Москва: Shure SM57 как отдельная прокатная позиция",
+        "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-57/",
+        "research": "2026-10-07-instrument-microphones-research.json"
+      },
+      {
+        "title": "МузПрокат, Москва: прокат Shure SM81",
+        "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-81/",
+        "research": "2026-10-07-instrument-microphones-research.json"
+      },
+      {
+        "title": "МузПрокат, Москва: прокат Shure BETA 52A",
+        "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-beta-52a/",
+        "research": "2026-10-07-instrument-microphones-research.json"
+      },
+      {
+        "title": "МузПрокат: сабвуферы и акустические системы",
+        "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/akusticheskie-sistemy/",
+        "research": "2026-10-07-stage-system-completeness-research.json"
+      }
+    ],
+    "svetsound.ru": [
+      {
+        "title": "SVETSOUND: основные акустические системы, сабвуферы и усилители в прокате",
+        "url": "https://svetsound.ru/sound",
+        "research": "2026-10-07-stage-system-completeness-research.json"
+      }
+    ]
+  }
+}

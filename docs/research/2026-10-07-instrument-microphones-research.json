@@ -1,0 +1,454 @@
+{
+  "date": "2026-10-07",
+  "status": "root_review_accepted_content_frozen_not_published",
+  "base_commit": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+  "scope": "Шесть отсутствующих тем внутри текущего общего пакета расширения. Только zzzz75 и этот журнал; zzzz70 и zzzz74 не изменялись.",
+  "candidate": {
+    "path": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+    "sha256": "a6223707576871a3e9a5595b0fc863183ead04f928d3620131982f4a39ef2b2e",
+    "new_topics": 6,
+    "categories": 2,
+    "models": 3,
+    "scenes": 1,
+    "navigation_sources": 5,
+    "navigation_additions": 6
+  },
+  "inventory": {
+    "merged_subjects_before_this_file": 1973,
+    "snapshot_sha256": "1c505e36616472e8162a54ffbc994fd62f585bcef979bbefff38e3ba08a4206d",
+    "scope": "Все объединённые slugs/titles просмотрены поиском предметных совпадений; полный текст прочитан у указанных десяти ближайших страниц. Это не полный редакционный аудит всех 1973 тем.",
+    "full_context_read": [
+      "scenicheskaya-mebel-i-stoyki",
+      "di-boksy",
+      "radial-jdi-v-arendu",
+      "backline-dlya-akusticheskogo-kontserta",
+      "vokalnye-mikrofony",
+      "scenicheskiy-zvuk",
+      "mikshery-dlya-zhivogo-zvuka",
+      "scenicheskie-monitory",
+      "barabannaya-ustanovka-dlya-zapisi",
+      "instrument-esli-mikrofon-slyshit-lishniy-shum"
+    ],
+    "existing_topics_preserved": [
+      "di-boksy",
+      "radial-jdi-v-arendu"
+    ],
+    "automatic_children": "Новые родительские связи добавят карточки автоматически; ручные parent→child записи для scenicheskiy-zvuk и мебельного родителя не добавлены."
+  },
+  "principles": {
+    "rental_role": "Российский каталог подтверждает существование прокатной позиции у указанного прокатчика. Его цены, наличие и обещания доставки не относятся к ONTOS.RENT и не перенесены.",
+    "manufacturer_role": "Технические свойства и назначение точной модели проверены по первичной документации изготовителя.",
+    "editorial_role": "Сцены, порядок репетиционной пробы и вопросы комплектования сформулированы самостоятельно; поисковая частотность и универсальная пригодность не утверждаются.",
+    "temporary_access": "Доступ на репетицию/концерт позволяет выполнить текущую задачу и освоить микрофонную работу; заранее доказанное владение техникой не требуется.",
+    "n0_n1": "У трёх запросных заголовков — прокат, у трёх — аренда. Редакционные H1 раскрывают предмет и исполнительское различие без коммерческого слова."
+  },
+  "sources": [
+    {
+      "id": "rent-category",
+      "title": "МузПрокат, Москва: инструментальные микрофоны в прокатном каталоге",
+      "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/backline/instrumentalnye-mikrofony/",
+      "role": "russian_rental_catalog",
+      "web_refs": [
+        "turn239view0"
+      ],
+      "observed_or_supported": [
+        "Самостоятельные прокатные позиции SM57, SM81 и BETA 52A; отдельная стойка-журавль."
+      ]
+    },
+    {
+      "id": "rent-stands",
+      "title": "Sound4eck, Санкт-Петербург: прямые, короткие и другие микрофонные стойки",
+      "url": "https://sound4eck.ru/categorija/arenda-zvuka/mikrofony/stojki-mikrofonnye/",
+      "role": "russian_rental_catalog",
+      "web_refs": [
+        "turn239view1",
+        "turn240view3"
+      ],
+      "observed_or_supported": [
+        "Санкт-Петербург; в каталоге есть короткая, прямая и другие микрофонные стойки."
+      ]
+    },
+    {
+      "id": "rent-sm57",
+      "title": "МузПрокат, Москва: Shure SM57 как отдельная прокатная позиция",
+      "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-57/",
+      "role": "russian_rental_model",
+      "web_refs": [
+        "turn246view0",
+        "turn248view0"
+      ],
+      "observed_or_supported": [
+        "Самостоятельная страница проката Shure SM57 в Москве."
+      ]
+    },
+    {
+      "id": "rent-sm81",
+      "title": "МузПрокат, Москва: прокат Shure SM81",
+      "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-81/",
+      "role": "russian_rental_model",
+      "web_refs": [
+        "turn246view1",
+        "turn250view0"
+      ],
+      "observed_or_supported": [
+        "Самостоятельная страница проката Shure SM81 в Москве."
+      ]
+    },
+    {
+      "id": "rent-beta52a",
+      "title": "МузПрокат, Москва: прокат Shure BETA 52A",
+      "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-beta-52a/",
+      "role": "russian_rental_model",
+      "web_refs": [
+        "turn246view2",
+        "turn250view1"
+      ],
+      "observed_or_supported": [
+        "Самостоятельная страница проката Shure BETA 52A в Москве."
+      ]
+    },
+    {
+      "id": "manufacturer-sm57",
+      "title": "Shure: руководство SM57, направленность и размещение у инструмента",
+      "url": "https://pubs.shure.com/view/guide/SM57/en-US.pdf",
+      "role": "manufacturer_manual",
+      "web_refs": [
+        "turn242view0"
+      ],
+      "observed_or_supported": [
+        "Динамический кардиоидный; применение с барабанами и усилителями; положение у динамика влияет на звук. Точное положение требует пробы."
+      ]
+    },
+    {
+      "id": "manufacturer-sm81",
+      "title": "Shure: руководство SM81, фантомное питание и переключатели",
+      "url": "https://pubs.shure.com/view/guide/SM81/en-US.pdf",
+      "role": "manufacturer_manual",
+      "web_refs": [
+        "turn249view3"
+      ],
+      "observed_or_supported": [
+        "Конденсаторный кардиоидный; акустическая гитара, фортепиано, тарелки; фантомное питание, рекомендованы 48 В; ослабление 10 дБ; три положения низкочастотной характеристики."
+      ]
+    },
+    {
+      "id": "manufacturer-beta52a",
+      "title": "Shure: руководство BETA 52A, большой барабан и крепление",
+      "url": "https://pubs.shure.com/view/guide/BETA52A/en-US.pdf",
+      "role": "manufacturer_manual",
+      "web_refs": [
+        "turn242view1"
+      ],
+      "observed_or_supported": [
+        "Динамический суперкардиоидный для большого барабана и басовых инструментов; расстояние от ударного пластика меняет атаку/резонанс; исключён контакт с пластиком и демпфером; встроенное поворотное крепление."
+      ]
+    },
+    {
+      "id": "manufacturer-stands",
+      "title": "König & Meyer: установка микрофонных стоек, регулировки и варианты резьбы",
+      "url": "https://www.k-m.de/media/bc/83/23/1790942526/Aufstellanleitung_6371b8c193985f8bace138409989974e.pdf?ts=1790942526",
+      "role": "manufacturer_manual",
+      "web_refs": [
+        "turn250view2",
+        "turn251view0"
+      ],
+      "observed_or_supported": [
+        "Различаются регулировки высоты/вылета/наклона и варианты резьбы; устойчивость связана с нагрузкой, поверхностью и положением штанги. Числовая грузоподъёмность не обобщается на чужие модели."
+      ]
+    },
+    {
+      "id": "manufacturer-low-stand",
+      "title": "König & Meyer: низкая стойка 259 с телескопической штангой",
+      "url": "https://www.k-m.de/en/special-stands-with-boom/259-microphone-stand-black",
+      "role": "manufacturer_product",
+      "web_refs": [
+        "turn249view1"
+      ],
+      "observed_or_supported": [
+        "Низкая телескопическая стойка с выдвижной штангой существует как самостоятельная конструкция. Не создаётся модельная страница K&M без отдельного российского rental evidence."
+      ]
+    },
+    {
+      "id": "manufacturer-existing-di",
+      "title": "Radial Engineering: JDI и передача сигнала инструмента через DI",
+      "url": "https://www.radialeng.com/product/jdi",
+      "role": "manufacturer_existing_neighbor",
+      "web_refs": [
+        "turn249view2"
+      ],
+      "observed_or_supported": [
+        "DI передаёт электрический сигнал инструмента; существующий Radial JDI не дублируется новым URL."
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "slug": "mikrofonnaya-stoyka",
+      "decision": "new",
+      "raw_query": "Стойку для микрофона на концерт",
+      "human_scene": "Сесть с гитарой и петь, не меняя привычной посадки",
+      "independent_distinction": "Точка капсюля, высота/вылет, крепление и свободное место рассматриваются вместе; мебельный родитель сохранён.",
+      "evidence_ids": [
+        "rent-stands",
+        "manufacturer-stands",
+        "manufacturer-low-stand"
+      ],
+      "remaining_question": "Где должен оказаться микрофон и что занимает место под ним: ноги, педали, барабан или основание пюпитра?",
+      "routes": [
+        {
+          "label": "Микрофон для голоса и движения у капсюля",
+          "href": "/vokalnye-mikrofony/"
+        },
+        {
+          "label": "Выбрать инструментальный микрофон",
+          "href": "/instrumentalnye-mikrofony/"
+        },
+        {
+          "label": "Расставить микрофоны у акустического ансамбля",
+          "href": "/mikrofony-dlya-akusticheskogo-ansamblya/"
+        }
+      ]
+    },
+    {
+      "slug": "instrumentalnye-mikrofony",
+      "decision": "new",
+      "raw_query": "Инструментальный микрофон напрокат",
+      "human_scene": "Передать в зал уже найденное звучание инструмента",
+      "independent_distinction": "Микрофонный съём отделён от электрического выхода через DI; три типа не обозначены взаимозаменяемыми.",
+      "evidence_ids": [
+        "rent-category",
+        "manufacturer-sm57",
+        "manufacturer-sm81",
+        "manufacturer-beta52a",
+        "manufacturer-existing-di"
+      ],
+      "remaining_question": "Нужно передать звук самого инструмента, его усилителя или сигнал с электрического выхода?",
+      "routes": [
+        {
+          "label": "SM57: динамический съём инструмента",
+          "href": "/shure-sm57-v-arendu/"
+        },
+        {
+          "label": "SM81: конденсаторный микрофон для акустики",
+          "href": "/shure-sm81-v-arendu/"
+        },
+        {
+          "label": "BETA 52A: большой барабан и басовый источник",
+          "href": "/shure-beta52a-v-arendu/"
+        },
+        {
+          "label": "Если инструмент подключается через DI",
+          "href": "/di-boksy/"
+        }
+      ]
+    },
+    {
+      "slug": "mikrofony-dlya-akusticheskogo-ansamblya",
+      "decision": "new",
+      "raw_query": "Микрофоны для акустического ансамбля",
+      "human_scene": "В дальних рядах теряется партия акустического состава",
+      "independent_distinction": "Самостоятельная сцена выбора точек съёма и совместной пробы; существующий backline описывает общую инфраструктуру, а не этот процесс.",
+      "evidence_ids": [
+        "rent-category",
+        "manufacturer-sm57",
+        "manufacturer-sm81"
+      ],
+      "remaining_question": "Какая партия теряется в зале и можно ли усилить её, сохранив баланс остальных участников?",
+      "routes": [
+        {
+          "label": "SM81 для акустического источника",
+          "href": "/shure-sm81-v-arendu/"
+        },
+        {
+          "label": "Довести стойку до выбранной точки",
+          "href": "/mikrofonnaya-stoyka/"
+        },
+        {
+          "label": "Отделить линии датчиков и DI",
+          "href": "/di-boksy/"
+        },
+        {
+          "label": "Сверить микрофонные входы и мониторные посылы",
+          "href": "/mikshery-dlya-zhivogo-zvuka/"
+        }
+      ]
+    },
+    {
+      "slug": "shure-sm57-v-arendu",
+      "decision": "new",
+      "raw_query": "Shure SM57 в аренду",
+      "human_scene": "Передать звук своего комбика в концертную смесь",
+      "independent_distinction": "Точная динамическая кардиоидная модель и работа с точкой у динамика; без заявления универсального охвата.",
+      "evidence_ids": [
+        "rent-sm57",
+        "manufacturer-sm57"
+      ],
+      "remaining_question": "SM57 должен передать звук комбика, малого барабана или другого инструмента, и где будет стоять микрофон?",
+      "routes": [
+        {
+          "label": "Выбрать высоту и вылет стойки",
+          "href": "/mikrofonnaya-stoyka/"
+        },
+        {
+          "label": "SM81: другой тип микрофона для акустического источника",
+          "href": "/shure-sm81-v-arendu/"
+        },
+        {
+          "label": "Если нужен электрический сигнал через Radial JDI",
+          "href": "/radial-jdi-v-arendu/"
+        }
+      ]
+    },
+    {
+      "slug": "shure-sm81-v-arendu",
+      "decision": "new",
+      "raw_query": "Прокат Shure SM81",
+      "human_scene": "Снять акустическую гитару микрофоном",
+      "independent_distinction": "Конденсаторная схема, фантомное питание и разные функции двух переключателей; один микрофон не выдаётся за пару.",
+      "evidence_ids": [
+        "rent-sm81",
+        "manufacturer-sm81"
+      ],
+      "remaining_question": "SM81 нужен у одного инструмента или в паре, и какой вход обеспечит согласованное питание?",
+      "routes": [
+        {
+          "label": "Построить съём всего акустического ансамбля",
+          "href": "/mikrofony-dlya-akusticheskogo-ansamblya/"
+        },
+        {
+          "label": "Подвести микрофон на стойке",
+          "href": "/mikrofonnaya-stoyka/"
+        },
+        {
+          "label": "Сверить входы пульта",
+          "href": "/mikshery-dlya-zhivogo-zvuka/"
+        }
+      ]
+    },
+    {
+      "slug": "shure-beta52a-v-arendu",
+      "decision": "new",
+      "raw_query": "Микрофон Shure BETA 52A для большого барабана",
+      "human_scene": "Найти соотношение атаки и низкой опоры в партии",
+      "independent_distinction": "Специализированная частотная характеристика, положение у пластика и крепление; отдельная задача от SM57.",
+      "evidence_ids": [
+        "rent-beta52a",
+        "manufacturer-beta52a"
+      ],
+      "remaining_question": "Какое соотношение атаки и резонанса нужно в партии и доступна ли выбранная точка у большого барабана?",
+      "routes": [
+        {
+          "label": "Низкая стойка и крепление микрофона",
+          "href": "/mikrofonnaya-stoyka/"
+        },
+        {
+          "label": "Подготовить установку к записи",
+          "href": "/barabannaya-ustanovka-dlya-zapisi/"
+        },
+        {
+          "label": "SM57 для других точек ударного комплекта",
+          "href": "/shure-sm57-v-arendu/"
+        }
+      ]
+    }
+  ],
+  "navigation_rationale": [
+    {
+      "source": "vokalnye-mikrofony",
+      "reason": "Стойка нужна, когда руки заняты; отдельный инструмент в номере требует своей точки съёма."
+    },
+    {
+      "source": "scenicheskaya-mebel-i-stoyki",
+      "reason": "План мест музыкантов естественно продолжается согласованием микрофонной расстановки ансамбля; связь со стойкой как ребёнком будет автоматической."
+    },
+    {
+      "source": "backline-dlya-akusticheskogo-kontserta",
+      "reason": "После разделения инструментов/локального усиления/зала нужен конкретный разбор микрофонного съёма."
+    },
+    {
+      "source": "di-boksy",
+      "reason": "Если нужен акустический результат у корпуса или динамика, следующий вопрос — микрофон вместо либо наряду с электрической линией."
+    },
+    {
+      "source": "barabannaya-ustanovka-dlya-zapisi",
+      "reason": "После подготовки барабанов можно уточнить точный микрофон для большого барабана; это не автоматический состав студийного комплекта."
+    }
+  ],
+  "not_imported": [
+    {
+      "source_id": "rent-sm57",
+      "observation": "Каталог приводит 0.2 мВ/Па и 150 Ом; действующее руководство SM57 указывает другие значения.",
+      "action": "Чувствительность и сопротивление не нужны сцене и не перенесены; техническая атрибуция — manufacturer manual."
+    },
+    {
+      "source_id": "rent-stands",
+      "observation": "Каталог содержит обещания охватить любую задачу четырьмя стойками и безусловной устойчивости.",
+      "action": "Используются только реальные позиции и форматы; публичный текст требует проверки конкретной расстановки."
+    },
+    {
+      "source_id": "rent-beta52a",
+      "observation": "Каталожные выходные уровни и рекламные оценки не нужны исполнительскому различению.",
+      "action": "Числа не копируются; назначение, направленность и крепление сверены с Shure."
+    },
+    {
+      "url": "https://www.k-m.de/media/pdf/43/c0/5c/21020-300-02.pdf",
+      "observation": "Старый URL из поиска вернул 404.",
+      "action": "Прочитана действующая инструкция по ссылке Installation instructions с открытой страницы производителя K&M 259; в sources включён действующий URL."
+    }
+  ],
+  "validation": {
+    "json_and_local_references": "passed during construction",
+    "new_slugs_unique": true,
+    "new_parents_and_targets_exist": true,
+    "blocks_per_page": 3,
+    "authored_links_per_new_page": "3–4",
+    "commercial_words_in_editorial_h1": 0,
+    "suite": "not_run_as_instructed",
+    "build": "not_run_as_instructed",
+    "release": "not_run",
+    "merged_inventory_and_link_audit": "passed",
+    "inventory": {
+      "command": "PYTHONPATH=/workspace/scratch/ccb7f80b4c57/python-deps python scripts/content_inventory.py --output /workspace/scratch/ccb7f80b4c57/instrument-mic-inventory.json",
+      "subjects": 1979,
+      "error_count": 0
+    },
+    "link_audit": {
+      "command": "PYTHONPATH=/workspace/scratch/ccb7f80b4c57/python-deps python scripts/link_audit.py --report /workspace/scratch/ccb7f80b4c57/instrument-mic-links.json",
+      "subjects": 1979,
+      "error_count": 0,
+      "duplicate_route_count": 0,
+      "self_link_count": 0,
+      "thin_leaf_pages": 0,
+      "strict_thin_leaf_pages": 0
+    },
+    "checked_content_sha256": "b8b01547c86b039dc0aa0956b8ba32f882d328d6a2970bb753afcc8e06a55a24",
+    "scope_note": "1979 — весь объединённый рабочий корпус с параллельными дополнениями команды; этому файлу принадлежат только шесть новых тем. Проверки данных и графа не являются сборкой, тестовым набором или публикацией.",
+    "cli_note": "Первый вызов link_audit с ошибочным параметром --output завершился до проверки (exit 2); затем выполнен успешный вызов --report, приведённый выше.",
+    "frozen_70_sha256_observed": "05e30199b41f4d81258a1f9846b1f33b2b55d6547a91c4c948a3bffe5803de44",
+    "final_editorial_changes": {
+      "scope": "Две точные правки intro после полного чтения root: естественное «напрокат» и уточнение бас-барабана ударной установки. Структура, ссылки, числа и источники не менялись.",
+      "content_sha256": "a6223707576871a3e9a5595b0fc863183ead04f928d3620131982f4a39ef2b2e",
+      "checks_rerun": false
+    }
+  },
+  "root_refinements": [
+    {
+      "slug": "mikrofonnaya-stoyka",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>Сидя с гитарой, приходится тянуться к микрофону, а основание стойки мешает педали. Здесь нужен другой способ разместить капсюль, сохранив привычную посадку. На отдельный концерт можно взять подходящую стойку в прокат и проверить её вместе с инструментом до выхода на сцену.</p>",
+      "after": "<p>Сидя с гитарой, приходится тянуться к микрофону, а основание стойки мешает педали. Здесь нужен другой способ разместить капсюль, сохранив привычную посадку. На отдельный концерт можно взять подходящую стойку напрокат и проверить её вместе с инструментом до выхода на сцену.</p>"
+    },
+    {
+      "slug": "shure-beta52a-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>В партии большого барабана важны и начало удара, и его низкая опора. Если для программы выбран BETA 52A, пробу стоит провести с самим барабаном и привычной игрой. Аренда на подготовку и концерт позволяет сохранить найденное положение микрофона, не меняя весь комплект ударных.</p>",
+      "after": "<p>В партии бас-барабана ударной установки важны и начало удара, и его низкая опора. Если для программы выбран BETA 52A, пробу стоит провести с самим барабаном и привычной игрой. Аренда на подготовку и концерт позволяет сохранить найденное положение микрофона, не меняя весь комплект ударных.</p>"
+    }
+  ]
+}

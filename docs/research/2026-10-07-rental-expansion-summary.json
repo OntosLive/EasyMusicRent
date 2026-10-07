@@ -1,0 +1,756 @@
+{
+  "base_commit": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+  "base_release": "https://github.com/OntosLive/EasyMusicRent/actions/runs/37575200503",
+  "base_tree": "57aa91a703c207eea7f8ba542057ca9b3d133dce",
+  "base_subjects": 1901,
+  "base_html_paths": 3888,
+  "base_html_path_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "base_graph": {
+    "explicit": 5285,
+    "strict": 3757,
+    "leaves": 1686,
+    "leaves_without_strict_continuation": 0
+  },
+  "base_ordinary_documents": 3810,
+  "scope": [
+    "Вокальные комплекты для обучения и выступления",
+    "Микрофоны, радиоканалы, микшеры, акустика и мониторинг",
+    "Концертный райдер, мебель, стойки и смена составов",
+    "Учебные комплекты электрогитары и баса с комбиками",
+    "Акустические, кабинетные и цифровые рояли; белый, чёрный и красный цвет",
+    "Корпусные, компактные, переносные и сценические цифровые пианино",
+    "DJ-модели и исполнительские комплекты",
+    "Инструментальный микрофонный съём и полная звуковая система",
+    "Естественное употребление прокат/напрокат без новых адресов по синониму"
+  ],
+  "resolved_during_review": [
+    "Малый/кабинетный рояль объединён в один самостоятельный вход",
+    "Сценический звук выделен в существующей семье усилителей и бэклайна; DJ — в электронных инструментах",
+    "Наличие инструмента, текущий заводской выпуск и прокатный запрос не смешиваются",
+    "Точные модели радиосистем/пультов/проигрывателей проверены отдельно от серий",
+    "Начинающему разрешено осваивать возможность на арендованном комплекте",
+    "PLX-1000: головка с иглой не заявлена как включённая изготовителем; вертушка сравнивается с конкретной моделью Technics",
+    "Подписи источников QLX-D и CL5 приведены к модели своей страницы",
+    "Два последних покрытия сцены — микрофонная стойка и инструментальный съём — выявлены независимым чтением и добавлены к пакету"
+  ],
+  "preserved": [
+    "Тринадцать семейств и все прежние предметные родители",
+    "Все прежние адреса и перенаправления",
+    "Архитектура N0/N1 и существующие правила индексации",
+    "Единые контакты, компилятор и CSS",
+    "Публичное отображение источников: предложение оставлено до итогового ответа"
+  ],
+  "indexing": {
+    "n0": "Открыты для обхода, собственные canonical, включены в sitemap.",
+    "n1": "Собственные canonical, noindex,follow; в sitemap отсутствуют.",
+    "readiness_limit": "Техническая доступность и успешная публикация не подтверждают фактического включения в поисковый индекс.",
+    "references": [
+      "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+      "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+      "https://yandex.ru/support/webmaster/ru/indexing-options/sitemap"
+    ]
+  },
+  "sources_proposal": {
+    "applied": false,
+    "current": "Закрытый details после цитаты перед контактами; заголовок «Об инструменте: источники»,14px.",
+    "recommendation": "Убрать блок из основной последовательности внимания и перенести после контакта к самому низу раскрытия; одна спокойная свёрнутая строка. Внутри оставлять релевантную документацию модели, а исследовательские каталоги и основания редакционных решений сохранять в репозитории.",
+    "reason": "Источники обеспечивают проверяемость; постоянная заметная плашка перед контактом не является обязательным условием индексации. Краткий поисковый вход остаётся минимальным.",
+    "public_change_requires_separate_decision": "В текущем запросе владелец попросил предложение в конце; изменение отображения этим пакетом не вносится."
+  },
+  "remaining_evidence_limits": [
+    "Выборка российских прокатов не равна всем сайтам России.",
+    "Чужой каталог не подтверждает собственный склад, доступность на дату и стоимость.",
+    "Индексирование подробных раскрытий требует отдельного решения о поисковой самостоятельности; noindex не снимается автоматически.",
+    "Точные модели без достаточного первичного подтверждения отложены с причиной в исследовательских журналах."
+  ],
+  "continuity": "Пакет считается законченным после успешного workflow точного SHA main и публичной проверки; при разрыве сначала сверить main/codex/active и состояние того же выпуска. Не накладывать исторический stash повторно и не возобновлять закрытые старые очереди.",
+  "status": "local_checks_passed_awaiting_exact_remote_release",
+  "recorded_at_utc": "2026-10-07T07:05:31.307342+00:00",
+  "counts": {
+    "baseline_subjects": 1901,
+    "final_subjects": 1980,
+    "new_subjects": 79,
+    "new_exact_model_subjects": 28,
+    "new_other_subjects": 51,
+    "enrich_records": 28,
+    "unique_declared_enrich_slugs": 27,
+    "existing_base_enrich_records": 26,
+    "unique_existing_base_declared_enrich": 25,
+    "new_subjects_later_enriched_in_package": [
+      "aktivnye-akusticheskie-sistemy",
+      "scenicheskiy-zvuk"
+    ],
+    "existing_unique_authored_field_enriched": 25,
+    "existing_body_enriched": 20,
+    "existing_metadata_only": 5,
+    "existing_structural_changes": 0,
+    "existing_connected_nav_changed": 33,
+    "existing_nav_only_including_automatic_children": 14,
+    "existing_explicit_nav_only": 11,
+    "existing_nav_label_only": [
+      ""
+    ],
+    "existing_automatic_nav_only": 3,
+    "existing_changed_any_public_or_connected_nav": 39,
+    "existing_unchanged_public_and_connected_nav": 1862,
+    "all_connected_edges": 6419,
+    "before_connected_edges": 6066,
+    "explicit_edges_before": 5285,
+    "explicit_edges_after": 5598,
+    "strict_edges_before": 3757,
+    "strict_edges_after": 4031
+  },
+  "keyword_counts": [
+    {
+      "field": "search_title",
+      "term": "аренд*",
+      "before_pages": 1895,
+      "after_pages": 1920,
+      "delta_pages": 25,
+      "before_occurrences": 1895,
+      "after_occurrences": 1920,
+      "delta_occurrences": 25
+    },
+    {
+      "field": "search_title",
+      "term": "(на)прокат*",
+      "before_pages": 0,
+      "after_pages": 54,
+      "delta_pages": 54,
+      "before_occurrences": 0,
+      "after_occurrences": 54,
+      "delta_occurrences": 54
+    },
+    {
+      "field": "description",
+      "term": "аренд*",
+      "before_pages": 106,
+      "after_pages": 106,
+      "delta_pages": 0,
+      "before_occurrences": 106,
+      "after_occurrences": 106,
+      "delta_occurrences": 0
+    },
+    {
+      "field": "description",
+      "term": "(на)прокат*",
+      "before_pages": 19,
+      "after_pages": 23,
+      "delta_pages": 4,
+      "before_occurrences": 19,
+      "after_occurrences": 23,
+      "delta_occurrences": 4
+    },
+    {
+      "field": "intro",
+      "term": "аренд*",
+      "before_pages": 115,
+      "after_pages": 116,
+      "delta_pages": 1,
+      "before_occurrences": 119,
+      "after_occurrences": 120,
+      "delta_occurrences": 1
+    },
+    {
+      "field": "intro",
+      "term": "(на)прокат*",
+      "before_pages": 30,
+      "after_pages": 48,
+      "delta_pages": 18,
+      "before_occurrences": 32,
+      "after_occurrences": 50,
+      "delta_occurrences": 18
+    },
+    {
+      "field": "blocks",
+      "term": "аренд*",
+      "before_pages": 1023,
+      "after_pages": 1028,
+      "delta_pages": 5,
+      "before_occurrences": 1072,
+      "after_occurrences": 1078,
+      "delta_occurrences": 6
+    },
+    {
+      "field": "blocks",
+      "term": "(на)прокат*",
+      "before_pages": 56,
+      "after_pages": 105,
+      "delta_pages": 49,
+      "before_occurrences": 85,
+      "after_occurrences": 136,
+      "delta_occurrences": 51
+    },
+    {
+      "field": "kicker",
+      "term": "аренд*",
+      "before_pages": 144,
+      "after_pages": 144,
+      "delta_pages": 0,
+      "before_occurrences": 144,
+      "after_occurrences": 144,
+      "delta_occurrences": 0
+    },
+    {
+      "field": "kicker",
+      "term": "(на)прокат*",
+      "before_pages": 1,
+      "after_pages": 1,
+      "delta_pages": 0,
+      "before_occurrences": 1,
+      "after_occurrences": 1,
+      "delta_occurrences": 0
+    }
+  ],
+  "keyword_definition": "Counts pages and total visible-text occurrences independently per field. аренд* is a word starting аренд; (на)прокат* includes прокат/прокатный/прокатчик and напрокат. HTML is stripped. Blocks include labels, titles, paragraphs. Kicker is separate; static render_entry kicker also already contained ПРОКАТ before this package. Counts from distinct fields must not be summed as unique subjects.",
+  "search_titles_with_prokat": [
+    {
+      "slug": "cifrovoe-pianino",
+      "title": "Прокат цифрового пианино в Москве"
+    },
+    {
+      "slug": "duhovye",
+      "title": "Прокат духовых музыкальных инструментов в Москве"
+    },
+    {
+      "slug": "elektronnye",
+      "title": "Прокат электронных музыкальных инструментов в Москве"
+    },
+    {
+      "slug": "gitary",
+      "title": "Прокат гитар в Москве"
+    },
+    {
+      "slug": "klavishnye",
+      "title": "Прокат клавишных инструментов в Москве"
+    },
+    {
+      "slug": "scenicheskie-klavishnye",
+      "title": "Прокат сценических клавишных в Москве"
+    },
+    {
+      "slug": "udarnye",
+      "title": "Прокат ударных музыкальных инструментов и перкуссии в Москве"
+    },
+    {
+      "slug": "usiliteli-backline",
+      "title": "Прокат усилителей, сценического звука и бэклайна в Москве"
+    },
+    {
+      "slug": "gitarnye-usiliteli",
+      "title": "Прокат гитарных усилителей в Москве"
+    },
+    {
+      "slug": "scenicheskiy-zvuk",
+      "title": "Прокат сценического звука в Москве"
+    },
+    {
+      "slug": "vokalnye-mikrofony",
+      "title": "Прокат вокальных микрофонов в Москве"
+    },
+    {
+      "slug": "mikshery-dlya-zhivogo-zvuka",
+      "title": "Прокат микшерных пультов для живого звука в Москве"
+    },
+    {
+      "slug": "scenicheskie-monitory",
+      "title": "Прокат сценических мониторов в Москве"
+    },
+    {
+      "slug": "shure-sm58-v-arendu",
+      "title": "Прокат вокального микрофона Shure SM58 в Москве"
+    },
+    {
+      "slug": "sennheiser-e835s-v-arendu",
+      "title": "Прокат микрофона Sennheiser e 835-S в Москве"
+    },
+    {
+      "slug": "shure-blx24-sm58-v-arendu",
+      "title": "Прокат радиосистемы Shure BLX24/SM58 в Москве"
+    },
+    {
+      "slug": "yamaha-mg10xu-v-arendu",
+      "title": "Прокат микшерного пульта Yamaha MG10XU в Москве"
+    },
+    {
+      "slug": "behringer-xr18-v-arendu",
+      "title": "Прокат цифрового микшера Behringer XR18 в Москве"
+    },
+    {
+      "slug": "sennheiser-ew-iem-g4-v-arendu",
+      "title": "Прокат ушного мониторинга Sennheiser ew IEM G4 в Москве"
+    },
+    {
+      "slug": "komplekt-dlya-obucheniya-vokalu-s-mikrofonom",
+      "title": "Прокат комплекта для обучения вокалу с микрофоном"
+    },
+    {
+      "slug": "mikrofony-dlya-vokalnogo-dueta",
+      "title": "Прокат микрофонов для двух вокалистов"
+    },
+    {
+      "slug": "radiosistemy-dlya-neskolkih-vokalistov",
+      "title": "Прокат радиосистем для нескольких вокалистов"
+    },
+    {
+      "slug": "zvuk-dlya-uchebnogo-vokalnogo-kontserta",
+      "title": "Прокат звука для учебного вокального концерта"
+    },
+    {
+      "slug": "yamaha-cl5-v-arendu",
+      "title": "Прокат концертного пульта Yamaha CL5 в Москве"
+    },
+    {
+      "slug": "scenicheskaya-mebel-i-stoyki",
+      "title": "Прокат сценической мебели и стоек для музыкантов в Москве"
+    },
+    {
+      "slug": "stul-dlya-muzykanta",
+      "title": "Стул для музыканта напрокат"
+    },
+    {
+      "slug": "pyupitr",
+      "title": "Прокат пюпитров для нот в Москве"
+    },
+    {
+      "slug": "stoyka-dlya-gitary",
+      "title": "Стойка для гитары напрокат"
+    },
+    {
+      "slug": "klavishnaya-stoyka",
+      "title": "Прокат стойки для клавишных инструментов"
+    },
+    {
+      "slug": "stolik-dlya-perkussii",
+      "title": "Прокат столика для перкуссии"
+    },
+    {
+      "slug": "kovrik-dlya-barabannoy-ustanovki",
+      "title": "Коврик для барабанной установки напрокат"
+    },
+    {
+      "slug": "pedal-dlya-bas-barabana",
+      "title": "Прокат педали для бас-барабана"
+    },
+    {
+      "slug": "elektrogitara-s-kombikom-dlya-obucheniya",
+      "title": "Электрогитара с комбиком для обучения напрокат"
+    },
+    {
+      "slug": "mebel-i-pyupitry-dlya-ansamblya",
+      "title": "Прокат стульев и пюпитров для ансамбля"
+    },
+    {
+      "slug": "kabinetnyy-royal",
+      "title": "Кабинетный и малый рояль напрокат в Москве"
+    },
+    {
+      "slug": "belyy-royal",
+      "title": "Прокат белого рояля для мероприятия"
+    },
+    {
+      "slug": "chernyy-royal",
+      "title": "Чёрный рояль напрокат в Москве"
+    },
+    {
+      "slug": "krasnyy-royal",
+      "title": "Прокат красного рояля для сцены и съёмки"
+    },
+    {
+      "slug": "cifrovoy-royal",
+      "title": "Прокат цифрового рояля в Москве"
+    },
+    {
+      "slug": "kawai-dg30-v-arendu",
+      "title": "Цифровой рояль Kawai DG30 напрокат"
+    },
+    {
+      "slug": "yamaha-yus1-v-arendu",
+      "title": "Акустическое пианино Yamaha YUS1 напрокат"
+    },
+    {
+      "slug": "banketka-dlya-pianista",
+      "title": "Прокат регулируемой банкетки для пианиста"
+    },
+    {
+      "slug": "pianino-dlya-semki",
+      "title": "Акустическое пианино для съёмки напрокат"
+    },
+    {
+      "slug": "dj-oborudovanie",
+      "title": "Прокат DJ-оборудования в Москве"
+    },
+    {
+      "slug": "dj-oborudovanie-dlya-repetitsii-pered-vystupleniem",
+      "title": "Прокат DJ-оборудования для репетиции перед выступлением"
+    },
+    {
+      "slug": "vinilovye-dj-proigryvateli",
+      "title": "Прокат виниловых проигрывателей для DJ в Москве"
+    },
+    {
+      "slug": "alphatheta-cdj-3000x-v-arendu",
+      "title": "Прокат AlphaTheta CDJ-3000X в Москве"
+    },
+    {
+      "slug": "pioneer-djm-900nxs2-v-arendu",
+      "title": "Прокат Pioneer DJ DJM-900NXS2 в Москве"
+    },
+    {
+      "slug": "pioneer-xdj-rx3-v-arendu",
+      "title": "Прокат Pioneer DJ XDJ-RX3 в Москве"
+    },
+    {
+      "slug": "pioneer-ddj-flx4-v-arendu",
+      "title": "Прокат DJ-контроллера Pioneer DJ DDJ-FLX4 в Москве"
+    },
+    {
+      "slug": "mikrofonnaya-stoyka",
+      "title": "Прокат микрофонной стойки в Москве"
+    },
+    {
+      "slug": "instrumentalnye-mikrofony",
+      "title": "Прокат инструментальных микрофонов в Москве"
+    },
+    {
+      "slug": "shure-sm81-v-arendu",
+      "title": "Прокат Shure SM81 в Москве"
+    },
+    {
+      "slug": "scenicheskie-sabvufery",
+      "title": "Прокат сценических сабвуферов в Москве"
+    }
+  ],
+  "source_scope": {
+    "method": "Уникальные домены без www первичных российских прокатных источников, явно выбранных в шести предметных журналах. Это проверенная выборка, не все российские сайты. Производители и оркестровый райдер сюда не включены.",
+    "websites": 26,
+    "unique_urls": 43,
+    "cities_with_evidence": [
+      "Москва",
+      "Санкт-Петербург",
+      "Казань",
+      "Екатеринбург",
+      "Новосибирск"
+    ],
+    "domains": {
+      "party365.ru": [
+        {
+          "title": "Party365, Москва: прокат проводного Shure SM58",
+          "url": "https://party365.ru/zvukovoe-oborudovanie/mikrofony/mikrofon-shure-sm58/",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        },
+        {
+          "title": "Party365: стойка для гитарного комбоусилителя",
+          "url": "https://party365.ru/backline/podstavka-pod-monitor-proel-el700/",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "arenda-videozvuk.ru": [
+        {
+          "title": "Main Event, Екатеринбург: прокат микрофонов и радиосистем",
+          "url": "https://arenda-videozvuk.ru/arenda-oborudovaniya/zvuk/mikrofony",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        }
+      ],
+      "c-ser.ru": [
+        {
+          "title": "Центр-Сервис, Казань: микрофоны, микшеры и акустика в прокате",
+          "url": "https://c-ser.ru/audio_equip",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        }
+      ],
+      "smg16.ru": [
+        {
+          "title": "SMG, Казань: сценический звук и мониторные комплекты",
+          "url": "https://smg16.ru/service/zvuk/",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        }
+      ],
+      "mastersound.su": [
+        {
+          "title": "MasterSound, Новосибирск: микшерные пульты, включая XR18",
+          "url": "https://www.mastersound.su/equip/zvykovoe-oborydovanie/mikshernie-pylti-konsoli.html",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        }
+      ],
+      "svet-teatr.ru": [
+        {
+          "title": "СДТ-Рент, Санкт-Петербург: звук, микрофоны и мониторинг",
+          "url": "https://www.svet-teatr.ru/rent/sound/",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        }
+      ],
+      "banket.rent": [
+        {
+          "title": "BanketRent: прокат Yamaha MG10XU",
+          "url": "https://banket.rent/catalog/sound/yamaha-mg10xu-mixing-console/",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        }
+      ],
+      "dj-arenda.ru": [
+        {
+          "title": "DJ-Arenda, Москва: BLX24/SM58 и ZED-10FX в прокатном списке",
+          "url": "https://dj-arenda.ru/arenda_sound_equipment.html",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        },
+        {
+          "title": "DJ Аренда / Event Системы",
+          "url": "https://dj-arenda.ru/",
+          "research": "2026-10-07-dj-rider-research.json"
+        }
+      ],
+      "fader-pro.ru": [
+        {
+          "title": "Fader Pro, Москва: прокат Sennheiser IEM G4",
+          "url": "https://fader-pro.ru/arenda-personalnogo-monitoringa/sennheiser-iem-g4/",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        },
+        {
+          "title": "Fader Pro",
+          "url": "https://fader-pro.ru/arenda-dj-oborudovanie/arena-dj-kontrollera/pioneer-ddj-flx4/",
+          "research": "2026-10-07-dj-rider-research.json"
+        }
+      ],
+      "soundman24.ru": [
+        {
+          "title": "Soundman24: прокат QSC K12.2",
+          "url": "https://soundman24.ru/arenda-kolonok/qsc-k12-2",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        },
+        {
+          "title": "Soundman24: состав комплекта Yamaha Tour Custom",
+          "url": "https://soundman24.ru/yamahatourcustommaple",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "rentalservice.pro": [
+        {
+          "title": "RentalService, Санкт-Петербург: прокат Midas M32",
+          "url": "https://rentalservice.pro/prokat/zvykovoe-oborydovanie/mikshernie-pylti/cifrovoi-mikshernii-pylt-midas-m32",
+          "research": "2026-10-07-vocal-stage-sound-research.json"
+        }
+      ],
+      "sound4eck.ru": [
+        {
+          "title": "Sound4eck: стойки в прокатном каталоге",
+          "url": "https://sound4eck.ru/categorija/arenda-beklajna/stoyki/",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        },
+        {
+          "title": "Sound4eck, Санкт-Петербург: прямые, короткие и другие микрофонные стойки",
+          "url": "https://sound4eck.ru/categorija/arenda-zvuka/mikrofony/stojki-mikrofonnye/",
+          "research": "2026-10-07-instrument-microphones-research.json"
+        }
+      ],
+      "soundpiter.ru": [
+        {
+          "title": "SoundPiter: стойки для инструментов и пюпитры",
+          "url": "https://www.soundpiter.ru/service/backline/backline-stands.html",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "arendaprokatzvuka.ru": [
+        {
+          "title": "Kvazar Sound: стулья и сценическая мебель",
+          "url": "https://arendaprokatzvuka.ru/arenda-sceny/",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "izi.show": [
+        {
+          "title": "IZI.show: стулья, педали и стойки ударных",
+          "url": "https://izi.show/catalog/arenda_barabannye_ustanovki/",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        },
+        {
+          "title": "IZI.show: перкуссионный столик On-Stage DPT4000",
+          "url": "https://izi.show/card/arenda_onstage_dpt4000/",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "m-max.ru": [
+        {
+          "title": "Music Max Group: пюпитр On-Stage SM7211",
+          "url": "https://m-max.ru/equipment/pyupitr-stage-sm7211-s-pryamoy-notnoy-doskoy",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "arenda-prokat.ru": [
+        {
+          "title": "Аренда-Прокат: пюпитр с подсветкой",
+          "url": "https://www.arenda-prokat.ru/catalog/prokat-sczen/shtativyi/arenda-pyupitra-i-podsvetki.html",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "show4rent.ru": [
+        {
+          "title": "Show4Rent: бэклайн и стойка для ноутбука",
+          "url": "https://www.show4rent.ru/backline",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "muzarenda.ru": [
+        {
+          "title": "MUZarenda: струнные инструменты",
+          "url": "https://www.muzarenda.ru/uslugi/strunnye_instrumenty.html",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        },
+        {
+          "title": "MUZarenda: малый комплект бэклайна",
+          "url": "https://www.muzarenda.ru/uslugi/zvukovoe_oborudovanie/komplekty_zvuka/komplekt_beklajna_malyj.html",
+          "research": "2026-10-07-stage-furniture-study-kits-research.json"
+        }
+      ],
+      "fortepianoservice.ru": [
+        {
+          "title": "Forte & Piano Service: белый рояль для события",
+          "url": "https://fortepianoservice.ru/belyj-royal/",
+          "research": "2026-10-07-piano-format-color-research.json"
+        }
+      ],
+      "arendapiano.ru": [
+        {
+          "title": "Аренда роялей: красный экземпляр Yamaha C3",
+          "url": "https://arendapiano.ru/c3-krasny.html",
+          "research": "2026-10-07-piano-format-color-research.json"
+        },
+        {
+          "title": "Аренда роялей: цифровой Yamaha CLP-765GP",
+          "url": "https://arendapiano.ru/clp-765gp-wh-2.html",
+          "research": "2026-10-07-piano-format-color-research.json"
+        },
+        {
+          "title": "Аренда роялей: чёрный цифровой Yamaha CLP-765GP",
+          "url": "https://arendapiano.ru/clp-765gp-black.html",
+          "research": "2026-10-07-piano-format-color-research.json"
+        }
+      ],
+      "xn--80aald6ajjle5mb.xn--p1ai": [
+        {
+          "title": "АрендаРояля.рф: акустическое пианино Yamaha YUS1",
+          "url": "https://xn--80aald6ajjle5mb.xn--p1ai/upright-pianos/yamaha-yus1-black",
+          "research": "2026-10-07-piano-format-color-research.json"
+        },
+        {
+          "title": "АрендаРояля.рф: кабинетный Kawai GL-10",
+          "url": "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/white/kawai-gl-10",
+          "research": "2026-10-07-piano-format-color-research.json"
+        },
+        {
+          "title": "АрендаРояля.рф: цифровой Kawai DG30",
+          "url": "https://xn--80aald6ajjle5mb.xn--p1ai/digital-instruments/kawai-dg30",
+          "research": "2026-10-07-piano-format-color-research.json"
+        },
+        {
+          "title": "АрендаРояля.рф: чёрный концертный Yamaha CFX",
+          "url": "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/black/yamaha-cfx",
+          "research": "2026-10-07-piano-format-color-research.json"
+        }
+      ],
+      "arenda.pianino.ru": [
+        {
+          "title": "Пианино.ру: цифровые инструменты и состав домашних комплектов",
+          "url": "https://arenda.pianino.ru/",
+          "research": "2026-10-07-piano-format-color-research.json"
+        }
+      ],
+      "baseaudio.moscow": [
+        {
+          "title": "Base Audio",
+          "url": "https://baseaudio.moscow/",
+          "research": "2026-10-07-dj-rider-research.json"
+        }
+      ],
+      "musprokat.ru": [
+        {
+          "title": "MusProkat",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/dlya-dj-s/",
+          "research": "2026-10-07-dj-rider-research.json"
+        },
+        {
+          "title": "МузПрокат, Москва: инструментальные микрофоны в прокатном каталоге",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/backline/instrumentalnye-mikrofony/",
+          "research": "2026-10-07-instrument-microphones-research.json"
+        },
+        {
+          "title": "МузПрокат, Москва: Shure SM57 как отдельная прокатная позиция",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-57/",
+          "research": "2026-10-07-instrument-microphones-research.json"
+        },
+        {
+          "title": "МузПрокат, Москва: прокат Shure SM81",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-81/",
+          "research": "2026-10-07-instrument-microphones-research.json"
+        },
+        {
+          "title": "МузПрокат, Москва: прокат Shure BETA 52A",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-beta-52a/",
+          "research": "2026-10-07-instrument-microphones-research.json"
+        },
+        {
+          "title": "МузПрокат: сабвуферы и акустические системы",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/akusticheskie-sistemy/",
+          "research": "2026-10-07-stage-system-completeness-research.json"
+        }
+      ],
+      "svetsound.ru": [
+        {
+          "title": "SVETSOUND: основные акустические системы, сабвуферы и усилители в прокате",
+          "url": "https://svetsound.ru/sound",
+          "research": "2026-10-07-stage-system-completeness-research.json"
+        }
+      ]
+    }
+  },
+  "local_tests": {
+    "count": 209,
+    "seconds": 112.659,
+    "result": "OK",
+    "log_sha256": "780e54955170dddeba761689b30b4b3161c5d54ecf824d15e6963cd39ed10c64"
+  },
+  "local_validation": {
+    "documents_checked": 3968,
+    "redirects": 78,
+    "contact_variants": 1,
+    "unreachable": 0,
+    "sitemap_entries": 1980,
+    "errors": []
+  },
+  "artifact": {
+    "base_commit": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+    "base_html_paths": 3888,
+    "html_paths": 4046,
+    "base_html_path_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+    "html_path_sha256": "e0218c941f2e41e29e0f6ab8a0211641c2747cd99eabd05ea2bd7a68f3b1f24c",
+    "files": 4050,
+    "removed_paths": [],
+    "unchanged_old_files": 3814,
+    "all_old_html_paths_preserved": true,
+    "new_html_paths": 158,
+    "changed_old_html": 77,
+    "same_css": true,
+    "same_robots": true
+  },
+  "content_sha256": {
+    "content/sections/zzzz70-vocal-stage-sound.json": "05e30199b41f4d81258a1f9846b1f33b2b55d6547a91c4c948a3bffe5803de44",
+    "content/sections/zzzz71-stage-furniture-study-kits.json": "7dbf8c1188d7abd361ba0ed4d5f621563efa35f53f24057c12a42559a50fa173",
+    "content/sections/zzzz72-piano-format-color-scenes.json": "e7d4ba468ed11320ffe54920a60d55482194834698ab4ee31732bb9c128b7bad",
+    "content/sections/zzzz73-dj-rider-scenes.json": "26e928079a3bd7641727f50a935ed972cdf773fb795de2f1ed1f38c24b3419a6",
+    "content/sections/zzzz74-rental-language-entry-bridges.json": "65dd7b83a8ac31d6f74676f2531f8a53505fcdc5a6b5eb3fcb6517051a9ccd6c",
+    "content/sections/zzzz75-instrument-microphones-and-stands.json": "a6223707576871a3e9a5595b0fc863183ead04f928d3620131982f4a39ef2b2e",
+    "content/sections/zzzz76-stage-system-completeness.json": "eb08b6b72ac64354fc7015a7e3d54135d1784ebd2ab59471911532904199d5a1"
+  },
+  "evidence": {
+    "docs/audits/2026-10-07-rental-expansion-structure.json": "69ca1d2a4e192bc97567c8f7f84ecad5990d2082fe919d571b3ee267c001fdac",
+    "docs/audits/2026-10-07-rental-expansion-field-changes.json": "39d482979aa8159cd7e7ee6f3d841ea5337e25940a81d05f9e9fe33c1348db28",
+    "docs/audits/2026-10-07-rental-expansion-navigation.json": "772001e405a223cb2876c28b31cfb656dbe888f3f373e0f0cac4335e46f1bc90",
+    "docs/audits/2026-10-07-rental-expansion-links.json": "a5f9d67d7b9eee8421759efb73c32c59aabe6268d357a163871f700f8905b35b",
+    "docs/audits/2026-10-07-rental-expansion-artifact.json": "313cb36fe7683aacf736aa2fec0252ec610f031b12934a421f37dd0df46f571f",
+    "docs/audits/2026-10-07-rental-expansion-validation.json": "469b0726d678e53948c41fb5bcdf7a5a9cde03f569e6184f58fabb28aa9a8e99",
+    "docs/audits/2026-10-07-rental-expansion-tests.log": "780e54955170dddeba761689b30b4b3161c5d54ecf824d15e6963cd39ed10c64"
+  },
+  "publication": {
+    "status": "pending",
+    "required": "Проверить точный commit/tree, линейное обновление codex/active и main, успешный workflow этого SHA, затем сравнить все235новых/изменённыхHTML и3контрольныхфайла с локальным артефактом."
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "status": "prepared_not_committed_not_published",
+  "date": "2026-10-07",
+  "base_commit": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+  "base_release": 37575200503,
+  "scope": "Узкое завершение сценической звуковой системы: низкочастотная часть, покрытие слушательских зон и согласование технической ответственности. Общий аудит всех акустических моделей не заявляется.",
+  "inventory": {
+    "base_subjects": 1901,
+    "base_snapshot_sha256": "c8259a55b3f90a257846bdfbfe217134b2bb1abfb98a8048ded3a375f8102318",
+    "candidate_dependencies": [
+      "zzzz70-vocal-stage-sound.json",
+      "zzzz73-dj-rider-scenes.json",
+      "zzzz74-rental-language-entry-bridges.json"
+    ],
+    "new_subwoofer_subject_previously_present": false,
+    "full_contexts_read": [
+      "scenicheskiy-zvuk",
+      "aktivnye-akusticheskie-sistemy",
+      "qsc-k122-v-arendu",
+      "backline-dlya-ritm-sektsii",
+      "backline-po-rayderu-dlya-gruppy",
+      "basovyy-usilitel-dlya-kontserta",
+      "scenicheskie-monitory",
+      "dj-i-zhivye-instrumenty"
+    ],
+    "method": "Полное чтение объединённых тел исходных страниц и всех новых целей; поиск существующих тем по названиям и телам. Сравнение покрытия учитывает уже подготовленные 70–74, а не только опубликованную базу."
+  },
+  "counts": {
+    "new": 1,
+    "enrich": 2,
+    "existing_contexts_kept": 6,
+    "navigation_additions": 3,
+    "new_page_links": 3
+  },
+  "mapping": [
+    {
+      "slug": "scenicheskiy-zvuk",
+      "decision": "enrich",
+      "change": "Один дополнительный блок 04; все прежние публичные поля и источники сохранены. Добавлены два источника.",
+      "reason": "Существующая цепочка источника, пульта, зала и мониторинга не раскрывала выбор целой системы для слушательских зон и ответственности за её расчёт и установку.",
+      "source_ids": [
+        "db_arraycalc",
+        "rent_svetsound"
+      ]
+    },
+    {
+      "slug": "aktivnye-akusticheskie-sistemy",
+      "decision": "enrich",
+      "change": "Один дополнительный блок 04; прежнее тело и источники сохранены. Добавлены два первичных источника.",
+      "reason": "Низкочастотная задача группы или электронной программы требует согласования сабвуфера с уже выбранными основными колонками.",
+      "source_ids": [
+        "qsc_sub",
+        "qsc_manual"
+      ]
+    },
+    {
+      "slug": "scenicheskie-sabvufery",
+      "decision": "new",
+      "reason": "Самостоятельная исполнительская задача — передать бас, бочку и низкий электронный слой в общем звучании для публики, сохранив различимость партий; она отличается от усилителя басиста и сценического мониторинга. Единственный адрес охватывает аренду и прокат.",
+      "source_ids": [
+        "qsc_sub",
+        "qsc_manual",
+        "rent_svetsound",
+        "rent_musprokat"
+      ]
+    },
+    {
+      "slug": "qsc-k122-v-arendu",
+      "decision": "keep_body_add_navigation",
+      "reason": "Блок 03 уже связывает потребность в сабвуфере с программой и площадкой; переписывание создало бы повтор. Добавлен только предметный переход."
+    },
+    {
+      "slug": "basovyy-usilitel-dlya-kontserta",
+      "decision": "keep",
+      "reason": "Существующая страница уже разделяет сценический кабинет басиста и тракт в зал; служит самостоятельным продолжением новой темы."
+    },
+    {
+      "slug": "backline-dlya-ritm-sektsii",
+      "decision": "keep",
+      "reason": "Музыкальная задача взаимного слуха баса и барабанов раскрыта; новая тема занимается низкочастотной частью для публики."
+    },
+    {
+      "slug": "backline-po-rayderu-dlya-gruppy",
+      "decision": "keep",
+      "reason": "Фактический бэклайн, перечень и ответственность уже согласуются в этой сцене; PA дополнен в существующей общей сценической странице."
+    },
+    {
+      "slug": "scenicheskie-monitory",
+      "decision": "keep",
+      "reason": "Сценический баланс исполнителя является отдельной задачей и не дублируется новым URL."
+    },
+    {
+      "slug": "dj-i-zhivye-instrumenty",
+      "decision": "keep",
+      "reason": "Сохраняет совместную музыкальную сцену и различимость живой партии рядом с треком; предметный переход из новой темы."
+    }
+  ],
+  "source_ledger": [
+    {
+      "id": "qsc_sub",
+      "title": "QSC: KS118, назначение низкочастотной системы",
+      "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/subwoofers/ks-series/ks118/",
+      "type": "manufacturer",
+      "web_refs": [
+        "turn252view0"
+      ],
+      "observed": "Сабвуфер предназначен для низкочастотного воспроизведения в звуковой системе; конкретные характеристики KS118 не переносятся на общую тему.",
+      "limits": "Не используются рекламная оценка, мощность, вместимость площадки, режимы направленности или модельная карточка KS118."
+    },
+    {
+      "id": "qsc_manual",
+      "title": "QSC: руководство серии KS, согласование сабвуфера с основной акустикой",
+      "url": "https://www.qscaudio.com/resource-files/productresources/spk/ks/q_spk_ks_usermanual.pdf",
+      "type": "manufacturer_manual",
+      "web_refs": [
+        "turn253view0",
+        "turn254view0"
+      ],
+      "observed": "Руководство предусматривает согласование частотного разделения с конкретными сериями основной акустики; настройки зависят от выбранной техники.",
+      "limits": "Не даны частоты, значения задержки, схема соединения или монтажные инструкции. Вывод о проверке полного комплекта — редакционное практическое следствие."
+    },
+    {
+      "id": "db_arraycalc",
+      "title": "d&b audiotechnik: расчёт покрытия и состава звуковой системы",
+      "url": "https://www.dbaudio.com/global/en/arraycalc/",
+      "type": "manufacturer",
+      "web_refs": [
+        "turn252view1"
+      ],
+      "observed": "Первичный инструмент расчёта учитывает геометрию слушательских зон, несколько видов акустических систем и сабвуферы; проект описывает их состав и взаимодействие.",
+      "limits": "Название программы не навязывается всем производителям; численные нормы и технология подвеса не воспроизводятся. Выбор ответственных до концерта — организационная рекомендация."
+    },
+    {
+      "id": "rent_svetsound",
+      "title": "SVETSOUND: основные акустические системы, сабвуферы и усилители в прокате",
+      "url": "https://svetsound.ru/sound",
+      "type": "russian_rental",
+      "web_refs": [
+        "turn252view2",
+        "turn254view1"
+      ],
+      "observed": "В каталоге отдельно представлены линейные массивы, основные системы, сабвуферы и усилители; есть отдельное согласование персонала.",
+      "limits": "Наличие у стороннего проката не означает наличие у фонда. Не перенесены цены, обещания охвата, ватт на зрителя, модельные характеристики или условия услуги."
+    },
+    {
+      "id": "rent_musprokat",
+      "title": "МузПрокат: сабвуферы и акустические системы",
+      "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/akusticheskie-sistemy/",
+      "type": "russian_rental",
+      "web_refs": [
+        "turn252view3",
+        "turn253view2"
+      ],
+      "observed": "Каталог включает отдельные сабвуферы и основные акустические системы; подтверждает самостоятельный запрос на комплектование низкочастотной части.",
+      "limits": "Не перенесены отметки наличия, цены, бесплатная доставка, обещания результата или несвязанные event-услуги."
+    }
+  ],
+  "fact_application": [
+    {
+      "claim": "Сабвуфер воспроизводит низкочастотную часть звуковой системы.",
+      "source_ids": [
+        "qsc_sub"
+      ],
+      "applied_to": [
+        "scenicheskie-sabvufery:intro",
+        "aktivnye-akusticheskie-sistemy:append_blocks[0]"
+      ]
+    },
+    {
+      "claim": "Согласование частотного разделения и подключения связано с конкретными моделями.",
+      "source_ids": [
+        "qsc_manual"
+      ],
+      "applied_to": [
+        "aktivnye-akusticheskie-sistemy:append_blocks[0]",
+        "scenicheskie-sabvufery:blocks[1]"
+      ],
+      "inference": "Проверять выбранный полный комплект по документации поручают специалисту; это практическое обобщение, а не универсальная инструкция QSC для другой техники."
+    },
+    {
+      "claim": "Геометрия слушательских зон и совместная работа нескольких частей системы учитываются при проектировании звука.",
+      "source_ids": [
+        "db_arraycalc"
+      ],
+      "applied_to": [
+        "scenicheskiy-zvuk:append_blocks[0]"
+      ],
+      "inference": "Для пользователя это преобразовано в описание площадки, согласование состава и ответственных; использование ArrayCalc всем оборудованием не утверждается."
+    },
+    {
+      "claim": "Сабвуферы, основные системы и усиление представлены самостоятельными позициями в российских каталогах.",
+      "source_ids": [
+        "rent_svetsound",
+        "rent_musprokat"
+      ],
+      "applied_to": [
+        "scenicheskie-sabvufery:new_subject_justification"
+      ],
+      "inference": "Каталоги подтверждают запрос, но не предложение конкретного экземпляра или условий фонда."
+    }
+  ],
+  "navigation_rationale": [
+    {
+      "source": "scenicheskie-sabvufery",
+      "target": "aktivnye-akusticheskie-sistemy",
+      "reason": "С чем будет работать низкочастотная часть в зале."
+    },
+    {
+      "source": "scenicheskie-sabvufery",
+      "target": "basovyy-usilitel-dlya-kontserta",
+      "reason": "Как отдельно устроить сценический звук басиста и его маршрут в зал."
+    },
+    {
+      "source": "scenicheskie-sabvufery",
+      "target": "dj-i-zhivye-instrumenty",
+      "reason": "Как сохранить живую партию в плотной электронной основе."
+    },
+    {
+      "source": "scenicheskiy-zvuk",
+      "target": "scenicheskie-sabvufery",
+      "reason": "Продолжить согласование низкочастотной части полного концертного тракта."
+    },
+    {
+      "source": "aktivnye-akusticheskie-sistemy",
+      "target": "scenicheskie-sabvufery",
+      "reason": "Разобрать музыкальную необходимость дополнения основных колонок."
+    },
+    {
+      "source": "qsc-k122-v-arendu",
+      "target": "scenicheskie-sabvufery",
+      "reason": "Развернуть уже имеющееся в блоке 03 условие о программе и площадке."
+    }
+  ],
+  "boundaries": [
+    "Линейный массив раскрыт как вариант системы в существующей теме; отдельная модель или синонимичная страница не добавлена.",
+    "Технические характеристики отдельных моделей, мощность на число людей и инструкции подвеса не введены.",
+    "Основные системы, низкочастотная часть, басовый кабинет и мониторинг сохраняют разные функции.",
+    "Содержание пакета 75 об инструментальных микрофонах и стойках не повторяется.",
+    "Новые корневые семейства, обещания наличия, универсальная поставка персонала или услуги вне музыкальной задачи не введены."
+  ],
+  "validation": {
+    "json_parsed": true,
+    "new_editorial_title_has_rental_word": false,
+    "new_outgoing_targets_present": true,
+    "existing_sources_preserved": true,
+    "existing_blocks_preserved_by_append": true,
+    "build_run": false,
+    "suite_run": false,
+    "note": "Только дешёвая структурная проверка собственного кандидата; общий контроль и выпуск выполняет root."
+  },
+  "candidate_sha256": "eb08b6b72ac64354fc7015a7e3d54135d1784ebd2ab59471911532904199d5a1"
+}

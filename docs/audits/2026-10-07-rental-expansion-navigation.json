@@ -1,0 +1,4844 @@
+{
+  "existing_changes": [
+    {
+      "slug": "",
+      "explicit_source_navigation_changed": true,
+      "added": [],
+      "removed": [],
+      "label_changes": [
+        {
+          "href": "/elektronnye/",
+          "before": "Электронные музыкальные инструменты",
+          "after": "Электронные инструменты и DJ"
+        },
+        {
+          "href": "/usiliteli-backline/",
+          "before": "Усилители и бэклайн",
+          "after": "Сценический звук, усилители и бэклайн"
+        }
+      ],
+      "before": [
+        {
+          "href": "/klavishnye/",
+          "label": "Клавишные инструменты"
+        },
+        {
+          "href": "/smychkovye/",
+          "label": "Смычковые инструменты"
+        },
+        {
+          "href": "/gitary/",
+          "label": "Гитары"
+        },
+        {
+          "href": "/shchipkovye/",
+          "label": "Щипковые струнные"
+        },
+        {
+          "href": "/arfy-liry/",
+          "label": "Арфы и лиры"
+        },
+        {
+          "href": "/duhovye/",
+          "label": "Духовые инструменты"
+        },
+        {
+          "href": "/udarnye/",
+          "label": "Ударные и перкуссия"
+        },
+        {
+          "href": "/bayan-akkordeon/",
+          "label": "Баян, аккордеон и гармонь"
+        },
+        {
+          "href": "/elektronnye/",
+          "label": "Электронные музыкальные инструменты"
+        },
+        {
+          "href": "/traditsionnye/",
+          "label": "Народные и традиционные музыкальные инструменты"
+        },
+        {
+          "href": "/istoricheskie/",
+          "label": "Исторические музыкальные инструменты"
+        },
+        {
+          "href": "/redkie-eksperimentalnye/",
+          "label": "Редкие и необычные музыкальные инструменты"
+        },
+        {
+          "href": "/usiliteli-backline/",
+          "label": "Усилители и бэклайн"
+        }
+      ],
+      "after": [
+        {
+          "href": "/klavishnye/",
+          "label": "Клавишные инструменты"
+        },
+        {
+          "href": "/smychkovye/",
+          "label": "Смычковые инструменты"
+        },
+        {
+          "href": "/gitary/",
+          "label": "Гитары"
+        },
+        {
+          "href": "/shchipkovye/",
+          "label": "Щипковые струнные"
+        },
+        {
+          "href": "/arfy-liry/",
+          "label": "Арфы и лиры"
+        },
+        {
+          "href": "/duhovye/",
+          "label": "Духовые инструменты"
+        },
+        {
+          "href": "/udarnye/",
+          "label": "Ударные и перкуссия"
+        },
+        {
+          "href": "/bayan-akkordeon/",
+          "label": "Баян, аккордеон и гармонь"
+        },
+        {
+          "href": "/elektronnye/",
+          "label": "Электронные инструменты и DJ"
+        },
+        {
+          "href": "/traditsionnye/",
+          "label": "Народные и традиционные музыкальные инструменты"
+        },
+        {
+          "href": "/istoricheskie/",
+          "label": "Исторические музыкальные инструменты"
+        },
+        {
+          "href": "/redkie-eksperimentalnye/",
+          "label": "Редкие и необычные музыкальные инструменты"
+        },
+        {
+          "href": "/usiliteli-backline/",
+          "label": "Сценический звук, усилители и бэклайн"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/allen-heath-zed10fx-v-arendu/",
+          "label": "Если нужен отдельный небольшой пульт"
+        },
+        {
+          "href": "/aktivnye-akusticheskie-sistemy/",
+          "label": "Когда отдельно требуется звук для слушателей"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/fishman-loudbox-artist-v-arendu/",
+          "label": "Fishman Loudbox Artist"
+        }
+      ],
+      "after": [
+        {
+          "href": "/fishman-loudbox-artist-v-arendu/",
+          "label": "Fishman Loudbox Artist"
+        },
+        {
+          "href": "/allen-heath-zed10fx-v-arendu/",
+          "label": "Если нужен отдельный небольшой пульт"
+        },
+        {
+          "href": "/aktivnye-akusticheskie-sistemy/",
+          "label": "Когда отдельно требуется звук для слушателей"
+        }
+      ]
+    },
+    {
+      "slug": "akusticheskoe-pianino",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/yamaha-yus1-v-arendu/",
+          "label": "Yamaha YUS1"
+        },
+        {
+          "href": "/pianino-dlya-semki/",
+          "label": "Вертикальное пианино в кадре"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Согласовать банкетку"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/pianino-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/pianino-dlya-repetitsionnogo-klassa/",
+          "label": "Для репетиционного класса"
+        },
+        {
+          "href": "/pianino-dlya-vokalista/",
+          "label": "Для вокалиста"
+        },
+        {
+          "href": "/pianino-dlya-kamernogo-ansamblya/",
+          "label": "Для камерного ансамбля"
+        },
+        {
+          "href": "/akusticheskoe-pianino-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/yamaha-b1-v-arendu/",
+          "label": "b1"
+        },
+        {
+          "href": "/yamaha-b2-v-arendu/",
+          "label": "b2"
+        },
+        {
+          "href": "/yamaha-b3-v-arendu/",
+          "label": "b3"
+        },
+        {
+          "href": "/yamaha-u1-v-arendu/",
+          "label": "Yamaha U1"
+        },
+        {
+          "href": "/yamaha-u3-v-arendu/",
+          "label": "U3"
+        },
+        {
+          "href": "/kawai-k200-v-arendu/",
+          "label": "Kawai K-200"
+        },
+        {
+          "href": "/kawai-k300-v-arendu/",
+          "label": "Kawai K-300"
+        },
+        {
+          "href": "/pianino-dlya-perehoda-s-cifrovogo/",
+          "label": "Акустическое пианино после цифрового в аренду"
+        },
+        {
+          "href": "/pianino-dlya-vzroslogo-posle-pereryva/",
+          "label": "Акустическое пианино взрослому после перерыва в аренду"
+        },
+        {
+          "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/",
+          "label": "Акустическое пианино ребёнку для домашних занятий в аренду"
+        },
+        {
+          "href": "/pianino-dlya-dvuh-uchenikov/",
+          "label": "Акустическое пианино для двух учеников в аренду"
+        },
+        {
+          "href": "/pianino-dlya-raboty-nad-pedalyu/",
+          "label": "Акустическое пианино для работы над педалью в аренду"
+        },
+        {
+          "href": "/pianino-dlya-bystryh-povtornyh-not/",
+          "label": "Акустическое пианино для быстрых повторных нот в аренду"
+        },
+        {
+          "href": "/pianino-dlya-polifonii/",
+          "label": "Акустическое пианино для работы над полифонией в аренду"
+        },
+        {
+          "href": "/pianino-dlya-akkompanementa/",
+          "label": "Акустическое пианино для аккомпанемента в аренду"
+        },
+        {
+          "href": "/pianino-dlya-zanyatiy-s-prepodavatelem-doma/",
+          "label": "Акустическое пианино для домашних уроков с преподавателем в аренду"
+        },
+        {
+          "href": "/pianino-pered-pokupkoy/",
+          "label": "Акустическое пианино в аренду перед покупкой"
+        },
+        {
+          "href": "/pianino-dlya-sravneniya-s-royalem/",
+          "label": "Пианино и рояль в аренду для сравнения"
+        },
+        {
+          "href": "/pianino-dlya-malenkoy-komnaty/",
+          "label": "Акустическое пианино для маленькой комнаты в аренду"
+        },
+        {
+          "href": "/pianino-dlya-dolgih-zanyatiy/",
+          "label": "Акустическое пианино для долгих занятий в аренду"
+        },
+        {
+          "href": "/pianino-dlya-chteniya-s-lista/",
+          "label": "Акустическое пианино для чтения с листа в аренду"
+        },
+        {
+          "href": "/pianino-dlya-razuchivaniya-kamernoy-partii/",
+          "label": "Акустическое пианино для разучивания камерной партии в аренду"
+        },
+        {
+          "href": "/pianino-dlya-podgotovki-akkompaniatora/",
+          "label": "Пианино для подготовки концертмейстера в аренду"
+        },
+        {
+          "href": "/pianino-dlya-vremennogo-uchebnogo-klassa/",
+          "label": "Акустическое пианино для временного учебного класса в аренду"
+        }
+      ],
+      "after": [
+        {
+          "href": "/pianino-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/pianino-dlya-repetitsionnogo-klassa/",
+          "label": "Для репетиционного класса"
+        },
+        {
+          "href": "/pianino-dlya-vokalista/",
+          "label": "Для вокалиста"
+        },
+        {
+          "href": "/pianino-dlya-kamernogo-ansamblya/",
+          "label": "Для камерного ансамбля"
+        },
+        {
+          "href": "/akusticheskoe-pianino-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/yamaha-b1-v-arendu/",
+          "label": "b1"
+        },
+        {
+          "href": "/yamaha-b2-v-arendu/",
+          "label": "b2"
+        },
+        {
+          "href": "/yamaha-b3-v-arendu/",
+          "label": "b3"
+        },
+        {
+          "href": "/yamaha-u1-v-arendu/",
+          "label": "Yamaha U1"
+        },
+        {
+          "href": "/yamaha-u3-v-arendu/",
+          "label": "U3"
+        },
+        {
+          "href": "/kawai-k200-v-arendu/",
+          "label": "Kawai K-200"
+        },
+        {
+          "href": "/kawai-k300-v-arendu/",
+          "label": "Kawai K-300"
+        },
+        {
+          "href": "/yamaha-yus1-v-arendu/",
+          "label": "Yamaha YUS1"
+        },
+        {
+          "href": "/pianino-dlya-semki/",
+          "label": "Вертикальное пианино в кадре"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Согласовать банкетку"
+        },
+        {
+          "href": "/pianino-dlya-perehoda-s-cifrovogo/",
+          "label": "Акустическое пианино после цифрового в аренду"
+        },
+        {
+          "href": "/pianino-dlya-vzroslogo-posle-pereryva/",
+          "label": "Акустическое пианино взрослому после перерыва в аренду"
+        },
+        {
+          "href": "/pianino-dlya-domashnih-zanyatiy-rebenka/",
+          "label": "Акустическое пианино ребёнку для домашних занятий в аренду"
+        },
+        {
+          "href": "/pianino-dlya-dvuh-uchenikov/",
+          "label": "Акустическое пианино для двух учеников в аренду"
+        },
+        {
+          "href": "/pianino-dlya-raboty-nad-pedalyu/",
+          "label": "Акустическое пианино для работы над педалью в аренду"
+        },
+        {
+          "href": "/pianino-dlya-bystryh-povtornyh-not/",
+          "label": "Акустическое пианино для быстрых повторных нот в аренду"
+        },
+        {
+          "href": "/pianino-dlya-polifonii/",
+          "label": "Акустическое пианино для работы над полифонией в аренду"
+        },
+        {
+          "href": "/pianino-dlya-akkompanementa/",
+          "label": "Акустическое пианино для аккомпанемента в аренду"
+        },
+        {
+          "href": "/pianino-dlya-zanyatiy-s-prepodavatelem-doma/",
+          "label": "Акустическое пианино для домашних уроков с преподавателем в аренду"
+        },
+        {
+          "href": "/pianino-pered-pokupkoy/",
+          "label": "Акустическое пианино в аренду перед покупкой"
+        },
+        {
+          "href": "/pianino-dlya-sravneniya-s-royalem/",
+          "label": "Пианино и рояль в аренду для сравнения"
+        },
+        {
+          "href": "/pianino-dlya-malenkoy-komnaty/",
+          "label": "Акустическое пианино для маленькой комнаты в аренду"
+        },
+        {
+          "href": "/pianino-dlya-dolgih-zanyatiy/",
+          "label": "Акустическое пианино для долгих занятий в аренду"
+        },
+        {
+          "href": "/pianino-dlya-chteniya-s-lista/",
+          "label": "Акустическое пианино для чтения с листа в аренду"
+        },
+        {
+          "href": "/pianino-dlya-razuchivaniya-kamernoy-partii/",
+          "label": "Акустическое пианино для разучивания камерной партии в аренду"
+        },
+        {
+          "href": "/pianino-dlya-podgotovki-akkompaniatora/",
+          "label": "Пианино для подготовки концертмейстера в аренду"
+        },
+        {
+          "href": "/pianino-dlya-vremennogo-uchebnogo-klassa/",
+          "label": "Акустическое пианино для временного учебного класса в аренду"
+        }
+      ]
+    },
+    {
+      "slug": "arenda-koncertnogo-royalya-moskva",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/steinway-d274-v-arendu/",
+          "label": "Steinway D-274"
+        },
+        {
+          "href": "/yamaha-cfx-v-arendu/",
+          "label": "Yamaha CFX"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Банкетка для пианиста"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/royal-dlya-repetitsii/",
+          "label": "Рояль для репетиции"
+        },
+        {
+          "href": "/royal-dlya-kamernogo-kontserta/",
+          "label": "Рояль для камерного концерта"
+        }
+      ],
+      "after": [
+        {
+          "href": "/royal-dlya-repetitsii/",
+          "label": "Рояль для репетиции"
+        },
+        {
+          "href": "/royal-dlya-kamernogo-kontserta/",
+          "label": "Рояль для камерного концерта"
+        },
+        {
+          "href": "/steinway-d274-v-arendu/",
+          "label": "Steinway D-274"
+        },
+        {
+          "href": "/yamaha-cfx-v-arendu/",
+          "label": "Yamaha CFX"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Банкетка для пианиста"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-akusticheskogo-kontserta",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/scenicheskiy-zvuk/",
+          "label": "Согласовать отдельно звук для зала"
+        },
+        {
+          "href": "/mikshery-dlya-zhivogo-zvuka/",
+          "label": "Сопоставить инструменты с входами пульта"
+        },
+        {
+          "href": "/mikrofony-dlya-akusticheskogo-ansamblya/",
+          "label": "Выстроить микрофонный съём ансамбля"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/akusticheskie-usiliteli/",
+          "label": "Акустические усилители"
+        },
+        {
+          "href": "/di-boksy/",
+          "label": "DI-боксы"
+        }
+      ],
+      "after": [
+        {
+          "href": "/akusticheskie-usiliteli/",
+          "label": "Акустические усилители"
+        },
+        {
+          "href": "/di-boksy/",
+          "label": "DI-боксы"
+        },
+        {
+          "href": "/scenicheskiy-zvuk/",
+          "label": "Согласовать отдельно звук для зала"
+        },
+        {
+          "href": "/mikshery-dlya-zhivogo-zvuka/",
+          "label": "Сопоставить инструменты с входами пульта"
+        },
+        {
+          "href": "/mikrofony-dlya-akusticheskogo-ansamblya/",
+          "label": "Выстроить микрофонный съём ансамбля"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-bystroy-smeny-grupp",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/stoyka-dlya-gitary/",
+          "label": "Предусмотреть место запасного инструмента"
+        },
+        {
+          "href": "/stul-dlya-barabanshchika/",
+          "label": "Согласовать смену посадки"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/backline-dlya-festivalya/",
+          "label": "Бэклайн для фестиваля"
+        }
+      ],
+      "after": [
+        {
+          "href": "/backline-dlya-festivalya/",
+          "label": "Бэклайн для фестиваля"
+        },
+        {
+          "href": "/stoyka-dlya-gitary/",
+          "label": "Предусмотреть место запасного инструмента"
+        },
+        {
+          "href": "/stul-dlya-barabanshchika/",
+          "label": "Согласовать смену посадки"
+        }
+      ]
+    },
+    {
+      "slug": "backline-dlya-vokalista-s-gitaroy",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/vokalnye-mikrofony/",
+          "label": "Выбрать отдельный микрофон для голоса"
+        },
+        {
+          "href": "/allen-heath-zed10fx-v-arendu/",
+          "label": "Голос и инструмент у одного небольшого пульта"
+        },
+        {
+          "href": "/scenicheskie-monitory/",
+          "label": "Проверить самоконтроль на сцене"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/akusticheskiy-usilitel-dlya-vokalista-s-gitaroy/",
+          "label": "Акустический усилитель для вокалиста"
+        }
+      ],
+      "after": [
+        {
+          "href": "/akusticheskiy-usilitel-dlya-vokalista-s-gitaroy/",
+          "label": "Акустический усилитель для вокалиста"
+        },
+        {
+          "href": "/vokalnye-mikrofony/",
+          "label": "Выбрать отдельный микрофон для голоса"
+        },
+        {
+          "href": "/allen-heath-zed10fx-v-arendu/",
+          "label": "Голос и инструмент у одного небольшого пульта"
+        },
+        {
+          "href": "/scenicheskie-monitory/",
+          "label": "Проверить самоконтроль на сцене"
+        }
+      ]
+    },
+    {
+      "slug": "backline-po-rayderu-dlya-gruppy",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/scenicheskaya-mebel-i-stoyki/",
+          "label": "Согласовать мебель и стойки"
+        },
+        {
+          "href": "/mebel-i-pyupitry-dlya-ansamblya/",
+          "label": "Проверить рассадку и ноты"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/usiliteli-backline/",
+          "label": "Усилители и бэклайн"
+        },
+        {
+          "href": "/gitarnyy-backline-po-rayderu/",
+          "label": "Если нужно уточнить гитарную часть райдера"
+        },
+        {
+          "href": "/basovyy-backline-po-rayderu/",
+          "label": "Если нужно уточнить басовую часть райдера"
+        },
+        {
+          "href": "/barabany-dlya-gastrolnogo-raydera/",
+          "label": "Если нужно уточнить комплект ударных"
+        }
+      ],
+      "after": [
+        {
+          "href": "/usiliteli-backline/",
+          "label": "Усилители и бэклайн"
+        },
+        {
+          "href": "/gitarnyy-backline-po-rayderu/",
+          "label": "Если нужно уточнить гитарную часть райдера"
+        },
+        {
+          "href": "/basovyy-backline-po-rayderu/",
+          "label": "Если нужно уточнить басовую часть райдера"
+        },
+        {
+          "href": "/barabany-dlya-gastrolnogo-raydera/",
+          "label": "Если нужно уточнить комплект ударных"
+        },
+        {
+          "href": "/scenicheskaya-mebel-i-stoyki/",
+          "label": "Согласовать мебель и стойки"
+        },
+        {
+          "href": "/mebel-i-pyupitry-dlya-ansamblya/",
+          "label": "Проверить рассадку и ноты"
+        }
+      ]
+    },
+    {
+      "slug": "barabannaya-ustanovka",
+      "explicit_source_navigation_changed": false,
+      "added": [
+        {
+          "href": "/pedal-dlya-bas-barabana/",
+          "label": "Прокат педали для бас-барабана"
+        },
+        {
+          "href": "/komplekt-stoek-dlya-barabannoy-ustanovki/",
+          "label": "Аренда комплекта стоек для барабанной установки"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/malyy-baraban/",
+          "label": "Малый барабан"
+        },
+        {
+          "href": "/tarelki-dlya-ustanovki/",
+          "label": "Тарелки"
+        },
+        {
+          "href": "/elektronnaya-barabannaya-ustanovka/",
+          "label": "Электронный комплект для занятий"
+        },
+        {
+          "href": "/semplernye-pedy/",
+          "label": "Пэд для собственных записей"
+        },
+        {
+          "href": "/kovbell/",
+          "label": "Ковбелл"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-zapisi/",
+          "label": "Для студийной записи"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-kontserta/",
+          "label": "На концерт"
+        },
+        {
+          "href": "/barabany-dlya-gastrolnogo-raydera/",
+          "label": "По гастрольному райдеру"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-repetitsii/",
+          "label": "Для репетиций"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-studii/",
+          "label": "Для студии"
+        },
+        {
+          "href": "/barabannaya-ustanovka-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/dw-collectors-series-v-arendu/",
+          "label": "DW Collector's Series"
+        },
+        {
+          "href": "/yamaha-recording-custom-v-arendu/",
+          "label": "Yamaha Recording Custom"
+        },
+        {
+          "href": "/gretsch-usa-custom-v-arendu/",
+          "label": "Gretsch USA Custom"
+        },
+        {
+          "href": "/yamaha-absolute-hybrid-maple-v-arendu/",
+          "label": "Yamaha Absolute Hybrid Maple"
+        },
+        {
+          "href": "/ludwig-classic-maple-v-arendu/",
+          "label": "Ludwig Classic Maple"
+        },
+        {
+          "href": "/tama-starclassic-performer-bb-v-arendu/",
+          "label": "Tama Starclassic Performer B/B"
+        },
+        {
+          "href": "/pearl-masters-custom-v-arendu/",
+          "label": "Pearl Masters Custom"
+        },
+        {
+          "href": "/pearl-roadshow-v-arendu/",
+          "label": "Pearl Roadshow"
+        },
+        {
+          "href": "/yamaha-rydeen-v-arendu/",
+          "label": "Yamaha RYDEEN"
+        },
+        {
+          "href": "/tama-imperialstar-v-arendu/",
+          "label": "TAMA Imperialstar"
+        },
+        {
+          "href": "/barabannaya-ustanovka-ponizhe-dlya-rebenka/",
+          "label": "Пониже для ребёнка"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-pervogo-instrumenta/",
+          "label": "Первая барабанная установка в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-domashnih-zanyatiy/",
+          "label": "Барабанная установка для домашних занятий в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-vzroslomu-nachinayuschemu/",
+          "label": "Барабанная установка взрослому начинающему в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-posle-pereryva/",
+          "label": "Барабанная установка после перерыва в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-pered-pokupkoy/",
+          "label": "Барабанная установка в аренду перед покупкой"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-malenkoy-komnaty/",
+          "label": "Компактная барабанная установка для маленькой комнаты в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/",
+          "label": "Барабанная установка для долгой репетиции в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-dzheza/",
+          "label": "Барабанная установка для джаза в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-roka/",
+          "label": "Барабанная установка для рока в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-fanka/",
+          "label": "Барабанная установка для фанка в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-akusticheskogo-sostava/",
+          "label": "Барабанная установка для акустического состава в аренду"
+        }
+      ],
+      "after": [
+        {
+          "href": "/malyy-baraban/",
+          "label": "Малый барабан"
+        },
+        {
+          "href": "/tarelki-dlya-ustanovki/",
+          "label": "Тарелки"
+        },
+        {
+          "href": "/elektronnaya-barabannaya-ustanovka/",
+          "label": "Электронный комплект для занятий"
+        },
+        {
+          "href": "/semplernye-pedy/",
+          "label": "Пэд для собственных записей"
+        },
+        {
+          "href": "/kovbell/",
+          "label": "Ковбелл"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-zapisi/",
+          "label": "Для студийной записи"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-kontserta/",
+          "label": "На концерт"
+        },
+        {
+          "href": "/barabany-dlya-gastrolnogo-raydera/",
+          "label": "По гастрольному райдеру"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-repetitsii/",
+          "label": "Для репетиций"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-studii/",
+          "label": "Для студии"
+        },
+        {
+          "href": "/barabannaya-ustanovka-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/dw-collectors-series-v-arendu/",
+          "label": "DW Collector's Series"
+        },
+        {
+          "href": "/yamaha-recording-custom-v-arendu/",
+          "label": "Yamaha Recording Custom"
+        },
+        {
+          "href": "/gretsch-usa-custom-v-arendu/",
+          "label": "Gretsch USA Custom"
+        },
+        {
+          "href": "/yamaha-absolute-hybrid-maple-v-arendu/",
+          "label": "Yamaha Absolute Hybrid Maple"
+        },
+        {
+          "href": "/ludwig-classic-maple-v-arendu/",
+          "label": "Ludwig Classic Maple"
+        },
+        {
+          "href": "/tama-starclassic-performer-bb-v-arendu/",
+          "label": "Tama Starclassic Performer B/B"
+        },
+        {
+          "href": "/pearl-masters-custom-v-arendu/",
+          "label": "Pearl Masters Custom"
+        },
+        {
+          "href": "/pearl-roadshow-v-arendu/",
+          "label": "Pearl Roadshow"
+        },
+        {
+          "href": "/yamaha-rydeen-v-arendu/",
+          "label": "Yamaha RYDEEN"
+        },
+        {
+          "href": "/tama-imperialstar-v-arendu/",
+          "label": "TAMA Imperialstar"
+        },
+        {
+          "href": "/barabannaya-ustanovka-ponizhe-dlya-rebenka/",
+          "label": "Пониже для ребёнка"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-pervogo-instrumenta/",
+          "label": "Первая барабанная установка в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-domashnih-zanyatiy/",
+          "label": "Барабанная установка для домашних занятий в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-vzroslomu-nachinayuschemu/",
+          "label": "Барабанная установка взрослому начинающему в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-posle-pereryva/",
+          "label": "Барабанная установка после перерыва в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-pered-pokupkoy/",
+          "label": "Барабанная установка в аренду перед покупкой"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-malenkoy-komnaty/",
+          "label": "Компактная барабанная установка для маленькой комнаты в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-dolgoy-repetitsii/",
+          "label": "Барабанная установка для долгой репетиции в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-dzheza/",
+          "label": "Барабанная установка для джаза в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-roka/",
+          "label": "Барабанная установка для рока в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-fanka/",
+          "label": "Барабанная установка для фанка в аренду"
+        },
+        {
+          "href": "/barabannaya-ustanovka-dlya-akusticheskogo-sostava/",
+          "label": "Барабанная установка для акустического состава в аренду"
+        },
+        {
+          "href": "/pedal-dlya-bas-barabana/",
+          "label": "Прокат педали для бас-барабана"
+        },
+        {
+          "href": "/komplekt-stoek-dlya-barabannoy-ustanovki/",
+          "label": "Аренда комплекта стоек для барабанной установки"
+        }
+      ]
+    },
+    {
+      "slug": "barabannaya-ustanovka-dlya-zapisi",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/shure-beta52a-v-arendu/",
+          "label": "BETA 52A: снять большой барабан"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/barabannaya-ustanovka-dlya-studii/",
+          "label": "Барабанная установка для студии"
+        },
+        {
+          "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+          "label": "Инструменты для одновременной записи в студии"
+        }
+      ],
+      "after": [
+        {
+          "href": "/barabannaya-ustanovka-dlya-studii/",
+          "label": "Барабанная установка для студии"
+        },
+        {
+          "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+          "label": "Инструменты для одновременной записи в студии"
+        },
+        {
+          "href": "/shure-beta52a-v-arendu/",
+          "label": "BETA 52A: снять большой барабан"
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara",
+      "explicit_source_navigation_changed": false,
+      "added": [
+        {
+          "href": "/bas-gitara-s-kombikom-dlya-obucheniya/",
+          "label": "Бас-гитара с комбиком для занятий в аренду"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/bezladovaya-bas-gitara/",
+          "label": "Безладовая бас-гитара"
+        },
+        {
+          "href": "/pyatistrunnaya-bas-gitara/",
+          "label": "Пять струн"
+        },
+        {
+          "href": "/shestistrunnaya-bas-gitara/",
+          "label": "Шесть струн"
+        },
+        {
+          "href": "/korotkomensurnaya-bas-gitara/",
+          "label": "Короткая мензура"
+        },
+        {
+          "href": "/akusticheskaya-bas-gitara/",
+          "label": "Акустический бас"
+        },
+        {
+          "href": "/bas-gitara-dlya-gastroley/",
+          "label": "На гастрольный концерт"
+        },
+        {
+          "href": "/ibanez-sr300e-v-arendu/",
+          "label": "Ibanez SR300E"
+        },
+        {
+          "href": "/fender-player-ii-precision-bass-v-arendu/",
+          "label": "Player II Precision Bass"
+        },
+        {
+          "href": "/fender-player-ii-jazz-bass-v-arendu/",
+          "label": "Player II Jazz Bass"
+        },
+        {
+          "href": "/bas-gitara-dlya-studii/",
+          "label": "Для студии"
+        },
+        {
+          "href": "/bas-gitara-dlya-kontserta/",
+          "label": "Для концерта"
+        },
+        {
+          "href": "/bas-gitara-dlya-repetitsii/",
+          "label": "Для репетиций"
+        },
+        {
+          "href": "/bas-gitara-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/fender-american-professional-ii-jazz-bass-v-arendu/",
+          "label": "Fender American Professional II Jazz Bass"
+        },
+        {
+          "href": "/music-man-stingray-special-v-arendu/",
+          "label": "Music Man StingRay Special"
+        },
+        {
+          "href": "/fender-american-professional-ii-precision-bass-v-arendu/",
+          "label": "Fender American Professional II Precision Bass"
+        },
+        {
+          "href": "/yamaha-trbx174-v-arendu/",
+          "label": "Yamaha TRBX174"
+        },
+        {
+          "href": "/yamaha-bb234-v-arendu/",
+          "label": "Yamaha BB234"
+        },
+        {
+          "href": "/bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey/",
+          "label": "Без дребезга и с точной интонацией"
+        },
+        {
+          "href": "/squier-mini-precision-bass-v-arendu/",
+          "label": "Squier Mini Precision Bass"
+        },
+        {
+          "href": "/ibanez-gsrm20-v-arendu/",
+          "label": "Ibanez GSRM20 miKro"
+        },
+        {
+          "href": "/bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki/",
+          "label": "Короткая мензура для небольшой руки"
+        },
+        {
+          "href": "/instrumenty-dlya-fank-gruppy/",
+          "label": "Инструменты для фанк-группы в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-reggae-gruppy/",
+          "label": "Инструменты для регги-группы в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-nachinayuschego/",
+          "label": "Бас-гитара для начинающего в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-domashnih-zanyatiy/",
+          "label": "Бас-гитара для домашних занятий в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-igry-paltsami/",
+          "label": "Бас-гитара для игры пальцами в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-igry-mediatorem/",
+          "label": "Бас-гитара для игры медиатором в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-slepa/",
+          "label": "Бас-гитара для слэпа в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-fanka/",
+          "label": "Бас-гитара для фанка в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-rok-gruppy/",
+          "label": "Бас-гитара для рок-группы в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-dzhaza/",
+          "label": "Бас-гитара для джаза в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-ponizhennogo-stroya/",
+          "label": "Бас-гитара для пониженного строя в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-zapisi-napryamuyu/",
+          "label": "Бас-гитара для прямой записи в интерфейс в аренду"
+        },
+        {
+          "href": "/bas-gitara-s-passivnym-upravleniem/",
+          "label": "Пассивная бас-гитара в аренду"
+        },
+        {
+          "href": "/bas-gitara-s-aktivnym-ekvalayzerom/",
+          "label": "Бас-гитара с активным эквалайзером в аренду"
+        },
+        {
+          "href": "/bas-gitara-pered-pokupkoy/",
+          "label": "Бас-гитара в аренду перед покупкой"
+        }
+      ],
+      "after": [
+        {
+          "href": "/bezladovaya-bas-gitara/",
+          "label": "Безладовая бас-гитара"
+        },
+        {
+          "href": "/pyatistrunnaya-bas-gitara/",
+          "label": "Пять струн"
+        },
+        {
+          "href": "/shestistrunnaya-bas-gitara/",
+          "label": "Шесть струн"
+        },
+        {
+          "href": "/korotkomensurnaya-bas-gitara/",
+          "label": "Короткая мензура"
+        },
+        {
+          "href": "/akusticheskaya-bas-gitara/",
+          "label": "Акустический бас"
+        },
+        {
+          "href": "/bas-gitara-dlya-gastroley/",
+          "label": "На гастрольный концерт"
+        },
+        {
+          "href": "/ibanez-sr300e-v-arendu/",
+          "label": "Ibanez SR300E"
+        },
+        {
+          "href": "/fender-player-ii-precision-bass-v-arendu/",
+          "label": "Player II Precision Bass"
+        },
+        {
+          "href": "/fender-player-ii-jazz-bass-v-arendu/",
+          "label": "Player II Jazz Bass"
+        },
+        {
+          "href": "/bas-gitara-dlya-studii/",
+          "label": "Для студии"
+        },
+        {
+          "href": "/bas-gitara-dlya-kontserta/",
+          "label": "Для концерта"
+        },
+        {
+          "href": "/bas-gitara-dlya-repetitsii/",
+          "label": "Для репетиций"
+        },
+        {
+          "href": "/bas-gitara-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/fender-american-professional-ii-jazz-bass-v-arendu/",
+          "label": "Fender American Professional II Jazz Bass"
+        },
+        {
+          "href": "/music-man-stingray-special-v-arendu/",
+          "label": "Music Man StingRay Special"
+        },
+        {
+          "href": "/fender-american-professional-ii-precision-bass-v-arendu/",
+          "label": "Fender American Professional II Precision Bass"
+        },
+        {
+          "href": "/yamaha-trbx174-v-arendu/",
+          "label": "Yamaha TRBX174"
+        },
+        {
+          "href": "/yamaha-bb234-v-arendu/",
+          "label": "Yamaha BB234"
+        },
+        {
+          "href": "/bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey/",
+          "label": "Без дребезга и с точной интонацией"
+        },
+        {
+          "href": "/squier-mini-precision-bass-v-arendu/",
+          "label": "Squier Mini Precision Bass"
+        },
+        {
+          "href": "/ibanez-gsrm20-v-arendu/",
+          "label": "Ibanez GSRM20 miKro"
+        },
+        {
+          "href": "/bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki/",
+          "label": "Короткая мензура для небольшой руки"
+        },
+        {
+          "href": "/instrumenty-dlya-fank-gruppy/",
+          "label": "Инструменты для фанк-группы в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-reggae-gruppy/",
+          "label": "Инструменты для регги-группы в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-nachinayuschego/",
+          "label": "Бас-гитара для начинающего в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-domashnih-zanyatiy/",
+          "label": "Бас-гитара для домашних занятий в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-igry-paltsami/",
+          "label": "Бас-гитара для игры пальцами в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-igry-mediatorem/",
+          "label": "Бас-гитара для игры медиатором в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-slepa/",
+          "label": "Бас-гитара для слэпа в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-fanka/",
+          "label": "Бас-гитара для фанка в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-rok-gruppy/",
+          "label": "Бас-гитара для рок-группы в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-dzhaza/",
+          "label": "Бас-гитара для джаза в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-ponizhennogo-stroya/",
+          "label": "Бас-гитара для пониженного строя в аренду"
+        },
+        {
+          "href": "/bas-gitara-dlya-zapisi-napryamuyu/",
+          "label": "Бас-гитара для прямой записи в интерфейс в аренду"
+        },
+        {
+          "href": "/bas-gitara-s-passivnym-upravleniem/",
+          "label": "Пассивная бас-гитара в аренду"
+        },
+        {
+          "href": "/bas-gitara-s-aktivnym-ekvalayzerom/",
+          "label": "Бас-гитара с активным эквалайзером в аренду"
+        },
+        {
+          "href": "/bas-gitara-pered-pokupkoy/",
+          "label": "Бас-гитара в аренду перед покупкой"
+        },
+        {
+          "href": "/bas-gitara-s-kombikom-dlya-obucheniya/",
+          "label": "Бас-гитара с комбиком для занятий в аренду"
+        }
+      ]
+    },
+    {
+      "slug": "bas-gitara-dlya-domashnih-zanyatiy",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/bas-gitara-s-kombikom-dlya-obucheniya/",
+          "label": "Собрать бас с усилением для занятий"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/ampeg-rb110-v-arendu/",
+          "label": "Ampeg RB-110"
+        },
+        {
+          "href": "/bas-gitara-dlya-nachinayuschego/",
+          "label": "Бас для начинающего"
+        }
+      ],
+      "after": [
+        {
+          "href": "/ampeg-rb110-v-arendu/",
+          "label": "Ampeg RB-110"
+        },
+        {
+          "href": "/bas-gitara-dlya-nachinayuschego/",
+          "label": "Бас для начинающего"
+        },
+        {
+          "href": "/bas-gitara-s-kombikom-dlya-obucheniya/",
+          "label": "Собрать бас с усилением для занятий"
+        }
+      ]
+    },
+    {
+      "slug": "cifrovoe-pianino",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Цифровой рояльный формат"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Банкетка для собранного комплекта"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/cifrovoe-pianino-s-polupedalyu/",
+          "label": "С полупедалью"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-tochnoy-repetitsiey/",
+          "label": "Точное повторение нот"
+        },
+        {
+          "href": "/cifrovoe-pianino-na-ustoychivoy-stoyke/",
+          "label": "Устойчивая стойка"
+        },
+        {
+          "href": "/roland-fp30x-v-arendu/",
+          "label": "Roland FP-30X в аренду"
+        },
+        {
+          "href": "/kawai-es120-v-arendu/",
+          "label": "Kawai ES120 в аренду"
+        },
+        {
+          "href": "/casio-pxs1100-v-arendu/",
+          "label": "Casio PX-S1100, когда нужно полноценное пианино, которое легко живёт между комнатой, занятиями и переездами"
+        },
+        {
+          "href": "/cifrovoe-pianino-rebenku/",
+          "label": "Цифровое пианино ребёнку, когда домашние занятия должны начаться сразу"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/",
+          "label": "Цифровое пианино для музыкальной школы, когда дома нужна нормальная фортепианная практика"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vzroslogo-nachinayuschego/",
+          "label": "Цифровое пианино для взрослого начинающего, пока собственный критерий ещё только появляется"
+        },
+        {
+          "href": "/cifrovoe-pianino-88-klavish/",
+          "label": "Цифровое пианино на 88 клавиш, когда диапазон должен быть полноценным"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-molotochkovoy-mehanikoy/",
+          "label": "Цифровое пианино с молоточковой механикой, когда клавиатура должна отвечать руке"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-troynoy-pedalyu/",
+          "label": "Цифровое пианино с тройным педальным блоком, когда педаль уже часть техники"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-kvartiry/",
+          "label": "Цифровое пианино для квартиры, когда музыка должна ужиться с домом"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-zanyatiy-v-naushnikah/",
+          "label": "Цифровое пианино в наушниках: слышать свою игру и проверить шум дома"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-nochnih-zanyatiy/",
+          "label": "Цифровое пианино для ночных занятий, когда тишина становится частью инструмента"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-pereezda/",
+          "label": "Цифровое пианино на время переезда, когда музыкальная практика не должна ждать мебели"
+        },
+        {
+          "href": "/cifrovoe-pianino-pered-pokupkoy/",
+          "label": "Цифровое пианино перед покупкой, когда характеристики ещё не стали личным опытом"
+        },
+        {
+          "href": "/cifrovoe-pianino-na-uchebnyy-god/",
+          "label": "Цифровое пианино на учебный год, пока требования к инструменту продолжают расти"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-uchilischa/",
+          "label": "Цифровое пианино для училища, когда домашний инструмент уже должен выдерживать серьёзную нагрузку"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-konservatorii/",
+          "label": "Цифровое пианино для консерватории, когда домашняя клавиатура уже должна выдерживать профессиональный режим"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vozvrascheniya-k-igre/",
+          "label": "Вернуться к фортепиано после перерыва: восстановить привычку и проверить отклик"
+        },
+        {
+          "href": "/perenosnoe-cifrovoe-pianino/",
+          "label": "Переносное цифровое пианино, когда инструмент должен двигаться вместе с жизнью"
+        },
+        {
+          "href": "/korpusnoe-cifrovoe-pianino/",
+          "label": "Корпусное цифровое пианино, когда инструмент должен стать частью комнаты"
+        },
+        {
+          "href": "/stsenicheskoe-cifrovoe-pianino/",
+          "label": "Сценическое цифровое пианино, когда инструмент должен быстро войти в площадку"
+        },
+        {
+          "href": "/kompaktnoe-cifrovoe-pianino/",
+          "label": "Компактное цифровое пианино: проверить всё рабочее место"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-onlayn-urokov/",
+          "label": "Цифровое пианино для онлайн-уроков, когда преподаватель должен слышать больше, чем звук из комнаты"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-prepodavatelya/",
+          "label": "Цифровое пианино для преподавателя, когда инструмент работает сразу на двоих"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-studii/",
+          "label": "Цифровое пианино для студии, когда клавиатура становится входом в запись"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-sochineniya-muzyki/",
+          "label": "Цифровое пианино для сочинения музыки, когда клавиатура должна не мешать мысли"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-dvumya-vyhodami-na-naushniki/",
+          "label": "Цифровое пианино с двумя выходами на наушники, когда заниматься нужно вместе и тихо"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-usb-midi/",
+          "label": "Цифровое пианино с USB/MIDI: передавать исполнение в компьютер"
+        },
+        {
+          "href": "/cifrovoe-ili-akusticheskoe-pianino/",
+          "label": "Цифровое или акустическое пианино: сравнить практику и условия дома"
+        },
+        {
+          "href": "/pervoe-cifrovoe-pianino-rebenku/",
+          "label": "Первое цифровое пианино ребёнку, пока ещё неизвестно, каким станет его фортепианный путь"
+        },
+        {
+          "href": "/cifrovoe-pianino-yamaha/",
+          "label": "Цифровое пианино Yamaha, когда сначала нужно понять серию"
+        },
+        {
+          "href": "/yamaha-p-series-v-arendu/",
+          "label": "Yamaha P Series, когда нужен компактный инструмент с фортепианной механикой"
+        },
+        {
+          "href": "/yamaha-p35-v-arendu/",
+          "label": "Yamaha P-35, когда нужен простой вход в полноценные 88 клавиш"
+        },
+        {
+          "href": "/yamaha-p45-v-arendu/",
+          "label": "Yamaha P-45, когда нужен понятный учебный стандарт без лишнего"
+        },
+        {
+          "href": "/yamaha-p105-v-arendu/",
+          "label": "Yamaha P-105, когда старая модель всё ещё нормально решает современную задачу"
+        },
+        {
+          "href": "/yamaha-p115-v-arendu/",
+          "label": "Yamaha P-115, когда нужен знакомый компактный формат для дома и занятий"
+        },
+        {
+          "href": "/yamaha-p125-v-arendu/",
+          "label": "Yamaha P-125, когда нужен проверенный компактный инструмент для регулярной практики"
+        },
+        {
+          "href": "/yamaha-p225-v-arendu/",
+          "label": "Yamaha P-225, когда компактность уже не должна означать упрощение"
+        },
+        {
+          "href": "/yamaha-p515-v-arendu/",
+          "label": "Yamaha P-515: клавиатура NWX во временном домашнем комплекте"
+        },
+        {
+          "href": "/yamaha-p525-v-arendu/",
+          "label": "Yamaha P-525: GrandTouch-S и перемещаемый домашний комплект"
+        },
+        {
+          "href": "/yamaha-clavinova-clp-v-arendu/",
+          "label": "Yamaha Clavinova CLP, когда цифровое пианино должно жить дома как постоянный инструмент"
+        },
+        {
+          "href": "/yamaha-clp635-v-arendu/",
+          "label": "Yamaha CLP-635, когда корпусное цифровое пианино уже становится домашней системой"
+        },
+        {
+          "href": "/yamaha-clp645-v-arendu/",
+          "label": "Yamaha CLP-645: попробовать клавиатуру NWX дома"
+        },
+        {
+          "href": "/yamaha-clp675-v-arendu/",
+          "label": "Yamaha CLP-675, когда цифровой инструмент уже выбирают как серьёзное домашнее фортепиано"
+        },
+        {
+          "href": "/yamaha-clp685-v-arendu/",
+          "label": "Yamaha CLP-685, когда цифровое пианино становится почти отдельной мебельной и музыкальной средой"
+        },
+        {
+          "href": "/yamaha-clp735-v-arendu/",
+          "label": "Yamaha CLP-735: проверить GrandTouch-S на своей программе"
+        },
+        {
+          "href": "/yamaha-clp745-v-arendu/",
+          "label": "Yamaha CLP-745: инструмент для формирования техники"
+        },
+        {
+          "href": "/yamaha-clp775-v-arendu/",
+          "label": "Yamaha CLP-775: сопоставить клавиатуру и педаль с основной практикой"
+        },
+        {
+          "href": "/yamaha-clp785-v-arendu/",
+          "label": "Yamaha CLP-785: домашняя проба GrandTouch с противовесами"
+        },
+        {
+          "href": "/yamaha-clp825-v-arendu/",
+          "label": "Yamaha CLP-825: проверить GrandTouch-S в домашнем комплекте"
+        },
+        {
+          "href": "/yamaha-clp835-v-arendu/",
+          "label": "Yamaha CLP-835: клавиатура GrandTouch-S и управление ежедневной практикой"
+        },
+        {
+          "href": "/yamaha-clp845-v-arendu/",
+          "label": "Yamaha CLP-845: GrandTouch-S с деревянными белыми клавишами"
+        },
+        {
+          "href": "/yamaha-clp875-v-arendu/",
+          "label": "Yamaha CLP-875: проверить GrandTouch и педаль в домашней программе"
+        },
+        {
+          "href": "/yamaha-clp885-v-arendu/",
+          "label": "Yamaha CLP-885: проверить GrandTouch с противовесами на своей музыке"
+        },
+        {
+          "href": "/yamaha-p143-v-arendu/",
+          "label": "Yamaha P-143 для первого учебного периода дома"
+        },
+        {
+          "href": "/yamaha-p145-v-arendu/",
+          "label": "Yamaha P-145, когда нужен простой современный инструмент без лишнего корпуса"
+        },
+        {
+          "href": "/yamaha-arius-v-arendu/",
+          "label": "Yamaha ARIUS, когда нужен постоянный домашний инструмент без перехода в Clavinova"
+        },
+        {
+          "href": "/yamaha-ydp103-v-arendu/",
+          "label": "Yamaha YDP-103, когда нужен простой корпусный инструмент для дома"
+        },
+        {
+          "href": "/yamaha-ydp144-v-arendu/",
+          "label": "Yamaha YDP-144, когда нужен спокойный корпусный инструмент для регулярных занятий"
+        },
+        {
+          "href": "/yamaha-ydp164-v-arendu/",
+          "label": "Yamaha YDP-164: проверить GH3 на повторных нотах и динамике"
+        },
+        {
+          "href": "/yamaha-ydps34-v-arendu/",
+          "label": "Yamaha YDP-S34, когда корпусное пианино должно занимать меньше места"
+        },
+        {
+          "href": "/yamaha-ydp145-v-arendu/",
+          "label": "Yamaha YDP-145: домашний комплект для регулярных занятий"
+        },
+        {
+          "href": "/yamaha-ydp165-v-arendu/",
+          "label": "Yamaha YDP-165: сравнить GH3 с требованиями своей программы"
+        },
+        {
+          "href": "/yamaha-ydps35-v-arendu/",
+          "label": "Yamaha YDP-S35, когда полноценный домашний инструмент должен быть тоньше"
+        },
+        {
+          "href": "/yamaha-ydps55-v-arendu/",
+          "label": "Yamaha YDP-S55: GH3 в корпусе для ограниченного места"
+        },
+        {
+          "href": "/cifrovoe-pianino-casio/",
+          "label": "Цифровое пианино Casio, когда бренд уже выбран, а формат жизни ещё нужно понять"
+        },
+        {
+          "href": "/casio-privia-v-arendu/",
+          "label": "Casio Privia, когда полноценные 88 клавиш должны вписаться в реальную жизнь"
+        },
+        {
+          "href": "/casio-px160-v-arendu/",
+          "label": "Casio PX-160: состояние инструмента важнее возраста модели"
+        },
+        {
+          "href": "/casio-pxs1000-v-arendu/",
+          "label": "Casio PX-S1000, когда пианино должно буквально исчезать в комнате"
+        },
+        {
+          "href": "/casio-pxs3000-v-arendu/",
+          "label": "Casio PX-S3000, когда одного фортепианного тембра уже мало, а корпус всё ещё должен оставаться тонким"
+        },
+        {
+          "href": "/casio-pxs3100-v-arendu/",
+          "label": "Casio PX-S3100, когда домашнее пианино должно иногда становиться сценическим инструментом"
+        },
+        {
+          "href": "/casio-pxs5000-v-arendu/",
+          "label": "Casio PX-S5000: требования к клавиатуре и мобильности"
+        },
+        {
+          "href": "/casio-pxs6000-v-arendu/",
+          "label": "Casio PX-S6000: домашняя практика, запись и сцена"
+        },
+        {
+          "href": "/casio-pxs7000-v-arendu/",
+          "label": "Casio PX-S7000, когда инструмент должен быть одновременно музыкальным центром и частью пространства"
+        },
+        {
+          "href": "/casio-px560-v-arendu/",
+          "label": "Casio PX-560, когда пианисту нужен не только инструмент, но и рабочая станция для сцены и сочинения"
+        },
+        {
+          "href": "/casio-celviano-v-arendu/",
+          "label": "Casio Celviano, когда цифровое пианино уже должно стать постоянным домашним инструментом"
+        },
+        {
+          "href": "/casio-ap270-v-arendu/",
+          "label": "Casio AP-270, когда ребёнку или взрослому нужен первый постоянный домашний инструмент"
+        },
+        {
+          "href": "/casio-ap470-v-arendu/",
+          "label": "Casio AP-470: когда домашняя практика становится регулярной"
+        },
+        {
+          "href": "/casio-aps450-v-arendu/",
+          "label": "Casio AP-S450, когда серьёзное корпусное пианино должно оставаться тонким"
+        },
+        {
+          "href": "/casio-ap550-v-arendu/",
+          "label": "Casio AP-550: какой отклик нужен вашим занятиям"
+        },
+        {
+          "href": "/casio-ap750-v-arendu/",
+          "label": "Casio AP-750: инструмент для интенсивной домашней работы"
+        },
+        {
+          "href": "/cifrovoe-pianino-roland/",
+          "label": "Цифровое пианино Roland в аренду"
+        },
+        {
+          "href": "/roland-fp10-v-arendu/",
+          "label": "Roland FP-10 в аренду"
+        },
+        {
+          "href": "/roland-fp60x-v-arendu/",
+          "label": "Roland FP-60X в аренду"
+        },
+        {
+          "href": "/roland-fp90x-v-arendu/",
+          "label": "Roland FP-90X в аренду"
+        },
+        {
+          "href": "/roland-hp702-v-arendu/",
+          "label": "Roland HP702 в аренду"
+        },
+        {
+          "href": "/roland-hp704-v-arendu/",
+          "label": "Roland HP704 в аренду"
+        },
+        {
+          "href": "/roland-lx5-v-arendu/",
+          "label": "Roland LX-5 в аренду"
+        },
+        {
+          "href": "/roland-lx6-v-arendu/",
+          "label": "Roland LX-6 в аренду"
+        },
+        {
+          "href": "/roland-lx9-v-arendu/",
+          "label": "Roland LX-9 в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-kawai/",
+          "label": "Цифровое пианино Kawai в аренду"
+        },
+        {
+          "href": "/kawai-es520-v-arendu/",
+          "label": "Kawai ES520 в аренду"
+        },
+        {
+          "href": "/kawai-es920-v-arendu/",
+          "label": "Kawai ES920 в аренду"
+        },
+        {
+          "href": "/kawai-cn201-v-arendu/",
+          "label": "Kawai CN201 в аренду"
+        },
+        {
+          "href": "/kawai-cn301-v-arendu/",
+          "label": "Kawai CN301 в аренду"
+        },
+        {
+          "href": "/kawai-ca401-v-arendu/",
+          "label": "Kawai CA401 в аренду"
+        },
+        {
+          "href": "/kawai-ca501-v-arendu/",
+          "label": "Kawai CA501 в аренду"
+        },
+        {
+          "href": "/kawai-ca701-v-arendu/",
+          "label": "Kawai CA701 в аренду"
+        },
+        {
+          "href": "/kawai-ca901-v-arendu/",
+          "label": "Kawai CA901 в аренду"
+        },
+        {
+          "href": "/arenda-cifrovogo-pianino-kazan/",
+          "label": "Аренда цифрового пианино в Казани"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-obucheniya/",
+          "label": "Цифровое пианино для обучения в аренду"
+        },
+        {
+          "href": "/kak-vybrat-cifrovoe-pianino-dlya-obucheniya/",
+          "label": "Как выбрать цифровое пианино для обучения"
+        },
+        {
+          "href": "/kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly/",
+          "label": "Какое пианино купить ребёнку для музыкальной школы"
+        },
+        {
+          "href": "/kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly/",
+          "label": "Какое пианино выбрать для музыкальной школы"
+        },
+        {
+          "href": "/pianino-dlya-muzykalnoy-shkoly/",
+          "label": "Пианино для музыкальной школы в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-rannih-zanyatiy/",
+          "label": "Цифровое пианино для занятий рано утром в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-pozdnih-zanyatiy/",
+          "label": "Цифровое пианино для вечерних занятий в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/",
+          "label": "Цифровое пианино для двух учеников в семье в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-syemnoy-kvartiry/",
+          "label": "Цифровое пианино для съёмной квартиры в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/",
+          "label": "Цифровое пианино для временного жилья в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vtorogo-mesta-zanyatiy/",
+          "label": "Цифровое пианино для второго места занятий в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-distantsionnogo-uroka/",
+          "label": "Цифровое пианино для дистанционного урока в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-zapisi-midi/",
+          "label": "Цифровое пианино для записи MIDI в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-zapisi-audio/",
+          "label": "Цифровое пианино для записи аудио в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-chteniya-s-lista/",
+          "label": "Цифровое пианино для чтения с листа в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/",
+          "label": "Цифровое пианино для работы над динамикой в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/",
+          "label": "Цифровое пианино для работы над педалью в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/",
+          "label": "Цифровые пианино с разной механикой в аренду для сравнения"
+        },
+        {
+          "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/",
+          "label": "Цифровое пианино на пробный учебный период в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-posle-akusticheskogo/",
+          "label": "Цифровое пианино после акустического в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-pered-perehodom-na-akusticheskoe/",
+          "label": "Цифровое пианино перед переходом на акустическое в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-letney-praktiki/",
+          "label": "Цифровое пианино на лето в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-ansamblya-doma/",
+          "label": "Цифровое пианино для ансамблевой репетиции дома в аренду"
+        }
+      ],
+      "after": [
+        {
+          "href": "/cifrovoe-pianino-s-polupedalyu/",
+          "label": "С полупедалью"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-tochnoy-repetitsiey/",
+          "label": "Точное повторение нот"
+        },
+        {
+          "href": "/cifrovoe-pianino-na-ustoychivoy-stoyke/",
+          "label": "Устойчивая стойка"
+        },
+        {
+          "href": "/roland-fp30x-v-arendu/",
+          "label": "Roland FP-30X в аренду"
+        },
+        {
+          "href": "/kawai-es120-v-arendu/",
+          "label": "Kawai ES120 в аренду"
+        },
+        {
+          "href": "/casio-pxs1100-v-arendu/",
+          "label": "Casio PX-S1100, когда нужно полноценное пианино, которое легко живёт между комнатой, занятиями и переездами"
+        },
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Цифровой рояльный формат"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Банкетка для собранного комплекта"
+        },
+        {
+          "href": "/cifrovoe-pianino-rebenku/",
+          "label": "Цифровое пианино ребёнку, когда домашние занятия должны начаться сразу"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-muzykalnoy-shkoly/",
+          "label": "Цифровое пианино для музыкальной школы, когда дома нужна нормальная фортепианная практика"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vzroslogo-nachinayuschego/",
+          "label": "Цифровое пианино для взрослого начинающего, пока собственный критерий ещё только появляется"
+        },
+        {
+          "href": "/cifrovoe-pianino-88-klavish/",
+          "label": "Цифровое пианино на 88 клавиш, когда диапазон должен быть полноценным"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-molotochkovoy-mehanikoy/",
+          "label": "Цифровое пианино с молоточковой механикой, когда клавиатура должна отвечать руке"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-troynoy-pedalyu/",
+          "label": "Цифровое пианино с тройным педальным блоком, когда педаль уже часть техники"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-kvartiry/",
+          "label": "Цифровое пианино для квартиры, когда музыка должна ужиться с домом"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-zanyatiy-v-naushnikah/",
+          "label": "Цифровое пианино в наушниках: слышать свою игру и проверить шум дома"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-nochnih-zanyatiy/",
+          "label": "Цифровое пианино для ночных занятий, когда тишина становится частью инструмента"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-pereezda/",
+          "label": "Цифровое пианино на время переезда, когда музыкальная практика не должна ждать мебели"
+        },
+        {
+          "href": "/cifrovoe-pianino-pered-pokupkoy/",
+          "label": "Цифровое пианино перед покупкой, когда характеристики ещё не стали личным опытом"
+        },
+        {
+          "href": "/cifrovoe-pianino-na-uchebnyy-god/",
+          "label": "Цифровое пианино на учебный год, пока требования к инструменту продолжают расти"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-uchilischa/",
+          "label": "Цифровое пианино для училища, когда домашний инструмент уже должен выдерживать серьёзную нагрузку"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-konservatorii/",
+          "label": "Цифровое пианино для консерватории, когда домашняя клавиатура уже должна выдерживать профессиональный режим"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vozvrascheniya-k-igre/",
+          "label": "Вернуться к фортепиано после перерыва: восстановить привычку и проверить отклик"
+        },
+        {
+          "href": "/perenosnoe-cifrovoe-pianino/",
+          "label": "Переносное цифровое пианино, когда инструмент должен двигаться вместе с жизнью"
+        },
+        {
+          "href": "/korpusnoe-cifrovoe-pianino/",
+          "label": "Корпусное цифровое пианино, когда инструмент должен стать частью комнаты"
+        },
+        {
+          "href": "/stsenicheskoe-cifrovoe-pianino/",
+          "label": "Сценическое цифровое пианино, когда инструмент должен быстро войти в площадку"
+        },
+        {
+          "href": "/kompaktnoe-cifrovoe-pianino/",
+          "label": "Компактное цифровое пианино: проверить всё рабочее место"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-onlayn-urokov/",
+          "label": "Цифровое пианино для онлайн-уроков, когда преподаватель должен слышать больше, чем звук из комнаты"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-prepodavatelya/",
+          "label": "Цифровое пианино для преподавателя, когда инструмент работает сразу на двоих"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-studii/",
+          "label": "Цифровое пианино для студии, когда клавиатура становится входом в запись"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-sochineniya-muzyki/",
+          "label": "Цифровое пианино для сочинения музыки, когда клавиатура должна не мешать мысли"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-dvumya-vyhodami-na-naushniki/",
+          "label": "Цифровое пианино с двумя выходами на наушники, когда заниматься нужно вместе и тихо"
+        },
+        {
+          "href": "/cifrovoe-pianino-s-usb-midi/",
+          "label": "Цифровое пианино с USB/MIDI: передавать исполнение в компьютер"
+        },
+        {
+          "href": "/cifrovoe-ili-akusticheskoe-pianino/",
+          "label": "Цифровое или акустическое пианино: сравнить практику и условия дома"
+        },
+        {
+          "href": "/pervoe-cifrovoe-pianino-rebenku/",
+          "label": "Первое цифровое пианино ребёнку, пока ещё неизвестно, каким станет его фортепианный путь"
+        },
+        {
+          "href": "/cifrovoe-pianino-yamaha/",
+          "label": "Цифровое пианино Yamaha, когда сначала нужно понять серию"
+        },
+        {
+          "href": "/yamaha-p-series-v-arendu/",
+          "label": "Yamaha P Series, когда нужен компактный инструмент с фортепианной механикой"
+        },
+        {
+          "href": "/yamaha-p35-v-arendu/",
+          "label": "Yamaha P-35, когда нужен простой вход в полноценные 88 клавиш"
+        },
+        {
+          "href": "/yamaha-p45-v-arendu/",
+          "label": "Yamaha P-45, когда нужен понятный учебный стандарт без лишнего"
+        },
+        {
+          "href": "/yamaha-p105-v-arendu/",
+          "label": "Yamaha P-105, когда старая модель всё ещё нормально решает современную задачу"
+        },
+        {
+          "href": "/yamaha-p115-v-arendu/",
+          "label": "Yamaha P-115, когда нужен знакомый компактный формат для дома и занятий"
+        },
+        {
+          "href": "/yamaha-p125-v-arendu/",
+          "label": "Yamaha P-125, когда нужен проверенный компактный инструмент для регулярной практики"
+        },
+        {
+          "href": "/yamaha-p225-v-arendu/",
+          "label": "Yamaha P-225, когда компактность уже не должна означать упрощение"
+        },
+        {
+          "href": "/yamaha-p515-v-arendu/",
+          "label": "Yamaha P-515: клавиатура NWX во временном домашнем комплекте"
+        },
+        {
+          "href": "/yamaha-p525-v-arendu/",
+          "label": "Yamaha P-525: GrandTouch-S и перемещаемый домашний комплект"
+        },
+        {
+          "href": "/yamaha-clavinova-clp-v-arendu/",
+          "label": "Yamaha Clavinova CLP, когда цифровое пианино должно жить дома как постоянный инструмент"
+        },
+        {
+          "href": "/yamaha-clp635-v-arendu/",
+          "label": "Yamaha CLP-635, когда корпусное цифровое пианино уже становится домашней системой"
+        },
+        {
+          "href": "/yamaha-clp645-v-arendu/",
+          "label": "Yamaha CLP-645: попробовать клавиатуру NWX дома"
+        },
+        {
+          "href": "/yamaha-clp675-v-arendu/",
+          "label": "Yamaha CLP-675, когда цифровой инструмент уже выбирают как серьёзное домашнее фортепиано"
+        },
+        {
+          "href": "/yamaha-clp685-v-arendu/",
+          "label": "Yamaha CLP-685, когда цифровое пианино становится почти отдельной мебельной и музыкальной средой"
+        },
+        {
+          "href": "/yamaha-clp735-v-arendu/",
+          "label": "Yamaha CLP-735: проверить GrandTouch-S на своей программе"
+        },
+        {
+          "href": "/yamaha-clp745-v-arendu/",
+          "label": "Yamaha CLP-745: инструмент для формирования техники"
+        },
+        {
+          "href": "/yamaha-clp775-v-arendu/",
+          "label": "Yamaha CLP-775: сопоставить клавиатуру и педаль с основной практикой"
+        },
+        {
+          "href": "/yamaha-clp785-v-arendu/",
+          "label": "Yamaha CLP-785: домашняя проба GrandTouch с противовесами"
+        },
+        {
+          "href": "/yamaha-clp825-v-arendu/",
+          "label": "Yamaha CLP-825: проверить GrandTouch-S в домашнем комплекте"
+        },
+        {
+          "href": "/yamaha-clp835-v-arendu/",
+          "label": "Yamaha CLP-835: клавиатура GrandTouch-S и управление ежедневной практикой"
+        },
+        {
+          "href": "/yamaha-clp845-v-arendu/",
+          "label": "Yamaha CLP-845: GrandTouch-S с деревянными белыми клавишами"
+        },
+        {
+          "href": "/yamaha-clp875-v-arendu/",
+          "label": "Yamaha CLP-875: проверить GrandTouch и педаль в домашней программе"
+        },
+        {
+          "href": "/yamaha-clp885-v-arendu/",
+          "label": "Yamaha CLP-885: проверить GrandTouch с противовесами на своей музыке"
+        },
+        {
+          "href": "/yamaha-p143-v-arendu/",
+          "label": "Yamaha P-143 для первого учебного периода дома"
+        },
+        {
+          "href": "/yamaha-p145-v-arendu/",
+          "label": "Yamaha P-145, когда нужен простой современный инструмент без лишнего корпуса"
+        },
+        {
+          "href": "/yamaha-arius-v-arendu/",
+          "label": "Yamaha ARIUS, когда нужен постоянный домашний инструмент без перехода в Clavinova"
+        },
+        {
+          "href": "/yamaha-ydp103-v-arendu/",
+          "label": "Yamaha YDP-103, когда нужен простой корпусный инструмент для дома"
+        },
+        {
+          "href": "/yamaha-ydp144-v-arendu/",
+          "label": "Yamaha YDP-144, когда нужен спокойный корпусный инструмент для регулярных занятий"
+        },
+        {
+          "href": "/yamaha-ydp164-v-arendu/",
+          "label": "Yamaha YDP-164: проверить GH3 на повторных нотах и динамике"
+        },
+        {
+          "href": "/yamaha-ydps34-v-arendu/",
+          "label": "Yamaha YDP-S34, когда корпусное пианино должно занимать меньше места"
+        },
+        {
+          "href": "/yamaha-ydp145-v-arendu/",
+          "label": "Yamaha YDP-145: домашний комплект для регулярных занятий"
+        },
+        {
+          "href": "/yamaha-ydp165-v-arendu/",
+          "label": "Yamaha YDP-165: сравнить GH3 с требованиями своей программы"
+        },
+        {
+          "href": "/yamaha-ydps35-v-arendu/",
+          "label": "Yamaha YDP-S35, когда полноценный домашний инструмент должен быть тоньше"
+        },
+        {
+          "href": "/yamaha-ydps55-v-arendu/",
+          "label": "Yamaha YDP-S55: GH3 в корпусе для ограниченного места"
+        },
+        {
+          "href": "/cifrovoe-pianino-casio/",
+          "label": "Цифровое пианино Casio, когда бренд уже выбран, а формат жизни ещё нужно понять"
+        },
+        {
+          "href": "/casio-privia-v-arendu/",
+          "label": "Casio Privia, когда полноценные 88 клавиш должны вписаться в реальную жизнь"
+        },
+        {
+          "href": "/casio-px160-v-arendu/",
+          "label": "Casio PX-160: состояние инструмента важнее возраста модели"
+        },
+        {
+          "href": "/casio-pxs1000-v-arendu/",
+          "label": "Casio PX-S1000, когда пианино должно буквально исчезать в комнате"
+        },
+        {
+          "href": "/casio-pxs3000-v-arendu/",
+          "label": "Casio PX-S3000, когда одного фортепианного тембра уже мало, а корпус всё ещё должен оставаться тонким"
+        },
+        {
+          "href": "/casio-pxs3100-v-arendu/",
+          "label": "Casio PX-S3100, когда домашнее пианино должно иногда становиться сценическим инструментом"
+        },
+        {
+          "href": "/casio-pxs5000-v-arendu/",
+          "label": "Casio PX-S5000: требования к клавиатуре и мобильности"
+        },
+        {
+          "href": "/casio-pxs6000-v-arendu/",
+          "label": "Casio PX-S6000: домашняя практика, запись и сцена"
+        },
+        {
+          "href": "/casio-pxs7000-v-arendu/",
+          "label": "Casio PX-S7000, когда инструмент должен быть одновременно музыкальным центром и частью пространства"
+        },
+        {
+          "href": "/casio-px560-v-arendu/",
+          "label": "Casio PX-560, когда пианисту нужен не только инструмент, но и рабочая станция для сцены и сочинения"
+        },
+        {
+          "href": "/casio-celviano-v-arendu/",
+          "label": "Casio Celviano, когда цифровое пианино уже должно стать постоянным домашним инструментом"
+        },
+        {
+          "href": "/casio-ap270-v-arendu/",
+          "label": "Casio AP-270, когда ребёнку или взрослому нужен первый постоянный домашний инструмент"
+        },
+        {
+          "href": "/casio-ap470-v-arendu/",
+          "label": "Casio AP-470: когда домашняя практика становится регулярной"
+        },
+        {
+          "href": "/casio-aps450-v-arendu/",
+          "label": "Casio AP-S450, когда серьёзное корпусное пианино должно оставаться тонким"
+        },
+        {
+          "href": "/casio-ap550-v-arendu/",
+          "label": "Casio AP-550: какой отклик нужен вашим занятиям"
+        },
+        {
+          "href": "/casio-ap750-v-arendu/",
+          "label": "Casio AP-750: инструмент для интенсивной домашней работы"
+        },
+        {
+          "href": "/cifrovoe-pianino-roland/",
+          "label": "Цифровое пианино Roland в аренду"
+        },
+        {
+          "href": "/roland-fp10-v-arendu/",
+          "label": "Roland FP-10 в аренду"
+        },
+        {
+          "href": "/roland-fp60x-v-arendu/",
+          "label": "Roland FP-60X в аренду"
+        },
+        {
+          "href": "/roland-fp90x-v-arendu/",
+          "label": "Roland FP-90X в аренду"
+        },
+        {
+          "href": "/roland-hp702-v-arendu/",
+          "label": "Roland HP702 в аренду"
+        },
+        {
+          "href": "/roland-hp704-v-arendu/",
+          "label": "Roland HP704 в аренду"
+        },
+        {
+          "href": "/roland-lx5-v-arendu/",
+          "label": "Roland LX-5 в аренду"
+        },
+        {
+          "href": "/roland-lx6-v-arendu/",
+          "label": "Roland LX-6 в аренду"
+        },
+        {
+          "href": "/roland-lx9-v-arendu/",
+          "label": "Roland LX-9 в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-kawai/",
+          "label": "Цифровое пианино Kawai в аренду"
+        },
+        {
+          "href": "/kawai-es520-v-arendu/",
+          "label": "Kawai ES520 в аренду"
+        },
+        {
+          "href": "/kawai-es920-v-arendu/",
+          "label": "Kawai ES920 в аренду"
+        },
+        {
+          "href": "/kawai-cn201-v-arendu/",
+          "label": "Kawai CN201 в аренду"
+        },
+        {
+          "href": "/kawai-cn301-v-arendu/",
+          "label": "Kawai CN301 в аренду"
+        },
+        {
+          "href": "/kawai-ca401-v-arendu/",
+          "label": "Kawai CA401 в аренду"
+        },
+        {
+          "href": "/kawai-ca501-v-arendu/",
+          "label": "Kawai CA501 в аренду"
+        },
+        {
+          "href": "/kawai-ca701-v-arendu/",
+          "label": "Kawai CA701 в аренду"
+        },
+        {
+          "href": "/kawai-ca901-v-arendu/",
+          "label": "Kawai CA901 в аренду"
+        },
+        {
+          "href": "/arenda-cifrovogo-pianino-kazan/",
+          "label": "Аренда цифрового пианино в Казани"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-obucheniya/",
+          "label": "Цифровое пианино для обучения в аренду"
+        },
+        {
+          "href": "/kak-vybrat-cifrovoe-pianino-dlya-obucheniya/",
+          "label": "Как выбрать цифровое пианино для обучения"
+        },
+        {
+          "href": "/kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly/",
+          "label": "Какое пианино купить ребёнку для музыкальной школы"
+        },
+        {
+          "href": "/kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly/",
+          "label": "Какое пианино выбрать для музыкальной школы"
+        },
+        {
+          "href": "/pianino-dlya-muzykalnoy-shkoly/",
+          "label": "Пианино для музыкальной школы в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-rannih-zanyatiy/",
+          "label": "Цифровое пианино для занятий рано утром в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-pozdnih-zanyatiy/",
+          "label": "Цифровое пианино для вечерних занятий в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-dvuh-uchenikov/",
+          "label": "Цифровое пианино для двух учеников в семье в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-syemnoy-kvartiry/",
+          "label": "Цифровое пианино для съёмной квартиры в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vremennogo-zhilya/",
+          "label": "Цифровое пианино для временного жилья в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-vtorogo-mesta-zanyatiy/",
+          "label": "Цифровое пианино для второго места занятий в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-distantsionnogo-uroka/",
+          "label": "Цифровое пианино для дистанционного урока в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-zapisi-midi/",
+          "label": "Цифровое пианино для записи MIDI в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-zapisi-audio/",
+          "label": "Цифровое пианино для записи аудио в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-chteniya-s-lista/",
+          "label": "Цифровое пианино для чтения с листа в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-raboty-nad-dinamikoy/",
+          "label": "Цифровое пианино для работы над динамикой в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/",
+          "label": "Цифровое пианино для работы над педалью в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/",
+          "label": "Цифровые пианино с разной механикой в аренду для сравнения"
+        },
+        {
+          "href": "/cifrovoe-pianino-na-probnyy-uchebnyy-period/",
+          "label": "Цифровое пианино на пробный учебный период в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-posle-akusticheskogo/",
+          "label": "Цифровое пианино после акустического в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-pered-perehodom-na-akusticheskoe/",
+          "label": "Цифровое пианино перед переходом на акустическое в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-letney-praktiki/",
+          "label": "Цифровое пианино на лето в аренду"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-ansamblya-doma/",
+          "label": "Цифровое пианино для ансамблевой репетиции дома в аренду"
+        }
+      ]
+    },
+    {
+      "slug": "di-boksy",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/instrumentalnye-mikrofony/",
+          "label": "Если нужен звук инструмента через микрофон"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/radial-jdi-v-arendu/",
+          "label": "Radial JDI"
+        },
+        {
+          "href": "/bas-cherez-di-bez-usilitelya/",
+          "label": "Бас через DI без усилителя в аренду"
+        },
+        {
+          "href": "/di-boks-dlya-akusticheskoy-gitary/",
+          "label": "DI-бокс для акустической гитары в аренду"
+        },
+        {
+          "href": "/di-boks-dlya-bas-gitary/",
+          "label": "DI-бокс для бас-гитары в аренду"
+        },
+        {
+          "href": "/passivnyy-di-boks-dlya-pervogo-opyta/",
+          "label": "Пассивный DI-бокс для первого опыта в аренду"
+        },
+        {
+          "href": "/di-boks-pered-pokupkoy/",
+          "label": "DI-бокс в аренду перед покупкой"
+        }
+      ],
+      "after": [
+        {
+          "href": "/radial-jdi-v-arendu/",
+          "label": "Radial JDI"
+        },
+        {
+          "href": "/instrumentalnye-mikrofony/",
+          "label": "Если нужен звук инструмента через микрофон"
+        },
+        {
+          "href": "/bas-cherez-di-bez-usilitelya/",
+          "label": "Бас через DI без усилителя в аренду"
+        },
+        {
+          "href": "/di-boks-dlya-akusticheskoy-gitary/",
+          "label": "DI-бокс для акустической гитары в аренду"
+        },
+        {
+          "href": "/di-boks-dlya-bas-gitary/",
+          "label": "DI-бокс для бас-гитары в аренду"
+        },
+        {
+          "href": "/passivnyy-di-boks-dlya-pervogo-opyta/",
+          "label": "Пассивный DI-бокс для первого опыта в аренду"
+        },
+        {
+          "href": "/di-boks-pered-pokupkoy/",
+          "label": "DI-бокс в аренду перед покупкой"
+        }
+      ]
+    },
+    {
+      "slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/klavishnaya-stoyka/",
+          "label": "Проверить опоры и второй ярус"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/stage-piano-po-rayderu/",
+          "label": "Сценическое пианино по райдеру"
+        },
+        {
+          "href": "/workstation-po-rayderu/",
+          "label": "Клавишная рабочая станция по райдеру"
+        }
+      ],
+      "after": [
+        {
+          "href": "/stage-piano-po-rayderu/",
+          "label": "Сценическое пианино по райдеру"
+        },
+        {
+          "href": "/workstation-po-rayderu/",
+          "label": "Клавишная рабочая станция по райдеру"
+        },
+        {
+          "href": "/klavishnaya-stoyka/",
+          "label": "Проверить опоры и второй ярус"
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Учебный комплект с комбиком"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/poluakusticheskaya-gitara/",
+          "label": "Полуакустическая гитара"
+        },
+        {
+          "href": "/bariton-gitara/",
+          "label": "Баритонная конфигурация"
+        },
+        {
+          "href": "/gitara-dlya-levshi/",
+          "label": "Левостороннее исполнение"
+        },
+        {
+          "href": "/elektrogitara-dlya-pervyh-repetitsiy/",
+          "label": "Для первых репетиций"
+        },
+        {
+          "href": "/elektrogitara-v-ponizhennom-stroe/",
+          "label": "Для пониженного строя"
+        },
+        {
+          "href": "/yamaha-pac112v-v-arendu/",
+          "label": "Yamaha PAC112V"
+        },
+        {
+          "href": "/fender-player-ii-stratocaster-sss-v-arendu/",
+          "label": "Player II Stratocaster SSS"
+        },
+        {
+          "href": "/fender-player-ii-telecaster-v-arendu/",
+          "label": "Player II Telecaster"
+        },
+        {
+          "href": "/elektrogitara-dlya-studii/",
+          "label": "Для студии"
+        },
+        {
+          "href": "/elektrogitara-dlya-kontserta/",
+          "label": "Для концерта"
+        },
+        {
+          "href": "/elektrogitara-dlya-repetitsii/",
+          "label": "Для репетиций"
+        },
+        {
+          "href": "/elektrogitara-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/fender-american-professional-ii-stratocaster-v-arendu/",
+          "label": "Fender American Professional II Stratocaster"
+        },
+        {
+          "href": "/gibson-les-paul-standard-60s-v-arendu/",
+          "label": "Gibson Les Paul Standard 60s"
+        },
+        {
+          "href": "/fender-american-professional-ii-telecaster-v-arendu/",
+          "label": "Fender American Professional II Telecaster"
+        },
+        {
+          "href": "/gibson-sg-standard-v-arendu/",
+          "label": "Gibson SG Standard"
+        },
+        {
+          "href": "/squier-affinity-stratocaster-v-arendu/",
+          "label": "Squier Affinity Stratocaster"
+        },
+        {
+          "href": "/squier-mini-stratocaster-v-arendu/",
+          "label": "Squier Mini Stratocaster"
+        },
+        {
+          "href": "/ibanez-pgmm31-v-arendu/",
+          "label": "Ibanez PGMM31 miKro"
+        },
+        {
+          "href": "/elektrogitara-dlya-nebolshoy-ruki/",
+          "label": "Для небольшой руки"
+        },
+        {
+          "href": "/instrumenty-dlya-indie-gruppy/",
+          "label": "Инструменты для инди-группы в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-pervogo-instrumenta/",
+          "label": "Первая электрогитара в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-domashnih-zanyatiy/",
+          "label": "Электрогитара для домашних занятий в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-perehoda-s-akusticheskoy/",
+          "label": "Электрогитара после акустической в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-perehoda-s-klassicheskoy/",
+          "label": "Электрогитара после классической в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-chistogo-zvuka/",
+          "label": "Электрогитара для чистого звука в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-peregruza/",
+          "label": "Электрогитара для перегруза в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-fanka/",
+          "label": "Электрогитара для фанка в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-blyuza/",
+          "label": "Электрогитара для блюза в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-tyazhelogo-stroya/",
+          "label": "Электрогитара для тяжёлого пониженного строя в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-otkrytyh-stroev/",
+          "label": "Электрогитара для открытых строев в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-fiksirovannym-bridzhem/",
+          "label": "Электрогитара с фиксированным бриджем в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-tremolo/",
+          "label": "Электрогитара с тремоло в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-hss-datchikami/",
+          "label": "Электрогитара HSS в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-tremya-singlami/",
+          "label": "Электрогитара с тремя синглами в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-dvumya-hambakerami/",
+          "label": "Электрогитара с двумя хамбакерами в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-slayda/",
+          "label": "Электрогитара для слайда в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-zapisi-napryamuyu/",
+          "label": "Электрогитара для прямой записи в интерфейс в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-sessii/",
+          "label": "Электрогитара для студийной сессии в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-zameny-na-gastrolyah/",
+          "label": "Электрогитара на замену в гастролях в аренду"
+        },
+        {
+          "href": "/elektrogitara-pered-pokupkoy/",
+          "label": "Электрогитара в аренду перед покупкой"
+        }
+      ],
+      "after": [
+        {
+          "href": "/poluakusticheskaya-gitara/",
+          "label": "Полуакустическая гитара"
+        },
+        {
+          "href": "/bariton-gitara/",
+          "label": "Баритонная конфигурация"
+        },
+        {
+          "href": "/gitara-dlya-levshi/",
+          "label": "Левостороннее исполнение"
+        },
+        {
+          "href": "/elektrogitara-dlya-pervyh-repetitsiy/",
+          "label": "Для первых репетиций"
+        },
+        {
+          "href": "/elektrogitara-v-ponizhennom-stroe/",
+          "label": "Для пониженного строя"
+        },
+        {
+          "href": "/yamaha-pac112v-v-arendu/",
+          "label": "Yamaha PAC112V"
+        },
+        {
+          "href": "/fender-player-ii-stratocaster-sss-v-arendu/",
+          "label": "Player II Stratocaster SSS"
+        },
+        {
+          "href": "/fender-player-ii-telecaster-v-arendu/",
+          "label": "Player II Telecaster"
+        },
+        {
+          "href": "/elektrogitara-dlya-studii/",
+          "label": "Для студии"
+        },
+        {
+          "href": "/elektrogitara-dlya-kontserta/",
+          "label": "Для концерта"
+        },
+        {
+          "href": "/elektrogitara-dlya-repetitsii/",
+          "label": "Для репетиций"
+        },
+        {
+          "href": "/elektrogitara-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/fender-american-professional-ii-stratocaster-v-arendu/",
+          "label": "Fender American Professional II Stratocaster"
+        },
+        {
+          "href": "/gibson-les-paul-standard-60s-v-arendu/",
+          "label": "Gibson Les Paul Standard 60s"
+        },
+        {
+          "href": "/fender-american-professional-ii-telecaster-v-arendu/",
+          "label": "Fender American Professional II Telecaster"
+        },
+        {
+          "href": "/gibson-sg-standard-v-arendu/",
+          "label": "Gibson SG Standard"
+        },
+        {
+          "href": "/squier-affinity-stratocaster-v-arendu/",
+          "label": "Squier Affinity Stratocaster"
+        },
+        {
+          "href": "/squier-mini-stratocaster-v-arendu/",
+          "label": "Squier Mini Stratocaster"
+        },
+        {
+          "href": "/ibanez-pgmm31-v-arendu/",
+          "label": "Ibanez PGMM31 miKro"
+        },
+        {
+          "href": "/elektrogitara-dlya-nebolshoy-ruki/",
+          "label": "Для небольшой руки"
+        },
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Учебный комплект с комбиком"
+        },
+        {
+          "href": "/instrumenty-dlya-indie-gruppy/",
+          "label": "Инструменты для инди-группы в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-pervogo-instrumenta/",
+          "label": "Первая электрогитара в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-domashnih-zanyatiy/",
+          "label": "Электрогитара для домашних занятий в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-perehoda-s-akusticheskoy/",
+          "label": "Электрогитара после акустической в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-perehoda-s-klassicheskoy/",
+          "label": "Электрогитара после классической в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-chistogo-zvuka/",
+          "label": "Электрогитара для чистого звука в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-peregruza/",
+          "label": "Электрогитара для перегруза в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-fanka/",
+          "label": "Электрогитара для фанка в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-blyuza/",
+          "label": "Электрогитара для блюза в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-tyazhelogo-stroya/",
+          "label": "Электрогитара для тяжёлого пониженного строя в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-otkrytyh-stroev/",
+          "label": "Электрогитара для открытых строев в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-fiksirovannym-bridzhem/",
+          "label": "Электрогитара с фиксированным бриджем в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-tremolo/",
+          "label": "Электрогитара с тремоло в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-hss-datchikami/",
+          "label": "Электрогитара HSS в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-tremya-singlami/",
+          "label": "Электрогитара с тремя синглами в аренду"
+        },
+        {
+          "href": "/elektrogitara-s-dvumya-hambakerami/",
+          "label": "Электрогитара с двумя хамбакерами в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-slayda/",
+          "label": "Электрогитара для слайда в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-zapisi-napryamuyu/",
+          "label": "Электрогитара для прямой записи в интерфейс в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-sessii/",
+          "label": "Электрогитара для студийной сессии в аренду"
+        },
+        {
+          "href": "/elektrogitara-dlya-zameny-na-gastrolyah/",
+          "label": "Электрогитара на замену в гастролях в аренду"
+        },
+        {
+          "href": "/elektrogitara-pered-pokupkoy/",
+          "label": "Электрогитара в аренду перед покупкой"
+        }
+      ]
+    },
+    {
+      "slug": "elektrogitara-dlya-domashnih-zanyatiy",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Если нужны и гитара, и комбик"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/yamaha-pac112v-v-arendu/",
+          "label": "Yamaha Pacifica PAC112V"
+        },
+        {
+          "href": "/boss-katana50-gen3-v-arendu/",
+          "label": "BOSS Katana-50 Gen 3"
+        }
+      ],
+      "after": [
+        {
+          "href": "/yamaha-pac112v-v-arendu/",
+          "label": "Yamaha Pacifica PAC112V"
+        },
+        {
+          "href": "/boss-katana50-gen3-v-arendu/",
+          "label": "BOSS Katana-50 Gen 3"
+        },
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Если нужны и гитара, и комбик"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/dj-oborudovanie/",
+          "label": "Оборудование для диджеев"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/sintezatory/",
+          "label": "Синтезаторы"
+        },
+        {
+          "href": "/elektronnaya-perkussiya/",
+          "label": "Электронная перкуссия"
+        },
+        {
+          "href": "/dram-mashiny/",
+          "label": "Драм-машины"
+        },
+        {
+          "href": "/semplery/",
+          "label": "Семплеры"
+        },
+        {
+          "href": "/elektronnye-duhovye/",
+          "label": "Электронные духовые"
+        },
+        {
+          "href": "/termenvoks/",
+          "label": "Терменвокс"
+        },
+        {
+          "href": "/midi-klaviatury/",
+          "label": "Музыкальные контроллеры"
+        },
+        {
+          "href": "/elektricheskaya-arfa/",
+          "label": "Электрическая арфа"
+        },
+        {
+          "href": "/lup-stantsiya/",
+          "label": "Луп-станция"
+        },
+        {
+          "href": "/elektroskripka/",
+          "label": "Электроскрипка"
+        },
+        {
+          "href": "/elektroviolonchel/",
+          "label": "Электровиолончель"
+        },
+        {
+          "href": "/elektricheskiy-kontrabas/",
+          "label": "Электрический контрабас"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "По рекомендации преподавателя"
+        },
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "По требованиям к качеству"
+        }
+      ],
+      "after": [
+        {
+          "href": "/sintezatory/",
+          "label": "Синтезаторы"
+        },
+        {
+          "href": "/elektronnaya-perkussiya/",
+          "label": "Электронная перкуссия"
+        },
+        {
+          "href": "/dram-mashiny/",
+          "label": "Драм-машины"
+        },
+        {
+          "href": "/semplery/",
+          "label": "Семплеры"
+        },
+        {
+          "href": "/elektronnye-duhovye/",
+          "label": "Электронные духовые"
+        },
+        {
+          "href": "/termenvoks/",
+          "label": "Терменвокс"
+        },
+        {
+          "href": "/midi-klaviatury/",
+          "label": "Музыкальные контроллеры"
+        },
+        {
+          "href": "/elektricheskaya-arfa/",
+          "label": "Электрическая арфа"
+        },
+        {
+          "href": "/lup-stantsiya/",
+          "label": "Луп-станция"
+        },
+        {
+          "href": "/elektroskripka/",
+          "label": "Электроскрипка"
+        },
+        {
+          "href": "/elektroviolonchel/",
+          "label": "Электровиолончель"
+        },
+        {
+          "href": "/elektricheskiy-kontrabas/",
+          "label": "Электрический контрабас"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "По рекомендации преподавателя"
+        },
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "По требованиям к качеству"
+        },
+        {
+          "href": "/dj-oborudovanie/",
+          "label": "Оборудование для диджеев"
+        }
+      ]
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/stul-dlya-barabanshchika/",
+          "label": "Уточнить стул в домашнем комплекте"
+        },
+        {
+          "href": "/pedal-dlya-bas-barabana/",
+          "label": "Согласовать педаль и крепление"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/elektronnye-barabany-dlya-kvartiry/",
+          "label": "Электронные барабаны для квартиры"
+        },
+        {
+          "href": "/roland-td17kvx2-v-arendu/",
+          "label": "Roland TD-17KVX2"
+        }
+      ],
+      "after": [
+        {
+          "href": "/elektronnye-barabany-dlya-kvartiry/",
+          "label": "Электронные барабаны для квартиры"
+        },
+        {
+          "href": "/roland-td17kvx2-v-arendu/",
+          "label": "Roland TD-17KVX2"
+        },
+        {
+          "href": "/stul-dlya-barabanshchika/",
+          "label": "Уточнить стул в домашнем комплекте"
+        },
+        {
+          "href": "/pedal-dlya-bas-barabana/",
+          "label": "Согласовать педаль и крепление"
+        }
+      ]
+    },
+    {
+      "slug": "fortepiano",
+      "explicit_source_navigation_changed": false,
+      "added": [
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Прокат регулируемой банкетки для пианиста"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/akusticheskoe-pianino/",
+          "label": "Акустическое пианино"
+        },
+        {
+          "href": "/royal/",
+          "label": "Рояль"
+        },
+        {
+          "href": "/cifrovoe-pianino/",
+          "label": "Цифровое пианино"
+        },
+        {
+          "href": "/instrumenty-dlya-fortepiannogo-trio/",
+          "label": "Для фортепианного трио"
+        },
+        {
+          "href": "/pianino-dlya-igry-v-chetyre-ruki/",
+          "label": "В четыре руки"
+        },
+        {
+          "href": "/pianino-dlya-horovoy-repetitsii/",
+          "label": "Для репетиций хора"
+        },
+        {
+          "href": "/pianino-dlya-baletnogo-klassa/",
+          "label": "Для балетного класса"
+        },
+        {
+          "href": "/pianino-dlya-videozayavki/",
+          "label": "Для видеозаявки"
+        },
+        {
+          "href": "/pianino-s-pedalyu-sostenuto/",
+          "label": "С педалью sostenuto"
+        },
+        {
+          "href": "/pianino-s-rovnoy-klaviaturoy/",
+          "label": "Ровная клавиатура"
+        },
+        {
+          "href": "/pianino-s-upravlyaemym-tihim-zvukom/",
+          "label": "Управляемое пианиссимо"
+        },
+        {
+          "href": "/arenda-pianino-moskva/",
+          "label": "Аренда пианино в Москве"
+        },
+        {
+          "href": "/instrumenty-dlya-fortepiannogo-kvarteta/",
+          "label": "Инструменты для фортепианного квартета в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-fortepiannogo-kvinteta/",
+          "label": "Инструменты для фортепианного квинтета в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-pervogo-dueta-s-fortepiano/",
+          "label": "Инструменты для первого дуэта с фортепиано в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-vokalnogo-dueta-s-fortepiano/",
+          "label": "Инструменты для дуэта голоса и фортепиано в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-horovogo-akkompanementa/",
+          "label": "Инструменты для хорового аккомпанемента в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-kamernogo-hora-s-ansamblem/",
+          "label": "Инструменты для камерного хора с ансамблем в аренду"
+        }
+      ],
+      "after": [
+        {
+          "href": "/akusticheskoe-pianino/",
+          "label": "Акустическое пианино"
+        },
+        {
+          "href": "/royal/",
+          "label": "Рояль"
+        },
+        {
+          "href": "/cifrovoe-pianino/",
+          "label": "Цифровое пианино"
+        },
+        {
+          "href": "/instrumenty-dlya-fortepiannogo-trio/",
+          "label": "Для фортепианного трио"
+        },
+        {
+          "href": "/pianino-dlya-igry-v-chetyre-ruki/",
+          "label": "В четыре руки"
+        },
+        {
+          "href": "/pianino-dlya-horovoy-repetitsii/",
+          "label": "Для репетиций хора"
+        },
+        {
+          "href": "/pianino-dlya-baletnogo-klassa/",
+          "label": "Для балетного класса"
+        },
+        {
+          "href": "/pianino-dlya-videozayavki/",
+          "label": "Для видеозаявки"
+        },
+        {
+          "href": "/pianino-s-pedalyu-sostenuto/",
+          "label": "С педалью sostenuto"
+        },
+        {
+          "href": "/pianino-s-rovnoy-klaviaturoy/",
+          "label": "Ровная клавиатура"
+        },
+        {
+          "href": "/pianino-s-upravlyaemym-tihim-zvukom/",
+          "label": "Управляемое пианиссимо"
+        },
+        {
+          "href": "/arenda-pianino-moskva/",
+          "label": "Аренда пианино в Москве"
+        },
+        {
+          "href": "/instrumenty-dlya-fortepiannogo-kvarteta/",
+          "label": "Инструменты для фортепианного квартета в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-fortepiannogo-kvinteta/",
+          "label": "Инструменты для фортепианного квинтета в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-pervogo-dueta-s-fortepiano/",
+          "label": "Инструменты для первого дуэта с фортепиано в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-vokalnogo-dueta-s-fortepiano/",
+          "label": "Инструменты для дуэта голоса и фортепиано в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-horovogo-akkompanementa/",
+          "label": "Инструменты для хорового аккомпанемента в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-kamernogo-hora-s-ansamblem/",
+          "label": "Инструменты для камерного хора с ансамблем в аренду"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Прокат регулируемой банкетки для пианиста"
+        }
+      ]
+    },
+    {
+      "slug": "gitarnye-usiliteli",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Собрать гитару и комбик для занятий"
+        },
+        {
+          "href": "/stoyka-dlya-kombika/",
+          "label": "Поставить комбик на подходящую опору"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/fender-65-twin-reverb-v-arendu/",
+          "label": "Fender '65 Twin Reverb"
+        },
+        {
+          "href": "/fender-65-deluxe-reverb-v-arendu/",
+          "label": "Fender '65 Deluxe Reverb"
+        },
+        {
+          "href": "/vox-ac30c2-v-arendu/",
+          "label": "Vox AC30C2"
+        },
+        {
+          "href": "/marshall-jcm800-2203-v-arendu/",
+          "label": "Marshall JCM800 2203"
+        },
+        {
+          "href": "/roland-jc120-v-arendu/",
+          "label": "Roland JC-120"
+        },
+        {
+          "href": "/evh-5150iii-100s-v-arendu/",
+          "label": "EVH 5150III 100S"
+        },
+        {
+          "href": "/orange-rockerverb-50-mkiii-v-arendu/",
+          "label": "Orange Rockerverb 50 MKIII"
+        },
+        {
+          "href": "/mesa-dual-rectifier-v-arendu/",
+          "label": "Mesa Dual Rectifier"
+        },
+        {
+          "href": "/boss-katana50-gen3-v-arendu/",
+          "label": "BOSS Katana-50 Gen 3"
+        },
+        {
+          "href": "/fender-mustang-lt25-v-arendu/",
+          "label": "Fender Mustang LT25"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-pervogo-kontserta/",
+          "label": "Гитарный усилитель для первого концерта в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-klina/",
+          "label": "Гитарный усилитель для чистого звука в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-krancha/",
+          "label": "Гитарный усилитель для кранча в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-high-gain/",
+          "label": "Гитарный усилитель с плотным перегрузом (high-gain) в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-studii/",
+          "label": "Гитарный усилитель для студийной записи в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-repetitsii/",
+          "label": "Гитарный усилитель для репетиции в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-pered-pokupkoy/",
+          "label": "Гитарный усилитель в аренду перед покупкой"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-gastrolnoy-zameny/",
+          "label": "Гитарный усилитель на замену в гастролях в аренду"
+        },
+        {
+          "href": "/golova-i-kabinet-dlya-kontserta/",
+          "label": "Гитарная голова и кабинет для концерта в аренду"
+        },
+        {
+          "href": "/combo-ili-golova-i-kabinet/",
+          "label": "Комбоусилитель или голова с кабинетом в аренду для сравнения"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-maloy-stseny/",
+          "label": "Гитарный усилитель для небольшой сцены в аренду"
+        }
+      ],
+      "after": [
+        {
+          "href": "/fender-65-twin-reverb-v-arendu/",
+          "label": "Fender '65 Twin Reverb"
+        },
+        {
+          "href": "/fender-65-deluxe-reverb-v-arendu/",
+          "label": "Fender '65 Deluxe Reverb"
+        },
+        {
+          "href": "/vox-ac30c2-v-arendu/",
+          "label": "Vox AC30C2"
+        },
+        {
+          "href": "/marshall-jcm800-2203-v-arendu/",
+          "label": "Marshall JCM800 2203"
+        },
+        {
+          "href": "/roland-jc120-v-arendu/",
+          "label": "Roland JC-120"
+        },
+        {
+          "href": "/evh-5150iii-100s-v-arendu/",
+          "label": "EVH 5150III 100S"
+        },
+        {
+          "href": "/orange-rockerverb-50-mkiii-v-arendu/",
+          "label": "Orange Rockerverb 50 MKIII"
+        },
+        {
+          "href": "/mesa-dual-rectifier-v-arendu/",
+          "label": "Mesa Dual Rectifier"
+        },
+        {
+          "href": "/boss-katana50-gen3-v-arendu/",
+          "label": "BOSS Katana-50 Gen 3"
+        },
+        {
+          "href": "/fender-mustang-lt25-v-arendu/",
+          "label": "Fender Mustang LT25"
+        },
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Собрать гитару и комбик для занятий"
+        },
+        {
+          "href": "/stoyka-dlya-kombika/",
+          "label": "Поставить комбик на подходящую опору"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-pervogo-kontserta/",
+          "label": "Гитарный усилитель для первого концерта в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-klina/",
+          "label": "Гитарный усилитель для чистого звука в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-krancha/",
+          "label": "Гитарный усилитель для кранча в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-high-gain/",
+          "label": "Гитарный усилитель с плотным перегрузом (high-gain) в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-studii/",
+          "label": "Гитарный усилитель для студийной записи в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-repetitsii/",
+          "label": "Гитарный усилитель для репетиции в аренду"
+        },
+        {
+          "href": "/gitarnyy-usilitel-pered-pokupkoy/",
+          "label": "Гитарный усилитель в аренду перед покупкой"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-gastrolnoy-zameny/",
+          "label": "Гитарный усилитель на замену в гастролях в аренду"
+        },
+        {
+          "href": "/golova-i-kabinet-dlya-kontserta/",
+          "label": "Гитарная голова и кабинет для концерта в аренду"
+        },
+        {
+          "href": "/combo-ili-golova-i-kabinet/",
+          "label": "Комбоусилитель или голова с кабинетом в аренду для сравнения"
+        },
+        {
+          "href": "/gitarnyy-usilitel-dlya-maloy-stseny/",
+          "label": "Гитарный усилитель для небольшой сцены в аренду"
+        }
+      ]
+    },
+    {
+      "slug": "gitary",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Гитара и комбик для первых занятий"
+        },
+        {
+          "href": "/bas-gitara-s-kombikom-dlya-obucheniya/",
+          "label": "Бас-гитара с усилением для обучения"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/klassicheskaya-gitara/",
+          "label": "Классическая гитара"
+        },
+        {
+          "href": "/akusticheskaya-gitara/",
+          "label": "Акустическая гитара"
+        },
+        {
+          "href": "/elektroakusticheskaya-gitara/",
+          "label": "Электроакустическая гитара"
+        },
+        {
+          "href": "/elektrogitara/",
+          "label": "Электрогитара"
+        },
+        {
+          "href": "/bas-gitara/",
+          "label": "Бас-гитара"
+        },
+        {
+          "href": "/specialnye-gitary/",
+          "label": "Специальные и редкие гитары"
+        },
+        {
+          "href": "/gitara-dlya-levshi/",
+          "label": "Гитара для левши"
+        },
+        {
+          "href": "/gitara-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/gitara-dlya-semki-klipa/",
+          "label": "Для съёмки клипа"
+        },
+        {
+          "href": "/gitary-dlya-dueta/",
+          "label": "Гитарный дуэт"
+        },
+        {
+          "href": "/gitara-s-nizkoy-vysotoy-strun/",
+          "label": "Удобная высота струн"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "По рекомендации преподавателя"
+        },
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "По требованиям к качеству"
+        }
+      ],
+      "after": [
+        {
+          "href": "/klassicheskaya-gitara/",
+          "label": "Классическая гитара"
+        },
+        {
+          "href": "/akusticheskaya-gitara/",
+          "label": "Акустическая гитара"
+        },
+        {
+          "href": "/elektroakusticheskaya-gitara/",
+          "label": "Электроакустическая гитара"
+        },
+        {
+          "href": "/elektrogitara/",
+          "label": "Электрогитара"
+        },
+        {
+          "href": "/bas-gitara/",
+          "label": "Бас-гитара"
+        },
+        {
+          "href": "/specialnye-gitary/",
+          "label": "Специальные и редкие гитары"
+        },
+        {
+          "href": "/gitara-dlya-levshi/",
+          "label": "Гитара для левши"
+        },
+        {
+          "href": "/gitara-na-vremya-remonta/",
+          "label": "На время ремонта"
+        },
+        {
+          "href": "/gitara-dlya-semki-klipa/",
+          "label": "Для съёмки клипа"
+        },
+        {
+          "href": "/gitary-dlya-dueta/",
+          "label": "Гитарный дуэт"
+        },
+        {
+          "href": "/gitara-s-nizkoy-vysotoy-strun/",
+          "label": "Удобная высота струн"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "По рекомендации преподавателя"
+        },
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "По требованиям к качеству"
+        },
+        {
+          "href": "/elektrogitara-s-kombikom-dlya-obucheniya/",
+          "label": "Гитара и комбик для первых занятий"
+        },
+        {
+          "href": "/bas-gitara-s-kombikom-dlya-obucheniya/",
+          "label": "Бас-гитара с усилением для обучения"
+        }
+      ]
+    },
+    {
+      "slug": "instrument-esli-ne-hvataet-monitoringa",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/scenicheskie-monitory/",
+          "label": "Настроить напольный монитор"
+        },
+        {
+          "href": "/personalnyy-ushnoy-monitoring/",
+          "label": "Получить личный баланс в наушники"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "Выбор по качеству"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "Рекомендация преподавателя"
+        },
+        {
+          "href": "/instrument-esli-nuzhno-podklyuchit-v-pult/",
+          "label": "Подключение в пульт"
+        },
+        {
+          "href": "/elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy/",
+          "label": "Электроакустика на репетиции с группой"
+        }
+      ],
+      "after": [
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "Выбор по качеству"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "Рекомендация преподавателя"
+        },
+        {
+          "href": "/instrument-esli-nuzhno-podklyuchit-v-pult/",
+          "label": "Подключение в пульт"
+        },
+        {
+          "href": "/elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy/",
+          "label": "Электроакустика на репетиции с группой"
+        },
+        {
+          "href": "/scenicheskie-monitory/",
+          "label": "Настроить напольный монитор"
+        },
+        {
+          "href": "/personalnyy-ushnoy-monitoring/",
+          "label": "Получить личный баланс в наушники"
+        }
+      ]
+    },
+    {
+      "slug": "korpusnoe-cifrovoe-pianino",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/yamaha-ydps35-v-arendu/",
+          "label": "Тонкий корпус YDP-S35"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Высота банкетки"
+        },
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Если нужен рояльный корпус"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/kompaktnoe-cifrovoe-pianino/",
+          "label": "Место для корпуса и банкетки"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/",
+          "label": "Педаль в ежедневной практике"
+        }
+      ],
+      "after": [
+        {
+          "href": "/kompaktnoe-cifrovoe-pianino/",
+          "label": "Место для корпуса и банкетки"
+        },
+        {
+          "href": "/cifrovoe-pianino-dlya-raboty-nad-pedalyu/",
+          "label": "Педаль в ежедневной практике"
+        },
+        {
+          "href": "/yamaha-ydps35-v-arendu/",
+          "label": "Тонкий корпус YDP-S35"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Высота банкетки"
+        },
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Если нужен рояльный корпус"
+        }
+      ]
+    },
+    {
+      "slug": "lup-stantsiya-dlya-vokala",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/vokalnye-mikrofony/",
+          "label": "Выбрать микрофон для записи голоса в петлю"
+        },
+        {
+          "href": "/scenicheskie-monitory/",
+          "label": "Услышать записанные слои на сцене"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/instrumenty-dlya-vokalnogo-dueta-s-gitaroy/",
+          "label": "Инструменты для вокального дуэта с гитарой"
+        },
+        {
+          "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+          "label": "Инструменты для одновременной записи в студии"
+        }
+      ],
+      "after": [
+        {
+          "href": "/instrumenty-dlya-vokalnogo-dueta-s-gitaroy/",
+          "label": "Инструменты для вокального дуэта с гитарой"
+        },
+        {
+          "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+          "label": "Инструменты для одновременной записи в студии"
+        },
+        {
+          "href": "/vokalnye-mikrofony/",
+          "label": "Выбрать микрофон для записи голоса в петлю"
+        },
+        {
+          "href": "/scenicheskie-monitory/",
+          "label": "Услышать записанные слои на сцене"
+        }
+      ]
+    },
+    {
+      "slug": "perkussiya-dlya-akusticheskogo-kontserta",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/stolik-dlya-perkussii/",
+          "label": "Разложить инструменты для быстрой смены"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/kabasa/",
+          "label": "Кабаса"
+        },
+        {
+          "href": "/marakasy/",
+          "label": "Маракасы"
+        }
+      ],
+      "after": [
+        {
+          "href": "/kabasa/",
+          "label": "Кабаса"
+        },
+        {
+          "href": "/marakasy/",
+          "label": "Маракасы"
+        },
+        {
+          "href": "/stolik-dlya-perkussii/",
+          "label": "Разложить инструменты для быстрой смены"
+        }
+      ]
+    },
+    {
+      "slug": "royal",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/kabinetnyy-royal/",
+          "label": "Кабинетный и малый формат"
+        },
+        {
+          "href": "/belyy-royal/",
+          "label": "Белый сценический образ"
+        },
+        {
+          "href": "/chernyy-royal/",
+          "label": "Чёрный рояль"
+        },
+        {
+          "href": "/krasnyy-royal/",
+          "label": "Красный рояль"
+        },
+        {
+          "href": "/royal-dlya-foye/",
+          "label": "Живая музыка в фойе"
+        },
+        {
+          "href": "/kawai-gl10-v-arendu/",
+          "label": "Акустический рояль Kawai GL-10 в аренду"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/royal-dlya-zapisi/",
+          "label": "Для студийной записи"
+        },
+        {
+          "href": "/royal-dlya-vokalnogo-kontserta/",
+          "label": "Для вокального концерта"
+        },
+        {
+          "href": "/royal-dlya-konkursa/",
+          "label": "Для конкурса"
+        },
+        {
+          "href": "/royal-dlya-repetitsii/",
+          "label": "Для репетиции"
+        },
+        {
+          "href": "/royal-dlya-kamernogo-kontserta/",
+          "label": "Для камерного концерта"
+        },
+        {
+          "href": "/royal-dlya-semki/",
+          "label": "Для съёмки"
+        },
+        {
+          "href": "/yamaha-gb1k-v-arendu/",
+          "label": "GB1K"
+        },
+        {
+          "href": "/yamaha-c3x-v-arendu/",
+          "label": "C3X"
+        },
+        {
+          "href": "/yamaha-c7x-v-arendu/",
+          "label": "C7X"
+        },
+        {
+          "href": "/dva-royalya-dlya-fortepiannogo-dueta/",
+          "label": "Два рояля для дуэта"
+        },
+        {
+          "href": "/steinway-d274-v-arendu/",
+          "label": "Steinway D‑274"
+        },
+        {
+          "href": "/steinway-b211-v-arendu/",
+          "label": "Steinway B‑211"
+        },
+        {
+          "href": "/yamaha-cfx-v-arendu/",
+          "label": "Yamaha CFX"
+        },
+        {
+          "href": "/boesendorfer-280vc-v-arendu/",
+          "label": "Bösendorfer 280VC"
+        },
+        {
+          "href": "/fazioli-f278-v-arendu/",
+          "label": "Fazioli F278"
+        },
+        {
+          "href": "/arenda-koncertnogo-royalya-moskva/",
+          "label": "Аренда концертного рояля в Москве"
+        }
+      ],
+      "after": [
+        {
+          "href": "/royal-dlya-zapisi/",
+          "label": "Для студийной записи"
+        },
+        {
+          "href": "/royal-dlya-vokalnogo-kontserta/",
+          "label": "Для вокального концерта"
+        },
+        {
+          "href": "/royal-dlya-konkursa/",
+          "label": "Для конкурса"
+        },
+        {
+          "href": "/royal-dlya-repetitsii/",
+          "label": "Для репетиции"
+        },
+        {
+          "href": "/royal-dlya-kamernogo-kontserta/",
+          "label": "Для камерного концерта"
+        },
+        {
+          "href": "/royal-dlya-semki/",
+          "label": "Для съёмки"
+        },
+        {
+          "href": "/yamaha-gb1k-v-arendu/",
+          "label": "GB1K"
+        },
+        {
+          "href": "/yamaha-c3x-v-arendu/",
+          "label": "C3X"
+        },
+        {
+          "href": "/yamaha-c7x-v-arendu/",
+          "label": "C7X"
+        },
+        {
+          "href": "/dva-royalya-dlya-fortepiannogo-dueta/",
+          "label": "Два рояля для дуэта"
+        },
+        {
+          "href": "/steinway-d274-v-arendu/",
+          "label": "Steinway D‑274"
+        },
+        {
+          "href": "/steinway-b211-v-arendu/",
+          "label": "Steinway B‑211"
+        },
+        {
+          "href": "/yamaha-cfx-v-arendu/",
+          "label": "Yamaha CFX"
+        },
+        {
+          "href": "/boesendorfer-280vc-v-arendu/",
+          "label": "Bösendorfer 280VC"
+        },
+        {
+          "href": "/fazioli-f278-v-arendu/",
+          "label": "Fazioli F278"
+        },
+        {
+          "href": "/kabinetnyy-royal/",
+          "label": "Кабинетный и малый формат"
+        },
+        {
+          "href": "/belyy-royal/",
+          "label": "Белый сценический образ"
+        },
+        {
+          "href": "/chernyy-royal/",
+          "label": "Чёрный рояль"
+        },
+        {
+          "href": "/krasnyy-royal/",
+          "label": "Красный рояль"
+        },
+        {
+          "href": "/royal-dlya-foye/",
+          "label": "Живая музыка в фойе"
+        },
+        {
+          "href": "/arenda-koncertnogo-royalya-moskva/",
+          "label": "Аренда концертного рояля в Москве"
+        },
+        {
+          "href": "/kawai-gl10-v-arendu/",
+          "label": "Акустический рояль Kawai GL-10 в аренду"
+        }
+      ]
+    },
+    {
+      "slug": "royal-dlya-semki",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/belyy-royal/",
+          "label": "Белый корпус в оформлении"
+        },
+        {
+          "href": "/krasnyy-royal/",
+          "label": "Красный цветовой акцент"
+        },
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Цифровой рояль в кадре"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/royal-dlya-zapisi/",
+          "label": "Рояль для студийной записи"
+        },
+        {
+          "href": "/pianino-dlya-sravneniya-s-royalem/",
+          "label": "Сравнить пианино и рояль"
+        }
+      ],
+      "after": [
+        {
+          "href": "/royal-dlya-zapisi/",
+          "label": "Рояль для студийной записи"
+        },
+        {
+          "href": "/pianino-dlya-sravneniya-s-royalem/",
+          "label": "Сравнить пианино и рояль"
+        },
+        {
+          "href": "/belyy-royal/",
+          "label": "Белый корпус в оформлении"
+        },
+        {
+          "href": "/krasnyy-royal/",
+          "label": "Красный цветовой акцент"
+        },
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Цифровой рояль в кадре"
+        }
+      ]
+    },
+    {
+      "slug": "scenicheskie-klavishnye",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/scenicheskiy-zvuk/",
+          "label": "Сценическое усиление и мониторинг"
+        },
+        {
+          "href": "/klavishnaya-stoyka/",
+          "label": "Подобрать стойку под клавишный комплект"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/keytara/",
+          "label": "Кейтара"
+        },
+        {
+          "href": "/klavishnye-dlya-myuzikla/",
+          "label": "Для мюзикла"
+        },
+        {
+          "href": "/nord-stage-4-v-arendu/",
+          "label": "Nord Stage 4"
+        },
+        {
+          "href": "/nord-electro-6d-v-arendu/",
+          "label": "Nord Electro 6D"
+        },
+        {
+          "href": "/roland-rd88ex-v-arendu/",
+          "label": "Roland RD-88 EX"
+        },
+        {
+          "href": "/korg-sv2-v-arendu/",
+          "label": "Korg SV-2"
+        },
+        {
+          "href": "/yamaha-ck61-v-arendu/",
+          "label": "Yamaha CK61"
+        },
+        {
+          "href": "/yamaha-ck88-v-arendu/",
+          "label": "Yamaha CK88"
+        },
+        {
+          "href": "/nord-piano-5-v-arendu/",
+          "label": "Nord Piano 5"
+        },
+        {
+          "href": "/nord-grand-2-v-arendu/",
+          "label": "Nord Grand 2"
+        },
+        {
+          "href": "/nord-stage-3-88-v-arendu/",
+          "label": "Nord Stage 3 88"
+        },
+        {
+          "href": "/yamaha-cp88-v-arendu/",
+          "label": "Yamaha CP88"
+        },
+        {
+          "href": "/roland-rd2000ex-v-arendu/",
+          "label": "Roland RD-2000 EX"
+        },
+        {
+          "href": "/korg-kronos-2-88-v-arendu/",
+          "label": "Korg Kronos 2 88"
+        },
+        {
+          "href": "/yamaha-motif-xf8-v-arendu/",
+          "label": "Yamaha Motif XF8"
+        },
+        {
+          "href": "/yamaha-montage-m8x-v-arendu/",
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "href": "/roland-fantom-8-ex-v-arendu/",
+          "label": "Roland FANTOM 8 EX"
+        },
+        {
+          "href": "/korg-nautilus-88-at-v-arendu/",
+          "label": "Korg NAUTILUS 88 AT"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-po-rayderu/",
+          "label": "Сценические клавишные по райдеру в аренду"
+        },
+        {
+          "href": "/stage-piano-po-rayderu/",
+          "label": "Сценическое пианино по райдеру в аренду"
+        },
+        {
+          "href": "/workstation-po-rayderu/",
+          "label": "Клавишная рабочая станция по райдеру в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-festivalya/",
+          "label": "Клавишные для фестиваля в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-festivalnoy-smeny-artistov/",
+          "label": "Клавишные для быстрой смены артистов на фестивале в аренду"
+        },
+        {
+          "href": "/klavishnye-s-pedalyami-po-rayderu/",
+          "label": "Клавишные с педалями по райдеру в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-stereo-vyhoda/",
+          "label": "Клавишные со стереовыходом в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/",
+          "label": "Клавишные для прямого подключения в пульт в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-upravleniya-vneshnimi-modulyami/",
+          "label": "Сценические клавишные для управления внешними модулями в аренду"
+        },
+        {
+          "href": "/dvuhklaviaturnyy-set-dlya-kontserta/",
+          "label": "Двухклавиатурный сет для концерта в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-maloy-stseny/",
+          "label": "Сценические клавишные для небольшой сцены в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-backline-bez-svoego-instrumenta/",
+          "label": "Клавишный бэклайн без своего инструмента в аренду"
+        },
+        {
+          "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+          "label": "Сценическое пианино в аренду перед покупкой для концертов"
+        },
+        {
+          "href": "/workstation-dlya-gastrolnogo-tura/",
+          "label": "Клавишная рабочая станция для гастрольного тура в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-soul-gruppy/",
+          "label": "Инструменты для соул-группы в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-vokalnogo-trio/",
+          "label": "Инструменты для трио с вокалом в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-myuziklovogo-pit-benda/",
+          "label": "Инструменты для пит-бенда мюзикла в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-pianista/",
+          "label": "Сценические клавишные для пианиста в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/",
+          "label": "Сценические клавишные для сочетания фортепиано и подкладки в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/",
+          "label": "Сценические клавишные для быстрых переключений в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-gastrolnoy-zameny/",
+          "label": "Сценические клавишные на замену в гастролях в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-dvuh-zon/",
+          "label": "Сценические клавишные для двух зон в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-treh-sloev/",
+          "label": "Сценические клавишные для трёх слоёв в аренду"
+        },
+        {
+          "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+          "label": "Клавишная рабочая станция для подготовки концертного сета в аренду"
+        },
+        {
+          "href": "/workstation-dlya-odnogo-muzykanta/",
+          "label": "Клавишная рабочая станция для выступления одного музыканта в аренду"
+        }
+      ],
+      "after": [
+        {
+          "href": "/keytara/",
+          "label": "Кейтара"
+        },
+        {
+          "href": "/klavishnye-dlya-myuzikla/",
+          "label": "Для мюзикла"
+        },
+        {
+          "href": "/nord-stage-4-v-arendu/",
+          "label": "Nord Stage 4"
+        },
+        {
+          "href": "/nord-electro-6d-v-arendu/",
+          "label": "Nord Electro 6D"
+        },
+        {
+          "href": "/roland-rd88ex-v-arendu/",
+          "label": "Roland RD-88 EX"
+        },
+        {
+          "href": "/korg-sv2-v-arendu/",
+          "label": "Korg SV-2"
+        },
+        {
+          "href": "/yamaha-ck61-v-arendu/",
+          "label": "Yamaha CK61"
+        },
+        {
+          "href": "/yamaha-ck88-v-arendu/",
+          "label": "Yamaha CK88"
+        },
+        {
+          "href": "/nord-piano-5-v-arendu/",
+          "label": "Nord Piano 5"
+        },
+        {
+          "href": "/nord-grand-2-v-arendu/",
+          "label": "Nord Grand 2"
+        },
+        {
+          "href": "/nord-stage-3-88-v-arendu/",
+          "label": "Nord Stage 3 88"
+        },
+        {
+          "href": "/yamaha-cp88-v-arendu/",
+          "label": "Yamaha CP88"
+        },
+        {
+          "href": "/roland-rd2000ex-v-arendu/",
+          "label": "Roland RD-2000 EX"
+        },
+        {
+          "href": "/korg-kronos-2-88-v-arendu/",
+          "label": "Korg Kronos 2 88"
+        },
+        {
+          "href": "/yamaha-motif-xf8-v-arendu/",
+          "label": "Yamaha Motif XF8"
+        },
+        {
+          "href": "/yamaha-montage-m8x-v-arendu/",
+          "label": "Yamaha MONTAGE M8x"
+        },
+        {
+          "href": "/roland-fantom-8-ex-v-arendu/",
+          "label": "Roland FANTOM 8 EX"
+        },
+        {
+          "href": "/korg-nautilus-88-at-v-arendu/",
+          "label": "Korg NAUTILUS 88 AT"
+        },
+        {
+          "href": "/scenicheskiy-zvuk/",
+          "label": "Сценическое усиление и мониторинг"
+        },
+        {
+          "href": "/klavishnaya-stoyka/",
+          "label": "Подобрать стойку под клавишный комплект"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-po-rayderu/",
+          "label": "Сценические клавишные по райдеру в аренду"
+        },
+        {
+          "href": "/stage-piano-po-rayderu/",
+          "label": "Сценическое пианино по райдеру в аренду"
+        },
+        {
+          "href": "/workstation-po-rayderu/",
+          "label": "Клавишная рабочая станция по райдеру в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-festivalya/",
+          "label": "Клавишные для фестиваля в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-festivalnoy-smeny-artistov/",
+          "label": "Клавишные для быстрой смены артистов на фестивале в аренду"
+        },
+        {
+          "href": "/klavishnye-s-pedalyami-po-rayderu/",
+          "label": "Клавишные с педалями по райдеру в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-stereo-vyhoda/",
+          "label": "Клавишные со стереовыходом в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/",
+          "label": "Клавишные для прямого подключения в пульт в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-upravleniya-vneshnimi-modulyami/",
+          "label": "Сценические клавишные для управления внешними модулями в аренду"
+        },
+        {
+          "href": "/dvuhklaviaturnyy-set-dlya-kontserta/",
+          "label": "Двухклавиатурный сет для концерта в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-maloy-stseny/",
+          "label": "Сценические клавишные для небольшой сцены в аренду"
+        },
+        {
+          "href": "/klavishnye-dlya-backline-bez-svoego-instrumenta/",
+          "label": "Клавишный бэклайн без своего инструмента в аренду"
+        },
+        {
+          "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+          "label": "Сценическое пианино в аренду перед покупкой для концертов"
+        },
+        {
+          "href": "/workstation-dlya-gastrolnogo-tura/",
+          "label": "Клавишная рабочая станция для гастрольного тура в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-soul-gruppy/",
+          "label": "Инструменты для соул-группы в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-vokalnogo-trio/",
+          "label": "Инструменты для трио с вокалом в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-myuziklovogo-pit-benda/",
+          "label": "Инструменты для пит-бенда мюзикла в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-pianista/",
+          "label": "Сценические клавишные для пианиста в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/",
+          "label": "Сценические клавишные для сочетания фортепиано и подкладки в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy/",
+          "label": "Сценические клавишные для быстрых переключений в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-gastrolnoy-zameny/",
+          "label": "Сценические клавишные на замену в гастролях в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-dvuh-zon/",
+          "label": "Сценические клавишные для двух зон в аренду"
+        },
+        {
+          "href": "/scenicheskie-klavishnye-dlya-treh-sloev/",
+          "label": "Сценические клавишные для трёх слоёв в аренду"
+        },
+        {
+          "href": "/workstation-dlya-podgotovki-kontsertnogo-seta/",
+          "label": "Клавишная рабочая станция для подготовки концертного сета в аренду"
+        },
+        {
+          "href": "/workstation-dlya-odnogo-muzykanta/",
+          "label": "Клавишная рабочая станция для выступления одного музыканта в аренду"
+        }
+      ]
+    },
+    {
+      "slug": "semplery",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/dj-i-zhivye-instrumenty/",
+          "label": "DJ и живые музыкальные источники"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/semplernye-pedy/",
+          "label": "Семплерные пэды для ударника"
+        },
+        {
+          "href": "/lup-stantsiya/",
+          "label": "Живая запись в луп-станцию"
+        },
+        {
+          "href": "/sempler-dlya-teatralnyh-effektov/",
+          "label": "Для театральных эффектов"
+        },
+        {
+          "href": "/roland-sp-404mkii-v-arendu/",
+          "label": "Roland SP-404MKII"
+        }
+      ],
+      "after": [
+        {
+          "href": "/semplernye-pedy/",
+          "label": "Семплерные пэды для ударника"
+        },
+        {
+          "href": "/lup-stantsiya/",
+          "label": "Живая запись в луп-станцию"
+        },
+        {
+          "href": "/sempler-dlya-teatralnyh-effektov/",
+          "label": "Для театральных эффектов"
+        },
+        {
+          "href": "/roland-sp-404mkii-v-arendu/",
+          "label": "Roland SP-404MKII"
+        },
+        {
+          "href": "/dj-i-zhivye-instrumenty/",
+          "label": "DJ и живые музыкальные источники"
+        }
+      ]
+    },
+    {
+      "slug": "stsenicheskoe-cifrovoe-pianino",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Если нужен рояльный силуэт"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Посадка за сценическим инструментом"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/scenicheskie-klavishnye-dlya-pianista/",
+          "label": "Сохранить фортепианную технику на сцене"
+        },
+        {
+          "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/",
+          "label": "Подключение к пульту и мониторинг"
+        },
+        {
+          "href": "/klavishnye-s-pedalyami-po-rayderu/",
+          "label": "Проверить педали по райдеру"
+        }
+      ],
+      "after": [
+        {
+          "href": "/scenicheskie-klavishnye-dlya-pianista/",
+          "label": "Сохранить фортепианную технику на сцене"
+        },
+        {
+          "href": "/klavishnye-dlya-pryamogo-podklyucheniya-v-pult/",
+          "label": "Подключение к пульту и мониторинг"
+        },
+        {
+          "href": "/klavishnye-s-pedalyami-po-rayderu/",
+          "label": "Проверить педали по райдеру"
+        },
+        {
+          "href": "/cifrovoy-royal/",
+          "label": "Если нужен рояльный силуэт"
+        },
+        {
+          "href": "/banketka-dlya-pianista/",
+          "label": "Посадка за сценическим инструментом"
+        }
+      ]
+    },
+    {
+      "slug": "usiliteli-backline",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/scenicheskiy-zvuk/",
+          "label": "Микрофоны, микшеры и звук сцены"
+        },
+        {
+          "href": "/scenicheskaya-mebel-i-stoyki/",
+          "label": "Сценическая мебель и стойки"
+        },
+        {
+          "href": "/dj-komplekt-po-rayderu/",
+          "label": "DJ-комплект по райдеру"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/gitarnye-usiliteli/",
+          "label": "Гитарные усилители"
+        },
+        {
+          "href": "/basovye-usiliteli/",
+          "label": "Басовые усилители"
+        },
+        {
+          "href": "/gitarnye-kabinety/",
+          "label": "Гитарные кабинеты"
+        },
+        {
+          "href": "/basovye-kabinety/",
+          "label": "Басовые кабинеты"
+        },
+        {
+          "href": "/akusticheskie-usiliteli/",
+          "label": "Акустические усилители"
+        },
+        {
+          "href": "/rotornye-akusticheskie-sistemy/",
+          "label": "Leslie и роторные системы"
+        },
+        {
+          "href": "/di-boksy/",
+          "label": "DI-боксы"
+        },
+        {
+          "href": "/usilitel-dlya-domashnih-uchebnyh-zanyatiy/",
+          "label": "Для домашних занятий"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "По рекомендации преподавателя"
+        },
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "По требованиям к качеству"
+        },
+        {
+          "href": "/gitarnyy-backline-po-rayderu/",
+          "label": "Гитарный бэклайн по райдеру в аренду"
+        },
+        {
+          "href": "/basovyy-backline-po-rayderu/",
+          "label": "Басовый бэклайн по райдеру в аренду"
+        },
+        {
+          "href": "/backline-dlya-pervogo-kontserta/",
+          "label": "Бэклайн для первого концерта в аренду"
+        },
+        {
+          "href": "/backline-dlya-klubnoy-stseny/",
+          "label": "Бэклайн для клубной сцены в аренду"
+        },
+        {
+          "href": "/backline-dlya-festivalya/",
+          "label": "Бэклайн для фестиваля в аренду"
+        },
+        {
+          "href": "/backline-dlya-bystroy-smeny-grupp/",
+          "label": "Бэклайн для быстрой смены групп в аренду"
+        },
+        {
+          "href": "/backline-dlya-gastrolnogo-tura/",
+          "label": "Бэклайн для гастрольного тура в аренду"
+        },
+        {
+          "href": "/backline-dlya-fly-date/",
+          "label": "Бэклайн для концерта с перелётом в аренду"
+        },
+        {
+          "href": "/backline-po-rayderu-dlya-gruppy/",
+          "label": "Бэклайн по райдеру для группы в аренду"
+        },
+        {
+          "href": "/backline-dlya-ritm-sektsii/",
+          "label": "Бэклайн для ритм-секции в аренду"
+        },
+        {
+          "href": "/backline-dlya-akusticheskogo-kontserta/",
+          "label": "Бэклайн для акустического концерта в аренду"
+        },
+        {
+          "href": "/backline-dlya-dzhazovogo-kvinteta/",
+          "label": "Бэклайн для джазового квинтета в аренду"
+        },
+        {
+          "href": "/backline-dlya-rok-gruppy/",
+          "label": "Бэклайн для рок-группы в аренду"
+        },
+        {
+          "href": "/backline-dlya-vokalista-s-gitaroy/",
+          "label": "Бэклайн для вокалиста с гитарой в аренду"
+        },
+        {
+          "href": "/backline-dlya-rezervnogo-komplekta/",
+          "label": "Резервный бэклайн для концерта в аренду"
+        },
+        {
+          "href": "/backline-dlya-soundcheck-do-priezda-artista/",
+          "label": "Бэклайн для саундчека до приезда артиста в аренду"
+        },
+        {
+          "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+          "label": "Функциональная замена бэклайна по райдеру в аренду"
+        },
+        {
+          "href": "/backline-dlya-odnodnevnoy-arendy/",
+          "label": "Бэклайн на один день в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-teatralnogo-ansamblya/",
+          "label": "Инструменты для театрального ансамбля в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+          "label": "Инструменты для живой студийной записи в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-teleefira-s-zhivym-ansamblem/",
+          "label": "Инструменты для телеэфира с живым ансамблем в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/",
+          "label": "Инструменты для видеосъёмки живого ансамбля в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya/",
+          "label": "Инструменты для однодневной репетиции ансамбля в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-gastrolnogo-kamernogo-sostava/",
+          "label": "Инструменты для гастрольного камерного состава в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-zameny-uchastnika-ansamblya/",
+          "label": "Инструменты для замены участника ансамбля в аренду"
+        }
+      ],
+      "after": [
+        {
+          "href": "/gitarnye-usiliteli/",
+          "label": "Гитарные усилители"
+        },
+        {
+          "href": "/basovye-usiliteli/",
+          "label": "Басовые усилители"
+        },
+        {
+          "href": "/gitarnye-kabinety/",
+          "label": "Гитарные кабинеты"
+        },
+        {
+          "href": "/basovye-kabinety/",
+          "label": "Басовые кабинеты"
+        },
+        {
+          "href": "/akusticheskie-usiliteli/",
+          "label": "Акустические усилители"
+        },
+        {
+          "href": "/rotornye-akusticheskie-sistemy/",
+          "label": "Leslie и роторные системы"
+        },
+        {
+          "href": "/di-boksy/",
+          "label": "DI-боксы"
+        },
+        {
+          "href": "/usilitel-dlya-domashnih-uchebnyh-zanyatiy/",
+          "label": "Для домашних занятий"
+        },
+        {
+          "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+          "label": "По рекомендации преподавателя"
+        },
+        {
+          "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+          "label": "По требованиям к качеству"
+        },
+        {
+          "href": "/scenicheskiy-zvuk/",
+          "label": "Микрофоны, микшеры и звук сцены"
+        },
+        {
+          "href": "/scenicheskaya-mebel-i-stoyki/",
+          "label": "Сценическая мебель и стойки"
+        },
+        {
+          "href": "/dj-komplekt-po-rayderu/",
+          "label": "DJ-комплект по райдеру"
+        },
+        {
+          "href": "/gitarnyy-backline-po-rayderu/",
+          "label": "Гитарный бэклайн по райдеру в аренду"
+        },
+        {
+          "href": "/basovyy-backline-po-rayderu/",
+          "label": "Басовый бэклайн по райдеру в аренду"
+        },
+        {
+          "href": "/backline-dlya-pervogo-kontserta/",
+          "label": "Бэклайн для первого концерта в аренду"
+        },
+        {
+          "href": "/backline-dlya-klubnoy-stseny/",
+          "label": "Бэклайн для клубной сцены в аренду"
+        },
+        {
+          "href": "/backline-dlya-festivalya/",
+          "label": "Бэклайн для фестиваля в аренду"
+        },
+        {
+          "href": "/backline-dlya-bystroy-smeny-grupp/",
+          "label": "Бэклайн для быстрой смены групп в аренду"
+        },
+        {
+          "href": "/backline-dlya-gastrolnogo-tura/",
+          "label": "Бэклайн для гастрольного тура в аренду"
+        },
+        {
+          "href": "/backline-dlya-fly-date/",
+          "label": "Бэклайн для концерта с перелётом в аренду"
+        },
+        {
+          "href": "/backline-po-rayderu-dlya-gruppy/",
+          "label": "Бэклайн по райдеру для группы в аренду"
+        },
+        {
+          "href": "/backline-dlya-ritm-sektsii/",
+          "label": "Бэклайн для ритм-секции в аренду"
+        },
+        {
+          "href": "/backline-dlya-akusticheskogo-kontserta/",
+          "label": "Бэклайн для акустического концерта в аренду"
+        },
+        {
+          "href": "/backline-dlya-dzhazovogo-kvinteta/",
+          "label": "Бэклайн для джазового квинтета в аренду"
+        },
+        {
+          "href": "/backline-dlya-rok-gruppy/",
+          "label": "Бэклайн для рок-группы в аренду"
+        },
+        {
+          "href": "/backline-dlya-vokalista-s-gitaroy/",
+          "label": "Бэклайн для вокалиста с гитарой в аренду"
+        },
+        {
+          "href": "/backline-dlya-rezervnogo-komplekta/",
+          "label": "Резервный бэклайн для концерта в аренду"
+        },
+        {
+          "href": "/backline-dlya-soundcheck-do-priezda-artista/",
+          "label": "Бэклайн для саундчека до приезда артиста в аренду"
+        },
+        {
+          "href": "/funktsionalnaya-zamena-backline-po-rayderu/",
+          "label": "Функциональная замена бэклайна по райдеру в аренду"
+        },
+        {
+          "href": "/backline-dlya-odnodnevnoy-arendy/",
+          "label": "Бэклайн на один день в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-teatralnogo-ansamblya/",
+          "label": "Инструменты для театрального ансамбля в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+          "label": "Инструменты для живой студийной записи в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-teleefira-s-zhivym-ansamblem/",
+          "label": "Инструменты для телеэфира с живым ансамблем в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-videosyemki-zhivogo-ansamblya/",
+          "label": "Инструменты для видеосъёмки живого ансамбля в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya/",
+          "label": "Инструменты для однодневной репетиции ансамбля в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-gastrolnogo-kamernogo-sostava/",
+          "label": "Инструменты для гастрольного камерного состава в аренду"
+        },
+        {
+          "href": "/instrumenty-dlya-zameny-uchastnika-ansamblya/",
+          "label": "Инструменты для замены участника ансамбля в аренду"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-clavinova-clp-v-arendu",
+      "explicit_source_navigation_changed": true,
+      "added": [
+        {
+          "href": "/yamaha-clp765gp-v-arendu/",
+          "label": "CLP-765GP в рояльном корпусе"
+        }
+      ],
+      "removed": [],
+      "label_changes": [],
+      "before": [
+        {
+          "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/",
+          "label": "Сравнить механики"
+        },
+        {
+          "href": "/cifrovoe-pianino-pered-pokupkoy/",
+          "label": "Перед покупкой"
+        }
+      ],
+      "after": [
+        {
+          "href": "/cifrovoe-pianino-dlya-sravneniya-mehanik/",
+          "label": "Сравнить механики"
+        },
+        {
+          "href": "/cifrovoe-pianino-pered-pokupkoy/",
+          "label": "Перед покупкой"
+        },
+        {
+          "href": "/yamaha-clp765gp-v-arendu/",
+          "label": "CLP-765GP в рояльном корпусе"
+        }
+      ]
+    }
+  ],
+  "nav_only_slugs": [
+    "",
+    "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+    "barabannaya-ustanovka",
+    "barabannaya-ustanovka-dlya-zapisi",
+    "bas-gitara",
+    "bas-gitara-dlya-domashnih-zanyatiy",
+    "di-boksy",
+    "dvuhklaviaturnyy-set-dlya-kontserta",
+    "elektrogitara",
+    "elektrogitara-dlya-domashnih-zanyatiy",
+    "fortepiano",
+    "lup-stantsiya-dlya-vokala",
+    "perkussiya-dlya-akusticheskogo-kontserta",
+    "semplery"
+  ],
+  "explicit_nav_only_slugs": [
+    "",
+    "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+    "barabannaya-ustanovka-dlya-zapisi",
+    "bas-gitara-dlya-domashnih-zanyatiy",
+    "di-boksy",
+    "dvuhklaviaturnyy-set-dlya-kontserta",
+    "elektrogitara",
+    "elektrogitara-dlya-domashnih-zanyatiy",
+    "lup-stantsiya-dlya-vokala",
+    "perkussiya-dlya-akusticheskogo-kontserta",
+    "semplery"
+  ],
+  "automatic_nav_only_slugs": [
+    "barabannaya-ustanovka",
+    "bas-gitara",
+    "fortepiano"
+  ]
+}

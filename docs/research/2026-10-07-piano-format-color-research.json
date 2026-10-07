@@ -1,0 +1,772 @@
+{
+  "status": "prepared_not_committed_not_published",
+  "date": "2026-10-07",
+  "base_commit": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+  "base_release": 37575200503,
+  "scope": "Форматы акустических роялей и пианино, сценический цвет, цифровой рояль и существующие корпусные/компактные цифровые комплекты. Полная проверка всех модельных фактов корпуса не заявляется.",
+  "inventory": {
+    "subjects": 1901,
+    "errors": [],
+    "merged_snapshot_sha256": "c8259a55b3f90a257846bdfbfe217134b2bb1abfb98a8048ded3a375f8102318",
+    "all_subjects_searched": true,
+    "full_contexts_read": 34,
+    "full_context_slugs": [
+      "akusticheskoe-pianino",
+      "arenda-koncertnogo-royalya-moskva",
+      "cifrovoe-pianino",
+      "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "cifrovoe-pianino-dlya-zanyatiy-v-naushnikah",
+      "cifrovoe-pianino-na-ustoychivoy-stoyke",
+      "cifrovoe-pianino-s-troynoy-pedalyu",
+      "dva-royalya-dlya-fortepiannogo-dueta",
+      "instrument-esli-pedal-daleko",
+      "kawai-k200-v-arendu",
+      "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "kompaktnoe-cifrovoe-pianino",
+      "korpusnoe-cifrovoe-pianino",
+      "perenosnoe-cifrovoe-pianino",
+      "pianino-dlya-igry-v-chetyre-ruki",
+      "pianino-dlya-malenkoy-komnaty",
+      "pianino-dlya-sravneniya-s-royalem",
+      "pianino-s-pedalyu-sostenuto",
+      "royal",
+      "royal-dlya-kamernogo-kontserta",
+      "royal-dlya-repetitsii",
+      "royal-dlya-semki",
+      "royal-dlya-vokalnogo-kontserta",
+      "royal-dlya-zapisi",
+      "steinway-b211-v-arendu",
+      "steinway-d274-v-arendu",
+      "stsenicheskoe-cifrovoe-pianino",
+      "yamaha-c3x-v-arendu",
+      "yamaha-cfx-v-arendu",
+      "yamaha-clavinova-clp-v-arendu",
+      "yamaha-gb1k-v-arendu",
+      "yamaha-p225-v-arendu",
+      "yamaha-u1-v-arendu",
+      "yamaha-ydps35-v-arendu"
+    ],
+    "method": "Полный merged inventory, поиск по slug, N.0/N.1, описаниям и телам; полное чтение ближайших сцен, всех обогащаемых страниц и используемых предметных целей. Новые значения не выводились только из имени URL."
+  },
+  "counts": {
+    "new": 12,
+    "enrich": 10,
+    "keep": 24
+  },
+  "sources": [
+    {
+      "id": "rent_white",
+      "title": "Forte & Piano Service: белый рояль для события",
+      "url": "https://fortepianoservice.ru/belyj-royal/",
+      "web_ref": "turn177view2",
+      "type": "russian_rental"
+    },
+    {
+      "id": "rent_red",
+      "title": "Аренда роялей: красный экземпляр Yamaha C3",
+      "url": "https://arendapiano.ru/c3-krasny.html",
+      "web_ref": "turn183view3",
+      "type": "russian_rental"
+    },
+    {
+      "id": "rent_clp",
+      "title": "Аренда роялей: цифровой Yamaha CLP-765GP",
+      "url": "https://arendapiano.ru/clp-765gp-wh-2.html",
+      "web_ref": "turn180view0",
+      "type": "russian_rental"
+    },
+    {
+      "id": "rent_yus",
+      "title": "АрендаРояля.рф: акустическое пианино Yamaha YUS1",
+      "url": "https://xn--80aald6ajjle5mb.xn--p1ai/upright-pianos/yamaha-yus1-black",
+      "web_ref": "turn183view0",
+      "type": "russian_rental"
+    },
+    {
+      "id": "rent_gl",
+      "title": "АрендаРояля.рф: кабинетный Kawai GL-10",
+      "url": "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/white/kawai-gl-10",
+      "web_ref": "turn190view1",
+      "type": "russian_rental"
+    },
+    {
+      "id": "rent_dg",
+      "title": "АрендаРояля.рф: цифровой Kawai DG30",
+      "url": "https://xn--80aald6ajjle5mb.xn--p1ai/digital-instruments/kawai-dg30",
+      "web_ref": "turn197view3",
+      "type": "russian_rental"
+    },
+    {
+      "id": "rent_home",
+      "title": "Пианино.ру: цифровые инструменты и состав домашних комплектов",
+      "url": "https://arenda.pianino.ru/",
+      "web_ref": "turn197view2",
+      "type": "russian_rental"
+    },
+    {
+      "id": "red_studio",
+      "title": "Bestmemories: красный рояль в съёмочном пространстве",
+      "url": "https://bestmemories.ru/fotostudiya-s-cikloramoy-i-royalem",
+      "web_ref": "turn180view2",
+      "type": "russian_studio_primary"
+    },
+    {
+      "id": "gl",
+      "title": "Kawai: GL-10, размеры и механика Millennium III",
+      "url": "https://kawai.com.au/product/gl-10/",
+      "web_ref": "turn186view0",
+      "type": "manufacturer"
+    },
+    {
+      "id": "dg",
+      "title": "Kawai: DG30, цифровой рояль и характеристики",
+      "url": "https://www.kawai-global.com/product/dg30/",
+      "web_ref": "turn197view0",
+      "type": "manufacturer"
+    },
+    {
+      "id": "clp",
+      "title": "Yamaha: характеристики цифрового CLP-765GP",
+      "url": "https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/clp-765gp/specs.html",
+      "web_ref": "turn183view2",
+      "type": "manufacturer"
+    },
+    {
+      "id": "yus",
+      "title": "Yamaha: YUS1, устройство и функции педалей",
+      "url": "https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/yus_series/specs.html",
+      "web_ref": "turn183view1",
+      "type": "manufacturer"
+    },
+    {
+      "id": "posture",
+      "title": "Yamaha: посадка и высота фортепианной банкетки",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/play/play002.html",
+      "web_ref": "turn197view1",
+      "type": "manufacturer"
+    },
+    {
+      "id": "acoustic",
+      "title": "Yamaha: различие рояля и вертикального пианино",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/selection/",
+      "web_ref": "turn190search17",
+      "type": "manufacturer"
+    },
+    {
+      "id": "rent_cfx_black",
+      "title": "АрендаРояля.рф: чёрный концертный Yamaha CFX",
+      "url": "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/black/yamaha-cfx",
+      "web_ref": "turn221view0",
+      "type": "russian_rental"
+    },
+    {
+      "id": "rent_clp_black",
+      "title": "Аренда роялей: чёрный цифровой Yamaha CLP-765GP",
+      "url": "https://arendapiano.ru/clp-765gp-black.html",
+      "web_ref": "turn221view1",
+      "type": "russian_rental"
+    }
+  ],
+  "independent_russian_evidence": [
+    {
+      "operator": "Аренда роялей / arendapiano.ru",
+      "observed": "Отдельные акустические C1/C3 и цифровой CLP-765GP; белые, чёрные и красный экземпляр; сценические комплекты.",
+      "source_ids": [
+        "rent_red",
+        "rent_clp",
+        "rent_clp_black"
+      ]
+    },
+    {
+      "operator": "АрендаРояля.рф",
+      "observed": "Кабинетный акустический GL-10, вертикальный YUS1 и цифровой DG30 представлены раздельно.",
+      "source_ids": [
+        "rent_gl",
+        "rent_yus",
+        "rent_dg",
+        "rent_cfx_black"
+      ]
+    },
+    {
+      "operator": "Forte & Piano Service",
+      "observed": "Белый рояль выделен как сценический запрос.",
+      "source_ids": [
+        "rent_white"
+      ]
+    },
+    {
+      "operator": "Пианино.ру",
+      "observed": "Домашние цифровые комплекты различаются опорой и педалью; банкетка и наушники обозначены отдельными принадлежностями.",
+      "source_ids": [
+        "rent_home"
+      ]
+    },
+    {
+      "operator": "Bestmemories",
+      "observed": "Красный рояль в съёмочном пространстве; это аренда студии с предметом, не доказательство выездного проката рояля.",
+      "source_ids": [
+        "red_studio"
+      ]
+    }
+  ],
+  "manufacturer_fact_ledger": [
+    {
+      "slug": "kawai-gl10-v-arendu",
+      "facts": [
+        "Акустический малый рояль, длина153см",
+        "Механика Millennium III"
+      ],
+      "source_ids": [
+        "gl"
+      ],
+      "limits": "Белый конкретный экземпляр подтверждается российским прокатчиком, не переносится на все инструменты модели."
+    },
+    {
+      "slug": "kawai-dg30-v-arendu",
+      "facts": [
+        "Цифровой рояльный корпус глубиной87см",
+        "Responsive Hammer III,88клавиш",
+        "Три педали, полупедаль правой педали",
+        "Линейные выходы L/MONO,R"
+      ],
+      "source_ids": [
+        "dg"
+      ],
+      "limits": "Не акустический GL-10; масса и Bluetooth не обещаются по умолчанию. Общий рабочий контур больше габарита корпуса."
+    },
+    {
+      "slug": "yamaha-clp765gp-v-arendu",
+      "facts": [
+        "Цифровой Clavinova в рояльном корпусе",
+        "Звуковые образы CFX и Bösendorfer Imperial",
+        "AUX OUT L/L+R,R"
+      ],
+      "source_ids": [
+        "clp"
+      ],
+      "limits": "Не приписаны GrandTouch, характеристики соседней CLP или статус самой новой модели; цвет и банкетка согласуются отдельно."
+    },
+    {
+      "slug": "yamaha-yus1-v-arendu",
+      "facts": [
+        "Акустическое вертикальное пианино",
+        "Yamaha USA для стандартного YUS1 указывает среднюю педаль Mute, не sostenuto"
+      ],
+      "source_ids": [
+        "yus"
+      ],
+      "limits": "Не обобщать функции на модификации и другие модели; точный экземпляр и отделка подтверждаются отдельно."
+    }
+  ],
+  "mapping": [
+    {
+      "slug": "kabinetnyy-royal",
+      "decision": "new",
+      "nearest_existing": [
+        "royal-dlya-kamernogo-kontserta",
+        "yamaha-gb1k-v-arendu"
+      ],
+      "reason": "В камерной сцене раскрыт ансамбль, в модели — GB1K; отсутствовал общий запрос формата с проверкой разных корпусов, полного места и заноса. Малый и кабинетный рояль объединены в одну тему: различия габарита и камерного баланса раскрыты без двух синонимичных URL и без универсального порога.",
+      "evidence_ids": [
+        "rent_gl",
+        "gl"
+      ]
+    },
+    {
+      "slug": "belyy-royal",
+      "decision": "new",
+      "nearest_existing": [
+        "royal-dlya-semki"
+      ],
+      "reason": "Цвет был лишь одним условием съёмки; добавлен самостоятельный светлый сценический запрос без заводской или складской гарантии.",
+      "evidence_ids": [
+        "rent_white",
+        "rent_gl",
+        "rent_clp"
+      ]
+    },
+    {
+      "slug": "chernyy-royal",
+      "decision": "new",
+      "nearest_existing": [
+        "arenda-koncertnogo-royalya-moskva",
+        "royal-dlya-semki"
+      ],
+      "reason": "Отдельный цветовой запрос соединён с точной моделью и отделкой; не создаётся новый адрес каждой чёрной модели.",
+      "evidence_ids": [
+        "rent_cfx_black",
+        "rent_clp_black"
+      ]
+    },
+    {
+      "slug": "krasnyy-royal",
+      "decision": "new",
+      "nearest_existing": [
+        "royal-dlya-semki"
+      ],
+      "reason": "Реальный российский цветовой запрос; два независимых первичных свидетельства, без присвоения C3 Ferrari статуса заводской модели.",
+      "evidence_ids": [
+        "rent_red",
+        "red_studio"
+      ]
+    },
+    {
+      "slug": "cifrovoy-royal",
+      "decision": "new",
+      "nearest_existing": [
+        "korpusnoe-cifrovoe-pianino",
+        "stsenicheskoe-cifrovoe-pianino"
+      ],
+      "reason": "В корпусе не было отдельного цифрового рояльного формата; его сценическая геометрия и звук не равны переносному stage piano.",
+      "evidence_ids": [
+        "clp",
+        "dg",
+        "rent_clp"
+      ]
+    },
+    {
+      "slug": "yamaha-clp765gp-v-arendu",
+      "decision": "new",
+      "nearest_existing": [
+        "yamaha-clavinova-clp-v-arendu",
+        "yamaha-clp775-v-arendu"
+      ],
+      "reason": "Точная GP-модель российского проката отсутствовала; существующие CLP-775 и общий CLP не описывают её рояльный корпус.",
+      "evidence_ids": [
+        "clp",
+        "rent_clp",
+        "rent_clp_black"
+      ]
+    },
+    {
+      "slug": "kawai-dg30-v-arendu",
+      "decision": "new",
+      "nearest_existing": [
+        "cifrovoe-pianino-kawai",
+        "kawai-cn301-v-arendu"
+      ],
+      "reason": "Самостоятельная российская прокатная модель цифрового рояля; конструкция корпуса не покрыта существующими вертикальными Kawai.",
+      "evidence_ids": [
+        "dg",
+        "rent_dg"
+      ]
+    },
+    {
+      "slug": "kawai-gl10-v-arendu",
+      "decision": "new",
+      "nearest_existing": [
+        "yamaha-gb1k-v-arendu",
+        "kawai-k200-v-arendu"
+      ],
+      "reason": "Есть другой малый рояль и вертикальные Kawai, но не эта точная модель из российского проката.",
+      "evidence_ids": [
+        "gl",
+        "rent_gl"
+      ]
+    },
+    {
+      "slug": "yamaha-yus1-v-arendu",
+      "decision": "new",
+      "nearest_existing": [
+        "yamaha-u1-v-arendu",
+        "akusticheskoe-pianino"
+      ],
+      "reason": "Самостоятельная именованная позиция российского проката; не дубль U1. Для YUS1 подтверждена функция средней педали; утверждения о её отличии от U1 не делается.",
+      "evidence_ids": [
+        "yus",
+        "rent_yus"
+      ]
+    },
+    {
+      "slug": "banketka-dlya-pianista",
+      "decision": "new",
+      "nearest_existing": [
+        "cifrovoe-pianino-na-ustoychivoy-stoyke",
+        "instrument-esli-pedal-daleko",
+        "pianino-dlya-igry-v-chetyre-ruki"
+      ],
+      "reason": "Посадка покрыта в сценах, но отсутствовала самостоятельная единица комплекта — регулируемая банкетка без привязки к цифровой стойке.",
+      "evidence_ids": [
+        "posture",
+        "rent_home"
+      ]
+    },
+    {
+      "slug": "pianino-dlya-semki",
+      "decision": "new",
+      "nearest_existing": [
+        "royal-dlya-semki",
+        "akusticheskoe-pianino"
+      ],
+      "reason": "Съёмка рояля уже есть; вертикальный корпус у стены и его ракурсы создают самостоятельное сценическое решение.",
+      "evidence_ids": [
+        "rent_yus",
+        "acoustic"
+      ]
+    },
+    {
+      "slug": "royal-dlya-foye",
+      "decision": "new",
+      "nearest_existing": [
+        "royal-dlya-kamernogo-kontserta",
+        "stsenicheskoe-cifrovoe-pianino"
+      ],
+      "reason": "Не камерный концерт с сидящей публикой: самостоятельная сценическая функция музыки среди движения и разговоров гостей.",
+      "evidence_ids": [
+        "rent_clp",
+        "rent_white"
+      ]
+    },
+    {
+      "slug": "royal",
+      "decision": "enrich",
+      "nearest_existing": [
+        "royal"
+      ],
+      "reason": "У общей акустической темы не было явного различения запросов формата и сценического цвета; добавляется краткое продолжение без второго общего URL.",
+      "evidence_ids": [],
+      "changed_fields": [
+        "append_intro"
+      ],
+      "base_page_sha256": "07bc010893cd2707d3392c59b2bfde9a253acd3a6d5b2166481aaca7e0bd7a9a"
+    },
+    {
+      "slug": "arenda-koncertnogo-royalya-moskva",
+      "decision": "enrich",
+      "nearest_existing": [
+        "arenda-koncertnogo-royalya-moskva"
+      ],
+      "reason": "Концертный запрос уже существует; добавлены точный райдер, полный комплект и границы понятия концертный, без нового синонимического адреса.",
+      "evidence_ids": [],
+      "changed_fields": [
+        "blocks"
+      ],
+      "base_page_sha256": "b69297b61b274e5f8e906fb9c743e1614f81311e2b3ee7ce7a7317e42da179c6"
+    },
+    {
+      "slug": "royal-dlya-semki",
+      "decision": "enrich",
+      "nearest_existing": [
+        "royal-dlya-semki"
+      ],
+      "reason": "Существующая сцена цвета/кадра сохранена; уточнена граница акустики, цифрового корпуса и предмета под фонограмму.",
+      "evidence_ids": [
+        "dg"
+      ],
+      "changed_fields": [
+        "append_blocks",
+        "sources"
+      ],
+      "base_page_sha256": "0d02c820cb8fe69869fd0162dde27c6f4170f01d902e688d8a4e44158b22bdef"
+    },
+    {
+      "slug": "akusticheskoe-pianino",
+      "decision": "enrich",
+      "nearest_existing": [
+        "akusticheskoe-pianino"
+      ],
+      "reason": "Общая акустическая тема уже охватывает домашнюю практику; добавлена сценическая ось вертикального корпуса без новых цветовых дублей моделей.",
+      "evidence_ids": [],
+      "changed_fields": [
+        "append_intro"
+      ],
+      "base_page_sha256": "c83eab6997007fba379a8e5aace71254f917c6684735188041b8227dcdbcb773"
+    },
+    {
+      "slug": "korpusnoe-cifrovoe-pianino",
+      "decision": "enrich",
+      "nearest_existing": [
+        "korpusnoe-cifrovoe-pianino"
+      ],
+      "reason": "Формат уже существует: расширение отвечает за стационарный комплект и принадлежности вместо нового URL.",
+      "evidence_ids": [
+        "rent_home"
+      ],
+      "changed_fields": [
+        "intro",
+        "blocks",
+        "sources"
+      ],
+      "base_page_sha256": "2e709b7bdbedf0976b5c93d3de17c631e3ef5d57125b3c6a553e689597f9885f"
+    },
+    {
+      "slug": "perenosnoe-cifrovoe-pianino",
+      "decision": "enrich",
+      "nearest_existing": [
+        "perenosnoe-cifrovoe-pianino"
+      ],
+      "reason": "Переносной формат уже представлен; уточнён фактический перенос всего комплекта и обратная сборка, без повторения компактного рабочего места.",
+      "evidence_ids": [
+        "rent_home"
+      ],
+      "changed_fields": [
+        "intro",
+        "blocks",
+        "sources"
+      ],
+      "base_page_sha256": "10d6663fd5cf73ed8a5c1bf91d04eefa2130be311f0f64091852eaf805ced03f"
+    },
+    {
+      "slug": "stsenicheskoe-cifrovoe-pianino",
+      "decision": "enrich",
+      "nearest_existing": [
+        "stsenicheskoe-cifrovoe-pianino"
+      ],
+      "reason": "В действующей сцене был только общий запрос подключений; раскрыт собранный концертный комплект и отличие цифрового рояльного корпуса.",
+      "evidence_ids": [],
+      "changed_fields": [
+        "blocks"
+      ],
+      "base_page_sha256": "2d57731d8cb5d49a949333ba2993483d2c89313d96b89db2409cfcc96cd11317"
+    },
+    {
+      "slug": "yamaha-clavinova-clp-v-arendu",
+      "decision": "enrich",
+      "nearest_existing": [
+        "yamaha-clavinova-clp-v-arendu"
+      ],
+      "reason": "Общий модельный запрос CLP сохраняется; указана реальная GP-ветвь и запрещена подмена механики по сходному номеру.",
+      "evidence_ids": [
+        "clp"
+      ],
+      "changed_fields": [
+        "append_intro",
+        "sources"
+      ],
+      "base_page_sha256": "f51c85adee35c75edfd48cf00f19678301aacb034f06f76d378694d131ab5106"
+    },
+    {
+      "slug": "cifrovoe-pianino",
+      "decision": "enrich",
+      "nearest_existing": [
+        "cifrovoe-pianino"
+      ],
+      "reason": "Общий вход связывает уже существующие корпусный/компактный форматы с новым цифровым роялем; сохранён приоритет отклика и учебной практики.",
+      "evidence_ids": [],
+      "changed_fields": [
+        "append_intro"
+      ],
+      "base_page_sha256": "e7f7d2d0c690bb4f4b871d054b3ae388a6064e723cf77e614f9ba403abce7d16"
+    },
+    {
+      "slug": "kompaktnoe-cifrovoe-pianino",
+      "decision": "keep",
+      "reason": "Уже подробно раскрыто полное рабочее место, 88 клавиш при необходимости и проверка реального размещения; новый компактный URL не нужен.",
+      "full_page_read": true
+    },
+    {
+      "slug": "yamaha-gb1k-v-arendu",
+      "decision": "keep",
+      "reason": "Уже есть точные 151 см, полное рабочее место и различение акустики/цифровой имитации; сохранено.",
+      "full_page_read": true
+    },
+    {
+      "slug": "yamaha-c3x-v-arendu",
+      "decision": "keep",
+      "reason": "Точная модель и её отличие от C3 уже раскрыты. Отдельный C3 не добавлен без завершённой официальной проверки прежнего поколения.",
+      "full_page_read": true
+    },
+    {
+      "slug": "steinway-d274-v-arendu",
+      "decision": "keep",
+      "reason": "Концертный полноразмерный запрос и проверка экземпляра уже есть; сохранено.",
+      "full_page_read": true
+    },
+    {
+      "slug": "steinway-b211-v-arendu",
+      "decision": "keep",
+      "reason": "Салонная модель уже есть; новый общий кабинетный вход не выдаёт B-211 за универсальное определение кабинетного класса.",
+      "full_page_read": true
+    },
+    {
+      "slug": "yamaha-cfx-v-arendu",
+      "decision": "keep",
+      "reason": "Полноразмерная концертная модель и различие поколений уже описаны; сохранено.",
+      "full_page_read": true
+    },
+    {
+      "slug": "royal-dlya-kamernogo-kontserta",
+      "decision": "keep",
+      "reason": "Конкретная ансамблевая сцена с пробой тихого общего фрагмента уже завершена.",
+      "full_page_read": true
+    },
+    {
+      "slug": "royal-dlya-vokalnogo-kontserta",
+      "decision": "keep",
+      "reason": "Баланс с конкретным голосом уже отличается от общего камерного формата.",
+      "full_page_read": true
+    },
+    {
+      "slug": "royal-dlya-zapisi",
+      "decision": "keep",
+      "reason": "Микрофонная проба и механические шумы уже описаны; новый дублирующий студийный URL не нужен.",
+      "full_page_read": true
+    },
+    {
+      "slug": "royal-dlya-repetitsii",
+      "decision": "keep",
+      "reason": "Регулярный доступ и перенос подготовленного движения на сцену уже раскрыты.",
+      "full_page_read": true
+    },
+    {
+      "slug": "dva-royalya-dlya-fortepiannogo-dueta",
+      "decision": "keep",
+      "reason": "Полный комплект пары, посадка и совместная настройка уже раскрыты.",
+      "full_page_read": true
+    },
+    {
+      "slug": "pianino-dlya-igry-v-chetyre-ruki",
+      "decision": "keep",
+      "reason": "Две посадки, общий диапазон и отличие от режима Duet уже раскрыты.",
+      "full_page_read": true
+    },
+    {
+      "slug": "pianino-dlya-malenkoy-komnaty",
+      "decision": "keep",
+      "reason": "Ограниченное помещение для акустического вертикального корпуса уже раскрыто.",
+      "full_page_read": true
+    },
+    {
+      "slug": "pianino-dlya-sravneniya-s-royalem",
+      "decision": "keep",
+      "reason": "Сравнение исполнительских функций акустического пианино и рояля уже раскрыто.",
+      "full_page_read": true
+    },
+    {
+      "slug": "kawai-k200-v-arendu",
+      "decision": "keep",
+      "reason": "Компактная вертикальная акустика и фактическая проба уже представлены.",
+      "full_page_read": true
+    },
+    {
+      "slug": "yamaha-u1-v-arendu",
+      "decision": "enrich",
+      "reason": "При полном повторном чтении найден старый барьер: акустический ресурс оправдывался только уже регулярными занятиями и годами использования. Уточнены заголовок и последняя фраза одного блока: доступ на учебный период, без требования заранее обладать регулярностью. Техническое первое предложение и все остальные блоки сохранены.",
+      "full_page_read": true,
+      "changed_fields": [
+        "blocks[4].title",
+        "blocks[4].paragraphs[0]"
+      ],
+      "base_page_sha256": "5b4f20d78cbaa691162a8a09062fcf78baeec20194adee2d95d3b28843a6d42e",
+      "before_block": {
+        "label": "02 / РЕСУРС",
+        "title": "Большое пианино имеет смысл там, где инструмент будет использоваться годами",
+        "paragraphs": [
+          "Высота около 121–122 см и профессиональная конструкция дают больше акустического ресурса, чем маленькие консольные модели. Для семьи это оправдано, если ученик уже регулярно занимается и домашнее место стабильно."
+        ]
+      },
+      "after_block": {
+        "label": "02 / РЕСУРС",
+        "title": "Акустический ресурс оценивают на программе и в помещении",
+        "paragraphs": [
+          "Высота около 121–122 см и профессиональная конструкция дают больше акустического ресурса, чем маленькие консольные модели. Для семьи такой инструмент может быть рабочей опорой на учебный период: помещение и возможность регулярной практики обсуждают заранее."
+        ]
+      }
+    },
+    {
+      "slug": "cifrovoe-pianino-na-ustoychivoy-stoyke",
+      "decision": "keep",
+      "reason": "Проверка устойчивости и геометрии всего цифрового комплекта уже существует; банкетка добавляет самостоятельную принадлежность.",
+      "full_page_read": true
+    },
+    {
+      "slug": "cifrovoe-pianino-s-troynoy-pedalyu",
+      "decision": "keep",
+      "reason": "Общий педальный запрос уже есть; отдельный синоним комплекта не создаётся.",
+      "full_page_read": true
+    },
+    {
+      "slug": "pianino-s-pedalyu-sostenuto",
+      "decision": "keep",
+      "reason": "Различие sostenuto, сустейна и модератора уже раскрыто; используется как цель для YUS1.",
+      "full_page_read": true
+    },
+    {
+      "slug": "instrument-esli-pedal-daleko",
+      "decision": "keep",
+      "reason": "Досягаемость педали уже самостоятельная сцена; новая банкетка ведёт к ней.",
+      "full_page_read": true
+    },
+    {
+      "slug": "yamaha-p225-v-arendu",
+      "decision": "keep",
+      "reason": "Недавние уточнения GHC и различие полупедали/тройного блока сохранены.",
+      "full_page_read": true
+    },
+    {
+      "slug": "yamaha-ydps35-v-arendu",
+      "decision": "keep",
+      "reason": "Тонкий постоянный корпус уже представлен; используется существующий URL.",
+      "full_page_read": true
+    },
+    {
+      "slug": "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "decision": "keep",
+      "reason": "Линия, DI и мониторинг уже раскрыты; новые цифровые рояли ведут сюда.",
+      "full_page_read": true
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-zanyatiy-v-naushnikah",
+      "decision": "keep",
+      "reason": "Домашняя практика и остаточный механический шум уже раскрыты.",
+      "full_page_read": true
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "decision": "keep",
+      "reason": "Существующая педальная учебная сцена сохраняется; принадлежности не заменяют её.",
+      "full_page_read": true
+    }
+  ],
+  "coverage_axes": {
+    "concert_grand": "Существующий arenda-koncertnogo-royalya-moskva обогащён; D-274,CFX и другие существующие модели не дублируются.",
+    "cabinet_vs_small": "Кабинетный и малый акустический рояль раскрыты в одной теме: камерный баланс, полный габарит и занос. Универсальный размерный порог и второй синонимичный URL не вводятся.",
+    "white_black_red": "Три разных сценических запроса; фотографии и действие проверяются на экземпляре, цвет не объявлен заводской отделкой всего семейства.",
+    "acoustic_upright": "Сохранён общий вход; добавлены точный YUS1 и вертикальное пианино для кадра.",
+    "cabinet_and_compact_digital": "Корпусное и переносное обогащены, компактное сохранено; синонимические URL не создаются.",
+    "digital_grand": "Отдельный формат и две подтверждённые российским прокатом модели; акустическая струнная система им не приписана.",
+    "sets_and_scenes": "Регулируемая банкетка, фойе, сценический цифровой тракт, домашняя опора и педаль; существующие два рояля/четыре руки сохранены."
+  },
+  "editorial_inferences": "План помещения, проба своей программы, проверка ракурса/света и вопросы комплектации — собственные редакционные способы уточнить запрос. Они не выдаются за обязательную методику производителя или услуги фонда.",
+  "excluded_claims": [
+    "Цены, сроки доставки и наличие сторонних каталогов не перенесены в обещания фонда.",
+    "C3 Ferrari не объявлен заводской серией; спорные размеры и превосходство из рекламного текста не заимствованы.",
+    "Кабинетному роялю не назначена универсальная граница длины.",
+    "Красное дерево не отождествлено с однотонной красной отделкой.",
+    "Цифровой корпус не назван акустическим роялем или автоматической заменой концертной модели.",
+    "Не добавлены отдельные URL под аренда/прокат; N.1 не содержит коммерческих слов."
+  ],
+  "preservation": {
+    "existing_urls_unchanged": true,
+    "existing_N0_N1_unchanged": true,
+    "existing_sources_retained": true,
+    "existing_routes_retained": true,
+    "compiler_css_tests_unchanged": true,
+    "new_page_links_range": [
+      2,
+      4
+    ]
+  },
+  "candidate": {
+    "path": "content/sections/zzzz72-piano-format-color-scenes.json",
+    "sha256": "e7d4ba468ed11320ffe54920a60d55482194834698ab4ee31732bb9c128b7bad"
+  },
+  "validation": {
+    "candidate_structural": "12 new + 10 enrich; every new page has 3–4 existing/new subject links and valid parent; no commercial N.1; existing N.0/N.1, URLs, parents, sources and routes preserved.",
+    "shared_tree_inventory": {
+      "subjects": 1954,
+      "errors": []
+    },
+    "shared_tree_link_audit_checkpoint": {
+      "subjects": 1954,
+      "errors": [
+        "usiliteli-backline: missing linked subject /scenicheskaya-mebel-i-stoyki/"
+      ],
+      "note": "Parallel authoring snapshot; this target is outside 72 and was reported to its author. No 72 route errors; not a final release audit.",
+      "duplicate_route_count": 0,
+      "self_link_count": 0,
+      "strict_thin_leaf_pages": 0
+    },
+    "full_build_or_test_suite": "Not run by this author; root performs integrated validation."
+  }
+}

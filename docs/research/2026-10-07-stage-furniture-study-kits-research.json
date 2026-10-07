@@ -1,0 +1,1079 @@
+{
+  "date": "2026-10-07",
+  "status": "prepared_not_published",
+  "base_sha": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+  "base_inventory_count": 1901,
+  "base_snapshot_sha256": "c8259a55b3f90a257846bdfbfe217134b2bb1abfb98a8048ded3a375f8102318",
+  "canon_read": [
+    "docs/active-canon-2026-10-04.md",
+    "docs/rider-model-canon.md",
+    "docs/query-language.md",
+    "docs/CURRENT-WORK-STATE.md"
+  ],
+  "scope": "Сценическая мебель, инструментальные принадлежности, согласование инструментальной части райдера и учебные guitar/bass+combo комплекты. Исключены PA/микрофоны/микшеры, фортепианная банкетка, DJ-оборудование и общий вход usiliteli-backline.",
+  "counts": {
+    "new": 16,
+    "enrich": 4,
+    "keep": 11,
+    "decisions": 31
+  },
+  "method": "Проверен полный merged inventory из 1901 темы, прочитаны полные близкие страницы и источники. Названия/параметры из рекламы прокатов не считаются первичным техническим доказательством. Новые предметные тексты написаны самостоятельно; наличие и состав ONTOS.RENT из чужого парка не выводятся.",
+  "primary_sources": [
+    {
+      "key": "sound4eck",
+      "title": "Sound4eck: стойки в прокатном каталоге",
+      "url": "https://sound4eck.ru/categorija/arenda-beklajna/stoyki/",
+      "web_refs": [
+        "turn178view0"
+      ],
+      "source_type": "rental_business",
+      "city": "Санкт-Петербург",
+      "use": "Пюпитры, гитарные и одно-/двухъярусные клавишные стойки. Рекламные заявления об универсальности и параметры моделей не перенесены."
+    },
+    {
+      "key": "soundpiter",
+      "title": "SoundPiter: стойки для инструментов и пюпитры",
+      "url": "https://www.soundpiter.ru/service/backline/backline-stands.html",
+      "web_refs": [
+        "turn178view1"
+      ],
+      "source_type": "rental_business",
+      "city": "Санкт-Петербург",
+      "use": "Независимое подтверждение отдельных принадлежностей, включая одно-/двухъярусные клавишные опоры."
+    },
+    {
+      "key": "kvazar",
+      "title": "Kvazar Sound: стулья и сценическая мебель",
+      "url": "https://arendaprokatzvuka.ru/arenda-sceny/",
+      "web_refs": [
+        "turn209view0"
+      ],
+      "source_type": "rental_business",
+      "city": "Санкт-Петербург; Москва",
+      "use": "Отдельные складной и барный стулья; барный прямо назван стулом музыканта. Цены и обязательства по обслуживанию не перенесены."
+    },
+    {
+      "key": "izi",
+      "title": "IZI.show: стулья, педали и стойки ударных",
+      "url": "https://izi.show/catalog/arenda_barabannye_ustanovki/",
+      "web_refs": [
+        "turn209view4"
+      ],
+      "source_type": "rental_business",
+      "city": "Екатеринбург",
+      "use": "Отдельные стулья HT430B/HT65WN, педали и стойки малого, хай-хэта, тарелок; свидетельство самостоятельных прокатных позиций."
+    },
+    {
+      "key": "izitable",
+      "title": "IZI.show: перкуссионный столик On-Stage DPT4000",
+      "url": "https://izi.show/card/arenda_onstage_dpt4000/",
+      "web_refs": [
+        "turn213view3"
+      ],
+      "source_type": "rental_business",
+      "city": "Екатеринбург",
+      "use": "Перкуссионный столик как самостоятельная прокатная принадлежность. Спецификации этой модели в текст не переносились."
+    },
+    {
+      "key": "mmax",
+      "title": "Music Max Group: пюпитр On-Stage SM7211",
+      "url": "https://m-max.ru/equipment/pyupitr-stage-sm7211-s-pryamoy-notnoy-doskoy",
+      "web_refs": [
+        "turn174search1"
+      ],
+      "source_type": "rental_business",
+      "city": "Москва",
+      "use": "Концертный пюпитр с прямой нотной доской. Используется как подтверждение предмета в прокате, не наличия у ONTOS.RENT."
+    },
+    {
+      "key": "light",
+      "title": "Аренда-Прокат: пюпитр с подсветкой",
+      "url": "https://www.arenda-prokat.ru/catalog/prokat-sczen/shtativyi/arenda-pyupitra-i-podsvetki.html",
+      "web_refs": [
+        "turn214view1"
+      ],
+      "source_type": "rental_business",
+      "city": "Москва",
+      "use": "Пюпитр и отдельный светильник в согласуемом комплекте; срок работы батарей из рекламы не переносился."
+    },
+    {
+      "key": "ampstand",
+      "title": "Party365: стойка для гитарного комбоусилителя",
+      "url": "https://party365.ru/backline/podstavka-pod-monitor-proel-el700/",
+      "web_refs": [
+        "turn214view0"
+      ],
+      "source_type": "rental_business",
+      "city": "Москва",
+      "use": "Отдельная прокатная подставка под комбик. Размеры и обещания обслуживания из текста каталога не переносились."
+    },
+    {
+      "key": "show4rent",
+      "title": "Show4Rent: бэклайн и стойка для ноутбука",
+      "url": "https://www.show4rent.ru/backline",
+      "web_refs": [
+        "turn209view1"
+      ],
+      "source_type": "rental_business",
+      "city": null,
+      "use": "В опубликованном перечне есть K&M 12185, пюпитр и инструментальные стойки. Город по открытому документу не установлен, не включён в географическое доказательство."
+    },
+    {
+      "key": "soundman",
+      "title": "Soundman24: состав комплекта Yamaha Tour Custom",
+      "url": "https://soundman24.ru/yamahatourcustommaple",
+      "web_refs": [
+        "turn212search29"
+      ],
+      "source_type": "rental_business",
+      "city": "Москва",
+      "use": "В конкретный опубликованный комплект включены стул, педаль, стойки и коврик; это не универсальная комплектация любой установки."
+    },
+    {
+      "key": "muzarenda",
+      "title": "MUZarenda: струнные инструменты",
+      "url": "https://www.muzarenda.ru/uslugi/strunnye_instrumenty.html",
+      "web_refs": [
+        "turn215view7"
+      ],
+      "source_type": "rental_business",
+      "city": "Москва",
+      "use": "Отдельные электрогитары и бас-гитары. Полного подтверждённого домашнего guitar+combo пакета на открытой странице нет; комплектная тема выведена из запроса владельца и функции тракта."
+    },
+    {
+      "key": "muzkit",
+      "title": "MUZarenda: малый комплект бэклайна",
+      "url": "https://www.muzarenda.ru/uslugi/zvukovoe_oborudovanie/komplekty_zvuka/komplekt_beklajna_malyj.html",
+      "web_refs": [
+        "turn215view6"
+      ],
+      "source_type": "rental_business",
+      "city": "Москва",
+      "use": "Подтверждает комплектный запрос для небольшой группы; открытая страница не раскрывает состав, он не приписан ей."
+    },
+    {
+      "key": "orchestra",
+      "title": "IP Orchestra: технический райдер и план рассадки",
+      "url": "https://ip-orchestra.ru/wp-content/uploads/2018/12/tehnicheskiy_rayder_ip_orchestra.pdf",
+      "web_refs": [
+        "turn216view0"
+      ],
+      "source_type": "artist_primary",
+      "city": null,
+      "use": "Стулья, пюпитры, подсветка и план сцены указаны отдельно; изменения согласуются. Требования конкретной программы, не всеобщий стандарт."
+    },
+    {
+      "key": "throne",
+      "title": "TAMA: устройство и регулировка Round Rider HT430B",
+      "url": "https://www.tama.com/eu/products/detail/ht430b.html",
+      "web_refs": [
+        "turn213view0"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Первичный источник регулировки высоты и фиксации барабанного стула; числовые параметры в новое содержание не добавлены."
+    },
+    {
+      "key": "pedal",
+      "title": "TAMA: педаль бас-барабана Iron Cobra 600",
+      "url": "https://www.tama.com/eu/products/detail/hp600d.html",
+      "web_refs": [
+        "turn216view2"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Первичный источник педали с пружиной, колотушкой и зажимом; оценка функции не создаёт общего ранга качества."
+    },
+    {
+      "key": "rug",
+      "title": "TAMA: коврик для барабанной установки",
+      "url": "https://www.tama.com/usa/products/detail/tdr-tl.html",
+      "web_refs": [
+        "turn216search4"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Нескользящая нижняя сторона — назначение коврика; не источник обещания звукоизоляции квартиры."
+    },
+    {
+      "key": "laptop",
+      "title": "König & Meyer: стойка для ноутбука 12185",
+      "url": "https://www.k-m.de/en/stands/12185-laptop-stand-black",
+      "web_refs": [
+        "turn213view1"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Опорная площадка, регулируемые упоры, высота, кабельное отверстие; размеры не заимствованы как универсальные."
+    },
+    {
+      "key": "kmamp",
+      "title": "König & Meyer: подставка для усилителя 28130",
+      "url": "https://www.k-m.de/us/amp-monitor-and-mixer-stands/28130-amp-stand-black",
+      "web_refs": [
+        "turn215view1"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Регулируемый наклон, размеры опор и предельная нагрузка зависят от модели. Числа не перенесены."
+    },
+    {
+      "key": "kmlight",
+      "title": "König & Meyer: светильник пюпитра 12295",
+      "url": "https://www.k-m.de/en/lights-without-cable/12295-music-stand-light-dimmer-light-black",
+      "web_refs": [
+        "turn215view2"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Крепление, регулируемый свет и варианты питания конкретного прибора; не универсальное время автономной работы."
+    },
+    {
+      "key": "kmguitar",
+      "title": "König & Meyer: гитарная стойка Memphis Pro 17670",
+      "url": "https://www.k-m.de/en/stands-with-neck-bracket/17670-guitar-stand-memphis-pro-black",
+      "web_refs": [
+        "turn215view3"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Гитарные опоры и держатель грифа; совместимость проверяют по конкретному инструменту."
+    },
+    {
+      "key": "kmkeys",
+      "title": "König & Meyer: клавишная стойка 18990 и второй ярус",
+      "url": "https://www.k-m.de/en/keyboard-stands/18990-keyboard-stand-rick-black",
+      "web_refs": [
+        "turn216search1"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Второй ярус требует совместимого расширения 18941, не подразумевается в любом X-основании. Каталожную ошибку «18990 сама двухъярусная» не повторяем."
+    },
+    {
+      "key": "perctable",
+      "title": "Hercules: перкуссионный столик DS800B",
+      "url": "https://www.herculesstands.com/products/winds-and-percussion/percussion/ds800b",
+      "web_refs": [
+        "turn215view0"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Регулируемая высота, мягкая съёмная поверхность и край; не гарантия полной бесшумности."
+    },
+    {
+      "key": "guitaracc",
+      "title": "Yamaha: принадлежности электрогитариста",
+      "url": "https://www.yamaha.com/en/musical_instrument_guide/electric_guitar/selection/selection003.html",
+      "web_refs": [
+        "turn215view4"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Медиатор, настройка, роль дополнительных эффектов. Гитара может подключаться прямо к усилителю без обязательной цепочки педалей."
+    },
+    {
+      "key": "guitarchain",
+      "title": "Yamaha: инструментальный кабель и усиление электрогитары",
+      "url": "https://hub.yamaha.com/music-educators/instruments/guitars-education/tone-and-sound-on-your-guitar-part-2/",
+      "web_refs": [
+        "turn212search16"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Гитара — инструментальный вход усилителя; влияние настройки усиления на различимость атаки."
+    },
+    {
+      "key": "bassamp",
+      "title": "Yamaha: выбор усиления для бас-гитары",
+      "url": "https://hub.yamaha.com/guitars/bass/how-to-choose-a-bass-amp/",
+      "web_refs": [
+        "turn216search10"
+      ],
+      "source_type": "manufacturer",
+      "city": null,
+      "use": "Различие домашней практики и игры с барабанщиком, роль усилителя и прослушивания."
+    }
+  ],
+  "geographic_evidence": {
+    "Санкт-Петербург": [
+      "sound4eck",
+      "soundpiter",
+      "kvazar"
+    ],
+    "Москва": [
+      "mmax",
+      "light",
+      "ampstand",
+      "muzarenda",
+      "soundman"
+    ],
+    "Екатеринбург": [
+      "izi",
+      "izitable"
+    ]
+  },
+  "decisions": [
+    {
+      "slug": "scenicheskaya-mebel-i-stoyki",
+      "decision": "new",
+      "reason": "В широком бэклайне не было входа к сценической мебели; новый узел объединяет предметы через рабочее место, без новой услуги организации всего мероприятия.",
+      "existing_contexts": [
+        "usiliteli-backline",
+        "backline-po-rayderu-dlya-gruppy"
+      ],
+      "evidence_keys": [
+        "sound4eck",
+        "kvazar",
+        "orchestra"
+      ],
+      "explicit_links": [
+        "stul-dlya-muzykanta",
+        "pyupitr",
+        "mebel-i-pyupitry-dlya-ansamblya",
+        "backline-po-rayderu-dlya-gruppy"
+      ]
+    },
+    {
+      "slug": "stul-dlya-muzykanta",
+      "decision": "new",
+      "reason": "Самостоятельного стула не было; объединены обычное и высокое сиденье без отдельных синонимичных или инструментальных посадочных URL.",
+      "existing_contexts": [
+        "barabannaya-ustanovka-dlya-dolgoy-repetitsii",
+        "cifrovoe-pianino-na-ustoychivoy-stoyke"
+      ],
+      "evidence_keys": [
+        "kvazar",
+        "orchestra"
+      ],
+      "explicit_links": [
+        "pyupitr",
+        "mebel-i-pyupitry-dlya-ansamblya",
+        "stul-dlya-barabanshchika"
+      ]
+    },
+    {
+      "slug": "stul-dlya-barabanshchika",
+      "decision": "new",
+      "reason": "Стул упоминался в общей установке, но отсутствовал как отдельно арендуемая принадлежность; задача отличается от общего стула активной работой ног.",
+      "existing_contexts": [
+        "barabannaya-ustanovka",
+        "barabannaya-ustanovka-dlya-dolgoy-repetitsii"
+      ],
+      "evidence_keys": [
+        "izi",
+        "throne"
+      ],
+      "explicit_links": [
+        "pedal-dlya-bas-barabana",
+        "barabannaya-ustanovka-dlya-dolgoy-repetitsii",
+        "kovrik-dlya-barabannoy-ustanovki"
+      ]
+    },
+    {
+      "slug": "pyupitr",
+      "decision": "new",
+      "reason": "В корпусе были ноты и ансамблевые сцены, но не самостоятельный пюпитр; оркестровый/дирижёрский формат разобран внутри одной темы без искусственного дробления.",
+      "existing_contexts": [
+        "backline-po-rayderu-dlya-gruppy",
+        "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya"
+      ],
+      "evidence_keys": [
+        "soundpiter",
+        "mmax",
+        "orchestra"
+      ],
+      "explicit_links": [
+        "podsvetka-dlya-pyupitra",
+        "stul-dlya-muzykanta",
+        "mebel-i-pyupitry-dlya-ansamblya"
+      ]
+    },
+    {
+      "slug": "podsvetka-dlya-pyupitra",
+      "decision": "new",
+      "reason": "Светильник имеет самостоятельные крепление/питание и может требоваться к собственному пюпитру; это не дубль общего пюпитра.",
+      "existing_contexts": [
+        "backline-po-rayderu-dlya-gruppy"
+      ],
+      "evidence_keys": [
+        "light",
+        "kmlight"
+      ],
+      "explicit_links": [
+        "pyupitr",
+        "mebel-i-pyupitry-dlya-ansamblya"
+      ]
+    },
+    {
+      "slug": "stoyka-dlya-gitary",
+      "decision": "new",
+      "reason": "Новый самостоятельный предмет; несколько гитар раскрыты здесь без отдельной малообоснованной страницы многоместной стойки.",
+      "existing_contexts": [
+        "elektrogitara-dlya-pervyh-repetitsiy",
+        "backline-dlya-bystroy-smeny-grupp"
+      ],
+      "evidence_keys": [
+        "sound4eck",
+        "kmguitar"
+      ],
+      "explicit_links": [
+        "elektrogitara-dlya-pervyh-repetitsiy",
+        "stoyka-dlya-kombika",
+        "backline-dlya-bystroy-smeny-grupp"
+      ]
+    },
+    {
+      "slug": "klavishnaya-stoyka",
+      "decision": "new",
+      "reason": "Общая прокатная опора и второй ярус отсутствовали; цифровое пианино на устойчивой стойке сохраняется как учебная сцена, а двухклавиатурный сет — как музыкальное разделение ролей.",
+      "existing_contexts": [
+        "cifrovoe-pianino-na-ustoychivoy-stoyke",
+        "dvuhklaviaturnyy-set-dlya-kontserta"
+      ],
+      "evidence_keys": [
+        "sound4eck",
+        "soundpiter",
+        "kmkeys"
+      ],
+      "explicit_links": [
+        "dvuhklaviaturnyy-set-dlya-kontserta",
+        "cifrovoe-pianino-na-ustoychivoy-stoyke",
+        "stoyka-dlya-noutbuka-na-scene"
+      ]
+    },
+    {
+      "slug": "stoyka-dlya-noutbuka-na-scene",
+      "decision": "new",
+      "reason": "Первично подтверждён самостоятельный прокатный предмет, задача именно опоры рядом с живым инструментом; DJ-стол и компьютерные лицензии не входят в тему.",
+      "existing_contexts": [
+        "dvuhklaviaturnyy-set-dlya-kontserta",
+        "backline-po-rayderu-dlya-gruppy"
+      ],
+      "evidence_keys": [
+        "show4rent",
+        "laptop"
+      ],
+      "explicit_links": [
+        "klavishnaya-stoyka",
+        "dvuhklaviaturnyy-set-dlya-kontserta",
+        "backline-po-rayderu-dlya-gruppy"
+      ]
+    },
+    {
+      "slug": "stolik-dlya-perkussii",
+      "decision": "new",
+      "reason": "Столик уже полезно упоминался в акустической перкуссии, но не существовал как отдельная арендуемая принадлежность; его состав/крепление/высота — самостоятельная задача.",
+      "existing_contexts": [
+        "perkussiya-dlya-akusticheskogo-kontserta",
+        "ruchnaya-perkussiya"
+      ],
+      "evidence_keys": [
+        "izitable",
+        "perctable"
+      ],
+      "explicit_links": [
+        "perkussiya-dlya-akusticheskogo-kontserta",
+        "ruchnaya-perkussiya",
+        "stul-dlya-muzykanta"
+      ]
+    },
+    {
+      "slug": "kovrik-dlya-barabannoy-ustanovki",
+      "decision": "new",
+      "reason": "Коврик упомянут в барабанном комплекте, но отсутствовал самостоятельный предмет; отделена сцепляемость от обещания акустической изоляции.",
+      "existing_contexts": [
+        "barabannaya-ustanovka",
+        "elektronnye-barabany-dlya-domashnih-zanyatiy"
+      ],
+      "evidence_keys": [
+        "soundman",
+        "rug"
+      ],
+      "explicit_links": [
+        "komplekt-stoek-dlya-barabannoy-ustanovki",
+        "stul-dlya-barabanshchika",
+        "elektronnye-barabany-dlya-domashnih-zanyatiy"
+      ]
+    },
+    {
+      "slug": "stoyka-dlya-kombika",
+      "decision": "new",
+      "reason": "Отдельная подтверждённая прокатная принадлежность, не новая модель усилителя; музыкальная задача направления/доступа отсутствует у общего усилительного выбора.",
+      "existing_contexts": [
+        "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+        "backline-po-rayderu-dlya-gruppy"
+      ],
+      "evidence_keys": [
+        "ampstand",
+        "kmamp"
+      ],
+      "explicit_links": [
+        "stoyka-dlya-gitary",
+        "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+        "backline-po-rayderu-dlya-gruppy"
+      ]
+    },
+    {
+      "slug": "pedal-dlya-bas-barabana",
+      "decision": "new",
+      "reason": "Педаль существует в каталогах отдельно, а текущая сцена посвящена конкретно электронной двойной педали. Новый предмет охватывает акустическое крепление, согласование комплекта и одиночный вариант, сохраняя прежний узкий адрес.",
+      "existing_contexts": [
+        "barabannaya-ustanovka",
+        "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+        "barabany-dlya-gastrolnogo-raydera"
+      ],
+      "evidence_keys": [
+        "izi",
+        "pedal"
+      ],
+      "explicit_links": [
+        "stul-dlya-barabanshchika",
+        "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+        "barabany-dlya-gastrolnogo-raydera"
+      ]
+    },
+    {
+      "slug": "komplekt-stoek-dlya-barabannoy-ustanovki",
+      "decision": "new",
+      "reason": "Отдельный прокатный комплект для собственных корпусов/тарелок отсутствовал; общая барабанная установка и гастрольная приёмка сохраняются без дублирования их тел.",
+      "existing_contexts": [
+        "barabannaya-ustanovka",
+        "barabany-dlya-gastrolnogo-raydera"
+      ],
+      "evidence_keys": [
+        "izi",
+        "orchestra"
+      ],
+      "explicit_links": [
+        "pedal-dlya-bas-barabana",
+        "kovrik-dlya-barabannoy-ustanovki",
+        "barabany-dlya-gastrolnogo-raydera"
+      ]
+    },
+    {
+      "slug": "elektrogitara-s-kombikom-dlya-obucheniya",
+      "decision": "new",
+      "reason": "Запрошенная владельцем комплектная задача отсутствовала: существующая домашняя электрогитара и учебный усилитель раскрывают разные половины цепочки. Российский источник подтверждает аренду инструментов, Yamaha — функцию принадлежностей; наличие готового набора у сторонней компании не заявляется.",
+      "existing_contexts": [
+        "elektrogitara-dlya-domashnih-zanyatiy",
+        "elektrogitara-dlya-pervogo-instrumenta",
+        "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+        "elektrogitara-dlya-pervyh-repetitsiy"
+      ],
+      "evidence_keys": [
+        "muzarenda",
+        "guitaracc",
+        "guitarchain"
+      ],
+      "explicit_links": [
+        "elektrogitara-dlya-pervogo-instrumenta",
+        "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+        "stoyka-dlya-gitary"
+      ]
+    },
+    {
+      "slug": "bas-gitara-s-kombikom-dlya-obucheniya",
+      "decision": "new",
+      "reason": "Аналогичный самостоятельный комплектный запрос: басовый тракт и тихая ритмическая практика, с сохранением существующих страниц инструмента и домашней сцены.",
+      "existing_contexts": [
+        "bas-gitara-dlya-nachinayuschego",
+        "bas-gitara-dlya-domashnih-zanyatiy",
+        "usilitel-dlya-domashnih-uchebnyh-zanyatiy"
+      ],
+      "evidence_keys": [
+        "muzarenda",
+        "bassamp"
+      ],
+      "explicit_links": [
+        "bas-gitara-dlya-nachinayuschego",
+        "bas-gitara-dlya-domashnih-zanyatiy",
+        "usilitel-dlya-domashnih-uchebnyh-zanyatiy"
+      ]
+    },
+    {
+      "slug": "mebel-i-pyupitry-dlya-ansamblya",
+      "decision": "new",
+      "reason": "Новая комплектная задача количества/рассадки/переходов; отличается от выбора одного стула или пюпитра и не дублирует звуковой райдер.",
+      "existing_contexts": [
+        "backline-po-rayderu-dlya-gruppy",
+        "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya"
+      ],
+      "evidence_keys": [
+        "orchestra",
+        "kvazar",
+        "light"
+      ],
+      "explicit_links": [
+        "pyupitr",
+        "stul-dlya-muzykanta",
+        "podsvetka-dlya-pyupitra",
+        "backline-po-rayderu-dlya-gruppy"
+      ]
+    },
+    {
+      "slug": "backline-po-rayderu-dlya-gruppy",
+      "decision": "enrich",
+      "reason": "Существующий адрес сохраняется; добавлены мебель/пространство и точное согласование состава/работ вместо безусловного превращения аренды в готовую сцену.",
+      "changed_fields": [
+        "description",
+        "blocks",
+        "sources"
+      ],
+      "evidence_keys": [
+        "orchestra",
+        "muzkit"
+      ],
+      "before": {
+        "description": "Бэклайн группы по райдеру: гитара, бас, барабаны, клавишные, DI и согласованные замены.",
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Каждую позицию сначала читают внутри партии музыканта",
+            "paragraphs": [
+              "Гитарный усилитель, басовый DI, размеры барабанов и механика клавиатуры несут разные типы обязательности."
+            ]
+          },
+          {
+            "label": "02 / СБОРКА",
+            "title": "Затем собирают общий сценический план",
+            "paragraphs": [
+              "Даже идеальные отдельные позиции могут не поместиться физически или электрически вместе."
+            ]
+          },
+          {
+            "label": "03 / СРОК",
+            "title": "Аренда переводит райдер в готовую сцену",
+            "paragraphs": [
+              "Не в набор коробок у погрузочной двери."
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Backline Source: professional backline rental categories",
+            "url": "https://www.backlinesource.com/"
+          },
+          {
+            "title": "Backline Source: advance planning and rider substitutes",
+            "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+          },
+          {
+            "title": "Backstage Backline: published instrument and backline inventory",
+            "url": "https://www.backstagebackline.com/instruments-and-more"
+          }
+        ]
+      },
+      "after": {
+        "description": "Бэклайн группы по райдеру: инструменты, усиление, стойки и мебель, согласованные замены, состав и порядок приёмки.",
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Каждую позицию сначала читают внутри партии музыканта",
+            "paragraphs": [
+              "Гитарный усилитель, басовый DI, размеры барабанов и механика клавиатуры несут разные типы обязательности."
+            ]
+          },
+          {
+            "label": "02 / СБОРКА",
+            "title": "Затем собирают общий сценический план",
+            "paragraphs": [
+              "Даже идеальные отдельные позиции могут не поместиться физически или электрически вместе.",
+              "На общем плане отмечают не только инструменты и кабели, но и стулья, пюпитры, стойки, места для запасных инструментов и проходы. Количество и размеры принадлежностей сверяют с каждым исполнителем: они занимают то же сценическое пространство."
+            ]
+          },
+          {
+            "label": "03 / ПОДТВЕРЖДЕНИЕ",
+            "title": "Райдер доводят до согласованного перечня и порядка приёмки",
+            "paragraphs": [
+              "В итоговом списке фиксируют модели или согласованные замены, принадлежности и то, что музыканты привозят сами. Отдельно определяют время передачи, сборки и проверки, а также кто выполняет эти работы. Подбор бэклайна и техническое сопровождение согласуют в конкретном объёме: сам перечень инструментов ещё не распределяет обязанности на всём мероприятии."
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "title": "Backline Source: professional backline rental categories",
+            "url": "https://www.backlinesource.com/"
+          },
+          {
+            "title": "Backline Source: advance planning and rider substitutes",
+            "url": "https://www.backlinesource.com/single-post/10-tips-every-event-planner-should-know-before-renting-backline-equipment"
+          },
+          {
+            "title": "Backstage Backline: published instrument and backline inventory",
+            "url": "https://www.backstagebackline.com/instruments-and-more"
+          },
+          {
+            "title": "IP Orchestra: технический райдер и план рассадки",
+            "url": "https://ip-orchestra.ru/wp-content/uploads/2018/12/tehnicheskiy_rayder_ip_orchestra.pdf"
+          },
+          {
+            "title": "MUZarenda: малый комплект бэклайна",
+            "url": "https://www.muzarenda.ru/uslugi/zvukovoe_oborudovanie/komplekty_zvuka/komplekt_beklajna_malyj.html"
+          }
+        ]
+      }
+    },
+    {
+      "slug": "backline-dlya-bystroy-smeny-grupp",
+      "decision": "enrich",
+      "reason": "Дополнен существующий сценарий смены конкретной мебелью/настройками; снято неподтверждённое обещание единой ответственности из самого факта аренды.",
+      "changed_fields": [
+        "blocks"
+      ],
+      "evidence_keys": [
+        "orchestra",
+        "show4rent"
+      ],
+      "before": {
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Сначала определяют, что остаётся на сцене",
+            "paragraphs": [
+              "Общий комплект барабанов, часть кабинетов и стойки могут не двигаться вообще."
+            ]
+          },
+          {
+            "label": "02 / СБОРКА",
+            "title": "Для сменяемых элементов создают порядок передачи",
+            "paragraphs": [
+              "Головы, педали, клавишные и DI подключаются в известной последовательности."
+            ]
+          },
+          {
+            "label": "03 / СРОК",
+            "title": "Аренда даёт единый парк и единую ответственность",
+            "paragraphs": [
+              "Это снижает количество несовместимых частных комплектов."
+            ]
+          }
+        ]
+      },
+      "after": {
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Сначала определяют, что остаётся на сцене",
+            "paragraphs": [
+              "Общий комплект барабанов, часть кабинетов и стойки могут не двигаться вообще."
+            ]
+          },
+          {
+            "label": "02 / СБОРКА",
+            "title": "Для сменяемых элементов создают порядок передачи",
+            "paragraphs": [
+              "Головы, педали, клавишные и DI подключаются в известной последовательности.",
+              "В этот порядок включают возврат высоты барабанного стула, установку второго яруса клавишных и перенос пюпитров. Для каждой смены отмечают нужные настройки и человека, который выполняет перестановку; согласованные действия проверяют на площадке до выступления."
+            ]
+          },
+          {
+            "label": "03 / ОТВЕТСТВЕННОСТЬ",
+            "title": "Общий комплект и работу с ним согласуют вместе",
+            "paragraphs": [
+              "В перечне разделяют местное оборудование и личные предметы музыкантов. Стороны заранее определяют, кто передаёт каждый узел следующей группе и кто устраняет обнаруженное расхождение. Это позволяет подготовить совместимый состав без обещания, что один договор аренды автоматически охватывает всю сценическую работу."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "decision": "enrich",
+      "reason": "Вместо второго URL электронного учебного набора дополнена существующая домашняя сцена. Сохранены механический шум, вибрация и проверка помещения; не обещан автоматический полный комплект.",
+      "changed_fields": [
+        "blocks"
+      ],
+      "evidence_keys": [
+        "izi"
+      ],
+      "before": {
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Сначала собирают рабочее место, а не выбирают пресет",
+            "paragraphs": [
+              "Высота стула, педали, малый и хай-хэт должны позволять повторять обычные учебные движения без постоянной перестановки."
+            ]
+          },
+          {
+            "label": "02 / ПРОБА",
+            "title": "Проверьте полный домашний сеанс",
+            "paragraphs": [
+              "Рудименты, метроном, песня и работа ног покажут больше, чем короткая демонстрация звуков модуля."
+            ]
+          },
+          {
+            "label": "03 / СРОК",
+            "title": "Аренда позволяет проверить само помещение",
+            "paragraphs": [
+              "Если квартира не выдерживает даже механический шум, это лучше узнать до покупки."
+            ]
+          }
+        ]
+      },
+      "after": {
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Сначала собирают рабочее место, а не выбирают пресет",
+            "paragraphs": [
+              "Высота стула, педали, малый и хай-хэт должны позволять повторять обычные учебные движения без постоянной перестановки.",
+              "До передачи согласуют весь домашний комплект: стул, способ управления бас-барабаном и хай-хэтом, питание модуля и прослушивание. Для конкретной модели уточняют, какие педали и стойки входят в состав, а что требуется отдельно. Если планируются наушники, проверяют их подключение и удобство вместе с установкой."
+            ]
+          },
+          {
+            "label": "02 / ПРОБА",
+            "title": "Проверьте полный домашний сеанс",
+            "paragraphs": [
+              "Рудименты, метроном, песня и работа ног покажут больше, чем короткая демонстрация звуков модуля."
+            ]
+          },
+          {
+            "label": "03 / СРОК",
+            "title": "Аренда позволяет проверить само помещение",
+            "paragraphs": [
+              "Если квартира не выдерживает даже механический шум, это лучше узнать до покупки."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "backline-dlya-festivalya",
+      "decision": "enrich",
+      "reason": "Минимальная относящаяся к концертной организации поправка: окончание аренды не означает исчезновение всей инфраструктуры из постоянных расходов площадки.",
+      "changed_fields": [
+        "blocks"
+      ],
+      "evidence_keys": [
+        "muzkit"
+      ],
+      "before": {
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Сначала определяют общую основу и исключения",
+            "paragraphs": [
+              "Установка, некоторые усилители и клавишные могут быть общими, но отдельные райдерные позиции требуют замены между сетами."
+            ]
+          },
+          {
+            "label": "02 / СБОРКА",
+            "title": "Смену групп репетируют как отдельный сценарий",
+            "paragraphs": [
+              "Кабели, педали и уровни должны возвращаться к известному состоянию."
+            ]
+          },
+          {
+            "label": "03 / СРОК",
+            "title": "Аренда позволяет собрать большой парк ровно на фестивальные даты",
+            "paragraphs": [
+              "После события вся инфраструктура исчезает из постоянных расходов площадки."
+            ]
+          }
+        ]
+      },
+      "after": {
+        "blocks": [
+          {
+            "label": "01 / ЗАДАЧА",
+            "title": "Сначала определяют общую основу и исключения",
+            "paragraphs": [
+              "Установка, некоторые усилители и клавишные могут быть общими, но отдельные райдерные позиции требуют замены между сетами."
+            ]
+          },
+          {
+            "label": "02 / СБОРКА",
+            "title": "Смену групп репетируют как отдельный сценарий",
+            "paragraphs": [
+              "Кабели, педали и уровни должны возвращаться к известному состоянию."
+            ]
+          },
+          {
+            "label": "03 / СРОК",
+            "title": "Аренда позволяет собрать большой парк ровно на фестивальные даты",
+            "paragraphs": [
+              "После события согласованный арендный комплект возвращают. Его состав и срок связывают с фестивальной программой, монтажом и демонтажом, а постоянное оборудование площадки учитывают отдельно."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slug": "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+      "decision": "keep",
+      "reason": "Уже предметно раскрывает тип входа, прослушивание и управление на учебной громкости. Новая комплектная тема ведёт сюда за выбором усиления."
+    },
+    {
+      "slug": "elektrogitara-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "reason": "Сохраняет задачу регулярного домашнего исполнения и проверки инструмента; комплектный запрос не заменяет эту сцену."
+    },
+    {
+      "slug": "elektrogitara-dlya-pervogo-instrumenta",
+      "decision": "keep",
+      "reason": "Уже объясняет физический выбор первой гитары и различение управления; нет основания переписывать ради нового комплекта."
+    },
+    {
+      "slug": "elektrogitara-dlya-pervyh-repetitsiy",
+      "decision": "keep",
+      "reason": "Принадлежности и оборудование базы уже разобраны; домашний guitar+combo — другая ситуация, когда обеих основных вещей ещё нет."
+    },
+    {
+      "slug": "bas-gitara-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "reason": "Раскрывает ежедневную ритмическую работу; не заменяется набором арендуемых предметов."
+    },
+    {
+      "slug": "uchebnye-komplekty-udarnyh",
+      "decision": "keep",
+      "reason": "Существующий предмет — школьные комплекты пэд/малый барабан/колокольчики. Не смешивается с электронной установкой и не получает синонимичный URL."
+    },
+    {
+      "slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "decision": "keep",
+      "reason": "Содержит музыкальное разделение ролей двух инструментов. Общая стойка раскрывает опоры/крепление и связана с этой сценой."
+    },
+    {
+      "slug": "cifrovoe-pianino-na-ustoychivoy-stoyke",
+      "decision": "keep",
+      "reason": "Полностью сохраняется учебная проверка устойчивости и посадки; принадлежит также фортепианному участку другого агента. Новая общая стойка ведёт сюда."
+    },
+    {
+      "slug": "barabany-dlya-gastrolnogo-raydera",
+      "decision": "keep",
+      "reason": "Уже полно раскрывает личные принадлежности, замены и приёмку. Новые педаль и комплект стоек — конкретные предметы, а не повторная страница райдера."
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+      "decision": "keep",
+      "reason": "Сохраняется точная задача электронного пэда и двух колотушек; не сливается с общим прокатом педали."
+    },
+    {
+      "slug": "perkussiya-dlya-akusticheskogo-kontserta",
+      "decision": "keep",
+      "reason": "Полезное краткое тело о тембрах, камерном балансе и сменах сохранено. Уже существующий абзац о столике получает отдельную навигационную ссылку на впервые раскрытую принадлежность."
+    }
+  ],
+  "navigation_additions": {
+    "backline-po-rayderu-dlya-gruppy": [
+      {
+        "label": "Согласовать мебель и стойки",
+        "href": "/scenicheskaya-mebel-i-stoyki/"
+      },
+      {
+        "label": "Проверить рассадку и ноты",
+        "href": "/mebel-i-pyupitry-dlya-ansamblya/"
+      }
+    ],
+    "backline-dlya-bystroy-smeny-grupp": [
+      {
+        "label": "Предусмотреть место запасного инструмента",
+        "href": "/stoyka-dlya-gitary/"
+      },
+      {
+        "label": "Согласовать смену посадки",
+        "href": "/stul-dlya-barabanshchika/"
+      }
+    ],
+    "elektronnye-barabany-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Уточнить стул в домашнем комплекте",
+        "href": "/stul-dlya-barabanshchika/"
+      },
+      {
+        "label": "Согласовать педаль и крепление",
+        "href": "/pedal-dlya-bas-barabana/"
+      }
+    ],
+    "elektrogitara-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Если нужны и гитара, и комбик",
+        "href": "/elektrogitara-s-kombikom-dlya-obucheniya/"
+      }
+    ],
+    "bas-gitara-dlya-domashnih-zanyatiy": [
+      {
+        "label": "Собрать бас с усилением для занятий",
+        "href": "/bas-gitara-s-kombikom-dlya-obucheniya/"
+      }
+    ],
+    "perkussiya-dlya-akusticheskogo-kontserta": [
+      {
+        "label": "Разложить инструменты для быстрой смены",
+        "href": "/stolik-dlya-perkussii/"
+      }
+    ],
+    "dvuhklaviaturnyy-set-dlya-kontserta": [
+      {
+        "label": "Проверить опоры и второй ярус",
+        "href": "/klavishnaya-stoyka/"
+      }
+    ]
+  },
+  "additional_read_contexts": [
+    "usiliteli-backline",
+    "barabannaya-ustanovka",
+    "ruchnaya-perkussiya",
+    "perkussiya-dlya-akusticheskogo-kontserta",
+    "barabannaya-ustanovka-dlya-dolgoy-repetitsii",
+    "bas-gitara-dlya-nachinayuschego",
+    "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya",
+    "backline-dlya-soundcheck-do-priezda-artista",
+    "backline-dlya-akusticheskogo-kontserta",
+    "funktsionalnaya-zamena-backline-po-rayderu"
+  ],
+  "not_created": [
+    {
+      "topic": "Отдельные URL дирижёрского/оркестрового/складного пюпитра",
+      "reason": "Различия формата нот раскрыты в общем пюпитре; комплектная рассадка имеет самостоятельную задачу."
+    },
+    {
+      "topic": "Многоместная гитарная стойка",
+      "reason": "Число мест и корпуса раскрыты внутри подставки; недостаточно оснований для отдельного адреса в этом пакете."
+    },
+    {
+      "topic": "Новые модельные страницы K&M/TAMA/Hercules",
+      "reason": "Доказаны прежде всего отсутствовавшие предметы; параметры моделей использованы для проверки функции, а не размножения SKU."
+    },
+    {
+      "topic": "Новый электронный барабанный комплект для дома",
+      "reason": "Тот же человеческий сценарий уже есть; выбран enrich."
+    },
+    {
+      "topic": "Организация концерта под ключ",
+      "reason": "Не следует из подбора инструментального комплекта; работы и ответственные согласуются в существующем райдере."
+    }
+  ],
+  "source_link_proposal": "В этом пакете сохранён действующий массив sources {title,url}. Для последующего обсуждения — показывать в конце темы короткое понятное название первичного источника (производитель: какая функция подтверждается; прокат/райдер: пример комплектации) без переноса чужих цен, наличия и обещаний. Изменение шаблона или формата ссылок здесь не производится.",
+  "validation": {
+    "status": "lightweight_checks_passed",
+    "source_json_parsed": true,
+    "new_pages": 16,
+    "enrich_pages": 4,
+    "full_modified_block_arrays_preserved": true,
+    "new_page_explicit_links_range": [
+      2,
+      4
+    ],
+    "new_page_commercial_editorial_title_count": 0,
+    "new_page_search_title_prokat_count": 10,
+    "new_slug_parent_target_scope_errors": [],
+    "new_navigation_duplicates_against_baseline": [],
+    "shared_tree_inventory_subjects_at_check": 1970,
+    "shared_tree_inventory_errors": [],
+    "shared_tree_link_errors": [],
+    "shared_tree_duplicate_route_count": 0,
+    "shared_tree_self_link_count": 0,
+    "shared_tree_note": "Read-only проверки включали одновременно подготовленные overlays70–74. Это локальное состояние общего рабочего дерева, не опубликованный результат.",
+    "full_suite_or_build_run": false,
+    "source_only_writes": [
+      "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "docs/research/2026-10-07-stage-furniture-study-kits-research.json"
+    ]
+  },
+  "overlay_path": "content/sections/zzzz71-stage-furniture-study-kits.json",
+  "overlay_sha256": "7dbf8c1188d7abd361ba0ed4d5f621563efa35f53f24057c12a42559a50fa173",
+  "keep_definition": "Keep относится к телу и метаданным темы. Четыре из сохранённых существующих тел дополнены отдельным новым полезным маршрутом в navigation; все операции перечислены явно."
+}

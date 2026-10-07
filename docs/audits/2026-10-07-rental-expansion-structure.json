@@ -1,0 +1,2155 @@
+{
+  "status": "pass",
+  "errors": [],
+  "reviewed_at_utc": "2026-10-07T07:02:04.069894+00:00",
+  "base_sha": "893002c6eec3abc4515d6dafc40e2cd2214cc551",
+  "base_snapshot_sha256": "c8259a55b3f90a257846bdfbfe217134b2bb1abfb98a8048ded3a375f8102318",
+  "repository_modified": false,
+  "full_build_validator_suite_run": false,
+  "content_inventory_runs_this_gate": 1,
+  "link_audit_runs_this_gate": 1,
+  "definitions": {
+    "unique_enriched": "Existing subjects with a changed authored public field. Provenance/reviewed ignored.",
+    "body_enriched": "At least one of intro/blocks/quote changed.",
+    "metadata_only": "Authored changes limited to search_title/editorial_title/description/kicker/sources, with body unchanged.",
+    "nav_only": "No authored public field changed, but final connected navigation changed. Includes automatic children; explicit and automatic-only subsets also reported.",
+    "model": "New -v-arendu cohort manually checked by title as named model/system; separate product variants are not inferred from branding alone."
+  },
+  "counts": {
+    "baseline_subjects": 1901,
+    "final_subjects": 1980,
+    "new_subjects": 79,
+    "new_exact_model_subjects": 28,
+    "new_other_subjects": 51,
+    "enrich_records": 28,
+    "unique_declared_enrich_slugs": 27,
+    "existing_base_enrich_records": 26,
+    "unique_existing_base_declared_enrich": 25,
+    "new_subjects_later_enriched_in_package": [
+      "aktivnye-akusticheskie-sistemy",
+      "scenicheskiy-zvuk"
+    ],
+    "existing_unique_authored_field_enriched": 25,
+    "existing_body_enriched": 20,
+    "existing_metadata_only": 5,
+    "existing_structural_changes": 0,
+    "existing_connected_nav_changed": 33,
+    "existing_nav_only_including_automatic_children": 14,
+    "existing_explicit_nav_only": 11,
+    "existing_nav_label_only": [
+      ""
+    ],
+    "existing_automatic_nav_only": 3,
+    "existing_changed_any_public_or_connected_nav": 39,
+    "existing_unchanged_public_and_connected_nav": 1862,
+    "all_connected_edges": 6419,
+    "before_connected_edges": 6066,
+    "explicit_edges_before": 5285,
+    "explicit_edges_after": 5598,
+    "strict_edges_before": 3757,
+    "strict_edges_after": 4031
+  },
+  "packages": [
+    {
+      "package": "content/sections/zzzz70-vocal-stage-sound.json",
+      "sha256": "05e30199b41f4d81258a1f9846b1f33b2b55d6547a91c4c948a3bffe5803de44",
+      "new_count": 27,
+      "exact_model_count": 12,
+      "other_new_count": 15,
+      "enrich_record_count": 3,
+      "enrich_slugs": [
+        "backline-dlya-vokalista-s-gitaroy",
+        "instrument-esli-ne-hvataet-monitoringa",
+        "backline-dlya-akusticheskogo-kontserta"
+      ],
+      "new_pages": [
+        {
+          "slug": "scenicheskiy-zvuk",
+          "search_title": "Прокат сценического звука в Москве",
+          "editorial_title": "Сценический звук: музыка в зале и опора на сцене",
+          "parent": "usiliteli-backline",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "dj-i-zhivye-instrumenty",
+            "backline-po-rayderu-dlya-gruppy"
+          ]
+        },
+        {
+          "slug": "vokalnye-mikrofony",
+          "search_title": "Прокат вокальных микрофонов в Москве",
+          "editorial_title": "Вокальный микрофон: услышать голос на рабочем расстоянии",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "komplekt-dlya-obucheniya-vokalu-s-mikrofonom",
+            "radiomikrofony-dlya-vokala",
+            "mikrofonnaya-stoyka",
+            "instrumentalnye-mikrofony"
+          ]
+        },
+        {
+          "slug": "radiomikrofony-dlya-vokala",
+          "search_title": "Аренда радиомикрофонов для вокала в Москве",
+          "editorial_title": "Радиомикрофон: сохранить голос во всём рисунке движения",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": []
+        },
+        {
+          "slug": "mikshery-dlya-zhivogo-zvuka",
+          "search_title": "Прокат микшерных пультов для живого звука в Москве",
+          "editorial_title": "Микшерный пульт: посчитать голоса, входы и отдельные балансы",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": []
+        },
+        {
+          "slug": "aktivnye-akusticheskie-sistemy",
+          "search_title": "Аренда активной акустики для живого выступления в Москве",
+          "editorial_title": "Активная акустика: направить музыку к слушателям",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "zvuk-dlya-vokalista-s-fonogrammoy",
+            "scenicheskie-monitory",
+            "scenicheskie-sabvufery"
+          ]
+        },
+        {
+          "slug": "scenicheskie-monitory",
+          "search_title": "Прокат сценических мониторов в Москве",
+          "editorial_title": "Сценический монитор: вернуть музыканту нужную опору",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "instrument-esli-ne-hvataet-monitoringa",
+            "shure-beta58a-v-arendu",
+            "personalnyy-ushnoy-monitoring"
+          ]
+        },
+        {
+          "slug": "personalnyy-ushnoy-monitoring",
+          "search_title": "Аренда персонального ушного мониторинга в Москве",
+          "editorial_title": "Ушной мониторинг: получить свой баланс прямо в наушники",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "behringer-xr18-v-arendu"
+          ]
+        },
+        {
+          "slug": "shure-sm58-v-arendu",
+          "search_title": "Прокат вокального микрофона Shure SM58 в Москве",
+          "editorial_title": "Shure SM58: голос и работа с расстоянием",
+          "parent": "vokalnye-mikrofony",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "komplekt-dlya-obucheniya-vokalu-s-mikrofonom",
+            "shure-beta58a-v-arendu",
+            "shure-blx24-sm58-v-arendu"
+          ]
+        },
+        {
+          "slug": "shure-beta58a-v-arendu",
+          "search_title": "Аренда вокального микрофона Shure BETA 58A в Москве",
+          "editorial_title": "Shure BETA 58A: направленность меняет сценическую расстановку",
+          "parent": "vokalnye-mikrofony",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "shure-sm58-v-arendu",
+            "scenicheskie-monitory",
+            "mikrofony-dlya-vokalnogo-dueta"
+          ]
+        },
+        {
+          "slug": "sennheiser-e835s-v-arendu",
+          "search_title": "Прокат микрофона Sennheiser e 835-S в Москве",
+          "editorial_title": "Sennheiser e 835-S: голос и выключатель в руке исполнителя",
+          "parent": "vokalnye-mikrofony",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "shure-sm58-v-arendu",
+            "zvuk-dlya-uchebnogo-vokalnogo-kontserta",
+            "yamaha-mg10xu-v-arendu"
+          ]
+        },
+        {
+          "slug": "shure-blx24-sm58-v-arendu",
+          "search_title": "Прокат радиосистемы Shure BLX24/SM58 в Москве",
+          "editorial_title": "Shure BLX24/SM58: ручной микрофон и согласованный приёмник",
+          "parent": "radiomikrofony-dlya-vokala",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "shure-sm58-v-arendu",
+            "radiosistemy-dlya-neskolkih-vokalistov",
+            "zvuk-dlya-vokalista-s-fonogrammoy"
+          ]
+        },
+        {
+          "slug": "yamaha-mg10xu-v-arendu",
+          "search_title": "Прокат микшерного пульта Yamaha MG10XU в Москве",
+          "editorial_title": "Yamaha MG10XU: четыре микрофонных входа и готовая стереосмесь",
+          "parent": "mikshery-dlya-zhivogo-zvuka",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "zvuk-dlya-vokalista-s-fonogrammoy",
+            "mikshery-dlya-zapisi-repetitsii",
+            "behringer-xr18-v-arendu"
+          ]
+        },
+        {
+          "slug": "allen-heath-zed10fx-v-arendu",
+          "search_title": "Аренда микшерного пульта Allen & Heath ZED-10FX в Москве",
+          "editorial_title": "Allen & Heath ZED-10FX: голос и инструмент у одного пульта",
+          "parent": "mikshery-dlya-zhivogo-zvuka",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "backline-dlya-vokalista-s-gitaroy",
+            "di-boksy",
+            "yamaha-mg10xu-v-arendu"
+          ]
+        },
+        {
+          "slug": "behringer-xr18-v-arendu",
+          "search_title": "Прокат цифрового микшера Behringer XR18 в Москве",
+          "editorial_title": "Behringer XR18: пульт рядом с музыкантами, управление отдельно",
+          "parent": "mikshery-dlya-zhivogo-zvuka",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "mikshery-dlya-zapisi-repetitsii",
+            "personalnyy-ushnoy-monitoring",
+            "yamaha-mg10xu-v-arendu"
+          ]
+        },
+        {
+          "slug": "qsc-k122-v-arendu",
+          "search_title": "Аренда активной колонки QSC K12.2 в Москве",
+          "editorial_title": "QSC K12.2: звук для зала или напольный монитор",
+          "parent": "aktivnye-akusticheskie-sistemy",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "scenicheskie-monitory",
+            "mikrofony-dlya-vokalnogo-dueta",
+            "mikshery-dlya-zhivogo-zvuka",
+            "scenicheskie-sabvufery"
+          ]
+        },
+        {
+          "slug": "sennheiser-ew-iem-g4-v-arendu",
+          "search_title": "Прокат ушного мониторинга Sennheiser ew IEM G4 в Москве",
+          "editorial_title": "Sennheiser ew IEM G4: мониторная смесь от пульта к музыканту",
+          "parent": "personalnyy-ushnoy-monitoring",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pervaya-repetitsiya-s-ushnym-monitoringom",
+            "behringer-xr18-v-arendu",
+            "radiosistemy-dlya-neskolkih-vokalistov"
+          ]
+        },
+        {
+          "slug": "komplekt-dlya-obucheniya-vokalu-s-mikrofonom",
+          "search_title": "Прокат комплекта для обучения вокалу с микрофоном",
+          "editorial_title": "Учиться петь с микрофоном: услышать связь голоса и движения",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "shure-sm58-v-arendu",
+            "yamaha-mg10xu-v-arendu",
+            "zvuk-dlya-vokalista-s-fonogrammoy"
+          ]
+        },
+        {
+          "slug": "zvuk-dlya-vokalista-s-fonogrammoy",
+          "search_title": "Аренда звука для вокалиста с фонограммой",
+          "editorial_title": "Голос и фонограмма: сохранить два независимых уровня",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "yamaha-mg10xu-v-arendu",
+            "shure-blx24-sm58-v-arendu",
+            "scenicheskie-monitory"
+          ]
+        },
+        {
+          "slug": "mikrofony-dlya-vokalnogo-dueta",
+          "search_title": "Прокат микрофонов для двух вокалистов",
+          "editorial_title": "Два вокалиста: сохранить отдельную работу с каждым голосом",
+          "parent": "vokalnye-mikrofony",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "sennheiser-e835s-v-arendu",
+            "mikshery-dlya-zhivogo-zvuka",
+            "radiosistemy-dlya-neskolkih-vokalistov"
+          ]
+        },
+        {
+          "slug": "golovnoy-mikrofon-dlya-poyuschego-instrumentalista",
+          "search_title": "Аренда головного микрофона для поющего музыканта",
+          "editorial_title": "Петь и играть одновременно: микрофон должен оставить руки свободными",
+          "parent": "radiomikrofony-dlya-vokala",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "backline-dlya-vokalista-s-gitaroy",
+            "lup-stantsiya-dlya-vokala",
+            "personalnyy-ushnoy-monitoring"
+          ]
+        },
+        {
+          "slug": "radiosistemy-dlya-neskolkih-vokalistov",
+          "search_title": "Прокат радиосистем для нескольких вокалистов",
+          "editorial_title": "Несколько радиомикрофонов: подготовить их одновременную работу",
+          "parent": "radiomikrofony-dlya-vokala",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "shure-blx24-sm58-v-arendu",
+            "mikrofony-dlya-vokalnogo-dueta",
+            "sennheiser-ew-iem-g4-v-arendu"
+          ]
+        },
+        {
+          "slug": "mikshery-dlya-zapisi-repetitsii",
+          "search_title": "Аренда микшера для записи репетиции",
+          "editorial_title": "Записать репетицию: общий баланс или отдельные партии",
+          "parent": "mikshery-dlya-zhivogo-zvuka",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "yamaha-mg10xu-v-arendu",
+            "behringer-xr18-v-arendu",
+            "lup-stantsiya-dlya-vokala"
+          ]
+        },
+        {
+          "slug": "zvuk-dlya-uchebnogo-vokalnogo-kontserta",
+          "search_title": "Прокат звука для учебного вокального концерта",
+          "editorial_title": "Учебный концерт: подготовить выход каждого певца",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "komplekt-dlya-obucheniya-vokalu-s-mikrofonom",
+            "sennheiser-e835s-v-arendu",
+            "mikrofony-dlya-vokalnogo-dueta"
+          ]
+        },
+        {
+          "slug": "pervaya-repetitsiya-s-ushnym-monitoringom",
+          "search_title": "Аренда ушного мониторинга для первой репетиции",
+          "editorial_title": "Первая репетиция в наушниках: найти опору до концерта",
+          "parent": "personalnyy-ushnoy-monitoring",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "sennheiser-ew-iem-g4-v-arendu",
+            "behringer-xr18-v-arendu",
+            "instrument-esli-ne-hvataet-monitoringa"
+          ]
+        },
+        {
+          "slug": "shure-qlxd24-beta58a-v-arendu",
+          "search_title": "Аренда радиосистемы Shure QLXD24/B58 в Москве",
+          "editorial_title": "Shure QLXD24/B58: вокальный канал в управляемом радиокомплекте",
+          "parent": "radiomikrofony-dlya-vokala",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "shure-beta58a-v-arendu",
+            "radiosistemy-dlya-neskolkih-vokalistov",
+            "yamaha-cl5-v-arendu"
+          ]
+        },
+        {
+          "slug": "yamaha-cl5-v-arendu",
+          "search_title": "Прокат концертного пульта Yamaha CL5 в Москве",
+          "editorial_title": "Yamaha CL5: консоль и сценические входы собираются вместе",
+          "parent": "mikshery-dlya-zhivogo-zvuka",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "midas-m32-v-arendu",
+            "shure-qlxd24-beta58a-v-arendu",
+            "personalnyy-ushnoy-monitoring"
+          ]
+        },
+        {
+          "slug": "midas-m32-v-arendu",
+          "search_title": "Аренда концертного микшерного пульта Midas M32 в Москве",
+          "editorial_title": "Midas M32: физические фейдеры и подготовленная концертная сцена",
+          "parent": "mikshery-dlya-zhivogo-zvuka",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "yamaha-cl5-v-arendu",
+            "mikshery-dlya-zapisi-repetitsii",
+            "scenicheskie-monitory"
+          ]
+        }
+      ],
+      "navigation_source_slugs": [
+        "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+        "backline-dlya-akusticheskogo-kontserta",
+        "backline-dlya-vokalista-s-gitaroy",
+        "instrument-esli-ne-hvataet-monitoringa",
+        "lup-stantsiya-dlya-vokala"
+      ],
+      "navigation_replace_source_slugs": [],
+      "navigation_addition_count": 11
+    },
+    {
+      "package": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "sha256": "7dbf8c1188d7abd361ba0ed4d5f621563efa35f53f24057c12a42559a50fa173",
+      "new_count": 16,
+      "exact_model_count": 0,
+      "other_new_count": 16,
+      "enrich_record_count": 4,
+      "enrich_slugs": [
+        "backline-po-rayderu-dlya-gruppy",
+        "backline-dlya-bystroy-smeny-grupp",
+        "elektronnye-barabany-dlya-domashnih-zanyatiy",
+        "backline-dlya-festivalya"
+      ],
+      "new_pages": [
+        {
+          "slug": "scenicheskaya-mebel-i-stoyki",
+          "search_title": "Прокат сценической мебели и стоек для музыкантов в Москве",
+          "editorial_title": "Место музыканта: сидеть, читать ноты и менять инструменты",
+          "parent": "usiliteli-backline",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "backline-po-rayderu-dlya-gruppy",
+            "mikrofony-dlya-akusticheskogo-ansamblya"
+          ]
+        },
+        {
+          "slug": "stul-dlya-muzykanta",
+          "search_title": "Стул для музыканта напрокат",
+          "editorial_title": "Стул музыканта: посадка должна подходить к инструменту",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pyupitr",
+            "mebel-i-pyupitry-dlya-ansamblya",
+            "stul-dlya-barabanshchika"
+          ]
+        },
+        {
+          "slug": "stul-dlya-barabanshchika",
+          "search_title": "Аренда стула для барабанщика",
+          "editorial_title": "Стул барабанщика: сохранить опору при работе обеих ног",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pedal-dlya-bas-barabana",
+            "barabannaya-ustanovka-dlya-dolgoy-repetitsii",
+            "kovrik-dlya-barabannoy-ustanovki"
+          ]
+        },
+        {
+          "slug": "pyupitr",
+          "search_title": "Прокат пюпитров для нот в Москве",
+          "editorial_title": "Пюпитр: видеть партитуру и оставаться внутри ансамбля",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "podsvetka-dlya-pyupitra",
+            "stul-dlya-muzykanta",
+            "mebel-i-pyupitry-dlya-ansamblya"
+          ]
+        },
+        {
+          "slug": "podsvetka-dlya-pyupitra",
+          "search_title": "Аренда подсветки для пюпитра",
+          "editorial_title": "Свет на нотах: читать разворот при концертном освещении",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 2,
+          "strict_outgoing": [
+            "pyupitr",
+            "mebel-i-pyupitry-dlya-ansamblya"
+          ]
+        },
+        {
+          "slug": "stoyka-dlya-gitary",
+          "search_title": "Стойка для гитары напрокат",
+          "editorial_title": "Гитарная стойка: куда поставить инструмент между партиями",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "elektrogitara-dlya-pervyh-repetitsiy",
+            "stoyka-dlya-kombika",
+            "backline-dlya-bystroy-smeny-grupp"
+          ]
+        },
+        {
+          "slug": "klavishnaya-stoyka",
+          "search_title": "Прокат стойки для клавишных инструментов",
+          "editorial_title": "Клавишная стойка: расположить один или два инструмента под руки",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "dvuhklaviaturnyy-set-dlya-kontserta",
+            "cifrovoe-pianino-na-ustoychivoy-stoyke",
+            "stoyka-dlya-noutbuka-na-scene"
+          ]
+        },
+        {
+          "slug": "stoyka-dlya-noutbuka-na-scene",
+          "search_title": "Аренда стойки для ноутбука на сцену",
+          "editorial_title": "Ноутбук рядом с инструментом: экран и управление должны оставаться доступными",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "klavishnaya-stoyka",
+            "dvuhklaviaturnyy-set-dlya-kontserta",
+            "backline-po-rayderu-dlya-gruppy"
+          ]
+        },
+        {
+          "slug": "stolik-dlya-perkussii",
+          "search_title": "Прокат столика для перкуссии",
+          "editorial_title": "Перкуссионный столик: менять тембры внутри одной фразы",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "perkussiya-dlya-akusticheskogo-kontserta",
+            "ruchnaya-perkussiya",
+            "stul-dlya-muzykanta"
+          ]
+        },
+        {
+          "slug": "kovrik-dlya-barabannoy-ustanovki",
+          "search_title": "Коврик для барабанной установки напрокат",
+          "editorial_title": "Барабанный коврик: сохранить расстановку педалей и опор",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "komplekt-stoek-dlya-barabannoy-ustanovki",
+            "stul-dlya-barabanshchika",
+            "elektronnye-barabany-dlya-domashnih-zanyatiy"
+          ]
+        },
+        {
+          "slug": "stoyka-dlya-kombika",
+          "search_title": "Аренда подставки для комбоусилителя",
+          "editorial_title": "Подставка для комбика: направить звук к исполнителю",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "stoyka-dlya-gitary",
+            "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+            "backline-po-rayderu-dlya-gruppy"
+          ]
+        },
+        {
+          "slug": "pedal-dlya-bas-barabana",
+          "search_title": "Прокат педали для бас-барабана",
+          "editorial_title": "Педаль бас-барабана: согласовать отклик и крепление",
+          "parent": "barabannaya-ustanovka",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "stul-dlya-barabanshchika",
+            "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+            "barabany-dlya-gastrolnogo-raydera"
+          ]
+        },
+        {
+          "slug": "komplekt-stoek-dlya-barabannoy-ustanovki",
+          "search_title": "Аренда комплекта стоек для барабанной установки",
+          "editorial_title": "Барабанные стойки: собрать нужную геометрию вокруг своих инструментов",
+          "parent": "barabannaya-ustanovka",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pedal-dlya-bas-barabana",
+            "kovrik-dlya-barabannoy-ustanovki",
+            "barabany-dlya-gastrolnogo-raydera"
+          ]
+        },
+        {
+          "slug": "elektrogitara-s-kombikom-dlya-obucheniya",
+          "search_title": "Электрогитара с комбиком для обучения напрокат",
+          "editorial_title": "Первая электрогитара с комбиком: собрать понятное домашнее занятие",
+          "parent": "elektrogitara",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "elektrogitara-dlya-pervogo-instrumenta",
+            "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+            "stoyka-dlya-gitary"
+          ]
+        },
+        {
+          "slug": "bas-gitara-s-kombikom-dlya-obucheniya",
+          "search_title": "Бас-гитара с комбиком для занятий в аренду",
+          "editorial_title": "Бас и комбик для первых занятий: услышать атаку и длину ноты",
+          "parent": "bas-gitara",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "bas-gitara-dlya-nachinayuschego",
+            "bas-gitara-dlya-domashnih-zanyatiy",
+            "usilitel-dlya-domashnih-uchebnyh-zanyatiy"
+          ]
+        },
+        {
+          "slug": "mebel-i-pyupitry-dlya-ansamblya",
+          "search_title": "Прокат стульев и пюпитров для ансамбля",
+          "editorial_title": "Ансамблевая рассадка: посчитать места, ноты и смены состава",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "pyupitr",
+            "stul-dlya-muzykanta",
+            "podsvetka-dlya-pyupitra",
+            "backline-po-rayderu-dlya-gruppy"
+          ]
+        }
+      ],
+      "navigation_source_slugs": [
+        "backline-dlya-bystroy-smeny-grupp",
+        "backline-po-rayderu-dlya-gruppy",
+        "bas-gitara-dlya-domashnih-zanyatiy",
+        "dvuhklaviaturnyy-set-dlya-kontserta",
+        "elektrogitara-dlya-domashnih-zanyatiy",
+        "elektronnye-barabany-dlya-domashnih-zanyatiy",
+        "perkussiya-dlya-akusticheskogo-kontserta"
+      ],
+      "navigation_replace_source_slugs": [],
+      "navigation_addition_count": 10
+    },
+    {
+      "package": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "sha256": "e7d4ba468ed11320ffe54920a60d55482194834698ab4ee31732bb9c128b7bad",
+      "new_count": 12,
+      "exact_model_count": 4,
+      "other_new_count": 8,
+      "enrich_record_count": 10,
+      "enrich_slugs": [
+        "royal",
+        "arenda-koncertnogo-royalya-moskva",
+        "royal-dlya-semki",
+        "akusticheskoe-pianino",
+        "korpusnoe-cifrovoe-pianino",
+        "perenosnoe-cifrovoe-pianino",
+        "stsenicheskoe-cifrovoe-pianino",
+        "yamaha-clavinova-clp-v-arendu",
+        "cifrovoe-pianino",
+        "yamaha-u1-v-arendu"
+      ],
+      "new_pages": [
+        {
+          "slug": "kabinetnyy-royal",
+          "search_title": "Кабинетный и малый рояль напрокат в Москве",
+          "editorial_title": "Кабинетный и малый рояль: место для музыки в небольшом зале",
+          "parent": "royal",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "royal-dlya-kamernogo-kontserta",
+            "yamaha-gb1k-v-arendu",
+            "kawai-gl10-v-arendu",
+            "cifrovoy-royal"
+          ]
+        },
+        {
+          "slug": "belyy-royal",
+          "search_title": "Прокат белого рояля для мероприятия",
+          "editorial_title": "Белый рояль: согласовать светлый образ и живое исполнение",
+          "parent": "royal",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "royal-dlya-semki",
+            "kawai-gl10-v-arendu",
+            "cifrovoy-royal"
+          ]
+        },
+        {
+          "slug": "chernyy-royal",
+          "search_title": "Чёрный рояль напрокат в Москве",
+          "editorial_title": "Чёрный рояль: концертный силуэт и требования пианиста",
+          "parent": "royal",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "arenda-koncertnogo-royalya-moskva",
+            "royal-dlya-semki",
+            "banketka-dlya-pianista"
+          ]
+        },
+        {
+          "slug": "krasnyy-royal",
+          "search_title": "Прокат красного рояля для сцены и съёмки",
+          "editorial_title": "Красный рояль: цветовой акцент, который должен совпасть с замыслом",
+          "parent": "royal",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "royal-dlya-semki",
+            "royal-dlya-zapisi",
+            "cifrovoy-royal"
+          ]
+        },
+        {
+          "slug": "cifrovoy-royal",
+          "search_title": "Прокат цифрового рояля в Москве",
+          "editorial_title": "Цифровой рояль: рояльный силуэт и управляемый звуковой тракт",
+          "parent": "cifrovoe-pianino",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "klavishnye-dlya-pryamogo-podklyucheniya-v-pult"
+          ]
+        },
+        {
+          "slug": "yamaha-clp765gp-v-arendu",
+          "search_title": "Цифровой рояль Yamaha CLP-765GP в аренду",
+          "editorial_title": "Yamaha CLP-765GP: рояльный корпус для цифрового исполнения",
+          "parent": "cifrovoy-royal",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "kawai-dg30-v-arendu",
+            "belyy-royal",
+            "klavishnye-dlya-pryamogo-podklyucheniya-v-pult"
+          ]
+        },
+        {
+          "slug": "kawai-dg30-v-arendu",
+          "search_title": "Цифровой рояль Kawai DG30 напрокат",
+          "editorial_title": "Kawai DG30: короткий рояльный корпус и клавиатура Responsive Hammer III",
+          "parent": "cifrovoy-royal",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "yamaha-clp765gp-v-arendu",
+            "kompaktnoe-cifrovoe-pianino",
+            "kawai-gl10-v-arendu"
+          ]
+        },
+        {
+          "slug": "kawai-gl10-v-arendu",
+          "search_title": "Акустический рояль Kawai GL-10 в аренду",
+          "editorial_title": "Kawai GL-10: акустический рояль длиной 153 см",
+          "parent": "royal",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "yamaha-gb1k-v-arendu",
+            "royal-dlya-kamernogo-kontserta",
+            "belyy-royal"
+          ]
+        },
+        {
+          "slug": "yamaha-yus1-v-arendu",
+          "search_title": "Акустическое пианино Yamaha YUS1 напрокат",
+          "editorial_title": "Yamaha YUS1: вертикальное пианино для программы и сценического плана",
+          "parent": "akusticheskoe-pianino",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "yamaha-u1-v-arendu",
+            "pianino-s-pedalyu-sostenuto",
+            "pianino-dlya-semki"
+          ]
+        },
+        {
+          "slug": "banketka-dlya-pianista",
+          "search_title": "Прокат регулируемой банкетки для пианиста",
+          "editorial_title": "Банкетка пианиста: высота должна согласоваться с клавиатурой и педалью",
+          "parent": "fortepiano",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "instrument-esli-pedal-daleko",
+            "pianino-dlya-igry-v-chetyre-ruki",
+            "cifrovoe-pianino-na-ustoychivoy-stoyke"
+          ]
+        },
+        {
+          "slug": "pianino-dlya-semki",
+          "search_title": "Акустическое пианино для съёмки напрокат",
+          "editorial_title": "Пианино в кадре: вертикальный корпус и действие исполнителя",
+          "parent": "akusticheskoe-pianino",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "yamaha-yus1-v-arendu",
+            "royal-dlya-semki",
+            "banketka-dlya-pianista"
+          ]
+        },
+        {
+          "slug": "royal-dlya-foye",
+          "search_title": "Рояль для фойе и встречи гостей в аренду",
+          "editorial_title": "Рояль в фойе: живая музыка внутри движения гостей",
+          "parent": "royal",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "kabinetnyy-royal",
+            "cifrovoy-royal",
+            "belyy-royal"
+          ]
+        }
+      ],
+      "navigation_source_slugs": [
+        "akusticheskoe-pianino",
+        "arenda-koncertnogo-royalya-moskva",
+        "cifrovoe-pianino",
+        "korpusnoe-cifrovoe-pianino",
+        "royal",
+        "royal-dlya-semki",
+        "stsenicheskoe-cifrovoe-pianino",
+        "yamaha-clavinova-clp-v-arendu"
+      ],
+      "navigation_replace_source_slugs": [],
+      "navigation_addition_count": 22
+    },
+    {
+      "package": "content/sections/zzzz73-dj-rider-scenes.json",
+      "sha256": "26e928079a3bd7641727f50a935ed972cdf773fb795de2f1ed1f38c24b3419a6",
+      "new_count": 17,
+      "exact_model_count": 9,
+      "other_new_count": 8,
+      "enrich_record_count": 0,
+      "enrich_slugs": [],
+      "new_pages": [
+        {
+          "slug": "dj-oborudovanie",
+          "search_title": "Прокат DJ-оборудования в Москве",
+          "editorial_title": "Оборудование для диджея: музыка под руками",
+          "parent": "elektronnye",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "scenicheskiy-zvuk",
+            "semplery",
+            "backline-dlya-festivalya"
+          ]
+        },
+        {
+          "slug": "dj-komplekt-dlya-obucheniya",
+          "search_title": "DJ-комплект для обучения в аренду",
+          "editorial_title": "Первое сведение: услышать переход и повторить его самому",
+          "parent": "dj-oborudovanie",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pioneer-ddj-flx4-v-arendu",
+            "pioneer-xdj-rx3-v-arendu",
+            "instrument-po-rekomendatsii-prepodavatelya"
+          ]
+        },
+        {
+          "slug": "dj-oborudovanie-dlya-repetitsii-pered-vystupleniem",
+          "search_title": "Прокат DJ-оборудования для репетиции перед выступлением",
+          "editorial_title": "Перед первым сетом на площадке: дать рукам освоиться",
+          "parent": "dj-oborudovanie",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pioneer-cdj-3000-v-arendu",
+            "alphatheta-cdj-3000x-v-arendu",
+            "dj-komplekt-dlya-smeny-artistov"
+          ]
+        },
+        {
+          "slug": "dj-komplekt-po-rayderu",
+          "search_title": "Аренда DJ-комплекта по райдеру артиста",
+          "editorial_title": "DJ-райдер: собрать то рабочее место, на котором подготовлена музыка",
+          "parent": "dj-oborudovanie",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "pioneer-djm-a9-v-arendu",
+            "allen-heath-xone-96-v-arendu",
+            "stol-dlya-dj-oborudovaniya",
+            "scenicheskiy-zvuk"
+          ]
+        },
+        {
+          "slug": "dj-komplekt-dlya-smeny-artistov",
+          "search_title": "DJ-комплект для смены артистов в аренду",
+          "editorial_title": "Между сетами: передать музыку следующему диджею",
+          "parent": "dj-oborudovanie",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pioneer-djm-a9-v-arendu",
+            "allen-heath-xone-96-v-arendu",
+            "backline-dlya-festivalya"
+          ]
+        },
+        {
+          "slug": "dj-i-zhivye-instrumenty",
+          "search_title": "Аренда оборудования для DJ с живыми инструментами",
+          "editorial_title": "Диджей и живой музыкант: найти общее время и слышимый сигнал",
+          "parent": "dj-oborudovanie",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "scenicheskiy-zvuk",
+            "semplernye-pedy",
+            "lup-stantsiya-dlya-vokala",
+            "allen-heath-xone-96-v-arendu"
+          ]
+        },
+        {
+          "slug": "vinilovye-dj-proigryvateli",
+          "search_title": "Прокат виниловых проигрывателей для DJ в Москве",
+          "editorial_title": "Виниловый сет: пластинка становится частью исполнения",
+          "parent": "dj-oborudovanie",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "allen-heath-xone-96-v-arendu",
+            "stol-dlya-dj-oborudovaniya"
+          ]
+        },
+        {
+          "slug": "stol-dlya-dj-oborudovaniya",
+          "search_title": "Аренда стола для DJ-оборудования в Москве",
+          "editorial_title": "DJ-стол: разместить аппараты так, чтобы на них можно было играть",
+          "parent": "dj-oborudovanie",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "dj-komplekt-po-rayderu",
+            "vinilovye-dj-proigryvateli",
+            "dj-komplekt-dlya-smeny-artistov"
+          ]
+        },
+        {
+          "slug": "pioneer-cdj-3000-v-arendu",
+          "search_title": "Аренда Pioneer DJ CDJ-3000 в Москве",
+          "editorial_title": "Pioneer DJ CDJ-3000: подготовить музыку на знакомом проигрывателе",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "alphatheta-cdj-3000x-v-arendu",
+            "pioneer-djm-900nxs2-v-arendu",
+            "dj-oborudovanie-dlya-repetitsii-pered-vystupleniem"
+          ]
+        },
+        {
+          "slug": "alphatheta-cdj-3000x-v-arendu",
+          "search_title": "Прокат AlphaTheta CDJ-3000X в Москве",
+          "editorial_title": "AlphaTheta CDJ-3000X: выбрать способ доступа к своей музыке",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pioneer-cdj-3000-v-arendu",
+            "pioneer-djm-a9-v-arendu",
+            "dj-komplekt-po-rayderu"
+          ]
+        },
+        {
+          "slug": "pioneer-djm-a9-v-arendu",
+          "search_title": "Аренда DJ-микшера Pioneer DJ DJM-A9 в Москве",
+          "editorial_title": "Pioneer DJ DJM-A9: двум артистам нужно слышать свои следующие треки",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pioneer-djm-900nxs2-v-arendu",
+            "dj-komplekt-dlya-smeny-artistov",
+            "pioneer-cdj-3000-v-arendu"
+          ]
+        },
+        {
+          "slug": "pioneer-djm-900nxs2-v-arendu",
+          "search_title": "Прокат Pioneer DJ DJM-900NXS2 в Москве",
+          "editorial_title": "Pioneer DJ DJM-900NXS2: сохранить привычное управление переходом",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pioneer-djm-a9-v-arendu",
+            "pioneer-cdj-3000-v-arendu",
+            "dj-oborudovanie-dlya-repetitsii-pered-vystupleniem"
+          ]
+        },
+        {
+          "slug": "allen-heath-xone-96-v-arendu",
+          "search_title": "Аренда Allen & Heath Xone:96 в Москве",
+          "editorial_title": "Allen & Heath Xone:96: строить переход частотами и фильтрами",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "vinilovye-dj-proigryvateli",
+            "dj-komplekt-dlya-smeny-artistov",
+            "dj-i-zhivye-instrumenty"
+          ]
+        },
+        {
+          "slug": "pioneer-xdj-rx3-v-arendu",
+          "search_title": "Прокат Pioneer DJ XDJ-RX3 в Москве",
+          "editorial_title": "Pioneer DJ XDJ-RX3: две деки и микшер в одном рабочем месте",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "dj-komplekt-dlya-obucheniya",
+            "alphatheta-xdj-az-v-arendu",
+            "dj-komplekt-po-rayderu"
+          ]
+        },
+        {
+          "slug": "alphatheta-xdj-az-v-arendu",
+          "search_title": "Аренда AlphaTheta XDJ-AZ в Москве",
+          "editorial_title": "AlphaTheta XDJ-AZ: подготовить четыре музыкальных слоя в одной системе",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "pioneer-xdj-rx3-v-arendu",
+            "dj-komplekt-po-rayderu",
+            "stol-dlya-dj-oborudovaniya"
+          ]
+        },
+        {
+          "slug": "pioneer-ddj-flx4-v-arendu",
+          "search_title": "Прокат DJ-контроллера Pioneer DJ DDJ-FLX4 в Москве",
+          "editorial_title": "Pioneer DJ DDJ-FLX4: перенести первое сведение из экрана в руки",
+          "parent": "dj-oborudovanie",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "dj-komplekt-dlya-obucheniya",
+            "pioneer-xdj-rx3-v-arendu",
+            "instrument-po-rekomendatsii-prepodavatelya"
+          ]
+        },
+        {
+          "slug": "pioneer-plx-1000-v-arendu",
+          "search_title": "Аренда винилового проигрывателя Pioneer DJ PLX-1000",
+          "editorial_title": "Pioneer DJ PLX-1000: подобрать вертушку вместе с головкой и опорой",
+          "parent": "vinilovye-dj-proigryvateli",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "allen-heath-xone-96-v-arendu",
+            "stol-dlya-dj-oborudovaniya",
+            "dj-komplekt-po-rayderu"
+          ]
+        }
+      ],
+      "navigation_source_slugs": [],
+      "navigation_replace_source_slugs": [],
+      "navigation_addition_count": 0
+    },
+    {
+      "package": "content/sections/zzzz74-rental-language-entry-bridges.json",
+      "sha256": "65dd7b83a8ac31d6f74676f2531f8a53505fcdc5a6b5eb3fcb6517051a9ccd6c",
+      "new_count": 0,
+      "exact_model_count": 0,
+      "other_new_count": 0,
+      "enrich_record_count": 9,
+      "enrich_slugs": [
+        "usiliteli-backline",
+        "elektronnye",
+        "klavishnye",
+        "gitary",
+        "udarnye",
+        "duhovye",
+        "cifrovoe-pianino",
+        "gitarnye-usiliteli",
+        "scenicheskie-klavishnye"
+      ],
+      "new_pages": [],
+      "navigation_source_slugs": [
+        "elektrogitara",
+        "elektronnye",
+        "gitarnye-usiliteli",
+        "gitary",
+        "scenicheskie-klavishnye",
+        "scenicheskiy-zvuk",
+        "semplery",
+        "usiliteli-backline"
+      ],
+      "navigation_replace_source_slugs": [
+        ""
+      ],
+      "navigation_addition_count": 14
+    },
+    {
+      "package": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+      "sha256": "a6223707576871a3e9a5595b0fc863183ead04f928d3620131982f4a39ef2b2e",
+      "new_count": 6,
+      "exact_model_count": 3,
+      "other_new_count": 3,
+      "enrich_record_count": 0,
+      "enrich_slugs": [],
+      "new_pages": [
+        {
+          "slug": "mikrofonnaya-stoyka",
+          "search_title": "Прокат микрофонной стойки в Москве",
+          "editorial_title": "Микрофонная стойка: поставить капсюль, не мешая играть",
+          "parent": "scenicheskaya-mebel-i-stoyki",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "vokalnye-mikrofony",
+            "instrumentalnye-mikrofony",
+            "mikrofony-dlya-akusticheskogo-ansamblya"
+          ]
+        },
+        {
+          "slug": "instrumentalnye-mikrofony",
+          "search_title": "Прокат инструментальных микрофонов в Москве",
+          "editorial_title": "Инструментальный микрофон: выбрать точку съёма и путь сигнала",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "di-boksy"
+          ]
+        },
+        {
+          "slug": "mikrofony-dlya-akusticheskogo-ansamblya",
+          "search_title": "Аренда микрофонов для акустического ансамбля в Москве",
+          "editorial_title": "Акустический ансамбль: передать общий баланс через микрофоны",
+          "parent": "instrumentalnye-mikrofony",
+          "exact_model": false,
+          "explicit_links": 4,
+          "strict_outgoing": [
+            "shure-sm81-v-arendu",
+            "mikrofonnaya-stoyka",
+            "di-boksy",
+            "mikshery-dlya-zhivogo-zvuka"
+          ]
+        },
+        {
+          "slug": "shure-sm57-v-arendu",
+          "search_title": "Аренда Shure SM57 в Москве",
+          "editorial_title": "Shure SM57: снять комбик или малый барабан с выбранной точки",
+          "parent": "instrumentalnye-mikrofony",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "mikrofonnaya-stoyka",
+            "shure-sm81-v-arendu",
+            "radial-jdi-v-arendu"
+          ]
+        },
+        {
+          "slug": "shure-sm81-v-arendu",
+          "search_title": "Прокат Shure SM81 в Москве",
+          "editorial_title": "Shure SM81: акустический инструмент через конденсаторный микрофон",
+          "parent": "instrumentalnye-mikrofony",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "mikrofony-dlya-akusticheskogo-ansamblya",
+            "mikrofonnaya-stoyka",
+            "mikshery-dlya-zhivogo-zvuka"
+          ]
+        },
+        {
+          "slug": "shure-beta52a-v-arendu",
+          "search_title": "Аренда Shure BETA 52A для большого барабана в Москве",
+          "editorial_title": "Shure BETA 52A: атака и низ большого барабана",
+          "parent": "instrumentalnye-mikrofony",
+          "exact_model": true,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "mikrofonnaya-stoyka",
+            "barabannaya-ustanovka-dlya-zapisi",
+            "shure-sm57-v-arendu"
+          ]
+        }
+      ],
+      "navigation_source_slugs": [
+        "backline-dlya-akusticheskogo-kontserta",
+        "barabannaya-ustanovka-dlya-zapisi",
+        "di-boksy",
+        "scenicheskaya-mebel-i-stoyki",
+        "vokalnye-mikrofony"
+      ],
+      "navigation_replace_source_slugs": [],
+      "navigation_addition_count": 6
+    },
+    {
+      "package": "content/sections/zzzz76-stage-system-completeness.json",
+      "sha256": "eb08b6b72ac64354fc7015a7e3d54135d1784ebd2ab59471911532904199d5a1",
+      "new_count": 1,
+      "exact_model_count": 0,
+      "other_new_count": 1,
+      "enrich_record_count": 2,
+      "enrich_slugs": [
+        "scenicheskiy-zvuk",
+        "aktivnye-akusticheskie-sistemy"
+      ],
+      "new_pages": [
+        {
+          "slug": "scenicheskie-sabvufery",
+          "search_title": "Прокат сценических сабвуферов в Москве",
+          "editorial_title": "Сценический сабвуфер: бас и бочка в общем звучании зала",
+          "parent": "scenicheskiy-zvuk",
+          "exact_model": false,
+          "explicit_links": 3,
+          "strict_outgoing": [
+            "aktivnye-akusticheskie-sistemy",
+            "basovyy-usilitel-dlya-kontserta",
+            "dj-i-zhivye-instrumenty"
+          ]
+        }
+      ],
+      "navigation_source_slugs": [
+        "aktivnye-akusticheskie-sistemy",
+        "qsc-k122-v-arendu",
+        "scenicheskiy-zvuk"
+      ],
+      "navigation_replace_source_slugs": [],
+      "navigation_addition_count": 3
+    }
+  ],
+  "new_exact_models": [
+    {
+      "slug": "shure-sm58-v-arendu",
+      "name": "Прокат вокального микрофона Shure SM58 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "vokalnye-mikrofony",
+      "sources": [
+        {
+          "title": "Shure: руководство SM58, направленность и работа с микрофоном",
+          "url": "https://pubs.shure.com/view/guide/SM58/en-US.pdf"
+        },
+        {
+          "title": "Party365, Москва: прокат проводного Shure SM58",
+          "url": "https://party365.ru/zvukovoe-oborudovanie/mikrofony/mikrofon-shure-sm58/"
+        }
+      ]
+    },
+    {
+      "slug": "shure-beta58a-v-arendu",
+      "name": "Аренда вокального микрофона Shure BETA 58A в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "vokalnye-mikrofony",
+      "sources": [
+        {
+          "title": "Shure: руководство BETA 58A, суперкардиоидная диаграмма и монитор",
+          "url": "https://pubs.shure.com/view/guide/BETA58A/en-US.pdf"
+        },
+        {
+          "title": "Main Event, Екатеринбург: прокат микрофонов и радиосистем",
+          "url": "https://arenda-videozvuk.ru/arenda-oborudovaniya/zvuk/mikrofony"
+        }
+      ]
+    },
+    {
+      "slug": "sennheiser-e835s-v-arendu",
+      "name": "Прокат микрофона Sennheiser e 835-S в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "vokalnye-mikrofony",
+      "sources": [
+        {
+          "title": "Sennheiser: e 835-S, динамический кардиоидный микрофон с выключателем",
+          "url": "https://www.sennheiser.com/en-us/catalog/products/microphones/e-835/e-835-s-004514"
+        },
+        {
+          "title": "Центр-Сервис, Казань: микрофоны, микшеры и акустика в прокате",
+          "url": "https://c-ser.ru/audio_equip"
+        }
+      ]
+    },
+    {
+      "slug": "shure-blx24-sm58-v-arendu",
+      "name": "Прокат радиосистемы Shure BLX24/SM58 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "radiomikrofony-dlya-vokala",
+      "sources": [
+        {
+          "title": "Shure: руководство BLX, состав и согласование радиосистем",
+          "url": "https://pubs.shure.com/view/guide/BLX/en-US.pdf"
+        },
+        {
+          "title": "DJ-Arenda, Москва: BLX24/SM58 и ZED-10FX в прокатном списке",
+          "url": "https://dj-arenda.ru/arenda_sound_equipment.html"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-mg10xu-v-arendu",
+      "name": "Прокат микшерного пульта Yamaha MG10XU в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "mikshery-dlya-zhivogo-zvuka",
+      "sources": [
+        {
+          "title": "Yamaha: MG10XU, микрофонные входы и USB-аудио",
+          "url": "https://usa.yamaha.com/products/proaudio/mixers/mg_series_xu_model/"
+        },
+        {
+          "title": "BanketRent: прокат Yamaha MG10XU",
+          "url": "https://banket.rent/catalog/sound/yamaha-mg10xu-mixing-console/"
+        }
+      ]
+    },
+    {
+      "slug": "allen-heath-zed10fx-v-arendu",
+      "name": "Аренда микшерного пульта Allen & Heath ZED-10FX в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "mikshery-dlya-zhivogo-zvuka",
+      "sources": [
+        {
+          "title": "Allen & Heath: ZED-10FX, входы, эффекты и USB",
+          "url": "https://www.allen-heath.com/hardware/zed-series/zed-mini/"
+        },
+        {
+          "title": "DJ-Arenda, Москва: BLX24/SM58 и ZED-10FX в прокатном списке",
+          "url": "https://dj-arenda.ru/arenda_sound_equipment.html"
+        }
+      ]
+    },
+    {
+      "slug": "behringer-xr18-v-arendu",
+      "name": "Прокат цифрового микшера Behringer XR18 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "mikshery-dlya-zhivogo-zvuka",
+      "sources": [
+        {
+          "title": "Behringer: XR18, управление, мониторные шины и многоканальная запись",
+          "url": "https://www.behringer.com/en/products/0605-AAD"
+        },
+        {
+          "title": "MasterSound, Новосибирск: микшерные пульты, включая XR18",
+          "url": "https://www.mastersound.su/equip/zvykovoe-oborydovanie/mikshernie-pylti-konsoli.html"
+        }
+      ]
+    },
+    {
+      "slug": "qsc-k122-v-arendu",
+      "name": "Аренда активной колонки QSC K12.2 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "aktivnye-akusticheskie-sistemy",
+      "sources": [
+        {
+          "title": "QSC: K12.2, входы и применение в зале или на сцене",
+          "url": "https://www.qscaudio.com/products-solutions/loudspeakers/portable/powered/portable-pa/k2-series/k122/"
+        },
+        {
+          "title": "Soundman24: прокат QSC K12.2",
+          "url": "https://soundman24.ru/arenda-kolonok/qsc-k12-2"
+        }
+      ]
+    },
+    {
+      "slug": "sennheiser-ew-iem-g4-v-arendu",
+      "name": "Прокат ушного мониторинга Sennheiser ew IEM G4 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "personalnyy-ushnoy-monitoring",
+      "sources": [
+        {
+          "title": "Sennheiser: ew IEM G4, передатчик и поясной приёмник мониторного сигнала",
+          "url": "https://www.sennheiser.com/en-us/catalog/products/wireless-systems/ew-iem-g4/ew-iem-g4-a-509609"
+        },
+        {
+          "title": "Fader Pro, Москва: прокат Sennheiser IEM G4",
+          "url": "https://fader-pro.ru/arenda-personalnogo-monitoringa/sennheiser-iem-g4/"
+        }
+      ]
+    },
+    {
+      "slug": "shure-qlxd24-beta58a-v-arendu",
+      "name": "Аренда радиосистемы Shure QLXD24/B58 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "radiomikrofony-dlya-vokala",
+      "sources": [
+        {
+          "title": "Shure: руководство QLX-D, радиоканалы и сетевое управление",
+          "url": "https://pubs.shure.com/view/guide/QLXD/en-US.pdf"
+        },
+        {
+          "title": "Shure: состав QLXD24/B58",
+          "url": "https://www.shure.com/en-EU/products/wireless-systems/qlx-d_digital_wireless/qlxd24_b58_beta58a_wireless_set"
+        },
+        {
+          "title": "Shure: руководство BETA 58A, суперкардиоидная диаграмма и монитор",
+          "url": "https://pubs.shure.com/view/guide/BETA58A/en-US.pdf"
+        },
+        {
+          "title": "DJ-Arenda, Москва: прокат радиосистемы Shure QLXD24/Beta58",
+          "url": "https://dj-arenda.ru/arenda_sound_equipment.html"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-cl5-v-arendu",
+      "name": "Прокат концертного пульта Yamaha CL5 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "mikshery-dlya-zhivogo-zvuka",
+      "sources": [
+        {
+          "title": "Yamaha: CL5 и сценические устройства ввода-вывода Dante",
+          "url": "https://uk.yamaha.com/en/business/audio/products/mixers/cl-series/"
+        },
+        {
+          "title": "Yamaha: CL5, число обрабатываемых каналов и локальных входов",
+          "url": "https://uk.yamaha.com/en/business/audio/products/mixers/cl-series/specs.html"
+        },
+        {
+          "title": "MasterSound, Новосибирск: Yamaha CL5 в каталоге концертных пультов",
+          "url": "https://www.mastersound.su/equip/zvykovoe-oborydovanie/mikshernie-pylti-konsoli.html"
+        }
+      ]
+    },
+    {
+      "slug": "midas-m32-v-arendu",
+      "name": "Аренда концертного микшерного пульта Midas M32 в Москве",
+      "package": "zzzz70-vocal-stage-sound.json",
+      "parent": "mikshery-dlya-zhivogo-zvuka",
+      "sources": [
+        {
+          "title": "Midas: M32, микрофонные входы, сцены и подключение AES50",
+          "url": "https://www.midasconsoles.com/en/products/0603-adx"
+        },
+        {
+          "title": "RentalService, Санкт-Петербург: прокат Midas M32",
+          "url": "https://rentalservice.pro/prokat/zvykovoe-oborydovanie/mikshernie-pylti/cifrovoi-mikshernii-pylt-midas-m32"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-clp765gp-v-arendu",
+      "name": "Цифровой рояль Yamaha CLP-765GP в аренду",
+      "package": "zzzz72-piano-format-color-scenes.json",
+      "parent": "cifrovoy-royal",
+      "sources": [
+        {
+          "title": "Yamaha: характеристики цифрового CLP-765GP",
+          "url": "https://usa.yamaha.com/products/musical_instruments/pianos/clavinova/clp-765gp/specs.html"
+        },
+        {
+          "title": "Аренда роялей: цифровой Yamaha CLP-765GP",
+          "url": "https://arendapiano.ru/clp-765gp-wh-2.html"
+        },
+        {
+          "title": "Аренда роялей: чёрный цифровой Yamaha CLP-765GP",
+          "url": "https://arendapiano.ru/clp-765gp-black.html"
+        }
+      ]
+    },
+    {
+      "slug": "kawai-dg30-v-arendu",
+      "name": "Цифровой рояль Kawai DG30 напрокат",
+      "package": "zzzz72-piano-format-color-scenes.json",
+      "parent": "cifrovoy-royal",
+      "sources": [
+        {
+          "title": "Kawai: DG30, цифровой рояль и характеристики",
+          "url": "https://www.kawai-global.com/product/dg30/"
+        },
+        {
+          "title": "АрендаРояля.рф: цифровой Kawai DG30",
+          "url": "https://xn--80aald6ajjle5mb.xn--p1ai/digital-instruments/kawai-dg30"
+        }
+      ]
+    },
+    {
+      "slug": "kawai-gl10-v-arendu",
+      "name": "Акустический рояль Kawai GL-10 в аренду",
+      "package": "zzzz72-piano-format-color-scenes.json",
+      "parent": "royal",
+      "sources": [
+        {
+          "title": "Kawai: GL-10, размеры и механика Millennium III",
+          "url": "https://kawai.com.au/product/gl-10/"
+        },
+        {
+          "title": "АрендаРояля.рф: кабинетный Kawai GL-10",
+          "url": "https://xn--80aald6ajjle5mb.xn--p1ai/grand-pianos/white/kawai-gl-10"
+        }
+      ]
+    },
+    {
+      "slug": "yamaha-yus1-v-arendu",
+      "name": "Акустическое пианино Yamaha YUS1 напрокат",
+      "package": "zzzz72-piano-format-color-scenes.json",
+      "parent": "akusticheskoe-pianino",
+      "sources": [
+        {
+          "title": "Yamaha: YUS1, устройство и функции педалей",
+          "url": "https://usa.yamaha.com/products/musical_instruments/pianos/upright_pianos/yus_series/specs.html"
+        },
+        {
+          "title": "АрендаРояля.рф: акустическое пианино Yamaha YUS1",
+          "url": "https://xn--80aald6ajjle5mb.xn--p1ai/upright-pianos/yamaha-yus1-black"
+        }
+      ]
+    },
+    {
+      "slug": "pioneer-cdj-3000-v-arendu",
+      "name": "Аренда Pioneer DJ CDJ-3000 в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "Pioneer DJ: CDJ-3000, управление, носители и Pro DJ Link",
+          "url": "https://www.pioneerdj.com/en/product/dj-players-turntables/cdj-3000/"
+        }
+      ]
+    },
+    {
+      "slug": "alphatheta-cdj-3000x-v-arendu",
+      "name": "Прокат AlphaTheta CDJ-3000X в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "AlphaTheta CDJ-3000X: экран, соединения и требования к библиотеке",
+          "url": "https://alphatheta.com/en/product/player/cdj-3000x/black/"
+        }
+      ]
+    },
+    {
+      "slug": "pioneer-djm-a9-v-arendu",
+      "name": "Аренда DJ-микшера Pioneer DJ DJM-A9 в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "Pioneer DJ DJM-A9: независимое прослушивание и два компьютера",
+          "url": "https://www.pioneerdj.com/en/product/dj-mixers/djm-a9/"
+        }
+      ]
+    },
+    {
+      "slug": "pioneer-djm-900nxs2-v-arendu",
+      "name": "Прокат Pioneer DJ DJM-900NXS2 в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "Pioneer DJ DJM-900NXS2: каналы, эффекты и коммутация",
+          "url": "https://www.pioneerdj.com/en/product/dj-mixers/djm-900nxs2/"
+        }
+      ]
+    },
+    {
+      "slug": "allen-heath-xone-96-v-arendu",
+      "name": "Аренда Allen & Heath Xone:96 в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "Allen & Heath Xone:96: аналоговая схема, EQ, интерфейсы и мониторинг",
+          "url": "https://www.allen-heath.com/hardware/xone-series/xone96/"
+        },
+        {
+          "title": "Allen & Heath: руководство Xone:96",
+          "url": "https://support.allen-heath.com/hc/en-gb/articles/43053562464017-Xone-96-User-Guide"
+        }
+      ]
+    },
+    {
+      "slug": "pioneer-xdj-rx3-v-arendu",
+      "name": "Прокат Pioneer DJ XDJ-RX3 в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "Pioneer DJ XDJ-RX3: два канала, экран и USB-воспроизведение",
+          "url": "https://www.pioneerdj.com/en/product/all-in-one-dj-systems/xdj-rx3/"
+        }
+      ]
+    },
+    {
+      "slug": "alphatheta-xdj-az-v-arendu",
+      "name": "Аренда AlphaTheta XDJ-AZ в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "AlphaTheta XDJ-AZ: самостоятельное четырёхдековое воспроизведение",
+          "url": "https://alphatheta.com/en/product/all-in-one-dj-system/xdj-az/black/"
+        }
+      ]
+    },
+    {
+      "slug": "pioneer-ddj-flx4-v-arendu",
+      "name": "Прокат DJ-контроллера Pioneer DJ DDJ-FLX4 в Москве",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "dj-oborudovanie",
+      "sources": [
+        {
+          "title": "Pioneer DJ DDJ-FLX4: совместимые устройства, программы и подключение",
+          "url": "https://www.pioneerdj.com/en/product/dj-controllers/ddj-flx4/"
+        }
+      ]
+    },
+    {
+      "slug": "pioneer-plx-1000-v-arendu",
+      "name": "Аренда винилового проигрывателя Pioneer DJ PLX-1000",
+      "package": "zzzz73-dj-rider-scenes.json",
+      "parent": "vinilovye-dj-proigryvateli",
+      "sources": [
+        {
+          "title": "Pioneer DJ PLX-1000: привод и диапазоны темпа",
+          "url": "https://www.pioneerdj.com/en/product/dj-players-turntables/plx-1000/"
+        },
+        {
+          "title": "Pioneer DJ: состав PLX-1000 и съёмная коммутация",
+          "url": "https://www.pioneerdj.com/en/news/2014/plx-1000/"
+        }
+      ]
+    },
+    {
+      "slug": "shure-sm57-v-arendu",
+      "name": "Аренда Shure SM57 в Москве",
+      "package": "zzzz75-instrument-microphones-and-stands.json",
+      "parent": "instrumentalnye-mikrofony",
+      "sources": [
+        {
+          "title": "МузПрокат, Москва: Shure SM57 как отдельная прокатная позиция",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-57/"
+        },
+        {
+          "title": "Shure: руководство SM57, направленность и размещение у инструмента",
+          "url": "https://pubs.shure.com/view/guide/SM57/en-US.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "shure-sm81-v-arendu",
+      "name": "Прокат Shure SM81 в Москве",
+      "package": "zzzz75-instrument-microphones-and-stands.json",
+      "parent": "instrumentalnye-mikrofony",
+      "sources": [
+        {
+          "title": "МузПрокат, Москва: прокат Shure SM81",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-sm-81/"
+        },
+        {
+          "title": "Shure: руководство SM81, фантомное питание и переключатели",
+          "url": "https://pubs.shure.com/view/guide/SM81/en-US.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "shure-beta52a-v-arendu",
+      "name": "Аренда Shure BETA 52A для большого барабана в Москве",
+      "package": "zzzz75-instrument-microphones-and-stands.json",
+      "parent": "instrumentalnye-mikrofony",
+      "sources": [
+        {
+          "title": "МузПрокат, Москва: прокат Shure BETA 52A",
+          "url": "https://musprokat.ru/product/zvukovoe-oborudovanie/mikrofony-i-radiosistemy/instrumentalnyy-mikrofon-shure-beta-52a/"
+        },
+        {
+          "title": "Shure: руководство BETA 52A, большой барабан и крепление",
+          "url": "https://pubs.shure.com/view/guide/BETA52A/en-US.pdf"
+        }
+      ]
+    }
+  ],
+  "preservation": {
+    "old_slugs": 1901,
+    "all_old_slugs_preserved": true,
+    "missing_old_slugs": [],
+    "old_parent_changes": [],
+    "aliases_count_before": 21,
+    "aliases_count_after": 21,
+    "alias_map_exact_equal": true,
+    "alias_file_bytes_exact_equal": true,
+    "alias_sha256": "8659be56ec917765c4fdd6a6798e9f483b760b92bf3d64987b3deec55e1e8b1d",
+    "source_build_code_changed": false,
+    "old_connected_routes_removed": [],
+    "old_existing_route_relative_order_changes": []
+  },
+  "hygiene": {
+    "inventory_errors": [],
+    "link_audit_errors": [],
+    "duplicate_routes": 0,
+    "self_links": 0,
+    "invalid_links": 0,
+    "root_nodes": 16,
+    "strict_new_zero": [
+      "mikshery-dlya-zhivogo-zvuka",
+      "radiomikrofony-dlya-vokala"
+    ],
+    "strict_old_terminal_zero": [],
+    "strict_thin_leaves": 0
+  },
+  "observations": [
+    {
+      "type": "nonterminal_new_hubs_without_strict_exit",
+      "slugs": [
+        "mikshery-dlya-zhivogo-zvuka",
+        "radiomikrofony-dlya-vokala"
+      ],
+      "blocking": false,
+      "reason": "All listed subjects have children. The agreed strict-thin gate applies to terminal subjects; no content is changed to improve a metric."
+    }
+  ],
+  "scope_limit": "This is a structural comparison of the full corpus. It does not claim a new semantic reread of all 1901 old bodies; source authors and root reviewed the changed content packages separately.",
+  "review_script_sha256": "366c5eb55d13c8d17209b69f359f44112109ab8951e72cdb7d52ec0674b2c8c0",
+  "keyword_summary": [
+    {
+      "field": "search_title",
+      "term": "аренд*",
+      "before_pages": 1895,
+      "after_pages": 1920,
+      "delta_pages": 25,
+      "before_occurrences": 1895,
+      "after_occurrences": 1920,
+      "delta_occurrences": 25
+    },
+    {
+      "field": "search_title",
+      "term": "(на)прокат*",
+      "before_pages": 0,
+      "after_pages": 54,
+      "delta_pages": 54,
+      "before_occurrences": 0,
+      "after_occurrences": 54,
+      "delta_occurrences": 54
+    },
+    {
+      "field": "description",
+      "term": "аренд*",
+      "before_pages": 106,
+      "after_pages": 106,
+      "delta_pages": 0,
+      "before_occurrences": 106,
+      "after_occurrences": 106,
+      "delta_occurrences": 0
+    },
+    {
+      "field": "description",
+      "term": "(на)прокат*",
+      "before_pages": 19,
+      "after_pages": 23,
+      "delta_pages": 4,
+      "before_occurrences": 19,
+      "after_occurrences": 23,
+      "delta_occurrences": 4
+    },
+    {
+      "field": "intro",
+      "term": "аренд*",
+      "before_pages": 115,
+      "after_pages": 116,
+      "delta_pages": 1,
+      "before_occurrences": 119,
+      "after_occurrences": 120,
+      "delta_occurrences": 1
+    },
+    {
+      "field": "intro",
+      "term": "(на)прокат*",
+      "before_pages": 30,
+      "after_pages": 48,
+      "delta_pages": 18,
+      "before_occurrences": 32,
+      "after_occurrences": 50,
+      "delta_occurrences": 18
+    },
+    {
+      "field": "blocks",
+      "term": "аренд*",
+      "before_pages": 1023,
+      "after_pages": 1028,
+      "delta_pages": 5,
+      "before_occurrences": 1072,
+      "after_occurrences": 1078,
+      "delta_occurrences": 6
+    },
+    {
+      "field": "blocks",
+      "term": "(на)прокат*",
+      "before_pages": 56,
+      "after_pages": 105,
+      "delta_pages": 49,
+      "before_occurrences": 85,
+      "after_occurrences": 136,
+      "delta_occurrences": 51
+    },
+    {
+      "field": "kicker",
+      "term": "аренд*",
+      "before_pages": 144,
+      "after_pages": 144,
+      "delta_pages": 0,
+      "before_occurrences": 144,
+      "after_occurrences": 144,
+      "delta_occurrences": 0
+    },
+    {
+      "field": "kicker",
+      "term": "(на)прокат*",
+      "before_pages": 1,
+      "after_pages": 1,
+      "delta_pages": 0,
+      "before_occurrences": 1,
+      "after_occurrences": 1,
+      "delta_occurrences": 0
+    }
+  ],
+  "strict_summary": {
+    "metric": "Only explicit routes, normalized aliases, excluding declared direct parent/children. Transitive kinship is not removed; root parent empty string is not treated as an orphan.",
+    "before_leaf_count": 1686,
+    "before_strict_thin_leaves": [],
+    "after_leaf_count": 1754,
+    "existing_terminal_count": 1686,
+    "new_terminal_count": 68,
+    "all_new_count": 79,
+    "all_new_zero_strict": [
+      "mikshery-dlya-zhivogo-zvuka",
+      "radiomikrofony-dlya-vokala"
+    ],
+    "existing_terminal_zero_strict": [],
+    "new_terminal_zero_strict": [],
+    "new_min_strict_outdegree": 0,
+    "new_terminal_min_strict_outdegree": 2,
+    "existing_terminal_min_strict_outdegree": 1
+  },
+  "artifacts": {
+    "merged_explicit": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-merged-pages.json",
+      "sha256": "87eaf7b2fc43fb9771a64144478c3d1852cbaced864708b20e1b27547988e3dd"
+    },
+    "merged_connected": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-connected-pages.json",
+      "sha256": "3eacbff7793796d78541ef6fcfb5e8618e6534e247215773d797a7b900b8dcfc"
+    },
+    "authored_changes": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-existing-field-changes.json",
+      "sha256": "39d482979aa8159cd7e7ee6f3d841ea5337e25940a81d05f9e9fe33c1348db28"
+    },
+    "navigation_changes": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-navigation-changes.json",
+      "sha256": "772001e405a223cb2876c28b31cfb656dbe888f3f373e0f0cac4335e46f1bc90"
+    },
+    "keywords": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-keyword-counts.json",
+      "sha256": "7410909bad8a765b11d00ea90af8915cd3d716f2ebaa6386f8a6beb88664089c"
+    },
+    "strict_routes": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-strict-outgoing-proof.json",
+      "sha256": "2a3bba116dee74f81679f509d7ee1d4d859fa0acbc4ba51f5ac94e0bcbf32ffa"
+    },
+    "inventory": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-inventory.json",
+      "sha256": "839d338c80f4fa0d871ba650a23107ed8da5a1030cc8cbb4fe68bed85eae1c80"
+    },
+    "link_audit": {
+      "path": "/workspace/scratch/ccb7f80b4c57/expansion-final-link-audit.json",
+      "sha256": "a5f9d67d7b9eee8421759efb73c32c59aabe6268d357a163871f700f8905b35b"
+    }
+  },
+  "input_hashes": {
+    "content/sections/99q-performance-models.json": "05e39e874d272e8270cb78ab3105df42f2b6aae95b8c54a190d2c757f0147888",
+    "content/sections/zzzz60-source-subject-corrections.json": "ccccc63f100e40aeaa183681a428433c3ede8da3569a2a070fda70f2b6aa1b69",
+    "content/sections/zz10-ukulele-mandolin-landings.json": "ce638d5e3e568ddb663e2947f7d7d968b58206f5ae302429bd9007f139f99738",
+    "content/sections/99x-orchestral-plucked-voices.json": "54b4e4146b81cf392fca2826974570656c17b75e22da40bfa2e034ee68ee19b9",
+    "content/sections/zzzz33-conductivity-digital-piano-bridges.json": "e6019b0bd913816c962cf5f9c95c869e5c5e9df07a76371a366fe772074f470b",
+    "content/sections/zz46-international-student-wind-standards.json": "7f0e21f95017ec6d77c3e06ce058fac39641f98a0e89d0a94dd339082c9c9543",
+    "content/sections/zz115-keyboard-rider-backline-human-scenes.json": "a76f72eec17ffe26a8eeea32fa2bbdb5cdd35338767e506ce475df02fd60b232",
+    "content/sections/zzzz46-plucked-historical-continuations.json": "ee76c4d66ae4a8808b569527148183d2a8f8ac8809011d8d0e6f19662d688d94",
+    "content/sections/zzzz72-piano-format-color-scenes.json": "e7d4ba468ed11320ffe54920a60d55482194834698ab4ee31732bb9c128b7bad",
+    "content/sections/zz77-student-cornet-learning.json": "3691014c4b20898c33765b64d3e02076303c7934b33441ba7ddd440bba56b785",
+    "content/sections/zz32-legendary-keyboards.json": "71159da6388e5dc269bb474cc7fd2c26ce02912bec01017e62a3e022e794a0bb",
+    "content/sections/zz87-synth-stage-human-scenes.json": "919050a47148932205471cfd7e53598c55f8b6991593154167ba49854a9f1f74",
+    "content/sections/zz65-digital-piano-learning-core.json": "d121ed10c26f685cfa0a3d57e1c7ee820a33c5e257ccabaf0d863ac9d8601b40",
+    "content/sections/zzzz16-conductivity-percussion-model-bridges.json": "19f0cc8c20c252b3cc27668e78cf0172f41dbe83dc5b22bfe217cdf994bb9e96",
+    "content/sections/zz48-bows-learning-and-quality.json": "63b806c72b4192acb22aee259a3de0738b196e7935615155592dbde971501b16",
+    "content/sections/zz01-home-piano-models.json": "f8e2845848ac735c27df88e14c7f7b814460caa7ad56d9c4ee52bf78f2981f26",
+    "content/sections/zz19-early-plucked-performance-landings.json": "a0f15f3aa4de76038aa60f9a6169f853b76b859563cb4a93bc3a3ea7a7bc0601",
+    "content/sections/zz37-current-pro-workstations.json": "7ab055d6a2ec9c969dfc73106fcf96ef528f44a4c3666e913f9d8647313f00f9",
+    "content/sections/99d-orchestral-percussion.json": "f2f0fdb29f5aa4a2819e40af0f7db3d5db1192f2b6916139eeeabeb6835cd401",
+    "content/sections/zzzz29-conductivity-upright-student-wind-bridges.json": "967da1eea766aee2ad7c38699f39bb331bbf53282b573aa7eaf39334bd42601b",
+    "content/sections/00-keyboard-editorial.json": "85fc86a239fd1946665647bc0fd93bacc79e1013cdadf810f5eb103364d11552",
+    "content/sections/50-harps-and-lyres.json": "05a22b3c701c18a852f4a7e0b250367bf2698a5c412dd8b6996aef4ce21b5cab",
+    "content/sections/zzzz28-conductivity-range-obstacle-bridges.json": "b21d87e738a961e1b3a5be46871ce41ca33c954da8fdddc0fd02151382d8e65d",
+    "content/sections/zzzz12-conductivity-organ-mixed-bridges.json": "691f276ef1aa231082d8b5a754d87f204ffdc1eb5318b93b867a7d9554c8e0ab",
+    "content/sections/99f-recorder-ukulele-voices.json": "fc5c51ac616eadfd7b4658fc5287c975530a0c62cdf846a510843da397138ab0",
+    "content/sections/zz78-student-baritone-horn-learning.json": "d80fba2b2d530d6744137d32a773fd3610c506672e762eacb81c042694ccc48d",
+    "content/sections/91-caucasus-central-west-asia.json": "c3ecefdcd67aa9fd52373d97db986b9e69512256ecb486eda2c690ecfc9fa3b9",
+    "content/sections/100c-synth-scenario-landings.json": "654e63196a66728cb085b475239e36631658980b02c4c887fbd8cf568f575b6e",
+    "content/sections/zz20-special-electronic-performance-landings.json": "f4bd3f9a756571226502498aae772fbabd6f9c3e5af2a4ac09179ec82605b805",
+    "content/sections/zzzz09-conductivity-rare-electronic-bridges.json": "10471fa96680c1a3e2854de2907c73cd1a49776233011735cd885872b757f5e2",
+    "content/sections/100b-organ-landings.json": "7eec36efc1ada584358f85da334f72a0906b02b889240d2b1972d365dc7b3d68",
+    "content/sections/zz67-beginner-acoustic-drum-sizes.json": "233df5233d7a75d9a75e1472a9dfb51fb45b601751b448fc9757cdc60a481ed3",
+    "content/sections/99o-historical-electric-string-landings.json": "c3cfc8d38c5ec9b05abd38704ec2e2cb2827b76ca0ca1859801ae2e19ab7b854",
+    "content/sections/zz95-orchestral-mallet-human-scenes.json": "df0863c2d30a7ad24dfc990dd3401022bdf6a0740d63142457b8ce2ac6d964f7",
+    "content/sections/99s-guitar-model-landings.json": "13da35c3ec62e8030003460508ce1c9b305e925e7d372fd86cd587f51f94e555",
+    "content/sections/zzzz14-conductivity-plucked-bridges.json": "f9c2302e8a5da6e6623a5804ddc2f6765f96fdd16c24b5f619b100583ba3a621",
+    "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json": "3a31db3e9a1f81a481923a7c5ad6abae3834baa1207b6c5390679f0725ede6cd",
+    "content/sections/zz83-bass-guitar-human-scenes.json": "be003b1d2672d1521f7a760393296055ab0de7d83ffbd71c3a2a297ea93d0b87",
+    "content/sections/99k-keyboard-production-landings.json": "d7712687fa5e537e20342af43100f119dcede5eca3b31ea8c44a850f465baa67",
+    "content/sections/zzzz18-conductivity-electric-bowed-bow-bridges.json": "3de337e1dff375ccbae9ef594f9a1d4195f0e5bfe1bb23403574fe4b56a4e6e2",
+    "content/sections/zz69-freebass-accordion-learning.json": "694296fc52cb152988579fda8cb3260073bbf7aad28d36bae523d0854ea2bb3e",
+    "content/sections/zzzz23-conductivity-body-obstacle-bridges.json": "57a19e6c3f80dc4db8cffee6e3cc116bc538681acf454ab83bbac067be264cb6",
+    "content/sections/zz92-low-brass-human-scenes.json": "b87193ebdf6ca838e476cd765c3c0f480b7da9af9c3ed6b8615be480c07d21a7",
+    "content/sections/zzzz75-instrument-microphones-and-stands.json": "a6223707576871a3e9a5595b0fc863183ead04f928d3620131982f4a39ef2b2e",
+    "content/sections/99b-guitar-configurations.json": "409c588407384cb9f43c7af7dccaf6c216488903c3e65c328b53a2f80d3d3fe1",
+    "content/sections/99e-resonant-percussion.json": "71e8ec9be17726112901b6c825f001cf75d77cc9d3119ba4fe4a5d19467d3ae8",
+    "content/sections/zz04-keyboard-repertoire-landings.json": "2d03f1f52a90f3ae564b3589c054c8f00f82881a2bcbd44846ea451436f9959a",
+    "content/sections/zzzz30-conductivity-student-wind-bowed-bridges.json": "ab852751b6324b3b6218fdcd3a607dc91e307bf3c77d2bd8df2a23b9494ea1c1",
+    "content/sections/92-electronic-subcategories.json": "de24b6048f6f46a27a7d8220634d43e1dd3d3c8cfba517e89e8b9479adb32333",
+    "content/sections/zzzz76-stage-system-completeness.json": "eb08b6b72ac64354fc7015a7e3d54135d1784ebd2ab59471911532904199d5a1",
+    "content/sections/zz117-chamber-ensemble-crossroutes.json": "c1304d355dc8bbf7f8750bda8dac2452ebe2c478a879b4d62984560ec0789fcf",
+    "content/sections/zz09-electric-bass-guitar-landings.json": "a2d0b8c61726fe1bf91df77b57d4e35af61fc367732ed5ca88c19ae60dead529",
+    "content/sections/zz97-violin-viola-human-scenes.json": "bb17a4e1244acb8c9ec91d632c77814883d930b441c8d2b55be7ee483bb884c4",
+    "content/sections/zzzz40-contrabass-continuations.json": "5aff4df26f3af103ff1b5fcc40fe769febeef947689a95fe1ef52ce788a882e9",
+    "content/sections/zz59-student-tenor-sax-alternative.json": "38b02d6b3a68a8addf008631e7f0e569df7bc9a9156f32d154379c513417c7a8",
+    "content/sections/zzzz42-guitars-bowed-continuations.json": "82adf68592b84226cee1c00fbbd115189d2a108a589f9c29e7d702ddfd824cab",
+    "content/sections/zz15-small-percussion-voices.json": "e3104ad830152ca86d5d6e836ca56e55521b8fe177f0e7eb451ba9b519518fd5",
+    "content/sections/zzzz13-conductivity-free-reed-bridges.json": "f7561e4acb5b3b132d9815d472d197b32a381909a40f1dbfad0e3bdeed096f9c",
+    "content/sections/zz50-russian-bayan-school-context.json": "3e6cb45a25be1eb92a438f1e1488431bfe732f4e91870e28ff23173deb5e3d97",
+    "content/sections/zz49-school-bowed-and-piano-evidence.json": "2e5cc216ed3f3c90c87f0c2c0406510d585ada7b9a200982c0f8e773d5da1fd9",
+    "content/sections/99p-traditional-task-landings.json": "4d97b82dca3a008e77d0a109b3fe70445ff3e9bea0365c4a092c5dc1950ec6bf",
+    "content/sections/zzzz50-legacy-keys-editorial.json": "798d6b9fe7e81e4523ba4042000c754db12b484f5ac748faaf5d407bf25740a8",
+    "content/sections/zz96-hand-orff-human-scenes.json": "03fc9fbdff3fb5f84e808fc2901b6a92a30902f24fcb057ef283a781adc5e499",
+    "content/sections/zzzz08-conductivity-backline-wind-bridges.json": "76c0f9231c7fce11aeefdf30476ef4cd344d6dee4af3178d9b6ab331d03b00b9",
+    "content/sections/zzzz11-conductivity-percussion-education-bridges.json": "3160a6b01f170dbad19e26250ac07eecafe04305abdd3a07cd1d4fb630164680",
+    "content/sections/zzzz36-conductivity-final-model-bridges-b.json": "e3ff913a62c0e1448d3b51e214ac9587306986cc25929c13c51e60f9f0c8b68e",
+    "content/sections/zz75-beginner-harmonica-learning.json": "79e15819d4a6ce84df6854a32d553f697d92f9b5bde65037f2346cd683236fef",
+    "content/sections/30-viola.json": "5137a79c50137a15d5f2038d041a3dd092e838fbf275717815011d23eab3dd6c",
+    "content/sections/zzzz41-digital-piano-continuations.json": "f2a889528a070a3ad0b8f17102a04635380782793ac92e2041a338241de215d7",
+    "content/sections/zzzz17-conductivity-guitar-bass-model-bridges.json": "f22728dc294321024676599827a0e62c929b5351cb7ea73f97b3de2cdb683d17",
+    "content/sections/zz110-historical-winds-human-scenes.json": "1f7f1627d1bf87a572bbe8f4d36313c7c2fe96802fb9acc0548dfe2e31f19362",
+    "content/sections/99y-wind-model-comparisons.json": "ee370de862650ffde4f3ff0b15c1a555e67fb0bb97eedf25bac60f8440c86896",
+    "content/sections/zzzz38-conductivity-task-leaves-b.json": "18a1a8e9b353f6d427fb334b9ed24112d861bc51639bab1081f168d52dd22c18",
+    "content/sections/96-regional-subcategories.json": "b5150cbf0ebb933b8e3e4b50fb8cd0fe614b666c3e2eb1c235d9d7ee4723df9c",
+    "content/sections/99c-bass-and-baritone-ukulele.json": "5f2abcd449b4aa60b4c2ae7a5e957a16b8f2f7cf42d13485d0909b9fee8b6edb",
+    "content/sections/99t-stage-and-drum-model-landings.json": "cbdea54a04330aa90dc1a42b9eb4fd423d7d9a74b4f71a4863a5a3cf23c9b25a",
+    "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json": "365dfe7e287a85c09eceab9a554d4ee89bddaf73006a964aae96ba4f47220e6a",
+    "content/sections/zz89-flute-clarinet-human-scenes.json": "e1bfce3e17dc60c7b5c00583f26c0a9393fa2d03f78432e0a0601a7764c9360f",
+    "content/sections/zz99-bow-human-scenes.json": "4307eefca33215f421bf9a0ff16cda10218f37a2f7a8ecea4fbe2f5865f5f501",
+    "content/sections/94-model-editorial-titles.json": "9f1df951c96103afc0d2f96f78d347f800af0eb59e284e7515f217fd1399d0a4",
+    "content/sections/zz120-project-ensemble-crossroutes.json": "14461072aa5b2e46f66d40d6e0042b15ce075f9117ec3281bad1fe4cfa7dced9",
+    "content/sections/zz45-quality-entrances-2.json": "a82489a4396caeb9163711c141d08d4c2857c5f35ffb103fde7982504005d944",
+    "content/sections/zzzz34-conductivity-digital-piano-bowed-bridges.json": "ffbaead67a96c1cad22c30d531cfe8e23b16776bd1db4140592e82e2cf78f90b",
+    "content/sections/zzzz52-bowed-topic-consolidations.json": "21c74c1b719e7e2261a2d60ef9d3b8b6e3522c4c5bedc3aadb77dbdbc39fa54f",
+    "content/sections/zz76-school-melodica-learning.json": "8025a575bb2595dd82e18f9c824d668556aa694ff4e861f51e12bbf85b7f2c60",
+    "content/sections/zz88-special-keyboard-human-scenes.json": "a5b8fc4a729ec422c35fafb118c66bf57021807a144b6215cc84addfd6301ff0",
+    "content/sections/99m-brass-task-landings.json": "a470021527faf6942c332b30f2ef3f91e522214e61f42e5922ad519a1ba48617",
+    "content/sections/zzzz25-conductivity-teacher-lesson-bridges.json": "6576c8fcaf8ba779a82bdaf1960c1495f373baefc5d47541a3f2f78faa764b74",
+    "content/sections/zz39-bowed-brand-education.json": "d5d91c143d196186564cc946e7b140c1ba32b131deec14d7e9dfaee549f3b638",
+    "content/sections/zz14-keyboard-performance-models.json": "113542b423f5ebe116eb9c8b8f767c0aa3ebd7477f104c7cc5ad1e25e14acc02",
+    "content/sections/zzzz20-conductivity-backline-edrum-bridges.json": "ad0b51a11c6fff6a6d997264cb90c3e1a9b5cd9996ae7f4b2f10baa317324876",
+    "content/sections/zzzz70-vocal-stage-sound.json": "05e30199b41f4d81258a1f9846b1f33b2b55d6547a91c4c948a3bffe5803de44",
+    "content/sections/zzzz27-conductivity-response-obstacle-bridges.json": "5a29a20130d287698e8f4802f27ac46738b5947c3fe7bab2a93bf5bbd8bb6b72",
+    "content/sections/zz100-electric-bowed-human-scenes.json": "a2ede205b16a9af914dee18f0499cd13dced707d01d9a51a5634a06bdd3c6466",
+    "content/sections/99h-guitar-task-landings.json": "87d9c6312b85b606b7a1c7c8498a1877ff28fed6552facc965f0ba6e2c2af04f",
+    "content/sections/zzzz59-remaining-legacy-clarifications.json": "bdc6b9dfabf81628aa1b3d7768c0d5f103a1c16b7ea0fda61e21c65d3b65f43d",
+    "content/sections/zzzz21-conductivity-teacher-start-bridges.json": "28a2dfbdbb6fd3071910ef4cc66dbbc2ba9091921802c63b9077650944e76441",
+    "content/sections/zzzz62-public-language-02.json": "bf5eec606c2bd9b9183afc6330da0cc89bd3fe081b784b0be0417f1e2b17889b",
+    "content/sections/zz51-school-string-brand-paths.json": "e3059463147e39d0ce70d0135aacb38f682eb62a9849d4fdd30c1dec020314ad",
+    "content/sections/zz21-brass-performance-landings.json": "dc01ceb06dc0de179371ec541dd6edf89570ddd7fa255cc776c164759226efde",
+    "content/sections/zzzz71-stage-furniture-study-kits.json": "7dbf8c1188d7abd361ba0ed4d5f621563efa35f53f24057c12a42559a50fa173",
+    "content/sections/zz124-teacher-milestone-routes.json": "6b20e76adefcdd207c54ce7522646a96fc9430f29dd8f64a94e9b9a607d63089",
+    "content/sections/zzzz15-conductivity-wind-model-bridges.json": "5a9ddd644dd24b8f1b2311d8a00a5738fbd96a925c2ac6a2981dd57fa2870774",
+    "content/sections/zz118-educational-ensemble-crossroutes.json": "6ff0fc83fb09e1471622ca8d42d5f6f9fe151620d04b32933a0983cc391d5ffd",
+    "content/sections/zzzz58-operational-scenario-clarifications.json": "17b34d82488fbc1221e11d9b029ac8ca489b5102ccbdca88f58a750c524bac27",
+    "content/sections/zzzz57-roland-legacy-body-clarifications.json": "ff150c96d36f0c0e65137d5d57014769477a0d2ce48304d3d90899870f071e9b",
+    "content/sections/zz06-percussion-final-landings.json": "c1848f9f44a8b1e4d3c8549dc31d7f851375af40da353e1d9ba6597e64feb325",
+    "content/sections/zzzz10-conductivity-traditional-historical-bridges.json": "f6743b1c4fe55bec1e6f4f2b7e5a425a61c8d58d4ae6b9fa073b54af77d6d0e4",
+    "content/sections/zzzz74-rental-language-entry-bridges.json": "65dd7b83a8ac31d6f74676f2531f8a53505fcdc5a6b5eb3fcb6517051a9ccd6c",
+    "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json": "14343c7af3860fde7e7941857d9f0162de750ca5ebc4e67a26daf3516cb11127",
+    "content/sections/zz126-technical-obstacles-response.json": "ac8d6dd637519a612533204caeaec89fa2bb332cb74f477a760027897aea8991",
+    "content/sections/zz112-experimental-special-human-scenes.json": "60040358e6d70a165a662a63c70bb2b59d3d576e7cce1a47004b7d052c50ad1e",
+    "content/sections/zz33-drum-harp-rider-standards.json": "13c9d48ccfa0a8d3681a01116ac500a72c9f6e2ae7299767c7a2e2aeb80bdeaa",
+    "content/sections/zzzz07-conductivity-recorder-bassoon-bridges.json": "b0898e839922e516861f2b2c5db5429b718039f188c602e59d10ed37b05f6bef",
+    "content/sections/zz35-percussion-rider-standards.json": "8a64021a0bad18173cd075ba2169e793dceadeaf62baa8f6ab35291583de71d5",
+    "content/sections/60-percussion-families.json": "5cd228650c13e60755670c02f5e572ee03de020c82bbd3588d2ebadfe78276ce",
+    "content/sections/zzzz65-public-language-05.json": "184db92a597b412310f126aba0253a570f9dd922ae8c3c4906f7f2fe51403e82",
+    "content/sections/zzzz44-keys-harps-continuations.json": "12691d8eddbb1b01b9de8b010282f02d0220532dfb154515bdc33d8ad3bbc6db",
+    "content/sections/zz22-woodwind-performance-landings.json": "da1276e0f1f298fd6beec4cf52eaf05c088f42a7fdb5148db4f9615571f83bdd",
+    "content/sections/99g-electric-strings-free-reeds.json": "01e8d6a5b214a7919de55c410e509126929e857854d3043b96d988222f39a602",
+    "content/sections/zz74-short-scale-electric-learning.json": "887f4433c47614de5b9be8920b38275ecd5a83d8e986a54aeb7805670aa050d1",
+    "content/sections/zz107-harmonica-human-scenes.json": "69aea855a5a0d38375cb5b61a923f7ff504fdab3606171540c6eb294969109da",
+    "content/sections/zz17-bowed-final-landings.json": "246fb3b59febe142481a50469e81aa6d73f4d6c735cc6fd872edf5a48b5d77d0",
+    "content/sections/zz84-special-classical-guitar-human-scenes.json": "77594ee974acc5d14e9f697cdf276854d21094eecfc5ce3143efa27fa7d2d25d",
+    "content/sections/zz47-learning-harps-keys-recorder-mandolin.json": "e675a30f631f96f559347aa88d0a97259e438659474b7a00d6aea053917d9fc4",
+    "content/sections/zzzz22-conductivity-teacher-change-bridges.json": "c84401cfba1a84c6089860c3371cc10e6069df88db53736a6126d275be631417",
+    "content/sections/zz81-acoustic-guitar-human-scenes.json": "fffcf0d739d859f0a86da8156136f2394f8de906b0c4f99a0ad7c84d68c52340",
+    "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json": "adabcc5acee75674145bbe6aaa90ea6d5dbddb99f8761cd1daf5f5e71b0cc1ba",
+    "content/sections/zz82-electric-guitar-human-scenes.json": "5f3e3df4334592ba795b5b94551d315f678bbef2be10403b95a59203c0b2e131",
+    "content/sections/zz80-school-percussion-core.json": "f90eded1ea930b1bf9c4444f462524a9b9d3e4976c065bcf4a63d6c521813cf1",
+    "content/sections/zzzz63-public-language-03.json": "b2da383e4f880900f8035abe7e770c221f9a9e846d376deebf0af9928fb0f2b0",
+    "content/sections/zz16-traditional-practice-landings.json": "60b8b294fbdee1982a3a01616329414384c540819292ef41cc7bd3e7492bb4bb",
+    "content/sections/zz23-saxophone-performance-landings.json": "3250f96468f0365253b016c8cb1715293b6bf99dc8336852aeb4be3b06a59129",
+    "content/sections/zz28-backline-rider-standards.json": "28db2b7ea4ac9f5bc85359edd1f147b89aa556aaf38f455ddc343f5155bb85e9",
+    "content/sections/99r-wind-model-landings.json": "096acf726458484130783f600d5777a3236145b2dfe5144d812e895233e1bc17",
+    "content/sections/zz68-accordion-72-bass-learning-step.json": "6eb51fe0c26676fc30884a606558071f1f2b037a3fbdeab9e5252e4e5ef57b8a",
+    "content/sections/zz08-classical-acoustic-guitar-landings.json": "5b58b0e0e7d79336ee7f4772a5c77f8068253f1021360175a53a28012521dad0",
+    "content/sections/zz94-electronic-drum-human-scenes.json": "ff52b1d540df45643b355b9afe7a2f8d0dc0a2546ebf671ea7ee5d9a6c7de34a",
+    "content/sections/zzzz55-casio-legacy-body-clarifications.json": "fce5de295ed0cb2fcbf3077dbe70357b63c13c50a670abd448f659c63b64fc75",
+    "content/sections/zzzz43-winds-reeds-continuations.json": "3f91cb13453f8ef38d0b2ae3db5adf2633ba03e9ab4a00638ceb6e9d455aa5be",
+    "content/sections/zzzz66-public-language-06.json": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923",
+    "content/sections/zzzz03-conductivity-cello-bass-bridges.json": "0abdf2fa171454edb3a9dab60176eb7512e743a95f69125be9cd4d9513f30263",
+    "content/sections/10-keyboard-types.json": "4a0b9b2b27f6e3b4af633b16822c6938fa21221a0fc0b1c6c6dd3bfa4c386394",
+    "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json": "83f0713ec84d58713de449ae5f587c2e50255fef549899944f9509676ad89f58",
+    "content/sections/zz24-recorder-performance-landings.json": "a1b93fb89f393a541260bbdcdee1ac83316ce373f2345685074eb10b6726eedc",
+    "content/sections/40-woodwind-families.json": "cc83a5ee9d1e1946a94c5fc121641b9b8bd219d6806caaf975eb9d79b6ebea9f",
+    "content/sections/zz25-accordion-performance-landings.json": "9de6f5451a2db9ce642d77d80058319db5a214a23518f9af7e5ba75cf2aa62a7",
+    "content/sections/99v-ensemble-preparation-landings.json": "41b5bfe2c1d96fda508e902f487f7e28031a15cbbc57377c67323fa65d7600ce",
+    "content/sections/zz02-acoustic-piano-models.json": "3e1fd080190073d854e55e629c0c9063dfbd949628a8371b8d55983718d84b09",
+    "content/sections/zzzz73-dj-rider-scenes.json": "26e928079a3bd7641727f50a935ed972cdf773fb795de2f1ed1f38c24b3419a6",
+    "content/sections/zz128-technical-obstacles-environment.json": "4273f131a5401547defafbed13397fbecacb13008fe75808380ff5cc5d593e5f",
+    "content/sections/90-indian-ensemble.json": "e9cfc33d0855a856473792ed75e667f45af19f0254a0b895947e56d563b99328",
+    "content/sections/zz18-east-central-asian-performance-landings.json": "dcb4cbda6831662b4bde0135d2fa01dbcc784c96a95b38158fda25b1d8b71cee",
+    "content/sections/zz27-rider-core-second-pass.json": "f4642460871e58c33f30ba4e22c118a842df43f38da05d4dc73e62e69f526c41",
+    "content/sections/zz113-guitar-backline-human-scenes.json": "7af1cfcd509048a10a1a8a5bcab13c8bd4aebafeaef44f6b412e5eeeb6f23c4e",
+    "content/sections/zz57-student-wind-alternatives.json": "92ac140ba713693405d6903b7456dc7eb648b9142106289ba8f5e1ee816922b5",
+    "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json": "5372afa680f9da63216925b7b3037ee307ddde656795fbba0d5746d20108c8f5",
+    "content/sections/zzzz48-legacy-cello-editorial.json": "e996bccd3593f094989a741d6de3deb829da155872cacc78933cbd3f21f69dd2",
+    "content/sections/99i-percussion-task-landings.json": "4395b5d5805ab95496971d15422b3f10cea99a457cc81b7d9fb36cdf38b526aa",
+    "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549",
+    "content/sections/zzzz51-editorial-consolidations.json": "c3b83e4b1f9dae13a48af492c6c8789a0df349b2e88a522fc1fae66a42d656b5",
+    "content/sections/zzzz49-legacy-bass-editorial.json": "b4ee760131e5ed66da7534f7b66f2e653ad0a93bd11cc5aaaa523269ae9da82e",
+    "content/sections/zz123-teacher-lesson-format-routes.json": "7b21ffa7ae638692816e7cbaa9939e700d9a2891c6900e63fcfd3f6aa0c2a02f",
+    "content/sections/99n-harp-bellows-landings.json": "444bf49f35a8c0b381146c895bb040c8df9e3a98450bc94c879ec8df9b654ede",
+    "content/sections/zz44-golden-learning-standards-3.json": "fd75fe32db9f62ad1e1ca1c703ccf6e0942f10deb00ad424dcf3d5354e99c5a4",
+    "content/sections/zz70-gewa-education-family.json": "419b76c1006a9550e04644a40d80dd219942c5d85e9a53319d717bfe1578fd7f",
+    "content/sections/zz40-learning-models-and-levels.json": "6f9d14895cde46e274d9e5321b6013631e87026c99436375c02bc056de371a44",
+    "content/sections/zz73-compact-trombone-student-bass-clarinet.json": "d9f9f4accb6b538d9ad6677d22976d04c91d0841574bc549bbbabf9d4d9172c3",
+    "content/sections/zz93-drum-kit-human-scenes.json": "f324fa863409149d74e4f712c0a8f7717ed69c8717ca5e677ee9ea61eaf0b69c",
+    "content/sections/zz127-technical-obstacles-range.json": "ac16e7ee22219826019e142c1fc0805908e2bac3a159d02475c65475f841842c",
+    "content/sections/zz85-digital-piano-human-scenes.json": "a18f4f86e5bd6a45c1991d6ecc5c411329f75119c2fbac21bc5d390ad6f6606e",
+    "content/sections/zz31-professional-wind-standards.json": "79ef6f0fed45015624238f7d57cddec4a51055bff7ac167f609ac140025fd433",
+    "content/sections/zz58-student-flute-euphonium-ergonomics.json": "b438bde6bb1a907f70bc201f90d58248104e03f7fe74e7b20396ae48908c554d",
+    "content/sections/zz102-russian-plucked-human-scenes.json": "64323c795e164161c2a57b5a5084076fea9622c3cac7d478383d616566fb794a",
+    "content/sections/zz98-cello-bass-human-scenes.json": "5561c20974856b54c14cc38b830da78c68279a31a0ea1256f4fcd6f1d2f33f53",
+    "content/sections/70-bellows-reeds.json": "1e58c40e9d4de33964b7e04c0292ded9d3abd06106aa7ee8333483d946e5c430",
+    "content/sections/zz63-goronok-bowed-family-expansion.json": "d56fa47b5e9af1e21e108a1b51295aecb17c069a13fd9fd87c09e60be574e9b2",
+    "content/sections/zzzz04-conductivity-bass-bridges.json": "3ef58edd97f09dcafd987faea4a1ea13e802b861ee94a28d6b9747ee938d757c",
+    "content/sections/42-brass-families.json": "6b619088a31b5a7c71df9d26a17490f5c34393c7a92ec936eb36f51fff466372",
+    "content/sections/zz90-sax-double-reed-human-scenes.json": "88a8eac0ea4f41eb607fab75e39abe9fd14a9aedfa5a4a8e8f9d9456cc89df5d",
+    "content/sections/99z-wind-ensemble-final-landings.json": "f257c1f9db75cec258e37079f4363d17f1e603d146548467be9785785d83ab14",
+    "content/sections/zz34-accordion-bayan-legendary-models.json": "36875ace0f62426be3df9fe955d9ca18c4e8e5b1a87935dfba7c9aefb8d7ce9d",
+    "content/sections/zz43-golden-learning-standards-2.json": "53ea723b20122239a47157e9dc18697dd402c5d24b3b2a4e04de73feea49f993",
+    "content/sections/zz111-historical-project-human-scenes.json": "e87bdb4ae7560e551f6a62c64538c8a6c571f9be03ea99be113a357c43ef9f95",
+    "content/sections/97-historical-strings.json": "be2951feab9e806c2a83a4992a0b911a0893c3daef89a2ac0ec4bd482dce725d",
+    "content/sections/zz71-eastman-string-program-family.json": "bccf0dbdc68ac868846ffea64a520d10f3feb0a426441b1785258c0e691fc094",
+    "content/sections/zzzz37-conductivity-task-leaves-a.json": "fe90b2928d8fd1fc918d0c5dbb581efbdc12bb8411a36b55c177a587b2299956",
+    "content/sections/zzzz45-traditional-continuations.json": "abc928b1ec44e176ca871d17b02799e1d5942db989a8648b15dc66ff018f569d",
+    "content/sections/zz125-technical-obstacles-body.json": "4d9c8c48cd8a60870f72584b4460bc3de583709011fa6730d2c36b7f651eb958",
+    "content/sections/100a-acoustic-piano-landings.json": "edf07b709d08a5e85cd1fdf6eb589920e76fac1c3af0fcf44ab390ca3ebc1b35",
+    "content/sections/zz60-russian-school-wind-evidence.json": "6524d69ef0498c094aadac08342874a5c8df3dd307de081a0a374dc699760140",
+    "content/sections/zz03-electric-bowed-models.json": "85dacfffb6ea799d4e07bc45784911609c2c9f7977c40c04ce4044e6549d1eea",
+    "content/sections/zz41-quality-request-entrances.json": "19503c8e7509e6025374709b691c335863a895fa6c3ad03291b6320166a219ec",
+    "content/sections/zz42-education-quality-navigation.json": "a1630021564615ab14f88138a09667fac3ad0f11955d7e2256e852714bf411f3",
+    "content/sections/zzzz32-conductivity-remaining-model-bridges.json": "651b516243a7604f9ad60ed79b8d2c5287ceb276fdfe54e8404aa84b0ee169c6",
+    "content/sections/zz121-teacher-start-routes.json": "e0c09fcea3c9cf425821b1b620ba6335e4a15d192fee9a484c8bd22f73caf497",
+    "content/sections/zz53-orff-and-first-electric-learning.json": "a4b784145f0a4dadefd88561d89f4543a9815e3a97e439a10d40b719307b90ed",
+    "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json": "7f68271fbf51e1f4f6a54b632d2c7291c39b6364c537e8f10d4b868b17b47e59",
+    "content/sections/zz105-accordion-bayan-human-scenes.json": "a3bae026a9d394a2ed40a984a83eed77d5d03233f02eb26a33b39fd7b69c76d4",
+    "content/sections/zzzz61-public-language-01.json": "a4151b5f20ee4f26904dafab2fbcca68f4041daa8ae131cd0e4375f41809fa11",
+    "content/sections/zzzz53-stage-technical-clarifications.json": "e5c1d3d2d1076964294daffbea8f155a758467fa5df99d6623d950f73db09639",
+    "content/sections/99w-extended-wind-voices.json": "d79e69b64a71ce905a359972491095478d6e4e5b00e24c6f5dc3c0ed8423207c",
+    "content/sections/zzzz31-conductivity-rider-model-bridges.json": "45559bc5991e8e5528d7ab13ed69eda6cbfab59fa310b03aca6eed5e744639d7",
+    "content/sections/95-special-subcategories.json": "9bc76feb82cd090b12f86a562b3ef274ec8e7c42e2c1c49c592afebdf7fb86ee",
+    "content/sections/zz72-euphonium-fender-acoustic-learning.json": "ccb7e2221bbae4f76df5d3edaa8c6a9cdd2d912f6b013277f2b256b0e6b7fe39",
+    "content/sections/98-historical-winds.json": "1ca9f1ef5dce7e370d23b1e4d8843c3c20a905569888334cb931112bf3a438ea",
+    "content/sections/zz66-accordion-upright-learning-standards.json": "75dbe3bbc22e8b394776193763b999ed98adc7b4a51b9810d4fad814140fcb68",
+    "content/sections/zz61-russian-arcata-learning.json": "94445b7a7795488390722cace2b4881189661c4b44cf3e677b6c169f446668c2",
+    "content/sections/zz26-rider-legend-model-core.json": "067ef96230bf11bbbf90fabaf4ed6667ca601b8560779b519c4a3593506b39ba",
+    "content/sections/zzzz54-clavinova-legacy-body-clarifications.json": "cadbc3bb907c7a05b4621a6e4757be639a5e3f70e19a32de4b2a9a2bb069725f",
+    "content/sections/zz55-early-orff-learning.json": "8707005818f218162c24b9b70cec074b8fdad347c6c44296adcf7c2ffbdee25e",
+    "content/sections/zz05-harp-bellows-final-landings.json": "3d6fd9fe985cb5abac73b3388796ca5ff0cdbd9307d56654e1ad1c43e7ebc986",
+    "content/sections/zz30-concert-grand-standards.json": "7489715cec022e67ed96b5cd3168c29ce744d88a6c2b4865b512bf4331c800b9",
+    "content/sections/zz52-practice-quality-and-exam-context.json": "65f52a0999876a008cb09a08d3c00319765b0e0402dc285915594098c5f25896",
+    "content/sections/61-hand-percussion.json": "a42c2845c9485eae4b036e98acc73361c06b3b63a5e3bfafa65f2c40063181e3",
+    "content/sections/zzzz02-conductivity-royal-cello-bridges.json": "476de87bc897340fe353ca30e895245dcc3d6fd0da05e53676f6b46654e546fc",
+    "content/sections/zz54-russian-piano-study-setup.json": "69a649d2d77c9d3c07f81d11941b8e06b039eba3848abe788a133758b6d83759",
+    "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json": "6a6cae0b1f65ad450ee4014d0943ffce776edcefbdb3b8ef39b2147b7d010c4f",
+    "content/sections/zzzz05-conductivity-digital-piano-bridges.json": "32868b091cc67c14af9f6b3722887ef08dca67a3d2388f196238f69f5d162eb4",
+    "content/sections/80-plucked-strings.json": "6626c227faf96201f1bb576e23cf194971427d8a400876dce25f8d604be31647",
+    "content/sections/zz104-asian-traditional-plucked-human-scenes.json": "3f58706ee6c5b50f2a2ad7c10836c7f37f80d871701a131a1c0ffe4540485b62",
+    "content/sections/zzzz01-conductivity-keyboard-bridges.json": "8c02bfbf4ee57add3690e157aaa0b080f7bc75f21b6ee3d98dd3ea08e19f748f",
+    "content/sections/zzzz69-public-wording-precision.json": "8cc4089c03054fc58dba12a9fbc1189e85c8a8841996548c624bf5cfebf1d488",
+    "content/sections/41-woodwind-voices.json": "33c5a4f25c8014cdf11234350b5ff2b1884d73de5d61753dc30fc1c6704f4ef6",
+    "content/sections/zzzz64-public-language-04.json": "a842130333cb128bec085b2fa490d8b23e595c9ed040bdc6f67cdef41abd90f8",
+    "content/sections/zz36-electronic-plucked-legendary-models.json": "cbce5fd1c6b26fe73bbc2960ada316200f035ce707624ab657894d3345bbc140",
+    "content/sections/zz91-high-brass-human-scenes.json": "967196a908de535195006491b001fbe89ee66a9f96418942ab200a31ec79ecf0",
+    "content/sections/zzzz24-conductivity-environment-obstacle-bridges.json": "3c4df50e2c5ae1bc92c56fa6176699b8934396371aeb078ca9f314b2758e937c",
+    "content/sections/zzzz47-stage-percussion-continuations.json": "004b24061ab18af59cb9aef972c8ad74a6350bb83a53bfee801da03a90fcac65",
+    "content/sections/99-electronic-performance.json": "3a62b0ef9f25c26bcca2f1db143df4ecfb88266d479713bcdeb3d74635fc55d0",
+    "content/sections/99l-east-asian-voices.json": "2bd0ed7f6a7b8460f1913b5a4f5f6ba0226bc744eded73d5d2e6071ad1f85bd9",
+    "content/sections/zzzz06-conductivity-violin-bridges.json": "1aa161c9f2883e9da98b022e892ee779a3947ca2e7ebd2e1075b3d3591ab78af",
+    "content/sections/zz79-student-tenor-horn-learning.json": "23047ba8bbeb53673a4529f8e8b73288fb8024a2ade5d0f00f73de16238d0877",
+    "content/sections/zz29-amplifiers-backline.json": "4ff2520ca4d0e0f3ee91d0ce3b2a38450777cc5811e75c29ddc7eeaf7041eba6",
+    "content/sections/zz38-rider-guitars-and-di.json": "a88a8bcaccc30aaeab813bf6113c7815e0f8c6d675835f98b947c6dc637fb9a7",
+    "content/sections/20-guitar-types.json": "cce3cc9a7cf887ed095f2408284c1f666f3f27a08694a36b809a0a00c89f88c9",
+    "content/sections/99j-wind-task-landings.json": "55042ecb00f733a052c2f1d9cc5806e278b9182e6127d3822fed111ddb12b8be",
+    "content/sections/zzzz67-public-language-residual.json": "5c9b131093e9f7914296bc293d3e89938b4293cb0a0d15ac6b06acf3b8d7603a",
+    "content/sections/zz122-teacher-change-routes.json": "d8b13c6d71e87ceed97a8d9133337cfab20fefe069555199833cc034d87ca35d",
+    "content/sections/zzzz39-cello-continuations.json": "2e75d8cecca9acbc52c4ff2802f4d6204a5359055623ea8ddbbbeef2c3ae7a50",
+    "content/sections/93-historical-subcategories.json": "2a3e059397796f4f41dd2ced08d2c9c5b43663846b8896dc04e188c16bf9e05d",
+    "content/sections/zz116-complete-backline-human-scenes.json": "ad757c244faada8c5851294c92d4dbd092c1410de0ee571ed2c21152be8d2239",
+    "content/sections/zz64-hidersine-education-family.json": "b6227adb501482cedf06e70930d278814685a859937180ff573554eacd53ea92",
+    "content/sections/zzzz68-public-semantic-residual.json": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+    "content/sections/zzzz35-conductivity-final-model-bridges-a.json": "335bf1f3fbce17eb679b2eda273d10f375ebf9d958f2664e72c26226d4d860ae",
+    "content/sections/zzzz56-kawai-legacy-body-clarifications.json": "c05aa5e8e88ee99b4dd0b8a8bfa33d6d692b390ddd69de0af2cb83703640d50f",
+    "content/sections/100d-string-ensemble-landings.json": "711fa02e06ac8231e60af9f370d93f546c4ba319bfa7474f8557cb33b5d96405",
+    "content/sections/99a-traditional-voices.json": "728bb54625611a88ab0fc949b5fec2148c8c2effac05b216414d1ae562fbfb95",
+    "content/sections/zz62-russian-goronok-learning-ladder.json": "2a0dd4a130f871f145de04a2dedc2285a793854b633385ec2f58cc18ec4b45aa",
+    "content/sections/zz86-acoustic-piano-human-scenes.json": "8cb10fdeb8e5523ee378bbbe15737962d36235aece12f1237f6b6626563e441d",
+    "content/sections/zz109-historical-strings-human-scenes.json": "ca2292b11654c619d7731c4d1920aecdc0a3a427e3980ea8c5f24f74d341b43a",
+    "content/sections/99u-traditional-performance-landings.json": "02c9d1f8daf7627184ed6eaac736428838a458cce2bad51cdb17b5e7fabb7339",
+    "content/aliases.json": "8659be56ec917765c4fdd6a6798e9f483b760b92bf3d64987b3deec55e1e8b1d",
+    "content/legacy-metadata.json": "b745e2aad13bd371e8be5a0a25d2de4f2ea3888cca2e9efb163565c440efa12c",
+    "scripts/site_core.py": "63020f3adbf21715a6e67848135ae0bcc20effcb389886f60ab48f502ad3ca8d",
+    "scripts/link_audit.py": "ec909de57347072fd006feb8f086f905b2a7d92ee98d0548b5efa4262e9a8421",
+    "scripts/content_inventory.py": "9ba967d8ab89bb3ae36ccdda4e604972bf845c23dc22dc89a72ac73d18ce972d"
+  },
+  "inputs_changed_during_review": [],
+  "commands": [
+    "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/workspace/scratch/ccb7f80b4c57/python-deps:scripts python scripts/content_inventory.py --root . --output /workspace/scratch/ccb7f80b4c57/expansion-final-inventory.json",
+    "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/workspace/scratch/ccb7f80b4c57/python-deps:scripts python scripts/link_audit.py --root . --report /workspace/scratch/ccb7f80b4c57/expansion-final-link-audit.json",
+    "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/workspace/scratch/ccb7f80b4c57/python-deps:/workspace/scratch/ccb7f80b4c57/EasyMusicRent/scripts python /workspace/scratch/ccb7f80b4c57/expansion-final-structural-review.py"
+  ],
+  "initial_aggregate_false_positive": {
+    "initial_status": "needs_attention",
+    "initial_summary_sha256": "d11f997cf86442f2417a1ac7216418b2bea2bc7e8b06b909fa1f103400c9c3e0",
+    "initial_assert": "strict_outgoing_missing was incorrectly applied to all 79 new subjects, including hubs with children.",
+    "triggered_slugs": [
+      "mikshery-dlya-zhivogo-zvuka",
+      "radiomikrofony-dlya-vokala"
+    ],
+    "resolution": "Apply the agreed canon to terminal subjects: 1754/1754 terminal subjects have strict outgoing routes, including 1686 old and 68 new. The two nonterminal observations remain nonblocking.",
+    "content_changed_to_resolve": false,
+    "content_inventory_or_link_audit_rerun_to_resolve": false,
+    "underlying_metrics_changed": false
+  }
+}
