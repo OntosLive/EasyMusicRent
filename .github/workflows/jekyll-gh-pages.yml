@@ -54,3 +54,10 @@ jobs:
       - name: Deploy validated artifact
         id: deployment
         uses: actions/deploy-pages@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Notify Yandex about this site-wide update via IndexNow
+        continue-on-error: true
+        run: python scripts/submit_indexnow.py

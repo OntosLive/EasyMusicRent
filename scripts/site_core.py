@@ -289,7 +289,8 @@ def grid(items: list[dict], pages: dict[str, Page]) -> str:
             target = pages.get(url_slug(href))
             if target and len(label)>72:
                 label = target.search_title
-            return f'<a href="{escape(href, quote=True)}"><span style="{title_style(label)}">{escape(label)}</span></a>'
+            rendered_href = target.deep if target else href
+            return f'<a href="{escape(rendered_href, quote=True)}"><span style="{title_style(label)}">{escape(label)}</span></a>'
         return f'<span class="pending"><span style="{title_style(label)}">{escape(label)}</span></span>'
     if not items:
         return ''
@@ -369,6 +370,12 @@ def build(root: Path, output: Path) -> dict:
     (output/'assets').mkdir(exist_ok=True)
     shutil.copyfile(asset,output/'assets/canon.css')
     version = sha256(asset.read_bytes()).hexdigest()[:12]
+    indexnow_key_path = root/'content/indexnow-key.txt'
+    if indexnow_key_path.exists():
+        indexnow_key = indexnow_key_path.read_text(encoding='utf-8').strip()
+        if not re.fullmatch(r'[A-Za-z0-9-]{8,128}', indexnow_key):
+            raise ValueError('Invalid IndexNow key')
+        (output/f'{indexnow_key}.txt').write_text(indexnow_key+'\n', encoding='utf-8')
     for page in pages.values():
         if len(page.search_title)>120:
             raise ValueError(f'{page.slug}: search title is not a short request')
