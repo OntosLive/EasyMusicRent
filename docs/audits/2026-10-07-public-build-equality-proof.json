@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-07",
+  "local_build_commit": "8d869697a32b17193339c584bd6901423448f3c3",
+  "public_capture_report_sha256": "0c5a4dbaafeae812290787c0e91951f8a60f10d5f0c36eb9dff725102987afcd",
+  "all_captured_files_byte_equal_to_local_build": true,
+  "files": [
+    {
+      "relative_file": "index.html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/",
+      "status": 200,
+      "public_sha256": "b19fb68791efa9275e9f11ceab2df1b4bad090eccf69f915fa30a145e2f8aeb4",
+      "local_build_sha256": "b19fb68791efa9275e9f11ceab2df1b4bad090eccf69f915fa30a145e2f8aeb4",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "details/index.html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/",
+      "status": 200,
+      "public_sha256": "39e5bee9d4b1c4fa6ff31ae564ab256c540a770935b93cc0e387171dd74460b0",
+      "local_build_sha256": "39e5bee9d4b1c4fa6ff31ae564ab256c540a770935b93cc0e387171dd74460b0",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "details/kontsertina-dlya-ansamblya/index.html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/kontsertina-dlya-ansamblya/",
+      "status": 200,
+      "public_sha256": "cc58de555f554c7c4d38416cb93dd2dfa00c08bec9cbfe66e6c7d2e42c743d7d",
+      "local_build_sha256": "cc58de555f554c7c4d38416cb93dd2dfa00c08bec9cbfe66e6c7d2e42c743d7d",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "details/ukulele-koncert/index.html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/ukulele-koncert/",
+      "status": 200,
+      "public_sha256": "5ae686335c45ac60b987e13b352bcb7b5d45a1b9237e04d0dc344c1c8d3acc77",
+      "local_build_sha256": "5ae686335c45ac60b987e13b352bcb7b5d45a1b9237e04d0dc344c1c8d3acc77",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "details/gewa-maestro1-skripka-v-arendu/index.html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/gewa-maestro1-skripka-v-arendu/",
+      "status": 200,
+      "public_sha256": "208a17f07ff90c1cd19164bd05b95345bd68468d4490104c1327707ddcc2d660",
+      "local_build_sha256": "208a17f07ff90c1cd19164bd05b95345bd68468d4490104c1327707ddcc2d660",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "details/arcata-giovanni-v-arendu/index.html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/arcata-giovanni-v-arendu/",
+      "status": 200,
+      "public_sha256": "f25d6b95fa8a40a22d14c0c16118185cd98f61b53aa544d6437fc90ae4cc9ff8",
+      "local_build_sha256": "f25d6b95fa8a40a22d14c0c16118185cd98f61b53aa544d6437fc90ae4cc9ff8",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "robots.txt",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/robots.txt",
+      "status": 200,
+      "public_sha256": "e5a5a91705db83114cfa7564e979d0cd70baae71c1a6bba3f4c56f40b03331a7",
+      "local_build_sha256": "e5a5a91705db83114cfa7564e979d0cd70baae71c1a6bba3f4c56f40b03331a7",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "sitemap.xml",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/sitemap.xml",
+      "status": 200,
+      "public_sha256": "4e08cae6f958465a6685ca19ef99842d53608be72447fda5c1b3fc885b11ebc9",
+      "local_build_sha256": "4e08cae6f958465a6685ca19ef99842d53608be72447fda5c1b3fc885b11ebc9",
+      "byte_equal": true
+    },
+    {
+      "relative_file": "assets/canon.css",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/assets/canon.css?v=0b048bad40e4",
+      "status": 200,
+      "public_sha256": "0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54",
+      "local_build_sha256": "0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54",
+      "byte_equal": true
+    }
+  ],
+  "html_paths": 3888,
+  "html_paths_sha256": "48ff92aa46bbb3b765db5883ffd4b86fc85a63076b660633ee8590694abc0af7",
+  "all_html_paths_equal_confirmed_release": true,
+  "scope": "Six public HTML pages, observed shared CSS, robots.txt and sitemap.xml. Exact content equality is established for these captures, not for every public HTTP response."
+}

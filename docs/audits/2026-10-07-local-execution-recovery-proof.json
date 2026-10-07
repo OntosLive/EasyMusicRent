@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-07",
+  "old_local_head": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "comparison_content_commit": "dd6dbb9f6164b8e939b820643cf7223fde4ea669",
+  "target_remote_head": "8d869697a32b17193339c584bd6901423448f3c3",
+  "main_verified_from_api_and_fetch_head": true,
+  "local_files": 10,
+  "byte_equal_files": 9,
+  "comment_only_python_file": 1,
+  "all_content_and_executable_changes_already_published": true,
+  "files": [
+    {
+      "path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "old_status": " M",
+      "bytes": 46771,
+      "local_sha256": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+      "published_group06_sha256": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+      "byte_equal": true
+    },
+    {
+      "path": "content/sections/zz113-guitar-backline-human-scenes.json",
+      "old_status": " M",
+      "bytes": 44308,
+      "local_sha256": "7af1cfcd509048a10a1a8a5bcab13c8bd4aebafeaef44f6b412e5eeeb6f23c4e",
+      "published_group06_sha256": "7af1cfcd509048a10a1a8a5bcab13c8bd4aebafeaef44f6b412e5eeeb6f23c4e",
+      "byte_equal": true
+    },
+    {
+      "path": "content/sections/zz116-complete-backline-human-scenes.json",
+      "old_status": " M",
+      "bytes": 44239,
+      "local_sha256": "ad757c244faada8c5851294c92d4dbd092c1410de0ee571ed2c21152be8d2239",
+      "published_group06_sha256": "ad757c244faada8c5851294c92d4dbd092c1410de0ee571ed2c21152be8d2239",
+      "byte_equal": true
+    },
+    {
+      "path": "content/sections/zzzz13-conductivity-free-reed-bridges.json",
+      "old_status": " M",
+      "bytes": 4994,
+      "local_sha256": "f7561e4acb5b3b132d9815d472d197b32a381909a40f1dbfad0e3bdeed096f9c",
+      "published_group06_sha256": "f7561e4acb5b3b132d9815d472d197b32a381909a40f1dbfad0e3bdeed096f9c",
+      "byte_equal": true
+    },
+    {
+      "path": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+      "old_status": " M",
+      "bytes": 5562,
+      "local_sha256": "97a4b26d9733b538d5b45071a3d9cfdd89aa36258606f10e1f32b544948a53dd",
+      "published_group06_sha256": "97a4b26d9733b538d5b45071a3d9cfdd89aa36258606f10e1f32b544948a53dd",
+      "byte_equal": true
+    },
+    {
+      "path": "content/sections/zzzz27-conductivity-response-obstacle-bridges.json",
+      "old_status": " M",
+      "bytes": 5611,
+      "local_sha256": "5a29a20130d287698e8f4802f27ac46738b5947c3fe7bab2a93bf5bbd8bb6b72",
+      "published_group06_sha256": "5a29a20130d287698e8f4802f27ac46738b5947c3fe7bab2a93bf5bbd8bb6b72",
+      "byte_equal": true
+    },
+    {
+      "path": "content/sections/zzzz28-conductivity-range-obstacle-bridges.json",
+      "old_status": " M",
+      "bytes": 5654,
+      "local_sha256": "b21d87e738a961e1b3a5be46871ce41ca33c954da8fdddc0fd02151382d8e65d",
+      "published_group06_sha256": "b21d87e738a961e1b3a5be46871ce41ca33c954da8fdddc0fd02151382d8e65d",
+      "byte_equal": true
+    },
+    {
+      "path": "content/sections/zzzz35-conductivity-final-model-bridges-a.json",
+      "old_status": " M",
+      "bytes": 6419,
+      "local_sha256": "335bf1f3fbce17eb679b2eda273d10f375ebf9d958f2664e72c26226d4d860ae",
+      "published_group06_sha256": "335bf1f3fbce17eb679b2eda273d10f375ebf9d958f2664e72c26226d4d860ae",
+      "byte_equal": true
+    },
+    {
+      "path": "tests/test_recovery_landings.py",
+      "old_status": " M",
+      "bytes": 8566,
+      "local_sha256": "c996cec0e507900f9c03e07ecb2d273b73a432a0c41106926889fc11aadbe9c2",
+      "published_group06_sha256": "a1abf0e4be3a77f20006cdcd10e8e9e7c3202470b98753b59b4766f2fc9f6a71",
+      "byte_equal": false,
+      "ast_equal": true,
+      "only_difference": "The preserved local file has one extra explanatory comment: Later reviewed layers refine wording while retaining the two roles."
+    },
+    {
+      "path": "content/sections/zzzz66-public-language-06.json",
+      "old_status": "??",
+      "bytes": 214316,
+      "local_sha256": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923",
+      "published_group06_sha256": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923",
+      "byte_equal": true
+    }
+  ],
+  "preserved_stash_sha": "f6da4d29256b85d7b78a11b41ebe0ca12f6f7736",
+  "stash_created_before_synchronization": true,
+  "synchronized_head": "8d869697a32b17193339c584bd6901423448f3c3",
+  "working_tree_clean_after_synchronization": true,
+  "local_changes_discarded": false
+}

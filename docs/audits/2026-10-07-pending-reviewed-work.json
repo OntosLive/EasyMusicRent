@@ -1,6 +1,6 @@
 {
   "status": "all_prepared_approved_operations_integrated_and_release_confirmed",
-  "base_for_pending_work": "No remaining approved operation. The latest content release is confirmed; before new work confirm the current remote head and its own release through CURRENT-WORK-STATE.md.",
+  "base_for_pending_work": "The historical prepared queues are closed with zero remaining approved operations. Base 8d869697a32b17193339c584bd6901423448f3c3 has a successful release; the separate current wording follow-up below is pending its own release.",
   "navigation": {
     "frozen_candidate": "prepared-navigation/mixed-language-label-residual-candidate.json",
     "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
@@ -26,7 +26,12 @@
       "snapshot_sha256": "7c0d88348010de9369a6b7544d42ee86954fcc3fa9cf1084efa6dc8efd0c8302",
       "explicit_before_values_matched": 51,
       "supplemental_before_values_matched": 3,
-      "status": "completed before execution transport interruption; original final file not copied into repository"
+      "status": "original_final_file_recovered_and_verified_against_published_integration",
+      "original_file": "prepared-navigation/originals/mixed-language-label-residual-post06-reconciliation.json",
+      "original_sha256": "a41686210269231e59bbb2874fe9070dafcae6a6a8f4618ef5d61b9d0ffbdeaf",
+      "historical_status": "content_candidate06_reconciled_release06_not_yet_confirmed",
+      "recovery_proof": "2026-10-07-navigation-originals-recovered-proof.json",
+      "note": "The historical file is preserved verbatim; its old release gate does not reopen the already published navigation queue. All three recovered original paths and hashes are listed in prepared-language/manifest.json."
     },
     "supplemental": "prepared-navigation/residual-language-supplemental.json",
     "supplemental_pages": 2,
@@ -61,7 +66,16 @@
     "integration_record": "2026-10-07-semantic-residual-integration.json",
     "release_confirmation": "2026-10-07-semantic-residual-release-confirmation.json",
     "release_head_sha": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
-    "release_run_id": 37559271966
+    "release_run_id": 37559271966,
+    "recovered_originals": {
+      "status": "original_review_and_amendments_recovered_and_verified",
+      "review": "prepared-semantic/originals/post-language-semantic-review.json",
+      "review_sha256": "09867e6cda7df7b8a22cf2ac3217117238d535839117689d5c3e544d89d45a80",
+      "amendments": "prepared-semantic/originals/post-language-semantic-amendments.json",
+      "amendments_sha256": "6e45a1537652539ab619b0931c91788b7ad6c41fd94ff79b6beff04ea3dab2cc",
+      "proof": "2026-10-07-semantic-originals-recovered-proof.json",
+      "note": "The original 62 decision reasons and 25 operation reasons are now available. Original and recovered historical statuses remain unchanged; integrated counts stay 62 / 19 / 25."
+    }
   },
   "documentation": {
     "documents_read": 21,
@@ -75,7 +89,7 @@
     "audit": "2026-10-07-documentation-consistency.json"
   },
   "remaining_approved_operations": 0,
-  "scope_note": "These prepared queues are closed. This status does not assert universal factual verification, stock availability or completion of every future project task.",
+  "scope_note": "The historical prepared queues are closed with zero remaining approved operations. The separate current wording follow-up is tracked below and awaits its own release. This status does not assert universal factual verification, stock availability or completion of every future project task.",
   "latest_content_release": {
     "head_sha": "ceaf42b7d1ed10799d8469ec70e98d7d1ab8efe4",
     "run_id": 37559271966,
@@ -83,5 +97,26 @@
     "conclusion": "success",
     "confirmation": "2026-10-07-semantic-residual-release-confirmation.json"
   },
-  "recovery_checkpoint": "2026-10-07-project-recovery-checkpoint.md"
+  "recovery_checkpoint": "2026-10-07-project-recovery-checkpoint.md",
+  "current_recovery_audit": "2026-10-07-execution-and-public-recovery.md",
+  "verified_recovery_base": {
+    "head_sha": "8d869697a32b17193339c584bd6901423448f3c3",
+    "release_run_id": 37560698938,
+    "release_status": "success",
+    "local_runtime": "restored",
+    "captured_public_files_matching_base": 9,
+    "public_equality_proof": "2026-10-07-public-build-equality-proof.json"
+  },
+  "current_wording_followup": {
+    "status": "reviewed_local_overlay_pending_release",
+    "base_commit": "8d869697a32b17193339c584bd6901423448f3c3",
+    "slug": "gewa-maestro1-skripka-v-arendu",
+    "pages": 1,
+    "text_fields": 1,
+    "candidate": "content/sections/zzzz69-public-wording-precision.json",
+    "candidate_sha256": "8cc4089c03054fc58dba12a9fbc1189e85c8a8841996548c624bf5cfebf1d488",
+    "review_record": "2026-10-07-gewa-wording-precision.json",
+    "release_status": "pending",
+    "counting_note": "A separate subsequent wording correction; it does not change the closed semantic package counts of 62 reviewed pages, 19 enrich records and 25 operations."
+  }
 }

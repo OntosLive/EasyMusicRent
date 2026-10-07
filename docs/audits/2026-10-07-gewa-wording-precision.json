@@ -1,0 +1,38 @@
+{
+  "base_commit": "8d869697a32b17193339c584bd6901423448f3c3",
+  "discovery": "Full reading of the deployed GEWA Maestro 1 page during browser inspection; rg found one occurrence of поступательн across the complete compiled site.",
+  "slug": "gewa-maestro1-skripka-v-arendu",
+  "json_path": [
+    "blocks",
+    0,
+    "paragraphs",
+    0
+  ],
+  "before": "На конкурсной или поступательной программе сравнивают оттенки, верхний регистр и скорость реакции. Нужно проверить, помогает ли дополнительный отклик выполнять или осваивать задачи текущей программы.",
+  "after": "На конкурсной программе или программе для поступления сравнивают оттенки, верхний регистр и скорость реакции. Нужно проверить, помогает ли дополнительный отклик выполнять или осваивать задачи текущей программы.",
+  "reason": "Clarify that the programme is for admission; поступательная denotes progressive movement and does not express this intended event.",
+  "independent_reader": "project_history",
+  "independent_review": "clear after full page and current zzzz68 record reading",
+  "complete_field": "blocks",
+  "blocks_preserved": 3,
+  "text_leaves_changed": 1,
+  "other_subjects_expected_unchanged": 1900,
+  "preserved": [
+    "entry and editorial titles",
+    "description",
+    "kicker",
+    "intro",
+    "quote",
+    "source URLs",
+    "model facts and fractional sizes",
+    "parents",
+    "routes and labels",
+    "aliases",
+    "compiler",
+    "CSS",
+    "tests"
+  ],
+  "candidate": "content/sections/zzzz69-public-wording-precision.json",
+  "candidate_sha256": "8cc4089c03054fc58dba12a9fbc1189e85c8a8841996548c624bf5cfebf1d488",
+  "frozen_semantic_overlay_68_unchanged": true
+}

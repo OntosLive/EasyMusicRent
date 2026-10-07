@@ -1,0 +1,355 @@
+{
+  "status": "single_pass_public_http_capture_complete",
+  "started_at_utc": "2026-10-07T04:42:30.524361+00:00",
+  "finished_at_utc": "2026-10-07T04:42:54.468591+00:00",
+  "domain": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai",
+  "comparison_target_commit_reported_by_root": "8d869697a32b17193339c584bd6901423448f3c3",
+  "commit_identity_asserted_from_http": false,
+  "max_concurrency": 3,
+  "timeout_seconds_per_request": 15,
+  "retries": 0,
+  "exact_response_bytes_saved": true,
+  "repository_modified": false,
+  "browser_used": false,
+  "records": [
+    {
+      "role": "html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/",
+      "requested_at_utc": "2026-10-07T04:42:30.524375+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/",
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "3527",
+        "Date": "Wed, 07 Oct 2026 04:42:36 GMT",
+        "ETag": "\"6ac5aaa6-dc7\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 3527,
+      "sha256": "b19fb68791efa9275e9f11ceab2df1b4bad090eccf69f915fa30a145e2f8aeb4",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/index.html",
+      "relative_file": "index.html",
+      "h1": [
+        "Аренда музыкальных инструментов в Москве"
+      ],
+      "canonical": [
+        "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/"
+      ],
+      "robots": [],
+      "contact_hrefs": [
+        "tel:+79690532096",
+        "https://t.me/MUZPROKATMOSCOW",
+        "https://wa.me/79690532096"
+      ],
+      "stylesheet_hrefs": [
+        "/assets/canon.css?v=0b048bad40e4"
+      ],
+      "target_phrases": [],
+      "elapsed_seconds": 6.464
+    },
+    {
+      "role": "html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/",
+      "requested_at_utc": "2026-10-07T04:42:36.989943+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/",
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "6820",
+        "Date": "Wed, 07 Oct 2026 04:42:42 GMT",
+        "ETag": "\"6ac5aaa6-1aa4\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 6820,
+      "sha256": "39e5bee9d4b1c4fa6ff31ae564ab256c540a770935b93cc0e387171dd74460b0",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/details/index.html",
+      "relative_file": "details/index.html",
+      "h1": [
+        "Музыкальные инструменты"
+      ],
+      "canonical": [
+        "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/"
+      ],
+      "robots": [
+        "noindex,follow"
+      ],
+      "contact_hrefs": [
+        "tel:+79690532096",
+        "https://t.me/MUZPROKATMOSCOW",
+        "https://wa.me/79690532096"
+      ],
+      "stylesheet_hrefs": [
+        "/assets/canon.css?v=0b048bad40e4"
+      ],
+      "target_phrases": [],
+      "elapsed_seconds": 5.499
+    },
+    {
+      "role": "html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/kontsertina-dlya-ansamblya/",
+      "requested_at_utc": "2026-10-07T04:42:36.990641+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/kontsertina-dlya-ansamblya/",
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "6409",
+        "Date": "Wed, 07 Oct 2026 04:42:42 GMT",
+        "ETag": "\"6ac5aaa6-1909\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 6409,
+      "sha256": "cc58de555f554c7c4d38416cb93dd2dfa00c08bec9cbfe66e6c7d2e42c743d7d",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/details/kontsertina-dlya-ansamblya/index.html",
+      "relative_file": "details/kontsertina-dlya-ansamblya/index.html",
+      "h1": [
+        "Подобрать голос концертины без смены привычной раскладки"
+      ],
+      "canonical": [
+        "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/kontsertina-dlya-ansamblya/"
+      ],
+      "robots": [
+        "noindex,follow"
+      ],
+      "contact_hrefs": [
+        "tel:+79690532096",
+        "https://t.me/MUZPROKATMOSCOW",
+        "https://wa.me/79690532096"
+      ],
+      "stylesheet_hrefs": [
+        "/assets/canon.css?v=0b048bad40e4"
+      ],
+      "target_phrases": [
+        {
+          "text": "Подобрать голос концертины без смены привычной раскладки",
+          "found_in_html_text": true
+        },
+        {
+          "text": "Компактные корпуса разных концертин внешне похожи",
+          "found_in_html_text": true
+        }
+      ],
+      "elapsed_seconds": 5.547
+    },
+    {
+      "role": "html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/ukulele-koncert/",
+      "requested_at_utc": "2026-10-07T04:42:36.991353+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/ukulele-koncert/",
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "6434",
+        "Date": "Wed, 07 Oct 2026 04:42:42 GMT",
+        "ETag": "\"6ac5aaa6-1922\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 6434,
+      "sha256": "5ae686335c45ac60b987e13b352bcb7b5d45a1b9237e04d0dc344c1c8d3acc77",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/details/ukulele-koncert/index.html",
+      "relative_file": "details/ukulele-koncert/index.html",
+      "h1": [
+        "Концертная укулеле: больше пространства для привычных аккордов"
+      ],
+      "canonical": [
+        "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/ukulele-koncert/"
+      ],
+      "robots": [
+        "noindex,follow"
+      ],
+      "contact_hrefs": [
+        "tel:+79690532096",
+        "https://t.me/MUZPROKATMOSCOW",
+        "https://wa.me/79690532096"
+      ],
+      "stylesheet_hrefs": [
+        "/assets/canon.css?v=0b048bad40e4"
+      ],
+      "target_phrases": [
+        {
+          "text": "Концертная укулеле: больше пространства для привычных аккордов",
+          "found_in_html_text": true
+        }
+      ],
+      "elapsed_seconds": 5.638
+    },
+    {
+      "role": "html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/gewa-maestro1-skripka-v-arendu/",
+      "requested_at_utc": "2026-10-07T04:42:42.488543+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/gewa-maestro1-skripka-v-arendu/",
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "5632",
+        "Date": "Wed, 07 Oct 2026 04:42:48 GMT",
+        "ETag": "\"6ac5aaa6-1600\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 5632,
+      "sha256": "208a17f07ff90c1cd19164bd05b95345bd68468d4490104c1327707ddcc2d660",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/details/gewa-maestro1-skripka-v-arendu/index.html",
+      "relative_file": "details/gewa-maestro1-skripka-v-arendu/index.html",
+      "h1": [
+        "GEWA Maestro 1: серийная скрипка для продвинутого этапа, которая тоже существует в дробных размерах"
+      ],
+      "canonical": [
+        "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/gewa-maestro1-skripka-v-arendu/"
+      ],
+      "robots": [
+        "noindex,follow"
+      ],
+      "contact_hrefs": [
+        "tel:+79690532096",
+        "https://t.me/MUZPROKATMOSCOW",
+        "https://wa.me/79690532096"
+      ],
+      "stylesheet_hrefs": [
+        "/assets/canon.css?v=0b048bad40e4"
+      ],
+      "target_phrases": [
+        {
+          "text": "Дополнительный отклик Maestro проверяют на задачах текущей программы",
+          "found_in_html_text": true
+        }
+      ],
+      "elapsed_seconds": 5.674
+    },
+    {
+      "role": "html",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/arcata-giovanni-v-arendu/",
+      "requested_at_utc": "2026-10-07T04:42:42.538027+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/arcata-giovanni-v-arendu/",
+      "response_headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "6728",
+        "Date": "Wed, 07 Oct 2026 04:42:48 GMT",
+        "ETag": "\"6ac5aaa6-1a48\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 6728,
+      "sha256": "f25d6b95fa8a40a22d14c0c16118185cd98f61b53aa544d6437fc90ae4cc9ff8",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/details/arcata-giovanni-v-arendu/index.html",
+      "relative_file": "details/arcata-giovanni-v-arendu/index.html",
+      "h1": [
+        "Arcata Giovanni: российская студенческая скрипка как следующий шаг после базовой учебной серии"
+      ],
+      "canonical": [
+        "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/details/arcata-giovanni-v-arendu/"
+      ],
+      "robots": [
+        "noindex,follow"
+      ],
+      "contact_hrefs": [
+        "tel:+79690532096",
+        "https://t.me/MUZPROKATMOSCOW",
+        "https://wa.me/79690532096"
+      ],
+      "stylesheet_hrefs": [
+        "/assets/canon.css?v=0b048bad40e4"
+      ],
+      "target_phrases": [
+        {
+          "text": "которые ученику только предстоит освоить",
+          "found_in_html_text": true
+        }
+      ],
+      "elapsed_seconds": 5.715
+    },
+    {
+      "role": "text",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/robots.txt",
+      "requested_at_utc": "2026-10-07T04:42:42.628994+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/robots.txt",
+      "response_headers": {
+        "Content-Type": "text/plain; charset=utf-8",
+        "Content-Length": "103",
+        "Date": "Wed, 07 Oct 2026 04:42:48 GMT",
+        "ETag": "\"6ac5aaa6-67\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 103,
+      "sha256": "e5a5a91705db83114cfa7564e979d0cd70baae71c1a6bba3f4c56f40b03331a7",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/robots.txt",
+      "relative_file": "robots.txt",
+      "elapsed_seconds": 5.827
+    },
+    {
+      "role": "text",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/sitemap.xml",
+      "requested_at_utc": "2026-10-07T04:42:48.162530+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/sitemap.xml",
+      "response_headers": {
+        "Content-Type": "application/xml",
+        "Content-Length": "209990",
+        "Date": "Wed, 07 Oct 2026 04:42:54 GMT",
+        "ETag": "\"6ac5aaa6-33446\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 209990,
+      "sha256": "4e08cae6f958465a6685ca19ef99842d53608be72447fda5c1b3fc885b11ebc9",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/sitemap.xml",
+      "relative_file": "sitemap.xml",
+      "elapsed_seconds": 6.304
+    },
+    {
+      "role": "css",
+      "requested_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/assets/canon.css?v=0b048bad40e4",
+      "requested_at_utc": "2026-10-07T04:42:48.252788+00:00",
+      "timeout_seconds": 15,
+      "attempts": 1,
+      "status": 200,
+      "final_url": "https://xn-----6kcabnjhfrnvokgficcuyowyell3c0le3a.xn--p1ai/assets/canon.css?v=0b048bad40e4",
+      "observed_href_on_home": "/assets/canon.css?v=0b048bad40e4",
+      "response_headers": {
+        "Content-Type": "text/css; charset=utf-8",
+        "Content-Length": "7402",
+        "Date": "Wed, 07 Oct 2026 04:42:54 GMT",
+        "ETag": "\"6ac5aaa6-1cea\"",
+        "Last-Modified": "Wed, 07 Oct 2026 02:12:54 GMT",
+        "Cache-Control": "max-age=600"
+      },
+      "byte_count": 7402,
+      "sha256": "0b048bad40e448f643e67e5a5bd20e16872d1f8953f9e926e009aba2bd6e0b54",
+      "saved_file": "/workspace/scratch/ccb7f80b4c57/live-resume-check/assets/canon.css",
+      "relative_file": "assets/canon.css",
+      "elapsed_seconds": 6.192
+    }
+  ],
+  "counts": {
+    "requests": 9,
+    "http_200": 9,
+    "errors": 0,
+    "html_pages": 6,
+    "observed_css_files": 1,
+    "target_phrases_found": 5,
+    "target_phrases_checked": 5
+  },
+  "limitations": "HTTP responses establish observed public bytes and metadata at capture time. Their equality to commit8d must be verified by root against the local build; no commit marker is inferred from status200 or phrase presence."
+}

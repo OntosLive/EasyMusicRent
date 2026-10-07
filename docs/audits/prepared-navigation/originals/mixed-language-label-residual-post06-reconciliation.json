@@ -1,0 +1,4128 @@
+{
+  "status": "content_candidate06_reconciled_release06_not_yet_confirmed",
+  "outcome": "Приняты 51 точная операция подписей и 3 грамматических поля. Совпадение с компилированным кандидатом06 и текущими исходниками подтверждено. Дополнительных поправок нет. Выпуск06 этим отчётом не объявляется успешным.",
+  "reviewer": "/root/graph_audit",
+  "input_sha256": {
+    "corpus-after-language-06.json": "7c0d88348010de9369a6b7544d42ee86954fcc3fa9cf1084efa6dc8efd0c8302",
+    "mixed-language-label-residual-root-candidate.json": "3819a6f438a7e04bf3a53a5a9d893143b922a360c0864c198ade35c478f934d1",
+    "mixed-language-label-residual-candidate.json": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
+    "mixed-language-label-residual-review.json": "f63d60f759aecf288fe3a4b37893bca21595f299eb572ca6aff93dff43f605c8",
+    "residual-language-supplemental.json": "976d5dabc8315c914d7ee58f398b3085d46ada3339b19e0f50c8919e2ce0ad4a",
+    "mixed-language-label-residual-independent-review.json": "72486cdde4ee6343a031c414ab8f5a9b3a5ac3ddb79a6bd1a07d8ed7baa0d0af"
+  },
+  "source_repo_head_at_reconciliation": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+  "release06": {
+    "content_candidate_checked": true,
+    "suite_status_reported_by_root": "finishing_at_assignment",
+    "publication_success_confirmed": false,
+    "integration_gate": "Root must confirm successful release06 before applying package07."
+  },
+  "scope": {
+    "reused_full_context_reads": 74,
+    "reused_distinct_label_reviews": 633,
+    "reused_occurrence_source_checks": 1190,
+    "fresh_label_operations_checked": 51,
+    "fresh_supplemental_scalar_fields_checked": 3,
+    "fresh_automatic_children_checked": 36,
+    "fresh_concertina_incoming_links_checked": 4,
+    "new_full_reading_pass": false,
+    "content_public_drift_in_74_contexts": 0,
+    "provenance_only_drift_in_74_contexts": 11,
+    "source_files_for_selected_locators": 17
+  },
+  "root_derivative": {
+    "operation_delta": [
+      {
+        "json_path": [
+          31,
+          "after"
+        ],
+        "before": "Ogden: педальное натяжение струн без педалей",
+        "after": "Ogden: натяжение как у педальной арфы, без педалей"
+      }
+    ],
+    "metadata_delta": [
+      {
+        "json_path": [
+          "root_refinement"
+        ],
+        "before": null,
+        "after": {
+          "source": "mixed-language-label-residual-independent-review.json",
+          "amendments": [
+            {
+              "source_slug": "pedalnaya-arfa-pered-pokupkoy",
+              "target_slug": "lyon-healy-ogden-v-arendu",
+              "href": "/lyon-healy-ogden-v-arendu/",
+              "json_path": [
+                "operations",
+                31,
+                "after"
+              ],
+              "before": "Ogden: педальное натяжение струн без педалей",
+              "after": "Ogden: натяжение как у педальной арфы, без педалей",
+              "reason": "Точное сравнение натяжения при леверсной конструкции, без ложного чтения о создании натяжения педалью.",
+              "origin": "root_refinement",
+              "independent_decision": "accept",
+              "occurrences": 1,
+              "public_source_already_exists": true
+            }
+          ],
+          "original_candidate_sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747"
+        }
+      }
+    ],
+    "only_approved_ogden_after_and_provenance_changed": true
+  },
+  "specific_context_drift": [
+    {
+      "slug": "backline-dlya-festivalya",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz116-complete-backline-human-scenes.json",
+      "after": "content/sections/zz116-complete-backline-human-scenes.json + content/sections/zzzz66-public-language-06.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz116-complete-backline-human-scenes.json",
+      "after": "content/sections/zz116-complete-backline-human-scenes.json + content/sections/zzzz66-public-language-06.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz116-complete-backline-human-scenes.json",
+      "after": "content/sections/zz116-complete-backline-human-scenes.json + content/sections/zzzz66-public-language-06.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "after": "content/sections/zz94-electronic-drum-human-scenes.json + content/sections/zzzz66-public-language-06.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz122-teacher-change-routes.json",
+      "after": "content/sections/zz122-teacher-change-routes.json + content/sections/zzzz64-public-language-04.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "kontsertina-dlya-folk-proekta",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+      "after": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json + content/sections/zzzz64-public-language-04.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "lyon-healy-ogden-v-arendu",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "after": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json + content/sections/zzzz64-public-language-04.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "sintezator-dlya-saund-dizayna",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz87-synth-stage-human-scenes.json",
+      "after": "content/sections/zz87-synth-stage-human-scenes.json + content/sections/zzzz65-public-language-05.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "ukulele-koncert",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/99f-recorder-ukulele-voices.json",
+      "after": "content/sections/99f-recorder-ukulele-voices.json + content/sections/zzzz66-public-language-06.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "workstation-dlya-odnogo-muzykanta",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz87-synth-stage-human-scenes.json",
+      "after": "content/sections/zz87-synth-stage-human-scenes.json + content/sections/zzzz65-public-language-05.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    },
+    {
+      "slug": "workstation-po-rayderu",
+      "json_path": [
+        "provenance"
+      ],
+      "before": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "after": "content/sections/zz115-keyboard-rider-backline-human-scenes.json + content/sections/zzzz65-public-language-05.json",
+      "decision": "accept_compiled_enrich_provenance_only"
+    }
+  ],
+  "label_operations": [
+    {
+      "source_slug": "kahon-dlya-akusticheskogo-vystupleniya",
+      "target_slug": "backline-dlya-akusticheskogo-kontserta",
+      "href": "/backline-dlya-akusticheskogo-kontserta/",
+      "link_index": 0,
+      "before": "Backline для акустического концерта",
+      "after": "Бэклайн для акустического концерта",
+      "reason": "Ссылка продолжает камерный акустический комплект кахона; сохраняется различие между бэклайном, усилением и DI.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Поддержать песню ритмом без полной установки",
+      "target_editorial_title": "Акустический концерт: бэклайн должен уменьшить масштаб, а не исчезнуть полностью",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "kahon-dlya-akusticheskogo-vystupleniya",
+            0,
+            "label"
+          ],
+          "before": "Backline для акустического концерта",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 25,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "kahon-dlya-akusticheskogo-vystupleniya",
+          0,
+          "label"
+        ],
+        "before": "Backline для акустического концерта",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-akusticheskogo-kontserta/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "smychkovye-dlya-festivalya",
+      "target_slug": "backline-dlya-festivalya",
+      "href": "/backline-dlya-festivalya/",
+      "link_index": 1,
+      "before": "Backline для фестиваля",
+      "after": "Бэклайн для фестиваля",
+      "reason": "Временный общий парк фестиваля; перевод написания не меняет сцену и не обещает конкретный состав.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Фестиваль: много исполнителей, один понятный инструментальный контур",
+      "target_editorial_title": "Фестиваль: бэклайн должен пережить много артистов и не превратиться в археологию кабелей",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "smychkovye-dlya-festivalya",
+            1,
+            "label"
+          ],
+          "before": "Backline для фестиваля",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 26,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "smychkovye-dlya-festivalya",
+          1,
+          "label"
+        ],
+        "before": "Backline для фестиваля",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-festivalya/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "bas-gitara-dlya-gastroley",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "link_index": 0,
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура",
+      "reason": "Сохраняется задача воспроизвести согласованный инструментальный комплект по маршруту тура.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Приехать на концерт без собственного баса",
+      "target_editorial_title": "Туровый бэклайн: одинаковая функция должна возникать в каждом городе заново",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "bas-gitara-dlya-gastroley",
+            0,
+            "label"
+          ],
+          "before": "Backline для гастрольного тура",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 27,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "bas-gitara-dlya-gastroley",
+          0,
+          "label"
+        ],
+        "before": "Backline для гастрольного тура",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-gastrolnogo-tura/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "barabany-dlya-gastrolnogo-raydera",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "link_index": 0,
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура",
+      "reason": "Сохраняется задача воспроизвести согласованный инструментальный комплект по маршруту тура.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Принять согласованный комплект перед приездом группы",
+      "target_editorial_title": "Туровый бэклайн: одинаковая функция должна возникать в каждом городе заново",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "barabany-dlya-gastrolnogo-raydera",
+            0,
+            "label"
+          ],
+          "before": "Backline для гастрольного тура",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 27,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "barabany-dlya-gastrolnogo-raydera",
+          0,
+          "label"
+        ],
+        "before": "Backline для гастрольного тура",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-gastrolnogo-tura/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "tuba-dlya-gastroley",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "link_index": 0,
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура",
+      "reason": "Сохраняется задача воспроизвести согласованный инструментальный комплект по маршруту тура.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Приехать на программу без перевозки своей тубы",
+      "target_editorial_title": "Туровый бэклайн: одинаковая функция должна возникать в каждом городе заново",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "tuba-dlya-gastroley",
+            0,
+            "label"
+          ],
+          "before": "Backline для гастрольного тура",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 27,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "tuba-dlya-gastroley",
+          0,
+          "label"
+        ],
+        "before": "Backline для гастрольного тура",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-gastrolnogo-tura/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "akkordeon-dlya-gastroley",
+      "target_slug": "backline-dlya-gastrolnogo-tura",
+      "href": "/backline-dlya-gastrolnogo-tura/",
+      "link_index": 0,
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура",
+      "reason": "Сохраняется задача воспроизвести согласованный инструментальный комплект по маршруту тура.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Приехать на выступление и сохранить привычную программу",
+      "target_editorial_title": "Туровый бэклайн: одинаковая функция должна возникать в каждом городе заново",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "akkordeon-dlya-gastroley",
+            0,
+            "label"
+          ],
+          "before": "Backline для гастрольного тура",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 27,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "akkordeon-dlya-gastroley",
+          0,
+          "label"
+        ],
+        "before": "Backline для гастрольного тура",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-gastrolnogo-tura/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "barabannaya-ustanovka-dlya-kontserta",
+      "target_slug": "backline-dlya-pervogo-kontserta",
+      "href": "/backline-dlya-pervogo-kontserta/",
+      "link_index": 0,
+      "before": "Backline для первого концерта",
+      "after": "Бэклайн для первого концерта",
+      "reason": "Сохраняется подготовка всей сцены к первому концерту; английское общее название заменяется русским написанием.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Собрать установку к одному выступлению",
+      "target_editorial_title": "Первый концерт: собрать сцену так, чтобы музыканты продолжили играть, а не изучать оборудование",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "barabannaya-ustanovka-dlya-kontserta",
+            0,
+            "label"
+          ],
+          "before": "Backline для первого концерта",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 28,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "barabannaya-ustanovka-dlya-kontserta",
+          0,
+          "label"
+        ],
+        "before": "Backline для первого концерта",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-pervogo-kontserta/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "boss-rc-600-v-arendu",
+      "target_slug": "backline-dlya-pervogo-kontserta",
+      "href": "/backline-dlya-pervogo-kontserta/",
+      "link_index": 0,
+      "before": "Backline для первого концерта",
+      "after": "Бэклайн для первого концерта",
+      "reason": "Сохраняется подготовка всей сцены к первому концерту; английское общее название заменяется русским написанием.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "BOSS RC-600: управлять слоями, не отпуская инструмент",
+      "target_editorial_title": "Первый концерт: собрать сцену так, чтобы музыканты продолжили играть, а не изучать оборудование",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+          "json_path": [
+            "navigation",
+            "boss-rc-600-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Backline для первого концерта",
+          "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e"
+        }
+      ],
+      "candidate_id": 28,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+        "json_path": [
+          "navigation",
+          "boss-rc-600-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Backline для первого концерта",
+        "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "current_file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-pervogo-kontserta/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "barabany-dlya-gastrolnogo-raydera",
+      "target_slug": "backline-dlya-ritm-sektsii",
+      "href": "/backline-dlya-ritm-sektsii/",
+      "link_index": 1,
+      "before": "Backline для ритм-секции",
+      "after": "Бэклайн для ритм-секции",
+      "reason": "Цель про совместную работу барабанов и баса; краткое различие от полного концертного комплекта сохраняется.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Принять согласованный комплект перед приездом группы",
+      "target_editorial_title": "Ритм-секция: бас и барабаны должны сначала сцепиться физически, потом уже громко",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "barabany-dlya-gastrolnogo-raydera",
+            1,
+            "label"
+          ],
+          "before": "Backline для ритм-секции",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 29,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "barabany-dlya-gastrolnogo-raydera",
+          1,
+          "label"
+        ],
+        "before": "Backline для ритм-секции",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-ritm-sektsii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "roland-spd-sx-pro-v-arendu",
+      "target_slug": "backline-dlya-ritm-sektsii",
+      "href": "/backline-dlya-ritm-sektsii/",
+      "link_index": 0,
+      "before": "Backline для ритм-секции",
+      "after": "Бэклайн для ритм-секции",
+      "reason": "Цель про совместную работу барабанов и баса; краткое различие от полного концертного комплекта сохраняется.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Roland SPD-SX PRO: подготовить свои звуки под удар палочки",
+      "target_editorial_title": "Ритм-секция: бас и барабаны должны сначала сцепиться физически, потом уже громко",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+          "json_path": [
+            "navigation",
+            "roland-spd-sx-pro-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Backline для ритм-секции",
+          "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e"
+        }
+      ],
+      "candidate_id": 29,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+        "json_path": [
+          "navigation",
+          "roland-spd-sx-pro-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Backline для ритм-секции",
+        "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "current_file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/backline-dlya-ritm-sektsii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "gibson-sg-standard-v-arendu",
+      "target_slug": "elektrogitara-s-dvumya-hambakerami",
+      "href": "/elektrogitara-s-dvumya-hambakerami/",
+      "link_index": 0,
+      "before": "Два humbucker",
+      "after": "Два хамбакера",
+      "reason": "Обе страницы прямо описывают двуххамбакерную схему SG; исправляется смешанная форма «два humbucker», число датчиков сохраняется.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Gibson SG Standard: сыграть программу с привычным доступом к верхним ладам",
+      "target_editorial_title": "Два хамбакера: плотность без необходимости собирать её эффектами",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz17-conductivity-guitar-bass-model-bridges.json",
+          "json_path": [
+            "navigation",
+            "gibson-sg-standard-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Два humbucker",
+          "file_sha256": "aef1f6641fdf476a0942fbadb79a31a7e0726fe4089bd3fcc0cb3b0c1e01e9f8"
+        }
+      ],
+      "candidate_id": 124,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz17-conductivity-guitar-bass-model-bridges.json",
+        "json_path": [
+          "navigation",
+          "gibson-sg-standard-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Два humbucker",
+        "file_sha256": "aef1f6641fdf476a0942fbadb79a31a7e0726fe4089bd3fcc0cb3b0c1e01e9f8",
+        "current_file_sha256": "aef1f6641fdf476a0942fbadb79a31a7e0726fe4089bd3fcc0cb3b0c1e01e9f8",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/elektrogitara-s-dvumya-hambakerami/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "fender-player-ii-stratocaster-sss-v-arendu",
+      "target_slug": "elektrogitara-s-tremya-singlami",
+      "href": "/elektrogitara-s-tremya-singlami/",
+      "link_index": 0,
+      "before": "Три single-coil датчика",
+      "after": "Три сингла",
+      "reason": "Обе страницы различают три сингла SSS и версию HSS. Краткая подпись сохраняет число и тип звукоснимателей.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Player II Stratocaster SSS: проверить знакомый образ звука на своей партии",
+      "target_editorial_title": "Три сингла: пять положений как карта одной партии",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz17-conductivity-guitar-bass-model-bridges.json",
+          "json_path": [
+            "navigation",
+            "fender-player-ii-stratocaster-sss-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Три single-coil датчика",
+          "file_sha256": "aef1f6641fdf476a0942fbadb79a31a7e0726fe4089bd3fcc0cb3b0c1e01e9f8"
+        }
+      ],
+      "candidate_id": 127,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz17-conductivity-guitar-bass-model-bridges.json",
+        "json_path": [
+          "navigation",
+          "fender-player-ii-stratocaster-sss-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Три single-coil датчика",
+        "file_sha256": "aef1f6641fdf476a0942fbadb79a31a7e0726fe4089bd3fcc0cb3b0c1e01e9f8",
+        "current_file_sha256": "aef1f6641fdf476a0942fbadb79a31a7e0726fe4089bd3fcc0cb3b0c1e01e9f8",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/elektrogitara-s-tremya-singlami/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "roland-td17kvx2-v-arendu",
+      "target_slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "href": "/elektronnye-barabany-dlya-raboty-nad-hi-hatom/",
+      "link_index": 2,
+      "before": "Работа над hi-hat",
+      "after": "Работа над хай-хэтом",
+      "reason": "Переход из двух конкретных электронных комплектов к технике хай-хэта; названия моделей и различия VH-10/VH-14D остаются в текстах.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Roland TD-17KVX2: сохранить занятия между репетициями на акустической установке",
+      "target_editorial_title": "Хай-хэт: нога и палка должны менять один инструмент согласованно",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-td17kvx2-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Работа над hi-hat",
+          "file_sha256": "99f7ca6798eb965aace5e42c3ebe3b5da2a488f0f8b668d4264bff7fa64ec99f"
+        }
+      ],
+      "candidate_id": 128,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+        "json_path": [
+          "navigation",
+          "roland-td17kvx2-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Работа над hi-hat",
+        "file_sha256": "99f7ca6798eb965aace5e42c3ebe3b5da2a488f0f8b668d4264bff7fa64ec99f",
+        "current_file_sha256": "97a4b26d9733b538d5b45071a3d9cfdd89aa36258606f10e1f32b544948a53dd",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/elektronnye-barabany-dlya-raboty-nad-hi-hatom/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "roland-td27kv2-v-arendu",
+      "target_slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "href": "/elektronnye-barabany-dlya-raboty-nad-hi-hatom/",
+      "link_index": 1,
+      "before": "Работа над hi-hat",
+      "after": "Работа над хай-хэтом",
+      "reason": "Переход из двух конкретных электронных комплектов к технике хай-хэта; названия моделей и различия VH-10/VH-14D остаются в текстах.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Roland TD-27KV2: проверить нюансы привычной игры на электронном комплекте",
+      "target_editorial_title": "Хай-хэт: нога и палка должны менять один инструмент согласованно",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-td27kv2-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Работа над hi-hat",
+          "file_sha256": "99f7ca6798eb965aace5e42c3ebe3b5da2a488f0f8b668d4264bff7fa64ec99f"
+        }
+      ],
+      "candidate_id": 128,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz20-conductivity-backline-edrum-bridges.json",
+        "json_path": [
+          "navigation",
+          "roland-td27kv2-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Работа над hi-hat",
+        "file_sha256": "99f7ca6798eb965aace5e42c3ebe3b5da2a488f0f8b668d4264bff7fa64ec99f",
+        "current_file_sha256": "97a4b26d9733b538d5b45071a3d9cfdd89aa36258606f10e1f32b544948a53dd",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/elektronnye-barabany-dlya-raboty-nad-hi-hatom/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "instrument-smenit-sistemu-po-rekomendatsii",
+      "target_slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "link_index": 2,
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации",
+      "reason": "В цели переход обусловлен музыкальной возможностью и работой с преподавателем. Русская подпись не вводит обязательного повышения цены или статуса.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Новая система: поменять интерфейс только ради новой музыкальной функции",
+      "target_editorial_title": "Следующий уровень: новый инструмент должен открыть новую работу, а не просто новый ценник",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz22-conductivity-teacher-change-bridges.json",
+          "json_path": [
+            "navigation",
+            "instrument-smenit-sistemu-po-rekomendatsii",
+            0,
+            "label"
+          ],
+          "before": "Step-up по рекомендации",
+          "file_sha256": "05c31da2329ed3f541dc2200b6ff3c3c89c51d142e64d2c10b5dad7a8f00d740"
+        }
+      ],
+      "candidate_id": 225,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz22-conductivity-teacher-change-bridges.json",
+        "json_path": [
+          "navigation",
+          "instrument-smenit-sistemu-po-rekomendatsii",
+          0,
+          "label"
+        ],
+        "before": "Step-up по рекомендации",
+        "file_sha256": "05c31da2329ed3f541dc2200b6ff3c3c89c51d142e64d2c10b5dad7a8f00d740",
+        "current_file_sha256": "05c31da2329ed3f541dc2200b6ff3c3c89c51d142e64d2c10b5dad7a8f00d740",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrument-dlya-step-up-po-rekomendatsii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "instrument-dlya-postupleniya-v-konservatoriyu",
+      "target_slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "href": "/instrument-dlya-step-up-po-rekomendatsii/",
+      "link_index": 3,
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации",
+      "reason": "В цели переход обусловлен музыкальной возможностью и работой с преподавателем. Русская подпись не вводит обязательного повышения цены или статуса.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Поступление в консерваторию: временный инструмент должен решать профессиональную задачу, а не изображать статус",
+      "target_editorial_title": "Следующий уровень: новый инструмент должен открыть новую работу, а не просто новый ценник",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json",
+          "json_path": [
+            "navigation",
+            "instrument-dlya-postupleniya-v-konservatoriyu",
+            1,
+            "label"
+          ],
+          "before": "Step-up по рекомендации",
+          "file_sha256": "d3c28e884b0519ea45be2130e5355b70afa946eba8725215d31831d6f923fa77"
+        }
+      ],
+      "candidate_id": 225,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json",
+        "json_path": [
+          "navigation",
+          "instrument-dlya-postupleniya-v-konservatoriyu",
+          1,
+          "label"
+        ],
+        "before": "Step-up по рекомендации",
+        "file_sha256": "d3c28e884b0519ea45be2130e5355b70afa946eba8725215d31831d6f923fa77",
+        "current_file_sha256": "d3c28e884b0519ea45be2130e5355b70afa946eba8725215d31831d6f923fa77",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrument-dlya-step-up-po-rekomendatsii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "kontsertina-dlya-ansamblya",
+      "target_slug": "instrumenty-dlya-folk-gruppy",
+      "href": "/instrumenty-dlya-folk-gruppy/",
+      "link_index": 1,
+      "before": "Инструменты для folk-группы",
+      "after": "Инструменты для фолк-группы",
+      "reason": "Исходная концертина ведёт к полному составу фолк-проекта; сохраняется различие между инструментом и ансамблем.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Подобрать концертины голос без смены привычной раскладки",
+      "target_editorial_title": "Фолк-группа: акустические инструменты должны сохранять различие происхождения и функции",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "kontsertina-dlya-ansamblya",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для folk-группы",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 228,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "kontsertina-dlya-ansamblya",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для folk-группы",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-folk-gruppy/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "klavishnye-dlya-myuzikla",
+      "target_slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "href": "/instrumenty-dlya-myuziklovogo-pit-benda/",
+      "link_index": 0,
+      "before": "Инструменты для pit band мюзикла",
+      "after": "Инструменты для пит-бенда мюзикла",
+      "reason": "Цель посвящена пит-бенду и сменам инструментов внутри постановки; русское написание сохраняет более точный смысл, чем общее «оркестр».",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Пройти спектакль с заранее подготовленными переключениями",
+      "target_editorial_title": "Пит-бенд мюзикла: каждый музыкант может менять несколько инструментов, а сцена не должна это заметить",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "klavishnye-dlya-myuzikla",
+            0,
+            "label"
+          ],
+          "before": "Инструменты для pit band мюзикла",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 229,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "klavishnye-dlya-myuzikla",
+          0,
+          "label"
+        ],
+        "before": "Инструменты для pit band мюзикла",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-myuziklovogo-pit-benda/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "roland-spd-sx-pro-v-arendu",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии",
+      "reason": "Полная цель про одновременную игру группы, общий баланс и соседние микрофоны. Подпись отличает этот процесс от сольного запуска петель и от концерта.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Roland SPD-SX PRO: подготовить свои звуки под удар палочки",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+          "json_path": [
+            "navigation",
+            "roland-spd-sx-pro-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Live session в студии",
+          "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e"
+        }
+      ],
+      "candidate_id": 230,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+        "json_path": [
+          "navigation",
+          "roland-spd-sx-pro-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Live session в студии",
+        "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "current_file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "roland-sp-404mkii-v-arendu",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии",
+      "reason": "Полная цель про одновременную игру группы, общий баланс и соседние микрофоны. Подпись отличает этот процесс от сольного запуска петель и от концерта.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Roland SP-404MKII: превратить найденные звуки в свой материал",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+          "json_path": [
+            "navigation",
+            "roland-sp-404mkii-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Live session в студии",
+          "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e"
+        }
+      ],
+      "candidate_id": 230,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+        "json_path": [
+          "navigation",
+          "roland-sp-404mkii-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Live session в студии",
+        "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "current_file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "boss-rc-505mkii-v-arendu",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии",
+      "reason": "Полная цель про одновременную игру группы, общий баланс и соседние микрофоны. Подпись отличает этот процесс от сольного запуска петель и от концерта.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "BOSS RC-505mkII: управлять живыми петлями руками",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+          "json_path": [
+            "navigation",
+            "boss-rc-505mkii-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Live session в студии",
+          "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e"
+        }
+      ],
+      "candidate_id": 230,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+        "json_path": [
+          "navigation",
+          "boss-rc-505mkii-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Live session в студии",
+        "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "current_file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "boss-rc-600-v-arendu",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии",
+      "reason": "Полная цель про одновременную игру группы, общий баланс и соседние микрофоны. Подпись отличает этот процесс от сольного запуска петель и от концерта.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "BOSS RC-600: управлять слоями, не отпуская инструмент",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+          "json_path": [
+            "navigation",
+            "boss-rc-600-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Live session в студии",
+          "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e"
+        }
+      ],
+      "candidate_id": 230,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+        "json_path": [
+          "navigation",
+          "boss-rc-600-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Live session в студии",
+        "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "current_file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "dvenadtsatistrunnaya-gitara-dlya-zapisi",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии",
+      "reason": "Сохраняется переход от отдельной записываемой партии или сценического устройства к совместной записи состава; не обещается обязательный способ записи исходного инструмента.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Добавить двенадцать струн в одну песню",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "dvenadtsatistrunnaya-gitara-dlya-zapisi",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для live session в студии",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 231,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "dvenadtsatistrunnaya-gitara-dlya-zapisi",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для live session в студии",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "barabannaya-ustanovka-dlya-zapisi",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии",
+      "reason": "Сохраняется переход от отдельной записываемой партии или сценического устройства к совместной записи состава; не обещается обязательный способ записи исходного инструмента.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Подготовить живые барабаны к студийной сессии",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "barabannaya-ustanovka-dlya-zapisi",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для live session в студии",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 231,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "barabannaya-ustanovka-dlya-zapisi",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для live session в студии",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "vibrafon-dlya-dzhazovoy-zapisi",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии",
+      "reason": "Сохраняется переход от отдельной записываемой партии или сценического устройства к совместной записи состава; не обещается обязательный способ записи исходного инструмента.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Записать гармонию с управляемым продолжением звука",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "vibrafon-dlya-dzhazovoy-zapisi",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для live session в студии",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 231,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "vibrafon-dlya-dzhazovoy-zapisi",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для live session в студии",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "sempler-dlya-teatralnyh-effektov",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии",
+      "reason": "Сохраняется переход от отдельной записываемой партии или сценического устройства к совместной записи состава; не обещается обязательный способ записи исходного инструмента.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Запускать звук по живому действию на сцене",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "sempler-dlya-teatralnyh-effektov",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для live session в студии",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 231,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "sempler-dlya-teatralnyh-effektov",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для live session в студии",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "lup-stantsiya-dlya-vokala",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии",
+      "reason": "Сохраняется переход от отдельной записываемой партии или сценического устройства к совместной записи состава; не обещается обязательный способ записи исходного инструмента.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Построить несколько голосов во время одного выступления",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "lup-stantsiya-dlya-vokala",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для live session в студии",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 231,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "lup-stantsiya-dlya-vokala",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для live session в студии",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "chelesta-dlya-zapisi-muzyki-k-filmu",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии",
+      "reason": "Сохраняется переход от отдельной записываемой партии или сценического устройства к совместной записи состава; не обещается обязательный способ записи исходного инструмента.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Записать живую челесту для определённого эпизода",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "chelesta-dlya-zapisi-muzyki-k-filmu",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для live session в студии",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 231,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "chelesta-dlya-zapisi-muzyki-k-filmu",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для live session в студии",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "flyugelgorn-dlya-zapisi",
+      "target_slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "href": "/instrumenty-dlya-studiynoy-live-sessii/",
+      "link_index": 1,
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии",
+      "reason": "Сохраняется переход от отдельной записываемой партии или сценического устройства к совместной записи состава; не обещается обязательный способ записи исходного инструмента.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Добавить мягкий медный голос в одну композицию",
+      "target_editorial_title": "Живая студийная запись: вся группа должна звучать одновременно, а запись — оставаться управляемой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+          "json_path": [
+            "navigation",
+            "flyugelgorn-dlya-zapisi",
+            1,
+            "label"
+          ],
+          "before": "Инструменты для live session в студии",
+          "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b"
+        }
+      ],
+      "candidate_id": 231,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz37-conductivity-task-leaves-a.json",
+        "json_path": [
+          "navigation",
+          "flyugelgorn-dlya-zapisi",
+          1,
+          "label"
+        ],
+        "before": "Инструменты для live session в студии",
+        "file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "current_file_sha256": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-studiynoy-live-sessii/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "bandoneon-dlya-tango-proekta",
+      "target_slug": "instrumenty-dlya-tango-kvarteta",
+      "href": "/instrumenty-dlya-tango-kvarteta/",
+      "link_index": 0,
+      "before": "Инструменты для tango-квартета",
+      "after": "Инструменты для танго-квартета",
+      "reason": "Сохраняется конкретный квартет вокруг системы бандонеона и остальные три инструментальные роли.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Собрать танго-программу вокруг точной системы инструмента",
+      "target_editorial_title": "Танго-квартет: бандонеон должен быть системой, а не просто тембром",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "bandoneon-dlya-tango-proekta",
+            0,
+            "label"
+          ],
+          "before": "Инструменты для tango-квартета",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 232,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "bandoneon-dlya-tango-proekta",
+          0,
+          "label"
+        ],
+        "before": "Инструменты для tango-квартета",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/instrumenty-dlya-tango-kvarteta/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "kontsertina-dlya-ansamblya",
+      "target_slug": "kontsertina-dlya-folk-proekta",
+      "href": "/kontsertina-dlya-folk-proekta/",
+      "link_index": 0,
+      "before": "Концертина для folk-проекта",
+      "after": "Концертина для фолк-проекта",
+      "reason": "Ссылка остаётся предметным сценарием концертины рядом с отдельной ссылкой на полный фолк-состав.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Подобрать концертины голос без смены привычной раскладки",
+      "target_editorial_title": "Концертина в фолк-проекте: система должна соответствовать реальной манере игры",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "kontsertina-dlya-ansamblya",
+            0,
+            "label"
+          ],
+          "before": "Концертина для folk-проекта",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 273,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "kontsertina-dlya-ansamblya",
+          0,
+          "label"
+        ],
+        "before": "Концертина для folk-проекта",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/kontsertina-dlya-folk-proekta/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "pedalnaya-arfa-pered-pokupkoy",
+      "target_slug": "lyon-healy-ogden-v-arendu",
+      "href": "/lyon-healy-ogden-v-arendu/",
+      "link_index": 2,
+      "before": "Ogden: pedal tension без педалей",
+      "after": "Ogden: натяжение как у педальной арфы, без педалей",
+      "reason": "Сохраняются имя модели и ключевое различие: леверсная арфа даёт педальное натяжение струн, но не саму педальную координацию. Уточнение «струн» берётся из прочитанного контекста.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Проверить переход к педальной арфе в собственной практике",
+      "target_editorial_title": "Lyon & Healy Ogden: 34 струны с педальным натяжением как мост к педальной арфе",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/99n-harp-bellows-landings.json",
+          "json_path": [
+            "pages",
+            0,
+            "links",
+            2,
+            "label"
+          ],
+          "before": "Ogden: pedal tension без педалей",
+          "file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac"
+        }
+      ],
+      "candidate_id": 293,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/99n-harp-bellows-landings.json",
+        "json_path": [
+          "pages",
+          0,
+          "links",
+          2,
+          "label"
+        ],
+        "before": "Ogden: pedal tension без педалей",
+        "file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac",
+        "current_file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/lyon-healy-ogden-v-arendu/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "radial-jdi-v-arendu",
+      "target_slug": "passivnyy-di-boks-dlya-pervogo-opyta",
+      "href": "/passivnyy-di-boks-dlya-pervogo-opyta/",
+      "link_index": 0,
+      "before": "Первый passive DI",
+      "after": "Первый пассивный DI-бокс",
+      "reason": "JDI и цель явно различают пассивный DI и активный предусилитель. DI сохраняется, переводится только passive и называется сам прибор.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Radial JDI: пассивная развязка между инструментом и пультом",
+      "target_editorial_title": "Первый пассивный DI: понять функцию между инструментом и пультом без лишних настроек",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+          "json_path": [
+            "navigation",
+            "radial-jdi-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Первый passive DI",
+          "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e"
+        }
+      ],
+      "candidate_id": 342,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz36-conductivity-final-model-bridges-b.json",
+        "json_path": [
+          "navigation",
+          "radial-jdi-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Первый passive DI",
+        "file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "current_file_sha256": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/passivnyy-di-boks-dlya-pervogo-opyta/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "sintezator-dlya-pedov",
+      "target_slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/",
+      "link_index": 1,
+      "before": "Сценические клавишные для слоя piano и pad",
+      "after": "Сценические клавишные: фортепиано и подкладка",
+      "reason": "В цели piano означает фортепианный тембр, pad — фоновую подкладку. Подпись сохраняет сочетание двух управляемых слоёв и не путает pad с ударным пэдом.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Пэды: построить пространство, которое не закрывает музыку",
+      "target_editorial_title": "Фортепиано + подкладка: два слоя должны меняться одной музыкальной динамикой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+          "json_path": [
+            "navigation",
+            "sintezator-dlya-pedov",
+            1,
+            "label"
+          ],
+          "before": "Сценические клавишные для слоя piano и pad",
+          "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2"
+        }
+      ],
+      "candidate_id": 399,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz38-conductivity-task-leaves-b.json",
+        "json_path": [
+          "navigation",
+          "sintezator-dlya-pedov",
+          1,
+          "label"
+        ],
+        "before": "Сценические клавишные для слоя piano и pad",
+        "file_sha256": "01437cf30f5099047d4781626f62633bf89c1c53cf68185d6fca6801161532d2",
+        "current_file_sha256": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/scenicheskie-klavishnye-dlya-sloya-piano-i-pad/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "arturia-microfreak-v-arendu",
+      "target_slug": "sintezator-dlya-saund-dizayna",
+      "href": "/sintezator-dlya-saund-dizayna/",
+      "link_index": 0,
+      "before": "Синтезатор для sound design",
+      "after": "Синтезатор для саунд-дизайна",
+      "reason": "Сохраняется исследование, сохранение и повторение тембра; модель MicroFreak и её исполнительские ограничения не меняются.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Arturia MicroFreak: понять непривычную клавиатуру через музыку",
+      "target_editorial_title": "Саунд-дизайн: тембр должен становиться воспроизводимым объектом, а не случайной находкой",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+          "json_path": [
+            "navigation",
+            "arturia-microfreak-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Синтезатор для sound design",
+          "file_sha256": "7a6d85069c8d55d7c05fbfdbbae28a99230debb75dfc590db9457b1460ea82db"
+        }
+      ],
+      "candidate_id": 407,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz32-conductivity-remaining-model-bridges.json",
+        "json_path": [
+          "navigation",
+          "arturia-microfreak-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Синтезатор для sound design",
+        "file_sha256": "7a6d85069c8d55d7c05fbfdbbae28a99230debb75dfc590db9457b1460ea82db",
+        "current_file_sha256": "dd5b07e039c3be26fa2d9c144c3bb37ecccf124be7658c615a5d0e658210b32d",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/sintezator-dlya-saund-dizayna/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "klavishnye-s-pedalyami-po-rayderu",
+      "target_slug": "stage-piano-po-rayderu",
+      "href": "/stage-piano-po-rayderu/",
+      "link_index": 0,
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру",
+      "reason": "Цель про механику, педали и сценические выходы пианино. Она остаётся отличимой от рабочей станции и полного клавишного проекта.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Педали в клавишном райдере: маленькая строка, которая может сломать всю механику фразы",
+      "target_editorial_title": "Сценическое пианино по райдеру: сохранить фортепианную механику и сценические выходы",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+          "json_path": [
+            "pages",
+            6,
+            "links",
+            0,
+            "label"
+          ],
+          "before": "Stage piano по райдеру",
+          "file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2"
+        }
+      ],
+      "candidate_id": 442,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+        "json_path": [
+          "pages",
+          6,
+          "links",
+          0,
+          "label"
+        ],
+        "before": "Stage piano по райдеру",
+        "file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2",
+        "current_file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/stage-piano-po-rayderu/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "target_slug": "stage-piano-po-rayderu",
+      "href": "/stage-piano-po-rayderu/",
+      "link_index": 0,
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру",
+      "reason": "Цель про механику, педали и сценические выходы пианино. Она остаётся отличимой от рабочей станции и полного клавишного проекта.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Две клавиатуры: разделить роли так, чтобы руки не переключали весь концерт одной кнопкой",
+      "target_editorial_title": "Сценическое пианино по райдеру: сохранить фортепианную механику и сценические выходы",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+          "json_path": [
+            "pages",
+            10,
+            "links",
+            0,
+            "label"
+          ],
+          "before": "Stage piano по райдеру",
+          "file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2"
+        }
+      ],
+      "candidate_id": 442,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+        "json_path": [
+          "pages",
+          10,
+          "links",
+          0,
+          "label"
+        ],
+        "before": "Stage piano по райдеру",
+        "file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2",
+        "current_file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/stage-piano-po-rayderu/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "yamaha-cp88-v-arendu",
+      "target_slug": "stage-piano-po-rayderu",
+      "href": "/stage-piano-po-rayderu/",
+      "link_index": 0,
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру",
+      "reason": "Цель про механику, педали и сценические выходы пианино. Она остаётся отличимой от рабочей станции и полного клавишного проекта.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Yamaha CP88: сценическое пианино для райдера, где важна фортепианная клавиатура",
+      "target_editorial_title": "Сценическое пианино по райдеру: сохранить фортепианную механику и сценические выходы",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "yamaha-cp88-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Stage piano по райдеру",
+          "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04"
+        }
+      ],
+      "candidate_id": 442,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+        "json_path": [
+          "navigation",
+          "yamaha-cp88-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Stage piano по райдеру",
+        "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04",
+        "current_file_sha256": "f6e007efd2bddca8802ce1fbb4e7169b4deac651e9d27783f5ed3c35bba54c1d",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/stage-piano-po-rayderu/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "roland-rd88ex-v-arendu",
+      "target_slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+      "link_index": 0,
+      "before": "Stage piano перед покупкой",
+      "after": "Сценическое пианино перед покупкой",
+      "reason": "Сохраняется проба в концертном режиме перед покупкой; к остальным сценариям аренды обязательная покупка не добавляется.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Roland RD-88 EX: сохранить фортепианное движение в выездной программе",
+      "target_editorial_title": "Перед покупкой сценического пианино: проверить его не дома, а в полном концертном режиме",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "roland-rd88ex-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Stage piano перед покупкой",
+          "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04"
+        }
+      ],
+      "candidate_id": 443,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+        "json_path": [
+          "navigation",
+          "roland-rd88ex-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Stage piano перед покупкой",
+        "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04",
+        "current_file_sha256": "f6e007efd2bddca8802ce1fbb4e7169b4deac651e9d27783f5ed3c35bba54c1d",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "korg-sv2-v-arendu",
+      "target_slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+      "link_index": 1,
+      "before": "Stage piano перед покупкой",
+      "after": "Сценическое пианино перед покупкой",
+      "reason": "Сохраняется проба в концертном режиме перед покупкой; к остальным сценариям аренды обязательная покупка не добавляется.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Korg SV-2: собрать нужную клавишную краску для одной программы",
+      "target_editorial_title": "Перед покупкой сценического пианино: проверить его не дома, а в полном концертном режиме",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "korg-sv2-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Stage piano перед покупкой",
+          "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04"
+        }
+      ],
+      "candidate_id": 443,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+        "json_path": [
+          "navigation",
+          "korg-sv2-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Stage piano перед покупкой",
+        "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04",
+        "current_file_sha256": "f6e007efd2bddca8802ce1fbb4e7169b4deac651e9d27783f5ed3c35bba54c1d",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "yamaha-cp88-v-arendu",
+      "target_slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+      "link_index": 1,
+      "before": "Stage piano перед покупкой",
+      "after": "Сценическое пианино перед покупкой",
+      "reason": "Сохраняется проба в концертном режиме перед покупкой; к остальным сценариям аренды обязательная покупка не добавляется.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Yamaha CP88: сценическое пианино для райдера, где важна фортепианная клавиатура",
+      "target_editorial_title": "Перед покупкой сценического пианино: проверить его не дома, а в полном концертном режиме",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "yamaha-cp88-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Stage piano перед покупкой",
+          "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04"
+        }
+      ],
+      "candidate_id": 443,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+        "json_path": [
+          "navigation",
+          "yamaha-cp88-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Stage piano перед покупкой",
+        "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04",
+        "current_file_sha256": "f6e007efd2bddca8802ce1fbb4e7169b4deac651e9d27783f5ed3c35bba54c1d",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/stage-piano-v-kontsertnom-rezhime-pered-pokupkoy/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "instrumenty-dlya-ansamblya-ukulele",
+      "target_slug": "ukulele-bariton",
+      "href": "/ukulele-bariton/",
+      "link_index": 1,
+      "before": "Укулеле baritone",
+      "after": "Укулеле-баритон",
+      "reason": "Сохраняется название голоса/размера, а точный строй баритона отдельно раскрыт в цели. Не вводится лестница качества размеров.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Ансамбль укулеле: одинаковая простота должна уступить место разным функциям",
+      "target_editorial_title": "Укулеле-баритон: знакомые ноты в небольшом аккомпанементе",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+          "json_path": [
+            "pages",
+            7,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Укулеле baritone",
+          "file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571"
+        }
+      ],
+      "candidate_id": 468,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+        "json_path": [
+          "pages",
+          7,
+          "links",
+          1,
+          "label"
+        ],
+        "before": "Укулеле baritone",
+        "file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571",
+        "current_file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/ukulele-bariton/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "instrumenty-dlya-ansamblya-gitar-i-ukulele",
+      "target_slug": "ukulele-bariton",
+      "href": "/ukulele-bariton/",
+      "link_index": 2,
+      "before": "Укулеле baritone",
+      "after": "Укулеле-баритон",
+      "reason": "Сохраняется название голоса/размера, а точный строй баритона отдельно раскрыт в цели. Не вводится лестница качества размеров.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Гитары и укулеле: два щипковых масштаба должны распределить роли, а не дублировать аккорды",
+      "target_editorial_title": "Укулеле-баритон: знакомые ноты в небольшом аккомпанементе",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+          "json_path": [
+            "pages",
+            9,
+            "links",
+            2,
+            "label"
+          ],
+          "before": "Укулеле baritone",
+          "file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571"
+        }
+      ],
+      "candidate_id": 468,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+        "json_path": [
+          "pages",
+          9,
+          "links",
+          2,
+          "label"
+        ],
+        "before": "Укулеле baritone",
+        "file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571",
+        "current_file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/ukulele-bariton/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "ukulele",
+      "target_slug": "ukulele-koncert",
+      "href": "/ukulele-koncert/",
+      "link_index": 2,
+      "before": "Concert",
+      "after": "Концертный размер",
+      "reason": "Короткая карточка общего семейства обозначает размер укулеле, а не выступление или профессиональный класс; это явно разграничено в цели.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Укулеле: размер, строй и первая песня",
+      "target_editorial_title": "Концертная укулеле: больше пространства для привычных аккордов",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/99f-recorder-ukulele-voices.json",
+          "json_path": [
+            "navigation",
+            "ukulele",
+            1,
+            "label"
+          ],
+          "before": "Concert",
+          "file_sha256": "7ac118a94ec6b6437d9be741961a5f66d8984238675308721d26f73aa4347f1d"
+        }
+      ],
+      "candidate_id": 469,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/99f-recorder-ukulele-voices.json",
+        "json_path": [
+          "navigation",
+          "ukulele",
+          1,
+          "label"
+        ],
+        "before": "Concert",
+        "file_sha256": "7ac118a94ec6b6437d9be741961a5f66d8984238675308721d26f73aa4347f1d",
+        "current_file_sha256": "7ac118a94ec6b6437d9be741961a5f66d8984238675308721d26f73aa4347f1d",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/ukulele-koncert/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "ukulele-dlya-letney-praktiki",
+      "target_slug": "ukulele-koncert",
+      "href": "/ukulele-koncert/",
+      "link_index": 1,
+      "before": "Укулеле-concert",
+      "after": "Концертная укулеле",
+      "reason": "Для летней практики сохраняется отдельный размер рядом с сопрано; наличие электроники и пригодность конкретному исполнителю не подразумеваются.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Летняя практика: маленький инструмент может сохранить музыкальный ритм между большими проектами",
+      "target_editorial_title": "Концертная укулеле: больше пространства для привычных аккордов",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "json_path": [
+            "pages",
+            6,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Укулеле-concert",
+          "file_sha256": "bbabc92dd8c3ff8b661de390f03363f7c407665115af7b30dc3685ba7db0a10d"
+        }
+      ],
+      "candidate_id": 470,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "json_path": [
+          "pages",
+          6,
+          "links",
+          1,
+          "label"
+        ],
+        "before": "Укулеле-concert",
+        "file_sha256": "bbabc92dd8c3ff8b661de390f03363f7c407665115af7b30dc3685ba7db0a10d",
+        "current_file_sha256": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/ukulele-koncert/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "ukulele-dlya-letney-praktiki",
+      "target_slug": "ukulele-soprano",
+      "href": "/ukulele-soprano/",
+      "link_index": 0,
+      "before": "Укулеле-soprano",
+      "after": "Укулеле-сопрано",
+      "reason": "Сохраняется размер, который предлагается проверить до поездки, рядом с концертным вариантом.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Летняя практика: маленький инструмент может сохранить музыкальный ритм между большими проектами",
+      "target_editorial_title": "Укулеле-сопрано: компактность, которую стоит попробовать",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+          "json_path": [
+            "pages",
+            6,
+            "links",
+            0,
+            "label"
+          ],
+          "before": "Укулеле-soprano",
+          "file_sha256": "bbabc92dd8c3ff8b661de390f03363f7c407665115af7b30dc3685ba7db0a10d"
+        }
+      ],
+      "candidate_id": 471,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "json_path": [
+          "pages",
+          6,
+          "links",
+          0,
+          "label"
+        ],
+        "before": "Укулеле-soprano",
+        "file_sha256": "bbabc92dd8c3ff8b661de390f03363f7c407665115af7b30dc3685ba7db0a10d",
+        "current_file_sha256": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/ukulele-soprano/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "instrumenty-dlya-ansamblya-ukulele",
+      "target_slug": "ukulele-tenor",
+      "href": "/ukulele-tenor/",
+      "link_index": 2,
+      "before": "Укулеле tenor",
+      "after": "Укулеле-тенор",
+      "reason": "Сохраняется отдельный вариант для распределения ансамблевых ролей без автоматического назначения строя или класса.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Ансамбль укулеле: одинаковая простота должна уступить место разным функциям",
+      "target_editorial_title": "Укулеле-тенор: место для мелодии и аккордов",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+          "json_path": [
+            "pages",
+            7,
+            "links",
+            2,
+            "label"
+          ],
+          "before": "Укулеле tenor",
+          "file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571"
+        }
+      ],
+      "candidate_id": 472,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+        "json_path": [
+          "pages",
+          7,
+          "links",
+          2,
+          "label"
+        ],
+        "before": "Укулеле tenor",
+        "file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571",
+        "current_file_sha256": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/ukulele-tenor/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "target_slug": "usiliteli-backline",
+      "href": "/usiliteli-backline/",
+      "link_index": 2,
+      "before": "Backline",
+      "after": "Бэклайн",
+      "reason": "Из пит-бенда ссылка ведёт к инструментальному сценическому комплекту и усилительным цепочкам; заменяется только написание общего слова.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Пит-бенд мюзикла: каждый музыкант может менять несколько инструментов, а сцена не должна это заметить",
+      "target_editorial_title": "Усилители и бэклайн",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+          "json_path": [
+            "pages",
+            6,
+            "links",
+            2,
+            "label"
+          ],
+          "before": "Backline",
+          "file_sha256": "f156fc7a65a1ff6a34f1d7bd000ab7e5e48ea28e5fcd648af9a0665dddcfef03"
+        }
+      ],
+      "candidate_id": 475,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "json_path": [
+          "pages",
+          6,
+          "links",
+          2,
+          "label"
+        ],
+        "before": "Backline",
+        "file_sha256": "f156fc7a65a1ff6a34f1d7bd000ab7e5e48ea28e5fcd648af9a0665dddcfef03",
+        "current_file_sha256": "f156fc7a65a1ff6a34f1d7bd000ab7e5e48ea28e5fcd648af9a0665dddcfef03",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/usiliteli-backline/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "yamaha-motif-xf8-v-arendu",
+      "target_slug": "workstation-dlya-odnogo-muzykanta",
+      "href": "/workstation-dlya-odnogo-muzykanta/",
+      "link_index": 0,
+      "before": "Workstation для одного музыканта",
+      "after": "Клавишная рабочая станция для одного музыканта",
+      "reason": "Motif XF8 ведёт к сценарию нескольких ролей одного исполнителя. «Клавишная» отличает музыкальный инструмент от компьютера.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Yamaha Motif XF8: старый флагман, который райдеры до сих пор не забыли",
+      "target_editorial_title": "Один музыкант: рабочая станция должна собрать несколько ролей без превращения в диспетчерскую",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "yamaha-motif-xf8-v-arendu",
+            0,
+            "label"
+          ],
+          "before": "Workstation для одного музыканта",
+          "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04"
+        }
+      ],
+      "candidate_id": 502,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+        "json_path": [
+          "navigation",
+          "yamaha-motif-xf8-v-arendu",
+          0,
+          "label"
+        ],
+        "before": "Workstation для одного музыканта",
+        "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04",
+        "current_file_sha256": "f6e007efd2bddca8802ce1fbb4e7169b4deac651e9d27783f5ed3c35bba54c1d",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/workstation-dlya-odnogo-muzykanta/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "target_slug": "workstation-po-rayderu",
+      "href": "/workstation-po-rayderu/",
+      "link_index": 1,
+      "before": "Workstation по райдеру",
+      "after": "Клавишная рабочая станция по райдеру",
+      "reason": "Сохраняется загрузка подготовленного клавишного проекта, семплов, зон и последовательностей; это отдельная задача рядом со сценическим пианино.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Две клавиатуры: разделить роли так, чтобы руки не переключали весь концерт одной кнопкой",
+      "target_editorial_title": "Рабочая станция по райдеру: восстановить не клавиатуру, а весь подготовленный концертный проект",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+          "json_path": [
+            "pages",
+            10,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Workstation по райдеру",
+          "file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2"
+        }
+      ],
+      "candidate_id": 503,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+        "json_path": [
+          "pages",
+          10,
+          "links",
+          1,
+          "label"
+        ],
+        "before": "Workstation по райдеру",
+        "file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2",
+        "current_file_sha256": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2",
+        "file_hash_unchanged_from_author": true,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/workstation-po-rayderu/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    },
+    {
+      "source_slug": "yamaha-motif-xf8-v-arendu",
+      "target_slug": "workstation-po-rayderu",
+      "href": "/workstation-po-rayderu/",
+      "link_index": 1,
+      "before": "Workstation по райдеру",
+      "after": "Клавишная рабочая станция по райдеру",
+      "reason": "Сохраняется загрузка подготовленного клавишного проекта, семплов, зон и последовательностей; это отдельная задача рядом со сценическим пианино.",
+      "source_context_read": true,
+      "target_context_read": true,
+      "source_editorial_title": "Yamaha Motif XF8: старый флагман, который райдеры до сих пор не забыли",
+      "target_editorial_title": "Рабочая станция по райдеру: восстановить не клавиатуру, а весь подготовленный концертный проект",
+      "kind": "explicit_label_text_only",
+      "locations": [
+        {
+          "format": "json",
+          "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+          "json_path": [
+            "navigation",
+            "yamaha-motif-xf8-v-arendu",
+            1,
+            "label"
+          ],
+          "before": "Workstation по райдеру",
+          "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04"
+        }
+      ],
+      "candidate_id": 503,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json",
+        "json_path": [
+          "navigation",
+          "yamaha-motif-xf8-v-arendu",
+          1,
+          "label"
+        ],
+        "before": "Workstation по райдеру",
+        "file_sha256": "6b1a6db3d327e5566f7c251d058390b771d1ddd9a81659cc8580411579b21e04",
+        "current_file_sha256": "f6e007efd2bddca8802ce1fbb4e7169b4deac651e9d27783f5ed3c35bba54c1d",
+        "file_hash_unchanged_from_author": false,
+        "before_exact": true,
+        "source_owner_exact": true,
+        "raw_href": "/workstation-po-rayderu/",
+        "target_exact": true
+      },
+      "post06_before_exact": true,
+      "post06_source_target_order_exact": true,
+      "active_authored_route_count": 1,
+      "independent_decision": "accept"
+    }
+  ],
+  "automatic_children": [
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "akusticheskaya-gitara",
+      "target_slug": "akusticheskaya-gitara-dlya-drop-d",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 21,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "barochnye-muzykalnye-instrumenty",
+      "target_slug": "barochnye-instrumenty-dlya-basso-continuo",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 12,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "di-boksy",
+      "target_slug": "bas-cherez-di-bez-usilitelya",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 1,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "cifrovoe-pianino",
+      "target_slug": "cifrovoe-pianino-dlya-zapisi-midi",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 115,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "di-boksy",
+      "target_slug": "di-boks-dlya-akusticheskoy-gitary",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 2,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "di-boksy",
+      "target_slug": "di-boks-dlya-bas-gitary",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 3,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "di-boksy",
+      "target_slug": "di-boks-pered-pokupkoy",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 5,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "elektrogitara",
+      "target_slug": "elektrogitara-s-hss-datchikami",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 33,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "elektronnaya-barabannaya-ustanovka",
+      "target_slug": "elektronnye-barabany-dlya-zapisi-midi",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 14,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "gitarnye-usiliteli",
+      "target_slug": "gitarnyy-usilitel-dlya-high-gain",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 13,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "skripka",
+      "target_slug": "goronok-etyud-v-arendu",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 46,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "hammond-organ",
+      "target_slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 2,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "hammond-organ",
+      "target_slug": "hammond-leslie-po-rayderu",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 1,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "instrument-po-trebovaniyam-k-kachestvu",
+      "target_slug": "instrument-esli-nuzhen-chistyy-di-signal",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 98,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "klarinet-in-a",
+      "target_slug": "klarinet-in-a-dlya-pervogo-orkestrovogo-opyta",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 0,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "klarinet-in-es",
+      "target_slug": "klarinet-in-es-dlya-pervogo-opyta",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 0,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "rotornye-akusticheskie-sistemy",
+      "target_slug": "leslie-dlya-pervogo-opyta",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 1,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "midi-klaviatury",
+      "target_slug": "midi-klaviatura-dlya-kompozitora",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 2,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "midi-klaviatury",
+      "target_slug": "midi-klaviatura-dlya-notnogo-nabora",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 3,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "midi-klaviatury",
+      "target_slug": "midi-klaviatura-dlya-orkestrovki",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 4,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "midi-klaviatury",
+      "target_slug": "midi-klaviatura-dlya-virtualnyh-instrumentov",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 5,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "orf-instrumenty-dlya-obucheniya",
+      "target_slug": "orf-instrumenty-dlya-domashnih-zanyatiy",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 7,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "orf-instrumenty-dlya-obucheniya",
+      "target_slug": "orf-instrumenty-dlya-gruppy-detey",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 8,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "orf-instrumenty-dlya-obucheniya",
+      "target_slug": "orf-instrumenty-dlya-pervogo-ansamblya",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 9,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "di-boksy",
+      "target_slug": "passivnyy-di-boks-dlya-pervogo-opyta",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 4,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "elektromehanicheskie-klavishnye",
+      "target_slug": "rhodes-dlya-pervogo-opyta",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 4,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "elektromehanicheskie-klavishnye",
+      "target_slug": "rhodes-dlya-studiynoy-sessii",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 5,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "smychki",
+      "target_slug": "smychok-dlya-raboty-nad-detache",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 8,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "smychki",
+      "target_slug": "smychok-dlya-raboty-nad-legato",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 9,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "smychki",
+      "target_slug": "smychok-dlya-raboty-nad-sotie",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 11,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "smychki",
+      "target_slug": "smychok-dlya-raboty-nad-spikkato",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 10,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "smychki",
+      "target_slug": "smychok-dlya-raboty-nad-stakkato",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 18,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "teorba",
+      "target_slug": "teorba-dlya-continuo",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 3,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "tsink",
+      "target_slug": "tsink-dlya-domashnih-zanyatiy",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 1,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "tsink",
+      "target_slug": "tsink-dlya-pervogo-opyta",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 0,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    },
+    {
+      "kind": "automatic_child_search_title",
+      "source_slug": "tsink",
+      "target_slug": "tsink-pered-pokupkoy",
+      "generator": "scripts/site_core.py: connect()",
+      "field_source": "target.search_title",
+      "instruction": "Отдельную navigation-запись не создавать. При изменении N.0 сверить автоматически сформированную подпись после реальной сборки.",
+      "link_index": 2,
+      "post06_parent_relation_exact": true,
+      "label_still_from_search_title": true,
+      "no_authored_route": true,
+      "decision": "keep_no_manual_entry"
+    }
+  ],
+  "supplemental_operations": [
+    {
+      "slug": "kontsertina-dlya-ansamblya",
+      "json_path": [
+        "editorial_title"
+      ],
+      "before": "Подобрать концертины голос без смены привычной раскладки",
+      "after": "Подобрать голос концертины без смены привычной раскладки",
+      "reason": "Исправлен нарушенный порядок слов в существующем названии задачи: подбирают голос концертины. Система, привычная раскладка и музыкальный смысл сохранены.",
+      "post06_before_exact": true,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/99n-harp-bellows-landings.json",
+        "json_path": [
+          "pages",
+          9,
+          "editorial_title"
+        ],
+        "current_file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac",
+        "before_exact": true,
+        "authored_field_definitions": 1
+      },
+      "independent_decision": "accept"
+    },
+    {
+      "slug": "kontsertina-dlya-ansamblya",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертины внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>",
+      "after": "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертин внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>",
+      "reason": "После «разных» нужна форма родительного падежа множественного числа «концертин». Все сведения об исполнительских системах и работе меха сохранены.",
+      "post06_before_exact": true,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/99n-harp-bellows-landings.json",
+        "json_path": [
+          "pages",
+          9,
+          "intro",
+          0
+        ],
+        "current_file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac",
+        "before_exact": true,
+        "authored_field_definitions": 1
+      },
+      "independent_decision": "accept"
+    },
+    {
+      "slug": "ukulele-dlya-letney-praktiki",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "before": "<p>На поездке или даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>",
+      "after": "<p>В поездке или на даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>",
+      "reason": "Исправлены предлоги в существующей сцене летней практики: в поездке или на даче. Цель поддержания контакта со струнной практикой и условие перевозки сохранены.",
+      "post06_before_exact": true,
+      "reconciled_location": {
+        "format": "json",
+        "file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "json_path": [
+          "pages",
+          6,
+          "intro",
+          0
+        ],
+        "current_file_sha256": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+        "before_exact": true,
+        "authored_field_definitions": 1
+      },
+      "independent_decision": "accept"
+    }
+  ],
+  "supplemental_candidate": {
+    "pages": [
+      {
+        "slug": "kontsertina-dlya-ansamblya",
+        "mode": "enrich",
+        "editorial_title": "Подобрать голос концертины без смены привычной раскладки",
+        "intro": [
+          "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертин внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>"
+        ]
+      },
+      {
+        "slug": "ukulele-dlya-letney-praktiki",
+        "mode": "enrich",
+        "intro": [
+          "<p>В поездке или на даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>"
+        ]
+      }
+    ]
+  },
+  "concertina_h1": {
+    "incoming_links": [
+      {
+        "source_slug": "kontsertina",
+        "link_index": 0,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Для ансамбля"
+      },
+      {
+        "source_slug": "kontsertina-dlya-pervogo-opyta",
+        "link_index": 1,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля"
+      },
+      {
+        "source_slug": "kontsertina-pered-pokupkoy",
+        "link_index": 1,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля"
+      },
+      {
+        "source_slug": "kontsertina-dlya-folk-proekta",
+        "link_index": 1,
+        "href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля"
+      }
+    ],
+    "raw_definitions": [
+      {
+        "source_slug": "kontsertina",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/99n-harp-bellows-landings.json",
+          "json_path": [
+            "navigation",
+            "kontsertina",
+            0,
+            "label"
+          ],
+          "before": "Для ансамбля",
+          "file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac"
+        },
+        "reconciled_location": {
+          "format": "json",
+          "file": "content/sections/99n-harp-bellows-landings.json",
+          "json_path": [
+            "navigation",
+            "kontsertina",
+            0,
+            "label"
+          ],
+          "before": "Для ансамбля",
+          "file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac",
+          "current_file_sha256": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac",
+          "file_hash_unchanged_from_author": true,
+          "before_exact": true,
+          "source_owner_exact": true,
+          "raw_href": "/kontsertina-dlya-ansamblya/",
+          "target_exact": true
+        }
+      },
+      {
+        "source_slug": "kontsertina-dlya-pervogo-opyta",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+          "json_path": [
+            "pages",
+            15,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "14343c7af3860fde7e7941857d9f0162de750ca5ebc4e67a26daf3516cb11127"
+        },
+        "reconciled_location": {
+          "format": "json",
+          "file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+          "json_path": [
+            "pages",
+            15,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "14343c7af3860fde7e7941857d9f0162de750ca5ebc4e67a26daf3516cb11127",
+          "current_file_sha256": "14343c7af3860fde7e7941857d9f0162de750ca5ebc4e67a26daf3516cb11127",
+          "file_hash_unchanged_from_author": true,
+          "before_exact": true,
+          "source_owner_exact": true,
+          "raw_href": "/kontsertina-dlya-ansamblya/",
+          "target_exact": true
+        }
+      },
+      {
+        "source_slug": "kontsertina-pered-pokupkoy",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+          "json_path": [
+            "pages",
+            10,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549"
+        },
+        "reconciled_location": {
+          "format": "json",
+          "file": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+          "json_path": [
+            "pages",
+            10,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549",
+          "current_file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549",
+          "file_hash_unchanged_from_author": true,
+          "before_exact": true,
+          "source_owner_exact": true,
+          "raw_href": "/kontsertina-dlya-ansamblya/",
+          "target_exact": true
+        }
+      },
+      {
+        "source_slug": "kontsertina-dlya-folk-proekta",
+        "raw_href": "/kontsertina-dlya-ansamblya/",
+        "label": "Концертина для ансамбля",
+        "exact_old_h1_match": false,
+        "html_normalized_old_h1_match": false,
+        "location": {
+          "format": "json",
+          "file": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+          "json_path": [
+            "pages",
+            12,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549"
+        },
+        "reconciled_location": {
+          "format": "json",
+          "file": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+          "json_path": [
+            "pages",
+            12,
+            "links",
+            1,
+            "label"
+          ],
+          "before": "Концертина для ансамбля",
+          "file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549",
+          "current_file_sha256": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549",
+          "file_hash_unchanged_from_author": true,
+          "before_exact": true,
+          "source_owner_exact": true,
+          "raw_href": "/kontsertina-dlya-ansamblya/",
+          "target_exact": true
+        }
+      }
+    ],
+    "old_h1_exact_or_normalized_caption_copies": 0,
+    "additional_label_operations_needed": 0
+  },
+  "projected_scalar_changes": [
+    {
+      "json_path": [
+        "akkordeon-dlya-gastroley",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура"
+    },
+    {
+      "json_path": [
+        "arturia-microfreak-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Синтезатор для sound design",
+      "after": "Синтезатор для саунд-дизайна"
+    },
+    {
+      "json_path": [
+        "bandoneon-dlya-tango-proekta",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Инструменты для tango-квартета",
+      "after": "Инструменты для танго-квартета"
+    },
+    {
+      "json_path": [
+        "barabannaya-ustanovka-dlya-kontserta",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для первого концерта",
+      "after": "Бэклайн для первого концерта"
+    },
+    {
+      "json_path": [
+        "barabannaya-ustanovka-dlya-zapisi",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "json_path": [
+        "barabany-dlya-gastrolnogo-raydera",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура"
+    },
+    {
+      "json_path": [
+        "barabany-dlya-gastrolnogo-raydera",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Backline для ритм-секции",
+      "after": "Бэклайн для ритм-секции"
+    },
+    {
+      "json_path": [
+        "bas-gitara-dlya-gastroley",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура"
+    },
+    {
+      "json_path": [
+        "boss-rc-505mkii-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии"
+    },
+    {
+      "json_path": [
+        "boss-rc-600-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для первого концерта",
+      "after": "Бэклайн для первого концерта"
+    },
+    {
+      "json_path": [
+        "boss-rc-600-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии"
+    },
+    {
+      "json_path": [
+        "chelesta-dlya-zapisi-muzyki-k-filmu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "json_path": [
+        "dvenadtsatistrunnaya-gitara-dlya-zapisi",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "json_path": [
+        "dvuhklaviaturnyy-set-dlya-kontserta",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру"
+    },
+    {
+      "json_path": [
+        "dvuhklaviaturnyy-set-dlya-kontserta",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Workstation по райдеру",
+      "after": "Клавишная рабочая станция по райдеру"
+    },
+    {
+      "json_path": [
+        "fender-player-ii-stratocaster-sss-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Три single-coil датчика",
+      "after": "Три сингла"
+    },
+    {
+      "json_path": [
+        "flyugelgorn-dlya-zapisi",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "json_path": [
+        "gibson-sg-standard-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Два humbucker",
+      "after": "Два хамбакера"
+    },
+    {
+      "json_path": [
+        "instrument-dlya-postupleniya-v-konservatoriyu",
+        "links",
+        3,
+        "label"
+      ],
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "json_path": [
+        "instrument-smenit-sistemu-po-rekomendatsii",
+        "links",
+        2,
+        "label"
+      ],
+      "before": "Step-up по рекомендации",
+      "after": "Следующий инструмент по рекомендации"
+    },
+    {
+      "json_path": [
+        "instrumenty-dlya-ansamblya-gitar-i-ukulele",
+        "links",
+        2,
+        "label"
+      ],
+      "before": "Укулеле baritone",
+      "after": "Укулеле-баритон"
+    },
+    {
+      "json_path": [
+        "instrumenty-dlya-ansamblya-ukulele",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Укулеле baritone",
+      "after": "Укулеле-баритон"
+    },
+    {
+      "json_path": [
+        "instrumenty-dlya-ansamblya-ukulele",
+        "links",
+        2,
+        "label"
+      ],
+      "before": "Укулеле tenor",
+      "after": "Укулеле-тенор"
+    },
+    {
+      "json_path": [
+        "instrumenty-dlya-myuziklovogo-pit-benda",
+        "links",
+        2,
+        "label"
+      ],
+      "before": "Backline",
+      "after": "Бэклайн"
+    },
+    {
+      "json_path": [
+        "kahon-dlya-akusticheskogo-vystupleniya",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для акустического концерта",
+      "after": "Бэклайн для акустического концерта"
+    },
+    {
+      "json_path": [
+        "klavishnye-dlya-myuzikla",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Инструменты для pit band мюзикла",
+      "after": "Инструменты для пит-бенда мюзикла"
+    },
+    {
+      "json_path": [
+        "klavishnye-s-pedalyami-po-rayderu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру"
+    },
+    {
+      "json_path": [
+        "kontsertina-dlya-ansamblya",
+        "editorial_title"
+      ],
+      "before": "Подобрать концертины голос без смены привычной раскладки",
+      "after": "Подобрать голос концертины без смены привычной раскладки"
+    },
+    {
+      "json_path": [
+        "kontsertina-dlya-ansamblya",
+        "intro",
+        0
+      ],
+      "before": "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертины внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>",
+      "after": "<p>В ансамбле появилась партия концертины, и инструмент нужен на несколько репетиций и выступление. Сначала стоит определить точную исполнительскую систему. Компактные корпуса разных концертин внешне похожи, но распределение нот и работа меха могут требовать совершенно разных привычек.</p>"
+    },
+    {
+      "json_path": [
+        "kontsertina-dlya-ansamblya",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Концертина для folk-проекта",
+      "after": "Концертина для фолк-проекта"
+    },
+    {
+      "json_path": [
+        "kontsertina-dlya-ansamblya",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для folk-группы",
+      "after": "Инструменты для фолк-группы"
+    },
+    {
+      "json_path": [
+        "korg-sv2-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Stage piano перед покупкой",
+      "after": "Сценическое пианино перед покупкой"
+    },
+    {
+      "json_path": [
+        "lup-stantsiya-dlya-vokala",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "json_path": [
+        "pedalnaya-arfa-pered-pokupkoy",
+        "links",
+        2,
+        "label"
+      ],
+      "before": "Ogden: pedal tension без педалей",
+      "after": "Ogden: натяжение как у педальной арфы, без педалей"
+    },
+    {
+      "json_path": [
+        "radial-jdi-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Первый passive DI",
+      "after": "Первый пассивный DI-бокс"
+    },
+    {
+      "json_path": [
+        "roland-rd88ex-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Stage piano перед покупкой",
+      "after": "Сценическое пианино перед покупкой"
+    },
+    {
+      "json_path": [
+        "roland-sp-404mkii-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии"
+    },
+    {
+      "json_path": [
+        "roland-spd-sx-pro-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для ритм-секции",
+      "after": "Бэклайн для ритм-секции"
+    },
+    {
+      "json_path": [
+        "roland-spd-sx-pro-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Live session в студии",
+      "after": "Одновременная запись в студии"
+    },
+    {
+      "json_path": [
+        "roland-td17kvx2-v-arendu",
+        "links",
+        2,
+        "label"
+      ],
+      "before": "Работа над hi-hat",
+      "after": "Работа над хай-хэтом"
+    },
+    {
+      "json_path": [
+        "roland-td27kv2-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Работа над hi-hat",
+      "after": "Работа над хай-хэтом"
+    },
+    {
+      "json_path": [
+        "sempler-dlya-teatralnyh-effektov",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "json_path": [
+        "sintezator-dlya-pedov",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Сценические клавишные для слоя piano и pad",
+      "after": "Сценические клавишные: фортепиано и подкладка"
+    },
+    {
+      "json_path": [
+        "smychkovye-dlya-festivalya",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Backline для фестиваля",
+      "after": "Бэклайн для фестиваля"
+    },
+    {
+      "json_path": [
+        "tuba-dlya-gastroley",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Backline для гастрольного тура",
+      "after": "Бэклайн для гастрольного тура"
+    },
+    {
+      "json_path": [
+        "ukulele",
+        "links",
+        2,
+        "label"
+      ],
+      "before": "Concert",
+      "after": "Концертный размер"
+    },
+    {
+      "json_path": [
+        "ukulele-dlya-letney-praktiki",
+        "intro",
+        0
+      ],
+      "before": "<p>На поездке или даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>",
+      "after": "<p>В поездке или на даче укулеле может стать временным способом не терять контакт со струнной практикой, особенно если основной инструмент неудобно перевозить.</p>"
+    },
+    {
+      "json_path": [
+        "ukulele-dlya-letney-praktiki",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Укулеле-soprano",
+      "after": "Укулеле-сопрано"
+    },
+    {
+      "json_path": [
+        "ukulele-dlya-letney-praktiki",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Укулеле-concert",
+      "after": "Концертная укулеле"
+    },
+    {
+      "json_path": [
+        "vibrafon-dlya-dzhazovoy-zapisi",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Инструменты для live session в студии",
+      "after": "Инструменты для одновременной записи в студии"
+    },
+    {
+      "json_path": [
+        "yamaha-cp88-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Stage piano по райдеру",
+      "after": "Сценическое пианино по райдеру"
+    },
+    {
+      "json_path": [
+        "yamaha-cp88-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Stage piano перед покупкой",
+      "after": "Сценическое пианино перед покупкой"
+    },
+    {
+      "json_path": [
+        "yamaha-motif-xf8-v-arendu",
+        "links",
+        0,
+        "label"
+      ],
+      "before": "Workstation для одного музыканта",
+      "after": "Клавишная рабочая станция для одного музыканта"
+    },
+    {
+      "json_path": [
+        "yamaha-motif-xf8-v-arendu",
+        "links",
+        1,
+        "label"
+      ],
+      "before": "Workstation по райдеру",
+      "after": "Клавишная рабочая станция по райдеру"
+    }
+  ],
+  "source_file_sha256_at_reconciliation": {
+    "content/sections/zzzz37-conductivity-task-leaves-a.json": "92b810e6bce021eb66e400cc2d24363a1ca38bfbe1368392c23ab1869f44279b",
+    "content/sections/zzzz38-conductivity-task-leaves-b.json": "9f6b7ca678134ebaeb2942e7179b0a53a369bc1f111b2a734addd7db3c56d883",
+    "content/sections/zzzz36-conductivity-final-model-bridges-b.json": "138f4d26ad25b009bbaa4ff4969b7fb37bd8034ab2cd528a715fadda5efb874e",
+    "content/sections/zzzz17-conductivity-guitar-bass-model-bridges.json": "aef1f6641fdf476a0942fbadb79a31a7e0726fe4089bd3fcc0cb3b0c1e01e9f8",
+    "content/sections/zzzz20-conductivity-backline-edrum-bridges.json": "97a4b26d9733b538d5b45071a3d9cfdd89aa36258606f10e1f32b544948a53dd",
+    "content/sections/zzzz22-conductivity-teacher-change-bridges.json": "05c31da2329ed3f541dc2200b6ff3c3c89c51d142e64d2c10b5dad7a8f00d740",
+    "content/sections/zzzz26-conductivity-teacher-milestone-bridges.json": "d3c28e884b0519ea45be2130e5355b70afa946eba8725215d31831d6f923fa77",
+    "content/sections/99n-harp-bellows-landings.json": "dd90602775031b21e8b25a2f29cfe6a583bfc8bda45e3b7f4b346d981a05dbac",
+    "content/sections/zzzz32-conductivity-remaining-model-bridges.json": "dd5b07e039c3be26fa2d9c144c3bb37ecccf124be7658c615a5d0e658210b32d",
+    "content/sections/zz115-keyboard-rider-backline-human-scenes.json": "8f2385ea175d59530f1ee985f3444b3f44a4509b1c6e315a85292b739f015eb2",
+    "content/sections/zzzz19-conductivity-keyboard-workstation-bridges.json": "f6e007efd2bddca8802ce1fbb4e7169b4deac651e9d27783f5ed3c35bba54c1d",
+    "content/sections/zz118-educational-ensemble-crossroutes.json": "bba19cba86934d7d54d01e71d47946321708893b627b0575d87e982fac5cc571",
+    "content/sections/99f-recorder-ukulele-voices.json": "7ac118a94ec6b6437d9be741961a5f66d8984238675308721d26f73aa4347f1d",
+    "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json": "75b47943c949c8ba7fa98fe2aee8fdf12774ae100c2efff1f25b514ff092b416",
+    "content/sections/zz120-project-ensemble-crossroutes.json": "f156fc7a65a1ff6a34f1d7bd000ab7e5e48ea28e5fcd648af9a0665dddcfef03",
+    "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json": "14343c7af3860fde7e7941857d9f0162de750ca5ebc4e67a26daf3516cb11127",
+    "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json": "57458db3cc6898d6877c19d01fa6d2cbbce88c5279fac6fb254e279ae09ed549"
+  },
+  "checks": {
+    "current_read_only_compilation_equals_exact_post06_snapshot": true,
+    "all_54_before_values_exact": true,
+    "all_source_ownership_and_targets_exact": true,
+    "all_href_arrays_order_and_counts_preserved": true,
+    "all_nonrequested_fields_preserved": true,
+    "complete_changed_arrays_preserved": true,
+    "only_54_planned_scalar_changes": true,
+    "runtime_connect_projection_exact": true,
+    "no_manual_entries_created_for_automatic_children": true,
+    "frozen_inputs_and_current_source_files_unchanged_during_check": true,
+    "repository_modified": false,
+    "build_or_test_suite_run": false
+  },
+  "additional_amendments": [],
+  "prior_independent_review": {
+    "file": "mixed-language-label-residual-independent-review.json",
+    "sha256": "72486cdde4ee6343a031c414ab8f5a9b3a5ac3ddb79a6bd1a07d8ed7baa0d0af",
+    "relationship": "Preserved provisional semantic review; this separate file closes exact candidate/source reconciliation only."
+  }
+}

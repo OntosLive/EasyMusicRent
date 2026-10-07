@@ -1,0 +1,1395 @@
+{
+  "status": "frozen_proposal_pending_independent_review_and_post_queue_rebase",
+  "scope": "Целевой смысловой остаток после языковой очереди: публичные редакторские инструкции об устройстве страниц и предварительное владение функцией как условие её учебного освоения.",
+  "basis": {
+    "repo_head_at_start": "b45101f654a73e2834c1c5e1048219ca4f367913",
+    "canonical_documents_read": {
+      "docs/CURRENT-WORK-STATE.md": "cee12abedadc41d618e1b4bb48d0ff74232ec6045acee37b048dffd55f71fce0",
+      "docs/active-canon-2026-10-04.md": "6feaa3a55835a07dee5d855858f58012581f37b1d691f773c9a3d95a58115e2d",
+      "docs/project-concept.md": "c509f332b39d44aadcb4dbc11d324609424eab386f531e1b8af5b6e242aa49ec",
+      "docs/education-quality-canon.md": "7b5f29f35f61e548e05a6184db5a5bc22e0213ed293cb3627cddc7bdda75f4f2",
+      "README.md": "1e19e354fd87794239fe1cd8db043d977210b78862337abcddca08355155b7dc"
+    },
+    "prospective_input_sha256": {
+      "corpus-after-language-03.json": "eaba636fc65faa702bab3a628356250c0aa6dfdc73d855a644470a05ab62b7d3",
+      "language-04-root-candidate.json": "a842130333cb128bec085b2fa490d8b23e595c9ed040bdc6f67cdef41abd90f8",
+      "language-05-candidate.json": "bee076fd1485a37f0ab5954a88d1d26b930de704c08c8c0ee8a34892fa9d0f06",
+      "language-06-root-candidate.json": "5d531471a76148487fb8418bc17f7035712f5ebe832e35377ce70fc28cc38923"
+    },
+    "projection_sha256": "b6151fa22b0b9f83f4e2df17afb13950df8627522cc0d3c224a8831db61011e1",
+    "compiled06_file": "corpus-after-language-06.json",
+    "compiled06_sha256": "7c0d88348010de9369a6b7544d42ee86954fcc3fa9cf1084efa6dc8efd0c8302",
+    "compiled06_public_content_comparison": "Все тексты, метаданные и источники 62 страниц совпадают с прочитанной проекцией. Отличаются только три навигационные подписи, не затрагиваемые кандидатом.",
+    "projection_to_compiled06_navigation_deltas": [
+      {
+        "slug": "vox-ac30c2-v-arendu",
+        "field": "links",
+        "before": [
+          {
+            "href": "/gitarnyy-usilitel-dlya-krancha/",
+            "label": "Гитарный усилитель для crunch"
+          },
+          {
+            "href": "/gitarnyy-usilitel-dlya-studii/",
+            "label": "Гитарный усилитель для студии"
+          }
+        ],
+        "after": [
+          {
+            "href": "/gitarnyy-usilitel-dlya-krancha/",
+            "label": "Гитарный усилитель для кранча"
+          },
+          {
+            "href": "/gitarnyy-usilitel-dlya-studii/",
+            "label": "Гитарный усилитель для студии"
+          }
+        ]
+      },
+      {
+        "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+        "field": "links",
+        "before": [
+          {
+            "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+            "label": "Выбор по качеству"
+          },
+          {
+            "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+            "label": "Рекомендация преподавателя"
+          },
+          {
+            "href": "/scenicheskie-klavishnye-dlya-pianista/",
+            "label": "Stage keyboard для пианиста"
+          },
+          {
+            "href": "/midi-klaviatura-dlya-orkestrovki/",
+            "label": "MIDI-клавиатура для оркестровки"
+          }
+        ],
+        "after": [
+          {
+            "href": "/instrument-po-trebovaniyam-k-kachestvu/",
+            "label": "Выбор по качеству"
+          },
+          {
+            "href": "/instrument-po-rekomendatsii-prepodavatelya/",
+            "label": "Рекомендация преподавателя"
+          },
+          {
+            "href": "/scenicheskie-klavishnye-dlya-pianista/",
+            "label": "Сценические клавишные для пианиста"
+          },
+          {
+            "href": "/midi-klaviatura-dlya-orkestrovki/",
+            "label": "MIDI-клавиатура для оркестровки"
+          }
+        ]
+      },
+      {
+        "slug": "backline-dlya-pervogo-kontserta",
+        "field": "links",
+        "before": [
+          {
+            "href": "/usiliteli-backline/",
+            "label": "Усилители и backline"
+          },
+          {
+            "href": "/backline-dlya-soundcheck-do-priezda-artista/",
+            "label": "Подготовить техническую проверку до выхода группы"
+          },
+          {
+            "href": "/backline-dlya-ritm-sektsii/",
+            "label": "Если бас и барабаны не собираются в общий пульс"
+          }
+        ],
+        "after": [
+          {
+            "href": "/usiliteli-backline/",
+            "label": "Усилители и бэклайн"
+          },
+          {
+            "href": "/backline-dlya-soundcheck-do-priezda-artista/",
+            "label": "Подготовить техническую проверку до выхода группы"
+          },
+          {
+            "href": "/backline-dlya-ritm-sektsii/",
+            "label": "Если бас и барабаны не собираются в общий пульс"
+          }
+        ]
+      }
+    ],
+    "known_group05_pages_excluded": [
+      "korg-kronos-2-88-v-arendu",
+      "steinway-d274-v-arendu",
+      "legendarnye-sintezatory",
+      "goronok-kadentsiya-alt-v-arendu",
+      "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "smychkovye-gewa",
+      "sintezator-dlya-sozdaniya-lida"
+    ],
+    "discovery_files": [
+      "post-language-semantic-screen.json",
+      "post-language-meta-precise-hits.json",
+      "post-language-learning-extra-hits.json"
+    ],
+    "discovery_limit": "Лексические совпадения — средство поиска. Полностью прочитано 62 целевых контекста, а не весь корпус заново. Адрес площадки, звуковой слой, первичная страница производителя и полезная оговорка о наличии не признаны ошибками по слову."
+  },
+  "canonical_grounds": [
+    {
+      "documents": [
+        "docs/active-canon-2026-10-04.md",
+        "docs/project-concept.md",
+        "README.md"
+      ],
+      "principle": "Публичная страница раскрывает инструмент, человеческую задачу и следующий предметный шаг; объяснение необходимости создавать страницу, ветвь или адрес относится к внутренней редакционной работе."
+    },
+    {
+      "documents": [
+        "docs/active-canon-2026-10-04.md",
+        "docs/education-quality-canon.md"
+      ],
+      "principle": "Текущая программа может требовать свойства для освоения нового навыка. Предварительная готовность уже использовать этот навык не должна быть круговым условием доступа; настройка, подходящий размер и проба сохраняются."
+    },
+    {
+      "documents": [
+        "docs/education-quality-canon.md"
+      ],
+      "principle": "«Золотой» — внутренний приоритет исследования и наполнения, а не публичный ранг модели. Единственная соседняя правка Salvi Mia убирает этот ярлык, сохраняя атрибуцию официальной учебной программе."
+    }
+  ],
+  "counts": {
+    "full_pages_read": 62,
+    "keep": 43,
+    "enrich": 19,
+    "exact_amendments": 25,
+    "internal_page_meta_pages": 11,
+    "learning_gate_pages": 8,
+    "overlap_page": "goronok-aleksey-romanov-v-arendu",
+    "adjacent_internal_rank_pages": 1,
+    "changed_top_level_fields": {
+      "intro": 7,
+      "blocks": 13,
+      "quote": 1
+    },
+    "full_changed_arrays": 20
+  },
+  "boundaries_preserved": [
+    "Подготовка к конкретному экзамену, прослушиванию или концерту требует освоения к дате и времени на адаптацию; это сохранено.",
+    "Знакомый фрагмент при сравнении, размер, настройка, герметичность клапанов и физическая посадка сохранены.",
+    "Педагогическая последовательность одного и двух барабанов у конг и среднего/крайнего регистра у контрафагота сохранена.",
+    "Проверка интерфейса или раскладки в пробном периоде перед покупкой не признана запретом обучения.",
+    "Полезные прямые переходы к модели и ограничения наличия конкретного экземпляра сохранены.",
+    "Нет нового URL, модели, свойства, источника, коммерческого обещания или пересмотра закрытой страницы без конкретного совпадения."
+  ],
+  "reviews": [
+    {
+      "slug": "violonchel-stentor",
+      "ordinal": 1,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «отдельная страница» — полезное направление к существующему Student II по действующей ссылке, а не объяснение создания адреса. Модель/размер/комплект и проверка педагогом сохранены.",
+      "source_page_sha256": "8dbc7750e3ff42e4057784577667884fa848bc84b39fa668d9f5f04c6ce93bd5",
+      "proposed_page_sha256": "8dbc7750e3ff42e4057784577667884fa848bc84b39fa668d9f5f04c6ce93bd5",
+      "amendments": [],
+      "compiled06_page_sha256": "8dbc7750e3ff42e4057784577667884fa848bc84b39fa668d9f5f04c6ce93bd5",
+      "proposed_compiled06_page_sha256": "8dbc7750e3ff42e4057784577667884fa848bc84b39fa668d9f5f04c6ce93bd5"
+    },
+    {
+      "slug": "fender-player-ii-telecaster-v-arendu",
+      "ordinal": 2,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: упоминание базовой страницы ограничивает перенос комплектации на внешне похожие исполнения. Это предметная граница описания модели, не обоснование публикации; состояние и точная версия проверяются отдельно.",
+      "source_page_sha256": "569d56f3fe85726de237f2e7a5344ff3e6d8f467c4337293cecc603d61e725ca",
+      "proposed_page_sha256": "569d56f3fe85726de237f2e7a5344ff3e6d8f467c4337293cecc603d61e725ca",
+      "amendments": [],
+      "compiled06_page_sha256": "569d56f3fe85726de237f2e7a5344ff3e6d8f467c4337293cecc603d61e725ca",
+      "proposed_compiled06_page_sha256": "569d56f3fe85726de237f2e7a5344ff3e6d8f467c4337293cecc603d61e725ca"
+    },
+    {
+      "slug": "instrumenty-dlya-fortepiannogo-trio",
+      "ordinal": 3,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «тихая страница» относится к музыкальному фрагменту партитуры. Комплектация, редакция состава и камерный баланс раскрыты предметно.",
+      "source_page_sha256": "c8ab68411ba04e0736ad6c9a1dacb36db9e389075e00e0fa54ef15a66bc88511",
+      "proposed_page_sha256": "c8ab68411ba04e0736ad6c9a1dacb36db9e389075e00e0fa54ef15a66bc88511",
+      "amendments": [],
+      "compiled06_page_sha256": "c8ab68411ba04e0736ad6c9a1dacb36db9e389075e00e0fa54ef15a66bc88511",
+      "proposed_compiled06_page_sha256": "c8ab68411ba04e0736ad6c9a1dacb36db9e389075e00e0fa54ef15a66bc88511"
+    },
+    {
+      "slug": "kontrafagot",
+      "ordinal": 4,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «этот слой» — нижний оркестровый голос, не слой сайта. Есть время на освоение до репетиций, без требования заранее владеть контрафаготом.",
+      "source_page_sha256": "7357de3a6f65b0735bff1d2bb89a5439715a5c96174db9cb9ce6d08de36f612e",
+      "proposed_page_sha256": "7357de3a6f65b0735bff1d2bb89a5439715a5c96174db9cb9ce6d08de36f612e",
+      "amendments": [],
+      "compiled06_page_sha256": "7357de3a6f65b0735bff1d2bb89a5439715a5c96174db9cb9ce6d08de36f612e",
+      "proposed_compiled06_page_sha256": "7357de3a6f65b0735bff1d2bb89a5439715a5c96174db9cb9ce6d08de36f612e"
+    },
+    {
+      "slug": "yamaha-b3-v-arendu",
+      "ordinal": 5,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: существование модельной страницы отделено от подтверждения конкретного b3 и комплекта. Это полезное пояснение статуса подбора, не инструкция создавать страницу; текущая программа и проба сохранены.",
+      "source_page_sha256": "08088f78aac09c0db6179c0f5f870a5fa4aba205b39b0390dcdb5d0c66f34e99",
+      "proposed_page_sha256": "08088f78aac09c0db6179c0f5f870a5fa4aba205b39b0390dcdb5d0c66f34e99",
+      "amendments": [],
+      "compiled06_page_sha256": "08088f78aac09c0db6179c0f5f870a5fa4aba205b39b0390dcdb5d0c66f34e99",
+      "proposed_compiled06_page_sha256": "08088f78aac09c0db6179c0f5f870a5fa4aba205b39b0390dcdb5d0c66f34e99"
+    },
+    {
+      "slug": "pianino-dlya-videozayavki",
+      "ordinal": 6,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: страница Trinity названа для точной атрибуции регламента и его даты/области применимости. Подготовка включает время освоить отклик, предварительный навык не является условием доступа.",
+      "source_page_sha256": "ab40a88d1c58b17cd05224b8741bb44f910a194f639239f3e436e81a7ae10953",
+      "proposed_page_sha256": "ab40a88d1c58b17cd05224b8741bb44f910a194f639239f3e436e81a7ae10953",
+      "amendments": [],
+      "compiled06_page_sha256": "4e980a94ec6ffea4185c55ed083f32398b7db0094f0dff0805e433019c94c080",
+      "proposed_compiled06_page_sha256": "4e980a94ec6ffea4185c55ed083f32398b7db0094f0dff0805e433019c94c080"
+    },
+    {
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "ordinal": 7,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «новый слой» — звуковой тракт, а знакомая техника задаёт сцену перехода с акустической скрипки. Текст прямо даёт время освоить новое усиление и мониторинг.",
+      "source_page_sha256": "d2bb68a60a919f9b616c5e6dbed4061aeee95aa5bf918f12238ec918a34ed37a",
+      "proposed_page_sha256": "d2bb68a60a919f9b616c5e6dbed4061aeee95aa5bf918f12238ec918a34ed37a",
+      "amendments": [],
+      "compiled06_page_sha256": "d2bb68a60a919f9b616c5e6dbed4061aeee95aa5bf918f12238ec918a34ed37a",
+      "proposed_compiled06_page_sha256": "d2bb68a60a919f9b616c5e6dbed4061aeee95aa5bf918f12238ec918a34ed37a"
+    },
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "ordinal": 8,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Служебное объяснение роли страницы заменяется действием по подбору состава; конкретная программа и гибкость фолк-проекта сохраняются.",
+      "source_page_sha256": "442490a40b823d3253d6579dc0d5702a520ad386553182e5ffd123ffae2acfeb",
+      "proposed_page_sha256": "3b6a8ec917aa7bfb8eba802b4d80946fb01f7e64d7da6acee4ef72471ee4c87e",
+      "amendments": [
+        {
+          "slug": "instrumenty-dlya-folk-gruppy",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Слово «фолк» слишком широкое, чтобы назначить готовый комплект. Страница нужна как вход к конкретной комбинации инструментов из одной программы.</p>",
+          "after": "<p>Слово «фолк» слишком широкое, чтобы назначить готовый комплект. Состав инструментов уточняют по конкретной программе.</p>",
+          "reason": "«Страница нужна как вход» описывает публичный интерфейс вместо задачи человека. Новый текст прямо называет подбор состава по той же программе, без новых фактов или обещаний."
+        }
+      ],
+      "compiled06_page_sha256": "442490a40b823d3253d6579dc0d5702a520ad386553182e5ffd123ffae2acfeb",
+      "proposed_compiled06_page_sha256": "3b6a8ec917aa7bfb8eba802b4d80946fb01f7e64d7da6acee4ef72471ee4c87e"
+    },
+    {
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "ordinal": 9,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Абстрактный выбор «предметной страницы» удаляется из результата пробы; повторяемое облегчение и выбор конкретного инструмента сохраняются.",
+      "source_page_sha256": "bcf26c148d2c4d26bcc1be61b2c452ef49005e27bff0559e43db29b000640c89",
+      "proposed_page_sha256": "0e9da450ef8f3327bc4ca031a8b755e04ac4a09d6f47301c48af2be9e3604886",
+      "amendments": [
+        {
+          "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Если облегчение устойчиво повторяется, можно уже выбирать предметную страницу и конкретный инструмент.",
+          "after": "Если облегчение устойчиво повторяется, можно уже выбирать конкретный инструмент.",
+          "reason": "Публичный результат пробы — подходящий инструмент. Выбор внутренней предметной страницы не является действием подбора и не добавляет полезного следующего вопроса."
+        }
+      ],
+      "compiled06_page_sha256": "bcf26c148d2c4d26bcc1be61b2c452ef49005e27bff0559e43db29b000640c89",
+      "proposed_compiled06_page_sha256": "0e9da450ef8f3327bc4ca031a8b755e04ac4a09d6f47301c48af2be9e3604886"
+    },
+    {
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "ordinal": 10,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Вместо указания редактору строить модельную ветвь сохранено различение трёх названных басовых вариантов.",
+      "source_page_sha256": "ca985b10a2242633f0021489d220678f6a79f16522a5f030d4ad05c93ec4bc89",
+      "proposed_page_sha256": "a1aab01eb2f9ed27d728132eb94683dc57d4c2980ff85331a7653092c6195612",
+      "amendments": [
+        {
+          "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Прокатные парки держат Fender J Bass рядом с P Bass и Music Man StingRay. Поэтому модельная ветвь должна учитывать эти три разных басовых референса, а не сжимать их в одну страницу «бас-гитара».",
+          "after": "Прокатные парки держат Fender J Bass рядом с P Bass и Music Man StingRay. При выборе важно различать эти три басовых варианта.",
+          "reason": "«Модельная ветвь должна учитывать» и «не сжимать в одну страницу» раскрывают внутреннюю классификацию. Сохранены все три имени и необходимость различать их при выборе."
+        }
+      ],
+      "compiled06_page_sha256": "ca985b10a2242633f0021489d220678f6a79f16522a5f030d4ad05c93ec4bc89",
+      "proposed_compiled06_page_sha256": "a1aab01eb2f9ed27d728132eb94683dc57d4c2980ff85331a7653092c6195612"
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "ordinal": 11,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Три служебных пояснения каталога/страницы/работы с заказчиком сняты точечно; конфигурация, численные примеры, комплект и источники сохранены.",
+      "source_page_sha256": "2aa2a02fb30cca8ff4ff27d8f89431bc86f68b7baf56bf64172918978d4c1510",
+      "proposed_page_sha256": "440bab4f2c005253c7459f7ccdb1f4777023af93c06f7e05f58dc8cf2db50a33",
+      "amendments": [
+        {
+          "slug": "dw-collectors-series-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Прокаты держат Collector’s Series как отдельную позицию премиального класса, а DW строит серию как американский инструмент индивидуальной конфигурации. Это делает название серии осмысленным адресом в каталоге.",
+          "after": "Прокаты держат Collector’s Series как отдельную позицию премиального класса, а DW строит серию как американский инструмент индивидуальной конфигурации.",
+          "reason": "Удалено только обоснование «осмысленного адреса в каталоге». Сведения о серии и индивидуальной конфигурации сохранены."
+        },
+        {
+          "slug": "dw-collectors-series-v-arendu",
+          "json_path": [
+            "blocks",
+            1,
+            "paragraphs",
+            0
+          ],
+          "before": "DW предлагает широкий диапазон диаметров и глубин. Для артиста 22-10-12-16 и 24-13-16-18 — разные рабочие установки, хотя обе называются Collector’s Series. Поэтому модельная страница должна вести к уточнению конфигурации.",
+          "after": "DW предлагает широкий диапазон диаметров и глубин. Для артиста 22-10-12-16 и 24-13-16-18 — разные рабочие установки, хотя обе называются Collector’s Series. Поэтому перед заказом уточняют конфигурацию.",
+          "reason": "Обязанность модельной страницы заменена действием при заказе. Оба точных примера размеров сохранены."
+        },
+        {
+          "slug": "dw-collectors-series-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Профессиональный прокат нередко собирает установку из серии, но тарелки, малый, педаль и стойки определяются райдером отдельно. Это нужно сохранять и в нашем разговоре с заказчиком.",
+          "after": "Профессиональный прокат нередко собирает установку из серии, но тарелки, малый, педаль и стойки определяются райдером отдельно.",
+          "reason": "Удалена внутренняя инструкция «Это нужно сохранять и в нашем разговоре с заказчиком». Отдельное согласование комплектующих сохранено без обещания состава."
+        }
+      ],
+      "compiled06_page_sha256": "2aa2a02fb30cca8ff4ff27d8f89431bc86f68b7baf56bf64172918978d4c1510",
+      "proposed_compiled06_page_sha256": "440bab4f2c005253c7459f7ccdb1f4777023af93c06f7e05f58dc8cf2db50a33"
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "ordinal": 12,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Удалена инструкция сохранять отдельную модельную ветвь; музыкальная причина выбора J‑45 остаётся целиком.",
+      "source_page_sha256": "30754e397c900a72cd129bc24b184f92d3035bf90a343649f9390390a14770c0",
+      "proposed_page_sha256": "23ac0c20478a3f6034773504ed3637f108df346a3e73b70814b4d4a16d7db111",
+      "amendments": [
+        {
+          "slug": "gibson-j45-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Запрос на J-45 имеет смысл сохранять как отдельную модельную ветвь. Музыкант может искать именно эту посадку, середину и характер атаки, а не любую профессиональную акустику.",
+          "after": "Музыкант может искать именно эту посадку, середину и характер атаки, а не любую профессиональную акустику.",
+          "reason": "Ветвь каталога является редакционным устройством. Следующее исходное предложение уже самостоятельно раскрывает причину точного модельного запроса."
+        }
+      ],
+      "compiled06_page_sha256": "30754e397c900a72cd129bc24b184f92d3035bf90a343649f9390390a14770c0",
+      "proposed_compiled06_page_sha256": "23ac0c20478a3f6034773504ed3637f108df346a3e73b70814b4d4a16d7db111"
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "ordinal": 13,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Удалён внутренний тезис об ассортименте нашего каталога; сохранена музыкальная причина временного доступа к прежней модели.",
+      "source_page_sha256": "c6373491b3ab1366479c9c0cc8860c566fc4177c0b0a6ae6cc3384193482c3ed",
+      "proposed_page_sha256": "ad3e32d6e6fc4eac2b92a9db53edb89fe1a8b07be217d1780c24287b692e1c40",
+      "amendments": [
+        {
+          "slug": "yamaha-motif-xf8-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Motif XF8 — хороший пример того, почему наш каталог не должен равняться только на актуальный магазин. Модель давно не новая, а прокаты всё ещё держат её как 88-клавишную флагманскую рабочую станцию, потому что огромный пласт концертных программ был построен именно вокруг Motif.</p>",
+          "after": "<p>Motif XF8 давно не новая модель, а прокаты всё ещё держат её как 88-клавишную флагманскую рабочую станцию, потому что огромный пласт концертных программ был построен именно вокруг Motif.</p>",
+          "reason": "Редакционный принцип «наш каталог не должен равняться только на актуальный магазин» не является задачей посетителя. Сохранены 88 клавиш, концертные программы и последующая проверка совместимости."
+        }
+      ],
+      "compiled06_page_sha256": "c6373491b3ab1366479c9c0cc8860c566fc4177c0b0a6ae6cc3384193482c3ed",
+      "proposed_compiled06_page_sha256": "ad3e32d6e6fc4eac2b92a9db53edb89fe1a8b07be217d1780c24287b692e1c40"
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "ordinal": 14,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «в нашем фонде» объясняет необходимость подтвердить конкретную версию и динамики. Это полезное согласование запроса при различии C2/C2X, а не публикационная архитектура.",
+      "source_page_sha256": "30172a7d69682dc86333f02196f17c590ad638d6a97af77322a028a179894d80",
+      "proposed_page_sha256": "30172a7d69682dc86333f02196f17c590ad638d6a97af77322a028a179894d80",
+      "amendments": [],
+      "compiled06_page_sha256": "ee2f4b52cbb97acb93618b22404afc3ea8f548808f0238baccf07b0e5d355c91",
+      "proposed_compiled06_page_sha256": "ee2f4b52cbb97acb93618b22404afc3ea8f548808f0238baccf07b0e5d355c91"
+    },
+    {
+      "slug": "ampeg-svt-cl-v-arendu",
+      "ordinal": 15,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «каноническая пара» характеризует сценическую связку SVT и 8×10, не внутренний редакционный канон. Комплект и логистика согласуются отдельно, служебного метатекста нет.",
+      "source_page_sha256": "72f3b18f5ece9d73144bf17fc4d33acc7d1016065be2d2089b647d2095153d6e",
+      "proposed_page_sha256": "72f3b18f5ece9d73144bf17fc4d33acc7d1016065be2d2089b647d2095153d6e",
+      "amendments": [],
+      "compiled06_page_sha256": "72f3b18f5ece9d73144bf17fc4d33acc7d1016065be2d2089b647d2095153d6e",
+      "proposed_compiled06_page_sha256": "72f3b18f5ece9d73144bf17fc4d33acc7d1016065be2d2089b647d2095153d6e"
+    },
+    {
+      "slug": "ampeg-svt-810e-v-arendu",
+      "ordinal": 16,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «каноническая пара» относится к сочетанию кабинета с усилителем. Фактические Classic/Heritage, масса, транспорт и допустимая альтернатива разведены в предмете страницы.",
+      "source_page_sha256": "b0b3822eb3434be10fc0b2de7f38d117b72d97d57801d057d2330a5a9921226e",
+      "proposed_page_sha256": "b0b3822eb3434be10fc0b2de7f38d117b72d97d57801d057d2330a5a9921226e",
+      "amendments": [],
+      "compiled06_page_sha256": "b0b3822eb3434be10fc0b2de7f38d117b72d97d57801d057d2330a5a9921226e",
+      "proposed_compiled06_page_sha256": "b0b3822eb3434be10fc0b2de7f38d117b72d97d57801d057d2330a5a9921226e"
+    },
+    {
+      "slug": "fazioli-f278-v-arendu",
+      "ordinal": 17,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Служебное задание для страницы заменено вопросом о возможности пробы. Описание службы Fazioli и подготовка авторизованными техниками сохранены как атрибутированный пример организации доступа.",
+      "source_page_sha256": "b6c8f99a0f236cfc691a3e578693f0639f7c7078257b7889c9f1c3513f83d10b",
+      "proposed_page_sha256": "97b65daa6369cd05b4703f61dd40341bccddaefba24e0eb318a95ad98175d811",
+      "amendments": [
+        {
+          "slug": "fazioli-f278-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Как и с Steinway или Bösendorfer, артист может оценивать фактический инструмент в зале. Страница должна вести к организации такого доступа, а не обещать абстрактный «звук Fazioli».",
+          "after": "Как и с Steinway или Bösendorfer, артист может оценивать фактический инструмент в зале. Возможность такой пробы уточняют при подборе.",
+          "reason": "«Страница должна вести» описывает редакционное устройство; новый текст адресует ту же проверку посетителю, не обещая наличия или автоматически организованной пробы."
+        }
+      ],
+      "compiled06_page_sha256": "b6c8f99a0f236cfc691a3e578693f0639f7c7078257b7889c9f1c3513f83d10b",
+      "proposed_compiled06_page_sha256": "97b65daa6369cd05b4703f61dd40341bccddaefba24e0eb318a95ad98175d811"
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "ordinal": 18,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Удалено только указание, куда должна вести модельная страница; конкретные причины проверки и срок до сессии остаются в абзаце и H2.",
+      "source_page_sha256": "ba1629ab3b0ab20550be228ef03cf5a323e43d0d20a1c60d03bad37c3a48ac0f",
+      "proposed_page_sha256": "78d0c6abaf1523ebda9eda727c4e65908d186c58e13e71bde4f9f885bb7b3149",
+      "amendments": [
+        {
+          "slug": "wurlitzer-200a-v-arendu",
+          "json_path": [
+            "blocks",
+            1,
+            "paragraphs",
+            0
+          ],
+          "before": "Механика, строй, электрический фон и состояние встроенного усиления у старых экземпляров различаются. Модельная страница должна вести к проверке реального инструмента.",
+          "after": "Механика, строй, электрический фон и состояние встроенного усиления у старых экземпляров различаются.",
+          "reason": "Следование модельной страницы не является свойством инструмента. H2 уже требует проверки до сессии, а сохранённое предложение перечисляет все проверяемые различия."
+        }
+      ],
+      "compiled06_page_sha256": "ba1629ab3b0ab20550be228ef03cf5a323e43d0d20a1c60d03bad37c3a48ac0f",
+      "proposed_compiled06_page_sha256": "78d0c6abaf1523ebda9eda727c4e65908d186c58e13e71bde4f9f885bb7b3149"
+    },
+    {
+      "slug": "smychkovye-cremona-saga",
+      "ordinal": 19,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: страница SV‑175 названа как источник конкретных параметров подготовки. Соседняя чешская ветвь помогает не смешивать два происхождения; это полезное различение изготовителей, не обоснование создания URL.",
+      "source_page_sha256": "192e3f377ebcd8d6d2b72fb2bd68dd79baad9fba933461b91786b9d8ab0d47be",
+      "proposed_page_sha256": "192e3f377ebcd8d6d2b72fb2bd68dd79baad9fba933461b91786b9d8ab0d47be",
+      "amendments": [],
+      "compiled06_page_sha256": "192e3f377ebcd8d6d2b72fb2bd68dd79baad9fba933461b91786b9d8ab0d47be",
+      "proposed_compiled06_page_sha256": "192e3f377ebcd8d6d2b72fb2bd68dd79baad9fba933461b91786b9d8ab0d47be"
+    },
+    {
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "ordinal": 20,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Брендовый вход и роль страницы заменены уточнением конструкции и сопоставлением параметров с партией. Число струн и остальные исходные сведения сохраняются.",
+      "source_page_sha256": "ad5ee58b7e40b70e14bc74533d7597316e33ca739cdc7915fb07123e1b3f603a",
+      "proposed_page_sha256": "b3912f1c66ba65152d9cee5d1a599720ef364f296e95b002c87f30e420bb27ca",
+      "amendments": [
+        {
+          "slug": "mpkmi-gusli-pikkolo-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Для академического класса гуслей полезен не только общий брендовый вход, но и точная конструкция. ПКМИ выпускает звончатые крыловидные гусли Пикколо на 15 струн с указанным диапазоном, материалами и мензурой. Такая страница позволяет сразу сверить инструмент с учебной партией.</p>",
+          "after": "<p>Для академического класса гуслей важно уточнить конструкцию инструмента. ПКМИ выпускает звончатые крыловидные гусли Пикколо на 15 струн с указанным диапазоном, материалами и мензурой. Эти параметры позволяют сверить инструмент с учебной партией.</p>",
+          "reason": "«Общий брендовый вход» и «такая страница позволяет» описывают каталог. Человек сопоставляет именно параметры инструмента с партией; предметные данные не меняются."
+        }
+      ],
+      "compiled06_page_sha256": "ad5ee58b7e40b70e14bc74533d7597316e33ca739cdc7915fb07123e1b3f603a",
+      "proposed_compiled06_page_sha256": "b3912f1c66ba65152d9cee5d1a599720ef364f296e95b002c87f30e420bb27ca"
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "ordinal": 21,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Принцип подготовки фонда сохранён как полезное объяснение качества; из intro снят только внутренний ярлык «золотой», который учебный канон определяет как редакционный приоритет.",
+      "source_page_sha256": "4f50de2660b62773e9d3ea9af74e0c3c789df8aeda4e170bf9dc7836eb37a9e8",
+      "proposed_page_sha256": "26aa660dc2c2ff433db23303230be75dcbcd69970116757942625f741c1e1af9",
+      "amendments": [
+        {
+          "slug": "salvi-mia-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Salvi Mia находится в официальной программе учебной аренды Lyon & Healy/Salvi и в брошюре этой программы описана как компактная, лёгкая и надёжная 34‑струнная арфа для начинающих любого возраста. Это хороший «золотой» ориентир именно для регулярной практики, а не универсально лучший инструмент.</p>",
+          "after": "<p>Salvi Mia находится в официальной программе учебной аренды Lyon & Healy/Salvi и в брошюре этой программы описана как компактная, лёгкая и надёжная 34‑струнная арфа для начинающих любого возраста. Это один из вариантов для регулярной практики, а не универсально лучший инструмент.</p>",
+          "reason": "Education-quality-canon определяет «золотой» как внутренний приоритет исследования, а публичный текст должен раскрывать задачу. Компактность, 34 струны, возрастная адресация производителя и ограничение универсального превосходства сохранены."
+        }
+      ],
+      "compiled06_page_sha256": "8d739960c068edd5d3bfb9b44a5fa69fc1779e776b467a34299774be7996ffe9",
+      "proposed_compiled06_page_sha256": "cda6f4f13a8dd0eeaead6aa8b4bd889856a48b4511dc4bb116d93fc68e8f67bb"
+    },
+    {
+      "slug": "kawai-k200-v-arendu",
+      "ordinal": 22,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: публикация модели отделена от наличия конкретного экземпляра; это полезное объяснение доступности. Школьный источник отдельно не объявляется рекомендацией Kawai, практика и подготовка содержательны.",
+      "source_page_sha256": "9e98c2c2b685b65930d4292ecd9cefe4401535fd9fec5c0a7e4c780dfe6985c0",
+      "proposed_page_sha256": "9e98c2c2b685b65930d4292ecd9cefe4401535fd9fec5c0a7e4c780dfe6985c0",
+      "amendments": [],
+      "compiled06_page_sha256": "9e98c2c2b685b65930d4292ecd9cefe4401535fd9fec5c0a7e4c780dfe6985c0",
+      "proposed_compiled06_page_sha256": "9e98c2c2b685b65930d4292ecd9cefe4401535fd9fec5c0a7e4c780dfe6985c0"
+    },
+    {
+      "slug": "bayan-yupiter-2d-v-arendu",
+      "ordinal": 23,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «страница изготовителя» — атрибуция паспортных параметров. Текст прямо предусматривает несколько занятий для ученика, который только осваивает выборную систему, и не ставит предварительное владение условием доступа.",
+      "source_page_sha256": "6dad01212371777a9cff08d09ddaa82b245b6a5f33d5705370ccbd4789970c30",
+      "proposed_page_sha256": "6dad01212371777a9cff08d09ddaa82b245b6a5f33d5705370ccbd4789970c30",
+      "amendments": [],
+      "compiled06_page_sha256": "6dad01212371777a9cff08d09ddaa82b245b6a5f33d5705370ccbd4789970c30",
+      "proposed_compiled06_page_sha256": "6dad01212371777a9cff08d09ddaa82b245b6a5f33d5705370ccbd4789970c30"
+    },
+    {
+      "slug": "smychkovye-knilling",
+      "ordinal": 24,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: школьная страница ограничивает область рекомендации марки; отдельные сведения изготовителя о Bucharest не подменяют её. Это источник и метод подбора, а не устройство нашего сайта.",
+      "source_page_sha256": "dc8dd26411662a28825a97dacee4a1ac38e12946febc17b8830fb592c1cf98b3",
+      "proposed_page_sha256": "dc8dd26411662a28825a97dacee4a1ac38e12946febc17b8830fb592c1cf98b3",
+      "amendments": [],
+      "compiled06_page_sha256": "dc8dd26411662a28825a97dacee4a1ac38e12946febc17b8830fb592c1cf98b3",
+      "proposed_compiled06_page_sha256": "dc8dd26411662a28825a97dacee4a1ac38e12946febc17b8830fb592c1cf98b3"
+    },
+    {
+      "slug": "goronok-nova-v-arendu",
+      "ordinal": 25,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Лёгкое звукоизвлечение перестаёт зависеть от того, научился ли ребёнок заранее его слышать. Практическая проверка на исходных упражнениях сохранена.",
+      "source_page_sha256": "42f708304dcd0d19c6ceb8b3a263911a7e4ee0b78ffb1cc832bf8ebd7c5c2d0a",
+      "proposed_page_sha256": "fbddadb33d35af79538ac27bf19698a58aa096c9debdbdde661cfcbd87e350e5",
+      "amendments": [
+        {
+          "slug": "goronok-nova-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "title"
+          ],
+          "before": "Лёгкость звукоизвлечения имеет смысл только если ребёнок действительно её слышит",
+          "after": "Лёгкость звукоизвлечения проверяют на первых упражнениях",
+          "reason": "Категорическое «имеет смысл только если ребёнок действительно её слышит» делает сформированное различение условием доступа. По канону подходящий отклик сам помогает это различение освоить."
+        }
+      ],
+      "compiled06_page_sha256": "42f708304dcd0d19c6ceb8b3a263911a7e4ee0b78ffb1cc832bf8ebd7c5c2d0a",
+      "proposed_compiled06_page_sha256": "fbddadb33d35af79538ac27bf19698a58aa096c9debdbdde661cfcbd87e350e5"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "ordinal": 26,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Убраны архитектурное объяснение модельной линии и допуск по уже имеющейся способности. Дробные размеры, мастеровой характер, адресация производителя и сравнение экземпляров сохранены.",
+      "source_page_sha256": "3e6fc944ea6335d1afd99a8607155a9ab0aea3fdd7eed1e9ad8cb2b782da7029",
+      "proposed_page_sha256": "681824c71f54861c78ad68bd9877b618bbb0d024f6fdab3c3bda1528d48c94e0",
+      "amendments": [
+        {
+          "slug": "goronok-aleksey-romanov-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Линия «Алексей Романов» особенно важна для нашей архитектуры: мастеровой уровень здесь существует не только в 4/4. Производитель выпускает модель в дробных размерах и прямо адресует её одарённым детям, ведущим концертную деятельность, выпускникам музыкальных школ и студентам колледжей.</p>",
+          "after": "<p>Мастеровые скрипки «Алексей Романов» выпускаются не только в размере 4/4. Производитель предлагает модель в дробных размерах и прямо адресует её одарённым детям, ведущим концертную деятельность, выпускникам музыкальных школ и студентам колледжей.</p>",
+          "reason": "«Особенно важна для нашей архитектуры» — внутренняя модель каталога. Сохранена её предметная основа: мастеровые скрипки бывают в дробных размерах, с прежней атрибуцией адресации изготовителя."
+        },
+        {
+          "slug": "goronok-aleksey-romanov-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "label"
+          ],
+          "before": "03 / ДОПУСК",
+          "after": "03 / ЗАДАЧА",
+          "reason": "«Допуск» поддерживает снятый порог допуска ученика к инструменту; раздел относится к музыкальной задаче и сравнительной пробе."
+        },
+        {
+          "slug": "goronok-aleksey-romanov-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "title"
+          ],
+          "before": "Мастеровой уровень нужен только там, где ученик способен его использовать",
+          "after": "Мастеровой инструмент выбирают под текущую учебную и концертную задачу",
+          "reason": "Способность заранее использовать отклик не является условием обучения. Новый H2 согласуется с существующим абзацем о конкретных ограничениях и текущей программе, не объявляя высокую категорию обязательной."
+        }
+      ],
+      "compiled06_page_sha256": "3e6fc944ea6335d1afd99a8607155a9ab0aea3fdd7eed1e9ad8cb2b782da7029",
+      "proposed_compiled06_page_sha256": "681824c71f54861c78ad68bd9877b618bbb0d024f6fdab3c3bda1528d48c94e0"
+    },
+    {
+      "slug": "elektrogitara-dlya-perehoda-s-akusticheskoy",
+      "ordinal": 27,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: «слой управления» — звукосниматели и эффекты. Сценарий использует знакомую акустическую песню для освоения нового инструмента, не требует заранее владеть его возможностями.",
+      "source_page_sha256": "d85876333fee58b3a570460de35dda6a67647c41b999d0f4b0440d0fa42996f1",
+      "proposed_page_sha256": "d85876333fee58b3a570460de35dda6a67647c41b999d0f4b0440d0fa42996f1",
+      "amendments": [],
+      "compiled06_page_sha256": "d85876333fee58b3a570460de35dda6a67647c41b999d0f4b0440d0fa42996f1",
+      "proposed_compiled06_page_sha256": "d85876333fee58b3a570460de35dda6a67647c41b999d0f4b0440d0fa42996f1"
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "ordinal": 28,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: слои — фортепиано и тембровая подкладка. Управление балансом является задачей подготовки концертной конфигурации, а не условием получить инструмент для обучения; срок сформулирован условно.",
+      "source_page_sha256": "620511970b0019bf145eec245cd59017e6185d2e99d56261c143933854f9d7ad",
+      "proposed_page_sha256": "620511970b0019bf145eec245cd59017e6185d2e99d56261c143933854f9d7ad",
+      "amendments": [],
+      "compiled06_page_sha256": "620511970b0019bf145eec245cd59017e6185d2e99d56261c143933854f9d7ad",
+      "proposed_compiled06_page_sha256": "620511970b0019bf145eec245cd59017e6185d2e99d56261c143933854f9d7ad"
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "ordinal": 29,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Удалено объяснение существования URL; различие исторического оригинала и переиздания, внешнего источника экземпляра и подтверждаемого доступа сохранено.",
+      "source_page_sha256": "5a93d843ef1d59ca6d064b22a0dd33a532429e5072be384e95b57203b3c677e9",
+      "proposed_page_sha256": "4b459063a074a318b2bf00317900a3da4deac28fbbed851c0d1c7b1cdab131ae",
+      "amendments": [
+        {
+          "slug": "gibson-f5-master-model-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Редкий оригинал может требовать внешнего владельца или коллекции. Адрес существует потому, что модель сама является музыкальным запросом.",
+          "after": "Редкий оригинал может требовать внешнего владельца или коллекции.",
+          "reason": "«Адрес существует потому» относится к внутреннему обоснованию каталога. H2 уже объясняет отсутствие обещания постоянного наличия, а сохранённое предложение — возможный внешний источник конкретного оригинала."
+        }
+      ],
+      "compiled06_page_sha256": "5a93d843ef1d59ca6d064b22a0dd33a532429e5072be384e95b57203b3c677e9",
+      "proposed_compiled06_page_sha256": "4b459063a074a318b2bf00317900a3da4deac28fbbed851c0d1c7b1cdab131ae"
+    },
+    {
+      "slug": "klassicheskaya-gitara-na-ekzamen",
+      "ordinal": 30,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: речь о временной замене непосредственно под уже подготовленную экзаменационную программу, особенно при малом запасе времени. Текст прямо даёт период адаптации до контроля; «реально использует» ограничивает риск замены перед экзаменом, не доступ к функции для обучения вообще.",
+      "source_page_sha256": "89232089cc7d0333eadb4595e8bf9a87ea328631ed6b81bbe9e385e00069d31c",
+      "proposed_page_sha256": "89232089cc7d0333eadb4595e8bf9a87ea328631ed6b81bbe9e385e00069d31c",
+      "amendments": [],
+      "compiled06_page_sha256": "89232089cc7d0333eadb4595e8bf9a87ea328631ed6b81bbe9e385e00069d31c",
+      "proposed_compiled06_page_sha256": "89232089cc7d0333eadb4595e8bf9a87ea328631ed6b81bbe9e385e00069d31c"
+    },
+    {
+      "slug": "valtorna-na-proslushivanie",
+      "ordinal": 31,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: уверенное управление требуется к назначенной дате прослушивания, а не до получения инструмента. Срок аренды явно включает освоение и полный прогон; сохранены привычная конфигурация и художественная проба.",
+      "source_page_sha256": "4b9f4090018ecd53324e415b21220869abb38677cc0d721ae5c5802e4cee58c7",
+      "proposed_page_sha256": "4b9f4090018ecd53324e415b21220869abb38677cc0d721ae5c5802e4cee58c7",
+      "amendments": [],
+      "compiled06_page_sha256": "4b9f4090018ecd53324e415b21220869abb38677cc0d721ae5c5802e4cee58c7",
+      "proposed_compiled06_page_sha256": "4b9f4090018ecd53324e415b21220869abb38677cc0d721ae5c5802e4cee58c7"
+    },
+    {
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "ordinal": 32,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: условие узнаваемых опор относится к домашней замене акустической виолончели и сохранению той же техники. Новые функции не блокируются прежним владением; несколько недель пробы предусмотрены.",
+      "source_page_sha256": "2a4a7c9617ac8c52af70d36d638c9dc9413e8e315de6e8ad92f0260a9035573a",
+      "proposed_page_sha256": "2a4a7c9617ac8c52af70d36d638c9dc9413e8e315de6e8ad92f0260a9035573a",
+      "amendments": [],
+      "compiled06_page_sha256": "0083c0b1f69d4b9f4754e97881c69209ef92505113cfaf55d9a8cdd1698d0f9b",
+      "proposed_compiled06_page_sha256": "0083c0b1f69d4b9f4754e97881c69209ef92505113cfaf55d9a8cdd1698d0f9b"
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "ordinal": 33,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: точный тип и строй нужны, чтобы не подменять пятиструнное банджо теноровым в одном учебном материале. Это выбор совместимой системы до урока, а не требование уже освоить её; аренда охватывает первый этап.",
+      "source_page_sha256": "86ff775af2a6b8b89faedda82437b40c1c31388da4c57a01137666ea14e5d1a9",
+      "proposed_page_sha256": "86ff775af2a6b8b89faedda82437b40c1c31388da4c57a01137666ea14e5d1a9",
+      "amendments": [],
+      "compiled06_page_sha256": "46fc940beb3393c6c8aa8ac5e5f15899af347c6f1707fcafd71f4cacd161730e",
+      "proposed_compiled06_page_sha256": "46fc940beb3393c6c8aa8ac5e5f15899af347c6f1707fcafd71f4cacd161730e"
+    },
+    {
+      "slug": "domra-pered-pokupkoy",
+      "ordinal": 34,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: условие реальной практики относится к окончательной покупке после аренды. Трёх-/четырёхструнную систему выбирают по задаче, предварительное владение не требуется для временного доступа.",
+      "source_page_sha256": "e5f97613e75d50c229728ecf5f6045f7a967aabfa434bb6047a4f4e4eb78f8da",
+      "proposed_page_sha256": "e5f97613e75d50c229728ecf5f6045f7a967aabfa434bb6047a4f4e4eb78f8da",
+      "amendments": [],
+      "compiled06_page_sha256": "6c3d5c73c8f602d71026c2cf9037b7f8a5aaed396f94fa24d901b7ffd0d06f2d",
+      "proposed_compiled06_page_sha256": "6c3d5c73c8f602d71026c2cf9037b7f8a5aaed396f94fa24d901b7ffd0d06f2d"
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "ordinal": 35,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Снято предварительное владение самостоятельной левой партией как условие смысла выборного баса; программа, учебный вход и реальная практика до покупки сохранены.",
+      "source_page_sha256": "61ea96053d1629c10740f87953dabef00499c0b406030983920574749a46b36c",
+      "proposed_page_sha256": "5dc39d78221b36546c3093d113df7417e36b5b44744cf6c8e22c0619cadb03e4",
+      "amendments": [
+        {
+          "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Выборный бас имеет смысл, когда левая рука уже ведёт самостоятельный материал и новый репертуар реально использует эту возможность.</p>",
+          "after": "<p>Выборный бас имеет смысл, когда программа требует самостоятельной партии левой руки, в том числе если эту возможность только предстоит освоить.</p>",
+          "reason": "Исходное «левая рука уже ведёт» делает умение результатом, необходимым до доступа к средству его освоения. Новая формулировка сохраняет требование музыкальной программы и допускает обучение новой функции."
+        }
+      ],
+      "compiled06_page_sha256": "2d4238df8034ea7915bac67fc6e664b48112c9542be1ab307a00e4795a290036",
+      "proposed_compiled06_page_sha256": "90874ae8b0916916aad662bd56c886281ffd66dbe90f3e1fb954704d284aff8a"
+    },
+    {
+      "slug": "bandoneon-pered-pokupkoy",
+      "ordinal": 36,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: страница проверяет соответствие новой покупки уже выбранной системе и допускает несколько недель знакомства до покупки. Вопрос об освоенной системе уточняет исходный опыт, не устанавливает запрет получить бандонеон для обучения. Соседние страницы отдельно раскрывают первый опыт и переход с аккордеона.",
+      "source_page_sha256": "a62fcaadfbfa3ff27d759123dcbf1c3b3632cd75a86ee66de1c41822254891df",
+      "proposed_page_sha256": "a62fcaadfbfa3ff27d759123dcbf1c3b3632cd75a86ee66de1c41822254891df",
+      "amendments": [],
+      "compiled06_page_sha256": "a62fcaadfbfa3ff27d759123dcbf1c3b3632cd75a86ee66de1c41822254891df",
+      "proposed_compiled06_page_sha256": "a62fcaadfbfa3ff27d759123dcbf1c3b3632cd75a86ee66de1c41822254891df"
+    },
+    {
+      "slug": "backline-dlya-klubnoy-stseny",
+      "ordinal": 37,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: условие полезности относится к месту на клубной сцене и функции крупного комплекта в программе. Это ограничение геометрии концертной системы, не требование ученику освоить функцию до обучения.",
+      "source_page_sha256": "a6e658c701a138d0d06260857c9788a5e36055d8a52a40f91e66222be5887f63",
+      "proposed_page_sha256": "a6e658c701a138d0d06260857c9788a5e36055d8a52a40f91e66222be5887f63",
+      "amendments": [],
+      "compiled06_page_sha256": "a6e658c701a138d0d06260857c9788a5e36055d8a52a40f91e66222be5887f63",
+      "proposed_compiled06_page_sha256": "a6e658c701a138d0d06260857c9788a5e36055d8a52a40f91e66222be5887f63"
+    },
+    {
+      "slug": "instrumenty-dlya-pervogo-duhovogo-ansamblya",
+      "ordinal": 38,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: исходные инструменты детей определяют первый ансамбль; фраза защищает от принудительного добора «классического» состава. Участники ещё учатся своим партиям, и аренда допускает недостающий голос — законченного владения новой функцией текст не требует.",
+      "source_page_sha256": "c04732686ccfe309313bcd387f29fc9e5947e53da45c2b5a32d78d7eda9cc7f1",
+      "proposed_page_sha256": "c04732686ccfe309313bcd387f29fc9e5947e53da45c2b5a32d78d7eda9cc7f1",
+      "amendments": [],
+      "compiled06_page_sha256": "c04732686ccfe309313bcd387f29fc9e5947e53da45c2b5a32d78d7eda9cc7f1",
+      "proposed_compiled06_page_sha256": "c04732686ccfe309313bcd387f29fc9e5947e53da45c2b5a32d78d7eda9cc7f1"
+    },
+    {
+      "slug": "instrument-po-programme-ekzamena",
+      "ordinal": 39,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: поле описывает готовность к контрольному исполнению и аренду заранее. Возможность освоить функцию до экзамена прямо сохранена; это не общий порог доступа к обучающему инструменту.",
+      "source_page_sha256": "823589e2120651591438c5366f1b363b09ae3dd0a43c2480b5cb94571cad008f",
+      "proposed_page_sha256": "823589e2120651591438c5366f1b363b09ae3dd0a43c2480b5cb94571cad008f",
+      "amendments": [],
+      "compiled06_page_sha256": "823589e2120651591438c5366f1b363b09ae3dd0a43c2480b5cb94571cad008f",
+      "proposed_compiled06_page_sha256": "823589e2120651591438c5366f1b363b09ae3dd0a43c2480b5cb94571cad008f"
+    },
+    {
+      "slug": "instrument-po-programme-proslushivaniya",
+      "ordinal": 40,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: H1 и срок прямо относят готовность к моменту оценки; аренда начинается с запасом времени на адаптацию. Условие готовности на сцене не превращено в запрет предварительной учебной пробы.",
+      "source_page_sha256": "021649ed02e1b6393f74d3e58a02d88bf22ffbcdc5337d663c5732a9e740f0f5",
+      "proposed_page_sha256": "021649ed02e1b6393f74d3e58a02d88bf22ffbcdc5337d663c5732a9e740f0f5",
+      "amendments": [],
+      "compiled06_page_sha256": "021649ed02e1b6393f74d3e58a02d88bf22ffbcdc5337d663c5732a9e740f0f5",
+      "proposed_compiled06_page_sha256": "021649ed02e1b6393f74d3e58a02d88bf22ffbcdc5337d663c5732a9e740f0f5"
+    },
+    {
+      "slug": "instrument-esli-povtornaya-nota-ne-uspevaet",
+      "ordinal": 41,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: требуемый темп должен относиться к программе при решении о постоянной смене. Текст допускает сравнительную пробу и не требует заранее освоенного темпа до доступа.",
+      "source_page_sha256": "b4f50ed29d69cc199a200b412c85b84d3e4740d27dfc9b639226643497fd0f47",
+      "proposed_page_sha256": "b4f50ed29d69cc199a200b412c85b84d3e4740d27dfc9b639226643497fd0f47",
+      "amendments": [],
+      "compiled06_page_sha256": "b4f50ed29d69cc199a200b412c85b84d3e4740d27dfc9b639226643497fd0f47",
+      "proposed_compiled06_page_sha256": "b4f50ed29d69cc199a200b412c85b84d3e4740d27dfc9b639226643497fd0f47"
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "ordinal": 42,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: реальная партия задаёт музыкальную причину расширения; временный доступ прямо позволяет проверить новую функцию. Сохранение прежних движений рядом с новой струной не требует заранее владеть новой техникой.",
+      "source_page_sha256": "285019edf57b23bac007fcef7d7b8a1f83054cb05f41aa5f2a396f62da320060",
+      "proposed_page_sha256": "285019edf57b23bac007fcef7d7b8a1f83054cb05f41aa5f2a396f62da320060",
+      "amendments": [],
+      "compiled06_page_sha256": "3352763c4dea68b27a7988f8460101cbfcee450d934ee381f4a79638870df5bb",
+      "proposed_compiled06_page_sha256": "3352763c4dea68b27a7988f8460101cbfcee450d934ee381f4a79638870df5bb"
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "ordinal": 43,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: используются ноты/зоны текущего проекта, а не доказанное владение расширенной клавиатурой. Это выбор диапазона по функции с временной пробой.",
+      "source_page_sha256": "798ab68d01d39bbbca104d9e1984c7fc75abb25511dd56df5b92137d756333e8",
+      "proposed_page_sha256": "798ab68d01d39bbbca104d9e1984c7fc75abb25511dd56df5b92137d756333e8",
+      "amendments": [],
+      "compiled06_page_sha256": "06113a92af008592c2ee534fca6e2aa279689d63dd3dafb6d8dfe6cb70f7724b",
+      "proposed_compiled06_page_sha256": "06113a92af008592c2ee534fca6e2aa279689d63dd3dafb6d8dfe6cb70f7724b"
+    },
+    {
+      "slug": "alhambra-4p-v-arendu",
+      "ordinal": 44,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Keep: уже освоенная пьеса служит постоянным материалом для сравнения нового отклика. Проба продолжается обычными занятиями, на которых нужное действие может впервые появиться; предварительное освоение нового качества не требуется.",
+      "source_page_sha256": "7640aacf3e1aebbbaa8ee5a417ebff9f7d29d493b47a474d0533ddb9f38aa68e",
+      "proposed_page_sha256": "7640aacf3e1aebbbaa8ee5a417ebff9f7d29d493b47a474d0533ddb9f38aa68e",
+      "amendments": [],
+      "compiled06_page_sha256": "3cb79d5f6525a0a1b92fc8af9494d1fcd5db0bc4612855e5c8aa2a14a80200dc",
+      "proposed_compiled06_page_sha256": "3cb79d5f6525a0a1b92fc8af9494d1fcd5db0bc4612855e5c8aa2a14a80200dc"
+    },
+    {
+      "slug": "gusli-s-diapazonom-po-programme",
+      "ordinal": 45,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Диапазон привязан к нотам и фактуре текущей программы; новая нота прямо названа основанием расширения. Освоение всех возможностей до доступа не требуется. Объяснение роли арендного фонда связано с учебными ступенями, а не с устройством сайта.",
+      "source_page_sha256": "32218ff7509ac0056c29b863bf6d15636e19c8716a66131218181cc08d479eb9",
+      "proposed_page_sha256": "32218ff7509ac0056c29b863bf6d15636e19c8716a66131218181cc08d479eb9",
+      "amendments": [],
+      "compiled06_page_sha256": "32218ff7509ac0056c29b863bf6d15636e19c8716a66131218181cc08d479eb9",
+      "proposed_compiled06_page_sha256": "32218ff7509ac0056c29b863bf6d15636e19c8716a66131218181cc08d479eb9"
+    },
+    {
+      "slug": "shen-sb150-v-arendu",
+      "ordinal": 46,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Освоенный фрагмент нужен для чистого сравнения геометрии и привычного движения. Текст разрешает пробу с новыми пожеланиями к фразе и поручает выбор посильного материала педагогу; это не требование заранее освоить новый отклик.",
+      "source_page_sha256": "a0e784c8b66477b8984b019eb2e6106a35a512bed20c261c7bd244bd898482f2",
+      "proposed_page_sha256": "a0e784c8b66477b8984b019eb2e6106a35a512bed20c261c7bd244bd898482f2",
+      "amendments": [],
+      "compiled06_page_sha256": "a0e784c8b66477b8984b019eb2e6106a35a512bed20c261c7bd244bd898482f2",
+      "proposed_compiled06_page_sha256": "a0e784c8b66477b8984b019eb2e6106a35a512bed20c261c7bd244bd898482f2"
+    },
+    {
+      "slug": "yamaha-fs800-v-arendu",
+      "ordinal": 47,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Модель прямо адресована первым занятиям; абзац о динамике после базовых аккордов объясняет запас для дальнейшей работы, не ставит владение динамикой условием доступа. Оговорки о посадке, мензуре и размере сохранены.",
+      "source_page_sha256": "8cfb7f0fbc5a0aef45a4fbb3b5b9b9851b46683ff37c83c9a3546b5dd933e137",
+      "proposed_page_sha256": "8cfb7f0fbc5a0aef45a4fbb3b5b9b9851b46683ff37c83c9a3546b5dd933e137",
+      "amendments": [],
+      "compiled06_page_sha256": "8cfb7f0fbc5a0aef45a4fbb3b5b9b9851b46683ff37c83c9a3546b5dd933e137",
+      "proposed_compiled06_page_sha256": "8cfb7f0fbc5a0aef45a4fbb3b5b9b9851b46683ff37c83c9a3546b5dd933e137"
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "ordinal": 48,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Три формулировки требуют уже использовать дополнительный отклик или делают отсутствие немедленной музыкальной свободы причиной отказа. По канону текущая программа может требовать освоения нового отклика; сохраняются проверка пользы, дробный размер и сравнение марок.",
+      "source_page_sha256": "be16a7e3525e6b26cb2790a4654e7f0bf56bd890d691e317952ae8f2c97b9282",
+      "proposed_page_sha256": "4c557c7dbc5dc4906f0246b763e06a3d2026b9ef169bad3988e6052da16d1cee",
+      "amendments": [
+        {
+          "slug": "gewa-maestro1-skripka-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "title"
+          ],
+          "before": "Название Maestro имеет смысл только если ученик уже использует дополнительный отклик",
+          "after": "Дополнительный отклик Maestro проверяют на задачах текущей программы",
+          "reason": "Проверка музыкальной задачи вместо предварительно освоенной способности."
+        },
+        {
+          "slug": "gewa-maestro1-skripka-v-arendu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "На конкурсной или поступательной программе сравнивают оттенки, верхний регистр и скорость реакции. Если разница не превращается в музыкальную свободу, серия более высокого уровня пока не нужна.",
+          "after": "На конкурсной или поступательной программе сравнивают оттенки, верхний регистр и скорость реакции. Нужно проверить, помогает ли дополнительный отклик выполнять или осваивать задачи текущей программы.",
+          "reason": "Сохранено предметное сравнение; освоение возможности также входит в проверяемую пользу."
+        },
+        {
+          "slug": "gewa-maestro1-skripka-v-arendu",
+          "json_path": [
+            "quote"
+          ],
+          "before": "Ученик уже способен использовать инструмент для продвинутого этапа в своём текущем размере?",
+          "after": "Какие задачи текущей программы помогут проверить Maestro в подходящем ученику размере?",
+          "reason": "Вопрос касается программы и размера, а не допуска по уже достигнутому навыку."
+        }
+      ],
+      "compiled06_page_sha256": "be16a7e3525e6b26cb2790a4654e7f0bf56bd890d691e317952ae8f2c97b9282",
+      "proposed_compiled06_page_sha256": "4c557c7dbc5dc4906f0246b763e06a3d2026b9ef169bad3988e6052da16d1cee"
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "ordinal": 49,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Управляемость большого корпуса раскрывается через свободную посадку, громкую и тихую пробу; речь о физической совместимости и функции партии. Репетиционный период прямо включён, предварительного владения новой функцией до получения инструмента не требуется.",
+      "source_page_sha256": "a1292be7d8e7185f2610830b71f148544e3b4320a60ce89b7bf54ed7fcf433a6",
+      "proposed_page_sha256": "a1292be7d8e7185f2610830b71f148544e3b4320a60ce89b7bf54ed7fcf433a6",
+      "amendments": [],
+      "compiled06_page_sha256": "7c7aaded24802bf7fbd73f9fcd08810a168d1fd8df2e4270f46ce99073f61329",
+      "proposed_compiled06_page_sha256": "7c7aaded24802bf7fbd73f9fcd08810a168d1fd8df2e4270f46ce99073f61329"
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "ordinal": 50,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Полезность контраста связана с двумя звуками одного концертного сет-листа и уменьшением числа смен инструмента. Текст не требует заранее освоить HSS или отсечку: это функциональный критерий сценической задачи, который проверяют в аренде.",
+      "source_page_sha256": "bfa13472e0bd136a7407e1998010541c7e805a061b972b12b76bcd347df42830",
+      "proposed_page_sha256": "bfa13472e0bd136a7407e1998010541c7e805a061b972b12b76bcd347df42830",
+      "amendments": [],
+      "compiled06_page_sha256": "da2d7be7d59404d70ef1ba37520b36e95485d1e7874f7399547b11c0b0d0ab37",
+      "proposed_compiled06_page_sha256": "da2d7be7d59404d70ef1ba37520b36e95485d1e7874f7399547b11c0b0d0ab37"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+      "ordinal": 51,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "В странице двух учебных программ заключение сужает подбор до уже реально используемых функций. Требования преподавателей могут включать функцию, которую одному из учеников только предстоит освоить; точнее сохранить выбор по более требовательной программе.",
+      "source_page_sha256": "124b68e983c62067c2a521d9732133aa5528be5b525922ada9ccc957d64802fa",
+      "proposed_page_sha256": "beb85d2a7e5c096bd28f9dad61c81bafc458e15e792f0ddb0cc03393b6ed7591",
+      "amendments": [
+        {
+          "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Одному ученику может быть достаточно базовой педали и начальной механики, другому уже нужны более тонкая педализация и динамический контроль. Инструмент выбирают по более требовательной из реально используемых функций.",
+          "after": "Одному ученику может быть достаточно базовой педали и начальной механики, другому уже нужны более тонкая педализация и динамический контроль. Инструмент выбирают по более требовательной из функций, нужных для текущих программ.",
+          "reason": "Текущая учебная потребность вместо ограничения уже используемыми функциями; принцип подбора для двух учеников сохранён."
+        }
+      ],
+      "compiled06_page_sha256": "124b68e983c62067c2a521d9732133aa5528be5b525922ada9ccc957d64802fa",
+      "proposed_compiled06_page_sha256": "beb85d2a7e5c096bd28f9dad61c81bafc458e15e792f0ddb0cc03393b6ed7591"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "ordinal": 52,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "В первом блоке проверка подходящей педальной функции подменена утверждением о том, умеет ли ученик пользоваться тремя педалями. Остальная страница прямо посвящена появлению новой педализации в программе и допускает переход; минимальная замена согласует абзац с этой задачей.",
+      "source_page_sha256": "96f1fc28d6bcc4025c83f19ea563ec6ba332f49eddd805e189ffd42291809f61",
+      "proposed_page_sha256": "e2afbf26c0c27441609b40e5b03ca2a3df1046b829ff21c2ecba49cc5790e03c",
+      "amendments": [
+        {
+          "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+          "json_path": [
+            "blocks",
+            0,
+            "paragraphs",
+            0
+          ],
+          "before": "Kawai ES120 допускает тройной блок F-351, Yamaha и Roland также имеют расширенные педальные решения. Но сам факт трёх педалей ещё не доказывает, что ученик умеет ими пользоваться.",
+          "after": "Kawai ES120 допускает тройной блок F-351, Yamaha и Roland также имеют расширенные педальные решения. При выборе блока проверяют нужную программе функцию, а не только число педалей.",
+          "reason": "Критерий выбора относится к функции оборудования по программе, а не к предварительно сформированному навыку ученика."
+        }
+      ],
+      "compiled06_page_sha256": "96f1fc28d6bcc4025c83f19ea563ec6ba332f49eddd805e189ffd42291809f61",
+      "proposed_compiled06_page_sha256": "e2afbf26c0c27441609b40e5b03ca2a3df1046b829ff21c2ecba49cc5790e03c"
+    },
+    {
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "ordinal": 53,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Страница посвящена подготовке конкретного концертного сета. Сет-лист, программирование и проход без редактирования — последовательные этапы подготовки к выступлению; прямо требуется начать аренду заранее. Это не условие предварительного владения станцией до обучения.",
+      "source_page_sha256": "28fe9550a9261181d5451bd3bf054d321e5ac76e40b320de955ac7d6f49593d5",
+      "proposed_page_sha256": "28fe9550a9261181d5451bd3bf054d321e5ac76e40b320de955ac7d6f49593d5",
+      "amendments": [],
+      "compiled06_page_sha256": "fd8b0519caf63c315e46384a177c1ff2ec095e75963bcd9c93915bdb5ebe7cb6",
+      "proposed_compiled06_page_sha256": "fd8b0519caf63c315e46384a177c1ff2ec095e75963bcd9c93915bdb5ebe7cb6"
+    },
+    {
+      "slug": "kongi-dlya-pervogo-opyta",
+      "ordinal": 54,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Переход от ясного тембра одного барабана к рисункам между двумя описывает последовательность упражнений и её конкретную причину — не скрывать ошибки звукоизвлечения. Доступ к паре не запрещён: третий блок прямо допускает начать с пары для проекта. Редактура превратила бы педагогическую последовательность в иной совет без доказанного дефекта.",
+      "source_page_sha256": "8007b6c71d515c65dbe868bb45a2dd9a818413bdef16c8281aa5210e38e51b4a",
+      "proposed_page_sha256": "8007b6c71d515c65dbe868bb45a2dd9a818413bdef16c8281aa5210e38e51b4a",
+      "amendments": [],
+      "compiled06_page_sha256": "6f7e5cba7579a977e8235ca5632ee34a36a6aafd535d249268115a97b544bbaf",
+      "proposed_compiled06_page_sha256": "6f7e5cba7579a977e8235ca5632ee34a36a6aafd535d249268115a97b544bbaf"
+    },
+    {
+      "slug": "arcata-giovanni-v-arendu",
+      "ordinal": 55,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Завершающее предложение intro делает уже освоенное использование отклика условием смысла модели, хотя текущая программа может только вводить соответствующий навык. Атрибуция производителя, размеры, подбор и образовательные примеры остаются; потребность в отклике в quote сама по себе не требует готового навыка.",
+      "source_page_sha256": "9ee43e956c0ee8ebad3d0a4811f6443d77e403110600dae9eee77821594b02fb",
+      "proposed_page_sha256": "f6e40f7b768921563b66543b328ec9956580b9dcd8b071b55ff7d5825bf1097c",
+      "amendments": [
+        {
+          "slug": "arcata-giovanni-v-arendu",
+          "json_path": [
+            "intro",
+            0
+          ],
+          "before": "<p>Giovanni Arcata обозначает не просто более дорогую комплектацию Gasparo. Мануфактура относит её к студенческой категории, использует более требовательный отбор древесины и описывает дополнительную доводку конструкции и звука. Модель имеет смысл тогда, когда ученик уже способен использовать это различие в своей программе.</p>",
+          "after": "<p>Giovanni Arcata обозначает не просто более дорогую комплектацию Gasparo. Мануфактура относит её к студенческой категории, использует более требовательный отбор древесины и описывает дополнительную доводку конструкции и звука. Различие проверяют на задачах текущей программы, в том числе тех, которые ученику только предстоит освоить.</p>",
+          "reason": "Убрано требование предварительно уметь использовать новый отклик; сохранена проверка различия по текущей учебной программе."
+        }
+      ],
+      "compiled06_page_sha256": "9ee43e956c0ee8ebad3d0a4811f6443d77e403110600dae9eee77821594b02fb",
+      "proposed_compiled06_page_sha256": "f6e40f7b768921563b66543b328ec9956580b9dcd8b071b55ff7d5825bf1097c"
+    },
+    {
+      "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+      "ordinal": 56,
+      "decision": "enrich",
+      "full_public_page_read": true,
+      "reason": "Финал школьного блока допускает более высокую категорию только после освоения её дополнительного качества. Потребность текущей программы, включая формирование нового навыка, снимает круговое условие и сохраняет предметное основание перехода.",
+      "source_page_sha256": "055a926cd794d65c213879d353177f854b7f3f9b11e1933df0a70e0d72b760fe",
+      "proposed_page_sha256": "c522586b7232b30978fc44294219a02dab96a0c2cb3f5239c93314aa4dba9d59",
+      "amendments": [
+        {
+          "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+          "json_path": [
+            "blocks",
+            2,
+            "paragraphs",
+            0
+          ],
+          "before": "Такой инструмент может быть разумен и начинающему, и школе для фонда, если соответствует программе и хорошо подготовлен. Более высокая категория имеет смысл тогда, когда ученик уже способен использовать конкретное дополнительное качество.",
+          "after": "Такой инструмент может быть разумен и начинающему, и школе для фонда, если соответствует программе и хорошо подготовлен. Более высокую категорию рассматривают, когда конкретное дополнительное качество нужно для текущей программы, в том числе для освоения нового навыка.",
+          "reason": "Учебная задача вместо предварительного освоения нового свойства; технические данные, подготовка и пригодность учебной категории сохранены."
+        }
+      ],
+      "compiled06_page_sha256": "055a926cd794d65c213879d353177f854b7f3f9b11e1933df0a70e0d72b760fe",
+      "proposed_compiled06_page_sha256": "c522586b7232b30978fc44294219a02dab96a0c2cb3f5239c93314aa4dba9d59"
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "ordinal": 57,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Оборудование, которое группа умеет использовать, требуется в конкретной сцене первого концерта для воспроизведения подготовленной программы. Текст не запрещает освоение нового оборудования заранее и не относится к условиям учебного доступа; знакомые функции здесь снижают неопределённость на сцене.",
+      "source_page_sha256": "67cd4540448bd7f673d20b53e235e0848cc3b5e6dae2f6d0e3c78a8e26dc06c6",
+      "proposed_page_sha256": "67cd4540448bd7f673d20b53e235e0848cc3b5e6dae2f6d0e3c78a8e26dc06c6",
+      "amendments": [],
+      "compiled06_page_sha256": "347432bcbcc4cd4a005891db1131fc1bc9615160fd32fa613a804d3334a6ea87",
+      "proposed_compiled06_page_sha256": "347432bcbcc4cd4a005891db1131fc1bc9615160fd32fa613a804d3334a6ea87"
+    },
+    {
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "ordinal": 58,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Точный контакт пальцев — физическое условие герметичности, а педагогическая задача — основание перехода. Страница прямо предусматривает постепенную адаптацию и временные заглушки; готовность не превращена в требование заранее владеть открытыми клапанами.",
+      "source_page_sha256": "935857b47ba57f3992888383831ad0f4ee192ba3ff3335f47e44ac1cf8a37091",
+      "proposed_page_sha256": "935857b47ba57f3992888383831ad0f4ee192ba3ff3335f47e44ac1cf8a37091",
+      "amendments": [],
+      "compiled06_page_sha256": "0b0e7263c9684c197aadfb39130515293bc491820ea3008704d9c3a91c2f2ff8",
+      "proposed_compiled06_page_sha256": "0b0e7263c9684c197aadfb39130515293bc491820ea3008704d9c3a91c2f2ff8"
+    },
+    {
+      "slug": "garmon",
+      "ordinal": 59,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Требование знакомой раскладки относится к уже подготовленной программе перед выступлением; время на знакомство прямо включено. Корневая страница также ведёт к взрослому начинающему. Quote связывает узнаваемый образ с реальной живой игрой, а не ограничивает доступ до обучения.",
+      "source_page_sha256": "5fa893a7b4d430eab90815a0aea98489ad632533c434f1b3e90042b284b30e42",
+      "proposed_page_sha256": "5fa893a7b4d430eab90815a0aea98489ad632533c434f1b3e90042b284b30e42",
+      "amendments": [],
+      "compiled06_page_sha256": "5fa893a7b4d430eab90815a0aea98489ad632533c434f1b3e90042b284b30e42",
+      "proposed_compiled06_page_sha256": "5fa893a7b4d430eab90815a0aea98489ad632533c434f1b3e90042b284b30e42"
+    },
+    {
+      "slug": "kontrafagot-dlya-pervogo-opyta",
+      "ordinal": 60,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Освоение положения корпуса и спокойного среднего регистра до крайнего низа — внутренняя последовательность занятий на уже полученном инструменте. Страница первого опыта прямо допускает освоение самостоятельной физической задачи фаготистом; запрета доступа до нового навыка нет.",
+      "source_page_sha256": "9d6f23b93ea3e17a54f601e06280d824bd9e1d33420d3061461816c48f0165cd",
+      "proposed_page_sha256": "9d6f23b93ea3e17a54f601e06280d824bd9e1d33420d3061461816c48f0165cd",
+      "amendments": [],
+      "compiled06_page_sha256": "9d6f23b93ea3e17a54f601e06280d824bd9e1d33420d3061461816c48f0165cd",
+      "proposed_compiled06_page_sha256": "9d6f23b93ea3e17a54f601e06280d824bd9e1d33420d3061461816c48f0165cd"
+    },
+    {
+      "slug": "trombon-s-kvartventilem-dlya-perehoda",
+      "ordinal": 61,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Понимание пользы альтернативных позиций и наблюдение путаницы описывают результат пробы и ход освоения. Несколько недель аренды прямо отданы формированию новой техники до покупки, поэтому завершённый навык не является условием получения инструмента.",
+      "source_page_sha256": "83f676ec404bbb987ef5a1a8aac403ed6e87d6356073b8391b0d17319b7f53c8",
+      "proposed_page_sha256": "83f676ec404bbb987ef5a1a8aac403ed6e87d6356073b8391b0d17319b7f53c8",
+      "amendments": [],
+      "compiled06_page_sha256": "83f676ec404bbb987ef5a1a8aac403ed6e87d6356073b8391b0d17319b7f53c8",
+      "proposed_compiled06_page_sha256": "83f676ec404bbb987ef5a1a8aac403ed6e87d6356073b8391b0d17319b7f53c8"
+    },
+    {
+      "slug": "sintezator-pered-pokupkoy",
+      "ordinal": 62,
+      "decision": "keep",
+      "full_public_page_read": true,
+      "reason": "Способность повторно получить нужный звук через неделю — критерий освоения интерфейса в пробном периоде перед покупкой. Страница допускает практику дома, в студии и на репетиции; это результат обучения на доступном инструменте, а не требование перед началом освоения.",
+      "source_page_sha256": "d511f3c91df9d93e10a2e2774b891667902f895d2811206dabddce31f71124e4",
+      "proposed_page_sha256": "d511f3c91df9d93e10a2e2774b891667902f895d2811206dabddce31f71124e4",
+      "amendments": [],
+      "compiled06_page_sha256": "d884910b02991e0c8bf084d7d969bc5b2c57bb7e557f0252a1cbe9ea19a7bea1",
+      "proposed_compiled06_page_sha256": "d884910b02991e0c8bf084d7d969bc5b2c57bb7e557f0252a1cbe9ea19a7bea1"
+    }
+  ],
+  "candidate": {
+    "file": "post-language-semantic-candidate.json",
+    "sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c"
+  },
+  "amendments_file": {
+    "file": "post-language-semantic-amendments.json",
+    "sha256": "6e45a1537652539ab619b0931c91788b7ad6c41fd94ff79b6beff04ea3dab2cc"
+  },
+  "labels_file": {
+    "file": "post-language-semantic-labels.json",
+    "sha256": "761e09887e56d6892aabd233ea3249a1f27a87482555532a58897a5c2df4c5ae"
+  },
+  "validation": {
+    "method": "JSON-only structural comparison; no repository imports, build or suite.",
+    "every_before_matches_compiled06": true,
+    "candidate_reconstructed_from_exact_compiled06": true,
+    "full_array_checks": [
+      {
+        "slug": "instrumenty-dlya-folk-gruppy",
+        "field": "intro",
+        "length": 1,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "dw-collectors-series-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "gibson-j45-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "yamaha-motif-xf8-v-arendu",
+        "field": "intro",
+        "length": 1,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "fazioli-f278-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "wurlitzer-200a-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "mpkmi-gusli-pikkolo-v-arendu",
+        "field": "intro",
+        "length": 1,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "salvi-mia-v-arendu",
+        "field": "intro",
+        "length": 1,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "goronok-nova-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "goronok-aleksey-romanov-v-arendu",
+        "field": "intro",
+        "length": 1,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "goronok-aleksey-romanov-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "gibson-f5-master-model-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+        "field": "intro",
+        "length": 1,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "gewa-maestro1-skripka-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "arcata-giovanni-v-arendu",
+        "field": "intro",
+        "length": 1,
+        "complete_array_preserved": true
+      },
+      {
+        "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+        "field": "blocks",
+        "length": 3,
+        "complete_array_preserved": true
+      }
+    ],
+    "sources_links_parents_kind_n0_n1_description_kicker_unchanged": true,
+    "inline_url_changes": [],
+    "numeric_token_changes": [
+      {
+        "slug": "gibson-j45-v-arendu",
+        "json_path": [
+          "blocks",
+          0,
+          "paragraphs",
+          0
+        ],
+        "before": [
+          "45"
+        ],
+        "after": [],
+        "reason": "Удалено повторное упоминание модельного имени J-45 в служебном предложении; название модели сохранено в N.0/N.1, description/kicker и ссылке источника. Технические параметры не меняются."
+      }
+    ],
+    "technical_numeric_values_changed": false,
+    "incoming_label_operations": 0,
+    "new_pages": 0,
+    "repository_writes": 0
+  },
+  "retained_primary_source_check": {
+    "slug": "mpkmi-gusli-pikkolo-v-arendu",
+    "url": "https://mpkmi.ru/instrument/gusli-zvonchatye-krylovidnye-pikkolo-15-strun/",
+    "result": "Первичная страница подтверждает 15 струн и опубликованные данные конструкции/диапазона; параметры не изменены. Новый источник в публичный текст не добавляется."
+  },
+  "handoff": "Независимый читатель сверяет frozen файлы. После выпусков 06 и label/grammar-пакета root сверяет before с точным новым снимком, затем интегрирует только 25 операций и полные массивы от актуальной базы. Кандидат сам по себе не является публикацией или утверждением о готовности всего проекта."
+}

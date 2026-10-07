@@ -1,0 +1,199 @@
+{
+  "status": "original_post06_reconciliation_recovered_and_consistent_with_published_evidence",
+  "exact_commit": "8d869697a32b17193339c584bd6901423448f3c3",
+  "scope": "Сверка прежних доказательств по 51 явной подписи и 3 грамматическим полям. Без нового предметного аудита, компиляции, build или suite.",
+  "published_integration": {
+    "file": "2026-10-07-language-residual-integration.json",
+    "bytes": 86535,
+    "sha256": "368d3f6510b87fabe3184eb9dab4c22fdea9fb08eb3f1614a6137677128e5367",
+    "status": "public-language-residual"
+  },
+  "original_inventory": [
+    {
+      "file": "mixed-language-label-residual-post06-reconciliation.json",
+      "bytes": 187464,
+      "sha256": "a41686210269231e59bbb2874fe9070dafcae6a6a8f4618ef5d61b9d0ffbdeaf",
+      "status": "content_candidate06_reconciled_release06_not_yet_confirmed"
+    },
+    {
+      "file": "mixed-language-label-residual-independent-review.json",
+      "bytes": 977235,
+      "sha256": "72486cdde4ee6343a031c414ab8f5a9b3a5ac3ddb79a6bd1a07d8ed7baa0d0af",
+      "status": "provisional_independent_review_complete_pending_actual_post06_snapshot"
+    },
+    {
+      "file": "mixed-language-label-residual-root-candidate.json",
+      "bytes": 80368,
+      "sha256": "3819a6f438a7e04bf3a53a5a9d893143b922a360c0864c198ade35c478f934d1",
+      "status": "provisional_until_actual_snapshot_after_group06"
+    },
+    {
+      "file": "remaining-label-independent-source-proof.json",
+      "bytes": 905666,
+      "sha256": "a1c57b0e98e2507012d86dae993ca830e62f9eea9784f4ef91676b80a34470ad",
+      "status": "independently_verified_provisional_pending_exact_post06_snapshot"
+    },
+    {
+      "file": "remaining-label-supplemental-independent-proof.json",
+      "bytes": 5182,
+      "sha256": "29dfdcf4ea41b77662f23ee549ad17ff2d7f071f74d32fcf3b9eb1ccd45a9985",
+      "status": "independently_verified_provisional_pending_post06"
+    },
+    {
+      "file": "remaining-label-independent-checkpoint.json",
+      "bytes": 33511,
+      "sha256": "1b81029728a5648b7bd6e8b39be6d90520763010a52c85a72e352938f17d0b7d",
+      "status": "full_context_reading_complete_pending_author_candidate_and_post06_reconciliation"
+    }
+  ],
+  "final_original_source_proof": {
+    "file": "mixed-language-label-residual-post06-reconciliation.json",
+    "sha256": "a41686210269231e59bbb2874fe9070dafcae6a6a8f4618ef5d61b9d0ffbdeaf",
+    "historical_status": "content_candidate06_reconciled_release06_not_yet_confirmed",
+    "meaning": "Это окончательная локальная сверка содержания и исходных локаторов с точным compiled06. Она закрывает неопределённость данных provisional-проекции, но намеренно не объявляет выпуск06 успешным.",
+    "historical_source_head": "af903958d8701db0577c683cc1cd687e05d5d9ff",
+    "exact_compiled06_sha256": "7c0d88348010de9369a6b7544d42ee86954fcc3fa9cf1084efa6dc8efd0c8302",
+    "release06_record_preserved": {
+      "content_candidate_checked": true,
+      "suite_status_reported_by_root": "finishing_at_assignment",
+      "publication_success_confirmed": false,
+      "integration_gate": "Root must confirm successful release06 before applying package07."
+    },
+    "recorded_coverage": {
+      "reused_full_context_reads": 74,
+      "reused_distinct_label_reviews": 633,
+      "reused_occurrence_source_checks": 1190,
+      "fresh_label_operations_checked": 51,
+      "fresh_supplemental_scalar_fields_checked": 3,
+      "fresh_automatic_children_checked": 36,
+      "fresh_concertina_incoming_links_checked": 4,
+      "new_full_reading_pass": false,
+      "content_public_drift_in_74_contexts": 0,
+      "provenance_only_drift_in_74_contexts": 11,
+      "source_files_for_selected_locators": 17
+    },
+    "original_input_hash_chain": [
+      {
+        "file": "corpus-after-language-06.json",
+        "sha256": "7c0d88348010de9369a6b7544d42ee86954fcc3fa9cf1084efa6dc8efd0c8302",
+        "matches": true
+      },
+      {
+        "file": "mixed-language-label-residual-root-candidate.json",
+        "sha256": "3819a6f438a7e04bf3a53a5a9d893143b922a360c0864c198ade35c478f934d1",
+        "matches": true
+      },
+      {
+        "file": "mixed-language-label-residual-candidate.json",
+        "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
+        "matches": true
+      },
+      {
+        "file": "mixed-language-label-residual-review.json",
+        "sha256": "f63d60f759aecf288fe3a4b37893bca21595f299eb572ca6aff93dff43f605c8",
+        "matches": true
+      },
+      {
+        "file": "residual-language-supplemental.json",
+        "sha256": "976d5dabc8315c914d7ee58f398b3085d46ada3339b19e0f50c8919e2ce0ad4a",
+        "matches": true
+      },
+      {
+        "file": "mixed-language-label-residual-independent-review.json",
+        "sha256": "72486cdde4ee6343a031c414ab8f5a9b3a5ac3ddb79a6bd1a07d8ed7baa0d0af",
+        "matches": true
+      }
+    ],
+    "all_original_checks_consistent": true,
+    "additional_amendments": 0
+  },
+  "consistency_at_exact_commit": {
+    "all_51_operations_match_original_independent_review_reconciliation_and_both_root_candidates": true,
+    "all_51_published_locators_contain_exact_after": true,
+    "all_3_grammar_operations_match_original_proof_and_integration": true,
+    "published_overlay_matches_original_two_complete_records": true,
+    "all_15_original_base_hashes_equal_published_base_hashes": true,
+    "all_15_published_result_hashes_equal_current_source_hashes": true,
+    "published_overlay_sha256_matches": true,
+    "published_remote_review": {
+      "file": "mixed-language-label-residual-remote-review.json",
+      "bytes": 1751,
+      "sha256": "4e7a2e5797b4b23bddd0059319c3e6882315839eb0e3ec9b986401b21c7cec17",
+      "status": "approved_exact_source_replay"
+    },
+    "remote_review_counts_and_input_hashes_agree": true,
+    "already_byte_identical_prepared_files": [
+      {
+        "file": "mixed-language-label-residual-candidate.json",
+        "bytes": 79304,
+        "sha256": "aff56e2fbdc8d58bfc32d0ad9341e5dbd3e27e8cf1ef3741b5b8fb6c6c536747",
+        "status": "provisional_until_actual_snapshot_after_group06"
+      },
+      {
+        "file": "mixed-language-label-residual-review.json",
+        "bytes": 1429505,
+        "sha256": "f63d60f759aecf288fe3a4b37893bca21595f299eb572ca6aff93dff43f605c8",
+        "status": "provisional_until_actual_snapshot_after_group06"
+      },
+      {
+        "file": "residual-language-supplemental.json",
+        "bytes": 13070,
+        "sha256": "976d5dabc8315c914d7ee58f398b3085d46ada3339b19e0f50c8919e2ce0ad4a",
+        "status": "provisional_until_actual_snapshot_after_group06"
+      }
+    ]
+  },
+  "root_candidate_difference": {
+    "original_sha256": "3819a6f438a7e04bf3a53a5a9d893143b922a360c0864c198ade35c478f934d1",
+    "published_sha256": "9bcb8c866bb45539fc6e116b4fda662ae22ea36ec2c493a6345471cd80dd7b33",
+    "only_changed_top_level_field": "root_refinement",
+    "operations_including_reasons_order_and_locations_equal": true,
+    "original_metadata": "Полный amendment с origin/independent_decision и ссылкой на independent-review.",
+    "published_metadata": "Восстановленное краткое описание root-approved операции31, primary_source и независимого читателя.",
+    "interpretation": "Это различие исторических метаданных, а не результатов редакции. Опубликованный recovered-вариант не заменять."
+  },
+  "minimal_historical_additions": [
+    {
+      "source": "/workspace/scratch/ccb7f80b4c57/mixed-language-label-residual-post06-reconciliation.json",
+      "sha256": "a41686210269231e59bbb2874fe9070dafcae6a6a8f4618ef5d61b9d0ffbdeaf",
+      "suggested_destination": "docs/audits/prepared-navigation/originals/mixed-language-label-residual-post06-reconciliation.json",
+      "why": "Уникальная прежняя exact post06-сверка 54 полей, владения/порядка/href, 36 автоматических карточек и четырёх входящих подписей концертины; сохранён предел доказательства выпуска."
+    },
+    {
+      "source": "/workspace/scratch/ccb7f80b4c57/mixed-language-label-residual-independent-review.json",
+      "sha256": "72486cdde4ee6343a031c414ab8f5a9b3a5ac3ddb79a6bd1a07d8ed7baa0d0af",
+      "suggested_destination": "docs/audits/prepared-navigation/originals/mixed-language-label-residual-independent-review.json",
+      "why": "Полный первичный независимый отчёт: 74 контекста, 633 решения, 1190 локаторных проверок, уточнение Ogden и встроенное доказательство трёх грамматических полей. Точный SHA указан в reconciliation."
+    },
+    {
+      "source": "/workspace/scratch/ccb7f80b4c57/mixed-language-label-residual-root-candidate.json",
+      "sha256": "3819a6f438a7e04bf3a53a5a9d893143b922a360c0864c198ade35c478f934d1",
+      "suggested_destination": "docs/audits/prepared-navigation/originals/mixed-language-label-residual-root-candidate.json",
+      "why": "Точный исторический input финальной локальной сверки. Отдельный original сохраняет её цепочку хэшей, не заменяя опубликованный derivative с другой метаинформацией."
+    }
+  ],
+  "redundant_intermediates_do_not_copy_as_final": [
+    {
+      "file": "remaining-label-independent-source-proof.json",
+      "content_preserved_in": "mixed-language-label-residual-independent-review.json",
+      "check": "Все 1190 locator checks, source hashes и checks совпали. Из 633 решений только Ogden уточнён в полном отчёте утверждённой root-формой; старый source-proof остаётся provisional."
+    },
+    {
+      "file": "remaining-label-supplemental-independent-proof.json",
+      "content_preserved_in": "mixed-language-label-residual-independent-review.json.supplemental_body_review",
+      "check": "Полный объект совпал точно."
+    },
+    {
+      "file": "remaining-label-independent-checkpoint.json",
+      "content_preserved_in": "mixed-language-label-residual-independent-review.json.context_reviews",
+      "check": "Все 74 context reviews совпали точно; checkpoint остаётся промежуточным."
+    }
+  ],
+  "preservation_instruction": "Добавить originals и этот новый отчёт как историческое дополнение. Не менять прежние статусы, recovered root candidate, remote review или integration audit. Исходные candidate/review/supplemental уже опубликованы побайтно и не требуют повторного сохранения.",
+  "limitations": "Нынешняя проверка связывает восстановленные оригиналы с опубликованными evidence и точными исходниками 8d869697. Исторический статус release06 не переписан; новый build/suite/release validation не выполнялся.",
+  "writes": {
+    "repository": false,
+    "existing_proofs": false,
+    "only_new_file": "navigation-originals-recovered-proof.json"
+  }
+}

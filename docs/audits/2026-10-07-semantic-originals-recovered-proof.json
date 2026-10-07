@@ -1,0 +1,1037 @@
+{
+  "status": "verified_exact_originals_and_recovered_payload_no_content_discrepancies",
+  "repository": "OntosLive/EasyMusicRent",
+  "published_comparison_commit": "8d869697a32b17193339c584bd6901423448f3c3",
+  "scope": "Сверка подлинных frozen-файлов, вернувшихся после восстановления среды, с четырьмя опубликованными recovered-файлами. Повторного предметного аудита или проверки текущей публикации не выполнялось.",
+  "original_files": [
+    {
+      "path": "/workspace/scratch/ccb7f80b4c57/post-language-semantic-review.json",
+      "bytes": 103798,
+      "sha256": "09867e6cda7df7b8a22cf2ac3217117238d535839117689d5c3e544d89d45a80",
+      "matches_pre_outage_frozen_sha256": true
+    },
+    {
+      "path": "/workspace/scratch/ccb7f80b4c57/post-language-semantic-amendments.json",
+      "bytes": 26419,
+      "sha256": "6e45a1537652539ab619b0931c91788b7ad6c41fd94ff79b6beff04ea3dab2cc",
+      "matches_pre_outage_frozen_sha256": true
+    },
+    {
+      "path": "/workspace/scratch/ccb7f80b4c57/post-language-semantic-candidate.json",
+      "bytes": 26862,
+      "sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+      "matches_pre_outage_frozen_sha256": true
+    }
+  ],
+  "published_files": [
+    {
+      "name": "post-language-semantic-candidate.json",
+      "path": "docs/audits/prepared-semantic/post-language-semantic-candidate.json",
+      "git_blob_sha": "ee70a7a4753c3a8dd898591cf2e772a0c7f8a06b",
+      "url": "https://github.com/OntosLive/EasyMusicRent/blob/8d869697a32b17193339c584bd6901423448f3c3/docs/audits/prepared-semantic/post-language-semantic-candidate.json",
+      "local_copy": "/workspace/scratch/ccb7f80b4c57/semantic-originals-published-inputs/post-language-semantic-candidate.json",
+      "bytes": 26862,
+      "sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+      "fetched_blob_bytes_verified": true
+    },
+    {
+      "name": "post-language-semantic-operations-recovered.json",
+      "path": "docs/audits/prepared-semantic/post-language-semantic-operations-recovered.json",
+      "git_blob_sha": "f5979592ecbea8e66aa614b57278996ffd70a7b9",
+      "url": "https://github.com/OntosLive/EasyMusicRent/blob/8d869697a32b17193339c584bd6901423448f3c3/docs/audits/prepared-semantic/post-language-semantic-operations-recovered.json",
+      "local_copy": "/workspace/scratch/ccb7f80b4c57/semantic-originals-published-inputs/post-language-semantic-operations-recovered.json",
+      "bytes": 18902,
+      "sha256": "9624d274f3700d71952bf5fcf1446aba3c3521f9d2f8aa737d7b85a33cf58f7e",
+      "fetched_blob_bytes_verified": true
+    },
+    {
+      "name": "post-language-semantic-recovery.json",
+      "path": "docs/audits/prepared-semantic/post-language-semantic-recovery.json",
+      "git_blob_sha": "1f1ea983ae132767f61f2e7201f910ed250c8001",
+      "url": "https://github.com/OntosLive/EasyMusicRent/blob/8d869697a32b17193339c584bd6901423448f3c3/docs/audits/prepared-semantic/post-language-semantic-recovery.json",
+      "local_copy": "/workspace/scratch/ccb7f80b4c57/semantic-originals-published-inputs/post-language-semantic-recovery.json",
+      "bytes": 55423,
+      "sha256": "0670041dc92d5ac58d23a55eca525a3a25d3ce4a47aa3a71c9ef032909971d82",
+      "fetched_blob_bytes_verified": true
+    },
+    {
+      "name": "post-language-semantic-review-recovered.json",
+      "path": "docs/audits/prepared-semantic/post-language-semantic-review-recovered.json",
+      "git_blob_sha": "013181b2233fa7cc23de39c085792d83fde642c0",
+      "url": "https://github.com/OntosLive/EasyMusicRent/blob/8d869697a32b17193339c584bd6901423448f3c3/docs/audits/prepared-semantic/post-language-semantic-review-recovered.json",
+      "local_copy": "/workspace/scratch/ccb7f80b4c57/semantic-originals-published-inputs/post-language-semantic-review-recovered.json",
+      "bytes": 12638,
+      "sha256": "88bd327ef185d66a6466561a7a8401701c167beb86662b71b267f795ce15296c",
+      "fetched_blob_bytes_verified": true
+    }
+  ],
+  "verification_method": {
+    "originals": "SHA256 полных UTF-8 байтов совпадает с сохранёнными до сбоя frozen SHA256.",
+    "published": "GitHub fetch на фиксированном commit; каждая локальная копия совпала с полученным Git blob SHA1, включая размер и конечный перевод строки.",
+    "decisions": "Поэлементное равенство 62 slug/decision в исходном порядке; ordinal 1–62 и исходное подтверждение полного чтения проверены.",
+    "operations": "Поэлементное равенство всех 25 slug/json_path/full before/full after; удаление только reason из подлинного списка воспроизводит опубликованный recovered-файл побайтно.",
+    "candidate": "Полные байты исходного и опубликованного кандидата совпали. Независимое применение исходных операций к 21 полному полю из recovery также воспроизвело тот же candidate побайтно.",
+    "json_serialization": "UTF-8; json.dumps(ensure_ascii=False, indent=2) + LF; порядок ключей сохранён.",
+    "reason_hashes": "SHA256 точной строки reason, UTF-8, без добавления LF и без JSON-кавычек."
+  },
+  "matches": {
+    "original_frozen_files": 3,
+    "published_blob_copies": 4,
+    "decisions": 62,
+    "decision_order_exact": true,
+    "keep": 43,
+    "enrich": 19,
+    "before_after_operations": 25,
+    "operation_order_exact": true,
+    "embedded_original_review_amendments_match_separate_original_file": true,
+    "candidate_pages": 19,
+    "candidate_page_order_exact": true,
+    "complete_fields": 21,
+    "complete_array_fields": 20,
+    "changed_fields": {
+      "intro": 7,
+      "blocks": 13,
+      "quote": 1
+    },
+    "candidate_sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+    "reconstructed_candidate_sha256": "0c431bc19246582607f61e4f3f887f2a247b30833befaf2c3479cb0fe0ad7f8c",
+    "recovered_operations_sha256": "9624d274f3700d71952bf5fcf1446aba3c3521f9d2f8aa737d7b85a33cf58f7e"
+  },
+  "content_discrepancies": [],
+  "documentary_differences": [
+    {
+      "type": "intentionally_omitted_explanations_now_available",
+      "detail": "Recovered review содержит решения и подтверждения чтения, но не исходные 62 причины; recovered operations содержит 25 точных замен без исходных reason. Все 62 + 25 пояснения теперь доступны дословно в оригиналах с прежними SHA256. Это утрата подробностей при восстановлении, не расхождение решения или текста сайта."
+    },
+    {
+      "type": "historical_status",
+      "original_review_status": "frozen_proposal_pending_independent_review_and_post_queue_rebase",
+      "recovered_review_status": "semantic_review_complete_candidate_exactly_recovered_not_integrated",
+      "recovery_status": "exact_frozen_candidate_reconstructed_not_integrated",
+      "detail": "Статусы описывают разные прежние стадии подготовки. Подлинные архивы следует сохранять без переписывания исторических полей; они не устанавливают текущий статус выпуска."
+    },
+    {
+      "type": "recovered_extra_provenance",
+      "detail": "Авторство независимого чтения, root_approved и independent_amendments — дополнительные сведения recovered-реестра. Их наличие не подтверждается одним только авторским оригиналом и не считается новым результатом этой сверки."
+    },
+    {
+      "type": "historical_unavailability_resolved",
+      "recovery_pointer": "/original_reason_texts",
+      "review_pointer": "/scope_note",
+      "detail": "Указания, что полные пояснения были недоступны после сбоя, корректно описывают момент восстановления. Сейчас оригиналы найдены и их подлинность подтверждена; новая сопроводительная запись может зафиксировать это без реконструкции прежней прозы."
+    }
+  ],
+  "verbatim_original_explanations_available": {
+    "recommended_source_files": [
+      "post-language-semantic-review.json",
+      "post-language-semantic-amendments.json"
+    ],
+    "decision_reasons": {
+      "file": "post-language-semantic-review.json",
+      "pointer_pattern": "/reviews/{0..61}/reason",
+      "count": 62,
+      "includes": {
+        "keep": 43,
+        "enrich": 19
+      }
+    },
+    "operation_reasons": {
+      "file": "post-language-semantic-amendments.json",
+      "pointer_pattern": "/{0..24}/reason",
+      "count": 25,
+      "same_text_also_embedded_in_review": true,
+      "do_not_double_count": true
+    },
+    "other_exact_original_material": [
+      {
+        "pointer": "/canonical_grounds",
+        "count": 3,
+        "description": "Предметный смысл страницы, доступ к ещё осваиваемому навыку и внутреннее значение «золотого» приоритета."
+      },
+      {
+        "pointer": "/boundaries_preserved",
+        "count": 6,
+        "description": "Даты и адаптация; знакомый фрагмент, размер и настройка; последовательность упражнений; проба интерфейса; конкретный экземпляр и наличие; отсутствие новых фактов и адресов."
+      },
+      {
+        "pointer": "/basis",
+        "description": "Исходные снимки, SHA256 документов и входных кандидатов, три расхождения навигационных подписей, исключение семи уже закрытых страниц и границы выборки 62."
+      },
+      {
+        "pointer": "/reviews",
+        "description": "Подлинные ordinal и четыре SHA256 полных страниц для каждой из 62 записей; эта сверка сохраняет происхождение этих значений, но не выполняет повторный аудит полного корпуса."
+      },
+      {
+        "pointer": "/validation",
+        "description": "Первоначальные 20 проверок полных массивов, сохранённые поля и ссылки, точное пояснение удаления повторного имени J-45 без изменения технических чисел."
+      },
+      {
+        "pointer": "/retained_primary_source_check",
+        "description": "Подлинная запись автора о первичной странице 15-струнных гуслей MPKMI; это историческая проверка автора, не новое сетевое подтверждение."
+      },
+      {
+        "pointer": "/handoff",
+        "description": "Подлинное указание порядка независимой проверки и будущей интеграции; сохраняется как исторический текст."
+      }
+    ],
+    "preservation_note": "Можно сохранить два полных оригинальных файла с их прежними SHA256. Кандидат уже опубликован побайтно тождественным; заменять или реконструировать его не требуется."
+  },
+  "decisions_manifest": [
+    {
+      "slug": "violonchel-stentor",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/0/reason",
+      "reason_utf8_sha256": "a98cf083cd6b9993c46dc2e58101284d7acadfcb8806a6308abae934be843ac7"
+    },
+    {
+      "slug": "fender-player-ii-telecaster-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/1/reason",
+      "reason_utf8_sha256": "abbb156f34f82971e0be34f882af23e8cd94c95a745e5e9b67d923dae6f2d8c2"
+    },
+    {
+      "slug": "instrumenty-dlya-fortepiannogo-trio",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/2/reason",
+      "reason_utf8_sha256": "1378246df0fd8ff399184b1ba6ee6bdb983592c61bbcecb771296d3551f07b5d"
+    },
+    {
+      "slug": "kontrafagot",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/3/reason",
+      "reason_utf8_sha256": "01b2cf4faf4cf135bf13b91a924fe7e14335d6c0e93a7572b9360bf8e460970d"
+    },
+    {
+      "slug": "yamaha-b3-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/4/reason",
+      "reason_utf8_sha256": "0996896c711ac1af64aaa2c850380c5245121afa30c644c47b398a3c8bbf4880"
+    },
+    {
+      "slug": "pianino-dlya-videozayavki",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/5/reason",
+      "reason_utf8_sha256": "d134e5464a85d7345ee5087005327b157021c5cb2db7e52020a874c78d02586c"
+    },
+    {
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/6/reason",
+      "reason_utf8_sha256": "9e2389ae2075e2773cafd6d178cb411a7949a3d250ced7558bfe5595fb6f8a6e"
+    },
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/7/reason",
+      "reason_utf8_sha256": "2ba9da492f0f7e6fbed3219df17d9475c159f5356414a7b3fd0059ac3db38aa8"
+    },
+    {
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/8/reason",
+      "reason_utf8_sha256": "24627235d2ce10450837438f579cb2004e0354db19045d06065c4ccde99084ed"
+    },
+    {
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/9/reason",
+      "reason_utf8_sha256": "d464f1804739b1bcf2c209adc7589beeb37acfa01863ad34ade7402bc2f68247"
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/10/reason",
+      "reason_utf8_sha256": "23b44ea1723d71f53832b654e9a3bfbbbfdf87f83f8e46adacab4f12449faf0b"
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/11/reason",
+      "reason_utf8_sha256": "c5c42aa03d1e7791bb49cd315020a99a98875a67ce5008be23eb84faa16e96d7"
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/12/reason",
+      "reason_utf8_sha256": "828b524ca7975adba1767b6bf2ab672e017c8bfa50d1aee2edf443cadf0b1a40"
+    },
+    {
+      "slug": "vox-ac30c2-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/13/reason",
+      "reason_utf8_sha256": "10439443655db64a6a2457aebe5be0ce0f648d035532db9b8af371583cc42a7f"
+    },
+    {
+      "slug": "ampeg-svt-cl-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/14/reason",
+      "reason_utf8_sha256": "c47e1a6d8f7d43ed534c939b3060b7a0a3fe3b43d6a2cde07e31a8e7baec7280"
+    },
+    {
+      "slug": "ampeg-svt-810e-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/15/reason",
+      "reason_utf8_sha256": "ec353d295d1181661874e6770941edcfedec04c409c0b26f55f94060da03a745"
+    },
+    {
+      "slug": "fazioli-f278-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/16/reason",
+      "reason_utf8_sha256": "fed052efc2c073dda0185817280ea9f5e347bf6578155d09f7d4e3035f7dce96"
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/17/reason",
+      "reason_utf8_sha256": "2c788af4f443b24ed5d4304f4d6dc13404869c79a303aa08ea4d4af5a2570663"
+    },
+    {
+      "slug": "smychkovye-cremona-saga",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/18/reason",
+      "reason_utf8_sha256": "48f424605b4e2d390908593cf5b22df486d0956befebb113e6cd1a6736f38033"
+    },
+    {
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/19/reason",
+      "reason_utf8_sha256": "92b4eac217f93cc3d97510acfce7e5adfe13653190dc4a992a59f13357f18aee"
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/20/reason",
+      "reason_utf8_sha256": "be2e21cab1bbbc52ee8250b81bc75a260c5acfcc8129ea63afec2fb9c14ed2e5"
+    },
+    {
+      "slug": "kawai-k200-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/21/reason",
+      "reason_utf8_sha256": "1972e36f115a2d6652d220ef3ee0235538bcd983a617f3c64b74d4a76d352d34"
+    },
+    {
+      "slug": "bayan-yupiter-2d-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/22/reason",
+      "reason_utf8_sha256": "3fff4ad520bb93cd03279d150f2d340e4419ae72a50818be2691507388d293db"
+    },
+    {
+      "slug": "smychkovye-knilling",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/23/reason",
+      "reason_utf8_sha256": "1dd705c8c15668d3706420cc8cce01e1af781b27ffb1a4b5ecb119040b24be9e"
+    },
+    {
+      "slug": "goronok-nova-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/24/reason",
+      "reason_utf8_sha256": "682d18906a9545ad3251bfaad40df57481874c18fa9f2d7c87179a58abb9d4ad"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/25/reason",
+      "reason_utf8_sha256": "263de22c8e1cf778b3ffc69846e8b1587877771a3a03f710e3134257de9f327f"
+    },
+    {
+      "slug": "elektrogitara-dlya-perehoda-s-akusticheskoy",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/26/reason",
+      "reason_utf8_sha256": "ab4f120296cb9973ce758c4e2f370bd16bde4d83990ff0e5720a8444995a7a6a"
+    },
+    {
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/27/reason",
+      "reason_utf8_sha256": "bb3224525dfba8a2abe4af8ef023d524e98035be740257f33e2871ee9e7cbb61"
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/28/reason",
+      "reason_utf8_sha256": "19c0fa059d3ad5cdfb39338808f4b6d5ed1237bca105c5c22f41cf4638f66178"
+    },
+    {
+      "slug": "klassicheskaya-gitara-na-ekzamen",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/29/reason",
+      "reason_utf8_sha256": "c1c44ab0494bc8a35256ee77d3ef45ed1ac8c9554fb07538597e661e9b606c48"
+    },
+    {
+      "slug": "valtorna-na-proslushivanie",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/30/reason",
+      "reason_utf8_sha256": "f329872e3d7be9cfe2d1e85e1539f8af49b507cf5c2d50b190911da49a44de4c"
+    },
+    {
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/31/reason",
+      "reason_utf8_sha256": "9cc71aaaa799ea59610972a9e5caa74c64af47080109dc0e90be2e51250c88d8"
+    },
+    {
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/32/reason",
+      "reason_utf8_sha256": "5d4e41c5e4389294c84f7969849365b23a9e293ea5373ecf4dc4fb2ea5ce4ede"
+    },
+    {
+      "slug": "domra-pered-pokupkoy",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/33/reason",
+      "reason_utf8_sha256": "d6a9532f23ffa9be50a4c18a828456f143c1e381e7b0a3635b9620b07d541d94"
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/34/reason",
+      "reason_utf8_sha256": "6e92dce552086db5758506da637bca97c729239b47b400cd66930072d32b5341"
+    },
+    {
+      "slug": "bandoneon-pered-pokupkoy",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/35/reason",
+      "reason_utf8_sha256": "a733264b037f58bd2935cc191cc064831ca862ea818a662bb6f414ce70852b37"
+    },
+    {
+      "slug": "backline-dlya-klubnoy-stseny",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/36/reason",
+      "reason_utf8_sha256": "154b1f8463e895a98b0686329a36b59523a01c8a8957912428ef074026638d81"
+    },
+    {
+      "slug": "instrumenty-dlya-pervogo-duhovogo-ansamblya",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/37/reason",
+      "reason_utf8_sha256": "eb6b0197acc99704f4c9c0dc8700adcc152efc67425af84aa98744d6c3d4af65"
+    },
+    {
+      "slug": "instrument-po-programme-ekzamena",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/38/reason",
+      "reason_utf8_sha256": "3ce0425dcfd69d3b241b811df60faf778bb2139a12233c0ae8d8c06dbf693a65"
+    },
+    {
+      "slug": "instrument-po-programme-proslushivaniya",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/39/reason",
+      "reason_utf8_sha256": "f6789ac7602d6600174a0c8ec5b268ad8d83b9d0d1509eff27d394b0e08bcb29"
+    },
+    {
+      "slug": "instrument-esli-povtornaya-nota-ne-uspevaet",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/40/reason",
+      "reason_utf8_sha256": "6923f79f47afc4581706e7ea143658e70ff46932f8833df4954de08a296df769"
+    },
+    {
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/41/reason",
+      "reason_utf8_sha256": "f9c467ea5a2865f7c1acb3ddeee994d19c062fac966ad338e0ba0257a2ba91d6"
+    },
+    {
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/42/reason",
+      "reason_utf8_sha256": "09ff70311724d46aece41f0ed2b5608ebd493f244dcc39c92872da7b83799be3"
+    },
+    {
+      "slug": "alhambra-4p-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/43/reason",
+      "reason_utf8_sha256": "4359997604bd283c08123c85da4aad4923195b7204f21a6ffedb9a0d9569369e"
+    },
+    {
+      "slug": "gusli-s-diapazonom-po-programme",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/44/reason",
+      "reason_utf8_sha256": "4e77b5acd20c8861a610b4c38b525dddb47d4a10d7aa1f84a878d59f70780475"
+    },
+    {
+      "slug": "shen-sb150-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/45/reason",
+      "reason_utf8_sha256": "fa99acc9ffd18d3b3177eabf14edf9d21c733bc7620e554d7716c4c7b08504fd"
+    },
+    {
+      "slug": "yamaha-fs800-v-arendu",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/46/reason",
+      "reason_utf8_sha256": "728a2fe30bf5d8fe33ded6398f5b781f38679dc1ff529f566ad49de85c5c5f82"
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/47/reason",
+      "reason_utf8_sha256": "03b98f988d3a6f31d51427d67235592f2a95c15faeed83b342b0ef0aada53bd3"
+    },
+    {
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/48/reason",
+      "reason_utf8_sha256": "d3945b3a9a01d37b2644b25d7f5dcee198bac3d880c349e11a52692e2f17b7aa"
+    },
+    {
+      "slug": "elektrogitara-s-hss-datchikami",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/49/reason",
+      "reason_utf8_sha256": "4ee638e981fef863ce7f6764ddf2afb064e9c0c42e13eca750ab5bdb0399b707"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/50/reason",
+      "reason_utf8_sha256": "40fe2463a338f042675ba87bed27c8b6f369fe12c977195ed5526510f73bcc56"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/51/reason",
+      "reason_utf8_sha256": "4e23fc7f8f7083ea2013f8c0b8ef74e2c28ff33bb17c576588de5653cc47a5b1"
+    },
+    {
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/52/reason",
+      "reason_utf8_sha256": "42259618f62e1075d8ef18789ee4a569908357c6453743da279e442b76a90870"
+    },
+    {
+      "slug": "kongi-dlya-pervogo-opyta",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/53/reason",
+      "reason_utf8_sha256": "22e9cdd76c77606e257af44bd71b1f1e757929fb988b21ac3c9b2004be44dd2e"
+    },
+    {
+      "slug": "arcata-giovanni-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/54/reason",
+      "reason_utf8_sha256": "85b462659b7833b0d8b583977fc30504424408e33c3c4fe9d999604349f607be"
+    },
+    {
+      "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+      "decision": "enrich",
+      "original_reason_pointer": "/reviews/55/reason",
+      "reason_utf8_sha256": "b76362e2c1bad926ec66c6f40be37eb43dcb2930b91a17dd27df9f4777ad8dc7"
+    },
+    {
+      "slug": "backline-dlya-pervogo-kontserta",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/56/reason",
+      "reason_utf8_sha256": "14caa2d223b3b1a2bca715ad66223cc389b1ea48da60487c47cc0aa5c22631c3"
+    },
+    {
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/57/reason",
+      "reason_utf8_sha256": "1f2a47628d28f0e8980f855283948fa649c44dc06aca6127ba0fe298bd158c41"
+    },
+    {
+      "slug": "garmon",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/58/reason",
+      "reason_utf8_sha256": "08cb5506edd9baa25c24898c47e760fed999e3837595d4526730fc7c9c7678d5"
+    },
+    {
+      "slug": "kontrafagot-dlya-pervogo-opyta",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/59/reason",
+      "reason_utf8_sha256": "b9e85bfdea48bd31e74d03f942839ae66ed90dae0b1c16557c490f4519e2ea06"
+    },
+    {
+      "slug": "trombon-s-kvartventilem-dlya-perehoda",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/60/reason",
+      "reason_utf8_sha256": "5bd5c15b1beb8fc17e2f39d2418836fba63b9ba81f0251911831f974740bc916"
+    },
+    {
+      "slug": "sintezator-pered-pokupkoy",
+      "decision": "keep",
+      "original_reason_pointer": "/reviews/61/reason",
+      "reason_utf8_sha256": "b9cb2daed5b43af049f2304e96547ba67cdda2c97336e80cf348c71d6c56b1bc"
+    }
+  ],
+  "operations_manifest": [
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "original_amendment_index": 0,
+      "before_utf8_sha256": "cb7e83f76cffd46688bd97f14323a70b9abdda621cf713e93546c51ec1e52894",
+      "after_utf8_sha256": "cb1055529859d1611d219205bf91a8232a2a58e283fa533ac8fef94c2314f4e2",
+      "reason_utf8_sha256": "a5ee3ff33a46c3faa422467c456459a169acc068e5d402117774dcb6abff5edc"
+    },
+    {
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 1,
+      "before_utf8_sha256": "569dbf7c8203a055d95ed1b288e8a7afe3b179360560a234215588cbc8d1bce7",
+      "after_utf8_sha256": "b4f4807b016610971107c62f90b95e0bd38591edd70dcdaf4f20afc4f6bfbbeb",
+      "reason_utf8_sha256": "acb4eba1cf7f617c49edee4e5228350482c2910ade319f007451228d91ac5aef"
+    },
+    {
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 2,
+      "before_utf8_sha256": "5f338c8376e60cf2c1a1648b610e571b68d75268c040ee160273fc9de912bd18",
+      "after_utf8_sha256": "719b6e355bbd7071b8c23eb394a4c0cc09eba9d12ebcc8a4fd8e733a45ad0049",
+      "reason_utf8_sha256": "bd9e771a33b4b1b36c7b2c1180f124698a4e6d6c759004f1ea276d197d97b301"
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 3,
+      "before_utf8_sha256": "a74b404841562e4eac863d31e3a3a5fafa74c33a386de7c4d1de0761cb234056",
+      "after_utf8_sha256": "2b2c3acd79d4ec0946da3fc004893a09c448c160415ac680b1ae9b813c5c60e6",
+      "reason_utf8_sha256": "3a771641e14fd41d9b63f3ac69a6134922de88186545050d2d1fe263f8f58631"
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 4,
+      "before_utf8_sha256": "82df63e87052d8242ebf524c6a4c41b507e0ad3dccb51bb41d1c613baca53491",
+      "after_utf8_sha256": "73965173fb1dd357ff19aa3f19da469db7921c0e25ccea3cdfdadbe43d2a4f90",
+      "reason_utf8_sha256": "a82a4b893c2b5672a7d39190f781efe725d86148b22314b85c92c84c09db7e07"
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 5,
+      "before_utf8_sha256": "f281ce657c098234aac5953e3d4d0b09fcd1eeeb17ca5da62427c4dd80c441d0",
+      "after_utf8_sha256": "e204481e334e951a9038d484dc035ec563c934bcb4e85ab0b314269e0a2a1055",
+      "reason_utf8_sha256": "e5195137734ba58e3f705f209bf75ed3c65ec355189fc0d837df507595f7bce6"
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 6,
+      "before_utf8_sha256": "7ce75ab650c48fbf00f219e3420f2564d313e2ded4cce915e4f364ef2d32492d",
+      "after_utf8_sha256": "6f88b656b2d5cfd79f98210006062adb7186c25ec8e96cab8eae05dfca020a9b",
+      "reason_utf8_sha256": "d46265363816349078fc8f3ab8a1c17c8c8760bca334fcdb5ee86484d60eab1a"
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "original_amendment_index": 7,
+      "before_utf8_sha256": "f5625ef5fd781d1affb791b493168641882b9d6616ff1d98a1fe5ad467aaa3d2",
+      "after_utf8_sha256": "1945e15c5d14b62b0fdf9eef7319818013d135e297843664541ad198f76163c4",
+      "reason_utf8_sha256": "ae9ac9ad43d75d9ea311f6f50b79fc4f24aa452e17f37753d20d9e66ba6dd095"
+    },
+    {
+      "slug": "fazioli-f278-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 8,
+      "before_utf8_sha256": "538137421a5cff29fa456f9bff6e6a2f855236955857794003ab56573c97124e",
+      "after_utf8_sha256": "e3a8f0a535f9e145fd88c2b20be6d20b7f7dd306bf16b608ef364c7e014be9f2",
+      "reason_utf8_sha256": "005ed1a820faf762b262fb2a1c3acae8e03bc5258d2fd4c16f099c78fb47814f"
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "json_path": [
+        "blocks",
+        1,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 9,
+      "before_utf8_sha256": "f23edc54f06c025e3943a777a43437ce00cb2c467139dcc1d32b8278803e6dac",
+      "after_utf8_sha256": "8e54418182635dba0db128363642d4ee085fb8ef3ba19bdd2b4986cedf4d281b",
+      "reason_utf8_sha256": "5d7c8cf74d60244fae6adc27961cc2909768117b58255cc5f447937e509db1b8"
+    },
+    {
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "original_amendment_index": 10,
+      "before_utf8_sha256": "b98919efd04f592aea71e432e1492d206e36490baeef8be52ffcda5174681a68",
+      "after_utf8_sha256": "996cbc360e55151eb2e69996d3871a4dd6a8fa59eaab854e7342de008cb2efa2",
+      "reason_utf8_sha256": "d21f34e56a8ce42f8fe9a02ad2a195e83615d90c2c87c2a0322dac6bacdee9e5"
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "original_amendment_index": 11,
+      "before_utf8_sha256": "018f78309375fdcad5dd2710c74370f1f7a7748a68faeda2616d8789e5c82473",
+      "after_utf8_sha256": "c0df86560f898b9590a9db1571cb72863f490465d24ec4f8d900aa7401a474ee",
+      "reason_utf8_sha256": "4d4b5c38d95b92206a535879b53db0b2d11443538c41280a6d1e04b6e1b3d26c"
+    },
+    {
+      "slug": "goronok-nova-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "original_amendment_index": 12,
+      "before_utf8_sha256": "f25508711a4f48a2ae5d2254f3d4a4bab3d51afb329f1a1348ee5e25852e0159",
+      "after_utf8_sha256": "025c2f6d25c6057dd8119ae6e4231e05e616ac3fb4f33df293ca446f8dd1e3e7",
+      "reason_utf8_sha256": "4b1191fd6eaba7b6991168a0463120e89a862f3f51fb50d18b1b080e86b7e494"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "original_amendment_index": 13,
+      "before_utf8_sha256": "d213d1805df1fed12e707e9499a5f8f90122f1fc76a49928545061aa63c77c72",
+      "after_utf8_sha256": "fcf0dae4216940d65cdf8ad0c4c32ac47d8fbadc651bd90186cc585b83b34497",
+      "reason_utf8_sha256": "3a1de9ea869942081df52059c38a6e4c3eabf5d10c5cb6c8b82b6fcea21b18d0"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "label"
+      ],
+      "original_amendment_index": 14,
+      "before_utf8_sha256": "c0490669b519ae66fd40bb5856af791a8a7835fc123275b3e640c8ab99f5560d",
+      "after_utf8_sha256": "24941a47b206e29c0dc3e89dc3b983f0a5924529c57cfd84b390abaca899971f",
+      "reason_utf8_sha256": "9766be23d81474259312cc94f57f39c77fd6daee23aa7753647c7d9d01efb602"
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "title"
+      ],
+      "original_amendment_index": 15,
+      "before_utf8_sha256": "56f74f259c0ee1901a36eb8444725b844ea173b852d1c80466e9c0ddc209ba9d",
+      "after_utf8_sha256": "2c87768e86d029ee7892b42daadb984a135c970886be924678ca3dc1bd6313c6",
+      "reason_utf8_sha256": "0c327112f24f9cd359e3074bbd504d039f0e5209cea7e45d3fa27fac902b5dfd"
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 16,
+      "before_utf8_sha256": "6abadab271011e1c27f9101fef4138fe533214c9acc709abb40e04627804d75b",
+      "after_utf8_sha256": "7fde78d3d15fbae2c41b4443d506207cdb42a9f7920bee618ae583e4d80af065",
+      "reason_utf8_sha256": "d64bfb6049a205a87806837d7dc435dcef11f4a99487fe9017e7820cd4b53524"
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "original_amendment_index": 17,
+      "before_utf8_sha256": "97fc721ff76a71390b21143436cf91915346f6a7e31cc89ef9f9cfa5bb034ee1",
+      "after_utf8_sha256": "4a87750c4519f213eb68b1f99ffba1e896722fff978f14e71e1d1d33eb11fbf4",
+      "reason_utf8_sha256": "06ba469368eb5760716dd328e2869c18be30807a44fb8ab8fe59e5314c306dbf"
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "json_path": [
+        "blocks",
+        0,
+        "title"
+      ],
+      "original_amendment_index": 18,
+      "before_utf8_sha256": "b815d3cc22437c7192869131244a573f238cf51cf8a633610c3c231affacd91a",
+      "after_utf8_sha256": "ba59edaeca650e0ea0ac555adb7e52aa640d60466d0d6b5014022b0d43e8598c",
+      "reason_utf8_sha256": "33a9a0afd9a1cad57dac237ff493ca2d8ed10e440e7463c85fdc99fde4decbe9"
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 19,
+      "before_utf8_sha256": "8ad794b396f3201dca3a40e64e58ad2176a50f9cfd04676d4ba942f6acd5d566",
+      "after_utf8_sha256": "3834e2e36bdf91558b1aadea494f55a49ad85ca6c56e7a15f6433c6f9bce3daf",
+      "reason_utf8_sha256": "1a24c728b4cd878e2f1d77b3122624cd522ea1333da254864e2ad8ed315cf5b5"
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "json_path": [
+        "quote"
+      ],
+      "original_amendment_index": 20,
+      "before_utf8_sha256": "b2ee8d6574b2f387760b505f307b0bf00fb2f1e80258db424b9c2ce6317f8394",
+      "after_utf8_sha256": "d0055a853f83cf3a764230169c53dbd28b49d9a486b46dd10601207dd23c4b44",
+      "reason_utf8_sha256": "e87925d070d1a93f0e9140a7f01ca8d71b03402c8107cd224fe6d7e04a0ad93b"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 21,
+      "before_utf8_sha256": "4311a361361f373beac4905d938a3bf69859b0d05dd60c9a6da09e5f10e5b3cb",
+      "after_utf8_sha256": "01771f4a617452f60845e4f4e8bd7a4d00bc4dd5dc2eb5adc8e6aa81d523a4a8",
+      "reason_utf8_sha256": "9c661f4daf6f299efd997a121f9844c289554136bffb19bdc82b32e610b0d10e"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "json_path": [
+        "blocks",
+        0,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 22,
+      "before_utf8_sha256": "fd4f868d6e0802021983175bfdcaffb6afc93e6d7fd6edb5f7f4834a384f3d07",
+      "after_utf8_sha256": "2bd67d6dd3471a6725643a23d4135a4231f091e4269c3f2ebd050e0497574b9d",
+      "reason_utf8_sha256": "e132ad2f67d1f25d059dbefcdbaebbd743233ee789b07e1d98125f5ecd0c3dfc"
+    },
+    {
+      "slug": "arcata-giovanni-v-arendu",
+      "json_path": [
+        "intro",
+        0
+      ],
+      "original_amendment_index": 23,
+      "before_utf8_sha256": "fca6ffca679eda42c8f4e1821631e31bcb36c7b0093ce85f70655adf9e501d9c",
+      "after_utf8_sha256": "baa3fefc82a714473144f31d0623e1aa0d439866ceb8db9be714612401581b8f",
+      "reason_utf8_sha256": "c0d12cd0b6a26141eb86b5b1974c90b1cb569ed713ac80705465cf9ecc74b2b3"
+    },
+    {
+      "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+      "json_path": [
+        "blocks",
+        2,
+        "paragraphs",
+        0
+      ],
+      "original_amendment_index": 24,
+      "before_utf8_sha256": "1772c31f360d9ed5b9cde5a9b8bb72b70c81041ed5f72e8d81be654797f9dd34",
+      "after_utf8_sha256": "53f233cc20f77c2c4b3608d453fa3526c1491b5636019679aad270ad2d2085d3",
+      "reason_utf8_sha256": "a0973ac815fd9f42319f9e475c404181c712a19f88748e9974d368211ac94839"
+    }
+  ],
+  "complete_field_checks": [
+    {
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "field": "intro",
+      "before_sha256": "bd9ad445ce626f23e9fee869304c03cdaa45b28011b481085ec6b7d8b54f0c78",
+      "after_sha256": "655423eb4c1ab65bdf45dce1f4ea3e886971466ab8aa0f9e8aed09c70f097d1e",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "field": "blocks",
+      "before_sha256": "2425514633cee929c16e8ac2a7764dbcdff76e381c0493131629b3fa3da3cfcb",
+      "after_sha256": "010a1b5d50795af2aefaf8fad81aa1f703e2bc13ebd0c6759e94aec47bd61b2c",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "field": "blocks",
+      "before_sha256": "0517200fa6b961ce81bbbd7577e80cb610c3852adb18f9656b4a35e1a7559c2f",
+      "after_sha256": "8f2b975670ff4ed0bbbe134d4722bc7a63bb03e763d1941a0822a52198b0e7a3",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "dw-collectors-series-v-arendu",
+      "field": "blocks",
+      "before_sha256": "bb79b85f5ff37a1787f921978b25c078f52a0d3dbda6dbfabee748f1bfc178f7",
+      "after_sha256": "5acd192dbfb42bea135f59a148c8066f812cf62cab662032ac0101a00c050e0e",
+      "exact_operations": 3,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "gibson-j45-v-arendu",
+      "field": "blocks",
+      "before_sha256": "fafdbddfb76288af742587f30efc29c95d86e88c26c32978ee9596c9825f849b",
+      "after_sha256": "7e2d91b712af4da9d9bdec8bcafac67cd098cd1c5bd796f6498edd893cd29eae",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "field": "intro",
+      "before_sha256": "0aef52439123240ec59967da54f006155a7bcad900acf7c1adca5de83c94be0e",
+      "after_sha256": "50febe45f8288f585d3e012be1a030942570a153161813ccab22fcc34eb9c442",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "fazioli-f278-v-arendu",
+      "field": "blocks",
+      "before_sha256": "0916417f9c2ff510be4b80310f5dd60b619e942d56b12f182f85fbedb5d05e3f",
+      "after_sha256": "485795afaa7f046c7de05dd15452cb03699225cff7be4fe2060deee84bf2f4fa",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "wurlitzer-200a-v-arendu",
+      "field": "blocks",
+      "before_sha256": "268f06722e38828be468e59159d7d6cc4d9841471b4ab00adbc1ab3441cba304",
+      "after_sha256": "2f3ba14da683a06d0adf37d54813effd847bf67a6494fad0fa1a2f9e60828978",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "field": "intro",
+      "before_sha256": "16c6f6ce0c3b22f7ecb9c29a6b16b14f4ea0554465fe40549ed537be4686157d",
+      "after_sha256": "03f49fb5e8bc691388567b403801d29ad51cb19ad1527c4877e6af357fd51d55",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "salvi-mia-v-arendu",
+      "field": "intro",
+      "before_sha256": "bb89767e80a4d06b48e85cb66c72ea7fddc9c6e94cdaebb11dc1e6b2a458795b",
+      "after_sha256": "46a3a6ae9621a485b9f6248e3c827a7d73c144043a6d0620a0208f2b7ff9b798",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "goronok-nova-v-arendu",
+      "field": "blocks",
+      "before_sha256": "586098b0da18d4889a4ce68439e7e8459505487ccad4f4e1edb42b4990c52b74",
+      "after_sha256": "ec68015ba211c11c7885343f61c4f463f42a45ec64d09cc2b752d60d95bbf07a",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "field": "intro",
+      "before_sha256": "7801003bda5010b94c1824ad158558472e88fba4c72e398d2113e020c7e5bc01",
+      "after_sha256": "3615d0cb80cf219278e4db055447438987c5f9e585c3d3546665d3888feb452b",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "goronok-aleksey-romanov-v-arendu",
+      "field": "blocks",
+      "before_sha256": "1faf24377dee10f3bbec1f3978294bca6f22e3273802ac079433543a1a876899",
+      "after_sha256": "c8cd525c7f847feecb1310d623ef2b0e728400d262a3b5e498b4bf6b2c5ac642",
+      "exact_operations": 2,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "gibson-f5-master-model-v-arendu",
+      "field": "blocks",
+      "before_sha256": "bacc606e0e831804049ebed7c1e7cc00a0a5c9db667bff2cd707158045a1d34e",
+      "after_sha256": "0e838d69cd0283128a84f8c0c9d05a49aea42777af60b9befeb641bb32c5f2aa",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "field": "intro",
+      "before_sha256": "859b83ce65cdc28da2348709228f50982a79d67c35f91f91217019afbcb6df30",
+      "after_sha256": "d8ae89189c97ba2b6c1558205c7ca62688ca253091f4312765ead9764b91f99b",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "field": "blocks",
+      "before_sha256": "1652e130abc89b8ce1ac7b8c62aacb606dd3506468938492096314182af3b525",
+      "after_sha256": "33204d52af5a1c976386340c7752cc4b9fbb0b430845215ee5221c460a87fe8a",
+      "exact_operations": 2,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "field": "quote",
+      "before_sha256": "eaf1b4e7b9461506bb94b7a150c97dcad2c57e760f172f77e40a89bbb48f3247",
+      "after_sha256": "fb0df7207037e26930c875bc7a7c5ad92c2837afed1cac8e8d0be4421050c39e",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+      "field": "blocks",
+      "before_sha256": "d35cb5e52ab6644af24f3022bfd40ed4a441235291be6167621bea5ca60b0e15",
+      "after_sha256": "f775701c0f9f6dda3da0412f23f9b0d1dd2f6d63bca72f20fe71c902dce72632",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "field": "blocks",
+      "before_sha256": "fc3047c3e6f3d65111785e30ce7ac663bce158fb3cbfdf9b2b1db407de58ac61",
+      "after_sha256": "968d6e718a82456c4a924ae955c86839bb865dfd6478add1730f8325c3f71e26",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "arcata-giovanni-v-arendu",
+      "field": "intro",
+      "before_sha256": "c3b777f90a5d87d7dc778049b297c101303af13a1c2a9cfd0b975c3b574eccd8",
+      "after_sha256": "be42a75d612514b2b22b1170dba25b5cd2fcd71d0793ba9abdc5ee14b7639324",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    },
+    {
+      "slug": "mpkmi-domra-malaya-uchenicheskaya-v-arendu",
+      "field": "blocks",
+      "before_sha256": "4bf437206abfd1556a67addf91002bb27eba8cf8b8126b59050b632beff8b710",
+      "after_sha256": "0b761110de860651359c35ecdb52f73724ee94b351105f9c23baaac0b1d219e5",
+      "exact_operations": 1,
+      "full_value_matches_original_candidate": true
+    }
+  ],
+  "limits": {
+    "repository_modified": false,
+    "github_modified": false,
+    "build_or_test_suite_run": false,
+    "new_editorial_changes": false,
+    "current_deployment_or_public_http_checked": false,
+    "historical_author_claims_not_recast_as_new_fact_checks": true
+  }
+}

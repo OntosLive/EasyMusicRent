@@ -1,0 +1,59 @@
+{
+  "base_commit": "8d869697a32b17193339c584bd6901423448f3c3",
+  "originals": [
+    {
+      "source_file": "mixed-language-label-residual-post06-reconciliation.json",
+      "path": "docs/audits/prepared-navigation/originals/mixed-language-label-residual-post06-reconciliation.json",
+      "bytes": 187464,
+      "sha256": "a41686210269231e59bbb2874fe9070dafcae6a6a8f4618ef5d61b9d0ffbdeaf",
+      "saved_without_modification": true
+    },
+    {
+      "source_file": "mixed-language-label-residual-independent-review.json",
+      "path": "docs/audits/prepared-navigation/originals/mixed-language-label-residual-independent-review.json",
+      "bytes": 977235,
+      "sha256": "72486cdde4ee6343a031c414ab8f5a9b3a5ac3ddb79a6bd1a07d8ed7baa0d0af",
+      "saved_without_modification": true
+    },
+    {
+      "source_file": "mixed-language-label-residual-root-candidate.json",
+      "path": "docs/audits/prepared-navigation/originals/mixed-language-label-residual-root-candidate.json",
+      "bytes": 80368,
+      "sha256": "3819a6f438a7e04bf3a53a5a9d893143b922a360c0864c198ade35c478f934d1",
+      "saved_without_modification": true
+    },
+    {
+      "source_file": "post-language-semantic-review.json",
+      "path": "docs/audits/prepared-semantic/originals/post-language-semantic-review.json",
+      "bytes": 103798,
+      "sha256": "09867e6cda7df7b8a22cf2ac3217117238d535839117689d5c3e544d89d45a80",
+      "saved_without_modification": true
+    },
+    {
+      "source_file": "post-language-semantic-amendments.json",
+      "path": "docs/audits/prepared-semantic/originals/post-language-semantic-amendments.json",
+      "bytes": 26419,
+      "sha256": "6e45a1537652539ab619b0931c91788b7ad6c41fd94ff79b6beff04ea3dab2cc",
+      "saved_without_modification": true
+    },
+    {
+      "source_file": "language-06-tests.log",
+      "path": "docs/audits/prepared-language/originals/language-06-tests.log",
+      "bytes": 30568,
+      "sha256": "cc60213bf59bc8528ba672a29cdc1b3b60472e6285d5a8060f1e2df8f12d5c0b",
+      "saved_without_modification": true
+    }
+  ],
+  "copied_proofs": {
+    "semantic-originals-recovered-proof.json": "docs/audits/2026-10-07-semantic-originals-recovered-proof.json",
+    "navigation-originals-recovered-proof.json": "docs/audits/2026-10-07-navigation-originals-recovered-proof.json",
+    "local-execution-recovery-proof.json": "docs/audits/2026-10-07-local-execution-recovery-proof.json",
+    "live-resume-check/report.json": "docs/audits/2026-10-07-public-http-capture.json",
+    "public-build-equality-proof.json": "docs/audits/2026-10-07-public-build-equality-proof.json",
+    "resume-validation.json": "docs/audits/2026-10-07-execution-recovery-validation.json"
+  },
+  "total_original_bytes": 1405852,
+  "original_files": 6,
+  "historical_file_contents_and_statuses_preserved": true,
+  "current_report": "docs/audits/2026-10-07-execution-and-public-recovery.md"
+}
