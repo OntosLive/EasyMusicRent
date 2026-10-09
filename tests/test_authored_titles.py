@@ -104,8 +104,8 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
         self.assertTrue(manifest["requires_owner_review"])
-        self.assertEqual(len(pairs), 357)
-        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 714)
+        self.assertEqual(len(pairs), 661)
+        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 1322)
         self.assertIn("Полный размер для концерта", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
         self.assertIn("период подготовки", pairs["skripka-na-konkurs-v-arendu"]["n0"])
         self.assertNotIn("Сверьте мензуру", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
@@ -114,7 +114,7 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["authoring_models"], ["GPT-6", "GPT-6.1"])
         self.assertEqual(manifest["python_role"], "literal_transfer_validation_coverage_only")
-        self.assertEqual(len(manifest["pairs"]), 357)
+        self.assertEqual(len(manifest["pairs"]), 661)
 
     def test_title_can_be_direct_without_vertical_separator(self):
         self.titles["skripka"]["n0"] = "Скрипка ребёнку в аренду на нужный срок"
