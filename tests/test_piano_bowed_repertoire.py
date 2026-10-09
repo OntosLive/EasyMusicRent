@@ -117,7 +117,7 @@ class PianoBowedRepertoireTests(unittest.TestCase):
             self.assertEqual(deep.select_one('.meta a')['href'], '/')
         for path, expected in {
             'assets/canon.css': '04fd0f6c6ff73b23eb9676765fe3d94d7921e9b83800d920615146799ea8e12f',
-            'scripts/site_core.py': '52692fae95ac56ce5c93328a0a4c3f7eb933ade9c66a6fbec9e9245cde1a9a26',
+            'scripts/site_core.py': '01a4af94326065d30cfddfaf7974c7763ba3a9f81911add3ca84052caea36256',
         }.items():
             self.assertEqual(sha256((ROOT / path).read_bytes()).hexdigest(), expected)
         for doc in self.documents.values():

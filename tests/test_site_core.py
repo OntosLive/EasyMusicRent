@@ -41,6 +41,19 @@ class CanonTests(unittest.TestCase):
         self.assertEqual(core.text(entry.h1), 'Yamaha P-115 в аренду в Москве')
         self.assertLess(len(core.text(entry.h1)), 60)
 
+    def test_public_titles_are_subject_specific_not_brand_boilerplate(self):
+        for route in ('/', '/details/', '/sintezatory/', '/details/sintezatory/',
+                      '/yamaha-p115-v-arendu/', '/usloviya/srok-arendy/'):
+            with self.subTest(route=route):
+                doc = self.page(route)
+                self.assertEqual(core.text(doc.title), core.text(doc.h1))
+                self.assertNotIn(core.BRAND, core.text(doc.title))
+        self.assertEqual(core.text(self.page('/sintezatory/').title),
+                         'Аренда синтезаторов в Москве')
+        self.assertEqual(core.text(self.page('/details/sintezatory/').title),
+                         'Синтезаторы')
+        self.assertIsNotNone(self.page('/details/sintezatory/').select_one('.wordmark'))
+
     def test_conditions_have_real_icons_independent_of_footer(self):
         condition = self.page('/usloviya/srok-arendy/')
         self.assertEqual(len(condition.select('.contact-icons svg')), 2)

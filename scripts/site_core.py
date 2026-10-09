@@ -276,7 +276,7 @@ def title_style(value: str) -> str:
 def frame(title: str, description: str, url: str, body: str, css_version: str, *, deep: bool, noindex: bool = False) -> str:
     robots = '<meta name="robots" content="noindex,follow">' if noindex else ''
     return f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{escape(title)} | {BRAND}</title><meta name="description" content="{escape(description, quote=True)}">{robots}
+<title>{escape(title)}</title><meta name="description" content="{escape(description, quote=True)}">{robots}
 <link rel="canonical" href="{DOMAIN}{url}"><link rel="stylesheet" href="/assets/canon.css?v={css_version}"></head>
 <body class="{'deep-page' if deep else 'entry-page'}"><div class="page">{body}</div></body></html>'''
 
