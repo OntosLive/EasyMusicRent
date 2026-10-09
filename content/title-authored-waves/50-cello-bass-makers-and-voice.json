@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "violonchel-volchiy-ton/index.html",
+      "slug": "violonchel-volchiy-ton",
+      "n0": "Виолончели на пробу при волчьем тоне | Сравнение резонанса в реальной музыке",
+      "n1": "Волчий тон виолончели | Корпусной резонанс на определённых высотах"
+    },
+    {
+      "source_file": "violonchel-s-udobnym-verhnim-registrom/index.html",
+      "slug": "violonchel-s-udobnym-verhnim-registrom",
+      "n0": "Виолончель с удобным верхним регистром напрокат | Для сольной программы",
+      "n1": "Верхний регистр виолончели | Доступ к грифу и форма плеч корпуса"
+    },
+    {
+      "source_file": "violonchel-s-vyrazhennoy-nizhney-strunoy/index.html",
+      "slug": "violonchel-s-vyrazhennoy-nizhney-strunoy",
+      "n0": "Виолончель с выразительной струной до | Аренда для ансамбля и соло",
+      "n1": "Нижняя струна виолончели | Басовая глубина и самостоятельный тембровый голос"
+    },
+    {
+      "source_file": "nemetskaya-violonchel/index.html",
+      "slug": "nemetskaya-violonchel",
+      "n0": "Немецкая виолончель напрокат | Инструменты разных мастерских и эпох",
+      "n1": "Немецкие виолончели | Школы изготовления и отдельные мастерские"
+    },
+    {
+      "source_file": "cheshskaya-violonchel/index.html",
+      "slug": "cheshskaya-violonchel",
+      "n0": "Чешская виолончель в аренду | Учебные и мастеровые инструменты",
+      "n1": "Чешская виолончельная школа | Несколько периодов и способов изготовления"
+    },
+    {
+      "source_file": "frantsuzskaya-violonchel/index.html",
+      "slug": "frantsuzskaya-violonchel",
+      "n0": "Французская виолончель напрокат | От исторического до мастерового инструмента",
+      "n1": "Французские виолончели | Разные конструкции и художественные школы"
+    },
+    {
+      "source_file": "starinnaya-violonchel/index.html",
+      "slug": "starinnaya-violonchel",
+      "n0": "Старинная виолончель в аренду | Исторический инструмент для сцены и записи",
+      "n1": "Старинная виолончель | Возраст, перестройки и исполнительская история"
+    },
+    {
+      "source_file": "moskovskaya-violonchel/index.html",
+      "slug": "moskovskaya-violonchel",
+      "n0": "Московская виолончель напрокат | Мастеровые инструменты разных периодов",
+      "n1": "Московские виолончельные мастерские | Происхождение и индивидуальная конструкция"
+    },
+    {
+      "source_file": "masterovaya-violonchel/index.html",
+      "slug": "masterovaya-violonchel",
+      "n0": "Мастеровая виолончель в аренду | Отдельные инструменты для сольной программы",
+      "n1": "Мастеровая виолончель | Индивидуальный корпус, материал и работа мастера"
+    },
+    {
+      "source_file": "masterovoy-kontrabas/index.html",
+      "slug": "masterovoy-kontrabas",
+      "n0": "Мастеровой контрабас напрокат | Индивидуальный акустический инструмент",
+      "n1": "Мастеровой контрабас | Конструкция и голос конкретного экземпляра"
+    },
+    {
+      "source_file": "starinnyy-kontrabas/index.html",
+      "slug": "starinnyy-kontrabas",
+      "n0": "Старинный контрабас в аренду | Исторические инструменты для исполнения",
+      "n1": "Старинный контрабас | Мастерская, перестройки и история звучания"
+    },
+    {
+      "source_file": "nemetskiy-kontrabas/index.html",
+      "slug": "nemetskiy-kontrabas",
+      "n0": "Немецкий контрабас напрокат | Мастеровые и исторические варианты",
+      "n1": "Немецкие контрабасы | Разные школы, корпуса и эпохи изготовления"
+    },
+    {
+      "source_file": "cheshskiy-kontrabas/index.html",
+      "slug": "cheshskiy-kontrabas",
+      "n0": "Чешский контрабас в аренду | Традиционные и мастеровые инструменты",
+      "n1": "Чешские контрабасы | Несколько мастерских и инструментальных конструкций"
+    },
+    {
+      "source_file": "moskovskiy-kontrabas/index.html",
+      "slug": "moskovskiy-kontrabas",
+      "n0": "Московский контрабас напрокат | Инструмент под концертную и учебную задачу",
+      "n1": "Московские контрабасы | Собственная история мастерских и конкретных инструментов"
+    }
+  ]
+}
