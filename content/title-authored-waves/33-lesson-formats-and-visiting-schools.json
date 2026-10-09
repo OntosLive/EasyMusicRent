@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-uroka-na-domu",
+      "n0": "Инструмент на домашний урок в аренду | Занятие с преподавателем у себя",
+      "n1": "Урок музыки дома | Инструмент остаётся для самостоятельной практики"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-zanyatiya-u-prepodavatelya",
+      "n0": "Инструмент для занятий у преподавателя | Аренда на учебный период",
+      "n1": "Урок у преподавателя | Свой учебный инструмент для знакомой программы"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-onlayn-uroka-s-prepodavatelem",
+      "n0": "Инструмент для онлайн-урока в аренду | Домашний комплект для занятий по связи",
+      "n1": "Онлайн-урок музыки | Клавиши или струны, камера и слышимая обратная связь"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-master-klassa-s-prepodavatelem",
+      "n0": "Инструмент на мастер-класс напрокат | На урок, репетиции и выступление",
+      "n1": "Мастер-класс с педагогом | Временный инструмент на интенсивную программу"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-konsultatsii-s-professorom",
+      "n0": "Инструмент на консультацию с профессором | Аренда под профессиональную программу",
+      "n1": "Консультация профессора | Инструмент и подготовленный репертуар для одной встречи"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-otkrytogo-uroka",
+      "n0": "Инструмент для открытого урока в аренду | Для ученика и педагогического показа",
+      "n1": "Открытый музыкальный урок | Учебная практика перед аудиторией"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-gruppovogo-uroka",
+      "n0": "Инструменты для группового урока | Учебные комплекты всем участникам",
+      "n1": "Групповой музыкальный урок | Несколько инструментов в одной учебной задаче"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-ansamblevogo-uroka",
+      "n0": "Инструменты для ансамблевого урока | Готовый учебный состав в аренду",
+      "n1": "Ансамблевое занятие | Совместные партии вместо нескольких сольных уроков"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-uroka-s-kontsertmeysterom",
+      "n0": "Инструменты для урока с концертмейстером | Рояль и сольный голос",
+      "n1": "Урок с концертмейстером | Солист и фортепианная партия работают вместе"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-uroka-v-studii",
+      "n0": "Инструмент на урок в музыкальной студии | Аренда для учебного помещения",
+      "n1": "Занятие в музыкальной студии | Инструмент под конкретное рабочее место"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-uroka-v-drugom-gorode",
+      "n0": "Инструмент для урока в другом городе | Местная аренда без перевозки своего",
+      "n1": "Урок музыки в поездке | Сохранить программу на инструменте по месту занятий"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-vyezdnoy-shkoly",
+      "n0": "Инструменты для выездной музыкальной школы | Учебный состав на несколько дней",
+      "n1": "Выездная музыкальная школа | Индивидуальные уроки и ансамбли в одной смене"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-letney-akademii",
+      "n0": "Инструменты для летней музыкальной академии | На курс, ансамбли и концерт",
+      "n1": "Летняя музыкальная академия | Репетиционный период и заключительная программа"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-uchebnogo-sbora",
+      "n0": "Инструменты на музыкальные сборы в аренду | Оснащение классов и ансамблей",
+      "n1": "Музыкальные учебные сборы | Секции, индивидуальные уроки и совместный концерт"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-dlya-zanyatiy-s-dvumya-prepodavatelyami",
+      "n0": "Инструмент для занятий с двумя педагогами | Один комплект на общую программу",
+      "n1": "Два музыкальных преподавателя | Разные уроки на одном учебном инструменте"
+    },
+    {
+      "source_file": "content/sections/zz123-teacher-lesson-format-routes.json",
+      "slug": "instrument-na-period-smeny-prepodavatelya",
+      "n0": "Инструмент на время смены педагога | Аренда без перерыва в занятиях",
+      "n1": "Переход к новому преподавателю | Продолжение практики и новый учебный план"
+    }
+  ]
+}
