@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "scope": "legacy commercial first half",
+  "reviews": {
+    "kontrabas-chetyre-chetverti-v-arendu": {
+      "n0": {
+        "source_path": "kontrabas-chetyre-chetverti-v-arendu/index.html",
+        "source_quote": "Полноразмерный корпус даёт другой масштаб звука и другое физическое ощущение инс",
+        "decision": "Контрабас 4/4 в аренду | Полный размер для концерта, оркестра и репетиций",
+        "next_action": "Полный размер для концерта, оркестра и репетиций"
+      },
+      "n1": {
+        "source_path": "kontrabas-chetyre-chetverti-v-arendu/index.html",
+        "source_quote": "Аренда позволяет сначала проверить конкретный инструмент в реальной работе, особ",
+        "decision": "Контрабас 4/4 | Полноразмерный акустический инструмент для оркестра",
+        "next_action": "Полноразмерный акустический инструмент для оркестра"
+      }
+    },
+    "kontrabas-tri-chetverti-v-arendu": {
+      "n0": {
+        "source_path": "kontrabas-tri-chetverti-v-arendu/index.html",
+        "source_quote": "Два контрабаса 3/4 могут ощущаться совершенно по-разному: корпус, мензура, высот",
+        "decision": "Контрабас 3/4 напрокат | Для профессиональной игры, учёбы и гастролей",
+        "next_action": "Для профессиональной игры, учёбы и гастролей"
+      },
+      "n1": {
+        "source_path": "kontrabas-tri-chetverti-v-arendu/index.html",
+        "source_quote": "Если размер уже понятен, аренда позволяет решить следующий вопрос на практике: к",
+        "decision": "Контрабас 3/4 | Самый распространённый концертный формат не равен одной мензуре",
+        "next_action": "Самый распространённый концертный формат не равен одной мензуре"
+      }
+    },
+    "kontrabas-polovina-v-arendu": {
+      "n0": {
+        "source_path": "kontrabas-polovina-v-arendu/index.html",
+        "source_quote": "Размер 1/2 часто оказывается переходным: ребёнок растёт, меняется посадка, увели",
+        "decision": "Контрабас 1/2 в аренду | Для учебных программ и молодых музыкантов",
+        "next_action": "Для учебных программ и молодых музыкантов"
+      },
+      "n1": {
+        "source_path": "kontrabas-polovina-v-arendu/index.html",
+        "source_quote": "Именно переходный размер особенно естественно брать на время, чтобы инструмент м",
+        "decision": "Контрабас 1/2 | Уменьшенный инструмент для следующей ступени обучения",
+        "next_action": "Уменьшенный инструмент для следующей ступени обучения"
+      }
+    },
+    "pyatistrunnyy-kontrabas-v-arendu": {
+      "n0": {
+        "source_path": "pyatistrunnyy-kontrabas-v-arendu/index.html",
+        "source_quote": "ПЯТИСТРУННЫЙ КОНТРАБАС · АРЕНДА · МОСКВА",
+        "decision": "Пятиструнный контрабас напрокат | Низкая пятая струна для оркестрового репертуара",
+        "next_action": "Низкая пятая струна для оркестрового репертуара"
+      },
+      "n1": {
+        "source_path": "pyatistrunnyy-kontrabas-v-arendu/index.html",
+        "source_quote": "Пятиструнный контрабас нужен не каждому исполнителю каждый день. Иногда он появл",
+        "decision": "Пятиструнный контрабас | Расширенный нижний регистр в симфонической партии",
+        "next_action": "Расширенный нижний регистр в симфонической партии"
+      }
+    },
+    "kontrabas-na-konkurs-v-arendu": {
+      "n0": {
+        "source_path": "kontrabas-na-konkurs-v-arendu/index.html",
+        "source_quote": "КОНТРАБАС НА КОНКУРС · АРЕНДА · МОСКВА",
+        "decision": "Контрабас на конкурс в аренду | На подготовку, прослушивание и выступление",
+        "next_action": "На подготовку, прослушивание и выступление"
+      },
+      "n1": {
+        "source_path": "kontrabas-na-konkurs-v-arendu/index.html",
+        "source_quote": "Конкурс оставляет мало места для экспериментов в последний момент. Инструмент до",
+        "decision": "Конкурсный контрабас | Инструмент под сольный и оркестровый репертуар",
+        "next_action": "Инструмент под сольный и оркестровый репертуар"
+      }
+    },
+    "kontrabas-na-gastroli-v-moskve": {
+      "n0": {
+        "source_path": "kontrabas-na-gastroli-v-moskve/index.html",
+        "source_quote": "КОНТРАБАС НА ГАСТРОЛИ · МОСКВА · АРЕНДА",
+        "decision": "Контрабас на гастроли в Москве | Инструмент для приехавшего музыканта",
+        "next_action": "Инструмент для приехавшего музыканта"
+      },
+      "n1": {
+        "source_path": "kontrabas-na-gastroli-v-moskve/index.html",
+        "source_quote": "Перевозка контрабаса сама становится отдельным проектом: билет, кофр, риск, погр",
+        "decision": "Гастрольный контрабас | Музыка продолжается без перевозки собственного корпуса",
+        "next_action": "Музыка продолжается без перевозки собственного корпуса"
+      }
+    },
+    "kontrabas-po-rayderu-v-moskve": {
+      "n0": {
+        "source_path": "kontrabas-po-rayderu-v-moskve/index.html",
+        "source_quote": "КОНТРАБАС ПО РАЙДЕРУ · АРЕНДА · МОСКВА",
+        "decision": "Контрабас по райдеру в Москве | Концертный инструмент в нужном составе",
+        "next_action": "Концертный инструмент в нужном составе"
+      },
+      "n1": {
+        "source_path": "kontrabas-po-rayderu-v-moskve/index.html",
+        "source_quote": "Райдер превращает инструмент в часть производственной цепочки концерта: конфигур",
+        "decision": "Контрабас в райдере | Оркестровая, джазовая и специальная концертная конфигурация",
+        "next_action": "Оркестровая, джазовая и специальная концертная конфигурация"
+      }
+    },
+    "kontrabas-v-arendu-na-mesyats": {
+      "n0": {
+        "source_path": "kontrabas-v-arendu-na-mesyats/index.html",
+        "source_quote": "КОНТРАБАС НА МЕСЯЦ · АРЕНДА · МОСКВА",
+        "decision": "Контрабас на месяц в аренду | Для занятий, репетиций и программы на срок",
+        "next_action": "Для занятий, репетиций и программы на срок"
+      },
+      "n1": {
+        "source_path": "kontrabas-v-arendu-na-mesyats/index.html",
+        "source_quote": "За месяц инструмент успевает стать частью ежедневной практики. Поэтому вариант «",
+        "decision": "Контрабас на месяц | Регулярная музыкальная работа на временном инструменте",
+        "next_action": "Регулярная музыкальная работа на временном инструменте"
+      }
+    },
+    "kontrabas-v-arendu-na-nedelyu": {
+      "n0": {
+        "source_path": "kontrabas-v-arendu-na-nedelyu/index.html",
+        "source_quote": "КОНТРАБАС НА НЕДЕЛЮ · АРЕНДА · МОСКВА",
+        "decision": "Контрабас на неделю напрокат | На репетиционный цикл или концертную неделю",
+        "next_action": "На репетиционный цикл или концертную неделю"
+      },
+      "n1": {
+        "source_path": "kontrabas-v-arendu-na-nedelyu/index.html",
+        "source_quote": "За неделю может пройти серия репетиций, запись, несколько концертов или интенсив",
+        "decision": "Контрабас на неделю | От нескольких репетиций до готового выступления",
+        "next_action": "От нескольких репетиций до готового выступления"
+      }
+    },
+    "kontrabas-na-vremya-remonta": {
+      "n0": {
+        "source_path": "kontrabas-na-vremya-remonta/index.html",
+        "source_quote": "КОНТРАБАС НА ЗАМЕНУ · ВРЕМЯ РЕМОНТА",
+        "decision": "Контрабас на время ремонта в аренду | Полноценная замена до возвращения своего",
+        "next_action": "Полноценная замена до возвращения своего"
+      },
+      "n1": {
+        "source_path": "kontrabas-na-vremya-remonta/index.html",
+        "source_quote": "Ремонт редко спрашивает, когда у вас концерт, урок или репетиция.",
+        "decision": "Контрабас на замену | Уроки, репетиции и концерты продолжаются",
+        "next_action": "Уроки, репетиции и концерты продолжаются"
+      }
+    },
+    "kontrabas-esli-svoy-slomalsya": {
+      "n0": {
+        "source_path": "kontrabas-esli-svoy-slomalsya/index.html",
+        "source_quote": "КОНТРАБАС НА ЗАМЕНУ · ЕСЛИ СВОЙ СЛОМАЛСЯ",
+        "decision": "Контрабас взамен сломанного | Аренда для срочной замены и продолжения программы",
+        "next_action": "Аренда для срочной замены и продолжения программы"
+      },
+      "n1": {
+        "source_path": "kontrabas-esli-svoy-slomalsya/index.html",
+        "source_quote": "Поломка создаёт не задачу выбора нового контрабаса, а дыру в расписании: уроки, ",
+        "decision": "Замена сломанного контрабаса | Сохранить расписание музыкальной работы",
+        "next_action": "Сохранить расписание музыкальной работы"
+      }
+    },
+    "kontrabas-dlya-nachinayuschego-v-arendu": {
+      "n0": {
+        "source_path": "kontrabas-dlya-nachinayuschego-v-arendu/index.html",
+        "source_quote": "КОНТРАБАС ДЛЯ НАЧИНАЮЩЕГО · АРЕНДА · МОСКВА",
+        "decision": "Контрабас для начинающего в аренду | Первые уроки с полноценным инструментом",
+        "next_action": "Первые уроки с полноценным инструментом"
+      },
+      "n1": {
+        "source_path": "kontrabas-dlya-nachinayuschego-v-arendu/index.html",
+        "source_quote": "В начале трудно заранее понять, какой размер, мензура, высота струн и характер и",
+        "decision": "Первый контрабас | От начальной постановки до самостоятельной игры",
+        "next_action": "От начальной постановки до самостоятельной игры"
+      }
+    },
+    "skripka-na-konkurs-v-arendu": {
+      "n0": {
+        "source_path": "skripka-na-konkurs-v-arendu/index.html",
+        "source_quote": "СКРИПКА НА КОНКУРС · АРЕНДА · МОСКВА",
+        "decision": "Скрипка на конкурс в аренду | На весь период подготовки и само выступление",
+        "next_action": "На весь период подготовки и само выступление"
+      },
+      "n1": {
+        "source_path": "skripka-na-konkurs-v-arendu/index.html",
+        "source_quote": "Конкурсная программа требует предсказуемого отклика и времени на адаптацию.",
+        "decision": "Скрипка для конкурса | Конкурсный репертуар на полноценном инструменте",
+        "next_action": "Конкурсный репертуар на полноценном инструменте"
+      }
+    },
+    "skripka-na-ekzamen-v-arendu": {
+      "n0": {
+        "source_path": "skripka-na-ekzamen-v-arendu/index.html",
+        "source_quote": "СКРИПКА НА ЭКЗАМЕН · АРЕНДА · МОСКВА",
+        "decision": "Скрипка на экзамен напрокат | Для подготовки и экзаменационного выступления",
+        "next_action": "Для подготовки и экзаменационного выступления"
+      },
+      "n1": {
+        "source_path": "skripka-na-ekzamen-v-arendu/index.html",
+        "source_quote": "На экзамене любая непривычная реакция инструмента становится частью исполнения.",
+        "decision": "Экзаменационная скрипка | От домашних занятий до выхода перед комиссией",
+        "next_action": "От домашних занятий до выхода перед комиссией"
+      }
+    }
+  }
+}
