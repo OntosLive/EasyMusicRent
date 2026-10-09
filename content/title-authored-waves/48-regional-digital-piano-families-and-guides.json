@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "arenda-cifrovogo-pianino-kazan/index.html",
+      "slug": "arenda-cifrovogo-pianino-kazan",
+      "n0": "Цифровое пианино в аренду в Казани | Для домашней практики и музыкальной школы",
+      "n1": "Цифровое пианино для занятий в Казани | Полная клавиатура на нужный период"
+    },
+    {
+      "source_file": "arenda-koncertnogo-royalya-moskva/index.html",
+      "slug": "arenda-koncertnogo-royalya-moskva",
+      "n0": "Концертный рояль в аренду в Москве | От камерного зала до большой сцены",
+      "n1": "Концертный рояль | Размер, механика и акустическая проекция для выступления"
+    },
+    {
+      "source_file": "cifrovoe-pianino-yamaha/index.html",
+      "slug": "cifrovoe-pianino-yamaha",
+      "n0": "Цифровые пианино Yamaha напрокат | P Series, ARIUS и Clavinova под разные задачи",
+      "n1": "Цифровые пианино Yamaha | От мобильной клавиатуры до корпусной Clavinova"
+    },
+    {
+      "source_file": "cifrovoe-pianino-casio/index.html",
+      "slug": "cifrovoe-pianino-casio",
+      "n0": "Цифровые пианино Casio в аренду | Компактная Privia и домашняя Celviano",
+      "n1": "Пианино Casio | 88 клавиш в переносных и корпусных сериях"
+    },
+    {
+      "source_file": "cifrovoe-pianino-kawai/index.html",
+      "slug": "cifrovoe-pianino-kawai",
+      "n0": "Цифровое пианино Kawai напрокат | ES, CN и CA для разных уровней практики",
+      "n1": "Цифровые Kawai | От мобильной ES до деревянной клавиатуры CA"
+    },
+    {
+      "source_file": "cifrovoe-pianino-roland/index.html",
+      "slug": "cifrovoe-pianino-roland",
+      "n0": "Цифровые пианино Roland в аренду | Переносные FP и домашние HP или LX",
+      "n1": "Цифровые Roland | Несколько исполнительских классов от FP до LX"
+    },
+    {
+      "source_file": "kak-vybrat-cifrovoe-pianino-dlya-obucheniya/index.html",
+      "slug": "kak-vybrat-cifrovoe-pianino-dlya-obucheniya",
+      "n0": "Цифровое пианино для обучения | Попробовать учебный инструмент до покупки",
+      "n1": "Пианино для обучения | Клавиатура, педали и место для ежедневных занятий"
+    },
+    {
+      "source_file": "kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly/index.html",
+      "slug": "kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly",
+      "n0": "Первое пианино ребёнку | Можно начать учёбу с аренды без поспешной покупки",
+      "n1": "Пианино ребёнка для музыкальной школы | Постоянная домашняя практика между уроками"
+    },
+    {
+      "source_file": "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly/index.html",
+      "slug": "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly",
+      "n0": "Пианино для музыкальной школы | Цифровые и акустические варианты в аренду",
+      "n1": "Домашнее пианино ученика | Соответствие школьной программе и работе преподавателя"
+    }
+  ]
+}
