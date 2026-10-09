@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "diatonicheskaya-garmonika-v-drugoy-tonalnosti",
+      "n0": "Диатоническая гармоника другой тональности | Инструмент под новую песню",
+      "n1": "Разные тональности гармоники | Та же система в другом высотном регистре"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "hromaticheskaya-garmonika-dlya-pervogo-opyta",
+      "n0": "Хроматическая гармоника на первый опыт напрокат | Полутона и полноценная мелодия",
+      "n1": "Первая хроматическая гармоника | Полутоновый механизм расширяет диапазон"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "hromaticheskaya-garmonika-posle-diatonicheskoy",
+      "n0": "Хроматическая гармоника после диатоники | Аренда на следующий этап",
+      "n1": "От диатоники к хроматике | Кнопка открывает полутона без смены корпуса"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "hromaticheskaya-garmonika-dlya-dzhaza",
+      "n0": "Хроматическая гармоника для джаза | Инструмент на репетиции и выступление",
+      "n1": "Джазовая хроматическая гармоника | Мелодия с доступом ко всем полутонам"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "hromaticheskaya-garmonika-dlya-melodicheskoy-linii",
+      "n0": "Хроматическая гармоника для мелодической партии | Аренда для ансамбля",
+      "n1": "Хроматическая мелодия | Полный набор полутонов для свободной фразы"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "hromaticheskaya-garmonika-pered-pokupkoy",
+      "n0": "Хроматическая гармоника до покупки | Проба другой исполнительской системы",
+      "n1": "Хроматическая гармоника перед покупкой | Работа слайдера и герметичность"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "gubnaya-garmonika-dlya-zapisi",
+      "n0": "Губная гармоника для студийной записи | Инструмент под конкретный строй и партию",
+      "n1": "Гармоника в студии | Живое дыхание и тембр в микрофонном тракте"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "gubnaya-garmonika-dlya-kontserta",
+      "n0": "Губная гармоника на концерт напрокат | Тональности под весь сет",
+      "n1": "Концертные гармоники | Разные тональности для нескольких песен"
+    }
+  ]
+}
