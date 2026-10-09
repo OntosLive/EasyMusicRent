@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "teorba-dlya-continuo",
+      "n0": "Теорба для basso continuo в аренду | Исторический аккомпанемент ансамбля",
+      "n1": "Теорба в continuo | Басовая основа и щипковая гармония в одной партии"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "teorba-pered-pokupkoy",
+      "n0": "Теорба до покупки напрокат | Попробовать инструмент с длинными басами",
+      "n1": "Теорба перед покупкой | Длинный гриф и историческая исполнительская система"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "kanun-dlya-pervogo-opyta",
+      "n0": "Канун для первых занятий в аренду | Традиционный многострунный инструмент",
+      "n1": "Первый канун | Плоская дека и сложная карта струн"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "kanun-dlya-raboty-s-mandalami",
+      "n0": "Канун с мандалами напрокат | Для мелодии с изменением высот",
+      "n1": "Мандалы кануна | Малые рычаги позволяют изменять строй в игре"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "kanun-pered-pokupkoy",
+      "n0": "Канун до покупки в аренду | Проверить расположение струн и систему мандалов",
+      "n1": "Канун перед покупкой | Исполнительская карта многочисленных струн и рычажков"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "kora-dlya-pervogo-opyta",
+      "n0": "Кора для первого опыта напрокат | Африканский щипковый инструмент",
+      "n1": "Первая кора | Многослойная мелодия двумя руками"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "kora-dlya-zapisi",
+      "n0": "Кора для записи в аренду | Живой африканский струнный тембр для студии",
+      "n1": "Кора в записи | Переплетающиеся партии двух рук в одном инструменте"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "kora-pered-pokupkoy",
+      "n0": "Кора до покупки напрокат | Время на знакомство с многими струнами",
+      "n1": "Кора перед покупкой | Большой струнный инструмент с собственной раскладкой"
+    }
+  ]
+}
