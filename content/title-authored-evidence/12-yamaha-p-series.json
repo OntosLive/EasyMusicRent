@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "reviews": {
+    "yamaha-p35-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p35-v-arendu/index.html",
+        "source_quote": "YAMAHA P-35 · 88 КЛАВИШ · АРЕНДА",
+        "decision": "Yamaha P-35 напрокат | 88 клавиш для занятий без большого корпуса",
+        "next_action": "88 клавиш для занятий без большого корпуса"
+      },
+      "n1": {
+        "source_path": "yamaha-p35-v-arendu/index.html",
+        "source_quote": "P-35 имеет смысл там, где нужен временный рабочий вход в фортепианную практ",
+        "decision": "Yamaha P-35 | Переносное цифровое пианино для базовой практики",
+        "next_action": "Переносное цифровое пианино для базовой практики"
+      }
+    },
+    "yamaha-p45-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p45-v-arendu/index.html",
+        "source_quote": "YAMAHA P-45 · ОБУЧЕНИЕ · АРЕНДА",
+        "decision": "Yamaha P-45 в аренду | Первые серьёзные занятия на 88 клавишах",
+        "next_action": "Первые серьёзные занятия на 88 клавишах"
+      },
+      "n1": {
+        "source_path": "yamaha-p45-v-arendu/index.html",
+        "source_quote": "P-45 часто оказывается там, где занятия уже начались, а собственный критери",
+        "decision": "Yamaha P-45 | Фортепианная клавиатура в компактном формате",
+        "next_action": "Фортепианная клавиатура в компактном формате"
+      }
+    },
+    "yamaha-p105-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p105-v-arendu/index.html",
+        "source_quote": "YAMAHA P-105 · ВРЕМЕННЫЙ ИНСТРУМЕНТ · АРЕНДА",
+        "decision": "Yamaha P-105 напрокат | Временное пианино для уже играющего музыканта",
+        "next_action": "Временное пианино для уже играющего музыканта"
+      },
+      "n1": {
+        "source_path": "yamaha-p105-v-arendu/index.html",
+        "source_quote": "Иногда задача вообще не в выборе нового пианино. Вы уже умеете играть, прос",
+        "decision": "Yamaha P-105 | Клавиатура для регулярной практики вне постоянного дома",
+        "next_action": "Клавиатура для регулярной практики вне постоянного дома"
+      }
+    },
+    "yamaha-p115-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p115-v-arendu/index.html",
+        "source_quote": "YAMAHA P-115 · ДОМ · ПЕРЕНОСНОСТЬ",
+        "decision": "Yamaha P-115 в аренду | Домашние занятия и возможность легко перевезти пианино",
+        "next_action": "Домашние занятия и возможность легко перевезти пианино"
+      },
+      "n1": {
+        "source_path": "yamaha-p115-v-arendu/index.html",
+        "source_quote": "P-115 хорошо попадает в сцену, где пианино большую часть времени стоит дома",
+        "decision": "Yamaha P-115 | Переносной инструмент для ежедневной фортепианной работы",
+        "next_action": "Переносной инструмент для ежедневной фортепианной работы"
+      }
+    },
+    "yamaha-p125-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p125-v-arendu/index.html",
+        "source_quote": "YAMAHA P-125 · ДОМАШНЯЯ ПРАКТИКА · АРЕНДА",
+        "decision": "Yamaha P-125 напрокат | Для серьёзных занятий без громоздкого корпуса",
+        "next_action": "Для серьёзных занятий без громоздкого корпуса"
+      },
+      "n1": {
+        "source_path": "yamaha-p125-v-arendu/index.html",
+        "source_quote": "P-125 хорошо живёт в промежуточной сцене: заниматься нужно всерьёз, а превр",
+        "decision": "Yamaha P-125 | Полноразмерная клавиатура в домашнем мобильном формате",
+        "next_action": "Полноразмерная клавиатура в домашнем мобильном формате"
+      }
+    },
+    "yamaha-p143-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p143-v-arendu/index.html",
+        "source_quote": "YAMAHA P-143 · ПЕРВЫЙ ИНСТРУМЕНТ · АРЕНДА",
+        "decision": "Yamaha P-143 в аренду | Современное компактное пианино для первых уроков",
+        "next_action": "Современное компактное пианино для первых уроков"
+      },
+      "n1": {
+        "source_path": "yamaha-p143-v-arendu/index.html",
+        "source_quote": "P-143 естественно появляется там, где человек только собирает домашнюю прак",
+        "decision": "Yamaha P-143 | 88-клавишный старт фортепианной практики",
+        "next_action": "88-клавишный старт фортепианной практики"
+      }
+    },
+    "yamaha-p145-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p145-v-arendu/index.html",
+        "source_quote": "YAMAHA P-145 · НАЧАЛО ЗАНЯТИЙ · АРЕНДА",
+        "decision": "Yamaha P-145 напрокат | Начать домашние занятия до окончательной покупки",
+        "next_action": "Начать домашние занятия до окончательной покупки"
+      },
+      "n1": {
+        "source_path": "yamaha-p145-v-arendu/index.html",
+        "source_quote": "Если занятия уже начались, главная задача проста: дома должна появиться кла",
+        "decision": "Yamaha P-145 | Компактное цифровое пианино для учебной работы",
+        "next_action": "Компактное цифровое пианино для учебной работы"
+      }
+    },
+    "yamaha-p225-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p225-v-arendu/index.html",
+        "source_quote": "YAMAHA P-225 · ПЕРЕНОСНОСТЬ · СЕРЬЁЗНАЯ ПРАКТИКА",
+        "decision": "Yamaha P-225 в аренду | Переносной формат для серьёзной фортепианной практики",
+        "next_action": "Переносной формат для серьёзной фортепианной практики"
+      },
+      "n1": {
+        "source_path": "yamaha-p225-v-arendu/index.html",
+        "source_quote": "Бывает, что переносной формат нужен не новичку, а человеку, который уже чув",
+        "decision": "Yamaha P-225 | Компактный корпус и полноценная исполнительская задача",
+        "next_action": "Компактный корпус и полноценная исполнительская задача"
+      }
+    },
+    "yamaha-p515-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p515-v-arendu/index.html",
+        "source_quote": "YAMAHA P-515 · ПРОДВИНУТАЯ ПРАКТИКА · АРЕНДА",
+        "decision": "Yamaha P-515 напрокат | Фортепианная практика продвинутого музыканта",
+        "next_action": "Фортепианная практика продвинутого музыканта"
+      },
+      "n1": {
+        "source_path": "yamaha-p515-v-arendu/index.html",
+        "source_quote": "Иногда хороший пианист оказывается без инструмента на несколько месяцев: пе",
+        "decision": "Yamaha P-515 | Серьёзная цифровая клавиатура в переносном формате",
+        "next_action": "Серьёзная цифровая клавиатура в переносном формате"
+      }
+    },
+    "yamaha-p525-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p525-v-arendu/index.html",
+        "source_quote": "YAMAHA P-525 · СЕРЬЁЗНАЯ КЛАВИАТУРА · МОБИЛЬНОСТЬ",
+        "decision": "Yamaha P-525 в аренду | Продвинутая клавиатура для дома и выступлений",
+        "next_action": "Продвинутая клавиатура для дома и выступлений"
+      },
+      "n1": {
+        "source_path": "yamaha-p525-v-arendu/index.html",
+        "source_quote": "P-525 попадает в сцену, где человек уже не ищет «первое цифровое пианино». ",
+        "decision": "Yamaha P-525 | Сочетание мобильности и фортепианной исполнительской работы",
+        "next_action": "Сочетание мобильности и фортепианной исполнительской работы"
+      }
+    },
+    "yamaha-p-series-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-p-series-v-arendu/index.html",
+        "source_quote": "YAMAHA P SERIES · ПЕРЕНОСНОЕ ПИАНИНО · АРЕНДА",
+        "decision": "Yamaha P Series в аренду | От первых уроков до серьёзного переносного пианино",
+        "next_action": "От первых уроков до серьёзного переносного пианино"
+      },
+      "n1": {
+        "source_path": "yamaha-p-series-v-arendu/index.html",
+        "source_quote": "P Series особенно естественна там, где инструмент нельзя навсегда привязать",
+        "decision": "Yamaha P Series | Семейство мобильных цифровых фортепиано разных уровней",
+        "next_action": "Семейство мобильных цифровых фортепиано разных уровней"
+      }
+    }
+  }
+}
