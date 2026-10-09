@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-pervogo-uroka-s-prepodavatelem",
+      "n0": "Инструмент для первого урока в аренду | Начать занятия без покупки",
+      "n1": "Первый урок музыки | Рабочий инструмент прежде окончательного выбора"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-na-probnyy-mesyats-zanyatiy",
+      "n0": "Инструмент на пробный месяц в аренду | Полный месяц занятий дома и с педагогом",
+      "n1": "Пробный месяц музыки | Регулярная практика показывает собственное направление"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-posle-probnogo-uroka",
+      "n0": "Инструмент после пробного урока | Аренда для продолжения занятий",
+      "n1": "После первого урока | Временный инструмент становится постоянным участником практики"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-pervyh-zanyatiy-doma",
+      "n0": "Инструмент для первых занятий дома | Прокат на начальный учебный этап",
+      "n1": "Первые домашние занятия | Собственный учебный комплект между уроками"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-zanyatiy-mezhdu-urokami",
+      "n0": "Инструмент между уроками в аренду | Домашняя практика по программе педагога",
+      "n1": "Занятия между уроками | Навык закрепляется на одном знакомом инструменте"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-vzroslogo-novichka-s-prepodavatelem",
+      "n0": "Инструмент взрослому новичку | В аренду на занятия с преподавателем",
+      "n1": "Взрослый начинает музыку | Полноценный инструмент для первого учебного периода"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-rebenku-posle-vybora-prepodavatelya",
+      "n0": "Инструмент ребёнку после выбора педагога | Учебный комплект в аренду",
+      "n1": "Инструмент ребёнка и преподаватель | Первая совместная учебная задача"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-vozvrashcheniya-k-zanyatiyam-s-prepodavatelem",
+      "n0": "Инструмент для возвращения к урокам | Аренда после перерыва",
+      "n1": "Возобновление занятий | Знакомая музыкальная практика без немедленной покупки"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-na-period-podbora-postoyannogo",
+      "n0": "Инструмент на время выбора постоянного | Аренда без остановки занятий",
+      "n1": "Период выбора инструмента | Музыкальные уроки идут, решение о покупке ещё открыто"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-letnih-zanyatiy-s-prepodavatelem",
+      "n0": "Инструмент для летних уроков | Аренда на каникулы и учебную смену",
+      "n1": "Музыкальные занятия летом | Полная практика вне обычного учебного года"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-na-kanikuly-po-zadaniyu-prepodavatelya",
+      "n0": "Инструмент на каникулы в аренду | Для программы, заданной преподавателем",
+      "n1": "Музыкальная программа на каникулы | От урока до самостоятельного повторения"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii",
+      "n0": "Второй инструмент для занятий | Аренда по рекомендации преподавателя",
+      "n1": "Два места занятий | Одна учебная программа без постоянных перевозок"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-intensivnogo-kursa",
+      "n0": "Инструмент на интенсивный курс | Прокат на весь период музыкальных занятий",
+      "n1": "Интенсивный курс музыки | Ежедневная работа на подготовленном инструменте"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy",
+      "n0": "Инструмент на несколько уроков до покупки | Прокат для полноценной пробы",
+      "n1": "Несколько уроков на пробу | Практика прежде окончательного выбора"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-zanyatiy-raz-v-nedelyu",
+      "n0": "Инструмент для еженедельных уроков | Аренда с домашней практикой",
+      "n1": "Один урок в неделю | Домашние повторения связывают встречи с педагогом"
+    },
+    {
+      "source_file": "content/sections/zz121-teacher-start-routes.json",
+      "slug": "instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya",
+      "n0": "Инструмент для ежедневной практики | Аренда под программу преподавателя",
+      "n1": "Ежедневные занятия музыкой | Один рабочий инструмент для устойчивого навыка"
+    }
+  ]
+}
