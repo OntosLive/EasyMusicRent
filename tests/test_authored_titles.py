@@ -111,7 +111,7 @@ class AuthoredTitlesTests(unittest.TestCase):
         self.assertNotIn("Сверьте мензуру", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
         self.assertIn("полного состава", pairs["instrumenty-dlya-studencheskogo-kamernogo-orkestra"]["n0"])
         self.assertIn("Рояль", pairs["instrumenty-dlya-fortepiannogo-kvinteta"]["n0"])
-        self.assertIn("тихой практики", pairs["instrument-esli-slishkom-gromko-dlya-doma"]["n1"])
+        self.assertIn("цифровой звук", pairs["instrument-esli-slishkom-gromko-dlya-doma"]["n1"])
 
     def test_only_gpt6_family_authors_public_title_copy(self):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
