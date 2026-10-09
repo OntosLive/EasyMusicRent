@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "slug": "skripka-vzroslomu-nachinayuschemu",
+      "n0": "Скрипка взрослому начинающему в аренду | Полноценный инструмент для первых уроков",
+      "n1": "Первая скрипка взрослому | Учёба с первого шага на рабочем инструменте",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "skripka-dlya-domashnih-zanyatiy",
+      "n0": "Скрипка для дома напрокат | Инструмент для ежедневной практики между уроками",
+      "n1": "Домашняя скрипка | Собственный звук, постановка и повторение материала",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "skripka-posle-pereryva",
+      "n0": "Скрипка после перерыва в аренду | Вернуться к занятиям без новой покупки",
+      "n1": "Возвращение к скрипке | Знакомый инструмент для новой фазы музыкальной жизни",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "skripka-pered-pokupkoy",
+      "n0": "Скрипка перед покупкой напрокат | Попробовать инструмент в обычной работе",
+      "n1": "Скрипка до покупки | Как ведёт себя инструмент за пределами короткой пробы",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "skripka-na-proslushivanie",
+      "n0": "Скрипка на прослушивание в аренду | Для подготовки и выступления",
+      "n1": "Скрипка для прослушивания | Сольная программа на подходящем инструменте",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "skripka-dlya-smeny-razmera",
+      "n0": "Скрипка следующего размера в аренду | Продолжить обучение на новом инструменте",
+      "n1": "Следующий размер скрипки | Последовательная линия от детских размеров к 4/4",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "skripka-dlya-letney-praktiki",
+      "n0": "Скрипка на лето напрокат | Для каникул, занятий и музыкальных лагерей",
+      "n1": "Летняя скрипичная практика | Регулярная игра вне учебного расписания",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "skripka-dlya-master-klassa",
+      "n0": "Скрипка для мастер-класса в аренду | На занятия и выступления с педагогом",
+      "n1": "Скрипка на мастер-классе | Урок, демонстрация и работа над программой",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-vzroslomu-nachinayuschemu",
+      "n0": "Альт взрослому начинающему напрокат | Полноценный инструмент для первых занятий",
+      "n1": "Первый альт взрослому | Собственный низкий голос струнного семейства",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-dlya-domashnih-zanyatiy",
+      "n0": "Альт для домашних занятий в аренду | Учебный и концертный инструмент дома",
+      "n1": "Домашний альт | Регулярная работа со средним струнным голосом",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-posle-pereryva",
+      "n0": "Альт после перерыва в аренду | Вернуться к музыке без обязательной покупки",
+      "n1": "Возвращение к альту | Привычная струнная партия и новая практика",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-pered-pokupkoy",
+      "n0": "Альт напрокат перед покупкой | Сравнить несколько размеров и тембров",
+      "n1": "Альт до покупки | Разные размеры корпуса и собственный голос",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-dlya-orkestra",
+      "n0": "Альт в оркестр напрокат | Для репетиций, гастролей и концертов",
+      "n1": "Оркестровый альт | Средняя струнная партия между скрипками и виолончелями",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-dlya-kontserta",
+      "n0": "Альт на концерт в аренду | От квартета до оркестровой сцены",
+      "n1": "Концертный альт | Камерные и оркестровые роли одного инструмента",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-na-ekzamen",
+      "n0": "Альт на экзамен напрокат | На подготовку и экзаменационную программу",
+      "n1": "Альт на экзамене | От домашней работы до исполнения перед комиссией",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    },
+    {
+      "slug": "alt-dlya-smeny-razmera",
+      "n0": "Альт следующего размера в аренду | Продолжить обучение на подходящем корпусе",
+      "n1": "Смена размера альта | Несколько размеров при сохранении альтового голоса",
+      "source_file": "content/sections/zz97-violin-viola-human-scenes.json"
+    }
+  ]
+}
