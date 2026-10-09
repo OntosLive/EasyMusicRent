@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "sitar-dlya-domashnih-zanyatiy",
+      "n0": "Ситар для домашних занятий в аренду | Живой инструмент для индийской музыкальной практики",
+      "n1": "Ситар дома | Мелодические и резонирующие струны в ежедневной игре"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "sitar-pered-pokupkoy",
+      "n0": "Ситар до покупки напрокат | Время освоить строй и устройство резонанса",
+      "n1": "Ситар перед покупкой | Игровые и резонансные струны в одном корпусе"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "tanpura-dlya-pervogo-opyta",
+      "n0": "Танпура для первого опыта в аренду | Живой инструмент непрерывного тона",
+      "n1": "Первая танпура | Устойчивый звуковой фон для индийской традиции"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "tanpura-dlya-zapisi",
+      "n0": "Танпура для записи напрокат | Настоящий drone для студийной музыки",
+      "n1": "Танпура в записи | Резонирующая высотная опора под музыкальную фразу"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "koto-dlya-pervogo-opyta",
+      "n0": "Кото для первого знакомства в аренду | Японский струнный инструмент для занятий",
+      "n1": "Первое кото | Подвижные подставки и самостоятельный строй"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "koto-dlya-domashnih-zanyatiy",
+      "n0": "Кото для домашних занятий напрокат | Инструмент японской музыкальной традиции",
+      "n1": "Кото дома | Щипковая музыка и настройка подвижными подставками"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "koto-pered-pokupkoy",
+      "n0": "Кото до покупки в аренду | Попробовать длинный японский струнный инструмент",
+      "n1": "Кото перед покупкой | Строй, мостики и размещение большого корпуса"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "guzhen-dlya-domashnih-zanyatiy",
+      "n0": "Гучжэн для дома напрокат | Китайский многострунный инструмент для занятий",
+      "n1": "Гучжэн дома | Две руки, щипковая мелодия и изменение высоты струны"
+    }
+  ]
+}
