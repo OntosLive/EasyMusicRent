@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "slug": "bas-gitara-dlya-nachinayuschego",
+      "n0": "Первая бас-гитара в аренду | Учебный бас с усилением для занятий",
+      "n1": "Первый бас | Четыре струны и простая роль в ритм-секции",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-domashnih-zanyatiy",
+      "n0": "Бас-гитара для домашних занятий | Аренда вместе с компактным комбиком",
+      "n1": "Бас дома | Полноценная работа над ритмом и звуком на небольшой громкости",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-igry-paltsami",
+      "n0": "Бас-гитара для игры пальцами напрокат | Под обычную пальцевую технику",
+      "n1": "Пальцевая техника баса | Две руки формируют атаку и длину низкой ноты",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-igry-mediatorem",
+      "n0": "Бас-гитара для игры медиатором | Аренда для рока и плотного ритма",
+      "n1": "Бас с медиатором | Согласованный акцент с барабанами и гитарами",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-slepa",
+      "n0": "Бас-гитара для слэпа напрокат | Под фанковую атаку и быстрые партии",
+      "n1": "Бас для слэпа | Различимые удары и щипки в одном ритмическом рисунке",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-fanka",
+      "n0": "Бас-гитара для фанка в аренду | Инструмент и усиление для грува",
+      "n1": "Фанковая бас-гитара | Бас и барабаны формируют общее ритмическое движение",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-rok-gruppy",
+      "n0": "Бас-гитара в рок-группу напрокат | От инструмента до концертного бэклайна",
+      "n1": "Рок-бас | Плотный низ между ударной установкой и гитарой",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-dzhaza",
+      "n0": "Бас-гитара для джаза в аренду | Для квартета, джем-сейшна и записи",
+      "n1": "Джазовая бас-гитара | Длина ноты, атака и свобода ансамблевой фразы",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-ponizhennogo-stroya",
+      "n0": "Бас-гитара для низкого строя | Аренда для тяжёлой музыки и сцены",
+      "n1": "Низкий строй баса | Мензура и натяжение при расширенном нижнем регистре",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-dlya-zapisi-napryamuyu",
+      "n0": "Бас-гитара для записи напрямую | Прокат для звуковой карты и студии",
+      "n1": "Прямая запись баса | Чистый DI-сигнал для дальнейшего усиления",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-s-passivnym-upravleniem",
+      "n0": "Пассивная бас-гитара в аренду | Классический звук без активного предусилителя",
+      "n1": "Пассивный бас | Звукосниматели и внешнее усиление определяют тембр",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-s-aktivnym-ekvalayzerom",
+      "n0": "Активная бас-гитара напрокат | Регулировка частот прямо на инструменте",
+      "n1": "Активный басовый EQ | Изменение тембра независимо от внешнего кабинета",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "pyatistrunnaya-bas-gitara-dlya-perehoda-s-chetyrehstrunnoy",
+      "n0": "Пятиструнная бас-гитара в аренду | Дополнительный низ для нового репертуара",
+      "n1": "Пять струн бас-гитары | Низкий регистр за пределами четырёхструнной схемы",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bezladovaya-bas-gitara-dlya-pervogo-opyta",
+      "n0": "Безладовый бас для первого опыта | Аренда fretless без покупки",
+      "n1": "Первый fretless-бас | Интонация и глиссандо без фиксированных ладов",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "korotkomensurnaya-bas-gitara-vzroslomu",
+      "n0": "Короткомензурная бас-гитара взрослому | Компактный бас в аренду",
+      "n1": "Короткая мензура баса | Другие расстояния на грифе и натяжение струн",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    },
+    {
+      "slug": "bas-gitara-pered-pokupkoy",
+      "n0": "Бас-гитара перед покупкой в аренду | Сравнить мензуру и тип электроники",
+      "n1": "Бас до покупки | Проверка инструмента в привычной группе и репертуаре",
+      "source_file": "content/sections/zz83-bass-guitar-human-scenes.json"
+    }
+  ]
+}
