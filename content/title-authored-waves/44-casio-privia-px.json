@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "casio-privia-v-arendu/index.html",
+      "slug": "casio-privia-v-arendu",
+      "n0": "Casio Privia в аренду | От первой учебной клавиатуры до продвинутых моделей",
+      "n1": "Семейство Casio Privia | Компактные цифровые пианино на 88 клавиш"
+    },
+    {
+      "source_file": "casio-px160-v-arendu/index.html",
+      "slug": "casio-px160-v-arendu",
+      "n0": "Casio PX-160 напрокат | Полная клавиатура для дома и музыкальной школы",
+      "n1": "Casio PX-160 | 88 клавиш предыдущего поколения Privia"
+    },
+    {
+      "source_file": "casio-px560-v-arendu/index.html",
+      "slug": "casio-px560-v-arendu",
+      "n0": "Casio PX-560 в аренду | Фортепиано с дополнительными сценическими функциями",
+      "n1": "Casio PX-560 | Privia Pro с тембрами, записью и управлением"
+    },
+    {
+      "source_file": "casio-pxs1000-v-arendu/index.html",
+      "slug": "casio-pxs1000-v-arendu",
+      "n0": "Casio PX-S1000 напрокат | Очень компактное пианино для регулярной учёбы",
+      "n1": "Casio PX-S1000 | Полная клавиатура в тонком корпусе Privia"
+    },
+    {
+      "source_file": "casio-pxs1100-v-arendu/index.html",
+      "slug": "casio-pxs1100-v-arendu",
+      "n0": "Casio PX-S1100 в аренду | Тонкое цифровое пианино для квартиры",
+      "n1": "Casio PX-S1100 | 88 клавиш в мобильном домашнем формате"
+    },
+    {
+      "source_file": "casio-pxs3000-v-arendu/index.html",
+      "slug": "casio-pxs3000-v-arendu",
+      "n0": "Casio PX-S3000 напрокат | Фортепиано с расширенными тембрами и ритмами",
+      "n1": "Casio PX-S3000 | Клавиатура Privia с дополнительными музыкальными режимами"
+    },
+    {
+      "source_file": "casio-pxs3100-v-arendu/index.html",
+      "slug": "casio-pxs3100-v-arendu",
+      "n0": "Casio PX-S3100 в аренду | Домашние занятия и более широкий набор тембров",
+      "n1": "Casio PX-S3100 | 88-клавишная Privia для практики и сценического звука"
+    },
+    {
+      "source_file": "casio-pxs5000-v-arendu/index.html",
+      "slug": "casio-pxs5000-v-arendu",
+      "n0": "Casio PX-S5000 напрокат | Продвинутая клавиатура в компактном корпусе",
+      "n1": "Casio PX-S5000 | Повышенный класс клавиатуры без мебельного формата"
+    },
+    {
+      "source_file": "casio-pxs6000-v-arendu/index.html",
+      "slug": "casio-pxs6000-v-arendu",
+      "n0": "Casio PX-S6000 в аренду | Серьёзная практика дома, в студии и на сцене",
+      "n1": "Casio PX-S6000 | Продвинутый цифровой инструмент серии Privia"
+    },
+    {
+      "source_file": "casio-pxs7000-v-arendu/index.html",
+      "slug": "casio-pxs7000-v-arendu",
+      "n0": "Casio PX-S7000 напрокат | Старшая Privia с домашней стойкой и педалями",
+      "n1": "Casio PX-S7000 | Полный домашний комплект цифрового фортепиано"
+    }
+  ]
+}
