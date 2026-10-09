@@ -1,7 +1,12 @@
 {
   "schema_version": 1,
   "publication_status": "paused_pending_functional_review",
-  "editorial_principle": "Сначала прямой ответ на запрос аренды, затем только необходимое уточнение.",
-  "authoring": "model authors whole title; separator optional",
-  "pairs": {}
+  "editorial_principle": "Запрос → узнавание → положительный ответ → обострение и расширение предложения фонда.",
+  "authoring": "Full title text is authored only by GPT-6 or GPT-6.1. Python is a literal publisher and validator, never a title writer.",
+  "pairs": {},
+  "authoring_models": [
+    "GPT-6",
+    "GPT-6.1"
+  ],
+  "python_role": "literal_transfer_validation_coverage_only"
 }

@@ -107,6 +107,12 @@ class AuthoredTitlesTests(unittest.TestCase):
         self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST)["modified"], 0)
         self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST, check=True)["modified"], 0)
 
+    def test_only_gpt6_family_authors_public_title_copy(self):
+        manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["authoring_models"], ["GPT-6", "GPT-6.1"])
+        self.assertEqual(manifest["python_role"], "literal_transfer_validation_coverage_only")
+        self.assertEqual(manifest["pairs"], {})
+
     def test_title_can_be_direct_without_vertical_separator(self):
         self.titles["skripka"]["n0"] = "Скрипка ребёнку в аренду на нужный срок"
         self._write_manifest(self.titles)
