@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah",
+      "n0": "Электроскрипка в аренду для занятий в наушниках | Скрипичная практика в квартире",
+      "n1": "Электроскрипка дома | Смычковая техника и индивидуальное прослушивание"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroskripka-posle-akusticheskoy",
+      "n0": "Электроскрипка после акустической в аренду | Новый звук для знакомой скрипичной партии",
+      "n1": "Электроскрипка после акустики | Вместо резонанса корпуса работает усиление"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "akusticheskaya-skripka-posle-elektroskripki",
+      "n0": "Акустическая скрипка после электрической | Аренда живого смычкового инструмента",
+      "n1": "С электроскрипки на акустику | Корпус снова становится источником звучания"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroskripka-pered-pokupkoy",
+      "n0": "Электроскрипка перед покупкой напрокат | Сравнить инструмент вместе с усилением",
+      "n1": "Электроскрипка до покупки | Звукосниматель, мониторинг и смычковая техника"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroskripka-dlya-zapisi-napryamuyu",
+      "n0": "Электроскрипка для записи напрямую в аренду | Сигнал в студию без микрофона корпуса",
+      "n1": "Электроскрипка при записи | Смычковая партия и прямой электрический сигнал"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroskripka-dlya-stsenicheskih-effektov",
+      "n0": "Электроскрипка для эффектов напрокат | Смычок, педали обработки и сценический звук",
+      "n1": "Электроскрипка и эффекты | Живой штрих внутри электронного звукового тракта"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "pyatistrunnaya-elektroskripka-dlya-pervogo-opyta",
+      "n0": "Пятиструнная электроскрипка в аренду | Скрипичный голос с нижней струной альта",
+      "n1": "Пять струн электроскрипки | Дополнительный низ внутри одного инструмента"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroviolonchel-dlya-domashnih-zanyatiy",
+      "n0": "Электровиолончель для дома напрокат | Занятия с наушниками и компактным корпусом",
+      "n1": "Электровиолончель дома | Смычковая постановка и электронный выход"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroviolonchel-posle-akusticheskoy",
+      "n0": "Электровиолончель после акустической | Аренда для новой сцены и усиления",
+      "n1": "С акустической виолончели на электрическую | Знакомые струны, другой путь звука"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroviolonchel-pered-pokupkoy",
+      "n0": "Электровиолончель перед покупкой в аренду | Проверка инструмента в своей программе",
+      "n1": "Электровиолончель до покупки | Компактный корпус и усиленный смычковый тембр"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektroviolonchel-dlya-kontserta",
+      "n0": "Электровиолончель на концерт напрокат | От сольной партии до усиленного ансамбля",
+      "n1": "Электровиолончель на сцене | Смычок, звукосниматель и мониторный тракт"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektricheskiy-kontrabas-dlya-domashnih-zanyatiy",
+      "n0": "Электрический контрабас домой в аренду | Вертикальная басовая практика без большого корпуса",
+      "n1": "Домашний электроконтрабас | Полноразмерная игровая задача в компактной форме"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektricheskiy-kontrabas-posle-akusticheskogo",
+      "n0": "Электроконтрабас после акустического в аренду | Мобильный бас для сцены и дома",
+      "n1": "С акустического контрабаса на электрический | Вертикальная мензура и электронный звук"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "akusticheskiy-kontrabas-posle-elektricheskogo",
+      "n0": "Акустический контрабас после электрического | Аренда полноразмерного живого корпуса",
+      "n1": "Электроконтрабас и акустический бас | Возвращение естественного резонанса деки"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektricheskiy-kontrabas-pered-pokupkoy",
+      "n0": "Электроконтрабас перед покупкой напрокат | Попробовать вертикальный бас в работе",
+      "n1": "Электрический контрабас до покупки | Устойчивость, мензура и усиление"
+    },
+    {
+      "source_file": "content/sections/zz100-electric-bowed-human-scenes.json",
+      "slug": "elektricheskiy-kontrabas-dlya-gastroley",
+      "n0": "Электрический контрабас для гастролей | Компактный upright на время поездки",
+      "n1": "Гастрольный электроконтрабас | Вертикальный бас с меньшим транспортным объёмом"
+    }
+  ]
+}
