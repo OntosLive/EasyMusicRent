@@ -94,11 +94,16 @@ class AuthoredTitlesTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "duplicate"):
             authored.validate_manifest(self.manifest)
 
+    def test_no_authoring_on_technical_aliases(self):
+        pairs = authored.validate_manifest(authored.DEFAULT_MANIFEST)
+        aliases = json.loads((ROOT / "content" / "aliases.json").read_text(encoding="utf-8"))
+        self.assertFalse(set(pairs) & set(aliases))
+
     def test_real_editorial_registry_is_complete_and_not_template_text(self):
         pairs = authored.validate_manifest(authored.DEFAULT_MANIFEST)
-        self.assertEqual(len(pairs), 72)
-        self.assertEqual(len({pair["n0"].split(" | ")[1] for pair in pairs.values()}), 72)
-        self.assertEqual(len({pair["n1"].split(" | ")[1] for pair in pairs.values()}), 72)
+        self.assertEqual(len(pairs), 70)
+        self.assertEqual(len({pair["n0"].split(" | ")[1] for pair in pairs.values()}), 70)
+        self.assertEqual(len({pair["n1"].split(" | ")[1] for pair in pairs.values()}), 70)
         self.assertIn("Мензура", pairs["kontrabas"]["n0"])
         self.assertIn("партитуре", pairs["udarnye"]["n0"])
 
