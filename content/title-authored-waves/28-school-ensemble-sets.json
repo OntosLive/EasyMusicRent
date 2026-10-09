@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-pervogo-strunnogo-ansamblya",
+      "n0": "Струнные для первого ансамбля в аренду | Скрипки, альты и виолончели по партиям",
+      "n1": "Первый струнный ансамбль | Разные размеры инструментов в общей учебной группе"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-pervogo-duhovogo-ansamblya",
+      "n0": "Духовые инструменты для первого ансамбля | Учебная секция в аренду",
+      "n1": "Первый духовой ансамбль | Деревянные и медные голоса складываются в партитуру"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-pervogo-brass-ansamblya",
+      "n0": "Медные духовые для первого ансамбля | Трубы, валторны и низкие голоса",
+      "n1": "Первый brass-ансамбль | От верхней трубы до басовой опоры"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-shkolnogo-kamernogo-ansamblya",
+      "n0": "Школьный камерный ансамбль | Инструменты для всех участников напрокат",
+      "n1": "Камерный ансамбль музыкальной школы | Состав по программе преподавателя"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-shkolnogo-duhovogo-orkestra",
+      "n0": "Школьный духовой оркестр в аренду | Деревянные, медные и ударные комплектом",
+      "n1": "Школьный духовой оркестр | Секции инструментов от мелодии до ритма"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-shkolnogo-narodnogo-orkestra",
+      "n0": "Народные инструменты для школьного оркестра | Балалайки, домры и баяны",
+      "n1": "Народный школьный оркестр | Струнные группы, меховые и басовые партии"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-shkolnogo-big-benda",
+      "n0": "Инструменты для школьного биг-бенда | Духовая секция и ритм-группа в аренду",
+      "n1": "Школьный биг-бенд | Саксофоны, трубы, тромбоны и ритм-секция"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-ansamblya-ukulele",
+      "n0": "Укулеле для ансамбля в аренду | Комплект инструментов на всю группу",
+      "n1": "Ансамбль укулеле | Сопрано, концерт, тенор и баритон в общей фактуре"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-ansamblya-klassicheskih-gitar",
+      "n0": "Классические гитары для ансамбля | Учебные размеры и концертные инструменты",
+      "n1": "Ансамбль классических гитар | Несколько партий с разными голосами"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-ansamblya-gitar-i-ukulele",
+      "n0": "Гитары и укулеле для ансамбля | Смешанный щипковый комплект напрокат",
+      "n1": "Ансамбль гитар и укулеле | Два семейства струнных аккомпанируют вместе"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-ansamblya-melodiki",
+      "n0": "Мелодики для ансамбля в аренду | Клавишные духовые инструменты на всю группу",
+      "n1": "Ансамбль мелодик | Несколько клавиатур управляются собственным дыханием"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-ansamblya-bayanov-akkordeonov",
+      "n0": "Баяны и аккордеоны для ансамбля | Комплект разных учебных голосов",
+      "n1": "Ансамбль баянов и аккордеонов | Разные меховые системы и регистры в общей партии"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-pervogo-ansamblya-udarnyh",
+      "n0": "Ударные для первого ансамбля | Малые барабаны, перкуссия и мелодические ударные",
+      "n1": "Первый ансамбль ударных | Ритм и мелодия распределены по инструментам"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-pervogo-kvarteta",
+      "n0": "Первый струнный квартет в аренду | Две скрипки, альт и виолончель",
+      "n1": "Первый квартет | Четыре струнных голоса с отдельными учебными партиями"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-studencheskogo-kamernogo-orkestra",
+      "n0": "Инструменты для студенческого камерного оркестра | От одной партии до полного состава",
+      "n1": "Студенческий камерный оркестр | Учебные и концертные инструменты в одном ансамбле"
+    },
+    {
+      "source_file": "content/sections/zz118-educational-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-pervogo-dueta-s-fortepiano",
+      "n0": "Инструменты для первого дуэта с пианино | Клавишный и второй голос комплектом",
+      "n1": "Первый дуэт с фортепиано | Один клавишный и один сольный инструмент"
+    }
+  ]
+}
