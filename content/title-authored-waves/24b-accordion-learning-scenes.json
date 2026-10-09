@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-vzroslomu-nachinayuschemu",
+      "n0": "Аккордеон взрослому начинающему в аренду | Полноценный инструмент для первых уроков",
+      "n1": "Первый аккордеон взрослому | Правая клавиатура и самостоятельная работа мехом"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-dlya-domashnih-zanyatiy",
+      "n0": "Аккордеон для дома напрокат | Учебный инструмент на регулярную практику",
+      "n1": "Аккордеон дома | Клавиатура, басы и мелодия под руками"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-posle-pereryva",
+      "n0": "Аккордеон после перерыва в аренду | Вернуться к инструменту без покупки",
+      "n1": "Возвращение к аккордеону | Привычная клавиатура и новая исполнительская фаза"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-pered-pokupkoy",
+      "n0": "Аккордеон до покупки напрокат | Сравнить количество басов и размер корпуса",
+      "n1": "Аккордеон перед покупкой | Разные клавиатуры и меховые конструкции"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-dlya-smeny-razmera",
+      "n0": "Аккордеон следующего размера в аренду | Учёба на инструменте нового уровня",
+      "n1": "Смена размера аккордеона | Диапазон расширяется вместе с учебной программой"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-dlya-raboty-nad-mehom",
+      "n0": "Аккордеон для работы над мехом напрокат | Динамика и фразировка на живом инструменте",
+      "n1": "Мех аккордеона | Исполнитель управляет длительностью и характером звука"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-dlya-kamernogo-ansamblya",
+      "n0": "Аккордеон для камерного ансамбля в аренду | Партия в дуэте или небольшом составе",
+      "n1": "Аккордеон в ансамбле | Тембр и гармоническая функция рядом с партнёрами"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "akkordeon-dlya-vtorogo-mesta-zanyatiy",
+      "n0": "Аккордеон для второго места практики | Дополнительный инструмент напрокат",
+      "n1": "Второй аккордеон | Один учебный репертуар в двух пространствах"
+    }
+  ]
+}
