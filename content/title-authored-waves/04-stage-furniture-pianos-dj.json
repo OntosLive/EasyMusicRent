@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Конкретная сцена получает готовый ответ и больше возможностей",
+  "records": [
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "scenicheskaya-mebel-i-stoyki",
+      "n0": "Сценическая мебель в аренду | Пюпитры, стулья и стойки для музыкантов",
+      "n1": "Сценическое место музыканта | Высота посадки, ноты и доступ к инструменту"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "stul-dlya-muzykanta",
+      "n0": "Стулья для музыкантов напрокат | От одного исполнителя до оркестрового состава",
+      "n1": "Стул музыканта | Устойчивость и посадка в разных исполнительских положениях"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "stul-dlya-barabanshchika",
+      "n0": "Стул барабанщика в аренду | Высота и устойчивая опора для ударной установки",
+      "n1": "Барабанный стул | Посадка освобождает обе ноги для педалей"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "pyupitr",
+      "n0": "Пюпитры в аренду | От одного нотного места до комплекта для оркестра",
+      "n1": "Пюпитр | Сплошная доска, высота и устойчивость для концертных нот"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "podsvetka-dlya-pyupitra",
+      "n0": "Подсветка пюпитра напрокат | Чтение нот при сценическом освещении",
+      "n1": "Подсветка нот | Направленный свет на партитуре без освещения всего зала"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "stoyka-dlya-gitary",
+      "n0": "Стойки для гитары в аренду | Для репетиции, концерта и смены инструментов",
+      "n1": "Гитарная стойка | Удержание корпуса между музыкальными выходами"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "klavishnaya-stoyka",
+      "n0": "Стойки для клавишных напрокат | Для пианино, синтезаторов и двух клавиатур",
+      "n1": "Клавишная стойка | Высота, нагрузка и конфигурация одного либо двух инструментов"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "stoyka-dlya-noutbuka-na-scene",
+      "n0": "Стойка для ноутбука напрокат | Для сценического управления и фонограмм",
+      "n1": "Ноутбук на сцене | Рабочая высота экрана рядом с клавишами и пультом"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "stolik-dlya-perkussii",
+      "n0": "Столик для перкуссии в аренду | Под палочки и сменные ударные инструменты",
+      "n1": "Перкуссионный столик | Быстрая смена инструмента прямо внутри партии"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "kovrik-dlya-barabannoy-ustanovki",
+      "n0": "Коврик под барабанную установку напрокат | Устойчивая расстановка на сцене",
+      "n1": "Барабанный коврик | Основания и педали сохраняют взаимное положение"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "stoyka-dlya-kombika",
+      "n0": "Стойка под гитарный комбик напрокат | Поднять усилитель к исполнителю",
+      "n1": "Подставка усилителя | Наклон и высота изменяют направление звука"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "pedal-dlya-bas-barabana",
+      "n0": "Педаль бас-барабана в аренду | Для репетиции и концертного комплекта",
+      "n1": "Педаль бас-барабана | Крепление и настройка важны для привычного движения"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "komplekt-stoek-dlya-barabannoy-ustanovki",
+      "n0": "Стойки для барабанной установки в аренду | Готовый комплект креплений",
+      "n1": "Стойки барабанщика | Тарелки, барабаны и рабочая геометрия вокруг исполнителя"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "elektrogitara-s-kombikom-dlya-obucheniya",
+      "n0": "Электрогитара с комбиком напрокат | Полный комплект для первых занятий",
+      "n1": "Электрогитара и комбоусилитель | Играть и сразу слышать собственную атаку"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "bas-gitara-s-kombikom-dlya-obucheniya",
+      "n0": "Бас-гитара с комбиком в аренду | Начать заниматься на готовом комплекте",
+      "n1": "Бас-гитара с усилителем | Полный путь низкой ноты от струны до динамика"
+    },
+    {
+      "source_file": "content/sections/zzzz71-stage-furniture-study-kits.json",
+      "slug": "mebel-i-pyupitry-dlya-ansamblya",
+      "n0": "Стулья и пюпитры для ансамбля в аренду | Комплектация камерного и оркестрового состава",
+      "n1": "Мебель для ансамбля | Нотные места, стулья и расположение групп"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "kabinetnyy-royal",
+      "n0": "Кабинетный рояль в аренду | Акустический рояль для небольшого зала",
+      "n1": "Малый рояль | Компактный корпус и самостоятельная фортепианная механика"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "belyy-royal",
+      "n0": "Белый рояль напрокат | Для свадьбы, сцены, фойе и съёмки",
+      "n1": "Белый рояль | Светлый корпус в концертном и постановочном пространстве"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "chernyy-royal",
+      "n0": "Чёрный рояль в аренду | От камерного концерта до большой сцены",
+      "n1": "Чёрный рояль | Классическая отделка в акустическом и сценическом формате"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "krasnyy-royal",
+      "n0": "Красный рояль напрокат | Выразительный инструмент для сцены и съёмки",
+      "n1": "Красный рояль | Цветовой акцент с фортепианной функцией"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "cifrovoy-royal",
+      "n0": "Цифровой рояль в аренду | Рояльный корпус с управляемым электронным звуком",
+      "n1": "Цифровой рояль | Внешняя форма рояля и клавиатура цифрового инструмента"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "yamaha-clp765gp-v-arendu",
+      "n0": "Yamaha CLP-765GP в аренду | Цифровой рояль для выступления и события",
+      "n1": "Yamaha CLP-765GP | Clavinova в рояльном корпусе с цифровыми тембрами"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "kawai-dg30-v-arendu",
+      "n0": "Kawai DG30 напрокат | Компактный цифровой рояль для сцены и интерьера",
+      "n1": "Kawai DG30 | Рояльный силуэт и клавиатура Responsive Hammer III"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "kawai-gl10-v-arendu",
+      "n0": "Kawai GL-10 в аренду | Малый акустический рояль для камерного выступления",
+      "n1": "Kawai GL-10 | Акустический корпус 153 см с механикой Millennium III"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "yamaha-yus1-v-arendu",
+      "n0": "Yamaha YUS1 напрокат | Акустическое пианино для занятий и концерта",
+      "n1": "Yamaha YUS1 | Вертикальное фортепиано с акустической механикой"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "banketka-dlya-pianista",
+      "n0": "Банкетка для пианиста в аренду | Регулируемая высота для рояля и пианино",
+      "n1": "Банкетка пианиста | Посадка согласуется с клавиатурой и педалями"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "pianino-dlya-semki",
+      "n0": "Пианино для съёмки напрокат | Вертикальное акустическое пианино в кадр",
+      "n1": "Пианино для кино и фотографии | Корпус, клавиатура и действие актёра"
+    },
+    {
+      "source_file": "content/sections/zzzz72-piano-format-color-scenes.json",
+      "slug": "royal-dlya-foye",
+      "n0": "Рояль для фойе в аренду | Живая музыка на встрече гостей",
+      "n1": "Рояль в фойе | Камерное исполнение внутри движения посетителей"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "dj-oborudovanie",
+      "n0": "DJ-оборудование в аренду | От первого контроллера до концертного комплекта",
+      "n1": "DJ-оборудование | Проигрыватели, микшер и подготовленные музыкальные переходы"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "dj-komplekt-dlya-obucheniya",
+      "n0": "DJ-комплект для обучения напрокат | Контроллер и система для первых сетов",
+      "n1": "Первый DJ-комплект | Два трека, наушники и собственные переходы"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "dj-oborudovanie-dlya-repetitsii-pered-vystupleniem",
+      "n0": "DJ-оборудование на репетицию | Подготовка сета на концертных моделях",
+      "n1": "Репетиция DJ-сета | Повторить управление и переходы до сцены"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "dj-komplekt-po-rayderu",
+      "n0": "DJ-комплект по райдеру в аренду | Конкретные деки, микшер и мониторинг",
+      "n1": "DJ-райдер | Названия моделей становятся единой рабочей системой"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "dj-komplekt-dlya-smeny-artistov",
+      "n0": "DJ-комплект для нескольких артистов | Сцена с последовательными сетами",
+      "n1": "Смена DJ-артистов | Общая аппаратура и независимая подготовка треков"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "dj-i-zhivye-instrumenty",
+      "n0": "DJ-оборудование с живыми инструментами | Пульт, мониторинг и общий звук",
+      "n1": "DJ и живой музыкант | Дорожки и живой звук в одной системе"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "vinilovye-dj-proigryvateli",
+      "n0": "Виниловые DJ-проигрыватели в аренду | Для сетов на пластинках",
+      "n1": "Виниловый DJ-сет | Пара проигрывателей, головки и микшер с входом PHONO"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "stol-dlya-dj-oborudovaniya",
+      "n0": "Стол для DJ-оборудования напрокат | Под деки, микшер и ноутбук",
+      "n1": "DJ-стол | Место и высота для уверенного доступа к аппаратам"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "pioneer-cdj-3000-v-arendu",
+      "n0": "Pioneer DJ CDJ-3000 в аренду | Клубный проигрыватель для райдера",
+      "n1": "Pioneer DJ CDJ-3000 | Hot Cue, экран и управление подготовленной музыкой"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "alphatheta-cdj-3000x-v-arendu",
+      "n0": "AlphaTheta CDJ-3000X напрокат | Новое поколение клубных DJ-дек",
+      "n1": "AlphaTheta CDJ-3000X | Доступ к библиотеке и новый интерфейс сета"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "pioneer-djm-a9-v-arendu",
+      "n0": "Pioneer DJ DJM-A9 в аренду | Четырёхканальный микшер по райдеру",
+      "n1": "DJM-A9 | Отдельное предварительное прослушивание для двух артистов"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "pioneer-djm-900nxs2-v-arendu",
+      "n0": "Pioneer DJ DJM-900NXS2 напрокат | Клубный микшер для готового сета",
+      "n1": "DJM-900NXS2 | Sound Color FX, Beat FX и привычная сцена управления"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "allen-heath-xone-96-v-arendu",
+      "n0": "Allen & Heath Xone:96 в аренду | Аналоговый DJ-микшер для клуба",
+      "n1": "Xone:96 | Четырёхполосный эквалайзер и работа с фильтрами"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "pioneer-xdj-rx3-v-arendu",
+      "n0": "Pioneer DJ XDJ-RX3 напрокат | Два проигрывателя и микшер в одном корпусе",
+      "n1": "XDJ-RX3 | Автономное DJ-рабочее место с двумя деками"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "alphatheta-xdj-az-v-arendu",
+      "n0": "AlphaTheta XDJ-AZ в аренду | Четырёхдековая система для выступления",
+      "n1": "XDJ-AZ | Четыре музыкальных слоя в автономной DJ-системе"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "pioneer-ddj-flx4-v-arendu",
+      "n0": "Pioneer DJ DDJ-FLX4 напрокат | Компактный контроллер для обучения",
+      "n1": "DDJ-FLX4 | Двухдековое управление и первые переходы с компьютера"
+    },
+    {
+      "source_file": "content/sections/zzzz73-dj-rider-scenes.json",
+      "slug": "pioneer-plx-1000-v-arendu",
+      "n0": "Pioneer DJ PLX-1000 в аренду | Виниловый проигрыватель для DJ-сета",
+      "n1": "PLX-1000 | Прямой привод и работа с винилом через DJ-микшер"
+    },
+    {
+      "source_file": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+      "slug": "mikrofonnaya-stoyka",
+      "n0": "Микрофонные стойки в аренду | Прямые и журавли для сцены и студии",
+      "n1": "Микрофонная стойка | Крепление и положение капсюля относительно исполнителя"
+    },
+    {
+      "source_file": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+      "slug": "instrumentalnye-mikrofony",
+      "n0": "Инструментальные микрофоны напрокат | Для гитар, ударных и акустического состава",
+      "n1": "Инструментальный микрофон | Динамический и конденсаторный съём разных источников"
+    },
+    {
+      "source_file": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+      "slug": "mikrofony-dlya-akusticheskogo-ansamblya",
+      "n0": "Микрофоны для акустического ансамбля | Система съёма камерного состава",
+      "n1": "Акустический ансамбль и микрофоны | Отдельные источники либо общий стереообраз"
+    },
+    {
+      "source_file": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+      "slug": "shure-sm57-v-arendu",
+      "n0": "Shure SM57 в аренду | Для гитарного кабинета, малого барабана и сцены",
+      "n1": "Shure SM57 | Динамический инструментальный микрофон под близкий съём"
+    },
+    {
+      "source_file": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+      "slug": "shure-sm81-v-arendu",
+      "n0": "Shure SM81 напрокат | Конденсаторный микрофон для акустических партий",
+      "n1": "Shure SM81 | Малодиафрагменный конденсаторный съём инструмента"
+    },
+    {
+      "source_file": "content/sections/zzzz75-instrument-microphones-and-stands.json",
+      "slug": "shure-beta52a-v-arendu",
+      "n0": "Shure BETA 52A в аренду | Микрофон бас-барабана для концертного звука",
+      "n1": "Shure BETA 52A | Низ и атака бочки в собственном канале"
+    },
+    {
+      "source_file": "content/sections/zzzz76-stage-system-completeness.json",
+      "slug": "scenicheskie-sabvufery",
+      "n0": "Сценические сабвуферы в аренду | Дополнить акустику низким регистром",
+      "n1": "Сценический сабвуфер | Общий низ баса и бочки в концертной системе"
+    }
+  ]
+}
