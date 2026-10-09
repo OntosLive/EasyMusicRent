@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "slug": "cifrovoe-pianino-dlya-vzroslogo-posle-pereryva",
+      "n0": "Цифровое пианино взрослому после перерыва | Аренда для возвращения к игре",
+      "n1": "Пианино после перерыва | Начать с привычной клавиатуры без покупки",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-rannih-zanyatiy",
+      "n0": "Цифровое пианино для ранних занятий | Утренние уроки с наушниками",
+      "n1": "Пианино ранним утром | Клавиатура для тихой практики в общей квартире",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-pozdnih-zanyatiy",
+      "n0": "Цифровое пианино для вечерних занятий | Играть после работы в наушниках",
+      "n1": "Пианино поздним вечером | Полноценная практика без акустической громкости",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-dvuh-uchenikov",
+      "n0": "Цифровое пианино для двух учеников | Один инструмент на несколько учебных этапов",
+      "n1": "Семейное пианино | Разный уровень двух учеников на одной клавиатуре",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-malenkoy-komnaty",
+      "n0": "Компактное цифровое пианино напрокат | 88 клавиш для небольшой комнаты",
+      "n1": "Цифровое пианино в маленькой комнате | Компактность корпуса и учебный диапазон",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-syemnoy-kvartiry",
+      "n0": "Цифровое пианино для съёмной квартиры | В аренду на срок проживания",
+      "n1": "Фортепиано в съёмной квартире | Музыкальное место без покупки тяжёлого корпуса",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-vremennogo-zhilya",
+      "n0": "Цифровое пианино для временного жилья | На месяц, сезон или командировку",
+      "n1": "Временное жильё и пианино | Регулярные занятия вне постоянного дома",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-vtorogo-mesta-zanyatiy",
+      "n0": "Второе цифровое пианино в аренду | Для дополнительных домашних занятий",
+      "n1": "Второе место практики | Одна программа занятий в двух пространствах",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-distantsionnogo-uroka",
+      "n0": "Цифровое пианино для онлайн-уроков | Аренда домашней клавиатуры для связи с педагогом",
+      "n1": "Цифровое пианино онлайн | Учиться по видеосвязи со своим инструментом",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-zapisi-midi",
+      "n0": "Цифровое пианино с MIDI в аренду | Клавиатура для записи нот в компьютер",
+      "n1": "Запись MIDI на пианино | Движение клавиш сохраняется отдельно от тембра",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-zapisi-audio",
+      "n0": "Цифровое пианино для аудиозаписи | Аренда с линейным выходом",
+      "n1": "Цифровое пианино в записи | Готовый сигнал инструмента без микрофонов комнаты",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-chteniya-s-lista",
+      "n0": "Цифровое пианино для чтения с листа | Аренда для ежедневной практики",
+      "n1": "Чтение с листа на пианино | Незнакомый нотный текст на устойчивой клавиатуре",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-dinamikoy",
+      "n0": "Цифровое пианино для динамики | Аренда клавиатуры с чувствительностью к нажатию",
+      "n1": "Динамика цифрового пианино | Различать прикосновение и громкость музыкальной фразы",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-raboty-nad-pedalyu",
+      "n0": "Цифровое пианино с педалями | Аренда для фортепианных занятий",
+      "n1": "Педали цифрового пианино | Управление продолжением и соединением звуков",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-sravneniya-mehanik",
+      "n0": "Цифровые пианино с разной механикой | Аренда нескольких вариантов для сравнения",
+      "n1": "Механика цифрового пианино | Клавиши по-разному возвращают движение руки",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-na-probnyy-uchebnyy-period",
+      "n0": "Цифровое пианино на пробный учебный период | Аренда до решения о покупке",
+      "n1": "Первый учебный период | Уроки уже идут, постоянный инструмент ещё выбирается",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-posle-akusticheskogo",
+      "n0": "Цифровое пианино вместо акустического | Аренда для дома и смены условий",
+      "n1": "Переход с акустики на цифровое | Сохранять пианистическую практику в новом формате",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-pered-perehodom-na-akusticheskoe",
+      "n0": "Цифровое пианино перед акустическим | Аренда на промежуточный учебный этап",
+      "n1": "Переход от цифрового к акустике | Подготовка техники до появления струн и деки",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-letney-praktiki",
+      "n0": "Цифровое пианино на лето в аренду | Сохранить занятия между учебными годами",
+      "n1": "Фортепиано на лето | Временный инструмент на каникулы и летние занятия",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-ansamblya-doma",
+      "n0": "Цифровое пианино для домашнего ансамбля | На совместные репетиции и концерты",
+      "n1": "Домашний ансамбль с пианино | Фортепианная партия рядом с другими инструментами",
+      "source_file": "content/sections/zz85-digital-piano-human-scenes.json"
+    }
+  ]
+}
