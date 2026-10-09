@@ -101,11 +101,13 @@ class AuthoredTitlesTests(unittest.TestCase):
 
     def test_real_editorial_registry_is_complete_and_not_template_text(self):
         pairs = authored.validate_manifest(authored.DEFAULT_MANIFEST)
-        self.assertEqual(len(pairs), 70)
-        self.assertEqual(len({pair["n0"].split(" | ")[1] for pair in pairs.values()}), 70)
-        self.assertEqual(len({pair["n1"].split(" | ")[1] for pair in pairs.values()}), 70)
-        self.assertIn("Мензура", pairs["kontrabas"]["n0"])
-        self.assertIn("партитуре", pairs["udarnye"]["n0"])
+        self.assertEqual(len(pairs), 14)
+        self.assertEqual(len({pair["n0"].split(" | ")[1] for pair in pairs.values()}), 14)
+        self.assertEqual(len({pair["n1"].split(" | ")[1] for pair in pairs.values()}), 14)
+        self.assertIn("мензура", pairs["kontrabas"]["n0"])
+        self.assertIn("Репетиции в расписании", pairs["kontrabas-na-vremya-remonta"]["n0"])
+        self.assertIn("А певец слышит себя?", pairs["scenicheskiy-zvuk"]["n0"])
+        self.assertNotIn("Подберём", pairs["scenicheskiy-zvuk"]["n0"])
 
 
 if __name__ == "__main__":
