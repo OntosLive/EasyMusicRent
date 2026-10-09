@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dzhazovogo-trio",
+      "n0": "Инструменты для джазового трио | Рояль или гитара, контрабас и барабаны",
+      "n1": "Джазовое трио | Гармонический голос, бас и ударные в камерном составе"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dzhazovogo-kvarteta",
+      "n0": "Джазовый квартет в аренду | Духовой солист и полная ритм-секция",
+      "n1": "Джазовый квартет | Саксофон или труба над фортепиано, басом и ударными"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dzhazovogo-seksteta",
+      "n0": "Джазовый секстет напрокат | Духовые и ритм-секция комплектом",
+      "n1": "Джазовый секстет | Несколько солистов и самостоятельная ритмическая основа"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-bossa-nova-ansamblya",
+      "n0": "Инструменты для босса-новы | Нейлоновая гитара, бас и лёгкая перкуссия",
+      "n1": "Ансамбль босса-новы | Нейлоновый аккомпанемент и мягкая ритмическая фактура"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-fank-gruppy",
+      "n0": "Фанк-группа в аренду | Бас, барабаны, чистая гитара и клавиши",
+      "n1": "Фанк-состав | Грув ритм-секции и короткие акценты всех партий"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-soul-gruppy",
+      "n0": "Инструменты для соул-группы | Клавиши, ритм-секция и духовые",
+      "n1": "Соул-ансамбль | Голос, гармония и секция духовых на одной сцене"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-indie-gruppy",
+      "n0": "Бэклайн для инди-группы в аренду | Гитары, бас, барабаны и синтезаторы",
+      "n1": "Инди-группа | Гитарные и электронные тембры в гибком составе"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-akusticheskogo-trio",
+      "n0": "Акустическое трио напрокат | Гитара, бас и камерная перкуссия",
+      "n1": "Акустическое трио | Небольшой состав без тяжёлой сценической системы"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-bluegrass-ansamblya",
+      "n0": "Инструменты для блюграсса | Банджо, мандолина, акустика и контрабас",
+      "n1": "Блюграсс-ансамбль | Щипковые струнные с самостоятельными ритмическими партиями"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-tango-kvarteta",
+      "n0": "Инструменты для танго-квартета | Бандонеон, скрипка, рояль и контрабас",
+      "n1": "Квартет танго | Четыре инструмента с разными артикуляционными ролями"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-flamenko-ansamblya",
+      "n0": "Инструменты для фламенко | Гитара, кахон и звуковой комплект",
+      "n1": "Фламенко-ансамбль | Голос, гитара и ударный ритм в общей форме"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-klezmer-ansamblya",
+      "n0": "Инструменты для клезмера | Кларнет, скрипка, аккордеон и бас",
+      "n1": "Клезмерский состав | Духовые, смычковые и меховые в одной традиции"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-balkanskogo-ansamblya",
+      "n0": "Инструменты для балканского ансамбля | Духовые, аккордеон и перкуссия",
+      "n1": "Балканский ансамбль | Меховые и духовые голоса с подвижной ритмикой"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-latino-ansamblya",
+      "n0": "Латиноамериканская группа в аренду | Конги, бонго, тимбалес и бас",
+      "n1": "Латино-ансамбль | Несколько перкуссионных рисунков вокруг общей пульсации"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-reggae-gruppy",
+      "n0": "Инструменты для регги-группы | Бас, барабаны, гитара и клавиши",
+      "n1": "Регги-состав | Басовая линия и смещённые ритмические акценты"
+    },
+    {
+      "source_file": "content/sections/zz119-popular-folk-jazz-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-folk-gruppy",
+      "n0": "Инструменты для фолк-группы | Акустические струны, меховые и перкуссия",
+      "n1": "Фолк-ансамбль | Живые традиционные тембры в гибком составе"
+    }
+  ]
+}
