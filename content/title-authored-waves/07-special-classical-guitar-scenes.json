@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "klassicheskaya-gitara-vzroslomu-nachinayuschemu",
+      "n0": "Классическая гитара взрослому новичку | Аренда на первые уроки",
+      "n1": "Классическая гитара для взрослых | Нейлоновые струны и полноценный учебный репертуар"
+    },
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "klassicheskaya-gitara-posle-pereryva",
+      "n0": "Классическая гитара после перерыва | Взять инструмент для возвращения к занятиям",
+      "n1": "Возвращение к гитаре | Знакомая техника на инструменте для нынешней практики"
+    },
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "klassicheskaya-gitara-dlya-etudov",
+      "n0": "Классическая гитара для этюдов в аренду | Для ежедневной учебной работы",
+      "n1": "Гитарные этюды | Пальцевая техника и раздельное ведение голосов"
+    },
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "klassicheskaya-gitara-dlya-ansamblya",
+      "n0": "Классическая гитара для ансамбля напрокат | Для дуэта и камерного состава",
+      "n1": "Классическая гитара в ансамбле | Нейлоновые струны рядом с другими голосами"
+    },
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "gitara-flamenko-dlya-pervogo-opyta",
+      "n0": "Гитара фламенко для первого опыта | Аренда на уроки и пробный период",
+      "n1": "Первое фламенко | Быстрая атака и ритмический жест отличаются от классики"
+    },
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "rezonatornaya-gitara-dlya-slayda",
+      "n0": "Резонаторная гитара для слайда | Аренда под блюз и slide-партии",
+      "n1": "Резонаторная гитара | Металлический резонатор и скользящая интонация"
+    },
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "bariton-gitara-dlya-ponizhennogo-stroya",
+      "n0": "Баритон-гитара в аренду | Низкий строй на инструменте с длинной мензурой",
+      "n1": "Баритон-гитара | Низкий регистр при полноценной гитарной аппликатуре"
+    },
+    {
+      "source_file": "content/sections/zz84-special-classical-guitar-human-scenes.json",
+      "slug": "dvenadtsatistrunnaya-gitara-pered-pokupkoy",
+      "n0": "Двенадцатиструнная гитара перед покупкой | Аренда для знакомства с парными струнами",
+      "n1": "Гитара с 12 струнами | Объёмный хор парных струн и другая нагрузка на руку"
+    }
+  ]
+}
