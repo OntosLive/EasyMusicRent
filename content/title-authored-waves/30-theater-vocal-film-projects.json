@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-vokalnogo-dueta-s-fortepiano",
+      "n0": "Вокальный дуэт с фортепиано | Рояль и концертный комплект для голосов",
+      "n1": "Два вокалиста и рояль | Фортепианный аккомпанемент и два самостоятельных голоса"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-vokalnogo-dueta-s-gitaroy",
+      "n0": "Дуэт вокалистов с гитарой | Акустическая гитара, микрофоны и усиление",
+      "n1": "Два голоса под гитару | Инструментальный и вокальные каналы в одной системе"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-vokalnogo-trio",
+      "n0": "Инструменты для вокального трио | Аккомпанемент и микрофоны для трёх голосов",
+      "n1": "Вокальное трио | Три партии и общий гармонический фундамент"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-horovogo-akkompanementa",
+      "n0": "Рояль или орган для хора в аренду | Для репетиций и концертного аккомпанемента",
+      "n1": "Хоровой аккомпанемент | Клавишная опора рядом с многоголосным составом"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-kamernogo-hora-s-ansamblem",
+      "n0": "Камерный хор и ансамбль | Струнные, духовые и клавишные по партитуре",
+      "n1": "Камерный хор с инструментами | Голоса и небольшой ансамбль в едином балансе"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-opernoy-yamy",
+      "n0": "Инструменты для оперной ямы в аренду | Оркестровый комплект под постановку",
+      "n1": "Оркестровая яма | Струнные, духовые, ударные и клавишные в ограниченном пространстве"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-myuziklovogo-pit-benda",
+      "n0": "Бэклайн для оркестра мюзикла | Клавиши, гитары, духовые и ударные",
+      "n1": "Pit band мюзикла | Смена тембров и удвоения партий в одном оркестре"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-teatralnogo-ansamblya",
+      "n0": "Инструменты для театрального ансамбля | Акустика, исторические и электронные тембры",
+      "n1": "Музыка для театра | Исполнительские инструменты и сценический образ"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-studiynoy-live-sessii",
+      "n0": "Инструменты для студийной live session | Бэклайн и акустика всем участникам",
+      "n1": "Live session в студии | Инструменты играют вместе, запись сохраняет отдельные источники"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-saundtreka-kamernogo-sostava",
+      "n0": "Инструменты для записи камерного саундтрека | Струнные, духовые и арфа",
+      "n1": "Камерный саундтрек | Оркестровые тембры в небольшом записывающемся составе"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-teleefira-s-zhivym-ansamblem",
+      "n0": "Инструменты для живого ансамбля в телеэфире | Полный сценический комплект",
+      "n1": "Живой ансамбль в телеэфире | Музыкальная партия и визуальная композиция кадра"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-videosyemki-zhivogo-ansamblya",
+      "n0": "Музыкальные инструменты для видеосъёмки | Игровой состав и сценический бэклайн",
+      "n1": "Ансамбль на видеосъёмке | Внешняя достоверность и настоящая музыкальная функция"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya",
+      "n0": "Инструменты для однодневной репетиции | Собрать весь ансамбль на один день",
+      "n1": "Ансамбль на один день | Локальный комплект без постоянной перевозки инструментов"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-festivalnoy-kamernoy-programmy",
+      "n0": "Камерные инструменты для фестиваля | От сольного номера до ансамбля",
+      "n1": "Камерная программа фестиваля | Несколько инструментальных составов на одной площадке"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-gastrolnogo-kamernogo-sostava",
+      "n0": "Инструменты для гастрольного ансамбля | Комплект на месте выступления",
+      "n1": "Камерный ансамбль в гастролях | Музыканты путешествуют, инструменты ждут в городе"
+    },
+    {
+      "source_file": "content/sections/zz120-project-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-zameny-uchastnika-ansamblya",
+      "n0": "Инструмент для замены участника ансамбля | Под конкретную партию и выступление",
+      "n1": "Замена в ансамбле | Сохранить программу с временным инструментом"
+    }
+  ]
+}
