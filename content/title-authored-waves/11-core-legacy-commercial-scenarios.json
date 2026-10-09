@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "slug": "kontrabas-chetyre-chetverti-v-arendu",
+      "n0": "Контрабас 4/4 в аренду | Полный размер для концерта, оркестра и репетиций",
+      "n1": "Контрабас 4/4 | Полноразмерный акустический инструмент для оркестра",
+      "source_file": "kontrabas-chetyre-chetverti-v-arendu/index.html"
+    },
+    {
+      "slug": "kontrabas-tri-chetverti-v-arendu",
+      "n0": "Контрабас 3/4 напрокат | Для профессиональной игры, учёбы и гастролей",
+      "n1": "Контрабас 3/4 | Самый распространённый концертный формат не равен одной мензуре",
+      "source_file": "kontrabas-tri-chetverti-v-arendu/index.html"
+    },
+    {
+      "slug": "kontrabas-polovina-v-arendu",
+      "n0": "Контрабас 1/2 в аренду | Для учебных программ и молодых музыкантов",
+      "n1": "Контрабас 1/2 | Уменьшенный инструмент для следующей ступени обучения",
+      "source_file": "kontrabas-polovina-v-arendu/index.html"
+    },
+    {
+      "slug": "pyatistrunnyy-kontrabas-v-arendu",
+      "n0": "Пятиструнный контрабас напрокат | Низкая пятая струна для оркестрового репертуара",
+      "n1": "Пятиструнный контрабас | Расширенный нижний регистр в симфонической партии",
+      "source_file": "pyatistrunnyy-kontrabas-v-arendu/index.html"
+    },
+    {
+      "slug": "kontrabas-na-konkurs-v-arendu",
+      "n0": "Контрабас на конкурс в аренду | На подготовку, прослушивание и выступление",
+      "n1": "Конкурсный контрабас | Инструмент под сольный и оркестровый репертуар",
+      "source_file": "kontrabas-na-konkurs-v-arendu/index.html"
+    },
+    {
+      "slug": "kontrabas-na-gastroli-v-moskve",
+      "n0": "Контрабас на гастроли в Москве | Инструмент для приехавшего музыканта",
+      "n1": "Гастрольный контрабас | Музыка продолжается без перевозки собственного корпуса",
+      "source_file": "kontrabas-na-gastroli-v-moskve/index.html"
+    },
+    {
+      "slug": "kontrabas-po-rayderu-v-moskve",
+      "n0": "Контрабас по райдеру в Москве | Концертный инструмент в нужном составе",
+      "n1": "Контрабас в райдере | Оркестровая, джазовая и специальная концертная конфигурация",
+      "source_file": "kontrabas-po-rayderu-v-moskve/index.html"
+    },
+    {
+      "slug": "kontrabas-v-arendu-na-mesyats",
+      "n0": "Контрабас на месяц в аренду | Для занятий, репетиций и программы на срок",
+      "n1": "Контрабас на месяц | Регулярная музыкальная работа на временном инструменте",
+      "source_file": "kontrabas-v-arendu-na-mesyats/index.html"
+    },
+    {
+      "slug": "kontrabas-v-arendu-na-nedelyu",
+      "n0": "Контрабас на неделю напрокат | На репетиционный цикл или концертную неделю",
+      "n1": "Контрабас на неделю | От нескольких репетиций до готового выступления",
+      "source_file": "kontrabas-v-arendu-na-nedelyu/index.html"
+    },
+    {
+      "slug": "kontrabas-na-vremya-remonta",
+      "n0": "Контрабас на время ремонта в аренду | Полноценная замена до возвращения своего",
+      "n1": "Контрабас на замену | Уроки, репетиции и концерты продолжаются",
+      "source_file": "kontrabas-na-vremya-remonta/index.html"
+    },
+    {
+      "slug": "kontrabas-esli-svoy-slomalsya",
+      "n0": "Контрабас взамен сломанного | Аренда для срочной замены и продолжения программы",
+      "n1": "Замена сломанного контрабаса | Сохранить расписание музыкальной работы",
+      "source_file": "kontrabas-esli-svoy-slomalsya/index.html"
+    },
+    {
+      "slug": "kontrabas-dlya-nachinayuschego-v-arendu",
+      "n0": "Контрабас для начинающего в аренду | Первые уроки с полноценным инструментом",
+      "n1": "Первый контрабас | От начальной постановки до самостоятельной игры",
+      "source_file": "kontrabas-dlya-nachinayuschego-v-arendu/index.html"
+    },
+    {
+      "slug": "skripka-na-konkurs-v-arendu",
+      "n0": "Скрипка на конкурс в аренду | На весь период подготовки и само выступление",
+      "n1": "Скрипка для конкурса | Конкурсный репертуар на полноценном инструменте",
+      "source_file": "skripka-na-konkurs-v-arendu/index.html"
+    },
+    {
+      "slug": "skripka-na-ekzamen-v-arendu",
+      "n0": "Скрипка на экзамен напрокат | Для подготовки и экзаменационного выступления",
+      "n1": "Экзаменационная скрипка | От домашних занятий до выхода перед комиссией",
+      "source_file": "skripka-na-ekzamen-v-arendu/index.html"
+    },
+    {
+      "slug": "skripka-na-vremya-remonta",
+      "n0": "Скрипка на время ремонта в аренду | Замена, пока своя в мастерской",
+      "n1": "Скрипка на замену | Продолжение занятий без вынужденной покупки",
+      "source_file": "skripka-na-vremya-remonta/index.html"
+    },
+    {
+      "slug": "skripka-na-uchebnyy-god",
+      "n0": "Скрипка на учебный год в аренду | Инструмент на полный учебный сезон",
+      "n1": "Скрипка на учебный год | От первых уроков до итоговых выступлений",
+      "source_file": "skripka-na-uchebnyy-god/index.html"
+    },
+    {
+      "slug": "skripka-v-arendu-na-mesyats",
+      "n0": "Скрипка на месяц напрокат | Для занятий, репетиций и выступлений",
+      "n1": "Скрипка на месяц | Один инструмент на весь цикл музыкальной работы",
+      "source_file": "skripka-v-arendu-na-mesyats/index.html"
+    },
+    {
+      "slug": "skripka-rebenku-v-arendu",
+      "n0": "Скрипка ребёнку в аренду | От первой маленькой скрипки до полного размера",
+      "n1": "Детская скрипка | Последовательные размеры в одной линии обучения",
+      "source_file": "skripka-rebenku-v-arendu/index.html"
+    },
+    {
+      "slug": "skripka-dlya-muzykalnoy-shkoly",
+      "n0": "Скрипка для музыкальной школы в аренду | На первый и следующие годы обучения",
+      "n1": "Скрипка музыкальной школы | Учебный инструмент от первой позиции до репертуара",
+      "source_file": "skripka-dlya-muzykalnoy-shkoly/index.html"
+    },
+    {
+      "slug": "violonchel-rebenku-v-arendu",
+      "n0": "Виолончель ребёнку в аренду | От уменьшенных размеров до взрослого инструмента",
+      "n1": "Детская виолончель | Разные размеры внутри одной учебной программы",
+      "source_file": "violonchel-rebenku-v-arendu/index.html"
+    },
+    {
+      "slug": "violonchel-na-konkurs-v-arendu",
+      "n0": "Виолончель на конкурс в аренду | Для подготовки и самого выступления",
+      "n1": "Конкурсная виолончель | Инструмент для сольного и камерного репертуара",
+      "source_file": "violonchel-na-konkurs-v-arendu/index.html"
+    },
+    {
+      "slug": "violonchel-na-uchebnyy-god",
+      "n0": "Виолончель на учебный год в аренду | Полный сезон занятий без покупки",
+      "n1": "Виолончель на учебный год | Один рабочий инструмент на весь учебный цикл",
+      "source_file": "violonchel-na-uchebnyy-god/index.html"
+    },
+    {
+      "slug": "violonchel-na-vremya-remonta",
+      "n0": "Виолончель на время ремонта напрокат | Продолжение занятий и концертов",
+      "n1": "Виолончель на замену | Своя в мастерской, учебная программа продолжается",
+      "source_file": "violonchel-na-vremya-remonta/index.html"
+    },
+    {
+      "slug": "arenda-kontrabasa-na-kontsert-moskva",
+      "n0": "Контрабас на концерт в Москве | От сольного выхода до полной оркестровой секции",
+      "n1": "Контрабас на концерт | Разные инструменты для камерной, оркестровой и джазовой сцены",
+      "source_file": "arenda-kontrabasa-na-kontsert-moskva/index.html"
+    },
+    {
+      "slug": "pianino-dlya-muzykalnoy-shkoly",
+      "n0": "Пианино для музыкальной школы в аренду | На весь учебный год и следующие этапы",
+      "n1": "Домашнее пианино ученика | Полноценные занятия между уроками в школе",
+      "source_file": "pianino-dlya-muzykalnoy-shkoly/index.html"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-obucheniya",
+      "n0": "Цифровое пианино для обучения в аренду | От первого урока до старших классов",
+      "n1": "Цифровое пианино для учёбы | Фортепианная практика на 88-клавишном инструменте",
+      "source_file": "cifrovoe-pianino-dlya-obucheniya/index.html"
+    },
+    {
+      "slug": "cifrovoe-pianino-dlya-nochnih-zanyatiy",
+      "n0": "Цифровое пианино для ночных занятий | Клавиши и наушники для тихой практики",
+      "n1": "Пианино в наушниках | Сохранить работу за клавиатурой в позднее время",
+      "source_file": "cifrovoe-pianino-dlya-nochnih-zanyatiy/index.html"
+    },
+    {
+      "slug": "arenda-pianino-moskva",
+      "n0": "Пианино в аренду в Москве | Цифровые и акустические модели для дома и занятий",
+      "n1": "Пианино напрокат | От компактной цифровой клавиатуры до акустического корпуса",
+      "source_file": "arenda-pianino-moskva/index.html"
+    }
+  ]
+}
