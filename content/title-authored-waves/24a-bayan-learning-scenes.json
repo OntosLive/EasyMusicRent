@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-vzroslomu-nachinayuschemu",
+      "n0": "Баян взрослому начинающему в аренду | Учебный инструмент для первых уроков",
+      "n1": "Первый баян взрослому | Кнопочная система, мех и сопровождение"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-dlya-domashnih-zanyatiy",
+      "n0": "Баян для домашних занятий напрокат | Инструмент на учебный период",
+      "n1": "Баян дома | Правая клавиатура, басы и работа мехом"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-posle-pereryva",
+      "n0": "Баян после перерыва в аренду | Вернуться к урокам и концертному репертуару",
+      "n1": "Возвращение к баяну | Знакомая исполнительская система в новой практике"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-pered-pokupkoy",
+      "n0": "Баян до покупки напрокат | Сравнить системы и размеры корпуса",
+      "n1": "Баян перед покупкой | Правые раскладки, басы и вес инструмента"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-dlya-perehoda-na-vybornyy-bas",
+      "n0": "Баян с выборным басом в аренду | Дополнительная левая клавиатура для полифонии",
+      "n1": "Выборный бас баяна | Самостоятельные ноты левой руки вместо готовых аккордов"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-dlya-raboty-nad-mehom",
+      "n0": "Баян для работы над мехом напрокат | Инструмент для фразы и динамики",
+      "n1": "Мех баяна | Длительность звука зависит от движения корпуса"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-dlya-kamernogo-ansamblya",
+      "n0": "Баян для камерного ансамбля в аренду | Инструмент для совместной программы",
+      "n1": "Баян в камерном составе | Свой гармонический и мелодический голос"
+    },
+    {
+      "source_file": "content/sections/zz105-accordion-bayan-human-scenes.json",
+      "slug": "bayan-dlya-vtorogo-mesta-zanyatiy",
+      "n0": "Баян для второго места занятий напрокат | Ещё один инструмент без перевозки",
+      "n1": "Второй баян для практики | Один репертуар в двух учебных пространствах"
+    }
+  ]
+}
