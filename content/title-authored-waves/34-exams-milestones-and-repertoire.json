@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-po-programme-ekzamena",
+      "n0": "Инструмент под программу экзамена | Аренда на подготовку и выступление",
+      "n1": "Экзаменационная программа | Один инструмент от разучивания до комиссии"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-po-programme-konkursa",
+      "n0": "Инструмент по конкурсной программе | Аренда на весь конкурсный период",
+      "n1": "Конкурсная программа | Репертуар на подходящем исполнительском инструменте"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-po-programme-proslushivaniya",
+      "n0": "Инструмент для прослушивания в аренду | Подготовка и выступление комплектом",
+      "n1": "Программа прослушивания | От индивидуальных занятий до оркестрового отбора"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-postupleniya-v-muzykalnuyu-shkolu",
+      "n0": "Инструмент для поступления в музыкальную школу | На вступление и первые уроки",
+      "n1": "Первый инструмент музыкальной школы | От вступительной пробы до занятий"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-postupleniya-v-uchilishche",
+      "n0": "Инструмент для поступления в училище | На подготовку и вступительную программу",
+      "n1": "Поступление в музыкальное училище | Профессиональный репертуар и новый учебный этап"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-postupleniya-v-konservatoriyu",
+      "n0": "Инструмент для поступления в консерваторию | На профессиональную программу",
+      "n1": "Вступительные в консерваторию | Полноценный инструмент для серьёзного репертуара"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-perehoda-v-sleduyushchiy-klass",
+      "n0": "Инструмент на следующий класс в аренду | Новый учебный уровень без покупки",
+      "n1": "Переход в следующий класс | Учебная программа расширяет возможности инструмента"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-posle-izmeneniya-repertuara",
+      "n0": "Инструмент под новый репертуар в аренду | Доступ к нужному диапазону и строю",
+      "n1": "Новый репертуар | Другие партии при уже освоенной исполнительской технике"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-orkestrovogo-klassa",
+      "n0": "Инструмент для оркестрового класса | Аренда на репетиции и концерты",
+      "n1": "Оркестровый класс | Индивидуальная партия в составе инструментальной группы"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-kamernogo-klassa",
+      "n0": "Инструмент для камерного класса | Аренда для ансамблевой учебной программы",
+      "n1": "Камерный класс | Партии и совместная работа нескольких исполнителей"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-raboty-nad-tehnikoy-po-zadaniyu",
+      "n0": "Инструмент для технических занятий | Аренда под задание преподавателя",
+      "n1": "Техническая программа | Повторяемость движения на рабочем инструменте"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-raboty-nad-zvukom-po-zadaniyu",
+      "n0": "Инструмент для работы над звуком | Аренда на исполнительский учебный этап",
+      "n1": "Работа над звуком | Атака, продолжение и слышимая динамика инструмента"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu",
+      "n0": "Инструмент для занятий динамикой | Прокат для отработки тихого и громкого",
+      "n1": "Динамика музыкального инструмента | Контроль звука между pianissimo и forte"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-raboty-nad-intonatsiey-po-zadaniyu",
+      "n0": "Инструмент для работы над интонацией | Аренда для учебной практики",
+      "n1": "Интонационная работа | Строй и слух в ежедневной исполнительской практике"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-raboty-nad-ritmom-po-zadaniyu",
+      "n0": "Инструмент для занятий ритмом | Аренда на программу с преподавателем",
+      "n1": "Ритмические упражнения | Быстрый отклик и повторение музыкального рисунка"
+    },
+    {
+      "source_file": "content/sections/zz124-teacher-milestone-routes.json",
+      "slug": "instrument-dlya-raboty-nad-vynoslivostyu-po-zadaniyu",
+      "n0": "Инструмент для длительных занятий | Аренда под программу выносливости",
+      "n1": "Музыкальная выносливость | Вес, баланс и сопротивление в долгой работе"
+    }
+  ]
+}
