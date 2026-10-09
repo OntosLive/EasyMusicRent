@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "akkordeon-48-basov-dlya-pervogo-etapa",
+      "n0": "Аккордеон 48 басов в аренду | Компактный инструмент для первого учебного этапа",
+      "n1": "Аккордеон на 48 басов | Учебный размер без большого концертного корпуса"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "akkordeon-60-basov-dlya-perehoda",
+      "n0": "Аккордеон 60 басов напрокат | Следующая ступень после малого инструмента",
+      "n1": "Аккордеон 60 басов | Больше диапазон при умеренном размере корпуса"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "akkordeon-72-basov-pered-perehodom-na-120",
+      "n0": "Аккордеон 72 баса в аренду | Учебный инструмент перед полным размером",
+      "n1": "Аккордеон 72 баса | Промежуточная система в линии учебных размеров"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "akkordeon-120-basov-dlya-pervogo-opyta",
+      "n0": "Аккордеон 120 басов напрокат | Полный диапазон для учебной и концертной программы",
+      "n1": "Аккордеон на 120 басов | Полноразмерная левая клавиатура"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "akkordeon-s-vybornym-basom-pered-pokupkoy",
+      "n0": "Аккордеон с выборным басом до покупки | Аренда для знакомства с новой системой",
+      "n1": "Выборный бас аккордеона | Левая рука исполняет самостоятельную мелодическую партию"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "bayan-s-vybornym-basom-dlya-domashnih-zanyatiy",
+      "n0": "Баян с выборным басом домой в аренду | Регулярная учебная практика",
+      "n1": "Домашний баян с выборным басом | Полноценное многоголосие двумя руками"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "gotovovybornyy-bayan-dlya-pervogo-opyta",
+      "n0": "Готово-выборный баян для первой пробы | Аренда комбинированной системы",
+      "n1": "Готово-выборный баян | Готовые аккорды и отдельные ноты левой руки"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "garmon-vzroslomu-nachinayuschemu",
+      "n0": "Гармонь взрослому начинающему напрокат | Первая практика традиционной музыки",
+      "n1": "Первая гармонь взрослому | Простая песня, мех и выбранный строй"
+    }
+  ]
+}
