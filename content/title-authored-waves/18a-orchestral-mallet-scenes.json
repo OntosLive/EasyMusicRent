@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "litavry-dlya-pervogo-opyta",
+      "n0": "Литавры для первых занятий в аренду | От одного котла до полного оркестрового набора",
+      "n1": "Первые литавры | Настроенная высота и педальная система внутри ударной партии"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "litavry-dlya-pedalnyh-perehodov",
+      "n0": "Литавры для педальных переходов в аренду | Инструменты для отработки смены нот",
+      "n1": "Педальная настройка литавр | Высота меняется внутри музыкального движения"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "litavry-dlya-orkestrovoy-praktiki",
+      "n0": "Литавры для оркестровой практики напрокат | Репетиционный и концертный комплект",
+      "n1": "Литавры в оркестре | Несколько котлов обеспечивают диапазон партитуры"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "marimba-dlya-pervogo-opyta",
+      "n0": "Маримба для первого опыта в аренду | Настоящий мелодический инструмент для занятий",
+      "n1": "Первая маримба | Клавиатура из дерева и самостоятельная партия ударника"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "marimba-dlya-domashnih-zanyatiy",
+      "n0": "Маримба для домашних занятий в аренду | Инструмент под регулярную музыкальную практику",
+      "n1": "Маримба дома | Мелодический репертуар и работа над ударной техникой"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "marimba-dlya-perehoda-na-chetyre-palochki",
+      "n0": "Маримба для четырёх палочек в аренду | Аккордовая и многоголосная техника",
+      "n1": "Маримба с четырьмя палочками | Несколько самостоятельных голосов в одной партии"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "marimba-dlya-pyatioktavnoy-programmy",
+      "n0": "Пятиоктавная маримба напрокат | Полный концертный диапазон для программы",
+      "n1": "Пятиоктавная маримба | Расширенный басовый регистр в сольном репертуаре"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "ksilofon-dlya-pervogo-opyta",
+      "n0": "Ксилофон для первых занятий в аренду | Учебный и концертный инструменты",
+      "n1": "Первый ксилофон | Настроенные деревянные пластины и отчётливая атака"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "ksilofon-dlya-domashnih-zanyatiy",
+      "n0": "Ксилофон для домашних занятий напрокат | Мелодическая практика на ударных",
+      "n1": "Ксилофон дома | Полноценный инструмент для работы над высотой и ритмом"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "vibrafon-dlya-pervogo-opyta",
+      "n0": "Вибрафон для первого опыта в аренду | Мелодические ударные для джаза и занятий",
+      "n1": "Первый вибрафон | Металлические пластины и управляемое продолжение звука"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "vibrafon-dlya-raboty-s-pedalyu",
+      "n0": "Вибрафон с педалью напрокат | Инструмент для ансамблевой и сольной практики",
+      "n1": "Педаль вибрафона | Продлить или заглушить звучание после удара"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "orkestrovye-kolokolchiki-dlya-pervogo-opyta",
+      "n0": "Оркестровые колокольчики напрокат | Высокий мелодический голос для занятий",
+      "n1": "Оркестровые колокольчики | Металлические пластины, точная высота и яркая атака"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "orkestrovye-kolokola-dlya-pervogo-opyta",
+      "n0": "Оркестровые колокола в аренду | Трубчатые колокола для учебной партии",
+      "n1": "Трубчатые колокола | Крупный оркестровый инструмент с настроенными нотами"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "orkestrovye-parnye-tarelki-dlya-pervogo-opyta",
+      "n0": "Парные оркестровые тарелки напрокат | Для перкуссионного класса и партитуры",
+      "n1": "Парные тарелки | Два диска создают самостоятельный оркестровый акцент"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "orkestrovyy-treugolnik-dlya-pervogo-opyta",
+      "n0": "Оркестровый треугольник в аренду | Для занятий и концертных акцентов",
+      "n1": "Оркестровый треугольник | Компактный инструмент с богатым верхним спектром"
+    },
+    {
+      "source_file": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+      "slug": "bolshoy-orkestrovyy-baraban-dlya-pervogo-opyta",
+      "n0": "Большой оркестровый барабан напрокат | Низкая ударная партия для оркестра",
+      "n1": "Большой барабан | Глубокий удар и длинное регулируемое затухание"
+    }
+  ]
+}
