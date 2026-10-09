@@ -1,0 +1,1799 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal excerpts and authored titles",
+  "reviews": {
+    "fleyta-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Флейта взрослому начинающему: посадка, амбушюр, закрытые клапаны, домашняя ",
+        "decision": "Флейта взрослому начинающему в аренду | Полноценный инструмент для первых уроков",
+        "next_action": "Полноценный инструмент для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Взрослый новичок ещё не знает, станет ли флейта регулярной практикой и кака",
+        "decision": "Первая флейта взрослому | Поперечная флейта для самостоятельного обучения",
+        "next_action": "Поперечная флейта для самостоятельного обучения"
+      }
+    },
+    "fleyta-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Флейта для дома: герметичность клапанов, удобная опора, состояние подушек и",
+        "decision": "Флейта домой напрокат | Для ежедневной практики и учебной программы",
+        "next_action": "Для ежедневной практики и учебной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Между уроками ученик остаётся один на один с инструментом. Если клапан закр",
+        "decision": "Домашняя флейта | Постоянный инструмент между занятиями с преподавателем",
+        "next_action": "Постоянный инструмент между занятиями с преподавателем"
+      }
+    },
+    "fleyta-posle-blokfleyty": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Переход с блокфлейты на поперечную флейту: дыхание, амбушюр, положение рук ",
+        "decision": "Поперечная флейта после блокфлейты | Аренда для следующего этапа занятий",
+        "next_action": "Аренда для следующего этапа занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "После блокфлейты ученик уже знает ритм, аппликатурную логику и музыкальную ",
+        "decision": "От блокфлейты к поперечной | Новый способ звукообразования при знакомой музыке",
+        "next_action": "Новый способ звукообразования при знакомой музыке"
+      }
+    },
+    "fleyta-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Флейта после перерыва: амбушюр, дыхание, механика и возвращение к регулярны",
+        "decision": "Флейта после перерыва напрокат | Вернуться к дыханию и репертуару",
+        "next_action": "Вернуться к дыханию и репертуару"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "После перерыва аппликатура может вернуться быстрее, чем выносливость дыхани",
+        "decision": "Возвращение к флейте | Знакомая аппликатура и новая регулярная практика",
+        "next_action": "Знакомая аппликатура и новая регулярная практика"
+      }
+    },
+    "fleyta-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Аренда флейты перед покупкой: клапаны, головка, открытая или закрытая систе",
+        "decision": "Флейта перед покупкой в аренду | Сравнить учебные и концертные варианты",
+        "next_action": "Сравнить учебные и концертные варианты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Флейта раскрывается не только первым звуком. Через длинное занятие становят",
+        "decision": "Флейта до покупки | Работа клапанов и отклик в реальной музыкальной программе",
+        "next_action": "Работа клапанов и отклик в реальной музыкальной программе"
+      }
+    },
+    "fleyta-dlya-perehoda-na-otkrytye-klapany": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Переход на открытую механику флейты: положение пальцев, заглушки, точность ",
+        "decision": "Флейта с открытыми клапанами напрокат | Переход на следующий тип механики",
+        "next_action": "Переход на следующий тип механики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Открытые клапаны меняют прямой контакт пальцев с механикой. Для ученика это",
+        "decision": "Открытые клапаны флейты | Прямой контакт пальцев с отверстиями",
+        "next_action": "Прямой контакт пальцев с отверстиями"
+      }
+    },
+    "fleyta-pikkolo-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Первое знакомство с пикколо: амбушюр, высокий регистр, слуховая нагрузка и ",
+        "decision": "Флейта-пикколо для первой пробы | Аренда высокого оркестрового инструмента",
+        "next_action": "Аренда высокого оркестрового инструмента"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Пикколо меньше флейты, но исполнительская задача становится не проще. Высок",
+        "decision": "Первое пикколо | Высокий регистр и самостоятельная роль партитуры",
+        "next_action": "Высокий регистр и самостоятельная роль партитуры"
+      }
+    },
+    "altovaya-fleyta-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Первый опыт на альтовой флейте: размер, головка, воздух, баланс и ансамблев",
+        "decision": "Альтовая флейта в аренду для первой пробы | Новый регистр семейства",
+        "next_action": "Новый регистр семейства"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Альтовая флейта сохраняет флейтовую логику, но требует другого масштаба кор",
+        "decision": "Первый опыт альтовой флейты | Более низкий звук и иной корпус",
+        "next_action": "Более низкий звук и иной корпус"
+      }
+    },
+    "basovaya-fleyta-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Первый опыт на басовой флейте: размер, опора, дыхание, тихий низкий регистр",
+        "decision": "Басовая флейта для первой пробы | Редкий низкий голос в аренду",
+        "next_action": "Редкий низкий голос в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Басовая флейта расширяет семейство вниз и одновременно увеличивает физическ",
+        "decision": "Первая басовая флейта | Нижний флейтовый регистр в ансамбле",
+        "next_action": "Нижний флейтовый регистр в ансамбле"
+      }
+    },
+    "klarinet-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Кларнет взрослому начинающему: трость, амбушюр, опора большого пальца, сист",
+        "decision": "Кларнет взрослому начинающему напрокат | На первые уроки и самостоятельную практику",
+        "next_action": "На первые уроки и самостоятельную практику"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Новичок ещё не знает, станет ли кларнет постоянным инструментом и какая тро",
+        "decision": "Первый кларнет взрослому | Система клапанов и одинарная трость",
+        "next_action": "Система клапанов и одинарная трость"
+      }
+    },
+    "klarinet-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Кларнет для дома: герметичность, трость, опора большого пальца, уход и регу",
+        "decision": "Кларнет для дома в аренду | Учебная модель для регулярных занятий",
+        "next_action": "Учебная модель для регулярных занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Между уроками ученик должен повторять не борьбу с тростью и негерметичность",
+        "decision": "Домашний кларнет | От настройки трости до освоения диапазона",
+        "next_action": "От настройки трости до освоения диапазона"
+      }
+    },
+    "klarinet-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Кларнет после перерыва: трость, амбушюр, дыхание, механика и восстановление",
+        "decision": "Кларнет после перерыва напрокат | Возвращение к инструменту без покупки",
+        "next_action": "Возвращение к инструменту без покупки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "После паузы аппликатура часто возвращается быстрее, чем выносливость амбушю",
+        "decision": "Вернуться к кларнету | Знакомая механика и постепенное восстановление игры",
+        "next_action": "Знакомая механика и постепенное восстановление игры"
+      }
+    },
+    "klarinet-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Аренда кларнета перед покупкой: корпус, опора, механика, трость и собственн",
+        "decision": "Кларнет перед покупкой в аренду | Проба разных классов инструмента",
+        "next_action": "Проба разных классов инструмента"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Кларнет зависит не только от корпуса и марки, но и от мундштука, трости, ре",
+        "decision": "Кларнет до покупки | Удобство механики и тембр в привычном репертуаре",
+        "next_action": "Удобство механики и тембр в привычном репертуаре"
+      }
+    },
+    "klarinet-dlya-perehoda-na-derevyannyy-korpus": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Переход с ABS на деревянный кларнет: корпус, уход, отклик, программа и срав",
+        "decision": "Деревянный кларнет для перехода | Аренда на новый учебный этап",
+        "next_action": "Аренда на новый учебный этап"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Переход на деревянный корпус имеет смысл, когда у ученика появилась задача,",
+        "decision": "Деревянный корпус кларнета | Особенности материала при той же основной аппликатуре",
+        "next_action": "Особенности материала при той же основной аппликатуре"
+      }
+    },
+    "bas-klarinet-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Первое знакомство с бас-кларнетом: опора, ремень/шпиль, дыхание, низкий рег",
+        "decision": "Бас-кларнет для первого опыта в аренду | Следующий голос кларнетового семейства",
+        "next_action": "Следующий голос кларнетового семейства"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Кларнетисту бас-кларнет знаком по логике пальцев, но физически это другой и",
+        "decision": "Первый бас-кларнет | Новый низкий диапазон с кларнетовой исполнительской логикой",
+        "next_action": "Новый низкий диапазон с кларнетовой исполнительской логикой"
+      }
+    },
+    "klarinet-in-a-dlya-pervogo-orkestrovogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Первый опыт на кларнете in A: строй, транспозиция, переключение с B♭ и орке",
+        "decision": "Кларнет in A для оркестровой программы | Аренда точного строя партитуры",
+        "next_action": "Аренда точного строя партитуры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz89-flute-clarinet-human-scenes.json",
+        "source_quote": "Кларнет in A появляется не как «другая версия кларнета вообще», а потому чт",
+        "decision": "Кларнет in A | Самостоятельная транспозиция в оркестровом репертуаре",
+        "next_action": "Самостоятельная транспозиция в оркестровом репертуаре"
+      }
+    },
+    "klarinet-in-es-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый опыт на Es-кларнете: строй, высокий регистр, интонация и оркестровая",
+        "decision": "Кларнет in Es в аренду | Малый кларнет для оркестрового репертуара",
+        "next_action": "Малый кларнет для оркестрового репертуара"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Es-кларнет требует от кларнетиста знакомой аппликатурной логики, но другой ",
+        "decision": "Кларнет in Es | Высокий голос кларнетовой группы",
+        "next_action": "Высокий голос кларнетовой группы"
+      }
+    },
+    "saksofon-alt-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый альт-саксофон: мундштук, трость, опора, регулируемый крючок и пробны",
+        "decision": "Саксофон-альт для первых занятий | Учебный альт-саксофон в аренду",
+        "next_action": "Учебный альт-саксофон в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Альт часто становится первым саксофоном, но начинающему всё равно нужно про",
+        "decision": "Первый альт-саксофон | Удобный вход в семейство саксофонов",
+        "next_action": "Удобный вход в семейство саксофонов"
+      }
+    },
+    "saksofon-alt-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Саксофон-альт для дома: трость, ремень, регулируемый крючок, герметичность ",
+        "decision": "Саксофон-альт домой напрокат | Регулярная практика и школьная программа",
+        "next_action": "Регулярная практика и школьная программа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Между уроками ученик должен повторять музыкальную задачу, а не каждый раз з",
+        "decision": "Домашний альт-саксофон | Учебный и ансамблевый репертуар",
+        "next_action": "Учебный и ансамблевый репертуар"
+      }
+    },
+    "saksofon-tenor-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый опыт на тенор-саксофоне: дыхание, ремень, мундштук, вес и переход с ",
+        "decision": "Тенор-саксофон для первой пробы | Низкий саксофон в аренду",
+        "next_action": "Низкий саксофон в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Тенор требует больше воздуха и иначе распределяет массу, поэтому даже опытн",
+        "decision": "Первый тенор-саксофон | Более плотный голос при знакомой механике",
+        "next_action": "Более плотный голос при знакомой механике"
+      }
+    },
+    "saksofon-soprano-posle-alta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Переход с альт-саксофона на сопрано: амбушюр, интонация, опора и первый про",
+        "decision": "Сопрано-саксофон после альта | Аренда для новой партии и диапазона",
+        "next_action": "Аренда для новой партии и диапазона"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Сопрано сохраняет саксофонную систему, но высокий регистр гораздо быстрее п",
+        "decision": "От альта к сопрано-саксофону | Более высокий голос одного семейства",
+        "next_action": "Более высокий голос одного семейства"
+      }
+    },
+    "saksofon-bariton-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый опыт на баритон-саксофоне: масса, ремень/упор, дыхание, низкий регис",
+        "decision": "Баритон-саксофон для первого опыта | Аренда низкого оркестрового голоса",
+        "next_action": "Аренда низкого оркестрового голоса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Баритон-саксофон сохраняет знакомую саксофонную механику, но меняет масштаб",
+        "decision": "Первый баритон-саксофон | Басовая функция саксофонной группы",
+        "next_action": "Басовая функция саксофонной группы"
+      }
+    },
+    "saksofon-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Аренда саксофона перед покупкой: голос, мундштук, трость, механика, вес и с",
+        "decision": "Саксофон перед покупкой напрокат | Сопрано, альт, тенор и баритон",
+        "next_action": "Сопрано, альт, тенор и баритон"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Саксофон легко выбирать по имени модели, хотя реальное ощущение зависит от ",
+        "decision": "Саксофон до покупки | Разные голоса и уровни инструмента в своей программе",
+        "next_action": "Разные голоса и уровни инструмента в своей программе"
+      }
+    },
+    "saksofon-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Саксофон для камерного ансамбля: выбор голоса, динамика, атака, интонация и",
+        "decision": "Саксофон для камерного ансамбля | Прокат солирующего и группового голоса",
+        "next_action": "Прокат солирующего и группового голоса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "В камерной музыке саксофон особенно быстро становится слишком массивным, ес",
+        "decision": "Саксофон в камерной музыке | Разные тембры семейства в одном составе",
+        "next_action": "Разные тембры семейства в одном составе"
+      }
+    },
+    "goboy-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый гобой: трость, полуавтоматическая система, опора и пробный период.",
+        "decision": "Первый гобой в аренду | Учебный инструмент для первых занятий",
+        "next_action": "Учебный инструмент для первых занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "На гобое качество первой трости и состояние механики особенно сильно влияют",
+        "decision": "Гобой для начинающего | Двойная трость и собственная аппликатура",
+        "next_action": "Двойная трость и собственная аппликатура"
+      }
+    },
+    "goboy-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Гобой для дома: трость, герметичность, уход, механика и регулярная учебная ",
+        "decision": "Гобой домой напрокат | Для музыкальной школы и ежедневных репетиций",
+        "next_action": "Для музыкальной школы и ежедневных репетиций"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "На гобое домашняя практика легко разрушается, если каждая трость ведёт себя",
+        "decision": "Домашний гобой | Учебная программа и работа с двойной тростью",
+        "next_action": "Учебная программа и работа с двойной тростью"
+      }
+    },
+    "goboy-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Аренда гобоя перед покупкой: система, механика, трости, интонация и собстве",
+        "decision": "Гобой в аренду до покупки | Сравнить учебный и профессиональный инструмент",
+        "next_action": "Сравнить учебный и профессиональный инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Гобой особенно плохо выбирается по короткому первому впечатлению: трость мо",
+        "decision": "Гобой до покупки | Механика, трость и отклик в репертуаре исполнителя",
+        "next_action": "Механика, трость и отклик в репертуаре исполнителя"
+      }
+    },
+    "angliyskiy-rozhok-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый опыт на английском рожке: строй F, трость, бочонок, вес и оркестрова",
+        "decision": "Английский рожок для первой пробы | Оркестровый инструмент напрокат",
+        "next_action": "Оркестровый инструмент напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Гобоист встречает в английском рожке родственную технику, но другой регистр",
+        "decision": "Первый английский рожок | Более низкий голос двойной трости",
+        "next_action": "Более низкий голос двойной трости"
+      }
+    },
+    "goboy-damur-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый опыт на гобое д’амур: строй A, трость, бочонок, баланс и барочная пр",
+        "decision": "Гобой д’амур напрокат | Инструмент для барочной и оркестровой партии",
+        "next_action": "Инструмент для барочной и оркестровой партии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Гобой д’амур звучит между обычным гобоем и английским рожком, но это не про",
+        "decision": "Гобой д’амур | Промежуточный голос гобойного семейства",
+        "next_action": "Промежуточный голос гобойного семейства"
+      }
+    },
+    "fagot-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый фагот: посадка, ремень/сиденье, трость, механика и пробный период.",
+        "decision": "Фагот для первого опыта в аренду | Учебный инструмент для занятий",
+        "next_action": "Учебный инструмент для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Фагот предъявляет телу и дыханию большую задачу уже до первой ноты. Поэтому",
+        "decision": "Первый фагот | Низкая оркестровая партия и собственная механика",
+        "next_action": "Низкая оркестровая партия и собственная механика"
+      }
+    },
+    "fagot-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Аренда фагота перед покупкой: механика, трость, посадка, строй и реальная о",
+        "decision": "Фагот до покупки напрокат | Сравнить конкретные инструменты в работе",
+        "next_action": "Сравнить конкретные инструменты в работе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Фагот — слишком сложный и дорогой инструмент, чтобы выбирать его по несколь",
+        "decision": "Фагот до покупки | Трость, эс и механика в привычном репертуаре",
+        "next_action": "Трость, эс и механика в привычном репертуаре"
+      }
+    },
+    "kontrafagot-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Первый опыт на контрафаготе: опора, дыхание, механика, низкий регистр и орк",
+        "decision": "Контрафагот напрокат для первого опыта | Самый низкий голос группы фаготов",
+        "next_action": "Самый низкий голос группы фаготов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz90-sax-double-reed-human-scenes.json",
+        "source_quote": "Фаготист узнает в контрафаготе родственную механику, но масштаб инструмента",
+        "decision": "Контрафагот | Глубокий оркестровый регистр и особый корпус",
+        "next_action": "Глубокий оркестровый регистр и особый корпус"
+      }
+    },
+    "truba-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Труба взрослому начинающему: мундштук, дыхание, пистоны, первые ноты и проб",
+        "decision": "Труба взрослому новичку в аренду | Учебный инструмент для первых занятий",
+        "next_action": "Учебный инструмент для первых занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Взрослый новичок часто может физически взять любую трубу, но это не означае",
+        "decision": "Первая труба взрослому | Клапанная система и открытый медный звук",
+        "next_action": "Клапанная система и открытый медный звук"
+      }
+    },
+    "truba-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Труба для дома: пистоны, мундштук, уход, дыхание и регулярная практика.",
+        "decision": "Труба для домашних занятий напрокат | На регулярную практику и уроки",
+        "next_action": "На регулярную практику и уроки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Между уроками ученик должен повторять музыкальную работу, а не бороться с т",
+        "decision": "Домашняя труба | Учебный репертуар и постоянный инструмент",
+        "next_action": "Учебный репертуар и постоянный инструмент"
+      }
+    },
+    "truba-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Труба после перерыва: амбушюр, дыхание, мундштук, механика и восстановление",
+        "decision": "Труба после перерыва в аренду | Возвращение к своему репертуару",
+        "next_action": "Возвращение к своему репертуару"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "После паузы пальцы быстро вспоминают пистоны, а выносливость амбушюра и дых",
+        "decision": "Возвращение к трубе | Привычная аппликатура и новая исполнительская практика",
+        "next_action": "Привычная аппликатура и новая исполнительская практика"
+      }
+    },
+    "truba-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Аренда трубы перед покупкой: мензура, сопротивление, пистоны, мундштук и со",
+        "decision": "Труба перед покупкой напрокат | Учебные и концертные инструменты на пробу",
+        "next_action": "Учебные и концертные инструменты на пробу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Труба может отличаться ощущением сопротивления и реакции сильнее, чем это в",
+        "decision": "Труба до покупки | Сравнение клапанов и отклика на своей программе",
+        "next_action": "Сравнение клапанов и отклика на своей программе"
+      }
+    },
+    "truba-dlya-big-benda": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Труба для биг-бенда: секционный баланс, атака, верхний регистр, строй и реп",
+        "decision": "Труба в биг-бэнд напрокат | Инструмент для джазовой духовой секции",
+        "next_action": "Инструмент для джазовой духовой секции"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "В биг-бенде хорошая труба определяется не тем, насколько ярко она звучит од",
+        "decision": "Биг-бэндовая труба | Артикуляция, секционная атака и высокие партии",
+        "next_action": "Артикуляция, секционная атака и высокие партии"
+      }
+    },
+    "truba-dlya-orkestrovogo-proslushivaniya": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Труба для прослушивания: привычный отклик, строй, мундштук, диапазон и срок",
+        "decision": "Труба на оркестровое прослушивание | Аренда на программу и выступление",
+        "next_action": "Аренда на программу и выступление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Перед прослушиванием смена трубы оправдана только тогда, когда новый инстру",
+        "decision": "Труба для прослушивания | Оркестровые соло и точная работа с фразой",
+        "next_action": "Оркестровые соло и точная работа с фразой"
+      }
+    },
+    "kornet-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Первый корнет: мундштук, клапаны, посадка, brass-band контекст и пробный пе",
+        "decision": "Первый корнет в аренду | Учебный медный инструмент для занятий",
+        "next_action": "Учебный медный инструмент для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Корнет близок трубе по аппликатуре, но отличается конструкцией и тембровой ",
+        "decision": "Учебный корнет | Компактный клапанный инструмент со своим голосом",
+        "next_action": "Компактный клапанный инструмент со своим голосом"
+      }
+    },
+    "kornet-posle-truby": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Переход с трубы на корнет: мундштук, сопротивление, тембр, brass-band парти",
+        "decision": "Корнет после трубы напрокат | Новый медный тембр при знакомой аппликатуре",
+        "next_action": "Новый медный тембр при знакомой аппликатуре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Трубач быстро узнаёт клапанную систему корнета, но инструмент иначе лежит в",
+        "decision": "От трубы к корнету | Близкая клапанная система и иной корпус",
+        "next_action": "Близкая клапанная система и иной корпус"
+      }
+    },
+    "kornet-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Аренда корнета перед покупкой: мундштук, клапаны, сопротивление, тембр и ан",
+        "decision": "Корнет перед покупкой в аренду | Попробовать инструмент в своём ансамбле",
+        "next_action": "Попробовать инструмент в своём ансамбле"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Корнет выбирают не только по бренду и внешней компактности. Нужны реальная ",
+        "decision": "Корнет до покупки | Тембр и корпус в настоящей партии",
+        "next_action": "Тембр и корпус в настоящей партии"
+      }
+    },
+    "flyugelgorn-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Первое знакомство с флюгельгорном: мундштук, сопротивление, мягкая атака и ",
+        "decision": "Флюгельгорн на первую пробу напрокат | Мягкий медный звук для ансамбля",
+        "next_action": "Мягкий медный звук для ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Трубач узнаёт аппликатуру, но флюгельгорн требует другого отношения к атаке",
+        "decision": "Первый флюгельгорн | Другой характер тембра при знакомых клапанах",
+        "next_action": "Другой характер тембра при знакомых клапанах"
+      }
+    },
+    "flyugelgorn-posle-truby": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Переход с трубы на флюгельгорн: мундштук, сопротивление, мягкая атака и пер",
+        "decision": "Флюгельгорн после трубы в аренду | Добавить мягкий голос к привычной игре",
+        "next_action": "Добавить мягкий голос к привычной игре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Трубач приходит на флюгельгорн с готовой клапанной техникой, но слишком жёс",
+        "decision": "От трубы к флюгельгорну | Мягкая медная атака и более широкий корпус",
+        "next_action": "Мягкая медная атака и более широкий корпус"
+      }
+    },
+    "flyugelgorn-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Аренда флюгельгорна перед покупкой: мундштук, сопротивление, тембр, строй и",
+        "decision": "Флюгельгорн перед покупкой напрокат | Проверить новый голос в репертуаре",
+        "next_action": "Проверить новый голос в репертуаре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Флюгельгорн легко полюбить за первый тёплый звук. Покупка становится осмысл",
+        "decision": "Флюгельгорн до покупки | Музыкальная роль инструмента рядом с трубой",
+        "next_action": "Музыкальная роль инструмента рядом с трубой"
+      }
+    },
+    "valtorna-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Первая валторна: одинарная F-система, мундштук, правая рука, посадка и проб",
+        "decision": "Валторна для первых уроков в аренду | Учебный инструмент для начинающего",
+        "next_action": "Учебный инструмент для начинающего"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "На валторне соседние обертоны расположены близко, поэтому первый инструмент",
+        "decision": "Первая валторна | Собственная система вентилей и обертонный ряд",
+        "next_action": "Собственная система вентилей и обертонный ряд"
+      }
+    },
+    "valtorna-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Валторна для дома: клапаны, кроны, мундштук, правая рука и регулярная практ",
+        "decision": "Валторна для домашних занятий напрокат | Для класса и самостоятельной работы",
+        "next_action": "Для класса и самостоятельной работы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Валторна особенно чувствительна к качеству атаки, поэтому домашний инструме",
+        "decision": "Домашняя валторна | Оркестровая партия и учебные упражнения",
+        "next_action": "Оркестровая партия и учебные упражнения"
+      }
+    },
+    "valtorna-dlya-perehoda-na-dvoynuyu-sistemu": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Переход с одинарной F на двойную F/B♭ валторну: переключатель, аппликатуры,",
+        "decision": "Двойная валторна для перехода в аренду | Новый этап оркестровой игры",
+        "next_action": "Новый этап оркестровой игры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Двойная валторна добавляет B♭-сторону и новый способ организовать аппликату",
+        "decision": "Двойная валторна | Системы F и B в одном инструменте",
+        "next_action": "Системы F и B в одном инструменте"
+      }
+    },
+    "valtorna-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Аренда валторны перед покупкой: F/F-B♭ система, клапаны, мундштук, посадка ",
+        "decision": "Валторна до покупки напрокат | Сравнить одинарную и двойную систему",
+        "next_action": "Сравнить одинарную и двойную систему"
+      },
+      "n1": {
+        "source_path": "content/sections/zz91-high-brass-human-scenes.json",
+        "source_quote": "Валторна особенно плохо выбирается по абстрактному классу модели: система, ",
+        "decision": "Валторна до покупки | Разные системы и вес корпуса",
+        "next_action": "Разные системы и вес корпуса"
+      }
+    },
+    "trombon-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Первый тромбон: кулиса, длина руки, мундштук, дыхание и пробный период.",
+        "decision": "Первый тромбон в аренду | Учебный инструмент для музыкальной школы",
+        "next_action": "Учебный инструмент для музыкальной школы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "На тромбоне высота ноты прямо связана с движением кулисы, поэтому первый ин",
+        "decision": "Тромбон для начинающего | Кулиса и семь позиций вместо клапанов",
+        "next_action": "Кулиса и семь позиций вместо клапанов"
+      }
+    },
+    "trombon-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Тромбон для дома: кулиса, смазка, строй, мундштук и регулярная практика.",
+        "decision": "Тромбон домой напрокат | Инструмент на каждый день музыкальной практики",
+        "next_action": "Инструмент на каждый день музыкальной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Между уроками ученик закрепляет расстояния кулисы телом. Если механизм идёт",
+        "decision": "Домашний тромбон | Постоянная работа с кулисой и диапазоном",
+        "next_action": "Постоянная работа с кулисой и диапазоном"
+      }
+    },
+    "trombon-s-kvartventilem-dlya-perehoda": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Переход на тромбон с F-квартвентилем: кулиса, триггер, низкий регистр и нов",
+        "decision": "Тромбон с квартвентилем в аренду | Для расширенной оркестровой партии",
+        "next_action": "Для расширенной оркестровой партии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Квартвентиль добавляет альтернативные позиции и расширяет доступ к низкому ",
+        "decision": "Тромбон с квартвентилем | Дополнительный вентиль расширяет маршруты к нотам",
+        "next_action": "Дополнительный вентиль расширяет маршруты к нотам"
+      }
+    },
+    "trombon-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Аренда тромбона перед покупкой: мензура, квартвентиль, ход кулисы, мундштук",
+        "decision": "Тромбон перед покупкой напрокат | Сравнить мензуру и наличие квартвентиля",
+        "next_action": "Сравнить мензуру и наличие квартвентиля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Тромбон особенно сильно ощущается через механику кулисы и масштаб мензуры. ",
+        "decision": "Тромбон до покупки | Реальная длина кулисы и работа механики",
+        "next_action": "Реальная длина кулисы и работа механики"
+      }
+    },
+    "bas-trombon-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Первый опыт на бас-тромбоне: мензура, клапаны, низкий регистр, мундштук и о",
+        "decision": "Бас-тромбон на первый опыт | Низкий медный голос в аренду",
+        "next_action": "Низкий медный голос в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Тенор-тромбонист узнаёт кулису, но бас-тромбон требует большего воздуха, др",
+        "decision": "Первый бас-тромбон | Низкий регистр при знакомой кулисе",
+        "next_action": "Низкий регистр при знакомой кулисе"
+      }
+    },
+    "evfonium-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Первый эуфониум: три клапана, мундштук, посадка, дыхание и пробный период.",
+        "decision": "Первый эуфониум напрокат | Учебный инструмент для духового оркестра",
+        "next_action": "Учебный инструмент для духового оркестра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "На первом этапе эуфониум должен позволять ученику удерживать ровную фразу и",
+        "decision": "Эуфониум для начинающего | Певучий медный голос и клапанная система",
+        "next_action": "Певучий медный голос и клапанная система"
+      }
+    },
+    "evfonium-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Эуфониум для дома: посадка, клапаны, мундштук, масса и регулярная практика.",
+        "decision": "Эуфониум для домашних занятий | Учебная модель в аренду",
+        "next_action": "Учебная модель в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Большой медный инструмент быстро превращает домашнее занятие в физическую з",
+        "decision": "Домашний эуфониум | Регулярная работа над фразой и нижним регистром",
+        "next_action": "Регулярная работа над фразой и нижним регистром"
+      }
+    },
+    "evfonium-dlya-perehoda-na-sistemu-3-plus-1": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Переход на эуфониум 3+1: четвёртый клапан, компенсирующая система, аппликат",
+        "decision": "Эуфониум 3+1 в аренду | Концертная система для нового учебного этапа",
+        "next_action": "Концертная система для нового учебного этапа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Система 3+1 добавляет отдельный клапан под левую руку и новую аппликатурную",
+        "decision": "Эуфониум с системой 3+1 | Независимый четвёртый клапан под левую руку",
+        "next_action": "Независимый четвёртый клапан под левую руку"
+      }
+    },
+    "evfonium-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Аренда эуфониума перед покупкой: масса, клапаны, 3+1, compensating system, ",
+        "decision": "Эуфониум перед покупкой напрокат | Сравнить концертную и учебную систему",
+        "next_action": "Сравнить концертную и учебную систему"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Эуфониум различается не только уровнем отделки, но и клапанной архитектурой",
+        "decision": "Эуфониум до покупки | Клапаны, строй и характер нижнего регистра",
+        "next_action": "Клапаны, строй и характер нижнего регистра"
+      }
+    },
+    "tuba-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Первая туба: размер, строй, мундштук, посадка, клапаны и пробный период.",
+        "decision": "Первая туба в аренду | Инструмент для начала занятий на медных низах",
+        "next_action": "Инструмент для начала занятий на медных низах"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "На тубе физическая совместимость с инструментом становится условием самого ",
+        "decision": "Туба для начинающего | Оркестровый басовый голос и разные строи",
+        "next_action": "Оркестровый басовый голос и разные строи"
+      }
+    },
+    "tuba-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Туба для дома: размер, посадка, хранение, клапаны, дыхание и регулярная пра",
+        "decision": "Туба для занятий дома напрокат | Учебный басовый инструмент",
+        "next_action": "Учебный басовый инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Для тубы домашняя практика зависит не только от инструмента, но и от того, ",
+        "decision": "Домашняя туба | Регулярная работа с дыханием и тубовой партией",
+        "next_action": "Регулярная работа с дыханием и тубовой партией"
+      }
+    },
+    "tuba-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Аренда тубы перед покупкой: строй, размер, посадка, клапанная система и соб",
+        "decision": "Туба перед покупкой в аренду | Сравнить размеры и строи инструментов",
+        "next_action": "Сравнить размеры и строи инструментов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Туба слишком велика и дорога, чтобы выбирать её только по нескольким минута",
+        "decision": "Туба до покупки | Система, размер и диапазон внутри репертуара",
+        "next_action": "Система, размер и диапазон внутри репертуара"
+      }
+    },
+    "suzafon-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Первый опыт на сузафоне: баланс на плече, дыхание, клапаны и маршевый форма",
+        "decision": "Сузафон для первого опыта напрокат | Большой медный инструмент для ансамбля",
+        "next_action": "Большой медный инструмент для ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Сузафон создавался для движения, поэтому его главный интерфейс — не только ",
+        "decision": "Первый сузафон | Басовая партия в переносном концертном корпусе",
+        "next_action": "Басовая партия в переносном концертном корпусе"
+      }
+    },
+    "suzafon-dlya-marshiruyuschego-sostava": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Сузафон для марширующего состава: баланс корпуса, раструб, дыхание, шаг и с",
+        "decision": "Сузафон для марширующего оркестра | Аренда для парада и улицы",
+        "next_action": "Аренда для парада и улицы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "В марширующем составе сузафон должен одновременно держать низ и оставаться ",
+        "decision": "Марширующий сузафон | Басовый инструмент, который несут на себе",
+        "next_action": "Басовый инструмент, который несут на себе"
+      }
+    },
+    "bariton-gorn-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Первый баритон-горн: три клапана, посадка, мундштук, дыхание и отличие от э",
+        "decision": "Баритон-горн для первых занятий в аренду | Учебный голос brass-band",
+        "next_action": "Учебный голос brass-band"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Баритон-горн близок эуфониуму по диапазону, но это самостоятельная конструк",
+        "decision": "Баритон-горн | Отдельный низкий медный голос с клапанами",
+        "next_action": "Отдельный низкий медный голос с клапанами"
+      }
+    },
+    "tenor-gorn-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Первый tenor horn: Eb-строй, три клапана, посадка и brass-band роль.",
+        "decision": "Тенор-горн для первых занятий напрокат | Инструмент строя Es",
+        "next_action": "Инструмент строя Es"
+      },
+      "n1": {
+        "source_path": "content/sections/zz92-low-brass-human-scenes.json",
+        "source_quote": "Тенор-горн занимает собственное место в brass band и не сводится к «маленьк",
+        "decision": "Тенор-горн | Альтовый голос медной секции духового состава",
+        "next_action": "Альтовый голос медной секции духового состава"
+      }
+    },
+    "barabannaya-ustanovka-dlya-pervogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Первая барабанная установка: размеры бочки, томов, посадка, педали и пробны",
+        "decision": "Первая барабанная установка в аренду | Комплект для уроков и домашних занятий",
+        "next_action": "Комплект для уроков и домашних занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "На барабанах человек играет не одним предметом, а геометрией всего комплект",
+        "decision": "Первая установка | Барабаны, тарелки и педали собираются вокруг исполнителя",
+        "next_action": "Барабаны, тарелки и педали собираются вокруг исполнителя"
+      }
+    },
+    "barabannaya-ustanovka-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Акустическая установка для дома: размеры, посадка, настройка, громкость и р",
+        "decision": "Барабанная установка домой напрокат | От компактного сета до полного комплекта",
+        "next_action": "От компактного сета до полного комплекта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Домашняя практика на акустической установке имеет смысл, когда комплект сто",
+        "decision": "Барабаны для дома | Репетиционная расстановка в собственном пространстве",
+        "next_action": "Репетиционная расстановка в собственном пространстве"
+      }
+    },
+    "barabannaya-ustanovka-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Барабанная установка взрослому начинающему: посадка, координация, размеры и",
+        "decision": "Барабанная установка взрослому начинающему | Первый учебный комплект в аренду",
+        "next_action": "Первый учебный комплект в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Взрослый новичок обычно сразу помещается за стандартной установкой, но ещё ",
+        "decision": "Начать барабаны взрослым | Полная установка для освоения ритма",
+        "next_action": "Полная установка для освоения ритма"
+      }
+    },
+    "barabannaya-ustanovka-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Барабанная установка после перерыва: посадка, координация, педали и восстан",
+        "decision": "Барабанная установка после перерыва | Аренда для возвращения к игре",
+        "next_action": "Аренда для возвращения к игре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "После паузы рисунки могут оставаться в памяти, а точность ног, выносливость",
+        "decision": "Вернуться к барабанам | Привычный сет и новый рабочий ритм",
+        "next_action": "Привычный сет и новый рабочий ритм"
+      }
+    },
+    "barabannaya-ustanovka-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Аренда установки перед покупкой: бочка, томы, посадка, педали, настройка и ",
+        "decision": "Барабанная установка перед покупкой | Прокат для пробы комплекта",
+        "next_action": "Прокат для пробы комплекта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Размер барабанов и расположение железа начинают по-настоящему говорить толь",
+        "decision": "Установка до покупки | Размеры барабанов и расположение тарелок в деле",
+        "next_action": "Размеры барабанов и расположение тарелок в деле"
+      }
+    },
+    "barabannaya-ustanovka-dlya-malenkoy-komnaty": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Компактная установка: 20-дюймовая бас-бочка, расположение томов, тарелок и ",
+        "decision": "Компактная барабанная установка в аренду | Для небольшой репетиционной комнаты",
+        "next_action": "Для небольшой репетиционной комнаты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "В тесной комнате важно уменьшить не музыкальную задачу, а лишние расстояния",
+        "decision": "Маленькая барабанная установка | Меньшие корпуса при рабочем наборе функций",
+        "next_action": "Меньшие корпуса при рабочем наборе функций"
+      }
+    },
+    "barabannaya-ustanovka-dlya-dolgoy-repetitsii": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Установка для длительных репетиций: стул, педали, высота малого, томов и ут",
+        "decision": "Барабанная установка на длинную репетицию | Полный рабочий комплект в аренду",
+        "next_action": "Полный рабочий комплект в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Через два часа становятся видны те ошибки геометрии, которые не замечаются ",
+        "decision": "Барабанная репетиция | Посадка и расстановка на несколько часов игры",
+        "next_action": "Посадка и расстановка на несколько часов игры"
+      }
+    },
+    "barabannaya-ustanovka-dlya-dzheza": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Установка для джаза: компактность, ride, малый, настройка томов и динамичес",
+        "decision": "Джазовая барабанная установка в аренду | Сет для трио, квартета и клуба",
+        "next_action": "Сет для трио, квартета и клуба"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "В джазовом составе установка должна быстро менять масштаб от щёток и тихого",
+        "decision": "Джазовая установка | Ride, малый барабан и гибкая динамика",
+        "next_action": "Ride, малый барабан и гибкая динамика"
+      }
+    },
+    "barabannaya-ustanovka-dlya-roka": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Установка для рока: бас-бочка, малый, томы, тарелки, атака и длительная реп",
+        "decision": "Рок-барабанная установка напрокат | Комплект для группы и сцены",
+        "next_action": "Комплект для группы и сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "В плотной рок-группе установка должна давать читаемую атаку рядом с усиленн",
+        "decision": "Рок-установка | Бас-барабан, рабочий, томы и тарелки в одном наборе",
+        "next_action": "Бас-барабан, рабочий, томы и тарелки в одном наборе"
+      }
+    },
+    "barabannaya-ustanovka-dlya-fanka": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Установка для фанка: малый, хэт, ghost notes, динамика и баланс с басом.",
+        "decision": "Фанковая барабанная установка в аренду | Комплект для грува и репетиций",
+        "next_action": "Комплект для грува и репетиций"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "В фанке важен не большой комплект, а точность коротких атак и динамических ",
+        "decision": "Фанковая установка | Хай-хэт, малый и бас-барабан ведут общий пульс",
+        "next_action": "Хай-хэт, малый и бас-барабан ведут общий пульс"
+      }
+    },
+    "barabannaya-ustanovka-dlya-akusticheskogo-sostava": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Установка для акустического ансамбля: щётки, компактный сет, тихие тарелки ",
+        "decision": "Барабанная установка акустическому составу | Компактный сет напрокат",
+        "next_action": "Компактный сет напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "В акустическом составе барабанщику приходится сохранять тот же пульс при на",
+        "decision": "Акустический ансамбль с барабанами | Меньший масштаб звучания при полном ритме",
+        "next_action": "Меньший масштаб звучания при полном ритме"
+      }
+    },
+    "malyy-baraban-dlya-domashney-praktiki": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Малый барабан для дома: отклик пластика, пружина, динамика и связь с тренир",
+        "decision": "Малый барабан для домашних занятий | Отдельный инструмент в аренду",
+        "next_action": "Отдельный инструмент в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Пэд удобен для тихой моторной работы, но не возвращает весь звук, пружину и",
+        "decision": "Рабочий барабан дома | Настоящая мембрана, подструнник и учебная техника",
+        "next_action": "Настоящая мембрана, подструнник и учебная техника"
+      }
+    },
+    "malyy-baraban-dlya-rudimentov": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Малый барабан для rudiments: отскок, тихая динамика, пружина и перенос с пэ",
+        "decision": "Малый барабан для рудиментов в аренду | Полноценный учебный рабочий",
+        "next_action": "Полноценный учебный рабочий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Рудимент перестаёт быть чистой моторной схемой, когда его нужно сыграть на ",
+        "decision": "Рудименты на малом барабане | Ритмические фигуры и контроль атаки",
+        "next_action": "Ритмические фигуры и контроль атаки"
+      }
+    },
+    "malyy-baraban-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Аренда малого барабана перед покупкой: глубина, пластики, пружина, строй и ",
+        "decision": "Малый барабан напрокат перед покупкой | Сравнить корпус и настройку",
+        "next_action": "Сравнить корпус и настройку"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Малый барабан раскрывается от тихих ghost notes до rimshot и оркестровой ар",
+        "decision": "Малый барабан до покупки | Глубина корпуса и характер подструнника",
+        "next_action": "Глубина корпуса и характер подструнника"
+      }
+    },
+    "tarelki-dlya-pervogo-komplekta": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Первый набор тарелок: hi-hat, ride, crash, яркость, sustain и баланс с уста",
+        "decision": "Первый комплект тарелок в аренду | Хай-хэт, райд и крэш",
+        "next_action": "Хай-хэт, райд и крэш"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "На старте полезнее понять три основные функции тарелок, чем сразу собирать ",
+        "decision": "Первые тарелки барабанщика | Три разные функции в одном комплекте",
+        "next_action": "Три разные функции в одном комплекте"
+      }
+    },
+    "tarelki-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Аренда тарелок перед покупкой: яркость, sustain, громкость, ride/crash роли",
+        "decision": "Тарелки перед покупкой напрокат | Разные наборы для своей установки",
+        "next_action": "Разные наборы для своей установки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz93-drum-kit-human-scenes.json",
+        "source_quote": "Тарелка, впечатляющая в одиночку, может оказаться слишком длинной, яркой ил",
+        "decision": "Тарелки до покупки | Как звучит комплект рядом с собственными барабанами",
+        "next_action": "Как звучит комплект рядом с собственными барабанами"
+      }
+    },
+    "elektronnye-barabany-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны взрослому начинающему: посадка, педали, наушники, метр",
+        "decision": "Электронные барабаны взрослому новичку | Учебный комплект напрокат",
+        "next_action": "Учебный комплект напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Взрослому новичку электронная установка позволяет начать дома без покупки а",
+        "decision": "Первые электронные барабаны | Установка в наушниках для освоения ритма",
+        "next_action": "Установка в наушниках для освоения ритма"
+      }
+    },
+    "elektronnye-barabany-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для дома: посадка, наушники, механический шум, метроно",
+        "decision": "Электронные барабаны домой в аренду | Для ежедневной тихой практики",
+        "next_action": "Для ежедневной тихой практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронный комплект особенно ценен там, где акустическая громкость мешает ",
+        "decision": "Домашняя электронная установка | Пэды и педали вместо громких корпусов",
+        "next_action": "Пэды и педали вместо громких корпусов"
+      }
+    },
+    "elektronnye-barabany-posle-akusticheskih": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Переход с акустической установки на электронную: hi-hat, ride, малый, динам",
+        "decision": "Электронные барабаны после акустических | Аренда на новый формат занятий",
+        "next_action": "Аренда на новый формат занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Опытный барабанщик приносит на электронный комплект готовую механику движен",
+        "decision": "От акустики к электронным барабанам | Привычная установка и цифровой звук",
+        "next_action": "Привычная установка и цифровой звук"
+      }
+    },
+    "akusticheskaya-ustanovka-posle-elektronnyh": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Переход с электронных барабанов на акустическую установку: динамика, педали",
+        "decision": "Акустическая установка после электронных барабанов | Аренда для живой сцены",
+        "next_action": "Аренда для живой сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Ученик, начинавший дома на электронном комплекте, может впервые столкнуться",
+        "decision": "От электронной установки к акустике | Механика мембран и тарелок в реальном зале",
+        "next_action": "Механика мембран и тарелок в реальном зале"
+      }
+    },
+    "elektronnye-barabany-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Аренда электронных барабанов перед покупкой: отклик, hi-hat, педали, механи",
+        "decision": "Электронные барабаны напрокат перед покупкой | Сравнить пэды и модули",
+        "next_action": "Сравнить пэды и модули"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронная установка раскрывается только после нескольких длинных занятий.",
+        "decision": "Электронная установка до покупки | Реакция пэдов и звучание модуля",
+        "next_action": "Реакция пэдов и звучание модуля"
+      }
+    },
+    "elektronnye-barabany-dlya-trenirovki-v-naushnikah": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для занятий в наушниках: баланс, метроном, фонограмма ",
+        "decision": "Электронные барабаны для занятий в наушниках | Тихая установка в аренду",
+        "next_action": "Тихая установка в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Наушники позволяют убрать звук модуля из комнаты, но не должны превращать з",
+        "decision": "Барабаны в наушниках | Полный ритмический комплект без акустической громкости",
+        "next_action": "Полный ритмический комплект без акустической громкости"
+      }
+    },
+    "elektronnye-barabany-dlya-zapisi-midi": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для MIDI: velocity, зоны пэдов, hi-hat data, USB/MIDI ",
+        "decision": "Электронные барабаны с MIDI | Аренда для записи ритмических партий",
+        "next_action": "Аренда для записи ритмических партий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Если финальный звук будет выбран позже, электронная установка становится ин",
+        "decision": "Запись MIDI с электронных барабанов | Сохранить удары как управляемые ноты",
+        "next_action": "Сохранить удары как управляемые ноты"
+      }
+    },
+    "elektronnye-barabany-dlya-zapisi-audio": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для аудиозаписи: stereo out, USB audio, тембры, динами",
+        "decision": "Электронные барабаны для аудиозаписи | Звук модуля сразу в интерфейс",
+        "next_action": "Звук модуля сразу в интерфейс"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Иногда нужен не MIDI для последующей замены звуков, а готовый звук модуля. ",
+        "decision": "Запись электронных ударных | Готовый ритмический сигнал без микрофонов",
+        "next_action": "Готовый ритмический сигнал без микрофонов"
+      }
+    },
+    "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для двойной педали: kick pad, совместимость, посадка и",
+        "decision": "Электронные барабаны с двойной педалью | Аренда для тренировки ног",
+        "next_action": "Аренда для тренировки ног"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Для двойной педали важна не только электроника модуля, но и физический kick",
+        "decision": "Двойная педаль на электронных барабанах | Скорость и координация бас-барабана",
+        "next_action": "Скорость и координация бас-барабана"
+      }
+    },
+    "elektronnye-barabany-dlya-raboty-nad-dinamikoy": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для динамики: velocity, ghost notes, чувствительность,",
+        "decision": "Электронные барабаны для динамики | Пэды с чувствительностью к удару",
+        "next_action": "Пэды с чувствительностью к удару"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Продвинутый электронный комплект имеет смысл тогда, когда он возвращает раз",
+        "decision": "Динамика электронных барабанов | От тихого удара до акцента на пэдах",
+        "next_action": "От тихого удара до акцента на пэдах"
+      }
+    },
+    "elektronnye-barabany-dlya-vremennogo-zhilya": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны на несколько месяцев: компактность, механический шум, ",
+        "decision": "Электронные барабаны во временное жильё | Компактный комплект в аренду",
+        "next_action": "Компактный комплект в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Командировка, ремонт или несколько месяцев в другом месте легко обрывают ба",
+        "decision": "Временное жильё и электронные барабаны | Регулярная практика без акустического сета",
+        "next_action": "Регулярная практика без акустического сета"
+      }
+    },
+    "elektronnye-barabany-dlya-raboty-s-metronomom": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для метронома: click, training modes, balance и ежедне",
+        "decision": "Электронные барабаны для занятий с метрономом | Комплект напрокат",
+        "next_action": "Комплект напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронный модуль удобен тем, что метроном и тренировочные функции уже вст",
+        "decision": "Электронные барабаны и метроном | Поддержка ровного пульса в наушниках",
+        "next_action": "Поддержка ровного пульса в наушниках"
+      }
+    },
+    "elektronnye-barabany-dlya-distantsionnogo-uroka": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для онлайн-урока: камера, аудио, метроном, наушники и ",
+        "decision": "Электронные барабаны для онлайн-урока | Аренда с подключением к компьютеру",
+        "next_action": "Аренда с подключением к компьютеру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "На дистанционном уроке электронная установка становится частью канала связи",
+        "decision": "Онлайн-урок на электронных барабанах | Передача ритма преподавателю",
+        "next_action": "Передача ритма преподавателю"
+      }
+    },
+    "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Сравнение электронных и акустических барабанов: отклик, громкость, hi-hat, ",
+        "decision": "Акустические и электронные барабаны | Аренда двух форматов для сравнения",
+        "next_action": "Аренда двух форматов для сравнения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Спор о том, что «лучше», мало полезен. Гораздо точнее взять знакомый groove",
+        "decision": "Электронные или акустические барабаны | Разные источники звука и динамики",
+        "next_action": "Разные источники звука и динамики"
+      }
+    },
+    "elektronnye-barabany-dlya-raboty-nad-hi-hatom": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для hi-hat техники: openings, foot chick, стойка, чувс",
+        "decision": "Электронные барабаны с хай-хэтом | Аренда для ритмической практики",
+        "next_action": "Аренда для ритмической практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Hi-hat часто становится самым заметным местом различия между электронным и ",
+        "decision": "Электронный хай-хэт | Управление открытием педалью и атакой палочки",
+        "next_action": "Управление открытием педалью и атакой палочки"
+      }
+    },
+    "elektronnye-barabany-dlya-trenirovki-nog": {
+      "n0": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Электронные барабаны для работы ног: bass drum, hi-hat, педали, координация",
+        "decision": "Электронные барабаны для тренировки ног | Комплект с рабочими педалями",
+        "next_action": "Комплект с рабочими педалями"
+      },
+      "n1": {
+        "source_path": "content/sections/zz94-electronic-drum-human-scenes.json",
+        "source_quote": "Если акустическая установка доступна только раз в неделю, именно работа ног",
+        "decision": "Ноги барабанщика | Бас-барабан и хай-хэт как самостоятельная координация",
+        "next_action": "Бас-барабан и хай-хэт как самостоятельная координация"
+      }
+    },
+    "litavry-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на литаврах: педаль, настройка, посадка, интервалы и оркестрова",
+        "decision": "Литавры для первых занятий в аренду | От одного котла до полного оркестрового набора",
+        "next_action": "От одного котла до полного оркестрового набора"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Литавры требуют одновременно слышать высоту, управлять педалью и сохранять ",
+        "decision": "Первые литавры | Настроенная высота и педальная система внутри ударной партии",
+        "next_action": "Настроенная высота и педальная система внутри ударной партии"
+      }
+    },
+    "litavry-dlya-pedalnyh-perehodov": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Литавры для педальных переходов: настройка в движении, слух, баланс ног и о",
+        "decision": "Литавры для педальных переходов в аренду | Инструменты для отработки смены нот",
+        "next_action": "Инструменты для отработки смены нот"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Когда партия требует менять высоту во время звучания, литаврист уже работае",
+        "decision": "Педальная настройка литавр | Высота меняется внутри музыкального движения",
+        "next_action": "Высота меняется внутри музыкального движения"
+      }
+    },
+    "litavry-dlya-orkestrovoy-praktiki": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Литавры для оркестровой практики: несколько барабанов, настройка, глушение ",
+        "decision": "Литавры для оркестровой практики напрокат | Репетиционный и концертный комплект",
+        "next_action": "Репетиционный и концертный комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "В оркестре литавры требуют готовить высоты заранее, менять их между эпизода",
+        "decision": "Литавры в оркестре | Несколько котлов обеспечивают диапазон партитуры",
+        "next_action": "Несколько котлов обеспечивают диапазон партитуры"
+      }
+    },
+    "marimba-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на маримбе: высота инструмента, диапазон, палочки и начальная п",
+        "decision": "Маримба для первого опыта в аренду | Настоящий мелодический инструмент для занятий",
+        "next_action": "Настоящий мелодический инструмент для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "На первом этапе важнее удобная высота и диапазон, который покрывает текущие",
+        "decision": "Первая маримба | Клавиатура из дерева и самостоятельная партия ударника",
+        "next_action": "Клавиатура из дерева и самостоятельная партия ударника"
+      }
+    },
+    "marimba-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Маримба для дома: диапазон, высота, место, разборность и регулярная практик",
+        "decision": "Маримба для домашних занятий в аренду | Инструмент под регулярную музыкальную практику",
+        "next_action": "Инструмент под регулярную музыкальную практику"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Маримба занимает много пространства, поэтому домашняя практика зависит от т",
+        "decision": "Маримба дома | Мелодический репертуар и работа над ударной техникой",
+        "next_action": "Мелодический репертуар и работа над ударной техникой"
+      }
+    },
+    "marimba-dlya-perehoda-na-chetyre-palochki": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Маримба для четырёх палочек: хват, интервалы, высота инструмента и репертуа",
+        "decision": "Маримба для четырёх палочек в аренду | Аккордовая и многоголосная техника",
+        "next_action": "Аккордовая и многоголосная техника"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Переход от двух к четырём палочкам меняет не просто количество предметов в ",
+        "decision": "Маримба с четырьмя палочками | Несколько самостоятельных голосов в одной партии",
+        "next_action": "Несколько самостоятельных голосов в одной партии"
+      }
+    },
+    "marimba-dlya-pyatioktavnoy-programmy": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Пятиоктавная маримба: нижний регистр, размеры, транспорт и программа, требу",
+        "decision": "Пятиоктавная маримба напрокат | Полный концертный диапазон для программы",
+        "next_action": "Полный концертный диапазон для программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Пятиоктавная маримба нужна не как высшая ступень владения инструментом, а к",
+        "decision": "Пятиоктавная маримба | Расширенный басовый регистр в сольном репертуаре",
+        "next_action": "Расширенный басовый регистр в сольном репертуаре"
+      }
+    },
+    "ksilofon-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на ксилофоне: высота, диапазон, палочки и учебная программа.",
+        "decision": "Ксилофон для первых занятий в аренду | Учебный и концертный инструменты",
+        "next_action": "Учебный и концертный инструменты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Ксилофон быстро возвращает точность попадания и ритма, потому что звук коро",
+        "decision": "Первый ксилофон | Настроенные деревянные пластины и отчётливая атака",
+        "next_action": "Настроенные деревянные пластины и отчётливая атака"
+      }
+    },
+    "ksilofon-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Ксилофон для дома: регулируемая высота, диапазон, палочки и регулярная учеб",
+        "decision": "Ксилофон для домашних занятий напрокат | Мелодическая практика на ударных",
+        "next_action": "Мелодическая практика на ударных"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Если на уроке ученик играет на ксилофоне, домашняя работа только на пэде не",
+        "decision": "Ксилофон дома | Полноценный инструмент для работы над высотой и ритмом",
+        "next_action": "Полноценный инструмент для работы над высотой и ритмом"
+      }
+    },
+    "vibrafon-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на вибрафоне: металлические пластины, педаль, sustain, motor и ",
+        "decision": "Вибрафон для первого опыта в аренду | Мелодические ударные для джаза и занятий",
+        "next_action": "Мелодические ударные для джаза и занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Вибрафон отличается от ксилофона и маримбы тем, что продолжение звука стано",
+        "decision": "Первый вибрафон | Металлические пластины и управляемое продолжение звука",
+        "next_action": "Металлические пластины и управляемое продолжение звука"
+      }
+    },
+    "vibrafon-dlya-raboty-s-pedalyu": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Вибрафон для педальной техники: sustain, dampening, гармония и координация ",
+        "decision": "Вибрафон с педалью напрокат | Инструмент для ансамблевой и сольной практики",
+        "next_action": "Инструмент для ансамблевой и сольной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "На вибрафоне педаль определяет, какие ноты продолжают звучать после удара. ",
+        "decision": "Педаль вибрафона | Продлить или заглушить звучание после удара",
+        "next_action": "Продлить или заглушить звучание после удара"
+      }
+    },
+    "orkestrovye-kolokolchiki-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на glockenspiel: металлические пластины, диапазон, палочки и ор",
+        "decision": "Оркестровые колокольчики напрокат | Высокий мелодический голос для занятий",
+        "next_action": "Высокий мелодический голос для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Оркестровые колокольчики дают высокий яркий звук и почти не прощают неточно",
+        "decision": "Оркестровые колокольчики | Металлические пластины, точная высота и яркая атака",
+        "next_action": "Металлические пластины, точная высота и яркая атака"
+      }
+    },
+    "orkestrovye-kolokola-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на tubular bells: педаль/глушение, молоток, высота и оркестрова",
+        "decision": "Оркестровые колокола в аренду | Трубчатые колокола для учебной партии",
+        "next_action": "Трубчатые колокола для учебной партии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Оркестровые колокола соединяют точную высоту и длинный металлический резона",
+        "decision": "Трубчатые колокола | Крупный оркестровый инструмент с настроенными нотами",
+        "next_action": "Крупный оркестровый инструмент с настроенными нотами"
+      }
+    },
+    "orkestrovye-parnye-tarelki-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на crash cymbals: хват, угол встречи, choke и оркестровая динам",
+        "decision": "Парные оркестровые тарелки напрокат | Для перкуссионного класса и партитуры",
+        "next_action": "Для перкуссионного класса и партитуры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Парные оркестровые тарелки требуют координации двух тяжёлых дисков и точног",
+        "decision": "Парные тарелки | Два диска создают самостоятельный оркестровый акцент",
+        "next_action": "Два диска создают самостоятельный оркестровый акцент"
+      }
+    },
+    "orkestrovyy-treugolnik-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на оркестровом треугольнике: подвес, beater, зона удара, roll и",
+        "decision": "Оркестровый треугольник в аренду | Для занятий и концертных акцентов",
+        "next_action": "Для занятий и концертных акцентов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Треугольник выглядит простым, но положение удара, палочка и способ подвеса ",
+        "decision": "Оркестровый треугольник | Компактный инструмент с богатым верхним спектром",
+        "next_action": "Компактный инструмент с богатым верхним спектром"
+      }
+    },
+    "bolshoy-orkestrovyy-baraban-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Первый опыт на concert bass drum: mallet, стойка, точка удара и управление ",
+        "decision": "Большой оркестровый барабан напрокат | Низкая ударная партия для оркестра",
+        "next_action": "Низкая ударная партия для оркестра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz95-orchestral-mallet-human-scenes.json",
+        "source_quote": "Большой оркестровый барабан создаёт длинный низкий резонанс, поэтому исполн",
+        "decision": "Большой барабан | Глубокий удар и длинное регулируемое затухание",
+        "next_action": "Глубокий удар и длинное регулируемое затухание"
+      }
+    },
+    "kahon-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Кахон взрослому начинающему: посадка, bass/slap, руки и пробный период.",
+        "decision": "Кахон взрослому начинающему в аренду | Компактный ритмический инструмент для первых уроков",
+        "next_action": "Компактный ритмический инструмент для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Кахон даёт возможность начать ритмическую практику без полной барабанной ус",
+        "decision": "Первый кахон | Басовые и высокие удары внутри одного корпуса",
+        "next_action": "Басовые и высокие удары внутри одного корпуса"
+      }
+    },
+    "kahon-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Аренда кахона перед покупкой: посадка, бас, slap, чувствительность и ансамб",
+        "decision": "Кахон до покупки напрокат | Сравнить звучание и посадку разных моделей",
+        "next_action": "Сравнить звучание и посадку разных моделей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Кахоны заметно различаются по глубине баса, чувствительности верхнего удара",
+        "decision": "Кахон перед покупкой | Басовый звук и слэп в практической игре",
+        "next_action": "Басовый звук и слэп в практической игре"
+      }
+    },
+    "dzhembe-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на джембе: bass, tone, slap, размер корпуса и ручная техника.",
+        "decision": "Джембе для первых занятий в аренду | Ручная перкуссия для группы и соло",
+        "next_action": "Ручная перкуссия для группы и соло"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Джембе интересен тем, что один корпус даёт несколько резко различимых тембр",
+        "decision": "Первый джембе | Несколько основных тембров на одной мембране",
+        "next_action": "Несколько основных тембров на одной мембране"
+      }
+    },
+    "kongi-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на конгах: open tone, slap, bass, два барабана и базовая коорди",
+        "decision": "Конги для первого опыта напрокат | Пара ударных для ансамбля и репетиций",
+        "next_action": "Пара ударных для ансамбля и репетиций"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Конги начинают раскрываться тогда, когда музыкант различает тембры одного б",
+        "decision": "Первые конги | Два корпуса с самостоятельными звуковыми ролями",
+        "next_action": "Два корпуса с самостоятельными звуковыми ролями"
+      }
+    },
+    "bongi-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на bongos: macho/hembra, пальцевая атака, ритмический рисунок и",
+        "decision": "Бонго для первых занятий в аренду | Компактная пара барабанов для ритма",
+        "next_action": "Компактная пара барабанов для ритма"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Бонго компактны, но требуют точного пальцевого удара и быстрого переноса ме",
+        "decision": "Первые бонго | Два небольших барабана с разными голосами",
+        "next_action": "Два небольших барабана с разными голосами"
+      }
+    },
+    "darbuka-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на дарбуке: dum, tek, корпус, посадка и базовый рисунок.",
+        "decision": "Дарбука для первого опыта напрокат | Для традиционной музыки и танца",
+        "next_action": "Для традиционной музыки и танца"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Дарбука строит ритм на резком контрасте центра и края мембраны. Первый этап",
+        "decision": "Первая дарбука | Низкий dum и высокий tek в одной мембране",
+        "next_action": "Низкий dum и высокий tek в одной мембране"
+      }
+    },
+    "ramochnyy-baraban-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на frame drum: хват, мембрана, пальцевая техника и резонанс.",
+        "decision": "Рамочный барабан для первых занятий в аренду | Инструмент под разные традиции",
+        "next_action": "Инструмент под разные традиции"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Рамочный барабан особенно зависит от того, как исполнитель держит сам корпу",
+        "decision": "Первый рамочный барабан | Несколько исполнительских техник на одной мембране",
+        "next_action": "Несколько исполнительских техник на одной мембране"
+      }
+    },
+    "handpan-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на handpan: строй, центральный ding, поля нот и свободная импро",
+        "decision": "Хэндпан для первого знакомства в аренду | Попробовать настроенный металлический инструмент",
+        "next_action": "Попробовать настроенный металлический инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Хэндпан отличается от многих ударных тем, что набор высот уже задан конкрет",
+        "decision": "Первый хэндпан | Готовый набор нот для мелодии и импровизации",
+        "next_action": "Готовый набор нот для мелодии и импровизации"
+      }
+    },
+    "handpan-dlya-zapisi-improvizatsii": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Хэндпан для записи импровизации: строй, sustain, расположение микрофона и п",
+        "decision": "Хэндпан для записи импровизации напрокат | Мелодическая перкуссия в студию",
+        "next_action": "Мелодическая перкуссия в студию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Хэндпан часто кажется готовой музыкой уже в комнате, но запись быстро показ",
+        "decision": "Хэндпан в записи | Резонанс корпуса и звучание настроенных полей",
+        "next_action": "Резонанс корпуса и звучание настроенных полей"
+      }
+    },
+    "kalimba-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на калимбе: строй, язычки, диапазон и простая мелодическая прак",
+        "decision": "Калимба для первых занятий в аренду | Небольшой мелодический инструмент",
+        "next_action": "Небольшой мелодический инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Калимба даёт непосредственный мелодический интерфейс: высоты уже разложены ",
+        "decision": "Первая калимба | Настроенные металлические язычки под большими пальцами",
+        "next_action": "Настроенные металлические язычки под большими пальцами"
+      }
+    },
+    "glyukofon-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Первый опыт на tongue drum: строй, язычки, палочки/руки и простая импровиза",
+        "decision": "Глюкофон для первого опыта напрокат | Стальной язычковый барабан для занятий",
+        "next_action": "Стальной язычковый барабан для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Глюкофон даёт заранее настроенное поле язычков, где первая музыка может воз",
+        "decision": "Первый глюкофон | Гармонический набор нот в резонирующем корпусе",
+        "next_action": "Гармонический набор нот в резонирующем корпусе"
+      }
+    },
+    "orf-instrumenty-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Orff-инструменты для дома: ксилофон, металлофон, цвет/подписи нот и регуляр",
+        "decision": "Инструменты Орфа домой в аренду | Набор для детских музыкальных занятий",
+        "next_action": "Набор для детских музыкальных занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Если ребёнок на уроке учится через удар, движение и простой набор высот, до",
+        "decision": "Orff-инструменты дома | Мелодические и ритмические голоса для первых уроков",
+        "next_action": "Мелодические и ритмические голоса для первых уроков"
+      }
+    },
+    "orf-instrumenty-dlya-gruppy-detey": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Orff-набор для группы: мелодические и ритмические роли, диапазоны, количест",
+        "decision": "Инструменты Орфа для группы детей напрокат | Комплект на целое занятие",
+        "next_action": "Комплект на целое занятие"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Для группового занятия важен не один хороший инструмент, а распределение ро",
+        "decision": "Orff для детской группы | Распределить партии между разными инструментами",
+        "next_action": "Распределить партии между разными инструментами"
+      }
+    },
+    "orf-instrumenty-dlya-pervogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Orff-инструменты для первого ансамбля: остинато, мелодия, ритм, распределен",
+        "decision": "Инструменты Орфа для первого ансамбля в аренду | Учебная музыкальная группа комплектом",
+        "next_action": "Учебная музыкальная группа комплектом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Orff-подход особенно силён там, где несколько простых действий складываются",
+        "decision": "Первый Orff-ансамбль | Простейшие мелодии и ритмы складываются в музыку",
+        "next_action": "Простейшие мелодии и ритмы складываются в музыку"
+      }
+    },
+    "perkussiya-dlya-pervogo-orkestrovogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Перкуссия для первого оркестрового опыта: малый, тарелки, треугольник, смен",
+        "decision": "Оркестровая перкуссия для первых занятий | Инструменты под учебную партитуру",
+        "next_action": "Инструменты под учебную партитуру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Оркестровый ударник часто отвечает не за один инструмент, а за последовател",
+        "decision": "Первые оркестровые ударные | Несколько разных инструментов в одной секции",
+        "next_action": "Несколько разных инструментов в одной секции"
+      }
+    },
+    "ruchnaya-perkussiya-dlya-vokalista": {
+      "n0": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Ручная перкуссия для вокалиста: shaker/cajon/frame drum, координация, микро",
+        "decision": "Ручная перкуссия для вокалиста напрокат | Простые ударные вместе с голосом",
+        "next_action": "Простые ударные вместе с голосом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz96-hand-orff-human-scenes.json",
+        "source_quote": "Когда вокалист сам добавляет перкуссию, инструмент должен требовать минимум",
+        "decision": "Перкуссия для певца | Ритмический аккомпанемент без полной установки",
+        "next_action": "Ритмический аккомпанемент без полной установки"
+      }
+    }
+  }
+}
