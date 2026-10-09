@@ -32,6 +32,8 @@ jobs:
         run: |
           python scripts/site_core.py --output _site
           touch _site/.nojekyll
+      - name: Publish complete model-authored question and response titles
+        run: python scripts/apply_authored_titles.py --site _site
       - name: Install invisible Yandex Metrika counter
         run: python scripts/install_metrika.py --site _site
       - name: Publish IndexNow verification key
@@ -42,6 +44,8 @@ jobs:
         run: python scripts/validate_site.py --site _site
       - name: Verify Yandex Metrika covers all live HTML documents
         run: python scripts/install_metrika.py --site _site --check
+      - name: Verify model-authored titles were published literally
+        run: python scripts/apply_authored_titles.py --site _site --check
       - name: Audit page roles and rental language
         run: python scripts/page_contract_audit.py --site _site --report _audit/page-contract.json
       - name: Save release audit
