@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-tihaya-nota-ne-nachinaetsya",
+      "n0": "Инструмент с отзывчивой тихой атакой в аренду | Для нюансов pianissimo",
+      "n1": "Начало тихой ноты | Отклик механики и прямой контакт со звуком"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-nota-nachinaetsya-s-shumom",
+      "n0": "Инструмент с чистой атакой напрокат | Меньше постороннего шума в начале звука",
+      "n1": "Шум при атаке | Разные источники в струне, клапане и механике"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-sosednie-klavishi-otvechayut-po-raznomu",
+      "n0": "Клавишный инструмент с ровным откликом | Аренда для фортепианной практики",
+      "n1": "Ровная клавиатура | Одинаковое усилие и возврат соседних клавиш"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-povtornaya-nota-ne-uspevaet",
+      "n0": "Пианино для быстрых повторных нот | Аренда с отзывчивой механикой",
+      "n1": "Повторная нота | Возврат молоточка и скорость исполнительского движения"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-klapan-zapazdyvaet",
+      "n0": "Духовой инструмент с исправной механикой клапанов | Замена в аренду",
+      "n1": "Ход клапанов духового инструмента | Точность открытия и закрытия в быстром пассаже"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-kulisa-idet-tugo",
+      "n0": "Тромбон с лёгкой кулисой в аренду | Рабочий инструмент без тугого хода",
+      "n1": "Тромбонная кулиса | Свободный ход между позициями"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-piston-zakusaet",
+      "n0": "Медный духовой с плавным ходом пистонов | Труба и другие модели в аренду",
+      "n1": "Пистоны медных духовых | Равномерный возврат и точность клапанной работы"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-pedal-rabotaet-kak-knopka",
+      "n0": "Пианино с управляемой педалью в аренду | Варианты с полуходом педали",
+      "n1": "Педаль не только включена или выключена | Промежуточные положения и резонанс"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-struny-slishkom-zhestkie",
+      "n0": "Струнный инструмент с более мягким ощущением струн | Аренда альтернативы",
+      "n1": "Сопротивление струны | Натяжение и высота над грифом в одной задаче"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-otskok-slishkom-vysokiy",
+      "n0": "Ударный инструмент с другим отскоком | Пэды и барабаны в аренду",
+      "n1": "Отскок барабанной палочки | Мембрана и поверхность задают возврат"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-otskok-slishkom-myagkiy",
+      "n0": "Ударный инструмент с более выраженным отскоком | Аренда для техники",
+      "n1": "Недостаточный отскок | Настройка мембраны и упругость игровой поверхности"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-meh-idet-ryvkami",
+      "n0": "Баян или аккордеон с ровным ходом меха | Исправный инструмент напрокат",
+      "n1": "Ход меха | Герметичность и сопротивление в длинной музыкальной фразе"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-stroy-uplyvaet",
+      "n0": "Инструмент со стабильной настройкой в аренду | Замена на занятия и концерт",
+      "n1": "Нестабильный строй | Колки, температура и настройка исполнительской системы"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-lady-ne-stroyat",
+      "n0": "Ладовый инструмент с точной интонацией | Гитары и другие варианты напрокат",
+      "n1": "Строй по ладам | Мензура и положение струн в разных регистрах"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-zvuk-nerovnyy-po-diapazonu",
+      "n0": "Инструмент с ровным звучанием регистров | Аренда под полную программу",
+      "n1": "Неровный отклик диапазона | Механика и резонанс в разных регистрах"
+    },
+    {
+      "source_file": "content/sections/zz126-technical-obstacles-response.json",
+      "slug": "instrument-esli-mehanika-shumit-v-zapisi",
+      "n0": "Инструмент для тихой студийной записи | Меньше посторонних звуков механики",
+      "n1": "Шум механики на записи | Клавиши, клапаны и педали в микрофонном тракте"
+    }
+  ]
+}
