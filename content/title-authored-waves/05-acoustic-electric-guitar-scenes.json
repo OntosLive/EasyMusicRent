@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-pervyh-akkordov",
+      "n0": "Акустическая гитара для первых аккордов | Аренда на начало занятий и первые песни",
+      "n1": "Первая акустическая гитара | Корпус и струны для понятного начала игры"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-domashnih-zanyatiy",
+      "n0": "Акустическая гитара для дома в аренду | На неделю, месяц и регулярные занятия",
+      "n1": "Домашняя акустическая гитара | Свой рабочий инструмент между уроками"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-igry-boem",
+      "n0": "Акустическая гитара для игры боем | Аренда под аккомпанемент и песню",
+      "n1": "Акустическая гитара для боя | Ритм и громкость без усилителя"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-fingerstayla",
+      "n0": "Гитара для фингерстайла в аренду | Под пальцевую технику и сольные аранжировки",
+      "n1": "Гитара для фингерстайла | Несколько голосов одновременно в одной фактуре"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-otkrytyh-stroev",
+      "n0": "Акустическая гитара под открытые строи | Аренда для репетиции и записи",
+      "n1": "Открытые гитарные строи | Аккорды и резонансы за пределами стандарта"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-drop-d",
+      "n0": "Акустическая гитара в Drop D | Инструмент напрокат для пониженной шестой струны",
+      "n1": "Drop D на акустической гитаре | Дополнительный низ без смены инструмента"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-s-kompaktnym-korpusom",
+      "n0": "Компактная акустическая гитара в аренду | Для подростка, дома и поездки",
+      "n1": "Компактная акустическая гитара | Меньший корпус с полноценными музыкальными задачами"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-s-bolshim-korpusom",
+      "n0": "Акустическая гитара с большим корпусом | Аренда для песни и сцены",
+      "n1": "Большой корпус акустической гитары | Мощный акустический голос без комбика"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-s-vyrezom",
+      "n0": "Акустическая гитара с вырезом в аренду | Доступ к верхним ладам для соло",
+      "n1": "Вырез акустического корпуса | Верхний регистр доступен без смены техники"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-perehoda-s-klassicheskoy",
+      "n0": "Акустическая гитара после классической | Аренда для освоения металлических струн",
+      "n1": "После классической гитары | Металлические струны и новый характер атаки"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-perehoda-s-elektrogitary",
+      "n0": "Акустическая гитара после электрогитары | Попробовать естественный корпусной звук",
+      "n1": "От электрогитары к акустике | Струна и дека становятся всей системой усиления"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-podrostku",
+      "n0": "Акустическая гитара подростку в аренду | Компактные и обычные размеры",
+      "n1": "Акустическая гитара подростку | Размер корпуса и мензура не равны возрастной метке"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-ansamblya",
+      "n0": "Акустическая гитара для ансамбля напрокат | Ритм, аккорды и акустический состав",
+      "n1": "Акустическая гитара в ансамбле | Гитарный голос рядом с вокалом и другими инструментами"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-avtora-pesen",
+      "n0": "Акустическая гитара автору песен в аренду | Для написания и исполнения своего материала",
+      "n1": "Акустическая гитара для песен | Сочинение, аккомпанемент и живой голос"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-zanyatiy-stoya",
+      "n0": "Акустическая гитара для игры стоя | Аренда с подходящим сценическим комплектом",
+      "n1": "Акустическая гитара стоя | Положение корпуса и ремня при выступлении"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-zanyatiy-sidya",
+      "n0": "Акустическая гитара для игры сидя | Аренда для уроков и домашней практики",
+      "n1": "Акустическая гитара сидя | Корпус, опора и положение обеих рук"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-pered-pokupkoy",
+      "n0": "Акустическая гитара в аренду перед покупкой | Сравнить несколько форматов в своей практике",
+      "n1": "Гитара до покупки | Разница корпуса и струн за пределами магазинной пробы"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "akusticheskaya-gitara-dlya-sravneniya-korpusov",
+      "n0": "Акустические гитары разных корпусов | Аренда для прямого сравнения",
+      "n1": "Корпуса акустических гитар | Компактный, средний и большой форматы звучат по-разному"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "elektroakusticheskaya-gitara-dlya-repetitsii-s-gruppoy",
+      "n0": "Электроакустическая гитара группе в аренду | Гитара с подключением в общую систему",
+      "n1": "Электроакустическая гитара в группе | Свой звук вместе с усиленным ансамблем"
+    },
+    {
+      "source_file": "content/sections/zz81-acoustic-guitar-human-scenes.json",
+      "slug": "elektroakusticheskaya-gitara-dlya-podklyucheniya-v-pult",
+      "n0": "Электроакустическая гитара с выходом в пульт | Прокат для сцены и записи",
+      "n1": "Электроакустическая гитара в пульт | Корпусный тембр и управляемый сигнал"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-pervogo-instrumenta",
+      "n0": "Первая электрогитара в аренду | С комбиком и всем необходимым для занятий",
+      "n1": "Первая электрогитара | Гриф, звукосниматели и усиление как один инструмент"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-domashnih-zanyatiy",
+      "n0": "Электрогитара для дома в аренду | Гитара с компактным усилением для практики",
+      "n1": "Домашняя электрогитара | Полноценные упражнения без концертной громкости"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-perehoda-s-akusticheskoy",
+      "n0": "Электрогитара после акустической | Аренда для первого опыта электроусиления",
+      "n1": "Электрогитара после акустики | Звукосниматель и комбик расширяют привычную партию"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-perehoda-s-klassicheskoy",
+      "n0": "Электрогитара после классической | Инструмент напрокат для нового репертуара",
+      "n1": "От классики к электрогитаре | Новая мензура и усилитель при знакомой музыке"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-chistogo-zvuka",
+      "n0": "Электрогитара с чистым звуком | Аренда для поп-музыки и студии",
+      "n1": "Чистая электрогитара | Нюансы атаки и динамики без перегруза"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-peregruza",
+      "n0": "Электрогитара для перегруза в аренду | Инструмент вместе с подходящим усилением",
+      "n1": "Электрогитара с перегрузом | Датчики и усилитель создают единый тембр"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-fanka",
+      "n0": "Электрогитара для фанка напрокат | Читаемый ритм и чистые аккордовые партии",
+      "n1": "Фанковая электрогитара | Короткая атака и точная работа правой руки"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-blyuza",
+      "n0": "Электрогитара для блюза в аренду | Для бендов, соло и живого комбика",
+      "n1": "Блюзовая электрогитара | Динамика пальцев и ламповое усиление"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-tyazhelogo-stroya",
+      "n0": "Электрогитара для низкого строя напрокат | Гитары под тяжёлый репертуар",
+      "n1": "Пониженный строй электрогитары | Мензура и натяжение под низкую партию"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-otkrytyh-stroev",
+      "n0": "Электрогитара для открытого строя | Аренда для слайда и особых партий",
+      "n1": "Открытый строй электрогитары | Новая карта аккордов при том же усилении"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-s-fiksirovannym-bridzhem",
+      "n0": "Электрогитара с фиксированным бриджем в аренду | Стабильный строй для сцены",
+      "n1": "Фиксированный бридж | Прямая настройка без плавающей системы тремоло"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-s-tremolo",
+      "n0": "Электрогитара с тремоло напрокат | Рычаг как часть сольной партии",
+      "n1": "Гитарное тремоло | Изменение высоты рычагом в исполнительском движении"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-s-hss-datchikami",
+      "n0": "Электрогитара HSS в аренду | Чистые партии и плотный бридж в одной гитаре",
+      "n1": "Конфигурация HSS | Два сингла и хамбакер дают несколько характеров"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-s-tremya-singlami",
+      "n0": "Электрогитара с тремя синглами напрокат | Классический набор звукоснимателей SSS",
+      "n1": "Три single-coil | Сочетания датчиков и прозрачная атака"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-s-dvumya-hambakerami",
+      "n0": "Электрогитара HH в аренду | Два хамбакера для насыщенного звука",
+      "n1": "Два хамбакера | Плотный сигнал и разные положения переключателя"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-slayda",
+      "n0": "Электрогитара для слайда напрокат | Под слайдовую технику и нужный строй",
+      "n1": "Слайд на электрогитаре | Непрерывная высота звука поверх ладов"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-zapisi-napryamuyu",
+      "n0": "Электрогитара для прямой записи | Аренда для интерфейса и домашней студии",
+      "n1": "Прямая запись электрогитары | DI-сигнал можно усилить и обработать позже"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-sessii",
+      "n0": "Электрогитара на студийную сессию | Конкретный тембр для конкретной записи",
+      "n1": "Сессионная электрогитара | Знакомый инструмент и быстрый выход в рабочую партию"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-dlya-zameny-na-gastrolyah",
+      "n0": "Электрогитара на замену в гастролях | Гитарный комплект в нужном городе",
+      "n1": "Гастрольная гитара на замену | Продолжение программы без перевозки своего инструмента"
+    },
+    {
+      "source_file": "content/sections/zz82-electric-guitar-human-scenes.json",
+      "slug": "elektrogitara-pered-pokupkoy",
+      "n0": "Электрогитара перед покупкой в аренду | Попробовать гитару и усилитель вместе",
+      "n1": "Электрогитара до покупки | Инструмент становится понятен в обычной игре"
+    }
+  ]
+}
