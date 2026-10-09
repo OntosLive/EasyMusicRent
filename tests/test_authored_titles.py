@@ -99,19 +99,22 @@ class AuthoredTitlesTests(unittest.TestCase):
         aliases = json.loads((ROOT / "content" / "aliases.json").read_text(encoding="utf-8"))
         self.assertFalse(set(pairs) & set(aliases))
 
-    def test_rejected_rental_titles_are_not_in_active_manifest(self):
+    def test_current_gpt6_corpus_is_canonical_and_source_reviewed(self):
         pairs = authored.validate_manifest(authored.DEFAULT_MANIFEST)
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
-        self.assertEqual(manifest["publication_status"], "paused_pending_functional_review")
-        self.assertEqual(pairs, {})
-        self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST)["modified"], 0)
-        self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST, check=True)["modified"], 0)
+        self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
+        self.assertTrue(manifest["requires_owner_review"])
+        self.assertEqual(len(pairs), 357)
+        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 714)
+        self.assertIn("Полный размер для концерта", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
+        self.assertIn("период подготовки", pairs["skripka-na-konkurs-v-arendu"]["n0"])
+        self.assertNotIn("Сверьте мензуру", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
 
     def test_only_gpt6_family_authors_public_title_copy(self):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["authoring_models"], ["GPT-6", "GPT-6.1"])
         self.assertEqual(manifest["python_role"], "literal_transfer_validation_coverage_only")
-        self.assertEqual(manifest["pairs"], {})
+        self.assertEqual(len(manifest["pairs"]), 357)
 
     def test_title_can_be_direct_without_vertical_separator(self):
         self.titles["skripka"]["n0"] = "Скрипка ребёнку в аренду на нужный срок"
