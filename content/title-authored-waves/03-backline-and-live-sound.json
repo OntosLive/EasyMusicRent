@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Прямое предложение расширяет заявленный прокат",
+  "records": [
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "usiliteli-backline",
+      "n0": "Усилители и бэклайн в аренду | Гитара, бас, клавиши и готовые сценические комплекты",
+      "n1": "Усилители и бэклайн | Усилительная цепь от инструмента до слышимого сценического звука"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "gitarnye-usiliteli",
+      "n0": "Гитарные усилители в аренду | Комбики и головы для репетиций и райдеров",
+      "n1": "Гитарные усилители | Ламповый и транзисторный характер для разных партий"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "basovye-usiliteli",
+      "n0": "Басовые усилители напрокат | От компактного комбо до концертного стека",
+      "n1": "Басовое усиление | Голова, кабинет и DI для сцены и записи"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "gitarnye-kabinety",
+      "n0": "Гитарные кабинеты в аренду | 1×12, 2×12 и 4×12 под выбранную голову",
+      "n1": "Гитарный кабинет | Динамики и устройство корпуса формируют ответ усилителя"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "basovye-kabinety",
+      "n0": "Басовые кабинеты напрокат | Компактные и концертные варианты бэклайна",
+      "n1": "Басовые кабинеты | От одиночного динамика до большой концертной стенки"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "akusticheskie-usiliteli",
+      "n0": "Усилители для акустических инструментов | Комбо для гитары и живого ансамбля",
+      "n1": "Акустическое усиление | Сохранить собственный тембр инструмента в зале"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "rotornye-akusticheskie-sistemy",
+      "n0": "Rotary и Leslie в аренду | Вращающееся акустическое усиление для органа",
+      "n1": "Rotary-системы | Механическое движение динамиков меняет тембр во времени"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "fender-65-twin-reverb-v-arendu",
+      "n0": "Fender ’65 Twin Reverb в аренду | Классический чистый гитарный звук",
+      "n1": "Fender ’65 Twin Reverb | Два динамика и большой запас чистого тембра"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "fender-65-deluxe-reverb-v-arendu",
+      "n0": "Fender ’65 Deluxe Reverb напрокат | Концертный комбик классического Fender",
+      "n1": "Fender ’65 Deluxe Reverb | Ламповая атака и пружинная реверберация"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "vox-ac30c2-v-arendu",
+      "n0": "Vox AC30C2 в аренду | Британский гитарный комбик для сцены и записи",
+      "n1": "Vox AC30C2 | Два динамика и собственная манера усиления"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "marshall-jcm800-2203-v-arendu",
+      "n0": "Marshall JCM800 2203 в аренду | Классическая гитарная голова по райдеру",
+      "n1": "Marshall JCM800 2203 | Одноканальная голова и характер перегруза"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "marshall-1960a-v-arendu",
+      "n0": "Marshall 1960A 4×12 напрокат | Наклонный гитарный кабинет для стека",
+      "n1": "Marshall 1960A | Четыре динамика в узнаваемом концертном кабинете"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "roland-jc120-v-arendu",
+      "n0": "Roland JC-120 в аренду | Чистый стереозвук и Jazz Chorus для сцены",
+      "n1": "Roland JC-120 | Транзисторный clean и объёмный эффект chorus"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "evh-5150iii-100s-v-arendu",
+      "n0": "EVH 5150III 100S напрокат | High-gain усилитель для точного гитарного райдера",
+      "n1": "EVH 5150III 100S | Концертная голова для насыщенных гитарных партий"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "orange-rockerverb-50-mkiii-v-arendu",
+      "n0": "Orange Rockerverb 50 MKIII в аренду | Чистый канал и плотный перегруз",
+      "n1": "Orange Rockerverb 50 MKIII | Два независимых характера лампового усиления"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "mesa-dual-rectifier-v-arendu",
+      "n0": "Mesa Boogie Dual Rectifier напрокат | Легендарная гитарная голова для сцены",
+      "n1": "Mesa Dual Rectifier | Разные поколения с собственными схемами и переключениями"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "ampeg-svt-cl-v-arendu",
+      "n0": "Ampeg SVT-CL в аренду | Концертная ламповая басовая голова",
+      "n1": "Ampeg SVT-CL | Большой запас мощности для классического басового стека"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "ampeg-svt-810e-v-arendu",
+      "n0": "Ampeg SVT-810E напрокат | Полноразмерный басовый кабинет 8×10",
+      "n1": "Ampeg SVT-810E | Восемь динамиков для большого сценического баса"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "aguilar-tone-hammer-700-v-arendu",
+      "n0": "Aguilar Tone Hammer 700 в аренду | Компактная басовая голова для гастролей",
+      "n1": "Aguilar Tone Hammer 700 | Лёгкий усилитель с характерным басовым тембром"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "gallien-krueger-800rb-v-arendu",
+      "n0": "Gallien-Krueger 800RB напрокат | Классический басовый усилитель",
+      "n1": "Gallien-Krueger 800RB | Узнаваемая транзисторная атака баса"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "markbass-little-mark-iii-v-arendu",
+      "n0": "Markbass Little Mark III в аренду | Лёгкая голова для концерта и репетиции",
+      "n1": "Markbass Little Mark III | Компактное усиление и ясное управление басом"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "fishman-loudbox-artist-v-arendu",
+      "n0": "Fishman Loudbox Artist напрокат | Акустический комбик для гитары и вокала",
+      "n1": "Fishman Loudbox Artist | Два независимых входа для живого акустического выступления"
+    },
+    {
+      "source_file": "content/sections/zz29-amplifiers-backline.json",
+      "slug": "leslie-122-v-arendu",
+      "n0": "Leslie 122 в аренду | Вращающийся органный кабинет для концертного звука",
+      "n1": "Leslie 122 | Характерный вращающийся звук органа Hammond"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "scenicheskiy-zvuk",
+      "n0": "Сценический звук напрокат | От вокального микрофона до системы всего концерта",
+      "n1": "Сценический звук | Пульт, акустика, микрофоны и мониторы в едином тракте"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "vokalnye-mikrofony",
+      "n0": "Вокальные микрофоны в аренду | Проводные и радиосистемы для любого состава",
+      "n1": "Вокальный микрофон | Направленность и работа с голосом в концертной системе"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "radiomikrofony-dlya-vokala",
+      "n0": "Радиомикрофоны напрокат | Для солиста, дуэта и нескольких вокалистов",
+      "n1": "Вокальная радиосистема | Капсюль, передатчик и приёмник в одном канале"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "mikshery-dlya-zhivogo-zvuka",
+      "n0": "Концертные микшеры напрокат | Аналоговые и цифровые пульты под состав",
+      "n1": "Микшер для живого звука | Каналы источников и отдельные посылы музыкантам"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "aktivnye-akusticheskie-sistemy",
+      "n0": "Активные колонки в аренду | От вокального выступления до звука зала",
+      "n1": "Активная акустика | Усилитель внутри кабинета и согласованные выходы"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "scenicheskie-monitory",
+      "n0": "Сценические мониторы напрокат | Напольные и персональные системы для музыкантов",
+      "n1": "Сценический монитор | Независимый баланс помогает исполнителю слышать свою партию"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "personalnyy-ushnoy-monitoring",
+      "n0": "Ушной мониторинг в аренду | Персональные комплекты и радиоканалы для сцены",
+      "n1": "Ушной мониторинг | Индивидуальная смесь прямо в наушниках исполнителя"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "shure-sm58-v-arendu",
+      "n0": "Shure SM58 напрокат | Проверенный вокальный стандарт для концерта и репетиции",
+      "n1": "Shure SM58 | Динамический капсюль и сценическая работа с расстоянием"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "shure-beta58a-v-arendu",
+      "n0": "Shure BETA 58A в аренду | Вокальный микрофон с узкой направленностью",
+      "n1": "Shure BETA 58A | Суперкардиоидная диаграмма для живого вокала"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "sennheiser-e835s-v-arendu",
+      "n0": "Sennheiser e 835-S напрокат | Вокальный микрофон для сцены и ведущего",
+      "n1": "Sennheiser e 835-S | Динамический капсюль и собственный выключатель"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "shure-blx24-sm58-v-arendu",
+      "n0": "Shure BLX24/SM58 в аренду | Беспроводной вокальный микрофон комплектом",
+      "n1": "Shure BLX24/SM58 | Ручной передатчик с капсюлем SM58 и приёмник"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "yamaha-mg10xu-v-arendu",
+      "n0": "Yamaha MG10XU напрокат | Компактный пульт для вокала и небольшой группы",
+      "n1": "Yamaha MG10XU | Микрофонные входы, эффекты и стереомикс в одной панели"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "allen-heath-zed10fx-v-arendu",
+      "n0": "Allen & Heath ZED-10FX в аренду | Пульт для вокала и инструментов",
+      "n1": "Allen & Heath ZED-10FX | Каналы и эффекты компактного концертного микшера"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "behringer-xr18-v-arendu",
+      "n0": "Behringer XR18 напрокат | Цифровой пульт для репетиции и живой сцены",
+      "n1": "Behringer XR18 | Сценический блок входов с дистанционным управлением"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "qsc-k122-v-arendu",
+      "n0": "QSC K12.2 в аренду | Активная колонка для зала или мониторинга",
+      "n1": "QSC K12.2 | Акустический кабинет с собственным усилением и DSP"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "sennheiser-ew-iem-g4-v-arendu",
+      "n0": "Sennheiser ew IEM G4 в аренду | Персональный радиомониторинг на концерт",
+      "n1": "Sennheiser ew IEM G4 | Передать индивидуальную мониторную смесь исполнителю"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "komplekt-dlya-obucheniya-vokalu-s-mikrofonom",
+      "n0": "Комплект для занятий вокалом напрокат | Микрофон, усиление и рабочий мониторинг",
+      "n1": "Вокальный учебный комплект | Голос, микрофон и акустика как единая практика"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "zvuk-dlya-vokalista-s-fonogrammoy",
+      "n0": "Звук вокалисту с фонограммой в аренду | Микрофон и система воспроизведения",
+      "n1": "Вокал с фонограммой | Голос и минус идут в микшер отдельными источниками"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "mikrofony-dlya-vokalnogo-dueta",
+      "n0": "Микрофоны для вокального дуэта | Два вокальных канала с независимым уровнем",
+      "n1": "Вокальный дуэт | Два микрофона позволяют работать с каждым голосом отдельно"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "golovnoy-mikrofon-dlya-poyuschego-instrumentalista",
+      "n0": "Головной микрофон напрокат | Свободные руки для поющего инструменталиста",
+      "n1": "Головной микрофон | Голос остаётся на рабочем расстоянии от капсюля"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "radiosistemy-dlya-neskolkih-vokalistov",
+      "n0": "Радиосистемы для нескольких вокалистов | Набор каналов под сценический состав",
+      "n1": "Несколько радиомикрофонов | Совместная работа частот и приёмников"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "mikshery-dlya-zapisi-repetitsii",
+      "n0": "Микшер для записи репетиции напрокат | Общий звук или многоканальная запись",
+      "n1": "Запись репетиции | Отдельные входы сохраняют возможность последующей работы"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "zvuk-dlya-uchebnogo-vokalnogo-kontserta",
+      "n0": "Звук для учебного вокального концерта | Микрофоны, пульт и акустика комплектом",
+      "n1": "Учебный вокальный концерт | Быстрая смена участников с сохранением уровней"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "pervaya-repetitsiya-s-ushnym-monitoringom",
+      "n0": "Ушной мониторинг для репетиции | Комплект для знакомства с IEM до концерта",
+      "n1": "Первая репетиция в IEM | Личный баланс вместо общего напольного монитора"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "shure-qlxd24-beta58a-v-arendu",
+      "n0": "Shure QLXD24/BETA 58A в аренду | Цифровая радиосистема для вокала",
+      "n1": "Shure QLXD24/BETA 58A | Капсюль BETA 58A с цифровой передачей"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "yamaha-cl5-v-arendu",
+      "n0": "Yamaha CL5 напрокат | Цифровая консоль для концертного райдера",
+      "n1": "Yamaha CL5 | Концертная консоль и расширяемая система сценических входов"
+    },
+    {
+      "source_file": "content/sections/zzzz70-vocal-stage-sound.json",
+      "slug": "midas-m32-v-arendu",
+      "n0": "Midas M32 в аренду | Концертный пульт с физическими фейдерами",
+      "n1": "Midas M32 | Цифровой микшер для сложного живого состава"
+    }
+  ]
+}
