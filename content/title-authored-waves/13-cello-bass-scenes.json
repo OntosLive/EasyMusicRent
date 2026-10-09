@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "slug": "violonchel-posle-pereryva",
+      "n0": "Виолончель после перерыва напрокат | Вернуться к репетициям и занятиям",
+      "n1": "Возвращение к виолончели | Знакомый струнный голос в новой практике",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "violonchel-pered-pokupkoy",
+      "n0": "Виолончель перед покупкой в аренду | Проба инструментов разных размеров и уровней",
+      "n1": "Виолончель до покупки | Посадка, корпус и звук в обычных занятиях",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "violonchel-na-proslushivanie",
+      "n0": "Виолончель на прослушивание напрокат | На подготовку и выступление",
+      "n1": "Виолончель для прослушивания | Сольная программа на полноценном инструменте",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "violonchel-dlya-smeny-razmera",
+      "n0": "Виолончель следующего размера в аренду | Продолжить учёбу без покупки",
+      "n1": "Новый размер виолончели | Учебная линия от детских до полноразмерных инструментов",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "violonchel-dlya-kamernogo-ansamblya",
+      "n0": "Виолончель для камерного ансамбля | Аренда для дуэта, трио и квартета",
+      "n1": "Виолончель в камерной музыке | Бас, мелодия и диалог с партнёрами",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "violonchel-dlya-letney-praktiki",
+      "n0": "Виолончель на лето в аренду | Для каникул, мастер-классов и музыкальных лагерей",
+      "n1": "Летняя практика виолончелиста | Занятия в другом городе без перевозки своего корпуса",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "violonchel-dlya-vtorogo-mesta-zanyatiy",
+      "n0": "Виолончель для второго места занятий | Дополнительный инструмент напрокат",
+      "n1": "Вторая виолончель для практики | Занятия в двух местах без постоянной перевозки",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "violonchel-dlya-master-klassa",
+      "n0": "Виолончель на мастер-класс в аренду | Для урока, подготовки и итогового концерта",
+      "n1": "Виолончель для мастер-класса | Учебная и исполнительская работа на одной программе",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-perehoda-s-bas-gitary",
+      "n0": "Контрабас после бас-гитары в аренду | Попробовать акустический басовый инструмент",
+      "n1": "От бас-гитары к контрабасу | Басовая функция в другой мензуре и посадке",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-perehoda-s-violoncheli",
+      "n0": "Контрабас после виолончели в аренду | Перейти в низкую струнную партию",
+      "n1": "От виолончели к контрабасу | Знакомый смычок и новый масштаб инструмента",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-sravneniya-menzur",
+      "n0": "Контрабасы разных мензур напрокат | Сравнить инструменты в одной музыкальной задаче",
+      "n1": "Мензуры контрабаса | Разные расстояния на грифе при общей оркестровой роли",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-kamernogo-ansamblya",
+      "n0": "Контрабас для камерного ансамбля в аренду | Низкий голос для камерной программы",
+      "n1": "Контрабас в камерной музыке | Басовая опора и самостоятельная струнная партия",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-letney-praktiki",
+      "n0": "Контрабас на лето напрокат | Для музыкального лагеря, занятий и гастролей",
+      "n1": "Летний контрабас | Регулярная игра вне постоянного места занятий",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-vtorogo-mesta-zanyatiy",
+      "n0": "Контрабас для второго места практики | Ещё один инструмент без перевозок",
+      "n1": "Второй контрабас для занятий | Постоянная практика в двух разных местах",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-raboty-smychkom",
+      "n0": "Контрабас для работы смычком в аренду | Акустический инструмент с арковой техникой",
+      "n1": "Контрабас arco | Смычковая техника и протяжённая струнная фраза",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    },
+    {
+      "slug": "kontrabas-dlya-smeny-razmera",
+      "n0": "Контрабас следующего размера напрокат | Продолжение учебного этапа",
+      "n1": "Новый размер контрабаса | Развитие ученика от малых корпусов к концертным",
+      "source_file": "content/sections/zz98-cello-bass-human-scenes.json"
+    }
+  ]
+}
