@@ -49,7 +49,9 @@ def validate_reviews(pairs: dict, reviews_path: Path, root: Path) -> dict:
             if not isinstance(review, dict):
                 raise ValueError(f"{slug}/{role}: review must be a record")
             for field in ("source_path", "source_quote", "decision", "next_action"):
-                if not isinstance(review.get(field), str) or len(review[field].strip()) < 12:
+                if not isinstance(review.get(field), str) or not review[field].strip():
+                    raise ValueError(f"{slug}/{role}: missing meaningful {field}")
+                if field != "source_path" and len(review[field].strip()) < 12:
                     raise ValueError(f"{slug}/{role}: missing meaningful {field}")
             source = (root / review["source_path"]).resolve()
             if not source.is_relative_to(root.resolve()) or not source.is_file():
