@@ -104,17 +104,20 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
         self.assertTrue(manifest["requires_owner_review"])
-        self.assertEqual(len(pairs), 661)
-        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 1322)
+        self.assertEqual(len(pairs), 853)
+        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 1706)
         self.assertIn("Полный размер для концерта", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
         self.assertIn("период подготовки", pairs["skripka-na-konkurs-v-arendu"]["n0"])
         self.assertNotIn("Сверьте мензуру", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
+        self.assertIn("полного состава", pairs["instrumenty-dlya-studencheskogo-kamernogo-orkestra"]["n0"])
+        self.assertIn("Рояль", pairs["instrumenty-dlya-fortepiannogo-kvinteta"]["n0"])
+        self.assertIn("тихой практики", pairs["instrument-esli-slishkom-gromko-dlya-doma"]["n1"])
 
     def test_only_gpt6_family_authors_public_title_copy(self):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["authoring_models"], ["GPT-6", "GPT-6.1"])
         self.assertEqual(manifest["python_role"], "literal_transfer_validation_coverage_only")
-        self.assertEqual(len(manifest["pairs"]), 661)
+        self.assertEqual(len(manifest["pairs"]), 853)
 
     def test_title_can_be_direct_without_vertical_separator(self):
         self.titles["skripka"]["n0"] = "Скрипка ребёнку в аренду на нужный срок"
