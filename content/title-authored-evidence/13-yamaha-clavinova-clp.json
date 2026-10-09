@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "reviews": {
+    "yamaha-clp635-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp635-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-635 · CLAVINOVA · ПЕРЕД ПОКУПКОЙ",
+        "decision": "Yamaha CLP-635 в аренду | Первая Clavinova для полноценной домашней практики",
+        "next_action": "Первая Clavinova для полноценной домашней практики"
+      },
+      "n1": {
+        "source_path": "yamaha-clp635-v-arendu/index.html",
+        "source_quote": "CLP-635 может быть особенно интересен человеку, который хочет понять сам кл",
+        "decision": "Yamaha CLP-635 | Корпусное цифровое пианино вместо переносной клавиатуры",
+        "next_action": "Корпусное цифровое пианино вместо переносной клавиатуры"
+      }
+    },
+    "yamaha-clp645-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp645-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-645 · ДОМАШНЯЯ ПРАКТИКА · АРЕНДА",
+        "decision": "Yamaha CLP-645 напрокат | Для ученика, которому нужна более серьёзная клавиатура",
+        "next_action": "Для ученика, которому нужна более серьёзная клавиатура"
+      },
+      "n1": {
+        "source_path": "yamaha-clp645-v-arendu/index.html",
+        "source_quote": "Продвинутому ученику или взрослому музыканту младшая клавиатура может уже м",
+        "decision": "Yamaha CLP-645 | Домашняя Clavinova следующего исполнительского уровня",
+        "next_action": "Домашняя Clavinova следующего исполнительского уровня"
+      }
+    },
+    "yamaha-clp675-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp675-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-675 · ВЫСОКИЙ КЛАСС · ОБУЧЕНИЕ",
+        "decision": "Yamaha CLP-675 в аренду | Продвинутое пианино для длительной учебной программы",
+        "next_action": "Продвинутое пианино для длительной учебной программы"
+      },
+      "n1": {
+        "source_path": "yamaha-clp675-v-arendu/index.html",
+        "source_quote": "Если ребёнок ещё учится, это не делает хорошую клавиатуру лишней. Наоборот,",
+        "decision": "Yamaha CLP-675 | Корпусная клавиатура для развития фортепианной техники",
+        "next_action": "Корпусная клавиатура для развития фортепианной техники"
+      }
+    },
+    "yamaha-clp685-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp685-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-685 · ФЛАГМАН ПРОШЛОГО ПОКОЛЕНИЯ · АРЕНДА",
+        "decision": "Yamaha CLP-685 напрокат | Домашний инструмент для сильного пианиста",
+        "next_action": "Домашний инструмент для сильного пианиста"
+      },
+      "n1": {
+        "source_path": "yamaha-clp685-v-arendu/index.html",
+        "source_quote": "Сильному ученику или профессионалу дома нужен инструмент, на котором не при",
+        "decision": "Yamaha CLP-685 | Высокий класс Clavinova для работы над концертным репертуаром",
+        "next_action": "Высокий класс Clavinova для работы над концертным репертуаром"
+      }
+    },
+    "yamaha-clp735-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp735-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-735 · ПЕРЕХОД В CLAVINOVA · АРЕНДА",
+        "decision": "Yamaha CLP-735 в аренду | Переход от базового цифрового пианино к Clavinova",
+        "next_action": "Переход от базового цифрового пианино к Clavinova"
+      },
+      "n1": {
+        "source_path": "yamaha-clp735-v-arendu/index.html",
+        "source_quote": "Иногда ученик уже перерос простое цифровое пианино, но семья ещё не понимае",
+        "decision": "Yamaha CLP-735 | Домашний фортепианный корпус для последовательного обучения",
+        "next_action": "Домашний фортепианный корпус для последовательного обучения"
+      }
+    },
+    "yamaha-clp745-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp745-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-745 · ОБУЧЕНИЕ · ВЫСОКИЙ КЛАСС",
+        "decision": "Yamaha CLP-745 напрокат | Серьёзная практика без покупки дорогого пианино",
+        "next_action": "Серьёзная практика без покупки дорогого пианино"
+      },
+      "n1": {
+        "source_path": "yamaha-clp745-v-arendu/index.html",
+        "source_quote": "Парадокс обучения в том, что хороший инструмент особенно полезен именно тог",
+        "decision": "Yamaha CLP-745 | Клавиатура и акустическая система корпусной Clavinova",
+        "next_action": "Клавиатура и акустическая система корпусной Clavinova"
+      }
+    },
+    "yamaha-clp775-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp775-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-775 · ПРОДВИНУТАЯ ТЕХНИКА · АРЕНДА",
+        "decision": "Yamaha CLP-775 в аренду | Для консерваторской программы и сильного ученика",
+        "next_action": "Для консерваторской программы и сильного ученика"
+      },
+      "n1": {
+        "source_path": "yamaha-clp775-v-arendu/index.html",
+        "source_quote": "Для консерваторского студента или сильного ученика разница между клавиатура",
+        "decision": "Yamaha CLP-775 | Домашняя практика на продвинутой фортепианной механике",
+        "next_action": "Домашняя практика на продвинутой фортепианной механике"
+      }
+    },
+    "yamaha-clp785-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp785-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-785 · ПРОФЕССИОНАЛЬНАЯ ПРАКТИКА · АРЕНДА",
+        "decision": "Yamaha CLP-785 напрокат | Высокий класс домашнего цифрового фортепиано",
+        "next_action": "Высокий класс домашнего цифрового фортепиано"
+      },
+      "n1": {
+        "source_path": "yamaha-clp785-v-arendu/index.html",
+        "source_quote": "Профессионалу цифровое пианино часто нужно не вместо рояля вообще, а чтобы ",
+        "decision": "Yamaha CLP-785 | Цифровой инструмент для профессиональной программы дома",
+        "next_action": "Цифровой инструмент для профессиональной программы дома"
+      }
+    },
+    "yamaha-clp825-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp825-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-825 · CLAVINOVA · АРЕНДА",
+        "decision": "Yamaha CLP-825 в аренду | Современная Clavinova для начала серьёзных занятий",
+        "next_action": "Современная Clavinova для начала серьёзных занятий"
+      },
+      "n1": {
+        "source_path": "yamaha-clp825-v-arendu/index.html",
+        "source_quote": "Новая модель особенно легко провоцирует покупку по характеристикам и обзора",
+        "decision": "Yamaha CLP-825 | Корпусное цифровое пианино нового поколения",
+        "next_action": "Корпусное цифровое пианино нового поколения"
+      }
+    },
+    "yamaha-clp835-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp835-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-835 · РОСТ УЧЕНИКА · АРЕНДА",
+        "decision": "Yamaha CLP-835 напрокат | На учебный период и домашнюю фортепианную работу",
+        "next_action": "На учебный период и домашнюю фортепианную работу"
+      },
+      "n1": {
+        "source_path": "yamaha-clp835-v-arendu/index.html",
+        "source_quote": "Если ребёнок или взрослый ученик занимается всерьёз, домашнее пианино рано ",
+        "decision": "Yamaha CLP-835 | Фортепианная практика за корпусной клавиатурой",
+        "next_action": "Фортепианная практика за корпусной клавиатурой"
+      }
+    },
+    "yamaha-clp845-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp845-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-845 · ВЫСОКИЙ КЛАСС · ВРЕМЕННЫЙ ДОСТУП",
+        "decision": "Yamaha CLP-845 в аренду | Продвинутая домашняя Clavinova для серьёзной программы",
+        "next_action": "Продвинутая домашняя Clavinova для серьёзной программы"
+      },
+      "n1": {
+        "source_path": "yamaha-clp845-v-arendu/index.html",
+        "source_quote": "Иногда серьёзная программа, конкурс или несколько лет активного обучения тр",
+        "decision": "Yamaha CLP-845 | Более высокий класс клавиатуры в домашнем формате",
+        "next_action": "Более высокий класс клавиатуры в домашнем формате"
+      }
+    },
+    "yamaha-clp875-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp875-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-875 · ВЫСОКИЙ КЛАСС · АРЕНДА",
+        "decision": "Yamaha CLP-875 напрокат | Премиальная Clavinova для концертной подготовки",
+        "next_action": "Премиальная Clavinova для концертной подготовки"
+      },
+      "n1": {
+        "source_path": "yamaha-clp875-v-arendu/index.html",
+        "source_quote": "Способность получить пользу от хорошего инструмента появляется раньше, чем ",
+        "decision": "Yamaha CLP-875 | Домашняя клавиатура для сложного фортепианного репертуара",
+        "next_action": "Домашняя клавиатура для сложного фортепианного репертуара"
+      }
+    },
+    "yamaha-clp885-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clp885-v-arendu/index.html",
+        "source_quote": "YAMAHA CLP-885 · ФЛАГМАН · АРЕНДА",
+        "decision": "Yamaha CLP-885 в аренду | Флагманская Clavinova без обязательной покупки",
+        "next_action": "Флагманская Clavinova без обязательной покупки"
+      },
+      "n1": {
+        "source_path": "yamaha-clp885-v-arendu/index.html",
+        "source_quote": "Флагманский инструмент не обязательно покупать, чтобы получить от него поль",
+        "decision": "Yamaha CLP-885 | Максимальный класс серии для домашней исполнительской практики",
+        "next_action": "Максимальный класс серии для домашней исполнительской практики"
+      }
+    },
+    "yamaha-clavinova-clp-v-arendu": {
+      "n0": {
+        "source_path": "yamaha-clavinova-clp-v-arendu/index.html",
+        "source_quote": "YAMAHA CLAVINOVA CLP · ОСНОВНОЙ ИНСТРУМЕНТ · АРЕНДА",
+        "decision": "Yamaha Clavinova CLP напрокат | От первой корпусной модели до флагмана",
+        "next_action": "От первой корпусной модели до флагмана"
+      },
+      "n1": {
+        "source_path": "yamaha-clavinova-clp-v-arendu/index.html",
+        "source_quote": "Clavinova становится интересна в тот момент, когда цифровое пианино переста",
+        "decision": "Семейство Clavinova CLP | Несколько классов цифрового фортепиано для дома",
+        "next_action": "Несколько классов цифрового фортепиано для дома"
+      }
+    }
+  }
+}
