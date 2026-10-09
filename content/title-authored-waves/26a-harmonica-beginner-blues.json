@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "gubnaya-garmonika-vzroslomu-nachinayuschemu",
+      "n0": "Губная гармоника взрослому новичку напрокат | Первые песни и уроки",
+      "n1": "Первая губная гармоника | Дыхательный инструмент с разными системами"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "gubnaya-garmonika-dlya-domashnih-zanyatiy",
+      "n0": "Губная гармоника для домашних занятий | Учебный инструмент нужной тональности",
+      "n1": "Гармоника дома | Мелодия и дыхательная техника без большой аппаратуры"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "gubnaya-garmonika-posle-pereryva",
+      "n0": "Губная гармоника после перерыва в аренду | Вернуться к музыке и репертуару",
+      "n1": "Возвращение к гармонике | Знакомые мелодии на диатонической или хроматической системе"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "gubnaya-garmonika-pered-pokupkoy",
+      "n0": "Губная гармоника перед покупкой | Подбор систем и тональностей под программу",
+      "n1": "Гармоника до покупки | Диатоника и хроматика как разные инструменты"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "diatonicheskaya-garmonika-dlya-pervogo-opyta",
+      "n0": "Диатоническая гармоника на первый опыт | Аренда для блюза и песен",
+      "n1": "Первая диатоника | Десять отверстий и работа дыханием"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "diatonicheskaya-garmonika-dlya-bendinga",
+      "n0": "Диатоническая гармоника для бендов | Инструмент под blues bends",
+      "n1": "Бенды на гармонике | Управляемое понижение высоты потоком воздуха"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "diatonicheskaya-garmonika-dlya-blyuza",
+      "n0": "Блюзовая гармоника напрокат | Диатонические тональности под песню",
+      "n1": "Гармоника для блюза | Тональность и позиция формируют привычный звук"
+    },
+    {
+      "source_file": "content/sections/zz107-harmonica-human-scenes.json",
+      "slug": "diatonicheskaya-garmonika-dlya-vokalista",
+      "n0": "Диатоническая гармоника вокалисту | Для живого выступления с голосом",
+      "n1": "Гармоника рядом с вокалом | Короткая инструментальная реплика между фразами"
+    }
+  ]
+}
