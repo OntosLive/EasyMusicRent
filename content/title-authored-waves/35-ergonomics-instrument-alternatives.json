@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-tyazhelo-prizhimat",
+      "n0": "Инструмент с более лёгким прижимом в аренду | Другой отклик без смены музыкальной задачи",
+      "n1": "Прижим струн без лишнего усилия | Натяжение, высота и рабочая геометрия"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-bystro-ustaet-levaya-ruka",
+      "n0": "Инструмент для меньшей нагрузки на левую руку | Компактные и лёгкие варианты",
+      "n1": "Левая рука при игре | Мензура, расстояния и опора инструмента"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-bystro-ustaet-pravaya-ruka",
+      "n0": "Более удобный инструмент для правой руки | Аренда для длительной практики",
+      "n1": "Правая рука музыканта | Смычок, клавиши, медиатор и рабочее сопротивление"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-podnimaetsya-plecho",
+      "n0": "Инструмент с удобной посадкой в аренду | Поддержка корпуса без поднятого плеча",
+      "n1": "Плечо и инструмент | Баланс и высота меняют исполнительскую посадку"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov",
+      "n0": "Инструмент с меньшими расстояниями | Аренда компактного корпуса и мензуры",
+      "n1": "Досягаемость клавиш и ладов | Уменьшенная растяжка при полной учебной задаче"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-korpus-slishkom-bolshoy",
+      "n0": "Инструмент меньшего корпуса в аренду | Сохранить музыкальную функцию в компактном размере",
+      "n1": "Размер корпуса инструмента | Исполнительская задача и физический масштаб различаются"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-instrument-slishkom-tyazhelyy",
+      "n0": "Более лёгкий музыкальный инструмент напрокат | Варианты для ежедневной игры",
+      "n1": "Вес инструмента | Общая масса и распределение нагрузки на тело"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-neudobno-igrat-sidya",
+      "n0": "Инструмент для удобной игры сидя | Аренда с опорой и рабочим комплектом",
+      "n1": "Посадка музыканта | Инструмент, стул и рабочая высота как единое место"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-neudobno-igrat-stoya",
+      "n0": "Инструмент для игры стоя в аренду | Лёгкие корпуса, ремни и стойки",
+      "n1": "Игра стоя | Баланс, крепления и свобода движения обеих рук"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-ne-hvataet-dyhaniya",
+      "n0": "Духовой инструмент с более лёгким откликом | Аренда учебных и компактных вариантов",
+      "n1": "Духовой отклик | Сопротивление, мундштук и длина исполнительской фразы"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-guby-bystro-ustayut",
+      "n0": "Духовой инструмент с другим сопротивлением | Варианты для учебной игры",
+      "n1": "Амбушюр и духовой инструмент | Мундштук, воздух и характер сопротивления"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-kist-zazhimaetsya",
+      "n0": "Инструмент с более свободным хватом напрокат | Другие размеры и опоры",
+      "n1": "Кисть при игре | Баланс и расположение опор в исполнительском движении"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-bolshoy-palets-ne-nahodit-oporu",
+      "n0": "Инструмент с другой опорой большого пальца | Аренда для удобной игры",
+      "n1": "Опора большого пальца | Расположение крепления и равновесие инструмента"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-pedal-daleko",
+      "n0": "Инструмент с удобным доступом к педалям | Аренда с подходящим рабочим местом",
+      "n1": "Педали и посадка | Высота инструмента и положение ног при игре"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-shpil-ne-derzhit-korpus",
+      "n0": "Виолончель или контрабас с устойчивым шпилем | Инструмент напрокат",
+      "n1": "Шпиль виолончели и контрабаса | Высота, наконечник и опора на полу"
+    },
+    {
+      "source_file": "content/sections/zz125-technical-obstacles-body.json",
+      "slug": "instrument-esli-remni-ne-derzhat-posadku",
+      "n0": "Инструмент с подходящими ремнями в аренду | Удобное удержание на занятиях",
+      "n1": "Ремни инструмента | Настройка длины и устойчивости корпуса"
+    }
+  ]
+}
