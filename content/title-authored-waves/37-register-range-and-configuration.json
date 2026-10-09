@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-ne-hvataet-nizhnego-registra",
+      "n0": "Инструмент с расширенным нижним регистром | Пятиструнные, басовые и другие варианты",
+      "n1": "Нижний регистр инструмента | Дополнительные струны, клавиши или смена голоса"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-ne-hvataet-verhnego-registra",
+      "n0": "Инструмент с более высоким диапазоном в аренду | Под нужные верхние ноты",
+      "n1": "Верхний регистр | Реальные пределы диапазона определяют доступные партии"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-ne-hvataet-diapazona",
+      "n0": "Инструмент большего диапазона напрокат | От учебного до концертного формата",
+      "n1": "Расширение диапазона | Дополнительные клавиши, струны и регистры"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhen-drugoy-stroy",
+      "n0": "Инструмент другого строя в аренду | Точная тональность для программы",
+      "n1": "Другой строй инструмента | Транспозиция и соответствие партитуре"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna",
+      "n0": "Инструмент с дополнительной низкой струной | Пятиструнные варианты в аренду",
+      "n1": "Дополнительная низкая струна | Новый регистр без смены семейства инструмента"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhen-vybornyy-bas",
+      "n0": "Баян или аккордеон с выборным басом в аренду | Свободные ноты левой руки",
+      "n1": "Выборный бас | Мелодическая и полифоническая работа басовой клавиатуры"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya",
+      "n0": "Инструмент с полупедалью в аренду | Тонкое управление продолжением звука",
+      "n1": "Промежуточный ход педали | Несколько состояний резонанса вместо одной кнопки"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhen-kvartventil",
+      "n0": "Тромбон с квартвентилем напрокат | Дополнительные позиции и нижний регистр",
+      "n1": "Квартвентиль тромбона | Ещё один маршрут к низким нотам"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhny-otkrytye-klapany",
+      "n0": "Флейта с открытыми клапанами в аренду | Для нового учебного этапа",
+      "n1": "Открытые клапаны флейты | Дополнительные возможности контакта пальцев и строя"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhna-dvoynaya-valtorna",
+      "n0": "Двойная валторна напрокат | Системы F и B в одном концертном инструменте",
+      "n1": "Двойная валторна | Переключение между двумя основными строями"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury",
+      "n0": "Клавишный инструмент большего диапазона | От компактного до 88 клавиш",
+      "n1": "Полный диапазон клавиатуры | Свободные крайние ноты и новые партии"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhen-vyrez-korpusa",
+      "n0": "Гитара с вырезом корпуса в аренду | Соло с доступом к верхним ладам",
+      "n1": "Гитарный cutaway | Верхний регистр доступен при обычной технике"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhna-korotkaya-menzura",
+      "n0": "Короткомензурный инструмент напрокат | Компактные гитары и басы",
+      "n1": "Короткая мензура | Меньшее расстояние между позициями на грифе"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhen-kompaktnyy-korpus",
+      "n0": "Компактный музыкальный инструмент в аренду | Для комнаты и перевозки",
+      "n1": "Компактный корпус | Сохранить диапазон и функцию при меньших габаритах"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy",
+      "n0": "Отдельная гитара под альтернативный строй | Аренда для концерта и записи",
+      "n1": "Инструмент под другой строй | Смена музыкального строя без перенастройки основного"
+    },
+    {
+      "source_file": "content/sections/zz127-technical-obstacles-range.json",
+      "slug": "instrument-esli-nuzhna-dopolnitelnaya-pedal",
+      "n0": "Инструмент с дополнительной педалью в аренду | Sustain, sostenuto и expression",
+      "n1": "Дополнительные педали | Управление продолжением, громкостью и сценическими функциями"
+    }
+  ]
+}
