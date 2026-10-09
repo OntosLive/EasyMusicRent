@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-dlya-pervogo-opyta-sinteza",
+      "n0": "Первый синтезатор в аренду | От готовых тембров до собственного звука",
+      "n1": "Первый синтезатор | Генератор, фильтр и огибающая как язык тембра"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-dlya-sozdaniya-lida",
+      "n0": "Синтезатор для лидов в аренду | Выразительные сольные тембры и сценическое управление",
+      "n1": "Lead-синтезатор | Один голос с модуляцией и читаемой атакой"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-dlya-arpeggiatora",
+      "n0": "Синтезатор с арпеджиатором напрокат | Ритмические партии для сцены и студии",
+      "n1": "Арпеджиатор синтезатора | Последовательность нот из удержанного аккорда"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-dlya-saund-dizayna",
+      "n0": "Синтезатор для саунд-дизайна в аренду | Создание и сохранение собственных тембров",
+      "n1": "Саунд-дизайн синтезатором | Управление параметрами и воспроизводимость звука"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-dlya-improvizatsii",
+      "n0": "Синтезатор для импровизации напрокат | Звук меняется прямо во время исполнения",
+      "n1": "Импровизация на синтезаторе | Тембр становится частью музыкального жеста"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-dlya-modulyatsii-v-realnom-vremeni",
+      "n0": "Синтезатор с живой модуляцией | Аренда для сцены и экспериментальной музыки",
+      "n1": "Модуляция синтезатора | Изменение звука одновременно с исполнением"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-dlya-sravneniya-apparatnogo-i-programmnogo",
+      "n0": "Аппаратный синтезатор для сравнения с программным | Аренда на пробу",
+      "n1": "Hardware и software синтез | Способ управления тембром меняет процесс игры"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "sintezator-pered-pokupkoy",
+      "n0": "Синтезатор перед покупкой в аренду | Проверить устройство и музыкальный процесс",
+      "n1": "Синтезатор до покупки | Реальная работа с клавишами, ручками и патчами"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "scenicheskie-klavishnye-dlya-pianista",
+      "n0": "Сценические клавишные для пианиста напрокат | Фортепианная клавиатура для концерта",
+      "n1": "Пианист на сцене | Мобильный инструмент с фортепианной исполнительской логикой"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "scenicheskie-klavishnye-dlya-sloya-piano-i-pad",
+      "n0": "Сценические клавишные piano + pad в аренду | Два тембра в одной программе",
+      "n1": "Слой piano + pad | Фортепианная атака и протяжённый синтезированный фон"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "scenicheskie-klavishnye-dlya-bystryh-pereklyucheniy",
+      "n0": "Клавишные для смены тембров на сцене | Готовые программы по сет-листу",
+      "n1": "Быстрое переключение тембров | Переход между песнями без поиска настроек"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "scenicheskie-klavishnye-dlya-gastrolnoy-zameny",
+      "n0": "Клавишные на гастрольную замену в аренду | Рабочая сцена без перевозки своего",
+      "n1": "Гастрольная замена клавиш | Восстановить программы, зоны и назначение педалей"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "scenicheskie-klavishnye-dlya-dvuh-zon",
+      "n0": "Сценические клавишные с двумя зонами | Аренда для сложной партии",
+      "n1": "Две клавишные зоны | Левая и правая руки управляют разными тембрами"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "scenicheskie-klavishnye-dlya-treh-sloev",
+      "n0": "Сценические клавишные с тремя слоями | Аренда многотембрового инструмента",
+      "n1": "Три слоя звука | Несколько тембров в одном исполнительском движении"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "workstation-dlya-podgotovki-kontsertnogo-seta",
+      "n0": "Workstation в аренду | Собрать и отрепетировать весь концертный сет",
+      "n1": "Workstation для концерта | Песни и программы как воспроизводимые конфигурации"
+    },
+    {
+      "source_file": "content/sections/zz87-synth-stage-human-scenes.json",
+      "slug": "workstation-dlya-odnogo-muzykanta",
+      "n0": "Workstation для одного музыканта напрокат | Клавиши, слои и сопровождение",
+      "n1": "Один музыкант с workstation | Несколько инструментальных ролей в одной системе"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "midi-klaviatura-dlya-kompozitora",
+      "n0": "MIDI-клавиатура композитору в аренду | Для сочинения и работы с виртуальными инструментами",
+      "n1": "MIDI-клавиатура композитора | Ввести музыкальную идею сразу через клавиши"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "midi-klaviatura-dlya-notnogo-nabora",
+      "n0": "MIDI-клавиатура для нотного набора | Аренда для работы в нотных программах",
+      "n1": "MIDI при наборе нот | Вводить высоты с клавиатуры вместо мыши"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "midi-klaviatura-dlya-orkestrovki",
+      "n0": "MIDI-клавиатура для оркестровки напрокат | Управление библиотеками инструментов",
+      "n1": "MIDI для оркестровки | Один контроллер на десятки виртуальных голосов"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "midi-klaviatura-dlya-virtualnyh-instrumentov",
+      "n0": "MIDI-клавиатура для виртуальных инструментов | Аренда контроллера для студии",
+      "n1": "Виртуальные инструменты с MIDI | Клавиши управляют программным источником звука"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "organ-dlya-perehoda-s-fortepiano",
+      "n0": "Орган после фортепиано в аренду | Для первых занятий на органной системе",
+      "n1": "После фортепиано к органу | Другой принцип длительности ноты и управления звуком"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "organ-dlya-raboty-dvuh-manualov",
+      "n0": "Орган с двумя мануалами напрокат | Учебный комплект для органной программы",
+      "n1": "Два органных мануала | Разные клавиатуры и регистры в одной партии"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "organ-dlya-polnoy-koordinatsii-ruk-i-nog",
+      "n0": "Орган для координации рук и ног в аренду | С мануалами и педальной клавиатурой",
+      "n1": "Органная координация | Две руки и педали ведут самостоятельные голоса"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "klavesin-dlya-pervogo-opyta",
+      "n0": "Клавесин для первых занятий напрокат | Познакомиться с исторической механикой",
+      "n1": "Первый клавесин | Щипок струны и артикуляция вместо фортепианной динамики"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "klavesin-dlya-barochnoy-programmy",
+      "n0": "Клавесин для барочной программы | Аренда для ансамбля и сольного концерта",
+      "n1": "Клавесин в барокко | Сольная фактура и basso continuo на одном инструменте"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "rhodes-dlya-pervogo-opyta",
+      "n0": "Электропиано Rhodes для первого опыта | Аренда оригинальной электромеханики",
+      "n1": "Первый Rhodes | Электрический тембр, который начинается физическим ударом"
+    },
+    {
+      "source_file": "content/sections/zz88-special-keyboard-human-scenes.json",
+      "slug": "rhodes-dlya-studiynoy-sessii",
+      "n0": "Rhodes для студийной сессии напрокат | Живое электропиано вместо пресета",
+      "n1": "Rhodes в записи | Настоящая механика и электронный тракт в звуке дубля"
+    }
+  ]
+}
