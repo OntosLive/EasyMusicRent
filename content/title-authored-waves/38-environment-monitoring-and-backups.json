@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-slishkom-gromko-dlya-doma",
+      "n0": "Тихий инструмент для домашних занятий | Цифровые и silent-форматы в аренду",
+      "n1": "Тихая домашняя практика | Наушники и цифровой звук вместо громкого корпуса"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-ne-pomeschaetsya-v-komnate",
+      "n0": "Компактный инструмент для небольшой комнаты | Полноценная функция при меньших габаритах",
+      "n1": "Музыка в маленькой комнате | Инструмент, стойка и посадка в одном пространстве"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-slozhno-perevozit",
+      "n0": "Инструмент на месте выступления в аренду | Без перевозки собственного",
+      "n1": "Музыкант без перевозки инструмента | Локальный прокат для концерта и занятий"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-dolgo-sobirat-pered-zanyatiem",
+      "n0": "Быстро собираемый музыкальный комплект | Аренда инструмента со стойками и кабелями",
+      "n1": "Быстрый старт занятий | Инструмент, опоры и соединения готовы работать вместе"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-nuzhno-igrat-v-naushnikah",
+      "n0": "Музыкальные инструменты для игры в наушниках | Клавиши, электрострунные и ударные",
+      "n1": "Игра в наушниках | Электрический или цифровой тракт для личной практики"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-nuzhno-podklyuchit-v-pult",
+      "n0": "Инструмент с подключением в микшер | Аренда вместе с необходимым выходом",
+      "n1": "Инструмент прямо в пульт | Линейный сигнал и DI-тракт для концертного звука"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-nuzhen-chistyy-di-signal",
+      "n0": "Инструмент для прямой записи через DI | Чистый сигнал без кабинета",
+      "n1": "Прямой DI-сигнал | От инструмента до балансного входа пульта"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-ne-hvataet-monitoringa",
+      "n0": "Инструмент и сценический мониторинг в аренду | Полный комплект для музыканта",
+      "n1": "Мониторинг музыкальной сцены | Отдельный баланс, который слышит исполнитель"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-teryaetsya-v-ansamble",
+      "n0": "Инструмент для читаемой партии в ансамбле | Другой регистр и усиление",
+      "n1": "Разборчивость ансамбля | Место инструмента в общем спектре и фактуре"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-perekryvaet-golos",
+      "n0": "Инструмент для аккомпанемента вокалу | Камерные корпуса и управляемое усиление",
+      "n1": "Инструмент рядом с голосом | Сохранить гармонию, не закрывая вокальную партию"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-slishkom-mnogo-nizkih-chastot",
+      "n0": "Басовый инструмент с более собранным звуком | Альтернативные кабинеты и настройки",
+      "n1": "Нижний регистр без избытка | Корпус, строй и акустика в одном тракте"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-ne-hvataet-ataki",
+      "n0": "Инструмент с более ясной атакой в аренду | Для артикуляции в ансамбле",
+      "n1": "Атака музыкального звука | Звукосниматель, поверхность и характер начала ноты"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-slishkom-dolgiy-sustain",
+      "n0": "Инструмент с управляемым затуханием | Короткий звук и средства глушения",
+      "n1": "Продолжение и глушение ноты | Управление sustain в партии"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-mikrofon-slyshit-lishniy-shum",
+      "n0": "Инструмент для чистой студийной записи | Варианты с меньшим механическим шумом",
+      "n1": "Механические шумы в микрофоне | Клавиши, педали и корпус рядом с источником"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene",
+      "n0": "Сценические клавишные для быстрых смен тембра | Готовые программы и live sets",
+      "n1": "Смена звуков на сцене | Подготовленные тембры в последовательности концерта"
+    },
+    {
+      "source_file": "content/sections/zz128-technical-obstacles-environment.json",
+      "slug": "instrument-esli-nuzhen-rezerv-na-kontsert",
+      "n0": "Резервный музыкальный инструмент на концерт | Полноценный запасной вариант",
+      "n1": "Резерв на концерте | Сменить инструмент без остановки программы"
+    }
+  ]
+}
