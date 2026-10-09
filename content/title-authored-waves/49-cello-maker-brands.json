@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "violonchel-stentor/index.html",
+      "slug": "violonchel-stentor",
+      "n0": "Виолончель Stentor в аренду | Учебный инструмент для первых классов",
+      "n1": "Stentor | Виолончель для регулярной школьной практики"
+    },
+    {
+      "source_file": "violonchel-yamaha/index.html",
+      "slug": "violonchel-yamaha",
+      "n0": "Виолончель Yamaha напрокат | Выбор серии под занятия и исполнительскую задачу",
+      "n1": "Виолончели Yamaha | Конкретная модель внутри известной марки"
+    },
+    {
+      "source_file": "violonchel-scherl-roth/index.html",
+      "slug": "violonchel-scherl-roth",
+      "n0": "Виолончель Scherl & Roth в аренду | Размер и серия под учебную программу",
+      "n1": "Scherl & Roth | Несколько виолончельных форматов одной марки"
+    },
+    {
+      "source_file": "violonchel-strunal/index.html",
+      "slug": "violonchel-strunal",
+      "n0": "Виолончель Strunal напрокат | От учебных инструментов до более высокого уровня",
+      "n1": "Strunal | Виолончели разных классов и конструкций"
+    },
+    {
+      "source_file": "violonchel-hora/index.html",
+      "slug": "violonchel-hora",
+      "n0": "Виолончель Hora в аренду | Инструмент на текущий учебный этап",
+      "n1": "Hora | Рабочая виолончель в регулярной практике"
+    },
+    {
+      "source_file": "violonchel-eastman/index.html",
+      "slug": "violonchel-eastman",
+      "n0": "Виолончель Eastman напрокат | Модели для учебной и концертной работы",
+      "n1": "Eastman | Виолончели с различиями по модели и конструкции корпуса"
+    },
+    {
+      "source_file": "violonchel-gliga/index.html",
+      "slug": "violonchel-gliga",
+      "n0": "Виолончель Gliga в аренду | Серии и размеры для разных музыкантов",
+      "n1": "Gliga | Виолончельная линейка с отдельными исполнительскими уровнями"
+    },
+    {
+      "source_file": "violonchel-gewa/index.html",
+      "slug": "violonchel-gewa",
+      "n0": "Виолончель GEWA напрокат | Учебная серия и нужный размер в аренду",
+      "n1": "GEWA | Виолончели разных серий для музыкального обучения"
+    },
+    {
+      "source_file": "violonchel-ritmuller/index.html",
+      "slug": "violonchel-ritmuller",
+      "n0": "Виолончель Ritmuller в аренду | Выбранная марка для музыкальной программы",
+      "n1": "Ritmuller | От имени производителя к конкретному инструменту"
+    },
+    {
+      "source_file": "violonchel-goronok/index.html",
+      "slug": "violonchel-goronok",
+      "n0": "Виолончель Горонок напрокат | Инструменты разных учебных и исполнительских уровней",
+      "n1": "Виолончели Горонок | Серии и индивидуальные особенности инструмента"
+    },
+    {
+      "source_file": "violonchel-mirra/index.html",
+      "slug": "violonchel-mirra",
+      "n0": "Виолончель Mirra в аренду | Модель и размер для нужного периода занятий",
+      "n1": "Mirra | Виолончель определённой модели и исполнительского масштаба"
+    },
+    {
+      "source_file": "violonchel-knilling/index.html",
+      "slug": "violonchel-knilling",
+      "n0": "Виолончель Knilling напрокат | Учебные и более продвинутые серии",
+      "n1": "Knilling | Различия моделей и размеров одной виолончельной марки"
+    },
+    {
+      "source_file": "violonchel-caraya/index.html",
+      "slug": "violonchel-caraya",
+      "n0": "Виолончель Caraya в аренду | Подобрать модель на конкретный учебный срок",
+      "n1": "Caraya | Виолончельная модель в своей учебной программе"
+    }
+  ]
+}
