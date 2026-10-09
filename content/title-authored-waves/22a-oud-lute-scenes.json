@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "ud-dlya-domashnih-zanyatiy",
+      "n0": "Уд для домашних занятий напрокат | Инструмент для регулярной восточной музыкальной практики",
+      "n1": "Уд дома | Безладовая мелодия, медиатор и собственный строй"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "ud-pered-pokupkoy",
+      "n0": "Уд до покупки в аренду | Попробовать инструмент на своей музыкальной программе",
+      "n1": "Уд перед покупкой | Строй, мензура и свободная безладовая интонация"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "ud-dlya-raboty-nad-intonatsiey",
+      "n0": "Уд для работы над интонацией напрокат | Безладовый инструмент для занятий",
+      "n1": "Интонация уда | Высота звука зависит от движения пальца, а не от лада"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "ud-posle-gitary",
+      "n0": "Уд после гитары в аренду | Попробовать щипковую игру без ладов",
+      "n1": "От гитары к уду | Безладовый гриф и новый способ вести мелодию"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "lyutnya-dlya-pervogo-opyta",
+      "n0": "Лютня для первого знакомства напрокат | Инструмент ранней музыки",
+      "n1": "Первая лютня | Щипковая полифония и исторические хоры струн"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "lyutnya-dlya-barochnoy-programmy",
+      "n0": "Барочная лютня в аренду | Для сольной программы и старинного ансамбля",
+      "n1": "Лютня для барокко | Исторический строй и самостоятельная полифоническая партия"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "lyutnya-pered-pokupkoy",
+      "n0": "Лютня до покупки в аренду | Разные исторические типы для пробы",
+      "n1": "Лютня перед покупкой | Количество хоров и строй определяют репертуар"
+    },
+    {
+      "source_file": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+      "slug": "teorba-dlya-pervogo-opyta",
+      "n0": "Теорба для первого опыта напрокат | Басовый щипковый инструмент ранней музыки",
+      "n1": "Первая теорба | Длинные открытые басовые струны под continuo"
+    }
+  ]
+}
