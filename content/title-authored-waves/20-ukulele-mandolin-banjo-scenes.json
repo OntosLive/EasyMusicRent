@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-vzroslomu-nachinayuschemu",
+      "n0": "Укулеле взрослому начинающему в аренду | Первые аккорды на полноценном инструменте",
+      "n1": "Первое укулеле взрослому | Четыре струны и разные размеры корпуса"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-dlya-domashnih-zanyatiy",
+      "n0": "Укулеле для домашних занятий напрокат | Компактный инструмент для ежедневной музыки",
+      "n1": "Укулеле дома | Сопрано, концерт и тенор в обычной практике"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-pered-pokupkoy",
+      "n0": "Укулеле перед покупкой в аренду | Сравнить сопрано, концерт и тенор",
+      "n1": "Укулеле до покупки | Строй, мензура и звук разных размеров"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-dlya-sravneniya-razmerov",
+      "n0": "Укулеле разных размеров напрокат | Сопрано, концерт, тенор и баритон",
+      "n1": "Размеры укулеле | Четыре корпуса, несколько диапазонов и характеров звука"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-posle-gitary",
+      "n0": "Укулеле после гитары в аренду | Маленький четырёхструнный инструмент для новой музыки",
+      "n1": "От гитары к укулеле | Компактный корпус и четыре струны вместо шести"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-dlya-vokalista",
+      "n0": "Укулеле для вокалиста напрокат | Аккомпанемент для песни и камерной сцены",
+      "n1": "Укулеле рядом с голосом | Ритмическое сопровождение без громкого ансамбля"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-dlya-letney-praktiki",
+      "n0": "Укулеле на лето в аренду | Инструмент для каникул и занятий в поездке",
+      "n1": "Укулеле на каникулах | Компактная ежедневная практика и собственные песни"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "ukulele-bariton-dlya-pervogo-opyta",
+      "n0": "Укулеле-баритон для первого опыта напрокат | Более низкий строй в знакомой форме",
+      "n1": "Баритон-укулеле | Четыре гитарно настроенные струны в компактном корпусе"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "mandolina-vzroslomu-nachinayuschemu",
+      "n0": "Мандолина взрослому начинающему в аренду | Первые уроки и ансамблевая практика",
+      "n1": "Первая мандолина | Парные струны, медиатор и мелодический голос"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "mandolina-dlya-domashnih-zanyatiy",
+      "n0": "Мандолина для домашних занятий напрокат | Инструмент для регулярного тремоло",
+      "n1": "Мандолина дома | Четыре пары струн в ежедневной музыкальной работе"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "mandolina-pered-pokupkoy",
+      "n0": "Мандолина перед покупкой в аренду | Попробовать звук парных струн в музыке",
+      "n1": "Мандолина до покупки | Тембр, мензура и характер двойных струн"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "mandolina-dlya-raboty-nad-tremolo",
+      "n0": "Мандолина для тремоло напрокат | Инструмент для учебных этюдов и мелодии",
+      "n1": "Мандолинное тремоло | Частые удары медиатора образуют длительную линию"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "mandolina-posle-gitary",
+      "n0": "Мандолина после гитары в аренду | Новый щипковый голос для репертуара",
+      "n1": "От гитары к мандолине | Другая мензура и парные струны под медиатором"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "bandzho-vzroslomu-nachinayuschemu",
+      "n0": "Банджо взрослому начинающему напрокат | Первые уроки на выбранном типе банджо",
+      "n1": "Первое банджо | Пятиструнная и четырёхструнная исполнительские системы"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "bandzho-dlya-domashnih-zanyatiy",
+      "n0": "Банджо для домашних занятий в аренду | Полноценный инструмент на период учёбы",
+      "n1": "Банджо дома | Настройка, ритм и самостоятельная практика на выбранной системе"
+    },
+    {
+      "source_file": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+      "slug": "bandzho-pered-pokupkoy",
+      "n0": "Банджо до покупки напрокат | Сравнить типы строя и количество струн",
+      "n1": "Банджо перед покупкой | Пять, четыре или шесть струн меняют музыкальную функцию"
+    }
+  ]
+}
