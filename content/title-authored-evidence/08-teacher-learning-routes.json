@@ -1,0 +1,903 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal excerpts and authored titles",
+  "reviews": {
+    "instrument-dlya-pervogo-uroka-s-prepodavatelem": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент на первый урок: временный комплект до точного выбора размера, си",
+        "decision": "Инструмент для первого урока в аренду | Начать занятия без покупки",
+        "next_action": "Начать занятия без покупки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "До первого занятия часто неизвестно, какой размер, система или комплект дей",
+        "decision": "Первый урок музыки | Рабочий инструмент прежде окончательного выбора",
+        "next_action": "Рабочий инструмент прежде окончательного выбора"
+      }
+    },
+    "instrument-na-probnyy-mesyats-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент на первые недели занятий: регулярность, домашняя практика и реше",
+        "decision": "Инструмент на пробный месяц в аренду | Полный месяц занятий дома и с педагогом",
+        "next_action": "Полный месяц занятий дома и с педагогом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Первый месяц обучения отвечает на вопрос, становится ли инструмент частью н",
+        "decision": "Пробный месяц музыки | Регулярная практика показывает собственное направление",
+        "next_action": "Регулярная практика показывает собственное направление"
+      }
+    },
+    "instrument-posle-probnogo-uroka": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент после первого пробного занятия: уточнённый размер, система и ком",
+        "decision": "Инструмент после пробного урока | Аренда для продолжения занятий",
+        "next_action": "Аренда для продолжения занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Пробный урок уже дал первую информацию о теле, слухе и интересе ученика. Сл",
+        "decision": "После первого урока | Временный инструмент становится постоянным участником практики",
+        "next_action": "Временный инструмент становится постоянным участником практики"
+      }
+    },
+    "instrument-dlya-pervyh-zanyatiy-doma": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент для начала домашней практики: рабочий размер, настройка и компле",
+        "decision": "Инструмент для первых занятий дома | Прокат на начальный учебный этап",
+        "next_action": "Прокат на начальный учебный этап"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Первые домашние занятия особенно чувствительны к несовпадению инструмента с",
+        "decision": "Первые домашние занятия | Собственный учебный комплект между уроками",
+        "next_action": "Собственный учебный комплект между уроками"
+      }
+    },
+    "instrument-dlya-zanyatiy-mezhdu-urokami": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент для регулярной практики между занятиями с преподавателем.",
+        "decision": "Инструмент между уроками в аренду | Домашняя практика по программе педагога",
+        "next_action": "Домашняя практика по программе педагога"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Сам урок задаёт направление, но навык формируется в повторениях между встре",
+        "decision": "Занятия между уроками | Навык закрепляется на одном знакомом инструменте",
+        "next_action": "Навык закрепляется на одном знакомом инструменте"
+      }
+    },
+    "instrument-dlya-vzroslogo-novichka-s-prepodavatelem": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент взрослому начинающему: пробный период с преподавателем до постоя",
+        "decision": "Инструмент взрослому новичку | В аренду на занятия с преподавателем",
+        "next_action": "В аренду на занятия с преподавателем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Взрослый часто приходит с сильным представлением о том, какой инструмент хо",
+        "decision": "Взрослый начинает музыку | Полноценный инструмент для первого учебного периода",
+        "next_action": "Полноценный инструмент для первого учебного периода"
+      }
+    },
+    "instrument-rebenku-posle-vybora-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент ребёнку после знакомства с педагогом: размер, система и учебный ",
+        "decision": "Инструмент ребёнку после выбора педагога | Учебный комплект в аренду",
+        "next_action": "Учебный комплект в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Для ребёнка особенно опасно выбирать инструмент «на вырост» до того, как пр",
+        "decision": "Инструмент ребёнка и преподаватель | Первая совместная учебная задача",
+        "next_action": "Первая совместная учебная задача"
+      }
+    },
+    "instrument-dlya-vozvrashcheniya-k-zanyatiyam-s-prepodavatelem": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент после перерыва: знакомая система и пробный период с преподавател",
+        "decision": "Инструмент для возвращения к урокам | Аренда после перерыва",
+        "next_action": "Аренда после перерыва"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "После долгого перерыва старые предпочтения могут уже не совпадать с телом, ",
+        "decision": "Возобновление занятий | Знакомая музыкальная практика без немедленной покупки",
+        "next_action": "Знакомая музыкальная практика без немедленной покупки"
+      }
+    },
+    "instrument-na-period-podbora-postoyannogo": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Временный инструмент на период поиска постоянной модели или экземпляра.",
+        "decision": "Инструмент на время выбора постоянного | Аренда без остановки занятий",
+        "next_action": "Аренда без остановки занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Поиск постоянного инструмента может занять недели и месяцы. Учебная програм",
+        "decision": "Период выбора инструмента | Музыкальные уроки идут, решение о покупке ещё открыто",
+        "next_action": "Музыкальные уроки идут, решение о покупке ещё открыто"
+      }
+    },
+    "instrument-dlya-letnih-zanyatiy-s-prepodavatelem": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент на лето для занятий с преподавателем: временный адрес и продолже",
+        "decision": "Инструмент для летних уроков | Аренда на каникулы и учебную смену",
+        "next_action": "Аренда на каникулы и учебную смену"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Летом ученик может жить в другом месте или заниматься с другим расписанием.",
+        "decision": "Музыкальные занятия летом | Полная практика вне обычного учебного года",
+        "next_action": "Полная практика вне обычного учебного года"
+      }
+    },
+    "instrument-na-kanikuly-po-zadaniyu-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент на каникулы: временный доступ под конкретное педагогическое зада",
+        "decision": "Инструмент на каникулы в аренду | Для программы, заданной преподавателем",
+        "next_action": "Для программы, заданной преподавателем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Если на каникулы дана конкретная программа, отсутствие инструмента превраща",
+        "decision": "Музыкальная программа на каникулы | От урока до самостоятельного повторения",
+        "next_action": "От урока до самостоятельного повторения"
+      }
+    },
+    "instrument-dlya-vtorogo-mesta-zanyatiy-po-rekomendatsii": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Второй учебный инструмент: система, размер и функция для практики между дву",
+        "decision": "Второй инструмент для занятий | Аренда по рекомендации преподавателя",
+        "next_action": "Аренда по рекомендации преподавателя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Когда ученик регулярно живёт между двумя адресами, второй инструмент может ",
+        "decision": "Два места занятий | Одна учебная программа без постоянных перевозок",
+        "next_action": "Одна учебная программа без постоянных перевозок"
+      }
+    },
+    "instrument-dlya-intensivnogo-kursa": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент на интенсивный курс: длинные занятия, временная программа и быст",
+        "decision": "Инструмент на интенсивный курс | Прокат на весь период музыкальных занятий",
+        "next_action": "Прокат на весь период музыкальных занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Интенсивный курс резко увеличивает количество часов за инструментом. То, чт",
+        "decision": "Интенсивный курс музыки | Ежедневная работа на подготовленном инструменте",
+        "next_action": "Ежедневная работа на подготовленном инструменте"
+      }
+    },
+    "instrument-dlya-neskolkih-zanyatiy-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Пробный инструмент на 2–4 занятия до покупки постоянного экземпляра.",
+        "decision": "Инструмент на несколько уроков до покупки | Прокат для полноценной пробы",
+        "next_action": "Прокат для полноценной пробы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Одна примерка отвечает на слишком мало вопросов. Несколько уроков показываю",
+        "decision": "Несколько уроков на пробу | Практика прежде окончательного выбора",
+        "next_action": "Практика прежде окончательного выбора"
+      }
+    },
+    "instrument-dlya-zanyatiy-raz-v-nedelyu": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент для недельного учебного ритма: домашние повторения и контроль пр",
+        "decision": "Инструмент для еженедельных уроков | Аренда с домашней практикой",
+        "next_action": "Аренда с домашней практикой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "При одном уроке в неделю почти весь объём обучения находится между встречам",
+        "decision": "Один урок в неделю | Домашние повторения связывают встречи с педагогом",
+        "next_action": "Домашние повторения связывают встречи с педагогом"
+      }
+    },
+    "instrument-dlya-ezhednevnoy-praktiki-po-programme-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Инструмент для ежедневной учебной программы: стабильный отклик, домашний ко",
+        "decision": "Инструмент для ежедневной практики | Аренда под программу преподавателя",
+        "next_action": "Аренда под программу преподавателя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz121-teacher-start-routes.json",
+        "source_quote": "Ежедневная практика быстро увеличивает значение мелких особенностей инструм",
+        "decision": "Ежедневные занятия музыкой | Один рабочий инструмент для устойчивого навыка",
+        "next_action": "Один рабочий инструмент для устойчивого навыка"
+      }
+    },
+    "instrument-po-tochnoy-modeli-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Аренда инструмента по точной модели преподавателя: проверка комплектации и ",
+        "decision": "Инструмент по точной модели преподавателя | Аренда указанной модели и комплекта",
+        "next_action": "Аренда указанной модели и комплекта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Точная модель сильно сужает поиск, но даже она не отменяет вопроса о размер",
+        "decision": "Модель, названная педагогом | Конкретный инструмент в учебной программе",
+        "next_action": "Конкретный инструмент в учебной программе"
+      }
+    },
+    "instrument-po-marke-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Аренда инструмента по рекомендованной марке: размер, серия, система и учебн",
+        "decision": "Инструмент рекомендованной марки в аренду | Серии и размеры одной школы",
+        "next_action": "Серии и размеры одной школы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Бренд задаёт круг поиска, но одна марка может включать детские, учебные, пр",
+        "decision": "Марка по рекомендации педагога | Несколько инструментов внутри бренда",
+        "next_action": "Несколько инструментов внутри бренда"
+      }
+    },
+    "instrument-po-parametram-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент по параметрам преподавателя: размер, диапазон, система, механика",
+        "decision": "Инструмент по параметрам преподавателя | Аренда под готовое техническое задание",
+        "next_action": "Аренда под готовое техническое задание"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Иногда педагог не называет бренд, а говорит точнее: нужен меньший корпус, д",
+        "decision": "Инструмент по учебному заданию | Размер, система и диапазон определены заранее",
+        "next_action": "Размер, система и диапазон определены заранее"
+      }
+    },
+    "instrument-esli-prepodavatel-ne-nazval-model": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Подбор учебного инструмента без точной модели: этап, размер, система и свой",
+        "decision": "Инструмент для занятий без указанной модели | Прокат по учебному этапу",
+        "next_action": "Прокат по учебному этапу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Отсутствие точной модели не делает рекомендацию слабой. Часто педагог лучше",
+        "decision": "Учебный инструмент без точной модели | Предмет, уровень и программа важнее названия",
+        "next_action": "Предмет, уровень и программа важнее названия"
+      }
+    },
+    "instrument-smenit-razmer-po-rekomendatsii": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент следующего размера по рекомендации преподавателя: примерка и пер",
+        "decision": "Инструмент следующего размера в аренду | Переход по рекомендации педагога",
+        "next_action": "Переход по рекомендации педагога"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Размер меняют не по календарю, а когда прежний начинает ограничивать движен",
+        "decision": "Смена размера на уроках | Продолжение учебной программы с новым корпусом",
+        "next_action": "Продолжение учебной программы с новым корпусом"
+      }
+    },
+    "instrument-smenit-menzuru-po-rekomendatsii": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент другой мензуры: рука, строй, диапазон и проба по рекомендации пр",
+        "decision": "Инструмент другой мензуры напрокат | На новый этап занятий по рекомендации",
+        "next_action": "На новый этап занятий по рекомендации"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Мензура влияет на расстояния и натяжение, поэтому переход должен решать кон",
+        "decision": "Смена мензуры в обучении | Новые расстояния при сохранении музыкальной программы",
+        "next_action": "Новые расстояния при сохранении музыкальной программы"
+      }
+    },
+    "instrument-smenit-sistemu-po-rekomendatsii": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Переход на другую систему инструмента: клапаны, басы, аппликатура или механ",
+        "decision": "Инструмент другой системы в аренду | Клапаны, клавиши или басы под новый курс",
+        "next_action": "Клапаны, клавиши или басы под новый курс"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Выборный бас, другая клапанная система, открытые клапаны, другой тип смычка",
+        "decision": "Смена системы инструмента | Новая исполнительская механика внутри той же учёбы",
+        "next_action": "Новая исполнительская механика внутри той же учёбы"
+      }
+    },
+    "instrument-smenit-stroy-po-rekomendatsii": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент другого строя: новая тональность, транспозиция и программа препо",
+        "decision": "Инструмент другого строя напрокат | Под новую партию и задание педагога",
+        "next_action": "Под новую партию и задание педагога"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Некоторые семейства требуют отдельного инструмента другого строя, а не прос",
+        "decision": "Новый строй инструмента | Транспозиция и ноты без замены всей музыкальной задачи",
+        "next_action": "Транспозиция и ноты без замены всей музыкальной задачи"
+      }
+    },
+    "instrument-posle-zamechaniya-o-postanovke": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Смена инструмента после замечания о посадке, руке или корпусе.",
+        "decision": "Инструмент после замечания о постановке | Аренда другого размера и формата",
+        "next_action": "Аренда другого размера и формата"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Иногда проблема техники оказывается не только привычкой ученика: инструмент",
+        "decision": "Инструмент и постановка | Геометрия корпуса участвует в движении исполнителя",
+        "next_action": "Геометрия корпуса участвует в движении исполнителя"
+      }
+    },
+    "instrument-posle-zamechaniya-o-vyse-strun": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент с подходящей высотой струн после педагогического замечания.",
+        "decision": "Струнный инструмент с другой высотой струн | Аренда для учебной практики",
+        "next_action": "Аренда для учебной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Слишком высокая или слишком низкая струна меняет прижим, атаку и ощущение п",
+        "decision": "Высота струн в обучении | Разница игрового сопротивления и контроля",
+        "next_action": "Разница игрового сопротивления и контроля"
+      }
+    },
+    "instrument-posle-zamechaniya-o-mehanike": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент с исправной или иной механикой после педагогического замечания.",
+        "decision": "Инструмент с другой механикой напрокат | Под требования нового учебного этапа",
+        "next_action": "Под требования нового учебного этапа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Неровная клавиша, клапан, пистон, кулиса или другая механика может заставля",
+        "decision": "Работа механики | Клавиши, клапаны и исполнительская обратная связь",
+        "next_action": "Клавиши, клапаны и исполнительская обратная связь"
+      }
+    },
+    "instrument-posle-zamechaniya-o-pedali": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент с подходящей педалью после замечания преподавателя.",
+        "decision": "Инструмент с нужной педальной системой | Аренда по заданию преподавателя",
+        "next_action": "Аренда по заданию преподавателя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Когда программа переходит от простого включения педали к тонкой координации",
+        "decision": "Педали в учебной программе | От простого sustain до специальных функций",
+        "next_action": "От простого sustain до специальных функций"
+      }
+    },
+    "instrument-posle-zamechaniya-o-diapazone": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Инструмент большего или иного диапазона после педагогического замечания.",
+        "decision": "Инструмент большего диапазона в аренду | Для новой программы и крайних нот",
+        "next_action": "Для новой программы и крайних нот"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Новая пьеса может впервые выйти за пределы учебного инструмента. Тогда расш",
+        "decision": "Диапазон инструмента | Расширенный регистр меняет доступный репертуар",
+        "next_action": "Расширенный регистр меняет доступный репертуар"
+      }
+    },
+    "instrument-posle-zamechaniya-o-vese": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Более лёгкий или лучше сбалансированный инструмент после замечания преподав",
+        "decision": "Более лёгкий инструмент в аренду | Сохраняем учебный уровень без лишней массы",
+        "next_action": "Сохраняем учебный уровень без лишней массы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Вес становится педагогической проблемой, когда меняет посадку, дыхание или ",
+        "decision": "Вес музыкального инструмента | Баланс и способ удержания меняют нагрузку",
+        "next_action": "Баланс и способ удержания меняют нагрузку"
+      }
+    },
+    "instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Аренда двух вариантов инструмента для совместной проверки с преподавателем.",
+        "decision": "Два инструмента в аренду для сравнения | Выбор вместе с преподавателем",
+        "next_action": "Выбор вместе с преподавателем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Когда осталось два близких варианта, дальнейшее чтение характеристик часто ",
+        "decision": "Проба двух инструментов | Одна программа на двух разных исполнительских системах",
+        "next_action": "Одна программа на двух разных исполнительских системах"
+      }
+    },
+    "instrument-dlya-step-up-po-rekomendatsii": {
+      "n0": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Step-up инструмент: переход после начального этапа по конкретной программе ",
+        "decision": "Step-up инструмент в аренду | Следующая ступень по рекомендации преподавателя",
+        "next_action": "Следующая ступень по рекомендации преподавателя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz122-teacher-change-routes.json",
+        "source_quote": "Переход от начального инструмента к следующему уровню оправдан тогда, когда",
+        "decision": "Переход на step-up инструмент | Более сложная программа и новые возможности инструмента",
+        "next_action": "Более сложная программа и новые возможности инструмента"
+      }
+    },
+    "instrument-dlya-uroka-na-domu": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для домашних уроков: рабочий комплект, посадка и последующая сам",
+        "decision": "Инструмент на домашний урок в аренду | Занятие с преподавателем у себя",
+        "next_action": "Занятие с преподавателем у себя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Домашний урок ценен тем, что педагог видит реальную среду самостоятельной п",
+        "decision": "Урок музыки дома | Инструмент остаётся для самостоятельной практики",
+        "next_action": "Инструмент остаётся для самостоятельной практики"
+      }
+    },
+    "instrument-dlya-zanyatiya-u-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для занятий в студии преподавателя: переносимость и совпадение с",
+        "decision": "Инструмент для занятий у преподавателя | Аренда на учебный период",
+        "next_action": "Аренда на учебный период"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Если у преподавателя нет подходящего инструмента или ученик должен работать",
+        "decision": "Урок у преподавателя | Свой учебный инструмент для знакомой программы",
+        "next_action": "Свой учебный инструмент для знакомой программы"
+      }
+    },
+    "instrument-dlya-onlayn-uroka-s-prepodavatelem": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для дистанционных занятий: домашняя установка, камера, звук и ст",
+        "decision": "Инструмент для онлайн-урока в аренду | Домашний комплект для занятий по связи",
+        "next_action": "Домашний комплект для занятий по связи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "На дистанционном уроке инструмент становится частью канала связи. Хорошая д",
+        "decision": "Онлайн-урок музыки | Клавиши или струны, камера и слышимая обратная связь",
+        "next_action": "Клавиши или струны, камера и слышимая обратная связь"
+      }
+    },
+    "instrument-dlya-master-klassa-s-prepodavatelem": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент на мастер-класс: временная замена, знакомая система и минимальна",
+        "decision": "Инструмент на мастер-класс напрокат | На урок, репетиции и выступление",
+        "next_action": "На урок, репетиции и выступление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "На мастер-класс часто приезжают без большого или хрупкого собственного инст",
+        "decision": "Мастер-класс с педагогом | Временный инструмент на интенсивную программу",
+        "next_action": "Временный инструмент на интенсивную программу"
+      }
+    },
+    "instrument-dlya-konsultatsii-s-professorom": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для разовой профессиональной консультации: программа, привычный ",
+        "decision": "Инструмент на консультацию с профессором | Аренда под профессиональную программу",
+        "next_action": "Аренда под профессиональную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Разовая консультация особенно ценна, когда специалист может услышать реальн",
+        "decision": "Консультация профессора | Инструмент и подготовленный репертуар для одной встречи",
+        "next_action": "Инструмент и подготовленный репертуар для одной встречи"
+      }
+    },
+    "instrument-dlya-otkrytogo-uroka": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для открытого педагогического занятия: исправность, привычная ко",
+        "decision": "Инструмент для открытого урока в аренду | Для ученика и педагогического показа",
+        "next_action": "Для ученика и педагогического показа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "На открытом уроке инструмент одновременно служит ученику и становится часть",
+        "decision": "Открытый музыкальный урок | Учебная практика перед аудиторией",
+        "next_action": "Учебная практика перед аудиторией"
+      }
+    },
+    "instrument-dlya-gruppovogo-uroka": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструменты для группового занятия: совместимые комплекты, роли и единая уч",
+        "decision": "Инструменты для группового урока | Учебные комплекты всем участникам",
+        "next_action": "Учебные комплекты всем участникам"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "В групповом формате ценность создаёт не один лучший инструмент, а возможнос",
+        "decision": "Групповой музыкальный урок | Несколько инструментов в одной учебной задаче",
+        "next_action": "Несколько инструментов в одной учебной задаче"
+      }
+    },
+    "instrument-dlya-ansamblevogo-uroka": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструменты для ансамблевого занятия: баланс ролей, совместимость и группов",
+        "decision": "Инструменты для ансамблевого урока | Готовый учебный состав в аренду",
+        "next_action": "Готовый учебный состав в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Ансамблевое занятие отличается от индивидуального тем, что инструмент долже",
+        "decision": "Ансамблевое занятие | Совместные партии вместо нескольких сольных уроков",
+        "next_action": "Совместные партии вместо нескольких сольных уроков"
+      }
+    },
+    "instrument-dlya-uroka-s-kontsertmeysterom": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для занятия с концертмейстером: баланс, строй и подготовка к выс",
+        "decision": "Инструменты для урока с концертмейстером | Рояль и сольный голос",
+        "next_action": "Рояль и сольный голос"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "До первой репетиции с концертмейстером ученик часто слышал только свою парт",
+        "decision": "Урок с концертмейстером | Солист и фортепианная партия работают вместе",
+        "next_action": "Солист и фортепианная партия работают вместе"
+      }
+    },
+    "instrument-dlya-uroka-v-studii": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для занятий в арендованной студии: переносимость и стабильная уч",
+        "decision": "Инструмент на урок в музыкальной студии | Аренда для учебного помещения",
+        "next_action": "Аренда для учебного помещения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Если уроки проходят в арендованной студии, инструментальный комплект может ",
+        "decision": "Занятие в музыкальной студии | Инструмент под конкретное рабочее место",
+        "next_action": "Инструмент под конкретное рабочее место"
+      }
+    },
+    "instrument-dlya-uroka-v-drugom-gorode": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для выездного занятия: локальная аренда, система и минимальная а",
+        "decision": "Инструмент для урока в другом городе | Местная аренда без перевозки своего",
+        "next_action": "Местная аренда без перевозки своего"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Поездка к преподавателю или на консультацию не всегда оправдывает перевозку",
+        "decision": "Урок музыки в поездке | Сохранить программу на инструменте по месту занятий",
+        "next_action": "Сохранить программу на инструменте по месту занятий"
+      }
+    },
+    "instrument-dlya-vyezdnoy-shkoly": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструменты для выездной школы: несколько дней интенсивных занятий, ансамбл",
+        "decision": "Инструменты для выездной музыкальной школы | Учебный состав на несколько дней",
+        "next_action": "Учебный состав на несколько дней"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Выездная школа объединяет индивидуальные уроки, ансамбли и длинные часы пра",
+        "decision": "Выездная музыкальная школа | Индивидуальные уроки и ансамбли в одной смене",
+        "next_action": "Индивидуальные уроки и ансамбли в одной смене"
+      }
+    },
+    "instrument-dlya-letney-akademii": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент для летней академии: занятия, мастер-классы, ансамбли и финально",
+        "decision": "Инструменты для летней музыкальной академии | На курс, ансамбли и концерт",
+        "next_action": "На курс, ансамбли и концерт"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "В академии инструмент проходит через индивидуальные уроки, ансамбль, самост",
+        "decision": "Летняя музыкальная академия | Репетиционный период и заключительная программа",
+        "next_action": "Репетиционный период и заключительная программа"
+      }
+    },
+    "instrument-dlya-uchebnogo-sbora": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструменты для сборов: индивидуальная практика, секционные занятия и общие",
+        "decision": "Инструменты на музыкальные сборы в аренду | Оснащение классов и ансамблей",
+        "next_action": "Оснащение классов и ансамблей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "На учебном сборе инструменты одновременно нужны в личной практике, секциях ",
+        "decision": "Музыкальные учебные сборы | Секции, индивидуальные уроки и совместный концерт",
+        "next_action": "Секции, индивидуальные уроки и совместный концерт"
+      }
+    },
+    "instrument-dlya-zanyatiy-s-dvumya-prepodavatelyami": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Инструмент при занятиях у двух педагогов: согласование требований и общий у",
+        "decision": "Инструмент для занятий с двумя педагогами | Один комплект на общую программу",
+        "next_action": "Один комплект на общую программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Ученик может заниматься специальностью и дополнительной техникой у разных п",
+        "decision": "Два музыкальных преподавателя | Разные уроки на одном учебном инструменте",
+        "next_action": "Разные уроки на одном учебном инструменте"
+      }
+    },
+    "instrument-na-period-smeny-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Временный инструмент при переходе к новому педагогу: сохранение техники и у",
+        "decision": "Инструмент на время смены педагога | Аренда без перерыва в занятиях",
+        "next_action": "Аренда без перерыва в занятиях"
+      },
+      "n1": {
+        "source_path": "content/sections/zz123-teacher-lesson-format-routes.json",
+        "source_quote": "Новый преподаватель может иначе видеть размер, систему, постановку и следую",
+        "decision": "Переход к новому преподавателю | Продолжение практики и новый учебный план",
+        "next_action": "Продолжение практики и новый учебный план"
+      }
+    },
+    "instrument-po-programme-ekzamena": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент на экзамен по программе преподавателя: диапазон, система и адапт",
+        "decision": "Инструмент под программу экзамена | Аренда на подготовку и выступление",
+        "next_action": "Аренда на подготовку и выступление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Перед экзаменом инструмент выбирают не для общего развития, а под уже подго",
+        "decision": "Экзаменационная программа | Один инструмент от разучивания до комиссии",
+        "next_action": "Один инструмент от разучивания до комиссии"
+      }
+    },
+    "instrument-po-programme-konkursa": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент на конкурс: требования репертуара, адаптация, зал и консультация",
+        "decision": "Инструмент по конкурсной программе | Аренда на весь конкурсный период",
+        "next_action": "Аренда на весь конкурсный период"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Конкурсный инструмент имеет смысл, когда конкретное ограничение домашнего э",
+        "decision": "Конкурсная программа | Репертуар на подходящем исполнительском инструменте",
+        "next_action": "Репертуар на подходящем исполнительском инструменте"
+      }
+    },
+    "instrument-po-programme-proslushivaniya": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент на прослушивание: рискованные фрагменты, адаптация и повторяемос",
+        "decision": "Инструмент для прослушивания в аренду | Подготовка и выступление комплектом",
+        "next_action": "Подготовка и выступление комплектом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "На прослушивании ценится способность музыканта повторить результат. Незнако",
+        "decision": "Программа прослушивания | От индивидуальных занятий до оркестрового отбора",
+        "next_action": "От индивидуальных занятий до оркестрового отбора"
+      }
+    },
+    "instrument-dlya-postupleniya-v-muzykalnuyu-shkolu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для вступительных занятий и первых месяцев музыкальной школы.",
+        "decision": "Инструмент для поступления в музыкальную школу | На вступление и первые уроки",
+        "next_action": "На вступление и первые уроки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "До поступления ещё неизвестны точные требования будущего преподавателя и ск",
+        "decision": "Первый инструмент музыкальной школы | От вступительной пробы до занятий",
+        "next_action": "От вступительной пробы до занятий"
+      }
+    },
+    "instrument-dlya-postupleniya-v-uchilishche": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для подготовки в музыкальное училище: step-up, прослушивание и д",
+        "decision": "Инструмент для поступления в училище | На подготовку и вступительную программу",
+        "next_action": "На подготовку и вступительную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "На уровне поступления в училище требования уже выходят за рамки первого уче",
+        "decision": "Поступление в музыкальное училище | Профессиональный репертуар и новый учебный этап",
+        "next_action": "Профессиональный репертуар и новый учебный этап"
+      }
+    },
+    "instrument-dlya-postupleniya-v-konservatoriyu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для консерваторского прослушивания: профессиональная программа, ",
+        "decision": "Инструмент для поступления в консерваторию | На профессиональную программу",
+        "next_action": "На профессиональную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "На профессиональном входе особенно важно отделять ценность конкретного инст",
+        "decision": "Вступительные в консерваторию | Полноценный инструмент для серьёзного репертуара",
+        "next_action": "Полноценный инструмент для серьёзного репертуара"
+      }
+    },
+    "instrument-dlya-perehoda-v-sleduyushchiy-klass": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для нового учебного класса: диапазон, размер, техника и step-up.",
+        "decision": "Инструмент на следующий класс в аренду | Новый учебный уровень без покупки",
+        "next_action": "Новый учебный уровень без покупки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Переход в следующий класс сам по себе не требует нового инструмента. Он ста",
+        "decision": "Переход в следующий класс | Учебная программа расширяет возможности инструмента",
+        "next_action": "Учебная программа расширяет возможности инструмента"
+      }
+    },
+    "instrument-posle-izmeneniya-repertuara": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент под новую программу: диапазон, строй, техника и временный доступ",
+        "decision": "Инструмент под новый репертуар в аренду | Доступ к нужному диапазону и строю",
+        "next_action": "Доступ к нужному диапазону и строю"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Смена репертуара может впервые потребовать свойства, которое раньше было не",
+        "decision": "Новый репертуар | Другие партии при уже освоенной исполнительской технике",
+        "next_action": "Другие партии при уже освоенной исполнительской технике"
+      }
+    },
+    "instrument-dlya-orkestrovogo-klassa": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для занятий в оркестровом классе: строй, баланс и секционная фун",
+        "decision": "Инструмент для оркестрового класса | Аренда на репетиции и концерты",
+        "next_action": "Аренда на репетиции и концерты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "В оркестре инструмент впервые проверяется не только по удобству ученика, но",
+        "decision": "Оркестровый класс | Индивидуальная партия в составе инструментальной группы",
+        "next_action": "Индивидуальная партия в составе инструментальной группы"
+      }
+    },
+    "instrument-dlya-kamernogo-klassa": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для камерного ансамбля по учебной программе преподавателя.",
+        "decision": "Инструмент для камерного класса | Аренда для ансамблевой учебной программы",
+        "next_action": "Аренда для ансамблевой учебной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Камерная музыка требует быстро менять роль между солированием, сопровождени",
+        "decision": "Камерный класс | Партии и совместная работа нескольких исполнителей",
+        "next_action": "Партии и совместная работа нескольких исполнителей"
+      }
+    },
+    "instrument-dlya-raboty-nad-tehnikoy-po-zadaniyu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для отдельного технического этапа: повторяемая механика и контро",
+        "decision": "Инструмент для технических занятий | Аренда под задание преподавателя",
+        "next_action": "Аренда под задание преподавателя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Иногда преподаватель выделяет несколько недель на конкретный технический уз",
+        "decision": "Техническая программа | Повторяемость движения на рабочем инструменте",
+        "next_action": "Повторяемость движения на рабочем инструменте"
+      }
+    },
+    "instrument-dlya-raboty-nad-zvukom-po-zadaniyu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для работы над качеством звука: отклик, атака, sustain и педагог",
+        "decision": "Инструмент для работы над звуком | Аренда на исполнительский учебный этап",
+        "next_action": "Аренда на исполнительский учебный этап"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Когда ноты уже выучены, преподаватель может переключить внимание на качеств",
+        "decision": "Работа над звуком | Атака, продолжение и слышимая динамика инструмента",
+        "next_action": "Атака, продолжение и слышимая динамика инструмента"
+      }
+    },
+    "instrument-dlya-raboty-nad-dinamikoy-po-zadaniyu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для работы над динамикой: чувствительность, отклик и контроль pp",
+        "decision": "Инструмент для занятий динамикой | Прокат для отработки тихого и громкого",
+        "next_action": "Прокат для отработки тихого и громкого"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "На раннем этапе достаточно различать громко и тихо. Позже преподаватель нач",
+        "decision": "Динамика музыкального инструмента | Контроль звука между pianissimo и forte",
+        "next_action": "Контроль звука между pianissimo и forte"
+      }
+    },
+    "instrument-dlya-raboty-nad-intonatsiey-po-zadaniyu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для работы над интонацией: строй, мензура, состояние и слуховая ",
+        "decision": "Инструмент для работы над интонацией | Аренда для учебной практики",
+        "next_action": "Аренда для учебной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Работа над интонацией возможна только там, где сам инструмент настроен и ст",
+        "decision": "Интонационная работа | Строй и слух в ежедневной исполнительской практике",
+        "next_action": "Строй и слух в ежедневной исполнительской практике"
+      }
+    },
+    "instrument-dlya-raboty-nad-ritmom-po-zadaniyu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для ритмической работы: быстрый отклик, повторение и метроном.",
+        "decision": "Инструмент для занятий ритмом | Аренда на программу с преподавателем",
+        "next_action": "Аренда на программу с преподавателем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Ритмическая точность зависит от того, насколько предсказуемо инструмент отв",
+        "decision": "Ритмические упражнения | Быстрый отклик и повторение музыкального рисунка",
+        "next_action": "Быстрый отклик и повторение музыкального рисунка"
+      }
+    },
+    "instrument-dlya-raboty-nad-vynoslivostyu-po-zadaniyu": {
+      "n0": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Инструмент для длинных занятий: вес, баланс, сопротивление и техническая ус",
+        "decision": "Инструмент для длительных занятий | Аренда под программу выносливости",
+        "next_action": "Аренда под программу выносливости"
+      },
+      "n1": {
+        "source_path": "content/sections/zz124-teacher-milestone-routes.json",
+        "source_quote": "Когда программа становится длиннее, инструмент оценивается уже не первые ми",
+        "decision": "Музыкальная выносливость | Вес, баланс и сопротивление в долгой работе",
+        "next_action": "Вес, баланс и сопротивление в долгой работе"
+      }
+    }
+  }
+}
