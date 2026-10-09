@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-pervogo-instrumenta",
+      "n0": "Первая барабанная установка в аренду | Комплект для уроков и домашних занятий",
+      "n1": "Первая установка | Барабаны, тарелки и педали собираются вокруг исполнителя"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-domashnih-zanyatiy",
+      "n0": "Барабанная установка домой напрокат | От компактного сета до полного комплекта",
+      "n1": "Барабаны для дома | Репетиционная расстановка в собственном пространстве"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-vzroslomu-nachinayuschemu",
+      "n0": "Барабанная установка взрослому начинающему | Первый учебный комплект в аренду",
+      "n1": "Начать барабаны взрослым | Полная установка для освоения ритма"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-posle-pereryva",
+      "n0": "Барабанная установка после перерыва | Аренда для возвращения к игре",
+      "n1": "Вернуться к барабанам | Привычный сет и новый рабочий ритм"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-pered-pokupkoy",
+      "n0": "Барабанная установка перед покупкой | Прокат для пробы комплекта",
+      "n1": "Установка до покупки | Размеры барабанов и расположение тарелок в деле"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-malenkoy-komnaty",
+      "n0": "Компактная барабанная установка в аренду | Для небольшой репетиционной комнаты",
+      "n1": "Маленькая барабанная установка | Меньшие корпуса при рабочем наборе функций"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-dolgoy-repetitsii",
+      "n0": "Барабанная установка на длинную репетицию | Полный рабочий комплект в аренду",
+      "n1": "Барабанная репетиция | Посадка и расстановка на несколько часов игры"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-dzheza",
+      "n0": "Джазовая барабанная установка в аренду | Сет для трио, квартета и клуба",
+      "n1": "Джазовая установка | Ride, малый барабан и гибкая динамика"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-roka",
+      "n0": "Рок-барабанная установка напрокат | Комплект для группы и сцены",
+      "n1": "Рок-установка | Бас-барабан, рабочий, томы и тарелки в одном наборе"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-fanka",
+      "n0": "Фанковая барабанная установка в аренду | Комплект для грува и репетиций",
+      "n1": "Фанковая установка | Хай-хэт, малый и бас-барабан ведут общий пульс"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "barabannaya-ustanovka-dlya-akusticheskogo-sostava",
+      "n0": "Барабанная установка акустическому составу | Компактный сет напрокат",
+      "n1": "Акустический ансамбль с барабанами | Меньший масштаб звучания при полном ритме"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "malyy-baraban-dlya-domashney-praktiki",
+      "n0": "Малый барабан для домашних занятий | Отдельный инструмент в аренду",
+      "n1": "Рабочий барабан дома | Настоящая мембрана, подструнник и учебная техника"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "malyy-baraban-dlya-rudimentov",
+      "n0": "Малый барабан для рудиментов в аренду | Полноценный учебный рабочий",
+      "n1": "Рудименты на малом барабане | Ритмические фигуры и контроль атаки"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "malyy-baraban-pered-pokupkoy",
+      "n0": "Малый барабан напрокат перед покупкой | Сравнить корпус и настройку",
+      "n1": "Малый барабан до покупки | Глубина корпуса и характер подструнника"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "tarelki-dlya-pervogo-komplekta",
+      "n0": "Первый комплект тарелок в аренду | Хай-хэт, райд и крэш",
+      "n1": "Первые тарелки барабанщика | Три разные функции в одном комплекте"
+    },
+    {
+      "source_file": "content/sections/zz93-drum-kit-human-scenes.json",
+      "slug": "tarelki-pered-pokupkoy",
+      "n0": "Тарелки перед покупкой напрокат | Разные наборы для своей установки",
+      "n1": "Тарелки до покупки | Как звучит комплект рядом с собственными барабанами"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-vzroslomu-nachinayuschemu",
+      "n0": "Электронные барабаны взрослому новичку | Учебный комплект напрокат",
+      "n1": "Первые электронные барабаны | Установка в наушниках для освоения ритма"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-domashnih-zanyatiy",
+      "n0": "Электронные барабаны домой в аренду | Для ежедневной тихой практики",
+      "n1": "Домашняя электронная установка | Пэды и педали вместо громких корпусов"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-posle-akusticheskih",
+      "n0": "Электронные барабаны после акустических | Аренда на новый формат занятий",
+      "n1": "От акустики к электронным барабанам | Привычная установка и цифровой звук"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "akusticheskaya-ustanovka-posle-elektronnyh",
+      "n0": "Акустическая установка после электронных барабанов | Аренда для живой сцены",
+      "n1": "От электронной установки к акустике | Механика мембран и тарелок в реальном зале"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-pered-pokupkoy",
+      "n0": "Электронные барабаны напрокат перед покупкой | Сравнить пэды и модули",
+      "n1": "Электронная установка до покупки | Реакция пэдов и звучание модуля"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-trenirovki-v-naushnikah",
+      "n0": "Электронные барабаны для занятий в наушниках | Тихая установка в аренду",
+      "n1": "Барабаны в наушниках | Полный ритмический комплект без акустической громкости"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-zapisi-midi",
+      "n0": "Электронные барабаны с MIDI | Аренда для записи ритмических партий",
+      "n1": "Запись MIDI с электронных барабанов | Сохранить удары как управляемые ноты"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-zapisi-audio",
+      "n0": "Электронные барабаны для аудиозаписи | Звук модуля сразу в интерфейс",
+      "n1": "Запись электронных ударных | Готовый ритмический сигнал без микрофонов"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dvoynoy-pedalyu",
+      "n0": "Электронные барабаны с двойной педалью | Аренда для тренировки ног",
+      "n1": "Двойная педаль на электронных барабанах | Скорость и координация бас-барабана"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-raboty-nad-dinamikoy",
+      "n0": "Электронные барабаны для динамики | Пэды с чувствительностью к удару",
+      "n1": "Динамика электронных барабанов | От тихого удара до акцента на пэдах"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-vremennogo-zhilya",
+      "n0": "Электронные барабаны во временное жильё | Компактный комплект в аренду",
+      "n1": "Временное жильё и электронные барабаны | Регулярная практика без акустического сета"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-raboty-s-metronomom",
+      "n0": "Электронные барабаны для занятий с метрономом | Комплект напрокат",
+      "n1": "Электронные барабаны и метроном | Поддержка ровного пульса в наушниках"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-distantsionnogo-uroka",
+      "n0": "Электронные барабаны для онлайн-урока | Аренда с подключением к компьютеру",
+      "n1": "Онлайн-урок на электронных барабанах | Передача ритма преподавателю"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-sravneniya-s-akusticheskoy",
+      "n0": "Акустические и электронные барабаны | Аренда двух форматов для сравнения",
+      "n1": "Электронные или акустические барабаны | Разные источники звука и динамики"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-raboty-nad-hi-hatom",
+      "n0": "Электронные барабаны с хай-хэтом | Аренда для ритмической практики",
+      "n1": "Электронный хай-хэт | Управление открытием педалью и атакой палочки"
+    },
+    {
+      "source_file": "content/sections/zz94-electronic-drum-human-scenes.json",
+      "slug": "elektronnye-barabany-dlya-trenirovki-nog",
+      "n0": "Электронные барабаны для тренировки ног | Комплект с рабочими педалями",
+      "n1": "Ноги барабанщика | Бас-барабан и хай-хэт как самостоятельная координация"
+    }
+  ]
+}
