@@ -99,6 +99,12 @@ class TitleWorklistTests(unittest.TestCase):
     def test_paused_manifest_still_lists_all_unreviewed_titles(self):
         self._manifest({}, paused=True)
         self._reviews({})
+        for path, original in (("skripka/index.html", "Аренда скрипки"),
+                               ("details/skripka/index.html", "Скрипка")):
+            (self.site / path).write_text(
+                "<html><head><title>" + original + "</title></head><body></body></html>",
+                encoding="utf-8",
+            )
         result = self.run_inventory()
         self.assertEqual(result["summary"]["model_reviewed_titles"],0)
         self.assertEqual(result["summary"]["pending_all_titles"],3)
