@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "slug": "pianino-dlya-perehoda-s-cifrovogo",
+      "n0": "Акустическое пианино после цифрового | Аренда для занятий на живой механике",
+      "n1": "После цифрового пианино | Молоточки, струны и дека вместо динамиков",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-vzroslogo-posle-pereryva",
+      "n0": "Акустическое пианино взрослому после перерыва | Аренда для возвращения к занятиям",
+      "n1": "Возвращение к акустическому пианино | Живые струны и знакомая клавиатура",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-domashnih-zanyatiy-rebenka",
+      "n0": "Акустическое пианино ребёнку домой | Аренда на учебный период",
+      "n1": "Домашнее пианино ребёнка | Та же музыкальная практика между уроками",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-dvuh-uchenikov",
+      "n0": "Акустическое пианино для двух учеников | Один инструмент на домашние занятия",
+      "n1": "Пианино на двоих | Общая клавиатура для разных программ и уровней",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-raboty-nad-pedalyu",
+      "n0": "Акустическое пианино с педалью | Аренда для фортепианных занятий",
+      "n1": "Педаль акустического пианино | Реальный резонанс после отпускания клавиши",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-bystryh-povtornyh-not",
+      "n0": "Акустическое пианино для быстрых повторов | Аренда для технической практики",
+      "n1": "Повторные ноты на пианино | Молоточковая механика отвечает за скорость",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-polifonii",
+      "n0": "Акустическое пианино для полифонии | Аренда для Баха и учебной программы",
+      "n1": "Полифония на пианино | Независимые голоса на одной клавиатуре",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-akkompanementa",
+      "n0": "Акустическое пианино для аккомпанемента | Прокат концертмейстеру и ансамблю",
+      "n1": "Пианино в аккомпанементе | Поддерживать вокалиста и не терять фортепианную партию",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-zanyatiy-s-prepodavatelem-doma",
+      "n0": "Акустическое пианино для уроков дома | Аренда для занятий с педагогом",
+      "n1": "Домашние уроки за пианино | Один инструмент для ученика и преподавателя",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-pered-pokupkoy",
+      "n0": "Акустическое пианино напрокат до покупки | Попробовать живой инструмент дома",
+      "n1": "Пианино до покупки | Клавиатура и звук в своей комнате",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-sravneniya-s-royalem",
+      "n0": "Пианино и рояль для сравнения | Аренда двух акустических форматов",
+      "n1": "Пианино и рояль | Вертикальная и горизонтальная механика в исполнении",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-malenkoy-komnaty",
+      "n0": "Акустическое пианино для маленькой комнаты | Компактный инструмент в аренду",
+      "n1": "Акустическое пианино в комнате | Корпус и помещение звучат вместе",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-dolgih-zanyatiy",
+      "n0": "Акустическое пианино для долгих занятий | Аренда на регулярную практику",
+      "n1": "Долгая работа за пианино | Предсказуемая механика на протяжении занятия",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-chteniya-s-lista",
+      "n0": "Акустическое пианино для чтения с листа | Аренда для ежедневных упражнений",
+      "n1": "Чтение с листа за пианино | Нотный текст и механическое движение в реальном времени",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-razuchivaniya-kamernoy-partii",
+      "n0": "Акустическое пианино для камерной партии | Прокат для самостоятельной подготовки",
+      "n1": "Камерная партия на пианино | Слышать будущих партнёров в собственной фактуре",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-podgotovki-akkompaniatora",
+      "n0": "Акустическое пианино концертмейстеру | Аренда для подготовки программ",
+      "n1": "Практика концертмейстера | Чтение с листа, вокал и ансамблевый баланс",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    },
+    {
+      "slug": "pianino-dlya-vremennogo-uchebnogo-klassa",
+      "n0": "Акустическое пианино для временного класса | Аренда для учебного помещения",
+      "n1": "Временный музыкальный класс | Полноценная акустическая клавиатура на период занятий",
+      "source_file": "content/sections/zz86-acoustic-piano-human-scenes.json"
+    }
+  ]
+}
