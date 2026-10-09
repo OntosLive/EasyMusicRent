@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-po-tochnoy-modeli-prepodavatelya",
+      "n0": "Инструмент по точной модели преподавателя | Аренда указанной модели и комплекта",
+      "n1": "Модель, названная педагогом | Конкретный инструмент в учебной программе"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-po-marke-prepodavatelya",
+      "n0": "Инструмент рекомендованной марки в аренду | Серии и размеры одной школы",
+      "n1": "Марка по рекомендации педагога | Несколько инструментов внутри бренда"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-po-parametram-prepodavatelya",
+      "n0": "Инструмент по параметрам преподавателя | Аренда под готовое техническое задание",
+      "n1": "Инструмент по учебному заданию | Размер, система и диапазон определены заранее"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-esli-prepodavatel-ne-nazval-model",
+      "n0": "Инструмент для занятий без указанной модели | Прокат по учебному этапу",
+      "n1": "Учебный инструмент без точной модели | Предмет, уровень и программа важнее названия"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-smenit-razmer-po-rekomendatsii",
+      "n0": "Инструмент следующего размера в аренду | Переход по рекомендации педагога",
+      "n1": "Смена размера на уроках | Продолжение учебной программы с новым корпусом"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-smenit-menzuru-po-rekomendatsii",
+      "n0": "Инструмент другой мензуры напрокат | На новый этап занятий по рекомендации",
+      "n1": "Смена мензуры в обучении | Новые расстояния при сохранении музыкальной программы"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-smenit-sistemu-po-rekomendatsii",
+      "n0": "Инструмент другой системы в аренду | Клапаны, клавиши или басы под новый курс",
+      "n1": "Смена системы инструмента | Новая исполнительская механика внутри той же учёбы"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-smenit-stroy-po-rekomendatsii",
+      "n0": "Инструмент другого строя напрокат | Под новую партию и задание педагога",
+      "n1": "Новый строй инструмента | Транспозиция и ноты без замены всей музыкальной задачи"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-posle-zamechaniya-o-postanovke",
+      "n0": "Инструмент после замечания о постановке | Аренда другого размера и формата",
+      "n1": "Инструмент и постановка | Геометрия корпуса участвует в движении исполнителя"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-posle-zamechaniya-o-vyse-strun",
+      "n0": "Струнный инструмент с другой высотой струн | Аренда для учебной практики",
+      "n1": "Высота струн в обучении | Разница игрового сопротивления и контроля"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-posle-zamechaniya-o-mehanike",
+      "n0": "Инструмент с другой механикой напрокат | Под требования нового учебного этапа",
+      "n1": "Работа механики | Клавиши, клапаны и исполнительская обратная связь"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-posle-zamechaniya-o-pedali",
+      "n0": "Инструмент с нужной педальной системой | Аренда по заданию преподавателя",
+      "n1": "Педали в учебной программе | От простого sustain до специальных функций"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-posle-zamechaniya-o-diapazone",
+      "n0": "Инструмент большего диапазона в аренду | Для новой программы и крайних нот",
+      "n1": "Диапазон инструмента | Расширенный регистр меняет доступный репертуар"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-posle-zamechaniya-o-vese",
+      "n0": "Более лёгкий инструмент в аренду | Сохраняем учебный уровень без лишней массы",
+      "n1": "Вес музыкального инструмента | Баланс и способ удержания меняют нагрузку"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-dlya-sravneniya-dvuh-variantov-s-prepodavatelem",
+      "n0": "Два инструмента в аренду для сравнения | Выбор вместе с преподавателем",
+      "n1": "Проба двух инструментов | Одна программа на двух разных исполнительских системах"
+    },
+    {
+      "source_file": "content/sections/zz122-teacher-change-routes.json",
+      "slug": "instrument-dlya-step-up-po-rekomendatsii",
+      "n0": "Step-up инструмент в аренду | Следующая ступень по рекомендации преподавателя",
+      "n1": "Переход на step-up инструмент | Более сложная программа и новые возможности инструмента"
+    }
+  ]
+}
