@@ -21,11 +21,11 @@ class AuthoredTitlesTests(unittest.TestCase):
         self.manifest = self.root / "titles.json"
         self.titles = {
             "": {
-                "n0": "Аренда музыкальных инструментов | Укажите назначение и срок пользования",
+                "n0": "Аренда музыкальных инструментов | Можно обсудить разные сроки аренды",
                 "n1": "Музыкальные инструменты | Устройство определяет способ извлечения звука",
             },
             "skripka": {
-                "n0": "Скрипка ребёнку в аренду | Для выбора размера нужны посадка и длина руки",
+                "n0": "Скрипка ребёнку в аренду | Да, можно организовать аренду на нужный срок",
                 "n1": "Скрипка для занятий | Положение руки определяет доступность позиций",
             },
         }
@@ -99,15 +99,20 @@ class AuthoredTitlesTests(unittest.TestCase):
         aliases = json.loads((ROOT / "content" / "aliases.json").read_text(encoding="utf-8"))
         self.assertFalse(set(pairs) & set(aliases))
 
-    def test_current_pilot_is_published_literally_and_reviewed(self):
+    def test_rejected_rental_titles_are_not_in_active_manifest(self):
         pairs = authored.validate_manifest(authored.DEFAULT_MANIFEST)
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
-        self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
-        self.assertTrue(manifest["requires_owner_review"])
-        self.assertEqual(len(pairs), 8)
-        self.assertEqual(len({title for pair in pairs.values() for title in pair.values()}), 16)
-        self.assertIn("мензуру", pairs["arenda-kontrabasa-na-kontsert-moskva"]["n0"])
-        self.assertIn("смена размера", pairs["skripka-na-uchebnyy-god"]["n0"])
+        self.assertEqual(manifest["publication_status"], "paused_pending_functional_review")
+        self.assertEqual(pairs, {})
+        self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST)["modified"], 0)
+        self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST, check=True)["modified"], 0)
+
+    def test_title_can_be_direct_without_vertical_separator(self):
+        self.titles["skripka"]["n0"] = "Скрипка ребёнку в аренду на нужный срок"
+        self._write_manifest(self.titles)
+        pairs = authored.validate_manifest(self.manifest)
+        self.assertEqual(pairs["skripka"]["n0"], "Скрипка ребёнку в аренду на нужный срок")
+        self.assertEqual(authored.apply(self.site, self.manifest)["modified"], 4)
 
     def test_empty_manifest_requires_explicit_editorial_pause(self):
         self._write_manifest({})
