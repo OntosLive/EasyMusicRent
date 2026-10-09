@@ -22,8 +22,8 @@ class TitleWorklistTests(unittest.TestCase):
         self.quote = "Размер инструмента определяется посадкой и длиной руки музыканта."
         self.source.write_text("<html><body><p>" + self.quote + "</p></body></html>", encoding="utf-8")
         self.authored = {
-            "n0": "Скрипка в аренду | Проверьте размер по посадке и длине руки",
-            "n1": "Скрипка и посадка | Размер определяет положение левой руки",
+            "n0": "Скрипка в аренду | Да, можно организовать на нужный срок",
+            "n1": "Скрипка для занятий | Размер и посадка",
         }
         self.manifest = self.base / "manifest.json"
         self.reviews = self.base / "reviews.json"
