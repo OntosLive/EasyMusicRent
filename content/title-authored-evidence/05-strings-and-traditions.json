@@ -1,0 +1,1799 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal excerpts and authored titles",
+  "reviews": {
+    "skripka-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка взрослому начинающему: размер, подбор комплекта, смычок и пробный п",
+        "decision": "Скрипка взрослому начинающему в аренду | Полноценный инструмент для первых уроков",
+        "next_action": "Полноценный инструмент для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Взрослый новичок обычно начинает сразу с полного размера, но удобство нельз",
+        "decision": "Первая скрипка взрослому | Учёба с первого шага на рабочем инструменте",
+        "next_action": "Учёба с первого шага на рабочем инструменте"
+      }
+    },
+    "skripka-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка для дома: размер, подбородник, плечевой упор, смычок и регулярная п",
+        "decision": "Скрипка для дома напрокат | Инструмент для ежедневной практики между уроками",
+        "next_action": "Инструмент для ежедневной практики между уроками"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Между уроками ученик закрепляет не только ноты, но и положение инструмента ",
+        "decision": "Домашняя скрипка | Собственный звук, постановка и повторение материала",
+        "next_action": "Собственный звук, постановка и повторение материала"
+      }
+    },
+    "skripka-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка после перерыва: постановка, интонация, смычок и восстановление регу",
+        "decision": "Скрипка после перерыва в аренду | Вернуться к занятиям без новой покупки",
+        "next_action": "Вернуться к занятиям без новой покупки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "После паузы ноты и фразы могут оставаться в памяти, а точность левой руки и",
+        "decision": "Возвращение к скрипке | Знакомый инструмент для новой фазы музыкальной жизни",
+        "next_action": "Знакомый инструмент для новой фазы музыкальной жизни"
+      }
+    },
+    "skripka-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Аренда скрипки перед покупкой: размер, отклик, setup, смычок и собственный ",
+        "decision": "Скрипка перед покупкой напрокат | Попробовать инструмент в обычной работе",
+        "next_action": "Попробовать инструмент в обычной работе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка особенно зависит от конкретного экземпляра и настройки. Название мо",
+        "decision": "Скрипка до покупки | Как ведёт себя инструмент за пределами короткой пробы",
+        "next_action": "Как ведёт себя инструмент за пределами короткой пробы"
+      }
+    },
+    "skripka-na-proslushivanie": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка на прослушивание: адаптация, интонация, смычок, верхний регистр и п",
+        "decision": "Скрипка на прослушивание в аренду | Для подготовки и выступления",
+        "next_action": "Для подготовки и выступления"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Смена инструмента перед прослушиванием оправдана только тогда, когда новая ",
+        "decision": "Скрипка для прослушивания | Сольная программа на подходящем инструменте",
+        "next_action": "Сольная программа на подходящем инструменте"
+      }
+    },
+    "skripka-dlya-smeny-razmera": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка следующего размера: длина руки, первая позиция, смычок и переход бе",
+        "decision": "Скрипка следующего размера в аренду | Продолжить обучение на новом инструменте",
+        "next_action": "Продолжить обучение на новом инструменте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Ребёнок растёт, и прежняя скрипка постепенно становится мала. Переход полез",
+        "decision": "Следующий размер скрипки | Последовательная линия от детских размеров к 4/4",
+        "next_action": "Последовательная линия от детских размеров к 4/4"
+      }
+    },
+    "skripka-dlya-letney-praktiki": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка на лето: временное жильё, учебный размер, смычок и сохранение формы",
+        "decision": "Скрипка на лето напрокат | Для каникул, занятий и музыкальных лагерей",
+        "next_action": "Для каникул, занятий и музыкальных лагерей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Каникулы, дача или поездка легко прерывают скрипичную практику, если основн",
+        "decision": "Летняя скрипичная практика | Регулярная игра вне учебного расписания",
+        "next_action": "Регулярная игра вне учебного расписания"
+      }
+    },
+    "skripka-dlya-master-klassa": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Скрипка для мастер-класса: временная замена, адаптация, знакомая программа ",
+        "decision": "Скрипка для мастер-класса в аренду | На занятия и выступления с педагогом",
+        "next_action": "На занятия и выступления с педагогом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "На выездной мастер-класс ученик может приехать без своего инструмента или н",
+        "decision": "Скрипка на мастер-классе | Урок, демонстрация и работа над программой",
+        "next_action": "Урок, демонстрация и работа над программой"
+      }
+    },
+    "alt-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Альт взрослому начинающему: длина корпуса, рука, подбородник, смычок и проб",
+        "decision": "Альт взрослому начинающему напрокат | Полноценный инструмент для первых занятий",
+        "next_action": "Полноценный инструмент для первых занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "У альта нет одной универсальной взрослой длины корпуса, поэтому даже взросл",
+        "decision": "Первый альт взрослому | Собственный низкий голос струнного семейства",
+        "next_action": "Собственный низкий голос струнного семейства"
+      }
+    },
+    "alt-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Альт для дома: длина корпуса, смычок, плечевой упор и регулярная учебная пр",
+        "decision": "Альт для домашних занятий в аренду | Учебный и концертный инструмент дома",
+        "next_action": "Учебный и концертный инструмент дома"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "На альте особенно заметно, если корпус чуть велик: ежедневная практика пост",
+        "decision": "Домашний альт | Регулярная работа со средним струнным голосом",
+        "next_action": "Регулярная работа со средним струнным голосом"
+      }
+    },
+    "alt-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Альт после перерыва: размер, интонация, смычок и восстановление выносливост",
+        "decision": "Альт после перерыва в аренду | Вернуться к музыке без обязательной покупки",
+        "next_action": "Вернуться к музыке без обязательной покупки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "После паузы альтовая геометрия может ощущаться тяжелее, чем помнит музыкант",
+        "decision": "Возвращение к альту | Привычная струнная партия и новая практика",
+        "next_action": "Привычная струнная партия и новая практика"
+      }
+    },
+    "alt-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Аренда альта перед покупкой: длина корпуса, мензура, отклик C-струны, смычо",
+        "decision": "Альт напрокат перед покупкой | Сравнить несколько размеров и тембров",
+        "next_action": "Сравнить несколько размеров и тембров"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "У альта особенно опасно выбирать по абстрактной идее «чем больше, тем лучше",
+        "decision": "Альт до покупки | Разные размеры корпуса и собственный голос",
+        "next_action": "Разные размеры корпуса и собственный голос"
+      }
+    },
+    "alt-dlya-orkestra": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Альт для оркестра: размер, проекция, C-струна, длительная репетиция и секци",
+        "decision": "Альт в оркестр напрокат | Для репетиций, гастролей и концертов",
+        "next_action": "Для репетиций, гастролей и концертов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Оркестровая альтовая партия требует долгих репетиций, стабильной середины и",
+        "decision": "Оркестровый альт | Средняя струнная партия между скрипками и виолончелями",
+        "next_action": "Средняя струнная партия между скрипками и виолончелями"
+      }
+    },
+    "alt-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Альт для концерта: адаптация, размер, смычок, зал и подготовленная программ",
+        "decision": "Альт на концерт в аренду | От квартета до оркестровой сцены",
+        "next_action": "От квартета до оркестровой сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Временный концертный альт имеет смысл только при достаточном времени на ада",
+        "decision": "Концертный альт | Камерные и оркестровые роли одного инструмента",
+        "next_action": "Камерные и оркестровые роли одного инструмента"
+      }
+    },
+    "alt-na-ekzamen": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Альт на экзамен: размер, программа, смычок, адаптация и повторяемость резул",
+        "decision": "Альт на экзамен напрокат | На подготовку и экзаменационную программу",
+        "next_action": "На подготовку и экзаменационную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Перед экзаменом новая скрипичная или альтовая геометрия опаснее среднего те",
+        "decision": "Альт на экзамене | От домашней работы до исполнения перед комиссией",
+        "next_action": "От домашней работы до исполнения перед комиссией"
+      }
+    },
+    "alt-dlya-smeny-razmera": {
+      "n0": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "Альт следующего размера: длина корпуса, мензура, первая позиция и переход б",
+        "decision": "Альт следующего размера в аренду | Продолжить обучение на подходящем корпусе",
+        "next_action": "Продолжить обучение на подходящем корпусе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz97-violin-viola-human-scenes.json",
+        "source_quote": "У альта размерная лестница менее стандартизована, чем у скрипки, поэтому пе",
+        "decision": "Смена размера альта | Несколько размеров при сохранении альтового голоса",
+        "next_action": "Несколько размеров при сохранении альтового голоса"
+      }
+    },
+    "violonchel-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель после перерыва: посадка, шпиль, левая рука, смычок и восстановле",
+        "decision": "Виолончель после перерыва напрокат | Вернуться к репетициям и занятиям",
+        "next_action": "Вернуться к репетициям и занятиям"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "После паузы музыкант может помнить партии, но заново собирать посадку, поло",
+        "decision": "Возвращение к виолончели | Знакомый струнный голос в новой практике",
+        "next_action": "Знакомый струнный голос в новой практике"
+      }
+    },
+    "violonchel-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Аренда виолончели перед покупкой: размер, setup, верхний регистр, нижняя ст",
+        "decision": "Виолончель перед покупкой в аренду | Проба инструментов разных размеров и уровней",
+        "next_action": "Проба инструментов разных размеров и уровней"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель слишком сильно зависит от конкретного экземпляра и настройки, чт",
+        "decision": "Виолончель до покупки | Посадка, корпус и звук в обычных занятиях",
+        "next_action": "Посадка, корпус и звук в обычных занятиях"
+      }
+    },
+    "violonchel-na-proslushivanie": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель на прослушивание: адаптация, верхний регистр, смычок, посадка и ",
+        "decision": "Виолончель на прослушивание напрокат | На подготовку и выступление",
+        "next_action": "На подготовку и выступление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Перед прослушиванием смена виолончели оправдана только при достаточном врем",
+        "decision": "Виолончель для прослушивания | Сольная программа на полноценном инструменте",
+        "next_action": "Сольная программа на полноценном инструменте"
+      }
+    },
+    "violonchel-dlya-smeny-razmera": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель следующего размера: длина корпуса, мензура, шпиль, первая позици",
+        "decision": "Виолончель следующего размера в аренду | Продолжить учёбу без покупки",
+        "next_action": "Продолжить учёбу без покупки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Детская виолончельная лестница длинная, и переход между размерами лучше дел",
+        "decision": "Новый размер виолончели | Учебная линия от детских до полноразмерных инструментов",
+        "next_action": "Учебная линия от детских до полноразмерных инструментов"
+      }
+    },
+    "violonchel-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель для камерного ансамбля: баланс, атака, C-струна, артикуляция и р",
+        "decision": "Виолончель для камерного ансамбля | Аренда для дуэта, трио и квартета",
+        "next_action": "Аренда для дуэта, трио и квартета"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "В камерном составе виолончель может одновременно держать гармоническую опор",
+        "decision": "Виолончель в камерной музыке | Бас, мелодия и диалог с партнёрами",
+        "next_action": "Бас, мелодия и диалог с партнёрами"
+      }
+    },
+    "violonchel-dlya-letney-praktiki": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель на лето: временное жильё, учебный размер, смычок и сохранение фо",
+        "decision": "Виолончель на лето в аренду | Для каникул, мастер-классов и музыкальных лагерей",
+        "next_action": "Для каникул, мастер-классов и музыкальных лагерей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "На каникулы или длинную поездку виолончель трудно перевозить без отдельной ",
+        "decision": "Летняя практика виолончелиста | Занятия в другом городе без перевозки своего корпуса",
+        "next_action": "Занятия в другом городе без перевозки своего корпуса"
+      }
+    },
+    "violonchel-dlya-vtorogo-mesta-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель для второго места занятий: совпадение размера, шпиля, смычка и р",
+        "decision": "Виолончель для второго места занятий | Дополнительный инструмент напрокат",
+        "next_action": "Дополнительный инструмент напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Если ученик регулярно живёт между двумя адресами, перевозка виолончели неск",
+        "decision": "Вторая виолончель для практики | Занятия в двух местах без постоянной перевозки",
+        "next_action": "Занятия в двух местах без постоянной перевозки"
+      }
+    },
+    "violonchel-dlya-master-klassa": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончель для мастер-класса: временная замена, совпадение размера, шпиля и",
+        "decision": "Виолончель на мастер-класс в аренду | Для урока, подготовки и итогового концерта",
+        "next_action": "Для урока, подготовки и итогового концерта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "На выездной мастер-класс виолончель особенно сложно перевозить. Арендный ин",
+        "decision": "Виолончель для мастер-класса | Учебная и исполнительская работа на одной программе",
+        "next_action": "Учебная и исполнительская работа на одной программе"
+      }
+    },
+    "kontrabas-dlya-perehoda-s-bas-gitary": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Переход с бас-гитары на контрабас: мензура, безладовая интонация, pizzicato",
+        "decision": "Контрабас после бас-гитары в аренду | Попробовать акустический басовый инструмент",
+        "next_action": "Попробовать акустический басовый инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Бас-гитарист уже слышит низкий голос и ритмическую функцию, но контрабас тр",
+        "decision": "От бас-гитары к контрабасу | Басовая функция в другой мензуре и посадке",
+        "next_action": "Басовая функция в другой мензуре и посадке"
+      }
+    },
+    "kontrabas-dlya-perehoda-s-violoncheli": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Переход с виолончели на контрабас: мензура, строй, позиции, смычок и вертик",
+        "decision": "Контрабас после виолончели в аренду | Перейти в низкую струнную партию",
+        "next_action": "Перейти в низкую струнную партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Виолончелист уже знает смычковый звук и безладовую интонацию, но контрабас ",
+        "decision": "От виолончели к контрабасу | Знакомый смычок и новый масштаб инструмента",
+        "next_action": "Знакомый смычок и новый масштаб инструмента"
+      }
+    },
+    "kontrabas-dlya-sravneniya-menzur": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Сравнение контрабасов по мензуре: размеры 1/2, 3/4, 4/4, длина струны и раб",
+        "decision": "Контрабасы разных мензур напрокат | Сравнить инструменты в одной музыкальной задаче",
+        "next_action": "Сравнить инструменты в одной музыкальной задаче"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Маркировка размера контрабаса не всегда полностью описывает рабочую мензуру",
+        "decision": "Мензуры контрабаса | Разные расстояния на грифе при общей оркестровой роли",
+        "next_action": "Разные расстояния на грифе при общей оркестровой роли"
+      }
+    },
+    "kontrabas-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Контрабас для камерного ансамбля: pizzicato/arco, динамика, атака, мензура ",
+        "decision": "Контрабас для камерного ансамбля в аренду | Низкий голос для камерной программы",
+        "next_action": "Низкий голос для камерной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "В небольшом составе контрабас слышен гораздо непосредственнее, чем в большо",
+        "decision": "Контрабас в камерной музыке | Басовая опора и самостоятельная струнная партия",
+        "next_action": "Басовая опора и самостоятельная струнная партия"
+      }
+    },
+    "kontrabas-dlya-letney-praktiki": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Контрабас на лето: временное жильё, размер, мензура, смычок и сохранение фо",
+        "decision": "Контрабас на лето напрокат | Для музыкального лагеря, занятий и гастролей",
+        "next_action": "Для музыкального лагеря, занятий и гастролей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Контрабас особенно дорого перевозить ради нескольких недель или месяцев. Вр",
+        "decision": "Летний контрабас | Регулярная игра вне постоянного места занятий",
+        "next_action": "Регулярная игра вне постоянного места занятий"
+      }
+    },
+    "kontrabas-dlya-vtorogo-mesta-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Контрабас для второго места занятий: мензура, высота, смычок и стабильная п",
+        "decision": "Контрабас для второго места практики | Ещё один инструмент без перевозок",
+        "next_action": "Ещё один инструмент без перевозок"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Если музыкант регулярно живёт или учится между двумя адресами, постоянная п",
+        "decision": "Второй контрабас для занятий | Постоянная практика в двух разных местах",
+        "next_action": "Постоянная практика в двух разных местах"
+      }
+    },
+    "kontrabas-dlya-raboty-smychkom": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Контрабас для arco-практики: высота струн, мензура, смычок, отклик и класси",
+        "decision": "Контрабас для работы смычком в аренду | Акустический инструмент с арковой техникой",
+        "next_action": "Акустический инструмент с арковой техникой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Контрабас, удобный для pizzicato, не автоматически так же удобен для смычко",
+        "decision": "Контрабас arco | Смычковая техника и протяжённая струнная фраза",
+        "next_action": "Смычковая техника и протяжённая струнная фраза"
+      }
+    },
+    "kontrabas-dlya-smeny-razmera": {
+      "n0": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "Контрабас следующего размера: мензура, рост, высота инструмента и переход б",
+        "decision": "Контрабас следующего размера напрокат | Продолжение учебного этапа",
+        "next_action": "Продолжение учебного этапа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz98-cello-bass-human-scenes.json",
+        "source_quote": "У контрабаса размер и реальная мензура особенно сильно влияют на первую поз",
+        "decision": "Новый размер контрабаса | Развитие ученика от малых корпусов к концертным",
+        "next_action": "Развитие ученика от малых корпусов к концертным"
+      }
+    },
+    "skripichnyy-smychok-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Аренда скрипичного смычка перед покупкой: баланс, жёсткость, атака, спиккат",
+        "decision": "Скрипичный смычок напрокат перед покупкой | Сравнить разные трости на своей скрипке",
+        "next_action": "Сравнить разные трости на своей скрипке"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок может хорошо ощущаться в воздухе и совсем иначе вести себя на конкре",
+        "decision": "Скрипичные смычки | Вес, баланс и упругость меняют работу смычковой руки",
+        "next_action": "Вес, баланс и упругость меняют работу смычковой руки"
+      }
+    },
+    "altovyy-smychok-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Аренда альтового смычка перед покупкой: баланс, масса, C-струна, атака и вы",
+        "decision": "Альтовый смычок перед покупкой в аренду | Сравнить варианты на своём альте",
+        "next_action": "Сравнить варианты на своём альте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Альтовый смычок должен помогать извлекать плотный нижний голос без постоянн",
+        "decision": "Альтовый смычок | Другая масса и контакт с толстыми струнами",
+        "next_action": "Другая масса и контакт с толстыми струнами"
+      }
+    },
+    "violonchelnyy-smychok-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Аренда виолончельного смычка перед покупкой: баланс, контакт со струной, le",
+        "decision": "Виолончельный смычок перед покупкой | Аренда для живого сравнения",
+        "next_action": "Аренда для живого сравнения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "На виолончели вес смычка особенно сильно связан с контактом со струной. Пол",
+        "decision": "Виолончельные смычки | Вес трости и баланс над струной",
+        "next_action": "Вес трости и баланс над струной"
+      }
+    },
+    "kontrabasovyy-smychok-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Аренда контрабасового смычка перед покупкой: французская/немецкая система, ",
+        "decision": "Контрабасовый смычок перед покупкой | Французская и немецкая системы",
+        "next_action": "Французская и немецкая системы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "На контрабасе выбор начинается ещё до марки: французская и немецкая системы",
+        "decision": "Контрабасовые смычки | Два способа держания и разные исполнительские жесты",
+        "next_action": "Два способа держания и разные исполнительские жесты"
+      }
+    },
+    "smychok-dlya-raboty-nad-detache": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для détaché: баланс, середина смычка, смена направления и повторяема",
+        "decision": "Смычок для détaché в аренду | Для занятий и проверки разных тростей",
+        "next_action": "Для занятий и проверки разных тростей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "В détaché особенно слышно, насколько смычок позволяет менять направление бе",
+        "decision": "Détaché на смычковом инструменте | Отдельные штрихи внутри ровной линии",
+        "next_action": "Отдельные штрихи внутри ровной линии"
+      }
+    },
+    "smychok-dlya-raboty-nad-legato": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для legato: распределение скорости, вес, контакт и переход от колодк",
+        "decision": "Смычок для legato напрокат | Для протяжённой фразы на струне",
+        "next_action": "Для протяжённой фразы на струне"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "В длинном legato смычок становится мерой времени: скорость и вес должны рас",
+        "decision": "Legato и смычок | Длинная дуга без разрыва контакта со струной",
+        "next_action": "Длинная дуга без разрыва контакта со струной"
+      }
+    },
+    "smychok-dlya-raboty-nad-spikkato": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для spiccato: баланс, упругость, точка отскока и повторяемый коротки",
+        "decision": "Смычок для spiccato в аренду | Упругие варианты для прыгающего штриха",
+        "next_action": "Упругие варианты для прыгающего штриха"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Spiccato быстро показывает характер трости: слишком пассивный или слишком н",
+        "decision": "Spiccato | Упругость трости участвует в естественном отскоке",
+        "next_action": "Упругость трости участвует в естественном отскоке"
+      }
+    },
+    "smychok-dlya-raboty-nad-sotie": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для sautillé: скорость, упругость, середина смычка и минимальная амп",
+        "decision": "Смычок для sautillé напрокат | Для быстрых штрихов и учебных этюдов",
+        "next_action": "Для быстрых штрихов и учебных этюдов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "В sautillé движение становится настолько небольшим, что смычок и струна нач",
+        "decision": "Sautillé | Быстрый отскок создаётся работой трости",
+        "next_action": "Быстрый отскок создаётся работой трости"
+      }
+    },
+    "smychok-dlya-tihoy-ataki": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для pianissimo: контакт, вес, волос, баланс и управляемое начало нот",
+        "decision": "Смычок для тихой атаки в аренду | Работа над pianissimo и фразой",
+        "next_action": "Работа над pianissimo и фразой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "В очень тихом начале ноты смычок работает на границе контакта: веса должно ",
+        "decision": "Тихая атака смычка | Звук начинается до появления лишнего шума",
+        "next_action": "Звук начинается до появления лишнего шума"
+      }
+    },
+    "smychok-dlya-dolgih-repetitsiy": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для длительных репетиций: баланс, усталость кисти, масса и повторяем",
+        "decision": "Смычок на долгие репетиции напрокат | Удобные варианты для ежедневной работы",
+        "next_action": "Удобные варианты для ежедневной работы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок, удобный пять минут, может начать требовать лишней работы кисти и пл",
+        "decision": "Смычок для долгой игры | Вес и баланс распределяются по всей трости",
+        "next_action": "Вес и баланс распределяются по всей трости"
+      }
+    },
+    "smychok-dlya-raboty-u-kolodki": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для техники у колодки: баланс, вес, кисть и контроль короткого штрих",
+        "decision": "Смычок для игры у колодки в аренду | Разные балансы для технической работы",
+        "next_action": "Разные балансы для технической работы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "У колодки смычок физически тяжелее ощущается в руке, поэтому техника особен",
+        "decision": "Смычок у колодки | Управление большим весом ближе к руке",
+        "next_action": "Управление большим весом ближе к руке"
+      }
+    },
+    "smychok-dlya-raboty-u-kontsa": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для техники у конца: распределение веса, контакт, legato и контроль ",
+        "decision": "Смычок для игры у конца напрокат | Для контроля звука на всей длине",
+        "next_action": "Для контроля звука на всей длине"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Ближе к концу естественного веса меньше, и музыкант должен сохранить контак",
+        "decision": "Смычок у конца | Контакт с струной при меньшем весе трости",
+        "next_action": "Контакт с струной при меньшем весе трости"
+      }
+    },
+    "derevyannyy-smychok-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Деревянный смычок для пробы: brazilwood, баланс, упругость и сравнение с пр",
+        "decision": "Деревянный смычок для первой пробы | В аренду для сравнения с карбоном",
+        "next_action": "В аренду для сравнения с карбоном"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Деревянный смычок часто окружён большим количеством легенд о материале. Пол",
+        "decision": "Деревянные смычки | Различные свойства натуральной трости",
+        "next_action": "Различные свойства натуральной трости"
+      }
+    },
+    "karbonovyy-smychok-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Карбоновый смычок для пробы: баланс, упругость, стабильность и сравнение с ",
+        "decision": "Карбоновый смычок напрокат | Вариант для занятий и сравнения с деревом",
+        "next_action": "Вариант для занятий и сравнения с деревом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Карбон часто выбирают ради стабильности и предсказуемости конструкции, но м",
+        "decision": "Карбоновые смычки | Стабильная конструкция и разные балансы",
+        "next_action": "Стабильная конструкция и разные балансы"
+      }
+    },
+    "kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Сравнение French/German double bass bow: хват, кисть, вес, струна и педагог",
+        "decision": "Контрабасовый смычок французский или немецкий | Оба типа в аренду",
+        "next_action": "Оба типа в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Французский и немецкий контрабасовые смычки отличаются не косметически: вся",
+        "decision": "Французский и немецкий смычок | Две исполнительские системы контрабаса",
+        "next_action": "Две исполнительские системы контрабаса"
+      }
+    },
+    "smychok-dlya-raboty-nad-stakkato": {
+      "n0": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "Смычок для staccato: короткая атака, контроль кисти, баланс и повторяемая с",
+        "decision": "Смычок для staccato в аренду | Точная серия коротких штрихов",
+        "next_action": "Точная серия коротких штрихов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz99-bow-human-scenes.json",
+        "source_quote": "В staccato смычок должен позволять повторять короткие атаки без накопления ",
+        "decision": "Staccato на смычке | Последовательные атаки внутри одного движения",
+        "next_action": "Последовательные атаки внутри одного движения"
+      }
+    },
+    "elektroskripka-dlya-domashnih-zanyatiy-v-naushnikah": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электроскрипка для дома и наушников: контрольный блок, посадка, смычок и ти",
+        "decision": "Электроскрипка в аренду для занятий в наушниках | Скрипичная практика в квартире",
+        "next_action": "Скрипичная практика в квартире"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Когда акустическая скрипка слишком громка для времени или места занятий, si",
+        "decision": "Электроскрипка дома | Смычковая техника и индивидуальное прослушивание",
+        "next_action": "Смычковая техника и индивидуальное прослушивание"
+      }
+    },
+    "elektroskripka-posle-akusticheskoy": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Переход с акустической скрипки на электроскрипку: pickup, output, мониторин",
+        "decision": "Электроскрипка после акустической в аренду | Новый звук для знакомой скрипичной партии",
+        "next_action": "Новый звук для знакомой скрипичной партии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Скрипач уже владеет инструментальной техникой, но электрическая скрипка доб",
+        "decision": "Электроскрипка после акустики | Вместо резонанса корпуса работает усиление",
+        "next_action": "Вместо резонанса корпуса работает усиление"
+      }
+    },
+    "akusticheskaya-skripka-posle-elektroskripki": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Переход с электроскрипки на акустическую: резонанс корпуса, динамика под ух",
+        "decision": "Акустическая скрипка после электрической | Аренда живого смычкового инструмента",
+        "next_action": "Аренда живого смычкового инструмента"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Музыкант, долго работавший через электрический тракт, может заново встретит",
+        "decision": "С электроскрипки на акустику | Корпус снова становится источником звучания",
+        "next_action": "Корпус снова становится источником звучания"
+      }
+    },
+    "elektroskripka-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Аренда электроскрипки перед покупкой: passive/active path, outputs, монитор",
+        "decision": "Электроскрипка перед покупкой напрокат | Сравнить инструмент вместе с усилением",
+        "next_action": "Сравнить инструмент вместе с усилением"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электроскрипка живёт только вместе с трактом. Красивый корпус и хороший зву",
+        "decision": "Электроскрипка до покупки | Звукосниматель, мониторинг и смычковая техника",
+        "next_action": "Звукосниматель, мониторинг и смычковая техника"
+      }
+    },
+    "elektroskripka-dlya-zapisi-napryamuyu": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электроскрипка для DI/interface записи: passive output, gain, noise, bow at",
+        "decision": "Электроскрипка для записи напрямую в аренду | Сигнал в студию без микрофона корпуса",
+        "next_action": "Сигнал в студию без микрофона корпуса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "При прямой записи электроскрипки особенно хорошо слышно начало смычка и шум",
+        "decision": "Электроскрипка при записи | Смычковая партия и прямой электрический сигнал",
+        "next_action": "Смычковая партия и прямой электрический сигнал"
+      }
+    },
+    "elektroskripka-dlya-stsenicheskih-effektov": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электроскрипка для pedalboard: passive output, effects, feedback control an",
+        "decision": "Электроскрипка для эффектов напрокат | Смычок, педали обработки и сценический звук",
+        "next_action": "Смычок, педали обработки и сценический звук"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электроскрипка даёт доступ к гитароподобному миру эффектов, но каждый эффек",
+        "decision": "Электроскрипка и эффекты | Живой штрих внутри электронного звукового тракта",
+        "next_action": "Живой штрих внутри электронного звукового тракта"
+      }
+    },
+    "pyatistrunnaya-elektroskripka-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Первый опыт на пятиструнной электроскрипке: C-string, ширина грифа, смычок ",
+        "decision": "Пятиструнная электроскрипка в аренду | Скрипичный голос с нижней струной альта",
+        "next_action": "Скрипичный голос с нижней струной альта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Пятая струна добавляет C и расширяет скрипичный диапазон вниз, но одновреме",
+        "decision": "Пять струн электроскрипки | Дополнительный низ внутри одного инструмента",
+        "next_action": "Дополнительный низ внутри одного инструмента"
+      }
+    },
+    "elektroviolonchel-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электровиолончель для дома: support points, endpin, headphones/output and d",
+        "decision": "Электровиолончель для дома напрокат | Занятия с наушниками и компактным корпусом",
+        "next_action": "Занятия с наушниками и компактным корпусом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электровиолончель может уменьшить акустическую громкость и габарит, но поле",
+        "decision": "Электровиолончель дома | Смычковая постановка и электронный выход",
+        "next_action": "Смычковая постановка и электронный выход"
+      }
+    },
+    "elektroviolonchel-posle-akusticheskoy": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Переход на электровиолончель: support points, output, monitoring, compact b",
+        "decision": "Электровиолончель после акустической | Аренда для новой сцены и усиления",
+        "next_action": "Аренда для новой сцены и усиления"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Виолончелист приносит на электрический инструмент готовую левую руку и смыч",
+        "decision": "С акустической виолончели на электрическую | Знакомые струны, другой путь звука",
+        "next_action": "Знакомые струны, другой путь звука"
+      }
+    },
+    "elektroviolonchel-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Аренда электровиолончели перед покупкой: support geometry, outputs, headpho",
+        "decision": "Электровиолончель перед покупкой в аренду | Проверка инструмента в своей программе",
+        "next_action": "Проверка инструмента в своей программе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электровиолончель легко выбрать по компактности, но реальный вопрос — наско",
+        "decision": "Электровиолончель до покупки | Компактный корпус и усиленный смычковый тембр",
+        "next_action": "Компактный корпус и усиленный смычковый тембр"
+      }
+    },
+    "elektroviolonchel-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электровиолончель для концерта: line out, monitoring, support geometry, cab",
+        "decision": "Электровиолончель на концерт напрокат | От сольной партии до усиленного ансамбля",
+        "next_action": "От сольной партии до усиленного ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "На сцене электровиолончель живёт одновременно в теле музыканта и в звуковом",
+        "decision": "Электровиолончель на сцене | Смычок, звукосниматель и мониторный тракт",
+        "next_action": "Смычок, звукосниматель и мониторный тракт"
+      }
+    },
+    "elektricheskiy-kontrabas-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электрический контрабас для дома: mensura, supports, headphones/output and ",
+        "decision": "Электрический контрабас домой в аренду | Вертикальная басовая практика без большого корпуса",
+        "next_action": "Вертикальная басовая практика без большого корпуса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электрический контрабас может решить проблему пространства, но домашняя пра",
+        "decision": "Домашний электроконтрабас | Полноразмерная игровая задача в компактной форме",
+        "next_action": "Полноразмерная игровая задача в компактной форме"
+      }
+    },
+    "elektricheskiy-kontrabas-posle-akusticheskogo": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Переход на electric upright bass: mensura, supports, pizzicato/arco, output",
+        "decision": "Электроконтрабас после акустического в аренду | Мобильный бас для сцены и дома",
+        "next_action": "Мобильный бас для сцены и дома"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Контрабасист приходит на электрический инструмент с готовой вертикальной те",
+        "decision": "С акустического контрабаса на электрический | Вертикальная мензура и электронный звук",
+        "next_action": "Вертикальная мензура и электронный звук"
+      }
+    },
+    "akusticheskiy-kontrabas-posle-elektricheskogo": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Переход с электрического контрабаса на акустический: body resonance, mensur",
+        "decision": "Акустический контрабас после электрического | Аренда полноразмерного живого корпуса",
+        "next_action": "Аренда полноразмерного живого корпуса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Музыкант, привыкший к электрическому вертикальному басу, может сохранить ме",
+        "decision": "Электроконтрабас и акустический бас | Возвращение естественного резонанса деки",
+        "next_action": "Возвращение естественного резонанса деки"
+      }
+    },
+    "elektricheskiy-kontrabas-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Аренда электрического контрабаса перед покупкой: mensura, supports, output,",
+        "decision": "Электроконтрабас перед покупкой напрокат | Попробовать вертикальный бас в работе",
+        "next_action": "Попробовать вертикальный бас в работе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Электрический контрабас покупают ради мобильности и управляемого сигнала, н",
+        "decision": "Электрический контрабас до покупки | Устойчивость, мензура и усиление",
+        "next_action": "Устойчивость, мензура и усиление"
+      }
+    },
+    "elektricheskiy-kontrabas-dlya-gastroley": {
+      "n0": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "Electric upright bass for touring: scale length, transport, output, monitor",
+        "decision": "Электрический контрабас для гастролей | Компактный upright на время поездки",
+        "next_action": "Компактный upright на время поездки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz100-electric-bowed-human-scenes.json",
+        "source_quote": "На гастролях электрический контрабас может уменьшить объём транспортировки ",
+        "decision": "Гастрольный электроконтрабас | Вертикальный бас с меньшим транспортным объёмом",
+        "next_action": "Вертикальный бас с меньшим транспортным объёмом"
+      }
+    },
+    "ukulele-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Укулеле взрослому начинающему: soprano, concert, tenor, строй, аккорды и пр",
+        "decision": "Укулеле взрослому начинающему в аренду | Первые аккорды на полноценном инструменте",
+        "next_action": "Первые аккорды на полноценном инструменте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Укулеле часто кажется самым простым входом в струнные, но уже на старте раз",
+        "decision": "Первое укулеле взрослому | Четыре струны и разные размеры корпуса",
+        "next_action": "Четыре струны и разные размеры корпуса"
+      }
+    },
+    "ukulele-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Укулеле для дома: размер, строй, высота струн и регулярная практика.",
+        "decision": "Укулеле для домашних занятий напрокат | Компактный инструмент для ежедневной музыки",
+        "next_action": "Компактный инструмент для ежедневной музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Домашняя практика начинается не с редких длинных сессий, а с лёгкости взять",
+        "decision": "Укулеле дома | Сопрано, концерт и тенор в обычной практике",
+        "next_action": "Сопрано, концерт и тенор в обычной практике"
+      }
+    },
+    "ukulele-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Аренда укулеле перед покупкой: soprano/concert/tenor/baritone, строй и собс",
+        "decision": "Укулеле перед покупкой в аренду | Сравнить сопрано, концерт и тенор",
+        "next_action": "Сравнить сопрано, концерт и тенор"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Разница между soprano, concert, tenor и baritone чувствуется в руке и в муз",
+        "decision": "Укулеле до покупки | Строй, мензура и звук разных размеров",
+        "next_action": "Строй, мензура и звук разных размеров"
+      }
+    },
+    "ukulele-dlya-sravneniya-razmerov": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Сравнение размеров укулеле: корпус, мензура, аккорды, мелодия и строй.",
+        "decision": "Укулеле разных размеров напрокат | Сопрано, концерт, тенор и баритон",
+        "next_action": "Сопрано, концерт, тенор и баритон"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Названия размеров легко запомнить, но полезный выбор возникает только после",
+        "decision": "Размеры укулеле | Четыре корпуса, несколько диапазонов и характеров звука",
+        "next_action": "Четыре корпуса, несколько диапазонов и характеров звука"
+      }
+    },
+    "ukulele-posle-gitary": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Переход с гитары на укулеле: строй, аккорды, баритон и перенастройка привыч",
+        "decision": "Укулеле после гитары в аренду | Маленький четырёхструнный инструмент для новой музыки",
+        "next_action": "Маленький четырёхструнный инструмент для новой музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Гитарист приходит на укулеле с готовой левой и правой рукой, но привычные ф",
+        "decision": "От гитары к укулеле | Компактный корпус и четыре струны вместо шести",
+        "next_action": "Компактный корпус и четыре струны вместо шести"
+      }
+    },
+    "ukulele-dlya-vokalista": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Укулеле для вокалиста: строй, размер, ритм, тональность и сценическая прове",
+        "decision": "Укулеле для вокалиста напрокат | Аккомпанемент для песни и камерной сцены",
+        "next_action": "Аккомпанемент для песни и камерной сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Укулеле особенно удобно как лёгкий аккомпанирующий инструмент, но размер и ",
+        "decision": "Укулеле рядом с голосом | Ритмическое сопровождение без громкого ансамбля",
+        "next_action": "Ритмическое сопровождение без громкого ансамбля"
+      }
+    },
+    "ukulele-dlya-letney-praktiki": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Укулеле на лето: компактность, строй, временное жильё и регулярная практика",
+        "decision": "Укулеле на лето в аренду | Инструмент для каникул и занятий в поездке",
+        "next_action": "Инструмент для каникул и занятий в поездке"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "На поездке или даче укулеле может стать временным способом не терять контак",
+        "decision": "Укулеле на каникулах | Компактная ежедневная практика и собственные песни",
+        "next_action": "Компактная ежедневная практика и собственные песни"
+      }
+    },
+    "ukulele-bariton-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Первый опыт на baritone ukulele: D-G-B-E, четыре струны, аккорды и переход ",
+        "decision": "Укулеле-баритон для первого опыта напрокат | Более низкий строй в знакомой форме",
+        "next_action": "Более низкий строй в знакомой форме"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Баритонная укулеле удобна как отдельный низкий голос укулельного семейства ",
+        "decision": "Баритон-укулеле | Четыре гитарно настроенные струны в компактном корпусе",
+        "next_action": "Четыре гитарно настроенные струны в компактном корпусе"
+      }
+    },
+    "mandolina-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Мандолина взрослому начинающему: четыре пары струн, медиатор, строй и пробн",
+        "decision": "Мандолина взрослому начинающему в аренду | Первые уроки и ансамблевая практика",
+        "next_action": "Первые уроки и ансамблевая практика"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Мандолина быстро отвечает на медиатор и сразу показывает неточность атаки и",
+        "decision": "Первая мандолина | Парные струны, медиатор и мелодический голос",
+        "next_action": "Парные струны, медиатор и мелодический голос"
+      }
+    },
+    "mandolina-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Мандолина для дома: парные струны, медиатор, строй и регулярная практика.",
+        "decision": "Мандолина для домашних занятий напрокат | Инструмент для регулярного тремоло",
+        "next_action": "Инструмент для регулярного тремоло"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Мандолинная техника особенно зависит от регулярного короткого повторения пр",
+        "decision": "Мандолина дома | Четыре пары струн в ежедневной музыкальной работе",
+        "next_action": "Четыре пары струн в ежедневной музыкальной работе"
+      }
+    },
+    "mandolina-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Аренда мандолины перед покупкой: строй, пары струн, медиатор, tremolo и соб",
+        "decision": "Мандолина перед покупкой в аренду | Попробовать звук парных струн в музыке",
+        "next_action": "Попробовать звук парных струн в музыке"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Мандолина раскрывается через точность правой руки и стабильность строя парн",
+        "decision": "Мандолина до покупки | Тембр, мензура и характер двойных струн",
+        "next_action": "Тембр, мензура и характер двойных струн"
+      }
+    },
+    "mandolina-dlya-raboty-nad-tremolo": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Мандолина для tremolo: медиатор, парные струны, скорость и непрерывная мело",
+        "decision": "Мандолина для тремоло напрокат | Инструмент для учебных этюдов и мелодии",
+        "next_action": "Инструмент для учебных этюдов и мелодии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Мандолинное tremolo не просто ускоряет атаку, а создаёт иллюзию продолжающе",
+        "decision": "Мандолинное тремоло | Частые удары медиатора образуют длительную линию",
+        "next_action": "Частые удары медиатора образуют длительную линию"
+      }
+    },
+    "mandolina-posle-gitary": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Переход с гитары на мандолину: строй, парные струны, медиатор и новая аппли",
+        "decision": "Мандолина после гитары в аренду | Новый щипковый голос для репертуара",
+        "next_action": "Новый щипковый голос для репертуара"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Гитарист приходит к мандолине с готовым медиатором, но строй и парные струн",
+        "decision": "От гитары к мандолине | Другая мензура и парные струны под медиатором",
+        "next_action": "Другая мензура и парные струны под медиатором"
+      }
+    },
+    "bandzho-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Банджо взрослому начинающему: 5-string или tenor, строй, правая рука и проб",
+        "decision": "Банджо взрослому начинающему напрокат | Первые уроки на выбранном типе банджо",
+        "next_action": "Первые уроки на выбранном типе банджо"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Под словом «банджо» скрываются разные конструкции и исполнительские школы. ",
+        "decision": "Первое банджо | Пятиструнная и четырёхструнная исполнительские системы",
+        "next_action": "Пятиструнная и четырёхструнная исполнительские системы"
+      }
+    },
+    "bandzho-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Банджо для дома: 5-string/tenor, строй, правая рука и регулярная практика.",
+        "decision": "Банджо для домашних занятий в аренду | Полноценный инструмент на период учёбы",
+        "next_action": "Полноценный инструмент на период учёбы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Домашняя практика на банджо имеет смысл только после точного выбора типа ин",
+        "decision": "Банджо дома | Настройка, ритм и самостоятельная практика на выбранной системе",
+        "next_action": "Настройка, ритм и самостоятельная практика на выбранной системе"
+      }
+    },
+    "bandzho-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Аренда банджо перед покупкой: 5-string/tenor, строй, вес, правая рука и соб",
+        "decision": "Банджо до покупки напрокат | Сравнить типы строя и количество струн",
+        "next_action": "Сравнить типы строя и количество струн"
+      },
+      "n1": {
+        "source_path": "content/sections/zz101-ukulele-mandolin-banjo-human-scenes.json",
+        "source_quote": "Банджо особенно рискованно покупать по внешнему образу: разные типы ведут к",
+        "decision": "Банджо перед покупкой | Пять, четыре или шесть струн меняют музыкальную функцию",
+        "next_action": "Пять, четыре или шесть струн меняют музыкальную функцию"
+      }
+    },
+    "domra-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Домра взрослому начинающему: трёх- или четырёхструнная система, медиатор и ",
+        "decision": "Домра взрослому начинающему в аренду | Инструмент для первых уроков и ансамбля",
+        "next_action": "Инструмент для первых уроков и ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Слово «домра» не завершает выбор: в современной практике встречаются разные",
+        "decision": "Первая домра | Трёхструнная и четырёхструнная системы для разных школ",
+        "next_action": "Трёхструнная и четырёхструнная системы для разных школ"
+      }
+    },
+    "domra-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Домра для дома: система струн, медиатор, строй и регулярная учебная практик",
+        "decision": "Домра для домашних занятий напрокат | Учебный инструмент на регулярную практику",
+        "next_action": "Учебный инструмент на регулярную практику"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Домра особенно быстро возвращает неровность медиатора. Домашний инструмент ",
+        "decision": "Домра дома | Медиатор, строй и ежедневное развитие тремоло",
+        "next_action": "Медиатор, строй и ежедневное развитие тремоло"
+      }
+    },
+    "domra-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Аренда домры перед покупкой: система струн, мензура, медиатор, отклик и соб",
+        "decision": "Домра до покупки в аренду | Сравнить размер, систему и характер звука",
+        "next_action": "Сравнить размер, систему и характер звука"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Покупка домры имеет смысл только после точного понимания исполнительской си",
+        "decision": "Домра перед покупкой | Разные строи и трёх- либо четырёхструнные инструменты",
+        "next_action": "Разные строи и трёх- либо четырёхструнные инструменты"
+      }
+    },
+    "domra-dlya-raboty-mediatorom": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Домра для медиаторной техники: tremolo, одиночный удар, струны и ровность п",
+        "decision": "Домра для работы медиатором напрокат | На учебный период и концертную программу",
+        "next_action": "На учебный период и концертную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Домровое tremolo возникает из очень ровной серии коротких ударов. Если базо",
+        "decision": "Домра и медиатор | Короткий удар и протяжённое тремоло в одной партии",
+        "next_action": "Короткий удар и протяжённое тремоло в одной партии"
+      }
+    },
+    "domra-alt-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на домре-альте: размер, строй, медиатор и оркестровая средняя л",
+        "decision": "Альтовая домра для первого опыта в аренду | Средний щипковый голос ансамбля",
+        "next_action": "Средний щипковый голос ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Альтовая домра сохраняет щипковую логику семейства, но меняет масштаб корпу",
+        "decision": "Домра-альт | Более низкий регистр и собственная партия в оркестре",
+        "next_action": "Более низкий регистр и собственная партия в оркестре"
+      }
+    },
+    "domra-bas-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на басовой домре: корпус, мензура, медиатор и низкая оркестрова",
+        "decision": "Басовая домра напрокат | Низкий щипковый инструмент для ансамбля",
+        "next_action": "Низкий щипковый инструмент для ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Басовая домра увеличивает физический масштаб, но сохраняет медиаторный хара",
+        "decision": "Домра-бас | Медиаторная атака и басовая функция народного оркестра",
+        "next_action": "Медиаторная атака и басовая функция народного оркестра"
+      }
+    },
+    "balalayka-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Балалайка взрослому начинающему: строй, корпус, приёмы правой руки и пробны",
+        "decision": "Балалайка взрослому начинающему в аренду | Первая прима и учебный репертуар",
+        "next_action": "Первая прима и учебный репертуар"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Балалайка знакома визуально, но исполнительская техника требует отдельной р",
+        "decision": "Первая балалайка | Правый щипковый жест на треугольном корпусе",
+        "next_action": "Правый щипковый жест на треугольном корпусе"
+      }
+    },
+    "balalayka-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Балалайка для дома: строй, размер, щипок, бряцание и регулярная практика.",
+        "decision": "Балалайка для домашних занятий напрокат | Учебный инструмент между уроками",
+        "next_action": "Учебный инструмент между уроками"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Домашний инструмент должен совпадать с тем голосом и строем, на котором уче",
+        "decision": "Балалайка дома | Строй, звукоизвлечение и развитие народного репертуара",
+        "next_action": "Строй, звукоизвлечение и развитие народного репертуара"
+      }
+    },
+    "balalayka-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Аренда балалайки перед покупкой: prima/sekunda/alt/bass, строй, корпус и со",
+        "decision": "Балалайка до покупки в аренду | Прима и другие разновидности для сравнения",
+        "next_action": "Прима и другие разновидности для сравнения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Покупать балалайку по общей форме особенно рискованно, если не определена е",
+        "decision": "Балалайка перед покупкой | Разные голоса одного оркестрового семейства",
+        "next_action": "Разные голоса одного оркестрового семейства"
+      }
+    },
+    "balalayka-dlya-pervogo-orkestrovogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Балалайка для первого оркестра: prima/sekunda/alt/bass/contrabass, партия и",
+        "decision": "Балалайка для народного оркестра напрокат | Инструмент под первую партию",
+        "next_action": "Инструмент под первую партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "В народном оркестре слово «балалайка» превращается в семейство голосов. Пер",
+        "decision": "Балалайка в оркестре | Прима, секунда, альт и бас работают в ансамбле",
+        "next_action": "Прима, секунда, альт и бас работают в ансамбле"
+      }
+    },
+    "balalayka-sekunda-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на балалайке-секунде: строй, размер, ритмическая партия и ансам",
+        "decision": "Балалайка-секунда в аренду | Ритмический голос народного оркестра",
+        "next_action": "Ритмический голос народного оркестра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Секунда нужна не потому, что она просто крупнее примы, а потому что выполня",
+        "decision": "Балалайка-секунда | Отдельная партия сопровождения в щипковом составе",
+        "next_action": "Отдельная партия сопровождения в щипковом составе"
+      }
+    },
+    "balalayka-alt-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на балалайке-альте: размер, строй, партия и оркестровая середин",
+        "decision": "Балалайка-альт напрокат | Средний регистр для народного оркестра",
+        "next_action": "Средний регистр для народного оркестра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Балалайка-альт занимает более низкую и плотную область оркестрового сопрово",
+        "decision": "Балалайка-альт | Средний щипковый голос между секундами и басами",
+        "next_action": "Средний щипковый голос между секундами и басами"
+      }
+    },
+    "balalayka-bas-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на балалайке-басе: корпус, стойка/опора, атака и оркестровая ба",
+        "decision": "Балалайка-бас в аренду | Низкий голос для оркестровой секции",
+        "next_action": "Низкий голос для оркестровой секции"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Басовая балалайка добавляет низ, но её функция остаётся ритмически активной",
+        "decision": "Балалайка-бас | Басовая линия и ритмическая опора большого ансамбля",
+        "next_action": "Басовая линия и ритмическая опора большого ансамбля"
+      }
+    },
+    "balalayka-kontrabas-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на балалайке-контрабасе: размер, опора, медиатор/щипок и оркест",
+        "decision": "Балалайка-контрабас напрокат | Оркестровый инструмент нижнего регистра",
+        "next_action": "Оркестровый инструмент нижнего регистра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Контрабасовая балалайка — уже не просто большой корпус, а фундамент всего щ",
+        "decision": "Балалайка-контрабас | Большой корпус и басовая функция народной секции",
+        "next_action": "Большой корпус и басовая функция народной секции"
+      }
+    },
+    "gusli-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Гусли взрослому начинающему: тип инструмента, строй, щипок и пробный период",
+        "decision": "Гусли взрослому начинающему в аренду | Учебный инструмент выбранного типа",
+        "next_action": "Учебный инструмент выбранного типа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Под названием «гусли» существует несколько исторических и современных форм,",
+        "decision": "Первые гусли | Разные формы корпуса и способы игры в традиции",
+        "next_action": "Разные формы корпуса и способы игры в традиции"
+      }
+    },
+    "gusli-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Аренда гуслей перед покупкой: тип конструкции, строй, диапазон, щипок и соб",
+        "decision": "Гусли до покупки напрокат | Попробовать форму и настройку в музыке",
+        "next_action": "Попробовать форму и настройку в музыке"
+      },
+      "n1": {
+        "source_path": "content/sections/zz102-russian-plucked-human-scenes.json",
+        "source_quote": "Гусли особенно плохо выбираются по единственному слову: разные формы и стро",
+        "decision": "Гусли перед покупкой | Щипковые варианты с разным строем и расположением струн",
+        "next_action": "Щипковые варианты с разным строем и расположением струн"
+      }
+    },
+    "ud-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Уд для дома: строй, мензура, медиатор, безладовая интонация и регулярная пр",
+        "decision": "Уд для домашних занятий напрокат | Инструмент для регулярной восточной музыкальной практики",
+        "next_action": "Инструмент для регулярной восточной музыкальной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "На уде нет ладовых перегородок, поэтому домашняя практика должна регулярно ",
+        "decision": "Уд дома | Безладовая мелодия, медиатор и собственный строй",
+        "next_action": "Безладовая мелодия, медиатор и собственный строй"
+      }
+    },
+    "ud-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Аренда уда перед покупкой: конструкция, строй, мензура, медиатор и собствен",
+        "decision": "Уд до покупки в аренду | Попробовать инструмент на своей музыкальной программе",
+        "next_action": "Попробовать инструмент на своей музыкальной программе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Уд слишком зависит от конкретной исполнительской традиции, чтобы выбирать е",
+        "decision": "Уд перед покупкой | Строй, мензура и свободная безладовая интонация",
+        "next_action": "Строй, мензура и свободная безладовая интонация"
+      }
+    },
+    "ud-dlya-raboty-nad-intonatsiey": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Уд для интонационной практики: безладовый гриф, слух, позиции и медленная м",
+        "decision": "Уд для работы над интонацией напрокат | Безладовый инструмент для занятий",
+        "next_action": "Безладовый инструмент для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Безладовый гриф превращает каждый переход левой руки в слуховое решение. Зд",
+        "decision": "Интонация уда | Высота звука зависит от движения пальца, а не от лада",
+        "next_action": "Высота звука зависит от движения пальца, а не от лада"
+      }
+    },
+    "ud-posle-gitary": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Переход с гитары на уд: безладовая интонация, мензура, медиатор и новый стр",
+        "decision": "Уд после гитары в аренду | Попробовать щипковую игру без ладов",
+        "next_action": "Попробовать щипковую игру без ладов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Гитарист приходит к уду с развитой координацией рук, но привычная карта лад",
+        "decision": "От гитары к уду | Безладовый гриф и новый способ вести мелодию",
+        "next_action": "Безладовый гриф и новый способ вести мелодию"
+      }
+    },
+    "lyutnya-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Первый опыт на лютне: курсы струн, настройка, правая рука и историческая ис",
+        "decision": "Лютня для первого знакомства напрокат | Инструмент ранней музыки",
+        "next_action": "Инструмент ранней музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Лютня не является просто старой гитарой. Курсы струн, настройка и правая ру",
+        "decision": "Первая лютня | Щипковая полифония и исторические хоры струн",
+        "next_action": "Щипковая полифония и исторические хоры струн"
+      }
+    },
+    "lyutnya-dlya-barochnoy-programmy": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Лютня для барочной программы: курсы, строй, басовые струны и соответствие и",
+        "decision": "Барочная лютня в аренду | Для сольной программы и старинного ансамбля",
+        "next_action": "Для сольной программы и старинного ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Барочная программа может требовать иной конструкции и числа басовых струн, ",
+        "decision": "Лютня для барокко | Исторический строй и самостоятельная полифоническая партия",
+        "next_action": "Исторический строй и самостоятельная полифоническая партия"
+      }
+    },
+    "lyutnya-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Аренда лютни перед покупкой: курсы, строй, репертуар, правая рука и собстве",
+        "decision": "Лютня до покупки в аренду | Разные исторические типы для пробы",
+        "next_action": "Разные исторические типы для пробы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Лютню особенно рискованно покупать по визуальному образу. Репертуар может т",
+        "decision": "Лютня перед покупкой | Количество хоров и строй определяют репертуар",
+        "next_action": "Количество хоров и строй определяют репертуар"
+      }
+    },
+    "teorba-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Первый опыт на теорбе: длинная шейка, басовые струны, continuo и посадка.",
+        "decision": "Теорба для первого опыта напрокат | Басовый щипковый инструмент ранней музыки",
+        "next_action": "Басовый щипковый инструмент ранней музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Теорба выделяется длинной шейкой и вынесенными басовыми струнами. Даже опыт",
+        "decision": "Первая теорба | Длинные открытые басовые струны под continuo",
+        "next_action": "Длинные открытые басовые струны под continuo"
+      }
+    },
+    "teorba-dlya-continuo": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Теорба для continuo: басовые струны, аккорды, строй и ансамблевая роль.",
+        "decision": "Теорба для basso continuo в аренду | Исторический аккомпанемент ансамбля",
+        "next_action": "Исторический аккомпанемент ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "В continuo теорба работает как фундамент и гармонический каркас, а не как с",
+        "decision": "Теорба в continuo | Басовая основа и щипковая гармония в одной партии",
+        "next_action": "Басовая основа и щипковая гармония в одной партии"
+      }
+    },
+    "teorba-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Аренда теорбы перед покупкой: длина, басовые струны, строй, посадка и собст",
+        "decision": "Теорба до покупки напрокат | Попробовать инструмент с длинными басами",
+        "next_action": "Попробовать инструмент с длинными басами"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Теорба слишком специфична по длине, строю и ансамблевой функции, чтобы выби",
+        "decision": "Теорба перед покупкой | Длинный гриф и историческая исполнительская система",
+        "next_action": "Длинный гриф и историческая исполнительская система"
+      }
+    },
+    "kanun-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Первый опыт на кануне: хоры струн, плектры, рычажки и ансамблевая интонация",
+        "decision": "Канун для первых занятий в аренду | Традиционный многострунный инструмент",
+        "next_action": "Традиционный многострунный инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Канун сочетает множество струнных хоров и механизмы изменения высоты, поэто",
+        "decision": "Первый канун | Плоская дека и сложная карта струн",
+        "next_action": "Плоская дека и сложная карта струн"
+      }
+    },
+    "kanun-dlya-raboty-s-mandalami": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Канун для работы с mandal levers: микроизменение высоты, левая рука и ансам",
+        "decision": "Канун с мандалами напрокат | Для мелодии с изменением высот",
+        "next_action": "Для мелодии с изменением высот"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Рычажки кануна позволяют менять высоту отдельных хоров струн прямо внутри м",
+        "decision": "Мандалы кануна | Малые рычаги позволяют изменять строй в игре",
+        "next_action": "Малые рычаги позволяют изменять строй в игре"
+      }
+    },
+    "kanun-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Аренда кануна перед покупкой: строй, хоры струн, мандалы, диапазон и собств",
+        "decision": "Канун до покупки в аренду | Проверить расположение струн и систему мандалов",
+        "next_action": "Проверить расположение струн и систему мандалов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Канун нельзя выбирать только по внешнему виду корпуса. Музыканту нужно пров",
+        "decision": "Канун перед покупкой | Исполнительская карта многочисленных струн и рычажков",
+        "next_action": "Исполнительская карта многочисленных струн и рычажков"
+      }
+    },
+    "kora-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Первый опыт на коре: множество струн, резонатор, две руки и полифоническая ",
+        "decision": "Кора для первого опыта напрокат | Африканский щипковый инструмент",
+        "next_action": "Африканский щипковый инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Кора соединяет большой набор струн и щипковую работу обеих рук. Первое знак",
+        "decision": "Первая кора | Многослойная мелодия двумя руками",
+        "next_action": "Многослойная мелодия двумя руками"
+      }
+    },
+    "kora-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Кора для записи: строй, полифоническая фактура, микрофон и роль в композици",
+        "decision": "Кора для записи в аренду | Живой африканский струнный тембр для студии",
+        "next_action": "Живой африканский струнный тембр для студии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "В записи кора может одновременно давать пульс, гармонию и мелодическую лини",
+        "decision": "Кора в записи | Переплетающиеся партии двух рук в одном инструменте",
+        "next_action": "Переплетающиеся партии двух рук в одном инструменте"
+      }
+    },
+    "kora-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Аренда коры перед покупкой: количество струн, строй, резонатор, посадка и с",
+        "decision": "Кора до покупки напрокат | Время на знакомство с многими струнами",
+        "next_action": "Время на знакомство с многими струнами"
+      },
+      "n1": {
+        "source_path": "content/sections/zz103-lute-oud-qanun-kora-human-scenes.json",
+        "source_quote": "Кора сложна физически и музыкально, поэтому покупка без длительной пробы ос",
+        "decision": "Кора перед покупкой | Большой струнный инструмент с собственной раскладкой",
+        "next_action": "Большой струнный инструмент с собственной раскладкой"
+      }
+    },
+    "sitar-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Ситар для дома: игровые и sympathetic strings, строй, мизраб и регулярная п",
+        "decision": "Ситар для домашних занятий в аренду | Живой инструмент для индийской музыкальной практики",
+        "next_action": "Живой инструмент для индийской музыкальной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Ситар требует времени уже до первого упражнения: игровые и резонирующие стр",
+        "decision": "Ситар дома | Мелодические и резонирующие струны в ежедневной игре",
+        "next_action": "Мелодические и резонирующие струны в ежедневной игре"
+      }
+    },
+    "sitar-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Аренда ситара перед покупкой: строй, основные и резонирующие струны, мензур",
+        "decision": "Ситар до покупки напрокат | Время освоить строй и устройство резонанса",
+        "next_action": "Время освоить строй и устройство резонанса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Ситар слишком сложен по строю и конструкции, чтобы выбирать его по внешнему",
+        "decision": "Ситар перед покупкой | Игровые и резонансные струны в одном корпусе",
+        "next_action": "Игровые и резонансные струны в одном корпусе"
+      }
+    },
+    "tanpura-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на танпуре: настройка, drone, щипок и роль высотной опоры.",
+        "decision": "Танпура для первого опыта в аренду | Живой инструмент непрерывного тона",
+        "next_action": "Живой инструмент непрерывного тона"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Танпура важна не как инструмент для мелодии, а как непрерывная высотная и т",
+        "decision": "Первая танпура | Устойчивый звуковой фон для индийской традиции",
+        "next_action": "Устойчивый звуковой фон для индийской традиции"
+      }
+    },
+    "tanpura-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Танпура для записи: настройка, непрерывный drone, микрофон и взаимодействие",
+        "decision": "Танпура для записи напрокат | Настоящий drone для студийной музыки",
+        "next_action": "Настоящий drone для студийной музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "В студии танпура может заполнить большую часть спектрального пространства, ",
+        "decision": "Танпура в записи | Резонирующая высотная опора под музыкальную фразу",
+        "next_action": "Резонирующая высотная опора под музыкальную фразу"
+      }
+    },
+    "koto-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на кото: подставки, настройка, плектры и координация обеих рук.",
+        "decision": "Кото для первого знакомства в аренду | Японский струнный инструмент для занятий",
+        "next_action": "Японский струнный инструмент для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Кото отличается тем, что подвижные подставки участвуют в настройке инструме",
+        "decision": "Первое кото | Подвижные подставки и самостоятельный строй",
+        "next_action": "Подвижные подставки и самостоятельный строй"
+      }
+    },
+    "koto-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Кото для дома: подвижные подставки, настройка, плектры и регулярная практик",
+        "decision": "Кото для домашних занятий напрокат | Инструмент японской музыкальной традиции",
+        "next_action": "Инструмент японской музыкальной традиции"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Домашняя практика на кото требует достаточно места и стабильной конфигураци",
+        "decision": "Кото дома | Щипковая музыка и настройка подвижными подставками",
+        "next_action": "Щипковая музыка и настройка подвижными подставками"
+      }
+    },
+    "koto-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Аренда кото перед покупкой: размер, подставки, строй, плектры и домашняя ин",
+        "decision": "Кото до покупки в аренду | Попробовать длинный японский струнный инструмент",
+        "next_action": "Попробовать длинный японский струнный инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Кото требует не только музыкального выбора, но и физического места, настрой",
+        "decision": "Кото перед покупкой | Строй, мостики и размещение большого корпуса",
+        "next_action": "Строй, мостики и размещение большого корпуса"
+      }
+    },
+    "guzhen-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Гучжэн для дома: струны, мостики, работа обеих рук, место и регулярная прак",
+        "decision": "Гучжэн для дома напрокат | Китайский многострунный инструмент для занятий",
+        "next_action": "Китайский многострунный инструмент для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "На гучжэне одна рука щиплет струны, другая изменяет высоту и тембр. Домашни",
+        "decision": "Гучжэн дома | Две руки, щипковая мелодия и изменение высоты струны",
+        "next_action": "Две руки, щипковая мелодия и изменение высоты струны"
+      }
+    },
+    "guzhen-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Аренда гучжэна перед покупкой: размер, мостики, струны, левая рука и домашн",
+        "decision": "Гучжэн до покупки в аренду | Познакомиться с размером и строем инструмента",
+        "next_action": "Познакомиться с размером и строем инструмента"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Гучжэн занимает заметное место и требует стабильной установки. Покупка без ",
+        "decision": "Гучжэн перед покупкой | Щипковая техника и длинная резонирующая дека",
+        "next_action": "Щипковая техника и длинная резонирующая дека"
+      }
+    },
+    "syamisen-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на сямисэне: bachi, три струны, корпус и исполнительская техник",
+        "decision": "Сямисэн для первого опыта напрокат | Японский трёхструнный инструмент",
+        "next_action": "Японский трёхструнный инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Сямисэн отличается не только тремя струнами, но и крупным плектром bachi, к",
+        "decision": "Первый сямисэн | Большой плектр и особая атака струны",
+        "next_action": "Большой плектр и особая атака струны"
+      }
+    },
+    "syamisen-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Сямисэн для дома: три струны, bachi, строй и регулярная исполнительская пра",
+        "decision": "Сямисэн для домашних занятий в аренду | Инструмент на учебный период",
+        "next_action": "Инструмент на учебный период"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Правую руку сямисэна трудно заменить абстрактным упражнением: удар bachi св",
+        "decision": "Сямисэн дома | Правая рука и техника плектра bachi",
+        "next_action": "Правая рука и техника плектра bachi"
+      }
+    },
+    "syamisen-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Аренда сямисэна перед покупкой: тип инструмента, bachi, строй, техника и со",
+        "decision": "Сямисэн до покупки напрокат | Первое знакомство с японской щипковой техникой",
+        "next_action": "Первое знакомство с японской щипковой техникой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Сямисэн особенно связан с конкретной исполнительской традицией. Покупать ег",
+        "decision": "Сямисэн перед покупкой | Корпус, струны и собственная традиция игры",
+        "next_action": "Корпус, струны и собственная традиция игры"
+      }
+    },
+    "mbira-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Первый опыт на мбире: металлические язычки, повторяющиеся фигуры и традицио",
+        "decision": "Мбира для первого знакомства в аренду | Африканский язычковый инструмент",
+        "next_action": "Африканский язычковый инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Мбира строит музыку из щипка металлических язычков и переплетающихся повтор",
+        "decision": "Первая мбира | Повторяющиеся мелодические рисунки под большими пальцами",
+        "next_action": "Повторяющиеся мелодические рисунки под большими пальцами"
+      }
+    },
+    "mbira-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Мбира для записи: строй, язычки, повторяющиеся циклы и микрофон.",
+        "decision": "Мбира для студии напрокат | Живой металлический язычковый тембр",
+        "next_action": "Живой металлический язычковый тембр"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Мбира может создать сразу и ритмический, и мелодический слой. В записи это ",
+        "decision": "Мбира в записи | Повторение и переплетение ритмических рисунков",
+        "next_action": "Повторение и переплетение ритмических рисунков"
+      }
+    },
+    "mbira-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Аренда мбиры перед покупкой: раскладка, строй, резонанс и собственная испол",
+        "decision": "Мбира до покупки в аренду | Попробовать строй и расположение язычков",
+        "next_action": "Попробовать строй и расположение язычков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Под общим словом mbira скрываются разные конструкции и раскладки язычков. П",
+        "decision": "Мбира перед покупкой | Разные язычки и традиционные звуковые системы",
+        "next_action": "Разные язычки и традиционные звуковые системы"
+      }
+    },
+    "dombra-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Аренда домбры перед покупкой: строй, мензура, две струны, правая рука и тра",
+        "decision": "Домбра до покупки напрокат | Попробовать казахский инструмент на своей программе",
+        "next_action": "Попробовать казахский инструмент на своей программе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+        "source_quote": "Домбра тесно связана с конкретной исполнительской традицией. Выбирать её то",
+        "decision": "Домбра перед покупкой | Две струны, техника правой руки и кюй",
+        "next_action": "Две струны, техника правой руки и кюй"
+      }
+    }
+  }
+}
