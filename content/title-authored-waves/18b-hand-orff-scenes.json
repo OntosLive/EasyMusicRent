@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "kahon-vzroslomu-nachinayuschemu",
+      "n0": "Кахон взрослому начинающему в аренду | Компактный ритмический инструмент для первых уроков",
+      "n1": "Первый кахон | Басовые и высокие удары внутри одного корпуса"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "kahon-pered-pokupkoy",
+      "n0": "Кахон до покупки напрокат | Сравнить звучание и посадку разных моделей",
+      "n1": "Кахон перед покупкой | Басовый звук и слэп в практической игре"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "dzhembe-dlya-pervogo-opyta",
+      "n0": "Джембе для первых занятий в аренду | Ручная перкуссия для группы и соло",
+      "n1": "Первый джембе | Несколько основных тембров на одной мембране"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "kongi-dlya-pervogo-opyta",
+      "n0": "Конги для первого опыта напрокат | Пара ударных для ансамбля и репетиций",
+      "n1": "Первые конги | Два корпуса с самостоятельными звуковыми ролями"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "bongi-dlya-pervogo-opyta",
+      "n0": "Бонго для первых занятий в аренду | Компактная пара барабанов для ритма",
+      "n1": "Первые бонго | Два небольших барабана с разными голосами"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "darbuka-dlya-pervogo-opyta",
+      "n0": "Дарбука для первого опыта напрокат | Для традиционной музыки и танца",
+      "n1": "Первая дарбука | Низкий dum и высокий tek в одной мембране"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "ramochnyy-baraban-dlya-pervogo-opyta",
+      "n0": "Рамочный барабан для первых занятий в аренду | Инструмент под разные традиции",
+      "n1": "Первый рамочный барабан | Несколько исполнительских техник на одной мембране"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "handpan-dlya-pervogo-opyta",
+      "n0": "Хэндпан для первого знакомства в аренду | Попробовать настроенный металлический инструмент",
+      "n1": "Первый хэндпан | Готовый набор нот для мелодии и импровизации"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "handpan-dlya-zapisi-improvizatsii",
+      "n0": "Хэндпан для записи импровизации напрокат | Мелодическая перкуссия в студию",
+      "n1": "Хэндпан в записи | Резонанс корпуса и звучание настроенных полей"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "kalimba-dlya-pervogo-opyta",
+      "n0": "Калимба для первых занятий в аренду | Небольшой мелодический инструмент",
+      "n1": "Первая калимба | Настроенные металлические язычки под большими пальцами"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "glyukofon-dlya-pervogo-opyta",
+      "n0": "Глюкофон для первого опыта напрокат | Стальной язычковый барабан для занятий",
+      "n1": "Первый глюкофон | Гармонический набор нот в резонирующем корпусе"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "orf-instrumenty-dlya-domashnih-zanyatiy",
+      "n0": "Инструменты Орфа домой в аренду | Набор для детских музыкальных занятий",
+      "n1": "Orff-инструменты дома | Мелодические и ритмические голоса для первых уроков"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "orf-instrumenty-dlya-gruppy-detey",
+      "n0": "Инструменты Орфа для группы детей напрокат | Комплект на целое занятие",
+      "n1": "Orff для детской группы | Распределить партии между разными инструментами"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "orf-instrumenty-dlya-pervogo-ansamblya",
+      "n0": "Инструменты Орфа для первого ансамбля в аренду | Учебная музыкальная группа комплектом",
+      "n1": "Первый Orff-ансамбль | Простейшие мелодии и ритмы складываются в музыку"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "perkussiya-dlya-pervogo-orkestrovogo-opyta",
+      "n0": "Оркестровая перкуссия для первых занятий | Инструменты под учебную партитуру",
+      "n1": "Первые оркестровые ударные | Несколько разных инструментов в одной секции"
+    },
+    {
+      "source_file": "content/sections/zz96-hand-orff-human-scenes.json",
+      "slug": "ruchnaya-perkussiya-dlya-vokalista",
+      "n0": "Ручная перкуссия для вокалиста напрокат | Простые ударные вместе с голосом",
+      "n1": "Перкуссия для певца | Ритмический аккомпанемент без полной установки"
+    }
+  ]
+}
