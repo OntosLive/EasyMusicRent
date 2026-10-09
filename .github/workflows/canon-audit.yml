@@ -38,6 +38,7 @@ jobs:
           python scripts/install_metrika.py --site _preview --check
           python scripts/apply_authored_titles.py --site _preview --check
           python scripts/install_favicon.py --site _preview --check
+          python scripts/title_worklist.py --site _preview --report _audit/build.json --output _audit/title-worklist.json --csv _audit/title-worklist.csv
           python scripts/page_contract_audit.py --site _preview --report _audit/page-contract.json
       - name: Snapshot exact tested sources
         if: always()

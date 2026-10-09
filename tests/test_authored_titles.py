@@ -99,17 +99,15 @@ class AuthoredTitlesTests(unittest.TestCase):
         aliases = json.loads((ROOT / "content" / "aliases.json").read_text(encoding="utf-8"))
         self.assertFalse(set(pairs) & set(aliases))
 
-    def test_public_registry_is_explicitly_paused_until_functional_review(self):
+    def test_current_pilot_is_published_literally_and_reviewed(self):
         pairs = authored.validate_manifest(authored.DEFAULT_MANIFEST)
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
-        self.assertEqual(manifest["publication_status"], "paused_pending_functional_review")
-        self.assertEqual(pairs, {})
-        output = authored.apply(self.site, authored.DEFAULT_MANIFEST)
-        self.assertEqual(output["model_authored_titles"], 0)
-        self.assertEqual(output["modified"], 0)
-        self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST, check=True)["modified"], 0)
-        self.assertIn("<title>Исходное название</title>",
-                      (self.site / "index.html").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
+        self.assertTrue(manifest["requires_owner_review"])
+        self.assertEqual(len(pairs), 8)
+        self.assertEqual(len({title for pair in pairs.values() for title in pair.values()}), 16)
+        self.assertIn("мензуру", pairs["arenda-kontrabasa-na-kontsert-moskva"]["n0"])
+        self.assertIn("смена размера", pairs["skripka-na-uchebnyy-god"]["n0"])
 
     def test_empty_manifest_requires_explicit_editorial_pause(self):
         self._write_manifest({})

@@ -50,6 +50,8 @@ jobs:
         run: python scripts/apply_authored_titles.py --site _site --check
       - name: Verify favicon markup and icon assets
         run: python scripts/install_favicon.py --site _site --check
+      - name: Track functional-title progress across the complete corpus
+        run: python scripts/title_worklist.py --site _site --report _audit/build.json --output _audit/title-worklist.json --csv _audit/title-worklist.csv
       - name: Audit page roles and rental language
         run: python scripts/page_contract_audit.py --site _site --report _audit/page-contract.json
       - name: Save release audit
