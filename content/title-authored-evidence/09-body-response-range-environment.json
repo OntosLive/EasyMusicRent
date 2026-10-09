@@ -1,0 +1,903 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal excerpts and authored titles",
+  "reviews": {
+    "instrument-esli-tyazhelo-prizhimat": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента, если прижим требует лишнего усилия: высота струн, натяж",
+        "decision": "Инструмент с более лёгким прижимом в аренду | Другой отклик без смены музыкальной задачи",
+        "next_action": "Другой отклик без смены музыкальной задачи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Сильное усилие прижима может быть частью ранней техники, а может создаватьс",
+        "decision": "Прижим струн без лишнего усилия | Натяжение, высота и рабочая геометрия",
+        "next_action": "Натяжение, высота и рабочая геометрия"
+      }
+    },
+    "instrument-esli-bystro-ustaet-levaya-ruka": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Инструмент при усталости левой руки: размер, мензура, высота струн и положе",
+        "decision": "Инструмент для меньшей нагрузки на левую руку | Компактные и лёгкие варианты",
+        "next_action": "Компактные и лёгкие варианты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Усталость левой руки может появляться из-за техники, но инструмент способен",
+        "decision": "Левая рука при игре | Мензура, расстояния и опора инструмента",
+        "next_action": "Мензура, расстояния и опора инструмента"
+      }
+    },
+    "instrument-esli-bystro-ustaet-pravaya-ruka": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Инструмент при усталости правой руки: смычок, медиатор, клапаны, мех, палоч",
+        "decision": "Более удобный инструмент для правой руки | Аренда для длительной практики",
+        "next_action": "Аренда для длительной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Правая рука может уставать не от объёма работы, а от постоянной компенсации",
+        "decision": "Правая рука музыканта | Смычок, клавиши, медиатор и рабочее сопротивление",
+        "next_action": "Смычок, клавиши, медиатор и рабочее сопротивление"
+      }
+    },
+    "instrument-esli-podnimaetsya-plecho": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента при поднятом плече: размер, ремни, высота и рабочая поса",
+        "decision": "Инструмент с удобной посадкой в аренду | Поддержка корпуса без поднятого плеча",
+        "next_action": "Поддержка корпуса без поднятого плеча"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Поднятое плечо часто выглядит как ошибка постановки, но иногда тело просто ",
+        "decision": "Плечо и инструмент | Баланс и высота меняют исполнительскую посадку",
+        "next_action": "Баланс и высота меняют исполнительскую посадку"
+      }
+    },
+    "instrument-esli-tyazhelo-dotyagivatsya-do-klavish-ili-ladov": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента при большом растяжении: мензура, размер корпуса и распол",
+        "decision": "Инструмент с меньшими расстояниями | Аренда компактного корпуса и мензуры",
+        "next_action": "Аренда компактного корпуса и мензуры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Если рука постоянно тянется дальше свободного диапазона, ученик начинает ст",
+        "decision": "Досягаемость клавиш и ладов | Уменьшенная растяжка при полной учебной задаче",
+        "next_action": "Уменьшенная растяжка при полной учебной задаче"
+      }
+    },
+    "instrument-esli-korpus-slishkom-bolshoy": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор более компактного корпуса: посадка, диапазон и сохранение исполнител",
+        "decision": "Инструмент меньшего корпуса в аренду | Сохранить музыкальную функцию в компактном размере",
+        "next_action": "Сохранить музыкальную функцию в компактном размере"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Большой корпус может давать нужный звук, но одновременно мешать посадке, пе",
+        "decision": "Размер корпуса инструмента | Исполнительская задача и физический масштаб различаются",
+        "next_action": "Исполнительская задача и физический масштаб различаются"
+      }
+    },
+    "instrument-esli-instrument-slishkom-tyazhelyy": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор более лёгкого инструмента: масса, баланс, ремни и длительная практик",
+        "decision": "Более лёгкий музыкальный инструмент напрокат | Варианты для ежедневной игры",
+        "next_action": "Варианты для ежедневной игры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Масса становится музыкальной проблемой тогда, когда меняет технику раньше о",
+        "decision": "Вес инструмента | Общая масса и распределение нагрузки на тело",
+        "next_action": "Общая масса и распределение нагрузки на тело"
+      }
+    },
+    "instrument-esli-neudobno-igrat-sidya": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента для игры сидя: корпус, стул, шпиль, ремень и положение р",
+        "decision": "Инструмент для удобной игры сидя | Аренда с опорой и рабочим комплектом",
+        "next_action": "Аренда с опорой и рабочим комплектом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Некоторые инструменты удобно ощущаются стоя и неожиданно ломают посадку на ",
+        "decision": "Посадка музыканта | Инструмент, стул и рабочая высота как единое место",
+        "next_action": "Инструмент, стул и рабочая высота как единое место"
+      }
+    },
+    "instrument-esli-neudobno-igrat-stoya": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента для игры стоя: баланс, ремень, масса и доступ к диапазон",
+        "decision": "Инструмент для игры стоя в аренду | Лёгкие корпуса, ремни и стойки",
+        "next_action": "Лёгкие корпуса, ремни и стойки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Когда музыкант встаёт, меняется угол корпуса, положение грифа, педалей или ",
+        "decision": "Игра стоя | Баланс, крепления и свобода движения обеих рук",
+        "next_action": "Баланс, крепления и свобода движения обеих рук"
+      }
+    },
+    "instrument-esli-ne-hvataet-dyhaniya": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор духового инструмента при нехватке воздуха: отклик, сопротивление, ра",
+        "decision": "Духовой инструмент с более лёгким откликом | Аренда учебных и компактных вариантов",
+        "next_action": "Аренда учебных и компактных вариантов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Нехватка воздуха может быть частью техники дыхания, а может усиливаться нег",
+        "decision": "Духовой отклик | Сопротивление, мундштук и длина исполнительской фразы",
+        "next_action": "Сопротивление, мундштук и длина исполнительской фразы"
+      }
+    },
+    "instrument-esli-guby-bystro-ustayut": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор духового при усталости амбушюра: сопротивление, размер, мундштук и д",
+        "decision": "Духовой инструмент с другим сопротивлением | Варианты для учебной игры",
+        "next_action": "Варианты для учебной игры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Усталость амбушюра неизбежна при развитии, но слишком ранний спад может уси",
+        "decision": "Амбушюр и духовой инструмент | Мундштук, воздух и характер сопротивления",
+        "next_action": "Мундштук, воздух и характер сопротивления"
+      }
+    },
+    "instrument-esli-kist-zazhimaetsya": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента при зажатой кисти: размер, баланс, хват и сопротивление.",
+        "decision": "Инструмент с более свободным хватом напрокат | Другие размеры и опоры",
+        "next_action": "Другие размеры и опоры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Зажатая кисть может возникать из техники, но часто усиливается неподходящим",
+        "decision": "Кисть при игре | Баланс и расположение опор в исполнительском движении",
+        "next_action": "Баланс и расположение опор в исполнительском движении"
+      }
+    },
+    "instrument-esli-bolshoy-palets-ne-nahodit-oporu": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента при неудобной опоре большого пальца: регулируемая опора,",
+        "decision": "Инструмент с другой опорой большого пальца | Аренда для удобной игры",
+        "next_action": "Аренда для удобной игры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Опора большого пальца влияет на положение всей кисти. Если она слишком высо",
+        "decision": "Опора большого пальца | Расположение крепления и равновесие инструмента",
+        "next_action": "Расположение крепления и равновесие инструмента"
+      }
+    },
+    "instrument-esli-pedal-daleko": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента при неудобной педали: высота, глубина корпуса и положени",
+        "decision": "Инструмент с удобным доступом к педалям | Аренда с подходящим рабочим местом",
+        "next_action": "Аренда с подходящим рабочим местом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Если ради педали ученик сдвигается вперёд, вытягивает ногу или теряет опору",
+        "decision": "Педали и посадка | Высота инструмента и положение ног при игре",
+        "next_action": "Высота инструмента и положение ног при игре"
+      }
+    },
+    "instrument-esli-shpil-ne-derzhit-korpus": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Инструмент с устойчивым шпилем: длина, наконечник, пол и рабочая посадка.",
+        "decision": "Виолончель или контрабас с устойчивым шпилем | Инструмент напрокат",
+        "next_action": "Инструмент напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Если шпиль скользит или меняет длину, музыкант начинает удерживать корпус н",
+        "decision": "Шпиль виолончели и контрабаса | Высота, наконечник и опора на полу",
+        "next_action": "Высота, наконечник и опора на полу"
+      }
+    },
+    "instrument-esli-remni-ne-derzhat-posadku": {
+      "n0": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Подбор инструмента и ремней при нестабильной посадке: длина, баланс и корпу",
+        "decision": "Инструмент с подходящими ремнями в аренду | Удобное удержание на занятиях",
+        "next_action": "Удобное удержание на занятиях"
+      },
+      "n1": {
+        "source_path": "content/sections/zz125-technical-obstacles-body.json",
+        "source_quote": "Ремни должны фиксировать рабочую геометрию, а не быть предметом постоянной ",
+        "decision": "Ремни инструмента | Настройка длины и устойчивости корпуса",
+        "next_action": "Настройка длины и устойчивости корпуса"
+      }
+    },
+    "instrument-esli-tihaya-nota-ne-nachinaetsya": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Подбор инструмента для управляемой тихой атаки: отклик, механика и техника.",
+        "decision": "Инструмент с отзывчивой тихой атакой в аренду | Для нюансов pianissimo",
+        "next_action": "Для нюансов pianissimo"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Если звук появляется только после заметного силового порога, ученик не може",
+        "decision": "Начало тихой ноты | Отклик механики и прямой контакт со звуком",
+        "next_action": "Отклик механики и прямой контакт со звуком"
+      }
+    },
+    "instrument-esli-nota-nachinaetsya-s-shumom": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Подбор инструмента при шумной атаке: струна, клапан, механика или смычковый",
+        "decision": "Инструмент с чистой атакой напрокат | Меньше постороннего шума в начале звука",
+        "next_action": "Меньше постороннего шума в начале звука"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Шум в начале может рождаться из техники, а может быть следствием неровного ",
+        "decision": "Шум при атаке | Разные источники в струне, клапане и механике",
+        "next_action": "Разные источники в струне, клапане и механике"
+      }
+    },
+    "instrument-esli-sosednie-klavishi-otvechayut-po-raznomu": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Инструмент с ровной клавиатурой: вес, возврат и динамика соседних клавиш.",
+        "decision": "Клавишный инструмент с ровным откликом | Аренда для фортепианной практики",
+        "next_action": "Аренда для фортепианной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Если соседние клавиши требуют заметно разного усилия, рука учится компенсир",
+        "decision": "Ровная клавиатура | Одинаковое усилие и возврат соседних клавиш",
+        "next_action": "Одинаковое усилие и возврат соседних клавиш"
+      }
+    },
+    "instrument-esli-povtornaya-nota-ne-uspevaet": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Инструмент для быстрых повторных нот: возврат механики и повторяемость.",
+        "decision": "Пианино для быстрых повторных нот | Аренда с отзывчивой механикой",
+        "next_action": "Аренда с отзывчивой механикой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Когда следующая нота исчезает при ускорении, нужно различить предел техники",
+        "decision": "Повторная нота | Возврат молоточка и скорость исполнительского движения",
+        "next_action": "Возврат молоточка и скорость исполнительского движения"
+      }
+    },
+    "instrument-esli-klapan-zapazdyvaet": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Духовой инструмент при медленном клапане: ход, герметичность и повторение.",
+        "decision": "Духовой инструмент с исправной механикой клапанов | Замена в аренду",
+        "next_action": "Замена в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Медленный или липкий клапан превращает ритмически точную аппликатуру в нето",
+        "decision": "Ход клапанов духового инструмента | Точность открытия и закрытия в быстром пассаже",
+        "next_action": "Точность открытия и закрытия в быстром пассаже"
+      }
+    },
+    "instrument-esli-kulisa-idet-tugo": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Тромбон с лёгким ходом кулисы: движение, позиции и временная замена.",
+        "decision": "Тромбон с лёгкой кулисой в аренду | Рабочий инструмент без тугого хода",
+        "next_action": "Рабочий инструмент без тугого хода"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Тугая кулиса заставляет музыканта подключать плечо и корпус к движению, кот",
+        "decision": "Тромбонная кулиса | Свободный ход между позициями",
+        "next_action": "Свободный ход между позициями"
+      }
+    },
+    "instrument-esli-piston-zakusaet": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Труба, эуфониум или другой медный духовой при заедающих пистонах.",
+        "decision": "Медный духовой с плавным ходом пистонов | Труба и другие модели в аренду",
+        "next_action": "Труба и другие модели в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Заедающий пистон разрушает не только удобство, но и саму связь между пальце",
+        "decision": "Пистоны медных духовых | Равномерный возврат и точность клапанной работы",
+        "next_action": "Равномерный возврат и точность клапанной работы"
+      }
+    },
+    "instrument-esli-pedal-rabotaet-kak-knopka": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Инструмент с более управляемой педалью: half-pedal, damper или иной непреры",
+        "decision": "Пианино с управляемой педалью в аренду | Варианты с полуходом педали",
+        "next_action": "Варианты с полуходом педали"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Когда педагогическая задача требует глубины педали, бинарный интерфейс пере",
+        "decision": "Педаль не только включена или выключена | Промежуточные положения и резонанс",
+        "next_action": "Промежуточные положения и резонанс"
+      }
+    },
+    "instrument-esli-struny-slishkom-zhestkie": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Подбор инструмента или комплекта при чрезмерном натяжении струн.",
+        "decision": "Струнный инструмент с более мягким ощущением струн | Аренда альтернативы",
+        "next_action": "Аренда альтернативы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Жёсткость может быть свойством струн, мензуры, строя или конкретной констру",
+        "decision": "Сопротивление струны | Натяжение и высота над грифом в одной задаче",
+        "next_action": "Натяжение и высота над грифом в одной задаче"
+      }
+    },
+    "instrument-esli-otskok-slishkom-vysokiy": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Ударный инструмент с более управляемым rebound: пластик, пэд и техника.",
+        "decision": "Ударный инструмент с другим отскоком | Пэды и барабаны в аренду",
+        "next_action": "Пэды и барабаны в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Большой отскок может помогать скорости, но если палочка возвращается выше н",
+        "decision": "Отскок барабанной палочки | Мембрана и поверхность задают возврат",
+        "next_action": "Мембрана и поверхность задают возврат"
+      }
+    },
+    "instrument-esli-otskok-slishkom-myagkiy": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Ударный инструмент при слабом rebound: пластик, настройка, пэд и моторная р",
+        "decision": "Ударный инструмент с более выраженным отскоком | Аренда для техники",
+        "next_action": "Аренда для техники"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Слишком поглощающая поверхность заставляет руку активнее поднимать палочку ",
+        "decision": "Недостаточный отскок | Настройка мембраны и упругость игровой поверхности",
+        "next_action": "Настройка мембраны и упругость игровой поверхности"
+      }
+    },
+    "instrument-esli-meh-idet-ryvkami": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Баян или аккордеон с ровным ходом меха: сопротивление, герметичность и корп",
+        "decision": "Баян или аккордеон с ровным ходом меха | Исправный инструмент напрокат",
+        "next_action": "Исправный инструмент напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Рывок может быть следствием техники, но также утечки, деформации или слишко",
+        "decision": "Ход меха | Герметичность и сопротивление в длинной музыкальной фразе",
+        "next_action": "Герметичность и сопротивление в длинной музыкальной фразе"
+      }
+    },
+    "instrument-esli-stroy-uplyvaet": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Стабильный инструмент при проблемах строя: настройка, температура, механика",
+        "decision": "Инструмент со стабильной настройкой в аренду | Замена на занятия и концерт",
+        "next_action": "Замена на занятия и концерт"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Если строй постоянно меняется быстрее обычной нормы, ученик получает нестаб",
+        "decision": "Нестабильный строй | Колки, температура и настройка исполнительской системы",
+        "next_action": "Колки, температура и настройка исполнительской системы"
+      }
+    },
+    "instrument-esli-lady-ne-stroyat": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Инструмент с проверенным строем по ладам: мензура, высота струн и интонация",
+        "decision": "Ладовый инструмент с точной интонацией | Гитары и другие варианты напрокат",
+        "next_action": "Гитары и другие варианты напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Инструмент может быть точно настроен по открытым струнам и всё равно давать",
+        "decision": "Строй по ладам | Мензура и положение струн в разных регистрах",
+        "next_action": "Мензура и положение струн в разных регистрах"
+      }
+    },
+    "instrument-esli-zvuk-nerovnyy-po-diapazonu": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Инструмент с более ровным откликом по диапазону: регистры, механика и резон",
+        "decision": "Инструмент с ровным звучанием регистров | Аренда под полную программу",
+        "next_action": "Аренда под полную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Резкая разница между регистрами может быть музыкальным свойством семейства,",
+        "decision": "Неровный отклик диапазона | Механика и резонанс в разных регистрах",
+        "next_action": "Механика и резонанс в разных регистрах"
+      }
+    },
+    "instrument-esli-mehanika-shumit-v-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Инструмент для записи с меньшим механическим шумом: клавиши, клапаны, педал",
+        "decision": "Инструмент для тихой студийной записи | Меньше посторонних звуков механики",
+        "next_action": "Меньше посторонних звуков механики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz126-technical-obstacles-response.json",
+        "source_quote": "Шум, незаметный в комнате, может стать крупным событием близкого микрофона.",
+        "decision": "Шум механики на записи | Клавиши, клапаны и педали в микрофонном тракте",
+        "next_action": "Клавиши, клапаны и педали в микрофонном тракте"
+      }
+    },
+    "instrument-esli-ne-hvataet-nizhnego-registra": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Инструмент с расширенным нижним регистром: дополнительные струны, клавиши, ",
+        "decision": "Инструмент с расширенным нижним регистром | Пятиструнные, басовые и другие варианты",
+        "next_action": "Пятиструнные, басовые и другие варианты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Запрос на более низкий регистр должен начинаться с конкретных нот и партий.",
+        "decision": "Нижний регистр инструмента | Дополнительные струны, клавиши или смена голоса",
+        "next_action": "Дополнительные струны, клавиши или смена голоса"
+      }
+    },
+    "instrument-esli-ne-hvataet-verhnego-registra": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Инструмент с расширенным верхним регистром: диапазон, механика и реальная п",
+        "decision": "Инструмент с более высоким диапазоном в аренду | Под нужные верхние ноты",
+        "next_action": "Под нужные верхние ноты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Верхний регистр может отсутствовать конструктивно или быть технически слишк",
+        "decision": "Верхний регистр | Реальные пределы диапазона определяют доступные партии",
+        "next_action": "Реальные пределы диапазона определяют доступные партии"
+      }
+    },
+    "instrument-esli-ne-hvataet-diapazona": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Инструмент большего диапазона: реальные крайние ноты, размер и переход.",
+        "decision": "Инструмент большего диапазона напрокат | От учебного до концертного формата",
+        "next_action": "От учебного до концертного формата"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Общий запрос «нужно больше диапазона» становится полезным только после фикс",
+        "decision": "Расширение диапазона | Дополнительные клавиши, струны и регистры",
+        "next_action": "Дополнительные клавиши, струны и регистры"
+      }
+    },
+    "instrument-esli-nuzhen-drugoy-stroy": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Инструмент другого строя: транспозиция, ансамбль, песня или историческая пр",
+        "decision": "Инструмент другого строя в аренду | Точная тональность для программы",
+        "next_action": "Точная тональность для программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Другой строй может быть нужен из-за оркестровой партии, вокальной тональнос",
+        "decision": "Другой строй инструмента | Транспозиция и соответствие партитуре",
+        "next_action": "Транспозиция и соответствие партитуре"
+      }
+    },
+    "instrument-esli-nuzhna-dopolnitelnaya-nizkaya-struna": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Пяти- или более струнный инструмент для расширенного нижнего регистра.",
+        "decision": "Инструмент с дополнительной низкой струной | Пятиструнные варианты в аренду",
+        "next_action": "Пятиструнные варианты в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Дополнительная низкая струна меняет не только диапазон, но и ширину грифа, ",
+        "decision": "Дополнительная низкая струна | Новый регистр без смены семейства инструмента",
+        "next_action": "Новый регистр без смены семейства инструмента"
+      }
+    },
+    "instrument-esli-nuzhen-vybornyy-bas": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Баян или аккордеон с free-bass системой под новую учебную программу.",
+        "decision": "Баян или аккордеон с выборным басом в аренду | Свободные ноты левой руки",
+        "next_action": "Свободные ноты левой руки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Выборный бас становится нужен, когда готовых аккордов уже недостаточно и ле",
+        "decision": "Выборный бас | Мелодическая и полифоническая работа басовой клавиатуры",
+        "next_action": "Мелодическая и полифоническая работа басовой клавиатуры"
+      }
+    },
+    "instrument-esli-pedal-ne-daet-promezhutochnogo-polozheniya": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Подбор инструмента, если педаль не различает промежуточные положения: функц",
+        "decision": "Инструмент с полупедалью в аренду | Тонкое управление продолжением звука",
+        "next_action": "Тонкое управление продолжением звука"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Музыкант может не знать слова «полупедаль», но уже слышать проблему: педаль",
+        "decision": "Промежуточный ход педали | Несколько состояний резонанса вместо одной кнопки",
+        "next_action": "Несколько состояний резонанса вместо одной кнопки"
+      }
+    },
+    "instrument-esli-nuzhen-kvartventil": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Тромбон с F-attachment: альтернативные позиции, низкий регистр и переход.",
+        "decision": "Тромбон с квартвентилем напрокат | Дополнительные позиции и нижний регистр",
+        "next_action": "Дополнительные позиции и нижний регистр"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Квартвентиль добавляет новую ветку аппликатур и доступ к низкому регистру. ",
+        "decision": "Квартвентиль тромбона | Ещё один маршрут к низким нотам",
+        "next_action": "Ещё один маршрут к низким нотам"
+      }
+    },
+    "instrument-esli-nuzhny-otkrytye-klapany": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Флейта с open holes для перехода по программе преподавателя.",
+        "decision": "Флейта с открытыми клапанами в аренду | Для нового учебного этапа",
+        "next_action": "Для нового учебного этапа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Открытые клапаны меняют контакт пальца с механикой и требуют точного закрыт",
+        "decision": "Открытые клапаны флейты | Дополнительные возможности контакта пальцев и строя",
+        "next_action": "Дополнительные возможности контакта пальцев и строя"
+      }
+    },
+    "instrument-esli-nuzhna-dvoynaya-valtorna": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Переход с одинарной F на двойную F/B♭ валторну.",
+        "decision": "Двойная валторна напрокат | Системы F и B в одном концертном инструменте",
+        "next_action": "Системы F и B в одном концертном инструменте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Двойная валторна добавляет вторую трубную длину и новые аппликатурные маршр",
+        "decision": "Двойная валторна | Переключение между двумя основными строями",
+        "next_action": "Переключение между двумя основными строями"
+      }
+    },
+    "instrument-esli-nuzhen-bolshiy-diapazon-klaviatury": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Клавишный инструмент с большим числом клавиш под репертуар, MIDI или сценич",
+        "decision": "Клавишный инструмент большего диапазона | От компактного до 88 клавиш",
+        "next_action": "От компактного до 88 клавиш"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Недостающие октавы могут мешать фортепианной программе, оркестровке, splits",
+        "decision": "Полный диапазон клавиатуры | Свободные крайние ноты и новые партии",
+        "next_action": "Свободные крайние ноты и новые партии"
+      }
+    },
+    "instrument-esli-nuzhen-vyrez-korpusa": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Гитара с cutaway для доступа к верхним ладам.",
+        "decision": "Гитара с вырезом корпуса в аренду | Соло с доступом к верхним ладам",
+        "next_action": "Соло с доступом к верхним ладам"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Вырез имеет смысл не как дизайн, а когда реальная музыка регулярно поднимае",
+        "decision": "Гитарный cutaway | Верхний регистр доступен при обычной технике",
+        "next_action": "Верхний регистр доступен при обычной технике"
+      }
+    },
+    "instrument-esli-nuzhna-korotkaya-menzura": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Short-scale инструмент: меньшая растяжка, другая струна и сравнение со стан",
+        "decision": "Короткомензурный инструмент напрокат | Компактные гитары и басы",
+        "next_action": "Компактные гитары и басы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Короткая мензура уменьшает расстояния между позициями и меняет поведение ст",
+        "decision": "Короткая мензура | Меньшее расстояние между позициями на грифе",
+        "next_action": "Меньшее расстояние между позициями на грифе"
+      }
+    },
+    "instrument-esli-nuzhen-kompaktnyy-korpus": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Компактный инструмент для комнаты, транспорта или удобной посадки.",
+        "decision": "Компактный музыкальный инструмент в аренду | Для комнаты и перевозки",
+        "next_action": "Для комнаты и перевозки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Компактность может решать посадку, хранение и транспорт. Важно понять, что ",
+        "decision": "Компактный корпус | Сохранить диапазон и функцию при меньших габаритах",
+        "next_action": "Сохранить диапазон и функцию при меньших габаритах"
+      }
+    },
+    "instrument-esli-nuzhen-otdelnyy-instrument-pod-stroy": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Отдельный инструмент для Drop, open tuning или другой постоянной настройки.",
+        "decision": "Отдельная гитара под альтернативный строй | Аренда для концерта и записи",
+        "next_action": "Аренда для концерта и записи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Если в программе несколько сильно разных строев, постоянная перестройка одн",
+        "decision": "Инструмент под другой строй | Смена музыкального строя без перенастройки основного",
+        "next_action": "Смена музыкального строя без перенастройки основного"
+      }
+    },
+    "instrument-esli-nuzhna-dopolnitelnaya-pedal": {
+      "n0": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Инструмент с дополнительной педальной функцией: sostenuto, expression, орга",
+        "decision": "Инструмент с дополнительной педалью в аренду | Sustain, sostenuto и expression",
+        "next_action": "Sustain, sostenuto и expression"
+      },
+      "n1": {
+        "source_path": "content/sections/zz127-technical-obstacles-range.json",
+        "source_quote": "Дополнительная педаль полезна тогда, когда нога получает самостоятельную фу",
+        "decision": "Дополнительные педали | Управление продолжением, громкостью и сценическими функциями",
+        "next_action": "Управление продолжением, громкостью и сценическими функциями"
+      }
+    },
+    "instrument-esli-slishkom-gromko-dlya-doma": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент для тихой домашней практики: наушники, silent/electric формат ил",
+        "decision": "Тихий инструмент для домашних занятий | Цифровые и silent-форматы в аренду",
+        "next_action": "Цифровые и silent-форматы в аренду"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Домашняя громкость становится проблемой не тогда, когда инструмент просто з",
+        "decision": "Тихая домашняя практика | Наушники и цифровой звук вместо громкого корпуса",
+        "next_action": "Наушники и цифровой звук вместо громкого корпуса"
+      }
+    },
+    "instrument-esli-ne-pomeschaetsya-v-komnate": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Подбор инструмента для маленькой комнаты: корпус, стойка, стул, педали и пр",
+        "decision": "Компактный инструмент для небольшой комнаты | Полноценная функция при меньших габаритах",
+        "next_action": "Полноценная функция при меньших габаритах"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент может формально входить по ширине и всё равно делать практику не",
+        "decision": "Музыка в маленькой комнате | Инструмент, стойка и посадка в одном пространстве",
+        "next_action": "Инструмент, стойка и посадка в одном пространстве"
+      }
+    },
+    "instrument-esli-slozhno-perevozit": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Аренда вместо перевозки большого или хрупкого инструмента.",
+        "decision": "Инструмент на месте выступления в аренду | Без перевозки собственного",
+        "next_action": "Без перевозки собственного"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Для большого, тяжёлого или хрупкого инструмента перевозка иногда дороже и р",
+        "decision": "Музыкант без перевозки инструмента | Локальный прокат для концерта и занятий",
+        "next_action": "Локальный прокат для концерта и занятий"
+      }
+    },
+    "instrument-esli-dolgo-sobirat-pered-zanyatiem": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструментальный комплект с быстрым стартом: стойки, кабели, педали и посто",
+        "decision": "Быстро собираемый музыкальный комплект | Аренда инструмента со стойками и кабелями",
+        "next_action": "Аренда инструмента со стойками и кабелями"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Если на двадцатиминутное занятие требуется десять минут сборки, даже хороши",
+        "decision": "Быстрый старт занятий | Инструмент, опоры и соединения готовы работать вместе",
+        "next_action": "Инструмент, опоры и соединения готовы работать вместе"
+      }
+    },
+    "instrument-esli-nuzhno-igrat-v-naushnikah": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент для занятий в наушниках: электрический/silent формат, мониторинг",
+        "decision": "Музыкальные инструменты для игры в наушниках | Клавиши, электрострунные и ударные",
+        "next_action": "Клавиши, электрострунные и ударные"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Наушники полезны только тогда, когда музыкант всё ещё слышит различия атаки",
+        "decision": "Игра в наушниках | Электрический или цифровой тракт для личной практики",
+        "next_action": "Электрический или цифровой тракт для личной практики"
+      }
+    },
+    "instrument-esli-nuzhno-podklyuchit-v-pult": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент для прямого или DI-подключения к концертному пульту.",
+        "decision": "Инструмент с подключением в микшер | Аренда вместе с необходимым выходом",
+        "next_action": "Аренда вместе с необходимым выходом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Когда инструмент идёт в пульт, задача уже не заканчивается его акустическим",
+        "decision": "Инструмент прямо в пульт | Линейный сигнал и DI-тракт для концертного звука",
+        "next_action": "Линейный сигнал и DI-тракт для концертного звука"
+      }
+    },
+    "instrument-esli-nuzhen-chistyy-di-signal": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент и DI-тракт для записи или сцены без лишнего шума и окраски.",
+        "decision": "Инструмент для прямой записи через DI | Чистый сигнал без кабинета",
+        "next_action": "Чистый сигнал без кабинета"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Чистый DI нужен там, где финальный тембр будет собираться позже, а сейчас в",
+        "decision": "Прямой DI-сигнал | От инструмента до балансного входа пульта",
+        "next_action": "От инструмента до балансного входа пульта"
+      }
+    },
+    "instrument-esli-ne-hvataet-monitoringa": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент и мониторинг для сцены: уровень, выход, наушники/monitor и балан",
+        "decision": "Инструмент и сценический мониторинг в аренду | Полный комплект для музыканта",
+        "next_action": "Полный комплект для музыканта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Когда музыкант плохо слышит себя, он часто начинает играть сильнее, менять ",
+        "decision": "Мониторинг музыкальной сцены | Отдельный баланс, который слышит исполнитель",
+        "next_action": "Отдельный баланс, который слышит исполнитель"
+      }
+    },
+    "instrument-esli-teryaetsya-v-ansamble": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент для лучшей читаемости в ансамбле: атака, регистр, тембр и баланс",
+        "decision": "Инструмент для читаемой партии в ансамбле | Другой регистр и усиление",
+        "next_action": "Другой регистр и усиление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент может звучать прекрасно соло и исчезать рядом с партнёрами. Прич",
+        "decision": "Разборчивость ансамбля | Место инструмента в общем спектре и фактуре",
+        "next_action": "Место инструмента в общем спектре и фактуре"
+      }
+    },
+    "instrument-esli-perekryvaet-golos": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент для баланса с голосом: корпус, атака, динамика и частотное место",
+        "decision": "Инструмент для аккомпанемента вокалу | Камерные корпуса и управляемое усиление",
+        "next_action": "Камерные корпуса и управляемое усиление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Слишком массивный аккомпанемент заставляет певца увеличивать громкость и ме",
+        "decision": "Инструмент рядом с голосом | Сохранить гармонию, не закрывая вокальную партию",
+        "next_action": "Сохранить гармонию, не закрывая вокальную партию"
+      }
+    },
+    "instrument-esli-slishkom-mnogo-nizkih-chastot": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент для более собранного низкого регистра: корпус, кабинет, строй и ",
+        "decision": "Басовый инструмент с более собранным звуком | Альтернативные кабинеты и настройки",
+        "next_action": "Альтернативные кабинеты и настройки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Большой низ может впечатлять в одиночку и разрушать читаемость ансамбля или",
+        "decision": "Нижний регистр без избытка | Корпус, строй и акустика в одном тракте",
+        "next_action": "Корпус, строй и акустика в одном тракте"
+      }
+    },
+    "instrument-esli-ne-hvataet-ataki": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент с более читаемой атакой: pickup, поверхность, корпус или исполни",
+        "decision": "Инструмент с более ясной атакой в аренду | Для артикуляции в ансамбле",
+        "next_action": "Для артикуляции в ансамбле"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Если нота имеет достаточно громкости, но плохо читается ритмически, проблем",
+        "decision": "Атака музыкального звука | Звукосниматель, поверхность и характер начала ноты",
+        "next_action": "Звукосниматель, поверхность и характер начала ноты"
+      }
+    },
+    "instrument-esli-slishkom-dolgiy-sustain": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент с более коротким sustain или управляемым глушением.",
+        "decision": "Инструмент с управляемым затуханием | Короткий звук и средства глушения",
+        "next_action": "Короткий звук и средства глушения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Длинное продолжение красиво в одиночной ноте и может размывать быстрый ритм",
+        "decision": "Продолжение и глушение ноты | Управление sustain в партии",
+        "next_action": "Управление sustain в партии"
+      }
+    },
+    "instrument-esli-mikrofon-slyshit-lishniy-shum": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Инструмент для тихой записи: механика, дыхание, корпусные шумы и микрофонна",
+        "decision": "Инструмент для чистой студийной записи | Варианты с меньшим механическим шумом",
+        "next_action": "Варианты с меньшим механическим шумом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Близкий микрофон увеличивает всё: дыхание, щелчок клавиши, скрип педали, ст",
+        "decision": "Механические шумы в микрофоне | Клавиши, педали и корпус рядом с источником",
+        "next_action": "Клавиши, педали и корпус рядом с источником"
+      }
+    },
+    "instrument-esli-nuzhno-bystro-menyat-zvuki-na-stsene": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Сценические клавишные для быстрых переключений, live sets и подготовленного",
+        "decision": "Сценические клавишные для быстрых смен тембра | Готовые программы и live sets",
+        "next_action": "Готовые программы и live sets"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "На сцене глубина синтеза мало помогает, если музыкант не успевает найти сле",
+        "decision": "Смена звуков на сцене | Подготовленные тембры в последовательности концерта",
+        "next_action": "Подготовленные тембры в последовательности концерта"
+      }
+    },
+    "instrument-esli-nuzhen-rezerv-na-kontsert": {
+      "n0": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Backup-инструмент на концерт: совместимая геометрия, строй, выходы и быстра",
+        "decision": "Резервный музыкальный инструмент на концерт | Полноценный запасной вариант",
+        "next_action": "Полноценный запасной вариант"
+      },
+      "n1": {
+        "source_path": "content/sections/zz128-technical-obstacles-environment.json",
+        "source_quote": "Резервный инструмент нужен не ради второго красивого экземпляра, а чтобы пр",
+        "decision": "Резерв на концерте | Сменить инструмент без остановки программы",
+        "next_action": "Сменить инструмент без остановки программы"
+      }
+    }
+  }
+}
