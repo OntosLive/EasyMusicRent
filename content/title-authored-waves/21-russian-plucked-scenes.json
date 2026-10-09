@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "domra-vzroslomu-nachinayuschemu",
+      "n0": "Домра взрослому начинающему в аренду | Инструмент для первых уроков и ансамбля",
+      "n1": "Первая домра | Трёхструнная и четырёхструнная системы для разных школ"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "domra-dlya-domashnih-zanyatiy",
+      "n0": "Домра для домашних занятий напрокат | Учебный инструмент на регулярную практику",
+      "n1": "Домра дома | Медиатор, строй и ежедневное развитие тремоло"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "domra-pered-pokupkoy",
+      "n0": "Домра до покупки в аренду | Сравнить размер, систему и характер звука",
+      "n1": "Домра перед покупкой | Разные строи и трёх- либо четырёхструнные инструменты"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "domra-dlya-raboty-mediatorom",
+      "n0": "Домра для работы медиатором напрокат | На учебный период и концертную программу",
+      "n1": "Домра и медиатор | Короткий удар и протяжённое тремоло в одной партии"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "domra-alt-dlya-pervogo-opyta",
+      "n0": "Альтовая домра для первого опыта в аренду | Средний щипковый голос ансамбля",
+      "n1": "Домра-альт | Более низкий регистр и собственная партия в оркестре"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "domra-bas-dlya-pervogo-opyta",
+      "n0": "Басовая домра напрокат | Низкий щипковый инструмент для ансамбля",
+      "n1": "Домра-бас | Медиаторная атака и басовая функция народного оркестра"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-vzroslomu-nachinayuschemu",
+      "n0": "Балалайка взрослому начинающему в аренду | Первая прима и учебный репертуар",
+      "n1": "Первая балалайка | Правый щипковый жест на треугольном корпусе"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-dlya-domashnih-zanyatiy",
+      "n0": "Балалайка для домашних занятий напрокат | Учебный инструмент между уроками",
+      "n1": "Балалайка дома | Строй, звукоизвлечение и развитие народного репертуара"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-pered-pokupkoy",
+      "n0": "Балалайка до покупки в аренду | Прима и другие разновидности для сравнения",
+      "n1": "Балалайка перед покупкой | Разные голоса одного оркестрового семейства"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-dlya-pervogo-orkestrovogo-opyta",
+      "n0": "Балалайка для народного оркестра напрокат | Инструмент под первую партию",
+      "n1": "Балалайка в оркестре | Прима, секунда, альт и бас работают в ансамбле"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-sekunda-dlya-pervogo-opyta",
+      "n0": "Балалайка-секунда в аренду | Ритмический голос народного оркестра",
+      "n1": "Балалайка-секунда | Отдельная партия сопровождения в щипковом составе"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-alt-dlya-pervogo-opyta",
+      "n0": "Балалайка-альт напрокат | Средний регистр для народного оркестра",
+      "n1": "Балалайка-альт | Средний щипковый голос между секундами и басами"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-bas-dlya-pervogo-opyta",
+      "n0": "Балалайка-бас в аренду | Низкий голос для оркестровой секции",
+      "n1": "Балалайка-бас | Басовая линия и ритмическая опора большого ансамбля"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "balalayka-kontrabas-dlya-pervogo-opyta",
+      "n0": "Балалайка-контрабас напрокат | Оркестровый инструмент нижнего регистра",
+      "n1": "Балалайка-контрабас | Большой корпус и басовая функция народной секции"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "gusli-vzroslomu-nachinayuschemu",
+      "n0": "Гусли взрослому начинающему в аренду | Учебный инструмент выбранного типа",
+      "n1": "Первые гусли | Разные формы корпуса и способы игры в традиции"
+    },
+    {
+      "source_file": "content/sections/zz102-russian-plucked-human-scenes.json",
+      "slug": "gusli-pered-pokupkoy",
+      "n0": "Гусли до покупки напрокат | Попробовать форму и настройку в музыке",
+      "n1": "Гусли перед покупкой | Щипковые варианты с разным строем и расположением струн"
+    }
+  ]
+}
