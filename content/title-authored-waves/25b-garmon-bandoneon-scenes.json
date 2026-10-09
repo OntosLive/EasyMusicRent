@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "garmon-dlya-domashnih-zanyatiy",
+      "n0": "Гармонь для домашних занятий в аренду | Инструмент под народную песню и наигрыши",
+      "n1": "Гармонь дома | Строй и исполнительская система для регулярной практики"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "garmon-pered-pokupkoy",
+      "n0": "Гармонь до покупки напрокат | Сравнить тональности и раскладки",
+      "n1": "Гармонь перед покупкой | Разные строи под разные песни и стили игры"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "garmon-dlya-sravneniya-tonalnostey",
+      "n0": "Гармони разных тональностей в аренду | Попробовать инструмент под голос",
+      "n1": "Гармонь и тональность | Одна мелодия в разных строях мехового инструмента"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "garmon-dlya-vokalista",
+      "n0": "Гармонь вокалисту напрокат | Живой аккомпанемент для песни и сцены",
+      "n1": "Гармонь рядом с голосом | Меховая гармония и тембр народного исполнения"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "bandoneon-dlya-pervogo-opyta",
+      "n0": "Бандонеон для первого опыта в аренду | Инструмент танго на первые занятия",
+      "n1": "Первый бандонеон | Особая кнопочная система и работа мехом"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "bandoneon-dlya-domashnih-zanyatiy",
+      "n0": "Бандонеон для дома напрокат | Учебный инструмент под танго и камерную музыку",
+      "n1": "Бандонеон дома | Клавиатура, мех и самостоятельная музыкальная практика"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "bandoneon-pered-pokupkoy",
+      "n0": "Бандонеон до покупки в аренду | Проба инструмента в своём репертуаре",
+      "n1": "Бандонеон перед покупкой | Конкретная раскладка и исполнительская система"
+    },
+    {
+      "source_file": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+      "slug": "kontsertina-dlya-pervogo-opyta",
+      "n0": "Концертина для первых уроков напрокат | Английская, англо и другие системы",
+      "n1": "Первая концертина | Несколько разных клавиатур в небольшом меховом корпусе"
+    }
+  ]
+}
