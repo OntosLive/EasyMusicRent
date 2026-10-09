@@ -37,12 +37,14 @@ def validate_manifest(path: Path) -> dict[str, dict[str, str]]:
             raise ValueError(f"{slug}: exactly two authored titles required")
         for role in ("n0", "n1"):
             title = titles[role]
-            if not isinstance(title, str) or title.count(" | ") != 1:
-                raise ValueError(f"{slug}/{role}: expected one complete authored query | functional continuation")
-            question, response = title.split(" | ")
-            if not (len(question.strip()) >= 2 and len(response.strip()) >= 14
-                    and 30 <= len(title) <= 125):
+            if not isinstance(title, str) or title.count(" | ") > 1:
+                raise ValueError(f"{slug}/{role}: expected one complete authored title")
+            if not (18 <= len(title) <= 125):
                 raise ValueError(f"{slug}/{role}: malformed or excessively long title")
+            if " | " in title:
+                request, continuation = title.split(" | ")
+                if len(request.strip()) < 2 or len(continuation.strip()) < 6:
+                    raise ValueError(f"{slug}/{role}: incomplete search phrase or response")
             if any(character in title for character in "<>\r\n") or "ontos.rent" in title.casefold():
                 raise ValueError(f"{slug}/{role}: markup or automatic brand name not allowed")
             if title.casefold() in used_titles:
