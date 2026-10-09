@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "fleyta-vzroslomu-nachinayuschemu",
+      "n0": "Флейта взрослому начинающему в аренду | Полноценный инструмент для первых уроков",
+      "n1": "Первая флейта взрослому | Поперечная флейта для самостоятельного обучения"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "fleyta-dlya-domashnih-zanyatiy",
+      "n0": "Флейта домой напрокат | Для ежедневной практики и учебной программы",
+      "n1": "Домашняя флейта | Постоянный инструмент между занятиями с преподавателем"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "fleyta-posle-blokfleyty",
+      "n0": "Поперечная флейта после блокфлейты | Аренда для следующего этапа занятий",
+      "n1": "От блокфлейты к поперечной | Новый способ звукообразования при знакомой музыке"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "fleyta-posle-pereryva",
+      "n0": "Флейта после перерыва напрокат | Вернуться к дыханию и репертуару",
+      "n1": "Возвращение к флейте | Знакомая аппликатура и новая регулярная практика"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "fleyta-pered-pokupkoy",
+      "n0": "Флейта перед покупкой в аренду | Сравнить учебные и концертные варианты",
+      "n1": "Флейта до покупки | Работа клапанов и отклик в реальной музыкальной программе"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "fleyta-dlya-perehoda-na-otkrytye-klapany",
+      "n0": "Флейта с открытыми клапанами напрокат | Переход на следующий тип механики",
+      "n1": "Открытые клапаны флейты | Прямой контакт пальцев с отверстиями"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "fleyta-pikkolo-dlya-pervogo-opyta",
+      "n0": "Флейта-пикколо для первой пробы | Аренда высокого оркестрового инструмента",
+      "n1": "Первое пикколо | Высокий регистр и самостоятельная роль партитуры"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "altovaya-fleyta-dlya-pervogo-opyta",
+      "n0": "Альтовая флейта в аренду для первой пробы | Новый регистр семейства",
+      "n1": "Первый опыт альтовой флейты | Более низкий звук и иной корпус"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "basovaya-fleyta-dlya-pervogo-opyta",
+      "n0": "Басовая флейта для первой пробы | Редкий низкий голос в аренду",
+      "n1": "Первая басовая флейта | Нижний флейтовый регистр в ансамбле"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "klarinet-vzroslomu-nachinayuschemu",
+      "n0": "Кларнет взрослому начинающему напрокат | На первые уроки и самостоятельную практику",
+      "n1": "Первый кларнет взрослому | Система клапанов и одинарная трость"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "klarinet-dlya-domashnih-zanyatiy",
+      "n0": "Кларнет для дома в аренду | Учебная модель для регулярных занятий",
+      "n1": "Домашний кларнет | От настройки трости до освоения диапазона"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "klarinet-posle-pereryva",
+      "n0": "Кларнет после перерыва напрокат | Возвращение к инструменту без покупки",
+      "n1": "Вернуться к кларнету | Знакомая механика и постепенное восстановление игры"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "klarinet-pered-pokupkoy",
+      "n0": "Кларнет перед покупкой в аренду | Проба разных классов инструмента",
+      "n1": "Кларнет до покупки | Удобство механики и тембр в привычном репертуаре"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "klarinet-dlya-perehoda-na-derevyannyy-korpus",
+      "n0": "Деревянный кларнет для перехода | Аренда на новый учебный этап",
+      "n1": "Деревянный корпус кларнета | Особенности материала при той же основной аппликатуре"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "bas-klarinet-dlya-pervogo-opyta",
+      "n0": "Бас-кларнет для первого опыта в аренду | Следующий голос кларнетового семейства",
+      "n1": "Первый бас-кларнет | Новый низкий диапазон с кларнетовой исполнительской логикой"
+    },
+    {
+      "source_file": "content/sections/zz89-flute-clarinet-human-scenes.json",
+      "slug": "klarinet-in-a-dlya-pervogo-orkestrovogo-opyta",
+      "n0": "Кларнет in A для оркестровой программы | Аренда точного строя партитуры",
+      "n1": "Кларнет in A | Самостоятельная транспозиция в оркестровом репертуаре"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "klarinet-in-es-dlya-pervogo-opyta",
+      "n0": "Кларнет in Es в аренду | Малый кларнет для оркестрового репертуара",
+      "n1": "Кларнет in Es | Высокий голос кларнетовой группы"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "saksofon-alt-dlya-pervogo-instrumenta",
+      "n0": "Саксофон-альт для первых занятий | Учебный альт-саксофон в аренду",
+      "n1": "Первый альт-саксофон | Удобный вход в семейство саксофонов"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "saksofon-alt-dlya-domashnih-zanyatiy",
+      "n0": "Саксофон-альт домой напрокат | Регулярная практика и школьная программа",
+      "n1": "Домашний альт-саксофон | Учебный и ансамблевый репертуар"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "saksofon-tenor-dlya-pervogo-opyta",
+      "n0": "Тенор-саксофон для первой пробы | Низкий саксофон в аренду",
+      "n1": "Первый тенор-саксофон | Более плотный голос при знакомой механике"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "saksofon-soprano-posle-alta",
+      "n0": "Сопрано-саксофон после альта | Аренда для новой партии и диапазона",
+      "n1": "От альта к сопрано-саксофону | Более высокий голос одного семейства"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "saksofon-bariton-dlya-pervogo-opyta",
+      "n0": "Баритон-саксофон для первого опыта | Аренда низкого оркестрового голоса",
+      "n1": "Первый баритон-саксофон | Басовая функция саксофонной группы"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "saksofon-pered-pokupkoy",
+      "n0": "Саксофон перед покупкой напрокат | Сопрано, альт, тенор и баритон",
+      "n1": "Саксофон до покупки | Разные голоса и уровни инструмента в своей программе"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "saksofon-dlya-kamernogo-ansamblya",
+      "n0": "Саксофон для камерного ансамбля | Прокат солирующего и группового голоса",
+      "n1": "Саксофон в камерной музыке | Разные тембры семейства в одном составе"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "goboy-dlya-pervogo-instrumenta",
+      "n0": "Первый гобой в аренду | Учебный инструмент для первых занятий",
+      "n1": "Гобой для начинающего | Двойная трость и собственная аппликатура"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "goboy-dlya-domashnih-zanyatiy",
+      "n0": "Гобой домой напрокат | Для музыкальной школы и ежедневных репетиций",
+      "n1": "Домашний гобой | Учебная программа и работа с двойной тростью"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "goboy-pered-pokupkoy",
+      "n0": "Гобой в аренду до покупки | Сравнить учебный и профессиональный инструмент",
+      "n1": "Гобой до покупки | Механика, трость и отклик в репертуаре исполнителя"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "angliyskiy-rozhok-dlya-pervogo-opyta",
+      "n0": "Английский рожок для первой пробы | Оркестровый инструмент напрокат",
+      "n1": "Первый английский рожок | Более низкий голос двойной трости"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "goboy-damur-dlya-pervogo-opyta",
+      "n0": "Гобой д’амур напрокат | Инструмент для барочной и оркестровой партии",
+      "n1": "Гобой д’амур | Промежуточный голос гобойного семейства"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "fagot-dlya-pervogo-instrumenta",
+      "n0": "Фагот для первого опыта в аренду | Учебный инструмент для занятий",
+      "n1": "Первый фагот | Низкая оркестровая партия и собственная механика"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "fagot-pered-pokupkoy",
+      "n0": "Фагот до покупки напрокат | Сравнить конкретные инструменты в работе",
+      "n1": "Фагот до покупки | Трость, эс и механика в привычном репертуаре"
+    },
+    {
+      "source_file": "content/sections/zz90-sax-double-reed-human-scenes.json",
+      "slug": "kontrafagot-dlya-pervogo-opyta",
+      "n0": "Контрафагот напрокат для первого опыта | Самый низкий голос группы фаготов",
+      "n1": "Контрафагот | Глубокий оркестровый регистр и особый корпус"
+    }
+  ]
+}
