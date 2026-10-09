@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "casio-cdps110-v-arendu",
+      "n0": "Casio CDP-S110 напрокат | Простое цифровое пианино для начала занятий",
+      "n1": "Casio CDP-S110 | Молоточковая клавиатура без сложного управления"
+    },
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "casio-cdps160-v-arendu",
+      "n0": "Casio CDP-S160 в аренду | Компактное пианино с расширенным педальным комплектом",
+      "n1": "Casio CDP-S160 | Поддержка SP-34, режим дуэта и запись исполнения"
+    },
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "casio-cdps360-v-arendu",
+      "n0": "Casio CDP-S360 напрокат | Пианино с автоаккомпанементом и записью партий",
+      "n1": "Casio CDP-S360 | Фортепианная клавиатура и функции аранжировки"
+    },
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "casio-px770-v-arendu",
+      "n0": "Casio PX-770 в аренду | Домашняя Privia с тремя педалями",
+      "n1": "Casio PX-770 | Корпусная клавиатура Tri-sensor II для ежедневных уроков"
+    },
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "casio-px870-v-arendu",
+      "n0": "Casio PX-870 напрокат | Домашнее пианино с развитой системой звучания",
+      "n1": "Casio PX-870 | Sound Projection и запись аудио в WAV"
+    },
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "kawai-kdp120-v-arendu",
+      "n0": "Kawai KDP120 в аренду | Корпусное пианино с тремя педалями для учёбы",
+      "n1": "Kawai KDP120 | Механика RHC II и Bluetooth MIDI в домашней модели"
+    },
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "roland-fpe50-v-arendu",
+      "n0": "Roland FP-E50 напрокат | Цифровое пианино для песни и игры с сопровождением",
+      "n1": "Roland FP-E50 | PHA-4, микрофонный вход и автоаккомпанемент"
+    },
+    {
+      "source_file": "content/sections/zz01-home-piano-models.json",
+      "slug": "yamaha-dgx670-v-arendu",
+      "n0": "Yamaha DGX-670 в аренду | Пианино и аранжировочная станция для песни",
+      "n1": "Yamaha DGX-670 | Клавиатура GHS и Adaptive Style в одном инструменте"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-b1-v-arendu",
+      "n0": "Yamaha b1 напрокат | Небольшое акустическое пианино для домашних занятий",
+      "n1": "Yamaha b1 | Настоящая механика и вертикальный корпус для комнаты"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-b2-v-arendu",
+      "n0": "Yamaha b2 в аренду | Акустическое пианино между компактным b1 и более крупным b3",
+      "n1": "Yamaha b2 | Промежуточный размер семейства акустических пианино"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-b3-v-arendu",
+      "n0": "Yamaha b3 напрокат | Высокий вертикальный корпус для серьёзной практики",
+      "n1": "Yamaha b3 | Акустическое пианино высотой 121 сантиметр"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-u1-v-arendu",
+      "n0": "Yamaha U1 в аренду | Проверенный акустический формат для регулярных занятий",
+      "n1": "Yamaha U1 | Вертикальная фортепианная механика в разных модификациях"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-u3-v-arendu",
+      "n0": "Yamaha U3 напрокат | Большое акустическое пианино для сильного ученика",
+      "n1": "Yamaha U3 | Вертикальный корпус высотой 131 сантиметр"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-gb1k-v-arendu",
+      "n0": "Yamaha GB1K в аренду | Небольшой акустический рояль для камерной сцены",
+      "n1": "Yamaha GB1K | Компактный рояль длиной 151 сантиметр"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-c3x-v-arendu",
+      "n0": "Yamaha C3X напрокат | Концертный рояль для зала и студийной записи",
+      "n1": "Yamaha C3X | Акустический рояль длиной 186 сантиметров"
+    },
+    {
+      "source_file": "content/sections/zz02-acoustic-piano-models.json",
+      "slug": "yamaha-c7x-v-arendu",
+      "n0": "Yamaha C7X в аренду | Большой концертный рояль для серьёзной программы",
+      "n1": "Yamaha C7X | Корпус длиной 227 сантиметров для масштабной сцены"
+    }
+  ]
+}
