@@ -21,12 +21,12 @@ class AuthoredTitlesTests(unittest.TestCase):
         self.manifest = self.root / "titles.json"
         self.titles = {
             "": {
-                "n0": "Аренда музыкальных инструментов | Начните с задачи, а не каталога",
-                "n1": "Музыкальные инструменты | Выбор начинается с движения музыканта",
+                "n0": "Аренда музыкальных инструментов | Укажите назначение и срок пользования",
+                "n1": "Музыкальные инструменты | Устройство определяет способ извлечения звука",
             },
             "skripka": {
-                "n0": "Скрипка ребёнку в аренду | Размер следует за рукой ученика",
-                "n1": "Скрипка для занятий | Положение руки меняет первые шаги",
+                "n0": "Скрипка ребёнку в аренду | Для выбора размера нужны посадка и длина руки",
+                "n1": "Скрипка для занятий | Положение руки определяет доступность позиций",
             },
         }
         self._write_manifest(self.titles)
@@ -99,15 +99,28 @@ class AuthoredTitlesTests(unittest.TestCase):
         aliases = json.loads((ROOT / "content" / "aliases.json").read_text(encoding="utf-8"))
         self.assertFalse(set(pairs) & set(aliases))
 
-    def test_real_editorial_registry_is_complete_and_not_template_text(self):
+    def test_public_registry_is_explicitly_paused_until_functional_review(self):
         pairs = authored.validate_manifest(authored.DEFAULT_MANIFEST)
-        self.assertEqual(len(pairs), 14)
-        self.assertEqual(len({pair["n0"].split(" | ")[1] for pair in pairs.values()}), 14)
-        self.assertEqual(len({pair["n1"].split(" | ")[1] for pair in pairs.values()}), 14)
-        self.assertIn("мензура", pairs["kontrabas"]["n0"])
-        self.assertIn("Репетиции в расписании", pairs["kontrabas-na-vremya-remonta"]["n0"])
-        self.assertIn("А певец слышит себя?", pairs["scenicheskiy-zvuk"]["n0"])
-        self.assertNotIn("Подберём", pairs["scenicheskiy-zvuk"]["n0"])
+        manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
+        self.assertEqual(manifest["publication_status"], "paused_pending_functional_review")
+        self.assertEqual(pairs, {})
+        output = authored.apply(self.site, authored.DEFAULT_MANIFEST)
+        self.assertEqual(output["model_authored_titles"], 0)
+        self.assertEqual(output["modified"], 0)
+        self.assertEqual(authored.apply(self.site, authored.DEFAULT_MANIFEST, check=True)["modified"], 0)
+        self.assertIn("<title>Исходное название</title>",
+                      (self.site / "index.html").read_text(encoding="utf-8"))
+
+    def test_empty_manifest_requires_explicit_editorial_pause(self):
+        self._write_manifest({})
+        with self.assertRaisesRegex(ValueError, "explicit editorial pause"):
+            authored.validate_manifest(self.manifest)
+        self.manifest.write_text(
+            json.dumps({"schema_version": 1, "publication_status": "paused_pending_functional_review",
+                        "pairs": {}}, ensure_ascii=False),
+            encoding="utf-8",
+        )
+        self.assertEqual(authored.validate_manifest(self.manifest), {})
 
 
 if __name__ == "__main__":

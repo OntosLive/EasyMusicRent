@@ -26,7 +26,9 @@ def validate_manifest(path: Path) -> dict[str, dict[str, str]]:
         raise ValueError("Unsupported title manifest schema")
     pairs = manifest["pairs"]
     if not pairs:
-        raise ValueError("No authored title pairs")
+        if manifest.get("publication_status") == "paused_pending_functional_review":
+            return pairs
+        raise ValueError("No authored title pairs without explicit editorial pause")
     used_titles = set()
     for slug, titles in pairs.items():
         if slug != "" and not SLUG.fullmatch(slug):
@@ -36,7 +38,7 @@ def validate_manifest(path: Path) -> dict[str, dict[str, str]]:
         for role in ("n0", "n1"):
             title = titles[role]
             if not isinstance(title, str) or title.count(" | ") != 1:
-                raise ValueError(f"{slug}/{role}: expected one authored question | response")
+                raise ValueError(f"{slug}/{role}: expected one complete authored query | functional continuation")
             question, response = title.split(" | ")
             if not (len(question.strip()) >= 2 and len(response.strip()) >= 14
                     and 30 <= len(title) <= 125):
