@@ -1,0 +1,679 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal excerpts and authored titles",
+  "reviews": {
+    "bayan-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Баян взрослому начинающему: размер, готовый бас, мех и пробный период.",
+        "decision": "Баян взрослому начинающему в аренду | Учебный инструмент для первых уроков",
+        "next_action": "Учебный инструмент для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Взрослый новичок может физически удержать большой баян, но это не означает,",
+        "decision": "Первый баян взрослому | Кнопочная система, мех и сопровождение",
+        "next_action": "Кнопочная система, мех и сопровождение"
+      }
+    },
+    "bayan-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Баян для дома: размер, ремни, мех, басовая система и регулярная практика.",
+        "decision": "Баян для домашних занятий напрокат | Инструмент на учебный период",
+        "next_action": "Инструмент на учебный период"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Домашний баян работает не как концертный предмет, а как ежедневная среда по",
+        "decision": "Баян дома | Правая клавиатура, басы и работа мехом",
+        "next_action": "Правая клавиатура, басы и работа мехом"
+      }
+    },
+    "bayan-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Баян после перерыва: мех, ремни, левая рука и восстановление формы.",
+        "decision": "Баян после перерыва в аренду | Вернуться к урокам и концертному репертуару",
+        "next_action": "Вернуться к урокам и концертному репертуару"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "После паузы клавиатурная и кнопочная память может вернуться быстрее, чем вы",
+        "decision": "Возвращение к баяну | Знакомая исполнительская система в новой практике",
+        "next_action": "Знакомая исполнительская система в новой практике"
+      }
+    },
+    "bayan-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аренда баяна перед покупкой: размер, басовая система, мех, регистры и собст",
+        "decision": "Баян до покупки напрокат | Сравнить системы и размеры корпуса",
+        "next_action": "Сравнить системы и размеры корпуса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Баян слишком сильно связан с конкретной раскладкой, размером и сопротивлени",
+        "decision": "Баян перед покупкой | Правые раскладки, басы и вес инструмента",
+        "next_action": "Правые раскладки, басы и вес инструмента"
+      }
+    },
+    "bayan-dlya-perehoda-na-vybornyy-bas": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Переход на выборный бас: новая логика левой руки, регистр, мех и учебная пр",
+        "decision": "Баян с выборным басом в аренду | Дополнительная левая клавиатура для полифонии",
+        "next_action": "Дополнительная левая клавиатура для полифонии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Переход на выборный бас меняет саму музыкальную функцию левой руки. Это не ",
+        "decision": "Выборный бас баяна | Самостоятельные ноты левой руки вместо готовых аккордов",
+        "next_action": "Самостоятельные ноты левой руки вместо готовых аккордов"
+      }
+    },
+    "bayan-dlya-raboty-nad-mehom": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Баян для работы над мехом: смена направления, динамика, длинная фраза и уст",
+        "decision": "Баян для работы над мехом напрокат | Инструмент для фразы и динамики",
+        "next_action": "Инструмент для фразы и динамики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "На баяне динамика и артикуляция рождаются не только в клавиатуре: мех стано",
+        "decision": "Мех баяна | Длительность звука зависит от движения корпуса",
+        "next_action": "Длительность звука зависит от движения корпуса"
+      }
+    },
+    "bayan-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Баян для камерного ансамбля: динамика, регистры, басовая система и баланс.",
+        "decision": "Баян для камерного ансамбля в аренду | Инструмент для совместной программы",
+        "next_action": "Инструмент для совместной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "В камерном составе баян легко занимает слишком много пространства. Полезный",
+        "decision": "Баян в камерном составе | Свой гармонический и мелодический голос",
+        "next_action": "Свой гармонический и мелодический голос"
+      }
+    },
+    "bayan-dlya-vtorogo-mesta-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Баян для второго места занятий: система, размер, ремни и непрерывная практи",
+        "decision": "Баян для второго места занятий напрокат | Ещё один инструмент без перевозки",
+        "next_action": "Ещё один инструмент без перевозки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Если ученик регулярно живёт или занимается между двумя адресами, перенос бо",
+        "decision": "Второй баян для практики | Один репертуар в двух учебных пространствах",
+        "next_action": "Один репертуар в двух учебных пространствах"
+      }
+    },
+    "akkordeon-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон взрослому начинающему: размер, число басов, клавиатура и пробный ",
+        "decision": "Аккордеон взрослому начинающему в аренду | Полноценный инструмент для первых уроков",
+        "next_action": "Полноценный инструмент для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Фортепианная клавиатура правой руки может казаться знакомой, но аккордеон д",
+        "decision": "Первый аккордеон взрослому | Правая клавиатура и самостоятельная работа мехом",
+        "next_action": "Правая клавиатура и самостоятельная работа мехом"
+      }
+    },
+    "akkordeon-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон для дома: размер, число басов, ремни, мех и регулярная практика.",
+        "decision": "Аккордеон для дома напрокат | Учебный инструмент на регулярную практику",
+        "next_action": "Учебный инструмент на регулярную практику"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Домашний аккордеон должен соответствовать текущей учебной программе и телу ",
+        "decision": "Аккордеон дома | Клавиатура, басы и мелодия под руками",
+        "next_action": "Клавиатура, басы и мелодия под руками"
+      }
+    },
+    "akkordeon-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон после перерыва: ремни, мех, басы и восстановление формы.",
+        "decision": "Аккордеон после перерыва в аренду | Вернуться к инструменту без покупки",
+        "next_action": "Вернуться к инструменту без покупки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "После паузы знакомые клавиши и басы могут вернуться быстро, а выносливость ",
+        "decision": "Возвращение к аккордеону | Привычная клавиатура и новая исполнительская фаза",
+        "next_action": "Привычная клавиатура и новая исполнительская фаза"
+      }
+    },
+    "akkordeon-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аренда аккордеона перед покупкой: число басов, клавиши, мех, регистры и соб",
+        "decision": "Аккордеон до покупки напрокат | Сравнить количество басов и размер корпуса",
+        "next_action": "Сравнить количество басов и размер корпуса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон раскрывается не только диапазоном. Размер корпуса, ход меха и кар",
+        "decision": "Аккордеон перед покупкой | Разные клавиатуры и меховые конструкции",
+        "next_action": "Разные клавиатуры и меховые конструкции"
+      }
+    },
+    "akkordeon-dlya-smeny-razmera": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон следующего размера: 48/60/72 баса, корпус, ремни и переход без по",
+        "decision": "Аккордеон следующего размера в аренду | Учёба на инструменте нового уровня",
+        "next_action": "Учёба на инструменте нового уровня"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Детская и учебная аккордеонная траектория естественно проходит через нескол",
+        "decision": "Смена размера аккордеона | Диапазон расширяется вместе с учебной программой",
+        "next_action": "Диапазон расширяется вместе с учебной программой"
+      }
+    },
+    "akkordeon-dlya-raboty-nad-mehom": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон для работы над мехом: ровность, смена направления, динамика и коо",
+        "decision": "Аккордеон для работы над мехом напрокат | Динамика и фразировка на живом инструменте",
+        "next_action": "Динамика и фразировка на живом инструменте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Мех задаёт не только громкость, но и форму фразы. Работа над ним требует ко",
+        "decision": "Мех аккордеона | Исполнитель управляет длительностью и характером звука",
+        "next_action": "Исполнитель управляет длительностью и характером звука"
+      }
+    },
+    "akkordeon-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон для камерного ансамбля: регистры, динамика, басы и баланс с партн",
+        "decision": "Аккордеон для камерного ансамбля в аренду | Партия в дуэте или небольшом составе",
+        "next_action": "Партия в дуэте или небольшом составе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "В камерной музыке аккордеон особенно быстро занимает весь спектр. Полезный ",
+        "decision": "Аккордеон в ансамбле | Тембр и гармоническая функция рядом с партнёрами",
+        "next_action": "Тембр и гармоническая функция рядом с партнёрами"
+      }
+    },
+    "akkordeon-dlya-vtorogo-mesta-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Аккордеон для второго места занятий: размер, басы, ремни и непрерывная прак",
+        "decision": "Аккордеон для второго места практики | Дополнительный инструмент напрокат",
+        "next_action": "Дополнительный инструмент напрокат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz105-accordion-bayan-human-scenes.json",
+        "source_quote": "Регулярная перевозка аккордеона между двумя адресами может разрушить практи",
+        "decision": "Второй аккордеон | Один учебный репертуар в двух пространствах",
+        "next_action": "Один учебный репертуар в двух пространствах"
+      }
+    },
+    "akkordeon-48-basov-dlya-pervogo-etapa": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Аккордеон 48 басов: первый учебный размер, корпус, ремни и начальная левая ",
+        "decision": "Аккордеон 48 басов в аренду | Компактный инструмент для первого учебного этапа",
+        "next_action": "Компактный инструмент для первого учебного этапа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "48-басовый аккордеон полезен не потому, что басов «мало», а потому что корп",
+        "decision": "Аккордеон на 48 басов | Учебный размер без большого концертного корпуса",
+        "next_action": "Учебный размер без большого концертного корпуса"
+      }
+    },
+    "akkordeon-60-basov-dlya-perehoda": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Аккордеон 60 басов: промежуточный учебный размер, корпус, клавиатура и мех.",
+        "decision": "Аккордеон 60 басов напрокат | Следующая ступень после малого инструмента",
+        "next_action": "Следующая ступень после малого инструмента"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "60-басовый формат полезен там, где 48 уже тесны по программе, а 72 или 120 ",
+        "decision": "Аккордеон 60 басов | Больше диапазон при умеренном размере корпуса",
+        "next_action": "Больше диапазон при умеренном размере корпуса"
+      }
+    },
+    "akkordeon-72-basov-pered-perehodom-na-120": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Аккордеон 72 баса: промежуточный диапазон перед 120, корпус, вес и учебная ",
+        "decision": "Аккордеон 72 баса в аренду | Учебный инструмент перед полным размером",
+        "next_action": "Учебный инструмент перед полным размером"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Переход с 72 на 120 басов должен происходить из программы и физической гото",
+        "decision": "Аккордеон 72 баса | Промежуточная система в линии учебных размеров",
+        "next_action": "Промежуточная система в линии учебных размеров"
+      }
+    },
+    "akkordeon-120-basov-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Первый опыт на 120-басовом аккордеоне: масса, корпус, левая карта и длинная",
+        "decision": "Аккордеон 120 басов напрокат | Полный диапазон для учебной и концертной программы",
+        "next_action": "Полный диапазон для учебной и концертной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "120 басов дают большой диапазон, но одновременно увеличивают физическую цен",
+        "decision": "Аккордеон на 120 басов | Полноразмерная левая клавиатура",
+        "next_action": "Полноразмерная левая клавиатура"
+      }
+    },
+    "akkordeon-s-vybornym-basom-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Аккордеон с выборным басом перед покупкой: левая система, конвертер, мех и ",
+        "decision": "Аккордеон с выборным басом до покупки | Аренда для знакомства с новой системой",
+        "next_action": "Аренда для знакомства с новой системой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Выборный бас имеет смысл, когда левая рука уже ведёт самостоятельный матери",
+        "decision": "Выборный бас аккордеона | Левая рука исполняет самостоятельную мелодическую партию",
+        "next_action": "Левая рука исполняет самостоятельную мелодическую партию"
+      }
+    },
+    "bayan-s-vybornym-basom-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Баян с выборным басом для дома: система, размер корпуса, мех и самостоятель",
+        "decision": "Баян с выборным басом домой в аренду | Регулярная учебная практика",
+        "next_action": "Регулярная учебная практика"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Если программа уже включает выборный бас, домашний инструмент должен позвол",
+        "decision": "Домашний баян с выборным басом | Полноценное многоголосие двумя руками",
+        "next_action": "Полноценное многоголосие двумя руками"
+      }
+    },
+    "gotovovybornyy-bayan-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Первый опыт на готово-выборном баяне: standard/free-bass переключение, лева",
+        "decision": "Готово-выборный баян для первой пробы | Аренда комбинированной системы",
+        "next_action": "Аренда комбинированной системы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Готово-выборный баян соединяет готовые аккорды и выборный бас в одном корпу",
+        "decision": "Готово-выборный баян | Готовые аккорды и отдельные ноты левой руки",
+        "next_action": "Готовые аккорды и отдельные ноты левой руки"
+      }
+    },
+    "garmon-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Гармонь взрослому начинающему: тональность, раскладка, мех и пробный период",
+        "decision": "Гармонь взрослому начинающему напрокат | Первая практика традиционной музыки",
+        "next_action": "Первая практика традиционной музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "«Гармонь» объединяет разные системы и тональности. Начинающему важно сначал",
+        "decision": "Первая гармонь взрослому | Простая песня, мех и выбранный строй",
+        "next_action": "Простая песня, мех и выбранный строй"
+      }
+    },
+    "garmon-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Гармонь для дома: тональность, раскладка, мех и регулярная практика.",
+        "decision": "Гармонь для домашних занятий в аренду | Инструмент под народную песню и наигрыши",
+        "next_action": "Инструмент под народную песню и наигрыши"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Домашняя гармонь полезна тогда, когда её строй и система совпадают с реальн",
+        "decision": "Гармонь дома | Строй и исполнительская система для регулярной практики",
+        "next_action": "Строй и исполнительская система для регулярной практики"
+      }
+    },
+    "garmon-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Аренда гармони перед покупкой: система, тональность, мех, клавиши/кнопки и ",
+        "decision": "Гармонь до покупки напрокат | Сравнить тональности и раскладки",
+        "next_action": "Сравнить тональности и раскладки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Гармонь особенно легко купить «не свою»: красивый тембр не спасает, если то",
+        "decision": "Гармонь перед покупкой | Разные строи под разные песни и стили игры",
+        "next_action": "Разные строи под разные песни и стили игры"
+      }
+    },
+    "garmon-dlya-sravneniya-tonalnostey": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Сравнение гармоней по тональности: вокальный диапазон, строй, привычная рас",
+        "decision": "Гармони разных тональностей в аренду | Попробовать инструмент под голос",
+        "next_action": "Попробовать инструмент под голос"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Для песенной гармони тональность может быть важнее бренда. Один и тот же на",
+        "decision": "Гармонь и тональность | Одна мелодия в разных строях мехового инструмента",
+        "next_action": "Одна мелодия в разных строях мехового инструмента"
+      }
+    },
+    "garmon-dlya-vokalista": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Гармонь для вокалиста: тональность, мех, песенный диапазон и живое сопровож",
+        "decision": "Гармонь вокалисту напрокат | Живой аккомпанемент для песни и сцены",
+        "next_action": "Живой аккомпанемент для песни и сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Вокалисту гармонь нужна не сама по себе, а как тональная опора песни. Прави",
+        "decision": "Гармонь рядом с голосом | Меховая гармония и тембр народного исполнения",
+        "next_action": "Меховая гармония и тембр народного исполнения"
+      }
+    },
+    "bandoneon-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Первый опыт на бандонеоне: система, двузвучная раскладка, мех и пробный пер",
+        "decision": "Бандонеон для первого опыта в аренду | Инструмент танго на первые занятия",
+        "next_action": "Инструмент танго на первые занятия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Бандонеон нельзя осваивать как маленький аккордеон: раскладки и поведение п",
+        "decision": "Первый бандонеон | Особая кнопочная система и работа мехом",
+        "next_action": "Особая кнопочная система и работа мехом"
+      }
+    },
+    "bandoneon-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Бандонеон для дома: система, раскладка, мех и регулярная практика.",
+        "decision": "Бандонеон для дома напрокат | Учебный инструмент под танго и камерную музыку",
+        "next_action": "Учебный инструмент под танго и камерную музыку"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "На бандонеоне мышечная карта особенно зависит от конкретной системы. Домашн",
+        "decision": "Бандонеон дома | Клавиатура, мех и самостоятельная музыкальная практика",
+        "next_action": "Клавиатура, мех и самостоятельная музыкальная практика"
+      }
+    },
+    "bandoneon-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Аренда бандонеона перед покупкой: раскладка, мех, состояние голосов и собст",
+        "decision": "Бандонеон до покупки в аренду | Проба инструмента в своём репертуаре",
+        "next_action": "Проба инструмента в своём репертуаре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Бандонеон слишком специфичен по раскладке и меху, чтобы выбирать его только",
+        "decision": "Бандонеон перед покупкой | Конкретная раскладка и исполнительская система",
+        "next_action": "Конкретная раскладка и исполнительская система"
+      }
+    },
+    "kontsertina-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Первый опыт на концертине: English/Anglo/Duet системы, мех и пробный период",
+        "decision": "Концертина для первых уроков напрокат | Английская, англо и другие системы",
+        "next_action": "Английская, англо и другие системы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz106-freebass-garmon-bandoneon-human-scenes.json",
+        "source_quote": "Концертина выглядит компактно, но внутри этого имени существуют разные испо",
+        "decision": "Первая концертина | Несколько разных клавиатур в небольшом меховом корпусе",
+        "next_action": "Несколько разных клавиатур в небольшом меховом корпусе"
+      }
+    },
+    "gubnaya-garmonika-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Губная гармоника взрослому начинающему: C, отклик, дыхание и пробный период",
+        "decision": "Губная гармоника взрослому новичку напрокат | Первые песни и уроки",
+        "next_action": "Первые песни и уроки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Гармоника кажется мгновенно доступной, но уже первый выбор зависит от тонал",
+        "decision": "Первая губная гармоника | Дыхательный инструмент с разными системами",
+        "next_action": "Дыхательный инструмент с разными системами"
+      }
+    },
+    "gubnaya-garmonika-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Губная гармоника для дома: отклик, тональность, одиночные ноты и регулярная",
+        "decision": "Губная гармоника для домашних занятий | Учебный инструмент нужной тональности",
+        "next_action": "Учебный инструмент нужной тональности"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Для гармоники ежедневные короткие занятия особенно важны: язык, губы и дыха",
+        "decision": "Гармоника дома | Мелодия и дыхательная техника без большой аппаратуры",
+        "next_action": "Мелодия и дыхательная техника без большой аппаратуры"
+      }
+    },
+    "gubnaya-garmonika-posle-pereryva": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Губная гармоника после перерыва: дыхание, tongue blocking/puckering, bends ",
+        "decision": "Губная гармоника после перерыва в аренду | Вернуться к музыке и репертуару",
+        "next_action": "Вернуться к музыке и репертуару"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "После паузы мелодическая память остаётся, а точность одиночных нот и bends ",
+        "decision": "Возвращение к гармонике | Знакомые мелодии на диатонической или хроматической системе",
+        "next_action": "Знакомые мелодии на диатонической или хроматической системе"
+      }
+    },
+    "gubnaya-garmonika-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Гармоника перед покупкой: диатоника/хроматика, тональность, отклик и собств",
+        "decision": "Губная гармоника перед покупкой | Подбор систем и тональностей под программу",
+        "next_action": "Подбор систем и тональностей под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "У гармоники основная ошибка выбора часто возникает раньше бренда: человек п",
+        "decision": "Гармоника до покупки | Диатоника и хроматика как разные инструменты",
+        "next_action": "Диатоника и хроматика как разные инструменты"
+      }
+    },
+    "diatonicheskaya-garmonika-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Первый опыт на диатонической гармонике: C, одиночные ноты, вдох/выдох и ben",
+        "decision": "Диатоническая гармоника на первый опыт | Аренда для блюза и песен",
+        "next_action": "Аренда для блюза и песен"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Диатоническая гармоника ограничивает набор нот конструкцией, но именно внут",
+        "decision": "Первая диатоника | Десять отверстий и работа дыханием",
+        "next_action": "Десять отверстий и работа дыханием"
+      }
+    },
+    "diatonicheskaya-garmonika-dlya-bendinga": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Гармоника для bending: отзывчивые язычки, дыхание, чистая исходная нота и к",
+        "decision": "Диатоническая гармоника для бендов | Инструмент под blues bends",
+        "next_action": "Инструмент под blues bends"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Bend — ключевая часть диатонической техники. Он возникает из изменения резо",
+        "decision": "Бенды на гармонике | Управляемое понижение высоты потоком воздуха",
+        "next_action": "Управляемое понижение высоты потоком воздуха"
+      }
+    },
+    "diatonicheskaya-garmonika-dlya-blyuza": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Диатоническая гармоника для блюза: key, cross harp, bends и ансамблевая про",
+        "decision": "Блюзовая гармоника напрокат | Диатонические тональности под песню",
+        "next_action": "Диатонические тональности под песню"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "В блюзе выбор гармоники связан не только с тональностью инструмента, но и с",
+        "decision": "Гармоника для блюза | Тональность и позиция формируют привычный звук",
+        "next_action": "Тональность и позиция формируют привычный звук"
+      }
+    },
+    "diatonicheskaya-garmonika-dlya-vokalista": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Гармоника для вокалиста: тональность, короткие fills, дыхание и переключени",
+        "decision": "Диатоническая гармоника вокалисту | Для живого выступления с голосом",
+        "next_action": "Для живого выступления с голосом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Вокалист использует гармонику в паузах голоса, поэтому инструмент должен со",
+        "decision": "Гармоника рядом с вокалом | Короткая инструментальная реплика между фразами",
+        "next_action": "Короткая инструментальная реплика между фразами"
+      }
+    },
+    "diatonicheskaya-garmonika-v-drugoy-tonalnosti": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Диатоническая гармоника другой тональности: песня, позиция, bends и переход",
+        "decision": "Диатоническая гармоника другой тональности | Инструмент под новую песню",
+        "next_action": "Инструмент под новую песню"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Когда появляется новая тональность песни, диатонический музыкант часто меня",
+        "decision": "Разные тональности гармоники | Та же система в другом высотном регистре",
+        "next_action": "Та же система в другом высотном регистре"
+      }
+    },
+    "hromaticheskaya-garmonika-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Первый опыт на хроматической гармонике: slider, дыхание, мелодия и полный х",
+        "decision": "Хроматическая гармоника на первый опыт напрокат | Полутона и полноценная мелодия",
+        "next_action": "Полутона и полноценная мелодия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Хроматическая гармоника добавляет механизм, который открывает полутона и ме",
+        "decision": "Первая хроматическая гармоника | Полутоновый механизм расширяет диапазон",
+        "next_action": "Полутоновый механизм расширяет диапазон"
+      }
+    },
+    "hromaticheskaya-garmonika-posle-diatonicheskoy": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Переход с диатонической на хроматическую гармонику: slider, фразировка, ben",
+        "decision": "Хроматическая гармоника после диатоники | Аренда на следующий этап",
+        "next_action": "Аренда на следующий этап"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Игрок на диатонике уже умеет формировать звук дыханием, но хроматика перест",
+        "decision": "От диатоники к хроматике | Кнопка открывает полутона без смены корпуса",
+        "next_action": "Кнопка открывает полутона без смены корпуса"
+      }
+    },
+    "hromaticheskaya-garmonika-dlya-dzhaza": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Хроматическая гармоника для джаза: slider, хроматика, динамика и ансамблева",
+        "decision": "Хроматическая гармоника для джаза | Инструмент на репетиции и выступление",
+        "next_action": "Инструмент на репетиции и выступление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Джазовая линия часто требует свободного доступа к полутонам внутри одной фр",
+        "decision": "Джазовая хроматическая гармоника | Мелодия с доступом ко всем полутонам",
+        "next_action": "Мелодия с доступом ко всем полутонам"
+      }
+    },
+    "hromaticheskaya-garmonika-dlya-melodicheskoy-linii": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Хроматическая гармоника для мелодии: legato, slider, дыхание и полный хрома",
+        "decision": "Хроматическая гармоника для мелодической партии | Аренда для ансамбля",
+        "next_action": "Аренда для ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Хроматическая гармоника особенно сильна там, где нужно вести длинную мелоди",
+        "decision": "Хроматическая мелодия | Полный набор полутонов для свободной фразы",
+        "next_action": "Полный набор полутонов для свободной фразы"
+      }
+    },
+    "hromaticheskaya-garmonika-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Хроматическая гармоника перед покупкой: slider, отклик, диапазон и собствен",
+        "decision": "Хроматическая гармоника до покупки | Проба другой исполнительской системы",
+        "next_action": "Проба другой исполнительской системы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Хроматическая гармоника добавляет механику, поэтому качество slider и равно",
+        "decision": "Хроматическая гармоника перед покупкой | Работа слайдера и герметичность",
+        "next_action": "Работа слайдера и герметичность"
+      }
+    },
+    "gubnaya-garmonika-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Губная гармоника для записи: система, key, bends/slider, шум дыхания и конк",
+        "decision": "Губная гармоника для студийной записи | Инструмент под конкретный строй и партию",
+        "next_action": "Инструмент под конкретный строй и партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Студийная гармоника начинается не с микрофона, а с правильной системы и тон",
+        "decision": "Гармоника в студии | Живое дыхание и тембр в микрофонном тракте",
+        "next_action": "Живое дыхание и тембр в микрофонном тракте"
+      }
+    },
+    "gubnaya-garmonika-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "Губные гармоники для концерта: тональности, диатоника/хроматика, быстрые см",
+        "decision": "Губная гармоника на концерт напрокат | Тональности под весь сет",
+        "next_action": "Тональности под весь сет"
+      },
+      "n1": {
+        "source_path": "content/sections/zz107-harmonica-human-scenes.json",
+        "source_quote": "На концерте проблема часто не в одной гармонике, а в том, чтобы нужная сист",
+        "decision": "Концертные гармоники | Разные тональности для нескольких песен",
+        "next_action": "Разные тональности для нескольких песен"
+      }
+    }
+  }
+}
