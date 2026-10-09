@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "guzhen-pered-pokupkoy",
+      "n0": "Гучжэн до покупки в аренду | Познакомиться с размером и строем инструмента",
+      "n1": "Гучжэн перед покупкой | Щипковая техника и длинная резонирующая дека"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "syamisen-dlya-pervogo-opyta",
+      "n0": "Сямисэн для первого опыта напрокат | Японский трёхструнный инструмент",
+      "n1": "Первый сямисэн | Большой плектр и особая атака струны"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "syamisen-dlya-domashnih-zanyatiy",
+      "n0": "Сямисэн для домашних занятий в аренду | Инструмент на учебный период",
+      "n1": "Сямисэн дома | Правая рука и техника плектра bachi"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "syamisen-pered-pokupkoy",
+      "n0": "Сямисэн до покупки напрокат | Первое знакомство с японской щипковой техникой",
+      "n1": "Сямисэн перед покупкой | Корпус, струны и собственная традиция игры"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "mbira-dlya-pervogo-opyta",
+      "n0": "Мбира для первого знакомства в аренду | Африканский язычковый инструмент",
+      "n1": "Первая мбира | Повторяющиеся мелодические рисунки под большими пальцами"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "mbira-dlya-zapisi",
+      "n0": "Мбира для студии напрокат | Живой металлический язычковый тембр",
+      "n1": "Мбира в записи | Повторение и переплетение ритмических рисунков"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "mbira-pered-pokupkoy",
+      "n0": "Мбира до покупки в аренду | Попробовать строй и расположение язычков",
+      "n1": "Мбира перед покупкой | Разные язычки и традиционные звуковые системы"
+    },
+    {
+      "source_file": "content/sections/zz104-asian-traditional-plucked-human-scenes.json",
+      "slug": "dombra-pered-pokupkoy",
+      "n0": "Домбра до покупки напрокат | Попробовать казахский инструмент на своей программе",
+      "n1": "Домбра перед покупкой | Две струны, техника правой руки и кюй"
+    }
+  ]
+}
