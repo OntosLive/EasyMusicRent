@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "slug": "skripichnyy-smychok-pered-pokupkoy",
+      "n0": "Скрипичный смычок напрокат перед покупкой | Сравнить разные трости на своей скрипке",
+      "n1": "Скрипичные смычки | Вес, баланс и упругость меняют работу смычковой руки",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "altovyy-smychok-pered-pokupkoy",
+      "n0": "Альтовый смычок перед покупкой в аренду | Сравнить варианты на своём альте",
+      "n1": "Альтовый смычок | Другая масса и контакт с толстыми струнами",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "violonchelnyy-smychok-pered-pokupkoy",
+      "n0": "Виолончельный смычок перед покупкой | Аренда для живого сравнения",
+      "n1": "Виолончельные смычки | Вес трости и баланс над струной",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "kontrabasovyy-smychok-pered-pokupkoy",
+      "n0": "Контрабасовый смычок перед покупкой | Французская и немецкая системы",
+      "n1": "Контрабасовые смычки | Два способа держания и разные исполнительские жесты",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-detache",
+      "n0": "Смычок для détaché в аренду | Для занятий и проверки разных тростей",
+      "n1": "Détaché на смычковом инструменте | Отдельные штрихи внутри ровной линии",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-legato",
+      "n0": "Смычок для legato напрокат | Для протяжённой фразы на струне",
+      "n1": "Legato и смычок | Длинная дуга без разрыва контакта со струной",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-spikkato",
+      "n0": "Смычок для spiccato в аренду | Упругие варианты для прыгающего штриха",
+      "n1": "Spiccato | Упругость трости участвует в естественном отскоке",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-sotie",
+      "n0": "Смычок для sautillé напрокат | Для быстрых штрихов и учебных этюдов",
+      "n1": "Sautillé | Быстрый отскок создаётся работой трости",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-tihoy-ataki",
+      "n0": "Смычок для тихой атаки в аренду | Работа над pianissimo и фразой",
+      "n1": "Тихая атака смычка | Звук начинается до появления лишнего шума",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-dolgih-repetitsiy",
+      "n0": "Смычок на долгие репетиции напрокат | Удобные варианты для ежедневной работы",
+      "n1": "Смычок для долгой игры | Вес и баланс распределяются по всей трости",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-raboty-u-kolodki",
+      "n0": "Смычок для игры у колодки в аренду | Разные балансы для технической работы",
+      "n1": "Смычок у колодки | Управление большим весом ближе к руке",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-raboty-u-kontsa",
+      "n0": "Смычок для игры у конца напрокат | Для контроля звука на всей длине",
+      "n1": "Смычок у конца | Контакт с струной при меньшем весе трости",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "derevyannyy-smychok-dlya-pervogo-opyta",
+      "n0": "Деревянный смычок для первой пробы | В аренду для сравнения с карбоном",
+      "n1": "Деревянные смычки | Различные свойства натуральной трости",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "karbonovyy-smychok-dlya-pervogo-opyta",
+      "n0": "Карбоновый смычок напрокат | Вариант для занятий и сравнения с деревом",
+      "n1": "Карбоновые смычки | Стабильная конструкция и разные балансы",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "kontrabasovyy-smychok-frantsuzskiy-ili-nemetskiy",
+      "n0": "Контрабасовый смычок французский или немецкий | Оба типа в аренду",
+      "n1": "Французский и немецкий смычок | Две исполнительские системы контрабаса",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    },
+    {
+      "slug": "smychok-dlya-raboty-nad-stakkato",
+      "n0": "Смычок для staccato в аренду | Точная серия коротких штрихов",
+      "n1": "Staccato на смычке | Последовательные атаки внутри одного движения",
+      "source_file": "content/sections/zz99-bow-human-scenes.json"
+    }
+  ]
+}
