@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "truba-vzroslomu-nachinayuschemu",
+      "n0": "Труба взрослому новичку в аренду | Учебный инструмент для первых занятий",
+      "n1": "Первая труба взрослому | Клапанная система и открытый медный звук"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "truba-dlya-domashnih-zanyatiy",
+      "n0": "Труба для домашних занятий напрокат | На регулярную практику и уроки",
+      "n1": "Домашняя труба | Учебный репертуар и постоянный инструмент"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "truba-posle-pereryva",
+      "n0": "Труба после перерыва в аренду | Возвращение к своему репертуару",
+      "n1": "Возвращение к трубе | Привычная аппликатура и новая исполнительская практика"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "truba-pered-pokupkoy",
+      "n0": "Труба перед покупкой напрокат | Учебные и концертные инструменты на пробу",
+      "n1": "Труба до покупки | Сравнение клапанов и отклика на своей программе"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "truba-dlya-big-benda",
+      "n0": "Труба в биг-бэнд напрокат | Инструмент для джазовой духовой секции",
+      "n1": "Биг-бэндовая труба | Артикуляция, секционная атака и высокие партии"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "truba-dlya-orkestrovogo-proslushivaniya",
+      "n0": "Труба на оркестровое прослушивание | Аренда на программу и выступление",
+      "n1": "Труба для прослушивания | Оркестровые соло и точная работа с фразой"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "kornet-dlya-pervogo-instrumenta",
+      "n0": "Первый корнет в аренду | Учебный медный инструмент для занятий",
+      "n1": "Учебный корнет | Компактный клапанный инструмент со своим голосом"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "kornet-posle-truby",
+      "n0": "Корнет после трубы напрокат | Новый медный тембр при знакомой аппликатуре",
+      "n1": "От трубы к корнету | Близкая клапанная система и иной корпус"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "kornet-pered-pokupkoy",
+      "n0": "Корнет перед покупкой в аренду | Попробовать инструмент в своём ансамбле",
+      "n1": "Корнет до покупки | Тембр и корпус в настоящей партии"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "flyugelgorn-dlya-pervogo-opyta",
+      "n0": "Флюгельгорн на первую пробу напрокат | Мягкий медный звук для ансамбля",
+      "n1": "Первый флюгельгорн | Другой характер тембра при знакомых клапанах"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "flyugelgorn-posle-truby",
+      "n0": "Флюгельгорн после трубы в аренду | Добавить мягкий голос к привычной игре",
+      "n1": "От трубы к флюгельгорну | Мягкая медная атака и более широкий корпус"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "flyugelgorn-pered-pokupkoy",
+      "n0": "Флюгельгорн перед покупкой напрокат | Проверить новый голос в репертуаре",
+      "n1": "Флюгельгорн до покупки | Музыкальная роль инструмента рядом с трубой"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "valtorna-dlya-pervogo-instrumenta",
+      "n0": "Валторна для первых уроков в аренду | Учебный инструмент для начинающего",
+      "n1": "Первая валторна | Собственная система вентилей и обертонный ряд"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "valtorna-dlya-domashnih-zanyatiy",
+      "n0": "Валторна для домашних занятий напрокат | Для класса и самостоятельной работы",
+      "n1": "Домашняя валторна | Оркестровая партия и учебные упражнения"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "valtorna-dlya-perehoda-na-dvoynuyu-sistemu",
+      "n0": "Двойная валторна для перехода в аренду | Новый этап оркестровой игры",
+      "n1": "Двойная валторна | Системы F и B в одном инструменте"
+    },
+    {
+      "source_file": "content/sections/zz91-high-brass-human-scenes.json",
+      "slug": "valtorna-pered-pokupkoy",
+      "n0": "Валторна до покупки напрокат | Сравнить одинарную и двойную систему",
+      "n1": "Валторна до покупки | Разные системы и вес корпуса"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "trombon-dlya-pervogo-instrumenta",
+      "n0": "Первый тромбон в аренду | Учебный инструмент для музыкальной школы",
+      "n1": "Тромбон для начинающего | Кулиса и семь позиций вместо клапанов"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "trombon-dlya-domashnih-zanyatiy",
+      "n0": "Тромбон домой напрокат | Инструмент на каждый день музыкальной практики",
+      "n1": "Домашний тромбон | Постоянная работа с кулисой и диапазоном"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "trombon-s-kvartventilem-dlya-perehoda",
+      "n0": "Тромбон с квартвентилем в аренду | Для расширенной оркестровой партии",
+      "n1": "Тромбон с квартвентилем | Дополнительный вентиль расширяет маршруты к нотам"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "trombon-pered-pokupkoy",
+      "n0": "Тромбон перед покупкой напрокат | Сравнить мензуру и наличие квартвентиля",
+      "n1": "Тромбон до покупки | Реальная длина кулисы и работа механики"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "bas-trombon-dlya-pervogo-opyta",
+      "n0": "Бас-тромбон на первый опыт | Низкий медный голос в аренду",
+      "n1": "Первый бас-тромбон | Низкий регистр при знакомой кулисе"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "evfonium-dlya-pervogo-instrumenta",
+      "n0": "Первый эуфониум напрокат | Учебный инструмент для духового оркестра",
+      "n1": "Эуфониум для начинающего | Певучий медный голос и клапанная система"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "evfonium-dlya-domashnih-zanyatiy",
+      "n0": "Эуфониум для домашних занятий | Учебная модель в аренду",
+      "n1": "Домашний эуфониум | Регулярная работа над фразой и нижним регистром"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "evfonium-dlya-perehoda-na-sistemu-3-plus-1",
+      "n0": "Эуфониум 3+1 в аренду | Концертная система для нового учебного этапа",
+      "n1": "Эуфониум с системой 3+1 | Независимый четвёртый клапан под левую руку"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "evfonium-pered-pokupkoy",
+      "n0": "Эуфониум перед покупкой напрокат | Сравнить концертную и учебную систему",
+      "n1": "Эуфониум до покупки | Клапаны, строй и характер нижнего регистра"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "tuba-dlya-pervogo-instrumenta",
+      "n0": "Первая туба в аренду | Инструмент для начала занятий на медных низах",
+      "n1": "Туба для начинающего | Оркестровый басовый голос и разные строи"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "tuba-dlya-domashnih-zanyatiy",
+      "n0": "Туба для занятий дома напрокат | Учебный басовый инструмент",
+      "n1": "Домашняя туба | Регулярная работа с дыханием и тубовой партией"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "tuba-pered-pokupkoy",
+      "n0": "Туба перед покупкой в аренду | Сравнить размеры и строи инструментов",
+      "n1": "Туба до покупки | Система, размер и диапазон внутри репертуара"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "suzafon-dlya-pervogo-opyta",
+      "n0": "Сузафон для первого опыта напрокат | Большой медный инструмент для ансамбля",
+      "n1": "Первый сузафон | Басовая партия в переносном концертном корпусе"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "suzafon-dlya-marshiruyuschego-sostava",
+      "n0": "Сузафон для марширующего оркестра | Аренда для парада и улицы",
+      "n1": "Марширующий сузафон | Басовый инструмент, который несут на себе"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "bariton-gorn-dlya-pervogo-instrumenta",
+      "n0": "Баритон-горн для первых занятий в аренду | Учебный голос brass-band",
+      "n1": "Баритон-горн | Отдельный низкий медный голос с клапанами"
+    },
+    {
+      "source_file": "content/sections/zz92-low-brass-human-scenes.json",
+      "slug": "tenor-gorn-dlya-pervogo-instrumenta",
+      "n0": "Тенор-горн для первых занятий напрокат | Инструмент строя Es",
+      "n1": "Тенор-горн | Альтовый голос медной секции духового состава"
+    }
+  ]
+}
