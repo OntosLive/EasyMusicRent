@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "casio-celviano-v-arendu/index.html",
+      "slug": "casio-celviano-v-arendu",
+      "n0": "Casio Celviano в аренду | Корпусные цифровые пианино для домашней учёбы",
+      "n1": "Семейство Casio Celviano | Постоянное рабочее место за цифровым фортепиано"
+    },
+    {
+      "source_file": "casio-ap270-v-arendu/index.html",
+      "slug": "casio-ap270-v-arendu",
+      "n0": "Casio AP-270 напрокат | Корпусное пианино на период домашнего обучения",
+      "n1": "Casio AP-270 | Цифровая Celviano для ежедневной практики"
+    },
+    {
+      "source_file": "casio-ap470-v-arendu/index.html",
+      "slug": "casio-ap470-v-arendu",
+      "n0": "Casio AP-470 в аренду | Домашнее пианино для более требовательной программы",
+      "n1": "Casio AP-470 | Корпусная модель Celviano для серьёзных занятий"
+    },
+    {
+      "source_file": "casio-ap550-v-arendu/index.html",
+      "slug": "casio-ap550-v-arendu",
+      "n0": "Casio AP-550 напрокат | Продвинутый домашний инструмент серии Celviano",
+      "n1": "Casio AP-550 | Корпусное цифровое фортепиано следующего уровня"
+    },
+    {
+      "source_file": "casio-ap750-v-arendu/index.html",
+      "slug": "casio-ap750-v-arendu",
+      "n0": "Casio AP-750 в аренду | Старшая Celviano для исполнительской практики дома",
+      "n1": "Casio AP-750 | Развитая корпусная система для профессиональной программы"
+    },
+    {
+      "source_file": "casio-aps450-v-arendu/index.html",
+      "slug": "casio-aps450-v-arendu",
+      "n0": "Casio AP-S450 напрокат | Полноценное пианино в тонком корпусе для квартиры",
+      "n1": "Casio AP-S450 | Компактная глубина при постоянной учебной клавиатуре"
+    }
+  ]
+}
