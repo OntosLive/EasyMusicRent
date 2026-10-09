@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "roland-fp10-v-arendu/index.html",
+      "slug": "roland-fp10-v-arendu",
+      "n0": "Roland FP-10 в аренду | 88 клавиш с молоточковой механикой для первых уроков",
+      "n1": "Roland FP-10 | Компактный старт регулярной фортепианной практики"
+    },
+    {
+      "source_file": "roland-fp30x-v-arendu/index.html",
+      "slug": "roland-fp30x-v-arendu",
+      "n0": "Roland FP-30X напрокат | Переносное пианино для ежедневных домашних занятий",
+      "n1": "Roland FP-30X | Полная клавиатура для учебного периода"
+    },
+    {
+      "source_file": "roland-fp60x-v-arendu/index.html",
+      "slug": "roland-fp60x-v-arendu",
+      "n0": "Roland FP-60X в аренду | Одно цифровое пианино для дома, репетиции и сцены",
+      "n1": "Roland FP-60X | Мобильный инструмент с расширенными сценическими задачами"
+    },
+    {
+      "source_file": "roland-fp90x-v-arendu/index.html",
+      "slug": "roland-fp90x-v-arendu",
+      "n0": "Roland FP-90X напрокат | Старшая переносная клавиатура для серьёзной музыки",
+      "n1": "Roland FP-90X | Продвинутая механика и мощная встроенная акустика"
+    },
+    {
+      "source_file": "roland-hp702-v-arendu/index.html",
+      "slug": "roland-hp702-v-arendu",
+      "n0": "Roland HP702 в аренду | Домашнее корпусное пианино на учебный период",
+      "n1": "Roland HP702 | Постоянное фортепианное место для регулярных уроков"
+    },
+    {
+      "source_file": "roland-hp704-v-arendu/index.html",
+      "slug": "roland-hp704-v-arendu",
+      "n0": "Roland HP704 напрокат | Более высокий класс домашнего цифрового пианино",
+      "n1": "Roland HP704 | Корпусная клавиатура для серьёзной практики"
+    },
+    {
+      "source_file": "roland-lx5-v-arendu/index.html",
+      "slug": "roland-lx5-v-arendu",
+      "n0": "Roland LX-5 в аренду | Современное корпусное пианино для продвинутого ученика",
+      "n1": "Roland LX-5 | Механика и многоканальная акустика серии LX"
+    },
+    {
+      "source_file": "roland-lx6-v-arendu/index.html",
+      "slug": "roland-lx6-v-arendu",
+      "n0": "Roland LX-6 напрокат | Длиннее клавиатура и шире акустика домашней LX-серии",
+      "n1": "Roland LX-6 | Средний уровень LX с расширенной исполнительской механикой"
+    },
+    {
+      "source_file": "roland-lx9-v-arendu/index.html",
+      "slug": "roland-lx9-v-arendu",
+      "n0": "Roland LX-9 в аренду | Флагманское цифровое пианино серии LX",
+      "n1": "Roland LX-9 | Максимальная клавиатура и акустическая система семейства"
+    }
+  ]
+}
