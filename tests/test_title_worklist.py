@@ -77,6 +77,29 @@ class TitleWorklistTests(unittest.TestCase):
                          "Проверить постановку и выбрать соответствующий размер.")
         self.assertFalse(stats["mechanically_generated_title_wording"])
 
+    def test_sharded_evidence_preserves_exact_review_records(self):
+        shard = self.base / "shard-a.json"
+        records = json.loads(self.reviews.read_text(encoding="utf-8"))["reviews"]
+        shard.write_text(json.dumps({"schema_version": 1, "reviews": records},
+                                    ensure_ascii=False), encoding="utf-8")
+        self.reviews.write_text(json.dumps({"schema_version": 1,
+                                           "record_count": 2,
+                                           "shards": ["shard-a.json"]}), encoding="utf-8")
+        result = self.run_inventory()
+        self.assertEqual(result["summary"]["model_reviewed_titles"], 2)
+
+    def test_duplicate_evidence_topics_across_shards_are_rejected(self):
+        records = json.loads(self.reviews.read_text(encoding="utf-8"))["reviews"]
+        for suffix in ("a", "b"):
+            (self.base / f"evidence-{suffix}.json").write_text(
+                json.dumps({"schema_version": 1, "reviews": records}, ensure_ascii=False),
+                encoding="utf-8")
+        self.reviews.write_text(json.dumps({"schema_version": 1,
+                                           "shards": ["evidence-a.json", "evidence-b.json"]}),
+                                encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "Duplicate evidence topic"):
+            self.run_inventory()
+
     def test_unsupported_fragment_rejects_publication_audit(self):
         contents=json.loads(self.reviews.read_text(encoding="utf-8"))
         contents["reviews"]["skripka"]["n0"]["source_quote"]="Подтверждение, которого нет в содержимом документа."

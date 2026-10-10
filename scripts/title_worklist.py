@@ -34,11 +34,41 @@ def extract_title(html: str, where: Path) -> str:
     return unescape(BeautifulSoup(matches[0], "html.parser").get_text()).strip()
 
 
-def validate_reviews(pairs: dict, reviews_path: Path, root: Path) -> dict:
+def load_review_records(reviews_path: Path, root: Path) -> dict:
+    """Read inline evidence or explicitly listed small shards; never produce title text."""
     document = json.loads(reviews_path.read_text(encoding="utf-8"))
-    if document.get("schema_version") != 1 or not isinstance(document.get("reviews"), dict):
+    if document.get("schema_version") != 1:
         raise ValueError("Invalid functional-title review manifest")
-    reviews = document["reviews"]
+    if "reviews" in document:
+        if "shards" in document or not isinstance(document["reviews"], dict):
+            raise ValueError("Invalid inline review manifest")
+        return document["reviews"]
+
+    shards = document.get("shards")
+    if not isinstance(shards, list) or not shards or len(set(shards)) != len(shards):
+        raise ValueError("Invalid list of review shards")
+    reviews = {}
+    root_dir = root.resolve()
+    for relative in shards:
+        if not isinstance(relative, str) or not relative.endswith(".json"):
+            raise ValueError("Invalid evidence shard path")
+        path = (root_dir / relative).resolve()
+        if not path.is_relative_to(root_dir) or not path.is_file():
+            raise ValueError("Evidence shard missing or outside repository")
+        chunk = json.loads(path.read_text(encoding="utf-8"))
+        if chunk.get("schema_version") != 1 or not isinstance(chunk.get("reviews"), dict):
+            raise ValueError(f"Invalid evidence shard: {relative}")
+        for slug, roles in chunk["reviews"].items():
+            if slug in reviews:
+                raise ValueError(f"Duplicate evidence topic: {slug}")
+            reviews[slug] = roles
+    if document.get("record_count") is not None and document["record_count"] != len(reviews) * 2:
+        raise ValueError("Evidence shard count differs from declared title records")
+    return reviews
+
+
+def validate_reviews(pairs: dict, reviews_path: Path, root: Path) -> dict:
+    reviews = load_review_records(reviews_path, root)
     if set(reviews) != set(pairs):
         raise ValueError(f"Title / evidence topics differ: missing {sorted(set(pairs)-set(reviews))}; "
                          f"extra {sorted(set(reviews)-set(pairs))}")

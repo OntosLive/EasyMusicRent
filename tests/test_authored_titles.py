@@ -9,6 +9,7 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import apply_authored_titles as authored
+import title_worklist as inventory
 
 
 class AuthoredTitlesTests(unittest.TestCase):
@@ -122,12 +123,12 @@ class AuthoredTitlesTests(unittest.TestCase):
     def test_every_live_title_has_matching_source_evidence(self):
         titles = authored.validate_manifest(authored.DEFAULT_MANIFEST)
         evidence_path = ROOT / "content" / "title-editorial-evidence.json"
-        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
-        self.assertEqual(set(titles), set(evidence["reviews"]))
+        evidence = inventory.load_review_records(evidence_path, ROOT)
+        self.assertEqual(set(titles), set(evidence))
         for slug, pair in titles.items():
-            self.assertEqual(set(evidence["reviews"][slug]), {"n0", "n1"})
+            self.assertEqual(set(evidence[slug]), {"n0", "n1"})
             for role in ("n0", "n1"):
-                record = evidence["reviews"][slug][role]
+                record = evidence[slug][role]
                 self.assertEqual(record["decision"], pair[role])
                 self.assertTrue(record["source_path"])
                 self.assertGreater(len(record["source_quote"]), 12)
