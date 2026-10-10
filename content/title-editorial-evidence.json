@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3078,
+  "record_count": 3126,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -99,6 +99,9 @@
     "content/title-authored-evidence/95-school-percussion-kit.json",
     "content/title-authored-evidence/96-small-percussion-voices.json",
     "content/title-authored-evidence/97-traditional-performance-routes.json",
-    "content/title-authored-evidence/98-bowed-studio-concert.json"
+    "content/title-authored-evidence/98-bowed-studio-concert.json",
+    "content/title-authored-evidence/99-asian-traditional-performance.json",
+    "content/title-authored-evidence/100-early-instrument-performance.json",
+    "content/title-authored-evidence/101-special-electronic-performance.json"
   ]
 }
