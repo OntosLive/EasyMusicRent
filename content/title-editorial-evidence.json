@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2518,
+  "record_count": 2572,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -50,6 +50,12 @@
     "content/title-authored-evidence/46-backline-rider-standards.json",
     "content/title-authored-evidence/47-concert-grand-models.json",
     "content/title-authored-evidence/48-professional-winds.json",
-    "content/title-authored-evidence/49-legendary-keyboards.json"
+    "content/title-authored-evidence/49-legendary-keyboards.json",
+    "content/title-authored-evidence/50-drum-harp-rider.json",
+    "content/title-authored-evidence/51-legendary-bayans.json",
+    "content/title-authored-evidence/52-percussion-rider-models.json",
+    "content/title-authored-evidence/53-electronic-plucked-legends.json",
+    "content/title-authored-evidence/54-current-pro-workstations.json",
+    "content/title-authored-evidence/55-rider-guitars-di.json"
   ]
 }

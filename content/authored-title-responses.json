@@ -9,7 +9,7 @@
   ],
   "python_role": "literal_transfer_validation_coverage_only",
   "requires_owner_review": true,
-  "editorial_wave": "2026-10-10-rider-core-part-a",
+  "editorial_wave": "2026-10-10-rider-core-part-b",
   "pairs": {
     "keytara": {
       "n0": "Кейтара в аренду | Клавишные партии без привязки к стойке",
@@ -5046,6 +5046,114 @@
     "korg-m1-v-arendu": {
       "n0": "Korg M1 в аренду | Классическая рабочая станция с секвенсором",
       "n1": "Korg M1 | Сэмпловый синтез, ударные и восьмидорожечная организация музыки"
+    },
+    "yamaha-absolute-hybrid-maple-v-arendu": {
+      "n0": "Yamaha Absolute Hybrid Maple в аренду | Профессиональные барабаны под райдер",
+      "n1": "Yamaha Absolute Hybrid Maple | Слои клёна и венге в гибридной конструкции"
+    },
+    "ludwig-classic-maple-v-arendu": {
+      "n0": "Ludwig Classic Maple в аренду | Барабанный комплект профессиональной серии",
+      "n1": "Ludwig Classic Maple | Современный корпус и традиционная акустическая школа"
+    },
+    "tama-starclassic-performer-bb-v-arendu": {
+      "n0": "Tama Starclassic Performer Birch/Bubinga в аренду | Легендарная серия ударных",
+      "n1": "Tama Starclassic Performer Birch/Bubinga | Берёза и бубинга в историческом бэклайне"
+    },
+    "pearl-masters-custom-v-arendu": {
+      "n0": "Pearl Masters Custom в аренду | Комплект профессиональных барабанов",
+      "n1": "Pearl Masters Custom | Различия поколений и размеров студийных корпусов"
+    },
+    "ludwig-supraphonic-lm400-v-arendu": {
+      "n0": "Малый барабан Ludwig Supraphonic LM400 в аренду | Алюминиевый корпус 5×14",
+      "n1": "Ludwig Supraphonic LM400 | Бесшовный алюминий и универсальная атака малого барабана"
+    },
+    "lyon-healy-style-30-v-arendu": {
+      "n0": "Арфа Lyon & Healy Style 30 в аренду | Профессиональная педальная модель на 47 струн",
+      "n1": "Lyon & Healy Style 30 | Концертная арфа и её сценическая геометрия"
+    },
+    "lyon-healy-chicago-cg-extended-v-arendu": {
+      "n0": "Арфа Lyon & Healy Chicago CG Extended в аренду | Concert Grand на 47 струн",
+      "n1": "Lyon & Healy Chicago CG Extended | Большая педальная арфа для профессиональной сцены"
+    },
+    "hohner-gola-v-arendu": {
+      "n0": "Аккордеон Hohner Gola в аренду | Индивидуальная профессиональная конфигурация",
+      "n1": "Hohner Gola | Инструмент ручной сборки для солистической работы"
+    },
+    "pigini-super-bayan-sirius-v-arendu": {
+      "n0": "Баян Pigini Super Bayan Sirius в аренду | Большая концертная свободнобасовая система",
+      "n1": "Pigini Super Bayan Sirius | Выборный бас, регистры и крупная клавишная архитектура"
+    },
+    "pigini-sirius-kyma-v-arendu": {
+      "n0": "Баян Pigini Sirius Kyma в аренду | Компактный профессиональный выборный бас",
+      "n1": "Pigini Sirius Kyma | Меньший корпус с полноценной свободнобасовой системой"
+    },
+    "adams-professional-gen2-litavry-v-arendu": {
+      "n0": "Литавры Adams Professional Gen II в аренду | Комплект размеров по партитуре",
+      "n1": "Adams Professional Gen II | Balanced-action педаль и диапазоны оркестровых литавр"
+    },
+    "yamaha-ym6100-v-arendu": {
+      "n0": "Маримба Yamaha YM-6100 в аренду | Пятиоктавный Concert Grand",
+      "n1": "Yamaha YM-6100 | Деревянные пластины и пятиоктавный диапазон концертной маримбы"
+    },
+    "paiste-2002-set-v-arendu": {
+      "n0": "Комплект тарелок Paiste 2002 в аренду | Подбор ride, crash и hi-hat по райдеру",
+      "n1": "Paiste 2002 | Бронзовая серия и яркая артикуляция рок-барабанщика"
+    },
+    "sabian-hhx-set-v-arendu": {
+      "n0": "Комплект тарелок Sabian HHX в аренду | Тёмные профессиональные тембры",
+      "n1": "Sabian HHX | Современная тёмная палитра тарелок для живой игры"
+    },
+    "zildjian-k-series-set-v-arendu": {
+      "n0": "Комплект тарелок Zildjian K Series в аренду | Размеры под конкретный комплект",
+      "n1": "Zildjian K | Тёмная традиция серии рядом с более яркой A Series"
+    },
+    "roland-tr808-v-arendu": {
+      "n0": "Roland TR-808 в аренду | Оригинальная аналоговая драм-машина",
+      "n1": "Roland TR-808 | Секвенсор TR-REC и новое представление о бас-барабане"
+    },
+    "roland-tr909-v-arendu": {
+      "n0": "Roland TR-909 в аренду | Классический ритм-машинный звук для house и techno",
+      "n1": "Roland TR-909 | Ритмическая архитектура, сформировавшая клубный пульс"
+    },
+    "gibson-f5-master-model-v-arendu": {
+      "n0": "Мандолина Gibson F-5 Master Model в аренду | Историческая bluegrass-конструкция",
+      "n1": "Gibson F-5 Master Model | Наследие Ллойда Лоара и скрипичная конструкция мандолины"
+    },
+    "deering-sierra-v-arendu": {
+      "n0": "Банджо Deering Sierra в аренду | Профессиональная пятиструнная модель",
+      "n1": "Deering Sierra | Резонатор и тон-ринг как основа звучания банджо"
+    },
+    "moog-etherwave-v-arendu": {
+      "n0": "Терменвокс Moog Etherwave в аренду | Управление высотой и громкостью без касания",
+      "n1": "Moog Etherwave | Две антенны и управление звуком положением рук"
+    },
+    "yamaha-montage-m8x-v-arendu": {
+      "n0": "Yamaha MONTAGE M8x в аренду | 88 клавиш и полифонический aftertouch",
+      "n1": "Yamaha MONTAGE M8x | GEX-механика и звуковые движки AWM2, FM-X и AN-X"
+    },
+    "roland-fantom-8-ex-v-arendu": {
+      "n0": "Roland FANTOM 8 EX в аренду | Флагманская workstation с 16 зонами",
+      "n1": "Roland FANTOM 8 EX | Клавиатурная механика и многоуровневая концертная система"
+    },
+    "korg-nautilus-88-at-v-arendu": {
+      "n0": "Korg NAUTILUS 88 AT в аренду | 88 клавиш с aftertouch и девять звуковых движков",
+      "n1": "Korg NAUTILUS 88 AT | Фортепианная RH3 и девять независимых способов синтеза"
+    },
+    "gibson-sg-standard-v-arendu": {
+      "n0": "Gibson SG Standard в аренду | Два хамбакера и удобный доступ к верхним ладам",
+      "n1": "Gibson SG Standard | Баланс на ремне и геометрия двойного выреза"
+    },
+    "rickenbacker-330-v-arendu": {
+      "n0": "Rickenbacker 330 в аренду | Полуакустическая шестиструнная гитара",
+      "n1": "Rickenbacker 330 | Два Hi-gain, моновыход и отличие от версии 330/12"
+    },
+    "di-boksy": {
+      "n0": "DI-боксы в аренду | Активные, пассивные и многоканальные решения для сцены",
+      "n1": "DI-боксы | Как источник, нагрузка и развязка определяют правильное включение"
+    },
+    "radial-jdi-v-arendu": {
+      "n0": "Radial JDI в аренду | Пассивный DI-бокс с трансформатором Jensen",
+      "n1": "Radial JDI | Параллельный выход и балансная линия между инструментом и пультом"
     }
   }
 }
