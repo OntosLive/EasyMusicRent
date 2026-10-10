@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "korg-kronos-2-88-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Korg Kronos 2 88 как профессиональная backline workstation-позиция с 88 клавишами и подготовленной программой артиста.",
+        "decision": "Korg Kronos 2 88 в аренду | Концертная workstation с полноразмерной клавиатурой",
+        "next_action": "Концертная workstation с полноразмерной клавиатурой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Kronos 2 88 уже относится к поколению клавишных, которое перестало быть новым, н",
+        "decision": "Korg Kronos 2 88 | Подготовленные программы для большой сцены",
+        "next_action": "Подготовленные программы для большой сцены"
+      }
+    },
+    "yamaha-motif-xf8-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Yamaha Motif XF8: 88-key flagship workstation и устойчивый гастрольный backline standard прошлой эпохи.",
+        "decision": "Yamaha Motif XF8 в аренду | Workstation с 88 клавишами по райдеру",
+        "next_action": "Workstation с 88 клавишами по райдеру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Motif XF8 — хороший пример того, почему наш каталог не должен равняться только н",
+        "decision": "Yamaha Motif XF8 | Флагман предыдущего поколения в живом бэклайне",
+        "next_action": "Флагман предыдущего поколения в живом бэклайне"
+      }
+    },
+    "hammond-b3-leslie-122-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Hammond B3 и Leslie 122 как классическая органная backline-система для концерта и записи.",
+        "decision": "Hammond B3 и Leslie 122 в аренду | Полная органная система",
+        "next_action": "Полная органная система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Hammond B3 в профессиональном райдере часто существует не один, а как связка с L",
+        "decision": "Hammond B3 с Leslie 122 | Орган и вращающийся динамик как единое целое",
+        "next_action": "Орган и вращающийся динамик как единое целое"
+      }
+    },
+    "musser-m55-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Musser M55 vibraphone как профессиональный rental-standard для джаза, студии и концертного backline.",
+        "decision": "Вибрафон Musser M55 в аренду | Профессиональная модель для концерта",
+        "next_action": "Профессиональная модель для концерта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Вибрафон в райдере часто нельзя заменить просто «любым 3-октавным инструментом».",
+        "decision": "Musser M55 | Джазовый и оркестровый вибрафон в исполнительской практике",
+        "next_action": "Джазовый и оркестровый вибрафон в исполнительской практике"
+      }
+    },
+    "zildjian-a-series-set-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Zildjian A Series cymbal pack: hi-hat, crashes, ride и точные размеры как самостоятельная rider-конфигурация.",
+        "decision": "Тарелки Zildjian A Series в аренду | Комплект hi-hat, crash и ride по райдеру",
+        "next_action": "Комплект hi-hat, crash и ride по райдеру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz28-backline-rider-standards.json",
+        "source_quote": "Zildjian A — один из базовых языков backline-райдера, но надпись «A Series» ещё ",
+        "decision": "Zildjian A Series | Размеры тарелок определяют реальный барабанный комплект",
+        "next_action": "Размеры тарелок определяют реальный барабанный комплект"
+      }
+    }
+  }
+}
