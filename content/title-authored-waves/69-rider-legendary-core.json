@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Прямой ответ на аренду и самостоятельная предметная глубина",
+  "records": [
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "nord-stage-3-88-v-arendu",
+      "n0": "Nord Stage 3 88 в аренду | Молоточковая клавиатура и три звуковые секции",
+      "n1": "Nord Stage 3 88 | Три секции, готовые программы и сценические переключения"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "yamaha-cp88-v-arendu",
+      "n0": "Yamaha CP88 в аренду | Фортепианная клавиатура для концертного райдера",
+      "n1": "Yamaha CP88 | Акустические и электрические пианино под руками исполнителя"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "roland-rd2000ex-v-arendu",
+      "n0": "Roland RD-2000 EX в аренду | Восемь зон управления сценой",
+      "n1": "Roland RD-2000 EX | Механика PHA-50, звуковые движки и выходы XLR"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "fender-american-professional-ii-stratocaster-v-arendu",
+      "n0": "Fender American Professional II Stratocaster в аренду | Три сингла и тремоло",
+      "n1": "American Professional II Stratocaster | Рабочая геометрия и звучание Strat"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "gibson-les-paul-standard-60s-v-arendu",
+      "n0": "Gibson Les Paul Standard 60s в аренду | Два хамбакера и бридж Tune-O-Matic",
+      "n1": "Les Paul Standard 60s | SlimTaper, короткая мензура и плотная атака"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "gibson-es335-v-arendu",
+      "n0": "Gibson ES-335 в аренду | Полуакустическая гитара для концерта и записи",
+      "n1": "Gibson ES-335 | Центральный блок и два хамбакера между джазом и роком"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "martin-d28-v-arendu",
+      "n0": "Martin D-28 в аренду | Акустический dreadnought для сцены и студии",
+      "n1": "Martin D-28 | Ель и палисандр в узнаваемой акустической конструкции"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "fender-american-professional-ii-jazz-bass-v-arendu",
+      "n0": "Fender American Professional II Jazz Bass в аренду | Два датчика и полная мензура",
+      "n1": "American Professional II Jazz Bass | Два сингла для собственной басовой артикуляции"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "music-man-stingray-special-v-arendu",
+      "n0": "Music Man StingRay Special в аренду | Активный бас с хамбакером",
+      "n1": "StingRay Special | Активная электроника и характерный басовый отклик"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "dw-collectors-series-v-arendu",
+      "n0": "DW Collector's Series в аренду | Профессиональные барабаны в размерах райдера",
+      "n1": "DW Collector’s Series | Почему размеры корпусов важнее одного имени серии"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "yamaha-recording-custom-v-arendu",
+      "n0": "Yamaha Recording Custom в аренду | Берёзовая установка для студии и сцены",
+      "n1": "Yamaha Recording Custom | Звук берёзовых корпусов и студийная атака"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "gretsch-usa-custom-v-arendu",
+      "n0": "Gretsch USA Custom в аренду | Ударная установка профессиональной серии",
+      "n1": "Gretsch USA Custom | Maple/gum, обручи и акустический характер серии"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "buffet-r13-v-arendu",
+      "n0": "Кларнет Buffet Crampon R13 в аренду | Профессиональная модель B♭",
+      "n1": "Buffet R13 | Корпус из гренадила и механика системы Бёма"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "selmer-mark-vi-tenor-v-arendu",
+      "n0": "Тенор-саксофон Selmer Mark VI в аренду | Исторический профессиональный стандарт",
+      "n1": "Selmer Mark VI tenor | Почему каждый экземпляр требует отдельного внимания"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "bach-180s37-v-arendu",
+      "n0": "Труба Bach Stradivarius 180S37 в аренду | Профессиональная B♭ модель",
+      "n1": "Bach 180S37 | Мензура ML и инструментальная универсальность"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "conn-8d-v-arendu",
+      "n0": "Валторна Conn 8D в аренду | Оркестровая двойная система F/B♭",
+      "n1": "Conn 8D | Система Kruspe и широкий американский оркестровый звук"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "lyon-healy-style-23-v-arendu",
+      "n0": "Арфа Lyon & Healy Style 23 в аренду | Концертные 47 струн для большой сцены",
+      "n1": "Lyon & Healy Style 23 | Концертная арфа в масштабе большого зала"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "scandalli-super-vi-v-arendu",
+      "n0": "Аккордеон Scandalli Super VI в аренду | Итальянская модель с cassotto",
+      "n1": "Scandalli Super VI | Клавиатура, 120 басов и звуковая традиция серии"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "minimoog-model-d-v-arendu",
+      "n0": "Minimoog Model D в аренду | Три осциллятора для живого аналогового соло",
+      "n1": "Minimoog Model D | Монофонический синтезатор как самостоятельный инструмент"
+    },
+    {
+      "source_file": "content/sections/zz26-rider-legend-model-core.json",
+      "slug": "roland-juno-106-v-arendu",
+      "n0": "Roland JUNO-106 в аренду | Шестиголосный синтезатор с характерным chorus",
+      "n1": "Roland JUNO-106 | MIDI и аналоговая полифония исторической серии"
+    }
+  ]
+}
