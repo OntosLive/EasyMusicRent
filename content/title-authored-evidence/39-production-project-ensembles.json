@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "instrumenty-dlya-vokalnogo-dueta-s-fortepiano": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Вокальный дуэт с фортепиано: piano, voice, room scale and concert preparation.",
+        "decision": "Фортепиано для вокального дуэта в аренду | Инструмент для голоса и аккомпанемента",
+        "next_action": "Инструмент для голоса и аккомпанемента"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Вокальный дуэт кажется минимальным составом, но именно поэтому каждое несоответствие ",
+        "decision": "Вокальный дуэт с фортепиано | Как клавишный голос следует за дыханием певцов",
+        "next_action": "Как клавишный голос следует за дыханием певцов"
+      }
+    },
+    "instrumenty-dlya-vokalnogo-dueta-s-gitaroy": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Вокальный дуэт с гитарой: acoustic/nylon guitar, DI, vocal balance and stage setup.",
+        "decision": "Гитара для вокального дуэта в аренду | Акустическое сопровождение двух голосов",
+        "next_action": "Акустическое сопровождение двух голосов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "В дуэте с голосом гитара легко становится слишком большой по атаке или спектру, особе",
+        "decision": "Вокальный дуэт с гитарой | Как аккомпанемент сохраняет слышимость слов",
+        "next_action": "Как аккомпанемент сохраняет слышимость слов"
+      }
+    },
+    "instrumenty-dlya-vokalnogo-trio": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Вокальное трио: voice plus two instruments, arrangement balance and temporary setup.",
+        "decision": "Инструменты для вокального трио в аренду | Комплект под живой аккомпанемент",
+        "next_action": "Комплект под живой аккомпанемент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Когда рядом с голосом появляются два сопровождающих инструмента, главное не количеств",
+        "decision": "Вокальное трио с инструментами | Как разделить сопровождение и оставить место голосам",
+        "next_action": "Как разделить сопровождение и оставить место голосам"
+      }
+    },
+    "instrumenty-dlya-horovogo-akkompanementa": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для хорового аккомпанемента: piano/organ, rehearsal and concert scale.",
+        "decision": "Инструменты для хорового аккомпанемента в аренду | Клавишные и ансамблевые голоса",
+        "next_action": "Клавишные и ансамблевые голоса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Хору нужен инструмент, который помогает слышать гармонию и вступления, но на концерте",
+        "decision": "Инструментальное сопровождение хора | Опора для строя без конкуренции с пением",
+        "next_action": "Опора для строя без конкуренции с пением"
+      }
+    },
+    "instrumenty-dlya-kamernogo-hora-s-ansamblem": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Камерный хор с ансамблем: strings/winds/keyboard continuo and balance.",
+        "decision": "Инструменты для камерного хора с ансамблем в аренду | Состав под партитуру",
+        "next_action": "Состав под партитуру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Камерный хор особенно чувствителен к масштабу сопровождающего состава: один слишком п",
+        "decision": "Камерный хор и инструментальный ансамбль | Прозрачная поддержка текста и гармонии",
+        "next_action": "Прозрачная поддержка текста и гармонии"
+      }
+    },
+    "instrumenty-dlya-opernoy-yamy": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для оперной ямы: strings, winds, percussion, keyboards and pit logistics.",
+        "decision": "Инструменты для оркестровой ямы оперы в аренду | Полный состав под постановку",
+        "next_action": "Полный состав под постановку"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Оперная яма меняет обычную оркестровую логику: места меньше, смен инструментов сложне",
+        "decision": "Оркестровая яма | Как исполнительский состав работает в ограниченном пространстве",
+        "next_action": "Как исполнительский состав работает в ограниченном пространстве"
+      }
+    },
+    "instrumenty-dlya-myuziklovogo-pit-benda": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Pit band для мюзикла: doubling winds, keyboards, guitars, rhythm section and quick changes.",
+        "decision": "Инструменты для pit band мюзикла в аренду | Смена голосов в одной оркестровой яме",
+        "next_action": "Смена голосов в одной оркестровой яме"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "В мюзикле один музыкант нередко отвечает за несколько тембров, поэтому комплектация с",
+        "decision": "Pit band мюзикла | Мультиинструментальные партии и быстрые переключения",
+        "next_action": "Мультиинструментальные партии и быстрые переключения"
+      }
+    },
+    "instrumenty-dlya-teatralnogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для театральной постановки: acoustic, historical, electronic and backstage logistics.",
+        "decision": "Инструменты для театрального ансамбля в аренду | Музыкальный комплект под спектакль",
+        "next_action": "Музыкальный комплект под спектакль"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Театр может требовать одновременно живой музыки, исторического образа, мобильности и ",
+        "decision": "Театральный ансамбль | Инструменты как часть действия и сценического времени",
+        "next_action": "Инструменты как часть действия и сценического времени"
+      }
+    },
+    "instrumenty-dlya-studiynoy-live-sessii": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для live studio session: backline, acoustic instruments, DI, isolation and ensemble balance.",
+        "decision": "Инструменты для студийной live-сессии в аренду | Полный комплект живой группы",
+        "next_action": "Полный комплект живой группы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Live session отличается от послойной записи тем, что инструментальный баланс должен р",
+        "decision": "Студийная live-сессия | Одновременная игра и разделение звуковых сигналов",
+        "next_action": "Одновременная игра и разделение звуковых сигналов"
+      }
+    },
+    "instrumenty-dlya-saundtreka-kamernogo-sostava": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для камерного саундтрека: strings, winds, harp, unusual voices and studio session.",
+        "decision": "Инструменты для камерного саундтрека в аренду | Живые голоса под запись",
+        "next_action": "Живые голоса под запись"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Для саундтрека редко нужен абстрактный «оркестр». Часто достаточно нескольких точных ",
+        "decision": "Камерный саундтрек | Когда несколько настоящих инструментов заменяют множество слоёв",
+        "next_action": "Когда несколько настоящих инструментов заменяют множество слоёв"
+      }
+    },
+    "instrumenty-dlya-teleefira-s-zhivym-ansamblem": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для TV live ensemble: backline, visual footprint, direct outputs and rapid setup.",
+        "decision": "Инструменты для телеэфира с живым ансамблем в аренду | Звук и комплект для кадра",
+        "next_action": "Звук и комплект для кадра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "В телеэфире инструмент одновременно звучит и занимает визуальное пространство, а врем",
+        "decision": "Живой ансамбль на телевидении | Одновременные требования к звуку и изображению",
+        "next_action": "Одновременные требования к звуку и изображению"
+      }
+    },
+    "instrumenty-dlya-videosyemki-zhivogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для live video session: playable instruments, backline, visual authenticity and sound capture.",
+        "decision": "Инструменты для видеосъёмки живого ансамбля в аренду | Игровой комплект для камеры",
+        "next_action": "Игровой комплект для камеры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "В музыкальном видео фальшивый инструментальный жест заметен так же быстро, как плохой",
+        "decision": "Живой ансамбль в видеокадре | Подлинный исполнительский жест и звучащий инструмент",
+        "next_action": "Подлинный исполнительский жест и звучащий инструмент"
+      }
+    },
+    "instrumenty-dlya-odnodnevnoy-repetitsii-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для one-day ensemble rehearsal: local instruments, backline and fast setup.",
+        "decision": "Инструменты для однодневной репетиции ансамбля в аренду | Готовый состав к началу занятий",
+        "next_action": "Готовый состав к началу занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Когда ансамбль собирается всего на один день, цена любой недостающей стойки, инструме",
+        "decision": "Одна репетиция ансамбля | Подготовленная инструментальная среда без потери времени",
+        "next_action": "Подготовленная инструментальная среда без потери времени"
+      }
+    },
+    "instrumenty-dlya-festivalnoy-kamernoy-programmy": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для chamber festival: temporary strings, winds, pianos, harps and multi-program logistics.",
+        "decision": "Инструменты для камерной фестивальной программы в аренду | Разные составы на несколько дат",
+        "next_action": "Разные составы на несколько дат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Камерный фестиваль быстро создаёт пересечение составов: утром трио, вечером квинтет, ",
+        "decision": "Камерный фестиваль | Как инструментальный парк сопровождает смену ансамблей",
+        "next_action": "Как инструментальный парк сопровождает смену ансамблей"
+      }
+    },
+    "instrumenty-dlya-gastrolnogo-kamernogo-sostava": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для touring chamber ensemble: local rental, strings, keyboard, rare voices and functional substitution.",
+        "decision": "Инструменты для гастрольного камерного состава в аренду | Местный комплект под программу",
+        "next_action": "Местный комплект под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Камерный ансамбль часто везёт личный минимум, но рояль, контрабас, арфу или крупные р",
+        "decision": "Камерный состав на гастролях | Сохранение музыкальных функций без перевозки каждого инструмента",
+        "next_action": "Сохранение музыкальных функций без перевозки каждого инструмента"
+      }
+    },
+    "instrumenty-dlya-zameny-uchastnika-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Инструменты для emergency ensemble replacement: substitute player setup, instrument compatibility and rapid rehearsal.",
+        "decision": "Инструменты для замены участника ансамбля в аренду | Сохранить нужный голос состава",
+        "next_action": "Сохранить нужный голос состава"
+      },
+      "n1": {
+        "source_path": "content/sections/zz120-project-ensemble-crossroutes.json",
+        "source_quote": "Когда в последний момент меняется музыкант, его инструмент и привычная система могут ",
+        "decision": "Замена участника ансамбля | Как восстановить инструментальную роль в общей фактуре",
+        "next_action": "Как восстановить инструментальную роль в общей фактуре"
+      }
+    }
+  }
+}
