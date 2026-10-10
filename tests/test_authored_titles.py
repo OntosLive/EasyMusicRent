@@ -105,11 +105,12 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
         self.assertTrue(manifest["requires_owner_review"])
-        self.assertEqual(len(pairs), 1000)
-        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 2000)
+        self.assertEqual(len(pairs), 1016)
+        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 2032)
         self.assertIn("Полный размер для концерта", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
         self.assertIn("период подготовки", pairs["skripka-na-konkurs-v-arendu"]["n0"])
         self.assertNotIn("Сверьте мензуру", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
+        self.assertIn("Клавиатура и дыхание", pairs["melodika-vzroslomu-nachinayuschemu"]["n0"])
         self.assertIn("полного состава", pairs["instrumenty-dlya-studencheskogo-kamernogo-orkestra"]["n0"])
         self.assertIn("Рояль", pairs["instrumenty-dlya-fortepiannogo-kvinteta"]["n0"])
         self.assertIn("цифровой звук", pairs["instrument-esli-slishkom-gromko-dlya-doma"]["n1"])
@@ -118,7 +119,7 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["authoring_models"], ["GPT-6", "GPT-6.1"])
         self.assertEqual(manifest["python_role"], "literal_transfer_validation_coverage_only")
-        self.assertEqual(len(manifest["pairs"]), 1000)
+        self.assertEqual(len(manifest["pairs"]), 1016)
 
     def test_every_live_title_has_matching_source_evidence(self):
         titles = authored.validate_manifest(authored.DEFAULT_MANIFEST)
