@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "gitarnyy-usilitel-dlya-pervogo-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный усилитель для первого концерта: clean headroom, перегруз, громкость сцены и soundcheck.",
+        "decision": "Гитарный усилитель для первого концерта в аренду | Сценический звук без покупки большого комбо",
+        "next_action": "Сценический звук без покупки большого комбо"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Первый выход на сцену меняет громкость, расстояние до кабинета и способ слышать себя.",
+        "decision": "Первый концерт с гитарным усилителем | От домашнего звука к слышимой сценической партии",
+        "next_action": "От домашнего звука к слышимой сценической партии"
+      }
+    },
+    "gitarnyy-usilitel-dlya-klina": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный усилитель для clean sound: headroom, stereo chorus, педали и сценическая громкость.",
+        "decision": "Гитарный усилитель для чистого звука в аренду | Запас громкости без преждевременного перегруза",
+        "next_action": "Запас громкости без преждевременного перегруза"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Чистый усилитель нужен не просто без distortion. Он должен сохранять динамику руки и ",
+        "decision": "Чистый гитарный звук | Как запас мощности сохраняет динамику атаки",
+        "next_action": "Как запас мощности сохраняет динамику атаки"
+      }
+    },
+    "gitarnyy-usilitel-dlya-krancha": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный усилитель для crunch: динамический перегруз, громкость, master volume и реальная партия.",
+        "decision": "Гитарный усилитель для crunch в аренду | Живой перегруз под силу атаки",
+        "next_action": "Живой перегруз под силу атаки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Хороший crunch живёт между чистым и плотным перегрузом. Музыканту важно слышать, как ",
+        "decision": "Гитарный crunch | Перегруз между чистым звуком и плотной атакой",
+        "next_action": "Перегруз между чистым звуком и плотной атакой"
+      }
+    },
+    "gitarnyy-usilitel-dlya-high-gain": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "High-gain усилитель для гитары: gain, noise, low end, кабинет и сценическая проверка.",
+        "decision": "Гитарный усилитель high-gain в аренду | Голова и кабинет для плотного риффа",
+        "next_action": "Голова и кабинет для плотного риффа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Большой gain легко создаёт массу, но реальная задача — сохранить начало ноты, muting ",
+        "decision": "High-gain гитарный усилитель | Почему большой gain не должен стирать начало ноты",
+        "next_action": "Почему большой gain не должен стирать начало ноты"
+      }
+    },
+    "gitarnyy-usilitel-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный усилитель для записи: combo/head, кабинет, микрофонная громкость и повторяемость дублей.",
+        "decision": "Гитарный усилитель для студийной записи в аренду | Комбо, голова и кабинет под нужную партию",
+        "next_action": "Комбо, голова и кабинет под нужную партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "В студии усилитель нужен как реальный источник характера и динамики. Выбор начинается",
+        "decision": "Гитарный усилитель в студии | Настоящий отклик усилительной цепи в записанном дубле",
+        "next_action": "Настоящий отклик усилительной цепи в записанном дубле"
+      }
+    },
+    "gitarnyy-usilitel-dlya-repetitsii": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный усилитель для репетиции: мощность, clean headroom, перегруз и баланс с барабанами.",
+        "decision": "Гитарный усилитель для репетиции в аренду | Мощность и характер звука под состав",
+        "next_action": "Мощность и характер звука под состав"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "На репетиции усилитель должен занять место между барабанами, басом и голосом, а не пр",
+        "decision": "Гитарный усилитель на репетиции | Как партия находит место среди барабанов и баса",
+        "next_action": "Как партия находит место среди барабанов и баса"
+      }
+    },
+    "gitarnyy-usilitel-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Аренда гитарного усилителя перед покупкой: clean, gain, мощность, кабинет и собственный критерий.",
+        "decision": "Гитарный усилитель перед покупкой в аренду | Сравнить чистый звук, crunch и high-gain",
+        "next_action": "Сравнить чистый звук, crunch и high-gain"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Усилитель особенно плохо выбирается по короткому магазинному тесту на чужой гитаре и ",
+        "decision": "Гитарный усилитель до покупки | Своя гитара, рабочая громкость и реальная практика",
+        "next_action": "Своя гитара, рабочая громкость и реальная практика"
+      }
+    },
+    "gitarnyy-usilitel-dlya-gastrolnoy-zameny": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный усилитель для гастрольной замены: тип канала, мощность, кабинет, педали и согласование substitute.",
+        "decision": "Гитарный усилитель на гастрольную замену в аренду | Сохранить настройки и работу педалей",
+        "next_action": "Сохранить настройки и работу педалей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Когда основной усилитель не приехал, задача не в поиске «хорошего amp», а в восстанов",
+        "decision": "Замена гитарного усилителя на гастролях | Интерфейс райдера важнее сходства корпуса",
+        "next_action": "Интерфейс райдера важнее сходства корпуса"
+      }
+    },
+    "gitarnyy-kabinet-1x12-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный кабинет 1x12: компактность, громкость, динамик и сравнение с крупными кабинетами.",
+        "decision": "Гитарный кабинет 1×12 для первой пробы в аренду | Компактная связка с вашей головой",
+        "next_action": "Компактная связка с вашей головой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Малый кабинет полезен как отдельная точка сравнения: он меняет физический масштаб сис",
+        "decision": "Гитарный кабинет 1×12 | Как один динамик меняет масштаб усилительной системы",
+        "next_action": "Как один динамик меняет масштаб усилительной системы"
+      }
+    },
+    "gitarnyy-kabinet-2x12-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный кабинет 2x12: площадь динамиков, транспорт, громкость и сравнение с 1x12/4x12.",
+        "decision": "Гитарный кабинет 2×12 для первой пробы в аренду | Средний формат для репетиции и сцены",
+        "next_action": "Средний формат для репетиции и сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "2×12 часто выбирают как компромисс, но слово «компромисс» ничего не говорит о конкрет",
+        "decision": "Гитарный кабинет 2×12 | Баланс размера, громкости и сценического переноса",
+        "next_action": "Баланс размера, громкости и сценического переноса"
+      }
+    },
+    "gitarnyy-kabinet-4x12-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный кабинет 4x12: проекция, низ, взаимодействие с головой и сценическая логистика.",
+        "decision": "Гитарный кабинет 4×12 для первой пробы в аренду | Большая сценическая система",
+        "next_action": "Большая сценическая система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "4×12 — не просто больше динамиков. Это другой физический объект на сцене и в транспор",
+        "decision": "Гитарный кабинет 4×12 | Проекция, низ и физический масштаб гитарного звука",
+        "next_action": "Проекция, низ и физический масштаб гитарного звука"
+      }
+    },
+    "gitarnyy-kabinet-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Аренда гитарного кабинета перед покупкой: 1x12/2x12/4x12, динамики, транспорт и сценическая практика.",
+        "decision": "Гитарный кабинет перед покупкой в аренду | Сравнить 1×12, 2×12 и 4×12",
+        "next_action": "Сравнить 1×12, 2×12 и 4×12"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Кабинет меняет ощущение усилителя настолько, что покупать его отдельно от своей голов",
+        "decision": "Гитарный кабинет до покупки | Как динамики, короб и ваша голова создают общий звук",
+        "next_action": "Как динамики, короб и ваша голова создают общий звук"
+      }
+    },
+    "golova-i-kabinet-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарная голова и кабинет на концерт: impedance, мощность, характер усилителя и сценическая сборка.",
+        "decision": "Гитарная голова и кабинет для концерта в аренду | Совместимая усилительная система",
+        "next_action": "Совместимая усилительная система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Голова и кабинет не являются двумя независимыми предметами: их электрическая совмести",
+        "decision": "Гитарная голова и кабинет | Почему согласование импеданса предшествует саундчеку",
+        "next_action": "Почему согласование импеданса предшествует саундчеку"
+      }
+    },
+    "combo-ili-golova-i-kabinet": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Сравнение combo и head+cab: transport, сценическая громкость, гибкость и реальная партия.",
+        "decision": "Комбо или гитарная голова с кабинетом в аренду | Сравнить две сценические конфигурации",
+        "next_action": "Сравнить две сценические конфигурации"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Combo и раздельная связка решают одну базовую задачу усиления разными физическими спо",
+        "decision": "Гитарное комбо и раздельный стек | Разные способы организовать один исполнительский звук",
+        "next_action": "Разные способы организовать один исполнительский звук"
+      }
+    },
+    "gitarnyy-backline-po-rayderu": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный backline по райдеру: guitars, amps, cabinets, pedals compatibility и согласование замены.",
+        "decision": "Гитарный бэклайн по райдеру в аренду | Усилители, кабинеты и согласованные замены",
+        "next_action": "Усилители, кабинеты и согласованные замены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "В райдере конкретная модель часто кодирует привычный интерфейс музыканта. Если точног",
+        "decision": "Гитарный райдер | Как модель усилителя обозначает исполнительскую функцию",
+        "next_action": "Как модель усилителя обозначает исполнительскую функцию"
+      }
+    },
+    "gitarnyy-usilitel-dlya-maloy-stseny": {
+      "n0": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "Гитарный усилитель для малого клуба: мощность, master volume, PA support и сценический баланс.",
+        "decision": "Гитарный усилитель для небольшой сцены в аренду | Нужный звук без избыточной громкости",
+        "next_action": "Нужный звук без избыточной громкости"
+      },
+      "n1": {
+        "source_path": "content/sections/zz113-guitar-backline-human-scenes.json",
+        "source_quote": "На маленькой сцене слишком большой amp может лишить звукорежиссёра возможности собрат",
+        "decision": "Гитарный усилитель в малом клубе | Баланс с залом начинается со сценической громкости",
+        "next_action": "Баланс с залом начинается со сценической громкости"
+      }
+    }
+  }
+}
