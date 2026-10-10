@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz36-electronic-plucked-legendary-models.json",
+      "slug": "roland-tr808-v-arendu",
+      "n0": "Roland TR-808 в аренду | Оригинальная аналоговая драм-машина",
+      "n1": "Roland TR-808 | Секвенсор TR-REC и новое представление о бас-барабане"
+    },
+    {
+      "source_file": "content/sections/zz36-electronic-plucked-legendary-models.json",
+      "slug": "roland-tr909-v-arendu",
+      "n0": "Roland TR-909 в аренду | Классический ритм-машинный звук для house и techno",
+      "n1": "Roland TR-909 | Ритмическая архитектура, сформировавшая клубный пульс"
+    },
+    {
+      "source_file": "content/sections/zz36-electronic-plucked-legendary-models.json",
+      "slug": "gibson-f5-master-model-v-arendu",
+      "n0": "Мандолина Gibson F-5 Master Model в аренду | Историческая bluegrass-конструкция",
+      "n1": "Gibson F-5 Master Model | Наследие Ллойда Лоара и скрипичная конструкция мандолины"
+    },
+    {
+      "source_file": "content/sections/zz36-electronic-plucked-legendary-models.json",
+      "slug": "deering-sierra-v-arendu",
+      "n0": "Банджо Deering Sierra в аренду | Профессиональная пятиструнная модель",
+      "n1": "Deering Sierra | Резонатор и тон-ринг как основа звучания банджо"
+    },
+    {
+      "source_file": "content/sections/zz36-electronic-plucked-legendary-models.json",
+      "slug": "moog-etherwave-v-arendu",
+      "n0": "Терменвокс Moog Etherwave в аренду | Управление высотой и громкостью без касания",
+      "n1": "Moog Etherwave | Две антенны и управление звуком положением рук"
+    }
+  ]
+}
