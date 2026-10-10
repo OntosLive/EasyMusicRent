@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "nord-stage-3-88-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Nord Stage 3 88 как востребованный бэклайновый стандарт: 88 молоточковых клавиш, три звуковые секции, программы и готовность к сцене.",
+        "decision": "Nord Stage 3 88 в аренду | Молоточковая клавиатура и три звуковые секции",
+        "next_action": "Молоточковая клавиатура и три звуковые секции"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Nord Stage 3 88 до сих пор живёт в гастрольных райдерах уже как знакомый язык ме",
+        "decision": "Nord Stage 3 88 | Три секции, готовые программы и сценические переключения",
+        "next_action": "Три секции, готовые программы и сценические переключения"
+      }
+    },
+    "yamaha-cp88-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Yamaha CP88 для сцены и тура: 88 клавиш, акустические и электрические пианино, прямое управление и профессиональная коммутация.",
+        "decision": "Yamaha CP88 в аренду | Фортепианная клавиатура для концертного райдера",
+        "next_action": "Фортепианная клавиатура для концертного райдера"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "CP88 нужен там, где райдер начинается с фортепианной партии, а не с универсально",
+        "decision": "Yamaha CP88 | Акустические и электрические пианино под руками исполнителя",
+        "next_action": "Акустические и электрические пианино под руками исполнителя"
+      }
+    },
+    "roland-rd2000ex-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Roland RD-2000 EX: PHA-50, два звуковых движка, восемь зон, XLR-выходы и управление большой сценической клавишной системой.",
+        "decision": "Roland RD-2000 EX в аренду | Восемь зон управления сценой",
+        "next_action": "Восемь зон управления сценой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "RD-2000 EX нужен в райдере, когда клавишник управляет не одной фортепианной парт",
+        "decision": "Roland RD-2000 EX | Механика PHA-50, звуковые движки и выходы XLR",
+        "next_action": "Механика PHA-50, звуковые движки и выходы XLR"
+      }
+    },
+    "fender-american-professional-ii-stratocaster-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Fender American Professional II Stratocaster: SSS, 25.5, 2-point tremolo и привычная Stratocaster-логика для сцены и записи.",
+        "decision": "Fender American Professional II Stratocaster в аренду | Три сингла и тремоло",
+        "next_action": "Три сингла и тремоло"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Когда в райдере написано Stratocaster, музыкант часто имеет в виду вполне опреде",
+        "decision": "American Professional II Stratocaster | Рабочая геометрия и звучание Strat",
+        "next_action": "Рабочая геометрия и звучание Strat"
+      }
+    },
+    "gibson-les-paul-standard-60s-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Gibson Les Paul Standard 60s: mahogany/maple, 24.75, SlimTaper, два Burstbucker и фиксированный Tune-O-Matic.",
+        "decision": "Gibson Les Paul Standard 60s в аренду | Два хамбакера и бридж Tune-O-Matic",
+        "next_action": "Два хамбакера и бридж Tune-O-Matic"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Les Paul в райдере — это другой физический и звуковой мир, чем Stratocaster: бол",
+        "decision": "Les Paul Standard 60s | SlimTaper, короткая мензура и плотная атака",
+        "next_action": "SlimTaper, короткая мензура и плотная атака"
+      }
+    },
+    "gibson-es335-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Gibson ES-335: semi-hollow maple/poplar/maple, centerblock, два humbucker и классическая сцена от джаза до рок-группы.",
+        "decision": "Gibson ES-335 в аренду | Полуакустическая гитара для концерта и записи",
+        "next_action": "Полуакустическая гитара для концерта и записи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "ES-335 часто появляется в райдерах как отдельный тип инструмента, а не как декор",
+        "decision": "Gibson ES-335 | Центральный блок и два хамбакера между джазом и роком",
+        "next_action": "Центральный блок и два хамбакера между джазом и роком"
+      }
+    },
+    "martin-d28-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Martin D-28: spruce/rosewood dreadnought, 25.4 scale и классическая акустическая опора для записи и сцены.",
+        "decision": "Martin D-28 в аренду | Акустический dreadnought для сцены и студии",
+        "next_action": "Акустический dreadnought для сцены и студии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "D-28 давно стал не просто моделью Martin, а самостоятельным акустическим референ",
+        "decision": "Martin D-28 | Ель и палисандр в узнаваемой акустической конструкции",
+        "next_action": "Ель и палисандр в узнаваемой акустической конструкции"
+      }
+    },
+    "fender-american-professional-ii-jazz-bass-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Fender American Professional II Jazz Bass: 34, два V-Mod II single-coil, два volume и master tone.",
+        "decision": "Fender American Professional II Jazz Bass в аренду | Два датчика и полная мензура",
+        "next_action": "Два датчика и полная мензура"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Jazz Bass в райдере часто нужен именно за двухдатчиковую логику и знакомую 34-дю",
+        "decision": "American Professional II Jazz Bass | Два сингла для собственной басовой артикуляции",
+        "next_action": "Два сингла для собственной басовой артикуляции"
+      }
+    },
+    "music-man-stingray-special-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Ernie Ball Music Man StingRay Special: 34, humbucker, активный EQ и классическая StingRay-архитектура.",
+        "decision": "Music Man StingRay Special в аренду | Активный бас с хамбакером",
+        "next_action": "Активный бас с хамбакером"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "StingRay занимает в райдере своё место рядом с Precision и Jazz Bass. Его ищут, ",
+        "decision": "StingRay Special | Активная электроника и характерный басовый отклик",
+        "next_action": "Активная электроника и характерный басовый отклик"
+      }
+    },
+    "dw-collectors-series-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "DW Collector's Series: профессиональный custom-kit, варианты древесины и размеров; райдер требует точной конфигурации бочки и томов.",
+        "decision": "DW Collector's Series в аренду | Профессиональные барабаны в размерах райдера",
+        "next_action": "Профессиональные барабаны в размерах райдера"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "DW Collector’s Series часто пишут в райдере как знак профессионального класса ус",
+        "decision": "DW Collector’s Series | Почему размеры корпусов важнее одного имени серии",
+        "next_action": "Почему размеры корпусов важнее одного имени серии"
+      }
+    },
+    "yamaha-recording-custom-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Yamaha Recording Custom: birch shells, 30-degree edges, профессиональная прокатная серия для записи и сцены.",
+        "decision": "Yamaha Recording Custom в аренду | Берёзовая установка для студии и сцены",
+        "next_action": "Берёзовая установка для студии и сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Recording Custom — редкий случай, когда название серии уже содержит историю её п",
+        "decision": "Yamaha Recording Custom | Звук берёзовых корпусов и студийная атака",
+        "next_action": "Звук берёзовых корпусов и студийная атака"
+      }
+    },
+    "gretsch-usa-custom-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Gretsch USA Custom: maple/gum shells, 30-degree edges, die-cast hoops и широкий выбор прокатных размеров.",
+        "decision": "Gretsch USA Custom в аренду | Ударная установка профессиональной серии",
+        "next_action": "Ударная установка профессиональной серии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "USA Custom — один из тех барабанных названий, которые переживают десятилетия. Gr",
+        "decision": "Gretsch USA Custom | Maple/gum, обручи и акустический характер серии",
+        "next_action": "Maple/gum, обручи и акустический характер серии"
+      }
+    },
+    "buffet-r13-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Buffet Crampon R13 B♭: профессиональный grenadilla-кларнет Boehm system, классический оркестровый и учебный референс.",
+        "decision": "Кларнет Buffet Crampon R13 в аренду | Профессиональная модель B♭",
+        "next_action": "Профессиональная модель B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "R13 существует в языке кларнетистов уже не как «одна из моделей Buffet», а как с",
+        "decision": "Buffet R13 | Корпус из гренадила и механика системы Бёма",
+        "next_action": "Корпус из гренадила и механика системы Бёма"
+      }
+    },
+    "selmer-mark-vi-tenor-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Selmer Mark VI tenor: исторический саксофон 1954–1970-х, легендарный исполнительский референс и редкая прокатная позиция.",
+        "decision": "Тенор-саксофон Selmer Mark VI в аренду | Исторический профессиональный стандарт",
+        "next_action": "Исторический профессиональный стандарт"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Mark VI — уже не просто старая модель саксофона. Сам Selmer называет его по-наст",
+        "decision": "Selmer Mark VI tenor | Почему каждый экземпляр требует отдельного внимания",
+        "next_action": "Почему каждый экземпляр требует отдельного внимания"
+      }
+    },
+    "bach-180s37-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Bach Stradivarius 180S37 B♭: ML .459 bore, универсальная профессиональная труба для класса, студии и сцены.",
+        "decision": "Труба Bach Stradivarius 180S37 в аренду | Профессиональная B♭ модель",
+        "next_action": "Профессиональная B♭ модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Bach 180S37 — тот случай, когда производитель сам описывает модель как один из н",
+        "decision": "Bach 180S37 | Мензура ML и инструментальная универсальность",
+        "next_action": "Мензура ML и инструментальная универсальность"
+      }
+    },
+    "conn-8d-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Conn 8D F/B♭: nickel silver, Kruspe wrap, large bell throat и историческая связь с американскими оркестрами и кино.",
+        "decision": "Валторна Conn 8D в аренду | Оркестровая двойная система F/B♭",
+        "next_action": "Оркестровая двойная система F/B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Conn 8D — уже самостоятельный оркестровый архетип. Модель появилась в 1938 году,",
+        "decision": "Conn 8D | Система Kruspe и широкий американский оркестровый звук",
+        "next_action": "Система Kruspe и широкий американский оркестровый звук"
+      }
+    },
+    "lyon-healy-style-23-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Lyon & Healy Style 23 Concert Grand: 47 струн, 188 см, 37 кг, историческая модель 1890 года и реальная performance-rental позиция.",
+        "decision": "Арфа Lyon & Healy Style 23 в аренду | Концертные 47 струн для большой сцены",
+        "next_action": "Концертные 47 струн для большой сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Style 23 — редкий пример акустического оркестрового инструмента, где серийное им",
+        "decision": "Lyon & Healy Style 23 | Концертная арфа в масштабе большого зала",
+        "next_action": "Концертная арфа в масштабе большого зала"
+      }
+    },
+    "scandalli-super-vi-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Scandalli Super VI: 41 клавиша, 120 басов, cassotto и историческая Tradizione-модель 1950-х.",
+        "decision": "Аккордеон Scandalli Super VI в аренду | Итальянская модель с cassotto",
+        "next_action": "Итальянская модель с cassotto"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Super VI — модель, которую сама Scandalli продолжает держать в линии Tradizione ",
+        "decision": "Scandalli Super VI | Клавиатура, 120 басов и звуковая традиция серии",
+        "next_action": "Клавиатура, 120 басов и звуковая традиция серии"
+      }
+    },
+    "minimoog-model-d-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Moog Minimoog Model D: классический трёхосцилляторный монофонический аналоговый синтезатор и легендарный сценический/студийный референс.",
+        "decision": "Minimoog Model D в аренду | Три осциллятора для живого аналогового соло",
+        "next_action": "Три осциллятора для живого аналогового соло"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Minimoog Model D не нужно оправдывать списком функций: его имя уже обозначает от",
+        "decision": "Minimoog Model D | Монофонический синтезатор как самостоятельный инструмент",
+        "next_action": "Монофонический синтезатор как самостоятельный инструмент"
+      }
+    },
+    "roland-juno-106-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "Roland JUNO-106: шестиголосный аналоговый polysynth 1984 года, MIDI, 128 patches и легендарный chorus.",
+        "decision": "Roland JUNO-106 в аренду | Шестиголосный синтезатор с характерным chorus",
+        "next_action": "Шестиголосный синтезатор с характерным chorus"
+      },
+      "n1": {
+        "source_path": "content/sections/zz26-rider-legend-model-core.json",
+        "source_quote": "JUNO-106 принадлежит к тем инструментам, чьё имя уже описывает целую звуковую ку",
+        "decision": "Roland JUNO-106 | MIDI и аналоговая полифония исторической серии",
+        "next_action": "MIDI и аналоговая полифония исторической серии"
+      }
+    }
+  }
+}
