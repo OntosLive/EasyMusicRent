@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "review_type": "literal source excerpts",
+  "reviews": {
+    "melodika-vzroslomu-nachinayuschemu": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика взрослому начинающему: 32 клавиши, дыхание, мундштук и пробный пер",
+        "decision": "Мелодика для взрослого в аренду | Клавиатура и дыхание для первых занятий",
+        "next_action": "Клавиатура и дыхание для первых занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика соединяет клавиатурную логику с дыханием. Даже человек, знакомый с",
+        "decision": "Первая мелодика для взрослого | Клавиши соединяются с воздушной фразой",
+        "next_action": "Клавиши соединяются с воздушной фразой"
+      }
+    },
+    "melodika-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика для дома: 32 клавиши, трубка/мундштук, дыхание и регулярная практи",
+        "decision": "Мелодика для домашних занятий напрокат | От простых мелодий до ежедневной практики",
+        "next_action": "От простых мелодий до ежедневной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика особенно удобна для домашней практики там, где нужно сохранить кла",
+        "decision": "Домашняя мелодика | Клавиатура и дыхание в обычных уроках",
+        "next_action": "Клавиатура и дыхание в обычных уроках"
+      }
+    },
+    "melodika-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Аренда мелодики перед покупкой: диапазон, клавиши, мундштук/трубка и собств",
+        "decision": "Мелодика перед покупкой в аренду | Попробовать диапазон и способы игры",
+        "next_action": "Попробовать диапазон и способы игры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика может отличаться по диапазону, клавиатурному ощущению и способу уд",
+        "decision": "Мелодика до покупки | Клавиши, мундштук и трубка в живом исполнении",
+        "next_action": "Клавиши, мундштук и трубка в живом исполнении"
+      }
+    },
+    "melodika-dlya-raboty-nad-dyhaniem": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика для дыхательной работы: длинная фраза, ровный поток воздуха и дина",
+        "decision": "Мелодика для работы над дыханием | Инструмент в аренду для длинной фразы",
+        "next_action": "Инструмент в аренду для длинной фразы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "На мелодике пальцы выбирают ноты, а воздух формирует саму жизнь фразы. Это ",
+        "decision": "Дыхание на мелодике | Ноты выбирают пальцы, фразу ведёт воздух",
+        "next_action": "Ноты выбирают пальцы, фразу ведёт воздух"
+      }
+    },
+    "melodika-dlya-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика для ансамбля: диапазон, дыхание, динамика и баланс.",
+        "decision": "Мелодика для ансамбля в аренду | Клавишная партия с живым дыханием",
+        "next_action": "Клавишная партия с живым дыханием"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "В ансамбле мелодика занимает пространство между клавишным и духовым голосом",
+        "decision": "Мелодика в ансамбле | Между клавишным голосом и духовой фразой",
+        "next_action": "Между клавишным голосом и духовой фразой"
+      }
+    },
+    "melodika-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика для записи: диапазон, дыхание, шум клавиш и микрофонная партия.",
+        "decision": "Мелодика для записи напрокат | Живой дыхательный тембр для студии",
+        "next_action": "Живой дыхательный тембр для студии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "На записи мелодика показывает и музыкальную фразу, и механические детали: д",
+        "decision": "Мелодика в студии | Дыхание и атака клавиш как часть записи",
+        "next_action": "Дыхание и атака клавиш как часть записи"
+      }
+    },
+    "melodika-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика для концерта: диапазон, стойка/удержание, микрофон и сценическая п",
+        "decision": "Мелодика на концерт в аренду | От инструмента до сценического подзвучивания",
+        "next_action": "От инструмента до сценического подзвучивания"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "На сцене мелодика должна быть удобна не только по нотам, но и по способу уд",
+        "decision": "Концертная мелодика | Удержание инструмента, микрофон и сценическая партия",
+        "next_action": "Удержание инструмента, микрофон и сценическая партия"
+      }
+    },
+    "melodika-dlya-vtorogo-mesta-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика для второго места занятий: диапазон, мундштук, дыхание и регулярна",
+        "decision": "Мелодика для второго места занятий | Компактный инструмент без лишних перевозок",
+        "next_action": "Компактный инструмент без лишних перевозок"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Если ученик регулярно живёт между двумя адресами, компактная мелодика легко",
+        "decision": "Мелодика в двух местах | Одна учебная программа без большого корпуса",
+        "next_action": "Одна учебная программа без большого корпуса"
+      }
+    },
+    "melodika-dlya-pervogo-klavishnogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика как первый клавишный инструмент: клавиатура, дыхание, диапазон и п",
+        "decision": "Первая мелодика в аренду | Клавишные ноты и дыхание в одном инструменте",
+        "next_action": "Клавишные ноты и дыхание в одном инструменте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Мелодика может стать первым клавишным интерфейсом ребёнка или взрослого, но",
+        "decision": "Первые клавиши на мелодике | Знакомая мелодия с управлением воздухом",
+        "next_action": "Знакомая мелодия с управлением воздухом"
+      }
+    },
+    "kontsertina-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Концертина для дома: English/Anglo/Duet система, мех и регулярная практика.",
+        "decision": "Концертина для занятий дома напрокат | Системы English, Anglo и Duet",
+        "next_action": "Системы English, Anglo и Duet"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "На концертине домашняя практика особенно зависит от конкретной системы. Ang",
+        "decision": "Концертина для дома | Три системы, три разные карты кнопок",
+        "next_action": "Три системы, три разные карты кнопок"
+      }
+    },
+    "kontsertina-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Аренда концертины перед покупкой: English/Anglo/Duet, мех, раскладка и собс",
+        "decision": "Концертина перед покупкой в аренду | Сравнить разные системы в практике",
+        "next_action": "Сравнить разные системы в практике"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Покупка концертины начинается с выбора системы, потому что мышечная карта р",
+        "decision": "Концертина до покупки | English, Anglo и Duet требуют разной техники",
+        "next_action": "English, Anglo и Duet требуют разной техники"
+      }
+    },
+    "kontsertina-posle-akkordeona": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Переход с аккордеона на концертину: система, кнопки, мех и первый пробный п",
+        "decision": "Концертина после аккордеона | Аренда для новой меховой исполнительской системы",
+        "next_action": "Аренда для новой меховой исполнительской системы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Аккордеонист уже умеет формировать фразу мехом, но концертина перестраивает",
+        "decision": "От аккордеона к концертине | Мех знаком, расположение кнопок другое",
+        "next_action": "Мех знаком, расположение кнопок другое"
+      }
+    },
+    "kontsertina-dlya-folk-proekta": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Концертина для folk-проекта: Anglo/English/Duet, тональность, мех и ансамбл",
+        "decision": "Концертина для folk-проекта напрокат | Под песню, танец и акустический ансамбль",
+        "next_action": "Под песню, танец и акустический ансамбль"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "В folk-музыке выбор концертины связан с традицией, способом аккомпанемента ",
+        "decision": "Концертина в folk-ансамбле | Меховой ритм и традиция выбранной системы",
+        "next_action": "Меховой ритм и традиция выбранной системы"
+      }
+    },
+    "bandoneon-posle-akkordeona": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Переход с аккордеона на бандонеон: раскладка, открытие/закрытие меха и нова",
+        "decision": "Бандонеон после аккордеона в аренду | Переход к инструменту танго",
+        "next_action": "Переход к инструменту танго"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Аккордеонист приносит на бандонеон опыт меховой фразы, но не готовую клавиа",
+        "decision": "Бандонеон после аккордеона | Новая кнопочная карта и меховая фраза",
+        "next_action": "Новая кнопочная карта и меховая фраза"
+      }
+    },
+    "garmon-posle-akkordeona": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Переход с аккордеона на гармонь: система, тональность, мех и песенная практ",
+        "decision": "Гармонь после аккордеона напрокат | Строи для народных песен и наигрышей",
+        "next_action": "Строи для народных песен и наигрышей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Аккордеонист уже умеет работать мехом, но гармонь требует принять конкретну",
+        "decision": "От аккордеона к гармони | Тональность и раскладка становятся частью песни",
+        "next_action": "Тональность и раскладка становятся частью песни"
+      }
+    },
+    "melodika-posle-fortepiano": {
+      "n0": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Переход с фортепиано на мелодику: клавиатура, дыхание, legato и новый спосо",
+        "decision": "Мелодика после фортепиано в аренду | Клавишная партия с дыхательной фразой",
+        "next_action": "Клавишная партия с дыхательной фразой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz108-melodica-free-reed-transitions-human-scenes.json",
+        "source_quote": "Пианист уже знает клавишную карту, поэтому на мелодике внимание можно сразу",
+        "decision": "Мелодика для пианиста | Знакомые клавиши, иной способ вести звук",
+        "next_action": "Знакомые клавиши, иной способ вести звук"
+      }
+    }
+  }
+}
