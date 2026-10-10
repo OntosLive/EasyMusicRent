@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду, N.1 углубляет предмет",
+  "records": [
+    {
+      "source_file": "content/sections/zz28-backline-rider-standards.json",
+      "slug": "korg-kronos-2-88-v-arendu",
+      "n0": "Korg Kronos 2 88 в аренду | Концертная workstation с полноразмерной клавиатурой",
+      "n1": "Korg Kronos 2 88 | Подготовленные программы для большой сцены"
+    },
+    {
+      "source_file": "content/sections/zz28-backline-rider-standards.json",
+      "slug": "yamaha-motif-xf8-v-arendu",
+      "n0": "Yamaha Motif XF8 в аренду | Workstation с 88 клавишами по райдеру",
+      "n1": "Yamaha Motif XF8 | Флагман предыдущего поколения в живом бэклайне"
+    },
+    {
+      "source_file": "content/sections/zz28-backline-rider-standards.json",
+      "slug": "hammond-b3-leslie-122-v-arendu",
+      "n0": "Hammond B3 и Leslie 122 в аренду | Полная органная система",
+      "n1": "Hammond B3 с Leslie 122 | Орган и вращающийся динамик как единое целое"
+    },
+    {
+      "source_file": "content/sections/zz28-backline-rider-standards.json",
+      "slug": "musser-m55-v-arendu",
+      "n0": "Вибрафон Musser M55 в аренду | Профессиональная модель для концерта",
+      "n1": "Musser M55 | Джазовый и оркестровый вибрафон в исполнительской практике"
+    },
+    {
+      "source_file": "content/sections/zz28-backline-rider-standards.json",
+      "slug": "zildjian-a-series-set-v-arendu",
+      "n0": "Тарелки Zildjian A Series в аренду | Комплект hi-hat, crash и ride по райдеру",
+      "n1": "Zildjian A Series | Размеры тарелок определяют реальный барабанный комплект"
+    }
+  ]
+}
