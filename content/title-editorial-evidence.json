@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2734,
+  "record_count": 2828,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -64,6 +64,13 @@
     "content/title-authored-evidence/60-golden-learning-standards-2.json",
     "content/title-authored-evidence/61-learning-guitars-gusli.json",
     "content/title-authored-evidence/62-student-fit-and-range.json",
-    "content/title-authored-evidence/63-international-student-winds.json"
+    "content/title-authored-evidence/63-international-student-winds.json",
+    "content/title-authored-evidence/64-learning-harps-keys-mandolin.json",
+    "content/title-authored-evidence/65-bows-choice-and-learning.json",
+    "content/title-authored-evidence/66-school-bowed-and-piano.json",
+    "content/title-authored-evidence/67-russian-bayan-yupiter.json",
+    "content/title-authored-evidence/68-string-brand-school.json",
+    "content/title-authored-evidence/69-practice-quality-context.json",
+    "content/title-authored-evidence/70-orff-first-electric.json"
   ]
 }
