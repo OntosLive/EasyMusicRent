@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Ответ N.0 об аренде, независимое предметное раскрытие N.1",
+  "records": [
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "yamaha-ck61-v-arendu",
+      "n0": "Yamaha CK61 в аренду в Москве | 61 клавиша и несколько тембровых ролей для сцены",
+      "n1": "Yamaha CK61 | Клавиатура FSB и сохранённые сочетания звуков в одном инструменте"
+    },
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "yamaha-ck88-v-arendu",
+      "n0": "Yamaha CK88 в аренду в Москве | 88 клавиш GHS для фортепианной сценической партии",
+      "n1": "Yamaha CK88 | Взвешенная механика с дополнительными исполнительскими тембрами"
+    },
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "korg-opsix-mk2-v-arendu",
+      "n0": "Korg opsix mk II в аренду | Шесть FM-операторов для формирования тембра",
+      "n1": "Korg opsix mk II | FM-звук через управление шестью операторами"
+    },
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "korg-wavestate-mk2-v-arendu",
+      "n0": "Korg wavestate mk II в аренду | Четыре слоя и Wave Sequencing 2.0",
+      "n1": "Korg wavestate mk II | Как звуковая последовательность развивается во времени"
+    },
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "arturia-minifreak-v-arendu",
+      "n0": "Arturia MiniFreak в аренду | Шестиголосный гибридный синтезатор с aftertouch",
+      "n1": "Arturia MiniFreak | 37 уменьшенных клавиш и гибридная конструкция тембра"
+    },
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "roland-gaia2-v-arendu",
+      "n0": "Roland GAIA 2 в аренду | Волновой синтез и Motional Pad для выступления",
+      "n1": "Roland GAIA 2 | Тембровое движение между осцилляторами и Motional Pad"
+    },
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "nord-piano-5-v-arendu",
+      "n0": "Nord Piano 5 в аренду | Сценическое пианино с двумя фортепианными слоями",
+      "n1": "Nord Piano 5 | Фортепианная программа, клавиатурные версии и педальный комплект"
+    },
+    {
+      "source_file": "content/sections/zz14-keyboard-performance-models.json",
+      "slug": "nord-grand-2-v-arendu",
+      "n0": "Nord Grand 2 в аренду | Клавиатура Kawai с тройными датчиками",
+      "n1": "Nord Grand 2 | Механика повторения ноты и два фортепианных слоя на сцене"
+    }
+  ]
+}

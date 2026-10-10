@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "elektrogitara-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Электрогитара для записи: строй, звукосниматели, шумы, усилитель и повторяемость дублей.",
+        "decision": "Электрогитара для студии в аренду | Звукосниматели и настройка под записываемую партию",
+        "next_action": "Звукосниматели и настройка под записываемую партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "В студии электрогитара существует не отдельно от тракта. Инструмент, кабель, педали, ",
+        "decision": "Электрогитара в студии | Согласование инструмента, усилителя и повторяемости дублей",
+        "next_action": "Согласование инструмента, усилителя и повторяемости дублей"
+      }
+    },
+    "elektrogitara-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Электрогитара для концерта: строй, ремень, звукосниматели, педали и сценическая надёжность.",
+        "decision": "Электрогитара для концерта в аренду | Готовый инструмент под сценическую программу",
+        "next_action": "Готовый инструмент под сценическую программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Концертная электрогитара должна ощущаться знакомо в руках и предсказуемо работать чер",
+        "decision": "Концертная электрогитара | Строй, ремень и совместимость с педалями",
+        "next_action": "Строй, ремень и совместимость с педалями"
+      }
+    },
+    "elektrogitara-dlya-repetitsii": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Электрогитара для репетиций: удобство, строй, стабильность и совместимость с существующим оборудованием.",
+        "decision": "Электрогитара для репетиции в аренду | Устойчивый строй для групповой работы",
+        "next_action": "Устойчивый строй для групповой работы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "На репетиции инструмент переживает много повторений, смен темпа и остановок. Здесь це",
+        "decision": "Электрогитара на репетиции | Удобство и повторяемость исполнительского движения",
+        "next_action": "Удобство и повторяемость исполнительского движения"
+      }
+    },
+    "elektrogitara-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Временная электрогитара на период ремонта: мензура, строй, звукосниматели и сохранение программы.",
+        "decision": "Электрогитара на время ремонта в аренду | Мензура и звукосниматели под ваш комплект",
+        "next_action": "Мензура и звукосниматели под ваш комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Временная электрогитара нужна для сохранения уже подготовленной техники и звукового т",
+        "decision": "Временная электрогитара | Как не менять технику, пока собственная в мастерской",
+        "next_action": "Как не менять технику, пока собственная в мастерской"
+      }
+    },
+    "bas-gitara-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Бас-гитара для записи: мензура, строй, электроника, шумы и связь с барабанами.",
+        "decision": "Бас-гитара для студии в аренду | Чистая атака и нужная электроника",
+        "next_action": "Чистая атака и нужная электроника"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "В студии бас должен одновременно держать низ и сохранять форму каждой ноты. Важны ата",
+        "decision": "Бас-гитара в записи | Струны, мензура и связь с ритмической партией",
+        "next_action": "Струны, мензура и связь с ритмической партией"
+      }
+    },
+    "bas-gitara-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Бас-гитара для концерта: строй, количество струн, баланс корпуса и сценический тракт.",
+        "decision": "Бас-гитара для концерта в аренду | Нужный строй и количество струн",
+        "next_action": "Нужный строй и количество струн"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Концертный бас должен держать ритмическую опору и оставаться удобным весь сет. Выбор ",
+        "decision": "Бас-гитара на сцене | Баланс корпуса, исполнительская геометрия и тракт",
+        "next_action": "Баланс корпуса, исполнительская геометрия и тракт"
+      }
+    },
+    "bas-gitara-dlya-repetitsii": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Бас-гитара для репетиций: удобство, строй, мензура и работа с ритм-секцией.",
+        "decision": "Бас-гитара для репетиции в аренду | Инструмент под работу с ритм-секцией",
+        "next_action": "Инструмент под работу с ритм-секцией"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "На репетиции бас должен позволять многократно возвращаться к одному фрагменту без лиш",
+        "decision": "Бас-гитара на репетиции | Мензура и атака между барабанами и гармонией",
+        "next_action": "Мензура и атака между барабанами и гармонией"
+      }
+    },
+    "bas-gitara-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Временная бас-гитара на период ремонта: мензура, количество струн, электроника и сохранение программы.",
+        "decision": "Бас-гитара на время ремонта в аренду | Временная замена без остановки программы",
+        "next_action": "Временная замена без остановки программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz09-electric-bass-guitar-landings.json",
+        "source_quote": "Временная бас-гитара должна позволить продолжить репетиции и концерты без радикальной",
+        "decision": "Временная бас-гитара | Сохранение количества струн, строя и звукового характера",
+        "next_action": "Сохранение количества струн, строя и звукового характера"
+      }
+    }
+  }
+}

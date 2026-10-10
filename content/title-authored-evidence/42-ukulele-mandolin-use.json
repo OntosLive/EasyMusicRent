@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "ukulele-dlya-rebenka": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Укулеле для ребёнка: размер, строй, удобство аккордов и первые занятия.",
+        "decision": "Укулеле для ребёнка в аренду | Маленький инструмент для первых аккордов",
+        "next_action": "Маленький инструмент для первых аккордов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Укулеле часто удобно как первый щипковый инструмент, но маленький корпус сам по себе ",
+        "decision": "Первое укулеле ребёнка | Размер, строй и удобство пальцев в обучении",
+        "next_action": "Размер, строй и удобство пальцев в обучении"
+      }
+    },
+    "ukulele-dlya-shkoly": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Укулеле для класса и кружка: одинаковый строй, размер, маркировка и организация групповых занятий.",
+        "decision": "Укулеле для школьных занятий в аренду | Комплект инструментов для класса",
+        "next_action": "Комплект инструментов для класса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "В школьной группе важен не один особенно красивый инструмент, а понятный комплект, на",
+        "decision": "Укулеле в школе | Общий строй и организация групповой практики",
+        "next_action": "Общий строй и организация групповой практики"
+      }
+    },
+    "ukulele-na-svadbu": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Укулеле для свадебной церемонии и камерной песни: репертуар, усиление и сценический формат.",
+        "decision": "Укулеле для свадьбы в аренду | Лёгкий камерный звук под церемонию",
+        "next_action": "Лёгкий камерный звук под церемонию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Укулеле удобно для короткого живого номера, песни или камерной церемонии. Его задача ",
+        "decision": "Укулеле на свадьбе | Живой аккомпанемент и небольшой сценический масштаб",
+        "next_action": "Живой аккомпанемент и небольшой сценический масштаб"
+      }
+    },
+    "ukulele-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Укулеле для записи: строй, баланс струн, шумы и выбор между микрофоном и подключением.",
+        "decision": "Укулеле для записи в аренду | Ясная атака и подходящий строй",
+        "next_action": "Ясная атака и подходящий строй"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "В записи укулеле может быть ритмической деталью, самостоятельной гармонической партие",
+        "decision": "Укулеле в студии | Струны, призвуки и выбор способа звукосъёма",
+        "next_action": "Струны, призвуки и выбор способа звукосъёма"
+      }
+    },
+    "mandolina-dlya-orkestra": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Мандолина для оркестровой партии: строй, тремоло, баланс и соответствие партитуре.",
+        "decision": "Мандолина для оркестра в аренду | Инструмент для конкретной партитуры",
+        "next_action": "Инструмент для конкретной партитуры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Оркестровая мандолина часто появляется как отдельный тембровый голос. Даже короткая п",
+        "decision": "Мандолина в оркестровой партии | Тремоло и щипковая атака внутри большого состава",
+        "next_action": "Тремоло и щипковая атака внутри большого состава"
+      }
+    },
+    "mandolina-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Мандолина для камерного состава: тремоло, строй, динамика и совместная репетиция.",
+        "decision": "Мандолина для камерного ансамбля в аренду | Инструмент под совместную программу",
+        "next_action": "Инструмент под совместную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "В камерном составе мандолина может быть ведущим голосом, сопровождением или тембровым",
+        "decision": "Мандолина в камерном составе | Баланс тремоло и соседних инструментальных голосов",
+        "next_action": "Баланс тремоло и соседних инструментальных голосов"
+      }
+    },
+    "mandolina-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Мандолина для записи: пары струн, строй, тремоло и микрофонная работа.",
+        "decision": "Мандолина для студии в аренду | Точный строй парных струн для записи",
+        "next_action": "Точный строй парных струн для записи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Студийная мандолина должна держать строй между парными струнами и давать ровное тремо",
+        "decision": "Мандолина в записи | Атака, тремоло и работа с микрофоном",
+        "next_action": "Атака, тремоло и работа с микрофоном"
+      }
+    },
+    "mandolina-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Временная мандолина на период ремонта: мензура, строй, пары струн и сохранение программы.",
+        "decision": "Мандолина на время ремонта в аренду | Продолжить репетиции на подходящем инструменте",
+        "next_action": "Продолжить репетиции на подходящем инструменте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz10-ukulele-mandolin-landings.json",
+        "source_quote": "Временная мандолина нужна для сохранения уже освоенной техники. Особенно важны привыч",
+        "decision": "Временная мандолина | Как сохранять технику с другим корпусом и теми же парами струн",
+        "next_action": "Как сохранять технику с другим корпусом и теми же парами струн"
+      }
+    }
+  }
+}

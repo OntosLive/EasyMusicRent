@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-ck61-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Yamaha CK61 для выездной репетиции и сцены: 61 клавиша FSB, сохранённые сочетания звуков и проверка полного комплекта.",
+        "decision": "Yamaha CK61 в аренду в Москве | 61 клавиша и несколько тембровых ролей для сцены",
+        "next_action": "61 клавиша и несколько тембровых ролей для сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "В программе чередуются фортепиано, орган и синтезаторные партии, а перевозить несколь",
+        "decision": "Yamaha CK61 | Клавиатура FSB и сохранённые сочетания звуков в одном инструменте",
+        "next_action": "Клавиатура FSB и сохранённые сочетания звуков в одном инструменте"
+      }
+    },
+    "yamaha-ck88-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Yamaha CK88 для пианиста на сцене: 88 клавиш GHS, дополнительные тембры, педали и проверка подключения.",
+        "decision": "Yamaha CK88 в аренду в Москве | 88 клавиш GHS для фортепианной сценической партии",
+        "next_action": "88 клавиш GHS для фортепианной сценической партии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Основу программы составляет фортепиано, а в нескольких номерах нужны орган или дополн",
+        "decision": "Yamaha CK88 | Взвешенная механика с дополнительными исполнительскими тембрами",
+        "next_action": "Взвешенная механика с дополнительными исполнительскими тембрами"
+      }
+    },
+    "korg-opsix-mk2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Korg opsix mk II для работы с FM: шесть операторов, доступ к их уровням и проверка нужного звука в своей партии.",
+        "decision": "Korg opsix mk II в аренду | Шесть FM-операторов для формирования тембра",
+        "next_action": "Шесть FM-операторов для формирования тембра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Нужен звук, который заметно меняется от движения регулятора, а не просто очередной го",
+        "decision": "Korg opsix mk II | FM-звук через управление шестью операторами",
+        "next_action": "FM-звук через управление шестью операторами"
+      }
+    },
+    "korg-wavestate-mk2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Korg wavestate mk II для движущихся фактур: Wave Sequencing 2.0, четыре слоя и исполнительское управление.",
+        "decision": "Korg wavestate mk II в аренду | Четыре слоя и Wave Sequencing 2.0",
+        "next_action": "Четыре слоя и Wave Sequencing 2.0"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "В композиции уже есть гармония, но длинный аккорд должен постепенно менять внутреннее",
+        "decision": "Korg wavestate mk II | Как звуковая последовательность развивается во времени",
+        "next_action": "Как звуковая последовательность развивается во времени"
+      }
+    },
+    "arturia-minifreak-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Arturia MiniFreak: шесть голосов, 37 уменьшенных клавиш с aftertouch и гибридное формирование тембра.",
+        "decision": "Arturia MiniFreak в аренду | Шестиголосный гибридный синтезатор с aftertouch",
+        "next_action": "Шестиголосный гибридный синтезатор с aftertouch"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Вы знакомы с необычными тембрами семейства Freak, но хотите играть аккорды и управлят",
+        "decision": "Arturia MiniFreak | 37 уменьшенных клавиш и гибридная конструкция тембра",
+        "next_action": "37 уменьшенных клавиш и гибридная конструкция тембра"
+      }
+    },
+    "roland-gaia2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Roland GAIA 2: волновой и виртуально-аналоговые осцилляторы, Motional Pad и подготовка управляемого сценического звука.",
+        "decision": "Roland GAIA 2 в аренду | Волновой синтез и Motional Pad для выступления",
+        "next_action": "Волновой синтез и Motional Pad для выступления"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "В живой партии нужно изменять сразу несколько свойств звука, продолжая играть. GAIA 2",
+        "decision": "Roland GAIA 2 | Тембровое движение между осцилляторами и Motional Pad",
+        "next_action": "Тембровое движение между осцилляторами и Motional Pad"
+      }
+    },
+    "nord-piano-5-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Nord Piano 5: версии на 73 и 88 клавиш, два фортепианных слоя, семплерные тембры и проверка педального комплекта.",
+        "decision": "Nord Piano 5 в аренду | Сценическое пианино с двумя фортепианными слоями",
+        "next_action": "Сценическое пианино с двумя фортепианными слоями"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Нужна сценическая клавиатура, на которой основная работа остаётся фортепианной, а доп",
+        "decision": "Nord Piano 5 | Фортепианная программа, клавиатурные версии и педальный комплект",
+        "next_action": "Фортепианная программа, клавиатурные версии и педальный комплект"
+      }
+    },
+    "nord-grand-2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Nord Grand 2: 88-клавишная механика Kawai с тройными датчиками, фортепианные слои и подготовка исполнительского комплекта.",
+        "decision": "Nord Grand 2 в аренду | Клавиатура Kawai с тройными датчиками",
+        "next_action": "Клавиатура Kawai с тройными датчиками"
+      },
+      "n1": {
+        "source_path": "content/sections/zz14-keyboard-performance-models.json",
+        "source_quote": "Вы ищете сценический инструмент прежде всего по реакции клавиатуры. На Nord Grand 2 п",
+        "decision": "Nord Grand 2 | Механика повторения ноты и два фортепианных слоя на сцене",
+        "next_action": "Механика повторения ноты и два фортепианных слоя на сцене"
+      }
+    }
+  }
+}

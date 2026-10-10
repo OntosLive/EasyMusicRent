@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Ответ N.0 об аренде, независимое предметное раскрытие N.1",
+  "records": [
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "klassicheskaya-gitara-dlya-uchenika",
+      "n0": "Классическая гитара для ученика в аренду | Подходящий размер и мензура для занятий",
+      "n1": "Классическая гитара ученика | Как высота струн и размер помогают сформировать технику"
+    },
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "klassicheskaya-gitara-na-konkurs",
+      "n0": "Классическая гитара для конкурса в аренду | Исполнительский инструмент под готовую программу",
+      "n1": "Классическая гитара на конкурсе | Отклик и привычная мензура в подготовленной партии"
+    },
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "klassicheskaya-gitara-dlya-zapisi",
+      "n0": "Классическая гитара для записи в аренду | Ровный звук для близкого микрофона",
+      "n1": "Классическая гитара в студии | Баланс струн и механические призвуки под микрофоном"
+    },
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "klassicheskaya-gitara-na-svadbu",
+      "n0": "Классическая гитара на свадьбу в аренду | Инструмент для камерной церемонии",
+      "n1": "Классическая гитара на свадьбе | Репертуар, акустика и деликатное усиление"
+    },
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "akusticheskaya-gitara-dlya-vokalista",
+      "n0": "Акустическая гитара для вокалиста в аренду | Удобный аккомпанемент для голоса",
+      "n1": "Гитара для певца | Корпус, динамика и слышимость вокальной партии"
+    },
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "akusticheskaya-gitara-dlya-studii",
+      "n0": "Акустическая гитара для студии в аренду | Инструмент под конкретную запись",
+      "n1": "Акустическая гитара в записи | Резонанс корпуса, атака и место в миксе"
+    },
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "akusticheskaya-gitara-dlya-kontserta",
+      "n0": "Акустическая гитара для концерта в аренду | Сценическое подключение и стабильный строй",
+      "n1": "Акустическая гитара на сцене | Как сохранить натуральный звук через усиление"
+    },
+    {
+      "source_file": "content/sections/zz08-classical-acoustic-guitar-landings.json",
+      "slug": "akusticheskaya-gitara-na-vremya-remonta",
+      "n0": "Акустическая гитара на время ремонта в аренду | Продолжение занятий без перерыва",
+      "n1": "Временная акустическая гитара | Мензура и строй при замене собственного инструмента"
+    }
+  ]
+}

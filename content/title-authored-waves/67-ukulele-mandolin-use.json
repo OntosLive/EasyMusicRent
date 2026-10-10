@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Ответ N.0 об аренде, независимое предметное раскрытие N.1",
+  "records": [
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "ukulele-dlya-rebenka",
+      "n0": "Укулеле для ребёнка в аренду | Маленький инструмент для первых аккордов",
+      "n1": "Первое укулеле ребёнка | Размер, строй и удобство пальцев в обучении"
+    },
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "ukulele-dlya-shkoly",
+      "n0": "Укулеле для школьных занятий в аренду | Комплект инструментов для класса",
+      "n1": "Укулеле в школе | Общий строй и организация групповой практики"
+    },
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "ukulele-na-svadbu",
+      "n0": "Укулеле для свадьбы в аренду | Лёгкий камерный звук под церемонию",
+      "n1": "Укулеле на свадьбе | Живой аккомпанемент и небольшой сценический масштаб"
+    },
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "ukulele-dlya-zapisi",
+      "n0": "Укулеле для записи в аренду | Ясная атака и подходящий строй",
+      "n1": "Укулеле в студии | Струны, призвуки и выбор способа звукосъёма"
+    },
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "mandolina-dlya-orkestra",
+      "n0": "Мандолина для оркестра в аренду | Инструмент для конкретной партитуры",
+      "n1": "Мандолина в оркестровой партии | Тремоло и щипковая атака внутри большого состава"
+    },
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "mandolina-dlya-kamernogo-ansamblya",
+      "n0": "Мандолина для камерного ансамбля в аренду | Инструмент под совместную программу",
+      "n1": "Мандолина в камерном составе | Баланс тремоло и соседних инструментальных голосов"
+    },
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "mandolina-dlya-studii",
+      "n0": "Мандолина для студии в аренду | Точный строй парных струн для записи",
+      "n1": "Мандолина в записи | Атака, тремоло и работа с микрофоном"
+    },
+    {
+      "source_file": "content/sections/zz10-ukulele-mandolin-landings.json",
+      "slug": "mandolina-na-vremya-remonta",
+      "n0": "Мандолина на время ремонта в аренду | Продолжить репетиции на подходящем инструменте",
+      "n1": "Временная мандолина | Как сохранять технику с другим корпусом и теми же парами струн"
+    }
+  ]
+}
