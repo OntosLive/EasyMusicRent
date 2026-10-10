@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "roland-tr808-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Original Roland TR-808 Rhythm Composer: 1980–82 analog drum machine, TR-REC sequencing and foundational electronic-music reference.",
+        "decision": "Roland TR-808 в аренду | Оригинальная аналоговая драм-машина",
+        "next_action": "Оригинальная аналоговая драм-машина"
+      },
+      "n1": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "TR‑808 — уже культурная единица. Roland называет её самой знаменитой драм-машино",
+        "decision": "Roland TR-808 | Секвенсор TR-REC и новое представление о бас-барабане",
+        "next_action": "Секвенсор TR-REC и новое представление о бас-барабане"
+      }
+    },
+    "roland-tr909-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Original Roland TR-909 Rhythm Composer: 1983 drum machine central to house and techno performance culture.",
+        "decision": "Roland TR-909 в аренду | Классический ритм-машинный звук для house и techno",
+        "next_action": "Классический ритм-машинный звук для house и techno"
+      },
+      "n1": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Roland пишет, что в house и techno TR‑909, вероятно, приводила в движение больше",
+        "decision": "Roland TR-909 | Ритмическая архитектура, сформировавшая клубный пульс",
+        "next_action": "Ритмическая архитектура, сформировавшая клубный пульс"
+      }
+    },
+    "gibson-f5-master-model-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Gibson F-5 Master Model lineage: Lloyd Loar design, f-holes and bluegrass-defining construction; vintage original vs 1923 reissue distinguished.",
+        "decision": "Мандолина Gibson F-5 Master Model в аренду | Историческая bluegrass-конструкция",
+        "next_action": "Историческая bluegrass-конструкция"
+      },
+      "n1": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Gibson называет F‑5 самой легендарной моделью мандолины всех времён и связывает ",
+        "decision": "Gibson F-5 Master Model | Наследие Ллойда Лоара и скрипичная конструкция мандолины",
+        "next_action": "Наследие Ллойда Лоара и скрипичная конструкция мандолины"
+      }
+    },
+    "deering-sierra-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Deering Sierra 5-string resonator banjo: long-running popular professional-grade flagship model with -06 tone ring.",
+        "decision": "Банджо Deering Sierra в аренду | Профессиональная пятиструнная модель",
+        "next_action": "Профессиональная пятиструнная модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Deering называет Sierra своей самой популярной professional-grade моделью более ",
+        "decision": "Deering Sierra | Резонатор и тон-ринг как основа звучания банджо",
+        "next_action": "Резонатор и тон-ринг как основа звучания банджо"
+      }
+    },
+    "moog-etherwave-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Moog Etherwave Theremin: analog performance theremin with pitch/volume antennas, adjustable response, CV/Gate and mic-stand mounting.",
+        "decision": "Терменвокс Moog Etherwave в аренду | Управление высотой и громкостью без касания",
+        "next_action": "Управление высотой и громкостью без касания"
+      },
+      "n1": {
+        "source_path": "content/sections/zz36-electronic-plucked-legendary-models.json",
+        "source_quote": "Etherwave — не просто брендовая версия терменвокса. Bob Moog начал строить терме",
+        "decision": "Moog Etherwave | Две антенны и управление звуком положением рук",
+        "next_action": "Две антенны и управление звуком положением рук"
+      }
+    }
+  }
+}
