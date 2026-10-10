@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychkovye-eastman": {
+      "n0": {
+        "source_path": "content/sections/zz71-eastman-string-program-family.json",
+        "source_quote": "Samuel Eastman educational bowed strings: VL100 violin, VA100 viola, VC100 cello and VB80 school/rental double bass.",
+        "decision": "Смычковые Samuel Eastman в аренду | Скрипки, альты, виолончели и контрабасы для обучения",
+        "next_action": "Скрипки, альты, виолончели и контрабасы для обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz71-eastman-string-program-family.json",
+        "source_quote": "Samuel Eastman — редкий случай, где сам производитель говорит не просто «student»,",
+        "decision": "Samuel Eastman в музыкальной школе | Линейки VL100, VA100, VC100 и VB80",
+        "next_action": "Линейки VL100, VA100, VC100 и VB80"
+      }
+    },
+    "eastman-vc100-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz71-eastman-string-program-family.json",
+        "source_quote": "Samuel Eastman VC100 cello: carved solid top/back, laminated ribs, ebony fittings and sizes 1/10–4/4.",
+        "decision": "Виолончель Samuel Eastman VC100 в аренду | Размеры от 1/10 до 4/4",
+        "next_action": "Размеры от 1/10 до 4/4"
+      },
+      "n1": {
+        "source_path": "content/sections/zz71-eastman-string-program-family.json",
+        "source_quote": "VC100 продолжает ту же Model 100 на виолончели и выпускается от 1/10 до 4/4. Eastm",
+        "decision": "Samuel Eastman VC100 | Резные деки и эбеновая фурнитура учебной виолончели",
+        "next_action": "Резные деки и эбеновая фурнитура учебной виолончели"
+      }
+    }
+  }
+}

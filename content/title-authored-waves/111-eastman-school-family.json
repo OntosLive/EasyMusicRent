@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz71-eastman-string-program-family.json",
+      "slug": "smychkovye-eastman",
+      "n0": "Смычковые Samuel Eastman в аренду | Скрипки, альты, виолончели и контрабасы для обучения",
+      "n1": "Samuel Eastman в музыкальной школе | Линейки VL100, VA100, VC100 и VB80"
+    },
+    {
+      "source_file": "content/sections/zz71-eastman-string-program-family.json",
+      "slug": "eastman-vc100-v-arendu",
+      "n0": "Виолончель Samuel Eastman VC100 в аренду | Размеры от 1/10 до 4/4",
+      "n1": "Samuel Eastman VC100 | Резные деки и эбеновая фурнитура учебной виолончели"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+      "slug": "legkiy-evfonium-rebenku",
+      "n0": "Лёгкий эуфониум ребёнку в аренду | Подходящий корпус и доступные клапаны",
+      "n1": "Эуфониум ребёнку | Масса, положение рук и свободный отклик"
+    },
+    {
+      "source_file": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+      "slug": "fender-cd60s-v-arendu",
+      "n0": "Fender CD-60S в аренду | Акустическая гитара dreadnought для первых уроков",
+      "n1": "Fender CD-60S | Еловая дека и удобный гриф в полноразмерном корпусе"
+    },
+    {
+      "source_file": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+      "slug": "fender-cc60s-v-arendu",
+      "n0": "Fender CC-60S в аренду | Компактная акустическая гитара для занятий",
+      "n1": "Fender CC-60S | Меньший концертный корпус с массивной елью"
+    }
+  ]
+}

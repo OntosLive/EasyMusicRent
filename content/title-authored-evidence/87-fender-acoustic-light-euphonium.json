@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "legkiy-evfonium-rebenku": {
+      "n0": {
+        "source_path": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+        "source_quote": "Подбор эуфониума ребёнку по массе, положению корпуса, доступу к клапанам и простоте отклика.",
+        "decision": "Лёгкий эуфониум ребёнку в аренду | Подходящий корпус и доступные клапаны",
+        "next_action": "Подходящий корпус и доступные клапаны"
+      },
+      "n1": {
+        "source_path": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+        "source_quote": "Ребёнок может уверенно слышать ноты и понимать аппликатуру, но большой эуфониум на",
+        "decision": "Эуфониум ребёнку | Масса, положение рук и свободный отклик",
+        "next_action": "Масса, положение рук и свободный отклик"
+      }
+    },
+    "fender-cd60s-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+        "source_quote": "Fender CD-60S: beginner-oriented dreadnought with solid spruce top and easy-to-play neck.",
+        "decision": "Fender CD-60S в аренду | Акустическая гитара dreadnought для первых уроков",
+        "next_action": "Акустическая гитара dreadnought для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+        "source_quote": "CD‑60S Fender позиционирует как удачный выбор для начинающего, но сама dreadnought",
+        "decision": "Fender CD-60S | Еловая дека и удобный гриф в полноразмерном корпусе",
+        "next_action": "Еловая дека и удобный гриф в полноразмерном корпусе"
+      }
+    },
+    "fender-cc60s-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+        "source_quote": "Fender CC-60S: compact beginner concert acoustic with solid spruce top and easy-to-play neck.",
+        "decision": "Fender CC-60S в аренду | Компактная акустическая гитара для занятий",
+        "next_action": "Компактная акустическая гитара для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz72-euphonium-fender-acoustic-learning.json",
+        "source_quote": "CC‑60S Fender прямо описывает как компактную и удобную модель для начинающих. Conc",
+        "decision": "Fender CC-60S | Меньший концертный корпус с массивной елью",
+        "next_action": "Меньший концертный корпус с массивной елью"
+      }
+    }
+  }
+}
