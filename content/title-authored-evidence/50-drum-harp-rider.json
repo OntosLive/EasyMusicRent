@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-absolute-hybrid-maple-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Yamaha Absolute Hybrid Maple: maple-wenge-maple shells, широкий размерный ряд и реальная профессиональная rental-позиция.",
+        "decision": "Yamaha Absolute Hybrid Maple в аренду | Профессиональные барабаны под райдер",
+        "next_action": "Профессиональные барабаны под райдер"
+      },
+      "n1": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Absolute Hybrid Maple регулярно появляется в профессиональном backline рядом с R",
+        "decision": "Yamaha Absolute Hybrid Maple | Слои клёна и венге в гибридной конструкции",
+        "next_action": "Слои клёна и венге в гибридной конструкции"
+      }
+    },
+    "ludwig-classic-maple-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Ludwig Classic Maple professional drum set as a recurring rental standard; exact shell sizes and snare are confirmed per rider.",
+        "decision": "Ludwig Classic Maple в аренду | Барабанный комплект профессиональной серии",
+        "next_action": "Барабанный комплект профессиональной серии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Classic Maple — рабочая профессиональная серия Ludwig, которую крупные прокаты д",
+        "decision": "Ludwig Classic Maple | Современный корпус и традиционная акустическая школа",
+        "next_action": "Современный корпус и традиционная акустическая школа"
+      }
+    },
+    "tama-starclassic-performer-bb-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Tama Starclassic Performer Birch/Bubinga as a legacy professional rental series; configuration depends on actual rental shell bank.",
+        "decision": "Tama Starclassic Performer Birch/Bubinga в аренду | Легендарная серия ударных",
+        "next_action": "Легендарная серия ударных"
+      },
+      "n1": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Starclassic Performer Birch/Bubinga показывает важный принцип нашей карты: прекр",
+        "decision": "Tama Starclassic Performer Birch/Bubinga | Берёза и бубинга в историческом бэклайне",
+        "next_action": "Берёза и бубинга в историческом бэклайне"
+      }
+    },
+    "pearl-masters-custom-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Pearl Masters Custom / MMX-era professional drum shell banks remain active in rental inventories; exact era and sizes must be confirmed.",
+        "decision": "Pearl Masters Custom в аренду | Комплект профессиональных барабанов",
+        "next_action": "Комплект профессиональных барабанов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Pearl Masters Custom встречается в прокате как серия разных поколений, включая M",
+        "decision": "Pearl Masters Custom | Различия поколений и размеров студийных корпусов",
+        "next_action": "Различия поколений и размеров студийных корпусов"
+      }
+    },
+    "ludwig-supraphonic-lm400-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Ludwig LM400 Supraphonic: 5x14 seamless aluminum snare, industry-standard model for studio and stage.",
+        "decision": "Малый барабан Ludwig Supraphonic LM400 в аренду | Алюминиевый корпус 5×14",
+        "next_action": "Алюминиевый корпус 5×14"
+      },
+      "n1": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Ludwig называет Supraphonic industry standard и «sound that fueled the most hit ",
+        "decision": "Ludwig Supraphonic LM400 | Бесшовный алюминий и универсальная атака малого барабана",
+        "next_action": "Бесшовный алюминий и универсальная атака малого барабана"
+      }
+    },
+    "lyon-healy-style-30-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Lyon & Healy Style 30 professional pedal harp: 47 strings, 185 cm, official artist/event rental model.",
+        "decision": "Арфа Lyon & Healy Style 30 в аренду | Профессиональная педальная модель на 47 струн",
+        "next_action": "Профессиональная педальная модель на 47 струн"
+      },
+      "n1": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Style 30 входит прямо в официальный пул Lyon & Healy для concerts, orchestras, f",
+        "decision": "Lyon & Healy Style 30 | Концертная арфа и её сценическая геометрия",
+        "next_action": "Концертная арфа и её сценическая геометрия"
+      }
+    },
+    "lyon-healy-chicago-cg-extended-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Lyon & Healy Chicago CG Extended: 47-string concert grand, 185 cm, 37.6 kg and official professional rental model.",
+        "decision": "Арфа Lyon & Healy Chicago CG Extended в аренду | Concert Grand на 47 струн",
+        "next_action": "Concert Grand на 47 струн"
+      },
+      "n1": {
+        "source_path": "content/sections/zz33-drum-harp-rider-standards.json",
+        "source_quote": "Chicago CG Extended особенно важна для нашей модели фонда: Lyon & Healy одноврем",
+        "decision": "Lyon & Healy Chicago CG Extended | Большая педальная арфа для профессиональной сцены",
+        "next_action": "Большая педальная арфа для профессиональной сцены"
+      }
+    }
+  }
+}
