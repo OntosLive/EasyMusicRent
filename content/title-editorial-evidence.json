@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3170,
+  "record_count": 3234,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -107,6 +107,10 @@
     "content/title-authored-evidence/103-woodwind-studio-concert.json",
     "content/title-authored-evidence/104-saxophone-studio-concert.json",
     "content/title-authored-evidence/105-recorder-studio-concert.json",
-    "content/title-authored-evidence/106-accordion-studio-concert.json"
+    "content/title-authored-evidence/106-accordion-studio-concert.json",
+    "content/title-authored-evidence/107-acoustic-piano-usage.json",
+    "content/title-authored-evidence/108-organ-use-cases.json",
+    "content/title-authored-evidence/109-synthesizer-task-routes.json",
+    "content/title-authored-evidence/110-bowed-ensemble-systems.json"
   ]
 }
