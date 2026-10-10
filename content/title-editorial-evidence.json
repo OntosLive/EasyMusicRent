@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2412,
+  "record_count": 2518,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -44,6 +44,12 @@
     "content/title-authored-evidence/40-acoustic-guitar-use.json",
     "content/title-authored-evidence/41-electric-bass-guitar-use.json",
     "content/title-authored-evidence/42-ukulele-mandolin-use.json",
-    "content/title-authored-evidence/43-keyboard-performance-models.json"
+    "content/title-authored-evidence/43-keyboard-performance-models.json",
+    "content/title-authored-evidence/44-rider-legendary-core.json",
+    "content/title-authored-evidence/45-second-rider-core.json",
+    "content/title-authored-evidence/46-backline-rider-standards.json",
+    "content/title-authored-evidence/47-concert-grand-models.json",
+    "content/title-authored-evidence/48-professional-winds.json",
+    "content/title-authored-evidence/49-legendary-keyboards.json"
   ]
 }

@@ -9,7 +9,7 @@
   ],
   "python_role": "literal_transfer_validation_coverage_only",
   "requires_owner_review": true,
-  "editorial_wave": "2026-10-10-mass-10-instrument-practice-models",
+  "editorial_wave": "2026-10-10-rider-core-part-a",
   "pairs": {
     "keytara": {
       "n0": "Кейтара в аренду | Клавишные партии без привязки к стойке",
@@ -4834,6 +4834,218 @@
     "nord-grand-2-v-arendu": {
       "n0": "Nord Grand 2 в аренду | Клавиатура Kawai с тройными датчиками",
       "n1": "Nord Grand 2 | Механика повторения ноты и два фортепианных слоя на сцене"
+    },
+    "nord-stage-3-88-v-arendu": {
+      "n0": "Nord Stage 3 88 в аренду | Молоточковая клавиатура и три звуковые секции",
+      "n1": "Nord Stage 3 88 | Три секции, готовые программы и сценические переключения"
+    },
+    "yamaha-cp88-v-arendu": {
+      "n0": "Yamaha CP88 в аренду | Фортепианная клавиатура для концертного райдера",
+      "n1": "Yamaha CP88 | Акустические и электрические пианино под руками исполнителя"
+    },
+    "roland-rd2000ex-v-arendu": {
+      "n0": "Roland RD-2000 EX в аренду | Восемь зон управления сценой",
+      "n1": "Roland RD-2000 EX | Механика PHA-50, звуковые движки и выходы XLR"
+    },
+    "fender-american-professional-ii-stratocaster-v-arendu": {
+      "n0": "Fender American Professional II Stratocaster в аренду | Три сингла и тремоло",
+      "n1": "American Professional II Stratocaster | Рабочая геометрия и звучание Strat"
+    },
+    "gibson-les-paul-standard-60s-v-arendu": {
+      "n0": "Gibson Les Paul Standard 60s в аренду | Два хамбакера и бридж Tune-O-Matic",
+      "n1": "Les Paul Standard 60s | SlimTaper, короткая мензура и плотная атака"
+    },
+    "gibson-es335-v-arendu": {
+      "n0": "Gibson ES-335 в аренду | Полуакустическая гитара для концерта и записи",
+      "n1": "Gibson ES-335 | Центральный блок и два хамбакера между джазом и роком"
+    },
+    "martin-d28-v-arendu": {
+      "n0": "Martin D-28 в аренду | Акустический dreadnought для сцены и студии",
+      "n1": "Martin D-28 | Ель и палисандр в узнаваемой акустической конструкции"
+    },
+    "fender-american-professional-ii-jazz-bass-v-arendu": {
+      "n0": "Fender American Professional II Jazz Bass в аренду | Два датчика и полная мензура",
+      "n1": "American Professional II Jazz Bass | Два сингла для собственной басовой артикуляции"
+    },
+    "music-man-stingray-special-v-arendu": {
+      "n0": "Music Man StingRay Special в аренду | Активный бас с хамбакером",
+      "n1": "StingRay Special | Активная электроника и характерный басовый отклик"
+    },
+    "dw-collectors-series-v-arendu": {
+      "n0": "DW Collector's Series в аренду | Профессиональные барабаны в размерах райдера",
+      "n1": "DW Collector’s Series | Почему размеры корпусов важнее одного имени серии"
+    },
+    "yamaha-recording-custom-v-arendu": {
+      "n0": "Yamaha Recording Custom в аренду | Берёзовая установка для студии и сцены",
+      "n1": "Yamaha Recording Custom | Звук берёзовых корпусов и студийная атака"
+    },
+    "gretsch-usa-custom-v-arendu": {
+      "n0": "Gretsch USA Custom в аренду | Ударная установка профессиональной серии",
+      "n1": "Gretsch USA Custom | Maple/gum, обручи и акустический характер серии"
+    },
+    "buffet-r13-v-arendu": {
+      "n0": "Кларнет Buffet Crampon R13 в аренду | Профессиональная модель B♭",
+      "n1": "Buffet R13 | Корпус из гренадила и механика системы Бёма"
+    },
+    "selmer-mark-vi-tenor-v-arendu": {
+      "n0": "Тенор-саксофон Selmer Mark VI в аренду | Исторический профессиональный стандарт",
+      "n1": "Selmer Mark VI tenor | Почему каждый экземпляр требует отдельного внимания"
+    },
+    "bach-180s37-v-arendu": {
+      "n0": "Труба Bach Stradivarius 180S37 в аренду | Профессиональная B♭ модель",
+      "n1": "Bach 180S37 | Мензура ML и инструментальная универсальность"
+    },
+    "conn-8d-v-arendu": {
+      "n0": "Валторна Conn 8D в аренду | Оркестровая двойная система F/B♭",
+      "n1": "Conn 8D | Система Kruspe и широкий американский оркестровый звук"
+    },
+    "lyon-healy-style-23-v-arendu": {
+      "n0": "Арфа Lyon & Healy Style 23 в аренду | Концертные 47 струн для большой сцены",
+      "n1": "Lyon & Healy Style 23 | Концертная арфа в масштабе большого зала"
+    },
+    "scandalli-super-vi-v-arendu": {
+      "n0": "Аккордеон Scandalli Super VI в аренду | Итальянская модель с cassotto",
+      "n1": "Scandalli Super VI | Клавиатура, 120 басов и звуковая традиция серии"
+    },
+    "minimoog-model-d-v-arendu": {
+      "n0": "Minimoog Model D в аренду | Три осциллятора для живого аналогового соло",
+      "n1": "Minimoog Model D | Монофонический синтезатор как самостоятельный инструмент"
+    },
+    "roland-juno-106-v-arendu": {
+      "n0": "Roland JUNO-106 в аренду | Шестиголосный синтезатор с характерным chorus",
+      "n1": "Roland JUNO-106 | MIDI и аналоговая полифония исторической серии"
+    },
+    "fender-american-professional-ii-telecaster-v-arendu": {
+      "n0": "Fender American Professional II Telecaster в аренду | Два сингла и фиксированный бридж",
+      "n1": "American Professional II Telecaster | Знакомая атака Tele и способы крепления струн"
+    },
+    "fender-american-professional-ii-precision-bass-v-arendu": {
+      "n0": "Fender American Professional II Precision Bass в аренду | Один split-coil",
+      "n1": "American Professional II Precision Bass | Мензура 34 дюйма и рабочая басовая геометрия"
+    },
+    "gibson-j45-v-arendu": {
+      "n0": "Gibson J-45 в аренду | Акустический round-shoulder для концерта",
+      "n1": "Gibson J-45 | Форма корпуса и средний регистр акустической гитары"
+    },
+    "ludwig-black-beauty-v-arendu": {
+      "n0": "Малый барабан Ludwig Black Beauty в аренду | Латунный корпус 14 дюймов",
+      "n1": "Ludwig Black Beauty | Бесшовная латунь и размеры 14×5 и 14×6,5"
+    },
+    "korg-kronos-2-88-v-arendu": {
+      "n0": "Korg Kronos 2 88 в аренду | Концертная workstation с полноразмерной клавиатурой",
+      "n1": "Korg Kronos 2 88 | Подготовленные программы для большой сцены"
+    },
+    "yamaha-motif-xf8-v-arendu": {
+      "n0": "Yamaha Motif XF8 в аренду | Workstation с 88 клавишами по райдеру",
+      "n1": "Yamaha Motif XF8 | Флагман предыдущего поколения в живом бэклайне"
+    },
+    "hammond-b3-leslie-122-v-arendu": {
+      "n0": "Hammond B3 и Leslie 122 в аренду | Полная органная система",
+      "n1": "Hammond B3 с Leslie 122 | Орган и вращающийся динамик как единое целое"
+    },
+    "musser-m55-v-arendu": {
+      "n0": "Вибрафон Musser M55 в аренду | Профессиональная модель для концерта",
+      "n1": "Musser M55 | Джазовый и оркестровый вибрафон в исполнительской практике"
+    },
+    "zildjian-a-series-set-v-arendu": {
+      "n0": "Тарелки Zildjian A Series в аренду | Комплект hi-hat, crash и ride по райдеру",
+      "n1": "Zildjian A Series | Размеры тарелок определяют реальный барабанный комплект"
+    },
+    "steinway-d274-v-arendu": {
+      "n0": "Рояль Steinway D-274 в аренду | Концертный инструмент для большого зала",
+      "n1": "Steinway D-274 | Звуковой масштаб концертного рояля длиной 274 см"
+    },
+    "steinway-b211-v-arendu": {
+      "n0": "Рояль Steinway B-211 в аренду | Профессиональная модель 211 см",
+      "n1": "Steinway B-211 | Рояль среднего размера для камерного зала и студии"
+    },
+    "yamaha-cfx-v-arendu": {
+      "n0": "Рояль Yamaha CFX в аренду | Флагман для концертной сцены",
+      "n1": "Yamaha CFX | Современный концертный рояль как самостоятельный исполнительский голос"
+    },
+    "boesendorfer-280vc-v-arendu": {
+      "n0": "Рояль Bösendorfer 280VC в аренду | Большой Vienna Concert",
+      "n1": "Bösendorfer 280VC | Концертная архитектура венской школы длиной 280 см"
+    },
+    "fazioli-f278-v-arendu": {
+      "n0": "Рояль Fazioli F278 в аренду | Инструмент для большого концерта и студии",
+      "n1": "Fazioli F278 | Исполнительская палитра большого концертного рояля"
+    },
+    "yamaha-yfl677-v-arendu": {
+      "n0": "Флейта Yamaha YFL-677 в аренду | Профессиональная модель для сцены и обучения",
+      "n1": "Yamaha YFL-677 | Головка, механика и точная конфигурация профессиональной флейты"
+    },
+    "yamaha-yas62-v-arendu": {
+      "n0": "Альт-саксофон Yamaha YAS-62 в аренду | Профессиональная серия для концерта",
+      "n1": "Yamaha YAS-62 | Долгая история серии и современная механика альта"
+    },
+    "yamaha-yts62-v-arendu": {
+      "n0": "Тенор-саксофон Yamaha YTS-62 в аренду | Исполнительская модель для сцены",
+      "n1": "Yamaha YTS-62 | Профессиональный тенор, переживший несколько поколений"
+    },
+    "loree-royal-oboe-v-arendu": {
+      "n0": "Гобой F. Lorée Royal в аренду | Профессиональная модель для оркестра",
+      "n1": "Lorée Royal | Консерваторская система и индивидуальный отклик трости"
+    },
+    "marigaux-901-v-arendu": {
+      "n0": "Гобой Marigaux 901 в аренду | Профессиональный инструмент для концерта",
+      "n1": "Marigaux 901 | Механика и отклик гобоя в сольной и ансамблевой работе"
+    },
+    "fox-601-v-arendu": {
+      "n0": "Фагот Fox Model 601 в аренду | Профессиональная модель для оркестра",
+      "n1": "Fox 601 | Толстостенный корпус и звуковая проекция фагота"
+    },
+    "yamaha-ytr8335rs-v-arendu": {
+      "n0": "Труба Yamaha Xeno YTR-8335RS в аренду | Профессиональная B♭ модель",
+      "n1": "Yamaha YTR-8335RS | Обратная лидтруба и характер отклика серии Xeno"
+    },
+    "bach-42bo-v-arendu": {
+      "n0": "Тромбон Bach Stradivarius 42BO в аренду | Симфоническая модель с F-квартой",
+      "n1": "Bach 42BO | Широкая мензура и открытая обводка квартвентиля"
+    },
+    "alexander-103-v-arendu": {
+      "n0": "Валторна Alexander 103 в аренду | Двойная система F/B♭",
+      "n1": "Alexander 103 | Европейская оркестровая традиция профессиональной валторны"
+    },
+    "besson-prestige-2052-v-arendu": {
+      "n0": "Эуфониум Besson Prestige 2052 в аренду | Компенсирующая система для солиста",
+      "n1": "Besson Prestige 2052 | Четыре компенсирующих клапана и триггер настройки"
+    },
+    "legendarnye-sintezatory": {
+      "n0": "Легендарные синтезаторы в аренду | Исторические Yamaha, Roland, Moog и Sequential",
+      "n1": "Легендарные синтезаторы | Как DX7, Prophet-5 и JUPITER-8 сформировали разные языки"
+    },
+    "rhodes-mark-i-stage-73-v-arendu": {
+      "n0": "Rhodes Mark I Stage 73 в аренду | Настоящее электромеханическое пианино",
+      "n1": "Rhodes Mark I Stage 73 | Металлические язычки и исполнительская динамика электропиано"
+    },
+    "wurlitzer-200a-v-arendu": {
+      "n0": "Wurlitzer 200A в аренду | Классическое электромеханическое пианино для студии",
+      "n1": "Wurlitzer 200A | Язычковая механика и характерная атака винтажного звука"
+    },
+    "hohner-clavinet-e7-v-arendu": {
+      "n0": "Hohner Clavinet E7 в аренду | Перкуссионная клавиатура для фанка и записи",
+      "n1": "Hohner Clavinet E7 | Струнная механика и короткая артикулированная атака"
+    },
+    "yamaha-dx7-v-arendu": {
+      "n0": "Yamaha DX7 в аренду | Шестиоператорный FM-синтезатор для сцены и студии",
+      "n1": "Yamaha DX7 | Цифровые FM-алгоритмы и исполнительский язык восьмидесятых"
+    },
+    "sequential-prophet-5-v-arendu": {
+      "n0": "Sequential Prophet-5 в аренду | Пятиголосный аналоговый синтезатор",
+      "n1": "Sequential Prophet-5 | Возвращение классической полифонической архитектуры"
+    },
+    "roland-jupiter-8-v-arendu": {
+      "n0": "Roland JUPITER-8 в аренду | Восьмиголосный аналоговый синтезатор",
+      "n1": "Roland JUPITER-8 | Два осциллятора на голос и широкая аналоговая фактура"
+    },
+    "roland-d50-v-arendu": {
+      "n0": "Roland D-50 в аренду | Синтезатор LA с цифровыми эффектами",
+      "n1": "Roland D-50 | PCM-атаки и LA-синтез как новый язык конца восьмидесятых"
+    },
+    "korg-m1-v-arendu": {
+      "n0": "Korg M1 в аренду | Классическая рабочая станция с секвенсором",
+      "n1": "Korg M1 | Сэмпловый синтез, ударные и восьмидорожечная организация музыки"
     }
   }
 }
