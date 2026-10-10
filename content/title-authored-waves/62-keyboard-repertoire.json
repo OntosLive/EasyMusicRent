@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду; N.1 раскрывает самостоятельную предметную способность",
+  "records": [
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "pianino-dlya-igry-v-chetyre-ruki",
+      "n0": "Пианино для игры в четыре руки в аренду | Общая клавиатура и две удобные посадки",
+      "n1": "Игра в четыре руки | Посадка двух пианистов и распределение педали"
+    },
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "dva-royalya-dlya-fortepiannogo-dueta",
+      "n0": "Два рояля для фортепианного дуэта в аренду | Согласованный концертный комплект",
+      "n1": "Фортепианный дуэт на двух роялях | Разные партии, общая настройка и расстановка"
+    },
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "pianino-dlya-horovoy-repetitsii",
+      "n0": "Пианино для репетиций хора в аренду | Высотная опора и разучивание голосов",
+      "n1": "Пианино в хоровом классе | От отдельных партий к общему строю"
+    },
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "pianino-dlya-baletnogo-klassa",
+      "n0": "Пианино для балетного класса в аренду | Живое сопровождение движений",
+      "n1": "Пианино для балета | Как концертмейстер соединяет клавиши с движением танцоров"
+    },
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "pianino-dlya-videozayavki",
+      "n0": "Пианино для записи видеозаявки в аренду | Инструмент под требования отбора",
+      "n1": "Фортепианная видеозаявка | Инструмент, ракурс рук и педали как часть исполнения"
+    },
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "pianino-s-pedalyu-sostenuto",
+      "n0": "Фортепиано с педалью sostenuto в аренду | Удержание выбранных нот в нужной программе",
+      "n1": "Педаль sostenuto | Выборочное удержание звуков без общего размытия фактуры"
+    },
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "klavishnye-s-mikrotonalnoy-nastroykoy",
+      "n0": "Клавишные с микротональной настройкой в аренду | Нестандартные интервалы для программы",
+      "n1": "Микротональные клавишные | Изменение отдельных звуков, а не общей высоты строя"
+    },
+    {
+      "source_file": "content/sections/zz04-keyboard-repertoire-landings.json",
+      "slug": "klavishnye-dlya-nemogo-kino",
+      "n0": "Пианино и клавишные для немого кино в аренду | Живое сопровождение кинопоказа",
+      "n1": "Музыка к немому кино | Как клавишник следует экрану и музыкальному действию"
+    }
+  ]
+}

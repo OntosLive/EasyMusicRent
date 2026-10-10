@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "barabannaya-ustanovka-dlya-repetitsii": {
+      "n0": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Барабанная установка для репетиций: состав, посадка, педали, тарелки и устойчивый рабочий комплект.",
+        "decision": "Барабанная установка для репетиции в аренду | Барабаны, педали и тарелки в комплекте",
+        "next_action": "Барабаны, педали и тарелки в комплекте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "На репетиции установка должна быть готова к многократному повторению материала. Здесь",
+        "decision": "Репетиционная ударная установка | Посадка, педали и знакомый рабочий сет",
+        "next_action": "Посадка, педали и знакомый рабочий сет"
+      }
+    },
+    "barabannaya-ustanovka-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Барабанная установка для студийной записи: корпуса, пластики, тарелки, настройка и подготовка к микрофонам.",
+        "decision": "Барабанная установка для студии в аренду | Корпуса и тарелки под запись",
+        "next_action": "Корпуса и тарелки под запись"
+      },
+      "n1": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Студийная запись делает слышимой каждую деталь установки. Важно не только то, как бар",
+        "decision": "Барабанная установка в студии | Настройка, атака и затухание под микрофонами",
+        "next_action": "Настройка, атака и затухание под микрофонами"
+      }
+    },
+    "barabannaya-ustanovka-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Временная барабанная установка на период ремонта: привычная конфигурация и непрерывность репетиций.",
+        "decision": "Барабанная установка на время ремонта в аренду | Полная замена на период занятий",
+        "next_action": "Полная замена на период занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Временная установка нужна для того, чтобы репетиции продолжались без полного изменени",
+        "decision": "Барабанная установка на замену | Как сохранить посадку и привычную конфигурацию",
+        "next_action": "Как сохранить посадку и привычную конфигурацию"
+      }
+    },
+    "perkussiya-dlya-akusticheskogo-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Перкуссия для акустического выступления: кахон, шейкеры, рамочные барабаны и баланс с голосом.",
+        "decision": "Перкуссия для акустического концерта в аренду | Кахон, шейкеры и рамочные барабаны",
+        "next_action": "Кахон, шейкеры и рамочные барабаны"
+      },
+      "n1": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "В акустическом концерте перкуссия должна поддерживать движение музыки, не превращая н",
+        "decision": "Акустическая перкуссия | Ритм без лишнего звукового давления",
+        "next_action": "Ритм без лишнего звукового давления"
+      }
+    },
+    "perkussiya-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Перкуссия для записи: подбор тембров, шумы, микрофоны и организация большого набора.",
+        "decision": "Перкуссия для студийной записи в аренду | Набор точных атак и звуковых фактур",
+        "next_action": "Набор точных атак и звуковых фактур"
+      },
+      "n1": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "В студии можно использовать перкуссию как слой, который почти не слышен отдельно, но ",
+        "decision": "Студийная перкуссия | Как подобрать тембры и шумы для отдельных дорожек",
+        "next_action": "Как подобрать тембры и шумы для отдельных дорожек"
+      }
+    },
+    "perkussiya-dlya-teatra": {
+      "n0": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Перкуссия для спектакля: эффект, повторяемость, размещение и связь с сценическим действием.",
+        "decision": "Перкуссия для театра в аренду | Ударные эффекты под действие спектакля",
+        "next_action": "Ударные эффекты под действие спектакля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "В театре ударный звук может обозначать событие, поддерживать танец или работать как ч",
+        "decision": "Перкуссия на театральной сцене | Повторяемый звук как часть драматургии",
+        "next_action": "Повторяемый звук как часть драматургии"
+      }
+    },
+    "perkussiya-dlya-orkestra-na-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "Оркестровая перкуссия для записи: точный перечень, палочки, резонанс и студийный график.",
+        "decision": "Оркестровая перкуссия для записи в аренду | Состав по партитуре и студийному графику",
+        "next_action": "Состав по партитуре и студийному графику"
+      },
+      "n1": {
+        "source_path": "content/sections/zz06-percussion-final-landings.json",
+        "source_quote": "На оркестровой записи даже редкий инструмент может появиться на несколько секунд, но ",
+        "decision": "Оркестровая перкуссия в студии | Резонанс, палочки и временная организация партитуры",
+        "next_action": "Резонанс, палочки и временная организация партитуры"
+      }
+    }
+  }
+}

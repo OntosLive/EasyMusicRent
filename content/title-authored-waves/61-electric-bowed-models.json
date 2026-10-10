@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду; N.1 раскрывает самостоятельную предметную способность",
+  "records": [
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-ysv104-v-arendu",
+      "n0": "Электроскрипка Yamaha YSV104 в аренду | Практика в наушниках с блоком управления",
+      "n1": "Yamaha YSV104 | Тихие занятия с привычными скрипичными опорами"
+    },
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-yev104-v-arendu",
+      "n0": "Электроскрипка Yamaha YEV104 в аренду | Сценический инструмент с пассивным выходом",
+      "n1": "Yamaha YEV104 | Переход от акустической скрипки к сценическому подключению"
+    },
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-yev105-v-arendu",
+      "n0": "Пятиструнная электроскрипка Yamaha YEV105 в аренду | Дополнительный низкий регистр",
+      "n1": "Yamaha YEV105 | Как пятая струна меняет диапазон и смычковые переходы"
+    },
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-sv250-v-arendu",
+      "n0": "Электроскрипка Yamaha SV250 в аренду | Два звукоснимателя, XLR и мониторинг",
+      "n1": "Yamaha SV250 | Независимый звук для зала и наушников исполнителя"
+    },
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-sv255-v-arendu",
+      "n0": "Пятиструнная электроскрипка Yamaha SV255 в аренду | Полная сценическая система",
+      "n1": "Yamaha SV255 | Пятая струна и внешний блок управления в концертной партии"
+    },
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-svc50-v-arendu",
+      "n0": "Электровиолончель Yamaha SVC50 в аренду | Компактный корпус для занятий и сцены",
+      "n1": "Yamaha SVC50 | Съёмные опоры, посадка и звуковой выход в компактном формате"
+    },
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-svc110-v-arendu",
+      "n0": "Электровиолончель Yamaha SVC110 в аренду | Полый корпус и привычные точки опоры",
+      "n1": "Yamaha SVC110 | Как корпусная геометрия влияет на игру электровиолончелиста"
+    },
+    {
+      "source_file": "content/sections/zz03-electric-bowed-models.json",
+      "slug": "yamaha-slb300-v-arendu",
+      "n0": "Электроконтрабас Yamaha SLB300 в аренду | Вертикальная мензура и технология SRT Powered",
+      "n1": "Yamaha SLB300 | Контрабасовая мензура, съёмная рама и линейный сигнал"
+    }
+  ]
+}

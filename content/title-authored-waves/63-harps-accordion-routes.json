@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду; N.1 раскрывает самостоятельную предметную способность",
+  "records": [
+    {
+      "source_file": "content/sections/zz05-harp-bellows-final-landings.json",
+      "slug": "arfa-na-svadbu",
+      "n0": "Арфа на свадьбу в аренду | Инструмент для церемонии и камерной музыки",
+      "n1": "Арфа на свадьбе | Музыкальный момент, пространство и время настройки"
+    },
+    {
+      "source_file": "content/sections/zz05-harp-bellows-final-landings.json",
+      "slug": "arfa-dlya-vokalista",
+      "n0": "Арфа для вокалиста в аренду | Камерный инструмент для сопровождения голоса",
+      "n1": "Арфа и певец | Резонанс, строй и поддержка вокального дыхания"
+    },
+    {
+      "source_file": "content/sections/zz05-harp-bellows-final-landings.json",
+      "slug": "arfa-dlya-kamernogo-ansamblya",
+      "n0": "Арфа для камерного ансамбля в аренду | Комплект под точную партитуру",
+      "n1": "Арфа внутри камерного состава | Баланс струнного резонанса и других голосов"
+    },
+    {
+      "source_file": "content/sections/zz05-harp-bellows-final-landings.json",
+      "slug": "akkordeon-dlya-svadby",
+      "n0": "Аккордеон на свадьбу в аренду | Живой инструмент для подвижной программы",
+      "n1": "Аккордеон в свадебной музыке | Ритм, репертуар и свобода движения"
+    },
+    {
+      "source_file": "content/sections/zz05-harp-bellows-final-landings.json",
+      "slug": "akkordeon-dlya-folklornogo-ansamblya",
+      "n0": "Аккордеон для фольклорного ансамбля в аренду | Подходящий строй и система",
+      "n1": "Аккордеон в фольклоре | Мех, регистры и роль в народном составе"
+    },
+    {
+      "source_file": "content/sections/zz05-harp-bellows-final-landings.json",
+      "slug": "akkordeon-na-vremya-remonta",
+      "n0": "Аккордеон на время ремонта в аренду | Сохранить привычную клавиатуру и басовую систему",
+      "n1": "Временный аккордеон | Как продолжать занятия, пока собственный инструмент в мастерской"
+    },
+    {
+      "source_file": "content/sections/zz05-harp-bellows-final-landings.json",
+      "slug": "bayan-dlya-kontserta",
+      "n0": "Баян для концерта в аренду | Выборная или готовая система под программу",
+      "n1": "Концертный баян | Как регистры, посадка и система определяют музыкальную работу"
+    }
+  ]
+}

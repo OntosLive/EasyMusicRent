@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "pianino-dlya-igry-v-chetyre-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Пианино для ансамбля в четыре руки: одна полная клавиатура, две удобные посадки, педаль и совместная репетиция.",
+        "decision": "Пианино для игры в четыре руки в аренду | Общая клавиатура и две удобные посадки",
+        "next_action": "Общая клавиатура и две удобные посадки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Вы готовите ансамбль в четыре руки, а вместе заниматься негде. Здесь требуется один и",
+        "decision": "Игра в четыре руки | Посадка двух пианистов и распределение педали",
+        "next_action": "Посадка двух пианистов и распределение педали"
+      }
+    },
+    "dva-royalya-dlya-fortepiannogo-dueta": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Комплект из двух роялей для дуэта: репертуар, состояние обоих инструментов, совместная настройка и расстановка.",
+        "decision": "Два рояля для фортепианного дуэта в аренду | Согласованный концертный комплект",
+        "next_action": "Согласованный концертный комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "В произведении предусмотрены два самостоятельных фортепианных голоса. Каждому пианист",
+        "decision": "Фортепианный дуэт на двух роялях | Разные партии, общая настройка и расстановка",
+        "next_action": "Разные партии, общая настройка и расстановка"
+      }
+    },
+    "pianino-dlya-horovoy-repetitsii": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Пианино для хора: работа с отдельными голосами, общая высотная опора, слышимость руководителя и размещение.",
+        "decision": "Пианино для репетиций хора в аренду | Высотная опора и разучивание голосов",
+        "next_action": "Высотная опора и разучивание голосов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Хор начинает работать на новой площадке, а инструмента для разбора партий нет. Пианин",
+        "decision": "Пианино в хоровом классе | От отдельных партий к общему строю",
+        "next_action": "От отдельных партий к общему строю"
+      }
+    },
+    "pianino-dlya-baletnogo-klassa": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Пианино для балетных занятий: работа концертмейстера, повторение комбинаций, видимость педагога и установка.",
+        "decision": "Пианино для балетного класса в аренду | Живое сопровождение движений",
+        "next_action": "Живое сопровождение движений"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Для балетного занятия нужен живой концертмейстерский инструмент, а не только воспроиз",
+        "decision": "Пианино для балета | Как концертмейстер соединяет клавиши с движением танцоров",
+        "next_action": "Как концертмейстер соединяет клавиши с движением танцоров"
+      }
+    },
+    "pianino-dlya-videozayavki": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Пианино для видеоотбора: требования организатора, тип инструмента, видимость рук и педалей и предварительный дубль.",
+        "decision": "Пианино для записи видеозаявки в аренду | Инструмент под требования отбора",
+        "next_action": "Инструмент под требования отбора"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Программу нужно отправить на конкурс или прослушивание в виде записи. Сначала стоит о",
+        "decision": "Фортепианная видеозаявка | Инструмент, ракурс рук и педали как часть исполнения",
+        "next_action": "Инструмент, ракурс рук и педали как часть исполнения"
+      }
+    },
+    "pianino-s-pedalyu-sostenuto": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Фортепиано с работающей педалью sostenuto: отличие от sustain и модератора, проверка конкретного эпизода.",
+        "decision": "Фортепиано с педалью sostenuto в аренду | Удержание выбранных нот в нужной программе",
+        "next_action": "Удержание выбранных нот в нужной программе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "В произведении нужно удержать определённые ноты, пока остальная фактура продолжается ",
+        "decision": "Педаль sostenuto | Выборочное удержание звуков без общего размытия фактуры",
+        "next_action": "Выборочное удержание звуков без общего размытия фактуры"
+      }
+    },
+    "klavishnye-s-mikrotonalnoy-nastroykoy": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Клавишные для микротональной музыки: индивидуальная настройка нот, сохранение строя, полифония и совместимость.",
+        "decision": "Клавишные с микротональной настройкой в аренду | Нестандартные интервалы для программы",
+        "next_action": "Нестандартные интервалы для программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Произведение требует другого соотношения высот, а привычная клавиатура предлагает тол",
+        "decision": "Микротональные клавишные | Изменение отдельных звуков, а не общей высоты строя",
+        "next_action": "Изменение отдельных звуков, а не общей высоты строя"
+      }
+    },
+    "klavishnye-dlya-nemogo-kino": {
+      "n0": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Клавишный комплект для кинопоказа с живым сопровождением: видимость фильма, программа, тембры и репетиция с копией.",
+        "decision": "Пианино и клавишные для немого кино в аренду | Живое сопровождение кинопоказа",
+        "next_action": "Живое сопровождение кинопоказа"
+      },
+      "n1": {
+        "source_path": "content/sections/zz04-keyboard-repertoire-landings.json",
+        "source_quote": "Планируется показ немого фильма с живой музыкой, и исполнителю нужен инструмент в сам",
+        "decision": "Музыка к немому кино | Как клавишник следует экрану и музыкальному действию",
+        "next_action": "Как клавишник следует экрану и музыкальному действию"
+      }
+    }
+  }
+}

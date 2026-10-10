@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-ysv104-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha YSV104: домашняя практика в наушниках, отдельный блок управления и сохранение привычных опор.",
+        "decision": "Электроскрипка Yamaha YSV104 в аренду | Практика в наушниках с блоком управления",
+        "next_action": "Практика в наушниках с блоком управления"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Вы хотите продолжать скрипичную практику дома или в поездке, сохраняя более спокойный",
+        "decision": "Yamaha YSV104 | Тихие занятия с привычными скрипичными опорами",
+        "next_action": "Тихие занятия с привычными скрипичными опорами"
+      }
+    },
+    "yamaha-yev104-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha YEV104: пассивный выход, управление громкостью и проверка со сценическим усилением.",
+        "decision": "Электроскрипка Yamaha YEV104 в аренду | Сценический инструмент с пассивным выходом",
+        "next_action": "Сценический инструмент с пассивным выходом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Предстоит номер с усилением, а менять привычную скрипичную технику целиком не хочется",
+        "decision": "Yamaha YEV104 | Переход от акустической скрипки к сценическому подключению",
+        "next_action": "Переход от акустической скрипки к сценическому подключению"
+      }
+    },
+    "yamaha-yev105-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha YEV105: пятая струна до, переходы смычка, пассивное подключение и подготовка новой партии.",
+        "decision": "Пятиструнная электроскрипка Yamaha YEV105 в аренду | Дополнительный низкий регистр",
+        "next_action": "Дополнительный низкий регистр"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "В партии появилась линия ниже обычного скрипичного диапазона, и хочется сыграть её на",
+        "decision": "Yamaha YEV105 | Как пятая струна меняет диапазон и смычковые переходы",
+        "next_action": "Как пятая струна меняет диапазон и смычковые переходы"
+      }
+    },
+    "yamaha-sv250-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha SV250: два звукоснимателя, внешний блок, балансный XLR и независимая громкость наушников.",
+        "decision": "Электроскрипка Yamaha SV250 в аренду | Два звукоснимателя, XLR и мониторинг",
+        "next_action": "Два звукоснимателя, XLR и мониторинг"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "На сцене нужно передать скрипку звукорежиссёру и одновременно удобно слышать себя. У ",
+        "decision": "Yamaha SV250 | Независимый звук для зала и наушников исполнителя",
+        "next_action": "Независимый звук для зала и наушников исполнителя"
+      }
+    },
+    "yamaha-sv255-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha SV255: пятиструнное исполнение, внешний блок управления и проверка сценической роли нижнего регистра.",
+        "decision": "Пятиструнная электроскрипка Yamaha SV255 в аренду | Полная сценическая система",
+        "next_action": "Полная сценическая система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Один исполнитель должен соединить верхнюю мелодию и дополнительный нижний голос. SV25",
+        "decision": "Yamaha SV255 | Пятая струна и внешний блок управления в концертной партии",
+        "next_action": "Пятая струна и внешний блок управления в концертной партии"
+      }
+    },
+    "yamaha-svc50-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha SVC50: съёмная опора для ног, выходы для наушников и линии, привычная посадка и временное использование.",
+        "decision": "Электровиолончель Yamaha SVC50 в аренду | Компактный корпус для занятий и сцены",
+        "next_action": "Компактный корпус для занятий и сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "В поездке или временном жилье трудно разместить обычную виолончель, а занятия хочется",
+        "decision": "Yamaha SVC50 | Съёмные опоры, посадка и звуковой выход в компактном формате",
+        "next_action": "Съёмные опоры, посадка и звуковой выход в компактном формате"
+      }
+    },
+    "yamaha-svc110-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha SVC110: полый корпус, опоры, отдельные выходы для линии и наушников и сравнение в собственной игре.",
+        "decision": "Электровиолончель Yamaha SVC110 в аренду | Полый корпус и привычные точки опоры",
+        "next_action": "Полый корпус и привычные точки опоры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Вы уже пробовали компактную электровиолончель, но хочется внимательнее сравнить ощуще",
+        "decision": "Yamaha SVC110 | Как корпусная геометрия влияет на игру электровиолончелиста",
+        "next_action": "Как корпусная геометрия влияет на игру электровиолончелиста"
+      }
+    },
+    "yamaha-slb300-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Yamaha SLB300: мензура 1040 мм, SRT Powered, съёмная рама и линейный выход без отдельного разъёма для наушников.",
+        "decision": "Электроконтрабас Yamaha SLB300 в аренду | Вертикальная мензура и технология SRT Powered",
+        "next_action": "Вертикальная мензура и технология SRT Powered"
+      },
+      "n1": {
+        "source_path": "content/sections/zz03-electric-bowed-models.json",
+        "source_quote": "Нужна более удобная перевозка, а переходить на горизонтальную бас-гитару не хочется. ",
+        "decision": "Yamaha SLB300 | Контрабасовая мензура, съёмная рама и линейный сигнал",
+        "next_action": "Контрабасовая мензура, съёмная рама и линейный сигнал"
+      }
+    }
+  }
+}

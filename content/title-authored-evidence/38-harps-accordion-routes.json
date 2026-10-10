@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "arfa-na-svadbu": {
+      "n0": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Арфа для свадебной церемонии и камерного сопровождения: программа, размещение, погода и время настройки.",
+        "decision": "Арфа на свадьбу в аренду | Инструмент для церемонии и камерной музыки",
+        "next_action": "Инструмент для церемонии и камерной музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "На свадьбе арфа обычно работает внутри конкретного момента: встреча гостей, церемония",
+        "decision": "Арфа на свадьбе | Музыкальный момент, пространство и время настройки",
+        "next_action": "Музыкальный момент, пространство и время настройки"
+      }
+    },
+    "arfa-dlya-vokalista": {
+      "n0": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Арфа для вокального сопровождения: строй, диапазон, динамика и совместная репетиция.",
+        "decision": "Арфа для вокалиста в аренду | Камерный инструмент для сопровождения голоса",
+        "next_action": "Камерный инструмент для сопровождения голоса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Вокал и арфа соединяются через дыхание фразы и прозрачность фактуры. Инструмент долже",
+        "decision": "Арфа и певец | Резонанс, строй и поддержка вокального дыхания",
+        "next_action": "Резонанс, строй и поддержка вокального дыхания"
+      }
+    },
+    "arfa-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Арфа для камерного состава: баланс, строй, программа и совместная репетиция.",
+        "decision": "Арфа для камерного ансамбля в аренду | Комплект под точную партитуру",
+        "next_action": "Комплект под точную партитуру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "В камерном составе арфа может быть гармонической опорой, отдельным тембровым голосом ",
+        "decision": "Арфа внутри камерного состава | Баланс струнного резонанса и других голосов",
+        "next_action": "Баланс струнного резонанса и других голосов"
+      }
+    },
+    "akkordeon-dlya-svadby": {
+      "n0": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Аккордеон для свадебной программы: репертуар, мобильность, громкость и сценический формат.",
+        "decision": "Аккордеон на свадьбу в аренду | Живой инструмент для подвижной программы",
+        "next_action": "Живой инструмент для подвижной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Аккордеон удобен там, где музыка должна перемещаться вместе с людьми: встреча гостей,",
+        "decision": "Аккордеон в свадебной музыке | Ритм, репертуар и свобода движения",
+        "next_action": "Ритм, репертуар и свобода движения"
+      }
+    },
+    "akkordeon-dlya-folklornogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Аккордеон для фольклорного состава: система, строй, роль в ансамбле и репетиционный период.",
+        "decision": "Аккордеон для фольклорного ансамбля в аренду | Подходящий строй и система",
+        "next_action": "Подходящий строй и система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "В фольклорном ансамбле аккордеон может поддерживать песню, вести танцевальную фактуру",
+        "decision": "Аккордеон в фольклоре | Мех, регистры и роль в народном составе",
+        "next_action": "Мех, регистры и роль в народном составе"
+      }
+    },
+    "akkordeon-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Временный аккордеон на период ремонта: клавиатура, басовая система, регистры и сохранение занятий.",
+        "decision": "Аккордеон на время ремонта в аренду | Сохранить привычную клавиатуру и басовую систему",
+        "next_action": "Сохранить привычную клавиатуру и басовую систему"
+      },
+      "n1": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Временная замена должна сохранить привычную структуру работы: правую клавиатуру, басо",
+        "decision": "Временный аккордеон | Как продолжать занятия, пока собственный инструмент в мастерской",
+        "next_action": "Как продолжать занятия, пока собственный инструмент в мастерской"
+      }
+    },
+    "bayan-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Баян для концерта: выборная или готовая система, регистры, посадка и подготовка исполнителя.",
+        "decision": "Баян для концерта в аренду | Выборная или готовая система под программу",
+        "next_action": "Выборная или готовая система под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz05-harp-bellows-final-landings.json",
+        "source_quote": "Концертный баян подбирают под уже подготовленную программу. Здесь особенно важно сохр",
+        "decision": "Концертный баян | Как регистры, посадка и система определяют музыкальную работу",
+        "next_action": "Как регистры, посадка и система определяют музыкальную работу"
+      }
+    }
+  }
+}

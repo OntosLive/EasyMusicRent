@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду; N.1 раскрывает самостоятельную предметную способность",
+  "records": [
+    {
+      "source_file": "content/sections/zz06-percussion-final-landings.json",
+      "slug": "barabannaya-ustanovka-dlya-repetitsii",
+      "n0": "Барабанная установка для репетиции в аренду | Барабаны, педали и тарелки в комплекте",
+      "n1": "Репетиционная ударная установка | Посадка, педали и знакомый рабочий сет"
+    },
+    {
+      "source_file": "content/sections/zz06-percussion-final-landings.json",
+      "slug": "barabannaya-ustanovka-dlya-studii",
+      "n0": "Барабанная установка для студии в аренду | Корпуса и тарелки под запись",
+      "n1": "Барабанная установка в студии | Настройка, атака и затухание под микрофонами"
+    },
+    {
+      "source_file": "content/sections/zz06-percussion-final-landings.json",
+      "slug": "barabannaya-ustanovka-na-vremya-remonta",
+      "n0": "Барабанная установка на время ремонта в аренду | Полная замена на период занятий",
+      "n1": "Барабанная установка на замену | Как сохранить посадку и привычную конфигурацию"
+    },
+    {
+      "source_file": "content/sections/zz06-percussion-final-landings.json",
+      "slug": "perkussiya-dlya-akusticheskogo-kontserta",
+      "n0": "Перкуссия для акустического концерта в аренду | Кахон, шейкеры и рамочные барабаны",
+      "n1": "Акустическая перкуссия | Ритм без лишнего звукового давления"
+    },
+    {
+      "source_file": "content/sections/zz06-percussion-final-landings.json",
+      "slug": "perkussiya-dlya-studii",
+      "n0": "Перкуссия для студийной записи в аренду | Набор точных атак и звуковых фактур",
+      "n1": "Студийная перкуссия | Как подобрать тембры и шумы для отдельных дорожек"
+    },
+    {
+      "source_file": "content/sections/zz06-percussion-final-landings.json",
+      "slug": "perkussiya-dlya-teatra",
+      "n0": "Перкуссия для театра в аренду | Ударные эффекты под действие спектакля",
+      "n1": "Перкуссия на театральной сцене | Повторяемый звук как часть драматургии"
+    },
+    {
+      "source_file": "content/sections/zz06-percussion-final-landings.json",
+      "slug": "perkussiya-dlya-orkestra-na-zapisi",
+      "n0": "Оркестровая перкуссия для записи в аренду | Состав по партитуре и студийному графику",
+      "n1": "Оркестровая перкуссия в студии | Резонанс, палочки и временная организация партитуры"
+    }
+  ]
+}
