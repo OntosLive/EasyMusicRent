@@ -117,7 +117,7 @@ class AuthoredTitlesTests(unittest.TestCase):
         self.assertIn("Траверсо", pairs["traverso-dlya-pervogo-opyta"]["n0"])
         self.assertIn("Барочные инструменты", pairs["barochnye-instrumenty-dlya-opery"]["n0"])
         self.assertIn("Басовый усилитель", pairs["basovyy-usilitel-dlya-kontserta"]["n0"])
-        self.assertIn("сценические клавишные", pairs["scenicheskie-klavishnye-po-rayderu"]["n1"].lower())
+        self.assertIn("Клавишные по райдеру", pairs["scenicheskie-klavishnye-po-rayderu"]["n1"])
         self.assertIn("Бэклайн для фестиваля", pairs["backline-dlya-festivalya"]["n0"])
 
     def test_only_gpt6_family_authors_public_title_copy(self):
