@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду, N.1 углубляет предмет",
+  "records": [
+    {
+      "source_file": "content/sections/zz27-rider-core-second-pass.json",
+      "slug": "fender-american-professional-ii-telecaster-v-arendu",
+      "n0": "Fender American Professional II Telecaster в аренду | Два сингла и фиксированный бридж",
+      "n1": "American Professional II Telecaster | Знакомая атака Tele и способы крепления струн"
+    },
+    {
+      "source_file": "content/sections/zz27-rider-core-second-pass.json",
+      "slug": "fender-american-professional-ii-precision-bass-v-arendu",
+      "n0": "Fender American Professional II Precision Bass в аренду | Один split-coil",
+      "n1": "American Professional II Precision Bass | Мензура 34 дюйма и рабочая басовая геометрия"
+    },
+    {
+      "source_file": "content/sections/zz27-rider-core-second-pass.json",
+      "slug": "gibson-j45-v-arendu",
+      "n0": "Gibson J-45 в аренду | Акустический round-shoulder для концерта",
+      "n1": "Gibson J-45 | Форма корпуса и средний регистр акустической гитары"
+    },
+    {
+      "source_file": "content/sections/zz27-rider-core-second-pass.json",
+      "slug": "ludwig-black-beauty-v-arendu",
+      "n0": "Малый барабан Ludwig Black Beauty в аренду | Латунный корпус 14 дюймов",
+      "n1": "Ludwig Black Beauty | Бесшовная латунь и размеры 14×5 и 14×6,5"
+    }
+  ]
+}
