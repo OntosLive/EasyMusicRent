@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "gibson-sg-standard-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "SG Standard: два хамбакера, двойной вырез, рабочий строй и проверка баланса на ремне.",
+        "decision": "Gibson SG Standard в аренду | Два хамбакера и удобный доступ к верхним ладам",
+        "next_action": "Два хамбакера и удобный доступ к верхним ладам"
+      },
+      "n1": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "В программе много верхних позиций, а привычная гитара осталась дома. Запрос на S",
+        "decision": "Gibson SG Standard | Баланс на ремне и геометрия двойного выреза",
+        "next_action": "Баланс на ремне и геометрия двойного выреза"
+      }
+    },
+    "rickenbacker-330-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "Шестиструнная Rickenbacker 330: корпус, два Hi-gain, монофонический выход и отличие от 330/12.",
+        "decision": "Rickenbacker 330 в аренду | Полуакустическая шестиструнная гитара",
+        "next_action": "Полуакустическая шестиструнная гитара"
+      },
+      "n1": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "Партия написана под Rickenbacker, и во время поездки нужен знакомый характер акк",
+        "decision": "Rickenbacker 330 | Два Hi-gain, моновыход и отличие от версии 330/12",
+        "next_action": "Два Hi-gain, моновыход и отличие от версии 330/12"
+      }
+    },
+    "di-boksy": {
+      "n0": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "Активные и пассивные DI-боксы: источник сигнала, число каналов, параллельный выход и согласование с пультом.",
+        "decision": "DI-боксы в аренду | Активные, пассивные и многоканальные решения для сцены",
+        "next_action": "Активные, пассивные и многоканальные решения для сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "На площадку нужно передать бас или клавишные, сохранив отдельный усилитель рядом",
+        "decision": "DI-боксы | Как источник, нагрузка и развязка определяют правильное включение",
+        "next_action": "Как источник, нагрузка и развязка определяют правильное включение"
+      }
+    },
+    "radial-jdi-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "Radial JDI: одноканальный пассивный DI, трансформатор Jensen, параллельный выход и проверка источника сигнала.",
+        "decision": "Radial JDI в аренду | Пассивный DI-бокс с трансформатором Jensen",
+        "next_action": "Пассивный DI-бокс с трансформатором Jensen"
+      },
+      "n1": {
+        "source_path": "content/sections/zz38-rider-guitars-and-di.json",
+        "source_quote": "Звукорежиссёр указал JDI для конкретного баса или клавишных. Здесь важно сохрани",
+        "decision": "Radial JDI | Параллельный выход и балансная линия между инструментом и пультом",
+        "next_action": "Параллельный выход и балансная линия между инструментом и пультом"
+      }
+    }
+  }
+}
