@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3030,
+  "record_count": 3078,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -96,6 +96,9 @@
     "content/title-authored-evidence/92-student-cornets.json",
     "content/title-authored-evidence/93-student-baritone-horns.json",
     "content/title-authored-evidence/94-student-tenor-horns.json",
-    "content/title-authored-evidence/95-school-percussion-kit.json"
+    "content/title-authored-evidence/95-school-percussion-kit.json",
+    "content/title-authored-evidence/96-small-percussion-voices.json",
+    "content/title-authored-evidence/97-traditional-performance-routes.json",
+    "content/title-authored-evidence/98-bowed-studio-concert.json"
   ]
 }
