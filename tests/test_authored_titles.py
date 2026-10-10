@@ -105,7 +105,7 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
         self.assertTrue(manifest["requires_owner_review"])
-        self.assertGreaterEqual(len(pairs), 1515)
+        self.assertGreaterEqual(len(pairs), 1585)
         self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 2 * len(pairs))
         self.assertIn("Полный размер для концерта", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
         self.assertIn("период подготовки", pairs["skripka-na-konkurs-v-arendu"]["n0"])
@@ -137,12 +137,15 @@ class AuthoredTitlesTests(unittest.TestCase):
         self.assertIn("Yamaha YSL-350C", pairs["yamaha-ysl350c-v-arendu"]["n0"])
         self.assertIn("Hohner Special 20 C", pairs["hohner-special20-c-v-arendu"]["n0"])
         self.assertIn("Pearl PL910C", pairs["pearl-pl910c-v-arendu"]["n0"])
+        self.assertIn("Кастаньеты", pairs["kastanety"]["n0"])
+        self.assertIn("Контрабас для джаза", pairs["kontrabas-dlya-dzhaza"]["n0"])
+        self.assertIn("Терменвокс для концерта", pairs["termenvoks-dlya-kontserta"]["n0"])
 
     def test_only_gpt6_family_authors_public_title_copy(self):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["authoring_models"], ["GPT-6", "GPT-6.1"])
         self.assertEqual(manifest["python_role"], "literal_transfer_validation_coverage_only")
-        self.assertGreaterEqual(len(manifest["pairs"]), 1515)
+        self.assertGreaterEqual(len(manifest["pairs"]), 1585)
 
     def test_every_live_title_has_matching_source_evidence(self):
         titles = authored.validate_manifest(authored.DEFAULT_MANIFEST)
