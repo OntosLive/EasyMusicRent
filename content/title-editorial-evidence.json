@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3386,
+  "record_count": 3482,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -123,6 +123,10 @@
     "content/title-authored-evidence/115e-orchestral-percussion-voices.json",
     "content/title-authored-evidence/115f-resonant-percussion-voices.json",
     "content/title-authored-evidence/115g-recorder-ukulele-voices.json",
-    "content/title-authored-evidence/115h-electric-strings-and-reeds.json"
+    "content/title-authored-evidence/115h-electric-strings-and-reeds.json",
+    "content/title-authored-evidence/116a-guitar-human-tasks.json",
+    "content/title-authored-evidence/116b-percussion-human-tasks.json",
+    "content/title-authored-evidence/116c-wind-human-tasks.json",
+    "content/title-authored-evidence/116d-keyboard-studio-and-stage.json"
   ]
 }
