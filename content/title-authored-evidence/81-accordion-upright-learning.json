@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "weltmeister-perle-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz66-accordion-upright-learning-standards.json",
+        "source_quote": "Weltmeister Perle 26/48: компактный немецкий piano accordion для маленького ученика и раннего этапа обучения.",
+        "decision": "Аккордеон Weltmeister Perle 26/48 в аренду | Компактная немецкая учебная модель",
+        "next_action": "Компактная немецкая учебная модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz66-accordion-upright-learning-standards.json",
+        "source_quote": "Perle — редкий пример модели, где сама размерная конфигурация уже многое говорит об у",
+        "decision": "Weltmeister Perle | Клавиатура 26 и 48 басов для первых шагов",
+        "next_action": "Клавиатура 26 и 48 басов для первых шагов"
+      }
+    },
+    "weltmeister-rubin-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz66-accordion-upright-learning-standards.json",
+        "source_quote": "Weltmeister Rubin 30/60: compact German student accordion with reduced key width and 60 basses.",
+        "decision": "Аккордеон Weltmeister Rubin 30/60 в аренду | Учебная модель с узкими клавишами",
+        "next_action": "Учебная модель с узкими клавишами"
+      },
+      "n1": {
+        "source_path": "content/sections/zz66-accordion-upright-learning-standards.json",
+        "source_quote": "Rubin сохраняет примерно тот же компактный корпус, что Perle, но расширяет правую кла",
+        "decision": "Weltmeister Rubin | Уменьшенная ширина клавиш и 60 басов для ученика",
+        "next_action": "Уменьшенная ширина клавиш и 60 басов для ученика"
+      }
+    },
+    "kawai-k300-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz66-accordion-upright-learning-standards.json",
+        "source_quote": "Kawai K-300: 122 cm professional upright with Millennium III action, solid spruce soundboard and school/studio positioning.",
+        "decision": "Акустическое пианино Kawai K-300 в аренду | Профессиональная механика в корпусе 122 см",
+        "next_action": "Профессиональная механика в корпусе 122 см"
+      },
+      "n1": {
+        "source_path": "content/sections/zz66-accordion-upright-learning-standards.json",
+        "source_quote": "K‑300 стоит выше уже существующего K‑200 и имеет другой смысл в учебной лестнице. Kaw",
+        "decision": "Kawai K-300 | Millennium III и резонансная дека для школы и студии",
+        "next_action": "Millennium III и резонансная дека для школы и студии"
+      }
+    }
+  }
+}

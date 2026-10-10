@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz61-russian-arcata-learning.json",
+      "slug": "smychkovye-arcata",
+      "n0": "Смычковые Arcata в аренду | Российские учебные скрипки Gasparo и Giovanni",
+      "n1": "Arcata из Санкт-Петербурга | Разные уровни скрипок одной мануфактуры"
+    },
+    {
+      "source_file": "content/sections/zz61-russian-arcata-learning.json",
+      "slug": "arcata-gasparo-v-arendu",
+      "n0": "Скрипка Arcata Gasparo в аренду | Размеры от 1/4 до 4/4 с комплектом",
+      "n1": "Arcata Gasparo | Ученическая скрипка со смычком, футляром и канифолью"
+    },
+    {
+      "source_file": "content/sections/zz61-russian-arcata-learning.json",
+      "slug": "arcata-giovanni-v-arendu",
+      "n0": "Скрипка Arcata Giovanni в аренду | Студенческий инструмент 3/4 и 4/4",
+      "n1": "Arcata Giovanni | Массивная ель и клён в комплекте для продолжения занятий"
+    }
+  ]
+}

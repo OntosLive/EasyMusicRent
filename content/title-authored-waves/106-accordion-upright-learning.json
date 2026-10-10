@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz66-accordion-upright-learning-standards.json",
+      "slug": "weltmeister-perle-v-arendu",
+      "n0": "Аккордеон Weltmeister Perle 26/48 в аренду | Компактная немецкая учебная модель",
+      "n1": "Weltmeister Perle | Клавиатура 26 и 48 басов для первых шагов"
+    },
+    {
+      "source_file": "content/sections/zz66-accordion-upright-learning-standards.json",
+      "slug": "weltmeister-rubin-v-arendu",
+      "n0": "Аккордеон Weltmeister Rubin 30/60 в аренду | Учебная модель с узкими клавишами",
+      "n1": "Weltmeister Rubin | Уменьшенная ширина клавиш и 60 басов для ученика"
+    },
+    {
+      "source_file": "content/sections/zz66-accordion-upright-learning-standards.json",
+      "slug": "kawai-k300-v-arendu",
+      "n0": "Акустическое пианино Kawai K-300 в аренду | Профессиональная механика в корпусе 122 см",
+      "n1": "Kawai K-300 | Millennium III и резонансная дека для школы и студии"
+    }
+  ]
+}

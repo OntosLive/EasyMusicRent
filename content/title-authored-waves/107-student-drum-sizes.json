@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+      "slug": "yamaha-rydeen-v-arendu",
+      "n0": "Ударная установка Yamaha RYDEEN в аренду | Бас-бочка 20 или 22 дюйма",
+      "n1": "Yamaha RYDEEN | Пять барабанов и размеры установки для первого этапа"
+    },
+    {
+      "source_file": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+      "slug": "tama-imperialstar-v-arendu",
+      "n0": "Ударная установка TAMA Imperialstar в аренду | Комплект для обучения и репетиций",
+      "n1": "TAMA Imperialstar | Выбор бас-бочки 18 или 22 дюйма и полноценный hardware"
+    },
+    {
+      "source_file": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+      "slug": "barabannaya-ustanovka-ponizhe-dlya-rebenka",
+      "n0": "Невысокая барабанная установка ребёнку в аренду | Посадка под рост",
+      "n1": "Ударная установка для ребёнка | Высота томов и малого барабана относительно рук"
+    }
+  ]
+}

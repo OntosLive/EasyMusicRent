@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz64-hidersine-education-family.json",
+      "slug": "smychkovye-hidersine",
+      "n0": "Смычковые Hidersine в аренду | Учебные скрипки, альты, виолончели и контрабасы",
+      "n1": "Hidersine Vivente | Школьные смычковые комплекты с готовой настройкой"
+    },
+    {
+      "source_file": "content/sections/zz64-hidersine-education-family.json",
+      "slug": "hidersine-vivente-skripka-v-arendu",
+      "n0": "Скрипка Hidersine Vivente в аренду | Ученические размеры от 1/8 до 4/4",
+      "n1": "Hidersine Vivente Violin | Еловая дека и подготовка инструмента для первого урока"
+    },
+    {
+      "source_file": "content/sections/zz64-hidersine-education-family.json",
+      "slug": "hidersine-vivente-academy-skripka-v-arendu",
+      "n0": "Скрипка Hidersine Vivente Academy в аренду | Колки Wittner Finetune",
+      "n1": "Hidersine Vivente Academy | Тонкая настройка и эргономика ученической скрипки"
+    },
+    {
+      "source_file": "content/sections/zz64-hidersine-education-family.json",
+      "slug": "hidersine-vivente-alt-v-arendu",
+      "n0": "Альт Hidersine Vivente в аренду | Размеры корпуса от 12 до 16 дюймов",
+      "n1": "Hidersine Vivente Viola | Сочетание размера альта и школьного смычкового комплекта"
+    },
+    {
+      "source_file": "content/sections/zz64-hidersine-education-family.json",
+      "slug": "hidersine-vivente-violonchel-v-arendu",
+      "n0": "Виолончель Hidersine Vivente в аренду | Ученический комплект от 1/8 до 4/4",
+      "n1": "Hidersine Vivente Cello | Еловая дека, эбеновая накладка и готовый смычок"
+    },
+    {
+      "source_file": "content/sections/zz64-hidersine-education-family.json",
+      "slug": "hidersine-vivente-kontrabas-v-arendu",
+      "n0": "Контрабас Hidersine Vivente в аренду | Ученический набор размеров 1/2 и 3/4",
+      "n1": "Hidersine Vivente Double Bass | Корпус, смычок и чехол как учебный комплект"
+    }
+  ]
+}

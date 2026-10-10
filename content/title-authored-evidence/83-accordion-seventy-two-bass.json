@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "hohner-bravo-iii-72-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz68-accordion-72-bass-learning-step.json",
+        "source_quote": "Hohner Bravo III 72: 34 keys, 72 basses, three voices; beginner accordion suitable for solo and orchestra playing.",
+        "decision": "Аккордеон Hohner Bravo III 72 в аренду | 34 клавиши и три голоса",
+        "next_action": "34 клавиши и три голоса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz68-accordion-72-bass-learning-step.json",
+        "source_quote": "Bravo III 72 — уже не самый маленький первый аккордеон. Hohner прямо описывает его ка",
+        "decision": "Hohner Bravo III 72 | Как 72 баса открывают следующую учебную программу",
+        "next_action": "Как 72 баса открывают следующую учебную программу"
+      }
+    },
+    "weltmeister-achat-34-72-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz68-accordion-72-bass-learning-step.json",
+        "source_quote": "Weltmeister Achat 34/72: German 34-key, 72-bass, three-voice accordion used as a learning and advancing instrument.",
+        "decision": "Аккордеон Weltmeister Achat 34/72 в аренду | Трёхголосная ученическая модель",
+        "next_action": "Трёхголосная ученическая модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz68-accordion-72-bass-learning-step.json",
+        "source_quote": "Achat 34/72 логично продолжает Weltmeister Perle и Rubin: правый диапазон расширяется",
+        "decision": "Weltmeister Achat 34/72 | Диапазон и вес на этапе продолжения обучения",
+        "next_action": "Диапазон и вес на этапе продолжения обучения"
+      }
+    },
+    "akkordeon-72-basa-dlya-prodolzheniya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz68-accordion-72-bass-learning-step.json",
+        "source_quote": "Подбор 72-bass accordion for continuing study: range, weight, three voices, solo/orchestra work and body fit.",
+        "decision": "Аккордеон на 72 баса для продолжения обучения в аренду | Учебный комплект",
+        "next_action": "Учебный комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz68-accordion-72-bass-learning-step.json",
+        "source_quote": "Преподаватель говорит, что 48 или 60 басов уже мало, но 96/120-басовый инструмент каж",
+        "decision": "Аккордеон 72 баса | Переход к более широкому диапазону и ансамблевым партиям",
+        "next_action": "Переход к более широкому диапазону и ансамблевым партиям"
+      }
+    }
+  }
+}

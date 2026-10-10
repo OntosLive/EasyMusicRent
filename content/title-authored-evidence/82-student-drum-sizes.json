@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-rydeen-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+        "source_quote": "Yamaha RYDEEN: 5-piece entry acoustic drum set in 20-inch and 22-inch bass-drum configurations for beginners and intermediate players.",
+        "decision": "Ударная установка Yamaha RYDEEN в аренду | Бас-бочка 20 или 22 дюйма",
+        "next_action": "Бас-бочка 20 или 22 дюйма"
+      },
+      "n1": {
+        "source_path": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+        "source_quote": "RYDEEN Yamaha прямо адресует начинающим и продолжающим. Для обучения особенно полезно",
+        "decision": "Yamaha RYDEEN | Пять барабанов и размеры установки для первого этапа",
+        "next_action": "Пять барабанов и размеры установки для первого этапа"
+      }
+    },
+    "tama-imperialstar-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+        "source_quote": "TAMA Imperialstar: complete beginner/intermediate drum kit with 18-inch or 22-inch bass drum options, hardware and optional cymbals.",
+        "decision": "Ударная установка TAMA Imperialstar в аренду | Комплект для обучения и репетиций",
+        "next_action": "Комплект для обучения и репетиций"
+      },
+      "n1": {
+        "source_path": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+        "source_quote": "Imperialstar TAMA строит как полный комплект, на котором можно начинать и продолжать ",
+        "decision": "TAMA Imperialstar | Выбор бас-бочки 18 или 22 дюйма и полноценный hardware",
+        "next_action": "Выбор бас-бочки 18 или 22 дюйма и полноценный hardware"
+      }
+    },
+    "barabannaya-ustanovka-ponizhe-dlya-rebenka": {
+      "n0": {
+        "source_path": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+        "source_quote": "Подбор акустической барабанной установки ребёнку по высоте томов, размеру бас-барабана, низкому малому и рабочей посадке.",
+        "decision": "Невысокая барабанная установка ребёнку в аренду | Посадка под рост",
+        "next_action": "Посадка под рост"
+      },
+      "n1": {
+        "source_path": "content/sections/zz67-beginner-acoustic-drum-sizes.json",
+        "source_quote": "Ребёнок сидит правильно, но до томов приходится тянуться вверх, а малый оказывается п",
+        "decision": "Ударная установка для ребёнка | Высота томов и малого барабана относительно рук",
+        "next_action": "Высота томов и малого барабана относительно рук"
+      }
+    }
+  }
+}

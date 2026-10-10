@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz70-gewa-education-family.json",
+      "slug": "smychkovye-gewa",
+      "n0": "Смычковые GEWA в аренду | Скрипки, альты и виолончели учебных серий",
+      "n1": "GEWA German Engineered | Переход от Allegro к Ideale и Maestro"
+    },
+    {
+      "source_file": "content/sections/zz70-gewa-education-family.json",
+      "slug": "gewa-allegro-skripka-v-arendu",
+      "n0": "Скрипка GEWA Allegro в аренду | Ученическая серия размеров от 1/16 до 4/4",
+      "n1": "GEWA Allegro Violin | Школьные размеры и вариант для левшей"
+    },
+    {
+      "source_file": "content/sections/zz70-gewa-education-family.json",
+      "slug": "gewa-maestro1-skripka-v-arendu",
+      "n0": "Скрипка GEWA Maestro 1 в аренду | Продвинутая серия для ученика",
+      "n1": "GEWA Maestro 1 | Размеры от четверти до полного для нового репертуара"
+    },
+    {
+      "source_file": "content/sections/zz70-gewa-education-family.json",
+      "slug": "gewa-allegro-violonchel-v-arendu",
+      "n0": "Виолончель GEWA Allegro в аренду | Учебная серия от 1/16 до 7/8",
+      "n1": "GEWA Allegro Cello | Модельная линейка и подбор корпуса по размеру исполнителя"
+    }
+  ]
+}

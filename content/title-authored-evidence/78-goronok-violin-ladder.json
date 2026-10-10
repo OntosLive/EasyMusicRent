@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychkovye-goronok": {
+      "n0": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok String Instruments: ученические Нова/Этюд/Каприс, студенческие Каденция/Фантазия и мастеровые линии для дальнейшего роста.",
+        "decision": "Смычковые Goronok в аренду | Российская линейка от Нова до мастеровых инструментов",
+        "next_action": "Российская линейка от Нова до мастеровых инструментов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok удобен для фонда тем, что сам производитель описывает не одну «универсальную ",
+        "decision": "Goronok | Учебная лестница Нова, Каприс, Каденция и авторские серии",
+        "next_action": "Учебная лестница Нова, Каприс, Каденция и авторские серии"
+      }
+    },
+    "goronok-nova-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok Нова: ученическая скрипка в дробных размерах, ручная российская сборка и позиционирование для музыкальной школы.",
+        "decision": "Скрипка Goronok Нова в аренду | Дробные размеры для музыкальной школы",
+        "next_action": "Дробные размеры для музыкальной школы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Нова относится у Goronok к ученической категории и выпускается в широком размерном ря",
+        "decision": "Goronok Нова | Ручная российская сборка ученической скрипки",
+        "next_action": "Ручная российская сборка ученической скрипки"
+      }
+    },
+    "goronok-etyud-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok Этюд: ученическая скрипка в малых и полных размерах внутри российской школьной линейки.",
+        "decision": "Скрипка Goronok Этюд в аренду | Ученическая линейка малых и полных размеров",
+        "next_action": "Ученическая линейка малых и полных размеров"
+      },
+      "n1": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Этюд у Goronok стоит внутри той же ученической категории, что Нова и Каприс, но образ",
+        "decision": "Goronok Этюд | Как серия сопровождает первые скрипичные занятия",
+        "next_action": "Как серия сопровождает первые скрипичные занятия"
+      }
+    },
+    "goronok-kapris-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok Каприс: upper student violin in fractional sizes, aimed at school players with stronger development ambitions.",
+        "decision": "Скрипка Goronok Каприс в аренду | Усиленная ученическая модель",
+        "next_action": "Усиленная ученическая модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Каприс остаётся у Goronok ученической моделью, но производитель адресует её школьника",
+        "decision": "Goronok Каприс | Следующая ступень школьной исполнительской практики",
+        "next_action": "Следующая ступень школьной исполнительской практики"
+      }
+    },
+    "goronok-kadentsiya-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok Каденция: студенческая скрипка for advancing school, applicants and college students, available in fractional sizes.",
+        "decision": "Скрипка Goronok Каденция в аренду | Инструмент для учащихся и абитуриентов",
+        "next_action": "Инструмент для учащихся и абитуриентов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Каденция у Goronok уже относится к студенческой категории и прямо описывается как инс",
+        "decision": "Goronok Каденция | Студенческая серия и репертуар более высокой сложности",
+        "next_action": "Студенческая серия и репертуар более высокой сложности"
+      }
+    },
+    "goronok-fantaziya-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok Fantaziya: student-category violin for performing school students, applicants, college students and serious stage work.",
+        "decision": "Скрипка Goronok Фантазия в аренду | Студенческий уровень для сцены",
+        "next_action": "Студенческий уровень для сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Фантазия у Goronok стоит на верхней границе студенческой категории. Производитель адр",
+        "decision": "Goronok Фантазия | Концертная работа в российской школьной линейке",
+        "next_action": "Концертная работа в российской школьной линейке"
+      }
+    },
+    "goronok-aleksey-romanov-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Goronok Alexey Romanov: master-made violin line in fractional and full sizes for gifted performing children, school graduates and college students.",
+        "decision": "Скрипка Goronok Алексей Романов в аренду | Мастеровая серия для молодого исполнителя",
+        "next_action": "Мастеровая серия для молодого исполнителя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz62-russian-goronok-learning-ladder.json",
+        "source_quote": "Линия «Алексей Романов» особенно важна для нашей архитектуры: мастеровой уровень здес",
+        "decision": "Goronok Алексей Романов | Авторская скрипка в дробном и полном размере",
+        "next_action": "Авторская скрипка в дробном и полном размере"
+      }
+    }
+  }
+}

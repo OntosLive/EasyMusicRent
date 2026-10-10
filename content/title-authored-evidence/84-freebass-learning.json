@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "hohner-bravo-i-49f-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz69-freebass-accordion-learning.json",
+        "source_quote": "Hohner Bravo I 49 F: lightweight free-bass accordion developed with music teachers for melody-bass learning.",
+        "decision": "Аккордеон Hohner Bravo I 49 F в аренду | Лёгкая система выборного баса",
+        "next_action": "Лёгкая система выборного баса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz69-freebass-accordion-learning.json",
+        "source_quote": "Bravo I 49 F решает не размерную, а системную учебную задачу. Hohner называет его сам",
+        "decision": "Hohner Bravo I 49 F | Учебный melody-bass, разработанный вместе с педагогами",
+        "next_action": "Учебный melody-bass, разработанный вместе с педагогами"
+      }
+    },
+    "akkordeon-s-vybornym-basom-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz69-freebass-accordion-learning.json",
+        "source_quote": "Подбор free-bass/melody-bass accordion for study: system, left-hand range, weight and teacher methodology.",
+        "decision": "Аккордеон с выборным басом для обучения в аренду | Диапазон под левую руку",
+        "next_action": "Диапазон под левую руку"
+      },
+      "n1": {
+        "source_path": "content/sections/zz69-freebass-accordion-learning.json",
+        "source_quote": "Преподаватель вводит выборный бас, и обычный готовый аккомпанемент перестаёт покрыват",
+        "decision": "Выборный бас аккордеона | Отдельная мелодическая линия вместо готового аккорда",
+        "next_action": "Отдельная мелодическая линия вместо готового аккорда"
+      }
+    }
+  }
+}

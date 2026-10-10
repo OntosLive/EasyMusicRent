@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz68-accordion-72-bass-learning-step.json",
+      "slug": "hohner-bravo-iii-72-v-arendu",
+      "n0": "Аккордеон Hohner Bravo III 72 в аренду | 34 клавиши и три голоса",
+      "n1": "Hohner Bravo III 72 | Как 72 баса открывают следующую учебную программу"
+    },
+    {
+      "source_file": "content/sections/zz68-accordion-72-bass-learning-step.json",
+      "slug": "weltmeister-achat-34-72-v-arendu",
+      "n0": "Аккордеон Weltmeister Achat 34/72 в аренду | Трёхголосная ученическая модель",
+      "n1": "Weltmeister Achat 34/72 | Диапазон и вес на этапе продолжения обучения"
+    },
+    {
+      "source_file": "content/sections/zz68-accordion-72-bass-learning-step.json",
+      "slug": "akkordeon-72-basa-dlya-prodolzheniya-obucheniya",
+      "n0": "Аккордеон на 72 баса для продолжения обучения в аренду | Учебный комплект",
+      "n1": "Аккордеон 72 баса | Переход к более широкому диапазону и ансамблевым партиям"
+    }
+  ]
+}

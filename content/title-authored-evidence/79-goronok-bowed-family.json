@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "goronok-nova-alt-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Goronok Nova viola: student line in multiple body lengths, Russian handmade construction and school-oriented sizing.",
+        "decision": "Альт Goronok Нова в аренду | Российская ученическая серия разных размеров",
+        "next_action": "Российская ученическая серия разных размеров"
+      },
+      "n1": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "На альте размер определяется не привычными скрипичными дробями, а длиной корпуса и ре",
+        "decision": "Goronok Нова для альта | Длины корпуса под рост и постановку",
+        "next_action": "Длины корпуса под рост и постановку"
+      }
+    },
+    "goronok-kadentsiya-alt-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Goronok Kadentsiya viola: student/advanced line in multiple body lengths, including compact formats for developing players.",
+        "decision": "Альт Goronok Каденция в аренду | Студенческая модель для развития техники",
+        "next_action": "Студенческая модель для развития техники"
+      },
+      "n1": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Каденция у Goronok относится к студенческой категории и выпускается в разных длинах к",
+        "decision": "Goronok Каденция для альта | Компактные корпуса продвинутой серии",
+        "next_action": "Компактные корпуса продвинутой серии"
+      }
+    },
+    "goronok-nova-violonchel-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Goronok Nova cello: student cello in fractional and full sizes, with multiple body lengths in full-size range.",
+        "decision": "Виолончель Goronok Нова в аренду | Ученические размеры от дробных до полного",
+        "next_action": "Ученические размеры от дробных до полного"
+      },
+      "n1": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "На виолончели слово 4/4 всё ещё не описывает весь размер. В каталоге Goronok Нова вст",
+        "decision": "Goronok Нова для виолончели | Мензура и длина корпуса в первых занятиях",
+        "next_action": "Мензура и длина корпуса в первых занятиях"
+      }
+    },
+    "goronok-kadentsiya-violonchel-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Goronok Kadentsiya cello: advanced/student line in 7/8 and full-size variants with multiple body lengths.",
+        "decision": "Виолончель Goronok Каденция в аренду | Продвинутая серия 7/8 и 4/4",
+        "next_action": "Продвинутая серия 7/8 и 4/4"
+      },
+      "n1": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Каденция позволяет решать на виолончели ту же задачу, что на скрипке и альте: перейти",
+        "decision": "Goronok Каденция для виолончели | Удобство корпуса и новая репертуарная ступень",
+        "next_action": "Удобство корпуса и новая репертуарная ступень"
+      }
+    },
+    "goronok-nova-kontrabas-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Goronok Nova double bass: student double bass in 1/4, 1/2 and 3/4 sizes within Russian handmade line.",
+        "decision": "Контрабас Goronok Нова в аренду | Ученические размеры 1/4, 1/2 и 3/4",
+        "next_action": "Ученические размеры 1/4, 1/2 и 3/4"
+      },
+      "n1": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Контрабас особенно наглядно показывает, зачем фонду нужна размерная лестница: ребёнок",
+        "decision": "Goronok Нова для контрабаса | Российская сборка и соответствие мензуры ученику",
+        "next_action": "Российская сборка и соответствие мензуры ученику"
+      }
+    },
+    "goronok-kadentsiya-kontrabas-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Goronok Kadentsiya double bass: advanced/student line available in fractional sizes through 7/8 with solid resonance-wood construction.",
+        "decision": "Контрабас Goronok Каденция в аренду | Студенческая серия до размера 7/8",
+        "next_action": "Студенческая серия до размера 7/8"
+      },
+      "n1": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Каденция особенно интересна в контрабасе: каталог показывает размеры от 1/8 до 7/8. Т",
+        "decision": "Goronok Каденция для контрабаса | Резонансная древесина и взрослая исполнительская программа",
+        "next_action": "Резонансная древесина и взрослая исполнительская программа"
+      }
+    },
+    "goronok-aleksey-romanov-kontrabas-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Goronok Alexey Romanov double bass: master-made 3/4 and 7/8 instruments for gifted performing children, school graduates and college students.",
+        "decision": "Контрабас Goronok Алексей Романов в аренду | Мастеровая модель 3/4 и 7/8",
+        "next_action": "Мастеровая модель 3/4 и 7/8"
+      },
+      "n1": {
+        "source_path": "content/sections/zz63-goronok-bowed-family-expansion.json",
+        "source_quote": "Мастеровой контрабас «Алексей Романов» выпускается Goronok в 3/4 и 7/8 и производител",
+        "decision": "Goronok Алексей Романов для контрабаса | Авторский инструмент для молодых исполнителей",
+        "next_action": "Авторский инструмент для молодых исполнителей"
+      }
+    }
+  }
+}

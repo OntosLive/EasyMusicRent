@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychkovye-arcata": {
+      "n0": {
+        "source_path": "content/sections/zz61-russian-arcata-learning.json",
+        "source_quote": "Arcata: российская скрипичная мануфактура из Санкт-Петербурга; учебная Gasparo и студенческая Giovanni как отдельные уровни.",
+        "decision": "Смычковые Arcata в аренду | Российские учебные скрипки Gasparo и Giovanni",
+        "next_action": "Российские учебные скрипки Gasparo и Giovanni"
+      },
+      "n1": {
+        "source_path": "content/sections/zz61-russian-arcata-learning.json",
+        "source_quote": "Arcata полезна для фонда не просто как ещё одно имя на этикетке. Петербургская мануфа",
+        "decision": "Arcata из Санкт-Петербурга | Разные уровни скрипок одной мануфактуры",
+        "next_action": "Разные уровни скрипок одной мануфактуры"
+      }
+    },
+    "arcata-gasparo-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz61-russian-arcata-learning.json",
+        "source_quote": "Arcata Gasparo: российская ученическая скрипка, размеры 1/4–4/4, комплект с футляром, смычком и канифолью.",
+        "decision": "Скрипка Arcata Gasparo в аренду | Размеры от 1/4 до 4/4 с комплектом",
+        "next_action": "Размеры от 1/4 до 4/4 с комплектом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz61-russian-arcata-learning.json",
+        "source_quote": "Gasparo Arcata прямо называет ученической моделью и выпускает в нескольких размерах. ",
+        "decision": "Arcata Gasparo | Ученическая скрипка со смычком, футляром и канифолью",
+        "next_action": "Ученическая скрипка со смычком, футляром и канифолью"
+      }
+    },
+    "arcata-giovanni-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz61-russian-arcata-learning.json",
+        "source_quote": "Arcata Giovanni Set: студенческая скрипка 3/4 и 4/4 с массивной елью/клёном, комплектом и дополнительной доводкой.",
+        "decision": "Скрипка Arcata Giovanni в аренду | Студенческий инструмент 3/4 и 4/4",
+        "next_action": "Студенческий инструмент 3/4 и 4/4"
+      },
+      "n1": {
+        "source_path": "content/sections/zz61-russian-arcata-learning.json",
+        "source_quote": "Giovanni Arcata обозначает не просто более дорогую комплектацию Gasparo. Мануфактура ",
+        "decision": "Arcata Giovanni | Массивная ель и клён в комплекте для продолжения занятий",
+        "next_action": "Массивная ель и клён в комплекте для продолжения занятий"
+      }
+    }
+  }
+}

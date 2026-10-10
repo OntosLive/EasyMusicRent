@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychkovye-gewa": {
+      "n0": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "GEWA German Engineered: Allegro, Ideale и Maestro как серийные уровни для скрипки, альта и виолончели в дробных и полных размерах.",
+        "decision": "Смычковые GEWA в аренду | Скрипки, альты и виолончели учебных серий",
+        "next_action": "Скрипки, альты и виолончели учебных серий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "GEWA полезна для образовательного фонда тем, что её каталог организован не одной моде",
+        "decision": "GEWA German Engineered | Переход от Allegro к Ideale и Maestro",
+        "next_action": "Переход от Allegro к Ideale и Maestro"
+      }
+    },
+    "gewa-allegro-skripka-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "GEWA Allegro violin: German Engineered serial violin line in sizes 1/16–4/4, including left-hand variant.",
+        "decision": "Скрипка GEWA Allegro в аренду | Ученическая серия размеров от 1/16 до 4/4",
+        "next_action": "Ученическая серия размеров от 1/16 до 4/4"
+      },
+      "n1": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "Allegro особенно полезна как размерная линия: GEWA выпускает её от 1/16 до 4/4, причё",
+        "decision": "GEWA Allegro Violin | Школьные размеры и вариант для левшей",
+        "next_action": "Школьные размеры и вариант для левшей"
+      }
+    },
+    "gewa-maestro1-skripka-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "GEWA Maestro 1 violin: serial advanced line in 1/4, 1/2, 3/4 and 4/4 within GEWA German Engineered range.",
+        "decision": "Скрипка GEWA Maestro 1 в аренду | Продвинутая серия для ученика",
+        "next_action": "Продвинутая серия для ученика"
+      },
+      "n1": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "Maestro 1 полезна как следующая ступень после Allegro/Ideale, но особенно важен сам ф",
+        "decision": "GEWA Maestro 1 | Размеры от четверти до полного для нового репертуара",
+        "next_action": "Размеры от четверти до полного для нового репертуара"
+      }
+    },
+    "gewa-allegro-violonchel-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "GEWA Allegro cello: serial cello line in sizes 1/16, 1/8, 1/4, 1/2, 3/4, 4/4 and 7/8.",
+        "decision": "Виолончель GEWA Allegro в аренду | Учебная серия от 1/16 до 7/8",
+        "next_action": "Учебная серия от 1/16 до 7/8"
+      },
+      "n1": {
+        "source_path": "content/sections/zz70-gewa-education-family.json",
+        "source_quote": "У виолончельной Allegro особенно сильна размерная сетка: GEWA публикует варианты от 1",
+        "decision": "GEWA Allegro Cello | Модельная линейка и подбор корпуса по размеру исполнителя",
+        "next_action": "Модельная линейка и подбор корпуса по размеру исполнителя"
+      }
+    }
+  }
+}

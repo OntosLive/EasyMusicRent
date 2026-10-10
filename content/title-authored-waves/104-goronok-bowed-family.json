@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz63-goronok-bowed-family-expansion.json",
+      "slug": "goronok-nova-alt-v-arendu",
+      "n0": "Альт Goronok Нова в аренду | Российская ученическая серия разных размеров",
+      "n1": "Goronok Нова для альта | Длины корпуса под рост и постановку"
+    },
+    {
+      "source_file": "content/sections/zz63-goronok-bowed-family-expansion.json",
+      "slug": "goronok-kadentsiya-alt-v-arendu",
+      "n0": "Альт Goronok Каденция в аренду | Студенческая модель для развития техники",
+      "n1": "Goronok Каденция для альта | Компактные корпуса продвинутой серии"
+    },
+    {
+      "source_file": "content/sections/zz63-goronok-bowed-family-expansion.json",
+      "slug": "goronok-nova-violonchel-v-arendu",
+      "n0": "Виолончель Goronok Нова в аренду | Ученические размеры от дробных до полного",
+      "n1": "Goronok Нова для виолончели | Мензура и длина корпуса в первых занятиях"
+    },
+    {
+      "source_file": "content/sections/zz63-goronok-bowed-family-expansion.json",
+      "slug": "goronok-kadentsiya-violonchel-v-arendu",
+      "n0": "Виолончель Goronok Каденция в аренду | Продвинутая серия 7/8 и 4/4",
+      "n1": "Goronok Каденция для виолончели | Удобство корпуса и новая репертуарная ступень"
+    },
+    {
+      "source_file": "content/sections/zz63-goronok-bowed-family-expansion.json",
+      "slug": "goronok-nova-kontrabas-v-arendu",
+      "n0": "Контрабас Goronok Нова в аренду | Ученические размеры 1/4, 1/2 и 3/4",
+      "n1": "Goronok Нова для контрабаса | Российская сборка и соответствие мензуры ученику"
+    },
+    {
+      "source_file": "content/sections/zz63-goronok-bowed-family-expansion.json",
+      "slug": "goronok-kadentsiya-kontrabas-v-arendu",
+      "n0": "Контрабас Goronok Каденция в аренду | Студенческая серия до размера 7/8",
+      "n1": "Goronok Каденция для контрабаса | Резонансная древесина и взрослая исполнительская программа"
+    },
+    {
+      "source_file": "content/sections/zz63-goronok-bowed-family-expansion.json",
+      "slug": "goronok-aleksey-romanov-kontrabas-v-arendu",
+      "n0": "Контрабас Goronok Алексей Романов в аренду | Мастеровая модель 3/4 и 7/8",
+      "n1": "Goronok Алексей Романов для контрабаса | Авторский инструмент для молодых исполнителей"
+    }
+  ]
+}
