@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "legendarnye-sintezatory": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "DX7, Prophet-5, Jupiter-8, D-50, M1, JUNO-106, Minimoog и другие исторические hardware-референсы для записи и сцены.",
+        "decision": "Легендарные синтезаторы в аренду | Исторические Yamaha, Roland, Moog и Sequential",
+        "next_action": "Исторические Yamaha, Roland, Moog и Sequential"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Некоторые синтезаторы перестали быть просто старыми моделями. Их архитектура, пр",
+        "decision": "Легендарные синтезаторы | Как DX7, Prophet-5 и JUPITER-8 сформировали разные языки",
+        "next_action": "Как DX7, Prophet-5 и JUPITER-8 сформировали разные языки"
+      }
+    },
+    "rhodes-mark-i-stage-73-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Rhodes Mark I Stage 73: iconic 1970s tine piano, studio/live standard and genuine vintage backline instrument.",
+        "decision": "Rhodes Mark I Stage 73 в аренду | Настоящее электромеханическое пианино",
+        "next_action": "Настоящее электромеханическое пианино"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Mark I Stage 73 — не декоративное ретро-пианино. Rhodes сам называет его настоящ",
+        "decision": "Rhodes Mark I Stage 73 | Металлические язычки и исполнительская динамика электропиано",
+        "next_action": "Металлические язычки и исполнительская динамика электропиано"
+      }
+    },
+    "wurlitzer-200a-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Wurlitzer 200A electric piano: vintage reed-based electromechanical keyboard and long-lived backline standard.",
+        "decision": "Wurlitzer 200A в аренду | Классическое электромеханическое пианино для студии",
+        "next_action": "Классическое электромеханическое пианино для студии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Wurlitzer 200A занимает рядом с Rhodes собственную территорию. Его атака жёстче,",
+        "decision": "Wurlitzer 200A | Язычковая механика и характерная атака винтажного звука",
+        "next_action": "Язычковая механика и характерная атака винтажного звука"
+      }
+    },
+    "hohner-clavinet-e7-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Hohner Clavinet E7: vintage electro-mechanical clavinet and professional backline reference.",
+        "decision": "Hohner Clavinet E7 в аренду | Перкуссионная клавиатура для фанка и записи",
+        "next_action": "Перкуссионная клавиатура для фанка и записи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Clavinet нужен там, где клавишная партия ведёт себя почти как ритм-гитара: корот",
+        "decision": "Hohner Clavinet E7 | Струнная механика и короткая артикулированная атака",
+        "next_action": "Струнная механика и короткая артикулированная атака"
+      }
+    },
+    "yamaha-dx7-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Yamaha DX7: 1983 FM synthesizer, six-operator architecture and enduring digital-synth standard.",
+        "decision": "Yamaha DX7 в аренду | Шестиоператорный FM-синтезатор для сцены и студии",
+        "next_action": "Шестиоператорный FM-синтезатор для сцены и студии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Yamaha говорит об этом без оговорок: DX7, выпущенный в 1983 году, с FM-движком «",
+        "decision": "Yamaha DX7 | Цифровые FM-алгоритмы и исполнительский язык восьмидесятых",
+        "next_action": "Цифровые FM-алгоритмы и исполнительский язык восьмидесятых"
+      }
+    },
+    "sequential-prophet-5-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Sequential Prophet-5: legendary five-voice analog poly synth, modern reissue reproducing original revisions.",
+        "decision": "Sequential Prophet-5 в аренду | Пятиголосный аналоговый синтезатор",
+        "next_action": "Пятиголосный аналоговый синтезатор"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Sequential сам маркирует Prophet‑5 как Legendary 5‑voice Analog Poly Synth. Совр",
+        "decision": "Sequential Prophet-5 | Возвращение классической полифонической архитектуры",
+        "next_action": "Возвращение классической полифонической архитектуры"
+      }
+    },
+    "roland-jupiter-8-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Roland JUPITER-8: 1981 eight-voice two-oscillator analog polysynth and highly sought-after vintage icon.",
+        "decision": "Roland JUPITER-8 в аренду | Восьмиголосный аналоговый синтезатор",
+        "next_action": "Восьмиголосный аналоговый синтезатор"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Roland сам называет JUPITER‑8 «king of polysynths» и одним из самых желанных ана",
+        "decision": "Roland JUPITER-8 | Два осциллятора на голос и широкая аналоговая фактура",
+        "next_action": "Два осциллятора на голос и широкая аналоговая фактура"
+      }
+    },
+    "roland-d50-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Roland D-50: 1987 LA synthesizer with PCM attacks, subtractive synthesis and onboard digital effects.",
+        "decision": "Roland D-50 в аренду | Синтезатор LA с цифровыми эффектами",
+        "next_action": "Синтезатор LA с цифровыми эффектами"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "D‑50 появился в 1987 году и сразу соединял PCM-атаки, синтез и цифровые эффекты.",
+        "decision": "Roland D-50 | PCM-атаки и LA-синтез как новый язык конца восьмидесятых",
+        "next_action": "PCM-атаки и LA-синтез как новый язык конца восьмидесятых"
+      }
+    },
+    "korg-m1-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Korg M1: 1988 original music workstation with PCM synthesis, effects, drums and 8-track sequencer.",
+        "decision": "Korg M1 в аренду | Классическая рабочая станция с секвенсором",
+        "next_action": "Классическая рабочая станция с секвенсором"
+      },
+      "n1": {
+        "source_path": "content/sections/zz32-legendary-keyboards.json",
+        "source_quote": "Korg называет M1 первой workstation и инструментом, который определил музыку кон",
+        "decision": "Korg M1 | Сэмпловый синтез, ударные и восьмидорожечная организация музыки",
+        "next_action": "Сэмпловый синтез, ударные и восьмидорожечная организация музыки"
+      }
+    }
+  }
+}
