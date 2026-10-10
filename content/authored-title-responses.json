@@ -9,7 +9,7 @@
   ],
   "python_role": "literal_transfer_validation_coverage_only",
   "requires_owner_review": true,
-  "editorial_wave": "2026-10-10-asia-historical-rider-tasks-part3",
+  "editorial_wave": "2026-10-10-exact-performance-models",
   "pairs": {
     "keytara": {
       "n0": "Кейтара в аренду | Клавишные партии без привязки к стойке",
@@ -7174,6 +7174,142 @@
     "kalimba-dlya-zapisi-pesni": {
       "n0": "Калимба для записи песни в аренду | Настроенные язычки для мелодии",
       "n1": "Калимба в песне | Корпус, расположение язычков и способ записи"
+    },
+    "korg-minilogue-xd-v-arendu": {
+      "n0": "Korg minilogue xd в аренду | Четыре голоса и секвенсор для сцены и записи",
+      "n1": "Korg minilogue xd | Полифония, цифровой генератор и движение тембра"
+    },
+    "korg-monologue-v-arendu": {
+      "n0": "Korg monologue в аренду | Монофонический синтезатор для баса и соло",
+      "n1": "Korg monologue | Один голос с выразительным секвенсором"
+    },
+    "arturia-microfreak-v-arendu": {
+      "n0": "Arturia MicroFreak в аренду | Синтезатор с ёмкостной клавиатурой",
+      "n1": "Arturia MicroFreak | Парафония и новый способ касаться звука"
+    },
+    "roland-spd-sx-pro-v-arendu": {
+      "n0": "Roland SPD-SX PRO в аренду | Семплерный пэд для ударного райдера",
+      "n1": "Roland SPD-SX PRO | Загрузка своих звуков и раскладка сценических пэдов"
+    },
+    "roland-sp-404mkii-v-arendu": {
+      "n0": "Roland SP-404MKII в аренду | Семплер для записи и живой обработки",
+      "n1": "Roland SP-404MKII | Нарезка звуков и организация собственного материала"
+    },
+    "boss-rc-505mkii-v-arendu": {
+      "n0": "BOSS RC-505mkII в аренду | Пять дорожек для вокального лупинга",
+      "n1": "BOSS RC-505mkII | Слои петель под прямым управлением руками"
+    },
+    "boss-rc-600-v-arendu": {
+      "n0": "BOSS RC-600 в аренду | Шесть луп-дорожек и ножное управление",
+      "n1": "BOSS RC-600 | Несколько музыкальных голосов без остановки игры"
+    },
+    "roland-aerophone-ae20-v-arendu": {
+      "n0": "Roland Aerophone AE-20 в аренду | Электронный духовой с управлением дыханием",
+      "n1": "Roland Aerophone AE-20 | Знакомая аппликатура и новые звуковые тембры"
+    },
+    "moog-theremini-v-arendu": {
+      "n0": "Moog Theremini в аренду | Терменвокс с коррекцией высоты",
+      "n1": "Moog Theremini | Калибровка жеста и помощь в удержании интонации"
+    },
+    "expressive-e-osmose-v-arendu": {
+      "n0": "Expressive E Osmose в аренду | Выразительная клавиатура для отдельных нот",
+      "n1": "Expressive E Osmose | Продолжение музыкального жеста после нажатия клавиши"
+    },
+    "yamaha-yfl212-v-arendu": {
+      "n0": "Флейта Yamaha YFL-212 в аренду | Учебная модель с закрытыми клапанами",
+      "n1": "Yamaha YFL-212 | Смещённая клавиша соль и удобство школьной механики"
+    },
+    "yamaha-ycl255-v-arendu": {
+      "n0": "Кларнет Yamaha YCL-255 в аренду | Модель B♭ системы Бёма для школы",
+      "n1": "Yamaha YCL-255 | ABS-корпус и регулируемая опора большого пальца"
+    },
+    "yamaha-yas280-v-arendu": {
+      "n0": "Альт-саксофон Yamaha YAS-280 в аренду | Учебный голос E♭",
+      "n1": "Yamaha YAS-280 | Регулируемая опора и первый комплект альт-саксофониста"
+    },
+    "yamaha-yts280-v-arendu": {
+      "n0": "Тенор-саксофон Yamaha YTS-280 в аренду | Учебная модель B♭",
+      "n1": "Yamaha YTS-280 | Посадка и механика большого саксофонного голоса"
+    },
+    "yamaha-ytr2330-v-arendu": {
+      "n0": "Труба Yamaha YTR-2330 в аренду | Учебная модель в строе B♭",
+      "n1": "Yamaha YTR-2330 | Клапаны и устойчивое начало звука в первых пьесах"
+    },
+    "yamaha-ysl354-v-arendu": {
+      "n0": "Тромбон Yamaha YSL-354 в аренду | Теноровая модель B♭ для занятий",
+      "n1": "Yamaha YSL-354 | Работа кулисы и привычные позиции на тромбоне"
+    },
+    "yamaha-yhr567-v-arendu": {
+      "n0": "Валторна Yamaha YHR-567 в аренду | Полная двойная система F/B♭",
+      "n1": "Yamaha YHR-567 | Переключение двух строев и контроль оркестровой партии"
+    },
+    "yamaha-yep201-v-arendu": {
+      "n0": "Эуфониум Yamaha YEP-201 в аренду | Ученическая модель с тремя клапанами",
+      "n1": "Yamaha YEP-201 | Трёхпистонная система в ансамблевой программе"
+    },
+    "yamaha-fg800-v-arendu": {
+      "n0": "Гитара Yamaha FG800 в аренду | Акустический корпус и массивная еловая дека",
+      "n1": "Yamaha FG800 | Удобство dreadnought рядом с собственным голосом"
+    },
+    "yamaha-fgx800c-v-arendu": {
+      "n0": "Гитара Yamaha FGX800C в аренду | Электроакустика с вырезом и System66",
+      "n1": "Yamaha FGX800C | Перенос аккомпанемента на сцену через предусилитель"
+    },
+    "yamaha-pac112v-v-arendu": {
+      "n0": "Электрогитара Yamaha Pacifica PAC112V в аренду | HSS и отсечка хамбакера",
+      "n1": "Yamaha PAC112V | Несколько гитарных звуков одной исполнительской программы"
+    },
+    "ibanez-sr300e-v-arendu": {
+      "n0": "Бас-гитара Ibanez SR300E в аренду | Активный эквалайзер и Power Tap",
+      "n1": "Ibanez SR300E | Настройка басового тембра через PowerSpan Dual Coil"
+    },
+    "fender-player-ii-stratocaster-sss-v-arendu": {
+      "n0": "Fender Player II Stratocaster SSS в аренду | Три сингла и тремоло",
+      "n1": "Player II Stratocaster SSS | Пять положений и разная атака одной гитары"
+    },
+    "fender-player-ii-telecaster-v-arendu": {
+      "n0": "Fender Player II Telecaster в аренду | Два сингла и фиксированный бридж",
+      "n1": "Player II Telecaster | Три положения выбора характерного гитарного голоса"
+    },
+    "fender-player-ii-precision-bass-v-arendu": {
+      "n0": "Fender Player II Precision Bass в аренду | Классический split-coil",
+      "n1": "Player II Precision Bass | Простая схема управления рабочей басовой партией"
+    },
+    "fender-player-ii-jazz-bass-v-arendu": {
+      "n0": "Fender Player II Jazz Bass в аренду | Два сингла с раздельной громкостью",
+      "n1": "Player II Jazz Bass | Соотношение звукоснимателей внутри одной басовой линии"
+    },
+    "nord-stage-4-v-arendu": {
+      "n0": "Nord Stage 4 в аренду | Сценическая клавиатура для концертного периода",
+      "n1": "Nord Stage 4 | Подготовленные тембры и переключение между партиями"
+    },
+    "nord-electro-6d-v-arendu": {
+      "n0": "Nord Electro 6D в аренду | Органные и фортепианные партии на одной клавиатуре",
+      "n1": "Nord Electro 6D | Секции звука и выбор 61 или 73 клавиш"
+    },
+    "roland-rd88ex-v-arendu": {
+      "n0": "Roland RD-88 EX в аренду | 88 клавиш PHA-4 для сцены",
+      "n1": "Roland RD-88 EX | Три зоны и встроенные динамики выездного пианино"
+    },
+    "korg-sv2-v-arendu": {
+      "n0": "Korg SV-2 в аренду | Сценическое пианино с механикой RH3",
+      "n1": "Korg SV-2 | Версии на 73 и 88 клавиш и подготовленные тембры"
+    },
+    "roland-td17kvx2-v-arendu": {
+      "n0": "Электронные барабаны Roland TD-17KVX2 в аренду | Пэды и хай-хэт VH-10",
+      "n1": "Roland TD-17KVX2 | Привычные ударные движения на цифровом комплекте"
+    },
+    "roland-td27kv2-v-arendu": {
+      "n0": "Электронные барабаны Roland TD-27KV2 в аренду | Цифровой малый и райд",
+      "n1": "Roland TD-27KV2 | Настройка чувствительности и нюансов барабанной атаки"
+    },
+    "yamaha-dtx6k3x-v-arendu": {
+      "n0": "Электронные барабаны Yamaha DTX6K3-X в аренду | Модуль DTX-PRO и TCS-пэды",
+      "n1": "Yamaha DTX6K3-X | Ударная поверхность TCS и ощущение отскока"
+    },
+    "alesis-nitro-max-v-arendu": {
+      "n0": "Электронные барабаны Alesis Nitro Max в аренду | Сетчатые пэды для дома",
+      "n1": "Alesis Nitro Max | Рама, педали и организация домашней ударной практики"
     }
   }
 }

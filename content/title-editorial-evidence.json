@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3582,
+  "record_count": 3650,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -132,6 +132,10 @@
     "content/title-authored-evidence/117b-brass-performance-tasks.json",
     "content/title-authored-evidence/117c-harp-and-bellows-tasks.json",
     "content/title-authored-evidence/117d-historical-electric-string-tasks.json",
-    "content/title-authored-evidence/117e-traditional-human-tasks.json"
+    "content/title-authored-evidence/117e-traditional-human-tasks.json",
+    "content/title-authored-evidence/118a-performance-electronic-models.json",
+    "content/title-authored-evidence/118b-yamaha-wind-models.json",
+    "content/title-authored-evidence/118c-guitar-and-bass-models.json",
+    "content/title-authored-evidence/118d-keyboard-and-drum-models.json"
   ]
 }
