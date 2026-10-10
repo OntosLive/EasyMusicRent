@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "review_type": "literal excerpts from section JSON",
+  "reviews": {
+    "casio-cdps110-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Casio CDP-S110 для первых занятий: молоточковая клавиатура, простая педа",
+        "decision": "Casio CDP-S110 напрокат | Простое цифровое пианино для начала занятий",
+        "next_action": "Простое цифровое пианино для начала занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Уроки уже начались, а домашнее пианино ещё не выбрано. CDP-S110 позволяе",
+        "decision": "Casio CDP-S110 | Молоточковая клавиатура без сложного управления",
+        "next_action": "Молоточковая клавиатура без сложного управления"
+      }
+    },
+    "casio-cdps160-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Casio CDP-S160: совместимость с SP-34, режим дуэта, запись исполнения и ",
+        "decision": "Casio CDP-S160 в аренду | Компактное пианино с расширенным педальным комплектом",
+        "next_action": "Компактное пианино с расширенным педальным комплектом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Нужен компактный инструмент, а педаль уже стала частью урока. У CDP-S160",
+        "decision": "Casio CDP-S160 | Поддержка SP-34, режим дуэта и запись исполнения",
+        "next_action": "Поддержка SP-34, режим дуэта и запись исполнения"
+      }
+    },
+    "casio-cdps360-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Casio CDP-S360 для работы с песней: автоаккомпанемент, колесо высоты, за",
+        "decision": "Casio CDP-S360 напрокат | Пианино с автоаккомпанементом и записью партий",
+        "next_action": "Пианино с автоаккомпанементом и записью партий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Хочется не только разучить фортепианную партию, но и услышать её с басом",
+        "decision": "Casio CDP-S360 | Фортепианная клавиатура и функции аранжировки",
+        "next_action": "Фортепианная клавиатура и функции аранжировки"
+      }
+    },
+    "casio-px770-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Casio PX-770: корпус с тремя педалями, клавиатура Tri-sensor II и совмес",
+        "decision": "Casio PX-770 в аренду | Домашняя Privia с тремя педалями",
+        "next_action": "Домашняя Privia с тремя педалями"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Домашние занятия проще начать, когда пианино уже стоит на месте и не тре",
+        "decision": "Casio PX-770 | Корпусная клавиатура Tri-sensor II для ежедневных уроков",
+        "next_action": "Корпусная клавиатура Tri-sensor II для ежедневных уроков"
+      }
+    },
+    "casio-px870-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Casio PX-870: система Sound Projection, запись WAV и оценка звука на обы",
+        "decision": "Casio PX-870 напрокат | Домашнее пианино с развитой системой звучания",
+        "next_action": "Домашнее пианино с развитой системой звучания"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "В магазине звук понравился, а дома предстоит играть на другой громкости ",
+        "decision": "Casio PX-870 | Sound Projection и запись аудио в WAV",
+        "next_action": "Sound Projection и запись аудио в WAV"
+      }
+    },
+    "kawai-kdp120-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Kawai KDP120: механика RHC II, три педали, Bluetooth MIDI и требования к",
+        "decision": "Kawai KDP120 в аренду | Корпусное пианино с тремя педалями для учёбы",
+        "next_action": "Корпусное пианино с тремя педалями для учёбы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Вы уже знаете, какие места программы не получаются на нынешней клавиатур",
+        "decision": "Kawai KDP120 | Механика RHC II и Bluetooth MIDI в домашней модели",
+        "next_action": "Механика RHC II и Bluetooth MIDI в домашней модели"
+      }
+    },
+    "roland-fpe50-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Roland FP-E50 для песни: клавиатура PHA-4 Standard, автоаккомпанемент, м",
+        "decision": "Roland FP-E50 напрокат | Цифровое пианино для песни и игры с сопровождением",
+        "next_action": "Цифровое пианино для песни и игры с сопровождением"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Нужно подготовить несколько песен одному: сыграть клавишную партию, спет",
+        "decision": "Roland FP-E50 | PHA-4, микрофонный вход и автоаккомпанемент",
+        "next_action": "PHA-4, микрофонный вход и автоаккомпанемент"
+      }
+    },
+    "yamaha-dgx670-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Yamaha DGX-670 для работы над песней: GHS, Adaptive Style, микрофонный в",
+        "decision": "Yamaha DGX-670 в аренду | Пианино и аранжировочная станция для песни",
+        "next_action": "Пианино и аранжировочная станция для песни"
+      },
+      "n1": {
+        "source_path": "content/sections/zz01-home-piano-models.json",
+        "source_quote": "Хочется услышать песню целиком, сохранив привычную фортепианную работу р",
+        "decision": "Yamaha DGX-670 | Клавиатура GHS и Adaptive Style в одном инструменте",
+        "next_action": "Клавиатура GHS и Adaptive Style в одном инструменте"
+      }
+    },
+    "yamaha-b1-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha b1: размеры корпуса, работа модератора и подготовка места для нас",
+        "decision": "Yamaha b1 напрокат | Небольшое акустическое пианино для домашних занятий",
+        "next_action": "Небольшое акустическое пианино для домашних занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Хочется заниматься на акустическом пианино, а места для большого корпуса",
+        "decision": "Yamaha b1 | Настоящая механика и вертикальный корпус для комнаты",
+        "next_action": "Настоящая механика и вертикальный корпус для комнаты"
+      }
+    },
+    "yamaha-b2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha b2: положение между моделями b1 и b3, размеры корпуса и проверка ",
+        "decision": "Yamaha b2 в аренду | Акустическое пианино между компактным b1 и более крупным b3",
+        "next_action": "Акустическое пианино между компактным b1 и более крупным b3"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Вы сравниваете несколько акустических пианино и хотите понять, что дейст",
+        "decision": "Yamaha b2 | Промежуточный размер семейства акустических пианино",
+        "next_action": "Промежуточный размер семейства акустических пианино"
+      }
+    },
+    "yamaha-b3-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha b3: корпус высотой 121 см, работа с фактурой и отличие выбора мод",
+        "decision": "Yamaha b3 напрокат | Высокий вертикальный корпус для серьёзной практики",
+        "next_action": "Высокий вертикальный корпус для серьёзной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "В программе стало больше плотной фактуры, а дома хочется яснее слышать о",
+        "decision": "Yamaha b3 | Акустическое пианино высотой 121 сантиметр",
+        "next_action": "Акустическое пианино высотой 121 сантиметр"
+      }
+    },
+    "yamaha-u1-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha U1 для регулярной практики: точная модификация, состояние механик",
+        "decision": "Yamaha U1 в аренду | Проверенный акустический формат для регулярных занятий",
+        "next_action": "Проверенный акустический формат для регулярных занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "В классе стоит U1, и хочется получить похожую рабочую опору дома. Назван",
+        "decision": "Yamaha U1 | Вертикальная фортепианная механика в разных модификациях",
+        "next_action": "Вертикальная фортепианная механика в разных модификациях"
+      }
+    },
+    "yamaha-u3-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha U3: высота 131 см, проверка тихой динамики, педальной конфигураци",
+        "decision": "Yamaha U3 напрокат | Большое акустическое пианино для сильного ученика",
+        "next_action": "Большое акустическое пианино для сильного ученика"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Нужен акустический инструмент с более крупным вертикальным корпусом, а р",
+        "decision": "Yamaha U3 | Вертикальный корпус высотой 131 сантиметр",
+        "next_action": "Вертикальный корпус высотой 131 сантиметр"
+      }
+    },
+    "yamaha-gb1k-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha GB1K: компактный корпус длиной 151 см, исполнительская проба и пл",
+        "decision": "Yamaha GB1K в аренду | Небольшой акустический рояль для камерной сцены",
+        "next_action": "Небольшой акустический рояль для камерной сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Для камерного события нужен именно рояль, а свободное пространство огран",
+        "decision": "Yamaha GB1K | Компактный рояль длиной 151 сантиметр",
+        "next_action": "Компактный рояль длиной 151 сантиметр"
+      }
+    },
+    "yamaha-c3x-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha C3X: корпус длиной 186 см, отличие от C3 и проверка механики в по",
+        "decision": "Yamaha C3X напрокат | Концертный рояль для зала и студийной записи",
+        "next_action": "Концертный рояль для зала и студийной записи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "В райдере указан C3X, либо вы уже знаете эту модель и хотите на ней рабо",
+        "decision": "Yamaha C3X | Акустический рояль длиной 186 сантиметров",
+        "next_action": "Акустический рояль длиной 186 сантиметров"
+      }
+    },
+    "yamaha-c7x-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Yamaha C7X: длина 227 см, размещение большого рояля, отличие от CFX и по",
+        "decision": "Yamaha C7X в аренду | Большой концертный рояль для серьёзной программы",
+        "next_action": "Большой концертный рояль для серьёзной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz02-acoustic-piano-models.json",
+        "source_quote": "Для программы нужен большой рояль, и в обсуждении появился C7X. Его длин",
+        "decision": "Yamaha C7X | Корпус длиной 227 сантиметров для масштабной сцены",
+        "next_action": "Корпус длиной 227 сантиметров для масштабной сцены"
+      }
+    }
+  }
+}
