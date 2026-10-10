@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2868,
+  "record_count": 2914,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -77,6 +77,10 @@
     "content/title-authored-evidence/73-beginner-guitars-drums-amps.json",
     "content/title-authored-evidence/74-student-wind-alternatives.json",
     "content/title-authored-evidence/75-student-wind-ergonomics.json",
-    "content/title-authored-evidence/76-student-tenor-jupiter.json"
+    "content/title-authored-evidence/76-student-tenor-jupiter.json",
+    "content/title-authored-evidence/77-arcata-bowed-learning.json",
+    "content/title-authored-evidence/78-goronok-violin-ladder.json",
+    "content/title-authored-evidence/79-goronok-bowed-family.json",
+    "content/title-authored-evidence/80-hidersine-education-family.json"
   ]
 }
