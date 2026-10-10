@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz33-drum-harp-rider-standards.json",
+      "slug": "yamaha-absolute-hybrid-maple-v-arendu",
+      "n0": "Yamaha Absolute Hybrid Maple в аренду | Профессиональные барабаны под райдер",
+      "n1": "Yamaha Absolute Hybrid Maple | Слои клёна и венге в гибридной конструкции"
+    },
+    {
+      "source_file": "content/sections/zz33-drum-harp-rider-standards.json",
+      "slug": "ludwig-classic-maple-v-arendu",
+      "n0": "Ludwig Classic Maple в аренду | Барабанный комплект профессиональной серии",
+      "n1": "Ludwig Classic Maple | Современный корпус и традиционная акустическая школа"
+    },
+    {
+      "source_file": "content/sections/zz33-drum-harp-rider-standards.json",
+      "slug": "tama-starclassic-performer-bb-v-arendu",
+      "n0": "Tama Starclassic Performer Birch/Bubinga в аренду | Легендарная серия ударных",
+      "n1": "Tama Starclassic Performer Birch/Bubinga | Берёза и бубинга в историческом бэклайне"
+    },
+    {
+      "source_file": "content/sections/zz33-drum-harp-rider-standards.json",
+      "slug": "pearl-masters-custom-v-arendu",
+      "n0": "Pearl Masters Custom в аренду | Комплект профессиональных барабанов",
+      "n1": "Pearl Masters Custom | Различия поколений и размеров студийных корпусов"
+    },
+    {
+      "source_file": "content/sections/zz33-drum-harp-rider-standards.json",
+      "slug": "ludwig-supraphonic-lm400-v-arendu",
+      "n0": "Малый барабан Ludwig Supraphonic LM400 в аренду | Алюминиевый корпус 5×14",
+      "n1": "Ludwig Supraphonic LM400 | Бесшовный алюминий и универсальная атака малого барабана"
+    },
+    {
+      "source_file": "content/sections/zz33-drum-harp-rider-standards.json",
+      "slug": "lyon-healy-style-30-v-arendu",
+      "n0": "Арфа Lyon & Healy Style 30 в аренду | Профессиональная педальная модель на 47 струн",
+      "n1": "Lyon & Healy Style 30 | Концертная арфа и её сценическая геометрия"
+    },
+    {
+      "source_file": "content/sections/zz33-drum-harp-rider-standards.json",
+      "slug": "lyon-healy-chicago-cg-extended-v-arendu",
+      "n0": "Арфа Lyon & Healy Chicago CG Extended в аренду | Concert Grand на 47 струн",
+      "n1": "Lyon & Healy Chicago CG Extended | Большая педальная арфа для профессиональной сцены"
+    }
+  ]
+}
