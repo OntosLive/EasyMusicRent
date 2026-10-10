@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2828,
+  "record_count": 2868,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -71,6 +71,12 @@
     "content/title-authored-evidence/67-russian-bayan-yupiter.json",
     "content/title-authored-evidence/68-string-brand-school.json",
     "content/title-authored-evidence/69-practice-quality-context.json",
-    "content/title-authored-evidence/70-orff-first-electric.json"
+    "content/title-authored-evidence/70-orff-first-electric.json",
+    "content/title-authored-evidence/71-stable-digital-piano-setup.json",
+    "content/title-authored-evidence/72-early-orff-models.json",
+    "content/title-authored-evidence/73-beginner-guitars-drums-amps.json",
+    "content/title-authored-evidence/74-student-wind-alternatives.json",
+    "content/title-authored-evidence/75-student-wind-ergonomics.json",
+    "content/title-authored-evidence/76-student-tenor-jupiter.json"
   ]
 }
