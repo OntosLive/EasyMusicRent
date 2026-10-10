@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "fender-american-professional-ii-telecaster-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "Fender American Professional II Telecaster: два V-Mod II single-coil, фиксированный top-load/string-through bridge и знакомая Telecaster-логика.",
+        "decision": "Fender American Professional II Telecaster в аренду | Два сингла и фиксированный бридж",
+        "next_action": "Два сингла и фиксированный бридж"
+      },
+      "n1": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "Telecaster в райдере — это не «ещё один Fender». Музыкант ожидает два сингла, фи",
+        "decision": "American Professional II Telecaster | Знакомая атака Tele и способы крепления струн",
+        "next_action": "Знакомая атака Tele и способы крепления струн"
+      }
+    },
+    "fender-american-professional-ii-precision-bass-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "Fender American Professional II Precision Bass: 34, один V-Mod II split-coil, volume/tone и классическая P Bass геометрия.",
+        "decision": "Fender American Professional II Precision Bass в аренду | Один split-coil",
+        "next_action": "Один split-coil"
+      },
+      "n1": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "Precision Bass в райдере обычно нужен именно за отсутствие лишних развилок: один",
+        "decision": "American Professional II Precision Bass | Мензура 34 дюйма и рабочая басовая геометрия",
+        "next_action": "Мензура 34 дюйма и рабочая басовая геометрия"
+      }
+    },
+    "gibson-j45-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "Gibson J-45: iconic round-shoulder acoustic, mid-rich tone, современная электроника в road-ready версиях и реальная backline-позиция.",
+        "decision": "Gibson J-45 в аренду | Акустический round-shoulder для концерта",
+        "next_action": "Акустический round-shoulder для концерта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "J-45 занимает рядом с Martin D-28 другую акустическую нишу. Gibson сам называет ",
+        "decision": "Gibson J-45 | Форма корпуса и средний регистр акустической гитары",
+        "next_action": "Форма корпуса и средний регистр акустической гитары"
+      }
+    },
+    "ludwig-black-beauty-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "Ludwig Black Beauty: seamless brass shell, black nickel, 14x5 / 14x6.5 и легендарный студийно-сценический snare standard.",
+        "decision": "Малый барабан Ludwig Black Beauty в аренду | Латунный корпус 14 дюймов",
+        "next_action": "Латунный корпус 14 дюймов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz27-rider-core-second-pass.json",
+        "source_quote": "Black Beauty — один из тех малых барабанов, которые артист может указать в райде",
+        "decision": "Ludwig Black Beauty | Бесшовная латунь и размеры 14×5 и 14×6,5",
+        "next_action": "Бесшовная латунь и размеры 14×5 и 14×6,5"
+      }
+    }
+  }
+}
