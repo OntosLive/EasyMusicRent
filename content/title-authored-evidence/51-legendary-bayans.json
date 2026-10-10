@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "hohner-gola-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz34-accordion-bayan-legendary-models.json",
+        "source_quote": "Hohner Gola: individually configured flagship accordion, long-standing soloist reference and handcrafted professional instrument.",
+        "decision": "Аккордеон Hohner Gola в аренду | Индивидуальная профессиональная конфигурация",
+        "next_action": "Индивидуальная профессиональная конфигурация"
+      },
+      "n1": {
+        "source_path": "content/sections/zz34-accordion-bayan-legendary-models.json",
+        "source_quote": "Gola принципиально отличается от серийной «модели по артикулу». Hohner пишет, чт",
+        "decision": "Hohner Gola | Инструмент ручной сборки для солистической работы",
+        "next_action": "Инструмент ручной сборки для солистической работы"
+      }
+    },
+    "pigini-super-bayan-sirius-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz34-accordion-bayan-legendary-models.json",
+        "source_quote": "Pigini Super Bayan Sirius: 106-button right manual, 64 tones, 58 free basses, 120 standard basses and cassotto.",
+        "decision": "Баян Pigini Super Bayan Sirius в аренду | Большая концертная свободнобасовая система",
+        "next_action": "Большая концертная свободнобасовая система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz34-accordion-bayan-legendary-models.json",
+        "source_quote": "Super Bayan Sirius относится к инструментам, где слово «баян» уже слишком широко",
+        "decision": "Pigini Super Bayan Sirius | Выборный бас, регистры и крупная клавишная архитектура",
+        "next_action": "Выборный бас, регистры и крупная клавишная архитектура"
+      }
+    },
+    "pigini-sirius-kyma-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz34-accordion-bayan-legendary-models.json",
+        "source_quote": "Pigini Sirius Kyma: compact professional button accordion with free bass, cassotto and 12 kg body.",
+        "decision": "Баян Pigini Sirius Kyma в аренду | Компактный профессиональный выборный бас",
+        "next_action": "Компактный профессиональный выборный бас"
+      },
+      "n1": {
+        "source_path": "content/sections/zz34-accordion-bayan-legendary-models.json",
+        "source_quote": "Sirius Kyma важен как другой тип профессионального запроса: сохранить concert/fr",
+        "decision": "Pigini Sirius Kyma | Меньший корпус с полноценной свободнобасовой системой",
+        "next_action": "Меньший корпус с полноценной свободнобасовой системой"
+      }
+    }
+  }
+}
