@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-yfl677-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Yamaha YFL-677: advanced/professional flute available in Yamaha rental programs; exact headjoint and configuration confirmed per instrument.",
+        "decision": "Флейта Yamaha YFL-677 в аренду | Профессиональная модель для сцены и обучения",
+        "next_action": "Профессиональная модель для сцены и обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "YFL‑677 — уже не ученическая ступень рядом с YFL‑212, а профессионально ориентир",
+        "decision": "Yamaha YFL-677 | Головка, механика и точная конфигурация профессиональной флейты",
+        "next_action": "Головка, механика и точная конфигурация профессиональной флейты"
+      }
+    },
+    "yamaha-yas62-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Yamaha YAS-62 professional alto saxophone, explicitly described as legendary and offered in Yamaha's rental system.",
+        "decision": "Альт-саксофон Yamaha YAS-62 в аренду | Профессиональная серия для концерта",
+        "next_action": "Профессиональная серия для концерта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Yamaha прямо называет 62 уже легендарной серией и одновременно сдаёт YAS‑62 в со",
+        "decision": "Yamaha YAS-62 | Долгая история серии и современная механика альта",
+        "next_action": "Долгая история серии и современная механика альта"
+      }
+    },
+    "yamaha-yts62-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Yamaha YTS-62 professional tenor saxophone in official Yamaha rental; long-lived 62-series reference.",
+        "decision": "Тенор-саксофон Yamaha YTS-62 в аренду | Исполнительская модель для сцены",
+        "next_action": "Исполнительская модель для сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "YTS‑62 живёт сразу в трёх мирах: как серийный профессиональный тенор, как истори",
+        "decision": "Yamaha YTS-62 | Профессиональный тенор, переживший несколько поколений",
+        "next_action": "Профессиональный тенор, переживший несколько поколений"
+      }
+    },
+    "loree-royal-oboe-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "F. Lorée Royal oboe: elite professional conservatory-system instrument available through specialist rental.",
+        "decision": "Гобой F. Lorée Royal в аренду | Профессиональная модель для оркестра",
+        "next_action": "Профессиональная модель для оркестра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Lorée Royal — хороший пример модели, которая почти не встречается в массовом бэк",
+        "decision": "Lorée Royal | Консерваторская система и индивидуальный отклик трости",
+        "next_action": "Консерваторская система и индивидуальный отклик трости"
+      }
+    },
+    "marigaux-901-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Marigaux 901 professional oboe available in specialist rental inventory; concrete instrument condition and setup remain decisive.",
+        "decision": "Гобой Marigaux 901 в аренду | Профессиональный инструмент для концерта",
+        "next_action": "Профессиональный инструмент для концерта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Marigaux 901 — ещё одна модель, которую нельзя вывести из общего слова «професси",
+        "decision": "Marigaux 901 | Механика и отклик гобоя в сольной и ансамблевой работе",
+        "next_action": "Механика и отклик гобоя в сольной и ансамблевой работе"
+      }
+    },
+    "fox-601-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Fox Model 601 professional thick-wall bassoon for solo and orchestral players; rental availability must be confirmed separately.",
+        "decision": "Фагот Fox Model 601 в аренду | Профессиональная модель для оркестра",
+        "next_action": "Профессиональная модель для оркестра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Fox 601 относится к профессиональным фаготам, где номер модели уже сообщает музы",
+        "decision": "Fox 601 | Толстостенный корпус и звуковая проекция фагота",
+        "next_action": "Толстостенный корпус и звуковая проекция фагота"
+      }
+    },
+    "yamaha-ytr8335rs-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Yamaha Xeno YTR-8335RS professional B-flat trumpet available in Yamaha rental; reverse leadpipe Xeno configuration.",
+        "decision": "Труба Yamaha Xeno YTR-8335RS в аренду | Профессиональная B♭ модель",
+        "next_action": "Профессиональная B♭ модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "YTR‑8335RS представляет современную профессиональную линию Xeno и одновременно р",
+        "decision": "Yamaha YTR-8335RS | Обратная лидтруба и характер отклика серии Xeno",
+        "next_action": "Обратная лидтруба и характер отклика серии Xeno"
+      }
+    },
+    "bach-42bo-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Bach 42BO professional B-flat tenor trombone: .547 bore, 8.5 bell, open-wrap F attachment; Conn-Selmer Top Pick.",
+        "decision": "Тромбон Bach Stradivarius 42BO в аренду | Симфоническая модель с F-квартой",
+        "next_action": "Симфоническая модель с F-квартой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Bach 42BO — не просто ещё один large-bore trombone. Conn-Selmer называет его сам",
+        "decision": "Bach 42BO | Широкая мензура и открытая обводка квартвентиля",
+        "next_action": "Широкая мензура и открытая обводка квартвентиля"
+      }
+    },
+    "alexander-103-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Gebr. Alexander Model 103 F/B-flat double horn, long-lived professional European reference.",
+        "decision": "Валторна Alexander 103 в аренду | Двойная система F/B♭",
+        "next_action": "Двойная система F/B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Если Conn 8D представляет одну большую американскую horn-традицию, Alexander 103",
+        "decision": "Alexander 103 | Европейская оркестровая традиция профессиональной валторны",
+        "next_action": "Европейская оркестровая традиция профессиональной валторны"
+      }
+    },
+    "besson-prestige-2052-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Besson Prestige 2052 B-flat euphonium: 4 compensating valves, tuning-slide trigger and professional solo/band reference.",
+        "decision": "Эуфониум Besson Prestige 2052 в аренду | Компенсирующая система для солиста",
+        "next_action": "Компенсирующая система для солиста"
+      },
+      "n1": {
+        "source_path": "content/sections/zz31-professional-wind-standards.json",
+        "source_quote": "Prestige 2052 создан уже внутри профессиональной логики: Besson называет его выб",
+        "decision": "Besson Prestige 2052 | Четыре компенсирующих клапана и триггер настройки",
+        "next_action": "Четыре компенсирующих клапана и триггер настройки"
+      }
+    }
+  }
+}
