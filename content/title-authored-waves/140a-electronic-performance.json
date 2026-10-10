@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99-electronic-performance.json",
+      "slug": "fm-sintezator",
+      "n0": "FM-синтезатор в аренду | Инструменты для программируемых тембров и сцены",
+      "n1": "FM-синтезатор | Как взаимодействие операторов меняет атаку и окраску ноты"
+    },
+    {
+      "source_file": "content/sections/99-electronic-performance.json",
+      "slug": "wavetable-sintezator",
+      "n0": "Wavetable-синтезатор в аренду | Волновые таблицы для подвижного звука",
+      "n1": "Волновой синтезатор | Тембровое движение между разными формами волн"
+    },
+    {
+      "source_file": "content/sections/99-electronic-performance.json",
+      "slug": "modulnyy-sintezator",
+      "n0": "Модульный синтезатор в аренду | Комплект модулей и коммутации для проекта",
+      "n1": "Модульный синтезатор | Источник, фильтр, патч-кабели и воспроизводимость звука"
+    },
+    {
+      "source_file": "content/sections/99-electronic-performance.json",
+      "slug": "semplernye-pedy",
+      "n0": "Семплерные пэды в аренду | Загрузка своих звуков для сцены и ударной установки",
+      "n1": "Семплерный пэд | Управление фразами, креплением и отдельными выходами"
+    },
+    {
+      "source_file": "content/sections/99-electronic-performance.json",
+      "slug": "lup-stantsiya",
+      "n0": "Луп-станция в аренду | Запись и повторение живых музыкальных партий",
+      "n1": "Луп-станция | Слои, управление ногой и остановка петель в исполнении"
+    },
+    {
+      "source_file": "content/sections/99-electronic-performance.json",
+      "slug": "mpe-kontroller",
+      "n0": "MPE-контроллер в аренду | Независимое выражение каждой звучащей ноты",
+      "n1": "MPE-контроллер | Отдельные движения и параметры для одновременных нот"
+    }
+  ]
+}

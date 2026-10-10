@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "fleyta-rebenku-dlya-obucheniya",
+      "n0": "Флейта ребёнку для обучения в аренду | Подходящая механика и учебный комплект",
+      "n1": "Первая флейта для ребёнка | Досягаемость клапанов и удобство рук"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "fleyta-na-vremya-remonta",
+      "n0": "Флейта на время ремонта в аренду | Знакомая система и рабочая головка",
+      "n1": "Временная флейта | Как сохранить сложные пассажи без своей механики"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "blokfleyty-dlya-ansamblya",
+      "n0": "Блокфлейты для ансамбля в аренду | Сопрано, альт, тенор и бас одним составом",
+      "n1": "Ансамбль блокфлейт | Аппликатура и высотный стандарт у разных голосов"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "klarinet-dlya-muzykalnoy-shkoly",
+      "n0": "Кларнет для музыкальной школы в аренду | Комплект с мундштуком для занятий",
+      "n1": "Первый школьный кларнет | Аппликатурная система и домашняя практика"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "klarinet-na-vremya-remonta",
+      "n0": "Кларнет на время ремонта в аренду | Замена под привычный строй и систему",
+      "n1": "Временный кларнет | Как продолжать упражнения на знакомой механике"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "bas-klarinet-dlya-zapisi",
+      "n0": "Бас-кларнет для записи в аренду | Низкий голос для студийной партии",
+      "n1": "Бас-кларнет в студии | Нижний диапазон и тихая атака под микрофоном"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "saksofon-vzroslomu-nachinayuschemu",
+      "n0": "Саксофон взрослому начинающему в аренду | Первый инструмент перед покупкой",
+      "n1": "Саксофон для взрослого новичка | Выбор голоса, мундштука и подвеса"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "saksofon-na-vremya-remonta",
+      "n0": "Саксофон на время ремонта в аренду | Привычный голос и мундштук",
+      "n1": "Временный саксофон | Система клапанов и программа на период регулировки"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "saksofon-dlya-semki",
+      "n0": "Саксофон для съёмки в аренду | Инструмент для клипа, фильма и фотографии",
+      "n1": "Саксофон в кадре | Правдоподобная игра и соответствие музыке"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "goboy-na-proslushivanie",
+      "n0": "Гобой на прослушивание в аренду | Инструмент под знакомые трости и отрывки",
+      "n1": "Гобой перед прослушиванием | Точность вступления и время адаптации"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "fagot-dlya-studenta",
+      "n0": "Фагот для студента в аренду | Инструмент под растущую учебную программу",
+      "n1": "Студенческий фагот | Комплект и механика для новых оркестровых партий"
+    },
+    {
+      "source_file": "content/sections/99j-wind-task-landings.json",
+      "slug": "elektronnyy-duhovoy-dlya-doma",
+      "n0": "Электронный духовой для дома в аренду | Игра в наушниках и настройка датчиков",
+      "n1": "Электронный духовой инструмент | Дыхательная фраза и границы замены акустики"
+    }
+  ]
+}

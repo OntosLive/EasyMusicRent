@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99c-bass-and-baritone-ukulele.json",
+      "slug": "pyatistrunnaya-bas-gitara",
+      "n0": "Пятиструнная бас-гитара в аренду | Дополнительная низкая струна для сцены",
+      "n1": "Пятиструнный бас | Нижний регистр и новая геометрия правой руки"
+    },
+    {
+      "source_file": "content/sections/99c-bass-and-baritone-ukulele.json",
+      "slug": "shestistrunnaya-bas-gitara",
+      "n0": "Шестиструнная бас-гитара в аренду | Расширенный регистр и мелодическая линия",
+      "n1": "Шестиструнный бас | Ширина грифа, глушение и верхний голос"
+    },
+    {
+      "source_file": "content/sections/99c-bass-and-baritone-ukulele.json",
+      "slug": "korotkomensurnaya-bas-gitara",
+      "n0": "Короткомензурная бас-гитара в аренду | Компактный гриф для удобной игры",
+      "n1": "Короткая мензура баса | Дистанция между ладами и натяжение струн"
+    },
+    {
+      "source_file": "content/sections/99c-bass-and-baritone-ukulele.json",
+      "slug": "akusticheskaya-bas-gitara",
+      "n0": "Акустическая бас-гитара в аренду | Камерная репетиция и естественный резонанс",
+      "n1": "Акустическая бас-гитара | Корпусной звук и подключение в ансамбле"
+    },
+    {
+      "source_file": "content/sections/99c-bass-and-baritone-ukulele.json",
+      "slug": "ukulele-bariton",
+      "n0": "Укулеле-баритон в аренду | Четыре струны в строе ре-соль-си-ми",
+      "n1": "Баритоновое укулеле | Гитарная логика аккордов и иной размер грифа"
+    }
+  ]
+}

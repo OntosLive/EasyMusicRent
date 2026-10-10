@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "vostochnoaziatskie-muzykalnye-instrumenty",
+      "n0": "Восточноазиатские музыкальные инструменты в аренду | Голоса Китая, Японии и Кореи",
+      "n1": "Восточноазиатские инструменты | Разные строи и техники одной музыкальной географии"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "guzhen",
+      "n0": "Гучжэн в аренду | Китайская щипковая цитра для концерта и записи",
+      "n1": "Гучжэн | Щипок обеих рук и изменение высоты на струне"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "pipa",
+      "n0": "Пипа в аренду | Китайская лютня для сольного и ансамблевого исполнения",
+      "n1": "Пипа | Быстрая щипковая атака на ладовом инструменте"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "erhu",
+      "n0": "Эрху в аренду | Китайский двухструнный смычковый инструмент",
+      "n1": "Эрху | Непрерывная мелодия и другая техника смычка"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "dizi",
+      "n0": "Флейта дизи в аренду | Китайский духовой инструмент с мембраной",
+      "n1": "Дизи | Мембрана и дыхание в характерном флейтовом тембре"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "koto",
+      "n0": "Кото в аренду | Японская щипковая цитра для камерной программы",
+      "n1": "Кото | Подставки, плектры и индивидуальный строй пьесы"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "syamisen",
+      "n0": "Сямисэн в аренду | Японский щипковый инструмент для сцены",
+      "n1": "Сямисэн | Плектр бати, мембрана и техника жёсткой атаки"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "syakuhati",
+      "n0": "Сякухати в аренду | Японская бамбуковая флейта для записи и концерта",
+      "n1": "Сякухати | Длина флейты и исполнение через воздушную струю"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "kayagym",
+      "n0": "Каягым в аренду | Корейский струнный инструмент для ансамбля",
+      "n1": "Каягым | Выбор разновидности и настройка под корейскую программу"
+    },
+    {
+      "source_file": "content/sections/99l-east-asian-voices.json",
+      "slug": "morin-huur",
+      "n0": "Морин хуур в аренду | Монгольский смычковый инструмент для сцены",
+      "n1": "Морин хуур | Смычковый голос в сопровождении вокальной традиции"
+    }
+  ]
+}

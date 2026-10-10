@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99a-traditional-voices.json",
+      "slug": "kora",
+      "n0": "Кора в аренду | Африканский многострунный инструмент для сцены и записи",
+      "n1": "Кора | Несколько переплетённых мелодий и работа резонатора"
+    },
+    {
+      "source_file": "content/sections/99a-traditional-voices.json",
+      "slug": "balafon",
+      "n0": "Балафон в аренду | Деревянная настроенная перкуссия для ансамбля",
+      "n1": "Балафон | Звукоряд пластин, резонаторы и исполнительская традиция"
+    },
+    {
+      "source_file": "content/sections/99a-traditional-voices.json",
+      "slug": "mbira",
+      "n0": "Мбира в аренду | Язычковый инструмент для живой программы",
+      "n1": "Мбира | Настройка металлических язычков и циклические мелодии"
+    },
+    {
+      "source_file": "content/sections/99a-traditional-voices.json",
+      "slug": "svirel",
+      "n0": "Свирель в аренду | Народный духовой инструмент под нужный строй",
+      "n1": "Свирель | Свисток, пальцевые отверстия и народная мелодия"
+    },
+    {
+      "source_file": "content/sections/99a-traditional-voices.json",
+      "slug": "zhaleyka",
+      "n0": "Жалейка в аренду | Народный язычковый инструмент для ансамбля",
+      "n1": "Жалейка | Строй, раструб и характерный звук одинарного язычка"
+    },
+    {
+      "source_file": "content/sections/99a-traditional-voices.json",
+      "slug": "pastushiy-rozhok",
+      "n0": "Пастуший рожок в аренду | Русский духовой инструмент для постановки",
+      "n1": "Пастуший рожок | Мундштук, отверстия и голос народного ансамбля"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99f-recorder-ukulele-voices.json",
+      "slug": "blokfleyta-soprano",
+      "n0": "Блокфлейта-сопрано в аренду | Инструмент для школы и ансамбля",
+      "n1": "Блокфлейта-сопрано | Аппликатура и удобство отверстий в учебной программе"
+    },
+    {
+      "source_file": "content/sections/99f-recorder-ukulele-voices.json",
+      "slug": "blokfleyta-alt",
+      "n0": "Альтовая блокфлейта в аренду | Сольный голос исторического ансамбля",
+      "n1": "Альтовая блокфлейта | Диапазон и строевая роль в камерной музыке"
+    },
+    {
+      "source_file": "content/sections/99f-recorder-ukulele-voices.json",
+      "slug": "blokfleyta-tenor",
+      "n0": "Теноровая блокфлейта в аренду | Средний голос для ансамбля",
+      "n1": "Теноровая блокфлейта | Положение рук и доступ к клапанам большого корпуса"
+    },
+    {
+      "source_file": "content/sections/99f-recorder-ukulele-voices.json",
+      "slug": "blokfleyta-bas",
+      "n0": "Басовая блокфлейта в аренду | Низкий голос для полного состава",
+      "n1": "Басовая блокфлейта | Подача воздуха и опора нижней партии"
+    },
+    {
+      "source_file": "content/sections/99f-recorder-ukulele-voices.json",
+      "slug": "ukulele-soprano",
+      "n0": "Укулеле-сопрано в аренду | Самый компактный размер для занятий",
+      "n1": "Укулеле-сопрано | Мензура и удобство первых аккордов"
+    },
+    {
+      "source_file": "content/sections/99f-recorder-ukulele-voices.json",
+      "slug": "ukulele-koncert",
+      "n0": "Укулеле концертного размера в аренду | Более просторный гриф для аккордов",
+      "n1": "Концертное укулеле | Различия размера concert и сопрано в игре"
+    },
+    {
+      "source_file": "content/sections/99f-recorder-ukulele-voices.json",
+      "slug": "ukulele-tenor",
+      "n0": "Укулеле-тенор в аренду | Большая мензура для аккордов и мелодии",
+      "n1": "Укулеле-тенор | Пространство для верхних позиций и мелодической партии"
+    }
+  ]
+}

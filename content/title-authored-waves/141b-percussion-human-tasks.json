@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "barabannaya-ustanovka-dlya-zapisi",
+      "n0": "Барабанная установка для записи в аренду | Полный студийный комплект",
+      "n1": "Барабаны перед записью | Настройка корпусов и необходимый срок подготовки"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "barabannaya-ustanovka-dlya-kontserta",
+      "n0": "Барабанная установка на концерт в аренду | Комплектация по райдеру и саундчек",
+      "n1": "Концертная ударная установка | Посадка и смена музыкантов на сцене"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "elektronnye-barabany-dlya-kvartiry",
+      "n0": "Электронные барабаны для квартиры в аренду | Компактный комплект для дома",
+      "n1": "Электронные барабаны дома | Удары по пэдам и передача вибрации через пол"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "elektronnye-barabany-dlya-obucheniya-rebenka",
+      "n0": "Электронные барабаны ребёнку в аренду | Рама и педали под рост ученика",
+      "n1": "Первые электронные ударные | Посадка ребёнка и домашняя работа по заданию"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "barabany-dlya-gastrolnogo-raydera",
+      "n0": "Барабаны по гастрольному райдеру в аренду | Комплект с согласованными заменами",
+      "n1": "Гастрольные барабаны | Список обязательных деталей и приёмка до выступления"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "malyy-baraban-na-vremya-remonta",
+      "n0": "Малый барабан на время ремонта в аренду | Сохранить привычные упражнения",
+      "n1": "Временный малый барабан | Чувствительность, натяжение и рабочие приёмы"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "tarelki-dlya-studiynoy-zapisi",
+      "n0": "Тарелки для студийной записи в аренду | Подобрать атаку и длительность резонанса",
+      "n1": "Тарелки в записи | Как оставить пространство голосу и барабанному комплекту"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "marimba-dlya-podgotovki-k-konkursu",
+      "n0": "Маримба для подготовки к конкурсу в аренду | Диапазон под всю программу",
+      "n1": "Конкурсная маримба | Диапазон, высота и непрерывность занятий"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "vibrafon-dlya-dzhazovoy-zapisi",
+      "n0": "Вибрафон для джазовой записи в аренду | Палочки, мотор и педаль",
+      "n1": "Вибрафон в джазовой студии | Глушение и продолжение нот в гармонии"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "litavry-pered-proslushivaniem",
+      "n0": "Литавры для подготовки к прослушиванию в аренду | Комплект котлов и педалей",
+      "n1": "Литавры перед прослушиванием | Настройка высоты и переходы между нотами"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "kahon-dlya-akusticheskogo-vystupleniya",
+      "n0": "Кахон для акустического выступления в аренду | Компактная ритм-секция",
+      "n1": "Кахон на концерте | Посадка и баланс с голосом без полной установки"
+    },
+    {
+      "source_file": "content/sections/99i-percussion-task-landings.json",
+      "slug": "perkussiya-dlya-odnogo-ispolnitelya",
+      "n0": "Перкуссия для одного исполнителя в аренду | Комплект с удобными креплениями",
+      "n1": "Один исполнитель за несколькими ударными | Размещение и переходы между инструментами"
+    }
+  ]
+}

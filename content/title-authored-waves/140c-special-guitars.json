@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99b-guitar-configurations.json",
+      "slug": "dvenadtsatistrunnaya-gitara",
+      "n0": "Двенадцатиструнная гитара в аренду | Парные струны для песни и записи",
+      "n1": "Двенадцатиструнная гитара | Октавы, резонанс и знакомые аккорды"
+    },
+    {
+      "source_file": "content/sections/99b-guitar-configurations.json",
+      "slug": "bariton-gitara",
+      "n0": "Баритон-гитара в аренду | Длинная мензура для низкого гитарного строя",
+      "n1": "Баритон-гитара | Аккомпанемент между обычной гитарой и басом"
+    },
+    {
+      "source_file": "content/sections/99b-guitar-configurations.json",
+      "slug": "rezonatornaya-gitara",
+      "n0": "Резонаторная гитара в аренду | Металлический резонатор и варианты грифа",
+      "n1": "Резонаторная гитара | Как корпус и слайд определяют исполнительский звук"
+    },
+    {
+      "source_file": "content/sections/99b-guitar-configurations.json",
+      "slug": "lap-stil-gitara",
+      "n0": "Лэп-стил-гитара в аренду | Горизонтальный инструмент и слайд",
+      "n1": "Лэп-стил-гитара | Открытый строй и непрерывное движение мелодии"
+    },
+    {
+      "source_file": "content/sections/99b-guitar-configurations.json",
+      "slug": "gitara-dlya-levshi",
+      "n0": "Гитара для левши в аренду | Левосторонние конфигурации под программу",
+      "n1": "Гитара для левши | Постановка и правильное расположение элементов управления"
+    }
+  ]
+}

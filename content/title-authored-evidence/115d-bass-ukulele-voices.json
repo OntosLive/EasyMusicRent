@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "pyatistrunnaya-bas-gitara": {
+      "n0": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Пятиструнная бас-гитара: низкая струна, фактический строй, расстояния между струнами и подготовка концертной линии.",
+        "decision": "Пятиструнная бас-гитара в аренду | Дополнительная низкая струна для сцены",
+        "next_action": "Дополнительная низкая струна для сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "В новой программе появились ноты ниже привычной открытой ми, а постоянно менять наст",
+        "decision": "Пятиструнный бас | Нижний регистр и новая геометрия правой руки",
+        "next_action": "Нижний регистр и новая геометрия правой руки"
+      }
+    },
+    "shestistrunnaya-bas-gitara": {
+      "n0": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Шестиструнная бас-гитара с расширенным диапазоном: настройка, ширина грифа, верхняя линия и глушение струн.",
+        "decision": "Шестиструнная бас-гитара в аренду | Расширенный регистр и мелодическая линия",
+        "next_action": "Расширенный регистр и мелодическая линия"
+      },
+      "n1": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "В партии нужно оставить низкую опору и одновременно получить удобный верхний голос. ",
+        "decision": "Шестиструнный бас | Ширина грифа, глушение и верхний голос",
+        "next_action": "Ширина грифа, глушение и верхний голос"
+      }
+    },
+    "korotkomensurnaya-bas-gitara": {
+      "n0": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Короткомензурная бас-гитара: рабочая длина струны, расстояния на грифе и проверка удобства в реальной игре.",
+        "decision": "Короткомензурная бас-гитара в аренду | Компактный гриф для удобной игры",
+        "next_action": "Компактный гриф для удобной игры"
+      },
+      "n1": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Первые позиции требуют слишком большого движения, и хочется понять, будет ли удобнее",
+        "decision": "Короткая мензура баса | Дистанция между ладами и натяжение струн",
+        "next_action": "Дистанция между ладами и натяжение струн"
+      }
+    },
+    "akusticheskaya-bas-gitara": {
+      "n0": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Акустическая бас-гитара для камерной репетиции и записи: корпус, струны, естественный звук и подключение.",
+        "decision": "Акустическая бас-гитара в аренду | Камерная репетиция и естественный резонанс",
+        "next_action": "Камерная репетиция и естественный резонанс"
+      },
+      "n1": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Хочется собрать песню с гитарой и голосом, слыша низкую линию прямо в комнате. Акуст",
+        "decision": "Акустическая бас-гитара | Корпусной звук и подключение в ансамбле",
+        "next_action": "Корпусной звук и подключение в ансамбле"
+      }
+    },
+    "ukulele-bariton": {
+      "n0": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Укулеле-баритон: настройка ре-соль-си-ми, отличие от меньших укулеле и переход от гитары к четырём струнам.",
+        "decision": "Укулеле-баритон в аренду | Четыре струны в строе ре-соль-си-ми",
+        "next_action": "Четыре струны в строе ре-соль-си-ми"
+      },
+      "n1": {
+        "source_path": "content/sections/99c-bass-and-baritone-ukulele.json",
+        "source_quote": "Для песни нужен небольшой инструмент, а привычная высокая краска укулеле не совпадае",
+        "decision": "Баритоновое укулеле | Гитарная логика аккордов и иной размер грифа",
+        "next_action": "Гитарная логика аккордов и иной размер грифа"
+      }
+    }
+  }
+}

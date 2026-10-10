@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "blokfleyta-soprano": {
+      "n0": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Блокфлейта-сопрано для уроков и ансамбля: аппликатура, удобство отверстий и соответствие учебному материалу.",
+        "decision": "Блокфлейта-сопрано в аренду | Инструмент для школы и ансамбля",
+        "next_action": "Инструмент для школы и ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Для первого урока нужна блокфлейта, на которой можно повторить показанное преподават",
+        "decision": "Блокфлейта-сопрано | Аппликатура и удобство отверстий в учебной программе",
+        "next_action": "Аппликатура и удобство отверстий в учебной программе"
+      }
+    },
+    "blokfleyta-alt": {
+      "n0": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Альтовая блокфлейта для сольной программы: диапазон, аппликатура, строй ансамбля и время на освоение.",
+        "decision": "Альтовая блокфлейта в аренду | Сольный голос исторического ансамбля",
+        "next_action": "Сольный голос исторического ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Для выбранной сонаты требуется альтовая блокфлейта, а привычная сопрано уже не отвеч",
+        "decision": "Альтовая блокфлейта | Диапазон и строевая роль в камерной музыке",
+        "next_action": "Диапазон и строевая роль в камерной музыке"
+      }
+    },
+    "blokfleyta-tenor": {
+      "n0": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Теноровая блокфлейта: доступ к отверстиям и клапанам, удержание корпуса и работа в ансамбле.",
+        "decision": "Теноровая блокфлейта в аренду | Средний голос для ансамбля",
+        "next_action": "Средний голос для ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "В ансамбле освободилась теноровая партия, и хочется сыграть её без покупки инструмен",
+        "decision": "Теноровая блокфлейта | Положение рук и доступ к клапанам большого корпуса",
+        "next_action": "Положение рук и доступ к клапанам большого корпуса"
+      }
+    },
+    "blokfleyta-bas": {
+      "n0": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Басовая блокфлейта для ансамбля: способ подачи воздуха, клапаны, опора и баланс низкой партии.",
+        "decision": "Басовая блокфлейта в аренду | Низкий голос для полного состава",
+        "next_action": "Низкий голос для полного состава"
+      },
+      "n1": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Чтобы собрать ансамбль блокфлейт, иногда не хватает именно нижнего голоса. Басовая б",
+        "decision": "Басовая блокфлейта | Подача воздуха и опора нижней партии",
+        "next_action": "Подача воздуха и опора нижней партии"
+      }
+    },
+    "ukulele-soprano": {
+      "n0": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Укулеле-сопрано: небольшая мензура, удобство аккордов и проба инструмента до окончательного выбора.",
+        "decision": "Укулеле-сопрано в аренду | Самый компактный размер для занятий",
+        "next_action": "Самый компактный размер для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Хочется небольшую укулеле, которую легко брать в руки для любимой песни. Сопрано при",
+        "decision": "Укулеле-сопрано | Мензура и удобство первых аккордов",
+        "next_action": "Мензура и удобство первых аккордов"
+      }
+    },
+    "ukulele-koncert": {
+      "n0": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Укулеле размера concert: удобство грифа и корпуса, выбор после сопрано и проба в реальной игре.",
+        "decision": "Укулеле концертного размера в аренду | Более просторный гриф для аккордов",
+        "next_action": "Более просторный гриф для аккордов"
+      },
+      "n1": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "На маленькой укулеле тесно ставить аккорды, а переходить к большому инструменту пока",
+        "decision": "Концертное укулеле | Различия размера concert и сопрано в игре",
+        "next_action": "Различия размера concert и сопрано в игре"
+      }
+    },
+    "ukulele-tenor": {
+      "n0": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Укулеле-тенор для аккомпанемента и мелодической игры: мензура, верхние позиции и выбор комплекта.",
+        "decision": "Укулеле-тенор в аренду | Большая мензура для аккордов и мелодии",
+        "next_action": "Большая мензура для аккордов и мелодии"
+      },
+      "n1": {
+        "source_path": "content/sections/99f-recorder-ukulele-voices.json",
+        "source_quote": "Хочется не только сопровождать песню, но и выделять мелодию, менять позиции и дольше",
+        "decision": "Укулеле-тенор | Пространство для верхних позиций и мелодической партии",
+        "next_action": "Пространство для верхних позиций и мелодической партии"
+      }
+    }
+  }
+}

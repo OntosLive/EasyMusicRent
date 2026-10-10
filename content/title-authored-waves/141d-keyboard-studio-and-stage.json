@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "royal-dlya-kamernogo-kontserta",
+      "n0": "Рояль для камерного концерта в аренду | Инструмент под зал и ансамбль",
+      "n1": "Камерный концерт с роялем | Тихая динамика и слышимость музыкального партнёра"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "royal-dlya-semki",
+      "n0": "Рояль для съёмки в аренду | Чёрный, белый или другой корпус под кадр",
+      "n1": "Рояль в кадре | Габариты, положение крышки и настоящая игра"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "akusticheskoe-pianino-na-vremya-remonta",
+      "n0": "Акустическое пианино на время ремонта в аренду | Живая механика для дома",
+      "n1": "Временное акустическое пианино | Как сохранить ощущение клавиши при ремонте"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "klavishnye-dlya-myuzikla",
+      "n0": "Клавишные для мюзикла в аренду | Система программ, педалей и зон",
+      "n1": "Клавишный сет мюзикла | Звуковые переключения по ходу спектакля"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "sintezator-dlya-studiynoy-partii",
+      "n0": "Синтезатор для студийной партии в аренду | Подобрать звук под аранжировку",
+      "n1": "Один нужный синтезаторный тембр | Полифония и сохранение между дублями"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "analogovyy-sintezator-pered-pokupkoy",
+      "n0": "Аналоговый синтезатор перед покупкой в аренду | Проба на своей музыке",
+      "n1": "Аналоговый синтезатор до покупки | Управление и повседневная работа с тембром"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "midi-klaviatura-dlya-zapisi-fortepiano",
+      "n0": "MIDI-клавиатура для записи фортепиано в аренду | Механика, педаль и полный диапазон",
+      "n1": "Фортепианная партия на MIDI | Прикосновение и выбранный программный звук"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "sempler-dlya-teatralnyh-effektov",
+      "n0": "Семплер для театральных эффектов в аренду | Пэды и запуск звука по действию",
+      "n1": "Театральный семплер | Точное начало, остановка и резерв звуков"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "lup-stantsiya-dlya-vokala",
+      "n0": "Луп-станция для вокала в аренду | Живые голосовые слои в концертном номере",
+      "n1": "Вокальные лупы | Микрофон, наложение голосов и управление остановкой"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "mpe-kontroller-dlya-proby",
+      "n0": "MPE-контроллер для пробы в аренду | Новый способ управлять отдельными нотами",
+      "n1": "Проба MPE-контроллера | Жесты и совместимость музыкальной программы"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "elektronnyy-organ-dlya-pedalnoy-praktiki",
+      "n0": "Электронный орган с педалью в аренду | Мануалы, банкетка и педальная клавиатура",
+      "n1": "Домашняя органная практика | Координация ног и рук между занятиями"
+    },
+    {
+      "source_file": "content/sections/99k-keyboard-production-landings.json",
+      "slug": "chelesta-dlya-zapisi-muzyki-k-filmu",
+      "n0": "Челеста для записи киномузыки в аренду | Живой инструмент под партитуру",
+      "n1": "Челеста в саундтреке | Диапазон, педаль и звонкий клавишный тембр"
+    }
+  ]
+}

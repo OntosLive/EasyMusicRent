@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99g-electric-strings-free-reeds.json",
+      "slug": "elektroskripka",
+      "n0": "Электроскрипка в аренду | Инструмент для сцены, записи и тихой практики",
+      "n1": "Электроскрипка | Скрипичная геометрия и электрический путь звука"
+    },
+    {
+      "source_file": "content/sections/99g-electric-strings-free-reeds.json",
+      "slug": "elektroviolonchel",
+      "n0": "Электровиолончель в аренду | Концертная модель с привычными опорами",
+      "n1": "Электровиолончель | Как сохранить посадку при другом способе звукоизвлечения"
+    },
+    {
+      "source_file": "content/sections/99g-electric-strings-free-reeds.json",
+      "slug": "elektricheskiy-kontrabas",
+      "n0": "Электрический контрабас в аренду | Вертикальная мензура в компактном формате",
+      "n1": "Электрический контрабас | Смычок, пиццикато и разница с акустическим звукоснимателем"
+    },
+    {
+      "source_file": "content/sections/99g-electric-strings-free-reeds.json",
+      "slug": "melodika",
+      "n0": "Мелодика в аренду | Клавишный духовой инструмент для сцены и студии",
+      "n1": "Мелодика | Клавиши, мундштук и фразировка через дыхание"
+    },
+    {
+      "source_file": "content/sections/99g-electric-strings-free-reeds.json",
+      "slug": "gubnaya-garmoshka",
+      "n0": "Губная гармоника в аренду | Диатонические и хроматические системы под проект",
+      "n1": "Губная гармошка | Выбор тональности и системы для конкретной мелодии"
+    },
+    {
+      "source_file": "content/sections/99g-electric-strings-free-reeds.json",
+      "slug": "diatonicheskaya-garmoshka",
+      "n0": "Диатоническая губная гармоника в аренду | Тональность под репертуар",
+      "n1": "Диатоническая гармоника | Позиция игры и ноты выбранного строя"
+    },
+    {
+      "source_file": "content/sections/99g-electric-strings-free-reeds.json",
+      "slug": "hromaticheskaya-garmoshka",
+      "n0": "Хроматическая губная гармоника в аренду | Доступ к полутонам для сольной партии",
+      "n1": "Хроматическая гармоника | Кнопка переключения и мелодический диапазон"
+    }
+  ]
+}

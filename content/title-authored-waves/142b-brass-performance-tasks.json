@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "truba-rebenku-dlya-muzykalnoy-shkoly",
+      "n0": "Труба ребёнку для музыкальной школы в аренду | Ученическая B♭ модель",
+      "n1": "Первая труба ребёнка | Мундштук, хват и спокойное начало звука"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "truba-na-vremya-remonta",
+      "n0": "Труба на время ремонта в аренду | Замена под привычную клапанную систему",
+      "n1": "Временная труба | Мундштук и точность движения клапанов"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "flyugelgorn-dlya-zapisi",
+      "n0": "Флюгельгорн для студийной записи в аренду | Мягкий медный голос",
+      "n1": "Флюгельгорн в записи | Мундштук и интонация в одной музыкальной партии"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "truba-pikkolo-dlya-barochnoy-programmy",
+      "n0": "Труба-пикколо для барочной программы в аренду | Высокий регистр под партитуру",
+      "n1": "Труба-пикколо | Строй, кроны и подготовка верхнего голоса"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "valtorna-na-proslushivanie",
+      "n0": "Валторна на прослушивание в аренду | Конфигурация под оркестровые отрывки",
+      "n1": "Валторна перед прослушиванием | Привычная система и уверенные вступления"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "valtorna-na-vremya-remonta",
+      "n0": "Валторна на время ремонта в аренду | Временная замена для репетиций",
+      "n1": "Валторна на замену | Рычаги, мундштук и восстановление привычного отклика"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "trombon-dlya-big-benda",
+      "n0": "Тромбон для биг-бенда в аренду | Инструмент для точной секционной партии",
+      "n1": "Тромбон в биг-бенде | Работа кулисы и общий звук секции"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "bas-trombon-dlya-orkestrovoy-programmy",
+      "n0": "Бас-тромбон для оркестровой программы в аренду | Низкий голос и вентильная система",
+      "n1": "Бас-тромбон | Диапазон и согласование с низкой медной группой"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "tuba-dlya-gastroley",
+      "n0": "Туба для гастролей в аренду | Местный инструмент нужного строя",
+      "n1": "Туба на гастролях | Система клапанов, посадка и проба до концерта"
+    },
+    {
+      "source_file": "content/sections/99m-brass-task-landings.json",
+      "slug": "evfonium-dlya-duhovogo-orkestra",
+      "n0": "Эуфониум для духового оркестра в аренду | Инструмент под нужную партию",
+      "n1": "Эуфониум в оркестре | Певучий регистр и согласованная клапанная система"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "royal-dlya-kamernogo-kontserta": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Рояль для камерного состава: тихая динамика, программа, помещение и совместная репетиция.",
+        "decision": "Рояль для камерного концерта в аренду | Инструмент под зал и ансамбль",
+        "next_action": "Инструмент под зал и ансамбль"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Для вечера со скрипкой, голосом или небольшим ансамблем нужен рояль на площадке. Важ",
+        "decision": "Камерный концерт с роялем | Тихая динамика и слышимость музыкального партнёра",
+        "next_action": "Тихая динамика и слышимость музыкального партнёра"
+      }
+    },
+    "royal-dlya-semki": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Рояль для кино и фотографии: цвет, габариты, положение крышки, исполнение в кадре и требования к звуку.",
+        "decision": "Рояль для съёмки в аренду | Чёрный, белый или другой корпус под кадр",
+        "next_action": "Чёрный, белый или другой корпус под кадр"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Для съёмки нужен рояль определённого вида, и сначала кажется, что задача решается цв",
+        "decision": "Рояль в кадре | Габариты, положение крышки и настоящая игра",
+        "next_action": "Габариты, положение крышки и настоящая игра"
+      }
+    },
+    "akusticheskoe-pianino-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Временное акустическое пианино: необходимость живой механики, срок ремонта, размещение и подготовка.",
+        "decision": "Акустическое пианино на время ремонта в аренду | Живая механика для дома",
+        "next_action": "Живая механика для дома"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Своё пианино находится в ремонте, а дома нужно продолжать программу. Прежде чем зака",
+        "decision": "Временное акустическое пианино | Как сохранить ощущение клавиши при ремонте",
+        "next_action": "Как сохранить ощущение клавиши при ремонте"
+      }
+    },
+    "klavishnye-dlya-myuzikla": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Клавишные для мюзикла: последовательность звуков, зоны, педали и полный репетиционный комплект.",
+        "decision": "Клавишные для мюзикла в аренду | Система программ, педалей и зон",
+        "next_action": "Система программ, педалей и зон"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "В спектакле один клавишник играет несколько тембров, а переключения должны происходи",
+        "decision": "Клавишный сет мюзикла | Звуковые переключения по ходу спектакля",
+        "next_action": "Звуковые переключения по ходу спектакля"
+      }
+    },
+    "sintezator-dlya-studiynoy-partii": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Синтезатор для записи: функция тембра, число голосов, управление и сохранение результата между дублями.",
+        "decision": "Синтезатор для студийной партии в аренду | Подобрать звук под аранжировку",
+        "next_action": "Подобрать звук под аранжировку"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "В треке не хватает определённого синтезаторного голоса, но приобретать инструмент ра",
+        "decision": "Один нужный синтезаторный тембр | Полифония и сохранение между дублями",
+        "next_action": "Полифония и сохранение между дублями"
+      }
+    },
+    "analogovyy-sintezator-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Проба аналогового синтезатора: собственный материал, управление, сохранение звуков и выбор после практики.",
+        "decision": "Аналоговый синтезатор перед покупкой в аренду | Проба на своей музыке",
+        "next_action": "Проба на своей музыке"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "После демонстраций хочется купить аналоговый синтезатор, но ещё непонятно, как он во",
+        "decision": "Аналоговый синтезатор до покупки | Управление и повседневная работа с тембром",
+        "next_action": "Управление и повседневная работа с тембром"
+      }
+    },
+    "midi-klaviatura-dlya-zapisi-fortepiano": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "MIDI-клавиатура для фортепианной записи: диапазон, механика, педаль и уже выбранный источник звука.",
+        "decision": "MIDI-клавиатура для записи фортепиано в аренду | Механика, педаль и полный диапазон",
+        "next_action": "Механика, педаль и полный диапазон"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Фортепианный звук в программе уже выбран, а имеющаяся маленькая клавиатура не позвол",
+        "decision": "Фортепианная партия на MIDI | Прикосновение и выбранный программный звук",
+        "next_action": "Прикосновение и выбранный программный звук"
+      }
+    },
+    "sempler-dlya-teatralnyh-effektov": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Семплер для спектакля: собственные файлы, точное начало и остановка, размещение пэдов и резервная копия.",
+        "decision": "Семплер для театральных эффектов в аренду | Пэды и запуск звука по действию",
+        "next_action": "Пэды и запуск звука по действию"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Звуковые события должны следовать за актёром, а не за заранее отсчитанной минутой фо",
+        "decision": "Театральный семплер | Точное начало, остановка и резерв звуков",
+        "next_action": "Точное начало, остановка и резерв звуков"
+      }
+    },
+    "lup-stantsiya-dlya-vokala": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Вокальная луп-станция: микрофон, вход, количество слоёв и действия записи и остановки в концертном номере.",
+        "decision": "Луп-станция для вокала в аренду | Живые голосовые слои в концертном номере",
+        "next_action": "Живые голосовые слои в концертном номере"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "В номере нужно записать свой голос, оставить его звучать и спеть следующую линию пов",
+        "decision": "Вокальные лупы | Микрофон, наложение голосов и управление остановкой",
+        "next_action": "Микрофон, наложение голосов и управление остановкой"
+      }
+    },
+    "mpe-kontroller-dlya-proby": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Проба MPE-контроллера: отдельные ноты, совместимая программа, новые жесты и сохранение музыкального замысла.",
+        "decision": "MPE-контроллер для пробы в аренду | Новый способ управлять отдельными нотами",
+        "next_action": "Новый способ управлять отдельными нотами"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Хочется двигать отдельные ноты внутри аккорда, а обычное общее колесо высоты меняет ",
+        "decision": "Проба MPE-контроллера | Жесты и совместимость музыкальной программы",
+        "next_action": "Жесты и совместимость музыкальной программы"
+      }
+    },
+    "elektronnyy-organ-dlya-pedalnoy-praktiki": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Органный комплект для занятий: мануалы, педальная клавиатура, банкетка и нужные учебные движения.",
+        "decision": "Электронный орган с педалью в аренду | Мануалы, банкетка и педальная клавиатура",
+        "next_action": "Мануалы, банкетка и педальная клавиатура"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Доступ к большому органу ограничен, а нужно регулярно работать над координацией рук ",
+        "decision": "Домашняя органная практика | Координация ног и рук между занятиями",
+        "next_action": "Координация ног и рук между занятиями"
+      }
+    },
+    "chelesta-dlya-zapisi-muzyki-k-filmu": {
+      "n0": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "Челеста для саундтрека: написанная партия, диапазон, педаль и подготовка живой записи.",
+        "decision": "Челеста для записи киномузыки в аренду | Живой инструмент под партитуру",
+        "next_action": "Живой инструмент под партитуру"
+      },
+      "n1": {
+        "source_path": "content/sections/99k-keyboard-production-landings.json",
+        "source_quote": "В музыке к фильму нужен именно живой голос челесты, а не приблизительный клавишный т",
+        "decision": "Челеста в саундтреке | Диапазон, педаль и звонкий клавишный тембр",
+        "next_action": "Диапазон, педаль и звонкий клавишный тембр"
+      }
+    }
+  }
+}

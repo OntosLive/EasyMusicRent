@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99e-resonant-percussion.json",
+      "slug": "orkestrovye-kolokolchiki",
+      "n0": "Оркестровые колокольчики в аренду | Глокеншпиль с нужным диапазоном",
+      "n1": "Оркестровые колокольчики | Верхний регистр и точное продолжение нот"
+    },
+    {
+      "source_file": "content/sections/99e-resonant-percussion.json",
+      "slug": "krotali",
+      "n0": "Кротали в аренду | Настроенные металлические диски по партитуре",
+      "n1": "Кротали | Заданная высота и длительный металлический резонанс"
+    },
+    {
+      "source_file": "content/sections/99e-resonant-percussion.json",
+      "slug": "tamtam",
+      "n0": "Оркестровый тамтам в аренду | Инструмент с подвесом и колотушками",
+      "n1": "Тамтам | Звук раскрывается после удара и занимает пространство"
+    },
+    {
+      "source_file": "content/sections/99e-resonant-percussion.json",
+      "slug": "nastroennyy-gong",
+      "n0": "Гонг определённой высоты в аренду | Точная нота для оркестровой партитуры",
+      "n1": "Настроенный гонг | Когда металлический резонанс должен иметь высоту"
+    },
+    {
+      "source_file": "content/sections/99e-resonant-percussion.json",
+      "slug": "kovbell",
+      "n0": "Ковбелл в аренду | Ручная или стационарная перкуссия для ритма",
+      "n1": "Ковбелл | Чёткая атака, глушение и крепление у барабанщика"
+    }
+  ]
+}

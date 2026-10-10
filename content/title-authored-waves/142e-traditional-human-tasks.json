@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "domra-dlya-uchenika",
+      "n0": "Домра ученику музыкальной школы в аренду | Трёх- и четырёхструнные модели",
+      "n1": "Учебная домра | Система струн, мензура и требования преподавателя"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "balalayka-dlya-orkestra",
+      "n0": "Балалайка для народного оркестра в аренду | Нужный голос под партитуру",
+      "n1": "Балалайка в оркестре | Разновидность, строй и место внутри секции"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "gusli-dlya-pesennogo-soprovozhdeniya",
+      "n0": "Гусли для сопровождения песни в аренду | Инструмент под вокальный строй",
+      "n1": "Гусли рядом с голосом | Гармонии и удобство одновременного пения"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "sitar-dlya-studiynoy-zapisi",
+      "n0": "Ситар для студийной записи в аренду | Живой индийский тембр для аранжировки",
+      "n1": "Ситар в студии | Строй резонирующих струн и исполнительский рисунок"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "tabla-dlya-ansamblevogo-proekta",
+      "n0": "Табла для ансамбля в аренду | Пара барабанов с высотной настройкой",
+      "n1": "Табла в ансамбле | Согласование ритма и музыкального тона"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "duduk-dlya-saundtreka",
+      "n0": "Дудук для записи саундтрека в аренду | Духовой инструмент под киномузыку",
+      "n1": "Дудук в саундтреке | Трость и дыхательная фраза определённого эпизода"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "dombra-dlya-uchebnyh-zanyatiy",
+      "n0": "Домбра для учебных занятий в аренду | Инструмент под выбранную школу игры",
+      "n1": "Учебная домбра | Мензура, строй и первые музыкальные движения"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "ud-dlya-studiynoy-zapisi",
+      "n0": "Уд для студийной записи в аренду | Безладовый щипковый голос",
+      "n1": "Уд в записи | Интонация и исполнительская традиция внутри аранжировки"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "handpan-pered-pokupkoy",
+      "n0": "Хэндпан перед покупкой в аренду | Проверить собственный строй на практике",
+      "n1": "Хэндпан до покупки | Доступные ноты и отклик в повседневной игре"
+    },
+    {
+      "source_file": "content/sections/99p-traditional-task-landings.json",
+      "slug": "kalimba-dlya-zapisi-pesni",
+      "n0": "Калимба для записи песни в аренду | Настроенные язычки для мелодии",
+      "n1": "Калимба в песне | Корпус, расположение язычков и способ записи"
+    }
+  ]
+}

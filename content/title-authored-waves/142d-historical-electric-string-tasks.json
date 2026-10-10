@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "barochnaya-skripka-dlya-ansamblya",
+      "n0": "Барочная скрипка для ансамбля в аренду | Исторический строй, струны и смычок",
+      "n1": "Барочная скрипка в ансамбле | Совпадение исполнительской конфигурации"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "barochnaya-violonchel-dlya-basso-continuo",
+      "n0": "Барочная виолончель для basso continuo в аренду | Историческая басовая партия",
+      "n1": "Барочная виолончель в continuo | Артикуляция и общий строй с партнёрами"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "viola-da-gamba-dlya-pervogo-osvoeniya",
+      "n0": "Виола да гамба для первых занятий в аренду | Инструмент для знакомства с техникой",
+      "n1": "Первая виола да гамба | Лады, строй и иная смычковая постановка"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "viola-da-gamba-dlya-konsorta",
+      "n0": "Виола да гамба для консорта в аренду | Голос нужного регистра для состава",
+      "n1": "Виола да гамба в консорте | Размер и строй в историческом многоголосии"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "traverso-dlya-kamernoy-programmy",
+      "n0": "Траверсо для камерной программы в аренду | Барочная флейта под строй ансамбля",
+      "n1": "Траверсо в камерной музыке | Высотный стандарт и историческая аппликатура"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "klavesin-dlya-basso-continuo",
+      "n0": "Клавесин для basso continuo в аренду | Инструмент под гармоническую опору",
+      "n1": "Клавесин в continuo | Строй и регистры для ансамблевого сопровождения"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "elektroskripka-dlya-lupinga",
+      "n0": "Электроскрипка для лупинга в аренду | Сценическая система с выходом для лупера",
+      "n1": "Скрипичный лупинг | Один исполнитель создаёт несколько живых голосов"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "elektroviolonchel-dlya-zapisi",
+      "n0": "Электровиолончель для записи в аренду | Прямой сигнал и смычковая партия",
+      "n1": "Электровиолончель в студии | Линейный тракт и характер смычковой атаки"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "elektricheskiy-kontrabas-dlya-maloy-stseny",
+      "n0": "Электрический контрабас для небольшой сцены в аренду | Компактная вертикальная система",
+      "n1": "Электроконтрабас в малом клубе | Мензура, опоры и баланс низкого голоса"
+    },
+    {
+      "source_file": "content/sections/99o-historical-electric-string-landings.json",
+      "slug": "kolesnaya-lira-dlya-zapisi",
+      "n0": "Колёсная лира для записи в аренду | Бурдон и клавиши для студийной партии",
+      "n1": "Колёсная лира в студии | Вращение колеса и непрерывное смычковое звучание"
+    }
+  ]
+}

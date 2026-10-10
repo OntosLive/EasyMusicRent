@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "barabannaya-ustanovka-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Барабанная установка для студии: нужный характер звучания, комплект, настройка и время до записи.",
+        "decision": "Барабанная установка для записи в аренду | Полный студийный комплект",
+        "next_action": "Полный студийный комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Студия забронирована, но её установка не даёт нужного характера или комплект нужно п",
+        "decision": "Барабаны перед записью | Настройка корпусов и необходимый срок подготовки",
+        "next_action": "Настройка корпусов и необходимый срок подготовки"
+      }
+    },
+    "barabannaya-ustanovka-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Установка для концерта: подтверждённый перечень, посадка, смены исполнителей и время саундчека.",
+        "decision": "Барабанная установка на концерт в аренду | Комплектация по райдеру и саундчек",
+        "next_action": "Комплектация по райдеру и саундчек"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "На площадке есть сцена и звуковая система, но нет установки, на которой можно сыграт",
+        "decision": "Концертная ударная установка | Посадка и смена музыкантов на сцене",
+        "next_action": "Посадка и смена музыкантов на сцене"
+      }
+    },
+    "elektronnye-barabany-dlya-kvartiry": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Электронная установка дома: место, удары по пэдам, вибрация педалей и пробный период в квартире.",
+        "decision": "Электронные барабаны для квартиры в аренду | Компактный комплект для дома",
+        "next_action": "Компактный комплект для дома"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Хочется заниматься дома в наушниках, а возможность поставить барабаны в квартире пок",
+        "decision": "Электронные барабаны дома | Удары по пэдам и передача вибрации через пол",
+        "next_action": "Удары по пэдам и передача вибрации через пол"
+      }
+    },
+    "elektronnye-barabany-dlya-obucheniya-rebenka": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Электронные барабаны ребёнку: требования педагога, настройка рамы, педали и реальная домашняя практика.",
+        "decision": "Электронные барабаны ребёнку в аренду | Рама и педали под рост ученика",
+        "next_action": "Рама и педали под рост ученика"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Ребёнок занимается с преподавателем, и теперь нужно повторять упражнения дома. Важно",
+        "decision": "Первые электронные ударные | Посадка ребёнка и домашняя работа по заданию",
+        "next_action": "Посадка ребёнка и домашняя работа по заданию"
+      }
+    },
+    "barabany-dlya-gastrolnogo-raydera": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Барабаны для гастрольной группы: обязательные позиции, допустимые замены, личные принадлежности и приёмка.",
+        "decision": "Барабаны по гастрольному райдеру в аренду | Комплект с согласованными заменами",
+        "next_action": "Комплект с согласованными заменами"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Группа приезжает без своей установки, и организатору нужно обеспечить технические тр",
+        "decision": "Гастрольные барабаны | Список обязательных деталей и приёмка до выступления",
+        "next_action": "Список обязательных деталей и приёмка до выступления"
+      }
+    },
+    "malyy-baraban-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Малый барабан вместо ремонтируемого: чувствительность, рабочие приёмы, настройка и срок замены.",
+        "decision": "Малый барабан на время ремонта в аренду | Сохранить привычные упражнения",
+        "next_action": "Сохранить привычные упражнения"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Свой малый барабан требует ремонта, а программа уже готовится. Замена нужна для конк",
+        "decision": "Временный малый барабан | Чувствительность, натяжение и рабочие приёмы",
+        "next_action": "Чувствительность, натяжение и рабочие приёмы"
+      }
+    },
+    "tarelki-dlya-studiynoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Тарелки для записи: длительность резонанса, отношение к вокалу и барабанам, проба перед сессией.",
+        "decision": "Тарелки для студийной записи в аренду | Подобрать атаку и длительность резонанса",
+        "next_action": "Подобрать атаку и длительность резонанса"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "В живой группе привычные тарелки работают хорошо, а в записи слишком долго закрывают",
+        "decision": "Тарелки в записи | Как оставить пространство голосу и барабанному комплекту",
+        "next_action": "Как оставить пространство голосу и барабанному комплекту"
+      }
+    },
+    "marimba-dlya-podgotovki-k-konkursu": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Маримба для конкурса: требуемые ноты, исполнительская высота и непрерывный период подготовки.",
+        "decision": "Маримба для подготовки к конкурсу в аренду | Диапазон под всю программу",
+        "next_action": "Диапазон под всю программу"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "В программе есть пьеса, которую нельзя полностью пройти на доступной маримбе. Нужен ",
+        "decision": "Конкурсная маримба | Диапазон, высота и непрерывность занятий",
+        "next_action": "Диапазон, высота и непрерывность занятий"
+      }
+    },
+    "vibrafon-dlya-dzhazovoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Вибрафон для записи: глушение, мотор, палочки и баланс продолжающихся нот внутри гармонии.",
+        "decision": "Вибрафон для джазовой записи в аренду | Палочки, мотор и педаль",
+        "next_action": "Палочки, мотор и педаль"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "В записи нужен живой вибрафон, и основная сложность находится между атаками: какие н",
+        "decision": "Вибрафон в джазовой студии | Глушение и продолжение нот в гармонии",
+        "next_action": "Глушение и продолжение нот в гармонии"
+      }
+    },
+    "litavry-pered-proslushivaniem": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Литавры для подготовки: оркестровые отрывки, комплект котлов, педали и регулярная работа перед датой.",
+        "decision": "Литавры для подготовки к прослушиванию в аренду | Комплект котлов и педалей",
+        "next_action": "Комплект котлов и педалей"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "На прослушивание нужно подготовить отрывки, а регулярного доступа к подходящим литав",
+        "decision": "Литавры перед прослушиванием | Настройка высоты и переходы между нотами",
+        "next_action": "Настройка высоты и переходы между нотами"
+      }
+    },
+    "kahon-dlya-akusticheskogo-vystupleniya": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Кахон для акустического концерта: рисунок, посадка, баланс с голосом и согласованный способ озвучивания.",
+        "decision": "Кахон для акустического выступления в аренду | Компактная ритм-секция",
+        "next_action": "Компактная ритм-секция"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Небольшой состав играет песни с гитарой и голосом, а для одного вечера хочется добав",
+        "decision": "Кахон на концерте | Посадка и баланс с голосом без полной установки",
+        "next_action": "Посадка и баланс с голосом без полной установки"
+      }
+    },
+    "perkussiya-dlya-odnogo-ispolnitelya": {
+      "n0": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "Перкуссия для одного музыканта: последовательность ударов, переходы между инструментами, крепления и план сцены.",
+        "decision": "Перкуссия для одного исполнителя в аренду | Комплект с удобными креплениями",
+        "next_action": "Комплект с удобными креплениями"
+      },
+      "n1": {
+        "source_path": "content/sections/99i-percussion-task-landings.json",
+        "source_quote": "В партии перечислено несколько ударных, но играть на них будет один человек. Недоста",
+        "decision": "Один исполнитель за несколькими ударными | Размещение и переходы между инструментами",
+        "next_action": "Размещение и переходы между инструментами"
+      }
+    }
+  }
+}

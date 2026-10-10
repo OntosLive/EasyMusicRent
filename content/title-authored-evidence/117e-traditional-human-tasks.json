@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "domra-dlya-uchenika": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Домра для обучения: трёх- или четырёхструнная система, мензура, посадка и требования преподавателя.",
+        "decision": "Домра ученику музыкальной школы в аренду | Трёх- и четырёхструнные модели",
+        "next_action": "Трёх- и четырёхструнные модели"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "На уроках ребёнок уже знакомится с домрой, а дома пока нет подходящего инструмента. ",
+        "decision": "Учебная домра | Система струн, мензура и требования преподавателя",
+        "next_action": "Система струн, мензура и требования преподавателя"
+      }
+    },
+    "balalayka-dlya-orkestra": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Балалайка для оркестра: конкретная разновидность, строй, исполнительские приёмы и репетиционный цикл.",
+        "decision": "Балалайка для народного оркестра в аренду | Нужный голос под партитуру",
+        "next_action": "Нужный голос под партитуру"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "В народном оркестре не хватает балалайки для определённой партии. Нужен инструмент н",
+        "decision": "Балалайка в оркестре | Разновидность, строй и место внутри секции",
+        "next_action": "Разновидность, строй и место внутри секции"
+      }
+    },
+    "gusli-dlya-pesennogo-soprovozhdeniya": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Гусли для песни: конструкция, настройка, доступные гармонии и удобство одновременного пения и игры.",
+        "decision": "Гусли для сопровождения песни в аренду | Инструмент под вокальный строй",
+        "next_action": "Инструмент под вокальный строй"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Хочется сопровождать песню на гуслях, но ещё не ясно, какой инструмент подходит голо",
+        "decision": "Гусли рядом с голосом | Гармонии и удобство одновременного пения",
+        "next_action": "Гармонии и удобство одновременного пения"
+      }
+    },
+    "sitar-dlya-studiynoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Ситар для записи: исполнительский тип, резонирующие струны, настройка и проба в аранжировке.",
+        "decision": "Ситар для студийной записи в аренду | Живой индийский тембр для аранжировки",
+        "next_action": "Живой индийский тембр для аранжировки"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Для одного трека нужен живой ситар, а приобретать инструмент ради этой партии пока н",
+        "decision": "Ситар в студии | Строй резонирующих струн и исполнительский рисунок",
+        "next_action": "Строй резонирующих струн и исполнительский рисунок"
+      }
+    },
+    "tabla-dlya-ansamblevogo-proekta": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Комплект табла для проекта: два барабана, высотная опора, опоры и совместная репетиция.",
+        "decision": "Табла для ансамбля в аренду | Пара барабанов с высотной настройкой",
+        "next_action": "Пара барабанов с высотной настройкой"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Для ансамблевой программы нужен комплект табла на период подготовки и выступления. В",
+        "decision": "Табла в ансамбле | Согласование ритма и музыкального тона",
+        "next_action": "Согласование ритма и музыкального тона"
+      }
+    },
+    "duduk-dlya-saundtreka": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Дудук для музыки к фильму: партия, основной тон, трость, исполнитель и пробный дубль.",
+        "decision": "Дудук для записи саундтрека в аренду | Духовой инструмент под киномузыку",
+        "next_action": "Духовой инструмент под киномузыку"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "В музыке к фильму нужен живой дудук, и уже есть мелодический набросок. Следующий шаг",
+        "decision": "Дудук в саундтреке | Трость и дыхательная фраза определённого эпизода",
+        "next_action": "Трость и дыхательная фраза определённого эпизода"
+      }
+    },
+    "dombra-dlya-uchebnyh-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Домбра для начала занятий: настройка, мензура, педагог и первый законченный музыкальный материал.",
+        "decision": "Домбра для учебных занятий в аренду | Инструмент под выбранную школу игры",
+        "next_action": "Инструмент под выбранную школу игры"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Вы начинаете заниматься на домбре и хотите сначала получить реальную практику, а зат",
+        "decision": "Учебная домбра | Мензура, строй и первые музыкальные движения",
+        "next_action": "Мензура, строй и первые музыкальные движения"
+      }
+    },
+    "ud-dlya-studiynoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Уд для записи: исполнительская традиция, строй, мензура и сочетание с аранжировкой.",
+        "decision": "Уд для студийной записи в аренду | Безладовый щипковый голос",
+        "next_action": "Безладовый щипковый голос"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "В треке нужна партия уда, и инструмент подбирается на подготовку и запись. Его безла",
+        "decision": "Уд в записи | Интонация и исполнительская традиция внутри аранжировки",
+        "next_action": "Интонация и исполнительская традиция внутри аранжировки"
+      }
+    },
+    "handpan-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Хэндпан на пробный период: реальные ноты, высотный стандарт, отклик и решение о покупке.",
+        "decision": "Хэндпан перед покупкой в аренду | Проверить собственный строй на практике",
+        "next_action": "Проверить собственный строй на практике"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Звук хэндпана понравился, но выбирать свой инструмент по короткому ролику трудно. Пр",
+        "decision": "Хэндпан до покупки | Доступные ноты и отклик в повседневной игре",
+        "next_action": "Доступные ноты и отклик в повседневной игре"
+      }
+    },
+    "kalimba-dlya-zapisi-pesni": {
+      "n0": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "Калимба для конкретной песни: доступные высоты, расположение язычков, корпус и способ записи.",
+        "decision": "Калимба для записи песни в аренду | Настроенные язычки для мелодии",
+        "next_action": "Настроенные язычки для мелодии"
+      },
+      "n1": {
+        "source_path": "content/sections/99p-traditional-task-landings.json",
+        "source_quote": "В песне появилась идея короткого калимбового рисунка, и нужен инструмент на подготов",
+        "decision": "Калимба в песне | Корпус, расположение язычков и способ записи",
+        "next_action": "Корпус, расположение язычков и способ записи"
+      }
+    }
+  }
+}

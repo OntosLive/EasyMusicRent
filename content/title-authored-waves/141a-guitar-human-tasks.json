@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "klassicheskaya-gitara-rebenku",
+      "n0": "Классическая гитара ребёнку в аренду | Подходящий размер для первого урока",
+      "n1": "Первая гитара ребёнка | Размер корпуса и рекомендации преподавателя"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "akusticheskaya-gitara-dlya-vzroslogo-nachinayuschego",
+      "n0": "Акустическая гитара взрослому начинающему в аренду | Для первых песен и занятий",
+      "n1": "Начало игры на акустической гитаре | Комфорт корпуса и привычка заниматься"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "elektrogitara-dlya-pervyh-repetitsiy",
+      "n0": "Электрогитара для первых репетиций в аренду | Инструмент под первый состав",
+      "n1": "Первая репетиция с электрогитарой | Услышать собственную партию рядом с группой"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "gitara-na-vremya-remonta",
+      "n0": "Гитара на время ремонта в аренду | Замена под привычную мензуру и строй",
+      "n1": "Временная гитара | Как продолжить концерты и занятия, пока своя в мастерской"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "elektroakusticheskaya-gitara-na-vystuplenie",
+      "n0": "Электроакустическая гитара на выступление в аренду | Готовое подключение к пульту",
+      "n1": "Электроакустическая гитара | Живой акустический звук в системе усиления"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "dvenadtsatistrunnaya-gitara-dlya-zapisi",
+      "n0": "Двенадцатиструнная гитара для записи в аренду | Парные струны для студийной партии",
+      "n1": "Двенадцать струн в записи | Октавные пары и место в аранжировке"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "bas-gitara-dlya-gastroley",
+      "n0": "Бас-гитара для гастролей в аренду | Локальный инструмент по райдеру",
+      "n1": "Бас-гитара на гастролях | Строй, количество струн и приёмка до концерта"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "gitara-dlya-semki-klipa",
+      "n0": "Гитара для съёмки клипа в аренду | Модель и цвет под образ исполнителя",
+      "n1": "Гитара в клипе | Внешний референс и правдоподобные исполнительские движения"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "ukulele-dlya-shkolnogo-ansamblya",
+      "n0": "Укулеле для школьного ансамбля в аренду | Комплект на весь состав",
+      "n1": "Школьный ансамбль укулеле | Общий строй и распределение партий"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "gitary-dlya-dueta",
+      "n0": "Две гитары для дуэта в аренду | Согласованный комплект на концерт или запись",
+      "n1": "Гитарный дуэт | Разные струны и распределение двух мелодических голосов"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "elektrogitara-v-ponizhennom-stroe",
+      "n0": "Электрогитара в пониженном строе в аренду | Настроенный инструмент под репертуар",
+      "n1": "Пониженный строй электрогитары | Точные ноты, струны и исполнительская атака"
+    },
+    {
+      "source_file": "content/sections/99h-guitar-task-landings.json",
+      "slug": "klassicheskaya-gitara-na-ekzamen",
+      "n0": "Классическая гитара на экзамен в аренду | Инструмент под подготовленную программу",
+      "n1": "Экзаменационная гитара | Привычная геометрия и время на адаптацию"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99d-orchestral-percussion.json",
+      "slug": "bolshoy-orkestrovyy-baraban",
+      "n0": "Большой оркестровый барабан в аренду | Полная установка и колотушки для сцены",
+      "n1": "Большой оркестровый барабан | Атака, глушение и долгое продолжение звука"
+    },
+    {
+      "source_file": "content/sections/99d-orchestral-percussion.json",
+      "slug": "orkestrovye-parnye-tarelki",
+      "n0": "Парные оркестровые тарелки в аренду | Согласованная пара для партитуры",
+      "n1": "Парные оркестровые тарелки | Вес, ремни и контроль продолжения звука"
+    },
+    {
+      "source_file": "content/sections/99d-orchestral-percussion.json",
+      "slug": "podvesnaya-tarelka",
+      "n0": "Подвесная оркестровая тарелка в аренду | Крепление и палочки под программу",
+      "n1": "Подвесная тарелка | Нарастание резонанса из тихого прикосновения"
+    },
+    {
+      "source_file": "content/sections/99d-orchestral-percussion.json",
+      "slug": "orkestrovyy-treugolnik",
+      "n0": "Оркестровый треугольник в аренду | Подвес и палочки для точной атаки",
+      "n1": "Оркестровый треугольник | Начало звука и управляемое прекращение звона"
+    },
+    {
+      "source_file": "content/sections/99d-orchestral-percussion.json",
+      "slug": "orkestrovyy-buben",
+      "n0": "Оркестровый бубен в аренду | Инструмент с мембраной для концертной партии",
+      "n1": "Оркестровый бубен | Тихие удары, звон и тремоло в одном инструменте"
+    }
+  ]
+}

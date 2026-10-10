@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "pedalnaya-arfa-pered-pokupkoy",
+      "n0": "Педальная арфа перед покупкой в аренду | Пробный период с реальной механикой",
+      "n1": "Педальная арфа до покупки | Координация ног и рук в ежедневной программе"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "leversnaya-arfa-rebenku",
+      "n0": "Леверсная арфа ребёнку в аренду | Учебный размер и диапазон под педагога",
+      "n1": "Первая леверсная арфа | Натяжение струн и удобная высота инструмента"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "arfa-na-vremya-remonta",
+      "n0": "Арфа на время ремонта в аренду | Замена под привычную систему и диапазон",
+      "n1": "Временная арфа | Как сохранить натяжение и программу, пока своя в мастерской"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "arfa-dlya-studiynoy-zapisi",
+      "n0": "Арфа для студийной записи в аренду | Педальная или леверсная модель под партию",
+      "n1": "Арфа в студии | Педальные изменения и подготовка музыкального дубля"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "elektricheskaya-arfa-dlya-kontsertnogo-nomera",
+      "n0": "Электрическая арфа для концерта в аренду | Подключение и сценический комплект",
+      "n1": "Электрическая арфа | Ременная система, обработка и движение исполнителя"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "bayan-rebenku-pervyy-god",
+      "n0": "Баян ребёнку на первый год обучения в аренду | Подходящий корпус и ремни",
+      "n1": "Первый год на баяне | Правая и левая системы в детской постановке"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "gotovo-vybornyy-bayan-na-konkurs",
+      "n0": "Готово-выборный баян на конкурс в аренду | Система под репертуар",
+      "n1": "Конкурсный баян | Раскладка, диапазон и адаптация выборного баса"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "akkordeon-dlya-gastroley",
+      "n0": "Аккордеон для гастролей в аренду | Инструмент на площадке к приезду музыканта",
+      "n1": "Аккордеон на гастролях | Регистры, строй и ремни в концертной программе"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "bandoneon-dlya-tango-proekta",
+      "n0": "Бандонеон для танго-проекта в аренду | Точная система под исполнителя",
+      "n1": "Бандонеон для танго | Мех и раскладка в совместной репетиции"
+    },
+    {
+      "source_file": "content/sections/99n-harp-bellows-landings.json",
+      "slug": "kontsertina-dlya-ansamblya",
+      "n0": "Концертина для ансамбля в аренду | Английская, англо или дуэтная система",
+      "n1": "Концертина в ансамбле | Аппликатура и диапазон выбранного типа"
+    }
+  ]
+}
