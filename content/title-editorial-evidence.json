@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3650,
+  "record_count": 3740,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -136,6 +136,12 @@
     "content/title-authored-evidence/118a-performance-electronic-models.json",
     "content/title-authored-evidence/118b-yamaha-wind-models.json",
     "content/title-authored-evidence/118c-guitar-and-bass-models.json",
-    "content/title-authored-evidence/118d-keyboard-and-drum-models.json"
+    "content/title-authored-evidence/118d-keyboard-and-drum-models.json",
+    "content/title-authored-evidence/119a-traditional-performance-tasks.json",
+    "content/title-authored-evidence/119b-ensemble-instrument-completion.json",
+    "content/title-authored-evidence/119c-extended-wind-voices.json",
+    "content/title-authored-evidence/119d-orchestral-plucked-voices.json",
+    "content/title-authored-evidence/119e-wind-step-up-models.json",
+    "content/title-authored-evidence/119f-wind-and-mandolin-ensembles.json"
   ]
 }
