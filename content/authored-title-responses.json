@@ -9,7 +9,7 @@
   ],
   "python_role": "literal_transfer_validation_coverage_only",
   "requires_owner_review": true,
-  "editorial_wave": "2026-10-10-school-smychkovye-part1",
+  "editorial_wave": "2026-10-10-bellows-drums-part2",
   "pairs": {
     "keytara": {
       "n0": "Кейтара в аренду | Клавишные партии без привязки к стойке",
@@ -5838,6 +5838,50 @@
     "hidersine-vivente-kontrabas-v-arendu": {
       "n0": "Контрабас Hidersine Vivente в аренду | Ученический набор размеров 1/2 и 3/4",
       "n1": "Hidersine Vivente Double Bass | Корпус, смычок и чехол как учебный комплект"
+    },
+    "weltmeister-perle-v-arendu": {
+      "n0": "Аккордеон Weltmeister Perle 26/48 в аренду | Компактная немецкая учебная модель",
+      "n1": "Weltmeister Perle | Клавиатура 26 и 48 басов для первых шагов"
+    },
+    "weltmeister-rubin-v-arendu": {
+      "n0": "Аккордеон Weltmeister Rubin 30/60 в аренду | Учебная модель с узкими клавишами",
+      "n1": "Weltmeister Rubin | Уменьшенная ширина клавиш и 60 басов для ученика"
+    },
+    "kawai-k300-v-arendu": {
+      "n0": "Акустическое пианино Kawai K-300 в аренду | Профессиональная механика в корпусе 122 см",
+      "n1": "Kawai K-300 | Millennium III и резонансная дека для школы и студии"
+    },
+    "yamaha-rydeen-v-arendu": {
+      "n0": "Ударная установка Yamaha RYDEEN в аренду | Бас-бочка 20 или 22 дюйма",
+      "n1": "Yamaha RYDEEN | Пять барабанов и размеры установки для первого этапа"
+    },
+    "tama-imperialstar-v-arendu": {
+      "n0": "Ударная установка TAMA Imperialstar в аренду | Комплект для обучения и репетиций",
+      "n1": "TAMA Imperialstar | Выбор бас-бочки 18 или 22 дюйма и полноценный hardware"
+    },
+    "barabannaya-ustanovka-ponizhe-dlya-rebenka": {
+      "n0": "Невысокая барабанная установка ребёнку в аренду | Посадка под рост",
+      "n1": "Ударная установка для ребёнка | Высота томов и малого барабана относительно рук"
+    },
+    "hohner-bravo-iii-72-v-arendu": {
+      "n0": "Аккордеон Hohner Bravo III 72 в аренду | 34 клавиши и три голоса",
+      "n1": "Hohner Bravo III 72 | Как 72 баса открывают следующую учебную программу"
+    },
+    "weltmeister-achat-34-72-v-arendu": {
+      "n0": "Аккордеон Weltmeister Achat 34/72 в аренду | Трёхголосная ученическая модель",
+      "n1": "Weltmeister Achat 34/72 | Диапазон и вес на этапе продолжения обучения"
+    },
+    "akkordeon-72-basa-dlya-prodolzheniya-obucheniya": {
+      "n0": "Аккордеон на 72 баса для продолжения обучения в аренду | Учебный комплект",
+      "n1": "Аккордеон 72 баса | Переход к более широкому диапазону и ансамблевым партиям"
+    },
+    "hohner-bravo-i-49f-v-arendu": {
+      "n0": "Аккордеон Hohner Bravo I 49 F в аренду | Лёгкая система выборного баса",
+      "n1": "Hohner Bravo I 49 F | Учебный melody-bass, разработанный вместе с педагогами"
+    },
+    "akkordeon-s-vybornym-basom-dlya-obucheniya": {
+      "n0": "Аккордеон с выборным басом для обучения в аренду | Диапазон под левую руку",
+      "n1": "Выборный бас аккордеона | Отдельная мелодическая линия вместо готового аккорда"
     }
   }
 }
