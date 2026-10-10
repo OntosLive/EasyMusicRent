@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3482,
+  "record_count": 3582,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -127,6 +127,11 @@
     "content/title-authored-evidence/116a-guitar-human-tasks.json",
     "content/title-authored-evidence/116b-percussion-human-tasks.json",
     "content/title-authored-evidence/116c-wind-human-tasks.json",
-    "content/title-authored-evidence/116d-keyboard-studio-and-stage.json"
+    "content/title-authored-evidence/116d-keyboard-studio-and-stage.json",
+    "content/title-authored-evidence/117a-east-asian-instruments.json",
+    "content/title-authored-evidence/117b-brass-performance-tasks.json",
+    "content/title-authored-evidence/117c-harp-and-bellows-tasks.json",
+    "content/title-authored-evidence/117d-historical-electric-string-tasks.json",
+    "content/title-authored-evidence/117e-traditional-human-tasks.json"
   ]
 }
