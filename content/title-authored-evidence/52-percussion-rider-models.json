@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "adams-professional-gen2-litavry-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "Adams Professional Gen II timpani: balanced-action pedal, 20–32 inch sizes and widely used professional rental configuration.",
+        "decision": "Литавры Adams Professional Gen II в аренду | Комплект размеров по партитуре",
+        "next_action": "Комплект размеров по партитуре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "Adams называет Professional Gen II «most played timpani in the world» и benchmar",
+        "decision": "Adams Professional Gen II | Balanced-action педаль и диапазоны оркестровых литавр",
+        "next_action": "Balanced-action педаль и диапазоны оркестровых литавр"
+      }
+    },
+    "yamaha-ym6100-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "Yamaha YM-6100: 5-octave C–c4 rosewood Concert Grand marimba, flagship model developed with Keiko Abe.",
+        "decision": "Маримба Yamaha YM-6100 в аренду | Пятиоктавный Concert Grand",
+        "next_action": "Пятиоктавный Concert Grand"
+      },
+      "n1": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "YM‑6100 — флагманская пятиоктавная маримба Yamaha, итог более чем сорокалетнего ",
+        "decision": "Yamaha YM-6100 | Деревянные пластины и пятиоктавный диапазон концертной маримбы",
+        "next_action": "Деревянные пластины и пятиоктавный диапазон концертной маримбы"
+      }
+    },
+    "paiste-2002-set-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "Paiste 2002 cymbals: CuSn8 Bronze series since 1971, legendary live/recording rock standard in multiple sizes.",
+        "decision": "Комплект тарелок Paiste 2002 в аренду | Подбор ride, crash и hi-hat по райдеру",
+        "next_action": "Подбор ride, crash и hi-hat по райдеру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "Paiste прямо называет 2002 легендарными тарелками, определившими звук поколений ",
+        "decision": "Paiste 2002 | Бронзовая серия и яркая артикуляция рок-барабанщика",
+        "next_action": "Бронзовая серия и яркая артикуляция рок-барабанщика"
+      }
+    },
+    "sabian-hhx-set-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "Sabian HHX: B20 dark modern cymbal family for jazz, fusion, rock, metal and studio/live applications.",
+        "decision": "Комплект тарелок Sabian HHX в аренду | Тёмные профессиональные тембры",
+        "next_action": "Тёмные профессиональные тембры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "HHX представляет другую полюсность профессионального cymbal-выбора: Sabian описы",
+        "decision": "Sabian HHX | Современная тёмная палитра тарелок для живой игры",
+        "next_action": "Современная тёмная палитра тарелок для живой игры"
+      }
+    },
+    "zildjian-k-series-set-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "Zildjian K cymbals as a recurring professional rental family; exact K/K Custom models and sizes are specified per rider.",
+        "decision": "Комплект тарелок Zildjian K Series в аренду | Размеры под конкретный комплект",
+        "next_action": "Размеры под конкретный комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz35-percussion-rider-standards.json",
+        "source_quote": "В крупных барабанных прокатах Zildjian K и K Custom стоят рядом с A/A Custom как",
+        "decision": "Zildjian K | Тёмная традиция серии рядом с более яркой A Series",
+        "next_action": "Тёмная традиция серии рядом с более яркой A Series"
+      }
+    }
+  }
+}
