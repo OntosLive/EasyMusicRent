@@ -104,8 +104,8 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["publication_status"], "model_reviewed_pilot")
         self.assertTrue(manifest["requires_owner_review"])
-        self.assertEqual(len(pairs), 853)
-        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 1706)
+        self.assertEqual(len(pairs), 1000)
+        self.assertEqual(len({t for v in pairs.values() for t in v.values()}), 2000)
         self.assertIn("Полный размер для концерта", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
         self.assertIn("период подготовки", pairs["skripka-na-konkurs-v-arendu"]["n0"])
         self.assertNotIn("Сверьте мензуру", pairs["kontrabas-chetyre-chetverti-v-arendu"]["n0"])
@@ -117,7 +117,20 @@ class AuthoredTitlesTests(unittest.TestCase):
         manifest = json.loads(authored.DEFAULT_MANIFEST.read_text(encoding="utf-8"))
         self.assertEqual(manifest["authoring_models"], ["GPT-6", "GPT-6.1"])
         self.assertEqual(manifest["python_role"], "literal_transfer_validation_coverage_only")
-        self.assertEqual(len(manifest["pairs"]), 853)
+        self.assertEqual(len(manifest["pairs"]), 1000)
+
+    def test_every_live_title_has_matching_source_evidence(self):
+        titles = authored.validate_manifest(authored.DEFAULT_MANIFEST)
+        evidence_path = ROOT / "content" / "title-editorial-evidence.json"
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        self.assertEqual(set(titles), set(evidence["reviews"]))
+        for slug, pair in titles.items():
+            self.assertEqual(set(evidence["reviews"][slug]), {"n0", "n1"})
+            for role in ("n0", "n1"):
+                record = evidence["reviews"][slug][role]
+                self.assertEqual(record["decision"], pair[role])
+                self.assertTrue(record["source_path"])
+                self.assertGreater(len(record["source_quote"]), 12)
 
     def test_title_can_be_direct_without_vertical_separator(self):
         self.titles["skripka"]["n0"] = "Скрипка ребёнку в аренду на нужный срок"
