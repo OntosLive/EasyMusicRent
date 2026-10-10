@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2954,
+  "record_count": 2990,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -88,6 +88,10 @@
     "content/title-authored-evidence/84-freebass-learning.json",
     "content/title-authored-evidence/85-gewa-education-family.json",
     "content/title-authored-evidence/86-eastman-school-family.json",
-    "content/title-authored-evidence/87-fender-acoustic-light-euphonium.json"
+    "content/title-authored-evidence/87-fender-acoustic-light-euphonium.json",
+    "content/title-authored-evidence/88-student-compact-trombone-bass-clarinet.json",
+    "content/title-authored-evidence/89-short-scale-student-electric.json",
+    "content/title-authored-evidence/90-beginner-harmonica.json",
+    "content/title-authored-evidence/91-school-melodicas.json"
   ]
 }
