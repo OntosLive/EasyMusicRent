@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2032,
+  "record_count": 2064,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -28,6 +28,7 @@
     "content/title-authored-evidence/24-cello-maker-brands.json",
     "content/title-authored-evidence/25-cello-bass-makers.json",
     "content/title-authored-evidence/26-home-piano-models.json",
-    "content/title-authored-evidence/27-melodica-concertina-transitions.json"
+    "content/title-authored-evidence/27-melodica-concertina-transitions.json",
+    "content/title-authored-evidence/28-historical-bowed-instruments.json"
   ]
 }
