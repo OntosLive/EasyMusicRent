@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду, N.1 углубляет предмет",
+  "records": [
+    {
+      "source_file": "content/sections/zz30-concert-grand-standards.json",
+      "slug": "steinway-d274-v-arendu",
+      "n0": "Рояль Steinway D-274 в аренду | Концертный инструмент для большого зала",
+      "n1": "Steinway D-274 | Звуковой масштаб концертного рояля длиной 274 см"
+    },
+    {
+      "source_file": "content/sections/zz30-concert-grand-standards.json",
+      "slug": "steinway-b211-v-arendu",
+      "n0": "Рояль Steinway B-211 в аренду | Профессиональная модель 211 см",
+      "n1": "Steinway B-211 | Рояль среднего размера для камерного зала и студии"
+    },
+    {
+      "source_file": "content/sections/zz30-concert-grand-standards.json",
+      "slug": "yamaha-cfx-v-arendu",
+      "n0": "Рояль Yamaha CFX в аренду | Флагман для концертной сцены",
+      "n1": "Yamaha CFX | Современный концертный рояль как самостоятельный исполнительский голос"
+    },
+    {
+      "source_file": "content/sections/zz30-concert-grand-standards.json",
+      "slug": "boesendorfer-280vc-v-arendu",
+      "n0": "Рояль Bösendorfer 280VC в аренду | Большой Vienna Concert",
+      "n1": "Bösendorfer 280VC | Концертная архитектура венской школы длиной 280 см"
+    },
+    {
+      "source_file": "content/sections/zz30-concert-grand-standards.json",
+      "slug": "fazioli-f278-v-arendu",
+      "n0": "Рояль Fazioli F278 в аренду | Инструмент для большого концерта и студии",
+      "n1": "Fazioli F278 | Исполнительская палитра большого концертного рояля"
+    }
+  ]
+}
