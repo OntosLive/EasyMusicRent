@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "review_type": "literal source excerpts",
+  "reviews": {
+    "casio-privia-v-arendu": {
+      "n0": {
+        "source_path": "casio-privia-v-arendu/index.html",
+        "source_quote": "Privia — линейка компактных цифровых пианино Casio с 88 клавишами, в кот",
+        "decision": "Casio Privia в аренду | От первой учебной клавиатуры до продвинутых моделей",
+        "next_action": "От первой учебной клавиатуры до продвинутых моделей"
+      },
+      "n1": {
+        "source_path": "casio-privia-v-arendu/index.html",
+        "source_quote": "Разница между моделями начинается не с дизайна, а с механики клавиатуры,",
+        "decision": "Семейство Casio Privia | Компактные цифровые пианино на 88 клавиш",
+        "next_action": "Компактные цифровые пианино на 88 клавиш"
+      }
+    },
+    "casio-px160-v-arendu": {
+      "n0": {
+        "source_path": "casio-px160-v-arendu/index.html",
+        "source_quote": "PX-160 — 88-клавишное цифровое пианино предыдущего поколения Privia, кот",
+        "decision": "Casio PX-160 напрокат | Полная клавиатура для дома и музыкальной школы",
+        "next_action": "Полная клавиатура для дома и музыкальной школы"
+      },
+      "n1": {
+        "source_path": "casio-px160-v-arendu/index.html",
+        "source_quote": "В аренде важнее не возраст модели сам по себе, а состояние конкретного и",
+        "decision": "Casio PX-160 | 88 клавиш предыдущего поколения Privia",
+        "next_action": "88 клавиш предыдущего поколения Privia"
+      }
+    },
+    "casio-px560-v-arendu": {
+      "n0": {
+        "source_path": "casio-px560-v-arendu/index.html",
+        "source_quote": "PX-560 — цифровое пианино Privia Pro с 88 клавишами, расширенными тембра",
+        "decision": "Casio PX-560 в аренду | Фортепиано с дополнительными сценическими функциями",
+        "next_action": "Фортепиано с дополнительными сценическими функциями"
+      },
+      "n1": {
+        "source_path": "casio-px560-v-arendu/index.html",
+        "source_quote": "Оно подходит музыканту, которому кроме фортепианной практики нужны аранж",
+        "decision": "Casio PX-560 | Privia Pro с тембрами, записью и управлением",
+        "next_action": "Privia Pro с тембрами, записью и управлением"
+      }
+    },
+    "casio-pxs1000-v-arendu": {
+      "n0": {
+        "source_path": "casio-pxs1000-v-arendu/index.html",
+        "source_quote": "PX-S1000 — компактное 88-клавишное цифровое пианино Privia, рассчитанное",
+        "decision": "Casio PX-S1000 напрокат | Очень компактное пианино для регулярной учёбы",
+        "next_action": "Очень компактное пианино для регулярной учёбы"
+      },
+      "n1": {
+        "source_path": "casio-pxs1000-v-arendu/index.html",
+        "source_quote": "Его имеет смысл рассматривать, если нужен полноценный диапазон в тонком ",
+        "decision": "Casio PX-S1000 | Полная клавиатура в тонком корпусе Privia",
+        "next_action": "Полная клавиатура в тонком корпусе Privia"
+      }
+    },
+    "casio-pxs1100-v-arendu": {
+      "n0": {
+        "source_path": "casio-pxs1100-v-arendu/index.html",
+        "source_quote": "PX-S1100 — компактное цифровое пианино Privia на 88 клавиш для дома, обу",
+        "decision": "Casio PX-S1100 в аренду | Тонкое цифровое пианино для квартиры",
+        "next_action": "Тонкое цифровое пианино для квартиры"
+      },
+      "n1": {
+        "source_path": "casio-pxs1100-v-arendu/index.html",
+        "source_quote": "Оно подходит, если нужен переносной инструмент с фортепианной механикой ",
+        "decision": "Casio PX-S1100 | 88 клавиш в мобильном домашнем формате",
+        "next_action": "88 клавиш в мобильном домашнем формате"
+      }
+    },
+    "casio-pxs3000-v-arendu": {
+      "n0": {
+        "source_path": "casio-pxs3000-v-arendu/index.html",
+        "source_quote": "PX-S3000 сочетает 88-клавишную фортепианную механику с расширенным набор",
+        "decision": "Casio PX-S3000 напрокат | Фортепиано с расширенными тембрами и ритмами",
+        "next_action": "Фортепиано с расширенными тембрами и ритмами"
+      },
+      "n1": {
+        "source_path": "casio-pxs3000-v-arendu/index.html",
+        "source_quote": "Он подходит тем, кому кроме фортепианной практики нужны аранжировка, доп",
+        "decision": "Casio PX-S3000 | Клавиатура Privia с дополнительными музыкальными режимами",
+        "next_action": "Клавиатура Privia с дополнительными музыкальными режимами"
+      }
+    },
+    "casio-pxs3100-v-arendu": {
+      "n0": {
+        "source_path": "casio-pxs3100-v-arendu/index.html",
+        "source_quote": "PX-S3100 — компактное 88-клавишное цифровое пианино с расширенными тембр",
+        "decision": "Casio PX-S3100 в аренду | Домашние занятия и более широкий набор тембров",
+        "next_action": "Домашние занятия и более широкий набор тембров"
+      },
+      "n1": {
+        "source_path": "casio-pxs3100-v-arendu/index.html",
+        "source_quote": "Его имеет смысл брать, если нужен один инструмент и для регулярной практ",
+        "decision": "Casio PX-S3100 | 88-клавишная Privia для практики и сценического звука",
+        "next_action": "88-клавишная Privia для практики и сценического звука"
+      }
+    },
+    "casio-pxs5000-v-arendu": {
+      "n0": {
+        "source_path": "casio-pxs5000-v-arendu/index.html",
+        "source_quote": "PX-S5000 — более продвинутая модель Privia, где компактный корпус сочета",
+        "decision": "Casio PX-S5000 напрокат | Продвинутая клавиатура в компактном корпусе",
+        "next_action": "Продвинутая клавиатура в компактном корпусе"
+      },
+      "n1": {
+        "source_path": "casio-pxs5000-v-arendu/index.html",
+        "source_quote": "Она подходит ученику или взрослому музыканту, которому уже недостаточно ",
+        "decision": "Casio PX-S5000 | Повышенный класс клавиатуры без мебельного формата",
+        "next_action": "Повышенный класс клавиатуры без мебельного формата"
+      }
+    },
+    "casio-pxs6000-v-arendu": {
+      "n0": {
+        "source_path": "casio-pxs6000-v-arendu/index.html",
+        "source_quote": "PX-S6000 — продвинутое цифровое пианино Privia для домашней практики, ст",
+        "decision": "Casio PX-S6000 в аренду | Серьёзная практика дома, в студии и на сцене",
+        "next_action": "Серьёзная практика дома, в студии и на сцене"
+      },
+      "n1": {
+        "source_path": "casio-pxs6000-v-arendu/index.html",
+        "source_quote": "Его имеет смысл рассматривать, если нужен один 88-клавишный инструмент с",
+        "decision": "Casio PX-S6000 | Продвинутый цифровой инструмент серии Privia",
+        "next_action": "Продвинутый цифровой инструмент серии Privia"
+      }
+    },
+    "casio-pxs7000-v-arendu": {
+      "n0": {
+        "source_path": "casio-pxs7000-v-arendu/index.html",
+        "source_quote": "PX-S7000 — старшая модель Privia в комплектном домашнем формате с 88 кла",
+        "decision": "Casio PX-S7000 напрокат | Старшая Privia с домашней стойкой и педалями",
+        "next_action": "Старшая Privia с домашней стойкой и педалями"
+      },
+      "n1": {
+        "source_path": "casio-pxs7000-v-arendu/index.html",
+        "source_quote": "Она подходит тем, кому нужен более высокий класс клавиатуры и законченна",
+        "decision": "Casio PX-S7000 | Полный домашний комплект цифрового фортепиано",
+        "next_action": "Полный домашний комплект цифрового фортепиано"
+      }
+    }
+  }
+}
