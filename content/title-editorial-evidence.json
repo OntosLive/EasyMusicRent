@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2572,
+  "record_count": 2734,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -56,6 +56,14 @@
     "content/title-authored-evidence/52-percussion-rider-models.json",
     "content/title-authored-evidence/53-electronic-plucked-legends.json",
     "content/title-authored-evidence/54-current-pro-workstations.json",
-    "content/title-authored-evidence/55-rider-guitars-di.json"
+    "content/title-authored-evidence/55-rider-guitars-di.json",
+    "content/title-authored-evidence/56-bowed-brands-learning.json",
+    "content/title-authored-evidence/57-learning-models-and-levels.json",
+    "content/title-authored-evidence/58-quality-request-entrances.json",
+    "content/title-authored-evidence/59-education-quality-navigation.json",
+    "content/title-authored-evidence/60-golden-learning-standards-2.json",
+    "content/title-authored-evidence/61-learning-guitars-gusli.json",
+    "content/title-authored-evidence/62-student-fit-and-range.json",
+    "content/title-authored-evidence/63-international-student-winds.json"
   ]
 }
