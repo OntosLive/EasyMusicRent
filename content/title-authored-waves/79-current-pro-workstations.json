@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz37-current-pro-workstations.json",
+      "slug": "yamaha-montage-m8x-v-arendu",
+      "n0": "Yamaha MONTAGE M8x в аренду | 88 клавиш и полифонический aftertouch",
+      "n1": "Yamaha MONTAGE M8x | GEX-механика и звуковые движки AWM2, FM-X и AN-X"
+    },
+    {
+      "source_file": "content/sections/zz37-current-pro-workstations.json",
+      "slug": "roland-fantom-8-ex-v-arendu",
+      "n0": "Roland FANTOM 8 EX в аренду | Флагманская workstation с 16 зонами",
+      "n1": "Roland FANTOM 8 EX | Клавиатурная механика и многоуровневая концертная система"
+    },
+    {
+      "source_file": "content/sections/zz37-current-pro-workstations.json",
+      "slug": "korg-nautilus-88-at-v-arendu",
+      "n0": "Korg NAUTILUS 88 AT в аренду | 88 клавиш с aftertouch и девять звуковых движков",
+      "n1": "Korg NAUTILUS 88 AT | Фортепианная RH3 и девять независимых способов синтеза"
+    }
+  ]
+}
