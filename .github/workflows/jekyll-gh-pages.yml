@@ -51,7 +51,18 @@ jobs:
       - name: Verify favicon markup and icon assets
         run: python scripts/install_favicon.py --site _site --check
       - name: Track functional-title progress across the complete corpus
-        run: python scripts/title_worklist.py --site _site --report _audit/build.json --output _audit/title-worklist.json --csv _audit/title-worklist.csv
+        run: |
+          python scripts/title_worklist.py --site _site --report _audit/build.json --output _audit/title-worklist.json --csv _audit/title-worklist.csv
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("_audit/title-worklist.json").read_text(encoding="utf-8"))
+          remaining = [record for record in report["records"] if record["role"] == "n0" and record["review_state"] == "pending_functional_review"]
+          print("BEGIN_PENDING_EDITORIAL_SLUGS")
+          for record in remaining:
+              print(f'{record["slug"]} | {record["topic_source"]}')
+          print(f'END_PENDING_EDITORIAL_SLUGS total={len(remaining)}')
+          PY
       - name: Audit page roles and rental language
         run: python scripts/page_contract_audit.py --site _site --report _audit/page-contract.json
       - name: Save release audit
