@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 даёт положительный предметный ответ на аренду; N.1 раскрывает смысл и устройство самостоятельной сцены",
+  "records": [
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "scenicheskie-klavishnye-po-rayderu",
+      "n0": "Сценические клавишные по райдеру в аренду | Механика, педали и выходы под программу",
+      "n1": "Клавишные по райдеру | Что скрывается за названием конкретной модели"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "stage-piano-po-rayderu",
+      "n0": "Stage piano по райдеру в аренду | Взвешенная клавиатура и полный сценический комплект",
+      "n1": "Stage piano по райдеру | Клавиатура, педали и подключение как одна система"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "workstation-po-rayderu",
+      "n0": "Workstation по райдеру в аренду | Концертные пресеты, зоны и MIDI-связи",
+      "n1": "Workstation в райдере | Почему важен не только корпус, но и подготовленный live set"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "hammond-leslie-po-rayderu",
+      "n0": "Hammond B3 и Leslie по райдеру в аренду | Органный комплект для сцены",
+      "n1": "Hammond B3 с Leslie | Мануалы, педальная система и вращающийся звук"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-dlya-festivalya",
+      "n0": "Клавишные для фестиваля в аренду | Общий backline для нескольких артистов",
+      "n1": "Фестивальный клавишный комплект | Один инструмент, несколько исполнительских систем"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-dlya-festivalnoy-smeny-artistov",
+      "n0": "Клавишные для смены артистов на фестивале в аренду | Быстрая перенастройка сцены",
+      "n1": "Быстрая смена клавишников | Пресеты, педали и передача управления между сетами"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-s-pedalyami-po-rayderu",
+      "n0": "Клавишные с педалями по райдеру в аренду | Sustain, expression и тройной педальный блок",
+      "n1": "Педали сценических клавишных | Почему совместимость влияет на музыкальную фразу"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-dlya-stereo-vyhoda",
+      "n0": "Клавишные со стереовыходом в аренду | Две линии для сценического микширования",
+      "n1": "Стереовыход клавишных | Где две звуковые линии дают слышимое пространство"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-dlya-pryamogo-podklyucheniya-v-pult",
+      "n0": "Клавишные для прямого подключения к пульту в аренду | Line, DI и сценический монитор",
+      "n1": "Клавишные напрямую в пульт | Линейный сигнал, коммутация и контроль звучания"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-dlya-upravleniya-vneshnimi-modulyami",
+      "n0": "Сценические клавишные для внешних модулей в аренду | MIDI, зоны и переключение программ",
+      "n1": "Клавиатура как мастер-контроллер | Управление несколькими внешними источниками звука"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "dvuhklaviaturnyy-set-dlya-kontserta",
+      "n0": "Двухклавиатурный сет для концерта в аренду | Stage piano, синтезатор и стойка",
+      "n1": "Две клавиатуры на концерте | Разделение исполнительских ролей между инструментами"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-dlya-maloy-stseny",
+      "n0": "Клавишные для малой сцены в аренду | Компактная система без потери нужных тембров",
+      "n1": "Клавишные в небольшом клубе | Меньший сценический комплект и полный музыкальный диапазон"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "klavishnye-dlya-backline-bez-svoego-instrumenta",
+      "n0": "Клавишный бэклайн без собственного инструмента в аренду | Полный комплект на месте",
+      "n1": "Клавишник без своего инструмента | Как восстановить привычный сет на другой сцене"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "stage-piano-v-kontsertnom-rezhime-pered-pokupkoy",
+      "n0": "Stage piano для концерта перед покупкой в аренду | Проба механики, педалей и выхода",
+      "n1": "Stage piano до покупки | Проверка инструмента на настоящем выступлении"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "workstation-dlya-gastrolnogo-tura",
+      "n0": "Workstation для гастрольного тура в аренду | Сценические программы и резервный маршрут",
+      "n1": "Workstation в туре | Надёжность программ, выходов и MIDI между концертами"
+    },
+    {
+      "source_file": "content/sections/zz115-keyboard-rider-backline-human-scenes.json",
+      "slug": "hammond-b3-leslie-dlya-pervogo-opyta",
+      "n0": "Hammond B3 с Leslie для первого опыта в аренду | Настоящий органный комплект",
+      "n1": "Первый Hammond B3 с Leslie | Drawbars, два мануала и подвижный акустический звук"
+    }
+  ]
+}

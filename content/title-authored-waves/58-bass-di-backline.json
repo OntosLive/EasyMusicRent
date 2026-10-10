@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 даёт положительный предметный ответ на аренду; N.1 раскрывает смысл и устройство самостоятельной сцены",
+  "records": [
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-usilitel-dlya-repetitsii",
+      "n0": "Басовый усилитель для репетиции в аренду | Голова, кабинет и DI под состав группы",
+      "n1": "Басовый усилитель на репетиции | Мощность, отдача кабинета и связь с барабанами"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-usilitel-dlya-kontserta",
+      "n0": "Басовый усилитель для концерта в аренду | Сценический кабинет и линия для пульта",
+      "n1": "Концертный басовый усилитель | Кабинет, DI и звуковая система зала"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-usilitel-dlya-studii",
+      "n0": "Басовый усилитель для студии в аренду | Кабинетный звук и параллельный DI",
+      "n1": "Запись баса через усилитель | Как кабинет и чистый сигнал дополняют друг друга"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-usilitel-pered-pokupkoy",
+      "n0": "Басовый усилитель перед покупкой в аренду | Проба с собственным кабинетом и группой",
+      "n1": "Басовый усилитель до покупки | Проверка головы, мощности и сценической отдачи"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-usilitel-dlya-gastroley",
+      "n0": "Басовый усилитель для гастролей в аренду | Локальный комплект по райдеру",
+      "n1": "Басовый усилитель в туре | Как сохранить звук и рабочий интерфейс между городами"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-kabinet-4x10-dlya-pervogo-opyta",
+      "n0": "Басовый кабинет 4×10 в аренду | Сценический формат для первой полноценной пробы",
+      "n1": "Басовый кабинет 4×10 | Быстрая атака, размер и согласование с усилителем"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-kabinet-8x10-dlya-pervogo-opyta",
+      "n0": "Басовый кабинет 8×10 в аренду | Большая сценическая связка для живой пробы",
+      "n1": "Басовый кабинет 8×10 | Как восемь динамиков меняют звук и логистику"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-kabinet-pered-pokupkoy",
+      "n0": "Басовый кабинет перед покупкой в аренду | Сравнение форматов 4×10 и 8×10",
+      "n1": "Басовый кабинет до покупки | Громкость, транспорт и работа с собственной головой"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "basovyy-backline-po-rayderu",
+      "n0": "Басовый бэклайн по райдеру в аренду | Усилитель, кабинет, DI и согласованная замена",
+      "n1": "Басовый райдер | Как разделить требования к голове, кабинету и прямому сигналу"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "bas-cherez-di-bez-usilitelya",
+      "n0": "Бас через DI без усилителя в аренду | Прямой сигнал и сценический мониторинг",
+      "n1": "Бас без усилителя | Что меняется между инструментом, DI, пультом и монитором"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "di-boks-dlya-akusticheskoy-gitary",
+      "n0": "DI-бокс для акустической гитары в аренду | Симметричный сигнал для сцены и записи",
+      "n1": "Акустическая гитара через DI | Пьезодатчик, балансная линия и развязка земли"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "di-boks-dlya-bas-gitary",
+      "n0": "DI-бокс для бас-гитары в аренду | Прямое подключение и отдельная линия на усилитель",
+      "n1": "Бас-гитара через DI | Как сигнал для звукорежиссёра отделяется от кабинета"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "passivnyy-di-boks-dlya-pervogo-opyta",
+      "n0": "Пассивный DI-бокс для первого опыта в аренду | XLR, сквозной выход и развязка",
+      "n1": "Пассивный DI-бокс | От инструментального входа к балансному сигналу"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "di-boks-pered-pokupkoy",
+      "n0": "DI-бокс перед покупкой в аренду | Сравнение пассивного и активного включения",
+      "n1": "DI-бокс до покупки | Что определяет выбор между активной и пассивной схемой"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "akusticheskiy-usilitel-dlya-vokalista-s-gitaroy",
+      "n0": "Акустический усилитель для вокалиста с гитарой в аренду | Два канала для малой сцены",
+      "n1": "Вокал и акустическая гитара в одном комбо | Как раздельно управлять двумя голосами"
+    },
+    {
+      "source_file": "content/sections/zz114-bass-di-acoustic-backline-human-scenes.json",
+      "slug": "leslie-dlya-pervogo-opyta",
+      "n0": "Leslie для первого опыта в аренду | Вращающийся динамик для живого органного звука",
+      "n1": "Первый Leslie | Как скорость вращения изменяет движение и окраску ноты"
+    }
+  ]
+}

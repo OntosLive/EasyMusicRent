@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 даёт положительный предметный ответ на аренду; N.1 раскрывает смысл и устройство самостоятельной сцены",
+  "records": [
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-pervogo-kontserta",
+      "n0": "Бэклайн для первого концерта в аренду | Барабаны, усилители, клавишные и DI",
+      "n1": "Первый концерт с бэклайном | Как собрать рабочую сцену без лишней техники"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-klubnoy-stseny",
+      "n0": "Бэклайн для клубной сцены в аренду | Компактный комплект для живой группы",
+      "n1": "Клубный бэклайн | Баланс размера сцены, звука и быстрой установки"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-festivalya",
+      "n0": "Бэклайн для фестиваля в аренду | Единая основа для нескольких групп",
+      "n1": "Фестивальный бэклайн | Общие инструменты и индивидуальные требования артистов"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-bystroy-smeny-grupp",
+      "n0": "Бэклайн для быстрой смены групп в аренду | Общий комплект без длительной перестройки",
+      "n1": "Бэклайн при быстрой смене групп | Коммутация и подготовка между выступлениями"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-gastrolnogo-tura",
+      "n0": "Бэклайн для гастрольного тура в аренду | Комплектация и согласование в каждом городе",
+      "n1": "Гастрольный бэклайн | Как повторять одну исполнительскую систему на разных площадках"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-fly-date",
+      "n0": "Бэклайн для fly-date концерта в аренду | Готовая сцена к прилёту музыкантов",
+      "n1": "Fly-date и местный бэклайн | Что должно ждать артиста вместо перевозимого оборудования"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-po-rayderu-dlya-gruppy",
+      "n0": "Бэклайн для группы по райдеру в аренду | От барабанов до клавишных и усилителей",
+      "n1": "Бэклайн группы по райдеру | Совместимость нескольких инструментальных систем"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-ritm-sektsii",
+      "n0": "Бэклайн для ритм-секции в аренду | Барабаны, басовый усилитель и DI",
+      "n1": "Ритм-секция на сцене | Как установка и басовая система образуют общий пульс"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-akusticheskogo-kontserta",
+      "n0": "Бэклайн для акустического концерта в аренду | DI, компактное усиление и перкуссия",
+      "n1": "Акустический концерт с бэклайном | Меньше аппаратуры, больше различимого живого звука"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-dzhazovogo-kvinteta",
+      "n0": "Бэклайн для джазового квинтета в аренду | Ударные, клавиши и басовый комплект",
+      "n1": "Джазовый бэклайн | Динамика и акустический баланс камерного состава"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-rok-gruppy",
+      "n0": "Бэклайн для рок-группы в аренду | Гитарные стеки, бас, барабаны и клавиши",
+      "n1": "Рок-бэклайн | Согласованная громкость вместо соревнования усилителей"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-vokalista-s-gitaroy",
+      "n0": "Бэклайн для вокалиста с гитарой в аренду | Минимальный сценический комплект",
+      "n1": "Голос и гитара на сцене | Как устроен компактный исполнительский бэклайн"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-rezervnogo-komplekta",
+      "n0": "Резервный бэклайн для концерта в аренду | Запасной усилитель, DI и клавишные",
+      "n1": "Резервный бэклайн | Подготовленная замена без остановки выступления"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-soundcheck-do-priezda-artista",
+      "n0": "Бэклайн для саундчека до приезда артиста в аренду | Готовый инструментальный сет",
+      "n1": "Саундчек до приезда музыканта | Что техническая команда может проверить заранее"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "funktsionalnaya-zamena-backline-po-rayderu",
+      "n0": "Замена бэклайна по райдеру в аренду | Согласованный исполнительский эквивалент",
+      "n1": "Функциональная замена бэклайна | Какие свойства нельзя заменить похожим названием"
+    },
+    {
+      "source_file": "content/sections/zz116-complete-backline-human-scenes.json",
+      "slug": "backline-dlya-odnodnevnoy-arendy",
+      "n0": "Бэклайн на один день в аренду | Доставка, сборка, саундчек и возврат",
+      "n1": "Однодневный бэклайн | Почему подготовка должна завершиться до начала концерта"
+    }
+  ]
+}
