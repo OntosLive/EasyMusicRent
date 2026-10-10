@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3158,
+  "record_count": 3170,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -104,6 +104,9 @@
     "content/title-authored-evidence/100-early-instrument-performance.json",
     "content/title-authored-evidence/101-special-electronic-performance.json",
     "content/title-authored-evidence/102-brass-studio-concert.json",
-    "content/title-authored-evidence/103-woodwind-studio-concert.json"
+    "content/title-authored-evidence/103-woodwind-studio-concert.json",
+    "content/title-authored-evidence/104-saxophone-studio-concert.json",
+    "content/title-authored-evidence/105-recorder-studio-concert.json",
+    "content/title-authored-evidence/106-accordion-studio-concert.json"
   ]
 }
