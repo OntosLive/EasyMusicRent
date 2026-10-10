@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "uchebnye-komplekty-udarnyh",
+      "n0": "Учебные комплекты ударных в аренду | Малый барабан, пэд и колокольчики",
+      "n1": "Учебная перкуссия | Задания преподавателя определяют состав комплекта"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "pearl-sk910-v-arendu",
+      "n0": "Pearl SK910 в аренду | Малый барабан, пэд и стойка в одном наборе",
+      "n1": "Pearl SK910 | Рабочий комплект малого барабана для первых занятий"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "pearl-pk910-v-arendu",
+      "n0": "Pearl PK910 в аренду | Колокольчики на 2,5 октавы и тренировочный пэд",
+      "n1": "Pearl PK910 | Клавишная перкуссия и малый пэд в школьном комплекте"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "pearl-pl910c-v-arendu",
+      "n0": "Pearl PL910C в аренду | Малый барабан, колокольчики и пэд для обучения",
+      "n1": "Pearl PL910C | Percussion Learning Center как полная учебная станция"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "yamaha-yx2035pr-v-arendu",
+      "n0": "Ксилофон Yamaha YX-2035PR в аренду | 3,5 октавы и регулируемая высота",
+      "n1": "Yamaha YX-2035PR | Газовая пружина и деревянные пластины учебного ксилофона"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "yamaha-yx135-v-arendu",
+      "n0": "Ксилофон Yamaha YX-135 в аренду | 3,5 октавы для музыкальной школы",
+      "n1": "Yamaha YX-135 | Пластины из падука и фиксированная высота инструмента"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "adams-academy-xylophone-v-arendu",
+      "n0": "Ксилофон Adams Academy в аренду | 3,5 октавы и регулируемая стойка",
+      "n1": "Adams Academy Xylophone | Клавиатура и кейс для удобной учебной практики"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "adams-academy-marimba-v-arendu",
+      "n0": "Маримба Adams Academy в аренду | Учебный диапазон под конкретную партитуру",
+      "n1": "Adams Academy Marimba | Различие диапазонов C3–C6 и A2–C6"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "ksilofon-s-reguliruemoy-vysotoy",
+      "n0": "Ксилофон с регулируемой высотой в аренду | Стойка под рост исполнителя",
+      "n1": "Регулировка высоты ксилофона | Устойчивость и правильная игра с палочками"
+    },
+    {
+      "source_file": "content/sections/zz80-school-percussion-core.json",
+      "slug": "udarnye-dlya-ekzamena-ksilofon-i-malyy-baraban",
+      "n0": "Ксилофон и малый барабан для экзамена ДШИ в аренду | Полный учебный комплект",
+      "n1": "Экзамен по ударным | Диапазон ксилофона и малый барабан по программе"
+    }
+  ]
+}

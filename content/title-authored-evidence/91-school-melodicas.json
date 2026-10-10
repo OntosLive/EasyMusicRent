@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-p32d-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz76-school-melodica-learning.json",
+        "source_quote": "Yamaha P-32D Pianica: 32 keys, F3-C6 range, classroom/home/performance use and long school-education lineage.",
+        "decision": "Мелодика Yamaha P-32D Pianica в аренду | 32 клавиши для класса и ансамбля",
+        "next_action": "32 клавиши для класса и ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz76-school-melodica-learning.json",
+        "source_quote": "P‑32D — не просто старая школьная модель. Yamaha документирует Pianica в образовании ",
+        "decision": "Yamaha P-32D Pianica | Диапазон F3–C6 и школьная история модели",
+        "next_action": "Диапазон F3–C6 и школьная история модели"
+      }
+    },
+    "suzuki-m32c-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz76-school-melodica-learning.json",
+        "source_quote": "Suzuki M-32C Alto Melodion: 32 keys, steel cover, phosphor-bronze reeds, educational long-seller and school-use standard model.",
+        "decision": "Мелодика Suzuki M-32C в аренду | 32 клавиши и бронзовые язычки",
+        "next_action": "32 клавиши и бронзовые язычки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz76-school-melodica-learning.json",
+        "source_quote": "M‑32C Suzuki прямо называет standard melodion for educational instrument и long-selle",
+        "decision": "Suzuki M-32C Alto Melodion | Металлическая крышка и учебный язычковый звук",
+        "next_action": "Металлическая крышка и учебный язычковый звук"
+      }
+    },
+    "melodika-32-klavishi-dlya-shkoly": {
+      "n0": {
+        "source_path": "content/sections/zz76-school-melodica-learning.json",
+        "source_quote": "32-key alto melodica for kindergarten, primary school and early ensemble learning, independent of brand.",
+        "decision": "Мелодика на 32 клавиши для школы в аренду | Комплект музыкального класса",
+        "next_action": "Комплект музыкального класса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz76-school-melodica-learning.json",
+        "source_quote": "Если школа не назвала точную модель, Suzuki рекомендует начинать с 32-клавишной мелод",
+        "decision": "Школьная мелодика 32 клавиши | Клавиатура, дыхание и ансамблевые занятия",
+        "next_action": "Клавиатура, дыхание и ансамблевые занятия"
+      }
+    }
+  }
+}

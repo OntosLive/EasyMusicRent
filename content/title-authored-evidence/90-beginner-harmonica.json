@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "gubnaya-garmonika": {
+      "n0": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "Губные гармоники для обучения, сцены и записи: диатонические, хроматические и учебные модели по строю, отклику и герметичности.",
+        "decision": "Губные гармоники в аренду | Диатонические и хроматические инструменты",
+        "next_action": "Диатонические и хроматические инструменты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "Губная гармоника кажется простейшим входом в музыку, но дешёвый негерметичный инструм",
+        "decision": "Губная гармоника | Трости, герметичность и способы звукоизвлечения",
+        "next_action": "Трости, герметичность и способы звукоизвлечения"
+      }
+    },
+    "hohner-special20-c-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "Hohner Special 20 C: 10-hole diatonic beginner/pro harmonica with recessed reed plates, plastic comb and responsive reeds.",
+        "decision": "Губная гармоника Hohner Special 20 C в аренду | Диатоническая модель на 10 отверстий",
+        "next_action": "Диатоническая модель на 10 отверстий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "Special 20 стала редким случаем, где профессиональная модель одновременно является ус",
+        "decision": "Hohner Special 20 C | Пластиковый корпус и утопленные язычковые пластины",
+        "next_action": "Пластиковый корпус и утопленные язычковые пластины"
+      }
+    },
+    "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "10-hole diatonic harmonica in C for beginner lessons, courses and first blues/folk technique.",
+        "decision": "Губная гармоника в до мажоре для обучения в аренду | Первые уроки и блюз",
+        "next_action": "Первые уроки и блюз"
+      },
+      "n1": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "Начинающий часто покупает первую попавшуюся гармонику, а затем обнаруживает, что курс",
+        "decision": "Диатоническая гармошка C | Строй для освоения отдельных нот и бендов",
+        "next_action": "Строй для освоения отдельных нот и бендов"
+      }
+    },
+    "gubnaya-garmonika-s-legkim-otklikom": {
+      "n0": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "Подбор harmonica по responsiveness, airtightness and easy single-note/bending response for beginner practice.",
+        "decision": "Губная гармоника с лёгким откликом в аренду | Удобная учебная модель",
+        "next_action": "Удобная учебная модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz75-beginner-harmonica-learning.json",
+        "source_quote": "Ученик дует всё сильнее, потому что отдельная нота не появляется или bend требует чре",
+        "decision": "Лёгкий отклик губной гармоники | Герметичность и отзывчивость тростей",
+        "next_action": "Герметичность и отзывчивость тростей"
+      }
+    }
+  }
+}

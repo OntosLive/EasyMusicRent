@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz74-short-scale-electric-learning.json",
+      "slug": "squier-mini-stratocaster-v-arendu",
+      "n0": "Электрогитара Squier Mini Stratocaster в аренду | Мензура 22,75 дюйма",
+      "n1": "Squier Mini Stratocaster | Компактная гитара с тремя синглами для первых занятий"
+    },
+    {
+      "source_file": "content/sections/zz74-short-scale-electric-learning.json",
+      "slug": "ibanez-pgmm31-v-arendu",
+      "n0": "Электрогитара Ibanez PGMM31 miKro в аренду | Мензура 22,2 дюйма",
+      "n1": "Ibanez PGMM31 miKro | Два хамбакера и 24 лада в уменьшенном корпусе"
+    },
+    {
+      "source_file": "content/sections/zz74-short-scale-electric-learning.json",
+      "slug": "elektrogitara-dlya-nebolshoy-ruki",
+      "n0": "Электрогитара для небольшой руки в аренду | Короткая мензура и лёгкий корпус",
+      "n1": "Компактная электрогитара | Как размер грифа влияет на первые позиции"
+    },
+    {
+      "source_file": "content/sections/zz74-short-scale-electric-learning.json",
+      "slug": "squier-mini-precision-bass-v-arendu",
+      "n0": "Бас-гитара Squier Mini Precision Bass в аренду | Короткая мензура 28,6 дюйма",
+      "n1": "Squier Mini Precision Bass | Компактный четырёхструнный P Bass для ученика"
+    },
+    {
+      "source_file": "content/sections/zz74-short-scale-electric-learning.json",
+      "slug": "ibanez-gsrm20-v-arendu",
+      "n0": "Бас-гитара Ibanez GSRM20 miKro в аренду | Мензура 28,6 дюйма",
+      "n1": "Ibanez GSRM20 miKro | Узкий порожек и схема звукоснимателей P/J"
+    },
+    {
+      "source_file": "content/sections/zz74-short-scale-electric-learning.json",
+      "slug": "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki",
+      "n0": "Короткомензурная бас-гитара для небольшой руки в аренду | Удобный учебный размер",
+      "n1": "Короткая мензура баса | Вес, ширина грифа и свобода первой позиции"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz76-school-melodica-learning.json",
+      "slug": "yamaha-p32d-v-arendu",
+      "n0": "Мелодика Yamaha P-32D Pianica в аренду | 32 клавиши для класса и ансамбля",
+      "n1": "Yamaha P-32D Pianica | Диапазон F3–C6 и школьная история модели"
+    },
+    {
+      "source_file": "content/sections/zz76-school-melodica-learning.json",
+      "slug": "suzuki-m32c-v-arendu",
+      "n0": "Мелодика Suzuki M-32C в аренду | 32 клавиши и бронзовые язычки",
+      "n1": "Suzuki M-32C Alto Melodion | Металлическая крышка и учебный язычковый звук"
+    },
+    {
+      "source_file": "content/sections/zz76-school-melodica-learning.json",
+      "slug": "melodika-32-klavishi-dlya-shkoly",
+      "n0": "Мелодика на 32 клавиши для школы в аренду | Комплект музыкального класса",
+      "n1": "Школьная мелодика 32 клавиши | Клавиатура, дыхание и ансамблевые занятия"
+    }
+  ]
+}

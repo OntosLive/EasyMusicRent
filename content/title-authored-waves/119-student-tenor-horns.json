@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz79-student-tenor-horn-learning.json",
+      "slug": "tenor-gorn",
+      "n0": "Тенор-горн в аренду | Инструмент E♭ для brass band и обучения",
+      "n1": "Тенор-горн | Собственный строй и тембр внутри медного ансамбля"
+    },
+    {
+      "source_file": "content/sections/zz79-student-tenor-horn-learning.json",
+      "slug": "yamaha-yah203-v-arendu",
+      "n0": "Тенор-горн Yamaha YAH-203 в аренду | Ученическая модель E♭",
+      "n1": "Yamaha YAH-203 | Три верхних поршня и интонация альтового голоса"
+    },
+    {
+      "source_file": "content/sections/zz79-student-tenor-horn-learning.json",
+      "slug": "besson-prodige152-v-arendu",
+      "n0": "Тенор-горн Besson Prodige 152 в аренду | Лёгкая ученическая модель E♭",
+      "n1": "Besson Prodige 152 | Три нержавеющих клапана для начинающего"
+    }
+  ]
+}

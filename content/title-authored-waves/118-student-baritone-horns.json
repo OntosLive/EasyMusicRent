@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz78-student-baritone-horn-learning.json",
+      "slug": "bariton-gorn",
+      "n0": "Баритон-горн в аренду | Инструмент строя B♭ для brass band и обучения",
+      "n1": "Баритон-горн | Узкая мензура и яркий тембр по сравнению с эуфониумом"
+    },
+    {
+      "source_file": "content/sections/zz78-student-baritone-horn-learning.json",
+      "slug": "yamaha-ybh301-v-arendu",
+      "n0": "Баритон-горн Yamaha YBH-301 в аренду | Ученическая B♭ с тремя клапанами",
+      "n1": "Yamaha YBH-301 | Верхние поршни и удобный отклик в ансамбле"
+    },
+    {
+      "source_file": "content/sections/zz78-student-baritone-horn-learning.json",
+      "slug": "besson-prodige157-v-arendu",
+      "n0": "Баритон Besson Prodige 157 в аренду | Лёгкая модель для юного музыканта",
+      "n1": "Besson Prodige 157 | Компактный корпус и три клапана школьного баритона"
+    },
+    {
+      "source_file": "content/sections/zz78-student-baritone-horn-learning.json",
+      "slug": "bariton-ili-evfonium-po-partii",
+      "n0": "Баритон или эуфониум по партии в аренду | Подходящий инструмент для состава",
+      "n1": "Баритон-горн и эуфониум | Мензура, тембр и разная ансамблевая функция"
+    }
+  ]
+}

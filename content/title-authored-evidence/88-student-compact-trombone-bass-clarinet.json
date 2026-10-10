@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-ysl350c-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Yamaha YSL-350C: compact student tenor trombone with ascending Bb/C valve, standard slide positions and shorter reach.",
+        "decision": "Тромбон Yamaha YSL-350C в аренду | Компактная кулиса для короткой руки",
+        "next_action": "Компактная кулиса для короткой руки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Обычный тенор-тромбон может оказаться физически недоступным ребёнку просто потому, чт",
+        "decision": "Yamaha YSL-350C | Клапан B♭/C и стандартные позиции при меньшем охвате",
+        "next_action": "Клапан B♭/C и стандартные позиции при меньшем охвате"
+      }
+    },
+    "trombon-dlya-korotkoy-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Подбор тромбона ребёнку или взрослому с небольшой досягаемостью: длина кулисы, баланс, альтернативные позиции и YSL-350C.",
+        "decision": "Тромбон для короткой руки в аренду | Доступная кулиса и подходящий баланс",
+        "next_action": "Доступная кулиса и подходящий баланс"
+      },
+      "n1": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Иногда начинающий понимает позицию и слышит ноту, но физически не может довести кулис",
+        "decision": "Тромбон при небольшой досягаемости | Позиции и компактная исполнительская геометрия",
+        "next_action": "Позиции и компактная исполнительская геометрия"
+      }
+    },
+    "yamaha-ycl221ii-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Yamaha YCL-221II: student B-flat bass clarinet with two-piece ABS body, compact case and school-transport-oriented design.",
+        "decision": "Бас-кларнет Yamaha YCL-221II в аренду | Ученическая модель B♭ из ABS",
+        "next_action": "Ученическая модель B♭ из ABS"
+      },
+      "n1": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Бас-кларнет становится учебной проблемой не только из-за размера самого инструмента, ",
+        "decision": "Yamaha YCL-221II | Двухчастный корпус и удобство школьных перевозок",
+        "next_action": "Двухчастный корпус и удобство школьных перевозок"
+      }
+    },
+    "jupiter-jbc1000-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Jupiter JBC1000: ABS two-piece B-flat bass clarinet with adjustable floor peg, ergonomic keywork and school-band use.",
+        "decision": "Бас-кларнет Jupiter JBC1000 в аренду | Ученическая B♭ с регулируемым шпилем",
+        "next_action": "Ученическая B♭ с регулируемым шпилем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Jupiter JBC1000 даёт вторую устойчивую школьную линию рядом с Yamaha. Производитель п",
+        "decision": "Jupiter JBC1000 | Механика и эргономика двухчастного бас-кларнета",
+        "next_action": "Механика и эргономика двухчастного бас-кларнета"
+      }
+    },
+    "bas-klarinet-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Подбор учебного бас-кларнета по сборке, кейсу, высоте шпиля, механике и переходу с B-flat clarinet.",
+        "decision": "Бас-кларнет для обучения в аренду | Комплект для перехода с кларнета B♭",
+        "next_action": "Комплект для перехода с кларнета B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+        "source_quote": "Ученик переходит с обычного кларнета на басовый голос, и внезапно появляются новые за",
+        "decision": "Первый бас-кларнет | Высота шпиля, клавиши и освоение низкого регистра",
+        "next_action": "Высота шпиля, клавиши и освоение низкого регистра"
+      }
+    }
+  }
+}

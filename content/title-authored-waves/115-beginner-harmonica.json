@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz75-beginner-harmonica-learning.json",
+      "slug": "gubnaya-garmonika",
+      "n0": "Губные гармоники в аренду | Диатонические и хроматические инструменты",
+      "n1": "Губная гармоника | Трости, герметичность и способы звукоизвлечения"
+    },
+    {
+      "source_file": "content/sections/zz75-beginner-harmonica-learning.json",
+      "slug": "hohner-special20-c-v-arendu",
+      "n0": "Губная гармоника Hohner Special 20 C в аренду | Диатоническая модель на 10 отверстий",
+      "n1": "Hohner Special 20 C | Пластиковый корпус и утопленные язычковые пластины"
+    },
+    {
+      "source_file": "content/sections/zz75-beginner-harmonica-learning.json",
+      "slug": "gubnaya-garmonika-v-do-mazhore-dlya-obucheniya",
+      "n0": "Губная гармоника в до мажоре для обучения в аренду | Первые уроки и блюз",
+      "n1": "Диатоническая гармошка C | Строй для освоения отдельных нот и бендов"
+    },
+    {
+      "source_file": "content/sections/zz75-beginner-harmonica-learning.json",
+      "slug": "gubnaya-garmonika-s-legkim-otklikom",
+      "n0": "Губная гармоника с лёгким откликом в аренду | Удобная учебная модель",
+      "n1": "Лёгкий отклик губной гармоники | Герметичность и отзывчивость тростей"
+    }
+  ]
+}

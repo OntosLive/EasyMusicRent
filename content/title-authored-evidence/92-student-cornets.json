@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-ycr2330iii-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz77-student-cornet-learning.json",
+        "source_quote": "Yamaha YCR-2330III: student Bb cornet with Shepherd’s Crook, light response and adjustable third-valve trigger.",
+        "decision": "Корнет Yamaha YCR-2330III в аренду | Ученический B♭ с Shepherd’s Crook",
+        "next_action": "Ученический B♭ с Shepherd’s Crook"
+      },
+      "n1": {
+        "source_path": "content/sections/zz77-student-cornet-learning.json",
+        "source_quote": "YCR‑2330III Yamaha прямо называет отличной моделью для начинающих. Здесь особенно важ",
+        "decision": "Yamaha YCR-2330III | Лёгкий отклик и регулируемый третий крон",
+        "next_action": "Лёгкий отклик и регулируемый третий крон"
+      }
+    },
+    "besson-prodige120-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz77-student-cornet-learning.json",
+        "source_quote": "Besson Prodige 120: student Bb cornet with Shepherd’s Crook, adjustable third-valve slide ring and classic British cornet concept.",
+        "decision": "Корнет Besson Prodige 120 в аренду | Классический ученический B♭",
+        "next_action": "Классический ученический B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz77-student-cornet-learning.json",
+        "source_quote": "Prodige 120 Besson проектирует именно как student Bb cornet в классической британской",
+        "decision": "Besson Prodige 120 | Shepherd’s Crook и кольцо третьего крона",
+        "next_action": "Shepherd’s Crook и кольцо третьего крона"
+      }
+    },
+    "kornet-dlya-nebolshoy-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz77-student-cornet-learning.json",
+        "source_quote": "Подбор student-cornet ребёнку по регулируемому третьему крону, весу, хвату и лёгкому отклику.",
+        "decision": "Корнет для небольшой руки в аренду | Лёгкий корпус и удобный третий крон",
+        "next_action": "Лёгкий корпус и удобный третий крон"
+      },
+      "n1": {
+        "source_path": "content/sections/zz77-student-cornet-learning.json",
+        "source_quote": "На корнете ребёнок может спокойно нажимать клапаны, но тянуться к кольцу третьего кро",
+        "decision": "Корнет маленькому исполнителю | Хват, масса и доступ к клапанам",
+        "next_action": "Хват, масса и доступ к клапанам"
+      }
+    }
+  }
+}

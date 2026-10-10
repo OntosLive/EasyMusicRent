@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "tenor-gorn": {
+      "n0": {
+        "source_path": "content/sections/zz79-student-tenor-horn-learning.json",
+        "source_quote": "Eb tenor/alto horn for brass band and learning: distinct range, timbre and student models.",
+        "decision": "Тенор-горн в аренду | Инструмент E♭ для brass band и обучения",
+        "next_action": "Инструмент E♭ для brass band и обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz79-student-tenor-horn-learning.json",
+        "source_quote": "Тенор-горн, который Yamaha также называет alto horn, занимает самостоятельное место в",
+        "decision": "Тенор-горн | Собственный строй и тембр внутри медного ансамбля",
+        "next_action": "Собственный строй и тембр внутри медного ансамбля"
+      }
+    },
+    "yamaha-yah203-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz79-student-tenor-horn-learning.json",
+        "source_quote": "Yamaha YAH-203: student Eb alto/tenor horn with 3 top pistons, easy playability and strong intonation.",
+        "decision": "Тенор-горн Yamaha YAH-203 в аренду | Ученическая модель E♭",
+        "next_action": "Ученическая модель E♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz79-student-tenor-horn-learning.json",
+        "source_quote": "YAH‑203 Yamaha относит к student alto/tenor horns. Модель использует три верхних клап",
+        "decision": "Yamaha YAH-203 | Три верхних поршня и интонация альтового голоса",
+        "next_action": "Три верхних поршня и интонация альтового голоса"
+      }
+    },
+    "besson-prodige152-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz79-student-tenor-horn-learning.json",
+        "source_quote": "Besson Prodige 152: entry-level Eb tenor horn for young brass players with 3 stainless-steel valves.",
+        "decision": "Тенор-горн Besson Prodige 152 в аренду | Лёгкая ученическая модель E♭",
+        "next_action": "Лёгкая ученическая модель E♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz79-student-tenor-horn-learning.json",
+        "source_quote": "Besson прямо создаёт Prodige 152 как entry-level horn для молодого brass player. Это ",
+        "decision": "Besson Prodige 152 | Три нержавеющих клапана для начинающего",
+        "next_action": "Три нержавеющих клапана для начинающего"
+      }
+    }
+  }
+}

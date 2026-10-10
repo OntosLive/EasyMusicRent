@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz77-student-cornet-learning.json",
+      "slug": "yamaha-ycr2330iii-v-arendu",
+      "n0": "Корнет Yamaha YCR-2330III в аренду | Ученический B♭ с Shepherd’s Crook",
+      "n1": "Yamaha YCR-2330III | Лёгкий отклик и регулируемый третий крон"
+    },
+    {
+      "source_file": "content/sections/zz77-student-cornet-learning.json",
+      "slug": "besson-prodige120-v-arendu",
+      "n0": "Корнет Besson Prodige 120 в аренду | Классический ученический B♭",
+      "n1": "Besson Prodige 120 | Shepherd’s Crook и кольцо третьего крона"
+    },
+    {
+      "source_file": "content/sections/zz77-student-cornet-learning.json",
+      "slug": "kornet-dlya-nebolshoy-ruki",
+      "n0": "Корнет для небольшой руки в аренду | Лёгкий корпус и удобный третий крон",
+      "n1": "Корнет маленькому исполнителю | Хват, масса и доступ к клапанам"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "bariton-gorn": {
+      "n0": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "Баритон-горн для обучения и brass band: Bb instrument with narrower bore, brighter timbre and distinct student models.",
+        "decision": "Баритон-горн в аренду | Инструмент строя B♭ для brass band и обучения",
+        "next_action": "Инструмент строя B♭ для brass band и обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "Баритон-горн и эуфониум часто оказываются рядом в разговоре, потому что работают в од",
+        "decision": "Баритон-горн | Узкая мензура и яркий тембр по сравнению с эуфониумом",
+        "next_action": "Узкая мензура и яркий тембр по сравнению с эуфониумом"
+      }
+    },
+    "yamaha-ybh301-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "Yamaha YBH-301: student Bb baritone horn, 3 top pistons, easy playability and strong intonation.",
+        "decision": "Баритон-горн Yamaha YBH-301 в аренду | Ученическая B♭ с тремя клапанами",
+        "next_action": "Ученическая B♭ с тремя клапанами"
+      },
+      "n1": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "YBH‑301 Yamaha относит к student baritones. Конструкция остаётся простой: три верхних",
+        "decision": "Yamaha YBH-301 | Верхние поршни и удобный отклик в ансамбле",
+        "next_action": "Верхние поршни и удобный отклик в ансамбле"
+      }
+    },
+    "besson-prodige157-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "Besson Prodige 157: lightweight student Bb baritone horn with 3 valves, compact body and younger-player orientation.",
+        "decision": "Баритон Besson Prodige 157 в аренду | Лёгкая модель для юного музыканта",
+        "next_action": "Лёгкая модель для юного музыканта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "Besson прямо описывает Prodige 157 как баритон, который легче и меньше большинства др",
+        "decision": "Besson Prodige 157 | Компактный корпус и три клапана школьного баритона",
+        "next_action": "Компактный корпус и три клапана школьного баритона"
+      }
+    },
+    "bariton-ili-evfonium-po-partii": {
+      "n0": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "Choosing baritone horn versus euphonium by score, bore, ensemble tradition and intended timbre.",
+        "decision": "Баритон или эуфониум по партии в аренду | Подходящий инструмент для состава",
+        "next_action": "Подходящий инструмент для состава"
+      },
+      "n1": {
+        "source_path": "content/sections/zz78-student-baritone-horn-learning.json",
+        "source_quote": "Баритон и эуфониум могут играть в одном диапазоне, поэтому в объявлениях и разговорно",
+        "decision": "Баритон-горн и эуфониум | Мензура, тембр и разная ансамблевая функция",
+        "next_action": "Мензура, тембр и разная ансамблевая функция"
+      }
+    }
+  }
+}

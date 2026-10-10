@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "squier-mini-stratocaster-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Squier Mini Stratocaster: 22.75-inch scale, lightweight body, C neck, three single-coils and hardtail bridge for smaller hands.",
+        "decision": "Электрогитара Squier Mini Stratocaster в аренду | Мензура 22,75 дюйма",
+        "next_action": "Мензура 22,75 дюйма"
+      },
+      "n1": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Если полноразмерная Stratocaster нравится по звуку, но первая позиция и общий корпус ",
+        "decision": "Squier Mini Stratocaster | Компактная гитара с тремя синглами для первых занятий",
+        "next_action": "Компактная гитара с тремя синглами для первых занятий"
+      }
+    },
+    "ibanez-pgmm31-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Ibanez PGMM31 miKro: 22.2-inch scale, 24 frets, twin humbuckers and compact electric-guitar geometry.",
+        "decision": "Электрогитара Ibanez PGMM31 miKro в аренду | Мензура 22,2 дюйма",
+        "next_action": "Мензура 22,2 дюйма"
+      },
+      "n1": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "PGMM31 даёт другой короткомензурный маршрут: 22,2 дюйма, 24 лада и два хамбакера. Это",
+        "decision": "Ibanez PGMM31 miKro | Два хамбакера и 24 лада в уменьшенном корпусе",
+        "next_action": "Два хамбакера и 24 лада в уменьшенном корпусе"
+      }
+    },
+    "elektrogitara-dlya-nebolshoy-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Подбор электрогитары ребёнку или взрослому с небольшой рукой по короткой мензуре, весу корпуса и доступности первой позиции.",
+        "decision": "Электрогитара для небольшой руки в аренду | Короткая мензура и лёгкий корпус",
+        "next_action": "Короткая мензура и лёгкий корпус"
+      },
+      "n1": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Человек хочет электрогитару, но стандартная мензура заставляет растягивать пальцы и р",
+        "decision": "Компактная электрогитара | Как размер грифа влияет на первые позиции",
+        "next_action": "Как размер грифа влияет на первые позиции"
+      }
+    },
+    "squier-mini-precision-bass-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Squier Mini Precision Bass: 28.6-inch short scale, lightweight body, C neck and single split-coil pickup.",
+        "decision": "Бас-гитара Squier Mini Precision Bass в аренду | Короткая мензура 28,6 дюйма",
+        "next_action": "Короткая мензура 28,6 дюйма"
+      },
+      "n1": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "На обычном 34-дюймовом басе первая позиция может быть слишком растянутой для ребёнка.",
+        "decision": "Squier Mini Precision Bass | Компактный четырёхструнный P Bass для ученика",
+        "next_action": "Компактный четырёхструнный P Bass для ученика"
+      }
+    },
+    "ibanez-gsrm20-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Ibanez GSRM20 miKro: 28.6-inch scale, 38 mm nut, passive P/J pickups and compact bass geometry.",
+        "decision": "Бас-гитара Ibanez GSRM20 miKro в аренду | Мензура 28,6 дюйма",
+        "next_action": "Мензура 28,6 дюйма"
+      },
+      "n1": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "GSRM20 использует ту же короткую 28,6-дюймовую мензуру, что Mini Precision, но сохран",
+        "decision": "Ibanez GSRM20 miKro | Узкий порожек и схема звукоснимателей P/J",
+        "next_action": "Узкий порожек и схема звукоснимателей P/J"
+      }
+    },
+    "bas-gitara-korotkoy-menzury-dlya-nebolshoy-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Подбор short-scale баса ребёнку или взрослому с небольшой рукой по мензуре, ширине грифа, весу и простой электронике.",
+        "decision": "Короткомензурная бас-гитара для небольшой руки в аренду | Удобный учебный размер",
+        "next_action": "Удобный учебный размер"
+      },
+      "n1": {
+        "source_path": "content/sections/zz74-short-scale-electric-learning.json",
+        "source_quote": "Если 34-дюймовый бас заставляет ученика каждый раз тянуть всю руку за первой позицией",
+        "decision": "Короткая мензура баса | Вес, ширина грифа и свобода первой позиции",
+        "next_action": "Вес, ширина грифа и свобода первой позиции"
+      }
+    }
+  }
+}

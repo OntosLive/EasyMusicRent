@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+      "slug": "yamaha-ysl350c-v-arendu",
+      "n0": "Тромбон Yamaha YSL-350C в аренду | Компактная кулиса для короткой руки",
+      "n1": "Yamaha YSL-350C | Клапан B♭/C и стандартные позиции при меньшем охвате"
+    },
+    {
+      "source_file": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+      "slug": "trombon-dlya-korotkoy-ruki",
+      "n0": "Тромбон для короткой руки в аренду | Доступная кулиса и подходящий баланс",
+      "n1": "Тромбон при небольшой досягаемости | Позиции и компактная исполнительская геометрия"
+    },
+    {
+      "source_file": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+      "slug": "yamaha-ycl221ii-v-arendu",
+      "n0": "Бас-кларнет Yamaha YCL-221II в аренду | Ученическая модель B♭ из ABS",
+      "n1": "Yamaha YCL-221II | Двухчастный корпус и удобство школьных перевозок"
+    },
+    {
+      "source_file": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+      "slug": "jupiter-jbc1000-v-arendu",
+      "n0": "Бас-кларнет Jupiter JBC1000 в аренду | Ученическая B♭ с регулируемым шпилем",
+      "n1": "Jupiter JBC1000 | Механика и эргономика двухчастного бас-кларнета"
+    },
+    {
+      "source_file": "content/sections/zz73-compact-trombone-student-bass-clarinet.json",
+      "slug": "bas-klarinet-dlya-obucheniya",
+      "n0": "Бас-кларнет для обучения в аренду | Комплект для перехода с кларнета B♭",
+      "n1": "Первый бас-кларнет | Высота шпиля, клавиши и освоение низкого регистра"
+    }
+  ]
+}
