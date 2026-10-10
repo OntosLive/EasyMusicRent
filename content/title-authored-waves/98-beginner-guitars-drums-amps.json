@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+      "slug": "yamaha-fs800-v-arendu",
+      "n0": "Акустическая гитара Yamaha FS800 в аренду | Компактный корпус для начальных занятий",
+      "n1": "Yamaha FS800 | Массивная еловая дека в уменьшенном акустическом корпусе"
+    },
+    {
+      "source_file": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+      "slug": "akusticheskaya-gitara-po-razmeru-uchenika",
+      "n0": "Акустическая гитара по размеру ученика в аренду | Удобный корпус и мензура",
+      "n1": "Размер акустической гитары | Посадка и первая позиция при стальных струнах"
+    },
+    {
+      "source_file": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+      "slug": "deering-goodtime-v-arendu",
+      "n0": "Банджо Deering Goodtime в аренду | Лёгкая пятиструнная модель для обучения",
+      "n1": "Deering Goodtime | Кленовый корпус и простая механика начинающего банджоиста"
+    },
+    {
+      "source_file": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+      "slug": "roland-td02k-v-arendu",
+      "n0": "Электронные барабаны Roland TD-02K в аренду | Компактный набор для занятий",
+      "n1": "Roland TD-02K | Регулируемая рама и тихая тренировка бас-бочки"
+    },
+    {
+      "source_file": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+      "slug": "yamaha-dtx402k-v-arendu",
+      "n0": "Электронные барабаны Yamaha DTX402K в аренду | Учебные функции и компактная установка",
+      "n1": "Yamaha DTX402K | Десять тренировочных режимов для барабанщика"
+    },
+    {
+      "source_file": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+      "slug": "fender-mustang-lt25-v-arendu",
+      "n0": "Гитарный усилитель Fender Mustang LT25 в аренду | Пресеты и домашняя громкость",
+      "n1": "Fender Mustang LT25 | Моделирование усилителей, USB и наушники"
+    },
+    {
+      "source_file": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+      "slug": "ampeg-rb110-v-arendu",
+      "n0": "Басовый комбо Ampeg RB-110 в аренду | 50 Вт и динамик 10 дюймов",
+      "n1": "Ampeg RB-110 | Практика дома, малый зал и отдельный XLR-выход"
+    }
+  ]
+}

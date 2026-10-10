@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "sonor-first-beat-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "SONOR First Beat: kids glockenspiels and percussion designed for first musical exploration with precise tuning and color coding.",
+        "decision": "SONOR First Beat в аренду | Учебная перкуссия и глокеншпили для детей",
+        "next_action": "Учебная перкуссия и глокеншпили для детей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "На самом раннем этапе ребёнку нужен не «игрушечный музыкальный предмет», а инструмент",
+        "decision": "SONOR First Beat | Точный строй и цветные подсказки первых ударов",
+        "next_action": "Точный строй и цветные подсказки первых ударов"
+      }
+    },
+    "studio49-easycussion500-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "STUDIO 49 easycussion Series 500: pentatonic alto glockenspiel, xylophone and metallophone for introductory Orff music-making.",
+        "decision": "STUDIO 49 easycussion Series 500 в аренду | Пентатонические Orff-инструменты",
+        "next_action": "Пентатонические Orff-инструменты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "Для первого группового музицирования полезно иногда не добавлять возможности, а убрат",
+        "decision": "STUDIO 49 easycussion 500 | Звончатые и деревянные пластины для первых мелодий",
+        "next_action": "Звончатые и деревянные пластины для первых мелодий"
+      }
+    },
+    "sonor-global-beat-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "SONOR Global Beat: entry-level Orff series of glockenspiels, xylophones and metallophones with diatonic ranges and accidental storage.",
+        "decision": "SONOR Global Beat в аренду | Ксилофоны и металлофоны для класса",
+        "next_action": "Ксилофоны и металлофоны для класса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "Когда группа выходит за пределы самого первого пентатонического занятия, нужен уже на",
+        "decision": "SONOR Global Beat | Диатонические регистры и хранение дополнительных пластин",
+        "next_action": "Диатонические регистры и хранение дополнительных пластин"
+      }
+    },
+    "orf-instrument-s-cvetovoy-kodirovkoy": {
+      "n0": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "Orff-инструмент с цветными пластинами и соответствующей учебной разметкой для детей до уверенного чтения нот.",
+        "decision": "Orff-инструмент с цветовой кодировкой в аренду | Учебные ноты для начинающих",
+        "next_action": "Учебные ноты для начинающих"
+      },
+      "n1": {
+        "source_path": "content/sections/zz55-early-orff-learning.json",
+        "source_quote": "Ребёнок уже способен повторить мелодию, но обычная нотная запись пока слишком медленн",
+        "decision": "Цветовая кодировка Orff | Как играть вместе до свободного чтения нот",
+        "next_action": "Как играть вместе до свободного чтения нот"
+      }
+    }
+  }
+}

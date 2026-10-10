@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-fs800-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Yamaha FS800: beginner-recommended concert-body acoustic with solid spruce top and smaller, shallower body.",
+        "decision": "Акустическая гитара Yamaha FS800 в аренду | Компактный корпус для начальных занятий",
+        "next_action": "Компактный корпус для начальных занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Стальная акустическая гитара может нравиться ученику по звуку и одновременно быть неу",
+        "decision": "Yamaha FS800 | Массивная еловая дека в уменьшенном акустическом корпусе",
+        "next_action": "Массивная еловая дека в уменьшенном акустическом корпусе"
+      }
+    },
+    "akusticheskaya-gitara-po-razmeru-uchenika": {
+      "n0": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Подбор стальной акустической гитары по размеру корпуса, мензуре, первой позиции и свободе правой руки.",
+        "decision": "Акустическая гитара по размеру ученика в аренду | Удобный корпус и мензура",
+        "next_action": "Удобный корпус и мензура"
+      },
+      "n1": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Ученик хочет именно стальные струны, но полноразмерный dreadnought разворачивает плеч",
+        "decision": "Размер акустической гитары | Посадка и первая позиция при стальных струнах",
+        "next_action": "Посадка и первая позиция при стальных струнах"
+      }
+    },
+    "deering-goodtime-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Deering Goodtime 5-string: lightweight maple beginner banjo with geared tuners and strong teacher-recommendation evidence.",
+        "decision": "Банджо Deering Goodtime в аренду | Лёгкая пятиструнная модель для обучения",
+        "next_action": "Лёгкая пятиструнная модель для обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "В банджо редкий случай, когда производитель опубликовал не только собственную beginne",
+        "decision": "Deering Goodtime | Кленовый корпус и простая механика начинающего банджоиста",
+        "next_action": "Кленовый корпус и простая механика начинающего банджоиста"
+      }
+    },
+    "roland-td02k-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Roland TD-02K: entry-level electronic drum kit with compact adjustable stand, practice tools and quiet beaterless kick.",
+        "decision": "Электронные барабаны Roland TD-02K в аренду | Компактный набор для занятий",
+        "next_action": "Компактный набор для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "TD‑02K Roland строит как самый компактный комплект своей начальной V‑Drums серии. Его",
+        "decision": "Roland TD-02K | Регулируемая рама и тихая тренировка бас-бочки",
+        "next_action": "Регулируемая рама и тихая тренировка бас-бочки"
+      }
+    },
+    "yamaha-dtx402k-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Yamaha DTX402K: compact entry-level electronic drum kit with 10 training functions and beginner-oriented learning support.",
+        "decision": "Электронные барабаны Yamaha DTX402K в аренду | Учебные функции и компактная установка",
+        "next_action": "Учебные функции и компактная установка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "DTX402K существует как отдельная педагогическая идея Yamaha: компактный начальный эле",
+        "decision": "Yamaha DTX402K | Десять тренировочных режимов для барабанщика",
+        "next_action": "Десять тренировочных режимов для барабанщика"
+      }
+    },
+    "fender-mustang-lt25-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Fender Mustang LT25: 25-watt beginner modeling combo with simple UI, presets, effects, headphones and USB.",
+        "decision": "Гитарный усилитель Fender Mustang LT25 в аренду | Пресеты и домашняя громкость",
+        "next_action": "Пресеты и домашняя громкость"
+      },
+      "n1": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Первый усилитель для электрогитары должен дать достаточно звуков, чтобы ученик нашёл ",
+        "decision": "Fender Mustang LT25 | Моделирование усилителей, USB и наушники",
+        "next_action": "Моделирование усилителей, USB и наушники"
+      }
+    },
+    "ampeg-rb110-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Ampeg RB-110: 50-watt 1x10 bass combo for practice and small venues with headphones, aux and XLR output.",
+        "decision": "Басовый комбо Ampeg RB-110 в аренду | 50 Вт и динамик 10 дюймов",
+        "next_action": "50 Вт и динамик 10 дюймов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz56-beginner-acoustic-banjo-drums-amps.json",
+        "source_quote": "Начинающий басист быстро упирается в то, что маленький домашний combo и репетиционный",
+        "decision": "Ampeg RB-110 | Практика дома, малый зал и отдельный XLR-выход",
+        "next_action": "Практика дома, малый зал и отдельный XLR-выход"
+      }
+    }
+  }
+}

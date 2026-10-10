@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "trevor-james-10x-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+        "source_quote": "Trevor James 10x: long-running first flute with responsive headjoint, student-focused mechanism and curved-headjoint options.",
+        "decision": "Флейта Trevor James 10x в аренду | Учебная модель с вариантами головки",
+        "next_action": "Учебная модель с вариантами головки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+        "source_quote": "Trevor James 10x существует больше тридцати лет именно как «первая флейта». Производи",
+        "decision": "Trevor James 10x | Отклик головки и механика первой флейты",
+        "next_action": "Отклик головки и механика первой флейты"
+      }
+    },
+    "besson-prodige-162-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+        "source_quote": "Besson Prodige 162 B-flat: student euphonium with 3+1 valve layout, free-blowing response and transition-oriented ergonomics.",
+        "decision": "Эуфониум Besson Prodige 162 в аренду | Ученическая система 3+1",
+        "next_action": "Ученическая система 3+1"
+      },
+      "n1": {
+        "source_path": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+        "source_quote": "Эуфониум ученика может быть простым по классу и одновременно сохранять ту раскладку, ",
+        "decision": "Besson Prodige 162 | Четыре клапана и эргономика перехода на эуфониум",
+        "next_action": "Четыре клапана и эргономика перехода на эуфониум"
+      }
+    },
+    "fleyta-s-izognutoy-golovkoy": {
+      "n0": {
+        "source_path": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+        "source_quote": "Флейта с curved headjoint для ребёнка или исполнителя с меньшей досягаемостью, с проверкой плеч, локтей и перехода на прямую головку.",
+        "decision": "Флейта с изогнутой головкой в аренду | Более короткий охват для ребёнка",
+        "next_action": "Более короткий охват для ребёнка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+        "source_quote": "Ребёнок способен сформировать звук, но обычная C-флейта уводит правое плечо вперёд и ",
+        "decision": "Изогнутая головка флейты | Плечи, локти и переход к прямой системе",
+        "next_action": "Плечи, локти и переход к прямой системе"
+      }
+    }
+  }
+}

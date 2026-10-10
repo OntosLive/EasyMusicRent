@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+      "slug": "eastman-va100-v-arendu",
+      "n0": "Альт Samuel Eastman VA100 в аренду | Ученические размеры и полный комплект",
+      "n1": "Eastman VA100 | Как размер альта определяет постановку начинающего"
+    },
+    {
+      "source_file": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+      "slug": "stentor-student-ii-alt-v-arendu",
+      "n0": "Альт Stentor Student II в аренду | Инструмент и смычок для музыкальной школы",
+      "n1": "Stentor Student II Viola | Корпус и смычок внутри ученического набора"
+    },
+    {
+      "source_file": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+      "slug": "eastman-vb80-v-arendu",
+      "n0": "Контрабас Samuel Eastman VB80 в аренду | Ламинированная учебная модель",
+      "n1": "Eastman VB80 | Корпус и мензура контрабаса для занятий и оркестра"
+    },
+    {
+      "source_file": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+      "slug": "kawai-k200-v-arendu",
+      "n0": "Акустическое пианино Kawai K-200 в аренду | Компактный инструмент для дома",
+      "n1": "Kawai K-200 | Механика домашнего пианино и акустическое качество практики"
+    }
+  ]
+}

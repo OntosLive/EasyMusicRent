@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychkovye-knilling": {
+      "n0": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Смычковые Knilling: школьное основание выбора марки, серия Bucharest, размер, настройка и конкретный комплект.",
+        "decision": "Смычковые инструменты Knilling в аренду | Скрипки и альты под школьную программу",
+        "next_action": "Скрипки и альты под школьную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Название Knilling может прийти от педагога, из школьного списка или с прежнего инстру",
+        "decision": "Knilling в музыкальной школе | Серия Bucharest, размеры и подготовка комплекта",
+        "next_action": "Серия Bucharest, размеры и подготовка комплекта"
+      }
+    },
+    "knilling-bucharest-skripka-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Knilling Bucharest Violin: массивные ель и клён, дробные размеры и проверка фактически установленных принадлежностей.",
+        "decision": "Скрипка Knilling Bucharest в аренду | Учебные размеры и настроенный комплект",
+        "next_action": "Учебные размеры и настроенный комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Для занятий нужна скрипка, которую можно точно назвать и сравнить с требованиями учит",
+        "decision": "Knilling Bucharest Violin | Ель и клён в школьной скрипичной модели",
+        "next_action": "Ель и клён в школьной скрипичной модели"
+      }
+    },
+    "knilling-bucharest-alt-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Knilling Bucharest Viola: размерная линейка, варианты колков и сравнение на альтовой программе.",
+        "decision": "Альт Knilling Bucharest в аренду | Размеры под текущую программу",
+        "next_action": "Размеры под текущую программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Переходя на альт или меняя учебный инструмент, важно сохранить свободную левую руку и",
+        "decision": "Knilling Bucharest Viola | Колки, корпус и альтовая игровая геометрия",
+        "next_action": "Колки, корпус и альтовая игровая геометрия"
+      }
+    },
+    "smychkovye-samuel-shen": {
+      "n0": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Марка Samuel Shen: школьная рекомендация, контрабасы SB80 и SB150, отдельная подготовка экземпляра.",
+        "decision": "Смычковые Samuel Shen в аренду | Контрабасы SB80 и SB150 для занятий",
+        "next_action": "Контрабасы SB80 и SB150 для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Если в рекомендации написано Samuel Shen, сохраните это имя в запросе вместе с инстру",
+        "decision": "Samuel Shen | Почему школьная марка начинается с конкретного экземпляра",
+        "next_action": "Почему школьная марка начинается с конкретного экземпляра"
+      }
+    },
+    "shen-sb80-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Samuel Shen SB80: школьное назначение, ламинированный корпус, размер и настройка под смычок или пиццикато.",
+        "decision": "Контрабас Samuel Shen SB80 в аренду | Учебный ламинированный корпус",
+        "next_action": "Учебный ламинированный корпус"
+      },
+      "n1": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Контрабас будет ездить на уроки, стоять в классе и возвращаться домой. В такой ситуац",
+        "decision": "Samuel Shen SB80 | Подготовка контрабаса для arco и pizzicato",
+        "next_action": "Подготовка контрабаса для arco и pizzicato"
+      }
+    },
+    "shen-sb150-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "Shen SB150 Hybrid: массивная резная еловая дека и ламинированные клёновые обечайки и нижняя дека; проба по программе.",
+        "decision": "Контрабас Samuel Shen SB150 в аренду | Гибридная модель для учебной программы",
+        "next_action": "Гибридная модель для учебной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz51-school-string-brand-paths.json",
+        "source_quote": "На привычном учебном контрабасе уже появились конкретные пожелания к фразе: яснее вес",
+        "decision": "Samuel Shen SB150 | Еловая дека и ламинированные клёновые части корпуса",
+        "next_action": "Еловая дека и ламинированные клёновые части корпуса"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz57-student-wind-alternatives.json",
+      "slug": "backun-alpha-v-arendu",
+      "n0": "Кларнет Backun Alpha в аренду | Лёгкая синтетическая модель для начинающего",
+      "n1": "Backun Alpha | Регулируемая опора и учебная система клапанов"
+    },
+    {
+      "source_file": "content/sections/zz57-student-wind-alternatives.json",
+      "slug": "jupiter-jas700-v-arendu",
+      "n0": "Альт-саксофон Jupiter JAS700 в аренду | Ученическая модель E♭",
+      "n1": "Jupiter JAS700 | Верхнее фа-диез и настройка ладонных клапанов"
+    },
+    {
+      "source_file": "content/sections/zz57-student-wind-alternatives.json",
+      "slug": "jupiter-jhr700-v-arendu",
+      "n0": "Валторна Jupiter JHR700 в аренду | Одинарная F-модель для первых уроков",
+      "n1": "Jupiter JHR700 | Розово-латунная лидтруба и лёгкость ученического звукоизвлечения"
+    },
+    {
+      "source_file": "content/sections/zz57-student-wind-alternatives.json",
+      "slug": "klarinet-dlya-nebolshoy-ruki",
+      "n0": "Кларнет для небольшой руки в аренду | Регулируемая опора и доступные клапаны",
+      "n1": "Кларнет для маленькой руки | Положение большого пальца и досягаемость боковых клавиш"
+    }
+  ]
+}

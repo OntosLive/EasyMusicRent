@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "eastman-va100-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "Eastman VA100: учебный альт выбирают вместе с размером корпуса. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Альт Samuel Eastman VA100 в аренду | Ученические размеры и полный комплект",
+        "next_action": "Ученические размеры и полный комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "Преподаватель предлагает учебный Eastman, а ученику нужен именно альт. VA100 является",
+        "decision": "Eastman VA100 | Как размер альта определяет постановку начинающего",
+        "next_action": "Как размер альта определяет постановку начинающего"
+      }
+    },
+    "stentor-student-ii-alt-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "Stentor Student II: альтовый учебный комплект с проверкой каждой части. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Альт Stentor Student II в аренду | Инструмент и смычок для музыкальной школы",
+        "next_action": "Инструмент и смычок для музыкальной школы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "В рекомендации назван Stentor Student II. Для альта это отдельный комплект с кодом 15",
+        "decision": "Stentor Student II Viola | Корпус и смычок внутри ученического набора",
+        "next_action": "Корпус и смычок внутри ученического набора"
+      }
+    },
+    "eastman-vb80-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "Eastman VB80: учебный контрабас с ламинированным корпусом. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Контрабас Samuel Eastman VB80 в аренду | Ламинированная учебная модель",
+        "next_action": "Ламинированная учебная модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "Eastman прямо адресует VB80 школам, программам аренды и начинающим. Его корпус имеет ",
+        "decision": "Eastman VB80 | Корпус и мензура контрабаса для занятий и оркестра",
+        "next_action": "Корпус и мензура контрабаса для занятий и оркестра"
+      }
+    },
+    "kawai-k200-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "Kawai K-200: домашняя практика на компактном акустическом пианино. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Акустическое пианино Kawai K-200 в аренду | Компактный инструмент для дома",
+        "next_action": "Компактный инструмент для дома"
+      },
+      "n1": {
+        "source_path": "content/sections/zz49-school-bowed-and-piano-evidence.json",
+        "source_quote": "Для домашних занятий требуется акустическое пианино, а большой корпус в комнате нежел",
+        "decision": "Kawai K-200 | Механика домашнего пианино и акустическое качество практики",
+        "next_action": "Механика домашнего пианино и акустическое качество практики"
+      }
+    }
+  }
+}

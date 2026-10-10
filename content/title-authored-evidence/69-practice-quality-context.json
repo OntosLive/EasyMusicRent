@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "skripka-s-udobnoy-nastroykoy": {
+      "n0": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "Подбор скрипки по удобству настройки: подгонка обычных колков, машинки и варианты с редуктором.",
+        "decision": "Скрипка с удобной настройкой в аренду | Колки и машинки под ежедневные занятия",
+        "next_action": "Колки и машинки под ежедневные занятия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "Между уроками трудно настроить скрипку: один колок идёт рывком, другой возвращается, ",
+        "decision": "Настройка скрипки | Подгонка колков и точность машинок",
+        "next_action": "Подгонка колков и точность машинок"
+      }
+    },
+    "violonchel-s-ustoychivym-shpilem": {
+      "n0": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "Виолончель для занятий с устойчивой опорой: фиксация шпиля, наконечник, упор и поверхность пола.",
+        "decision": "Виолончель с устойчивым шпилем в аренду | Надёжная опора для игры сидя",
+        "next_action": "Надёжная опора для игры сидя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "Во время игры виолончель понемногу уезжает, и ученику приходится возвращать её коленя",
+        "decision": "Шпиль виолончели | Наконечник, фиксатор и поверхность пола",
+        "next_action": "Наконечник, фиксатор и поверхность пола"
+      }
+    },
+    "pianino-s-upravlyaemym-tihim-zvukom": {
+      "n0": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "Пианино для работы над пианиссимо: прикосновение, начало ноты и отличие музыкальной динамики от общей громкости.",
+        "decision": "Пианино с управляемым тихим звуком в аренду | Работа над пианиссимо",
+        "next_action": "Работа над пианиссимо"
+      },
+      "n1": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "На тихом участке одна нота пропадает, а следующая внезапно выпрыгивает из фразы. Это ",
+        "decision": "Тихая игра на пианино | Динамическая чувствительность вместо уменьшения громкости",
+        "next_action": "Динамическая чувствительность вместо уменьшения громкости"
+      }
+    },
+    "cifrovoe-pianino-s-tochnoy-repetitsiey": {
+      "n0": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "Цифровое пианино для повторных нот и трелей: возврат клавиши, считывание движения и проверка репетиции на программе.",
+        "decision": "Цифровое пианино с точным повторением нот в аренду | Механика для трелей",
+        "next_action": "Механика для трелей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz52-practice-quality-and-exam-context.json",
+        "source_quote": "В программе появился участок с быстрым повторением, и одна клавиша начинает пропускат",
+        "decision": "Репетиция цифровой клавиатуры | Возврат клавиши и чувствительность повторной атаки",
+        "next_action": "Возврат клавиши и чувствительность повторной атаки"
+      }
+    }
+  }
+}

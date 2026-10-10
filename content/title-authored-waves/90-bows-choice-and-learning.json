@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "smychki",
+      "n0": "Смычки в аренду в Москве | Скрипичные, альтовые, виолончельные и контрабасовые",
+      "n1": "Смычок как отдельный инструмент | Баланс, трость и музыкальная задача"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "skripichnye-smychki",
+      "n0": "Скрипичный смычок в аренду | Подбор к инструменту и репертуару",
+      "n1": "Скрипичный смычок | Работа от колодки к кончику одной музыкальной фразы"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "altovye-smychki",
+      "n0": "Альтовый смычок в аренду | Смычковый отклик для нижнего регистра",
+      "n1": "Альтовый смычок | Масса и контакт с альтовой струной"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "violonchelnye-smychki",
+      "n0": "Виолончельный смычок в аренду | Точность атаки и длинная фраза",
+      "n1": "Виолончельный смычок | Начало ноты и непрерывность движения"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "kontrabasovye-smychki",
+      "n0": "Контрабасовый смычок в аренду | Французская и немецкая системы держания",
+      "n1": "Контрабасовый смычок | Почему способ держания определяет конструкцию колодки"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "frantsuzskiy-smychok-dlya-kontrabasa",
+      "n0": "Французский смычок для контрабаса в аренду | Привычная колодка для занятий",
+      "n1": "Французский контрабасовый смычок | Геометрия держания над тростью"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "nemetskiy-smychok-dlya-kontrabasa",
+      "n0": "Немецкий смычок для контрабаса в аренду | Система под ладонь и репертуар",
+      "n1": "Немецкий контрабасовый смычок | Другая колодка и распределение веса"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "doerfler-6-6a-smychki-v-arendu",
+      "n0": "Смычки Dörfler 6 и 6a в аренду | Деревянные учебные модели",
+      "n1": "Dörfler 6 и 6a | Два исполнения учебной деревянной серии"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "codabow-prodigy-skripka-v-arendu",
+      "n0": "Скрипичный смычок CodaBow Prodigy в аренду | Карбоновая модель для ученика",
+      "n1": "CodaBow Prodigy Violin | Ученический смычок и повторяемость игрового отклика"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "codabow-prodigy-alt-v-arendu",
+      "n0": "Альтовый смычок CodaBow Prodigy в аренду | Модель для собственной программы",
+      "n1": "CodaBow Prodigy Viola | Работа со смычком в альтовом нижнем голосе"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "codabow-prodigy-violonchel-v-arendu",
+      "n0": "Виолончельный смычок CodaBow Prodigy в аренду | Карбоновая учебная серия",
+      "n1": "CodaBow Prodigy Cello | Новый смычок в знакомой виолончельной фразе"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "upton-workshop-smychok-v-arendu",
+      "n0": "Контрабасовый смычок Upton Bass Workshop в аренду | Две системы держания",
+      "n1": "Upton Bass Workshop | Учебные контрабасовые смычки разных колодок"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "smychok-s-udobnym-balansom",
+      "n0": "Смычок с удобным балансом в аренду | Проба на собственном инструменте",
+      "n1": "Баланс смычка | Почему комфорт в ладони не равен свободе на струне"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "smychok-dlya-rebenka",
+      "n0": "Смычок подходящего размера ребёнку в аренду | Учебная длина под постановку",
+      "n1": "Детский смычок | Длина и вес без выбора инструмента на вырост"
+    },
+    {
+      "source_file": "content/sections/zz48-bows-learning-and-quality.json",
+      "slug": "smychok-na-vremya-peretyazhki",
+      "n0": "Смычок на время перетяжки волоса в аренду | Продолжить игру на знакомой системе",
+      "n1": "Временный смычок | Как сохранить привычную игру, пока свой у мастера"
+    }
+  ]
+}

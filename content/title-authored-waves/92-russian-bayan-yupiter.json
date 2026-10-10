@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz50-russian-bayan-school-context.json",
+      "slug": "bayany-yupiter",
+      "n0": "Баяны Юпитер в аренду | Ученические и концертные модели под программу",
+      "n1": "Баяны Юпитер | Система басов и размер профессионального российского инструмента"
+    },
+    {
+      "source_file": "content/sections/zz50-russian-bayan-school-context.json",
+      "slug": "bayan-yupiter-2d-v-arendu",
+      "n0": "Баян Юпитер-2Д в аренду | Четырёхрядная готово-выборная система",
+      "n1": "Юпитер-2Д | Два голоса, четыре ряда и переключение басовой системы"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "orf-instrumenty-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Orff-инструменты для элементарного музицирования: ксилофоны, металлофоны, глокеншпили, отдельные пластины и малая перкуссия.",
+        "decision": "Orff-инструменты для обучения в аренду | Ксилофоны, металлофоны и малая перкуссия",
+        "next_action": "Ксилофоны, металлофоны и малая перкуссия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Для первого ансамбля ребёнку не обязательно сразу осваивать оркестровую маримбу или п",
+        "decision": "Орфовский инструментальный комплект | От отдельных пластин к общему музицированию",
+        "next_action": "От отдельных пластин к общему музицированию"
+      }
+    },
+    "sonor-primary-sxp11-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "SONOR Primary SXP 1.1: soprano Orff xylophone c2-a3, 16 Pao Rosa bars with note-line imprint for music education.",
+        "decision": "Ксилофон SONOR Primary SXP 1.1 в аренду | Учебная сопрано-модель",
+        "next_action": "Учебная сопрано-модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "SXP 1.1 принадлежит серии Primary, которую SONOR прямо связывает с музыкальным образо",
+        "decision": "SONOR Primary SXP 1.1 | Нотные подписи и звук пластин Pao Rosa",
+        "next_action": "Нотные подписи и звук пластин Pao Rosa"
+      }
+    },
+    "studio49-seriya1000-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "STUDIO 49 Series 1000: compact Orff-Schulwerk xylophones and metallophones for music education, with soprano/alto/bass ranges.",
+        "decision": "Orff-инструменты STUDIO 49 Series 1000 в аренду | Учебные регистры ансамбля",
+        "next_action": "Учебные регистры ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "STUDIO 49 связан с Orff-Schulwerk с самого начала послевоенной истории этой инструмен",
+        "decision": "STUDIO 49 Series 1000 | Ксилофоны и металлофоны разных голосов",
+        "next_action": "Ксилофоны и металлофоны разных голосов"
+      }
+    },
+    "orf-instrument-s-podpisannymi-notami": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Orff-инструмент с маркировкой нот на пластинах для первых занятий, группового обучения и перехода к игре без подсказки.",
+        "decision": "Orff-инструмент с подписанными нотами в аренду | Пластины для первого урока",
+        "next_action": "Пластины для первого урока"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Ребёнок понимает ритм, но долго ищет нужную пластину глазами. Тогда маркировка нот ст",
+        "decision": "Подписанные ноты на пластинах | Переход от подсказки к самостоятельной игре",
+        "next_action": "Переход от подсказки к самостоятельной игре"
+      }
+    },
+    "squier-affinity-stratocaster-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Squier Affinity Stratocaster: lightweight body, slim C neck, SSS pickups and sealed tuners as a beginner electric-guitar route.",
+        "decision": "Электрогитара Squier Affinity Stratocaster в аренду | Лёгкая ученическая Strat",
+        "next_action": "Лёгкая ученическая Strat"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Ученик хочет начать именно с электрогитары и слышит в голове Strat-звук. Fender включ",
+        "decision": "Squier Affinity Stratocaster | Гриф slim C и три звукоснимателя для первого этапа",
+        "next_action": "Гриф slim C и три звукоснимателя для первого этапа"
+      }
+    },
+    "yamaha-trbx174-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Yamaha TRBX174: entry-level 4-string bass with passive P/J pickups, straightforward controls and beginner-oriented playability.",
+        "decision": "Бас-гитара Yamaha TRBX174 в аренду | Четыре струны и пассивная схема P/J",
+        "next_action": "Четыре струны и пассивная схема P/J"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Первый бас должен позволять понять, нравится ли человеку сама функция инструмента: де",
+        "decision": "Yamaha TRBX174 | Понятное управление басом для начинающего",
+        "next_action": "Понятное управление басом для начинающего"
+      }
+    },
+    "yamaha-bb234-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Yamaha BB234: introductory BB-series 4-string bass with alder body, passive pickups and beginner-oriented playability.",
+        "decision": "Бас-гитара Yamaha BB234 в аренду | Четырёхструнная ученическая BB",
+        "next_action": "Четырёхструнная ученическая BB"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "BB234 Yamaha называет вводной моделью своей самой рабочей басовой серии и отдельно ре",
+        "decision": "Yamaha BB234 | Ольховый корпус и пассивные датчики учебного баса",
+        "next_action": "Ольховый корпус и пассивные датчики учебного баса"
+      }
+    },
+    "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey": {
+      "n0": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Подбор бас-гитары по чистоте ладов, интонации, удержанию строя и удобству первой позиции.",
+        "decision": "Бас-гитара без дребезга и с точной интонацией в аренду | Инструмент после настройки",
+        "next_action": "Инструмент после настройки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz53-orff-and-first-electric-learning.json",
+        "source_quote": "Начинающий прижимает струну сильнее и сильнее, потому что часть нот дребезжит или зву",
+        "decision": "Чистые лады бас-гитары | Строй и высота струн в первой позиции",
+        "next_action": "Строй и высота струн в первой позиции"
+      }
+    }
+  }
+}

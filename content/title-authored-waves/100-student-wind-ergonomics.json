@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+      "slug": "trevor-james-10x-v-arendu",
+      "n0": "Флейта Trevor James 10x в аренду | Учебная модель с вариантами головки",
+      "n1": "Trevor James 10x | Отклик головки и механика первой флейты"
+    },
+    {
+      "source_file": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+      "slug": "besson-prodige-162-v-arendu",
+      "n0": "Эуфониум Besson Prodige 162 в аренду | Ученическая система 3+1",
+      "n1": "Besson Prodige 162 | Четыре клапана и эргономика перехода на эуфониум"
+    },
+    {
+      "source_file": "content/sections/zz58-student-flute-euphonium-ergonomics.json",
+      "slug": "fleyta-s-izognutoy-golovkoy",
+      "n0": "Флейта с изогнутой головкой в аренду | Более короткий охват для ребёнка",
+      "n1": "Изогнутая головка флейты | Плечи, локти и переход к прямой системе"
+    }
+  ]
+}

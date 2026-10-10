@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz52-practice-quality-and-exam-context.json",
+      "slug": "skripka-s-udobnoy-nastroykoy",
+      "n0": "Скрипка с удобной настройкой в аренду | Колки и машинки под ежедневные занятия",
+      "n1": "Настройка скрипки | Подгонка колков и точность машинок"
+    },
+    {
+      "source_file": "content/sections/zz52-practice-quality-and-exam-context.json",
+      "slug": "violonchel-s-ustoychivym-shpilem",
+      "n0": "Виолончель с устойчивым шпилем в аренду | Надёжная опора для игры сидя",
+      "n1": "Шпиль виолончели | Наконечник, фиксатор и поверхность пола"
+    },
+    {
+      "source_file": "content/sections/zz52-practice-quality-and-exam-context.json",
+      "slug": "pianino-s-upravlyaemym-tihim-zvukom",
+      "n0": "Пианино с управляемым тихим звуком в аренду | Работа над пианиссимо",
+      "n1": "Тихая игра на пианино | Динамическая чувствительность вместо уменьшения громкости"
+    },
+    {
+      "source_file": "content/sections/zz52-practice-quality-and-exam-context.json",
+      "slug": "cifrovoe-pianino-s-tochnoy-repetitsiey",
+      "n0": "Цифровое пианино с точным повторением нот в аренду | Механика для трелей",
+      "n1": "Репетиция цифровой клавиатуры | Возврат клавиши и чувствительность повторной атаки"
+    }
+  ]
+}

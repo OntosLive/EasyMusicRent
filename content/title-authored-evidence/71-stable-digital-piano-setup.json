@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "cifrovoe-pianino-na-ustoychivoy-stoyke": {
+      "n0": {
+        "source_path": "content/sections/zz54-russian-piano-study-setup.json",
+        "source_quote": "Цифровое пианино для регулярных занятий с устойчивой стойкой, правильной высотой, педалью и свободным местом для ног.",
+        "decision": "Цифровое пианино на устойчивой стойке в аренду | Комплект для регулярных занятий",
+        "next_action": "Комплект для регулярных занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz54-russian-piano-study-setup.json",
+        "source_quote": "Пианино имеет 88 молоточковых клавиш, но при форте качается на лёгкой X-стойке или ст",
+        "decision": "Устойчивая стойка цифрового пианино | Посадка, высота и свободные ноги",
+        "next_action": "Посадка, высота и свободные ноги"
+      }
+    }
+  }
+}

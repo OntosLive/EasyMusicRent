@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "bayany-yupiter": {
+      "n0": {
+        "source_path": "content/sections/zz50-russian-bayan-school-context.json",
+        "source_quote": "Российские баяны Юпитер: модель, готово-выборная система, ряды, диапазон и документированное школьное использование.",
+        "decision": "Баяны Юпитер в аренду | Ученические и концертные модели под программу",
+        "next_action": "Ученические и концертные модели под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz50-russian-bayan-school-context.json",
+        "source_quote": "Преподаватель назвал Юпитер, и теперь нужно превратить марку в точный запрос. Уточнит",
+        "decision": "Баяны Юпитер | Система басов и размер профессионального российского инструмента",
+        "next_action": "Система басов и размер профессионального российского инструмента"
+      }
+    },
+    "bayan-yupiter-2d-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz50-russian-bayan-school-context.json",
+        "source_quote": "Юпитер-2Д: два голоса, четыре ряда, готово-выборная система без регистров; проверка паспорта и учебной программы.",
+        "decision": "Баян Юпитер-2Д в аренду | Четырёхрядная готово-выборная система",
+        "next_action": "Четырёхрядная готово-выборная система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz50-russian-bayan-school-context.json",
+        "source_quote": "В программе появилась полифония, и левую руку нужно освободить от одного готового акк",
+        "decision": "Юпитер-2Д | Два голоса, четыре ряда и переключение басовой системы",
+        "next_action": "Два голоса, четыре ряда и переключение басовой системы"
+      }
+    }
+  }
+}

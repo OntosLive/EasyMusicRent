@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "backun-alpha-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "Backun Alpha B-flat: lightweight synthetic student clarinet with adjustable thumb rest, durable keywork and school-use orientation.",
+        "decision": "Кларнет Backun Alpha в аренду | Лёгкая синтетическая модель для начинающего",
+        "next_action": "Лёгкая синтетическая модель для начинающего"
+      },
+      "n1": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "Backun Alpha интересен как современная альтернатива привычным Yamaha, Buffet и Jupite",
+        "decision": "Backun Alpha | Регулируемая опора и учебная система клапанов",
+        "next_action": "Регулируемая опора и учебная система клапанов"
+      }
+    },
+    "jupiter-jas700-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "Jupiter JAS700: beginner E-flat alto saxophone with high F#, adjustable palm keys and student-durability features.",
+        "decision": "Альт-саксофон Jupiter JAS700 в аренду | Ученическая модель E♭",
+        "next_action": "Ученическая модель E♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "JAS700 Jupiter прямо называет beginner instrument with advanced features. Это хороший",
+        "decision": "Jupiter JAS700 | Верхнее фа-диез и настройка ладонных клапанов",
+        "next_action": "Верхнее фа-диез и настройка ладонных клапанов"
+      }
+    },
+    "jupiter-jhr700-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "Jupiter JHR700: single F student horn with rose-brass leadpipe and easy-playing design for beginning stages.",
+        "decision": "Валторна Jupiter JHR700 в аренду | Одинарная F-модель для первых уроков",
+        "next_action": "Одинарная F-модель для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "До сих пор учебная валторна в нашем слое почти полностью была представлена Yamaha YHR",
+        "decision": "Jupiter JHR700 | Розово-латунная лидтруба и лёгкость ученического звукоизвлечения",
+        "next_action": "Розово-латунная лидтруба и лёгкость ученического звукоизвлечения"
+      }
+    },
+    "klarinet-dlya-nebolshoy-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "Подбор student-кларнета по регулируемой опоре большого пальца, neck-strap ring, досягаемости колец и боковых клапанов.",
+        "decision": "Кларнет для небольшой руки в аренду | Регулируемая опора и доступные клапаны",
+        "next_action": "Регулируемая опора и доступные клапаны"
+      },
+      "n1": {
+        "source_path": "content/sections/zz57-student-wind-alternatives.json",
+        "source_quote": "Ребёнок знает аппликатуру, но кисть постоянно съезжает вниз или боковые клапаны требу",
+        "decision": "Кларнет для маленькой руки | Положение большого пальца и досягаемость боковых клавиш",
+        "next_action": "Положение большого пальца и досягаемость боковых клавиш"
+      }
+    }
+  }
+}

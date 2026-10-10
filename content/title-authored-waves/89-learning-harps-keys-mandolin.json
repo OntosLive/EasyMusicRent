@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "uchebnye-portativnye-klavishnye",
+      "n0": "Учебные портативные клавишные в аренду | 61 клавиша и встроенные занятия",
+      "n1": "Портативные клавишные для начинающего | Уроки, динамика и автоаккомпанемент"
+    },
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "yamaha-psr-e383-v-arendu",
+      "n0": "Yamaha PSR-E383 в аренду | Учебный синтезатор на 61 клавишу",
+      "n1": "Yamaha PSR-E383 | 3-Step Lesson и Keys To Success в освоении клавиш"
+    },
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "roland-gokeys3-v-arendu",
+      "n0": "Roland GO:KEYS 3 в аренду | 61 клавиша для игры и создания музыки",
+      "n1": "Roland GO:KEYS 3 | От первых аккордов к творческим комбинациям тембров"
+    },
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "lyon-healy-drake-v-arendu",
+      "n0": "Арфа Lyon & Healy Drake в аренду | Леверсная модель на 34 струны",
+      "n1": "Lyon & Healy Drake | Десятикилограммовый корпус и учебная система рычажков"
+    },
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "salvi-mia-v-arendu",
+      "n0": "Арфа Salvi Mia в аренду | Компактная леверсная модель на 34 струны",
+      "n1": "Salvi Mia | Размер и диапазон арфы для регулярных домашних занятий"
+    },
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "lyon-healy-ogden-v-arendu",
+      "n0": "Арфа Lyon & Healy Ogden в аренду | 34 струны и регулируемая высота",
+      "n1": "Lyon & Healy Ogden | Педальное натяжение струн в учебной леверсной арфе"
+    },
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "yamaha-yrs24b-v-arendu",
+      "n0": "Блокфлейта Yamaha YRS-24B в аренду | Ученическая сопрано с барочной аппликатурой",
+      "n1": "Yamaha YRS-24B | ABS-корпус и барочная система для школьной программы"
+    },
+    {
+      "source_file": "content/sections/zz47-learning-harps-keys-recorder-mandolin.json",
+      "slug": "eastman-md305-v-arendu",
+      "n0": "Мандолина Eastman MD305 в аренду | Корпус A-style для занятий и ансамбля",
+      "n1": "Eastman MD305 | Еловая дека, клён и регулируемая подставка"
+    }
+  ]
+}

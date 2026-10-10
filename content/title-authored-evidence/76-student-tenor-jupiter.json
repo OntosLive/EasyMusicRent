@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "jupiter-jts700-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz59-student-tenor-sax-alternative.json",
+        "source_quote": "Jupiter JTS700: beginner B-flat tenor saxophone with high F#, adjustable palm keys/thumb rest and student-durability design.",
+        "decision": "Тенор-саксофон Jupiter JTS700 в аренду | Ученическая модель B♭",
+        "next_action": "Ученическая модель B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz59-student-tenor-sax-alternative.json",
+        "source_quote": "JTS700 Jupiter описывает теми же словами, что и альтовый JAS700: beginner instrument ",
+        "decision": "Jupiter JTS700 | Верхнее фа-диез и регулируемая опора тенор-саксофона",
+        "next_action": "Верхнее фа-диез и регулируемая опора тенор-саксофона"
+      }
+    }
+  }
+}

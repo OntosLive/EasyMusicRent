@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychki": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Смычок: отдельный выбор внутри звучащего комплекта. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Смычки в аренду в Москве | Скрипичные, альтовые, виолончельные и контрабасовые",
+        "next_action": "Скрипичные, альтовые, виолончельные и контрабасовые"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Скрипка, альт, виолончель или контрабас уже есть, а привычный смычок находится у маст",
+        "decision": "Смычок как отдельный инструмент | Баланс, трость и музыкальная задача",
+        "next_action": "Баланс, трость и музыкальная задача"
+      }
+    },
+    "skripichnye-smychki": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Скрипичный смычок: вести фразу от колодки до конца. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Скрипичный смычок в аренду | Подбор к инструменту и репертуару",
+        "next_action": "Подбор к инструменту и репертуару"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "В учебном комплекте скрипка и смычок часто приходят вместе. Позднее может понадобитьс",
+        "decision": "Скрипичный смычок | Работа от колодки к кончику одной музыкальной фразы",
+        "next_action": "Работа от колодки к кончику одной музыкальной фразы"
+      }
+    },
+    "altovye-smychki": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Альтовый смычок: услышать собственный нижний голос. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Альтовый смычок в аренду | Смычковый отклик для нижнего регистра",
+        "next_action": "Смычковый отклик для нижнего регистра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "После скрипки альт может потребовать нового сочетания инструмента и смычка. На пробу ",
+        "decision": "Альтовый смычок | Масса и контакт с альтовой струной",
+        "next_action": "Масса и контакт с альтовой струной"
+      }
+    },
+    "violonchelnye-smychki": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Виолончельный смычок: сохранить начало и продолжение ноты. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Виолончельный смычок в аренду | Точность атаки и длинная фраза",
+        "next_action": "Точность атаки и длинная фраза"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Собственный виолончельный смычок временно недоступен, а занятия и репетиции продолжаю",
+        "decision": "Виолончельный смычок | Начало ноты и непрерывность движения",
+        "next_action": "Начало ноты и непрерывность движения"
+      }
+    },
+    "kontrabasovye-smychki": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Контрабасовый смычок: сначала привычная система, затем конкретная трость. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Контрабасовый смычок в аренду | Французская и немецкая системы держания",
+        "next_action": "Французская и немецкая системы держания"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Для контрабасиста первым вопросом становится исполнение смычка: французское или немец",
+        "decision": "Контрабасовый смычок | Почему способ держания определяет конструкцию колодки",
+        "next_action": "Почему способ держания определяет конструкцию колодки"
+      }
+    },
+    "frantsuzskiy-smychok-dlya-kontrabasa": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Французский смычок: сохранить знакомую форму колодки и держание. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Французский смычок для контрабаса в аренду | Привычная колодка для занятий",
+        "next_action": "Привычная колодка для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "В запросе на французский контрабасовый смычок уже содержится требование к исполнитель",
+        "decision": "Французский контрабасовый смычок | Геометрия держания над тростью",
+        "next_action": "Геометрия держания над тростью"
+      }
+    },
+    "nemetskiy-smychok-dlya-kontrabasa": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Немецкий смычок: совпадение системы важнее соседней марки. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Немецкий смычок для контрабаса в аренду | Система под ладонь и репертуар",
+        "next_action": "Система под ладонь и репертуар"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Контрабасист готовил программу с немецким смычком и хочет продолжить её на временном ",
+        "decision": "Немецкий контрабасовый смычок | Другая колодка и распределение веса",
+        "next_action": "Другая колодка и распределение веса"
+      }
+    },
+    "doerfler-6-6a-smychki-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Dörfler 6/6a: учебная деревянная серия с разными исполнениями. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Смычки Dörfler 6 и 6a в аренду | Деревянные учебные модели",
+        "next_action": "Деревянные учебные модели"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Педагог назвал Dörfler, а в предложении встречаются номера 6 и 6a. Это учебная серия,",
+        "decision": "Dörfler 6 и 6a | Два исполнения учебной деревянной серии",
+        "next_action": "Два исполнения учебной деревянной серии"
+      }
+    },
+    "codabow-prodigy-skripka-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "CodaBow Prodigy Violin: карбоновая учебная модель для своей скрипки. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Скрипичный смычок CodaBow Prodigy в аренду | Карбоновая модель для ученика",
+        "next_action": "Карбоновая модель для ученика"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Вместо безымянного комплектного смычка хочется попробовать известную учебную модель. ",
+        "decision": "CodaBow Prodigy Violin | Ученический смычок и повторяемость игрового отклика",
+        "next_action": "Ученический смычок и повторяемость игрового отклика"
+      }
+    },
+    "codabow-prodigy-alt-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "CodaBow Prodigy Viola: отдельный кандидат для нижнего альтового голоса. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Альтовый смычок CodaBow Prodigy в аренду | Модель для собственной программы",
+        "next_action": "Модель для собственной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "После перехода на альт преподаватель предлагает заменить и смычок. Prodigy Viola явля",
+        "decision": "CodaBow Prodigy Viola | Работа со смычком в альтовом нижнем голосе",
+        "next_action": "Работа со смычком в альтовом нижнем голосе"
+      }
+    },
+    "codabow-prodigy-violonchel-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "CodaBow Prodigy Cello: проверить новый смычок в уже освоенной фразе. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Виолончельный смычок CodaBow Prodigy в аренду | Карбоновая учебная серия",
+        "next_action": "Карбоновая учебная серия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Виолончель остаётся прежней, а качество работы правой руки хочется проверить с другим",
+        "decision": "CodaBow Prodigy Cello | Новый смычок в знакомой виолончельной фразе",
+        "next_action": "Новый смычок в знакомой виолончельной фразе"
+      }
+    },
+    "upton-workshop-smychok-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Upton Bass Workshop: учебная серия с двумя системами держания. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Контрабасовый смычок Upton Bass Workshop в аренду | Две системы держания",
+        "next_action": "Две системы держания"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Нужен именованный учебный контрабасовый смычок, а дорогой индивидуальный экземпляр по",
+        "decision": "Upton Bass Workshop | Учебные контрабасовые смычки разных колодок",
+        "next_action": "Учебные контрабасовые смычки разных колодок"
+      }
+    },
+    "smychok-s-udobnym-balansom": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Когда смычок удобен в ладони, но мешает на струне. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Смычок с удобным балансом в аренду | Проба на собственном инструменте",
+        "next_action": "Проба на собственном инструменте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Смычок кажется лёгким, пока его держат в воздухе, а на длинной фразе приходится посто",
+        "decision": "Баланс смычка | Почему комфорт в ладони не равен свободе на струне",
+        "next_action": "Почему комфорт в ладони не равен свободе на струне"
+      }
+    },
+    "smychok-dlya-rebenka": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Детский смычок: доступная длина важнее выбора на вырост. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Смычок подходящего размера ребёнку в аренду | Учебная длина под постановку",
+        "next_action": "Учебная длина под постановку"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Ребёнок сменил инструмент или начал использовать большую часть смычка. Возникает отде",
+        "decision": "Детский смычок | Длина и вес без выбора инструмента на вырост",
+        "next_action": "Длина и вес без выбора инструмента на вырост"
+      }
+    },
+    "smychok-na-vremya-peretyazhki": {
+      "n0": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Пока свой смычок находится у мастера. Подбор под программу, проверка конкретного экземпляра и согласование комплекта.",
+        "decision": "Смычок на время перетяжки волоса в аренду | Продолжить игру на знакомой системе",
+        "next_action": "Продолжить игру на знакомой системе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz48-bows-learning-and-quality.json",
+        "source_quote": "Собственный смычок нужно перетянуть, а прерывать занятия или оркестровый цикл неудобн",
+        "decision": "Временный смычок | Как сохранить привычную игру, пока свой у мастера",
+        "next_action": "Как сохранить привычную игру, пока свой у мастера"
+      }
+    }
+  }
+}

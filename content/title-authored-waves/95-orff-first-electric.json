@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "orf-instrumenty-dlya-obucheniya",
+      "n0": "Orff-инструменты для обучения в аренду | Ксилофоны, металлофоны и малая перкуссия",
+      "n1": "Орфовский инструментальный комплект | От отдельных пластин к общему музицированию"
+    },
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "sonor-primary-sxp11-v-arendu",
+      "n0": "Ксилофон SONOR Primary SXP 1.1 в аренду | Учебная сопрано-модель",
+      "n1": "SONOR Primary SXP 1.1 | Нотные подписи и звук пластин Pao Rosa"
+    },
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "studio49-seriya1000-v-arendu",
+      "n0": "Orff-инструменты STUDIO 49 Series 1000 в аренду | Учебные регистры ансамбля",
+      "n1": "STUDIO 49 Series 1000 | Ксилофоны и металлофоны разных голосов"
+    },
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "orf-instrument-s-podpisannymi-notami",
+      "n0": "Orff-инструмент с подписанными нотами в аренду | Пластины для первого урока",
+      "n1": "Подписанные ноты на пластинах | Переход от подсказки к самостоятельной игре"
+    },
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "squier-affinity-stratocaster-v-arendu",
+      "n0": "Электрогитара Squier Affinity Stratocaster в аренду | Лёгкая ученическая Strat",
+      "n1": "Squier Affinity Stratocaster | Гриф slim C и три звукоснимателя для первого этапа"
+    },
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "yamaha-trbx174-v-arendu",
+      "n0": "Бас-гитара Yamaha TRBX174 в аренду | Четыре струны и пассивная схема P/J",
+      "n1": "Yamaha TRBX174 | Понятное управление басом для начинающего"
+    },
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "yamaha-bb234-v-arendu",
+      "n0": "Бас-гитара Yamaha BB234 в аренду | Четырёхструнная ученическая BB",
+      "n1": "Yamaha BB234 | Ольховый корпус и пассивные датчики учебного баса"
+    },
+    {
+      "source_file": "content/sections/zz53-orff-and-first-electric-learning.json",
+      "slug": "bas-gitara-bez-drebezga-i-s-tochnoy-intonatsiey",
+      "n0": "Бас-гитара без дребезга и с точной интонацией в аренду | Инструмент после настройки",
+      "n1": "Чистые лады бас-гитары | Строй и высота струн в первой позиции"
+    }
+  ]
+}

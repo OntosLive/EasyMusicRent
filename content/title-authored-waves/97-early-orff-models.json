@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz55-early-orff-learning.json",
+      "slug": "sonor-first-beat-v-arendu",
+      "n0": "SONOR First Beat в аренду | Учебная перкуссия и глокеншпили для детей",
+      "n1": "SONOR First Beat | Точный строй и цветные подсказки первых ударов"
+    },
+    {
+      "source_file": "content/sections/zz55-early-orff-learning.json",
+      "slug": "studio49-easycussion500-v-arendu",
+      "n0": "STUDIO 49 easycussion Series 500 в аренду | Пентатонические Orff-инструменты",
+      "n1": "STUDIO 49 easycussion 500 | Звончатые и деревянные пластины для первых мелодий"
+    },
+    {
+      "source_file": "content/sections/zz55-early-orff-learning.json",
+      "slug": "sonor-global-beat-v-arendu",
+      "n0": "SONOR Global Beat в аренду | Ксилофоны и металлофоны для класса",
+      "n1": "SONOR Global Beat | Диатонические регистры и хранение дополнительных пластин"
+    },
+    {
+      "source_file": "content/sections/zz55-early-orff-learning.json",
+      "slug": "orf-instrument-s-cvetovoy-kodirovkoy",
+      "n0": "Orff-инструмент с цветовой кодировкой в аренду | Учебные ноты для начинающих",
+      "n1": "Цветовая кодировка Orff | Как играть вместе до свободного чтения нот"
+    }
+  ]
+}

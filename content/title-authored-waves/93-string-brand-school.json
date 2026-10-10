@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz51-school-string-brand-paths.json",
+      "slug": "smychkovye-knilling",
+      "n0": "Смычковые инструменты Knilling в аренду | Скрипки и альты под школьную программу",
+      "n1": "Knilling в музыкальной школе | Серия Bucharest, размеры и подготовка комплекта"
+    },
+    {
+      "source_file": "content/sections/zz51-school-string-brand-paths.json",
+      "slug": "knilling-bucharest-skripka-v-arendu",
+      "n0": "Скрипка Knilling Bucharest в аренду | Учебные размеры и настроенный комплект",
+      "n1": "Knilling Bucharest Violin | Ель и клён в школьной скрипичной модели"
+    },
+    {
+      "source_file": "content/sections/zz51-school-string-brand-paths.json",
+      "slug": "knilling-bucharest-alt-v-arendu",
+      "n0": "Альт Knilling Bucharest в аренду | Размеры под текущую программу",
+      "n1": "Knilling Bucharest Viola | Колки, корпус и альтовая игровая геометрия"
+    },
+    {
+      "source_file": "content/sections/zz51-school-string-brand-paths.json",
+      "slug": "smychkovye-samuel-shen",
+      "n0": "Смычковые Samuel Shen в аренду | Контрабасы SB80 и SB150 для занятий",
+      "n1": "Samuel Shen | Почему школьная марка начинается с конкретного экземпляра"
+    },
+    {
+      "source_file": "content/sections/zz51-school-string-brand-paths.json",
+      "slug": "shen-sb80-v-arendu",
+      "n0": "Контрабас Samuel Shen SB80 в аренду | Учебный ламинированный корпус",
+      "n1": "Samuel Shen SB80 | Подготовка контрабаса для arco и pizzicato"
+    },
+    {
+      "source_file": "content/sections/zz51-school-string-brand-paths.json",
+      "slug": "shen-sb150-v-arendu",
+      "n0": "Контрабас Samuel Shen SB150 в аренду | Гибридная модель для учебной программы",
+      "n1": "Samuel Shen SB150 | Еловая дека и ламинированные клёновые части корпуса"
+    }
+  ]
+}
