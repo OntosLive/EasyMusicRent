@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-yfl372-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Yamaha YFL-372: серебряная головка, открытые клапаны, различие нижних колен и осмысленная проба перед выбором.",
+        "decision": "Флейта Yamaha YFL-372 в аренду | Серебряная головка и открытые клапаны",
+        "next_action": "Серебряная головка и открытые клапаны"
+      },
+      "n1": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Появилось желание сравнить привычную флейту с Yamaha YFL-372, а решения о покупке ещ",
+        "decision": "Yamaha YFL-372 | Новая головка и открытая механика в знакомой фразе",
+        "next_action": "Новая головка и открытая механика в знакомой фразе"
+      }
+    },
+    "yamaha-ycl450-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Yamaha YCL-450 для сравнительной практики: деревянный корпус, система Бёма, отличие от 450M и проверка отклика.",
+        "decision": "Кларнет Yamaha YCL-450 в аренду | Деревянный корпус системы Бёма",
+        "next_action": "Деревянный корпус системы Бёма"
+      },
+      "n1": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Преподаватель предложил попробовать деревянный кларнет, однако хотелось бы сначала п",
+        "decision": "Yamaha YCL-450 | Проверить отклик дерева на своей программе",
+        "next_action": "Проверить отклик дерева на своей программе"
+      }
+    },
+    "yamaha-yfg812-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Yamaha YFG-812: система Хеккеля, версия 812C, эсы и проверка инструмента в оркестровом контексте.",
+        "decision": "Фагот Yamaha YFG-812 в аренду | Система Хеккеля для оркестровой партии",
+        "next_action": "Система Хеккеля для оркестровой партии"
+      },
+      "n1": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Если выбор пал на YFG-812, полезно сформулировать конкретную причину: временно замен",
+        "decision": "Yamaha YFG-812 | Эсы, механика и исполнение конкретных отрывков",
+        "next_action": "Эсы, механика и исполнение конкретных отрывков"
+      }
+    },
+    "yamaha-ytr4335gii-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Yamaha YTR-4335GII: материал раструба, отличие GSII, мундштук и проба на знакомой программе.",
+        "decision": "Труба Yamaha YTR-4335GII в аренду | Модель для продолжения обучения",
+        "next_action": "Модель для продолжения обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Программа усложнилась, и хочется понять, действительно ли другой инструмент даст бол",
+        "decision": "Yamaha YTR-4335GII | Материал раструба и отклик на знакомой программе",
+        "next_action": "Материал раструба и отклик на знакомой программе"
+      }
+    },
+    "yamaha-ysl448g-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Yamaha YSL-448G: квартвентиль, отличие от 446G, совместимость мундштука и реальная проба кулисы.",
+        "decision": "Тромбон Yamaha YSL-448G в аренду | Квартвентиль и широкая мензура",
+        "next_action": "Квартвентиль и широкая мензура"
+      },
+      "n1": {
+        "source_path": "content/sections/99y-wind-model-comparisons.json",
+        "source_quote": "Партия требует привычного тенорового тромбона с квартвентилем либо хочется попробова",
+        "decision": "Yamaha YSL-448G | Переход на крупную мензуру и вентильную систему",
+        "next_action": "Переход на крупную мензуру и вентильную систему"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "kontrafagot",
+      "n0": "Контрафагот в аренду | Нижний оркестровый голос под конкретную партитуру",
+      "n1": "Контрафагот | Диапазон и рабочая постановка низкого деревянного духового"
+    },
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "klarinet-in-es",
+      "n0": "Кларнет in Es в аренду | Малый кларнет для высокой оркестровой партии",
+      "n1": "Кларнет Es | Отдельный яркий голос в симфоническом составе"
+    },
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "bassetgorn",
+      "n0": "Бассетгорн в аренду | Кларнетовое семейство в строе F",
+      "n1": "Бассетгорн | Низкий диапазон и собственная камерная тембровая роль"
+    },
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "altovyy-klarinet",
+      "n0": "Альтовый кларнет в аренду | Средний голос ансамбля в строе Es",
+      "n1": "Альтовый кларнет | Различие с бассетгорном в среднем регистре"
+    },
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "kontrabasovyy-klarinet",
+      "n0": "Контрабасовый кларнет в аренду | Специальный низкий инструмент по партитуре",
+      "n1": "Контрабасовый кларнет | Нижний диапазон и особая атака трости"
+    },
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "goboy-damur",
+      "n0": "Гобой д’амур в аренду | Исторический инструмент в строе A",
+      "n1": "Гобой д’амур | Между гобоем и английским рожком по звуку и системе"
+    },
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "blokfleyta-sopranino",
+      "n0": "Блокфлейта-сопранино в аренду | Высокий голос для ансамбля",
+      "n1": "Сопранино блокфлейты | Маленький корпус и отдельная аппликатурная задача"
+    },
+    {
+      "source_file": "content/sections/99w-extended-wind-voices.json",
+      "slug": "blokfleyta-grosbas",
+      "n0": "Гросбасовая блокфлейта в аренду | Низкая опора ансамбля ранней музыки",
+      "n1": "Гросбасовая блокфлейта | Опора корпуса, подача воздуха и низкая фраза"
+    }
+  ]
+}

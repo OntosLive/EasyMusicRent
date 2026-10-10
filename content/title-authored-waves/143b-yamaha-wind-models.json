@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-yfl212-v-arendu",
+      "n0": "Флейта Yamaha YFL-212 в аренду | Учебная модель с закрытыми клапанами",
+      "n1": "Yamaha YFL-212 | Смещённая клавиша соль и удобство школьной механики"
+    },
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-ycl255-v-arendu",
+      "n0": "Кларнет Yamaha YCL-255 в аренду | Модель B♭ системы Бёма для школы",
+      "n1": "Yamaha YCL-255 | ABS-корпус и регулируемая опора большого пальца"
+    },
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-yas280-v-arendu",
+      "n0": "Альт-саксофон Yamaha YAS-280 в аренду | Учебный голос E♭",
+      "n1": "Yamaha YAS-280 | Регулируемая опора и первый комплект альт-саксофониста"
+    },
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-yts280-v-arendu",
+      "n0": "Тенор-саксофон Yamaha YTS-280 в аренду | Учебная модель B♭",
+      "n1": "Yamaha YTS-280 | Посадка и механика большого саксофонного голоса"
+    },
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-ytr2330-v-arendu",
+      "n0": "Труба Yamaha YTR-2330 в аренду | Учебная модель в строе B♭",
+      "n1": "Yamaha YTR-2330 | Клапаны и устойчивое начало звука в первых пьесах"
+    },
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-ysl354-v-arendu",
+      "n0": "Тромбон Yamaha YSL-354 в аренду | Теноровая модель B♭ для занятий",
+      "n1": "Yamaha YSL-354 | Работа кулисы и привычные позиции на тромбоне"
+    },
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-yhr567-v-arendu",
+      "n0": "Валторна Yamaha YHR-567 в аренду | Полная двойная система F/B♭",
+      "n1": "Yamaha YHR-567 | Переключение двух строев и контроль оркестровой партии"
+    },
+    {
+      "source_file": "content/sections/99r-wind-model-landings.json",
+      "slug": "yamaha-yep201-v-arendu",
+      "n0": "Эуфониум Yamaha YEP-201 в аренду | Ученическая модель с тремя клапанами",
+      "n1": "Yamaha YEP-201 | Трёхпистонная система в ансамблевой программе"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-fg800-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Yamaha FG800 для песни и занятий: акустический корпус, цельная еловая верхняя дека и проверка повседневной посадки.",
+        "decision": "Гитара Yamaha FG800 в аренду | Акустический корпус и массивная еловая дека",
+        "next_action": "Акустический корпус и массивная еловая дека"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Вы рассматриваете FG800 для занятий или нескольких песен и хотите понять её в собств",
+        "decision": "Yamaha FG800 | Удобство dreadnought рядом с собственным голосом",
+        "next_action": "Удобство dreadnought рядом с собственным голосом"
+      }
+    },
+    "yamaha-fgx800c-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Yamaha FGX800C: электроакустическая гитара с вырезом, пьезозвукоснимателем и предусилителем System66.",
+        "decision": "Гитара Yamaha FGX800C в аренду | Электроакустика с вырезом и System66",
+        "next_action": "Электроакустика с вырезом и System66"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Домашние песни уже готовы, а для выступления нужна акустическая гитара с подключение",
+        "decision": "Yamaha FGX800C | Перенос аккомпанемента на сцену через предусилитель",
+        "next_action": "Перенос аккомпанемента на сцену через предусилитель"
+      }
+    },
+    "yamaha-pac112v-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Yamaha PAC112V: конфигурация HSS, переключатель на пять положений и отсечка хамбакера для проверки разных партий.",
+        "decision": "Электрогитара Yamaha Pacifica PAC112V в аренду | HSS и отсечка хамбакера",
+        "next_action": "HSS и отсечка хамбакера"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "В программе есть и чистое сопровождение, и более плотная электрогитарная партия. Pac",
+        "decision": "Yamaha PAC112V | Несколько гитарных звуков одной исполнительской программы",
+        "next_action": "Несколько гитарных звуков одной исполнительской программы"
+      }
+    },
+    "ibanez-sr300e-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Ibanez SR300E: четырёхструнный бас с PowerSpan Dual Coil, трёхполосным эквалайзером и переключателем Power Tap.",
+        "decision": "Бас-гитара Ibanez SR300E в аренду | Активный эквалайзер и Power Tap",
+        "next_action": "Активный эквалайзер и Power Tap"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Вы хотите проверить бас с управлением тембром на самом инструменте. У SR300E два зву",
+        "decision": "Ibanez SR300E | Настройка басового тембра через PowerSpan Dual Coil",
+        "next_action": "Настройка басового тембра через PowerSpan Dual Coil"
+      }
+    },
+    "fender-player-ii-stratocaster-sss-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Fender Player II Stratocaster с тремя одиночными звукоснимателями: пятипозиционная схема, вибрато и выбор под программу.",
+        "decision": "Fender Player II Stratocaster SSS в аренду | Три сингла и тремоло",
+        "next_action": "Три сингла и тремоло"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Для записи или репетиционного периода хочется попробовать именно Stratocaster с трем",
+        "decision": "Player II Stratocaster SSS | Пять положений и разная атака одной гитары",
+        "next_action": "Пять положений и разная атака одной гитары"
+      }
+    },
+    "fender-player-ii-telecaster-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Fender Player II Telecaster: два сингла, трёхпозиционная схема и фиксированный мост для репетиции или записи.",
+        "decision": "Fender Player II Telecaster в аренду | Два сингла и фиксированный бридж",
+        "next_action": "Два сингла и фиксированный бридж"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Вам нужен Telecaster для одной записи или для проверки собственной концертной програ",
+        "decision": "Player II Telecaster | Три положения выбора характерного гитарного голоса",
+        "next_action": "Три положения выбора характерного гитарного голоса"
+      }
+    },
+    "fender-player-ii-precision-bass-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Fender Player II Precision Bass: разделённый звукосниматель, общие громкость и тон, выбор под басовую партию.",
+        "decision": "Fender Player II Precision Bass в аренду | Классический split-coil",
+        "next_action": "Классический split-coil"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "В записи нужен бас с определённым характером опоры, и вы рассматриваете Precision. Б",
+        "decision": "Player II Precision Bass | Простая схема управления рабочей басовой партией",
+        "next_action": "Простая схема управления рабочей басовой партией"
+      }
+    },
+    "fender-player-ii-jazz-bass-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Fender Player II Jazz Bass: два сингла с отдельной громкостью, общий тон и проба рабочего тембра в ансамбле.",
+        "decision": "Fender Player II Jazz Bass в аренду | Два сингла с раздельной громкостью",
+        "next_action": "Два сингла с раздельной громкостью"
+      },
+      "n1": {
+        "source_path": "content/sections/99s-guitar-model-landings.json",
+        "source_quote": "Вы хотите управлять соотношением двух звукоснимателей, а не выбирать бас только по ж",
+        "decision": "Player II Jazz Bass | Соотношение звукоснимателей внутри одной басовой линии",
+        "next_action": "Соотношение звукоснимателей внутри одной басовой линии"
+      }
+    }
+  }
+}

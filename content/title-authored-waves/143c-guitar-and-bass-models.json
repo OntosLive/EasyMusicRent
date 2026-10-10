@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "yamaha-fg800-v-arendu",
+      "n0": "Гитара Yamaha FG800 в аренду | Акустический корпус и массивная еловая дека",
+      "n1": "Yamaha FG800 | Удобство dreadnought рядом с собственным голосом"
+    },
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "yamaha-fgx800c-v-arendu",
+      "n0": "Гитара Yamaha FGX800C в аренду | Электроакустика с вырезом и System66",
+      "n1": "Yamaha FGX800C | Перенос аккомпанемента на сцену через предусилитель"
+    },
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "yamaha-pac112v-v-arendu",
+      "n0": "Электрогитара Yamaha Pacifica PAC112V в аренду | HSS и отсечка хамбакера",
+      "n1": "Yamaha PAC112V | Несколько гитарных звуков одной исполнительской программы"
+    },
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "ibanez-sr300e-v-arendu",
+      "n0": "Бас-гитара Ibanez SR300E в аренду | Активный эквалайзер и Power Tap",
+      "n1": "Ibanez SR300E | Настройка басового тембра через PowerSpan Dual Coil"
+    },
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "fender-player-ii-stratocaster-sss-v-arendu",
+      "n0": "Fender Player II Stratocaster SSS в аренду | Три сингла и тремоло",
+      "n1": "Player II Stratocaster SSS | Пять положений и разная атака одной гитары"
+    },
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "fender-player-ii-telecaster-v-arendu",
+      "n0": "Fender Player II Telecaster в аренду | Два сингла и фиксированный бридж",
+      "n1": "Player II Telecaster | Три положения выбора характерного гитарного голоса"
+    },
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "fender-player-ii-precision-bass-v-arendu",
+      "n0": "Fender Player II Precision Bass в аренду | Классический split-coil",
+      "n1": "Player II Precision Bass | Простая схема управления рабочей басовой партией"
+    },
+    {
+      "source_file": "content/sections/99s-guitar-model-landings.json",
+      "slug": "fender-player-ii-jazz-bass-v-arendu",
+      "n0": "Fender Player II Jazz Bass в аренду | Два сингла с раздельной громкостью",
+      "n1": "Player II Jazz Bass | Соотношение звукоснимателей внутри одной басовой линии"
+    }
+  ]
+}

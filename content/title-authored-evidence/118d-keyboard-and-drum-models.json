@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "nord-stage-4-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Nord Stage 4 для концертного периода: версия клавиатуры, подготовленные звуки, переключения и рабочий комплект.",
+        "decision": "Nord Stage 4 в аренду | Сценическая клавиатура для концертного периода",
+        "next_action": "Сценическая клавиатура для концертного периода"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "В концерте нужно переходить от фортепиано к органу и синтезаторной партии, сохраняя ",
+        "decision": "Nord Stage 4 | Подготовленные тембры и переключение между партиями",
+        "next_action": "Подготовленные тембры и переключение между партиями"
+      }
+    },
+    "nord-electro-6d-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Nord Electro 6D: варианты 61 и 73 клавиши, полувзвешенная механика и три самостоятельные звуковые секции.",
+        "decision": "Nord Electro 6D в аренду | Органные и фортепианные партии на одной клавиатуре",
+        "next_action": "Органные и фортепианные партии на одной клавиатуре"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Для программы нужны органный звук и клавишное сопровождение, а большой набор отдельн",
+        "decision": "Nord Electro 6D | Секции звука и выбор 61 или 73 клавиш",
+        "next_action": "Секции звука и выбор 61 или 73 клавиш"
+      }
+    },
+    "roland-rd88ex-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Roland RD-88 EX: 88 клавиш PHA-4, три зоны, встроенные динамики и работа с внешним источником звука.",
+        "decision": "Roland RD-88 EX в аренду | 88 клавиш PHA-4 для сцены",
+        "next_action": "88 клавиш PHA-4 для сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "На выезде нужна фортепианная клавиатура, а в нескольких номерах ещё и дополнительные",
+        "decision": "Roland RD-88 EX | Три зоны и встроенные динамики выездного пианино",
+        "next_action": "Три зоны и встроенные динамики выездного пианино"
+      }
+    },
+    "korg-sv2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Korg SV-2: механика RH3, варианты 73 и 88 клавиш, подготовленные тембры и отличие от SV-2S.",
+        "decision": "Korg SV-2 в аренду | Сценическое пианино с механикой RH3",
+        "next_action": "Сценическое пианино с механикой RH3"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "В песне нужен характер электропиано, в следующем номере акустический фортепианный зв",
+        "decision": "Korg SV-2 | Версии на 73 и 88 клавиш и подготовленные тембры",
+        "next_action": "Версии на 73 и 88 клавиш и подготовленные тембры"
+      }
+    },
+    "roland-td17kvx2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Roland TD-17KVX2: пэд малого PDX-12, хай-хэт VH-10 и согласование реального комплекта для занятий.",
+        "decision": "Электронные барабаны Roland TD-17KVX2 в аренду | Пэды и хай-хэт VH-10",
+        "next_action": "Пэды и хай-хэт VH-10"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Акустическая установка доступна только на репетиции, а заниматься нужно регулярно. В",
+        "decision": "Roland TD-17KVX2 | Привычные ударные движения на цифровом комплекте",
+        "next_action": "Привычные ударные движения на цифровом комплекте"
+      }
+    },
+    "roland-td27kv2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Roland TD-27KV2: цифровые малый, хай-хэт и райд, настройка чувствительности и работа над конкретной партией.",
+        "decision": "Электронные барабаны Roland TD-27KV2 в аренду | Цифровой малый и райд",
+        "next_action": "Цифровой малый и райд"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Для записи или репетиционного периода важно сохранить различия тихих ударов, открыти",
+        "decision": "Roland TD-27KV2 | Настройка чувствительности и нюансов барабанной атаки",
+        "next_action": "Настройка чувствительности и нюансов барабанной атаки"
+      }
+    },
+    "yamaha-dtx6k3x-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Yamaha DTX6K3-X: малый и томы с поверхностью TCS, модуль DTX-PRO и проверка конкретного комплекта.",
+        "decision": "Электронные барабаны Yamaha DTX6K3-X в аренду | Модуль DTX-PRO и TCS-пэды",
+        "next_action": "Модуль DTX-PRO и TCS-пэды"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Вы сравниваете электронные установки и хотите понять ощущения поверхностей TCS. В DT",
+        "decision": "Yamaha DTX6K3-X | Ударная поверхность TCS и ощущение отскока",
+        "next_action": "Ударная поверхность TCS и ощущение отскока"
+      }
+    },
+    "alesis-nitro-max-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Alesis Nitro Max: сетчатый малый и томы, педали, звуковой модуль и подготовка домашнего места для занятий.",
+        "decision": "Электронные барабаны Alesis Nitro Max в аренду | Сетчатые пэды для дома",
+        "next_action": "Сетчатые пэды для дома"
+      },
+      "n1": {
+        "source_path": "content/sections/99t-stage-and-drum-model-landings.json",
+        "source_quote": "Интерес к барабанам уже есть, а постоянного домашнего места пока нет. Nitro Max вклю",
+        "decision": "Alesis Nitro Max | Рама, педали и организация домашней ударной практики",
+        "next_action": "Рама, педали и организация домашней ударной практики"
+      }
+    }
+  }
+}

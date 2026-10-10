@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "mandolina-dlya-zapisi-tremolo": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Подготовка мандолины для протяжённой студийной партии: пары струн, движение медиатора и место в аранжировке.",
+        "decision": "Мандолина для записи тремоло в аренду | Подготовленные пары струн для студии",
+        "next_action": "Подготовленные пары струн для студии"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "В аранжировке нужна протяжённая мандолинная линия, а собственного инструмента пока н",
+        "decision": "Мандолинное тремоло в записи | Продолжительная мелодия через движение медиатора",
+        "next_action": "Продолжительная мелодия через движение медиатора"
+      }
+    },
+    "bandzho-dlya-odnoy-kompozitsii": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Банджо для отдельной композиции: количество струн, строй, исполнительский приём и подготовительный период.",
+        "decision": "Банджо для записи одной композиции в аренду | Инструмент нужного строя",
+        "next_action": "Инструмент нужного строя"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "В песне появился узнаваемый ритмический рисунок банджо, и хочется записать его живьё",
+        "decision": "Банджо для одной песни | Струны и способ игры определяют запись",
+        "next_action": "Струны и способ игры определяют запись"
+      }
+    },
+    "ud-dlya-pervogo-osvoeniya": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Уд для начала обучения: выбор традиции, настройка, специальный медиатор и время на освоение безладового грифа.",
+        "decision": "Уд для первых занятий в аренду | Безладовый инструмент под преподавателя",
+        "next_action": "Безладовый инструмент под преподавателя"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Хочется попробовать уд, но пока непонятно, станет ли он постоянным инструментом. Вре",
+        "decision": "Первое освоение уда | Интонация без ладов и особая работа медиатора",
+        "next_action": "Интонация без ладов и особая работа медиатора"
+      }
+    },
+    "bansuri-dlya-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Бансури для совместного исполнения: основной тон, фактическая настройка, диапазон и репетиция с партнёрами.",
+        "decision": "Бансури для ансамбля в аренду | Индийская флейта нужного основного тона",
+        "next_action": "Индийская флейта нужного основного тона"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Флейтовая линия уже появилась в программе, и бансури должна войти в готовый состав. ",
+        "decision": "Бансури в ансамбле | Согласование звучащих нот и дыхания",
+        "next_action": "Согласование звучащих нот и дыхания"
+      }
+    },
+    "ney-dlya-pervogo-osvoeniya": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Ней для знакомства и обучения: исполнительский вариант, основной тон и согласование с преподавателем.",
+        "decision": "Флейта ней для первых занятий в аренду | Инструмент под выбранную традицию",
+        "next_action": "Инструмент под выбранную традицию"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Хочется познакомиться со звучанием нея через собственное дыхание, а не только через ",
+        "decision": "Первый звук на нее | Основной тон и исполнительский вариант",
+        "next_action": "Основной тон и исполнительский вариант"
+      }
+    },
+    "koto-dlya-zapisi": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Кото для одной записи: настройка подставок, исполнительские принадлежности, размещение и предварительная проба.",
+        "decision": "Кото для студийной записи в аренду | Подставки, плектры и строй под пьесу",
+        "next_action": "Подставки, плектры и строй под пьесу"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "В композиции нужен живой голос кото, а инструмент требуется только на подготовку и з",
+        "decision": "Кото в студии | Щипковая партия требует настройки подставок",
+        "next_action": "Щипковая партия требует настройки подставок"
+      }
+    },
+    "erhu-dlya-studiynoy-partii": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Эрху для студийной мелодии: исполнительская подготовка, интонация, программа и согласование записи.",
+        "decision": "Эрху для записи мелодической партии в аренду | Живой китайский смычковый тембр",
+        "next_action": "Живой китайский смычковый тембр"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "В эскизе уже есть мелодия, и хочется заменить приблизительный электронный звук живой",
+        "decision": "Эрху в записи | Интонация и выразительное движение смычка",
+        "next_action": "Интонация и выразительное движение смычка"
+      }
+    },
+    "guzhen-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Гучжэн для обучения: соответствие программе, расположение струн, подставки и организация домашней практики.",
+        "decision": "Гучжэн для обучения в аренду | Инструмент и стойка для домашних занятий",
+        "next_action": "Инструмент и стойка для домашних занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/99u-traditional-performance-landings.json",
+        "source_quote": "Преподаватель найден, но покупать большой инструмент до первых занятий пока рано. Гу",
+        "decision": "Учебный гучжэн | Подставки и расположение струн для двух рук",
+        "next_action": "Подставки и расположение струн для двух рук"
+      }
+    }
+  }
+}

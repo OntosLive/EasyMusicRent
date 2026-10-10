@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-yfl212-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Флейта Yamaha YFL-212: закрытые клапаны, смещённая клавиша соль, ми-механика и проба в учебной практике.",
+        "decision": "Флейта Yamaha YFL-212 в аренду | Учебная модель с закрытыми клапанами",
+        "next_action": "Учебная модель с закрытыми клапанами"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Преподаватель назвал YFL-212, и теперь нужно понять, как обеспечить занятия между ур",
+        "decision": "Yamaha YFL-212 | Смещённая клавиша соль и удобство школьной механики",
+        "next_action": "Смещённая клавиша соль и удобство школьной механики"
+      }
+    },
+    "yamaha-ycl255-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Yamaha YCL-255: строй си-бемоль, система Бёма, корпус из ABS и регулируемая опора большого пальца.",
+        "decision": "Кларнет Yamaha YCL-255 в аренду | Модель B♭ системы Бёма для школы",
+        "next_action": "Модель B♭ системы Бёма для школы"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Вы ищете YCL-255 для обучения или временной замены и хотите сохранить понятную испол",
+        "decision": "Yamaha YCL-255 | ABS-корпус и регулируемая опора большого пальца",
+        "next_action": "ABS-корпус и регулируемая опора большого пальца"
+      }
+    },
+    "yamaha-yas280-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Yamaha YAS-280: альтовый саксофон в строе ми-бемоль, регулируемая опора и подготовка первого рабочего комплекта.",
+        "decision": "Альт-саксофон Yamaha YAS-280 в аренду | Учебный голос E♭",
+        "next_action": "Учебный голос E♭"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Начать хочется с мелодии, а не с большого списка покупок. YAS-280 является альтовым ",
+        "decision": "Yamaha YAS-280 | Регулируемая опора и первый комплект альт-саксофониста",
+        "next_action": "Регулируемая опора и первый комплект альт-саксофониста"
+      }
+    },
+    "yamaha-yts280-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Yamaha YTS-280: теноровый саксофон в строе си-бемоль, рабочая посадка и адаптация к новому голосу.",
+        "decision": "Тенор-саксофон Yamaha YTS-280 в аренду | Учебная модель B♭",
+        "next_action": "Учебная модель B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Ваша партия требует тенора, а своего инструмента пока нет или он временно недоступен",
+        "decision": "Yamaha YTS-280 | Посадка и механика большого саксофонного голоса",
+        "next_action": "Посадка и механика большого саксофонного голоса"
+      }
+    },
+    "yamaha-ytr2330-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Yamaha YTR-2330: труба си-бемоль, положение рук и проверка клапанов на учебном материале.",
+        "decision": "Труба Yamaha YTR-2330 в аренду | Учебная модель в строе B♭",
+        "next_action": "Учебная модель в строе B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Для первых занятий нужна труба, на которой можно спокойно осваивать начало звука и с",
+        "decision": "Yamaha YTR-2330 | Клапаны и устойчивое начало звука в первых пьесах",
+        "next_action": "Клапаны и устойчивое начало звука в первых пьесах"
+      }
+    },
+    "yamaha-ysl354-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Yamaha YSL-354: теноровый тромбон си-бемоль, кулиса и соответствие подготовленной программе.",
+        "decision": "Тромбон Yamaha YSL-354 в аренду | Теноровая модель B♭ для занятий",
+        "next_action": "Теноровая модель B♭ для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Вы ищете конкретный теноровый тромбон для занятий или репетиционного периода. YSL-35",
+        "decision": "Yamaha YSL-354 | Работа кулисы и привычные позиции на тромбоне",
+        "next_action": "Работа кулисы и привычные позиции на тромбоне"
+      }
+    },
+    "yamaha-yhr567-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Yamaha YHR-567: полная двойная валторна F/Bb, фиксированный раструб и подготовка переключений.",
+        "decision": "Валторна Yamaha YHR-567 в аренду | Полная двойная система F/B♭",
+        "next_action": "Полная двойная система F/B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Предстоит работать на полной двойной валторне, и хочется проверить систему в реально",
+        "decision": "Yamaha YHR-567 | Переключение двух строев и контроль оркестровой партии",
+        "next_action": "Переключение двух строев и контроль оркестровой партии"
+      }
+    },
+    "yamaha-yep201-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Yamaha YEP-201: эуфониум си-бемоль с тремя верхними пистонами, комплект и проверка исполнительской программы.",
+        "decision": "Эуфониум Yamaha YEP-201 в аренду | Ученическая модель с тремя клапанами",
+        "next_action": "Ученическая модель с тремя клапанами"
+      },
+      "n1": {
+        "source_path": "content/sections/99r-wind-model-landings.json",
+        "source_quote": "Для учебного или ансамблевого периода рассматривается YEP-201. Это эуфониум в строе ",
+        "decision": "Yamaha YEP-201 | Трёхпистонная система в ансамблевой программе",
+        "next_action": "Трёхпистонная система в ансамблевой программе"
+      }
+    }
+  }
+}

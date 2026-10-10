@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "saksofon-tenor-posle-alta",
+      "n0": "Тенор-саксофон после альта в аренду | Инструмент на пробный период",
+      "n1": "Переход от альта к тенору | Новый корпус и слуховая опора"
+    },
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "fleyta-dlya-saksofonista",
+      "n0": "Флейта для саксофониста в аренду | Второй духовой инструмент под программу",
+      "n1": "Флейта после саксофона | Иной способ звукоизвлечения и переключение на сцене"
+    },
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "saksofony-dlya-big-benda",
+      "n0": "Саксофоны для биг-бенда в аренду | Полная секция голосов под райдер",
+      "n1": "Саксофоновая секция биг-бенда | Распределение партий и совмещение инструментов"
+    },
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "instrumenty-dlya-fleytovogo-ansamblya",
+      "n0": "Инструменты для флейтового ансамбля в аренду | Пикколо, альтовые и басовые флейты",
+      "n1": "Флейтовый ансамбль | Распределение регистров внутри одного семейства"
+    },
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "instrumenty-dlya-klarnetovogo-ansamblya",
+      "n0": "Инструменты для кларнетового ансамбля в аренду | Сопрано, альт и басовые голоса",
+      "n1": "Кларнетовый ансамбль | Как собрать нижний и средний диапазон без случайных замен"
+    },
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "duhovye-dlya-myuzikla",
+      "n0": "Духовые для мюзикла в аренду | Комплекты под смену инструментов в оркестровой яме",
+      "n1": "Духовые в мюзикле | Переключение голосов во время живого спектакля"
+    },
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "instrumenty-dlya-mandolinnogo-ansamblya",
+      "n0": "Инструменты для мандолинного ансамбля в аренду | Мандолы, гитары и басовая опора",
+      "n1": "Мандолинный ансамбль | Верхняя щипковая линия и недостающие нижние голоса"
+    },
+    {
+      "source_file": "content/sections/99z-wind-ensemble-final-landings.json",
+      "slug": "duhovye-dlya-vyezdnogo-master-klassa",
+      "n0": "Духовые для выездного мастер-класса в аренду | Комплект на всех участников",
+      "n1": "Выездной мастер-класс | Доступ к инструментам между занятиями"
+    }
+  ]
+}

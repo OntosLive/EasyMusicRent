@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "domra-alt",
+      "n0": "Альтовая домра в аренду | Средний голос народного оркестра",
+      "n1": "Домра-альт | Мензура и тремоло в оркестровой середине"
+    },
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "domra-bas",
+      "n0": "Басовая домра в аренду | Низкая мелодическая партия для ансамбля",
+      "n1": "Басовая домра | Движущийся бас и работа медиатора"
+    },
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "balalayka-sekunda",
+      "n0": "Балалайка-секунда в аренду | Сопровождающий голос народного состава",
+      "n1": "Балалайка-секунда | Ритмическое сопровождение рядом с мелодией"
+    },
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "balalayka-alt",
+      "n0": "Балалайка-альт в аренду | Инструмент среднего регистра для оркестра",
+      "n1": "Балалайка-альт | Гармоническая глубина щипкового ансамбля"
+    },
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "balalayka-bas",
+      "n0": "Басовая балалайка в аренду | Низкий голос по народной партитуре",
+      "n1": "Басовая балалайка | Управляемое затухание и ритмическая опора"
+    },
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "balalayka-kontrabas",
+      "n0": "Балалайка-контрабас в аренду | Большой низкий голос народного оркестра",
+      "n1": "Балалайка-контрабас | Рабочее положение и перевозка крупного инструмента"
+    },
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "tsimbaly",
+      "n0": "Цимбалы в аренду | Ударный струнный инструмент для концерта и записи",
+      "n1": "Цимбалы | Раскладка струн и работа палочек с педальным глушением"
+    },
+    {
+      "source_file": "content/sections/99x-orchestral-plucked-voices.json",
+      "slug": "mandola",
+      "n0": "Мандола в аренду | Более низкий щипковый голос для ансамбля",
+      "n1": "Мандола | Мензура и парные струны в среднем регистре"
+    }
+  ]
+}

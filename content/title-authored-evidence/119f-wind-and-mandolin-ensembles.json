@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "saksofon-tenor-posle-alta": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Переход с альта на тенор: удобство корпуса, новая слуховая опора, отдельный комплект и пробный период.",
+        "decision": "Тенор-саксофон после альта в аренду | Инструмент на пробный период",
+        "next_action": "Инструмент на пробный период"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Вы уже играете на альтовом саксофоне, а в новой группе предлагают теноровую партию. ",
+        "decision": "Переход от альта к тенору | Новый корпус и слуховая опора",
+        "next_action": "Новый корпус и слуховая опора"
+      }
+    },
+    "fleyta-dlya-saksofonista": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Флейта как второй инструмент саксофониста: отдельное звукоизвлечение, смена инструментов и подготовительный период.",
+        "decision": "Флейта для саксофониста в аренду | Второй духовой инструмент под программу",
+        "next_action": "Второй духовой инструмент под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "В новой аранжировке саксофонисту нужно взять флейту на один эпизод. Задача касается ",
+        "decision": "Флейта после саксофона | Иной способ звукоизвлечения и переключение на сцене",
+        "next_action": "Иной способ звукоизвлечения и переключение на сцене"
+      }
+    },
+    "saksofony-dlya-big-benda": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Комплект саксофонов для биг-бенда: недостающие голоса, совмещение флейты и кларнета, репетиции и рабочие места.",
+        "decision": "Саксофоны для биг-бенда в аренду | Полная секция голосов под райдер",
+        "next_action": "Полная секция голосов под райдер"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "У биг-бенда определены исполнители и программа, но не хватает части саксофонов или д",
+        "decision": "Саксофоновая секция биг-бенда | Распределение партий и совмещение инструментов",
+        "next_action": "Распределение партий и совмещение инструментов"
+      }
+    },
+    "instrumenty-dlya-fleytovogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Флейтовый ансамбль: подобрать недостающие пикколо, альтовые и басовые флейты под партитуру и подготовку участников.",
+        "decision": "Инструменты для флейтового ансамбля в аренду | Пикколо, альтовые и басовые флейты",
+        "next_action": "Пикколо, альтовые и басовые флейты"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Есть несколько флейтистов и выбранная пьеса, однако низкие партии пока приходится пе",
+        "decision": "Флейтовый ансамбль | Распределение регистров внутри одного семейства",
+        "next_action": "Распределение регистров внутри одного семейства"
+      }
+    },
+    "instrumenty-dlya-klarnetovogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Кларнетовый ансамбль: точные средние и низкие голоса, допустимые альтернативы партитуры и временная комплектация.",
+        "decision": "Инструменты для кларнетового ансамбля в аренду | Сопрано, альт и басовые голоса",
+        "next_action": "Сопрано, альт и басовые голоса"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Для ансамбля выбрана пьеса, в которой кроме обычных кларнетов нужны более высокий ил",
+        "decision": "Кларнетовый ансамбль | Как собрать нижний и средний диапазон без случайных замен",
+        "next_action": "Как собрать нижний и средний диапазон без случайных замен"
+      }
+    },
+    "duhovye-dlya-myuzikla": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Духовые для мюзикла: полный перечень совмещений, пространство оркестровой ямы и комплект на цикл постановки.",
+        "decision": "Духовые для мюзикла в аренду | Комплекты под смену инструментов в оркестровой яме",
+        "next_action": "Комплекты под смену инструментов в оркестровой яме"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "В одной театральной партии могут последовательно появляться несколько духовых инстру",
+        "decision": "Духовые в мюзикле | Переключение голосов во время живого спектакля",
+        "next_action": "Переключение голосов во время живого спектакля"
+      }
+    },
+    "instrumenty-dlya-mandolinnogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Мандолинный ансамбль: дополнить существующие партии мандолой, гитарой и басовой опорой на время проекта.",
+        "decision": "Инструменты для мандолинного ансамбля в аренду | Мандолы, гитары и басовая опора",
+        "next_action": "Мандолы, гитары и басовая опора"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Верхние мандолинные партии уже готовы, а середины и баса для нового переложения не х",
+        "decision": "Мандолинный ансамбль | Верхняя щипковая линия и недостающие нижние голоса",
+        "next_action": "Верхняя щипковая линия и недостающие нижние голоса"
+      }
+    },
+    "duhovye-dlya-vyezdnogo-master-klassa": {
+      "n0": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "Духовые для мастер-класса: число одновременно играющих участников, личные принадлежности и доступ между занятиями.",
+        "decision": "Духовые для выездного мастер-класса в аренду | Комплект на всех участников",
+        "next_action": "Комплект на всех участников"
+      },
+      "n1": {
+        "source_path": "content/sections/99z-wind-ensemble-final-landings.json",
+        "source_quote": "На мастер-класс приезжают музыканты, а нужных инструментов на месте нет или недостат",
+        "decision": "Выездной мастер-класс | Доступ к инструментам между занятиями",
+        "next_action": "Доступ к инструментам между занятиями"
+      }
+    }
+  }
+}

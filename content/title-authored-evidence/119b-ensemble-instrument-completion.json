@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "instrumenty-dlya-strunnogo-kvarteta": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Подбор инструментов для струнного квартета: две скрипки, альт, виолончель, индивидуальное удобство и совместная репетиция.",
+        "decision": "Инструменты для струнного квартета в аренду | Две скрипки, альт и виолончель",
+        "next_action": "Две скрипки, альт и виолончель"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Квартет готовит концерт или запись, а часть инструментов нужно получить на время. Дл",
+        "decision": "Струнный квартет | Четыре подходящих инструмента внутри одной музыкальной ткани",
+        "next_action": "Четыре подходящих инструмента внутри одной музыкальной ткани"
+      }
+    },
+    "instrumenty-dlya-duhovogo-kvinteta": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Инструменты для духового квинтета: флейта, гобой, кларнет, фагот и валторна, программа и согласование систем.",
+        "decision": "Инструменты для духового квинтета в аренду | Флейта, гобой, кларнет, фагот и валторна",
+        "next_action": "Флейта, гобой, кларнет, фагот и валторна"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Для квинтетной программы нужны недостающие инструменты или временные замены на выезд",
+        "decision": "Духовой квинтет | Пять исполнительских систем в одном дыхании",
+        "next_action": "Пять исполнительских систем в одном дыхании"
+      }
+    },
+    "mednye-duhovye-dlya-kvinteta": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Подготовка инструментов для брасс-квинтета: трубы, валторна, тромбон, туба и особые требования аранжировки.",
+        "decision": "Медные духовые для квинтета в аренду | Трубы, валторна, тромбон и туба",
+        "next_action": "Трубы, валторна, тромбон и туба"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Предстоит камерное выступление медного состава, и нужно подготовить инструменты на м",
+        "decision": "Брасс-квинтет | Переходы между сольными и сопровождающими голосами",
+        "next_action": "Переходы между сольными и сопровождающими голосами"
+      }
+    },
+    "instrumenty-dlya-barochnogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Комплект для барочного ансамбля: репертуар, высотный строй, струнные, духовые и басовая группа.",
+        "decision": "Барочные инструменты для ансамбля в аренду | Согласованный строй и группа continuo",
+        "next_action": "Согласованный строй и группа continuo"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Барочная программа требует инструментов определённой исполнительской конфигурации, а",
+        "decision": "Барочный ансамбль | Струнные, духовые и басовая гармония в одном строе",
+        "next_action": "Струнные, духовые и басовая гармония в одном строе"
+      }
+    },
+    "udarnye-dlya-simfonicheskoy-programmy": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Ударные по симфонической программе: перечень инструментов, распределение между исполнителями и смены на сцене.",
+        "decision": "Оркестровые ударные для симфонической программы в аренду | Комплект по партитуре",
+        "next_action": "Комплект по партитуре"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "В концерте несколько произведений, и каждому нужен свой набор ударных. Простое объед",
+        "decision": "Симфоническая перкуссия | Расстановка инструментов и смены исполнителей",
+        "next_action": "Расстановка инструментов и смены исполнителей"
+      }
+    },
+    "instrumenty-dlya-russkogo-narodnogo-orkestra": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Подбор инструментов для русского народного оркестра: точные разновидности домр, балалаек и других голосов по партитуре.",
+        "decision": "Инструменты для русского народного оркестра в аренду | Все разновидности домр и балалаек",
+        "next_action": "Все разновидности домр и балалаек"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Оркестру не хватает нескольких инструментов на репетиционный период или выезд. Здесь",
+        "decision": "Русский народный оркестр | Как восполнить недостающие голоса партитуры",
+        "next_action": "Как восполнить недостающие голоса партитуры"
+      }
+    },
+    "instrumenty-dlya-uchebnogo-strunnogo-orkestra": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Струнные для учебного оркестра: размеры, назначение по участникам, домашние занятия и общий репетиционный период.",
+        "decision": "Струнные для учебного оркестра в аренду | Размеры под каждого ученика",
+        "next_action": "Размеры под каждого ученика"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Появляется учебный оркестр или расширяется уже действующий состав, а собственных инс",
+        "decision": "Учебный струнный оркестр | Индивидуальная посадка и общая репетиция",
+        "next_action": "Индивидуальная посадка и общая репетиция"
+      }
+    },
+    "instrumenty-dlya-fortepiannogo-trio": {
+      "n0": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Подготовка фортепианного трио: клавишный инструмент, струнные партии, репертуар и баланс в помещении.",
+        "decision": "Инструменты для фортепианного трио в аренду | Рояль, скрипка и виолончель",
+        "next_action": "Рояль, скрипка и виолончель"
+      },
+      "n1": {
+        "source_path": "content/sections/99v-ensemble-preparation-landings.json",
+        "source_quote": "Трио готовит выступление на новой площадке, и нужно согласовать рояль или недостающи",
+        "decision": "Фортепианное трио | Камерный баланс клавишных и струнных голосов",
+        "next_action": "Камерный баланс клавишных и струнных голосов"
+      }
+    }
+  }
+}

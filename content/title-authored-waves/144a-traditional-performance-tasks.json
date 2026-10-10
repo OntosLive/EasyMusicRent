@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "mandolina-dlya-zapisi-tremolo",
+      "n0": "Мандолина для записи тремоло в аренду | Подготовленные пары струн для студии",
+      "n1": "Мандолинное тремоло в записи | Продолжительная мелодия через движение медиатора"
+    },
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "bandzho-dlya-odnoy-kompozitsii",
+      "n0": "Банджо для записи одной композиции в аренду | Инструмент нужного строя",
+      "n1": "Банджо для одной песни | Струны и способ игры определяют запись"
+    },
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "ud-dlya-pervogo-osvoeniya",
+      "n0": "Уд для первых занятий в аренду | Безладовый инструмент под преподавателя",
+      "n1": "Первое освоение уда | Интонация без ладов и особая работа медиатора"
+    },
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "bansuri-dlya-ansamblya",
+      "n0": "Бансури для ансамбля в аренду | Индийская флейта нужного основного тона",
+      "n1": "Бансури в ансамбле | Согласование звучащих нот и дыхания"
+    },
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "ney-dlya-pervogo-osvoeniya",
+      "n0": "Флейта ней для первых занятий в аренду | Инструмент под выбранную традицию",
+      "n1": "Первый звук на нее | Основной тон и исполнительский вариант"
+    },
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "koto-dlya-zapisi",
+      "n0": "Кото для студийной записи в аренду | Подставки, плектры и строй под пьесу",
+      "n1": "Кото в студии | Щипковая партия требует настройки подставок"
+    },
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "erhu-dlya-studiynoy-partii",
+      "n0": "Эрху для записи мелодической партии в аренду | Живой китайский смычковый тембр",
+      "n1": "Эрху в записи | Интонация и выразительное движение смычка"
+    },
+    {
+      "source_file": "content/sections/99u-traditional-performance-landings.json",
+      "slug": "guzhen-dlya-obucheniya",
+      "n0": "Гучжэн для обучения в аренду | Инструмент и стойка для домашних занятий",
+      "n1": "Учебный гучжэн | Подставки и расположение струн для двух рук"
+    }
+  ]
+}

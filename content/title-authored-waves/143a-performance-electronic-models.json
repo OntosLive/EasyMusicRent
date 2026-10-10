@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "korg-minilogue-xd-v-arendu",
+      "n0": "Korg minilogue xd в аренду | Четыре голоса и секвенсор для сцены и записи",
+      "n1": "Korg minilogue xd | Полифония, цифровой генератор и движение тембра"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "korg-monologue-v-arendu",
+      "n0": "Korg monologue в аренду | Монофонический синтезатор для баса и соло",
+      "n1": "Korg monologue | Один голос с выразительным секвенсором"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "arturia-microfreak-v-arendu",
+      "n0": "Arturia MicroFreak в аренду | Синтезатор с ёмкостной клавиатурой",
+      "n1": "Arturia MicroFreak | Парафония и новый способ касаться звука"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "roland-spd-sx-pro-v-arendu",
+      "n0": "Roland SPD-SX PRO в аренду | Семплерный пэд для ударного райдера",
+      "n1": "Roland SPD-SX PRO | Загрузка своих звуков и раскладка сценических пэдов"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "roland-sp-404mkii-v-arendu",
+      "n0": "Roland SP-404MKII в аренду | Семплер для записи и живой обработки",
+      "n1": "Roland SP-404MKII | Нарезка звуков и организация собственного материала"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "boss-rc-505mkii-v-arendu",
+      "n0": "BOSS RC-505mkII в аренду | Пять дорожек для вокального лупинга",
+      "n1": "BOSS RC-505mkII | Слои петель под прямым управлением руками"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "boss-rc-600-v-arendu",
+      "n0": "BOSS RC-600 в аренду | Шесть луп-дорожек и ножное управление",
+      "n1": "BOSS RC-600 | Несколько музыкальных голосов без остановки игры"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "roland-aerophone-ae20-v-arendu",
+      "n0": "Roland Aerophone AE-20 в аренду | Электронный духовой с управлением дыханием",
+      "n1": "Roland Aerophone AE-20 | Знакомая аппликатура и новые звуковые тембры"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "moog-theremini-v-arendu",
+      "n0": "Moog Theremini в аренду | Терменвокс с коррекцией высоты",
+      "n1": "Moog Theremini | Калибровка жеста и помощь в удержании интонации"
+    },
+    {
+      "source_file": "content/sections/99q-performance-models.json",
+      "slug": "expressive-e-osmose-v-arendu",
+      "n0": "Expressive E Osmose в аренду | Выразительная клавиатура для отдельных нот",
+      "n1": "Expressive E Osmose | Продолжение музыкального жеста после нажатия клавиши"
+    }
+  ]
+}

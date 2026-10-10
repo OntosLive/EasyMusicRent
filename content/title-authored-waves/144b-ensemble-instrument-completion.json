@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "instrumenty-dlya-strunnogo-kvarteta",
+      "n0": "Инструменты для струнного квартета в аренду | Две скрипки, альт и виолончель",
+      "n1": "Струнный квартет | Четыре подходящих инструмента внутри одной музыкальной ткани"
+    },
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "instrumenty-dlya-duhovogo-kvinteta",
+      "n0": "Инструменты для духового квинтета в аренду | Флейта, гобой, кларнет, фагот и валторна",
+      "n1": "Духовой квинтет | Пять исполнительских систем в одном дыхании"
+    },
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "mednye-duhovye-dlya-kvinteta",
+      "n0": "Медные духовые для квинтета в аренду | Трубы, валторна, тромбон и туба",
+      "n1": "Брасс-квинтет | Переходы между сольными и сопровождающими голосами"
+    },
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "instrumenty-dlya-barochnogo-ansamblya",
+      "n0": "Барочные инструменты для ансамбля в аренду | Согласованный строй и группа continuo",
+      "n1": "Барочный ансамбль | Струнные, духовые и басовая гармония в одном строе"
+    },
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "udarnye-dlya-simfonicheskoy-programmy",
+      "n0": "Оркестровые ударные для симфонической программы в аренду | Комплект по партитуре",
+      "n1": "Симфоническая перкуссия | Расстановка инструментов и смены исполнителей"
+    },
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "instrumenty-dlya-russkogo-narodnogo-orkestra",
+      "n0": "Инструменты для русского народного оркестра в аренду | Все разновидности домр и балалаек",
+      "n1": "Русский народный оркестр | Как восполнить недостающие голоса партитуры"
+    },
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "instrumenty-dlya-uchebnogo-strunnogo-orkestra",
+      "n0": "Струнные для учебного оркестра в аренду | Размеры под каждого ученика",
+      "n1": "Учебный струнный оркестр | Индивидуальная посадка и общая репетиция"
+    },
+    {
+      "source_file": "content/sections/99v-ensemble-preparation-landings.json",
+      "slug": "instrumenty-dlya-fortepiannogo-trio",
+      "n0": "Инструменты для фортепианного трио в аренду | Рояль, скрипка и виолончель",
+      "n1": "Фортепианное трио | Камерный баланс клавишных и струнных голосов"
+    }
+  ]
+}

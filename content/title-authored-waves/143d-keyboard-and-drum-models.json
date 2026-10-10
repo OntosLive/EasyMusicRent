@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "nord-stage-4-v-arendu",
+      "n0": "Nord Stage 4 в аренду | Сценическая клавиатура для концертного периода",
+      "n1": "Nord Stage 4 | Подготовленные тембры и переключение между партиями"
+    },
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "nord-electro-6d-v-arendu",
+      "n0": "Nord Electro 6D в аренду | Органные и фортепианные партии на одной клавиатуре",
+      "n1": "Nord Electro 6D | Секции звука и выбор 61 или 73 клавиш"
+    },
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "roland-rd88ex-v-arendu",
+      "n0": "Roland RD-88 EX в аренду | 88 клавиш PHA-4 для сцены",
+      "n1": "Roland RD-88 EX | Три зоны и встроенные динамики выездного пианино"
+    },
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "korg-sv2-v-arendu",
+      "n0": "Korg SV-2 в аренду | Сценическое пианино с механикой RH3",
+      "n1": "Korg SV-2 | Версии на 73 и 88 клавиш и подготовленные тембры"
+    },
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "roland-td17kvx2-v-arendu",
+      "n0": "Электронные барабаны Roland TD-17KVX2 в аренду | Пэды и хай-хэт VH-10",
+      "n1": "Roland TD-17KVX2 | Привычные ударные движения на цифровом комплекте"
+    },
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "roland-td27kv2-v-arendu",
+      "n0": "Электронные барабаны Roland TD-27KV2 в аренду | Цифровой малый и райд",
+      "n1": "Roland TD-27KV2 | Настройка чувствительности и нюансов барабанной атаки"
+    },
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "yamaha-dtx6k3x-v-arendu",
+      "n0": "Электронные барабаны Yamaha DTX6K3-X в аренду | Модуль DTX-PRO и TCS-пэды",
+      "n1": "Yamaha DTX6K3-X | Ударная поверхность TCS и ощущение отскока"
+    },
+    {
+      "source_file": "content/sections/99t-stage-and-drum-model-landings.json",
+      "slug": "alesis-nitro-max-v-arendu",
+      "n0": "Электронные барабаны Alesis Nitro Max в аренду | Сетчатые пэды для дома",
+      "n1": "Alesis Nitro Max | Рама, педали и организация домашней ударной практики"
+    }
+  ]
+}
