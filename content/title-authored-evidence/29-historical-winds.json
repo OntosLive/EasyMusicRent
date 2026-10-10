@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "traverso-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Первый опыт на traverso: деревянный корпус, одна клавиша, строй и барочная артикуляция.",
+        "decision": "Траверсо для первого опыта в аренду | Барочная флейта с историческим строем",
+        "next_action": "Барочная флейта с историческим строем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Современный флейтист узнаёт поперечную геометрию, но traverso возвращает меньше механ",
+        "decision": "Первый опыт на траверсо | Деревянная флейта, одна клавиша и другая интонация",
+        "next_action": "Деревянная флейта, одна клавиша и другая интонация"
+      }
+    },
+    "traverso-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Traverso для дома: строй, аппликатура, дыхание и регулярная барочная практика.",
+        "decision": "Траверсо для домашних занятий в аренду | Инструмент на весь период практики",
+        "next_action": "Инструмент на весь период практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Если traverso входит в текущую программу, домашний доступ нужен не ради тембра, а рад",
+        "decision": "Траверсо дома | Как исторический строй и аппликатура входят в ежедневную игру",
+        "next_action": "Как исторический строй и аппликатура входят в ежедневную игру"
+      }
+    },
+    "traverso-posle-sovremennoy-fleyty": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Переход с современной флейты на traverso: отверстия, одна клавиша, строй и барочная артикуляция.",
+        "decision": "Траверсо после современной флейты в аренду | Переход к барочной аппликатуре",
+        "next_action": "Переход к барочной аппликатуре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Современная флейта даёт стабильную механику, а traverso заставляет снова слышать непо",
+        "decision": "От современной флейты к траверсо | Открытые отверстия, одна клавиша и свобода интонации",
+        "next_action": "Открытые отверстия, одна клавиша и свобода интонации"
+      }
+    },
+    "traverso-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Аренда traverso перед покупкой: строй, исторический образец, интонация и ансамблевая практика.",
+        "decision": "Траверсо перед покупкой в аренду | Барочная флейта для пробы с ансамблем",
+        "next_action": "Барочная флейта для пробы с ансамблем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Traverso выбирают не только по дереву и внешнему виду. Важны исторический образец, ст",
+        "decision": "Выбор траверсо до покупки | Реконструкция, строй и звучание в совместной игре",
+        "next_action": "Реконструкция, строй и звучание в совместной игре"
+      }
+    },
+    "tsink-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Первый опыт на cornetto: мундштук, отверстия, дыхание и ренессансная практика.",
+        "decision": "Цинк (cornetto) для первого опыта в аренду | Живой голос ренессансного духового",
+        "next_action": "Живой голос ренессансного духового"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Cornetto соединяет мундштучное звукоизвлечение с пальцевыми отверстиями, поэтому он н",
+        "decision": "Первый цинк (cornetto) | Мундштук и пальцевые отверстия соединяются в один инструмент",
+        "next_action": "Мундштук и пальцевые отверстия соединяются в один инструмент"
+      }
+    },
+    "tsink-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Cornetto для дома: мундштук, аппликатура, интонация и регулярная практика.",
+        "decision": "Цинк (cornetto) для занятий дома в аренду | Инструмент для регулярной практики",
+        "next_action": "Инструмент для регулярной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Комбинация мундштука и пальцевых отверстий плохо закрепляется только редкими ансамбле",
+        "decision": "Домашний cornetto | Координация дыхания, мундштука и аппликатуры",
+        "next_action": "Координация дыхания, мундштука и аппликатуры"
+      }
+    },
+    "tsink-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Cornetto перед покупкой: форма корпуса, мундштук, строй и ансамблевая практика.",
+        "decision": "Цинк (cornetto) перед покупкой в аренду | Проба исторической реконструкции",
+        "next_action": "Проба исторической реконструкции"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Cornetto особенно зависит от конкретной реконструкции и мундштука, поэтому короткая п",
+        "decision": "Cornetto перед покупкой | Мундштук, интонация и ансамблевый строй",
+        "next_action": "Мундштук, интонация и ансамблевый строй"
+      }
+    },
+    "sakbut-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Первый опыт на sackbut: кулиса, мундштук, мензура и ренессансно-барочная артикуляция.",
+        "decision": "Сакбут для первого опыта в аренду | Исторический тромбон с кулисой",
+        "next_action": "Исторический тромбон с кулисой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Современный тромбонист узнаёт принцип кулисы, но sackbut отличается мензурой, мундшту",
+        "decision": "Первый сакбут | Чем ренессансный тромбон отличается от современного",
+        "next_action": "Чем ренессансный тромбон отличается от современного"
+      }
+    },
+    "sakbut-posle-sovremennogo-trombona": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Переход с современного тромбона на sackbut: мензура, мундштук, воздух и историческая артикуляция.",
+        "decision": "Сакбут после современного тромбона в аренду | Кулиса в исторической мензуре",
+        "next_action": "Кулиса в исторической мензуре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Современная тромбоновая техника помогает ориентироваться в позициях, но может давать ",
+        "decision": "Переход от тромбона к сакбуту | Масштаб звука, мундштук и артикуляция",
+        "next_action": "Масштаб звука, мундштук и артикуляция"
+      }
+    },
+    "sakbut-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Sackbut перед покупкой: исторический образец, мензура, мундштук и ансамблевая функция.",
+        "decision": "Сакбут перед покупкой в аренду | Исторический тромбон для ансамблевой пробы",
+        "next_action": "Исторический тромбон для ансамблевой пробы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Покупать sackbut только по эпохе недостаточно: реконструкции конкретных исторических ",
+        "decision": "Сакбут до покупки | Как мензура и мундштук меняют работу в ансамбле",
+        "next_action": "Как мензура и мундштук меняют работу в ансамбле"
+      }
+    },
+    "naturalnaya-truba-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Первый опыт на натуральной трубе: обертоны, мундштук, строй и историческая партия.",
+        "decision": "Натуральная труба для первого опыта в аренду | Барочная медь без клапанов",
+        "next_action": "Барочная медь без клапанов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Без клапанов натуральная труба заставляет строить мелодию внутри обертонового ряда и ",
+        "decision": "Первая натуральная труба | Обертоны вместо клапанного механизма",
+        "next_action": "Обертоны вместо клапанного механизма"
+      }
+    },
+    "naturalnaya-truba-posle-sovremennoy-truby": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Переход с современной трубы на натуральную: обертоновый ряд, строй, кроны и baroque articulation.",
+        "decision": "Натуральная труба после современной в аренду | Исторический звук без клапанов",
+        "next_action": "Исторический звук без клапанов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Современный трубач приносит развитый амбушюр, но лишается клапанного пути к нотам. Эт",
+        "decision": "От современной трубы к натуральной | Обертоновый ряд и работа амбушюра",
+        "next_action": "Обертоновый ряд и работа амбушюра"
+      }
+    },
+    "naturalnaya-truba-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Натуральная труба перед покупкой: строй, crooks, мундштук и историческая программа.",
+        "decision": "Натуральная труба перед покупкой в аренду | Строи и кроны под исторический репертуар",
+        "next_action": "Строи и кроны под исторический репертуар"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Натуральная труба особенно привязана к строю и историческому репертуару, поэтому унив",
+        "decision": "Натуральная труба до покупки | Почему строй и кроны связаны с партитурой",
+        "next_action": "Почему строй и кроны связаны с партитурой"
+      }
+    },
+    "shalmei-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Первый опыт на шалмее: двойная трость, отверстия, дыхание и ранний ансамбль.",
+        "decision": "Шалмей для первого опыта в аренду | Ранний духовой инструмент с двойной тростью",
+        "next_action": "Ранний духовой инструмент с двойной тростью"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Шалмей соединяет мощную двойную трость с открытыми пальцевыми отверстиями и поэтому о",
+        "decision": "Первый шалмей | Двойная трость, открытые отверстия и сильный ансамблевый голос",
+        "next_action": "Двойная трость, открытые отверстия и сильный ансамблевый голос"
+      }
+    },
+    "shalmei-dlya-rannego-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Шалмей для ансамбля: регистр, строй, двойная трость и баланс с ранними инструментами.",
+        "decision": "Шалмей для раннего ансамбля в аренду | Исторический голос в нужном регистре",
+        "next_action": "Исторический голос в нужном регистре"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "В ансамбле шалмей может легко доминировать, поэтому важны правильный голос семейства,",
+        "decision": "Шалмей в раннем ансамбле | Регистр и строй формируют общий звуковой баланс",
+        "next_action": "Регистр и строй формируют общий звуковой баланс"
+      }
+    },
+    "shalmei-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Шалмей перед покупкой: историческая модель, трость, строй и ансамблевая функция.",
+        "decision": "Шалмей перед покупкой в аренду | Проба исторической модели с тростью",
+        "next_action": "Проба исторической модели с тростью"
+      },
+      "n1": {
+        "source_path": "content/sections/zz110-historical-winds-human-scenes.json",
+        "source_quote": "Шалмей слишком зависит от размера, трости и исторической модели, чтобы выбирать его т",
+        "decision": "Шалмей до покупки | Трость и размер определяют исполнительский характер",
+        "next_action": "Трость и размер определяют исполнительский характер"
+      }
+    }
+  }
+}

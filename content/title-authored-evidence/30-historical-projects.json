@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "srednevekovye-instrumenty-dlya-teatralnoy-postanovki": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Средневековые инструменты для спектакля: визуальная достоверность, исполнительский жест и подбор состава.",
+        "decision": "Средневековые инструменты для спектакля в аренду | Звук и сценический образ одной эпохи",
+        "next_action": "Звук и сценический образ одной эпохи"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "В спектакле инструмент одновременно звучит и находится в кадре зрителя. Поэтому нужен",
+        "decision": "Средневековые инструменты в театре | Исторический жест неотделим от живого звука",
+        "next_action": "Исторический жест неотделим от живого звука"
+      }
+    },
+    "srednevekovye-instrumenty-dlya-studiynoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Средневековые инструменты для записи: реконструкция, строй, атака и живой исполнительский способ.",
+        "decision": "Средневековые инструменты для студийной записи в аренду | Живые тембры ранней музыки",
+        "next_action": "Живые тембры ранней музыки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Если аранжировке нужен ранний тембр, важно выбрать реальный тип инструмента, а не про",
+        "decision": "Средневековый инструмент в записи | Смычок, щипок и бурдон звучат по-разному",
+        "next_action": "Смычок, щипок и бурдон звучат по-разному"
+      }
+    },
+    "srednevekovye-instrumenty-dlya-rekonstruktsii": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Средневековые инструменты для реконструкции: иконография, музейный образец, строй и исполнительский жест.",
+        "decision": "Средневековые инструменты для реконструкции в аренду | Состав под эпоху и программу",
+        "next_action": "Состав под эпоху и программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Историческая реконструкция начинается с вопроса: какой именно источник подтверждает ф",
+        "decision": "Средневековая реконструкция | От музейного источника к играющему инструменту",
+        "next_action": "От музейного источника к играющему инструменту"
+      }
+    },
+    "srednevekovye-instrumenty-dlya-obrazovatelnogo-proekta": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Средневековые инструменты для лекции, школы или музея: демонстрация механики, тембра и исторического контекста.",
+        "decision": "Средневековые инструменты для образовательного проекта в аренду | Живая демонстрация звука",
+        "next_action": "Живая демонстрация звука"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Для образовательной программы особенно ценен инструмент, на котором можно показать, о",
+        "decision": "Средневековые инструменты на уроке | Как услышать устройство раннего звука",
+        "next_action": "Как услышать устройство раннего звука"
+      }
+    },
+    "renessansnye-instrumenty-dlya-konsorta": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Ренессансные инструменты для consort: голоса семейства, строй, баланс и комплектование.",
+        "decision": "Ренессансные инструменты для консорта в аренду | Согласованное семейство голосов",
+        "next_action": "Согласованное семейство голосов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Ренессансный consort строится вокруг нескольких родственных голосов разного регистра.",
+        "decision": "Ренессансный консорт | Родственные инструменты складываются в полифонию",
+        "next_action": "Родственные инструменты складываются в полифонию"
+      }
+    },
+    "renessansnye-instrumenty-dlya-teatralnoy-postanovki": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Ренессансные инструменты для спектакля: cornetto, виолы, реконструкция и сценический жест.",
+        "decision": "Ренессансные инструменты для спектакля в аренду | Звук, эпоха и сценический образ",
+        "next_action": "Звук, эпоха и сценический образ"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "В постановке важны и звучание, и то, как музыкант физически взаимодействует с инструм",
+        "decision": "Ренессансный инструмент на сцене | Историческая форма и исполнительский жест",
+        "next_action": "Историческая форма и исполнительский жест"
+      }
+    },
+    "renessansnye-instrumenty-dlya-studiynoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Ренессансные инструменты для студии: consort, cornetto, виолы, строй и полифонический баланс.",
+        "decision": "Ренессансные инструменты для студийной записи в аренду | Многоголосный состав",
+        "next_action": "Многоголосный состав"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "В многоголосной ранней музыке задача начинается с распределения живых регистров, а не",
+        "decision": "Ренессансная музыка в студии | Голоса и регистры до расстановки микрофонов",
+        "next_action": "Голоса и регистры до расстановки микрофонов"
+      }
+    },
+    "renessansnye-instrumenty-dlya-obrazovatelnogo-proekta": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Ренессансные инструменты для лекции и школы: семейство виол, cornetto и многоголосная практика.",
+        "decision": "Ренессансные инструменты для образовательной программы в аренду | Живой консорт",
+        "next_action": "Живой консорт"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Ренессанс особенно удобно объяснять через идею семейств: похожая конструкция меняет р",
+        "decision": "Ренессанс через инструменты | От одного голоса к целому семейству",
+        "next_action": "От одного голоса к целому семейству"
+      }
+    },
+    "barochnye-instrumenty-dlya-basso-continuo": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Барочные инструменты для continuo: теорба, клавесин, барочная виолончель и согласование строя.",
+        "decision": "Барочные инструменты для basso continuo в аренду | Теорба, клавесин и басовый голос",
+        "next_action": "Теорба, клавесин и басовый голос"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Continuo — не один инструмент, а функция, которую могут разделять басовый и гармониче",
+        "decision": "Basso continuo в барочном ансамбле | Бас и гармония образуют одну опору",
+        "next_action": "Бас и гармония образуют одну опору"
+      }
+    },
+    "barochnye-instrumenty-dlya-opery": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Барочные инструменты для оперы: струнные, continuo, traverso, натуральная труба и исторический строй.",
+        "decision": "Барочные инструменты для оперы в аренду | Струнные, духовые и группа continuo",
+        "next_action": "Струнные, духовые и группа continuo"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Для барочной оперы нужен не набор одиночных редкостей, а согласованная оркестровая си",
+        "decision": "Барочный оперный оркестр | Строй, артикуляция и состав следуют партитуре",
+        "next_action": "Строй, артикуляция и состав следуют партитуре"
+      }
+    },
+    "barochnye-instrumenty-dlya-kamernoy-programmy": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Барочные инструменты для камерного ансамбля: traverso, strings, continuo и согласованный pitch.",
+        "decision": "Барочные инструменты для камерного концерта в аренду | Комплект с единым строем",
+        "next_action": "Комплект с единым строем"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "В камерном составе каждый исторический инструмент слышен напрямую, поэтому несовпаден",
+        "decision": "Камерный барочный ансамбль | Исторический строй слышен в каждом голосе",
+        "next_action": "Исторический строй слышен в каждом голосе"
+      }
+    },
+    "barochnye-instrumenty-dlya-studiynoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Барочные инструменты для студии: живые струны, continuo, traverso и натуральная медь.",
+        "decision": "Барочные инструменты для студийной записи в аренду | Живой исторический тембр",
+        "next_action": "Живой исторический тембр"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Если задача записи именно в историческом языке, важно поймать реальный способ звукоиз",
+        "decision": "Барочная запись без подмены тембра | Струны, воздух и continuo в реальном звуке",
+        "next_action": "Струны, воздух и continuo в реальном звуке"
+      }
+    },
+    "istoricheskie-strunnye-dlya-pervogo-proekta": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Исторические струнные для первого проекта: эпоха, струны, смычок, строй и ансамблевая функция.",
+        "decision": "Исторические струнные для первого проекта в аренду | От барочной скрипки до виолы да гамба",
+        "next_action": "От барочной скрипки до виолы да гамба"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Когда музыкант впервые входит в historical performance, запрос часто ещё не сформулир",
+        "decision": "Первый проект с историческими струнными | Что меняют струны, строй и смычок",
+        "next_action": "Что меняют струны, строй и смычок"
+      }
+    },
+    "istoricheskie-duhovye-dlya-pervogo-proekta": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Исторические духовые для первого проекта: traverso, cornetto, sackbut, natural trumpet, shawm и переход от современного инструмента.",
+        "decision": "Исторические духовые для первого проекта в аренду | От траверсо до натуральной трубы",
+        "next_action": "От траверсо до натуральной трубы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Исторические духовые различаются не только тембром, но и самой системой управления вы",
+        "decision": "Первый проект с историческими духовыми | От отверстий и трости до обертонов",
+        "next_action": "От отверстий и трости до обертонов"
+      }
+    },
+    "istoricheskie-instrumenty-dlya-istoricheskoy-semki": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Исторические инструменты для кино и фото: эпоха, внешний вид, способ держания и рабочее звукоизвлечение.",
+        "decision": "Исторические музыкальные инструменты для съёмки в аренду | Кадр, эпоха и живой звук",
+        "next_action": "Кадр, эпоха и живой звук"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "В кадре особенно заметно, когда инструмент выбран только по общему старинному силуэту",
+        "decision": "Исторический инструмент в кадре | Внешний облик и исполнительский жест",
+        "next_action": "Внешний облик и исполнительский жест"
+      }
+    },
+    "istoricheskie-instrumenty-dlya-master-klassa": {
+      "n0": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Исторические инструменты для мастер-класса: несколько конфигураций, безопасная проба и педагогическая демонстрация.",
+        "decision": "Исторические музыкальные инструменты для мастер-класса в аренду | Разные эпохи и техники",
+        "next_action": "Разные эпохи и техники"
+      },
+      "n1": {
+        "source_path": "content/sections/zz111-historical-project-human-scenes.json",
+        "source_quote": "Мастер-класс особенно ценен, когда участник может не только услышать лекцию, но и поч",
+        "decision": "Мастер-класс по историческому исполнительству | Другой инструмент меняет сам способ игры",
+        "next_action": "Другой инструмент меняет сам способ игры"
+      }
+    }
+  }
+}
