@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 2990,
+  "record_count": 3030,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -92,6 +92,10 @@
     "content/title-authored-evidence/88-student-compact-trombone-bass-clarinet.json",
     "content/title-authored-evidence/89-short-scale-student-electric.json",
     "content/title-authored-evidence/90-beginner-harmonica.json",
-    "content/title-authored-evidence/91-school-melodicas.json"
+    "content/title-authored-evidence/91-school-melodicas.json",
+    "content/title-authored-evidence/92-student-cornets.json",
+    "content/title-authored-evidence/93-student-baritone-horns.json",
+    "content/title-authored-evidence/94-student-tenor-horns.json",
+    "content/title-authored-evidence/95-school-percussion-kit.json"
   ]
 }
