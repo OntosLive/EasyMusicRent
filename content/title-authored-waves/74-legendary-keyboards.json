@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "legendarnye-sintezatory",
+      "n0": "Легендарные синтезаторы в аренду | Исторические Yamaha, Roland, Moog и Sequential",
+      "n1": "Легендарные синтезаторы | Как DX7, Prophet-5 и JUPITER-8 сформировали разные языки"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "rhodes-mark-i-stage-73-v-arendu",
+      "n0": "Rhodes Mark I Stage 73 в аренду | Настоящее электромеханическое пианино",
+      "n1": "Rhodes Mark I Stage 73 | Металлические язычки и исполнительская динамика электропиано"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "wurlitzer-200a-v-arendu",
+      "n0": "Wurlitzer 200A в аренду | Классическое электромеханическое пианино для студии",
+      "n1": "Wurlitzer 200A | Язычковая механика и характерная атака винтажного звука"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "hohner-clavinet-e7-v-arendu",
+      "n0": "Hohner Clavinet E7 в аренду | Перкуссионная клавиатура для фанка и записи",
+      "n1": "Hohner Clavinet E7 | Струнная механика и короткая артикулированная атака"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "yamaha-dx7-v-arendu",
+      "n0": "Yamaha DX7 в аренду | Шестиоператорный FM-синтезатор для сцены и студии",
+      "n1": "Yamaha DX7 | Цифровые FM-алгоритмы и исполнительский язык восьмидесятых"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "sequential-prophet-5-v-arendu",
+      "n0": "Sequential Prophet-5 в аренду | Пятиголосный аналоговый синтезатор",
+      "n1": "Sequential Prophet-5 | Возвращение классической полифонической архитектуры"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "roland-jupiter-8-v-arendu",
+      "n0": "Roland JUPITER-8 в аренду | Восьмиголосный аналоговый синтезатор",
+      "n1": "Roland JUPITER-8 | Два осциллятора на голос и широкая аналоговая фактура"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "roland-d50-v-arendu",
+      "n0": "Roland D-50 в аренду | Синтезатор LA с цифровыми эффектами",
+      "n1": "Roland D-50 | PCM-атаки и LA-синтез как новый язык конца восьмидесятых"
+    },
+    {
+      "source_file": "content/sections/zz32-legendary-keyboards.json",
+      "slug": "korg-m1-v-arendu",
+      "n0": "Korg M1 в аренду | Классическая рабочая станция с секвенсором",
+      "n1": "Korg M1 | Сэмпловый синтез, ударные и восьмидорожечная организация музыки"
+    }
+  ]
+}
