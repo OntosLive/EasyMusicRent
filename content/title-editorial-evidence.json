@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3126,
+  "record_count": 3158,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -102,6 +102,8 @@
     "content/title-authored-evidence/98-bowed-studio-concert.json",
     "content/title-authored-evidence/99-asian-traditional-performance.json",
     "content/title-authored-evidence/100-early-instrument-performance.json",
-    "content/title-authored-evidence/101-special-electronic-performance.json"
+    "content/title-authored-evidence/101-special-electronic-performance.json",
+    "content/title-authored-evidence/102-brass-studio-concert.json",
+    "content/title-authored-evidence/103-woodwind-studio-concert.json"
   ]
 }
