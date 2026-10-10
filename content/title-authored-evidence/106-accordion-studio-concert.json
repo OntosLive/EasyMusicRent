@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "akkordeon-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz25-accordion-performance-landings.json",
+        "source_quote": "Аккордеон для записи: правая и левая системы, регистры, рабочая посадка, движение меха и характер клапанного шума.",
+        "decision": "Аккордеон для студийной записи в аренду | Система басов и регистры под партию",
+        "next_action": "Система басов и регистры под партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz25-accordion-performance-landings.json",
+        "source_quote": "В студии аккордеон раскрывается не одной красивой нотой, а тем, как две руки и мех с",
+        "decision": "Аккордеон в студии | Две клавиатуры, мех и характер клапанного шума",
+        "next_action": "Две клавиатуры, мех и характер клапанного шума"
+      }
+    },
+    "akkordeon-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz25-accordion-performance-landings.json",
+        "source_quote": "Аккордеон для концерта: правая клавиатура, стандартный или выборный бас, регистры, вес, ремни и подготовка к общей репетиции.",
+        "decision": "Аккордеон для концерта в аренду | Стандартный или выборный бас по программе",
+        "next_action": "Стандартный или выборный бас по программе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz25-accordion-performance-landings.json",
+        "source_quote": "Концертная программа уже живёт в руках исполнителя, поэтому временный аккордеон долж",
+        "decision": "Концертный аккордеон | Ремни, вес, регистры и привычная техника",
+        "next_action": "Ремни, вес, регистры и привычная техника"
+      }
+    }
+  }
+}

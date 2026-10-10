@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "tanpura-dlya-vokalnoy-praktiki": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Акустическая танпура для занятий пением: высотная опора, звучание открытых струн и проба в привычном регистре.",
+        "decision": "Танпура для вокальной практики в аренду | Живая струнная опора для пения",
+        "next_action": "Живая струнная опора для пения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Вы занимаетесь пением и хотите попробовать живую танпуру вместо привычного электронн",
+        "decision": "Танпура рядом с голосом | Как бурдон поддерживает слух и интонацию",
+        "next_action": "Как бурдон поддерживает слух и интонацию"
+      }
+    },
+    "sitar-dlya-pervyh-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Ситар для начала обучения: требования преподавателя, положение инструмента, игровые и резонирующие струны и первый период практики.",
+        "decision": "Ситар для первых занятий в аренду | Настоящий инструмент на начальный период",
+        "next_action": "Настоящий инструмент на начальный период"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Звучание ситара уже привлекает, но опыта игры пока нет. Первые занятия нужны, чтобы ",
+        "decision": "Первый ситар | Игровые и резонирующие струны в незнакомой постановке",
+        "next_action": "Игровые и резонирующие струны в незнакомой постановке"
+      }
+    },
+    "kanun-dlya-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Канун для совместной программы: настройка, рычажки изменения высоты, исполнительская традиция и репетиционный период.",
+        "decision": "Канун для ансамбля в аренду | Щипковый инструмент под строй и программу",
+        "next_action": "Щипковый инструмент под строй и программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "В ансамбле уже определены голоса и программа, а для партии кануна нужен временный ин",
+        "decision": "Канун в ансамбле | Рычажки настройки и изменение высоты внутри партии",
+        "next_action": "Рычажки настройки и изменение высоты внутри партии"
+      }
+    },
+    "bandoneon-dlya-vozvrashcheniya-k-igre": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Бандонеон после перерыва: прежняя раскладка, направление меха, спокойная проба и временный инструмент для возобновления занятий.",
+        "decision": "Бандонеон для возвращения к игре в аренду | Привычная раскладка для репетиций",
+        "next_action": "Привычная раскладка для репетиций"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Вы уже играли на бандонеоне и хотите вернуться к занятиям, пока своего инструмента н",
+        "decision": "Возвращение к бандонеону | Клавиатура и направление меха после перерыва",
+        "next_action": "Клавиатура и направление меха после перерыва"
+      }
+    },
+    "garmon-v-nuzhnoy-tonalnosti": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Гармонь для песни в выбранной тональности: строй конкретного инструмента, привычная раскладка и совместная проба с певцом.",
+        "decision": "Гармонь в нужной тональности в аренду | Подстройка инструмента под певца",
+        "next_action": "Подстройка инструмента под певца"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Песня уже найдена и удобно звучит в определённой тональности, а доступная гармонь за",
+        "decision": "Гармонь для вокальной партии | Строй инструмента и привычный голосовой диапазон",
+        "next_action": "Строй инструмента и привычный голосовой диапазон"
+      }
+    },
+    "koto-na-gastroli": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Кото для гастрольного выступления: тип инструмента, подставки, плектры, настройка и время на освоение временной замены.",
+        "decision": "Кото на гастроли в аренду | Инструмент с подставками и плектрами на месте",
+        "next_action": "Инструмент с подставками и плектрами на месте"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Программа уже готова, но перевозка собственного кото затрудняет поездку. Временный и",
+        "decision": "Кото в концертной поездке | Как сохранить настройку и знакомый исполнительский комплект",
+        "next_action": "Как сохранить настройку и знакомый исполнительский комплект"
+      }
+    },
+    "syamisen-dlya-teatralnoy-partii": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Сямисэн для театра: исполнительская разновидность, плектр, музыкальные сигналы и различие живой партии и реквизита.",
+        "decision": "Сямисэн для театральной партии в аренду | Живой звук и сценический жест",
+        "next_action": "Живой звук и сценический жест"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "В постановке нужен сямисэн, который участвует в действии: сопровождает голос, обозна",
+        "decision": "Сямисэн в спектакле | Различие музыкального инструмента и реквизита",
+        "next_action": "Различие музыкального инструмента и реквизита"
+      }
+    },
+    "morin-huur-dlya-vokalnogo-dueta": {
+      "n0": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "Морин хуур для совместного исполнения с певцом: музыкальная традиция, строй, смычковый отклик и репетиционный период.",
+        "decision": "Морин хуур для вокального дуэта в аренду | Смычковый голос для программы",
+        "next_action": "Смычковый голос для программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz16-traditional-practice-landings.json",
+        "source_quote": "В программе певца нужен смычковый партнёр с характерным звучанием морин хуура. Такой",
+        "decision": "Морин хуур с певцом | Строй и смычковая фраза рядом с голосом",
+        "next_action": "Строй и смычковая фраза рядом с голосом"
+      }
+    }
+  }
+}

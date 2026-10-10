@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "kastanety",
+      "n0": "Кастаньеты в аренду | Ручные, оркестровые и станковые варианты для партии",
+      "n1": "Кастаньеты | Различие танцевального жеста и оркестрового исполнения"
+    },
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "kabasa",
+      "n0": "Кабаса в аренду | Тихая перкуссия для ансамбля, сцены и записи",
+      "n1": "Кабаса | Как цепочки бусин создают короткий и длинный шумовой рисунок"
+    },
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "guiro",
+      "n0": "Гуиро в аренду | Ребристый инструмент для ритмической партии",
+      "n1": "Гуиро | Длинные и короткие движения скребка в одной фразе"
+    },
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "klaves",
+      "n0": "Клавес в аренду | Ритмические палочки для ансамбля и уроков",
+      "n1": "Клавес | Резонанс одной пары и точность музыкального пульса"
+    },
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "fleksaton",
+      "n0": "Флексатон в аренду | Изгибающийся металлический эффект для партитуры",
+      "n1": "Флексатон | Колеблющаяся пластина и управляемое изменение высоты"
+    },
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "vibraslap",
+      "n0": "Вибраслап в аренду | Характерный треск для сцены и студии",
+      "n1": "Вибраслап | Резонирующая камера и продолжение одного удара"
+    },
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "reynstik",
+      "n0": "Рейнстик, дождевая палка, в аренду | Продолжительный шум для музыки и театра",
+      "n1": "Рейнстик | Дождевой звук от движения наполнителя внутри корпуса"
+    },
+    {
+      "source_file": "content/sections/zz15-small-percussion-voices.json",
+      "slug": "marakasy",
+      "n0": "Маракасы в аренду | Парная перкуссия для песни и живого ансамбля",
+      "n1": "Маракасы | Инерция наполнителя и управляемая ритмическая атака"
+    }
+  ]
+}

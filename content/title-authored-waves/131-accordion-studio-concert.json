@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz25-accordion-performance-landings.json",
+      "slug": "akkordeon-dlya-studii",
+      "n0": "Аккордеон для студийной записи в аренду | Система басов и регистры под партию",
+      "n1": "Аккордеон в студии | Две клавиатуры, мех и характер клапанного шума"
+    },
+    {
+      "source_file": "content/sections/zz25-accordion-performance-landings.json",
+      "slug": "akkordeon-dlya-kontserta",
+      "n0": "Аккордеон для концерта в аренду | Стандартный или выборный бас по программе",
+      "n1": "Концертный аккордеон | Ремни, вес, регистры и привычная техника"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "truba-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Труба для записи: партия, привычный мундштук, работа первого и третьего кронов, положение микрофона и срок до завершения дозаписей.",
+        "decision": "Труба для студийной записи в аренду | Инструмент под партию и микрофон",
+        "next_action": "Инструмент под партию и микрофон"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Вы записываете трубную партию поверх уже собранного трека: несколько тихих вступлени",
+        "decision": "Труба в студии | Кроны, мундштук и контрастные атаки на записи",
+        "next_action": "Кроны, мундштук и контрастные атаки на записи"
+      }
+    },
+    "truba-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Труба для концерта: строй и система, мундштук, кроны, сурдины и время на репетиции с конкретной программой.",
+        "decision": "Труба для концерта в аренду | Рабочий строй, сурдины и исполнительский комплект",
+        "next_action": "Рабочий строй, сурдины и исполнительский комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Вам предстоит концерт на временной трубе, а программа уже выучена на своём инструмен",
+        "decision": "Концертная труба | Кроны, мундштук и интонация внутри секции",
+        "next_action": "Кроны, мундштук и интонация внутри секции"
+      }
+    },
+    "valtorna-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Валторна для записи: F/B♭-система, привычный мундштук, положение правой руки, тихие атаки и повторяемость между сессиями.",
+        "decision": "Валторна для студийной записи в аренду | Двойная F/B♭ и привычный мундштук",
+        "next_action": "Двойная F/B♭ и привычный мундштук"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "В студийной партии валторна может за несколько тактов перейти от фонового гармоничес",
+        "decision": "Валторна в студии | Тихая атака и положение правой руки",
+        "next_action": "Тихая атака и положение правой руки"
+      }
+    },
+    "valtorna-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Валторна для концерта: F/B♭-система, мундштук, правая рука, секционная интонация и подготовка до оркестровой репетиции.",
+        "decision": "Валторна для концерта в аренду | Оркестровый комплект системы F/B♭",
+        "next_action": "Оркестровый комплект системы F/B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Вы приглашены в программу, где валторна должна и растворяться внутри секции, и выход",
+        "decision": "Концертная валторна | Правая рука и баланс внутри медной секции",
+        "next_action": "Правая рука и баланс внутри медной секции"
+      }
+    },
+    "trombon-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Тромбон для записи: тип инструмента, свободная кулиса, позиции с вентилем, рабочий мундштук и согласованное положение микрофона.",
+        "decision": "Тромбон для студийной записи в аренду | Свободная кулиса и нужная система",
+        "next_action": "Свободная кулиса и нужная система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Вы записываете тромбоновую партию, где рядом стоят короткие акценты и связная линия.",
+        "decision": "Тромбон в студии | Позиции, квартвентиль и выразительная линия",
+        "next_action": "Позиции, квартвентиль и выразительная линия"
+      }
+    },
+    "trombon-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Тромбон для концерта: тип и F-attachment, позиции, мундштук, дальние движения кулисы и секционный баланс.",
+        "decision": "Тромбон для концерта в аренду | Теноровая система и комплект по партии",
+        "next_action": "Теноровая система и комплект по партии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Вы входите в концертную секцию на временном тромбоне. Общая репетиция слишком дорога",
+        "decision": "Концертный тромбон | Кулиса, F-attachment и секционный баланс",
+        "next_action": "Кулиса, F-attachment и секционный баланс"
+      }
+    },
+    "tuba-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Туба для записи: B♭/C/E♭/F строй, поршневая или роторная система, посадка, рабочие низкие фразы и микрофонная дистанция.",
+        "decision": "Туба для студийной записи в аренду | Строй и система клапанов под партитуру",
+        "next_action": "Строй и система клапанов под партитуру"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Для записи туба нужна как фундамент трека, но сама партия может требовать и подвижны",
+        "decision": "Туба в студии | Низкие фразы, расположение микрофона и дыхание",
+        "next_action": "Низкие фразы, расположение микрофона и дыхание"
+      }
+    },
+    "tuba-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "Туба для концерта: строй, поршневая или роторная система, посадка, клапаны, партия и баланс с басовой группой.",
+        "decision": "Туба для концерта в аренду | Оркестровый инструмент подходящего строя",
+        "next_action": "Оркестровый инструмент подходящего строя"
+      },
+      "n1": {
+        "source_path": "content/sections/zz21-brass-performance-landings.json",
+        "source_quote": "На концерте туба может часами оставаться физическим центром посадки музыканта и одно",
+        "decision": "Концертная туба | Посадка, клапанная система и басовая опора ансамбля",
+        "next_action": "Посадка, клапанная система и басовая опора ансамбля"
+      }
+    }
+  }
+}

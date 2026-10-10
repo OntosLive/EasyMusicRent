@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "viola-da-gamba-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Виола да гамба для записи: строй, смычок, резонанс и микрофонная работа.",
+        "decision": "Виола да гамба для студийной записи в аренду | Исторический строй и смычковый комплект",
+        "next_action": "Исторический строй и смычковый комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "В студии виола да гамба раскрывает и мягкость атаки, и все мелкие призвуки. Для запи",
+        "decision": "Виола да гамба в студии | Мягкая атака, открытые струны и микрофон",
+        "next_action": "Мягкая атака, открытые струны и микрофон"
+      }
+    },
+    "viola-da-gamba-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Виола да гамба для концерта: исторический строй, смычок, посадка и время на привыкание.",
+        "decision": "Виола да гамба для концерта в аренду | Инструмент под историческую программу",
+        "next_action": "Инструмент под историческую программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Концертная гамба должна быть подготовлена под конкретную исполнительскую практику. Д",
+        "decision": "Концертная виола да гамба | Смычок, посадка и ансамблевый строй",
+        "next_action": "Смычок, посадка и ансамблевый строй"
+      }
+    },
+    "klavesin-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Клавесин для записи: строй, регистры, механические шумы и микрофонная работа.",
+        "decision": "Клавесин для студийной записи в аренду | Рабочие регистры и подготовленная настройка",
+        "next_action": "Рабочие регистры и подготовленная настройка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "В записи клавесин особенно ясно проявляет механику атаки и равномерность регистров. ",
+        "decision": "Клавесин в студии | Механическая атака и шумы вблизи микрофонов",
+        "next_action": "Механическая атака и шумы вблизи микрофонов"
+      }
+    },
+    "klavesin-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Клавесин для концерта: программа, настройка, регистры и размещение на сцене.",
+        "decision": "Клавесин для концерта в аренду | Сольная и continuo-конфигурация",
+        "next_action": "Сольная и continuo-конфигурация"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "На концерте клавесин может вести сольную программу или работать внутри continuo. Эти",
+        "decision": "Клавесин на концерте | Регистры и расположение внутри камерного ансамбля",
+        "next_action": "Регистры и расположение внутри камерного ансамбля"
+      }
+    },
+    "teorba-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Теорба для записи: строй, басовые струны, щипок и баланс под микрофоном.",
+        "decision": "Теорба для студийной записи в аренду | Длинные басовые струны для continuo",
+        "next_action": "Длинные басовые струны для continuo"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Теорба в записи должна сохранять ясный щипок и при этом давать устойчивую басовую оп",
+        "decision": "Теорба в записи | Прозрачный щипок и открытый низкий резонанс",
+        "next_action": "Прозрачный щипок и открытый низкий резонанс"
+      }
+    },
+    "teorba-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Теорба для концерта: строй, посадка, длинные басовые струны и ансамблевая роль.",
+        "decision": "Теорба для концерта в аренду | Строй и басовая опора барочного состава",
+        "next_action": "Строй и басовая опора барочного состава"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "В концерте теорба часто работает как фундамент continuo, хотя может выходить и в сам",
+        "decision": "Теорба на сцене | Длинные басовые струны и исполнительская посадка",
+        "next_action": "Длинные басовые струны и исполнительская посадка"
+      }
+    },
+    "ud-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Уд для камерного ансамбля: строй, безладовая интонация, баланс и совместная репетиция.",
+        "decision": "Уд для камерного ансамбля в аренду | Безладовый инструмент под общий строй",
+        "next_action": "Безладовый инструмент под общий строй"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "В камерном ансамбле уд должен сохранять характер безладовой мелодической линии и одн",
+        "decision": "Уд в камерном составе | Гибкая интонация и баланс щипкового голоса",
+        "next_action": "Гибкая интонация и баланс щипкового голоса"
+      }
+    },
+    "ud-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "Уд для концерта: привычная конструкция, строй, медиатор и усиление.",
+        "decision": "Уд для концерта в аренду | Привычная конструкция и сценическое усиление",
+        "next_action": "Привычная конструкция и сценическое усиление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz19-early-plucked-performance-landings.json",
+        "source_quote": "На концерте уд должен соответствовать привычной исполнителю конструкции и строю. Пох",
+        "decision": "Концертный уд | Настройка, медиатор и безладовая мелодическая линия",
+        "next_action": "Настройка, медиатор и безладовая мелодическая линия"
+      }
+    }
+  }
+}

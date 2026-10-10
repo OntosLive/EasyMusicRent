@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "viola-da-gamba-dlya-studii",
+      "n0": "Виола да гамба для студийной записи в аренду | Исторический строй и смычковый комплект",
+      "n1": "Виола да гамба в студии | Мягкая атака, открытые струны и микрофон"
+    },
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "viola-da-gamba-dlya-kontserta",
+      "n0": "Виола да гамба для концерта в аренду | Инструмент под историческую программу",
+      "n1": "Концертная виола да гамба | Смычок, посадка и ансамблевый строй"
+    },
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "klavesin-dlya-studii",
+      "n0": "Клавесин для студийной записи в аренду | Рабочие регистры и подготовленная настройка",
+      "n1": "Клавесин в студии | Механическая атака и шумы вблизи микрофонов"
+    },
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "klavesin-dlya-kontserta",
+      "n0": "Клавесин для концерта в аренду | Сольная и continuo-конфигурация",
+      "n1": "Клавесин на концерте | Регистры и расположение внутри камерного ансамбля"
+    },
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "teorba-dlya-studii",
+      "n0": "Теорба для студийной записи в аренду | Длинные басовые струны для continuo",
+      "n1": "Теорба в записи | Прозрачный щипок и открытый низкий резонанс"
+    },
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "teorba-dlya-kontserta",
+      "n0": "Теорба для концерта в аренду | Строй и басовая опора барочного состава",
+      "n1": "Теорба на сцене | Длинные басовые струны и исполнительская посадка"
+    },
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "ud-dlya-kamernogo-ansamblya",
+      "n0": "Уд для камерного ансамбля в аренду | Безладовый инструмент под общий строй",
+      "n1": "Уд в камерном составе | Гибкая интонация и баланс щипкового голоса"
+    },
+    {
+      "source_file": "content/sections/zz19-early-plucked-performance-landings.json",
+      "slug": "ud-dlya-kontserta",
+      "n0": "Уд для концерта в аренду | Привычная конструкция и сценическое усиление",
+      "n1": "Концертный уд | Настройка, медиатор и безладовая мелодическая линия"
+    }
+  ]
+}

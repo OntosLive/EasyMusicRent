@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "handpan-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Хэндпан для записи: строй, резонанс, шумы и микрофонная работа.",
+        "decision": "Хэндпан для студийной записи в аренду | Настроенный резонансный инструмент",
+        "next_action": "Настроенный резонансный инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "В студии хэндпан особенно чувствителен к строю и продолжению звука. Каждая нота долг",
+        "decision": "Хэндпан под микрофоном | Продолжительный резонанс и тишина между ударами",
+        "next_action": "Продолжительный резонанс и тишина между ударами"
+      }
+    },
+    "handpan-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Хэндпан для концерта: строй, посадка, усиление и сценическое размещение.",
+        "decision": "Хэндпан для концерта в аренду | Инструмент под выбранный строй и сцену",
+        "next_action": "Инструмент под выбранный строй и сцену"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "На сцене хэндпан требует свободного пространства вокруг исполнителя и понятного спос",
+        "decision": "Хэндпан на концерте | Посадка, пространство и бережное усиление",
+        "next_action": "Посадка, пространство и бережное усиление"
+      }
+    },
+    "kalimba-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Калимба для записи: строй язычков, корпус, шумы и микрофон.",
+        "decision": "Калимба для студийной записи в аренду | Чистый строй металлических язычков",
+        "next_action": "Чистый строй металлических язычков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "В записи калимба может стать едва заметным слоем или самостоятельной мелодией. Близк",
+        "decision": "Калимба в студии | Тихая щипковая атака и корпусные призвуки",
+        "next_action": "Тихая щипковая атака и корпусные призвуки"
+      }
+    },
+    "kalimba-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Калимба для концерта: строй, усиление, посадка и сценическая роль.",
+        "decision": "Калимба для концерта в аренду | Камерный инструмент со сценическим усилением",
+        "next_action": "Камерный инструмент со сценическим усилением"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Калимба по природе камерная, поэтому на большой сцене особенно важно сохранить её ха",
+        "decision": "Калимба на сцене | Как сохранить деликатный звук в большом зале",
+        "next_action": "Как сохранить деликатный звук в большом зале"
+      }
+    },
+    "termenvoks-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Терменвокс для записи: поле управления, интонация, шум и чистый сигнал.",
+        "decision": "Терменвокс для студийной записи в аренду | Интонация без касания инструмента",
+        "next_action": "Интонация без касания инструмента"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Терменвокс требует точного контроля пространства руками. В студии особенно слышна ин",
+        "decision": "Терменвокс в студии | Управляющее поле и точная высота каждой ноты",
+        "next_action": "Управляющее поле и точная высота каждой ноты"
+      }
+    },
+    "termenvoks-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Терменвокс для концерта: размещение, мониторинг, интонация и сценическая безопасность.",
+        "decision": "Терменвокс для концерта в аренду | Инструмент и сценическое пространство",
+        "next_action": "Инструмент и сценическое пространство"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "На концерте терменвоксу нужно не только питание и усиление, но и свободная зона вокр",
+        "decision": "Терменвокс на сцене | Антенны, свободная зона и слышимый мониторинг",
+        "next_action": "Антенны, свободная зона и слышимый мониторинг"
+      }
+    },
+    "modulnyy-sintezator-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Модульный синтезатор для записи: маршрутизация, синхронизация, фиксация патча и чистый сигнал.",
+        "decision": "Модульный синтезатор для студии в аренду | Патч и маршрутизация под проект",
+        "next_action": "Патч и маршрутизация под проект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "В модульной системе сам патч становится частью музыкального материала. Для студии ва",
+        "decision": "Модульный синтезатор в записи | Как сохранить звучание вместе с конфигурацией",
+        "next_action": "Как сохранить звучание вместе с конфигурацией"
+      }
+    },
+    "modulnyy-sintezator-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "Модульный синтезатор для концерта: патч, питание, синхронизация и сценическая надёжность.",
+        "decision": "Модульный синтезатор для концерта в аренду | Рабочий патч и синхронизация",
+        "next_action": "Рабочий патч и синхронизация"
+      },
+      "n1": {
+        "source_path": "content/sections/zz20-special-electronic-performance-landings.json",
+        "source_quote": "На сцене модульная система должна оставаться экспериментальной в музыке, но предсказ",
+        "decision": "Модульная система на сцене | Питание и соединения внутри живого исполнения",
+        "next_action": "Питание и соединения внутри живого исполнения"
+      }
+    }
+  }
+}

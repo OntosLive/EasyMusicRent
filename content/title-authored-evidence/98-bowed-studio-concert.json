@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "skripka-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Скрипка для записи: строй, ровность регистров, шумы и работа с микрофоном.",
+        "decision": "Скрипка для студийной записи в аренду | Ровные регистры и готовый смычковый комплект",
+        "next_action": "Ровные регистры и готовый смычковый комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Близкий микрофон делает слышимыми те детали, которые в зале растворяются в пространс",
+        "decision": "Скрипка в студии | Атака, механические призвуки и близкий микрофон",
+        "next_action": "Атака, механические призвуки и близкий микрофон"
+      }
+    },
+    "skripka-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Скрипка для концерта: мензура, струны, смычок, программа и время на привыкание.",
+        "decision": "Скрипка для концерта в аренду | Исполнительский инструмент на срок программы",
+        "next_action": "Исполнительский инструмент на срок программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "На концерте новая скрипка должна как можно быстрее перестать ощущаться новой. Выбор ",
+        "decision": "Скрипка на концерте | Мензура, смычок и свобода адаптации",
+        "next_action": "Мензура, смычок и свобода адаптации"
+      }
+    },
+    "skripka-dlya-kvarteta": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Скрипка для квартета: баланс, артикуляция, тембр и совместная репетиция.",
+        "decision": "Скрипка для струнного квартета в аренду | Инструмент под ансамблевый голос",
+        "next_action": "Инструмент под ансамблевый голос"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "В квартете скрипка постоянно меняет функцию: ведёт мелодию, поддерживает фактуру, от",
+        "decision": "Скрипка в квартете | Тембровый баланс между ведущей и поддерживающей партией",
+        "next_action": "Тембровый баланс между ведущей и поддерживающей партией"
+      }
+    },
+    "violonchel-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Виолончель для записи: ровность струн, волчий тон, механические шумы и микрофонная работа.",
+        "decision": "Виолончель для студийной записи в аренду | Ровные струны и чистый низ",
+        "next_action": "Ровные струны и чистый низ"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "В студии виолончель раскрывает и красивое продолжение звука, и все технические неров",
+        "decision": "Виолончель под микрофоном | Волчий тон, шумы и продолжение смычковой ноты",
+        "next_action": "Волчий тон, шумы и продолжение смычковой ноты"
+      }
+    },
+    "violonchel-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Виолончель для концерта: мензура, шпиль, смычок, программа и время на адаптацию.",
+        "decision": "Виолончель для концерта в аренду | Смычок и опора под подготовленный репертуар",
+        "next_action": "Смычок и опора под подготовленный репертуар"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Концертная виолончель должна позволять сохранить привычную посадку и движение левой ",
+        "decision": "Концертная виолончель | Мензура, шпиль и свободная левая рука",
+        "next_action": "Мензура, шпиль и свободная левая рука"
+      }
+    },
+    "violonchel-dlya-kvarteta": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Виолончель для квартета: басовая опора, баланс, артикуляция и совместная репетиция.",
+        "decision": "Виолончель для струнного квартета в аренду | Басовая опора и сольная партия",
+        "next_action": "Басовая опора и сольная партия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "В квартете виолончель одновременно держит основание гармонии и регулярно выходит в с",
+        "decision": "Виолончель в квартете | Как низкий голос ведёт гармонию и мелодию",
+        "next_action": "Как низкий голос ведёт гармонию и мелодию"
+      }
+    },
+    "kontrabas-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Контрабас для записи: мензура, струны, призвуки, pizzicato и arco под микрофоном.",
+        "decision": "Контрабас для студийной записи в аренду | Pizzicato и arco под микрофон",
+        "next_action": "Pizzicato и arco под микрофон"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "В студии контрабас должен давать глубокий низ, сохраняя форму каждой ноты. Близкий м",
+        "decision": "Контрабас в студии | Глубокий низ, форма атаки и тишина между нотами",
+        "next_action": "Глубокий низ, форма атаки и тишина между нотами"
+      }
+    },
+    "kontrabas-dlya-dzhaza": {
+      "n0": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Контрабас для джаза: pizzicato, мензура, высота струн, усиление и работа с ритм-секцией.",
+        "decision": "Контрабас для джаза в аренду | Пиццикато, удобная мензура и сценическое усиление",
+        "next_action": "Пиццикато, удобная мензура и сценическое усиление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz17-bowed-final-landings.json",
+        "source_quote": "Джазовый контрабас прежде всего должен позволять уверенно вести пульс и свободно имп",
+        "decision": "Джазовый контрабас | Струны, высота подставки и работа с ритм-секцией",
+        "next_action": "Струны, высота подставки и работа с ритм-секцией"
+      }
+    }
+  }
+}

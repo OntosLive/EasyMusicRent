@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "truba-dlya-studii",
+      "n0": "Труба для студийной записи в аренду | Инструмент под партию и микрофон",
+      "n1": "Труба в студии | Кроны, мундштук и контрастные атаки на записи"
+    },
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "truba-dlya-kontserta",
+      "n0": "Труба для концерта в аренду | Рабочий строй, сурдины и исполнительский комплект",
+      "n1": "Концертная труба | Кроны, мундштук и интонация внутри секции"
+    },
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "valtorna-dlya-studii",
+      "n0": "Валторна для студийной записи в аренду | Двойная F/B♭ и привычный мундштук",
+      "n1": "Валторна в студии | Тихая атака и положение правой руки"
+    },
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "valtorna-dlya-kontserta",
+      "n0": "Валторна для концерта в аренду | Оркестровый комплект системы F/B♭",
+      "n1": "Концертная валторна | Правая рука и баланс внутри медной секции"
+    },
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "trombon-dlya-studii",
+      "n0": "Тромбон для студийной записи в аренду | Свободная кулиса и нужная система",
+      "n1": "Тромбон в студии | Позиции, квартвентиль и выразительная линия"
+    },
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "trombon-dlya-kontserta",
+      "n0": "Тромбон для концерта в аренду | Теноровая система и комплект по партии",
+      "n1": "Концертный тромбон | Кулиса, F-attachment и секционный баланс"
+    },
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "tuba-dlya-studii",
+      "n0": "Туба для студийной записи в аренду | Строй и система клапанов под партитуру",
+      "n1": "Туба в студии | Низкие фразы, расположение микрофона и дыхание"
+    },
+    {
+      "source_file": "content/sections/zz21-brass-performance-landings.json",
+      "slug": "tuba-dlya-kontserta",
+      "n0": "Туба для концерта в аренду | Оркестровый инструмент подходящего строя",
+      "n1": "Концертная туба | Посадка, клапанная система и басовая опора ансамбля"
+    }
+  ]
+}

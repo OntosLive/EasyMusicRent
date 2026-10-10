@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "erhu-dlya-studii",
+      "n0": "Эрху для студийной записи в аренду | Настроенный смычковый инструмент",
+      "n1": "Эрху в записи | Интонация, шум смычка и длинная мелодическая линия"
+    },
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "erhu-dlya-kontserta",
+      "n0": "Эрху для концерта в аренду | Привычная посадка и рабочий строй",
+      "n1": "Эрху на сцене | Адаптация исполнительской руки к новому инструменту"
+    },
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "koto-dlya-kamernogo-ansamblya",
+      "n0": "Кото для камерного ансамбля в аренду | Инструмент и опоры под программу",
+      "n1": "Кото в камерном составе | Атака, общий строй и баланс с другими голосами"
+    },
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "koto-dlya-kontserta",
+      "n0": "Кото для концерта в аренду | Подставки, плектры и подготовленная настройка",
+      "n1": "Кото на сцене | Пространство корпуса и свободный исполнительский жест"
+    },
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "guzhen-dlya-studii",
+      "n0": "Гучжэн для студийной записи в аренду | Строй и подставки под партию",
+      "n1": "Гучжэн под микрофоном | Глиссандо и длинный резонанс щипковой струны"
+    },
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "guzhen-dlya-kontserta",
+      "n0": "Гучжэн для концерта в аренду | Полный комплект для сценической программы",
+      "n1": "Гучжэн на концерте | Строй, корпус и свобода движения рук"
+    },
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "dombra-dlya-studii",
+      "n0": "Домбра для студийной записи в аренду | Струны и строй для чистой атаки",
+      "n1": "Домбра в студии | Щипковая артикуляция и резонанс под близким микрофоном"
+    },
+    {
+      "source_file": "content/sections/zz18-east-central-asian-performance-landings.json",
+      "slug": "dombra-dlya-kontserta",
+      "n0": "Домбра для концерта в аренду | Инструмент под строй и усиление",
+      "n1": "Домбра на сцене | Мензура и ритмическая свобода правой руки"
+    }
+  ]
+}

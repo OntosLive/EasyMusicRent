@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz23-saxophone-performance-landings.json",
+      "slug": "saksofon-dlya-studii",
+      "n0": "Саксофон для студийной записи в аренду | Нужный голос и мундштук под партию",
+      "n1": "Саксофон в студии | Трость, механика и повторяемость дублей"
+    },
+    {
+      "source_file": "content/sections/zz23-saxophone-performance-landings.json",
+      "slug": "saksofon-dlya-kontserta",
+      "n0": "Саксофон для концерта в аренду | Нужный голос и комплект для выступления",
+      "n1": "Концертный саксофон | Подвес, строй и работа механики на саундчеке"
+    }
+  ]
+}

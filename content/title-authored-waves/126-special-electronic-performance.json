@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "handpan-dlya-studii",
+      "n0": "Хэндпан для студийной записи в аренду | Настроенный резонансный инструмент",
+      "n1": "Хэндпан под микрофоном | Продолжительный резонанс и тишина между ударами"
+    },
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "handpan-dlya-kontserta",
+      "n0": "Хэндпан для концерта в аренду | Инструмент под выбранный строй и сцену",
+      "n1": "Хэндпан на концерте | Посадка, пространство и бережное усиление"
+    },
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "kalimba-dlya-studii",
+      "n0": "Калимба для студийной записи в аренду | Чистый строй металлических язычков",
+      "n1": "Калимба в студии | Тихая щипковая атака и корпусные призвуки"
+    },
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "kalimba-dlya-kontserta",
+      "n0": "Калимба для концерта в аренду | Камерный инструмент со сценическим усилением",
+      "n1": "Калимба на сцене | Как сохранить деликатный звук в большом зале"
+    },
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "termenvoks-dlya-studii",
+      "n0": "Терменвокс для студийной записи в аренду | Интонация без касания инструмента",
+      "n1": "Терменвокс в студии | Управляющее поле и точная высота каждой ноты"
+    },
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "termenvoks-dlya-kontserta",
+      "n0": "Терменвокс для концерта в аренду | Инструмент и сценическое пространство",
+      "n1": "Терменвокс на сцене | Антенны, свободная зона и слышимый мониторинг"
+    },
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "modulnyy-sintezator-dlya-studii",
+      "n0": "Модульный синтезатор для студии в аренду | Патч и маршрутизация под проект",
+      "n1": "Модульный синтезатор в записи | Как сохранить звучание вместе с конфигурацией"
+    },
+    {
+      "source_file": "content/sections/zz20-special-electronic-performance-landings.json",
+      "slug": "modulnyy-sintezator-dlya-kontserta",
+      "n0": "Модульный синтезатор для концерта в аренду | Рабочий патч и синхронизация",
+      "n1": "Модульная система на сцене | Питание и соединения внутри живого исполнения"
+    }
+  ]
+}

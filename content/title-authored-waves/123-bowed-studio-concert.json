@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "skripka-dlya-studii",
+      "n0": "Скрипка для студийной записи в аренду | Ровные регистры и готовый смычковый комплект",
+      "n1": "Скрипка в студии | Атака, механические призвуки и близкий микрофон"
+    },
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "skripka-dlya-kontserta",
+      "n0": "Скрипка для концерта в аренду | Исполнительский инструмент на срок программы",
+      "n1": "Скрипка на концерте | Мензура, смычок и свобода адаптации"
+    },
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "skripka-dlya-kvarteta",
+      "n0": "Скрипка для струнного квартета в аренду | Инструмент под ансамблевый голос",
+      "n1": "Скрипка в квартете | Тембровый баланс между ведущей и поддерживающей партией"
+    },
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "violonchel-dlya-studii",
+      "n0": "Виолончель для студийной записи в аренду | Ровные струны и чистый низ",
+      "n1": "Виолончель под микрофоном | Волчий тон, шумы и продолжение смычковой ноты"
+    },
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "violonchel-dlya-kontserta",
+      "n0": "Виолончель для концерта в аренду | Смычок и опора под подготовленный репертуар",
+      "n1": "Концертная виолончель | Мензура, шпиль и свободная левая рука"
+    },
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "violonchel-dlya-kvarteta",
+      "n0": "Виолончель для струнного квартета в аренду | Басовая опора и сольная партия",
+      "n1": "Виолончель в квартете | Как низкий голос ведёт гармонию и мелодию"
+    },
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "kontrabas-dlya-studii",
+      "n0": "Контрабас для студийной записи в аренду | Pizzicato и arco под микрофон",
+      "n1": "Контрабас в студии | Глубокий низ, форма атаки и тишина между нотами"
+    },
+    {
+      "source_file": "content/sections/zz17-bowed-final-landings.json",
+      "slug": "kontrabas-dlya-dzhaza",
+      "n0": "Контрабас для джаза в аренду | Пиццикато, удобная мензура и сценическое усиление",
+      "n1": "Джазовый контрабас | Струны, высота подставки и работа с ритм-секцией"
+    }
+  ]
+}

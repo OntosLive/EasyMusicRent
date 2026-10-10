@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "blokfleyta-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz24-recorder-performance-landings.json",
+        "source_quote": "Блокфлейта для записи: сопрано или альт, барочная или немецкая система, дыхание, влажность блока и подготовка конкретной партии.",
+        "decision": "Блокфлейта для студийной записи в аренду | Сопрано или альт нужной системы",
+        "next_action": "Сопрано или альт нужной системы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz24-recorder-performance-landings.json",
+        "source_quote": "Для записи блокфлейта может понадобиться как прозрачный верхний голос, сольный альт ",
+        "decision": "Блокфлейта в записи | Аппликатура, дыхание и влажность блока",
+        "next_action": "Аппликатура, дыхание и влажность блока"
+      }
+    },
+    "blokfleyta-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz24-recorder-performance-landings.json",
+        "source_quote": "Блокфлейта для концерта: голос, аппликатурная система, дыхание, ансамблевый состав и время на привыкание к размеру инструмента.",
+        "decision": "Блокфлейта для концерта в аренду | Инструмент нужного голоса для ансамбля",
+        "next_action": "Инструмент нужного голоса для ансамбля"
+      },
+      "n1": {
+        "source_path": "content/sections/zz24-recorder-performance-landings.json",
+        "source_quote": "Концертная программа уже определяет, какая блокфлейта нужна: сольный альт, верхний с",
+        "decision": "Концертная блокфлейта | Разные регистры и совместная интонация",
+        "next_action": "Разные регистры и совместная интонация"
+      }
+    }
+  }
+}

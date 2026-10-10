@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz24-recorder-performance-landings.json",
+      "slug": "blokfleyta-dlya-studii",
+      "n0": "Блокфлейта для студийной записи в аренду | Сопрано или альт нужной системы",
+      "n1": "Блокфлейта в записи | Аппликатура, дыхание и влажность блока"
+    },
+    {
+      "source_file": "content/sections/zz24-recorder-performance-landings.json",
+      "slug": "blokfleyta-dlya-kontserta",
+      "n0": "Блокфлейта для концерта в аренду | Инструмент нужного голоса для ансамбля",
+      "n1": "Концертная блокфлейта | Разные регистры и совместная интонация"
+    }
+  ]
+}

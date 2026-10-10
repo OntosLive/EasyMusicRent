@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "saksofon-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz23-saxophone-performance-landings.json",
+        "source_quote": "Саксофон для записи: голос инструмента, рабочий мундштук и трость, механика, распределённое излучение и повторяемость дублей.",
+        "decision": "Саксофон для студийной записи в аренду | Нужный голос и мундштук под партию",
+        "next_action": "Нужный голос и мундштук под партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz23-saxophone-performance-landings.json",
+        "source_quote": "Вы приходите записывать саксофоновую партию, а инструмент нужен только на период про",
+        "decision": "Саксофон в студии | Трость, механика и повторяемость дублей",
+        "next_action": "Трость, механика и повторяемость дублей"
+      }
+    },
+    "saksofon-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz23-saxophone-performance-landings.json",
+        "source_quote": "Саксофон для концерта: голос и строй, собственный мундштук, трости, подвес, механика и саундчек в составе.",
+        "decision": "Саксофон для концерта в аренду | Нужный голос и комплект для выступления",
+        "next_action": "Нужный голос и комплект для выступления"
+      },
+      "n1": {
+        "source_path": "content/sections/zz23-saxophone-performance-landings.json",
+        "source_quote": "В программе саксофон уже имеет конкретную роль: сольный голос, место внутри секции и",
+        "decision": "Концертный саксофон | Подвес, строй и работа механики на саундчеке",
+        "next_action": "Подвес, строй и работа механики на саундчеке"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "tanpura-dlya-vokalnoy-praktiki",
+      "n0": "Танпура для вокальной практики в аренду | Живая струнная опора для пения",
+      "n1": "Танпура рядом с голосом | Как бурдон поддерживает слух и интонацию"
+    },
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "sitar-dlya-pervyh-zanyatiy",
+      "n0": "Ситар для первых занятий в аренду | Настоящий инструмент на начальный период",
+      "n1": "Первый ситар | Игровые и резонирующие струны в незнакомой постановке"
+    },
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "kanun-dlya-ansamblya",
+      "n0": "Канун для ансамбля в аренду | Щипковый инструмент под строй и программу",
+      "n1": "Канун в ансамбле | Рычажки настройки и изменение высоты внутри партии"
+    },
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "bandoneon-dlya-vozvrashcheniya-k-igre",
+      "n0": "Бандонеон для возвращения к игре в аренду | Привычная раскладка для репетиций",
+      "n1": "Возвращение к бандонеону | Клавиатура и направление меха после перерыва"
+    },
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "garmon-v-nuzhnoy-tonalnosti",
+      "n0": "Гармонь в нужной тональности в аренду | Подстройка инструмента под певца",
+      "n1": "Гармонь для вокальной партии | Строй инструмента и привычный голосовой диапазон"
+    },
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "koto-na-gastroli",
+      "n0": "Кото на гастроли в аренду | Инструмент с подставками и плектрами на месте",
+      "n1": "Кото в концертной поездке | Как сохранить настройку и знакомый исполнительский комплект"
+    },
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "syamisen-dlya-teatralnoy-partii",
+      "n0": "Сямисэн для театральной партии в аренду | Живой звук и сценический жест",
+      "n1": "Сямисэн в спектакле | Различие музыкального инструмента и реквизита"
+    },
+    {
+      "source_file": "content/sections/zz16-traditional-practice-landings.json",
+      "slug": "morin-huur-dlya-vokalnogo-dueta",
+      "n0": "Морин хуур для вокального дуэта в аренду | Смычковый голос для программы",
+      "n1": "Морин хуур с певцом | Строй и смычковая фраза рядом с голосом"
+    }
+  ]
+}

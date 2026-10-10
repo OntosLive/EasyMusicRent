@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "erhu-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Эрху для записи: строй, смычок, призвуки и работа с микрофоном.",
+        "decision": "Эрху для студийной записи в аренду | Настроенный смычковый инструмент",
+        "next_action": "Настроенный смычковый инструмент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Эрху в студии особенно чувствителен к интонации, началу звука и шумам смычка. Близка",
+        "decision": "Эрху в записи | Интонация, шум смычка и длинная мелодическая линия",
+        "next_action": "Интонация, шум смычка и длинная мелодическая линия"
+      }
+    },
+    "erhu-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Эрху для концерта: строй, смычок, посадка и время на адаптацию.",
+        "decision": "Эрху для концерта в аренду | Привычная посадка и рабочий строй",
+        "next_action": "Привычная посадка и рабочий строй"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "На концерте эрху должен как можно быстрее стать продолжением привычной руки. Даже бл",
+        "decision": "Эрху на сцене | Адаптация исполнительской руки к новому инструменту",
+        "next_action": "Адаптация исполнительской руки к новому инструменту"
+      }
+    },
+    "koto-dlya-kamernogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Кото для камерного ансамбля: настройка, баланс, размещение и совместная репетиция.",
+        "decision": "Кото для камерного ансамбля в аренду | Инструмент и опоры под программу",
+        "next_action": "Инструмент и опоры под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "В камерном ансамбле кото должно сохранять собственную атаку и при этом оставлять про",
+        "decision": "Кото в камерном составе | Атака, общий строй и баланс с другими голосами",
+        "next_action": "Атака, общий строй и баланс с другими голосами"
+      }
+    },
+    "koto-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Кото для концерта: настройка, опоры, программа и размещение на сцене.",
+        "decision": "Кото для концерта в аренду | Подставки, плектры и подготовленная настройка",
+        "next_action": "Подставки, плектры и подготовленная настройка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Для концерта кото нужно подготовить как целую исполнительскую систему: инструмент, о",
+        "decision": "Кото на сцене | Пространство корпуса и свободный исполнительский жест",
+        "next_action": "Пространство корпуса и свободный исполнительский жест"
+      }
+    },
+    "guzhen-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Гучжэн для записи: настройка, подставки, глиссандо и баланс под микрофоном.",
+        "decision": "Гучжэн для студийной записи в аренду | Строй и подставки под партию",
+        "next_action": "Строй и подставки под партию"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Гучжэн в записи сочетает ясную атаку со свободным изменением высоты и длинным резона",
+        "decision": "Гучжэн под микрофоном | Глиссандо и длинный резонанс щипковой струны",
+        "next_action": "Глиссандо и длинный резонанс щипковой струны"
+      }
+    },
+    "guzhen-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Гучжэн для концерта: программа, настройка, размещение и время на подготовку.",
+        "decision": "Гучжэн для концерта в аренду | Полный комплект для сценической программы",
+        "next_action": "Полный комплект для сценической программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "На сцене гучжэн требует места для корпуса, свободного движения рук и подготовленной ",
+        "decision": "Гучжэн на концерте | Строй, корпус и свобода движения рук",
+        "next_action": "Строй, корпус и свобода движения рук"
+      }
+    },
+    "dombra-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Домбра для записи: строй, атака, шумы и баланс корпуса.",
+        "decision": "Домбра для студийной записи в аренду | Струны и строй для чистой атаки",
+        "next_action": "Струны и строй для чистой атаки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Домбра в записи кажется простой по устройству, но близкий микрофон быстро показывает",
+        "decision": "Домбра в студии | Щипковая артикуляция и резонанс под близким микрофоном",
+        "next_action": "Щипковая артикуляция и резонанс под близким микрофоном"
+      }
+    },
+    "dombra-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Домбра для концерта: мензура, строй, программа и сценическое усиление.",
+        "decision": "Домбра для концерта в аренду | Инструмент под строй и усиление",
+        "next_action": "Инструмент под строй и усиление"
+      },
+      "n1": {
+        "source_path": "content/sections/zz18-east-central-asian-performance-landings.json",
+        "source_quote": "Концертная домбра должна сохранять привычное движение правой руки и уверенный строй ",
+        "decision": "Домбра на сцене | Мензура и ритмическая свобода правой руки",
+        "next_action": "Мензура и ритмическая свобода правой руки"
+      }
+    }
+  }
+}

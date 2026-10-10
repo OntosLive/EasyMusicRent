@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "fleyta-dlya-studii",
+      "n0": "Флейта для студийной записи в аренду | Тихая атака и ровный нижний регистр",
+      "n1": "Флейта в записи | Головка, интонация и единый тембр для дублей"
+    },
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "fleyta-dlya-kontserta",
+      "n0": "Флейта для концерта в аренду | Привычная механика для камерной программы",
+      "n1": "Флейта с фортепиано | Как строй и дыхание связывают два инструмента"
+    },
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "klarinet-dlya-studii",
+      "n0": "Кларнет для студийной записи в аренду | Инструмент под переходы регистров",
+      "n1": "Кларнет в студии | Мундштук, трость и звуковые переходы в дублях"
+    },
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "klarinet-dlya-kontserta",
+      "n0": "Кларнет для концерта в аренду | Система и настройка под камерный состав",
+      "n1": "Кларнет со струнным квартетом | Тихое вступление и строй после разыгрывания"
+    },
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "goboy-dlya-studii",
+      "n0": "Гобой для студийной записи в аренду | Инструмент для вокальной аранжировки",
+      "n1": "Гобой в записи | Трости, дыхание и короткие ответы голосу"
+    },
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "goboy-dlya-kontserta",
+      "n0": "Гобой для концерта в аренду | Привычная система под готовую программу",
+      "n1": "Гобой с пианистом | Октавная механика и прозрачный камерный баланс"
+    },
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "fagot-dlya-studii",
+      "n0": "Фагот для студийной записи в аренду | Инструмент для контрастных эпизодов",
+      "n1": "Фагот в киномузыке | Эс и переходы от басовой фигуры к мелодии"
+    },
+    {
+      "source_file": "content/sections/zz22-woodwind-performance-landings.json",
+      "slug": "fagot-dlya-kontserta",
+      "n0": "Фагот для концерта в аренду | Оркестровый инструмент на период репетиций",
+      "n1": "Фагот во второй оркестровой партии | Эс, опора и работа механики"
+    }
+  ]
+}
