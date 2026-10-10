@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "review_type": "literal source excerpts",
+  "reviews": {
+    "violonchel-stentor": {
+      "n0": {
+        "source_path": "violonchel-stentor/index.html",
+        "source_quote": "Здесь особенно важно не промахнуться с размером и не брать инструмент на",
+        "decision": "Виолончель Stentor в аренду | Учебный инструмент для первых классов",
+        "next_action": "Учебный инструмент для первых классов"
+      },
+      "n1": {
+        "source_path": "violonchel-stentor/index.html",
+        "source_quote": "Осталось понять возраст, рост, размер и что уже рекомендует преподавател",
+        "decision": "Stentor | Виолончель для регулярной школьной практики",
+        "next_action": "Виолончель для регулярной школьной практики"
+      }
+    },
+    "violonchel-yamaha": {
+      "n0": {
+        "source_path": "violonchel-yamaha/index.html",
+        "source_quote": "Если вы ищете именно Yamaha, марка уже определена. Дальше важна конкретн",
+        "decision": "Виолончель Yamaha напрокат | Выбор серии под занятия и исполнительскую задачу",
+        "next_action": "Выбор серии под занятия и исполнительскую задачу"
+      },
+      "n1": {
+        "source_path": "violonchel-yamaha/index.html",
+        "source_quote": "Для электронной виолончели особенно важны способ подключения, репетицион",
+        "decision": "Виолончели Yamaha | Конкретная модель внутри известной марки",
+        "next_action": "Конкретная модель внутри известной марки"
+      }
+    },
+    "violonchel-scherl-roth": {
+      "n0": {
+        "source_path": "violonchel-scherl-roth/index.html",
+        "source_quote": "Если вы ищете Scherl & Roth, сначала стоит зафиксировать размер и серию.",
+        "decision": "Виолончель Scherl & Roth в аренду | Размер и серия под учебную программу",
+        "next_action": "Размер и серия под учебную программу"
+      },
+      "n1": {
+        "source_path": "violonchel-scherl-roth/index.html",
+        "source_quote": "Для учебного инструмента особенно важны удобная посадка и нормальный отк",
+        "decision": "Scherl & Roth | Несколько виолончельных форматов одной марки",
+        "next_action": "Несколько виолончельных форматов одной марки"
+      }
+    },
+    "violonchel-strunal": {
+      "n0": {
+        "source_path": "violonchel-strunal/index.html",
+        "source_quote": "У Strunal широкий ряд виолончелей, поэтому здесь особенно полезно знать ",
+        "decision": "Виолончель Strunal напрокат | От учебных инструментов до более высокого уровня",
+        "next_action": "От учебных инструментов до более высокого уровня"
+      },
+      "n1": {
+        "source_path": "violonchel-strunal/index.html",
+        "source_quote": "Дальше всё становится предметным: размер, посадка, состояние, настройка ",
+        "decision": "Strunal | Виолончели разных классов и конструкций",
+        "next_action": "Виолончели разных классов и конструкций"
+      }
+    },
+    "violonchel-hora": {
+      "n0": {
+        "source_path": "violonchel-hora/index.html",
+        "source_quote": "Hora часто появляется там, где нужен рабочий учебный инструмент на конкр",
+        "decision": "Виолончель Hora в аренду | Инструмент на текущий учебный этап",
+        "next_action": "Инструмент на текущий учебный этап"
+      },
+      "n1": {
+        "source_path": "violonchel-hora/index.html",
+        "source_quote": "Главное здесь — совпасть с ростом, посадкой и длиной руки, а не растянут",
+        "decision": "Hora | Рабочая виолончель в регулярной практике",
+        "next_action": "Рабочая виолончель в регулярной практике"
+      }
+    },
+    "violonchel-eastman": {
+      "n0": {
+        "source_path": "violonchel-eastman/index.html",
+        "source_quote": "У Eastman имеет смысл сразу смотреть не только на марку, но и на конкрет",
+        "decision": "Виолончель Eastman напрокат | Модели для учебной и концертной работы",
+        "next_action": "Модели для учебной и концертной работы"
+      },
+      "n1": {
+        "source_path": "violonchel-eastman/index.html",
+        "source_quote": "Разные инструменты по-разному ощущаются в посадке, верхнем регистре, ниж",
+        "decision": "Eastman | Виолончели с различиями по модели и конструкции корпуса",
+        "next_action": "Виолончели с различиями по модели и конструкции корпуса"
+      }
+    },
+    "violonchel-gliga": {
+      "n0": {
+        "source_path": "violonchel-gliga/index.html",
+        "source_quote": "Если вы смотрите в сторону Gliga, стоит сразу определить серию и размер.",
+        "decision": "Виолончель Gliga в аренду | Серии и размеры для разных музыкантов",
+        "next_action": "Серии и размеры для разных музыкантов"
+      },
+      "n1": {
+        "source_path": "violonchel-gliga/index.html",
+        "source_quote": "Дальше решает конкретный экземпляр: посадка, отклик, состояние и то, как",
+        "decision": "Gliga | Виолончельная линейка с отдельными исполнительскими уровнями",
+        "next_action": "Виолончельная линейка с отдельными исполнительскими уровнями"
+      }
+    },
+    "violonchel-gewa": {
+      "n0": {
+        "source_path": "violonchel-gewa/index.html",
+        "source_quote": "Если марка GEWA уже выбрана, следующий шаг — попасть в конкретную серию ",
+        "decision": "Виолончель GEWA напрокат | Учебная серия и нужный размер в аренду",
+        "next_action": "Учебная серия и нужный размер в аренду"
+      },
+      "n1": {
+        "source_path": "violonchel-gewa/index.html",
+        "source_quote": "Для ребёнка важен текущий размер и запас до следующего перехода. Для взр",
+        "decision": "GEWA | Виолончели разных серий для музыкального обучения",
+        "next_action": "Виолончели разных серий для музыкального обучения"
+      }
+    },
+    "violonchel-ritmuller": {
+      "n0": {
+        "source_path": "violonchel-ritmuller/index.html",
+        "source_quote": "Если вы ищете именно Ritmuller, марка уже определена. Дальше нужно попас",
+        "decision": "Виолончель Ritmuller в аренду | Выбранная марка для музыкальной программы",
+        "next_action": "Выбранная марка для музыкальной программы"
+      },
+      "n1": {
+        "source_path": "violonchel-ritmuller/index.html",
+        "source_quote": "Для ребёнка важен текущий размер и нормальная посадка. Для взрослого — с",
+        "decision": "Ritmuller | От имени производителя к конкретному инструменту",
+        "next_action": "От имени производителя к конкретному инструменту"
+      }
+    },
+    "violonchel-goronok": {
+      "n0": {
+        "source_path": "violonchel-goronok/index.html",
+        "source_quote": "У Горонок есть инструменты разных уровней, поэтому здесь имеет смысл сра",
+        "decision": "Виолончель Горонок напрокат | Инструменты разных учебных и исполнительских уровней",
+        "next_action": "Инструменты разных учебных и исполнительских уровней"
+      },
+      "n1": {
+        "source_path": "violonchel-goronok/index.html",
+        "source_quote": "Размер, состояние и исполнительская задача быстро уточняют, какой именно",
+        "decision": "Виолончели Горонок | Серии и индивидуальные особенности инструмента",
+        "next_action": "Серии и индивидуальные особенности инструмента"
+      }
+    },
+    "violonchel-mirra": {
+      "n0": {
+        "source_path": "violonchel-mirra/index.html",
+        "source_quote": "Если марка Mirra уже выбрана, следующий вопрос — конкретный размер и мод",
+        "decision": "Виолончель Mirra в аренду | Модель и размер для нужного периода занятий",
+        "next_action": "Модель и размер для нужного периода занятий"
+      },
+      "n1": {
+        "source_path": "violonchel-mirra/index.html",
+        "source_quote": "Для детской виолончели это прежде всего совпадение с ростом и рукой. Для",
+        "decision": "Mirra | Виолончель определённой модели и исполнительского масштаба",
+        "next_action": "Виолончель определённой модели и исполнительского масштаба"
+      }
+    },
+    "violonchel-knilling": {
+      "n0": {
+        "source_path": "violonchel-knilling/index.html",
+        "source_quote": "Если вы ищете Knilling, имеет смысл сразу уточнить серию и размер.",
+        "decision": "Виолончель Knilling напрокат | Учебные и более продвинутые серии",
+        "next_action": "Учебные и более продвинутые серии"
+      },
+      "n1": {
+        "source_path": "violonchel-knilling/index.html",
+        "source_quote": "Один и тот же бренд может закрывать разные этапы: первые занятия, перехо",
+        "decision": "Knilling | Различия моделей и размеров одной виолончельной марки",
+        "next_action": "Различия моделей и размеров одной виолончельной марки"
+      }
+    },
+    "violonchel-caraya": {
+      "n0": {
+        "source_path": "violonchel-caraya/index.html",
+        "source_quote": "Если нужна именно Caraya, дальше стоит перейти от имени марки к конкретн",
+        "decision": "Виолончель Caraya в аренду | Подобрать модель на конкретный учебный срок",
+        "next_action": "Подобрать модель на конкретный учебный срок"
+      },
+      "n1": {
+        "source_path": "violonchel-caraya/index.html",
+        "source_quote": "Размер, посадка и состояние инструмента особенно важны, если виолончель ",
+        "decision": "Caraya | Виолончельная модель в своей учебной программе",
+        "next_action": "Виолончельная модель в своей учебной программе"
+      }
+    }
+  }
+}
