@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "backline-dlya-pervogo-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Backline для первого концерта: drums, guitar/bass amps, keyboards, DI and soundcheck.",
+        "decision": "Бэклайн для первого концерта в аренду | Барабаны, усилители, клавишные и DI",
+        "next_action": "Барабаны, усилители, клавишные и DI"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Первый концерт часто ломается не на музыке, а на том, что каждый участник впервые вст",
+        "decision": "Первый концерт с бэклайном | Как собрать рабочую сцену без лишней техники",
+        "next_action": "Как собрать рабочую сцену без лишней техники"
+      }
+    },
+    "backline-dlya-klubnoy-stseny": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Backline для клуба: compact drums, guitar/bass amps, keyboards and fast stage setup.",
+        "decision": "Бэклайн для клубной сцены в аренду | Компактный комплект для живой группы",
+        "next_action": "Компактный комплект для живой группы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "На клубной сцене каждый лишний корпус отнимает физическое пространство и увеличивает ",
+        "decision": "Клубный бэклайн | Баланс размера сцены, звука и быстрой установки",
+        "next_action": "Баланс размера сцены, звука и быстрой установки"
+      }
+    },
+    "backline-dlya-festivalya": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Festival backline: shared drums, amps, keyboards, DI, changeover and artist-specific exceptions.",
+        "decision": "Бэклайн для фестиваля в аренду | Единая основа для нескольких групп",
+        "next_action": "Единая основа для нескольких групп"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Фестивальный backline отличается от концертного тем, что один парк должен обслужить н",
+        "decision": "Фестивальный бэклайн | Общие инструменты и индивидуальные требования артистов",
+        "next_action": "Общие инструменты и индивидуальные требования артистов"
+      }
+    },
+    "backline-dlya-bystroy-smeny-grupp": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Fast changeover backline: shared kit, amps, keyboard reset, patching and stage handoff.",
+        "decision": "Бэклайн для быстрой смены групп в аренду | Общий комплект без длительной перестройки",
+        "next_action": "Общий комплект без длительной перестройки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Смена групп за десять минут невозможна, если каждый backline-узел собирается заново и",
+        "decision": "Бэклайн при быстрой смене групп | Коммутация и подготовка между выступлениями",
+        "next_action": "Коммутация и подготовка между выступлениями"
+      }
+    },
+    "backline-dlya-gastrolnogo-tura": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Tour backline: rider, local suppliers, substitutes, keyboards, amps, drums and daily verification.",
+        "decision": "Бэклайн для гастрольного тура в аренду | Комплектация и согласование в каждом городе",
+        "next_action": "Комплектация и согласование в каждом городе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "В туре тяжёлый backline выгодно не возить, а воспроизводить локально. Тогда главным а",
+        "decision": "Гастрольный бэклайн | Как повторять одну исполнительскую систему на разных площадках",
+        "next_action": "Как повторять одну исполнительскую систему на разных площадках"
+      }
+    },
+    "backline-dlya-fly-date": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Fly-date backline: local instruments, amps, keyboards, drums, pedals and pre-advance.",
+        "decision": "Бэклайн для fly-date концерта в аренду | Готовая сцена к прилёту музыкантов",
+        "next_action": "Готовая сцена к прилёту музыкантов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Fly-date логика особенно чисто показывает смысл backline: музыкант не перевозит тяжёл",
+        "decision": "Fly-date и местный бэклайн | Что должно ждать артиста вместо перевозимого оборудования",
+        "next_action": "Что должно ждать артиста вместо перевозимого оборудования"
+      }
+    },
+    "backline-po-rayderu-dlya-gruppy": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Band backline by rider: guitar, bass, drums, keyboards, DI and approved substitutes.",
+        "decision": "Бэклайн для группы по райдеру в аренду | От барабанов до клавишных и усилителей",
+        "next_action": "От барабанов до клавишных и усилителей"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Райдер группы состоит из нескольких автономных привычек музыкантов. Backline-провайде",
+        "decision": "Бэклайн группы по райдеру | Совместимость нескольких инструментальных систем",
+        "next_action": "Совместимость нескольких инструментальных систем"
+      }
+    },
+    "backline-dlya-ritm-sektsii": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Rhythm section backline: drums, bass amp/DI, stage placement and shared groove.",
+        "decision": "Бэклайн для ритм-секции в аренду | Барабаны, басовый усилитель и DI",
+        "next_action": "Барабаны, басовый усилитель и DI"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Backline ритм-секции — это не просто барабаны рядом с басовым кабинетом. Их физическо",
+        "decision": "Ритм-секция на сцене | Как установка и басовая система образуют общий пульс",
+        "next_action": "Как установка и басовая система образуют общий пульс"
+      }
+    },
+    "backline-dlya-akusticheskogo-kontserta": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Acoustic concert backline: acoustic amps, cajon/percussion, DI and compact keyboards.",
+        "decision": "Бэклайн для акустического концерта в аренду | DI, компактное усиление и перкуссия",
+        "next_action": "DI, компактное усиление и перкуссия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Акустический формат не означает отсутствие инфраструктуры. Просто её роль меняется: м",
+        "decision": "Акустический концерт с бэклайном | Меньше аппаратуры, больше различимого живого звука",
+        "next_action": "Меньше аппаратуры, больше различимого живого звука"
+      }
+    },
+    "backline-dlya-dzhazovogo-kvinteta": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Jazz quintet backline: drums, bass amp/DI, piano/keyboard and small-stage balance.",
+        "decision": "Бэклайн для джазового квинтета в аренду | Ударные, клавиши и басовый комплект",
+        "next_action": "Ударные, клавиши и басовый комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Джазовый состав особенно чувствителен к слишком большому backline: громкий amp или бо",
+        "decision": "Джазовый бэклайн | Динамика и акустический баланс камерного состава",
+        "next_action": "Динамика и акустический баланс камерного состава"
+      }
+    },
+    "backline-dlya-rok-gruppy": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Rock band backline: guitar amps, bass rig, drums, keyboards and stage volume.",
+        "decision": "Бэклайн для рок-группы в аренду | Гитарные стеки, бас, барабаны и клавиши",
+        "next_action": "Гитарные стеки, бас, барабаны и клавиши"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Рок-группа легко превращает сцену в соревнование усилителей. Хороший backline собирае",
+        "decision": "Рок-бэклайн | Согласованная громкость вместо соревнования усилителей",
+        "next_action": "Согласованная громкость вместо соревнования усилителей"
+      }
+    },
+    "backline-dlya-vokalista-s-gitaroy": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Singer-guitarist backline: acoustic amp or DI, guitar amp, keyboard optional and compact stage setup.",
+        "decision": "Бэклайн для вокалиста с гитарой в аренду | Минимальный сценический комплект",
+        "next_action": "Минимальный сценический комплект"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Сольный артист часто не нуждается в полном band backline, но ему всё равно нужна рабо",
+        "decision": "Голос и гитара на сцене | Как устроен компактный исполнительский бэклайн",
+        "next_action": "Как устроен компактный исполнительский бэклайн"
+      }
+    },
+    "backline-dlya-rezervnogo-komplekta": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Backup backline: spare amp, keyboard, DI and fast failover for live production.",
+        "decision": "Резервный бэклайн для концерта в аренду | Запасной усилитель, DI и клавишные",
+        "next_action": "Запасной усилитель, DI и клавишные"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Резервный backline имеет смысл только тогда, когда его можно включить быстро. Запасно",
+        "decision": "Резервный бэклайн | Подготовленная замена без остановки выступления",
+        "next_action": "Подготовленная замена без остановки выступления"
+      }
+    },
+    "backline-dlya-soundcheck-do-priezda-artista": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Pre-artist backline check: power, routing, pedals, outputs, amp/cab pairing and line test.",
+        "decision": "Бэклайн для саундчека до приезда артиста в аренду | Готовый инструментальный сет",
+        "next_action": "Готовый инструментальный сет"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Часть backline можно и нужно проверить до появления музыканта: питание, кабели, routi",
+        "decision": "Саундчек до приезда музыканта | Что техническая команда может проверить заранее",
+        "next_action": "Что техническая команда может проверить заранее"
+      }
+    },
+    "funktsionalnaya-zamena-backline-po-rayderu": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Functional backline substitute: rider requirements, compatibility, artist approval and soundcheck.",
+        "decision": "Замена бэклайна по райдеру в аренду | Согласованный исполнительский эквивалент",
+        "next_action": "Согласованный исполнительский эквивалент"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Когда точной модели нет, худшая замена — выбрать похожий предмет без понимания того, ",
+        "decision": "Функциональная замена бэклайна | Какие свойства нельзя заменить похожим названием",
+        "next_action": "Какие свойства нельзя заменить похожим названием"
+      }
+    },
+    "backline-dlya-odnodnevnoy-arendy": {
+      "n0": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "One-day backline rental: advance, delivery, setup, soundcheck and same-day return.",
+        "decision": "Бэклайн на один день в аренду | Доставка, сборка, саундчек и возврат",
+        "next_action": "Доставка, сборка, саундчек и возврат"
+      },
+      "n1": {
+        "source_path": "content/sections/zz116-complete-backline-human-scenes.json",
+        "source_quote": "Короткая аренда не означает упрощённую подготовку. Наоборот, чем меньше срок, тем важ",
+        "decision": "Однодневный бэклайн | Почему подготовка должна завершиться до начала концерта",
+        "next_action": "Почему подготовка должна завершиться до начала концерта"
+      }
+    }
+  }
+}
