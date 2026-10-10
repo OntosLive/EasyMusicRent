@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "review_type": "literal source excerpts",
+  "reviews": {
+    "kawai-es120-v-arendu": {
+      "n0": {
+        "source_path": "kawai-es120-v-arendu/index.html",
+        "source_quote": "ES120 — компактное 88-клавишное цифровое пианино Kawai для обучения, дом",
+        "decision": "Kawai ES120 напрокат | Компактные 88 клавиш для дома и музыкальной школы",
+        "next_action": "Компактные 88 клавиш для дома и музыкальной школы"
+      },
+      "n1": {
+        "source_path": "kawai-es120-v-arendu/index.html",
+        "source_quote": "Оно подходит, если нужен переносной формат с полноценной молоточковой ме",
+        "decision": "Kawai ES120 | Переносное цифровое пианино для регулярных занятий",
+        "next_action": "Переносное цифровое пианино для регулярных занятий"
+      }
+    },
+    "kawai-es520-v-arendu": {
+      "n0": {
+        "source_path": "kawai-es520-v-arendu/index.html",
+        "source_quote": "ES520 — переносное цифровое пианино Kawai среднего уровня с более развит",
+        "decision": "Kawai ES520 в аренду | Переход от базовой клавиатуры к более серьёзной",
+        "next_action": "Переход от базовой клавиатуры к более серьёзной"
+      },
+      "n1": {
+        "source_path": "kawai-es520-v-arendu/index.html",
+        "source_quote": "Оно удобно там, где инструмент нужен и для дома, и для репетиций или сце",
+        "decision": "Kawai ES520 | Мобильное пианино среднего класса с развитым звуком",
+        "next_action": "Мобильное пианино среднего класса с развитым звуком"
+      }
+    },
+    "kawai-es920-v-arendu": {
+      "n0": {
+        "source_path": "kawai-es920-v-arendu/index.html",
+        "source_quote": "ES920 — старшая переносная модель Kawai с механикой Responsive Hammer II",
+        "decision": "Kawai ES920 напрокат | Продвинутая механика для сцены и домашней практики",
+        "next_action": "Продвинутая механика для сцены и домашней практики"
+      },
+      "n1": {
+        "source_path": "kawai-es920-v-arendu/index.html",
+        "source_quote": "Она подходит музыканту, которому нужна мобильность без сильного снижения",
+        "decision": "Kawai ES920 | Responsive Hammer III в переносной концертной клавиатуре",
+        "next_action": "Responsive Hammer III в переносной концертной клавиатуре"
+      }
+    },
+    "kawai-cn201-v-arendu": {
+      "n0": {
+        "source_path": "kawai-cn201-v-arendu/index.html",
+        "source_quote": "CN201 — корпусное цифровое пианино Kawai с 88-клавишной механикой Respon",
+        "decision": "Kawai CN201 в аренду | Домашнее цифровое пианино с молоточковой механикой",
+        "next_action": "Домашнее цифровое пианино с молоточковой механикой"
+      },
+      "n1": {
+        "source_path": "kawai-cn201-v-arendu/index.html",
+        "source_quote": "Оно подходит ученику или взрослому, которому нужен постоянный инструмент",
+        "decision": "Kawai CN201 | Корпусной инструмент с клавиатурой Responsive Hammer III",
+        "next_action": "Корпусной инструмент с клавиатурой Responsive Hammer III"
+      }
+    },
+    "kawai-cn301-v-arendu": {
+      "n0": {
+        "source_path": "kawai-cn301-v-arendu/index.html",
+        "source_quote": "CN301 — старшая модель CN-линии Kawai для серьёзной домашней практики с ",
+        "decision": "Kawai CN301 напрокат | Следующий уровень домашней фортепианной работы",
+        "next_action": "Следующий уровень домашней фортепианной работы"
+      },
+      "n1": {
+        "source_path": "kawai-cn301-v-arendu/index.html",
+        "source_quote": "Её имеет смысл брать, когда домашний инструмент уже должен поддерживать ",
+        "decision": "Kawai CN301 | Корпусная клавиатура и развитая акустика серии CN",
+        "next_action": "Корпусная клавиатура и развитая акустика серии CN"
+      }
+    },
+    "kawai-ca401-v-arendu": {
+      "n0": {
+        "source_path": "kawai-ca401-v-arendu/index.html",
+        "source_quote": "CA401 — корпусное цифровое пианино Kawai с деревянными клавишами Grand F",
+        "decision": "Kawai CA401 в аренду | Домашнее пианино с деревянными клавишами",
+        "next_action": "Домашнее пианино с деревянными клавишами"
+      },
+      "n1": {
+        "source_path": "kawai-ca401-v-arendu/index.html",
+        "source_quote": "Оно интересно там, где качество механики уже напрямую влияет на обучение",
+        "decision": "Kawai CA401 | Деревянная механика Grand Feel Compact",
+        "next_action": "Деревянная механика Grand Feel Compact"
+      }
+    },
+    "kawai-ca501-v-arendu": {
+      "n0": {
+        "source_path": "kawai-ca501-v-arendu/index.html",
+        "source_quote": "CA501 развивает ту же логику деревянной клавиатуры Grand Feel Compact, д",
+        "decision": "Kawai CA501 напрокат | Деревянная клавиатура и расширенная акустика для дома",
+        "next_action": "Деревянная клавиатура и расширенная акустика для дома"
+      },
+      "n1": {
+        "source_path": "kawai-ca501-v-arendu/index.html",
+        "source_quote": "В аренде это способ получить более точную обратную связь на период актив",
+        "decision": "Kawai CA501 | Grand Feel Compact с более развитым домашним звучанием",
+        "next_action": "Grand Feel Compact с более развитым домашним звучанием"
+      }
+    },
+    "kawai-ca701-v-arendu": {
+      "n0": {
+        "source_path": "kawai-ca701-v-arendu/index.html",
+        "source_quote": "CA701 — старшая корпусная модель Kawai для серьёзной фортепианной практи",
+        "decision": "Kawai CA701 в аренду | Длинная деревянная механика для сильного пианиста",
+        "next_action": "Длинная деревянная механика для сильного пианиста"
+      },
+      "n1": {
+        "source_path": "kawai-ca701-v-arendu/index.html",
+        "source_quote": "Она нужна там, где домашняя клавиатура должна как можно меньше искажать ",
+        "decision": "Kawai CA701 | Grand Feel III в продвинутом корпусном цифровом пианино",
+        "next_action": "Grand Feel III в продвинутом корпусном цифровом пианино"
+      }
+    },
+    "kawai-ca901-v-arendu": {
+      "n0": {
+        "source_path": "kawai-ca901-v-arendu/index.html",
+        "source_quote": "CA901 — флагман цифровой CA-линии Kawai с деревянной клавиатурой Grand F",
+        "decision": "Kawai CA901 напрокат | Флагманская цифровая клавиатура для серьёзной программы",
+        "next_action": "Флагманская цифровая клавиатура для серьёзной программы"
+      },
+      "n1": {
+        "source_path": "kawai-ca901-v-arendu/index.html",
+        "source_quote": "Его смысл в аренде появляется тогда, когда нужен максимально точный дома",
+        "decision": "Kawai CA901 | Grand Feel III и расширенная акустическая система",
+        "next_action": "Grand Feel III и расширенная акустическая система"
+      }
+    }
+  }
+}
