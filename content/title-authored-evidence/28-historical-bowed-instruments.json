@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "barochnaya-skripka-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Первый опыт на барочной скрипке: жильные струны, смычок, строй и переход от соврем",
+        "decision": "Барочная скрипка для первого опыта в аренду | Инструмент исторической конфигурации со смычком",
+        "next_action": "Инструмент исторической конфигурации со смычком"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Современный скрипач узнаёт инструмент, но барочная конфигурация меняет струны, смы",
+        "decision": "Первая барочная скрипка | Жильные струны, исторический строй и другой отклик смычка",
+        "next_action": "Жильные струны, исторический строй и другой отклик смычка"
+      }
+    },
+    "barochnaya-skripka-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Барочная скрипка для дома: жильные струны, строй, смычок и регулярная историческая",
+        "decision": "Барочная скрипка для занятий дома | Аренда на период освоения исторической техники",
+        "next_action": "Аренда на период освоения исторической техники"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Историческая техника не закрепляется одним ансамблевым вечером. Домашний инструмен",
+        "decision": "Барочная скрипка дома | Строй и артикуляция в ежедневной практике",
+        "next_action": "Строй и артикуляция в ежедневной практике"
+      }
+    },
+    "barochnaya-skripka-posle-sovremennoy-skripki": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Переход с современной скрипки на барочную: струны, смычок, строй и артикуляция.",
+        "decision": "Барочная скрипка после современной в аренду | Для перехода к исторической манере игры",
+        "next_action": "Для перехода к исторической манере игры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Современная техника не исчезает, но часть привычных решений нужно ослабить, чтобы ",
+        "decision": "Современная и барочная скрипка | Разные струны, смычки и способы артикуляции",
+        "next_action": "Разные струны, смычки и способы артикуляции"
+      }
+    },
+    "barochnaya-skripka-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Аренда барочной скрипки перед покупкой: setup, струны, смычок, строй и ансамблевая",
+        "decision": "Барочная скрипка перед покупкой в аренду | Проверить инструмент в собственной программе",
+        "next_action": "Проверить инструмент в собственной программе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Барочная скрипка определяется не одним корпусом. Струны, гриф, подставка, смычок и",
+        "decision": "Барочная скрипка до покупки | Струны, смычок и строй составляют единую конфигурацию",
+        "next_action": "Струны, смычок и строй составляют единую конфигурацию"
+      }
+    },
+    "barochnaya-violonchel-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Первый опыт на барочной виолончели: жильные струны, смычок, посадка и basso contin",
+        "decision": "Барочная виолончель для первого опыта в аренду | Знакомство с жильными струнами и continuo",
+        "next_action": "Знакомство с жильными струнами и continuo"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Современный виолончелист узнаёт мензуру и руку, но историческая конфигурация меняе",
+        "decision": "Первая барочная виолончель | Другой смычковый отклик и историческая басовая партия",
+        "next_action": "Другой смычковый отклик и историческая басовая партия"
+      }
+    },
+    "barochnaya-violonchel-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Барочная виолончель для дома: жильные струны, смычок, посадка и ежедневная практик",
+        "decision": "Барочная виолончель для занятий дома | Аренда на весь период исторической практики",
+        "next_action": "Аренда на весь период исторической практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Если историческая техника участвует в текущем проекте, редких ансамблевых репетици",
+        "decision": "Барочная виолончель дома | Жильные струны и ежедневная работа над continuo",
+        "next_action": "Жильные струны и ежедневная работа над continuo"
+      }
+    },
+    "barochnaya-violonchel-posle-sovremennoy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Переход с современной виолончели на барочную: струны, смычок, посадка и артикуляци",
+        "decision": "Барочная виолончель после современной | Аренда инструмента для нового репертуара",
+        "next_action": "Аренда инструмента для нового репертуара"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Современный виолончелист приносит развитую левую руку, но должен заново услышать, ",
+        "decision": "Современная и барочная виолончель | Посадка, струны и артикуляция в двух системах",
+        "next_action": "Посадка, струны и артикуляция в двух системах"
+      }
+    },
+    "barochnaya-violonchel-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Аренда барочной виолончели перед покупкой: струны, смычок, посадка, строй и contin",
+        "decision": "Барочная виолончель перед покупкой в аренду | Смычок и инструмент для пробной программы",
+        "next_action": "Смычок и инструмент для пробной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Исторический инструмент нельзя оценить одним корпусом. Важно, как вся конфигурация",
+        "decision": "Барочная виолончель до покупки | Историческая конфигурация важнее одного корпуса",
+        "next_action": "Историческая конфигурация важнее одного корпуса"
+      }
+    },
+    "viola-da-gamba-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Виола да гамба для дома: лады, строй, смычок и регулярная практика.",
+        "decision": "Виола да гамба для домашних занятий | Аренда инструмента для регулярной практики",
+        "next_action": "Аренда инструмента для регулярной практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Гамба требует собственной геометрии и техники, поэтому эпизодического доступа в ан",
+        "decision": "Виола да гамба дома | Лады, строй и смычок в самостоятельной исполнительской системе",
+        "next_action": "Лады, строй и смычок в самостоятельной исполнительской системе"
+      }
+    },
+    "viola-da-gamba-posle-violoncheli": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Переход с виолончели на гамбу: лады, строй, смычок и посадка.",
+        "decision": "Виола да гамба после виолончели в аренду | Переход к историческому смычковому инструменту",
+        "next_action": "Переход к историческому смычковому инструменту"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Виолончелист приходит с развитой интонацией и смычком, но гамба меняет количество ",
+        "decision": "От виолончели к гамбе | Дополнительные струны, лады и другая техника смычка",
+        "next_action": "Дополнительные струны, лады и другая техника смычка"
+      }
+    },
+    "viola-da-gamba-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Аренда виолы да гамба перед покупкой: голос семейства, строй, лады, смычок и ансам",
+        "decision": "Виола да гамба перед покупкой | Аренда разных голосов исторического семейства",
+        "next_action": "Аренда разных голосов исторического семейства"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Гамба существует как семейство, поэтому выбор начинается с того, какой голос и как",
+        "decision": "Виолы да гамба | Разные размеры и строи для сольной музыки и консорта",
+        "next_action": "Разные размеры и строи для сольной музыки и консорта"
+      }
+    },
+    "rebek-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Первый опыт на ребеке: размер, строй, смычок и средневековая исполнительская практ",
+        "decision": "Ребек для первого опыта в аренду | Исторический смычковый инструмент для занятий",
+        "next_action": "Исторический смычковый инструмент для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Ребек нельзя воспринимать просто как маленькую скрипку. Форма корпуса, строй и ист",
+        "decision": "Первый ребек | Средневековый корпус и самостоятельный способ смычковой игры",
+        "next_action": "Средневековый корпус и самостоятельный способ смычковой игры"
+      }
+    },
+    "rebek-dlya-srednevekovoy-programmy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Ребек для ансамбля и реконструкции: строй, размер, смычок и исторический контекст.",
+        "decision": "Ребек для средневековой программы | Аренда инструмента для ансамбля и реконструкции",
+        "next_action": "Аренда инструмента для ансамбля и реконструкции"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Для исторической программы важно понимать не только название, но и конкретный тип ",
+        "decision": "Ребек в ансамбле ранней музыки | Строй и исполнительский тип под реконструкцию",
+        "next_action": "Строй и исполнительский тип под реконструкцию"
+      }
+    },
+    "kolesnaya-lira-dlya-pervogo-opyta": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Первый опыт на колёсной лире: колесо, клавиши, бурдоны и базовая координация.",
+        "decision": "Колёсная лира для первого опыта в аренду | Инструмент с колесом, клавишами и бурдонами",
+        "next_action": "Инструмент с колесом, клавишами и бурдонами"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Колёсная лира соединяет непрерывное трение колеса, клавишную мелодию и бурдонные с",
+        "decision": "Первая колёсная лира | Колесо ведёт струну, клавиши создают мелодию",
+        "next_action": "Колесо ведёт струну, клавиши создают мелодию"
+      }
+    },
+    "kolesnaya-lira-dlya-domashnih-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Колёсная лира для дома: колесо, тангенты, бурдон и регулярная практика.",
+        "decision": "Колёсная лира для домашних занятий | Аренда для освоения механизма и репертуара",
+        "next_action": "Аренда для освоения механизма и репертуара"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Колёсная техника плохо закрепляется эпизодическими встречами с инструментом. Если ",
+        "decision": "Колёсная лира дома | Колесо, тангенты и бурдоны как ежедневная практика",
+        "next_action": "Колесо, тангенты и бурдоны как ежедневная практика"
+      }
+    },
+    "kolesnaya-lira-pered-pokupkoy": {
+      "n0": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Аренда колёсной лиры перед покупкой: колесо, тангенты, бурдоны, строй и собственны",
+        "decision": "Колёсная лира перед покупкой в аренду | Пробный период с настоящим механизмом",
+        "next_action": "Пробный период с настоящим механизмом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz109-historical-strings-human-scenes.json",
+        "source_quote": "Колёсная лира слишком зависит от конкретного механизма и настройки, чтобы выбирать",
+        "decision": "Колёсная лира до покупки | Строй, колесо и клавиатура в работе исполнителя",
+        "next_action": "Строй, колесо и клавиатура в работе исполнителя"
+      }
+    }
+  }
+}
