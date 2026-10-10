@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz38-rider-guitars-and-di.json",
+      "slug": "gibson-sg-standard-v-arendu",
+      "n0": "Gibson SG Standard в аренду | Два хамбакера и удобный доступ к верхним ладам",
+      "n1": "Gibson SG Standard | Баланс на ремне и геометрия двойного выреза"
+    },
+    {
+      "source_file": "content/sections/zz38-rider-guitars-and-di.json",
+      "slug": "rickenbacker-330-v-arendu",
+      "n0": "Rickenbacker 330 в аренду | Полуакустическая шестиструнная гитара",
+      "n1": "Rickenbacker 330 | Два Hi-gain, моновыход и отличие от версии 330/12"
+    },
+    {
+      "source_file": "content/sections/zz38-rider-guitars-and-di.json",
+      "slug": "di-boksy",
+      "n0": "DI-боксы в аренду | Активные, пассивные и многоканальные решения для сцены",
+      "n1": "DI-боксы | Как источник, нагрузка и развязка определяют правильное включение"
+    },
+    {
+      "source_file": "content/sections/zz38-rider-guitars-and-di.json",
+      "slug": "radial-jdi-v-arendu",
+      "n0": "Radial JDI в аренду | Пассивный DI-бокс с трансформатором Jensen",
+      "n1": "Radial JDI | Параллельный выход и балансная линия между инструментом и пультом"
+    }
+  ]
+}
