@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 подтверждает аренду названного состава; N.1 объясняет предметную ансамблевую функцию",
+  "records": [
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-strunnogo-trio",
+      "n0": "Инструменты для струнного трио в аренду | Скрипка, альт и виолончель одним составом",
+      "n1": "Струнное трио | Как три самостоятельных голоса распределяют камерный баланс"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-fortepiannogo-kvarteta",
+      "n0": "Инструменты для фортепианного квартета в аренду | Рояль и три струнных голоса",
+      "n1": "Фортепианный квартет | Баланс рояля со скрипкой, альтом и виолончелью"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-fortepiannogo-kvinteta",
+      "n0": "Инструменты для фортепианного квинтета в аренду | Рояль и полный струнный квартет",
+      "n1": "Фортепианный квинтет | Как рояль входит в фактуру струнного квартета"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-skripka-fortepiano",
+      "n0": "Скрипка и фортепиано для дуэта в аренду | Два инструмента для камерной программы",
+      "n1": "Скрипка и фортепиано | Как согласовать динамику двух солистов"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-violonchel-fortepiano",
+      "n0": "Виолончель и фортепиано для дуэта в аренду | Комплект под сонатную программу",
+      "n1": "Виолончель и фортепиано | Баланс смычкового голоса с клавишным звуком"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-fleyta-fortepiano",
+      "n0": "Флейта и фортепиано для дуэта в аренду | Инструменты для камерного концерта",
+      "n1": "Флейта с фортепиано | Дыхание, артикуляция и прозрачный ансамблевый звук"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-klarinet-fortepiano",
+      "n0": "Кларнет и фортепиано для дуэта в аренду | Согласованный камерный комплект",
+      "n1": "Кларнет и фортепиано | Как объединить две разные природы музыкальной фразы"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-goboy-fortepiano",
+      "n0": "Гобой и фортепиано для дуэта в аренду | Инструменты для сонат и концертов",
+      "n1": "Гобой и фортепиано | Ясная атака трости рядом с рояльной механикой"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-valtorna-fortepiano",
+      "n0": "Валторна и фортепиано для дуэта в аренду | Полный комплект камерной программы",
+      "n1": "Валторна и фортепиано | Медный тембр в гибком камерном балансе"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-saksofonovogo-kvarteta",
+      "n0": "Саксофоны для квартета в аренду | Сопрано, альт, тенор и баритон",
+      "n1": "Саксофоновый квартет | Как четыре регистра образуют единое семейство"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-derevyannogo-kvarteta",
+      "n0": "Деревянные духовые для квартета в аренду | Четыре согласованных ансамблевых голоса",
+      "n1": "Деревянный духовой квартет | Тембр, дыхание и баланс четырёх инструментов"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-trio-fleyta-alt-arfa",
+      "n0": "Флейта, альт и арфа для трио в аренду | Камерный состав целиком",
+      "n1": "Трио флейты, альта и арфы | Три вида атаки в одной прозрачной фактуре"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-arfa-fleyta",
+      "n0": "Арфа и флейта для дуэта в аренду | Два инструмента для камерного выступления",
+      "n1": "Арфа и флейта | Щипковый резонанс рядом с непрерывной воздушной фразой"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-dueta-arfa-violonchel",
+      "n0": "Арфа и виолончель для дуэта в аренду | Камерный комплект на концерт",
+      "n1": "Арфа и виолончель | Смычковая линия и щипковый резонанс в общем басовом регистре"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-trio-klarnet-violonchel-fortepiano",
+      "n0": "Кларнет, виолончель и фортепиано для трио в аренду | Полный камерный состав",
+      "n1": "Трио кларнета, виолончели и фортепиано | Как тембры меняются ролями"
+    },
+    {
+      "source_file": "content/sections/zz117-chamber-ensemble-crossroutes.json",
+      "slug": "instrumenty-dlya-trio-valtorna-skripka-fortepiano",
+      "n0": "Валторна, скрипка и фортепиано для трио в аренду | Комплект под камерную программу",
+      "n1": "Трио валторны, скрипки и фортепиано | Разные атаки внутри одной музыкальной речи"
+    }
+  ]
+}
