@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3294,
+  "record_count": 3386,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -115,6 +115,14 @@
     "content/title-authored-evidence/111-indian-instrument-families.json",
     "content/title-authored-evidence/112-caucasus-central-asia-families.json",
     "content/title-authored-evidence/113-electronic-instrument-entrances.json",
-    "content/title-authored-evidence/114-historical-instrument-entrances.json"
+    "content/title-authored-evidence/114-historical-instrument-entrances.json",
+    "content/title-authored-evidence/115a-electronic-performance.json",
+    "content/title-authored-evidence/115b-traditional-voices.json",
+    "content/title-authored-evidence/115c-special-guitars.json",
+    "content/title-authored-evidence/115d-bass-ukulele-voices.json",
+    "content/title-authored-evidence/115e-orchestral-percussion-voices.json",
+    "content/title-authored-evidence/115f-resonant-percussion-voices.json",
+    "content/title-authored-evidence/115g-recorder-ukulele-voices.json",
+    "content/title-authored-evidence/115h-electric-strings-and-reeds.json"
   ]
 }
