@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "elektronnyy-organ": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Электронный орган для занятий, сцены и репетиций: мануалы, педальная клавиатура, регистры и подключение.",
+        "decision": "Электронный орган в аренду | Мануалы, педаль и регистры для занятий и сцены",
+        "next_action": "Мануалы, педаль и регистры для занятий и сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Электронный орган нужен там, где органная исполнительская логика должна существовать ",
+        "decision": "Электронный орган | Исполнительская система вне стационарного трубного зала",
+        "next_action": "Исполнительская система вне стационарного трубного зала"
+      }
+    },
+    "hammond-organ": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Орган Hammond для сцены и записи: мануалы, drawbars, вращающийся тембр и работа в ансамбле.",
+        "decision": "Орган Hammond в аренду | Мануалы и drawbars для сцены и записи",
+        "next_action": "Мануалы и drawbars для сцены и записи"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Hammond выбирают ради характера управления звуком во время исполнения. Здесь тембр не",
+        "decision": "Орган Hammond | Тембр как действие рук внутри ритм-секции",
+        "next_action": "Тембр как действие рук внутри ритм-секции"
+      }
+    },
+    "organ-dlya-barochnogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Орган для барочного ансамбля: continuo, строй, компактная форма и совместная репетиция.",
+        "decision": "Орган для барочного ансамбля в аренду | Компактное continuo и общий строй",
+        "next_action": "Компактное continuo и общий строй"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "В барочном ансамбле орган часто работает как часть continuo, а не как сольный центр. ",
+        "decision": "Барочный орган в continuo | Гармоническая опора рядом со струнными",
+        "next_action": "Гармоническая опора рядом со струнными"
+      }
+    },
+    "organ-dlya-repetitsii": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Орган для репетиций: мануалы, педаль, регистры и подготовка программы до доступа к большому инструменту.",
+        "decision": "Орган для репетиций в аренду | Мануалы и педаль на период подготовки",
+        "next_action": "Мануалы и педаль на период подготовки"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Когда концертный орган доступен лишь ограниченное время, часть программы приходится г",
+        "decision": "Репетиционный орган | Подготовка большой программы на доступном инструменте",
+        "next_action": "Подготовка большой программы на доступном инструменте"
+      }
+    },
+    "organ-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Орган для записи: регистры, шумы управления, выходы и повторяемость настроек.",
+        "decision": "Орган для студийной записи в аренду | Регистры и чистые выходы",
+        "next_action": "Регистры и чистые выходы"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "В студии орган должен не только звучать убедительно, но и возвращаться к подготовленн",
+        "decision": "Орган в студии | Как сохранить регистровый тембр от дубля к дублю",
+        "next_action": "Как сохранить регистровый тембр от дубля к дублю"
+      }
+    },
+    "organ-dlya-myuzikla": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Орган для мюзикла: быстрые смены тембров, расположение в оркестровой яме и совместимость с остальной клавишной системой.",
+        "decision": "Орган для мюзикла в аренду | Быстрые смены тембров в pit band",
+        "next_action": "Быстрые смены тембров в pit band"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "В мюзикле органная партия часто существует рядом с фортепиано, синтезатором и другими",
+        "decision": "Орган в мюзикле | Клавишные роли внутри оркестровой ямы",
+        "next_action": "Клавишные роли внутри оркестровой ямы"
+      }
+    },
+    "portativnyy-organ": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Компактный орган для репетиции и камерного ансамбля: клавиатура, регистры, подключение и переносимость.",
+        "decision": "Портативный орган в аренду | Компактный комплект для камерной программы",
+        "next_action": "Компактный комплект для камерной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Портативность имеет смысл только тогда, когда сохраняются необходимые исполнительские",
+        "decision": "Портативный орган | Мануалы, регистры и переносимый корпус",
+        "next_action": "Мануалы, регистры и переносимый корпус"
+      }
+    },
+    "organ-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Орган для концерта: партия, площадка, усиление, мануалы и репетиционный график.",
+        "decision": "Орган для концерта в аренду | Мануалы, педаль и усиление под программу",
+        "next_action": "Мануалы, педаль и усиление под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/100b-organ-landings.json",
+        "source_quote": "Концертный запрос на орган всегда начинается с программы и пространства. Нужен ли сам",
+        "decision": "Концертный орган | От камерного continuo к сольной сценической системе",
+        "next_action": "От камерного continuo к сольной сценической системе"
+      }
+    }
+  }
+}

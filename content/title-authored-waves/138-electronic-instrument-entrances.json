@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/92-electronic-subcategories.json",
+      "slug": "elektronnaya-perkussiya",
+      "n0": "Электронная перкуссия в аренду | Пэды и звуковые модули для живой сцены",
+      "n1": "Электронная перкуссия | Чувствительность удара и выбор звучания"
+    },
+    {
+      "source_file": "content/sections/92-electronic-subcategories.json",
+      "slug": "elektronnaya-barabannaya-ustanovka",
+      "n0": "Электронная барабанная установка в аренду | Комплект для домашних занятий",
+      "n1": "Электронные барабаны дома | Пэды, педали и механический шум"
+    },
+    {
+      "source_file": "content/sections/92-electronic-subcategories.json",
+      "slug": "dram-mashiny",
+      "n0": "Драм-машины в аренду | Ритмические программы и синхронизация для выступления",
+      "n1": "Драм-машина | Как секвенсор превращает рисунок в исполнение"
+    },
+    {
+      "source_file": "content/sections/92-electronic-subcategories.json",
+      "slug": "semplery",
+      "n0": "Семплеры в аренду | Запуск и обработка собственных звуков на сцене",
+      "n1": "Семплер | Фрагмент записи как управляемая музыкальная партия"
+    },
+    {
+      "source_file": "content/sections/92-electronic-subcategories.json",
+      "slug": "elektronnye-duhovye",
+      "n0": "Электронные духовые инструменты в аренду | Дыхательное управление и цифровые тембры",
+      "n1": "Электронный духовой | Аппликатура и динамика дыхания в цифровом звуке"
+    },
+    {
+      "source_file": "content/sections/92-electronic-subcategories.json",
+      "slug": "termenvoks",
+      "n0": "Терменвокс в аренду | Инструмент с бесконтактным управлением",
+      "n1": "Терменвокс | Высота и громкость без прикосновения к инструменту"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "elektronnyy-organ",
+      "n0": "Электронный орган в аренду | Мануалы, педаль и регистры для занятий и сцены",
+      "n1": "Электронный орган | Исполнительская система вне стационарного трубного зала"
+    },
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "hammond-organ",
+      "n0": "Орган Hammond в аренду | Мануалы и drawbars для сцены и записи",
+      "n1": "Орган Hammond | Тембр как действие рук внутри ритм-секции"
+    },
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "organ-dlya-barochnogo-ansamblya",
+      "n0": "Орган для барочного ансамбля в аренду | Компактное continuo и общий строй",
+      "n1": "Барочный орган в continuo | Гармоническая опора рядом со струнными"
+    },
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "organ-dlya-repetitsii",
+      "n0": "Орган для репетиций в аренду | Мануалы и педаль на период подготовки",
+      "n1": "Репетиционный орган | Подготовка большой программы на доступном инструменте"
+    },
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "organ-dlya-studii",
+      "n0": "Орган для студийной записи в аренду | Регистры и чистые выходы",
+      "n1": "Орган в студии | Как сохранить регистровый тембр от дубля к дублю"
+    },
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "organ-dlya-myuzikla",
+      "n0": "Орган для мюзикла в аренду | Быстрые смены тембров в pit band",
+      "n1": "Орган в мюзикле | Клавишные роли внутри оркестровой ямы"
+    },
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "portativnyy-organ",
+      "n0": "Портативный орган в аренду | Компактный комплект для камерной программы",
+      "n1": "Портативный орган | Мануалы, регистры и переносимый корпус"
+    },
+    {
+      "source_file": "content/sections/100b-organ-landings.json",
+      "slug": "organ-dlya-kontserta",
+      "n0": "Орган для концерта в аренду | Мануалы, педаль и усиление под программу",
+      "n1": "Концертный орган | От камерного continuo к сольной сценической системе"
+    }
+  ]
+}

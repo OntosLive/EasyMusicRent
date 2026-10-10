@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-dlya-opernogo-orkestra",
+      "n0": "Смычковые для оперного оркестра в аренду | Комплектация секций на постановку",
+      "n1": "Оперные смычковые | Баланс с певцами и работа в оркестровой яме"
+    },
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-dlya-kamernogo-orkestra",
+      "n0": "Смычковые для камерного оркестра в аренду | Полный состав под программу",
+      "n1": "Камерная смычковая секция | Подвижность и баланс отдельных голосов"
+    },
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-dlya-molodezhnogo-orkestra",
+      "n0": "Смычковые для молодёжного оркестра в аренду | Размеры под каждого участника",
+      "n1": "Молодёжный смычковый оркестр | Учебная техника и совместный строй секций"
+    },
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-dlya-studiynoy-zapisi",
+      "n0": "Смычковые для студийной записи в аренду | Полная секция под микрофоны",
+      "n1": "Смычковая секция в студии | Единая атака и контроль механических шумов"
+    },
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-dlya-kinosemki",
+      "n0": "Смычковые инструменты для киносъёмки в аренду | Скрипки, альты, виолончели и басы",
+      "n1": "Смычковый инструмент в кадре | Настоящее движение вместо случайного реквизита"
+    },
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-na-gastroli",
+      "n0": "Смычковые инструменты на гастроли в аренду | Локальные замены под размер",
+      "n1": "Смычковые на гастролях | Сохранение исполнительской техники без перевозки"
+    },
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-dlya-festivalya",
+      "n0": "Смычковые для фестиваля в аренду | Инструменты для нескольких участников и дат",
+      "n1": "Фестивальный смычковый парк | Маркировка и выдача инструментов между программами"
+    },
+    {
+      "source_file": "content/sections/100d-string-ensemble-landings.json",
+      "slug": "smychkovye-dlya-istoricheskogo-ansamblya",
+      "n0": "Исторические смычковые для ансамбля в аренду | Струны, смычки и общий строй",
+      "n1": "Исторический смычковый ансамбль | Конфигурация инструмента как часть музыкального языка"
+    }
+  ]
+}

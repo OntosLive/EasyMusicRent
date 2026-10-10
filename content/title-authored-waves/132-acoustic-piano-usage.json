@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "pianino-na-vremya-remonta",
+      "n0": "Пианино на время ремонта в аренду | Акустическая замена для ежедневных занятий",
+      "n1": "Временное пианино | Сохранить посадку и практику до возвращения своего"
+    },
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "pianino-dlya-repetitsionnogo-klassa",
+      "n0": "Пианино для репетиционного класса в аренду | Механика под частые занятия",
+      "n1": "Репетиционное пианино | Нагрузка, настройка и состояние механики"
+    },
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "pianino-dlya-vokalista",
+      "n0": "Акустическое пианино для вокалиста в аренду | Аккомпанемент и интонационная опора",
+      "n1": "Пианино рядом с голосом | Как гармония поддерживает дыхание певца"
+    },
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "pianino-dlya-kamernogo-ansamblya",
+      "n0": "Пианино для камерного ансамбля в аренду | Инструмент под баланс состава",
+      "n1": "Камерное пианино | Артикуляция и взаимная слышимость инструментов"
+    },
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "royal-dlya-zapisi",
+      "n0": "Рояль для студийной записи в аренду | Динамический диапазон под микрофоны",
+      "n1": "Рояль в студии | Механические шумы и градации фортепианной динамики"
+    },
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "royal-dlya-vokalnogo-kontserta",
+      "n0": "Рояль для вокального концерта в аренду | Акустический партнёр певца",
+      "n1": "Рояль в вокальном концерте | Баланс фортепианной фактуры и голоса"
+    },
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "royal-dlya-konkursa",
+      "n0": "Рояль для конкурса в аренду | Профессиональный инструмент на период подготовки",
+      "n1": "Конкурсный рояль | Знакомая механика и устойчивость движений пианиста"
+    },
+    {
+      "source_file": "content/sections/100a-acoustic-piano-landings.json",
+      "slug": "royal-dlya-repetitsii",
+      "n0": "Рояль для репетиции в аренду | Инструмент для подготовки всей программы",
+      "n1": "Репетиционный рояль | Повторение фрагментов и ансамблевая работа"
+    }
+  ]
+}

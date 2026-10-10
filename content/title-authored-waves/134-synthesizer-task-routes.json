@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-dlya-studii",
+      "n0": "Синтезатор для студии в аренду | Сохранение патчей и синхронизация проекта",
+      "n1": "Студийный синтезатор | Повторяемый тембр и управление записью"
+    },
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-dlya-kontserta",
+      "n0": "Синтезатор для концерта в аренду | Программы и выходы под сет-лист",
+      "n1": "Сценический синтезатор | Подготовленные звуки при смене песен"
+    },
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-dlya-nachinayuschego",
+      "n0": "Синтезатор для начинающего в аренду | Понятное управление и первые тембры",
+      "n1": "Первый синтезатор | Осциллятор и фильтр как слышимые инструменты"
+    },
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-dlya-basa",
+      "n0": "Синтезатор для басовой линии в аренду | Монофония и управляемая атака",
+      "n1": "Синтезаторный бас | Огибающая и фильтр внутри ритм-секции"
+    },
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-dlya-pedov",
+      "n0": "Синтезатор для пэдов в аренду | Полифония и атмосферные слои",
+      "n1": "Пэды в аранжировке | Огибающая и гармоническое пространство без перегруза"
+    },
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-dlya-zhivogo-vystupleniya",
+      "n0": "Синтезатор для живого выступления в аренду | Изменение тембра прямо на сцене",
+      "n1": "Живой синтез | Звук становится частью исполнительского жеста"
+    },
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-na-vremya-remonta",
+      "n0": "Синтезатор на время ремонта в аренду | Замена клавиатуры, MIDI и программ",
+      "n1": "Временный синтезатор | Сохранение концертного сета при замене инструмента"
+    },
+    {
+      "source_file": "content/sections/100c-synth-scenario-landings.json",
+      "slug": "sintezator-dlya-eksperimentalnoy-muzyki",
+      "n0": "Синтезатор для экспериментальной музыки в аренду | Модуляция и маршрутизация",
+      "n1": "Экспериментальный синтез | Новые способы управлять движением звука"
+    }
+  ]
+}

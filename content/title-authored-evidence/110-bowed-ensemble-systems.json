@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychkovye-dlya-opernogo-orkestra": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Смычковые для оперного оркестра: состав секций, баланс с певцами, репетиционный график и работа в яме.",
+        "decision": "Смычковые для оперного оркестра в аренду | Комплектация секций на постановку",
+        "next_action": "Комплектация секций на постановку"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "В опере смычковые работают внутри большой театральной системы: поддерживают певцов, ",
+        "decision": "Оперные смычковые | Баланс с певцами и работа в оркестровой яме",
+        "next_action": "Баланс с певцами и работа в оркестровой яме"
+      }
+    },
+    "smychkovye-dlya-kamernogo-orkestra": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Смычковые для камерного оркестра: количество, баланс секций, размеры и подготовка общего состава.",
+        "decision": "Смычковые для камерного оркестра в аренду | Полный состав под программу",
+        "next_action": "Полный состав под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Камерный оркестр требует меньшего числа инструментов, но не меньшей точности в соста",
+        "decision": "Камерная смычковая секция | Подвижность и баланс отдельных голосов",
+        "next_action": "Подвижность и баланс отдельных голосов"
+      }
+    },
+    "smychkovye-dlya-molodezhnogo-orkestra": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Смычковые для молодёжного оркестра: размеры, удобство, устойчивость настройки и общий учебный процесс.",
+        "decision": "Смычковые для молодёжного оркестра в аренду | Размеры под каждого участника",
+        "next_action": "Размеры под каждого участника"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "В молодёжном оркестре инструменты должны поддерживать не только концерт, но и весь у",
+        "decision": "Молодёжный смычковый оркестр | Учебная техника и совместный строй секций",
+        "next_action": "Учебная техника и совместный строй секций"
+      }
+    },
+    "smychkovye-dlya-studiynoy-zapisi": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Смычковые для записи: подбор секции, техническое состояние, штрихи и баланс в микрофонах.",
+        "decision": "Смычковые для студийной записи в аренду | Полная секция под микрофоны",
+        "next_action": "Полная секция под микрофоны"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Микрофон слышит смычковую секцию ближе, чем зал. Случайный призвук, неравномерность ",
+        "decision": "Смычковая секция в студии | Единая атака и контроль механических шумов",
+        "next_action": "Единая атака и контроль механических шумов"
+      }
+    },
+    "smychkovye-dlya-kinosemki": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Скрипки, альты, виолончели и контрабасы для кино: внешний образ, техника актёра и разделение реквизита и живого исполнения.",
+        "decision": "Смычковые инструменты для киносъёмки в аренду | Скрипки, альты, виолончели и басы",
+        "next_action": "Скрипки, альты, виолончели и басы"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "В кино смычковый инструмент может быть рабочим голосом, сценическим предметом или кр",
+        "decision": "Смычковый инструмент в кадре | Настоящее движение вместо случайного реквизита",
+        "next_action": "Настоящее движение вместо случайного реквизита"
+      }
+    },
+    "smychkovye-na-gastroli": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Смычковые на гастроли: временная замена, привычные размеры, логистика и время на адаптацию.",
+        "decision": "Смычковые инструменты на гастроли в аренду | Локальные замены под размер",
+        "next_action": "Локальные замены под размер"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Иногда безопаснее приехать без собственного инструмента и получить рабочую замену на",
+        "decision": "Смычковые на гастролях | Сохранение исполнительской техники без перевозки",
+        "next_action": "Сохранение исполнительской техники без перевозки"
+      }
+    },
+    "smychkovye-dlya-festivalya": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Смычковые для фестиваля: комплектация нескольких участников, маркировка, выдача и репетиционный график.",
+        "decision": "Смычковые для фестиваля в аренду | Инструменты для нескольких участников и дат",
+        "next_action": "Инструменты для нескольких участников и дат"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Фестивальный проект отличается масштабом: несколько исполнителей могут приезжать в р",
+        "decision": "Фестивальный смычковый парк | Маркировка и выдача инструментов между программами",
+        "next_action": "Маркировка и выдача инструментов между программами"
+      }
+    },
+    "smychkovye-dlya-istoricheskogo-ansamblya": {
+      "n0": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Исторически ориентированные смычковые: струны, смычки, строй и согласование всей ансамблевой практики.",
+        "decision": "Исторические смычковые для ансамбля в аренду | Струны, смычки и общий строй",
+        "next_action": "Струны, смычки и общий строй"
+      },
+      "n1": {
+        "source_path": "content/sections/100d-string-ensemble-landings.json",
+        "source_quote": "Для исторически ориентированного ансамбля важно не просто получить старые или старин",
+        "decision": "Исторический смычковый ансамбль | Конфигурация инструмента как часть музыкального языка",
+        "next_action": "Конфигурация инструмента как часть музыкального языка"
+      }
+    }
+  }
+}

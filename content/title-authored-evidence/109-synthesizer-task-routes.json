@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "sintezator-dlya-studii": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Синтезатор для студийной работы: сохранение патчей, управление тембром, синхронизация и запись.",
+        "decision": "Синтезатор для студии в аренду | Сохранение патчей и синхронизация проекта",
+        "next_action": "Сохранение патчей и синхронизация проекта"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "В студии синтезатор нужен не только ради красивого первого звука. Важнее понять, мож",
+        "decision": "Студийный синтезатор | Повторяемый тембр и управление записью",
+        "next_action": "Повторяемый тембр и управление записью"
+      }
+    },
+    "sintezator-dlya-kontserta": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Синтезатор для концерта: программы, переключения, выходы, надёжность и подготовка сет-листа.",
+        "decision": "Синтезатор для концерта в аренду | Программы и выходы под сет-лист",
+        "next_action": "Программы и выходы под сет-лист"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "На сцене синтезатор должен работать быстрее, чем мысль о нём. Все нужные тембры, зон",
+        "decision": "Сценический синтезатор | Подготовленные звуки при смене песен",
+        "next_action": "Подготовленные звуки при смене песен"
+      }
+    },
+    "sintezator-dlya-nachinayuschego": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Синтезатор для начинающего: понятное управление, базовые способы изменения звука и возможность регулярной практики.",
+        "decision": "Синтезатор для начинающего в аренду | Понятное управление и первые тембры",
+        "next_action": "Понятное управление и первые тембры"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Первый синтезатор полезен тогда, когда человек может связать простое действие с поня",
+        "decision": "Первый синтезатор | Осциллятор и фильтр как слышимые инструменты",
+        "next_action": "Осциллятор и фильтр как слышимые инструменты"
+      }
+    },
+    "sintezator-dlya-basa": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Синтезатор для басовой партии: монофония, огибающая, фильтр и место в ритм-секции.",
+        "decision": "Синтезатор для басовой линии в аренду | Монофония и управляемая атака",
+        "next_action": "Монофония и управляемая атака"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Басовая линия должна одновременно давать глубину и сохранять форму ритма. Поэтому си",
+        "decision": "Синтезаторный бас | Огибающая и фильтр внутри ритм-секции",
+        "next_action": "Огибающая и фильтр внутри ритм-секции"
+      }
+    },
+    "sintezator-dlya-pedov": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Синтезатор для атмосферных пэдов: полифония, огибающие, движение тембра и место в аранжировке.",
+        "decision": "Синтезатор для пэдов в аренду | Полифония и атмосферные слои",
+        "next_action": "Полифония и атмосферные слои"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Пэд редко существует как отдельный эффектный звук. Его задача обычно состоит в том, ",
+        "decision": "Пэды в аранжировке | Огибающая и гармоническое пространство без перегруза",
+        "next_action": "Огибающая и гармоническое пространство без перегруза"
+      }
+    },
+    "sintezator-dlya-zhivogo-vystupleniya": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Синтезатор для живого исполнения: ручное управление, экспрессия, сцепка с ансамблем и подготовка сценического набора.",
+        "decision": "Синтезатор для живого выступления в аренду | Изменение тембра прямо на сцене",
+        "next_action": "Изменение тембра прямо на сцене"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Когда тембр меняется прямо во время исполнения, синтезатор становится не источником ",
+        "decision": "Живой синтез | Звук становится частью исполнительского жеста",
+        "next_action": "Звук становится частью исполнительского жеста"
+      }
+    },
+    "sintezator-na-vremya-remonta": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Замена синтезатора на время ремонта: клавиатура, программы, MIDI и сохранение концертной или студийной работы.",
+        "decision": "Синтезатор на время ремонта в аренду | Замена клавиатуры, MIDI и программ",
+        "next_action": "Замена клавиатуры, MIDI и программ"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Поломка основного синтезатора обычно происходит не в пустом календаре. Временная зам",
+        "decision": "Временный синтезатор | Сохранение концертного сета при замене инструмента",
+        "next_action": "Сохранение концертного сета при замене инструмента"
+      }
+    },
+    "sintezator-dlya-eksperimentalnoy-muzyki": {
+      "n0": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Синтезатор для экспериментальной музыки: необычная маршрутизация, модуляция, внешнее управление и поиск собственного метода.",
+        "decision": "Синтезатор для экспериментальной музыки в аренду | Модуляция и маршрутизация",
+        "next_action": "Модуляция и маршрутизация"
+      },
+      "n1": {
+        "source_path": "content/sections/100c-synth-scenario-landings.json",
+        "source_quote": "Экспериментальная задача начинается не с экзотического корпуса, а с вопроса: что име",
+        "decision": "Экспериментальный синтез | Новые способы управлять движением звука",
+        "next_action": "Новые способы управлять движением звука"
+      }
+    }
+  }
+}

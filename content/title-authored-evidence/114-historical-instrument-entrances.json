@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "srednevekovye-muzykalnye-instrumenty": {
+      "n0": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Средневековые музыкальные инструменты и реконструкции: исторический образец, музыкальная программа и различие живой игры и реквизита.",
+        "decision": "Средневековые музыкальные инструменты в аренду | Рабочие реконструкции для сцены",
+        "next_action": "Рабочие реконструкции для сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Для программы или постановки нужен инструмент, который убедительно относится к выбра",
+        "decision": "Средневековые инструменты | От изображения и музейного образца к звучанию",
+        "next_action": "От изображения и музейного образца к звучанию"
+      }
+    },
+    "renessansnye-muzykalnye-instrumenty": {
+      "n0": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Инструменты эпохи Возрождения для ансамбля: состав, диапазоны, голосоведение и исторически уместное сочетание тембров.",
+        "decision": "Ренессансные инструменты в аренду | Состав под ансамбль эпохи Возрождения",
+        "next_action": "Состав под ансамбль эпохи Возрождения"
+      },
+      "n1": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "В многоголосной пьесе каждая линия должна оставаться слышимой и одновременно участво",
+        "decision": "Ренессансный ансамбль | Отдельные регистры и историческое голосоведение",
+        "next_action": "Отдельные регистры и историческое голосоведение"
+      }
+    },
+    "barochnye-muzykalnye-instrumenty": {
+      "n0": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Барочные музыкальные инструменты: исполнительская настройка, басовая опора, состав и подготовка концертной программы.",
+        "decision": "Барочные музыкальные инструменты в аренду | Комплектация под партитуру и строй",
+        "next_action": "Комплектация под партитуру и строй"
+      },
+      "n1": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Ноты уже выучены, но программа предполагает другое звучание и другую артикуляцию. То",
+        "decision": "Барочные инструменты | Историческая настройка и басовая опора continuo",
+        "next_action": "Историческая настройка и басовая опора continuo"
+      }
+    },
+    "istoricheskie-strunnye": {
+      "n0": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Исторические смычковые и щипковые инструменты: конструкция, струны, техника и различие между оригиналом и рабочей реконструкцией.",
+        "decision": "Исторические струнные инструменты в аренду | Смычковые и щипковые реконструкции",
+        "next_action": "Смычковые и щипковые реконструкции"
+      },
+      "n1": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Переход к историческому струнному инструменту меняет саму пробу музыки. Исполнитель ",
+        "decision": "Исторические струнные | Как конструкция и струны меняют исполнительскую технику",
+        "next_action": "Как конструкция и струны меняют исполнительскую технику"
+      }
+    },
+    "istoricheskie-duhovye": {
+      "n0": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "Исторические духовые инструменты: конструкция, аппликатура, строй ансамбля и подготовка исполнителя к конкретной программе.",
+        "decision": "Исторические духовые инструменты в аренду | Состав и строй под раннюю программу",
+        "next_action": "Состав и строй под раннюю программу"
+      },
+      "n1": {
+        "source_path": "content/sections/93-historical-subcategories.json",
+        "source_quote": "В программе нужен исторический духовой голос. Чтобы он действительно вошёл в ансамбл",
+        "decision": "Исторические духовые | Другая аппликатура и ответ на дыхание",
+        "next_action": "Другая аппликатура и ответ на дыхание"
+      }
+    }
+  }
+}

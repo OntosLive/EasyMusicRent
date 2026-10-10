@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "indiyskie-muzykalnye-instrumenty",
+      "n0": "Индийские музыкальные инструменты в аренду | Ситар, табла, танпура и флейты",
+      "n1": "Индийская музыкальная традиция | Мелодия, ритм и высотная опора"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "sitar",
+      "n0": "Ситар в аренду | Инструмент с игровыми и резонирующими струнами",
+      "n1": "Ситар | Мелодическая линия и резонанс дополнительных струн"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "tabla",
+      "n0": "Табла в аренду | Пара барабанов для индийского ансамбля",
+      "n1": "Табла | Два настроенных барабана и ритмическая артикуляция"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "tanpura",
+      "n0": "Танпура в аренду | Струнный бурдон для пения и ансамбля",
+      "n1": "Танпура | Открытые струны как постоянная высотная опора"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "bansuri",
+      "n0": "Бансури в аренду | Бамбуковая флейта нужного основного тона",
+      "n1": "Бансури | Расстояние между отверстиями и дыхательная фраза"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "sarangi",
+      "n0": "Саранги в аренду | Индийский смычковый инструмент для исполнения",
+      "n1": "Саранги | Резонатор, струны и непрерывность смычкового голоса"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "sarod",
+      "n0": "Сарод в аренду | Безладовый щипковый инструмент для индийской музыки",
+      "n1": "Сарод | Щипковая атака и свободное движение высоты"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "mridangam",
+      "n0": "Мридангам в аренду | Двусторонний барабан для южноиндийской музыки",
+      "n1": "Мридангам | Две мембраны и самостоятельный ритмический голос"
+    },
+    {
+      "source_file": "content/sections/90-indian-ensemble.json",
+      "slug": "indiyskiy-ansambl",
+      "n0": "Индийские инструменты для ансамбля в аренду | Полный состав под программу",
+      "n1": "Индийский ансамбль | Как мелодия, бурдон и ритм работают вместе"
+    }
+  ]
+}

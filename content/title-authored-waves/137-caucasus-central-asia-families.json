@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "kavkazskie-muzykalnye-instrumenty",
+      "n0": "Кавказские музыкальные инструменты в аренду | Дудук, кеманча, тар и ансамблевые голоса",
+      "n1": "Музыка Кавказа | Инструмент и строй конкретной традиции"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "duduk",
+      "n0": "Дудук в аренду | Духовой инструмент с двойной тростью для сцены и записи",
+      "n1": "Дудук | Дыхательная фраза и характер тёплого тростевого голоса"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "kemancha",
+      "n0": "Кеманча в аренду | Смычковый инструмент под сольную и ансамблевую партию",
+      "n1": "Кеманча | Строй, смычок и исполнительская традиция"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "tar",
+      "n0": "Музыкальный тар в аренду | Щипковый инструмент под строй и программу",
+      "n1": "Тар | Медиатор, струны и интонация традиционной музыки"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "sredneaziatskie-muzykalnye-instrumenty",
+      "n0": "Музыкальные инструменты Центральной Азии в аренду | Домбра, дутар и ансамбли",
+      "n1": "Центральноазиатские инструменты | Песня и щипковая исполнительская традиция"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "dombra",
+      "n0": "Домбра в аренду | Двухструнный инструмент для обучения и концерта",
+      "n1": "Домбра | Правая рука и строй внутри музыкальной традиции"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "dutar",
+      "n0": "Дутар в аренду | Щипковый инструмент для традиционной песни",
+      "n1": "Дутар | Региональные строи и сопровождение человеческого голоса"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "blizhnevostochnye-muzykalnye-instrumenty",
+      "n0": "Ближневосточные музыкальные инструменты в аренду | Уд, канун, ней и ансамбли",
+      "n1": "Музыка Ближнего Востока | Строй, интонация и сочетание голосов"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "kanun",
+      "n0": "Канун в аренду | Струнный инструмент с рычажками изменения высоты",
+      "n1": "Канун | Хоры струн и перестройка интонации во время игры"
+    },
+    {
+      "source_file": "content/sections/91-caucasus-central-west-asia.json",
+      "slug": "ney",
+      "n0": "Флейта ней в аренду | Духовой инструмент подходящей региональной традиции",
+      "n1": "Флейта ней | Основной тон и дыхательное звукоизвлечение"
+    }
+  ]
+}
