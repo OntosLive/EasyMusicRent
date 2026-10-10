@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду, N.1 объясняет предмет",
+  "records": [
+    {
+      "source_file": "content/sections/95-special-subcategories.json",
+      "slug": "akusticheskie-eksperimentalnye-instrumenty",
+      "n0": "Экспериментальные акустические инструменты в аренду | Живые резонансы для сцены и записи",
+      "n1": "Экспериментальная акустика | Как материал, движение и резонатор формируют звук"
+    },
+    {
+      "source_file": "content/sections/95-special-subcategories.json",
+      "slug": "mehanicheskie-muzykalnye-instrumenty",
+      "n0": "Механические музыкальные инструменты в аренду | Работающие системы для театра и съёмки",
+      "n1": "Механическая музыка | От видимого движения к слышимой мелодии"
+    },
+    {
+      "source_file": "content/sections/95-special-subcategories.json",
+      "slug": "gibridnye-muzykalnye-instrumenty",
+      "n0": "Гибридные акустико-электронные инструменты в аренду | Звучание и датчики в одном комплекте",
+      "n1": "Гибридный инструмент | Один жест соединяет акустическую и электронную партии"
+    },
+    {
+      "source_file": "content/sections/95-special-subcategories.json",
+      "slug": "zhestovye-muzykalnye-kontrollery",
+      "n0": "Жестовые музыкальные контроллеры в аренду | Управление звуком движением",
+      "n1": "Жестовый контроллер | Как движение превращается в тембр и динамику"
+    },
+    {
+      "source_file": "content/sections/95-special-subcategories.json",
+      "slug": "muzykalnye-instrumenty-dlya-specialnyh-proektov",
+      "n0": "Музыкальные инструменты для специальных проектов в аренду | Подбор под авторский замысел",
+      "n1": "Специальный музыкальный проект | Как выбрать инструмент по звуку и действию"
+    }
+  ]
+}

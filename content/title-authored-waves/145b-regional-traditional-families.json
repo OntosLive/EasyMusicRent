@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду, N.1 объясняет предмет",
+  "records": [
+    {
+      "source_file": "content/sections/96-regional-subcategories.json",
+      "slug": "russkie-narodnye-muzykalnye-instrumenty",
+      "n0": "Русские народные инструменты в аренду | Домры, балалайки, гусли и гармони",
+      "n1": "Русские народные инструменты | Как строй и оркестровая роль определяют выбор"
+    },
+    {
+      "source_file": "content/sections/96-regional-subcategories.json",
+      "slug": "afrikanskie-muzykalnye-instrumenty",
+      "n0": "Африканские музыкальные инструменты в аренду | Подбор по традиции и партии",
+      "n1": "Музыкальные традиции Африки | Мелодические и ударные голоса разных регионов"
+    },
+    {
+      "source_file": "content/sections/96-regional-subcategories.json",
+      "slug": "podbor-traditsionnogo-muzykalnogo-instrumenta",
+      "n0": "Традиционный музыкальный инструмент в аренду | Найдём по звучанию и описанию",
+      "n1": "Поиск традиционного инструмента | Название, устройство и пример звучания"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "N.0 отвечает на аренду, N.1 объясняет предмет",
+  "records": [
+    {
+      "source_file": "content/sections/97-historical-strings.json",
+      "slug": "barochnaya-skripka",
+      "n0": "Барочная скрипка в аренду | Жильные струны и исторический смычок под программу",
+      "n1": "Барочная скрипка | Как струны, смычок и строй меняют привычную фразу"
+    },
+    {
+      "source_file": "content/sections/97-historical-strings.json",
+      "slug": "barochnaya-violonchel",
+      "n0": "Барочная виолончель в аренду | Историческая конфигурация для ансамбля и соло",
+      "n1": "Барочная виолончель | Басовая партия, жильные струны и опора в ранней музыке"
+    },
+    {
+      "source_file": "content/sections/97-historical-strings.json",
+      "slug": "viola-da-gamba",
+      "n0": "Виола да гамба в аренду | Исторический смычковый инструмент нужного размера",
+      "n1": "Виола да гамба | Лады и отдельная система струнной игры"
+    },
+    {
+      "source_file": "content/sections/97-historical-strings.json",
+      "slug": "rebek",
+      "n0": "Ребек в аренду | Малый исторический смычковый инструмент для реконструкции",
+      "n1": "Ребек | Как исторический образец определяет смычок и строй"
+    },
+    {
+      "source_file": "content/sections/97-historical-strings.json",
+      "slug": "kolesnaya-lira",
+      "n0": "Колёсная лира в аренду | Мелодия, клавиши и бурдоны для живой программы",
+      "n1": "Колёсная лира | Вращающееся колесо и непрерывный струнный звук"
+    }
+  ]
+}

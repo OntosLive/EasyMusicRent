@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "russkie-narodnye-muzykalnye-instrumenty": {
+      "n0": {
+        "source_path": "content/sections/96-regional-subcategories.json",
+        "source_quote": "Домра, балалайка, гусли и гармонь для занятий и исполнения: точный тип, строй, программа и различие концертной и сценической задачи.",
+        "decision": "Русские народные инструменты в аренду | Домры, балалайки, гусли и гармони",
+        "next_action": "Домры, балалайки, гусли и гармони"
+      },
+      "n1": {
+        "source_path": "content/sections/96-regional-subcategories.json",
+        "source_quote": "Для одного проекта нужно сопровождение песни, для другого конкретная оркестровая парт",
+        "decision": "Русские народные инструменты | Как строй и оркестровая роль определяют выбор",
+        "next_action": "Как строй и оркестровая роль определяют выбор"
+      }
+    },
+    "afrikanskie-muzykalnye-instrumenty": {
+      "n0": {
+        "source_path": "content/sections/96-regional-subcategories.json",
+        "source_quote": "Музыкальные инструменты африканских традиций: точное название, устройство, ритмическая или мелодическая роль и соответствие проекту.",
+        "decision": "Африканские музыкальные инструменты в аренду | Подбор по традиции и партии",
+        "next_action": "Подбор по традиции и партии"
+      },
+      "n1": {
+        "source_path": "content/sections/96-regional-subcategories.json",
+        "source_quote": "За общим запросом «африканский инструмент» может стоять определённая ритмическая парт",
+        "decision": "Музыкальные традиции Африки | Мелодические и ударные голоса разных регионов",
+        "next_action": "Мелодические и ударные голоса разных регионов"
+      }
+    },
+    "podbor-traditsionnogo-muzykalnogo-instrumenta": {
+      "n0": {
+        "source_path": "content/sections/96-regional-subcategories.json",
+        "source_quote": "Подбор инструмента другой музыкальной традиции: название на языке исполнителя, звуковой пример, конструкция и требования программы.",
+        "decision": "Традиционный музыкальный инструмент в аренду | Найдём по звучанию и описанию",
+        "next_action": "Найдём по звучанию и описанию"
+      },
+      "n1": {
+        "source_path": "content/sections/96-regional-subcategories.json",
+        "source_quote": "Нужное название пока не встретилось в каталоге. Или инструмент слышен в записи, но ег",
+        "decision": "Поиск традиционного инструмента | Название, устройство и пример звучания",
+        "next_action": "Название, устройство и пример звучания"
+      }
+    }
+  }
+}

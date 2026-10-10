@@ -2,7 +2,7 @@
   "schema_version": 1,
   "editorial_status": "model_reviewed_pilot",
   "author_model": "GPT-6",
-  "record_count": 3740,
+  "record_count": 3776,
   "read_strategy": "merge_explicit_shards_no_generated_title_copy",
   "shards": [
     "content/title-authored-evidence/01-original-instruments-sound.json",
@@ -142,6 +142,10 @@
     "content/title-authored-evidence/119c-extended-wind-voices.json",
     "content/title-authored-evidence/119d-orchestral-plucked-voices.json",
     "content/title-authored-evidence/119e-wind-step-up-models.json",
-    "content/title-authored-evidence/119f-wind-and-mandolin-ensembles.json"
+    "content/title-authored-evidence/119f-wind-and-mandolin-ensembles.json",
+    "content/title-authored-evidence/139a-experimental-families.json",
+    "content/title-authored-evidence/139b-regional-traditional-families.json",
+    "content/title-authored-evidence/139c-historical-bowed-roots.json",
+    "content/title-authored-evidence/139d-historical-wind-roots.json"
   ]
 }
