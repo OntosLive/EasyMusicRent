@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "review_type": "literal source excerpts",
+  "reviews": {
+    "casio-celviano-v-arendu": {
+      "n0": {
+        "source_path": "casio-celviano-v-arendu/index.html",
+        "source_quote": "Celviano — корпусная линия цифровых пианино Casio для постоянной домашне",
+        "decision": "Casio Celviano в аренду | Корпусные цифровые пианино для домашней учёбы",
+        "next_action": "Корпусные цифровые пианино для домашней учёбы"
+      },
+      "n1": {
+        "source_path": "casio-celviano-v-arendu/index.html",
+        "source_quote": "Внутри серии модели различаются механикой клавиатуры, акустикой, корпусо",
+        "decision": "Семейство Casio Celviano | Постоянное рабочее место за цифровым фортепиано",
+        "next_action": "Постоянное рабочее место за цифровым фортепиано"
+      }
+    },
+    "casio-ap270-v-arendu": {
+      "n0": {
+        "source_path": "casio-ap270-v-arendu/index.html",
+        "source_quote": "AP-270 — корпусное цифровое пианино Celviano для домашних занятий и обуч",
+        "decision": "Casio AP-270 напрокат | Корпусное пианино на период домашнего обучения",
+        "next_action": "Корпусное пианино на период домашнего обучения"
+      },
+      "n1": {
+        "source_path": "casio-ap270-v-arendu/index.html",
+        "source_quote": "Оно подходит, если нужен постоянный инструмент с 88 клавишами и тройным ",
+        "decision": "Casio AP-270 | Цифровая Celviano для ежедневной практики",
+        "next_action": "Цифровая Celviano для ежедневной практики"
+      }
+    },
+    "casio-ap470-v-arendu": {
+      "n0": {
+        "source_path": "casio-ap470-v-arendu/index.html",
+        "source_quote": "AP-470 — корпусное цифровое пианино Celviano для регулярной домашней пра",
+        "decision": "Casio AP-470 в аренду | Домашнее пианино для более требовательной программы",
+        "next_action": "Домашнее пианино для более требовательной программы"
+      },
+      "n1": {
+        "source_path": "casio-ap470-v-arendu/index.html",
+        "source_quote": "По сравнению с базовыми моделями здесь важнее уже не просто наличие корп",
+        "decision": "Casio AP-470 | Корпусная модель Celviano для серьёзных занятий",
+        "next_action": "Корпусная модель Celviano для серьёзных занятий"
+      }
+    },
+    "casio-ap550-v-arendu": {
+      "n0": {
+        "source_path": "casio-ap550-v-arendu/index.html",
+        "source_quote": "AP-550 — корпусное цифровое пианино более высокого класса для серьёзной ",
+        "decision": "Casio AP-550 напрокат | Продвинутый домашний инструмент серии Celviano",
+        "next_action": "Продвинутый домашний инструмент серии Celviano"
+      },
+      "n1": {
+        "source_path": "casio-ap550-v-arendu/index.html",
+        "source_quote": "Аренда позволяет использовать более точную клавиатуру уже на этапе обуче",
+        "decision": "Casio AP-550 | Корпусное цифровое фортепиано следующего уровня",
+        "next_action": "Корпусное цифровое фортепиано следующего уровня"
+      }
+    },
+    "casio-ap750-v-arendu": {
+      "n0": {
+        "source_path": "casio-ap750-v-arendu/index.html",
+        "source_quote": "AP-750 — старшая корпусная модель Celviano для серьёзной домашней и проф",
+        "decision": "Casio AP-750 в аренду | Старшая Celviano для исполнительской практики дома",
+        "next_action": "Старшая Celviano для исполнительской практики дома"
+      },
+      "n1": {
+        "source_path": "casio-ap750-v-arendu/index.html",
+        "source_quote": "Её имеет смысл рассматривать, когда нужен высокий класс цифровой клавиат",
+        "decision": "Casio AP-750 | Развитая корпусная система для профессиональной программы",
+        "next_action": "Развитая корпусная система для профессиональной программы"
+      }
+    },
+    "casio-aps450-v-arendu": {
+      "n0": {
+        "source_path": "casio-aps450-v-arendu/index.html",
+        "source_quote": "AP-S450 — тонкое корпусное цифровое пианино Celviano для дома, где важны",
+        "decision": "Casio AP-S450 напрокат | Полноценное пианино в тонком корпусе для квартиры",
+        "next_action": "Полноценное пианино в тонком корпусе для квартиры"
+      },
+      "n1": {
+        "source_path": "casio-aps450-v-arendu/index.html",
+        "source_quote": "Его имеет смысл рассматривать, если обычное корпусное пианино занимает с",
+        "decision": "Casio AP-S450 | Компактная глубина при постоянной учебной клавиатуре",
+        "next_action": "Компактная глубина при постоянной учебной клавиатуре"
+      }
+    }
+  }
+}
