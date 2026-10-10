@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "steinway-d274-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "Steinway D-274 Concert Grand: 274 см, мировой концертный стандарт и реальная rental-позиция для больших залов.",
+        "decision": "Рояль Steinway D-274 в аренду | Концертный инструмент для большого зала",
+        "next_action": "Концертный инструмент для большого зала"
+      },
+      "n1": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "Steinway D‑274 — один из редчайших случаев, когда производитель сам называет мод",
+        "decision": "Steinway D-274 | Звуковой масштаб концертного рояля длиной 274 см",
+        "next_action": "Звуковой масштаб концертного рояля длиной 274 см"
+      }
+    },
+    "steinway-b211-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "Steinway B-211: 211 см, benchmark mid-size grand для recital, studio, institution and concert use.",
+        "decision": "Рояль Steinway B-211 в аренду | Профессиональная модель 211 см",
+        "next_action": "Профессиональная модель 211 см"
+      },
+      "n1": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "B‑211 занимает важную промежуточную позицию: это уже большой профессиональный ро",
+        "decision": "Steinway B-211 | Рояль среднего размера для камерного зала и студии",
+        "next_action": "Рояль среднего размера для камерного зала и студии"
+      }
+    },
+    "yamaha-cfx-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "Yamaha CFX flagship concert grand: 275 cm class, artist-developed instrument for major halls and competitions.",
+        "decision": "Рояль Yamaha CFX в аренду | Флагман для концертной сцены",
+        "next_action": "Флагман для концертной сцены"
+      },
+      "n1": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "CFX — флагман Yamaha и самостоятельный concert-rider запрос. Производитель разра",
+        "decision": "Yamaha CFX | Современный концертный рояль как самостоятельный исполнительский голос",
+        "next_action": "Современный концертный рояль как самостоятельный исполнительский голос"
+      }
+    },
+    "boesendorfer-280vc-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "Bösendorfer 280VC Vienna Concert: 280 cm, 88 keys, 530 kg and professional concert-rental standard.",
+        "decision": "Рояль Bösendorfer 280VC в аренду | Большой Vienna Concert",
+        "next_action": "Большой Vienna Concert"
+      },
+      "n1": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "280VC — концертный Bösendorfer новой Vienna Concert-линии и самостоятельный выбо",
+        "decision": "Bösendorfer 280VC | Концертная архитектура венской школы длиной 280 см",
+        "next_action": "Концертная архитектура венской школы длиной 280 см"
+      }
+    },
+    "fazioli-f278-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "Fazioli F278 concert grand: 278 cm class, large-hall and recording-studio model with official rental service.",
+        "decision": "Рояль Fazioli F278 в аренду | Инструмент для большого концерта и студии",
+        "next_action": "Инструмент для большого концерта и студии"
+      },
+      "n1": {
+        "source_path": "content/sections/zz30-concert-grand-standards.json",
+        "source_quote": "F278 уже нельзя считать экзотической альтернативой. Fazioli прямо предлагает эту",
+        "decision": "Fazioli F278 | Исполнительская палитра большого концертного рояля",
+        "next_action": "Исполнительская палитра большого концертного рояля"
+      }
+    }
+  }
+}
