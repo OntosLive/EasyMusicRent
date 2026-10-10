@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Положительный ответ на аренду; N.1 раскрывает самостоятельную предметную сцену",
+  "records": [
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "eksperimentalnyy-akusticheskiy-instrument-dlya-pervogo-opyta",
+      "n0": "Экспериментальный акустический инструмент для пробы в аренду | Авторские звуковые конструкции",
+      "n1": "Экспериментальная акустика | Как материал, резонатор и движение создают звук"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "eksperimentalnyy-akusticheskiy-instrument-dlya-zapisi",
+      "n0": "Экспериментальный акустический инструмент для записи в аренду | Живой необычный тембр",
+      "n1": "Экспериментальная акустика в студии | Настоящий резонанс до электронной обработки"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "eksperimentalnyy-akusticheskiy-instrument-dlya-performansa",
+      "n0": "Экспериментальный акустический инструмент для перформанса в аренду | Звук и видимый жест",
+      "n1": "Экспериментальный инструмент в перформансе | Механика звука становится действием"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "eksperimentalnyy-akusticheskiy-instrument-pered-pokupkoy",
+      "n0": "Экспериментальный акустический инструмент перед покупкой в аренду | Проверка авторской конструкции",
+      "n1": "Авторский акустический инструмент до покупки | Повторяемость звука и повседневная практика"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "mehanicheskiy-instrument-dlya-pervogo-opyta",
+      "n0": "Механический музыкальный инструмент для первого опыта в аренду | Живая работа механизма",
+      "n1": "Первый механический музыкальный инструмент | Как физическая программа запускает музыку"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "mehanicheskiy-instrument-dlya-semki",
+      "n0": "Механический музыкальный инструмент для съёмки в аренду | Рабочий привод и выразительный кадр",
+      "n1": "Механический инструмент в кино | Привод, движение актёра и крупный план"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "mehanicheskiy-instrument-dlya-muzeynoy-ekspozitsii",
+      "n0": "Механический музыкальный инструмент для музейной экспозиции в аренду | Звучащий экспонат",
+      "n1": "Механическая музыка в музее | Как показать устройство, не повреждая инструмент"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "mehanicheskiy-instrument-dlya-teatralnoy-postanovki",
+      "n0": "Механический музыкальный инструмент для спектакля в аренду | Повторяемый звук на сцене",
+      "n1": "Механический инструмент в театре | Когда повторение становится частью драматургии"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "gibridnyy-instrument-dlya-pervogo-opyta",
+      "n0": "Гибридный акустико-электронный инструмент для первого опыта в аренду | Два звуковых слоя",
+      "n1": "Первый гибридный инструмент | Акустическое движение запускает электронный ответ"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "gibridnyy-instrument-dlya-kontserta",
+      "n0": "Гибридный музыкальный инструмент для концерта в аренду | Акустика, сенсоры и звуковой модуль",
+      "n1": "Гибридный инструмент на сцене | Точность связи жеста и электронного звука"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "gibridnyy-instrument-dlya-zapisi",
+      "n0": "Гибридный музыкальный инструмент для записи в аренду | Акустика и электроника в студии",
+      "n1": "Гибридная запись | Раздельные дорожки акустического и электронного слоёв"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "zhestovyy-kontroller-dlya-pervogo-opyta",
+      "n0": "Жестовый музыкальный контроллер для первого опыта в аренду | Управление звуком движением",
+      "n1": "Первый жестовый контроллер | От движения руки к музыкальному параметру"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "zhestovyy-kontroller-dlya-kontserta",
+      "n0": "Жестовый музыкальный контроллер для концерта в аренду | Сценическая система для перформанса",
+      "n1": "Жестовый контроллер на сцене | Музыкальное управление, которое видит зритель"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "zhestovyy-kontroller-dlya-saund-dizayna",
+      "n0": "Жестовый контроллер для саунд-дизайна в аренду | Запись живой многомерной автоматизации",
+      "n1": "Жесты в саунд-дизайне | Непрерывное движение управляет параметрами звука"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "instrument-dlya-odnogo-spetsialnogo-proekta",
+      "n0": "Необычный музыкальный инструмент для специального проекта в аренду | Конструкция под замысел",
+      "n1": "Редкий инструмент для одной работы | От музыкальной задачи к способу создания звука"
+    },
+    {
+      "source_file": "content/sections/zz112-experimental-special-human-scenes.json",
+      "slug": "redkiy-instrument-dlya-tehnicheskogo-raydera",
+      "n0": "Редкий музыкальный инструмент по техническому райдеру в аренду | Точный исполнительский интерфейс",
+      "n1": "Редкий инструмент в райдере | Почему сходный предмет не заменяет исполнительскую систему"
+    }
+  ]
+}
