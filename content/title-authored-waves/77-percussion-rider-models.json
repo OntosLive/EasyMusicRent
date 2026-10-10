@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz35-percussion-rider-standards.json",
+      "slug": "adams-professional-gen2-litavry-v-arendu",
+      "n0": "Литавры Adams Professional Gen II в аренду | Комплект размеров по партитуре",
+      "n1": "Adams Professional Gen II | Balanced-action педаль и диапазоны оркестровых литавр"
+    },
+    {
+      "source_file": "content/sections/zz35-percussion-rider-standards.json",
+      "slug": "yamaha-ym6100-v-arendu",
+      "n0": "Маримба Yamaha YM-6100 в аренду | Пятиоктавный Concert Grand",
+      "n1": "Yamaha YM-6100 | Деревянные пластины и пятиоктавный диапазон концертной маримбы"
+    },
+    {
+      "source_file": "content/sections/zz35-percussion-rider-standards.json",
+      "slug": "paiste-2002-set-v-arendu",
+      "n0": "Комплект тарелок Paiste 2002 в аренду | Подбор ride, crash и hi-hat по райдеру",
+      "n1": "Paiste 2002 | Бронзовая серия и яркая артикуляция рок-барабанщика"
+    },
+    {
+      "source_file": "content/sections/zz35-percussion-rider-standards.json",
+      "slug": "sabian-hhx-set-v-arendu",
+      "n0": "Комплект тарелок Sabian HHX в аренду | Тёмные профессиональные тембры",
+      "n1": "Sabian HHX | Современная тёмная палитра тарелок для живой игры"
+    },
+    {
+      "source_file": "content/sections/zz35-percussion-rider-standards.json",
+      "slug": "zildjian-k-series-set-v-arendu",
+      "n0": "Комплект тарелок Zildjian K Series в аренду | Размеры под конкретный комплект",
+      "n1": "Zildjian K | Тёмная традиция серии рядом с более яркой A Series"
+    }
+  ]
+}
