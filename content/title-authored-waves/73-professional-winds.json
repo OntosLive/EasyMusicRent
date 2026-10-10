@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "yamaha-yfl677-v-arendu",
+      "n0": "Флейта Yamaha YFL-677 в аренду | Профессиональная модель для сцены и обучения",
+      "n1": "Yamaha YFL-677 | Головка, механика и точная конфигурация профессиональной флейты"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "yamaha-yas62-v-arendu",
+      "n0": "Альт-саксофон Yamaha YAS-62 в аренду | Профессиональная серия для концерта",
+      "n1": "Yamaha YAS-62 | Долгая история серии и современная механика альта"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "yamaha-yts62-v-arendu",
+      "n0": "Тенор-саксофон Yamaha YTS-62 в аренду | Исполнительская модель для сцены",
+      "n1": "Yamaha YTS-62 | Профессиональный тенор, переживший несколько поколений"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "loree-royal-oboe-v-arendu",
+      "n0": "Гобой F. Lorée Royal в аренду | Профессиональная модель для оркестра",
+      "n1": "Lorée Royal | Консерваторская система и индивидуальный отклик трости"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "marigaux-901-v-arendu",
+      "n0": "Гобой Marigaux 901 в аренду | Профессиональный инструмент для концерта",
+      "n1": "Marigaux 901 | Механика и отклик гобоя в сольной и ансамблевой работе"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "fox-601-v-arendu",
+      "n0": "Фагот Fox Model 601 в аренду | Профессиональная модель для оркестра",
+      "n1": "Fox 601 | Толстостенный корпус и звуковая проекция фагота"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "yamaha-ytr8335rs-v-arendu",
+      "n0": "Труба Yamaha Xeno YTR-8335RS в аренду | Профессиональная B♭ модель",
+      "n1": "Yamaha YTR-8335RS | Обратная лидтруба и характер отклика серии Xeno"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "bach-42bo-v-arendu",
+      "n0": "Тромбон Bach Stradivarius 42BO в аренду | Симфоническая модель с F-квартой",
+      "n1": "Bach 42BO | Широкая мензура и открытая обводка квартвентиля"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "alexander-103-v-arendu",
+      "n0": "Валторна Alexander 103 в аренду | Двойная система F/B♭",
+      "n1": "Alexander 103 | Европейская оркестровая традиция профессиональной валторны"
+    },
+    {
+      "source_file": "content/sections/zz31-professional-wind-standards.json",
+      "slug": "besson-prestige-2052-v-arendu",
+      "n0": "Эуфониум Besson Prestige 2052 в аренду | Компенсирующая система для солиста",
+      "n1": "Besson Prestige 2052 | Четыре компенсирующих клапана и триггер настройки"
+    }
+  ]
+}
