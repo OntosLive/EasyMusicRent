@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz34-accordion-bayan-legendary-models.json",
+      "slug": "hohner-gola-v-arendu",
+      "n0": "Аккордеон Hohner Gola в аренду | Индивидуальная профессиональная конфигурация",
+      "n1": "Hohner Gola | Инструмент ручной сборки для солистической работы"
+    },
+    {
+      "source_file": "content/sections/zz34-accordion-bayan-legendary-models.json",
+      "slug": "pigini-super-bayan-sirius-v-arendu",
+      "n0": "Баян Pigini Super Bayan Sirius в аренду | Большая концертная свободнобасовая система",
+      "n1": "Pigini Super Bayan Sirius | Выборный бас, регистры и крупная клавишная архитектура"
+    },
+    {
+      "source_file": "content/sections/zz34-accordion-bayan-legendary-models.json",
+      "slug": "pigini-sirius-kyma-v-arendu",
+      "n0": "Баян Pigini Sirius Kyma в аренду | Компактный профессиональный выборный бас",
+      "n1": "Pigini Sirius Kyma | Меньший корпус с полноценной свободнобасовой системой"
+    }
+  ]
+}
