@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "editorial_law": "Прямой ответ на запрос аренды; N.1 раскрывает самостоятельную предметную глубину",
+  "records": [
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "traverso-dlya-pervogo-opyta",
+      "n0": "Траверсо для первого опыта в аренду | Барочная флейта с историческим строем",
+      "n1": "Первый опыт на траверсо | Деревянная флейта, одна клавиша и другая интонация"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "traverso-dlya-domashnih-zanyatiy",
+      "n0": "Траверсо для домашних занятий в аренду | Инструмент на весь период практики",
+      "n1": "Траверсо дома | Как исторический строй и аппликатура входят в ежедневную игру"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "traverso-posle-sovremennoy-fleyty",
+      "n0": "Траверсо после современной флейты в аренду | Переход к барочной аппликатуре",
+      "n1": "От современной флейты к траверсо | Открытые отверстия, одна клавиша и свобода интонации"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "traverso-pered-pokupkoy",
+      "n0": "Траверсо перед покупкой в аренду | Барочная флейта для пробы с ансамблем",
+      "n1": "Выбор траверсо до покупки | Реконструкция, строй и звучание в совместной игре"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "tsink-dlya-pervogo-opyta",
+      "n0": "Цинк (cornetto) для первого опыта в аренду | Живой голос ренессансного духового",
+      "n1": "Первый цинк (cornetto) | Мундштук и пальцевые отверстия соединяются в один инструмент"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "tsink-dlya-domashnih-zanyatiy",
+      "n0": "Цинк (cornetto) для занятий дома в аренду | Инструмент для регулярной практики",
+      "n1": "Домашний cornetto | Координация дыхания, мундштука и аппликатуры"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "tsink-pered-pokupkoy",
+      "n0": "Цинк (cornetto) перед покупкой в аренду | Проба исторической реконструкции",
+      "n1": "Cornetto перед покупкой | Мундштук, интонация и ансамблевый строй"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "sakbut-dlya-pervogo-opyta",
+      "n0": "Сакбут для первого опыта в аренду | Исторический тромбон с кулисой",
+      "n1": "Первый сакбут | Чем ренессансный тромбон отличается от современного"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "sakbut-posle-sovremennogo-trombona",
+      "n0": "Сакбут после современного тромбона в аренду | Кулиса в исторической мензуре",
+      "n1": "Переход от тромбона к сакбуту | Масштаб звука, мундштук и артикуляция"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "sakbut-pered-pokupkoy",
+      "n0": "Сакбут перед покупкой в аренду | Исторический тромбон для ансамблевой пробы",
+      "n1": "Сакбут до покупки | Как мензура и мундштук меняют работу в ансамбле"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "naturalnaya-truba-dlya-pervogo-opyta",
+      "n0": "Натуральная труба для первого опыта в аренду | Барочная медь без клапанов",
+      "n1": "Первая натуральная труба | Обертоны вместо клапанного механизма"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "naturalnaya-truba-posle-sovremennoy-truby",
+      "n0": "Натуральная труба после современной в аренду | Исторический звук без клапанов",
+      "n1": "От современной трубы к натуральной | Обертоновый ряд и работа амбушюра"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "naturalnaya-truba-pered-pokupkoy",
+      "n0": "Натуральная труба перед покупкой в аренду | Строи и кроны под исторический репертуар",
+      "n1": "Натуральная труба до покупки | Почему строй и кроны связаны с партитурой"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "shalmei-dlya-pervogo-opyta",
+      "n0": "Шалмей для первого опыта в аренду | Ранний духовой инструмент с двойной тростью",
+      "n1": "Первый шалмей | Двойная трость, открытые отверстия и сильный ансамблевый голос"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "shalmei-dlya-rannego-ansamblya",
+      "n0": "Шалмей для раннего ансамбля в аренду | Исторический голос в нужном регистре",
+      "n1": "Шалмей в раннем ансамбле | Регистр и строй формируют общий звуковой баланс"
+    },
+    {
+      "source_file": "content/sections/zz110-historical-winds-human-scenes.json",
+      "slug": "shalmei-pered-pokupkoy",
+      "n0": "Шалмей перед покупкой в аренду | Проба исторической модели с тростью",
+      "n1": "Шалмей до покупки | Трость и размер определяют исполнительский характер"
+    }
+  ]
+}
