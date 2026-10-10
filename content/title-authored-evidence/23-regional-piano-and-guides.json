@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "review_type": "literal source excerpts",
+  "reviews": {
+    "arenda-cifrovogo-pianino-kazan": {
+      "n0": {
+        "source_path": "arenda-cifrovogo-pianino-kazan/index.html",
+        "source_quote": "Если в Казани нужно цифровое пианино, задача обычно начинается с занятий",
+        "decision": "Цифровое пианино в аренду в Казани | Для домашней практики и музыкальной школы",
+        "next_action": "Для домашней практики и музыкальной школы"
+      },
+      "n1": {
+        "source_path": "arenda-cifrovogo-pianino-kazan/index.html",
+        "source_quote": "Важно подобрать не просто модель, а инструмент, на котором можно нормаль",
+        "decision": "Цифровое пианино для занятий в Казани | Полная клавиатура на нужный период",
+        "next_action": "Полная клавиатура на нужный период"
+      }
+    },
+    "arenda-koncertnogo-royalya-moskva": {
+      "n0": {
+        "source_path": "arenda-koncertnogo-royalya-moskva/index.html",
+        "source_quote": "Для концерта важен не факт наличия рояля, а соответствие инструмента исп",
+        "decision": "Концертный рояль в аренду в Москве | От камерного зала до большой сцены",
+        "next_action": "От камерного зала до большой сцены"
+      },
+      "n1": {
+        "source_path": "arenda-koncertnogo-royalya-moskva/index.html",
+        "source_quote": "Размер, класс инструмента, доставка, установка и время становятся одной ",
+        "decision": "Концертный рояль | Размер, механика и акустическая проекция для выступления",
+        "next_action": "Размер, механика и акустическая проекция для выступления"
+      }
+    },
+    "cifrovoe-pianino-yamaha": {
+      "n0": {
+        "source_path": "cifrovoe-pianino-yamaha/index.html",
+        "source_quote": "Если вы уже ищете именно Yamaha, половина выбора сделана. Осталось понят",
+        "decision": "Цифровые пианино Yamaha напрокат | P Series, ARIUS и Clavinova под разные задачи",
+        "next_action": "P Series, ARIUS и Clavinova под разные задачи"
+      },
+      "n1": {
+        "source_path": "cifrovoe-pianino-yamaha/index.html",
+        "source_quote": "У Yamaha эти сцены расходятся по разным сериям: переносная P Series, кор",
+        "decision": "Цифровые пианино Yamaha | От мобильной клавиатуры до корпусной Clavinova",
+        "next_action": "От мобильной клавиатуры до корпусной Clavinova"
+      }
+    },
+    "cifrovoe-pianino-casio": {
+      "n0": {
+        "source_path": "cifrovoe-pianino-casio/index.html",
+        "source_quote": "У Casio есть переносные Privia и корпусные Celviano, поэтому сначала име",
+        "decision": "Цифровые пианино Casio в аренду | Компактная Privia и домашняя Celviano",
+        "next_action": "Компактная Privia и домашняя Celviano"
+      },
+      "n1": {
+        "source_path": "cifrovoe-pianino-casio/index.html",
+        "source_quote": "Для обучения важны 88 клавиш, механика и педали; для квартиры — габариты",
+        "decision": "Пианино Casio | 88 клавиш в переносных и корпусных сериях",
+        "next_action": "88 клавиш в переносных и корпусных сериях"
+      }
+    },
+    "cifrovoe-pianino-kawai": {
+      "n0": {
+        "source_path": "cifrovoe-pianino-kawai/index.html",
+        "source_quote": "У Kawai есть переносные ES, домашние CN и CA, а также более специализиро",
+        "decision": "Цифровое пианино Kawai напрокат | ES, CN и CA для разных уровней практики",
+        "next_action": "ES, CN и CA для разных уровней практики"
+      },
+      "n1": {
+        "source_path": "cifrovoe-pianino-kawai/index.html",
+        "source_quote": "Разница между сериями прежде всего в механике клавиатуры, корпусе, педал",
+        "decision": "Цифровые Kawai | От мобильной ES до деревянной клавиатуры CA",
+        "next_action": "От мобильной ES до деревянной клавиатуры CA"
+      }
+    },
+    "cifrovoe-pianino-roland": {
+      "n0": {
+        "source_path": "cifrovoe-pianino-roland/index.html",
+        "source_quote": "У Roland есть переносные FP, домашние HP и более дорогие LX, поэтому сна",
+        "decision": "Цифровые пианино Roland в аренду | Переносные FP и домашние HP или LX",
+        "next_action": "Переносные FP и домашние HP или LX"
+      },
+      "n1": {
+        "source_path": "cifrovoe-pianino-roland/index.html",
+        "source_quote": "Для обучения важна механика клавиатуры; для сцены — мобильность и выходы",
+        "decision": "Цифровые Roland | Несколько исполнительских классов от FP до LX",
+        "next_action": "Несколько исполнительских классов от FP до LX"
+      }
+    },
+    "kak-vybrat-cifrovoe-pianino-dlya-obucheniya": {
+      "n0": {
+        "source_path": "kak-vybrat-cifrovoe-pianino-dlya-obucheniya/index.html",
+        "source_quote": "Если отбросить маркетинговые названия, выбор сводится к нескольким вещам",
+        "decision": "Цифровое пианино для обучения | Попробовать учебный инструмент до покупки",
+        "next_action": "Попробовать учебный инструмент до покупки"
+      },
+      "n1": {
+        "source_path": "kak-vybrat-cifrovoe-pianino-dlya-obucheniya/index.html",
+        "source_quote": "Для начинающего и для продолжающего ученика требования могут быть разным",
+        "decision": "Пианино для обучения | Клавиатура, педали и место для ежедневных занятий",
+        "next_action": "Клавиатура, педали и место для ежедневных занятий"
+      }
+    },
+    "kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly": {
+      "n0": {
+        "source_path": "kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly/index.html",
+        "source_quote": "Когда ребёнок только начинает, слово «купить» часто появляется раньше, ч",
+        "decision": "Первое пианино ребёнку | Можно начать учёбу с аренды без поспешной покупки",
+        "next_action": "Можно начать учёбу с аренды без поспешной покупки"
+      },
+      "n1": {
+        "source_path": "kakoe-pianino-kupit-rebenku-dlya-muzykalnoy-shkoly/index.html",
+        "source_quote": "Поэтому сначала полезно решить задачу занятий, а не задачу собственности",
+        "decision": "Пианино ребёнка для музыкальной школы | Постоянная домашняя практика между уроками",
+        "next_action": "Постоянная домашняя практика между уроками"
+      }
+    },
+    "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly": {
+      "n0": {
+        "source_path": "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly/index.html",
+        "source_quote": "Здесь легко утонуть в моделях и характеристиках, хотя исходный вопрос пр",
+        "decision": "Пианино для музыкальной школы | Цифровые и акустические варианты в аренду",
+        "next_action": "Цифровые и акустические варианты в аренду"
+      },
+      "n1": {
+        "source_path": "kakoe-pianino-vybrat-dlya-muzykalnoy-shkoly/index.html",
+        "source_quote": "Нужны не максимальные функции, а достаточная клавиатура, нормальная меха",
+        "decision": "Домашнее пианино ученика | Соответствие школьной программе и работе преподавателя",
+        "next_action": "Соответствие школьной программе и работе преподавателя"
+      }
+    }
+  }
+}
