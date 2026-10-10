@@ -9,7 +9,7 @@
   ],
   "python_role": "literal_transfer_validation_coverage_only",
   "requires_owner_review": true,
-  "editorial_wave": "2026-10-10-bellows-drums-part2",
+  "editorial_wave": "2026-10-10-education-models-packet11",
   "pairs": {
     "keytara": {
       "n0": "Кейтара в аренду | Клавишные партии без привязки к стойке",
@@ -5882,6 +5882,42 @@
     "akkordeon-s-vybornym-basom-dlya-obucheniya": {
       "n0": "Аккордеон с выборным басом для обучения в аренду | Диапазон под левую руку",
       "n1": "Выборный бас аккордеона | Отдельная мелодическая линия вместо готового аккорда"
+    },
+    "smychkovye-gewa": {
+      "n0": "Смычковые GEWA в аренду | Скрипки, альты и виолончели учебных серий",
+      "n1": "GEWA German Engineered | Переход от Allegro к Ideale и Maestro"
+    },
+    "gewa-allegro-skripka-v-arendu": {
+      "n0": "Скрипка GEWA Allegro в аренду | Ученическая серия размеров от 1/16 до 4/4",
+      "n1": "GEWA Allegro Violin | Школьные размеры и вариант для левшей"
+    },
+    "gewa-maestro1-skripka-v-arendu": {
+      "n0": "Скрипка GEWA Maestro 1 в аренду | Продвинутая серия для ученика",
+      "n1": "GEWA Maestro 1 | Размеры от четверти до полного для нового репертуара"
+    },
+    "gewa-allegro-violonchel-v-arendu": {
+      "n0": "Виолончель GEWA Allegro в аренду | Учебная серия от 1/16 до 7/8",
+      "n1": "GEWA Allegro Cello | Модельная линейка и подбор корпуса по размеру исполнителя"
+    },
+    "smychkovye-eastman": {
+      "n0": "Смычковые Samuel Eastman в аренду | Скрипки, альты, виолончели и контрабасы для обучения",
+      "n1": "Samuel Eastman в музыкальной школе | Линейки VL100, VA100, VC100 и VB80"
+    },
+    "eastman-vc100-v-arendu": {
+      "n0": "Виолончель Samuel Eastman VC100 в аренду | Размеры от 1/10 до 4/4",
+      "n1": "Samuel Eastman VC100 | Резные деки и эбеновая фурнитура учебной виолончели"
+    },
+    "legkiy-evfonium-rebenku": {
+      "n0": "Лёгкий эуфониум ребёнку в аренду | Подходящий корпус и доступные клапаны",
+      "n1": "Эуфониум ребёнку | Масса, положение рук и свободный отклик"
+    },
+    "fender-cd60s-v-arendu": {
+      "n0": "Fender CD-60S в аренду | Акустическая гитара dreadnought для первых уроков",
+      "n1": "Fender CD-60S | Еловая дека и удобный гриф в полноразмерном корпусе"
+    },
+    "fender-cc60s-v-arendu": {
+      "n0": "Fender CC-60S в аренду | Компактная акустическая гитара для занятий",
+      "n1": "Fender CC-60S | Меньший концертный корпус с массивной елью"
     }
   }
 }
