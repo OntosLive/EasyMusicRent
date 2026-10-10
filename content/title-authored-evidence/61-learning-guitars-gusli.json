@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "cordoba-c1m-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "Córdoba C1M Protégé: полноразмерная нейлоновая учебная гитара для класса и дома, с регулируемым анкером.",
+        "decision": "Классическая гитара Córdoba C1M в аренду | Полный размер для занятий дома и в классе",
+        "next_action": "Полный размер для занятий дома и в классе"
+      },
+      "n1": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "C1M производитель прямо создаёт как доступную нейлоновую гитару для учеников любого у",
+        "decision": "Córdoba C1M Protégé | Нейлоновые струны и регулируемый анкер ученической гитары",
+        "next_action": "Нейлоновые струны и регулируемый анкер ученической гитары"
+      }
+    },
+    "cordoba-c1m-3-4-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "Córdoba C1M 3/4: уменьшенная нейлоновая учебная гитара для класса и дома.",
+        "decision": "Классическая гитара Córdoba C1M 3/4 в аренду | Уменьшенный формат для ребёнка",
+        "next_action": "Уменьшенный формат для ребёнка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "Если полноразмерная классическая гитара заставляет ребёнка вытягивать левую руку и вы",
+        "decision": "Córdoba C1M 3/4 | Как сокращённая мензура помогает первым аккордам",
+        "next_action": "Как сокращённая мензура помогает первым аккордам"
+      }
+    },
+    "mir-gusley-detskie-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "«Мир гуслей»: детские 6–8-струнные модели для начального знакомства и обучения ребёнка.",
+        "decision": "Детские гусли «Мир гуслей» в аренду | Модели на 6–8 струн для первых уроков",
+        "next_action": "Модели на 6–8 струн для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "У гуслей есть собственная детская размерная логика. Мануфактура «Мир гуслей» делает к",
+        "decision": "Детские гусли | Первое знакомство с щипковой мелодией и открытыми струнами",
+        "next_action": "Первое знакомство с щипковой мелодией и открытыми струнами"
+      }
+    },
+    "mir-gusley-zvonchatye-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "«Мир гуслей»: 12-, 15-, 17- и 18-струнные звончатые гусли для разных этапов музыкального образования.",
+        "decision": "Звончатые гусли «Мир гуслей» в аренду | Учебные диапазоны от 12 до 18 струн",
+        "next_action": "Учебные диапазоны от 12 до 18 струн"
+      },
+      "n1": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "В академической линии звончатых гуслей количество струн уже связано не только с удобс",
+        "decision": "Звончатые гусли для обучения | Как число струн связано с программой",
+        "next_action": "Как число струн связано с программой"
+      }
+    },
+    "mpkmi-gusli-pikkolo-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "ПКМИ фонда П.И. Чайковского: звончатые крыловидные гусли Пикколо, 15 струн, диатонический строй.",
+        "decision": "Гусли ПКМИ Пикколо 15 струн в аренду | Крыловидный инструмент для обучения",
+        "next_action": "Крыловидный инструмент для обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz44-golden-learning-standards-3.json",
+        "source_quote": "Для академического класса гуслей полезен не только общий брендовый вход, но и точная ",
+        "decision": "Гусли Пикколо ПКМИ | Диатонический строй и компактный щипковый диапазон",
+        "next_action": "Диатонический строй и компактный щипковый диапазон"
+      }
+    }
+  }
+}

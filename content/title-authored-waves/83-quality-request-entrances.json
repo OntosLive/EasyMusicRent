@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "skripka-s-legkim-otklikom",
+      "n0": "Скрипка с лёгким откликом в аренду | Инструмент для свободной тихой атаки",
+      "n1": "Лёгкий отклик скрипки | Подставка, струны и смычок в начале звука"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "pianino-s-rovnoy-klaviaturoy",
+      "n0": "Пианино с ровной клавиатурой в аренду | Механика для устойчивой динамики",
+      "n1": "Ровность клавиатуры | Чем механическая регулировка отличается от настройки"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "cifrovoe-pianino-s-polupedalyu",
+      "n0": "Цифровое пианино с полупедалью в аренду | Тонкое управление продолжением звука",
+      "n1": "Полупедаль цифрового пианино | Совместимость педали и глубина её действия"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "gitara-s-nizkoy-vysotoy-strun",
+      "n0": "Гитара с удобной высотой струн в аренду | Лёгкое прижатие и чистые лады",
+      "n1": "Высота струн гитары | Прогиб грифа, порожки и удобство левой руки"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "ukulele-so-stroyaschimi-ladami",
+      "n0": "Укулеле с проверенным строем по ладам в аренду | Чистые аккорды для занятий",
+      "n1": "Интонация укулеле | Почему настроенные открытые струны ещё не гарантируют строй"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "arfa-s-udobnym-natyazheniem-strun",
+      "n0": "Арфа с удобным натяжением струн в аренду | Учебный инструмент под руку",
+      "n1": "Натяжение струн арфы | Тип струн, размер корпуса и техника щипка"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "duhovoy-s-legkim-otklikom",
+      "n0": "Духовой с лёгким откликом в аренду | Инструмент для спокойного вступления",
+      "n1": "Лёгкий отклик духового | Мундштук, трость и герметичность механики"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "barabany-s-upravlyaemym-otskokom",
+      "n0": "Барабаны с управляемым отскоком в аренду | Поверхность под развитие техники",
+      "n1": "Отскок барабанной палочки | Натяжение, материал пэда и повторение удара"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "bayan-s-legkim-mehom",
+      "n0": "Баян или аккордеон с лёгким мехом в аренду | Свободная фраза без лишнего усилия",
+      "n1": "Работа меха | Герметичность, ремни и тихая динамика аккордеона"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "sintezator-s-ponyatnym-upravleniem",
+      "n0": "Синтезатор с понятным управлением в аренду | Наглядные ручки и сохранение тембров",
+      "n1": "Наглядный синтезатор | Как генератор, фильтр и огибающая образуют тембр"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "narodnyy-instrument-po-trebovaniyam-pedagoga",
+      "n0": "Народный инструмент по требованиям преподавателя в аренду | Строй и размер под программу",
+      "n1": "Учебный народный инструмент | Традиция, диапазон и исполнительская школа"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "istoricheskiy-instrument-s-nuzhnym-stroem",
+      "n0": "Исторический инструмент нужного строя в аренду | Комплект под ансамблевую высоту",
+      "n1": "Исторический строй | Частота настройки и темперация внутри одного ансамбля"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "eksperimentalnyy-instrument-s-povtoryaemoy-nastroykoy",
+      "n0": "Музыкальный контроллер с повторяемой настройкой в аренду | Сохранение жестов и параметров",
+      "n1": "Жестовый контроллер | Как закрепить чувствительность и карту движений"
+    },
+    {
+      "source_file": "content/sections/zz41-quality-request-entrances.json",
+      "slug": "usilitel-dlya-domashnih-uchebnyh-zanyatiy",
+      "n0": "Усилитель для домашних занятий в аренду | Чистый отклик на небольшой громкости",
+      "n1": "Домашнее усиление | Power Control, наушники и память рабочего звука"
+    }
+  ]
+}

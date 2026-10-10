@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz44-golden-learning-standards-3.json",
+      "slug": "cordoba-c1m-v-arendu",
+      "n0": "Классическая гитара Córdoba C1M в аренду | Полный размер для занятий дома и в классе",
+      "n1": "Córdoba C1M Protégé | Нейлоновые струны и регулируемый анкер ученической гитары"
+    },
+    {
+      "source_file": "content/sections/zz44-golden-learning-standards-3.json",
+      "slug": "cordoba-c1m-3-4-v-arendu",
+      "n0": "Классическая гитара Córdoba C1M 3/4 в аренду | Уменьшенный формат для ребёнка",
+      "n1": "Córdoba C1M 3/4 | Как сокращённая мензура помогает первым аккордам"
+    },
+    {
+      "source_file": "content/sections/zz44-golden-learning-standards-3.json",
+      "slug": "mir-gusley-detskie-v-arendu",
+      "n0": "Детские гусли «Мир гуслей» в аренду | Модели на 6–8 струн для первых уроков",
+      "n1": "Детские гусли | Первое знакомство с щипковой мелодией и открытыми струнами"
+    },
+    {
+      "source_file": "content/sections/zz44-golden-learning-standards-3.json",
+      "slug": "mir-gusley-zvonchatye-dlya-obucheniya",
+      "n0": "Звончатые гусли «Мир гуслей» в аренду | Учебные диапазоны от 12 до 18 струн",
+      "n1": "Звончатые гусли для обучения | Как число струн связано с программой"
+    },
+    {
+      "source_file": "content/sections/zz44-golden-learning-standards-3.json",
+      "slug": "mpkmi-gusli-pikkolo-v-arendu",
+      "n0": "Гусли ПКМИ Пикколо 15 струн в аренду | Крыловидный инструмент для обучения",
+      "n1": "Гусли Пикколо ПКМИ | Диатонический строй и компактный щипковый диапазон"
+    }
+  ]
+}

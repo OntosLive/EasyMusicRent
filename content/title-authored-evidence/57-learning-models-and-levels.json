@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "yamaha-c40ii-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Yamaha C40II: нейлоновые струны, мензура 650 мм, ширина верхнего порожка и проверка удобства начинающего.",
+        "decision": "Классическая гитара Yamaha C40II в аренду | Полный размер для начальных занятий",
+        "next_action": "Полный размер для начальных занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Преподаватель советует начать с C40, и важно уточнить, подходит ли ученику полноразме",
+        "decision": "Yamaha C40II | Нейлоновые струны, мензура 650 мм и геометрия ученической гитары",
+        "next_action": "Нейлоновые струны, мензура 650 мм и геометрия ученической гитары"
+      }
+    },
+    "yamaha-cs40ii-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Yamaha CS40II: компактный учебный формат, отличие от C40II и примерка корпуса с преподавателем.",
+        "decision": "Классическая гитара Yamaha CS40II в аренду | Компактный корпус для ребёнка",
+        "next_action": "Компактный корпус для ребёнка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "На обычной классической гитаре ученику трудно дотянуться до нужной позиции без развор",
+        "decision": "Yamaha CS40II | Чем уменьшенная учебная гитара отличается от C40II",
+        "next_action": "Чем уменьшенная учебная гитара отличается от C40II"
+      }
+    },
+    "alhambra-4p-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Alhambra 4P: кедровая дека, палисандровый корпус, эбеновая накладка и проверка более требовательной программы на знакомой технике.",
+        "decision": "Классическая гитара Alhambra 4P в аренду | Кедровая дека для более сложной программы",
+        "next_action": "Кедровая дека для более сложной программы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Первые пьесы уже освоены, и преподаватель предлагает попробовать Alhambra 4P. Теперь ",
+        "decision": "Alhambra 4P | Кедр, палисандр и отклик инструмента в знакомой пьесе",
+        "next_action": "Кедр, палисандр и отклик инструмента в знакомой пьесе"
+      }
+    },
+    "hohner-bravo-ii-48-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Hohner Bravo II 48: 26 клавиш, 48 готовых басов, компактный корпус и пределы учебной программы.",
+        "decision": "Аккордеон Hohner Bravo II 48 в аренду | Компактный ученический корпус",
+        "next_action": "Компактный ученический корпус"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Для первых уроков требуется небольшой клавишный аккордеон. Bravo II 48 производитель ",
+        "decision": "Hohner Bravo II 48 | 26 клавиш и 48 басов в программе первых занятий",
+        "next_action": "26 клавиш и 48 басов в программе первых занятий"
+      }
+    },
+    "tulskie-bayany-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Учебные баяны Тульской гармони: готовая или готово-выборная система, размер корпуса и проверка меха.",
+        "decision": "Тульские учебные баяны в аренду | Готовая и готово-выборная система",
+        "next_action": "Готовая и готово-выборная система"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "В российской музыкальной школе преподаватель может рекомендовать тульский баян с опре",
+        "decision": "Тульский баян для ученика | Система басов, размер корпуса и характер меха",
+        "next_action": "Система басов, размер корпуса и характер меха"
+      }
+    },
+    "salvi-juno25-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Salvi Juno 25: компактная 25-струнная леверсная арфа, опоры, диапазон и согласование первых уроков.",
+        "decision": "Арфа Salvi Juno 25 в аренду | Компактный 25-струнный инструмент для обучения",
+        "next_action": "Компактный 25-струнный инструмент для обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Хочется начать играть на арфе дома, и преподаватель предлагает компактный инструмент.",
+        "decision": "Salvi Juno 25 | Леверсная система и диапазон первой арфовой программы",
+        "next_action": "Леверсная система и диапазон первой арфовой программы"
+      }
+    },
+    "blokfleyty-mollenhauer-dlya-obucheniya": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Mollenhauer для занятий: учебные серии, Canta, голос семейства, аппликатура и высотный стандарт.",
+        "decision": "Блокфлейты Mollenhauer в аренду | Учебные голоса и разные системы аппликатуры",
+        "next_action": "Учебные голоса и разные системы аппликатуры"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Педагог назвал Mollenhauer, и важно понять, какое учебное действие должно измениться.",
+        "decision": "Mollenhauer для занятий | От школьной серии к ансамблевой блокфлейте",
+        "next_action": "От школьной серии к ансамблевой блокфлейте"
+      }
+    },
+    "duhovye-dlya-perehoda-na-professionalnyy-uroven": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Переход с начального духового на продвинутый: собственная задача, рекомендация педагога, проба модели и сохранение системы.",
+        "decision": "Духовые для перехода на профессиональный уровень в аренду | Модели под новый репертуар",
+        "next_action": "Модели под новый репертуар"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Учебный инструмент позволяет играть основные пьесы, но новая программа требует более ",
+        "decision": "Следующая ступень духового инструмента | Когда меняются отклик и требования программы",
+        "next_action": "Когда меняются отклик и требования программы"
+      }
+    },
+    "pearl-roadshow-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Учебная установка Pearl Roadshow: размеры, стойки, педали, тарелки и проверка полной комплектации.",
+        "decision": "Барабанная установка Pearl Roadshow в аренду | Ученический комплект со стойками",
+        "next_action": "Ученический комплект со стойками"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "После урока нужна собственная установка для регулярной практики. Pearl предлагает Roa",
+        "decision": "Pearl Roadshow | Педали, тарелки и размеры полного первого набора",
+        "next_action": "Педали, тарелки и размеры полного первого набора"
+      }
+    },
+    "boss-katana50-gen3-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Katana-50 Gen 3 для занятий: чистый звук, Power Control, наушники, память и работа с собственной гитарой.",
+        "decision": "Гитарный комбо BOSS Katana-50 Gen 3 в аренду | Домашние уровни громкости и эффекты",
+        "next_action": "Домашние уровни громкости и эффекты"
+      },
+      "n1": {
+        "source_path": "content/sections/zz40-learning-models-and-levels.json",
+        "source_quote": "Гитара уже есть, а домашние занятия заканчиваются бесконечным поиском подходящего зву",
+        "decision": "BOSS Katana-50 Gen 3 | Power Control, наушники и память гитарных тембров",
+        "next_action": "Power Control, наушники и память гитарных тембров"
+      }
+    }
+  }
+}

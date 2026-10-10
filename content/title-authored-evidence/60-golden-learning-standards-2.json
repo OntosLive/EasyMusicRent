@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "balalayker-student-optimum-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "БалалайкерЪ Студент Оптимум: ученическая балалайка-прима с мензурой 435 мм для программы музыкальной школы.",
+        "decision": "БалалайкерЪ Студент Оптимум в аренду | Полноразмерная прима для музыкальной школы",
+        "next_action": "Полноразмерная прима для музыкальной школы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Нужна академическая балалайка для регулярной музыкальной школы, а не сувенирный или ф",
+        "decision": "БалалайкерЪ Студент Оптимум | Мензура 435 мм и учебный стандарт примы",
+        "next_action": "Мензура 435 мм и учебный стандарт примы"
+      }
+    },
+    "balalayker-junior-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "БалалайкерЪ Юниор: школьная балалайка-прима 3/4 для начального этапа и перехода к полному размеру.",
+        "decision": "БалалайкерЪ Юниор 3/4 в аренду | Балалайка для первых лет обучения",
+        "next_action": "Балалайка для первых лет обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Ребёнок начинает академическую балалайку, но стандартная прима пока заставляет тянуть",
+        "decision": "БалалайкерЪ Юниор | Уменьшенный корпус и переход к полной приме",
+        "next_action": "Уменьшенный корпус и переход к полной приме"
+      }
+    },
+    "balalayker-domra-volna-m-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "БалалайкерЪ Домра Волна-М: малая трёхструнная ученическая домра для обучения в музыкальной школе.",
+        "decision": "Домра БалалайкерЪ Волна-М в аренду | Малая трёхструнная учебная модель",
+        "next_action": "Малая трёхструнная учебная модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Для домры особенно важно не перепутать инструмент для первых занятий с декоративным н",
+        "decision": "БалалайкерЪ Домра Волна-М | Ученический размер и освоение щипковой техники",
+        "next_action": "Ученический размер и освоение щипковой техники"
+      }
+    },
+    "doff-domra-junior-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Doff Домра-юниор: уменьшенные домры 1/2, 3/4 и 4/4, разработанные для детей 6–12 лет и музыкальных школ.",
+        "decision": "Домра Doff Юниор в аренду | Размеры от 1/2 до полного для ребёнка",
+        "next_action": "Размеры от 1/2 до полного для ребёнка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Проект «Домра‑юниор» возник из конкретной российской образовательной проблемы: дети н",
+        "decision": "Doff Домра-юниор | Как размеры корпуса сопровождают рост ученика",
+        "next_action": "Как размеры корпуса сопровождают рост ученика"
+      }
+    },
+    "mpkmi-domra-malaya-uchenicheskaya-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Трёхструнная малая домра ПКМИ фонда П.И. Чайковского: учебная категория, мензура 385–392 мм и серийная академическая конструкция.",
+        "decision": "Ученическая малая домра ПКМИ в аренду | Академическая трёхструнная модель",
+        "next_action": "Академическая трёхструнная модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Когда преподавателю нужна обычная российская малая трёхструнная домра учебной категор",
+        "decision": "Малая домра ПКМИ | Мензура 385–392 мм и учебная конструкция",
+        "next_action": "Мензура 385–392 мм и учебная конструкция"
+      }
+    },
+    "mpkmi-balalaika-prima-uchenicheskaya-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Балалайка-прима ПКМИ фонда П.И. Чайковского, ученическая категория: мензура 435–440 мм и полноразмерная академическая конфигурация.",
+        "decision": "Ученическая балалайка-прима ПКМИ в аренду | Полный размер для музыкальной школы",
+        "next_action": "Полный размер для музыкальной школы"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "ПКМИ фонда П.И. Чайковского разделяет балалайки по учебным и более высоким категориям",
+        "decision": "Балалайка-прима ПКМИ | Мензура 435–440 мм и академическая постановка",
+        "next_action": "Мензура 435–440 мм и академическая постановка"
+      }
+    },
+    "kala-ka15s-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Kala KA-15S soprano: популярная classroom-модель с geared tuners и учебным применением; конкретный инструмент проверяется по строю ладов.",
+        "decision": "Укулеле Kala KA-15S в аренду | Школьная сопрано-модель для класса",
+        "next_action": "Школьная сопрано-модель для класса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "В англоязычных школьных программах KA‑15S часто появляется не как «самая дешёвая укул",
+        "decision": "Kala KA-15S | Колковая механика и интонация в ученических аккордах",
+        "next_action": "Колковая механика и интонация в ученических аккордах"
+      }
+    },
+    "makala-dolphin-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Makala Dolphin soprano: durable classroom ukulele with geared tuners and long-term school use.",
+        "decision": "Укулеле Makala Dolphin в аренду | Надёжная сопрано для групповых занятий",
+        "next_action": "Надёжная сопрано для групповых занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Makala Dolphin интересна именно как инструмент школьного фонда. Преподаватели описыва",
+        "decision": "Makala Dolphin | Пластичный школьный инструмент со стабильными колками",
+        "next_action": "Пластичный школьный инструмент со стабильными колками"
+      }
+    },
+    "yamaha-yob241-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Yamaha YOB-241: ABS student oboe with simplified Conservatoire system, accurate intonation and reach-friendly design.",
+        "decision": "Гобой Yamaha YOB-241 в аренду | Учебная модель с упрощённой системой клапанов",
+        "next_action": "Учебная модель с упрощённой системой клапанов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "На гобое начинающий очень быстро сталкивается одновременно с тростью, дыханием, интон",
+        "decision": "Yamaha YOB-241 | Корпус ABS и эргономика первого гобоя",
+        "next_action": "Корпус ABS и эргономика первого гобоя"
+      }
+    },
+    "fox-renard-41-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Fox Renard Model 41: polypropylene student bassoon with full German system and short-reach plateau key.",
+        "decision": "Фагот Fox Renard Model 41 в аренду | Ученическая система с удобным охватом",
+        "next_action": "Ученическая система с удобным охватом"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Фагот редко бывает простым первым инструментом: большой корпус, сложная механика и до",
+        "decision": "Fox Renard 41 | Полипропиленовый корпус и клавиша short-reach",
+        "next_action": "Полипропиленовый корпус и клавиша short-reach"
+      }
+    },
+    "yamaha-yhr314ii-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Yamaha YHR-314II: lightweight single F student horn with quick response and precise intonation.",
+        "decision": "Валторна Yamaha YHR-314II в аренду | Лёгкая одинарная F-модель для ученика",
+        "next_action": "Лёгкая одинарная F-модель для ученика"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Двойная валторна даёт больше исполнительских возможностей, но ребёнку она может добав",
+        "decision": "Yamaha YHR-314II | Почему одинарная валторна удобна в первом классе",
+        "next_action": "Почему одинарная валторна удобна в первом классе"
+      }
+    },
+    "yamaha-ybb105-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Yamaha YBB-105: 3/4-size B-flat student tuba, lighter than advanced models and designed for beginning players.",
+        "decision": "Туба Yamaha YBB-105 в аренду | Ученический формат 3/4 в строе B♭",
+        "next_action": "Ученический формат 3/4 в строе B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Полноразмерная туба способна поставить маленького ученика в ситуацию, где половина вн",
+        "decision": "Yamaha YBB-105 | Лёгкий корпус и удобство доступа к клапанам",
+        "next_action": "Лёгкий корпус и удобство доступа к клапанам"
+      }
+    },
+    "vic-firth-fresh-approach-starter-pack-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Vic Firth Fresh Approach Starter Pack: SD1 sticks, 6-inch practice pad and instructional material for beginning percussion students.",
+        "decision": "Vic Firth Fresh Approach Starter Pack в аренду | Палочки и пэд для первого урока",
+        "next_action": "Палочки и пэд для первого урока"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Начинающему ударнику не всегда нужен полный барабанный комплект с первого дня. Fresh ",
+        "decision": "Vic Firth Fresh Approach | SD1, учебный пэд и начальная постановка",
+        "next_action": "SD1, учебный пэд и начальная постановка"
+      }
+    },
+    "vic-firth-v8705-percussion-kit-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Vic Firth V8705 educational percussion kit: 32-note bells, tunable pad, stand, mallets, sticks and transport bag.",
+        "decision": "Vic Firth V8705 Percussion Kit в аренду | Клавишная перкуссия и тренировочный пэд",
+        "next_action": "Клавишная перкуссия и тренировочный пэд"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Во многих школьных программах ударник должен одновременно осваивать рудименты и нотну",
+        "decision": "Vic Firth V8705 | Колокольчики на 32 ноты и единый учебный комплект",
+        "next_action": "Колокольчики на 32 ноты и единый учебный комплект"
+      }
+    },
+    "tula-bn46-detskiy-bayan-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Тульская гармонь БН-46: детский двухголосный баян 77/46x37-II, специально разработанный для учеников 5–8 лет.",
+        "decision": "Детский баян Тула БН-46 в аренду | Двухголосный инструмент для возраста 5–8 лет",
+        "next_action": "Двухголосный инструмент для возраста 5–8 лет"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "В каталоге «Тульской гармони» БН‑46 описан не просто как маленький баян, а как детски",
+        "decision": "Тула БН-46 | Детская клавиатура и доступный размер меховой системы",
+        "next_action": "Детская клавиатура и доступный размер меховой системы"
+      }
+    },
+    "tula-etud205m2-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "Тульская гармонь Этюд-205М2 БН-40: ученический двухголосный баян 55x100-II.",
+        "decision": "Баян Этюд-205М2 в аренду | Тульская ученическая двухголосная модель",
+        "next_action": "Тульская ученическая двухголосная модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz43-golden-learning-standards-2.json",
+        "source_quote": "После самого маленького детского баяна ученику нужен инструмент, который уже позволяе",
+        "decision": "Этюд-205М2 | Правая клавиатура и басовый ряд учебного баяна",
+        "next_action": "Правая клавиатура и басовый ряд учебного баяна"
+      }
+    }
+  }
+}

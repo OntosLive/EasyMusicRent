@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "domra-po-razmeru-rebenka",
+      "n0": "Домра подходящего размера ребёнку в аренду | Форматы 1/2, 3/4 и 4/4",
+      "n1": "Размер детской домры | Длина рук, посадка и переход между корпусами"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "balalayka-po-razmeru-rebenka",
+      "n0": "Балалайка подходящего размера ребёнку в аренду | Юниор 3/4 и полная прима",
+      "n1": "Размер балалайки для ребёнка | Когда учебная мензура должна измениться"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "klassicheskaya-gitara-po-razmeru-rebenka",
+      "n0": "Классическая гитара ребёнку по размеру в аренду | От 3/4 до полного корпуса",
+      "n1": "Детская классическая гитара | Посадка и мензура вместо выбора только по возрасту"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "ukulele-so-stabilnymi-kolkami",
+      "n0": "Укулеле со стабильными колками в аренду | Учебная модель, которая держит строй",
+      "n1": "Колки укулеле | Почему стабильность настройки важна на каждом уроке"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "goboy-dlya-nebolshoy-ruki",
+      "n0": "Гобой для небольшой руки в аренду | Доступные клапаны для ученика",
+      "n1": "Эргономика учебного гобоя | Упрощённая система и досягаемость правой руки"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "fagot-dlya-nebolshoy-ruki",
+      "n0": "Фагот для небольшой руки в аренду | Клавиши short-reach и удобная опора",
+      "n1": "Фагот для маленькой руки | Плато-клавиши, эс и положение корпуса"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "legkaya-valtorna-rebenku",
+      "n0": "Лёгкая валторна ребёнку в аренду | Ученическая одинарная система F",
+      "n1": "Валторна для ребёнка | Разница в массе и отклике одинарной и двойной модели"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "tuba-podhodyaschego-razmera-rebenku",
+      "n0": "Туба подходящего размера ребёнку в аренду | Компактный формат 3/4",
+      "n1": "Туба для ученика | Доступ к клапанам и высота мундштука при посадке"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "bayan-po-razmeru-rebenka",
+      "n0": "Баян подходящего размера ребёнку в аренду | Корпус, ремни и клавиатура для занятий",
+      "n1": "Размер детского баяна | Мех и положение рук в учебной программе"
+    },
+    {
+      "source_file": "content/sections/zz45-quality-entrances-2.json",
+      "slug": "gusli-s-diapazonom-po-programme",
+      "n0": "Гусли с подходящим диапазоном в аренду | Число струн под текущую программу",
+      "n1": "Диапазон учебных гуслей | Как крайние ноты определяют необходимый инструмент"
+    }
+  ]
+}

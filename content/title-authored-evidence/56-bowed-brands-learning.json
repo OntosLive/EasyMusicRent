@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "smychkovye-strunal": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Strunal для занятий: скрипки, виолончели и контрабасы, школьная практика, модель и состояние экземпляра.",
+        "decision": "Смычковые Strunal в аренду | Скрипки, виолончели и контрабасы для обучения",
+        "next_action": "Скрипки, виолончели и контрабасы для обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Педагог назвал Strunal, и теперь нужен подходящий инструмент на учебный период. Это п",
+        "decision": "Strunal в музыкальной школе | Как выбрать модель, размер и рабочий экземпляр",
+        "next_action": "Как выбрать модель, размер и рабочий экземпляр"
+      }
+    },
+    "skripka-strunal": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Учебная скрипка Strunal: точная серия, размер, работа колков, подставка и проверка преподавателем.",
+        "decision": "Скрипка Strunal в аренду | Ученические размеры и готовая игровая настройка",
+        "next_action": "Ученические размеры и готовая игровая настройка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "На уроке преподаватель посоветовал Strunal, но размер или номер модели пока не записа",
+        "decision": "Скрипка Strunal | Колки, подставка и подбор серии под ученика",
+        "next_action": "Колки, подставка и подбор серии под ученика"
+      }
+    },
+    "kontrabas-strunal": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Контрабас Strunal: размер, фактическая мензура, струны, подставка и подготовка к занятиям.",
+        "decision": "Контрабас Strunal в аренду | Размер и мензура под учебную программу",
+        "next_action": "Размер и мензура под учебную программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Нужен Strunal для занятий, и хочется сохранить знакомое ощущение учебного контрабаса.",
+        "decision": "Контрабас Strunal | Почему фактическая мензура важнее названия марки",
+        "next_action": "Почему фактическая мензура важнее названия марки"
+      }
+    },
+    "kontrabas-rubner": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Контрабас Rubner: этикетка, изготовитель, конкретный экземпляр, размеры и отличие от колковой механики Rubner.",
+        "decision": "Контрабас Rubner в аренду | Исторический инструмент с точной проверкой экземпляра",
+        "next_action": "Исторический инструмент с точной проверкой экземпляра"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Преподаватель или музыкант назвал Rubner как пример контрабаса, который стоит попробо",
+        "decision": "Контрабас Rubner | Как отличать мастера от производителя колковой механики",
+        "next_action": "Как отличать мастера от производителя колковой механики"
+      }
+    },
+    "smychkovye-musima": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Musima для занятий и исполнения: исторический производитель, разные уровни инструментов, ремонты и подбор экземпляра.",
+        "decision": "Смычковые Musima в аренду | Скрипки и виолончели для нынешней практики",
+        "next_action": "Скрипки и виолончели для нынешней практики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "В школьной или семейной памяти Musima может означать конкретный удобный инструмент. Э",
+        "decision": "Musima сегодня | Историческая фабрика и состояние конкретного инструмента",
+        "next_action": "Историческая фабрика и состояние конкретного инструмента"
+      }
+    },
+    "violonchel-musima": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Виолончель Musima: размеры, мензура, состояние и учебная проба без обещания одинакового качества всей марки.",
+        "decision": "Виолончель Musima в аренду | Учебная модель с проверенной мензурой",
+        "next_action": "Учебная модель с проверенной мензурой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Вы занимались на Musima или получили такую рекомендацию от преподавателя. Теперь нуже",
+        "decision": "Виолончель Musima | Как сохранить исторический корпус пригодным для занятий",
+        "next_action": "Как сохранить исторический корпус пригодным для занятий"
+      }
+    },
+    "smychkovye-cremona-luby": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Чешская Cremona Luby: связь со Strunal, различение с современной Cremona Saga и проверка старого инструмента.",
+        "decision": "Чешские смычковые Cremona Luby в аренду | Историческая школа изготовления",
+        "next_action": "Историческая школа изготовления"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "В рекомендации написано «чешская Cremona», иногда без модели и года. Здесь важно сохр",
+        "decision": "Cremona Luby | Происхождение марки и её связь со Strunal",
+        "next_action": "Происхождение марки и её связь со Strunal"
+      }
+    },
+    "smychkovye-cremona-saga": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Учебные инструменты Cremona из каталога Saga: обозначение серии, размер, подготовка и состав комплекта.",
+        "decision": "Смычковые Cremona Saga в аренду | Учебные серии нужного размера",
+        "next_action": "Учебные серии нужного размера"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "В списке для ученика указана Cremona с номером серии. Нужно установить, относится ли ",
+        "decision": "Cremona Saga | Почему эта марка не равна старой чешской Cremona",
+        "next_action": "Почему эта марка не равна старой чешской Cremona"
+      }
+    },
+    "cremona-sv175-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Cremona SV-175 Saga: резные деки, эбеновая фурнитура, настройка и размер ученика.",
+        "decision": "Скрипка Cremona SV-175 в аренду | Ученическая модель с подготовленной подставкой",
+        "next_action": "Ученическая модель с подготовленной подставкой"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Для занятий выбрана SV-175, и теперь нужно получить именно подготовленный комплект по",
+        "decision": "Cremona SV-175 | Резные деки и эбеновая фурнитура учебного комплекта",
+        "next_action": "Резные деки и эбеновая фурнитура учебного комплекта"
+      }
+    },
+    "stentor-student-ii-skripka-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Stentor Student II 1500: размеры, эбеновая накладка, колки, смычок и учебная проба.",
+        "decision": "Скрипка Stentor Student II в аренду | Полный набор для первых уроков",
+        "next_action": "Полный набор для первых уроков"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Педагог предложил Student II как понятный учебный вариант, и хочется начать занятия б",
+        "decision": "Stentor Student II Violin | Размер, колки и смычок в ученическом комплекте",
+        "next_action": "Размер, колки и смычок в ученическом комплекте"
+      }
+    },
+    "stentor-student-ii-violonchel-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Student II Cello 1108: корпус, накладка, смычок, чехол и проверка посадки ученика.",
+        "decision": "Виолончель Stentor Student II в аренду | Инструмент и смычок для обучения",
+        "next_action": "Инструмент и смычок для обучения"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Занятия начались, и между уроками нужна виолончель, соответствующая размеру ученика. ",
+        "decision": "Stentor Student II Cello | Корпус и посадка как единая учебная система",
+        "next_action": "Корпус и посадка как единая учебная система"
+      }
+    },
+    "stentor-student-ii-kontrabas-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Student II Double Bass 1438: материалы, комплект, мензура и работа со смычком на учебной программе.",
+        "decision": "Контрабас Stentor Student II в аренду | Размер и подготовка для оркестрового класса",
+        "next_action": "Размер и подготовка для оркестрового класса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Нужен серийный контрабас для регулярных занятий, и преподаватель предлагает Student I",
+        "decision": "Stentor Student II Double Bass | Мензура, корпус и учебная смычковая техника",
+        "next_action": "Мензура, корпус и учебная смычковая техника"
+      }
+    },
+    "eastman-vl100-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Samuel Eastman VL100: резные деки, эбеновая фурнитура, подставка Despiau и размер ученика.",
+        "decision": "Скрипка Samuel Eastman VL100 в аренду | Ученическая модель с подставкой Despiau",
+        "next_action": "Ученическая модель с подставкой Despiau"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "В рекомендации для ученика указана Eastman Model 100. Под этим названием важно найти ",
+        "decision": "Samuel Eastman VL100 | Резные деки и эбеновые детали для музыкальной школы",
+        "next_action": "Резные деки и эбеновые детали для музыкальной школы"
+      }
+    },
+    "gewa-ideale-skripka-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "GEWA Ideale: готовый учебный комплект и варианты, требующие подготовки, струны, смычок и размер.",
+        "decision": "Скрипка GEWA Ideale в аренду | Ученический комплект под нужный размер",
+        "next_action": "Ученический комплект под нужный размер"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Вы нашли подходящую по размеру Ideale, но у одинакового названия могут быть разные ко",
+        "decision": "GEWA Ideale | Различие готового комплекта и инструмента, требующего подготовки",
+        "next_action": "Различие готового комплекта и инструмента, требующего подготовки"
+      }
+    },
+    "yamaha-v5-skripka-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Yamaha V5SA и V5SC: ученическая скрипка, размеры, струнодержатель и комплект принадлежностей.",
+        "decision": "Скрипка Yamaha V5 в аренду | Ученические размеры и принадлежности",
+        "next_action": "Ученические размеры и принадлежности"
+      },
+      "n1": {
+        "source_path": "content/sections/zz39-bowed-brand-education.json",
+        "source_quote": "Нужна Yamaha V5 для первых занятий или продолжения на новом размере. Производитель от",
+        "decision": "Yamaha V5SA и V5SC | Два варианта комплектации для начального обучения",
+        "next_action": "Два варианта комплектации для начального обучения"
+      }
+    }
+  }
+}

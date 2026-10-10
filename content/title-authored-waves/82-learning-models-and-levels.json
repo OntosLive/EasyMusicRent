@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "yamaha-c40ii-v-arendu",
+      "n0": "Классическая гитара Yamaha C40II в аренду | Полный размер для начальных занятий",
+      "n1": "Yamaha C40II | Нейлоновые струны, мензура 650 мм и геометрия ученической гитары"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "yamaha-cs40ii-v-arendu",
+      "n0": "Классическая гитара Yamaha CS40II в аренду | Компактный корпус для ребёнка",
+      "n1": "Yamaha CS40II | Чем уменьшенная учебная гитара отличается от C40II"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "alhambra-4p-v-arendu",
+      "n0": "Классическая гитара Alhambra 4P в аренду | Кедровая дека для более сложной программы",
+      "n1": "Alhambra 4P | Кедр, палисандр и отклик инструмента в знакомой пьесе"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "hohner-bravo-ii-48-v-arendu",
+      "n0": "Аккордеон Hohner Bravo II 48 в аренду | Компактный ученический корпус",
+      "n1": "Hohner Bravo II 48 | 26 клавиш и 48 басов в программе первых занятий"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "tulskie-bayany-dlya-obucheniya",
+      "n0": "Тульские учебные баяны в аренду | Готовая и готово-выборная система",
+      "n1": "Тульский баян для ученика | Система басов, размер корпуса и характер меха"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "salvi-juno25-v-arendu",
+      "n0": "Арфа Salvi Juno 25 в аренду | Компактный 25-струнный инструмент для обучения",
+      "n1": "Salvi Juno 25 | Леверсная система и диапазон первой арфовой программы"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "blokfleyty-mollenhauer-dlya-obucheniya",
+      "n0": "Блокфлейты Mollenhauer в аренду | Учебные голоса и разные системы аппликатуры",
+      "n1": "Mollenhauer для занятий | От школьной серии к ансамблевой блокфлейте"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "duhovye-dlya-perehoda-na-professionalnyy-uroven",
+      "n0": "Духовые для перехода на профессиональный уровень в аренду | Модели под новый репертуар",
+      "n1": "Следующая ступень духового инструмента | Когда меняются отклик и требования программы"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "pearl-roadshow-v-arendu",
+      "n0": "Барабанная установка Pearl Roadshow в аренду | Ученический комплект со стойками",
+      "n1": "Pearl Roadshow | Педали, тарелки и размеры полного первого набора"
+    },
+    {
+      "source_file": "content/sections/zz40-learning-models-and-levels.json",
+      "slug": "boss-katana50-gen3-v-arendu",
+      "n0": "Гитарный комбо BOSS Katana-50 Gen 3 в аренду | Домашние уровни громкости и эффекты",
+      "n1": "BOSS Katana-50 Gen 3 | Power Control, наушники и память гитарных тембров"
+    }
+  ]
+}

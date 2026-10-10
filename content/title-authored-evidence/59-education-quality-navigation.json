@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "instrument-po-rekomendatsii-prepodavatelya": {
+      "n0": {
+        "source_path": "content/sections/zz42-education-quality-navigation.json",
+        "source_quote": "Модель, марка и требования преподавателя: инструмент для первого урока, продолжения занятий или профессиональной подготовки.",
+        "decision": "Инструмент по рекомендации преподавателя в аренду | От модели до полного учебного комплекта",
+        "next_action": "От модели до полного учебного комплекта"
+      },
+      "n1": {
+        "source_path": "content/sections/zz42-education-quality-navigation.json",
+        "source_quote": "Преподаватель назвал марку или описал, какой инструмент нужен. Обе формы подходят для",
+        "decision": "Рекомендация преподавателя | Как превратить название модели в рабочую учебную среду",
+        "next_action": "Как превратить название модели в рабочую учебную среду"
+      }
+    },
+    "instrument-po-trebovaniyam-k-kachestvu": {
+      "n0": {
+        "source_path": "content/sections/zz42-education-quality-navigation.json",
+        "source_quote": "Подбор по качеству: отклик, геометрия, ровность, строй, педаль, мех и управление без обязательного названия бренда.",
+        "decision": "Музыкальный инструмент по требованиям к качеству в аренду | Точный отклик под задачу",
+        "next_action": "Точный отклик под задачу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz42-education-quality-navigation.json",
+        "source_quote": "Марка может быть неизвестна, а нужное изменение уже понятно. Хочется спокойнее начать",
+        "decision": "Качество инструмента | Отклик, строй и механика вместо абстрактной престижности",
+        "next_action": "Отклик, строй и механика вместо абстрактной престижности"
+      }
+    }
+  }
+}

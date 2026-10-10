@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "gemeinhardt-2sp-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Gemeinhardt 2SP: student flute with J1 headjoint, plateau keys, offset G and C foot.",
+        "decision": "Флейта Gemeinhardt 2SP в аренду | Ученическая модель со смещённым соль",
+        "next_action": "Ученическая модель со смещённым соль"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "В американской школьной традиции Gemeinhardt 2SP десятилетиями существует как узнавае",
+        "decision": "Gemeinhardt 2SP | Головка J1 и закрытые клапаны для первых уроков",
+        "next_action": "Головка J1 и закрытые клапаны для первых уроков"
+      }
+    },
+    "gemeinhardt-2spch-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Gemeinhardt 2SPCH: student flute with straight and curved headjoints for young players with shorter reach.",
+        "decision": "Флейта Gemeinhardt 2SPCH в аренду | Прямая и изогнутая головки для ребёнка",
+        "next_action": "Прямая и изогнутая головки для ребёнка"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Иногда ребёнку подходит сама система флейты, но длина инструмента заставляет вытягива",
+        "decision": "Gemeinhardt 2SPCH | Как изогнутая головка сокращает расстояние до клапанов",
+        "next_action": "Как изогнутая головка сокращает расстояние до клапанов"
+      }
+    },
+    "jupiter-jfl700-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Jupiter JFL700: student C flute with Genesis headjoint, plateau keys and offset G.",
+        "decision": "Флейта Jupiter JFL700 в аренду | Ученическая система с головкой Genesis",
+        "next_action": "Ученическая система с головкой Genesis"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Jupiter JFL700 представляет ещё одну устойчивую школу ученической флейты. Производите",
+        "decision": "Jupiter JFL700 | Клапаны plateau и удобный для начинающего соль",
+        "next_action": "Клапаны plateau и удобный для начинающего соль"
+      }
+    },
+    "buffet-prodige-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Buffet Crampon Prodige: B-flat student clarinet, ABS body, 18 keys/6 rings and adjustable thumbrest.",
+        "decision": "Кларнет Buffet Crampon Prodige в аренду | Ученическая модель B♭",
+        "next_action": "Ученическая модель B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Buffet Crampon связывают прежде всего с профессиональными деревянными кларнетами, но ",
+        "decision": "Buffet Prodige | ABS-корпус, опора большого пальца и 18 клапанов",
+        "next_action": "ABS-корпус, опора большого пальца и 18 клапанов"
+      }
+    },
+    "jupiter-jcl700n-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Jupiter JCL700N: student B-flat clarinet with ABS body, adjustable thumb rest and poly-cylindrical bore.",
+        "decision": "Кларнет Jupiter JCL700N в аренду | Прочная учебная модель B♭",
+        "next_action": "Прочная учебная модель B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "JCL700N — ещё один честный student-кларнет, который не пытается изображать профессион",
+        "decision": "Jupiter JCL700N | Регулируемая опора и геометрия канала кларнета",
+        "next_action": "Регулируемая опора и геометрия канала кларнета"
+      }
+    },
+    "bach-btr302-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Bach BTR302: premium student B-flat trumpet, designed as a rental instrument for beginning students.",
+        "decision": "Труба Bach BTR302 в аренду | Профессионально подготовленная ученическая B♭ модель",
+        "next_action": "Профессионально подготовленная ученическая B♭ модель"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Conn-Selmer формулирует статус BTR302 необычно прямо: «best in class rental instrumen",
+        "decision": "Bach BTR302 | Как конструкция учебной трубы поддерживает первые атаки",
+        "next_action": "Как конструкция учебной трубы поддерживает первые атаки"
+      }
+    },
+    "jupiter-jtr700-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Jupiter JTR700: student B-flat trumpet designed for young beginners, stainless pistons and adjustable valve slides.",
+        "decision": "Труба Jupiter JTR700 в аренду | Ученическая B♭ с прочными поршнями",
+        "next_action": "Ученическая B♭ с прочными поршнями"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "JTR700 Jupiter описывает как свободно продуваемую и сбалансированную трубу для молодо",
+        "decision": "Jupiter JTR700 | Клапаны из нержавеющей стали и настройка кронов",
+        "next_action": "Клапаны из нержавеющей стали и настройка кронов"
+      }
+    },
+    "bach-btb302-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Bach BTB302: premium student B-flat tenor trombone, rental-oriented design with 8-inch bell and nickel-silver outer slide.",
+        "decision": "Тромбон Bach BTB302 в аренду | Ученическая модель с раструбом 8 дюймов",
+        "next_action": "Ученическая модель с раструбом 8 дюймов"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "BTB302 Conn-Selmer также прямо называет student rental package. Для начинающего тромб",
+        "decision": "Bach BTB302 | Никель-серебряная кулиса и удобство первых позиций",
+        "next_action": "Никель-серебряная кулиса и удобство первых позиций"
+      }
+    },
+    "jupiter-jtb700-v-arendu": {
+      "n0": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Jupiter JTB700: beginner B-flat tenor trombone with .500 bore, 8-inch bell and durable nickel-silver outer slide.",
+        "decision": "Тромбон Jupiter JTB700 в аренду | Стандартный учебный тенор B♭",
+        "next_action": "Стандартный учебный тенор B♭"
+      },
+      "n1": {
+        "source_path": "content/sections/zz46-international-student-wind-standards.json",
+        "source_quote": "Jupiter JTB700 создан специально для начинающего тромбониста. Производитель связывает",
+        "decision": "Jupiter JTB700 | Мензура .500 и никель-серебряная внешняя кулиса",
+        "next_action": "Мензура .500 и никель-серебряная внешняя кулиса"
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "smychkovye-strunal",
+      "n0": "Смычковые Strunal в аренду | Скрипки, виолончели и контрабасы для обучения",
+      "n1": "Strunal в музыкальной школе | Как выбрать модель, размер и рабочий экземпляр"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "skripka-strunal",
+      "n0": "Скрипка Strunal в аренду | Ученические размеры и готовая игровая настройка",
+      "n1": "Скрипка Strunal | Колки, подставка и подбор серии под ученика"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "kontrabas-strunal",
+      "n0": "Контрабас Strunal в аренду | Размер и мензура под учебную программу",
+      "n1": "Контрабас Strunal | Почему фактическая мензура важнее названия марки"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "kontrabas-rubner",
+      "n0": "Контрабас Rubner в аренду | Исторический инструмент с точной проверкой экземпляра",
+      "n1": "Контрабас Rubner | Как отличать мастера от производителя колковой механики"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "smychkovye-musima",
+      "n0": "Смычковые Musima в аренду | Скрипки и виолончели для нынешней практики",
+      "n1": "Musima сегодня | Историческая фабрика и состояние конкретного инструмента"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "violonchel-musima",
+      "n0": "Виолончель Musima в аренду | Учебная модель с проверенной мензурой",
+      "n1": "Виолончель Musima | Как сохранить исторический корпус пригодным для занятий"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "smychkovye-cremona-luby",
+      "n0": "Чешские смычковые Cremona Luby в аренду | Историческая школа изготовления",
+      "n1": "Cremona Luby | Происхождение марки и её связь со Strunal"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "smychkovye-cremona-saga",
+      "n0": "Смычковые Cremona Saga в аренду | Учебные серии нужного размера",
+      "n1": "Cremona Saga | Почему эта марка не равна старой чешской Cremona"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "cremona-sv175-v-arendu",
+      "n0": "Скрипка Cremona SV-175 в аренду | Ученическая модель с подготовленной подставкой",
+      "n1": "Cremona SV-175 | Резные деки и эбеновая фурнитура учебного комплекта"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "stentor-student-ii-skripka-v-arendu",
+      "n0": "Скрипка Stentor Student II в аренду | Полный набор для первых уроков",
+      "n1": "Stentor Student II Violin | Размер, колки и смычок в ученическом комплекте"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "stentor-student-ii-violonchel-v-arendu",
+      "n0": "Виолончель Stentor Student II в аренду | Инструмент и смычок для обучения",
+      "n1": "Stentor Student II Cello | Корпус и посадка как единая учебная система"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "stentor-student-ii-kontrabas-v-arendu",
+      "n0": "Контрабас Stentor Student II в аренду | Размер и подготовка для оркестрового класса",
+      "n1": "Stentor Student II Double Bass | Мензура, корпус и учебная смычковая техника"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "eastman-vl100-v-arendu",
+      "n0": "Скрипка Samuel Eastman VL100 в аренду | Ученическая модель с подставкой Despiau",
+      "n1": "Samuel Eastman VL100 | Резные деки и эбеновые детали для музыкальной школы"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "gewa-ideale-skripka-v-arendu",
+      "n0": "Скрипка GEWA Ideale в аренду | Ученический комплект под нужный размер",
+      "n1": "GEWA Ideale | Различие готового комплекта и инструмента, требующего подготовки"
+    },
+    {
+      "source_file": "content/sections/zz39-bowed-brand-education.json",
+      "slug": "yamaha-v5-skripka-v-arendu",
+      "n0": "Скрипка Yamaha V5 в аренду | Ученические размеры и принадлежности",
+      "n1": "Yamaha V5SA и V5SC | Два варианта комплектации для начального обучения"
+    }
+  ]
+}

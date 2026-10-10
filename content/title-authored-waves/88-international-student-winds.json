@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "gemeinhardt-2sp-v-arendu",
+      "n0": "Флейта Gemeinhardt 2SP в аренду | Ученическая модель со смещённым соль",
+      "n1": "Gemeinhardt 2SP | Головка J1 и закрытые клапаны для первых уроков"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "gemeinhardt-2spch-v-arendu",
+      "n0": "Флейта Gemeinhardt 2SPCH в аренду | Прямая и изогнутая головки для ребёнка",
+      "n1": "Gemeinhardt 2SPCH | Как изогнутая головка сокращает расстояние до клапанов"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "jupiter-jfl700-v-arendu",
+      "n0": "Флейта Jupiter JFL700 в аренду | Ученическая система с головкой Genesis",
+      "n1": "Jupiter JFL700 | Клапаны plateau и удобный для начинающего соль"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "buffet-prodige-v-arendu",
+      "n0": "Кларнет Buffet Crampon Prodige в аренду | Ученическая модель B♭",
+      "n1": "Buffet Prodige | ABS-корпус, опора большого пальца и 18 клапанов"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "jupiter-jcl700n-v-arendu",
+      "n0": "Кларнет Jupiter JCL700N в аренду | Прочная учебная модель B♭",
+      "n1": "Jupiter JCL700N | Регулируемая опора и геометрия канала кларнета"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "bach-btr302-v-arendu",
+      "n0": "Труба Bach BTR302 в аренду | Профессионально подготовленная ученическая B♭ модель",
+      "n1": "Bach BTR302 | Как конструкция учебной трубы поддерживает первые атаки"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "jupiter-jtr700-v-arendu",
+      "n0": "Труба Jupiter JTR700 в аренду | Ученическая B♭ с прочными поршнями",
+      "n1": "Jupiter JTR700 | Клапаны из нержавеющей стали и настройка кронов"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "bach-btb302-v-arendu",
+      "n0": "Тромбон Bach BTB302 в аренду | Ученическая модель с раструбом 8 дюймов",
+      "n1": "Bach BTB302 | Никель-серебряная кулиса и удобство первых позиций"
+    },
+    {
+      "source_file": "content/sections/zz46-international-student-wind-standards.json",
+      "slug": "jupiter-jtb700-v-arendu",
+      "n0": "Тромбон Jupiter JTB700 в аренду | Стандартный учебный тенор B♭",
+      "n1": "Jupiter JTB700 | Мензура .500 и никель-серебряная внешняя кулиса"
+    }
+  ]
+}

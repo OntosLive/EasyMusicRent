@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "skripka-s-legkim-otklikom": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Подбор скрипки по лёгкости начала звука: состояние, смычок, струны, размер и проверка преподавателем.",
+        "decision": "Скрипка с лёгким откликом в аренду | Инструмент для свободной тихой атаки",
+        "next_action": "Инструмент для свободной тихой атаки"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Ученику хочется скрипку, на которой звук начинается легче. Это достаточное пожелание ",
+        "decision": "Лёгкий отклик скрипки | Подставка, струны и смычок в начале звука",
+        "next_action": "Подставка, струны и смычок в начале звука"
+      }
+    },
+    "pianino-s-rovnoy-klaviaturoy": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Ровность клавиатуры: регулировка, повторение, динамика и различие настройки и механики.",
+        "decision": "Пианино с ровной клавиатурой в аренду | Механика для устойчивой динамики",
+        "next_action": "Механика для устойчивой динамики"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "На одних клавишах звук появляется спокойно, на других приходится менять движение. Зап",
+        "decision": "Ровность клавиатуры | Чем механическая регулировка отличается от настройки",
+        "next_action": "Чем механическая регулировка отличается от настройки"
+      }
+    },
+    "cifrovoe-pianino-s-polupedalyu": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Пианино с полупедалью: совместимость педали и инструмента, чувствительность, опора и учебный фрагмент.",
+        "decision": "Цифровое пианино с полупедалью в аренду | Тонкое управление продолжением звука",
+        "next_action": "Тонкое управление продолжением звука"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "На уроке начали работать с неполным нажатием педали, а домашний комплект отвечает тол",
+        "decision": "Полупедаль цифрового пианино | Совместимость педали и глубина её действия",
+        "next_action": "Совместимость педали и глубина её действия"
+      }
+    },
+    "gitara-s-nizkoy-vysotoy-strun": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Подбор гитары по удобству прижатия: высота струн, лады, прогиб, порожки и манера игры.",
+        "decision": "Гитара с удобной высотой струн в аренду | Лёгкое прижатие и чистые лады",
+        "next_action": "Лёгкое прижатие и чистые лады"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Аккорды уже понятны, но левая рука вынуждена постоянно бороться со струнами. Пожелани",
+        "decision": "Высота струн гитары | Прогиб грифа, порожки и удобство левой руки",
+        "next_action": "Прогиб грифа, порожки и удобство левой руки"
+      }
+    },
+    "ukulele-so-stroyaschimi-ladami": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Укулеле для занятий: настройка открытых струн, интонация по ладам, прижатие и проба аккордов.",
+        "decision": "Укулеле с проверенным строем по ладам в аренду | Чистые аккорды для занятий",
+        "next_action": "Чистые аккорды для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Тюнер показывает правильные открытые струны, но знакомый аккорд звучит нестройно. Для",
+        "decision": "Интонация укулеле | Почему настроенные открытые струны ещё не гарантируют строй",
+        "next_action": "Почему настроенные открытые струны ещё не гарантируют строй"
+      }
+    },
+    "arfa-s-udobnym-natyazheniem-strun": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Арфа для удобной учебной работы: тип струн, натяжение, размер, опора и требования педагога.",
+        "decision": "Арфа с удобным натяжением струн в аренду | Учебный инструмент под руку",
+        "next_action": "Учебный инструмент под руку"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Для первых занятий хочется арфу, на которой пальцам удобно извлекать звук. Здесь «удо",
+        "decision": "Натяжение струн арфы | Тип струн, размер корпуса и техника щипка",
+        "next_action": "Тип струн, размер корпуса и техника щипка"
+      }
+    },
+    "duhovoy-s-legkim-otklikom": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Лёгкий отклик духового: тихое вступление, состояние механики, мундштук или трость и проверка педагогом.",
+        "decision": "Духовой с лёгким откликом в аренду | Инструмент для спокойного вступления",
+        "next_action": "Инструмент для спокойного вступления"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Ученику трудно начать ноту, и хочется инструмент, который откликается спокойнее. Это ",
+        "decision": "Лёгкий отклик духового | Мундштук, трость и герметичность механики",
+        "next_action": "Мундштук, трость и герметичность механики"
+      }
+    },
+    "barabany-s-upravlyaemym-otskokom": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Барабаны и электронные пэды для учебной техники: отскок, натяжение поверхности, расстановка и проверка педали.",
+        "decision": "Барабаны с управляемым отскоком в аренду | Поверхность под развитие техники",
+        "next_action": "Поверхность под развитие техники"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "На уроке двойки получаются, а дома палочка ведёт себя иначе. При выборе комплекта мож",
+        "decision": "Отскок барабанной палочки | Натяжение, материал пэда и повторение удара",
+        "next_action": "Натяжение, материал пэда и повторение удара"
+      }
+    },
+    "bayan-s-legkim-mehom": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Подбор баяна и аккордеона по работе меха: герметичность, голоса, ремни, посадка и тихая динамика.",
+        "decision": "Баян или аккордеон с лёгким мехом в аренду | Свободная фраза без лишнего усилия",
+        "next_action": "Свободная фраза без лишнего усилия"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Руки знают ноты, но ведение меха забирает всё внимание. Пожелание к лёгкому меху помо",
+        "decision": "Работа меха | Герметичность, ремни и тихая динамика аккордеона",
+        "next_action": "Герметичность, ремни и тихая динамика аккордеона"
+      }
+    },
+    "sintezator-s-ponyatnym-upravleniem": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Синтезатор для освоения тембра: наглядная панель, генератор, фильтр, огибающая и возвращение к сохранённому звуку.",
+        "decision": "Синтезатор с понятным управлением в аренду | Наглядные ручки и сохранение тембров",
+        "next_action": "Наглядные ручки и сохранение тембров"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Хочется разобраться, как строится звук, а не перелистывать готовые названия. Тогда по",
+        "decision": "Наглядный синтезатор | Как генератор, фильтр и огибающая образуют тембр",
+        "next_action": "Как генератор, фильтр и огибающая образуют тембр"
+      }
+    },
+    "narodnyy-instrument-po-trebovaniyam-pedagoga": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Народные инструменты для обучения: тип, строй, диапазон, школа изготовления и требования педагога.",
+        "decision": "Народный инструмент по требованиям преподавателя в аренду | Строй и размер под программу",
+        "next_action": "Строй и размер под программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Преподаватель назвал нужный инструмент, но в магазинах под похожим именем встречаются",
+        "decision": "Учебный народный инструмент | Традиция, диапазон и исполнительская школа",
+        "next_action": "Традиция, диапазон и исполнительская школа"
+      }
+    },
+    "istoricheskiy-instrument-s-nuzhnym-stroem": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Историческая практика: частота настройки, темперация, диапазон, реконструкция и совместимость с партнёрами.",
+        "decision": "Исторический инструмент нужного строя в аренду | Комплект под ансамблевую высоту",
+        "next_action": "Комплект под ансамблевую высоту"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "На занятиях по старинной музыке выбран определённый строй, и домашний инструмент долж",
+        "decision": "Исторический строй | Частота настройки и темперация внутри одного ансамбля",
+        "next_action": "Частота настройки и темперация внутри одного ансамбля"
+      }
+    },
+    "eksperimentalnyy-instrument-s-povtoryaemoy-nastroykoy": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Необычные контроллеры для обучения: чувствительность, диапазон жеста, сохранение настроек и связь с источником звука.",
+        "decision": "Музыкальный контроллер с повторяемой настройкой в аренду | Сохранение жестов и параметров",
+        "next_action": "Сохранение жестов и параметров"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Необычный инструмент заинтересовал возможностью управлять звуком движением, но на каж",
+        "decision": "Жестовый контроллер | Как закрепить чувствительность и карту движений",
+        "next_action": "Как закрепить чувствительность и карту движений"
+      }
+    },
+    "usilitel-dlya-domashnih-uchebnyh-zanyatiy": {
+      "n0": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Учебное усиление дома: чистый отклик, общий уровень, наушники, память и совместимость с инструментом.",
+        "decision": "Усилитель для домашних занятий в аренду | Чистый отклик на небольшой громкости",
+        "next_action": "Чистый отклик на небольшой громкости"
+      },
+      "n1": {
+        "source_path": "content/sections/zz41-quality-request-entrances.json",
+        "source_quote": "Дома нужно слышать, как меняется атака, не превращая каждое упражнение в громкий конц",
+        "decision": "Домашнее усиление | Power Control, наушники и память рабочего звука",
+        "next_action": "Power Control, наушники и память рабочего звука"
+      }
+    }
+  }
+}

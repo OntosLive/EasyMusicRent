@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "status": "model_authored_review_pending",
+  "records": [
+    {
+      "source_file": "content/sections/zz42-education-quality-navigation.json",
+      "slug": "instrument-po-rekomendatsii-prepodavatelya",
+      "n0": "Инструмент по рекомендации преподавателя в аренду | От модели до полного учебного комплекта",
+      "n1": "Рекомендация преподавателя | Как превратить название модели в рабочую учебную среду"
+    },
+    {
+      "source_file": "content/sections/zz42-education-quality-navigation.json",
+      "slug": "instrument-po-trebovaniyam-k-kachestvu",
+      "n0": "Музыкальный инструмент по требованиям к качеству в аренду | Точный отклик под задачу",
+      "n1": "Качество инструмента | Отклик, строй и механика вместо абстрактной престижности"
+    }
+  ]
+}

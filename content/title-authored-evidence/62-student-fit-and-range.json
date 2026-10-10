@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "author_model": "GPT-6",
+  "evidence_type": "literal source excerpts and model-written titles",
+  "reviews": {
+    "domra-po-razmeru-rebenka": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор домры ребёнку по размеру: 1/2, 3/4, 4/4, длина рук, посадка и учебная программа.",
+        "decision": "Домра подходящего размера ребёнку в аренду | Форматы 1/2, 3/4 и 4/4",
+        "next_action": "Форматы 1/2, 3/4 и 4/4"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Ребёнок хочет заниматься домрой, но обычный инструмент приходится удерживать всем кор",
+        "decision": "Размер детской домры | Длина рук, посадка и переход между корпусами",
+        "next_action": "Длина рук, посадка и переход между корпусами"
+      }
+    },
+    "balalayka-po-razmeru-rebenka": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор балалайки ребёнку: 3/4 Юниор или полноразмерная прима, мензура, посадка и переход по мере роста.",
+        "decision": "Балалайка подходящего размера ребёнку в аренду | Юниор 3/4 и полная прима",
+        "next_action": "Юниор 3/4 и полная прима"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Полная балалайка-прима может быть правильным инструментом по программе и одновременно",
+        "decision": "Размер балалайки для ребёнка | Когда учебная мензура должна измениться",
+        "next_action": "Когда учебная мензура должна измениться"
+      }
+    },
+    "klassicheskaya-gitara-po-razmeru-rebenka": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Выбор между 3/4 и полноразмерной классической гитарой по посадке, мензуре и движениям ученика.",
+        "decision": "Классическая гитара ребёнку по размеру в аренду | От 3/4 до полного корпуса",
+        "next_action": "От 3/4 до полного корпуса"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Размер классической гитары определяет не только длину корпуса, но и расстояния, через",
+        "decision": "Детская классическая гитара | Посадка и мензура вместо выбора только по возрасту",
+        "next_action": "Посадка и мензура вместо выбора только по возрасту"
+      }
+    },
+    "ukulele-so-stabilnymi-kolkami": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор учебной укулеле по стабильности механики, растяжению струн и строю по ладам.",
+        "decision": "Укулеле со стабильными колками в аренду | Учебная модель, которая держит строй",
+        "next_action": "Учебная модель, которая держит строй"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Начинающий берёт аккорд, проверяет его через минуту и снова слышит расстроенный инстр",
+        "decision": "Колки укулеле | Почему стабильность настройки важна на каждом уроке",
+        "next_action": "Почему стабильность настройки важна на каждом уроке"
+      }
+    },
+    "goboy-dlya-nebolshoy-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор гобоя по досягаемости клапанов, simplified Conservatoire system и положению правой руки.",
+        "decision": "Гобой для небольшой руки в аренду | Доступные клапаны для ученика",
+        "next_action": "Доступные клапаны для ученика"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Ученик слышит ноту и понимает аппликатуру, но палец не может спокойно достать до клап",
+        "decision": "Эргономика учебного гобоя | Упрощённая система и досягаемость правой руки",
+        "next_action": "Упрощённая система и досягаемость правой руки"
+      }
+    },
+    "fagot-dlya-nebolshoy-ruki": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор фагота по short-reach plateau key, опоре, эсам и досягаемости клавиш начинающим.",
+        "decision": "Фагот для небольшой руки в аренду | Клавиши short-reach и удобная опора",
+        "next_action": "Клавиши short-reach и удобная опора"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "На фаготе физическая досягаемость становится частью техники ещё до сложного репертуар",
+        "decision": "Фагот для маленькой руки | Плато-клавиши, эс и положение корпуса",
+        "next_action": "Плато-клавиши, эс и положение корпуса"
+      }
+    },
+    "legkaya-valtorna-rebenku": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор лёгкой ученической валторны: single F против double horn, масса, отклик и посадка ребёнка.",
+        "decision": "Лёгкая валторна ребёнку в аренду | Ученическая одинарная система F",
+        "next_action": "Ученическая одинарная система F"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Ребёнок способен взять ноты, но к середине урока инструмент начинает опускаться, плеч",
+        "decision": "Валторна для ребёнка | Разница в массе и отклике одинарной и двойной модели",
+        "next_action": "Разница в массе и отклике одинарной и двойной модели"
+      }
+    },
+    "tuba-podhodyaschego-razmera-rebenku": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор тубы ребёнку по формату 3/4, высоте мундштука, доступу к клапанам и посадке.",
+        "decision": "Туба подходящего размера ребёнку в аренду | Компактный формат 3/4",
+        "next_action": "Компактный формат 3/4"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "На слишком большой тубе ребёнок может изгибаться к мундштуку и тянуться к клапанам ещ",
+        "decision": "Туба для ученика | Доступ к клапанам и высота мундштука при посадке",
+        "next_action": "Доступ к клапанам и высота мундштука при посадке"
+      }
+    },
+    "bayan-po-razmeru-rebenka": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор детского баяна по размеру корпуса, клавиатуре, ремням и текущей программе.",
+        "decision": "Баян подходящего размера ребёнку в аренду | Корпус, ремни и клавиатура для занятий",
+        "next_action": "Корпус, ремни и клавиатура для занятий"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Большой баян может формально иметь все нужные ноты и при этом мешать ребёнку учиться:",
+        "decision": "Размер детского баяна | Мех и положение рук в учебной программе",
+        "next_action": "Мех и положение рук в учебной программе"
+      }
+    },
+    "gusli-s-diapazonom-po-programme": {
+      "n0": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "Подбор гуслей по числу струн, крайним нотам и ступени обучения без покупки лишнего диапазона заранее.",
+        "decision": "Гусли с подходящим диапазоном в аренду | Число струн под текущую программу",
+        "next_action": "Число струн под текущую программу"
+      },
+      "n1": {
+        "source_path": "content/sections/zz45-quality-entrances-2.json",
+        "source_quote": "На гуслях «больше струн» легко принять за безусловное улучшение. В учебной практике э",
+        "decision": "Диапазон учебных гуслей | Как крайние ноты определяют необходимый инструмент",
+        "next_action": "Как крайние ноты определяют необходимый инструмент"
+      }
+    }
+  }
+}
